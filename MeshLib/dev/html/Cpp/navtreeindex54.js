@@ -1,5 +1,9 @@
 var NAVTREEINDEX54 =
 {
+"group__StreamOperatorsGroup.html":[6,0,0,2,16],
+"group__SubvoxelMeshCorrection.html":[6,0,0,17,1],
+"group__SubvoxelMeshCorrection.html#gaaa03e36604e9587df674801bac3a653f":[6,0,0,17,1,2],
+"group__SurfaceDistanceBuilder.html":[6,0,0,16,2],
 "group__SurfaceDistanceBuilder.html#ga6116f007cc43a35299cac2d382c9ba9e":[6,0,0,16,2,2],
 "group__SurfaceDistanceGroup.html":[6,0,0,16,1],
 "group__SurfaceDistanceGroup.html#ga3cea63fb21eb5913ec6d762c2a6d45ae":[6,0,0,16,1,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX54 =
 "namespaceImGui.html#a35ab4450ec9a2caa24b029e5c5c11ecb":[6,0,1,0,0,25],
 "namespaceImGui.html#a378834d8803566841b144ddf878ef623":[6,0,1,0,0,30],
 "namespaceImGui.html#a392168d28bc4973532ead37f8061121e":[6,0,1,0,0,28],
-"namespaceImGui.html#a39a8802226377b3d155788257f848b1a":[6,0,1,0,0,32],
-"namespaceImGui.html#a4e3833bf7761da4ac20ca9397fbdbc16":[6,0,1,0,0,27],
-"namespaceImGui.html#a57a1654a1953301d7dca389a0dba5215":[6,0,1,0,0,33],
-"namespaceImGui.html#a5e04ca06524f269a621e6ca35c63d70a":[6,0,1,0,0,31],
-"namespaceImGui.html#a65c23b1e96e6b6498e84ce4cc36c8b0a":[6,0,1,0,0,15]
+"namespaceImGui.html#a39a8802226377b3d155788257f848b1a":[6,0,1,0,0,32]
 };

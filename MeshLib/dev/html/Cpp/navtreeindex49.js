@@ -1,5 +1,9 @@
 var NAVTREEINDEX49 =
 {
+"classMR_1_1VisualObject.html#a714aab4f9110c1072f3147edae51e293":[6,0,0,11,2,5,13],
+"classMR_1_1VisualObject.html#a746d651e584a6df83424853a8777138b":[6,0,0,11,2,5,29],
+"classMR_1_1VisualObject.html#a76988bf72aa3be996e864fec3ab47ed2":[6,0,0,11,2,5,23],
+"classMR_1_1VisualObject.html#a76b7b6b3bfd7dac31eb1d150afb761f7":[6,0,0,11,2,5,71],
 "classMR_1_1VisualObject.html#a7c703445b89c896790544b583d052e9f":[6,0,0,11,2,5,39],
 "classMR_1_1VisualObject.html#a84d46a3ce3da143b5735f0b6ac79deee":[6,0,0,11,2,5,4],
 "classMR_1_1VisualObject.html#a885f987ce58a89d2b12a33cf48e92c6c":[6,0,0,11,2,5,41],
@@ -245,9 +249,5 @@ var NAVTREEINDEX49 =
 "conceptMR_1_1AnyVisualizeMaskEnumType.html":[6,0,0,11,2,0],
 "conceptMR_1_1Features_1_1MeasureSupported.html":[6,0,1,0,1,6,4],
 "conceptMR_1_1Features_1_1Traits_1_1MeasureSupportedOneWay.html":[6,0,1,0,1,6,1,11],
-"conceptMR_1_1HasGetDirectionMethod.html":[6,0,1,0,1,803],
-"conceptMR_1_1HasGetNormalMethod.html":[6,0,1,0,1,802],
-"conceptMR_1_1ImGuiMath_1_1detail_1_1Scalar.html":[6,0,1,0,1,12,0,8],
-"conceptMR_1_1ImGuiMath_1_1detail_1_1ValidOperands.html":[6,0,1,0,1,12,0,12],
-"conceptMR_1_1ImGuiMath_1_1detail_1_1Vector.html":[6,0,1,0,1,12,0,9]
+"conceptMR_1_1HasGetDirectionMethod.html":[6,0,1,0,1,803]
 };

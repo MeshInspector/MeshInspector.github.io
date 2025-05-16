@@ -1,5 +1,9 @@
 var NAVTREEINDEX112 =
 {
+"classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__shared__ptr__OpenVdbFloatGrid__std__string.html#af7c2685c9c0e6ffea9afa6a1f6b5ecb4":[6,1,0,0,2,223,3],
+"classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__shared__ptr__OpenVdbFloatGrid__std__string.html#af7c2685c9c0e6ffea9afa6a1f6b5ecb4":[6,1,1,0,1,223,3],
+"classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__vector__float__std__string.html":[6,1,0,0,2,224],
+"classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__vector__float__std__string.html":[6,1,1,0,1,224],
 "classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__vector__float__std__string.html#a3afb5048ed82e54f499478e622196d7a":[6,1,0,0,2,224,3],
 "classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__vector__float__std__string.html#a3afb5048ed82e54f499478e622196d7a":[6,1,1,0,1,224,3],
 "classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__vector__float__std__string.html#a6c7c38e4a8e769910395f16804a6f11a":[6,1,0,0,2,224,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX112 =
 "classmrmeshpy_1_1func__Vector2__int__from__Vector2__float.html#a2a5583984d611d089b5eb1e0f9bc6e20":[6,1,0,0,2,311,1],
 "classmrmeshpy_1_1func__Vector2__int__from__Vector2__float.html#a2a5583984d611d089b5eb1e0f9bc6e20":[6,1,1,0,1,311,1],
 "classmrmeshpy_1_1func__Vector2__int__from__Vector2__float.html#a3add81a54a71bdf5153d5fe0b5643e3e":[6,1,0,0,2,311,4],
-"classmrmeshpy_1_1func__Vector2__int__from__Vector2__float.html#a3add81a54a71bdf5153d5fe0b5643e3e":[6,1,1,0,1,311,4],
-"classmrmeshpy_1_1func__Vector2__int__from__Vector2__float.html#a3bfdfa706e2f6bf21222bd02486c5e33":[6,1,0,0,2,311,5],
-"classmrmeshpy_1_1func__Vector2__int__from__Vector2__float.html#a3bfdfa706e2f6bf21222bd02486c5e33":[6,1,1,0,1,311,5],
-"classmrmeshpy_1_1func__Vector2__int__from__Vector2__float.html#a43958ff9251b8a8fd47421d5ada52d52":[6,1,0,0,2,311,3],
-"classmrmeshpy_1_1func__Vector2__int__from__Vector2__float.html#a43958ff9251b8a8fd47421d5ada52d52":[6,1,1,0,1,311,3]
+"classmrmeshpy_1_1func__Vector2__int__from__Vector2__float.html#a3add81a54a71bdf5153d5fe0b5643e3e":[6,1,1,0,1,311,4]
 };

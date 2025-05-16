@@ -1,5 +1,9 @@
 var NAVTREEINDEX111 =
 {
+"classmrmeshpy_1_1WeightedPointsShellParametersBase.html#a278b0252efb7b8579d5eece57233e168":[6,1,0,0,2,1126,0],
+"classmrmeshpy_1_1WeightedPointsShellParametersBase.html#a278b0252efb7b8579d5eece57233e168":[6,1,1,0,1,1126,0],
+"classmrmeshpy_1_1WeightedPointsShellParametersBase.html#a50239b29aa328aa63f05333e292d74ec":[6,1,0,0,2,1126,10],
+"classmrmeshpy_1_1WeightedPointsShellParametersBase.html#a50239b29aa328aa63f05333e292d74ec":[6,1,1,0,1,1126,10],
 "classmrmeshpy_1_1WeightedPointsShellParametersBase.html#a6f7f26b84976e4695296c003834b0ffe":[6,1,0,0,2,1126,5],
 "classmrmeshpy_1_1WeightedPointsShellParametersBase.html#a6f7f26b84976e4695296c003834b0ffe":[6,1,1,0,1,1126,5],
 "classmrmeshpy_1_1WeightedPointsShellParametersBase.html#a809e67d9c4d5e007faacb2ac001c8856":[6,1,0,0,2,1126,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX111 =
 "classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__shared__ptr__OpenVdbFloatGrid__std__string.html#a6ccbad156adb0ec9e7011f04ced48c9e":[6,1,0,0,2,223,4],
 "classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__shared__ptr__OpenVdbFloatGrid__std__string.html#a6ccbad156adb0ec9e7011f04ced48c9e":[6,1,1,0,1,223,4],
 "classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__shared__ptr__OpenVdbFloatGrid__std__string.html#ad55ab69840e809ba71f8dcd3422ce3da":[6,1,0,0,2,223,2],
-"classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__shared__ptr__OpenVdbFloatGrid__std__string.html#ad55ab69840e809ba71f8dcd3422ce3da":[6,1,1,0,1,223,2],
-"classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__shared__ptr__OpenVdbFloatGrid__std__string.html#af7c2685c9c0e6ffea9afa6a1f6b5ecb4":[6,1,0,0,2,223,3],
-"classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__shared__ptr__OpenVdbFloatGrid__std__string.html#af7c2685c9c0e6ffea9afa6a1f6b5ecb4":[6,1,1,0,1,223,3],
-"classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__vector__float__std__string.html":[6,1,0,0,2,224],
-"classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__vector__float__std__string.html":[6,1,1,0,1,224]
+"classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__shared__ptr__OpenVdbFloatGrid__std__string.html#ad55ab69840e809ba71f8dcd3422ce3da":[6,1,1,0,1,223,2]
 };

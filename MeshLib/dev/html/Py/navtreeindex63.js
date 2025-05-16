@@ -1,5 +1,9 @@
 var NAVTREEINDEX63 =
 {
+"classmrmeshpy_1_1PointCloudApproxRelaxParams.html#ad442428ab0d730dafed732399a3cc505":[6,1,0,0,2,642,0],
+"classmrmeshpy_1_1PointCloudApproxRelaxParams.html#ad442428ab0d730dafed732399a3cc505":[6,1,1,0,1,642,0],
+"classmrmeshpy_1_1PointCloudApproxRelaxParams.html#ad626119857c15031a005591125ba370f":[6,1,0,0,2,642,1],
+"classmrmeshpy_1_1PointCloudApproxRelaxParams.html#ad626119857c15031a005591125ba370f":[6,1,1,0,1,642,1],
 "classmrmeshpy_1_1PointCloudComponents.html":[6,1,0,0,2,643],
 "classmrmeshpy_1_1PointCloudComponents.html":[6,1,1,0,1,643],
 "classmrmeshpy_1_1PointCloudRelaxParams.html":[6,1,0,0,2,644],
@@ -245,9 +249,5 @@ var NAVTREEINDEX63 =
 "classmrmeshpy_1_1PointsProjectionResult.html#ad7391aa38dd8001089d618c209d9cd4c":[6,1,0,0,2,652,3],
 "classmrmeshpy_1_1PointsProjectionResult.html#ad7391aa38dd8001089d618c209d9cd4c":[6,1,1,0,1,652,3],
 "classmrmeshpy_1_1PointsProjectionResult.html#aef39ac08d0d63b8b833ddd55e5de5c89":[6,1,0,0,2,652,1],
-"classmrmeshpy_1_1PointsProjectionResult.html#aef39ac08d0d63b8b833ddd55e5de5c89":[6,1,1,0,1,652,1],
-"classmrmeshpy_1_1PointsProjector.html":[6,1,0,0,2,653],
-"classmrmeshpy_1_1PointsProjector.html":[6,1,1,0,1,653],
-"classmrmeshpy_1_1PointsProjector.html#a77086b11972ae7a15d95d931e7083143":[6,1,0,0,2,653,1],
-"classmrmeshpy_1_1PointsProjector.html#a77086b11972ae7a15d95d931e7083143":[6,1,1,0,1,653,1]
+"classmrmeshpy_1_1PointsProjectionResult.html#aef39ac08d0d63b8b833ddd55e5de5c89":[6,1,1,0,1,652,1]
 };
