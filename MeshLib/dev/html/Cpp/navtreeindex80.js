@@ -1,5 +1,15 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1Polyline.html#adcd14ead7b771006dcdc733950976288":[6,0,0,14,0,34],
+"structMR_1_1Polyline.html#adcd9babfa09e9b253e4e80937c08fa6f":[6,0,0,14,0,27],
+"structMR_1_1Polyline.html#addf7be82ffec83205ba7adcd66001c5b":[6,0,0,14,0,22],
+"structMR_1_1Polyline.html#ae6187af336b61283c5118d9aca6f0a12":[6,0,0,14,0,19],
+"structMR_1_1Polyline.html#aeaa90b34cd74ab76a35694d438baaf65":[6,0,0,14,0,28],
+"structMR_1_1Polyline.html#aee0339a19861aa52dd86eceea3e805b8":[6,0,0,14,0,31],
+"structMR_1_1Polyline.html#af1debf021b9bc68d02c2905e0527ab11":[6,0,0,14,0,11],
+"structMR_1_1Polyline.html#af26b4e6a0cf3287f52bdf51f2eeebd02":[6,0,0,14,0,5],
+"structMR_1_1PolylineIntersectionResult2.html":[6,0,1,0,1,511],
+"structMR_1_1PolylineIntersectionResult2.html":[6,0,2,0,1,495],
 "structMR_1_1PolylineIntersectionResult2.html#a50c61aceb6ee726418c11dd484bbd071":[6,0,1,0,1,511,1],
 "structMR_1_1PolylineIntersectionResult2.html#a50c61aceb6ee726418c11dd484bbd071":[6,0,2,0,1,495,1],
 "structMR_1_1PolylineIntersectionResult2.html#a982fc29b0df692b0fecec815554eb78b":[6,0,1,0,1,511,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1RangeSize.html#a8d9671c602785383a783dc97504805ec":[6,0,2,0,1,533,1],
 "structMR_1_1RawTiffOutput.html":[6,0,1,0,1,550],
 "structMR_1_1RawTiffOutput.html":[6,0,2,0,1,534],
-"structMR_1_1RawTiffOutput.html#a0246df3ced8b0fffb290eb2abf95bb96":[6,0,1,0,1,550,0],
-"structMR_1_1RawTiffOutput.html#a0246df3ced8b0fffb290eb2abf95bb96":[6,0,2,0,1,534,0],
-"structMR_1_1RawTiffOutput.html#a274e87eb13cf3064d528d5799b534c2d":[6,0,1,0,1,550,3],
-"structMR_1_1RawTiffOutput.html#a274e87eb13cf3064d528d5799b534c2d":[6,0,2,0,1,534,3],
-"structMR_1_1RawTiffOutput.html#a4a46a4e341d9607035dd3b8e7f94b350":[6,0,1,0,1,550,5],
-"structMR_1_1RawTiffOutput.html#a4a46a4e341d9607035dd3b8e7f94b350":[6,0,2,0,1,534,5],
-"structMR_1_1RawTiffOutput.html#a56a198effd90991eb70ce8c6707711dc":[6,0,1,0,1,550,4],
-"structMR_1_1RawTiffOutput.html#a56a198effd90991eb70ce8c6707711dc":[6,0,2,0,1,534,4],
-"structMR_1_1RawTiffOutput.html#a678bc6694cc6bc3d60c264d18d97e243":[6,0,1,0,1,550,1],
-"structMR_1_1RawTiffOutput.html#a678bc6694cc6bc3d60c264d18d97e243":[6,0,2,0,1,534,1],
-"structMR_1_1RawTiffOutput.html#ab63212231c28e54f0070c1283711a98a":[6,0,1,0,1,550,2]
+"structMR_1_1RawTiffOutput.html#a0246df3ced8b0fffb290eb2abf95bb96":[6,0,1,0,1,550,0]
 };

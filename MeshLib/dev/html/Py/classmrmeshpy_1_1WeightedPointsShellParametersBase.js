@@ -2,7 +2,9 @@ var classmrmeshpy_1_1WeightedPointsShellParametersBase =
 [
     [ "__init__", "classmrmeshpy_1_1WeightedPointsShellParametersBase.html#a278b0252efb7b8579d5eece57233e168", null ],
     [ "__init__", "classmrmeshpy_1_1WeightedPointsShellParametersBase.html#a0187df5bf6157c386f8bcb591a4998fe", null ],
-    [ "__init__", "classmrmeshpy_1_1WeightedPointsShellParametersBase.html#a9125a8cb741fd673777bf98f19e8e53a", null ],
+    [ "__init__", "classmrmeshpy_1_1WeightedPointsShellParametersBase.html#a1262cc6a7e871d96a7e039c36a13823d", null ],
+    [ "numLayers", "classmrmeshpy_1_1WeightedPointsShellParametersBase.html#abaf08555a6fb6eb7861d93fce72b9ab1", null ],
+    [ "numLayers", "classmrmeshpy_1_1WeightedPointsShellParametersBase.html#a809e67d9c4d5e007faacb2ac001c8856", null ],
     [ "offset", "classmrmeshpy_1_1WeightedPointsShellParametersBase.html#a6f7f26b84976e4695296c003834b0ffe", null ],
     [ "offset", "classmrmeshpy_1_1WeightedPointsShellParametersBase.html#adf74d10b4d6cf3fb9f99358b4910048f", null ],
     [ "progress", "classmrmeshpy_1_1WeightedPointsShellParametersBase.html#abe402e21313ddacee826989feb79bae7", null ],

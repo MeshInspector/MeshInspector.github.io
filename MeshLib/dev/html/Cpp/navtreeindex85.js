@@ -1,5 +1,15 @@
 var NAVTREEINDEX85 =
 {
+"structMR_1_1TouchpadRotateGestureEndListener.html":[6,0,1,0,1,708],
+"structMR_1_1TouchpadRotateGestureEndListener.html":[6,0,2,0,1,692],
+"structMR_1_1TouchpadRotateGestureEndListener.html#a406202fc3e70d82ed4e3f7912881b613":[6,0,1,0,1,708,0],
+"structMR_1_1TouchpadRotateGestureEndListener.html#a406202fc3e70d82ed4e3f7912881b613":[6,0,2,0,1,692,0],
+"structMR_1_1TouchpadRotateGestureEndListener.html#a52f630644781016b0f248164721be298":[6,0,1,0,1,708,2],
+"structMR_1_1TouchpadRotateGestureEndListener.html#a52f630644781016b0f248164721be298":[6,0,2,0,1,692,2],
+"structMR_1_1TouchpadRotateGestureEndListener.html#a720801497b669feae4030ebce11fa3ef":[6,0,1,0,1,708,3],
+"structMR_1_1TouchpadRotateGestureEndListener.html#a720801497b669feae4030ebce11fa3ef":[6,0,2,0,1,692,3],
+"structMR_1_1TouchpadRotateGestureEndListener.html#ad2d7edd1009fed4d6603ae9ce48ca3bf":[6,0,1,0,1,708,1],
+"structMR_1_1TouchpadRotateGestureEndListener.html#ad2d7edd1009fed4d6603ae9ce48ca3bf":[6,0,2,0,1,692,1],
 "structMR_1_1TouchpadRotateGestureUpdateListener.html":[6,0,1,0,1,709],
 "structMR_1_1TouchpadRotateGestureUpdateListener.html":[6,0,2,0,1,693],
 "structMR_1_1TouchpadRotateGestureUpdateListener.html#a1543608250b47eb5f6a2545ff3cb0d5a":[6,0,1,0,1,709,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX85 =
 "structMR_1_1TypedFlatTree.html#a89b95d5039c668eeeb449947b20cbaec":[6,0,1,0,1,728,0],
 "structMR_1_1TypedFlatTree.html#a89b95d5039c668eeeb449947b20cbaec":[6,0,2,0,1,712,0],
 "structMR_1_1TypedFlatTree.html#aa04d404e0e698980823e763537ad5250":[6,0,1,0,1,728,3],
-"structMR_1_1TypedFlatTree.html#aa04d404e0e698980823e763537ad5250":[6,0,2,0,1,712,3],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html":[6,0,1,0,1,38,2],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html":[6,0,2,0,1,23,1],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#a28dc0364454bce82687aec5e5773623b":[6,0,1,0,1,38,2,4],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#a28dc0364454bce82687aec5e5773623b":[6,0,2,0,1,23,1,4],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#a39f7611697c3b8dca64336b3cc48a7cc":[6,0,1,0,1,38,2,1],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#a39f7611697c3b8dca64336b3cc48a7cc":[6,0,2,0,1,23,1,1],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#a44e7a1e13298276ebd757d7e318111a0":[6,0,1,0,1,38,2,0],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#a44e7a1e13298276ebd757d7e318111a0":[6,0,2,0,1,23,1,0],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#aa05d1e76244fb6b4afc1122ad02e1d5e":[6,0,1,0,1,38,2,5],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#aa05d1e76244fb6b4afc1122ad02e1d5e":[6,0,2,0,1,23,1,5]
+"structMR_1_1TypedFlatTree.html#aa04d404e0e698980823e763537ad5250":[6,0,2,0,1,712,3]
 };

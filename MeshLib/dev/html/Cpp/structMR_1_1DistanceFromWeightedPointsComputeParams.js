@@ -1,5 +1,5 @@
 var structMR_1_1DistanceFromWeightedPointsComputeParams =
 [
-    [ "maxDistance", "structMR_1_1DistanceFromWeightedPointsComputeParams.html#a6ee8d7ae212f877e6e2572350eea7c11", null ],
-    [ "minDistance", "structMR_1_1DistanceFromWeightedPointsComputeParams.html#ad94fab535798f1acb476e818aa5969fb", null ]
+    [ "maxBidirDist", "structMR_1_1DistanceFromWeightedPointsComputeParams.html#a1f9b9b98c5a65f0baaaa7de96b1c030c", null ],
+    [ "minBidirDist", "structMR_1_1DistanceFromWeightedPointsComputeParams.html#adddd26b61e807f48c6420f32cb322d21", null ]
 ];

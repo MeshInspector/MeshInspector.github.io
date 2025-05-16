@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['w_0',['w',['../../Cpp/structMR_1_1Matrix4.html#a9e0640aaf9b368a204fd42127c9e93e3',1,'MR::Matrix4::w'],['../../Cpp/structMR_1_1Vector4.html#a2a2d849b18944213202e305115b457a6',1,'MR::Vector4::w']]],
+  ['w_0',['w',['../../Cpp/structMR_1_1Matrix4.html#a9e0640aaf9b368a204fd42127c9e93e3',1,'MR::Matrix4::w'],['../../Cpp/structMR_1_1MeshPointAndDistance.html#a5063b9b09f75ea011d86233ae29a6ed7',1,'MR::MeshPointAndDistance::w'],['../../Cpp/structMR_1_1Vector4.html#a2a2d849b18944213202e305115b457a6',1,'MR::Vector4::w']]],
   ['wallangle_1',['wallAngle',['../../Cpp/structMR_1_1FixUndercuts_1_1FindParams.html#a0cdbe15c0d5243296ca490c36131b41a',1,'MR::FixUndercuts::FindParams']]],
   ['warning_2',['warning',['../../Cpp/structMR_1_1GcodeProcessor_1_1BaseAction.html#a9270868b501d221ffbe92fc1d7c8916e',1,'MR::GcodeProcessor::BaseAction']]],
   ['warnings_3',['warnings',['../../Cpp/structMR_1_1LoadedObjects.html#a4a78ecdda3d1b42586d0d6e6e6e6bd0e',1,'MR::LoadedObjects::warnings'],['../../Cpp/structMR_1_1LoadedObjectT.html#aabc1e6add51daf7ce715234cb96c9805',1,'MR::LoadedObjectT::warnings']]],

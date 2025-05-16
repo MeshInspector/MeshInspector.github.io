@@ -53,11 +53,12 @@ var searchData=
   ['errorintroduced_50',['errorIntroduced',['../structMR_1_1DecimateResult.html#a4080c2ae3d9e15c04989c161cacb96d8',1,'MR::DecimateResult::errorIntroduced'],['../structMR_1_1DecimatePolylineResult.html#a5e4317d37968dd6016c8fc5826f9e8f5',1,'MR::DecimatePolylineResult::errorIntroduced'],['../structMRDecimateResult.html#a3c065962d7b37882d764de946b664201',1,'MRDecimateResult::errorIntroduced']]],
   ['errorstring_51',['errorString',['../structMR_1_1BooleanResult.html#a78e59aeca9497a9c74d7512157fcf5df',1,'MR::BooleanResult::errorString'],['../structMRBooleanResult.html#a096f8590e0be80474811d8100e7cb9a7',1,'MRBooleanResult::errorString']]],
   ['errorsummary_52',['errorSummary',['../structMR_1_1SceneLoad_1_1SceneLoadResult.html#a153339b0418a9f66dcd46058e4f30dc8',1,'MR::SceneLoad::SceneLoadResult']]],
-  ['event_53',['event',['../../Py/classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep.html#af53f3b4ec0553529acc4dc37c7bfb867',1,'mrmeshpy::PrecipitationSimulator::SimulationStep::event'],['../structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#a2898fdfcc0ded74f09a2807b6b6fef31',1,'MR::PrecipitationSimulator::SimulationStep::event']]],
-  ['exactpickfirst_54',['exactPickFirst',['../structMR_1_1Viewport_1_1PickRenderObjectParams.html#a0c05a407695c3bccd5b990b26ecdde96',1,'MR::Viewport::PickRenderObjectParams']]],
-  ['exitbtnsize_55',['exitBtnSize',['../namespaceMR_1_1StyleConsts_1_1Modal.html#a51cfb3dcff864fa88a1ef99e05376ebe',1,'MR::StyleConsts::Modal']]],
-  ['exitval_56',['exitVal',['../structMR_1_1ICPProperties.html#afe075e9e4944999f30c142f357d071d7',1,'MR::ICPProperties::exitVal'],['../structMRICPProperties.html#af361f47102e347876690d8afb088ed69',1,'MRICPProperties::exitVal']]],
-  ['experimental_57',['experimental',['../structMR_1_1RibbonTab.html#a49c89a14fe5caa50d3bdb2faf511dcc0',1,'MR::RibbonTab']]],
-  ['experimentalfeatures_58',['experimentalFeatures',['../classMR_1_1Viewer.html#a79903d8243abfd135d4c770623022ef3',1,'MR::Viewer']]],
-  ['extensions_59',['extensions',['../structMR_1_1IOFilter.html#a8806427d8212780dc5b20506b24b1223',1,'MR::IOFilter']]]
+  ['eucledeandist_53',['eucledeanDist',['../structMR_1_1MeshPointAndDistance.html#a3c13570c2b1fc9561e7b69f49e4a2096',1,'MR::MeshPointAndDistance']]],
+  ['event_54',['event',['../../Py/classmrmeshpy_1_1PrecipitationSimulator_1_1SimulationStep.html#af53f3b4ec0553529acc4dc37c7bfb867',1,'mrmeshpy::PrecipitationSimulator::SimulationStep::event'],['../structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#a2898fdfcc0ded74f09a2807b6b6fef31',1,'MR::PrecipitationSimulator::SimulationStep::event']]],
+  ['exactpickfirst_55',['exactPickFirst',['../structMR_1_1Viewport_1_1PickRenderObjectParams.html#a0c05a407695c3bccd5b990b26ecdde96',1,'MR::Viewport::PickRenderObjectParams']]],
+  ['exitbtnsize_56',['exitBtnSize',['../namespaceMR_1_1StyleConsts_1_1Modal.html#a51cfb3dcff864fa88a1ef99e05376ebe',1,'MR::StyleConsts::Modal']]],
+  ['exitval_57',['exitVal',['../structMR_1_1ICPProperties.html#afe075e9e4944999f30c142f357d071d7',1,'MR::ICPProperties::exitVal'],['../structMRICPProperties.html#af361f47102e347876690d8afb088ed69',1,'MRICPProperties::exitVal']]],
+  ['experimental_58',['experimental',['../structMR_1_1RibbonTab.html#a49c89a14fe5caa50d3bdb2faf511dcc0',1,'MR::RibbonTab']]],
+  ['experimentalfeatures_59',['experimentalFeatures',['../classMR_1_1Viewer.html#a79903d8243abfd135d4c770623022ef3',1,'MR::Viewer']]],
+  ['extensions_60',['extensions',['../structMR_1_1IOFilter.html#a8806427d8212780dc5b20506b24b1223',1,'MR::IOFilter']]]
 ];

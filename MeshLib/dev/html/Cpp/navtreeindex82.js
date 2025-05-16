@@ -1,5 +1,15 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1RibbonSchema.html#a5773b44f78b9e6a2610bf2260a1891bd":[6,0,1,0,1,600,9],
+"structMR_1_1RibbonSchema.html#a5773b44f78b9e6a2610bf2260a1891bd":[6,0,2,0,1,584,9],
+"structMR_1_1RibbonSchema.html#aa723570687ac4d1ccc83d6a5305e69dd":[6,0,1,0,1,600,1],
+"structMR_1_1RibbonSchema.html#aa723570687ac4d1ccc83d6a5305e69dd":[6,0,2,0,1,584,1],
+"structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1":[6,0,1,0,1,600,6],
+"structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1":[6,0,2,0,1,584,6],
+"structMR_1_1RibbonSchema.html#aff336be3c724c96b01194c689d9bdac9":[6,0,1,0,1,600,5],
+"structMR_1_1RibbonSchema.html#aff336be3c724c96b01194c689d9bdac9":[6,0,2,0,1,584,5],
+"structMR_1_1RibbonSchemaHolder_1_1SearchResult.html":[6,0,1,0,1,601,0],
+"structMR_1_1RibbonSchemaHolder_1_1SearchResult.html":[6,0,2,0,1,585,0],
 "structMR_1_1RibbonSchemaHolder_1_1SearchResult.html#a62d11082407bfd9fa9123e8c61f6c3f8":[6,0,1,0,1,601,0,1],
 "structMR_1_1RibbonSchemaHolder_1_1SearchResult.html#a62d11082407bfd9fa9123e8c61f6c3f8":[6,0,2,0,1,585,0,1],
 "structMR_1_1RibbonSchemaHolder_1_1SearchResult.html#a7ca888bade52243be40b9bc8ea954035":[6,0,1,0,1,601,0,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1ShellVertexInfo.html":[6,0,2,0,1,632],
 "structMR_1_1ShellVertexInfo.html#a2a6da8b3af021f4593c78e7b6717f573":[6,0,1,0,1,648,1],
 "structMR_1_1ShellVertexInfo.html#a2a6da8b3af021f4593c78e7b6717f573":[6,0,2,0,1,632,1],
-"structMR_1_1ShellVertexInfo.html#a4ad2a701c8676bd3a94338e7564f1a3c":[6,0,1,0,1,648,3],
-"structMR_1_1ShellVertexInfo.html#a4ad2a701c8676bd3a94338e7564f1a3c":[6,0,2,0,1,632,3],
-"structMR_1_1ShellVertexInfo.html#a6a812bb14fc2863c4b0f30cc834ddd55":[6,0,1,0,1,648,2],
-"structMR_1_1ShellVertexInfo.html#a6a812bb14fc2863c4b0f30cc834ddd55":[6,0,2,0,1,632,2],
-"structMR_1_1ShellVertexInfo.html#a8cae5aeb17ea9eba3d65c5cb39acbe29":[6,0,1,0,1,648,0],
-"structMR_1_1ShellVertexInfo.html#a8cae5aeb17ea9eba3d65c5cb39acbe29":[6,0,2,0,1,632,0],
-"structMR_1_1ShortcutKey.html":[6,0,1,0,1,650],
-"structMR_1_1ShortcutKey.html":[6,0,2,0,1,634],
-"structMR_1_1ShortcutKey.html#a3a4d01661553cca5e961b0ee03e3985f":[6,0,1,0,1,650,1],
-"structMR_1_1ShortcutKey.html#a3a4d01661553cca5e961b0ee03e3985f":[6,0,2,0,1,634,1],
-"structMR_1_1ShortcutKey.html#abf821c4d4f21815cbd391fa9ae9c6750":[6,0,1,0,1,650,0]
+"structMR_1_1ShellVertexInfo.html#a4ad2a701c8676bd3a94338e7564f1a3c":[6,0,1,0,1,648,3]
 };

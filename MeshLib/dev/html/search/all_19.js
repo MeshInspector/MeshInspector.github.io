@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['w_0',['w',['.././Cpp/structMR_1_1Matrix4.html#a9e0640aaf9b368a204fd42127c9e93e3',1,'MR::Matrix4::w'],['.././Cpp/structMR_1_1Vector4.html#a2a2d849b18944213202e305115b457a6',1,'MR::Vector4::w']]],
+  ['w_0',['w',['.././Cpp/structMR_1_1Matrix4.html#a9e0640aaf9b368a204fd42127c9e93e3',1,'MR::Matrix4::w'],['.././Cpp/structMR_1_1MeshPointAndDistance.html#a5063b9b09f75ea011d86233ae29a6ed7',1,'MR::MeshPointAndDistance::w'],['.././Cpp/structMR_1_1Vector4.html#a2a2d849b18944213202e305115b457a6',1,'MR::Vector4::w'],['.././Py/classmrmeshpy_1_1MeshPointAndDistance.html#a822e85d1bb436e0510f3036aa9fbbb86',1,'mrmeshpy::MeshPointAndDistance::w(self)'],['.././Py/classmrmeshpy_1_1MeshPointAndDistance.html#ac150e1c83a93c2016a6d011b75f41b7c',1,'mrmeshpy::MeshPointAndDistance::w(self, float arg1)']]],
   ['wait_1',['wait',['.././Cpp/structMR_1_1TbbTaskArenaAndGroup.html#a4c412febc6da82629fc96409954f1824',1,'MR::TbbTaskArenaAndGroup']]],
   ['waitblocking_2',['waitBlocking',['.././Cpp/classMR_1_1AsyncTimer.html#ab495cfbb4703c6205a17bc2dcd0a6b44',1,'MR::AsyncTimer']]],
   ['wallangle_3',['wallAngle',['.././Cpp/structMR_1_1FixUndercuts_1_1FindParams.html#a0cdbe15c0d5243296ca490c36131b41a',1,'MR::FixUndercuts::FindParams::wallAngle'],['.././Py/classmrmeshpy_1_1FixUndercuts_1_1FindParams.html#adc9ada5995cbb460e2f97303659c433f',1,'mrmeshpy::FixUndercuts::FindParams::wallAngle(self)'],['.././Py/classmrmeshpy_1_1FixUndercuts_1_1FindParams.html#a4d1344e845e605e1b725dbda768af2cd',1,'mrmeshpy::FixUndercuts::FindParams::wallAngle(self, float arg1)']]],
