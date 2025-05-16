@@ -1,5 +1,7 @@
 var NAVTREEINDEX14 =
 {
+"MRStreamOperators_8h.html#a23e4037f9ce6128e9d0b1a407ae9cfcd":[6,0,3,0,0,1,4,346,19],
+"MRStreamOperators_8h.html#a316cb7e7134f8eb88680011380af2871":[6,0,3,0,0,1,4,346,12],
 "MRStreamOperators_8h.html#a5032191cec4caa244ffb6d2589686690":[6,0,3,0,0,1,4,346,13],
 "MRStreamOperators_8h.html#a5ef63c3653af2d1973d4f56f45af2d63":[6,0,3,0,0,1,4,346,5],
 "MRStreamOperators_8h.html#a65d51e4f7dbbfe81f73644b8a617399a":[6,0,3,0,0,1,4,346,4],
@@ -43,16 +45,16 @@ var NAVTREEINDEX14 =
 "MRSurfaceLineOffset_8h.html#a5c90e7ed0a38e9f1cd9a61f2742f12cc":[6,0,3,0,0,1,4,352,0],
 "MRSurfaceLineOffset_8h.html#a8964f9c61140cf585633903f71ced4eb":[6,0,3,0,0,1,4,352,1],
 "MRSurfaceLineOffset_8h_source.html":[6,0,3,0,0,1,4,352],
-"MRSurfaceManipulationWidget_8h.html":[6,0,3,0,0,1,10,116],
-"MRSurfaceManipulationWidget_8h_source.html":[6,0,3,0,0,1,10,116],
+"MRSurfaceManipulationWidget_8h.html":[6,0,3,0,0,1,10,117],
+"MRSurfaceManipulationWidget_8h_source.html":[6,0,3,0,0,1,10,117],
 "MRSurfacePath_8h.html":[6,0,3,0,0,1,4,353],
 "MRSurfacePath_8h_source.html":[6,0,3,0,0,1,4,353],
-"MRSurfacePointPicker_8h.html":[6,0,3,0,0,1,10,117],
-"MRSurfacePointPicker_8h_source.html":[6,0,3,0,0,1,10,117],
+"MRSurfacePointPicker_8h.html":[6,0,3,0,0,1,10,118],
+"MRSurfacePointPicker_8h_source.html":[6,0,3,0,0,1,10,118],
 "MRSurroundingContour_8h.html":[6,0,3,0,0,1,4,354],
 "MRSurroundingContour_8h_source.html":[6,0,3,0,0,1,4,354],
-"MRSwapRootAction_8h.html":[6,0,3,0,0,1,10,118],
-"MRSwapRootAction_8h_source.html":[6,0,3,0,0,1,10,118],
+"MRSwapRootAction_8h.html":[6,0,3,0,0,1,10,119],
+"MRSwapRootAction_8h_source.html":[6,0,3,0,0,1,10,119],
 "MRSymMatrix2_8h.html":[6,0,3,0,0,1,4,355],
 "MRSymMatrix2_8h_source.html":[6,0,3,0,0,1,4,355],
 "MRSymMatrix3_8h.html":[6,0,3,0,0,1,4,356],
@@ -247,7 +249,5 @@ var NAVTREEINDEX14 =
 "MRTimer_8h.html#adf7fc408af3ac6d6583cc0ca173120ae":[6,0,3,0,0,1,4,364,1],
 "MRTimer_8h_source.html":[6,0,3,0,0,1,4,364],
 "MRToFromEigen_8h.html":[6,0,3,0,0,1,4,366],
-"MRToFromEigen_8h_source.html":[6,0,3,0,0,1,4,366],
-"MRToolPath_8h.html":[6,0,3,0,0,1,11,25],
-"MRToolPath_8h.html#a05e67fe513dddb7486b86a59420ff5da":[6,0,3,0,0,1,11,25,9]
+"MRToFromEigen_8h_source.html":[6,0,3,0,0,1,4,366]
 };

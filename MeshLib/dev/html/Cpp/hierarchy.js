@@ -761,6 +761,8 @@ var hierarchy =
       [ "MR::VoxelsVolumeMinMax< T >", "structMR_1_1VoxelsVolumeMinMax.html", null ]
     ] ],
     [ "MR::MinMaxArg< T, I >", "structMR_1_1MinMaxArg.html", null ],
+    [ "MR::ModalDialog", "classMR_1_1ModalDialog.html", null ],
+    [ "MR::ModalDialogSettings", "structMR_1_1ModalDialogSettings.html", null ],
     [ "MR::ModelPointsData", "structMR_1_1ModelPointsData.html", null ],
     [ "MR::PythonExport::ModuleData", "structMR_1_1PythonExport_1_1ModuleData.html", null ],
     [ "MR::MouseController::MouseControlKey", "structMR_1_1MouseController_1_1MouseControlKey.html", null ],

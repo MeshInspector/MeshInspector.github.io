@@ -1,5 +1,15 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1FileDialogSignals.html#a665adba9c1168b21ee04bcbfe30c0b30":[6,0,2,0,1,211,7],
+"structMR_1_1FileDialogSignals.html#acb55f29975140538d4f83ab34ad6416e":[6,0,1,0,1,227,8],
+"structMR_1_1FileDialogSignals.html#acb55f29975140538d4f83ab34ad6416e":[6,0,2,0,1,211,8],
+"structMR_1_1FileDialogSignals.html#ae5d54be77bfb8a87ce567e148a75c449":[6,0,1,0,1,227,1],
+"structMR_1_1FileDialogSignals.html#ae5d54be77bfb8a87ce567e148a75c449":[6,0,2,0,1,211,1],
+"structMR_1_1FileDialogSignals.html#af2edd6d3969959890c9d36abe0e8cfdf":[6,0,1,0,1,227,0],
+"structMR_1_1FileDialogSignals.html#af2edd6d3969959890c9d36abe0e8cfdf":[6,0,2,0,1,211,0],
+"structMR_1_1FileDialogSignals.html#afa35a6c193fd7c7c877407d10c4e4ebf":[6,0,1,0,1,227,3],
+"structMR_1_1FileDialogSignals.html#afa35a6c193fd7c7c877407d10c4e4ebf":[6,0,2,0,1,211,3],
+"structMR_1_1FileLoadOptions.html":[6,0,1,0,1,228],
 "structMR_1_1FileLoadOptions.html":[6,0,2,0,1,212],
 "structMR_1_1FileLoadOptions.html#a4f4d8061842e6e46c5aab4e281bf1ad4":[6,0,1,0,1,228,1],
 "structMR_1_1FileLoadOptions.html#a4f4d8061842e6e46c5aab4e281bf1ad4":[6,0,2,0,1,212,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1GcodeProcessor_1_1MoveAction.html#a31e8f3ca925b988d46df24c5b5bf8ddd":[6,0,1,0,1,256,2,4],
 "structMR_1_1GcodeProcessor_1_1MoveAction.html#a31e8f3ca925b988d46df24c5b5bf8ddd":[6,0,2,0,1,240,2,4],
 "structMR_1_1GcodeProcessor_1_1MoveAction.html#a3d704b08012c57fec93ba58808ee3421":[6,0,1,0,1,256,2,5],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html#a3d704b08012c57fec93ba58808ee3421":[6,0,2,0,1,240,2,5],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html#a85b84c7e86dfe85baf10dcab2f46c9d6":[6,0,1,0,1,256,2,0],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html#a85b84c7e86dfe85baf10dcab2f46c9d6":[6,0,2,0,1,240,2,0],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html#a9c37820f22dbbb3c0a9fc9b01369abbc":[6,0,1,0,1,256,2,1],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html#a9c37820f22dbbb3c0a9fc9b01369abbc":[6,0,2,0,1,240,2,1],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html#afb16d620b32465be3a1f27d50c1640d3":[6,0,1,0,1,256,2,2],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html#afb16d620b32465be3a1f27d50c1640d3":[6,0,2,0,1,240,2,2],
-"structMR_1_1GeneralOffsetParameters.html":[6,0,1,0,1,259],
-"structMR_1_1GeneralOffsetParameters.html":[6,0,2,0,1,243],
-"structMR_1_1GeneralOffsetParameters.html#a32b4506f0ab7b7a76f0e3b1ce34a94d1":[6,0,1,0,1,259,1],
-"structMR_1_1GeneralOffsetParameters.html#a32b4506f0ab7b7a76f0e3b1ce34a94d1":[6,0,2,0,1,243,1]
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#a3d704b08012c57fec93ba58808ee3421":[6,0,2,0,1,240,2,5]
 };

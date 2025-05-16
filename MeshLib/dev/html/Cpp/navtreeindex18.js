@@ -1,5 +1,7 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1AngleMeasurementObject.html#a77cf2bb7f527cdce197688a0eff4f24b":[6,0,1,0,1,59,15],
+"classMR_1_1AngleMeasurementObject.html#a77cf2bb7f527cdce197688a0eff4f24b":[6,0,2,0,1,43,15],
 "classMR_1_1AngleMeasurementObject.html#a8e474716d30d1e4bd36dc2c74ae744d0":[6,0,1,0,1,59,1],
 "classMR_1_1AngleMeasurementObject.html#a8e474716d30d1e4bd36dc2c74ae744d0":[6,0,2,0,1,43,1],
 "classMR_1_1AngleMeasurementObject.html#a94c8a0bb6913155e136c7a02750e7d0f":[6,0,1,0,1,59,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#aa9768034e77b25ffed92bf08fbe11321":[6,0,1,0,1,89,1],
 "classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#aa9768034e77b25ffed92bf08fbe11321":[6,0,2,0,1,73,1],
 "classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#ab5b55d341a1d4daeb4b334eff9b98614":[6,0,1,0,1,89,2],
-"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#ab5b55d341a1d4daeb4b334eff9b98614":[6,0,2,0,1,73,2],
-"classMR_1_1CaptureUIScreenshotMenuItem.html":[6,0,1,0,1,90],
-"classMR_1_1CaptureUIScreenshotMenuItem.html":[6,0,2,0,1,74]
+"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#ab5b55d341a1d4daeb4b334eff9b98614":[6,0,2,0,1,73,2]
 };

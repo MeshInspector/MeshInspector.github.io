@@ -1,5 +1,15 @@
 var NAVTREEINDEX54 =
 {
+"group__SerializerGroup.html#gabb77b8518b98c3dde34206e1c8bbc5fc":[6,0,0,2,15,12],
+"group__SerializerGroup.html#gabf5d52bb9f6c77c69a8e8897c42fce28":[6,0,0,2,15,39],
+"group__SerializerGroup.html#gacd39b6a2edca023ff58233e8a5938a10":[6,0,0,2,15,37],
+"group__SerializerGroup.html#gacfc4f79eba7c0c8751bd4206a1604603":[6,0,0,2,15,31],
+"group__SerializerGroup.html#gacfed47f3a67cfbbaaab3df0125cc6c52":[6,0,0,2,15,9],
+"group__SerializerGroup.html#gadbd20d4ea1f7a2145ec9cea92d0c6d21":[6,0,0,2,15,35],
+"group__SerializerGroup.html#gae2b8279a340f17425a3c6d8e8feb98ec":[6,0,0,2,15,41],
+"group__SerializerGroup.html#gae2d000bf1be360d4156e421121308d90":[6,0,0,2,15,46],
+"group__SerializerGroup.html#gaeb2e68137af1a456b80b6a8574c03e6e":[6,0,0,2,15,8],
+"group__SerializerGroup.html#gafab977958cb409b72f7584d9f6602a3e":[6,0,0,2,15,14],
 "group__StreamOperatorsGroup.html":[6,0,0,2,16],
 "group__SubvoxelMeshCorrection.html":[6,0,0,17,1],
 "group__SubvoxelMeshCorrection.html#gaaa03e36604e9587df674801bac3a653f":[6,0,0,17,1,2],
@@ -239,15 +249,5 @@ var NAVTREEINDEX54 =
 "namespaceImGui.html#a265e606cad7268f09dacbeeb9b6be3d5a6adf97f83acf6453d4a6a4b1070f3754":[6,0,1,0,0,4,0],
 "namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682":[6,0,1,0,0,3],
 "namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682a526d688f37a86d3c3f27d0c5016eb71d":[6,0,1,0,0,3,1],
-"namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682a6adf97f83acf6453d4a6a4b1070f3754":[6,0,1,0,0,3,0],
-"namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682a92711ef5b0215a076fef4a3abbfc2258":[6,0,1,0,0,3,3],
-"namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682aa3e8ae43188ae76d38f414b2bdb0077b":[6,0,1,0,0,3,2],
-"namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682ab1c94ca2fbc3e78fc30069c8d0f01680":[6,0,1,0,0,3,4],
-"namespaceImGui.html#a28e1c155304849c7d19acd541112fd83":[6,0,1,0,0,12],
-"namespaceImGui.html#a2965953a64a756c9e40bf0c620028b06":[6,0,1,0,0,36],
-"namespaceImGui.html#a2e673d54604370c06cb076d0449831a3":[6,0,1,0,0,16],
-"namespaceImGui.html#a35ab4450ec9a2caa24b029e5c5c11ecb":[6,0,1,0,0,25],
-"namespaceImGui.html#a378834d8803566841b144ddf878ef623":[6,0,1,0,0,30],
-"namespaceImGui.html#a392168d28bc4973532ead37f8061121e":[6,0,1,0,0,28],
-"namespaceImGui.html#a39a8802226377b3d155788257f848b1a":[6,0,1,0,0,32]
+"namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682a6adf97f83acf6453d4a6a4b1070f3754":[6,0,1,0,0,3,0]
 };

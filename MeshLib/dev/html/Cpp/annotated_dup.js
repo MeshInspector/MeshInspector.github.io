@@ -551,6 +551,8 @@ var annotated_dup =
       [ "MetricToAStarPenalty", "structMR_1_1MetricToAStarPenalty.html", "structMR_1_1MetricToAStarPenalty" ],
       [ "MinArg", "structMR_1_1MinArg.html", "structMR_1_1MinArg" ],
       [ "MinMaxArg", "structMR_1_1MinMaxArg.html", "structMR_1_1MinMaxArg" ],
+      [ "ModalDialog", "classMR_1_1ModalDialog.html", "classMR_1_1ModalDialog" ],
+      [ "ModalDialogSettings", "structMR_1_1ModalDialogSettings.html", "structMR_1_1ModalDialogSettings" ],
       [ "ModelBaseRenderParams", "structMR_1_1ModelBaseRenderParams.html", "structMR_1_1ModelBaseRenderParams" ],
       [ "ModelPointsData", "structMR_1_1ModelPointsData.html", "structMR_1_1ModelPointsData" ],
       [ "ModelRenderParams", "structMR_1_1ModelRenderParams.html", "structMR_1_1ModelRenderParams" ],
