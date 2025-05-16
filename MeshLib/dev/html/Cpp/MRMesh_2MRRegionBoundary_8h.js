@@ -1,7 +1,7 @@
 var MRMesh_2MRRegionBoundary_8h =
 [
-    [ "delRegionKeepBd", "MRMesh_2MRRegionBoundary_8h.html#a3629fa8fe08058c0e182ca241b11333f", null ],
-    [ "delRegionKeepBd", "MRMesh_2MRRegionBoundary_8h.html#a00ee2b5e6f616aab6620d650848ce002", null ],
+    [ "delRegionKeepBd", "MRMesh_2MRRegionBoundary_8h.html#aff8fe8ed5ffe3e13334c6e56e945d8db", null ],
+    [ "delRegionKeepBd", "MRMesh_2MRRegionBoundary_8h.html#adacfce1ed3976c8879c40d3eb35423cf", null ],
     [ "findLeftBoundary", "MRMesh_2MRRegionBoundary_8h.html#a5dafea3426ba8ddf443b86c99fd1b3e9", null ],
     [ "findLeftBoundary", "MRMesh_2MRRegionBoundary_8h.html#a1fc4b7cc580d42260b45c0af3ff2fd12", null ],
     [ "findLeftBoundaryInsideMesh", "MRMesh_2MRRegionBoundary_8h.html#ae00243e83bb9017aa03fcb42bd7f524d", null ],
