@@ -213,17 +213,17 @@ var NAVTREEINDEX =
 "structMR_1_1MeshTexture.html#ab1d9b311e280516bb81e8749bfb440bc",
 "structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a9b0d4d2ec2b2868f18da16624979032f",
 "structMR_1_1Object_1_1ProtectedStruct.html#a7e4c38fcb6a60dc4c3126d35a637080e",
-"structMR_1_1PickPointManager_1_1Params.html#a29da52a2e4e00f22aa0e7206a5ca2819",
-"structMR_1_1PointsToMeshParameters.html#a822cdf3f2f86316327a0960f8057a642",
-"structMR_1_1QuadraticForm.html",
-"structMR_1_1RibbonMenuUIConfig.html#ad18443e86e7f3e8dee09d47d835657d6",
-"structMR_1_1SeparationPointStorage_1_1Block.html",
-"structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413",
-"structMR_1_1TouchEndListener.html#a33e255754fd26beb29b6401dbe1867e2",
-"structMR_1_1TriangulationHelpers_1_1Settings.html#adaecbf29331f6b90ae2a11acaa0c153a",
-"structMR_1_1UniformSamplingSettings.html#a5bc23c2e461b80a4516732d0e5add3a5",
-"structMR_1_1VectorTraits_3_01Vector3_3_01T_01_4_01_4.html#a5fd55f8cb6c26f1a29d3ba4b2c809a3b",
-"structMR_1_1WatershedGraph_1_1OverflowPoint.html#a4058c6bc93b43ba32fc92f1f336b7619"
+"structMR_1_1PickPointManager_1_1Params.html#a239dfe513b8ad0546f097fe848b07926",
+"structMR_1_1PointsToMeshParameters.html#a72818af22d20fbdc8695061a8dd48c85",
+"structMR_1_1PythonFunctionAdder.html#a47c1ceebbd147609ff7f7ad8add30b29",
+"structMR_1_1RibbonMenuUIConfig.html#ab79facceed1e2c0b1f3a9daddcb6548e",
+"structMR_1_1SelfIntersections_1_1Settings.html#aface1dd6cc60f50dd76186b73d130994",
+"structMR_1_1SubdivideSettings.html#adf497f2181525852eaeee09ce71fb476",
+"structMR_1_1TouchEndListener.html",
+"structMR_1_1TriangulationHelpers_1_1Settings.html#ad5edcde965a734c44ce7cb176b8784c2",
+"structMR_1_1UniformSamplingSettings.html#a4952e332cfe108e00f967d412a6aba88",
+"structMR_1_1VectorTraits_3_01Vector3_3_01T_01_4_01_4.html#a1e5f44968abe54db23651f259feba506",
+"structMR_1_1WatershedGraph_1_1OverflowPoint.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,5 +1,7 @@
 var NAVTREEINDEX123 =
 {
+"classmrmeshpy_1_1std__vector__AABBTreeNode__ObjTreeTraits.html#a4a5e987639fa3c2cd59893671f8e3a02":[6,1,0,0,2,807,21],
+"classmrmeshpy_1_1std__vector__AABBTreeNode__ObjTreeTraits.html#a4a5e987639fa3c2cd59893671f8e3a02":[6,1,1,0,1,807,21],
 "classmrmeshpy_1_1std__vector__AABBTreeNode__ObjTreeTraits.html#a54b714794fd88a96303d34fa43cd724f":[6,1,0,0,2,807,12],
 "classmrmeshpy_1_1std__vector__AABBTreeNode__ObjTreeTraits.html#a54b714794fd88a96303d34fa43cd724f":[6,1,1,0,1,807,12],
 "classmrmeshpy_1_1std__vector__AABBTreeNode__ObjTreeTraits.html#a5a9a79da1a5ee53776b954d4533808e2":[6,1,0,0,2,807,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX123 =
 "classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#af3709f5bcf9ec60d100d151b22935567":[6,1,0,0,2,812,0],
 "classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#af3709f5bcf9ec60d100d151b22935567":[6,1,1,0,1,812,0],
 "classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#afbbd52b4a1d8ca1a634fea211cb1e640":[6,1,0,0,2,812,16],
-"classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#afbbd52b4a1d8ca1a634fea211cb1e640":[6,1,1,0,1,812,16],
-"classmrmeshpy_1_1std__vector__Color.html":[6,1,0,0,2,813],
-"classmrmeshpy_1_1std__vector__Color.html":[6,1,1,0,1,813]
+"classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#afbbd52b4a1d8ca1a634fea211cb1e640":[6,1,1,0,1,812,16]
 };
