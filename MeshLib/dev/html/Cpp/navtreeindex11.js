@@ -203,6 +203,12 @@ var NAVTREEINDEX11 =
 "MRPolylineRelax_8h_source.html":[6,0,3,0,0,1,4,297],
 "MRPolylineSubdivide_8h.html":[6,0,3,0,0,1,4,298],
 "MRPolylineSubdivide_8h_source.html":[6,0,3,0,0,1,4,298],
+"MRPolylineToVoxels_8h.html":[6,0,3,0,0,1,11,21],
+"MRPolylineToVoxels_8h.html#a2ab4d2b336d770d981bb072ffd205f44":[6,0,3,0,0,1,11,21,2],
+"MRPolylineToVoxels_8h.html#a5d923a7d2158a255e7ac7d47d165c693":[6,0,3,0,0,1,11,21,4],
+"MRPolylineToVoxels_8h.html#ae0f99bf61284f846914d0390d7951115":[6,0,3,0,0,1,11,21,3],
+"MRPolylineToVoxels_8h.html#ae9152c4fd78d40e4e55c048cdc278a89":[6,0,3,0,0,1,11,21,5],
+"MRPolylineToVoxels_8h_source.html":[6,0,3,0,0,1,11,21],
 "MRPolylineTopology_8h.html":[6,0,3,0,0,1,4,299],
 "MRPolylineTopology_8h_source.html":[6,0,3,0,0,1,4,299],
 "MRPolylineTrimWithPlane_8h.html":[6,0,3,0,0,1,4,300],
@@ -243,11 +249,5 @@ var NAVTREEINDEX11 =
 "MRPrecisePredicates2_8h.html#aadc1b40eb80e70a7e20d00559456217d":[6,0,3,0,0,1,4,304,5],
 "MRPrecisePredicates2_8h.html#ab32707ab055efa8d14815955fdfbcadd":[6,0,3,0,0,1,4,304,16],
 "MRPrecisePredicates2_8h.html#adebe37534b9bb6c1ccc995df1839c432":[6,0,3,0,0,1,4,304,6],
-"MRPrecisePredicates2_8h.html#ae880209b92fb93b18e8e7c41b3ba6aea":[6,0,3,0,0,1,4,304,12],
-"MRPrecisePredicates2_8h_source.html":[6,0,3,0,0,1,4,304],
-"MRPrimitiveMapsComposition_8h.html":[6,0,3,0,0,1,4,306],
-"MRPrimitiveMapsComposition_8h_source.html":[6,0,3,0,0,1,4,306],
-"MRPriorityQueue_8h.html":[6,0,3,0,0,1,4,307],
-"MRPriorityQueue_8h_source.html":[6,0,3,0,0,1,4,307],
-"MRPrism_8h.html":[6,0,3,0,0,1,4,308]
+"MRPrecisePredicates2_8h.html#ae880209b92fb93b18e8e7c41b3ba6aea":[6,0,3,0,0,1,4,304,12]
 };

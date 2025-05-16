@@ -1,5 +1,11 @@
 var NAVTREEINDEX12 =
 {
+"MRPrecisePredicates2_8h_source.html":[6,0,3,0,0,1,4,304],
+"MRPrimitiveMapsComposition_8h.html":[6,0,3,0,0,1,4,306],
+"MRPrimitiveMapsComposition_8h_source.html":[6,0,3,0,0,1,4,306],
+"MRPriorityQueue_8h.html":[6,0,3,0,0,1,4,307],
+"MRPriorityQueue_8h_source.html":[6,0,3,0,0,1,4,307],
+"MRPrism_8h.html":[6,0,3,0,0,1,4,308],
 "MRPrism_8h.html#afef3937755aede5ca15af7158e3dcf46":[6,0,3,0,0,1,4,308,0],
 "MRPrism_8h_source.html":[6,0,3,0,0,1,4,308],
 "MRProcessSelfTreeSubtasks_8h.html":[6,0,3,0,0,1,4,309],
@@ -101,9 +107,9 @@ var NAVTREEINDEX12 =
 "MRRayBoxIntersection2_8h_source.html":[6,0,3,0,0,1,4,318],
 "MRRayBoxIntersection_8h.html":[6,0,3,0,0,1,4,317],
 "MRRayBoxIntersection_8h_source.html":[6,0,3,0,0,1,4,317],
-"MRRebuildMesh_8h.html":[6,0,3,0,0,1,11,21],
-"MRRebuildMesh_8h.html#ae3f5900ab5832382ad11410977098452":[6,0,3,0,0,1,11,21,1],
-"MRRebuildMesh_8h_source.html":[6,0,3,0,0,1,11,21],
+"MRRebuildMesh_8h.html":[6,0,3,0,0,1,11,22],
+"MRRebuildMesh_8h.html#ae3f5900ab5832382ad11410977098452":[6,0,3,0,0,1,11,22,1],
+"MRRebuildMesh_8h_source.html":[6,0,3,0,0,1,11,22],
 "MRRecentFilesStore_8h.html":[6,0,3,0,0,1,10,65],
 "MRRecentFilesStore_8h_source.html":[6,0,3,0,0,1,10,65],
 "MRRectIndexer_8h.html":[6,0,3,0,0,1,4,319],
@@ -243,11 +249,5 @@ var NAVTREEINDEX12 =
 "MRRibbonMenuItem_8h_source.html":[6,0,3,0,0,1,10,86],
 "MRRibbonMenuSearch_8h.html":[6,0,3,0,0,1,10,87],
 "MRRibbonMenuSearch_8h_source.html":[6,0,3,0,0,1,10,87],
-"MRRibbonMenu_8h.html":[6,0,3,0,0,1,10,85],
-"MRRibbonMenu_8h.html#a22296ecc4055b81ffe5ec6f0a8ad79d7":[6,0,3,0,0,1,10,85,4],
-"MRRibbonMenu_8h.html#a22296ecc4055b81ffe5ec6f0a8ad79d7a6adf97f83acf6453d4a6a4b1070f3754":[6,0,3,0,0,1,10,85,4,0],
-"MRRibbonMenu_8h.html#a22296ecc4055b81ffe5ec6f0a8ad79d7a9a8369bcaa71173baa02f88bbf53b8fc":[6,0,3,0,0,1,10,85,4,2],
-"MRRibbonMenu_8h.html#a22296ecc4055b81ffe5ec6f0a8ad79d7aacb400c35a93a397ad5d54a1aa3b117d":[6,0,3,0,0,1,10,85,4,1],
-"MRRibbonMenu_8h.html#a8943649eb4ec189757d628d6b1f9779f":[6,0,3,0,0,1,10,85,5],
-"MRRibbonMenu_8h_source.html":[6,0,3,0,0,1,10,85]
+"MRRibbonMenu_8h.html":[6,0,3,0,0,1,10,85]
 };

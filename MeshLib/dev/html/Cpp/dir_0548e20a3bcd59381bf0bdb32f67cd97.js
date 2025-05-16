@@ -21,6 +21,7 @@ var dir_0548e20a3bcd59381bf0bdb32f67cd97 =
     [ "MRPartialOffset.h", "MRPartialOffset_8h.html", "MRPartialOffset_8h" ],
     [ "MRPointsToDistanceVolume.h", "MRPointsToDistanceVolume_8h.html", "MRPointsToDistanceVolume_8h" ],
     [ "MRPointsToMeshFusion.h", "MRPointsToMeshFusion_8h.html", "MRPointsToMeshFusion_8h" ],
+    [ "MRPolylineToVoxels.h", "MRPolylineToVoxels_8h.html", "MRPolylineToVoxels_8h" ],
     [ "MRRebuildMesh.h", "MRRebuildMesh_8h.html", "MRRebuildMesh_8h" ],
     [ "MRScalarConvert.h", "MRScalarConvert_8h.html", "MRScalarConvert_8h" ],
     [ "MRScanHelpers.h", "MRScanHelpers_8h.html", "MRScanHelpers_8h" ],

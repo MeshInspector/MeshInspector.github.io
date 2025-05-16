@@ -1,5 +1,15 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1GcodeProcessor_1_1Command.html#ae3896dcb88dae275220940ab26d6d42f":[6,0,1,0,1,256,1,0],
+"structMR_1_1GcodeProcessor_1_1Command.html#ae3896dcb88dae275220940ab26d6d42f":[6,0,2,0,1,240,1,0],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html":[6,0,1,0,1,256,2],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html":[6,0,2,0,1,240,2],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#a084a7529a3f6202733cdf15bef0d70df":[6,0,1,0,1,256,2,3],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#a084a7529a3f6202733cdf15bef0d70df":[6,0,2,0,1,240,2,3],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#a31e8f3ca925b988d46df24c5b5bf8ddd":[6,0,1,0,1,256,2,4],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#a31e8f3ca925b988d46df24c5b5bf8ddd":[6,0,2,0,1,240,2,4],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#a3d704b08012c57fec93ba58808ee3421":[6,0,1,0,1,256,2,5],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#a3d704b08012c57fec93ba58808ee3421":[6,0,2,0,1,240,2,5],
 "structMR_1_1GcodeProcessor_1_1MoveAction.html#a85b84c7e86dfe85baf10dcab2f46c9d6":[6,0,1,0,1,256,2,0],
 "structMR_1_1GcodeProcessor_1_1MoveAction.html#a85b84c7e86dfe85baf10dcab2f46c9d6":[6,0,2,0,1,240,2,0],
 "structMR_1_1GcodeProcessor_1_1MoveAction.html#a9c37820f22dbbb3c0a9fc9b01369abbc":[6,0,1,0,1,256,2,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec4_01_4.html":[6,0,2,0,1,4,0,7],
 "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html":[6,0,1,0,1,13,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html":[6,0,2,0,1,5,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#a70593a72a82e65c0669e7eeaea91274e":[6,0,1,0,1,13,0,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#a70593a72a82e65c0669e7eeaea91274e":[6,0,2,0,1,5,0,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#aa3013a0de4fe197926b96f4683065a23":[6,0,1,0,1,13,0,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#aa3013a0de4fe197926b96f4683065a23":[6,0,2,0,1,5,0,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#abac2cff41f1bc2c17f07184162976b9f":[6,0,1,0,1,13,0,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#abac2cff41f1bc2c17f07184162976b9f":[6,0,2,0,1,5,0,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html":[6,0,1,0,1,13,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html":[6,0,2,0,1,5,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#a3d5c40490eaf4234be2239ce7055eae5":[6,0,1,0,1,13,1,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#a3d5c40490eaf4234be2239ce7055eae5":[6,0,2,0,1,5,1,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html":[6,0,1,0,1,13,2]
+"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#a70593a72a82e65c0669e7eeaea91274e":[6,0,1,0,1,13,0,0]
 };
