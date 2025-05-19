@@ -1,5 +1,17 @@
 var NAVTREEINDEX54 =
 {
+"group__SerializerGroup.html#ga79617de343668de49d25a0ec996110e4":[6,0,0,2,15,43],
+"group__SerializerGroup.html#ga79f82dccdb83d2653639d4bc89f77507":[6,0,0,2,15,42],
+"group__SerializerGroup.html#ga810f72ff4bfd3f308bf159660074e79c":[6,0,0,2,15,29],
+"group__SerializerGroup.html#ga828f3a1487f57601504c8818f38d0f9e":[6,0,0,2,15,44],
+"group__SerializerGroup.html#ga844db290f408a9fa59211a2239689ada":[6,0,0,2,15,10],
+"group__SerializerGroup.html#ga84a27be875063a2ab0d174fa1f9e7771":[6,0,0,2,15,24],
+"group__SerializerGroup.html#ga88cac564b83aea9e1d7a37332fa81d50":[6,0,0,2,15,15],
+"group__SerializerGroup.html#ga890eacf2c6391cbf6dbb98c6bbb0fa28":[6,0,0,2,15,50],
+"group__SerializerGroup.html#ga8ba498d211b2a813befa63f55a7446cd":[6,0,0,2,15,7],
+"group__SerializerGroup.html#ga9f65600bd6b7fb223ab125f81c96ae25":[6,0,0,2,15,3],
+"group__SerializerGroup.html#gaa6c9fafbe5675e06061b897d2e92f138":[6,0,0,2,15,4],
+"group__SerializerGroup.html#gaa945fd69c2b9a828d6f34e7bc34b9df3":[6,0,0,2,15,19],
 "group__SerializerGroup.html#gaad585756b5bd8e2e9e6994cfc8f5b0fb":[6,0,0,2,15,13],
 "group__SerializerGroup.html#gaaeef0bd02442f441b66c7decaabd2047":[6,0,0,2,15,28],
 "group__SerializerGroup.html#gab49dd82250557d820cf52d7cd3a59464":[6,0,0,2,15,6],
@@ -237,17 +249,5 @@ var NAVTREEINDEX54 =
 "group__VoxelsLoadGroup.html#ga3a4b1b8a761fbb02df49c120adf8a866":[6,0,0,2,17,3],
 "group__VoxelsLoadGroup.html#ga603131e52dfc2ce8aa33d3a0d0028878":[6,0,0,2,17,7],
 "group__VoxelsLoadGroup.html#gaa5b34db6cedd5a6c229f738a4b953212":[6,0,0,2,17,5],
-"group__VoxelsLoadGroup.html#gab4eb40aeebde5d9880345caadb3a0ae7":[6,0,0,2,17,4],
-"group__VoxelsLoadGroup.html#gad3e3783e957919006d682b65886541bb":[6,0,0,2,17,6],
-"group__VoxelsLoadGroup.html#gae5828d9a431d4b30b9d90a66a7fa0e9d":[6,0,0,2,17,8],
-"hierarchy.html":[6,0,2,2],
-"index.html":[],
-"namespaceImGui.html":[6,0,1,0,0],
-"namespaceImGui.html#a01e8908c9ff42e3510168251a97f1d48":[6,0,1,0,0,8],
-"namespaceImGui.html#a023d8107acf5b52a1594c2b935b824f0":[6,0,1,0,0,10],
-"namespaceImGui.html#a05c747c1c3e6b5e5f9435452360a521f":[6,0,1,0,0,18],
-"namespaceImGui.html#a1518948fa064c73b105776a73da476dc":[6,0,1,0,0,14],
-"namespaceImGui.html#a1fb7653d1377ce1f2dd7a8f9d1057615":[6,0,1,0,0,22],
-"namespaceImGui.html#a22263f205e7e3988ff6be4e152a963a6":[6,0,1,0,0,21],
-"namespaceImGui.html#a23ae6006298ef80c1e04a1ea1b49dabf":[6,0,1,0,0,7]
+"group__VoxelsLoadGroup.html#gab4eb40aeebde5d9880345caadb3a0ae7":[6,0,0,2,17,4]
 };

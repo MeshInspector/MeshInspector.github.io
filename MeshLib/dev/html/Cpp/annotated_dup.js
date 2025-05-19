@@ -501,6 +501,7 @@ var annotated_dup =
       [ "MakeBridgeResult", "structMR_1_1MakeBridgeResult.html", "structMR_1_1MakeBridgeResult" ],
       [ "MakeDegenerateBandAroundRegionParams", "structMR_1_1MakeDegenerateBandAroundRegionParams.html", "structMR_1_1MakeDegenerateBandAroundRegionParams" ],
       [ "MakeSignedByWindingNumberSettings", "structMR_1_1MakeSignedByWindingNumberSettings.html", "structMR_1_1MakeSignedByWindingNumberSettings" ],
+      [ "MapOrHashMap", "structMR_1_1MapOrHashMap.html", "structMR_1_1MapOrHashMap" ],
       [ "MarchingCubesByParts", "classMR_1_1MarchingCubesByParts.html", "classMR_1_1MarchingCubesByParts" ],
       [ "MarchingCubesParams", "structMR_1_1MarchingCubesParams.html", "structMR_1_1MarchingCubesParams" ],
       [ "MarkedContour3f", "structMR_1_1MarkedContour3f.html", "structMR_1_1MarkedContour3f" ],

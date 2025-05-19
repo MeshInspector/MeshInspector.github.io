@@ -1,5 +1,15 @@
 var NAVTREEINDEX19 =
 {
+"classMR_1_1CaptureScreenshotMenuItem.html":[6,0,1,0,1,88],
+"classMR_1_1CaptureScreenshotMenuItem.html":[6,0,2,0,1,72],
+"classMR_1_1CaptureScreenshotMenuItem.html#a6e4d5abb53a5914e552419d36d08880c":[6,0,1,0,1,88,0],
+"classMR_1_1CaptureScreenshotMenuItem.html#a6e4d5abb53a5914e552419d36d08880c":[6,0,2,0,1,72,0],
+"classMR_1_1CaptureScreenshotMenuItem.html#ac4b0cdb8632f4960672d36407fae15e8":[6,0,1,0,1,88,1],
+"classMR_1_1CaptureScreenshotMenuItem.html#ac4b0cdb8632f4960672d36407fae15e8":[6,0,2,0,1,72,1],
+"classMR_1_1CaptureScreenshotMenuItem.html#afcc8e12a918e1c2d28ac1dd19420a818":[6,0,1,0,1,88,2],
+"classMR_1_1CaptureScreenshotMenuItem.html#afcc8e12a918e1c2d28ac1dd19420a818":[6,0,2,0,1,72,2],
+"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html":[6,0,1,0,1,89],
+"classMR_1_1CaptureScreenshotToClipBoardMenuItem.html":[6,0,2,0,1,73],
 "classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#a5bf6d6d25422d614449691f27a8415d0":[6,0,1,0,1,89,0],
 "classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#a5bf6d6d25422d614449691f27a8415d0":[6,0,2,0,1,73,0],
 "classMR_1_1CaptureScreenshotToClipBoardMenuItem.html#aa9768034e77b25ffed92bf08fbe11321":[6,0,1,0,1,89,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1ChangePolylineTopologyAction.html#a200b7e85b19209b3dec9b96249b9fbef":[6,0,0,4,23,3],
 "classMR_1_1ChangePolylineTopologyAction.html#a30e1c62f488885411792ad5acc75da7b":[6,0,0,4,23,4],
 "classMR_1_1ChangePolylineTopologyAction.html#aab07f50bc5fb59a1da47d13e888a1256":[6,0,0,4,23,1],
-"classMR_1_1ChangePolylineTopologyAction.html#ad03adcbdb1b3e090ef0d0a8aa6b0d319":[6,0,0,4,23,0],
-"classMR_1_1ChangeScaleAction.html":[6,0,0,4,24],
-"classMR_1_1ChangeScaleAction.html#a4ef261e118c5b35c7f334c4c5dc65f5c":[6,0,0,4,24,3],
-"classMR_1_1ChangeScaleAction.html#a55c7a14904e79aef0cd60392a1fd9dd1":[6,0,0,4,24,2],
-"classMR_1_1ChangeScaleAction.html#a5b30db2db48c27d37a14849a1b6b0dca":[6,0,0,4,24,1],
-"classMR_1_1ChangeScaleAction.html#a7ed6dd43bb4742c5a423190cdb2b8075":[6,0,0,4,24,0],
-"classMR_1_1ChangeSceneAction.html":[6,0,0,4,25],
-"classMR_1_1ChangeSceneAction.html#a1de30bd403835a03cc79234ac5f31280":[6,0,0,4,25,1],
-"classMR_1_1ChangeSceneAction.html#abe4134fb5816e6ed341b5b84526fe6c0":[6,0,0,4,25,2],
-"classMR_1_1ChangeSceneAction.html#ad1dec660d1132592b4ea2eb4ad53dda0":[6,0,0,4,25,4],
-"classMR_1_1ChangeSceneAction.html#ae23bede5fadd45b799171e142607c1d1":[6,0,0,4,25,0]
+"classMR_1_1ChangePolylineTopologyAction.html#ad03adcbdb1b3e090ef0d0a8aa6b0d319":[6,0,0,4,23,0]
 };

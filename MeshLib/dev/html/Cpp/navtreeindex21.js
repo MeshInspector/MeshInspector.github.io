@@ -1,5 +1,15 @@
 var NAVTREEINDEX21 =
 {
+"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,1,0,1,142,1,56],
+"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,2,0,1,126,1,56],
+"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0afc7e5e724a1d4777a9e8f28ca38916c3":[6,0,1,0,1,142,1,46],
+"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0afc7e5e724a1d4777a9e8f28ca38916c3":[6,0,2,0,1,126,1,46],
+"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0afd01a2b69bde153fcd2589c5749c317d":[6,0,1,0,1,142,1,38],
+"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0afd01a2b69bde153fcd2589c5749c317d":[6,0,2,0,1,126,1,38],
+"classMR_1_1CombinedHistoryAction.html":[6,0,0,4,34],
+"classMR_1_1CombinedHistoryAction.html#a24336720e6ef2e49fe759978a653cd93":[6,0,0,4,34,2],
+"classMR_1_1CombinedHistoryAction.html#a25f7969b5daf7f81d5dc52abce1f5850":[6,0,0,4,34,3],
+"classMR_1_1CombinedHistoryAction.html#a304820a24e74e6c61b31a203e017bc48":[6,0,0,4,34,4],
 "classMR_1_1CombinedHistoryAction.html#a59961c77016991a1c41b6f0c34545ee6":[6,0,0,4,34,6],
 "classMR_1_1CombinedHistoryAction.html#a8f6b646cd5256ca2f6cfdafba7db5d07":[6,0,0,4,34,1],
 "classMR_1_1CombinedHistoryAction.html#adba474c4514ebf52c64eb24ed5b104a1":[6,0,0,4,34,5],
@@ -239,15 +249,5 @@ var NAVTREEINDEX21 =
 "classMR_1_1DemoPlugin.html":[6,0,1,0,1,175],
 "classMR_1_1DemoPlugin.html":[6,0,2,0,1,159],
 "classMR_1_1DemoPlugin.html#a6be2d6bfd3895d3f759775a2843ed7fe":[6,0,1,0,1,175,0],
-"classMR_1_1DemoPlugin.html#a6be2d6bfd3895d3f759775a2843ed7fe":[6,0,2,0,1,159,0],
-"classMR_1_1DemoPlugin.html#afd0d013177b9745090ea82dd3e6321e7":[6,0,1,0,1,175,1],
-"classMR_1_1DemoPlugin.html#afd0d013177b9745090ea82dd3e6321e7":[6,0,2,0,1,159,1],
-"classMR_1_1DentalId.html":[6,0,1,0,1,178],
-"classMR_1_1DentalId.html":[6,0,2,0,1,162],
-"classMR_1_1DentalId.html#a413835c53825417d3814e4320110741f":[6,0,1,0,1,178,1],
-"classMR_1_1DentalId.html#a413835c53825417d3814e4320110741f":[6,0,2,0,1,162,1],
-"classMR_1_1DentalId.html#ac1858ebe9d631ac97732981502ccc423":[6,0,1,0,1,178,0],
-"classMR_1_1DentalId.html#ac1858ebe9d631ac97732981502ccc423":[6,0,2,0,1,162,0],
-"classMR_1_1DirectionWidget.html":[6,0,1,0,1,181],
-"classMR_1_1DirectionWidget.html":[6,0,2,0,1,165]
+"classMR_1_1DemoPlugin.html#a6be2d6bfd3895d3f759775a2843ed7fe":[6,0,2,0,1,159,0]
 };

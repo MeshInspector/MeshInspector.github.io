@@ -172,6 +172,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRMakeRigidXf.h", "MRMakeRigidXf_8h.html", "MRMakeRigidXf_8h" ],
     [ "MRMakeSphereMesh.h", "MRMesh_2MRMakeSphereMesh_8h.html", "MRMesh_2MRMakeSphereMesh_8h" ],
     [ "MRMapEdge.h", "MRMapEdge_8h.html", "MRMapEdge_8h" ],
+    [ "MRMapOrHashMap.h", "MRMapOrHashMap_8h.html", "MRMapOrHashMap_8h" ],
     [ "MRMapping.h", "MRMapping_8h.html", "MRMapping_8h" ],
     [ "MRMarkedContour.h", "MRMarkedContour_8h.html", "MRMarkedContour_8h" ],
     [ "MRMatrix.h", "MRMatrix_8h.html", null ],

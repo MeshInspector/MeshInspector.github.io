@@ -1,5 +1,17 @@
 var NAVTREEINDEX25 =
 {
+"classMR_1_1Histogram.html#a489a0a4c59abc3a2d4a5b3382fd7e4b3":[6,0,0,0,16,6],
+"classMR_1_1Histogram.html#a77d44fead356e682cf2c30805722b59c":[6,0,0,0,16,5],
+"classMR_1_1Histogram.html#a827e85fc6dbb381db1ecdd86cc85efc8":[6,0,0,0,16,7],
+"classMR_1_1Histogram.html#a9987d6f205ec5eb085631e1d45e333b7":[6,0,0,0,16,1],
+"classMR_1_1Histogram.html#aa191601972d6382ef20f1b6fa9ad85a0":[6,0,0,0,16,4],
+"classMR_1_1Histogram.html#aba207b56824356ab7f80254c5fd34819":[6,0,0,0,16,0],
+"classMR_1_1Histogram.html#ac1ebc3ae44e75437744d7f0b35a0dad5":[6,0,0,0,16,2],
+"classMR_1_1Historian.html":[6,0,1,0,1,272],
+"classMR_1_1Historian.html":[6,0,2,0,1,256],
+"classMR_1_1Historian.html#a7869ebc98ea62e7be5a19e2c4322b859":[6,0,1,0,1,272,1],
+"classMR_1_1Historian.html#a7869ebc98ea62e7be5a19e2c4322b859":[6,0,2,0,1,256,1],
+"classMR_1_1Historian.html#a7ab42ff05c89ab745c7cc2aec2b023db":[6,0,1,0,1,272,3],
 "classMR_1_1Historian.html#a7ab42ff05c89ab745c7cc2aec2b023db":[6,0,2,0,1,256,3],
 "classMR_1_1Historian.html#a8261070af5195a2d3e6505973b99890b":[6,0,1,0,1,272,2],
 "classMR_1_1Historian.html#a8261070af5195a2d3e6505973b99890b":[6,0,2,0,1,256,2],
@@ -237,17 +249,5 @@ var NAVTREEINDEX25 =
 "classMR_1_1ITransformControls_1_1ChangeCenterAction.html#a33f480e43da49df5be723d1981cda6c8":[6,0,1,0,1,319,0,2],
 "classMR_1_1ITransformControls_1_1ChangeCenterAction.html#a33f480e43da49df5be723d1981cda6c8":[6,0,2,0,1,303,0,2],
 "classMR_1_1ITransformControls_1_1ChangeCenterAction.html#a926ace27d08d805a74cb193b73bcb2b0":[6,0,1,0,1,319,0,0],
-"classMR_1_1ITransformControls_1_1ChangeCenterAction.html#a926ace27d08d805a74cb193b73bcb2b0":[6,0,2,0,1,303,0,0],
-"classMR_1_1ITransformControls_1_1ChangeCenterAction.html#a9f633c38c10b5c7437a1f2479e01acdf":[6,0,1,0,1,319,0,3],
-"classMR_1_1ITransformControls_1_1ChangeCenterAction.html#a9f633c38c10b5c7437a1f2479e01acdf":[6,0,2,0,1,303,0,3],
-"classMR_1_1ITransformControls_1_1ChangeCenterAction.html#abf5a84325d8fc0c434b810083942d5d2":[6,0,1,0,1,319,0,1],
-"classMR_1_1ITransformControls_1_1ChangeCenterAction.html#abf5a84325d8fc0c434b810083942d5d2":[6,0,2,0,1,303,0,1],
-"classMR_1_1IViewerSettingsManager.html":[6,0,1,0,1,320],
-"classMR_1_1IViewerSettingsManager.html":[6,0,2,0,1,304],
-"classMR_1_1IViewerSettingsManager.html#a06f9dd76c37cf576cfd31923c38dfcd0":[6,0,1,0,1,320,1],
-"classMR_1_1IViewerSettingsManager.html#a06f9dd76c37cf576cfd31923c38dfcd0":[6,0,2,0,1,304,1],
-"classMR_1_1IViewerSettingsManager.html#a5fa6959a71ea16d2cd2ca4e276a04665":[6,0,1,0,1,320,0],
-"classMR_1_1IViewerSettingsManager.html#a5fa6959a71ea16d2cd2ca4e276a04665":[6,0,2,0,1,304,0],
-"classMR_1_1IViewerSettingsManager.html#a7bd0929348c284a027cc6bed035f2b84":[6,0,1,0,1,320,3],
-"classMR_1_1IViewerSettingsManager.html#a7bd0929348c284a027cc6bed035f2b84":[6,0,2,0,1,304,3]
+"classMR_1_1ITransformControls_1_1ChangeCenterAction.html#a926ace27d08d805a74cb193b73bcb2b0":[6,0,2,0,1,303,0,0]
 };
