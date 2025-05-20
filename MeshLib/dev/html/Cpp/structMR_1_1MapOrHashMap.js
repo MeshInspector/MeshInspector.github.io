@@ -7,6 +7,7 @@ var structMR_1_1MapOrHashMap =
     [ "getHashMap", "structMR_1_1MapOrHashMap.html#a2aded678aafca023ae711c2dcad233e5", null ],
     [ "getMap", "structMR_1_1MapOrHashMap.html#a1061c0b8db208cf5af14eb2760cb3703", null ],
     [ "getMap", "structMR_1_1MapOrHashMap.html#a9027fa8effc674e94506993cc5c1ee2e", null ],
+    [ "pushBack", "structMR_1_1MapOrHashMap.html#a6d4eb8a403de0495a024d7afa51cbd6c", null ],
     [ "resizeReserve", "structMR_1_1MapOrHashMap.html#a7a15020a8ce32845565aeffab264051d", null ],
     [ "setHashMap", "structMR_1_1MapOrHashMap.html#ac7cc040fc165f15635860672b4c426d7", null ],
     [ "setMap", "structMR_1_1MapOrHashMap.html#a77ede25bfe03db7b0c3a5176323e042a", null ],

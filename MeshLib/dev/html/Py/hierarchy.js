@@ -401,7 +401,6 @@ var hierarchy =
     [ "mrmeshpy.GridSettings", "classmrmeshpy_1_1GridSettings.html", null ],
     [ "mrmeshpy.GridToMeshSettings", "classmrmeshpy_1_1GridToMeshSettings.html", null ],
     [ "mrmeshpy.VoxelsLoad.GridType", "classmrmeshpy_1_1VoxelsLoad_1_1GridType.html", null ],
-    [ "mrmeshpy.HashToVectorMappingConverter", "classmrmeshpy_1_1HashToVectorMappingConverter.html", null ],
     [ "mrmeshpy.Heap_float_GraphVertId_std_greater_float", "classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float.html", null ],
     [ "mrmeshpy.Histogram", "classmrmeshpy_1_1Histogram.html", null ],
     [ "mrmeshpy.HistoryAction", "classmrmeshpy_1_1HistoryAction.html", [
@@ -960,6 +959,7 @@ var hierarchy =
     [ "mrmeshpy.Sphere3f", "classmrmeshpy_1_1Sphere3f.html", null ],
     [ "mrmeshpy.SphereParams", "classmrmeshpy_1_1SphereParams.html", null ],
     [ "mrmeshpy.SplineSettings", "classmrmeshpy_1_1SplineSettings.html", null ],
+    [ "mrmeshpy.Src2TgtMaps", "classmrmeshpy_1_1Src2TgtMaps.html", null ],
     [ "mrmeshpy.MultiwayAligningTransform.Stabilizer", "classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer.html", null ],
     [ "mrmeshpy.Features.MeasureResult.Status", "classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status.html", null ],
     [ "mrmeshpy.std_array_AffineXf_Vector3_double_4", "classmrmeshpy_1_1std__array__AffineXf__Vector3__double__4.html", null ],

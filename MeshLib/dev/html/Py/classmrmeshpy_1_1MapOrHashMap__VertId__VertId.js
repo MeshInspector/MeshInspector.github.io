@@ -8,6 +8,7 @@ var classmrmeshpy_1_1MapOrHashMap__VertId__VertId =
     [ "getHashMap", "classmrmeshpy_1_1MapOrHashMap__VertId__VertId.html#ab8b8a0711ec27876df0d7d8c85e4efed", null ],
     [ "getMap", "classmrmeshpy_1_1MapOrHashMap__VertId__VertId.html#aab45a15dc0dd8dba83de99bd0723b856", null ],
     [ "getMap", "classmrmeshpy_1_1MapOrHashMap__VertId__VertId.html#aab45a15dc0dd8dba83de99bd0723b856", null ],
+    [ "pushBack", "classmrmeshpy_1_1MapOrHashMap__VertId__VertId.html#a031ddc57b4e873f4a68cee525267e766", null ],
     [ "resizeReserve", "classmrmeshpy_1_1MapOrHashMap__VertId__VertId.html#a616ab8fbf5af3a661fa0e6d79ee4d30d", null ],
     [ "setHashMap", "classmrmeshpy_1_1MapOrHashMap__VertId__VertId.html#ad24db6641c02284a320d4e16b96e2d6d", null ],
     [ "setMap", "classmrmeshpy_1_1MapOrHashMap__VertId__VertId.html#afc3651609b537e2e18f4f3813a236a04", null ],

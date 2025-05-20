@@ -8,6 +8,7 @@ var classmrmeshpy_1_1MapOrHashMap__Id__EdgeTag__Id__EdgeTag =
     [ "getHashMap", "classmrmeshpy_1_1MapOrHashMap__Id__EdgeTag__Id__EdgeTag.html#a73c165f75a59ef5a203df91928e1dcd2", null ],
     [ "getMap", "classmrmeshpy_1_1MapOrHashMap__Id__EdgeTag__Id__EdgeTag.html#a87cc91f9820e8cc5f71418c08d49414e", null ],
     [ "getMap", "classmrmeshpy_1_1MapOrHashMap__Id__EdgeTag__Id__EdgeTag.html#a87cc91f9820e8cc5f71418c08d49414e", null ],
+    [ "pushBack", "classmrmeshpy_1_1MapOrHashMap__Id__EdgeTag__Id__EdgeTag.html#a9fea95ffd89205caaa0fe58a4e2cb4b4", null ],
     [ "resizeReserve", "classmrmeshpy_1_1MapOrHashMap__Id__EdgeTag__Id__EdgeTag.html#a422af68c7ffc9787aac25e92a1e5fd26", null ],
     [ "setHashMap", "classmrmeshpy_1_1MapOrHashMap__Id__EdgeTag__Id__EdgeTag.html#a89ab08a8d83243c76833781f4739ce8c", null ],
     [ "setMap", "classmrmeshpy_1_1MapOrHashMap__Id__EdgeTag__Id__EdgeTag.html#a52258d2b2d13964ae9e3b57348a67d70", null ],

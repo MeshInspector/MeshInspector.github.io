@@ -178,6 +178,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac7cc040fc165f15635860672b4c426d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a15020a8ce32845565aeffab264051d" id="r_a7a15020a8ce32845565aeffab264051d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a15020a8ce32845565aeffab264051d">resizeReserve</a> (size_t denseTotalSize, size_t hashAdditionalCapacity)</td></tr>
 <tr class="separator:a7a15020a8ce32845565aeffab264051d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d4eb8a403de0495a024d7afa51cbd6c" id="r_a6d4eb8a403de0495a024d7afa51cbd6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d4eb8a403de0495a024d7afa51cbd6c">pushBack</a> (K key, V val)</td></tr>
+<tr class="separator:a6d4eb8a403de0495a024d7afa51cbd6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1061c0b8db208cf5af14eb2760cb3703" id="r_a1061c0b8db208cf5af14eb2760cb3703"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ac2b84418d93cdedba84fe87ce2595e2e">Dense</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1061c0b8db208cf5af14eb2760cb3703">getMap</a> ()</td></tr>
 <tr class="separator:a1061c0b8db208cf5af14eb2760cb3703"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9027fa8effc674e94506993cc5c1ee2e" id="r_a9027fa8effc674e94506993cc5c1ee2e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ac2b84418d93cdedba84fe87ce2595e2e">Dense</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9027fa8effc674e94506993cc5c1ee2e">getMap</a> () const</td></tr>
@@ -416,6 +418,30 @@ template&lt;typename K , typename V &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6d4eb8a403de0495a024d7afa51cbd6c" name="a6d4eb8a403de0495a024d7afa51cbd6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d4eb8a403de0495a024d7afa51cbd6c">&#9670;&#160;</a></span>pushBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename K , typename V &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="structMR_1_1MapOrHashMap.html">MR::MapOrHashMap</a>&lt; K, V &gt;::pushBack </td>
+          <td>(</td>
+          <td class="paramtype">K</td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">V</td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>appends one element in the map, in case of dense map, key must be equal to vector.endId() </p>
 
 </div>
 </div>

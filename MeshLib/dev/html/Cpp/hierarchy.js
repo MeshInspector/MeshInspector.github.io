@@ -409,7 +409,6 @@ var hierarchy =
     [ "MR::GridToMeshSettings", "structMR_1_1GridToMeshSettings.html", null ],
     [ "MR::UI::TestEngine::GroupEntry", "structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html", null ],
     [ "MR::TouchpadController::Handler", "classMR_1_1TouchpadController_1_1Handler.html", null ],
-    [ "MR::HashToVectorMappingConverter", "classMR_1_1HashToVectorMappingConverter.html", null ],
     [ "MR::Heap< T, I, P >", "classMR_1_1Heap.html", null ],
     [ "MR::Histogram", "classMR_1_1Histogram.html", null ],
     [ "ImGui::HistogramGridLine", "structImGui_1_1HistogramGridLine.html", null ],
@@ -1163,6 +1162,7 @@ var hierarchy =
       [ "MR::DefaultSplashWindow", "classMR_1_1DefaultSplashWindow.html", null ]
     ] ],
     [ "MR::SplineSettings", "structMR_1_1SplineSettings.html", null ],
+    [ "MR::Src2TgtMaps", "classMR_1_1Src2TgtMaps.html", null ],
     [ "MR::MultiwayAligningTransform::Stabilizer", "structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html", null ],
     [ "MR::StitchHolesParams", "structMR_1_1StitchHolesParams.html", null ],
     [ "MR::StopOnTrueCombiner", "structMR_1_1StopOnTrueCombiner.html", null ],

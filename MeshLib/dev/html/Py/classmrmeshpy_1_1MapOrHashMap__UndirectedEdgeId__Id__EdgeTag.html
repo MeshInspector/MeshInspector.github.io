@@ -178,6 +178,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a42d033cef8cb79abe8faa2dd6f4957e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42d033cef8cb79abe8faa2dd6f4957e3" id="r_a42d033cef8cb79abe8faa2dd6f4957e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1WholeEdgeMap.html">WholeEdgeMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42d033cef8cb79abe8faa2dd6f4957e3">getMap</a> (self)</td></tr>
 <tr class="separator:a42d033cef8cb79abe8faa2dd6f4957e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90a55856028fb78ea20b2e07b8580fd7" id="r_a90a55856028fb78ea20b2e07b8580fd7"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90a55856028fb78ea20b2e07b8580fd7">pushBack</a> (self, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a> key, <a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> val)</td></tr>
+<tr class="separator:a90a55856028fb78ea20b2e07b8580fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd755caa95c64ef04cb9414c281f8537" id="r_afd755caa95c64ef04cb9414c281f8537"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd755caa95c64ef04cb9414c281f8537">resizeReserve</a> (self, int denseTotalSize, int hashAdditionalCapacity)</td></tr>
 <tr class="separator:afd755caa95c64ef04cb9414c281f8537"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0730eaaabba161c188b6746922b0ff63" id="r_a0730eaaabba161c188b6746922b0ff63"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0730eaaabba161c188b6746922b0ff63">setHashMap</a> (self, <a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__EdgeTag.html">phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_EdgeTag</a> m)</td></tr>
@@ -407,6 +409,34 @@ stores a mapping from keys K to values V in one of two forms:
       </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="a90a55856028fb78ea20b2e07b8580fd7" name="a90a55856028fb78ea20b2e07b8580fd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90a55856028fb78ea20b2e07b8580fd7">&#9670;&#160;</a></span>pushBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.MapOrHashMap_UndirectedEdgeId_Id_EdgeTag.pushBack </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a></td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">appends one element in the map,
+in case of dense map, key must be equal to vector.endId()
+</pre> 
 </div>
 </div>
 <a id="afd755caa95c64ef04cb9414c281f8537" name="afd755caa95c64ef04cb9414c281f8537"></a>

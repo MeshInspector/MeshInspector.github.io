@@ -178,6 +178,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a04ff8b831776bd6baf73d240cf08ea4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04ff8b831776bd6baf73d240cf08ea4e" id="r_a04ff8b831776bd6baf73d240cf08ea4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceMap.html">FaceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04ff8b831776bd6baf73d240cf08ea4e">getMap</a> (self)</td></tr>
 <tr class="separator:a04ff8b831776bd6baf73d240cf08ea4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3407dcd9b73fa18589923b9eb817cfb4" id="r_a3407dcd9b73fa18589923b9eb817cfb4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3407dcd9b73fa18589923b9eb817cfb4">pushBack</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> key, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> val)</td></tr>
+<tr class="separator:a3407dcd9b73fa18589923b9eb817cfb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfe3e865a1fdd13e50a948eccba911d9" id="r_abfe3e865a1fdd13e50a948eccba911d9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfe3e865a1fdd13e50a948eccba911d9">resizeReserve</a> (self, int denseTotalSize, int hashAdditionalCapacity)</td></tr>
 <tr class="separator:abfe3e865a1fdd13e50a948eccba911d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2772417ec9d2d05aeb478277dbb295a2" id="r_a2772417ec9d2d05aeb478277dbb295a2"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2772417ec9d2d05aeb478277dbb295a2">setHashMap</a> (self, <a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag.html">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</a> m)</td></tr>
@@ -407,6 +409,34 @@ stores a mapping from keys K to values V in one of two forms:
       </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="a3407dcd9b73fa18589923b9eb817cfb4" name="a3407dcd9b73fa18589923b9eb817cfb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3407dcd9b73fa18589923b9eb817cfb4">&#9670;&#160;</a></span>pushBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.MapOrHashMap_FaceId_FaceId.pushBack </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">appends one element in the map,
+in case of dense map, key must be equal to vector.endId()
+</pre> 
 </div>
 </div>
 <a id="abfe3e865a1fdd13e50a948eccba911d9" name="abfe3e865a1fdd13e50a948eccba911d9"></a>
