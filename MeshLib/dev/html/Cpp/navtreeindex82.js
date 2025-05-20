@@ -1,5 +1,9 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1ResolveMeshDegenSettings.html":[6,0,1,0,1,579],
+"structMR_1_1ResolveMeshDegenSettings.html":[6,0,2,0,1,563],
+"structMR_1_1ResolveMeshDegenSettings.html#a109fa850f78fd8bce1db8edf8f434645":[6,0,1,0,1,579,1],
+"structMR_1_1ResolveMeshDegenSettings.html#a109fa850f78fd8bce1db8edf8f434645":[6,0,2,0,1,563,1],
 "structMR_1_1ResolveMeshDegenSettings.html#a1c8ab4ca92a23c0244bcd45ce40afdaa":[6,0,1,0,1,579,2],
 "structMR_1_1ResolveMeshDegenSettings.html#a1c8ab4ca92a23c0244bcd45ce40afdaa":[6,0,2,0,1,563,2],
 "structMR_1_1ResolveMeshDegenSettings.html#a1fd9db224a1fdd6e4d55700db57c1ab4":[6,0,1,0,1,579,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1SceneReorder.html":[6,0,2,0,1,605],
 "structMR_1_1SceneReorder.html#ab39a433324beece46d83541e3d195aa1":[6,0,1,0,1,621,0],
 "structMR_1_1SceneReorder.html#ab39a433324beece46d83541e3d195aa1":[6,0,2,0,1,605,0],
-"structMR_1_1SceneReorder.html#abacbb4958924f1ae24622120a956b43f":[6,0,1,0,1,621,1],
-"structMR_1_1SceneReorder.html#abacbb4958924f1ae24622120a956b43f":[6,0,2,0,1,605,1],
-"structMR_1_1SceneReorder.html#ad02567fbc39d8a94b4870c8b0f55a01a":[6,0,1,0,1,621,2],
-"structMR_1_1SceneReorder.html#ad02567fbc39d8a94b4870c8b0f55a01a":[6,0,2,0,1,605,2],
-"structMR_1_1SearchPathSettings.html":[6,0,1,0,1,637]
+"structMR_1_1SceneReorder.html#abacbb4958924f1ae24622120a956b43f":[6,0,1,0,1,621,1]
 };

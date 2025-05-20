@@ -1,5 +1,9 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1MouseClickListener.html#a8a3a8c6ceb42ce6958bd4e57fa667d8a":[6,0,1,0,1,394,1],
+"structMR_1_1MouseClickListener.html#a8a3a8c6ceb42ce6958bd4e57fa667d8a":[6,0,2,0,1,378,1],
+"structMR_1_1MouseController_1_1MouseControlKey.html":[6,0,1,0,1,395,0],
+"structMR_1_1MouseController_1_1MouseControlKey.html":[6,0,2,0,1,379,0],
 "structMR_1_1MouseController_1_1MouseControlKey.html#a13a368ef25048dff50e694ce949484e6":[6,0,1,0,1,395,0,0],
 "structMR_1_1MouseController_1_1MouseControlKey.html#a13a368ef25048dff50e694ce949484e6":[6,0,2,0,1,379,0,0],
 "structMR_1_1MouseController_1_1MouseControlKey.html#a647bc43b34bf75a34af675e69cd0f10b":[6,0,1,0,1,395,0,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1ObjTreeTraits.html#a7208b3ed4cbf6a7db7c03785856d5131":[6,0,1,0,1,452,1],
 "structMR_1_1ObjTreeTraits.html#a7208b3ed4cbf6a7db7c03785856d5131":[6,0,2,0,1,436,1],
 "structMR_1_1ObjTreeTraits.html#ae8c8c6d7c93de2cba91378f547c50a8e":[6,0,1,0,1,452,0],
-"structMR_1_1ObjTreeTraits.html#ae8c8c6d7c93de2cba91378f547c50a8e":[6,0,2,0,1,436,0],
-"structMR_1_1ObjVertId.html":[6,0,1,0,1,453],
-"structMR_1_1ObjVertId.html":[6,0,2,0,1,437],
-"structMR_1_1ObjVertId.html#a4fe9249435e74452c6a1f2a06d40de31":[6,0,1,0,1,453,1],
-"structMR_1_1ObjVertId.html#a4fe9249435e74452c6a1f2a06d40de31":[6,0,2,0,1,437,1]
+"structMR_1_1ObjTreeTraits.html#ae8c8c6d7c93de2cba91378f547c50a8e":[6,0,2,0,1,436,0]
 };

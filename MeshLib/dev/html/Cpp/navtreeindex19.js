@@ -1,5 +1,7 @@
 var NAVTREEINDEX19 =
 {
+"classMR_1_1CameraOrientation.html#aded26055d65895c92ebe389028088749":[6,0,1,0,1,87,1],
+"classMR_1_1CameraOrientation.html#aded26055d65895c92ebe389028088749":[6,0,2,0,1,71,1],
 "classMR_1_1CaptureScreenshotMenuItem.html":[6,0,1,0,1,88],
 "classMR_1_1CaptureScreenshotMenuItem.html":[6,0,2,0,1,72],
 "classMR_1_1CaptureScreenshotMenuItem.html#a6e4d5abb53a5914e552419d36d08880c":[6,0,1,0,1,88,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1ChangePolylineTopologyAction.html":[6,0,0,4,23],
 "classMR_1_1ChangePolylineTopologyAction.html#a02bda3639e986d6a99bd8f2f5cfa05ad":[6,0,0,4,23,2],
 "classMR_1_1ChangePolylineTopologyAction.html#a200b7e85b19209b3dec9b96249b9fbef":[6,0,0,4,23,3],
-"classMR_1_1ChangePolylineTopologyAction.html#a30e1c62f488885411792ad5acc75da7b":[6,0,0,4,23,4],
-"classMR_1_1ChangePolylineTopologyAction.html#aab07f50bc5fb59a1da47d13e888a1256":[6,0,0,4,23,1],
-"classMR_1_1ChangePolylineTopologyAction.html#ad03adcbdb1b3e090ef0d0a8aa6b0d319":[6,0,0,4,23,0]
+"classMR_1_1ChangePolylineTopologyAction.html#a30e1c62f488885411792ad5acc75da7b":[6,0,0,4,23,4]
 };

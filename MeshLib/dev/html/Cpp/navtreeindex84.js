@@ -1,5 +1,9 @@
 var NAVTREEINDEX84 =
 {
+"structMR_1_1Sphere.html#a0146c86fafdf02efca98966d2ff841ef":[6,0,0,0,23,1],
+"structMR_1_1Sphere.html#a0254f6c6d3b7fbc30e5cb028767d85cf":[6,0,0,0,23,7],
+"structMR_1_1Sphere.html#a3bcdf3d7bbfda09b3708d12b755ac6f0":[6,0,0,0,23,4],
+"structMR_1_1Sphere.html#a7be349cb025864bef77e267cefdccd28":[6,0,0,0,23,6],
 "structMR_1_1Sphere.html#aa64bd93352d925774a4989e5230624e7":[6,0,0,0,23,3],
 "structMR_1_1Sphere.html#ab3dcbfdadbd1e9018e22a979ea25c6f9":[6,0,0,0,23,0],
 "structMR_1_1Sphere.html#ac6fe7dcb9fbe192141cde72e7f9a3551":[6,0,0,0,23,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX84 =
 "structMR_1_1TiffParameters.html#ad64f46697aae94f7b2569134b2cbd954":[6,0,1,0,1,701,1],
 "structMR_1_1TiffParameters.html#ad64f46697aae94f7b2569134b2cbd954":[6,0,2,0,1,685,1],
 "structMR_1_1TiffParameters.html#af83e01315d14765d77386039af6d8687":[6,0,1,0,1,701,3],
-"structMR_1_1TiffParameters.html#af83e01315d14765d77386039af6d8687":[6,0,2,0,1,685,3],
-"structMR_1_1TimeRecord.html":[6,0,0,3,13],
-"structMR_1_1TimeRecord.html#a7fcf403676ad98c8772e03ebec6d37de":[6,0,0,3,13,0],
-"structMR_1_1TimeRecord.html#a80d3da8e260d6c62716855a674a2bc46":[6,0,0,3,13,1],
-"structMR_1_1TimeRecord.html#aa4ecd25889d637813c8abcc75610cf51":[6,0,0,3,13,4]
+"structMR_1_1TiffParameters.html#af83e01315d14765d77386039af6d8687":[6,0,2,0,1,685,3]
 };

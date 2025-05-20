@@ -1,5 +1,7 @@
 var NAVTREEINDEX28 =
 {
+"classMR_1_1LambdaRibbonItem.html#adef78787d2334e909f2cd6f40c3e427e":[6,0,1,0,1,323,1],
+"classMR_1_1LambdaRibbonItem.html#adef78787d2334e909f2cd6f40c3e427e":[6,0,2,0,1,307,1],
 "classMR_1_1LambdaRibbonItem.html#adf0efc0eaab84312e1058ba6f3d8cb95":[6,0,1,0,1,323,0],
 "classMR_1_1LambdaRibbonItem.html#adf0efc0eaab84312e1058ba6f3d8cb95":[6,0,2,0,1,307,0],
 "classMR_1_1Laplacian.html":[6,0,1,0,1,324],
@@ -247,7 +249,5 @@ var NAVTREEINDEX28 =
 "classMR_1_1MeshOrPoints.html#aec797ad241ba4410f73274ba5e52c51e":[6,0,2,0,1,351,8],
 "classMR_1_1MeshOrPoints.html#af68f336dca5c1cbf834ab0c65fc38036":[6,0,1,0,1,367,9],
 "classMR_1_1MeshOrPoints.html#af68f336dca5c1cbf834ab0c65fc38036":[6,0,2,0,1,351,9],
-"classMR_1_1MeshOrPoints.html#af9cbf91d93d22bcc4e487a573b2b8067":[6,0,1,0,1,367,2],
-"classMR_1_1MeshOrPoints.html#af9cbf91d93d22bcc4e487a573b2b8067":[6,0,2,0,1,351,2],
-"classMR_1_1MeshOrPointsObject.html":[6,0,1,0,1,368]
+"classMR_1_1MeshOrPoints.html#af9cbf91d93d22bcc4e487a573b2b8067":[6,0,1,0,1,367,2]
 };

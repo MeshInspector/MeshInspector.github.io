@@ -1,5 +1,7 @@
 var NAVTREEINDEX13 =
 {
+"MRRibbonLayoutConfig_8h.html#a57613237dbb6d143b056f9f888c9ee0d":[6,0,3,0,0,1,10,84,1],
+"MRRibbonLayoutConfig_8h.html#ad38761a3c9798cc64354bfb245cce186":[6,0,3,0,0,1,10,84,2],
 "MRRibbonLayoutConfig_8h_source.html":[6,0,3,0,0,1,10,84],
 "MRRibbonMenuItem_8h.html":[6,0,3,0,0,1,10,86],
 "MRRibbonMenuItem_8h.html#a1478e43a90bad95d9ef709807606688a":[6,0,3,0,0,1,10,86,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX13 =
 "MRStatePlugin_8h.html":[6,0,3,0,0,1,10,115],
 "MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37":[6,0,3,0,0,1,10,115,2],
 "MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a0cbc6611f5540bd0809a388dc95a615b":[6,0,3,0,0,1,10,115,2,7],
-"MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a59637ce14182065617d85623a588b6f0":[6,0,3,0,0,1,10,115,2,5],
-"MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a6311ae17c1ee52b36e68aaf4ad066387":[6,0,3,0,0,1,10,115,2,8],
-"MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a6ff9dd0d34f65181173c1e4bc39939de":[6,0,3,0,0,1,10,115,2,4]
+"MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a59637ce14182065617d85623a588b6f0":[6,0,3,0,0,1,10,115,2,5]
 };

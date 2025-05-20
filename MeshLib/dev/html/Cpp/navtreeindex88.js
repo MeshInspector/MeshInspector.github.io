@@ -1,5 +1,9 @@
 var NAVTREEINDEX88 =
 {
+"structMR_1_1Vector4.html#a2dd22ed3ae33f32c5110d16e149d10c1":[6,0,0,0,12,2,9],
+"structMR_1_1Vector4.html#a366f9f44e9b5375e2716d7559fea8033":[6,0,0,0,12,2,4],
+"structMR_1_1Vector4.html#a406ab28ca8f52a20219ceffe78e52cd5":[6,0,0,0,12,2,23],
+"structMR_1_1Vector4.html#a40d27756dd3dd012e19e847137c16532":[6,0,0,0,12,2,26],
 "structMR_1_1Vector4.html#a458502d7f4776a6bddef3495ad567541":[6,0,0,0,12,2,2],
 "structMR_1_1Vector4.html#a50bac4033d0f4d0e5c92933a5eda6883":[6,0,0,0,12,2,13],
 "structMR_1_1Vector4.html#a556227be53d866e9103d95440b88c41b":[6,0,0,0,12,2,20],
@@ -245,9 +249,5 @@ var NAVTREEINDEX88 =
 "structMR_1_1VoxelsSave_1_1SavingSettings.html#a61495391ee95acbc5462893baceab323":[6,0,0,2,18,0],
 "structMR_1_1VoxelsSave_1_1SavingSettings.html#a8194c36117ac4d7ace9f1070ce398953":[6,0,0,2,18,3],
 "structMR_1_1VoxelsSave_1_1SavingSettings.html#a8415f6dc84ccf8061fd256e2420cd4fd":[6,0,0,2,18,2],
-"structMR_1_1VoxelsSave_1_1SavingSettings.html#abc7da521abdd392c79be9602cde3dc64":[6,0,0,2,18,1],
-"structMR_1_1VoxelsVolume.html":[6,0,1,0,1,786],
-"structMR_1_1VoxelsVolume.html":[6,0,2,0,1,770],
-"structMR_1_1VoxelsVolume.html#a3d40ff5d6e909a58566b67d177842ba0":[6,0,1,0,1,786,4],
-"structMR_1_1VoxelsVolume.html#a3d40ff5d6e909a58566b67d177842ba0":[6,0,2,0,1,770,4]
+"structMR_1_1VoxelsSave_1_1SavingSettings.html#abc7da521abdd392c79be9602cde3dc64":[6,0,0,2,18,1]
 };

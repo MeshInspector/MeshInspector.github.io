@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"MRPrecisePredicates2_8h.html#a10729a0925102f48ab56d783b191699c":[6,0,3,0,0,1,4,305,9],
+"MRPrecisePredicates2_8h.html#a1dd7d1f303aba49ee7b9f4e984261bd7":[6,0,3,0,0,1,4,305,11],
 "MRPrecisePredicates2_8h.html#a565f119f21a7b73c4af0da283afb6c30":[6,0,3,0,0,1,4,305,15],
 "MRPrecisePredicates2_8h.html#a5f3df64863abc3404145b3343176c230":[6,0,3,0,0,1,4,305,10],
 "MRPrecisePredicates2_8h.html#a6626f7c315e4aae48380b5c214af0e42":[6,0,3,0,0,1,4,305,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "MRRibbonFontManager_8h_source.html":[6,0,3,0,0,1,10,82],
 "MRRibbonIcons_8h.html":[6,0,3,0,0,1,10,83],
 "MRRibbonIcons_8h_source.html":[6,0,3,0,0,1,10,83],
-"MRRibbonLayoutConfig_8h.html":[6,0,3,0,0,1,10,84],
-"MRRibbonLayoutConfig_8h.html#a57613237dbb6d143b056f9f888c9ee0d":[6,0,3,0,0,1,10,84,1],
-"MRRibbonLayoutConfig_8h.html#ad38761a3c9798cc64354bfb245cce186":[6,0,3,0,0,1,10,84,2]
+"MRRibbonLayoutConfig_8h.html":[6,0,3,0,0,1,10,84]
 };
