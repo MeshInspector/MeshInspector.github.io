@@ -1610,7 +1610,7 @@ var namespacemrmeshpy =
     [ "findRepeatedOrientedTriangles", "namespacemrmeshpy.html#a9b0ca927804a0e94a05ebd291280ca9d", null ],
     [ "findRepeatedUnorientedTriangles", "namespacemrmeshpy.html#aae36e2d60b99116f21297e41459c6fd2", null ],
     [ "findRepeatedVertsOnHoleBd", "namespacemrmeshpy.html#a7482d186c3fb84d395018ca3a94033f9", null ],
-    [ "findRightBoundary", "namespacemrmeshpy.html#a581568475c184614f799cd869e5c1803", null ],
+    [ "findRightBoundary", "namespacemrmeshpy.html#a4cf9ad071d1ea3099498e62b74e23639", null ],
     [ "findSegmentSegmentIntersectionPrecise", "namespacemrmeshpy.html#aaa354acee25fe1947c98070ee4546790", null ],
     [ "findSegmentSegmentIntersectionPrecise", "namespacemrmeshpy.html#a96cb060db82d30211bd054ea230d1210", null ],
     [ "findSelfCollidingEdgePairs", "namespacemrmeshpy.html#a3ef4ea91638d461d59f38620982006d9", null ],
