@@ -1,7 +1,5 @@
 var NAVTREEINDEX111 =
 {
-"classmrmeshpy_1_1VoxelsVolume__std__shared__ptr__OpenVdbFloatGrid.html#abc471e91d4e6cc9a2e7f11c1d918327f":[6,1,0,0,2,1124,0],
-"classmrmeshpy_1_1VoxelsVolume__std__shared__ptr__OpenVdbFloatGrid.html#abc471e91d4e6cc9a2e7f11c1d918327f":[6,1,1,0,1,1124,0],
 "classmrmeshpy_1_1WatershedGraph.html":[6,1,0,0,2,1137],
 "classmrmeshpy_1_1WatershedGraph.html":[6,1,1,0,1,1137],
 "classmrmeshpy_1_1WatershedGraph.html#a0853df977484ef1331de47d0a6e21f53":[6,1,0,0,2,1137,16],
@@ -249,5 +247,7 @@ var NAVTREEINDEX111 =
 "classmrmeshpy_1_1WholeEdgeMap.html#a303b19c1e9ad865a89dd9990ef8c5b25":[6,1,1,0,1,1144,6],
 "classmrmeshpy_1_1WholeEdgeMap.html#a303b19c1e9ad865a89dd9990ef8c5b25":[6,1,1,0,1,1144,7],
 "classmrmeshpy_1_1WholeEdgeMap.html#a31d828d3c3d0c2f32568c07935088093":[6,1,0,0,2,1144,17],
-"classmrmeshpy_1_1WholeEdgeMap.html#a31d828d3c3d0c2f32568c07935088093":[6,1,1,0,1,1144,17]
+"classmrmeshpy_1_1WholeEdgeMap.html#a31d828d3c3d0c2f32568c07935088093":[6,1,1,0,1,1144,17],
+"classmrmeshpy_1_1WholeEdgeMap.html#a340ed19a482e54a692934baa7a17dcf7":[6,1,0,0,2,1144,28],
+"classmrmeshpy_1_1WholeEdgeMap.html#a340ed19a482e54a692934baa7a17dcf7":[6,1,1,0,1,1144,28]
 };

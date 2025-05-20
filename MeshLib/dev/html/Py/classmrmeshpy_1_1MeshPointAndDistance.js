@@ -10,7 +10,6 @@ var classmrmeshpy_1_1MeshPointAndDistance =
     [ "dist", "classmrmeshpy_1_1MeshPointAndDistance.html#a094f182b38045b628be7db6d09d760ab", null ],
     [ "eucledeanDist", "classmrmeshpy_1_1MeshPointAndDistance.html#a9358b0987db663641df103b5c23418c8", null ],
     [ "eucledeanDist", "classmrmeshpy_1_1MeshPointAndDistance.html#a3519d9a93ffb7596652712283e238007", null ],
-    [ "innerDist", "classmrmeshpy_1_1MeshPointAndDistance.html#a9739b9295dc568f0dfc1ce76a120db9c", null ],
     [ "mtp", "classmrmeshpy_1_1MeshPointAndDistance.html#a0df7f1a824816b770aeb56e73efa0d39", null ],
     [ "mtp", "classmrmeshpy_1_1MeshPointAndDistance.html#a659a07a401975c3b9b68213d23019fea", null ],
     [ "valid", "classmrmeshpy_1_1MeshPointAndDistance.html#ab6cf6eb949266096238c11e11eb41f53", null ],

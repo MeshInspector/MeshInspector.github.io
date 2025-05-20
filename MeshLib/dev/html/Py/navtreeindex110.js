@@ -1,7 +1,5 @@
 var NAVTREEINDEX110 =
 {
-"classmrmeshpy_1_1VoxelMetricParameters.html#a6f40d9e2612b4df01bba975a6d396337":[6,1,0,0,2,1121,6],
-"classmrmeshpy_1_1VoxelMetricParameters.html#a6f40d9e2612b4df01bba975a6d396337":[6,1,1,0,1,1121,6],
 "classmrmeshpy_1_1VoxelMetricParameters.html#aa92f9238f1b93dca7e78440103761c5f":[6,1,0,0,2,1121,2],
 "classmrmeshpy_1_1VoxelMetricParameters.html#aa92f9238f1b93dca7e78440103761c5f":[6,1,1,0,1,1121,2],
 "classmrmeshpy_1_1VoxelMetricParameters.html#aaafaaa6e8391db85081cf8f65df01f65":[6,1,0,0,2,1121,8],
@@ -249,5 +247,7 @@ var NAVTREEINDEX110 =
 "classmrmeshpy_1_1VoxelsVolume__std__shared__ptr__OpenVdbFloatGrid.html#a35d56cdd0146bb9baae77cf476b95f93":[6,1,0,0,2,1124,3],
 "classmrmeshpy_1_1VoxelsVolume__std__shared__ptr__OpenVdbFloatGrid.html#a35d56cdd0146bb9baae77cf476b95f93":[6,1,1,0,1,1124,3],
 "classmrmeshpy_1_1VoxelsVolume__std__shared__ptr__OpenVdbFloatGrid.html#a96f2f366381eb80b4c45350fd3d3fb2f":[6,1,0,0,2,1124,1],
-"classmrmeshpy_1_1VoxelsVolume__std__shared__ptr__OpenVdbFloatGrid.html#a96f2f366381eb80b4c45350fd3d3fb2f":[6,1,1,0,1,1124,1]
+"classmrmeshpy_1_1VoxelsVolume__std__shared__ptr__OpenVdbFloatGrid.html#a96f2f366381eb80b4c45350fd3d3fb2f":[6,1,1,0,1,1124,1],
+"classmrmeshpy_1_1VoxelsVolume__std__shared__ptr__OpenVdbFloatGrid.html#abc471e91d4e6cc9a2e7f11c1d918327f":[6,1,0,0,2,1124,0],
+"classmrmeshpy_1_1VoxelsVolume__std__shared__ptr__OpenVdbFloatGrid.html#abc471e91d4e6cc9a2e7f11c1d918327f":[6,1,1,0,1,1124,0]
 };

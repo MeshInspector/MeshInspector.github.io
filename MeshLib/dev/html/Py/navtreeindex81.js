@@ -1,7 +1,5 @@
 var NAVTREEINDEX81 =
 {
-"classmrmeshpy_1_1TexturePerFace.html#ad70a7e2263ad228de077aaa302f2e7b1":[6,1,0,0,2,986,33],
-"classmrmeshpy_1_1TexturePerFace.html#ad70a7e2263ad228de077aaa302f2e7b1":[6,1,1,0,1,986,33],
 "classmrmeshpy_1_1TexturePerFace.html#ad78a9042cc03b7dc1f43c4f83b404519":[6,1,0,0,2,986,24],
 "classmrmeshpy_1_1TexturePerFace.html#ad78a9042cc03b7dc1f43c4f83b404519":[6,1,1,0,1,986,24],
 "classmrmeshpy_1_1TexturePerFace.html#ad87d716d6c886fd53287cf2303a2dff8":[6,1,0,0,2,986,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX81 =
 "classmrmeshpy_1_1TriangleSegmentIntersectResult.html#a999c16852d18828864e088e91a1072e8":[6,1,0,0,2,992,5],
 "classmrmeshpy_1_1TriangleSegmentIntersectResult.html#a999c16852d18828864e088e91a1072e8":[6,1,1,0,1,992,5],
 "classmrmeshpy_1_1TriangleSegmentIntersectResult.html#aa9fa94a138700cc9006c0d43d7ec5525":[6,1,0,0,2,992,7],
-"classmrmeshpy_1_1TriangleSegmentIntersectResult.html#aa9fa94a138700cc9006c0d43d7ec5525":[6,1,1,0,1,992,7]
+"classmrmeshpy_1_1TriangleSegmentIntersectResult.html#aa9fa94a138700cc9006c0d43d7ec5525":[6,1,1,0,1,992,7],
+"classmrmeshpy_1_1TriangleSegmentIntersectResult.html#ae257cf60c3dd5edd2e0e238f880a1d22":[6,1,0,0,2,992,4],
+"classmrmeshpy_1_1TriangleSegmentIntersectResult.html#ae257cf60c3dd5edd2e0e238f880a1d22":[6,1,1,0,1,992,4]
 };

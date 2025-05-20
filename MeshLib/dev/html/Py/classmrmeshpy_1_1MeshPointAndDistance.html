@@ -172,8 +172,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab68875183ca26a816eaf38924c77044f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a094f182b38045b628be7db6d09d760ab" id="r_a094f182b38045b628be7db6d09d760ab"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a094f182b38045b628be7db6d09d760ab">dist</a> (self)</td></tr>
 <tr class="separator:a094f182b38045b628be7db6d09d760ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9739b9295dc568f0dfc1ce76a120db9c" id="r_a9739b9295dc568f0dfc1ce76a120db9c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9739b9295dc568f0dfc1ce76a120db9c">innerDist</a> (self)</td></tr>
-<tr class="separator:a9739b9295dc568f0dfc1ce76a120db9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6cf6eb949266096238c11e11eb41f53" id="r_ab6cf6eb949266096238c11e11eb41f53"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6cf6eb949266096238c11e11eb41f53">valid</a> (self)</td></tr>
 <tr class="separator:ab6cf6eb949266096238c11e11eb41f53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad01cf22daf1b8c294bbd0af4109d2fa2" id="r_ad01cf22daf1b8c294bbd0af4109d2fa2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad01cf22daf1b8c294bbd0af4109d2fa2">bidirectionalOrOutside</a> (self)</td></tr>
@@ -407,25 +405,6 @@ which makes 2*weight jump if the location moves through the surface
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a9739b9295dc568f0dfc1ce76a120db9c" name="a9739b9295dc568f0dfc1ce76a120db9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9739b9295dc568f0dfc1ce76a120db9c">&#9670;&#160;</a></span>innerDist()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> float mrmeshpy.MeshPointAndDistance.innerDist </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">this distance is used internally to find the best surface point, which has the smallest inner distance;
-innerDist() grows in both directions of the surface unlike weightedDist()
-</pre> 
 </div>
 </div>
 <a id="a0df7f1a824816b770aeb56e73efa0d39" name="a0df7f1a824816b770aeb56e73efa0d39"></a>

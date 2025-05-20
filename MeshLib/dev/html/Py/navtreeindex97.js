@@ -1,7 +1,5 @@
 var NAVTREEINDEX97 =
 {
-"classmrmeshpy_1_1Vector__PixelId__PixelId.html#afab1b49aeee4808ede15a531915fd918":[6,1,1,0,1,1069,29],
-"classmrmeshpy_1_1Vector__PixelId__PixelId.html#afab1b49aeee4808ede15a531915fd918":[6,1,1,0,1,1069,30],
 "classmrmeshpy_1_1Vector__PixelId__PixelId.html#afe05b8d3b332273f86e256dd0b5fd8e7":[6,1,0,0,2,1069,39],
 "classmrmeshpy_1_1Vector__PixelId__PixelId.html#afe05b8d3b332273f86e256dd0b5fd8e7":[6,1,1,0,1,1069,39],
 "classmrmeshpy_1_1Vector__QuadraticForm2f__VertId.html":[6,1,0,0,2,1070],
@@ -249,5 +247,7 @@ var NAVTREEINDEX97 =
 "classmrmeshpy_1_1Vector__TextureId__TextureId.html#a03c8411be25e87063457cfe7d50d4441":[6,1,0,0,2,1078,11],
 "classmrmeshpy_1_1Vector__TextureId__TextureId.html#a03c8411be25e87063457cfe7d50d4441":[6,1,1,0,1,1078,11],
 "classmrmeshpy_1_1Vector__TextureId__TextureId.html#a0dd65f52c12b9bd55d0b255b39e253bf":[6,1,0,0,2,1078,17],
-"classmrmeshpy_1_1Vector__TextureId__TextureId.html#a0dd65f52c12b9bd55d0b255b39e253bf":[6,1,1,0,1,1078,17]
+"classmrmeshpy_1_1Vector__TextureId__TextureId.html#a0dd65f52c12b9bd55d0b255b39e253bf":[6,1,1,0,1,1078,17],
+"classmrmeshpy_1_1Vector__TextureId__TextureId.html#a0ebdf98e85da0bccdb5695bdedc2fe7b":[6,1,0,0,2,1078,8],
+"classmrmeshpy_1_1Vector__TextureId__TextureId.html#a0ebdf98e85da0bccdb5695bdedc2fe7b":[6,1,1,0,1,1078,8]
 };

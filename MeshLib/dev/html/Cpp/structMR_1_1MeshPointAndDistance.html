@@ -168,8 +168,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac102c7f872739c407d7b1cd4e2d6ac1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d5b1deffdaf0a9520c4eb1bd4664877" id="r_a4d5b1deffdaf0a9520c4eb1bd4664877"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d5b1deffdaf0a9520c4eb1bd4664877">dist</a> () const</td></tr>
 <tr class="separator:a4d5b1deffdaf0a9520c4eb1bd4664877"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6183b5a060548915689ba3038d01b71" id="r_ac6183b5a060548915689ba3038d01b71"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6183b5a060548915689ba3038d01b71">innerDist</a> () const</td></tr>
-<tr class="separator:ac6183b5a060548915689ba3038d01b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac15e1542a970638bdb13b4eb80bdd3e4" id="r_ac15e1542a970638bdb13b4eb80bdd3e4"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac15e1542a970638bdb13b4eb80bdd3e4">operator&lt;=&gt;</a> (const <a class="el" href="structMR_1_1MeshPointAndDistance.html">MeshPointAndDistance</a> &amp;other) const</td></tr>
+<tr class="memdesc:ac15e1542a970638bdb13b4eb80bdd3e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">comparison telling which point is closer to the location  <br /></td></tr>
+<tr class="separator:ac15e1542a970638bdb13b4eb80bdd3e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf36a93304ddd8624d26589cec96401f" id="r_adf36a93304ddd8624d26589cec96401f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf36a93304ddd8624d26589cec96401f">valid</a> () const</td></tr>
 <tr class="memdesc:adf36a93304ddd8624d26589cec96401f"><td class="mdescLeft">&#160;</td><td class="mdescRight">check for validity, otherwise there is no point closer than maxBidirDist  <br /></td></tr>
 <tr class="separator:adf36a93304ddd8624d26589cec96401f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -240,33 +241,7 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>the distance from input location to mtp considering point's weight and location inside/outside; <a class="el" href="#a4d5b1deffdaf0a9520c4eb1bd4664877">dist()</a> is continuous function of location unlike <a class="el" href="#ac6183b5a060548915689ba3038d01b71">innerDist()</a>, which makes 2*weight jump if the location moves through the surface </p>
-
-</div>
-</div>
-<a id="ac6183b5a060548915689ba3038d01b71" name="ac6183b5a060548915689ba3038d01b71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6183b5a060548915689ba3038d01b71">&#9670;&#160;</a></span>innerDist()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MR::MeshPointAndDistance::innerDist </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>this distance is used internally to find the best surface point, which has the smallest inner distance; <a class="el" href="#ac6183b5a060548915689ba3038d01b71">innerDist()</a> grows in both directions of the surface unlike weightedDist() </p>
+<p>the distance from input location to mtp considering point's weight and location inside/outside; <a class="el" href="#a4d5b1deffdaf0a9520c4eb1bd4664877">dist()</a> is continuous function of location unlike innerDist(), which makes 2*weight jump if the location moves through the surface </p>
 
 </div>
 </div>
@@ -292,6 +267,33 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac15e1542a970638bdb13b4eb80bdd3e4" name="ac15e1542a970638bdb13b4eb80bdd3e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac15e1542a970638bdb13b4eb80bdd3e4">&#9670;&#160;</a></span>operator&lt;=&gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto MR::MeshPointAndDistance::operator&lt;=&gt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPointAndDistance.html">MeshPointAndDistance</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>comparison telling which point is closer to the location </p>
 
 </div>
 </div>

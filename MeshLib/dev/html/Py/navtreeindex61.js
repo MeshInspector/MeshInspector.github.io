@@ -1,7 +1,5 @@
 var NAVTREEINDEX61 =
 {
-"classmrmeshpy_1_1OutliersDetector.html":[6,1,0,0,2,603],
-"classmrmeshpy_1_1OutliersDetector.html":[6,1,1,0,1,603],
 "classmrmeshpy_1_1OutliersDetector.html#a01f15cf773fefaf9402381a3d71b8a7c":[6,1,0,0,2,603,0],
 "classmrmeshpy_1_1OutliersDetector.html#a01f15cf773fefaf9402381a3d71b8a7c":[6,1,1,0,1,603,0],
 "classmrmeshpy_1_1OutliersDetector.html#a2f350753a10dfc69b228e9bd06bbed89":[6,1,0,0,2,603,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX61 =
 "classmrmeshpy_1_1PixelBitSet.html#aa4a879edc2a0040aff3ec0c2958fa553":[6,1,0,0,2,637,2],
 "classmrmeshpy_1_1PixelBitSet.html#aa4a879edc2a0040aff3ec0c2958fa553":[6,1,1,0,1,637,2],
 "classmrmeshpy_1_1PixelBitSet.html#aa7f11ddf61236a74574e149a2de2a64d":[6,1,0,0,2,637,26],
-"classmrmeshpy_1_1PixelBitSet.html#aa7f11ddf61236a74574e149a2de2a64d":[6,1,1,0,1,637,26]
+"classmrmeshpy_1_1PixelBitSet.html#aa7f11ddf61236a74574e149a2de2a64d":[6,1,1,0,1,637,26],
+"classmrmeshpy_1_1PixelBitSet.html#aad357505e8a328a0834df693c45c8543":[6,1,0,0,2,637,34],
+"classmrmeshpy_1_1PixelBitSet.html#aad357505e8a328a0834df693c45c8543":[6,1,1,0,1,637,34]
 };
