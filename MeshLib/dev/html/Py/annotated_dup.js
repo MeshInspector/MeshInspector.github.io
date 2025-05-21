@@ -994,6 +994,7 @@ var annotated_dup =
       [ "TextureBitSet", "classmrmeshpy_1_1TextureBitSet.html", "classmrmeshpy_1_1TextureBitSet" ],
       [ "TextureId", "classmrmeshpy_1_1TextureId.html", "classmrmeshpy_1_1TextureId" ],
       [ "TexturePerFace", "classmrmeshpy_1_1TexturePerFace.html", "classmrmeshpy_1_1TexturePerFace" ],
+      [ "Tgt2SrcMaps", "classmrmeshpy_1_1Tgt2SrcMaps.html", "classmrmeshpy_1_1Tgt2SrcMaps" ],
       [ "TiffParameters", "classmrmeshpy_1_1TiffParameters.html", "classmrmeshpy_1_1TiffParameters" ],
       [ "ToolPathParams", "classmrmeshpy_1_1ToolPathParams.html", "classmrmeshpy_1_1ToolPathParams" ],
       [ "ToolPathResult", "classmrmeshpy_1_1ToolPathResult.html", "classmrmeshpy_1_1ToolPathResult" ],

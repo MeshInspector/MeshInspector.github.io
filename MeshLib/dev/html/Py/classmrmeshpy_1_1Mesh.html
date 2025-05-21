@@ -331,8 +331,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aaca0531a2c5ab714e0e8a214eacb360f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a489b1064de59960cd4a7eda54030c428" id="r_a489b1064de59960cd4a7eda54030c428"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a489b1064de59960cd4a7eda54030c428">orgPnt</a> (self, <a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> e)</td></tr>
 <tr class="separator:a489b1064de59960cd4a7eda54030c428"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85b0e781c46ca0dd06c64786ab5dd82d" id="r_a85b0e781c46ca0dd06c64786ab5dd82d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85b0e781c46ca0dd06c64786ab5dd82d">pack</a> (self, <a class="el" href="classmrmeshpy_1_1FaceMap.html">FaceMap</a> outFmap=None, <a class="el" href="classmrmeshpy_1_1VertMap.html">VertMap</a> outVmap=None, <a class="el" href="classmrmeshpy_1_1WholeEdgeMap.html">WholeEdgeMap</a> outEmap=None, bool rearrangeTriangles=False)</td></tr>
-<tr class="separator:a85b0e781c46ca0dd06c64786ab5dd82d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70de93163c56d056420eb6bd10fe7467" id="r_a70de93163c56d056420eb6bd10fe7467"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70de93163c56d056420eb6bd10fe7467">pack</a> (self, <a class="el" href="classmrmeshpy_1_1PartMapping.html">PartMapping</a> map='{}', bool rearrangeTriangles=False)</td></tr>
+<tr class="separator:a70de93163c56d056420eb6bd10fe7467"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7df0b1715fd4bd4a247d8fa5ce757aa" id="r_aa7df0b1715fd4bd4a247d8fa5ce757aa"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7df0b1715fd4bd4a247d8fa5ce757aa">pack</a> (self, <a class="el" href="classmrmeshpy_1_1FaceMap.html">FaceMap</a> outFmap, <a class="el" href="classmrmeshpy_1_1VertMap.html">VertMap</a> outVmap=None, <a class="el" href="classmrmeshpy_1_1WholeEdgeMap.html">WholeEdgeMap</a> outEmap=None, bool rearrangeTriangles=False)</td></tr>
+<tr class="separator:aa7df0b1715fd4bd4a247d8fa5ce757aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcf820e7b2e8ef220b2f6c7971ba9564" id="r_adcf820e7b2e8ef220b2f6c7971ba9564"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcf820e7b2e8ef220b2f6c7971ba9564">pack</a> (self, <a class="el" href="classmrmeshpy_1_1PackMapping.html">PackMapping</a> map, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='{}')</td></tr>
 <tr class="separator:adcf820e7b2e8ef220b2f6c7971ba9564"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23a56fb7c1ca898bf2af6e9feddc37e2" id="r_a23a56fb7c1ca898bf2af6e9feddc37e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1PackMapping.html">PackMapping</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23a56fb7c1ca898bf2af6e9feddc37e2">packOptimally</a> (self, bool preserveAABBTree=True)</td></tr>
@@ -2741,8 +2743,8 @@ this is the same normal as in rendering with smooth shading
 </pre> 
 </div>
 </div>
-<a id="a85b0e781c46ca0dd06c64786ab5dd82d" name="a85b0e781c46ca0dd06c64786ab5dd82d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85b0e781c46ca0dd06c64786ab5dd82d">&#9670;&#160;</a></span>pack() <span class="overload">[1/2]</span></h2>
+<a id="aa7df0b1715fd4bd4a247d8fa5ce757aa" name="aa7df0b1715fd4bd4a247d8fa5ce757aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7df0b1715fd4bd4a247d8fa5ce757aa">&#9670;&#160;</a></span>pack() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2755,7 +2757,7 @@ this is the same normal as in rendering with smooth shading
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceMap.html">FaceMap</a> </td>          <td class="paramname"><span class="paramname"><em>outFmap</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceMap.html">FaceMap</a></td>          <td class="paramname"><span class="paramname"><em>outFmap</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2774,13 +2776,11 @@ this is the same normal as in rendering with smooth shading
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">tightly packs all arrays eliminating lone edges and invalid faces, vertices and points,
-optionally returns mappings: old.id -&gt; new.id
-</pre> 
+
 </div>
 </div>
 <a id="adcf820e7b2e8ef220b2f6c7971ba9564" name="adcf820e7b2e8ef220b2f6c7971ba9564"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adcf820e7b2e8ef220b2f6c7971ba9564">&#9670;&#160;</a></span>pack() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adcf820e7b2e8ef220b2f6c7971ba9564">&#9670;&#160;</a></span>pack() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2804,6 +2804,33 @@ optionally returns mappings: old.id -&gt; new.id
 </div><div class="memdoc">
 <pre class="fragment">tightly packs all arrays eliminating lone edges and invalid faces, vertices and points,
 reorder all faces, vertices and edges according to given maps, each containing old id -&gt; new id mapping
+</pre> 
+</div>
+</div>
+<a id="a70de93163c56d056420eb6bd10fe7467" name="a70de93163c56d056420eb6bd10fe7467"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70de93163c56d056420eb6bd10fe7467">&#9670;&#160;</a></span>pack() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.Mesh.pack </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1PartMapping.html">PartMapping</a> </td>          <td class="paramname"><span class="paramname"><em>map</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'{}'</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>rearrangeTriangles</em></span><span class="paramdefsep"> = </span><span class="paramdefval">False</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">tightly packs all arrays eliminating lone edges and invalid faces, vertices and points
 </pre> 
 </div>
 </div>

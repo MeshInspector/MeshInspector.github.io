@@ -1176,6 +1176,7 @@ var hierarchy =
       [ "mrmeshpy.NoDefInit_TextureId", "classmrmeshpy_1_1NoDefInit__TextureId.html", null ]
     ] ],
     [ "mrmeshpy.TexturePerFace", "classmrmeshpy_1_1TexturePerFace.html", null ],
+    [ "mrmeshpy.Tgt2SrcMaps", "classmrmeshpy_1_1Tgt2SrcMaps.html", null ],
     [ "mrmeshpy.ToolPathParams", "classmrmeshpy_1_1ToolPathParams.html", [
       [ "mrmeshpy.ConstantCuspParams", "classmrmeshpy_1_1ConstantCuspParams.html", null ]
     ] ],

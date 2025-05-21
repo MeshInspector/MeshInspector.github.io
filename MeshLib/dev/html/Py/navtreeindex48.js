@@ -1,5 +1,7 @@
 var NAVTREEINDEX48 =
 {
+"classmrmeshpy_1_1MeshOrPoints.html#a1cc2765cb15b3e22987797c0a6b19e42":[6,1,0,0,2,484,8],
+"classmrmeshpy_1_1MeshOrPoints.html#a1cc2765cb15b3e22987797c0a6b19e42":[6,1,1,0,1,484,8],
 "classmrmeshpy_1_1MeshOrPoints.html#a32fdab3bb62afa29832325596ba3ea00":[6,1,0,0,2,484,13],
 "classmrmeshpy_1_1MeshOrPoints.html#a32fdab3bb62afa29832325596ba3ea00":[6,1,1,0,1,484,13],
 "classmrmeshpy_1_1MeshOrPoints.html#a5d7bf745819b9924aec81ad9816b74b3":[6,1,0,0,2,484,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX48 =
 "classmrmeshpy_1_1MeshRelaxParams.html#affa29ba69fd1bf324019147f24aec9b9":[6,1,0,0,2,493,1],
 "classmrmeshpy_1_1MeshRelaxParams.html#affa29ba69fd1bf324019147f24aec9b9":[6,1,1,0,1,493,1],
 "classmrmeshpy_1_1MeshSave.html":[6,1,0,0,2,494],
-"classmrmeshpy_1_1MeshSave.html":[6,1,1,0,1,494],
-"classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions.html":[6,1,0,0,2,494,0],
-"classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions.html":[6,1,1,0,1,494,0]
+"classmrmeshpy_1_1MeshSave.html":[6,1,1,0,1,494]
 };
