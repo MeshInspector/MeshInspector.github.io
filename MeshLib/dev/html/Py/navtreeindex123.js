@@ -1,5 +1,9 @@
 var NAVTREEINDEX123 =
 {
+"classmrmeshpy_1_1std__variant__Vector__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag__phmap__flatad6d40583d0b072e9f1e448a21d18e28.html#ad91ae462b55b642b06b4ab3d96d3bcb4":[6,1,0,0,2,812,2],
+"classmrmeshpy_1_1std__variant__Vector__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag__phmap__flatad6d40583d0b072e9f1e448a21d18e28.html#ad91ae462b55b642b06b4ab3d96d3bcb4":[6,1,1,0,1,812,2],
+"classmrmeshpy_1_1std__variant__Vector__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag__phmap__flatad6d40583d0b072e9f1e448a21d18e28.html#ae748859c5be2bbf392520737980eb52d":[6,1,0,0,2,812,1],
+"classmrmeshpy_1_1std__variant__Vector__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag__phmap__flatad6d40583d0b072e9f1e448a21d18e28.html#ae748859c5be2bbf392520737980eb52d":[6,1,1,0,1,812,1],
 "classmrmeshpy_1_1std__variant__Vector__Id__VertTag__Id__VertTag__phmap__flat__hash__map__Id__VertTag__Id__VertTag.html":[6,1,0,0,2,813],
 "classmrmeshpy_1_1std__variant__Vector__Id__VertTag__Id__VertTag__phmap__flat__hash__map__Id__VertTag__Id__VertTag.html":[6,1,1,0,1,813],
 "classmrmeshpy_1_1std__variant__Vector__Id__VertTag__Id__VertTag__phmap__flat__hash__map__Id__VertTag__Id__VertTag.html#a0327c0d502a562f8e7c082efa786c9a9":[6,1,0,0,2,813,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX123 =
 "classmrmeshpy_1_1std__vector__AABBTreeNode__ObjTreeTraits.html#afa4d8f600930b0fcd74df2a87101617b":[6,1,0,0,2,817,9],
 "classmrmeshpy_1_1std__vector__AABBTreeNode__ObjTreeTraits.html#afa4d8f600930b0fcd74df2a87101617b":[6,1,1,0,1,817,9],
 "classmrmeshpy_1_1std__vector__AABBTreeNode__ObjTreeTraits.html#afbab3a3158cb013ff93a5600e7136ef1":[6,1,0,0,2,817,5],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__ObjTreeTraits.html#afbab3a3158cb013ff93a5600e7136ef1":[6,1,1,0,1,817,5],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__ObjTreeTraits.html#affb762eadff60c4e870b088233590119":[6,1,0,0,2,817,19],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__ObjTreeTraits.html#affb762eadff60c4e870b088233590119":[6,1,1,0,1,817,19],
-"classmrmeshpy_1_1std__vector__AABBTreePoints__Node.html":[6,1,0,0,2,818],
-"classmrmeshpy_1_1std__vector__AABBTreePoints__Node.html":[6,1,1,0,1,818]
+"classmrmeshpy_1_1std__vector__AABBTreeNode__ObjTreeTraits.html#afbab3a3158cb013ff93a5600e7136ef1":[6,1,1,0,1,817,5]
 };

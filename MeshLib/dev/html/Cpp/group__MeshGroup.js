@@ -10,7 +10,8 @@ var group__MeshGroup =
       [ "topology", "structMR_1_1EdgeLengthMesh.html#a8354d05ed17b358631b7af8e742c2773", null ]
     ] ],
     [ "MR::Mesh", "structMR_1_1Mesh.html", [
-      [ "addMesh", "structMR_1_1Mesh.html#a03cc515eb0f81de63feaec528ea459d7", null ],
+      [ "addMesh", "structMR_1_1Mesh.html#a2e89de05b17ce06b9519c98aef4a5c33", null ],
+      [ "addMesh", "structMR_1_1Mesh.html#ac849720c9232498cb5e15afebe3b66a8", null ],
       [ "addMeshPart", "structMR_1_1Mesh.html#aedd6db47df16797afde108ccec581b21", null ],
       [ "addMeshPart", "structMR_1_1Mesh.html#a263bae4a94fa6f79f6f743e6610a1c75", null ],
       [ "addPart", "structMR_1_1Mesh.html#ad7adbef117d94a1363f386eacca63973", null ],
@@ -136,11 +137,12 @@ var group__MeshGroup =
     [ "MR::MeshTopology", "classMR_1_1MeshTopology.html", [
       [ "addFaceId", "classMR_1_1MeshTopology.html#ab2810fe9c6b38f4a0926069ab58120ea", null ],
       [ "addPackedPart", "classMR_1_1MeshTopology.html#aa2eb901ee1810c11a63762618f27d854", null ],
+      [ "addPart", "classMR_1_1MeshTopology.html#a0e38e55e01676612abcce4c0d9a605b7", null ],
       [ "addPart", "classMR_1_1MeshTopology.html#ab3ffc7ad52720ee3c460867977323598", null ],
       [ "addPartBy", "classMR_1_1MeshTopology.html#a80600fd8dad6f50e214174f912643251", null ],
       [ "addPartByFaceMap", "classMR_1_1MeshTopology.html#a082eace244e45e1391989891e54aeec2", null ],
       [ "addPartByMask", "classMR_1_1MeshTopology.html#a9a1561558248c5adbaf03575e9ab6457", null ],
-      [ "addPartByMask", "classMR_1_1MeshTopology.html#ab82dea924b80fab16d4de0c7b7dd605f", null ],
+      [ "addPartByMask", "classMR_1_1MeshTopology.html#a8abe180839f4d1b30cc35fa52318db7b", null ],
       [ "addVertId", "classMR_1_1MeshTopology.html#a087e309d5f0b9a28c106038d206f8d53", null ],
       [ "bdEdgeSameLeft", "classMR_1_1MeshTopology.html#a111aab3f0bc10b75bcd5101e4e5e9a1e", null ],
       [ "bdEdgeSameOrigin", "classMR_1_1MeshTopology.html#a6777589fb02426e8b2d40cf6e576e503", null ],

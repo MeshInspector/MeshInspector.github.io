@@ -169,7 +169,7 @@ $(function(){initNavTree('ExampleMeshStitchHole.html',''); initResizable(true); 
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Unite meshes</span></div>
 <div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a> mesh = std::move( meshARes.value() );</div>
-<div class="line">    mesh.<a class="code hl_functionRef" href="./Cpp/structMR_1_1Mesh.html#a03cc515eb0f81de63feaec528ea459d7">addMesh</a>( meshBRes.value() );</div>
+<div class="line">    mesh.<a class="code hl_functionRef" href="./Cpp/structMR_1_1Mesh.html#ac849720c9232498cb5e15afebe3b66a8">addMesh</a>( meshBRes.value() );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Find holes (expect that there are exactly 2 holes)</span></div>
 <div class="line">    std::vector&lt;MR::EdgeId&gt; edges = mesh.<a class="code hl_variableRef" href="./Cpp/structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4">topology</a>.<a class="code hl_functionRef" href="./Cpp/classMR_1_1MeshTopology.html#aa66581b4e7aad51bf8ebd1bbf43e4752">findHoleRepresentiveEdges</a>();</div>
@@ -193,8 +193,8 @@ $(function(){initNavTree('ExampleMeshStitchHole.html',''); initResizable(true); 
 <div class="ttc" id="agroup__MeshLoadGroup_html_gac9118492a6cd095ff8e563c0987fc477"><div class="ttname"><a href="./Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div></div>
 <div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a></div></div>
-<div class="ttc" id="astructMR_1_1Mesh_html_a03cc515eb0f81de63feaec528ea459d7"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html#a03cc515eb0f81de63feaec528ea459d7">MR::Mesh::addMesh</a></div><div class="ttdeci">MRMESH_API void addMesh(const Mesh &amp;from, FaceMap *outFmap=nullptr, VertMap *outVmap=nullptr, WholeEdgeMap *outEmap=nullptr, bool rearrangeTriangles=false)</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html_a91b13898794821d7f88845ebaa6cc1c4"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4">MR::Mesh::topology</a></div><div class="ttdeci">MeshTopology topology</div></div>
+<div class="ttc" id="astructMR_1_1Mesh_html_ac849720c9232498cb5e15afebe3b66a8"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html#ac849720c9232498cb5e15afebe3b66a8">MR::Mesh::addMesh</a></div><div class="ttdeci">MRMESH_API void addMesh(const Mesh &amp;from, PartMapping map={}, bool rearrangeTriangles=false)</div></div>
 <div class="ttc" id="astructMR_1_1StitchHolesParams_html"><div class="ttname"><a href="./Cpp/structMR_1_1StitchHolesParams.html">MR::StitchHolesParams</a></div></div>
 <div class="ttc" id="astructMR_1_1StitchHolesParams_html_ac806ee8caa2479cc244851eaac1e7020"><div class="ttname"><a href="./Cpp/structMR_1_1StitchHolesParams.html#ac806ee8caa2479cc244851eaac1e7020">MR::StitchHolesParams::metric</a></div><div class="ttdeci">FillHoleMetric metric</div></div>
 </div><!-- fragment --></li>

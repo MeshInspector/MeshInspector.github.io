@@ -3,6 +3,7 @@ var structMR_1_1MapOrHashMap =
     [ "Dense", "structMR_1_1MapOrHashMap.html#ac2b84418d93cdedba84fe87ce2595e2e", null ],
     [ "Hash", "structMR_1_1MapOrHashMap.html#a9b9b3bd19e1e1187943ce7850bcf6ee0", null ],
     [ "clear", "structMR_1_1MapOrHashMap.html#ab6a52148cc818bc6c42e287a95ef61b8", null ],
+    [ "forEach", "structMR_1_1MapOrHashMap.html#a99f74cd2edd6dab050ffad6466cdf191", null ],
     [ "getHashMap", "structMR_1_1MapOrHashMap.html#a3bc5077bb60649a52a86a2736ff6a57e", null ],
     [ "getHashMap", "structMR_1_1MapOrHashMap.html#a2aded678aafca023ae711c2dcad233e5", null ],
     [ "getMap", "structMR_1_1MapOrHashMap.html#a1061c0b8db208cf5af14eb2760cb3703", null ],

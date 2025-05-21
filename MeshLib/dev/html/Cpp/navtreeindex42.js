@@ -1,5 +1,6 @@
 var NAVTREEINDEX42 =
 {
+"classMR_1_1SetBitIteratorT.html":[6,0,0,3,4],
 "classMR_1_1SetBitIteratorT.html#a18f2206478b0e1495f2ebbd017d41ff2":[6,0,0,3,4,11],
 "classMR_1_1SetBitIteratorT.html#a22e03a8a13140a2e652009346c41c0ba":[6,0,0,3,4,3],
 "classMR_1_1SetBitIteratorT.html#a38daf11addb75bcfab304e51d62ba9f8":[6,0,0,3,4,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX42 =
 "classMR_1_1StateBasePlugin.html#a1d97f71a0f325fbe29b0bbec3e564204":[6,0,2,0,1,663,20],
 "classMR_1_1StateBasePlugin.html#a2172655c98b73059ee0bfc8cb3115097":[6,0,1,0,1,679,11],
 "classMR_1_1StateBasePlugin.html#a2172655c98b73059ee0bfc8cb3115097":[6,0,2,0,1,663,11],
-"classMR_1_1StateBasePlugin.html#a239e7ea5887cf228c8ea6a7eef781a2c":[6,0,1,0,1,679,21],
-"classMR_1_1StateBasePlugin.html#a239e7ea5887cf228c8ea6a7eef781a2c":[6,0,2,0,1,663,21]
+"classMR_1_1StateBasePlugin.html#a239e7ea5887cf228c8ea6a7eef781a2c":[6,0,1,0,1,679,21]
 };

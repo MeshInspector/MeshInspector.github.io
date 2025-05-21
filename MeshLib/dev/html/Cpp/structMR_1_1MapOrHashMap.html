@@ -180,6 +180,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7a15020a8ce32845565aeffab264051d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d4eb8a403de0495a024d7afa51cbd6c" id="r_a6d4eb8a403de0495a024d7afa51cbd6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d4eb8a403de0495a024d7afa51cbd6c">pushBack</a> (K key, V val)</td></tr>
 <tr class="separator:a6d4eb8a403de0495a024d7afa51cbd6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99f74cd2edd6dab050ffad6466cdf191" id="r_a99f74cd2edd6dab050ffad6466cdf191"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
+<tr class="memitem:a99f74cd2edd6dab050ffad6466cdf191"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a99f74cd2edd6dab050ffad6466cdf191">forEach</a> (F &amp;&amp;f) const</td></tr>
+<tr class="memdesc:a99f74cd2edd6dab050ffad6466cdf191"><td class="mdescLeft">&#160;</td><td class="mdescRight">executes given function for all pairs (key, value) with valid value for dense map  <br /></td></tr>
+<tr class="separator:a99f74cd2edd6dab050ffad6466cdf191"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1061c0b8db208cf5af14eb2760cb3703" id="r_a1061c0b8db208cf5af14eb2760cb3703"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ac2b84418d93cdedba84fe87ce2595e2e">Dense</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1061c0b8db208cf5af14eb2760cb3703">getMap</a> ()</td></tr>
 <tr class="separator:a1061c0b8db208cf5af14eb2760cb3703"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9027fa8effc674e94506993cc5c1ee2e" id="r_a9027fa8effc674e94506993cc5c1ee2e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ac2b84418d93cdedba84fe87ce2595e2e">Dense</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9027fa8effc674e94506993cc5c1ee2e">getMap</a> () const</td></tr>
@@ -310,6 +314,29 @@ template&lt;typename K , typename V &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a99f74cd2edd6dab050ffad6466cdf191" name="a99f74cd2edd6dab050ffad6466cdf191"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99f74cd2edd6dab050ffad6466cdf191">&#9670;&#160;</a></span>forEach()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename K , typename V &gt; </div>
+<div class="memtemplate">
+template&lt;typename F &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="structMR_1_1MapOrHashMap.html">MR::MapOrHashMap</a>&lt; K, V &gt;::forEach </td>
+          <td>(</td>
+          <td class="paramtype">F &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>f</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>executes given function for all pairs (key, value) with valid value for dense map </p>
 
 </div>
 </div>

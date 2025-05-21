@@ -1,5 +1,9 @@
 var NAVTREEINDEX61 =
 {
+"classmrmeshpy_1_1OutlierTypeMask.html#ae225ba2efeb48703a71c12564c6924d7":[6,1,0,0,2,603,1],
+"classmrmeshpy_1_1OutlierTypeMask.html#ae225ba2efeb48703a71c12564c6924d7":[6,1,1,0,1,603,1],
+"classmrmeshpy_1_1OutlierTypeMask.html#af70a635c5651e92615f9c78debaf39ef":[6,1,0,0,2,603,19],
+"classmrmeshpy_1_1OutlierTypeMask.html#af70a635c5651e92615f9c78debaf39ef":[6,1,1,0,1,603,19],
 "classmrmeshpy_1_1OutliersDetector.html":[6,1,0,0,2,602],
 "classmrmeshpy_1_1OutliersDetector.html":[6,1,1,0,1,602],
 "classmrmeshpy_1_1OutliersDetector.html#a01f15cf773fefaf9402381a3d71b8a7c":[6,1,0,0,2,602,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX61 =
 "classmrmeshpy_1_1PixelBitSet.html#a8a1aa9fbcd84a171e2c0a201ad463021":[6,1,0,0,2,636,10],
 "classmrmeshpy_1_1PixelBitSet.html#a8a1aa9fbcd84a171e2c0a201ad463021":[6,1,1,0,1,636,10],
 "classmrmeshpy_1_1PixelBitSet.html#a8e5798a7b82bf113a270f0a71a2c92ca":[6,1,0,0,2,636,17],
-"classmrmeshpy_1_1PixelBitSet.html#a8e5798a7b82bf113a270f0a71a2c92ca":[6,1,1,0,1,636,17],
-"classmrmeshpy_1_1PixelBitSet.html#aa4a879edc2a0040aff3ec0c2958fa553":[6,1,0,0,2,636,2],
-"classmrmeshpy_1_1PixelBitSet.html#aa4a879edc2a0040aff3ec0c2958fa553":[6,1,1,0,1,636,2],
-"classmrmeshpy_1_1PixelBitSet.html#aa7f11ddf61236a74574e149a2de2a64d":[6,1,0,0,2,636,26],
-"classmrmeshpy_1_1PixelBitSet.html#aa7f11ddf61236a74574e149a2de2a64d":[6,1,1,0,1,636,26]
+"classmrmeshpy_1_1PixelBitSet.html#a8e5798a7b82bf113a270f0a71a2c92ca":[6,1,1,0,1,636,17]
 };

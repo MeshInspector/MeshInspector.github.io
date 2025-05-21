@@ -1,5 +1,6 @@
 var NAVTREEINDEX62 =
 {
+"namespaceMR_1_1MeshSave.html#a90c18563acc619bd464bf95f21a400fb":[6,0,1,0,1,19,15],
 "namespaceMR_1_1MeshSave.html#aaff4727d142915f75818e3b082a90249":[6,0,1,0,1,19,16],
 "namespaceMR_1_1Meta.html":[6,0,1,0,1,20],
 "namespaceMR_1_1ObjectLoad.html":[6,0,1,0,1,21],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "namespaceMR_1_1VoxelsSave.html#a5289196c605171ac3410bbe845a26176":[6,0,1,0,1,41,1],
 "namespaceMR_1_1VoxelsSave.html#a8b7a3d30f9b81594b08a8a90828dd8e6":[6,0,1,0,1,41,5],
 "namespaceMR_1_1VoxelsSave.html#af18166aaab350552a2f824a43c6faef9":[6,0,1,0,1,41,6],
-"namespaceMR_1_1detail.html":[6,0,1,0,1,3],
-"namespaceMR_1_1detail.html#a5620523d14d5ba70ac2f7841d93f6076":[6,0,1,0,1,3,6]
+"namespaceMR_1_1detail.html":[6,0,1,0,1,3]
 };
