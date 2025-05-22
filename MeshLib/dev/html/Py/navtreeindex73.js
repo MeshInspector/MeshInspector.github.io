@@ -1,5 +1,9 @@
 var NAVTREEINDEX73 =
 {
+"classmrmeshpy_1_1SceneSettings_1_1FloatType.html#aad05dcee7d1dbf4d6efc45d28e156a15":[6,1,0,0,2,741,1,1],
+"classmrmeshpy_1_1SceneSettings_1_1FloatType.html#aad05dcee7d1dbf4d6efc45d28e156a15":[6,1,1,0,1,741,1,1],
+"classmrmeshpy_1_1SceneSettings_1_1FloatType.html#aade170c031aaf8c7b6f7ce9d543a1c33":[6,1,0,0,2,741,1,5],
+"classmrmeshpy_1_1SceneSettings_1_1FloatType.html#aade170c031aaf8c7b6f7ce9d543a1c33":[6,1,1,0,1,741,1,5],
 "classmrmeshpy_1_1SceneSettings_1_1FloatType.html#ac5d4aca13114a5e4f6fea3f32fd0aa45":[6,1,0,0,2,741,1,10],
 "classmrmeshpy_1_1SceneSettings_1_1FloatType.html#ac5d4aca13114a5e4f6fea3f32fd0aa45":[6,1,1,0,1,741,1,10],
 "classmrmeshpy_1_1SceneSettings_1_1FloatType.html#adfe419caad34b2265c7dac8a2b25e057":[6,1,0,0,2,741,1,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX73 =
 "classmrmeshpy_1_1SharpOffsetParameters.html#af3f759e106fdf8d0bd831a22353cd480":[6,1,0,0,2,750,8],
 "classmrmeshpy_1_1SharpOffsetParameters.html#af3f759e106fdf8d0bd831a22353cd480":[6,1,1,0,1,750,8],
 "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html":[6,1,0,0,2,749],
-"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html":[6,1,1,0,1,749],
-"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a3328395be3db3f551233b9c2ac9c6469":[6,1,0,0,2,749,3],
-"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a3328395be3db3f551233b9c2ac9c6469":[6,1,1,0,1,749,3],
-"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a427b35255292abbf04e4a45783607bc7":[6,1,0,0,2,749,11],
-"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a427b35255292abbf04e4a45783607bc7":[6,1,1,0,1,749,11]
+"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html":[6,1,1,0,1,749]
 };

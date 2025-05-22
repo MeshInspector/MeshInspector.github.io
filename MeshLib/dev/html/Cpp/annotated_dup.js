@@ -82,6 +82,7 @@ var annotated_dup =
         [ "equalVector3f", "structMR_1_1MeshBuilder_1_1equalVector3f.html", "structMR_1_1MeshBuilder_1_1equalVector3f" ],
         [ "MeshPiece", "structMR_1_1MeshBuilder_1_1MeshPiece.html", "structMR_1_1MeshBuilder_1_1MeshPiece" ],
         [ "Triangle", "structMR_1_1MeshBuilder_1_1Triangle.html", "structMR_1_1MeshBuilder_1_1Triangle" ],
+        [ "UniteCloseParams", "structMR_1_1MeshBuilder_1_1UniteCloseParams.html", "structMR_1_1MeshBuilder_1_1UniteCloseParams" ],
         [ "VertDuplication", "structMR_1_1MeshBuilder_1_1VertDuplication.html", "structMR_1_1MeshBuilder_1_1VertDuplication" ],
         [ "VertexIdentifier", "classMR_1_1MeshBuilder_1_1VertexIdentifier.html", "classMR_1_1MeshBuilder_1_1VertexIdentifier" ],
         [ "VertSpan", "structMR_1_1MeshBuilder_1_1VertSpan.html", "structMR_1_1MeshBuilder_1_1VertSpan" ]

@@ -169,6 +169,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1Triangle.html">Triangle</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams.html">UniteCloseParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication.html">VertDuplication</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1VertexIdentifier.html">VertexIdentifier</a></td></tr>
@@ -196,6 +198,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:ae1cdd150dab19a89e6a738e7e92c4594"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac457f5461aa9c10d42bef00c650d7e51" id="r_ac457f5461aa9c10d42bef00c650d7e51"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac457f5461aa9c10d42bef00c650d7e51">uniteCloseVertices</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, float closeDist, bool uniteOnlyBd=True, <a class="el" href="classmrmeshpy_1_1VertMap.html">VertMap</a> optionalVertOldToNew=None)</td></tr>
 <tr class="separator:ac457f5461aa9c10d42bef00c650d7e51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa982750184a58262d2bb6d881680a03a" id="r_aa982750184a58262d2bb6d881680a03a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa982750184a58262d2bb6d881680a03a">uniteCloseVertices</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams.html">MeshBuilder.UniteCloseParams</a> params='{}')</td></tr>
+<tr class="separator:aa982750184a58262d2bb6d881680a03a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">This is a namespace.
@@ -490,7 +494,7 @@ triangulation is modified to introduce duplicates
 </div>
 </div>
 <a id="ac457f5461aa9c10d42bef00c650d7e51" name="ac457f5461aa9c10d42bef00c650d7e51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac457f5461aa9c10d42bef00c650d7e51">&#9670;&#160;</a></span>uniteCloseVertices()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac457f5461aa9c10d42bef00c650d7e51">&#9670;&#160;</a></span>uniteCloseVertices() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -529,6 +533,38 @@ triangulation is modified to introduce duplicates
 then the mesh is rebuilt from the remaining triangles
 \\param optionalVertOldToNew is the mapping of vertices: before -&gt; after
 \\param uniteOnlyBd if true then only boundary vertices can be united, all internal vertices (even close ones) will remain
+\\return the number of vertices united, 0 means no change in the mesh
+</pre> 
+</div>
+</div>
+<a id="aa982750184a58262d2bb6d881680a03a" name="aa982750184a58262d2bb6d881680a03a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa982750184a58262d2bb6d881680a03a">&#9670;&#160;</a></span>uniteCloseVertices() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int mrmeshpy.MeshBuilder.uniteCloseVertices </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams.html">MeshBuilder.UniteCloseParams</a> </td>          <td class="paramname"><span class="paramname"><em>params</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">the function finds groups of mesh vertices located closer to each other than \\param params.closeDist, and unites such vertices in one;
+then the mesh is rebuilt from the remaining triangles
 \\return the number of vertices united, 0 means no change in the mesh
 </pre> 
 </div>

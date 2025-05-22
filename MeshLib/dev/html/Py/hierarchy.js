@@ -1232,6 +1232,7 @@ var hierarchy =
     [ "mrmeshpy.UniqueTemporaryFolder", "classmrmeshpy_1_1UniqueTemporaryFolder.html", null ],
     [ "mrmeshpy.UniqueThreadSafeOwner_AABBTree", "classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree.html", null ],
     [ "mrmeshpy.UniqueThreadSafeOwner_AABBTreePoints", "classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTreePoints.html", null ],
+    [ "mrmeshpy.MeshBuilder.UniteCloseParams", "classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams.html", null ],
     [ "mrmeshpy.UniteManyMeshesParams", "classmrmeshpy_1_1UniteManyMeshesParams.html", null ],
     [ "mrmeshpy.UnorientedTriangle", "classmrmeshpy_1_1UnorientedTriangle.html", null ],
     [ "mrmeshpy.unsigned_char_output", "classmrmeshpy_1_1unsigned__char__output.html", null ],

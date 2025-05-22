@@ -228,21 +228,23 @@ $(function(){initNavTree('MRViewerFwd_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="lineRef" href="../namespaceMR.html#a7080d56b73b285dc9afd120e1bc1ff71">   73</a></span><span class="keyword">using </span><a class="code hl_typedefRef" href="../namespaceMR.html#a7080d56b73b285dc9afd120e1bc1ff71">ObjAndPick</a> = std::pair&lt;std::shared_ptr&lt;MR::VisualObject&gt;, <a class="code hl_struct" href="structMR_1_1PointOnObject.html">MR::PointOnObject</a>&gt;;</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="lineRef" href="../namespaceMR.html#a823106cad6887745b09385757b15b82e">   74</a></span><span class="keyword">using </span><a class="code hl_typedefRef" href="../namespaceMR.html#a823106cad6887745b09385757b15b82e">ConstObjAndPick</a> = std::pair&lt;std::shared_ptr&lt;const MR::VisualObject&gt;, <a class="code hl_struct" href="structMR_1_1PointOnObject.html">MR::PointOnObject</a>&gt;;</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="comment">// this is needed as far as MAKE_SLOT cannot be used with movable classes</span></div>
-<div class="foldopen" id="foldopen00077" data-start="" data-end="">
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="MRViewerFwd_8h.html#a13de6dbfcc4586d8d224d8ff0dd2deed">   77</a></span><span class="preprocessor">#define MR_DELETE_MOVE(ClassName)\</span></div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="preprocessor">ClassName(ClassName&amp;&amp;)noexcept = delete;\</span></div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="preprocessor">ClassName&amp; operator=(ClassName&amp;&amp;)noexcept = delete</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="lineRef" href="../namespaceMR.html#a55cd176bca8ea774ad922ad2876e0f0d">   76</a></span><span class="keyword">using </span><a class="code hl_typedefRef" href="../namespaceMR.html#a55cd176bca8ea774ad922ad2876e0f0d">RequirementsFunction</a> = std::function&lt;std::string( <span class="keyword">const</span> std::shared_ptr&lt;RibbonMenuItem&gt;&amp; )&gt;;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="comment">// this is needed as far as MAKE_SLOT cannot be used with movable classes</span></div>
+<div class="foldopen" id="foldopen00079" data-start="" data-end="">
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="MRViewerFwd_8h.html#a13de6dbfcc4586d8d224d8ff0dd2deed">   79</a></span><span class="preprocessor">#define MR_DELETE_MOVE(ClassName)\</span></div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="preprocessor">ClassName(ClassName&amp;&amp;)noexcept = delete;\</span></div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="preprocessor">ClassName&amp; operator=(ClassName&amp;&amp;)noexcept = delete</span></div>
 </div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
-<div class="foldopen" id="foldopen00081" data-start="" data-end="">
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="MRViewerFwd_8h.html#ad67c8b227ede6f3cf9dda3c8b2232c32">   81</a></span><span class="preprocessor">#define MR_ADD_CTOR_DELETE_MOVE(ClassName)\</span></div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="preprocessor">ClassName()=default;\</span></div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="preprocessor">ClassName(ClassName&amp;&amp;)noexcept = delete;\</span></div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="preprocessor">ClassName&amp; operator=(ClassName&amp;&amp;)noexcept = delete</span></div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="foldopen" id="foldopen00083" data-start="" data-end="">
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="MRViewerFwd_8h.html#ad67c8b227ede6f3cf9dda3c8b2232c32">   83</a></span><span class="preprocessor">#define MR_ADD_CTOR_DELETE_MOVE(ClassName)\</span></div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="preprocessor">ClassName()=default;\</span></div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><span class="preprocessor">ClassName(ClassName&amp;&amp;)noexcept = delete;\</span></div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="preprocessor">ClassName&amp; operator=(ClassName&amp;&amp;)noexcept = delete</span></div>
 </div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>} <span class="comment">//namespace MR</span></div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>} <span class="comment">//namespace MR</span></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRViewer_2config_8h_html"><div class="ttname"><a href="MRViewer_2config_8h.html">config.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1AlphaSortGL_html"><div class="ttname"><a href="classMR_1_1AlphaSortGL.html">MR::AlphaSortGL</a></div><div class="ttdef"><b>Definition</b> MRAlphaSortGL.h:7</div></div>
@@ -282,6 +284,7 @@ $(function(){initNavTree('MRViewerFwd_8h_source.html',''); initResizable(true); 
 <div class="ttc" id="anamespaceMR_html_a067afc36528fa2a554ff76aaa10efb75"><div class="ttname"><a href="../namespaceMR.html#a067afc36528fa2a554ff76aaa10efb75">MR::MouseMode</a></div><div class="ttdeci">MouseMode</div><div class="ttdef"><b>Definition</b> MRMouse.h:19</div></div>
 <div class="ttc" id="anamespaceMR_html_a13f98b7840e7298925ef1770b7cdb62d"><div class="ttname"><a href="../namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MR::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition</b> MRMouse.h:9</div></div>
 <div class="ttc" id="anamespaceMR_html_a286c087de610b6e6a6baaf3c7cff3f4b"><div class="ttname"><a href="../namespaceMR.html#a286c087de610b6e6a6baaf3c7cff3f4b">MR::FitMode</a></div><div class="ttdeci">FitMode</div><div class="ttdef"><b>Definition</b> MRFitData.h:11</div></div>
+<div class="ttc" id="anamespaceMR_html_a55cd176bca8ea774ad922ad2876e0f0d"><div class="ttname"><a href="../namespaceMR.html#a55cd176bca8ea774ad922ad2876e0f0d">MR::RequirementsFunction</a></div><div class="ttdeci">std::function&lt; std::string(const std::shared_ptr&lt; RibbonMenuItem &gt; &amp;)&gt; RequirementsFunction</div><div class="ttdef"><b>Definition</b> MRViewerFwd.h:76</div></div>
 <div class="ttc" id="anamespaceMR_html_a7080d56b73b285dc9afd120e1bc1ff71"><div class="ttname"><a href="../namespaceMR.html#a7080d56b73b285dc9afd120e1bc1ff71">MR::ObjAndPick</a></div><div class="ttdeci">std::pair&lt; std::shared_ptr&lt; MR::VisualObject &gt;, MR::PointOnObject &gt; ObjAndPick</div><div class="ttdef"><b>Definition</b> MRViewerFwd.h:73</div></div>
 <div class="ttc" id="anamespaceMR_html_a823106cad6887745b09385757b15b82e"><div class="ttname"><a href="../namespaceMR.html#a823106cad6887745b09385757b15b82e">MR::ConstObjAndPick</a></div><div class="ttdeci">std::pair&lt; std::shared_ptr&lt; const MR::VisualObject &gt;, MR::PointOnObject &gt; ConstObjAndPick</div><div class="ttdef"><b>Definition</b> MRViewerFwd.h:74</div></div>
 <div class="ttc" id="anamespaceMR_html_abeff4ec21e8ee2ea544cdb4ce4d55d6b"><div class="ttname"><a href="../namespaceMR.html#abeff4ec21e8ee2ea544cdb4ce4d55d6b">MR::ShortcutCategory</a></div><div class="ttdeci">ShortcutCategory</div><div class="ttdef"><b>Definition</b> MRShortcutManager.h:28</div></div>
