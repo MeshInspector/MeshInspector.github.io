@@ -46,7 +46,7 @@ var searchData=
   ['internalerror_43',['InternalError',['../classmrmeshpy_1_1PathError.html#a0a0761ab90c0fe197505dbb68fb67f29',1,'mrmeshpy::PathError']]],
   ['internalformat_44',['internalFormat',['../../Cpp/structMR_1_1GlTexture_1_1Settings.html#a3b834f386d4f814d5f03b43e229d4adb',1,'MR::GlTexture::Settings']]],
   ['internalspacing_45',['internalSpacing',['../../Cpp/namespaceMR_1_1StyleConsts_1_1ProgressBar.html#a0e136117cf759046ebb381d8b7f51f23',1,'MR::StyleConsts::ProgressBar']]],
-  ['interpolationdist_46',['interpolationDist',['../../Cpp/structMR_1_1WeightedPointsShellParametersRegions.html#aa2a905ac9fe4b1e55d4549101ef9fefc',1,'MR::WeightedPointsShellParametersRegions']]],
+  ['interpolationdist_46',['interpolationDist',['../../Cpp/structMR_1_1WeightedShell_1_1ParametersRegions.html#a0ccbe22729b0decc1c75be935bdffa2b',1,'MR::WeightedShell::ParametersRegions']]],
   ['interruptclosesignal_47',['interruptCloseSignal',['../../Cpp/classMR_1_1Viewer.html#a3422160febbc395d966e7a4fcfc5207f',1,'MR::Viewer']]],
   ['intersectingrays_48',['intersectingRays',['../../Cpp/structMR_1_1MultiRayMeshIntersectResult.html#a71a0fa75e778ec8d7c6e2a3f6b0a8090',1,'MR::MultiRayMeshIntersectResult']]],
   ['intersection_49',['Intersection',['../classmrmeshpy_1_1BooleanOperation.html#a97a48d6b8fd41862a12c13dd2406e8c7',1,'mrmeshpy::BooleanOperation']]],

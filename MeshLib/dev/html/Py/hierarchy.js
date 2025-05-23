@@ -223,6 +223,7 @@ var hierarchy =
     [ "mrmeshpy.DistanceToMeshOptions", "classmrmeshpy_1_1DistanceToMeshOptions.html", [
       [ "mrmeshpy.SignedDistanceToMeshOptions", "classmrmeshpy_1_1SignedDistanceToMeshOptions.html", null ]
     ] ],
+    [ "mrmeshpy.WeightedShell.DistanceVolumeCreationParams", "classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams.html", null ],
     [ "mrmeshpy.DistanceVolumeParams", "classmrmeshpy_1_1DistanceVolumeParams.html", [
       [ "mrmeshpy.PointsToDistanceVolumeParams", "classmrmeshpy_1_1PointsToDistanceVolumeParams.html", null ]
     ] ],
@@ -385,6 +386,7 @@ var hierarchy =
     [ "mrmeshpy.func_void_from_std_variant_float_Vector3_float_FeatureObject_ViewportId", "classmrmeshpy_1_1func__void__from__std__variant__float__Vector3__float__FeatureObject__ViewportId.html", null ],
     [ "mrmeshpy.func_void_from_Vector3_float_MeshOrPoints_ProjectionResult", "classmrmeshpy_1_1func__void__from__Vector3__float__MeshOrPoints__ProjectionResult.html", null ],
     [ "mrmeshpy.func_void_from_Vector3_float_MeshOrPoints_ProjectionResult_Id_ObjTag", "classmrmeshpy_1_1func__void__from__Vector3__float__MeshOrPoints__ProjectionResult__Id__ObjTag.html", null ],
+    [ "mrmeshpy.func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams", "classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c.html", null ],
     [ "mrmeshpy.FunctionVolume", "classmrmeshpy_1_1FunctionVolume.html", null ],
     [ "mrmeshpy.FunctionVolumeU8", "classmrmeshpy_1_1FunctionVolumeU8.html", null ],
     [ "mrmeshpy.GcodeLoad", "classmrmeshpy_1_1GcodeLoad.html", null ],
@@ -769,6 +771,10 @@ var hierarchy =
     [ "mrmeshpy.Parabolad", "classmrmeshpy_1_1Parabolad.html", null ],
     [ "mrmeshpy.Parabolaf", "classmrmeshpy_1_1Parabolaf.html", null ],
     [ "mrmeshpy.Parallel", "classmrmeshpy_1_1Parallel.html", null ],
+    [ "mrmeshpy.WeightedShell.ParametersBase", "classmrmeshpy_1_1WeightedShell_1_1ParametersBase.html", [
+      [ "mrmeshpy.WeightedShell.ParametersMetric", "classmrmeshpy_1_1WeightedShell_1_1ParametersMetric.html", null ],
+      [ "mrmeshpy.WeightedShell.ParametersRegions", "classmrmeshpy_1_1WeightedShell_1_1ParametersRegions.html", null ]
+    ] ],
     [ "mrmeshpy.PartMapping", "classmrmeshpy_1_1PartMapping.html", null ],
     [ "mrmeshpy.PathError", "classmrmeshpy_1_1PathError.html", null ],
     [ "mrmeshpy.Pdf", "classmrmeshpy_1_1Pdf.html", null ],
@@ -882,7 +888,7 @@ var hierarchy =
       [ "mrmeshpy.Matrix_float", "classmrmeshpy_1_1Matrix__float.html", null ]
     ] ],
     [ "mrmeshpy.RefineParameters", "classmrmeshpy_1_1RefineParameters.html", null ],
-    [ "mrmeshpy.WeightedPointsShellParametersRegions.Region", "classmrmeshpy_1_1WeightedPointsShellParametersRegions_1_1Region.html", null ],
+    [ "mrmeshpy.WeightedShell.ParametersRegions.Region", "classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1_1Region.html", null ],
     [ "mrmeshpy.RegionId", "classmrmeshpy_1_1RegionId.html", [
       [ "mrmeshpy.NoDefInit_RegionId", "classmrmeshpy_1_1NoDefInit__RegionId.html", null ]
     ] ],
@@ -1144,7 +1150,7 @@ var hierarchy =
     [ "mrmeshpy.std_vector_WatershedGraph_BasinInfo", "classmrmeshpy_1_1std__vector__WatershedGraph__BasinInfo.html", null ],
     [ "mrmeshpy.std_vector_WatershedGraph_BdInfo", "classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo.html", null ],
     [ "mrmeshpy.std_vector_WatershedGraph_OverflowPoint", "classmrmeshpy_1_1std__vector__WatershedGraph__OverflowPoint.html", null ],
-    [ "mrmeshpy.std_vector_WeightedPointsShellParametersRegions_Region", "classmrmeshpy_1_1std__vector__WeightedPointsShellParametersRegions__Region.html", null ],
+    [ "mrmeshpy.std_vector_WeightedShell_ParametersRegions_Region", "classmrmeshpy_1_1std__vector__WeightedShell__ParametersRegions__Region.html", null ],
     [ "mrmeshpy.StitchHolesParams", "classmrmeshpy_1_1StitchHolesParams.html", null ],
     [ "mrmeshpy.SubdivideSettings", "classmrmeshpy_1_1SubdivideSettings.html", null ],
     [ "mrmeshpy.Features.SubfeatureInfo", "classmrmeshpy_1_1Features_1_1SubfeatureInfo.html", null ],
@@ -1362,11 +1368,7 @@ var hierarchy =
     [ "mrmeshpy.VoxelTraits_std_vector_float", "classmrmeshpy_1_1VoxelTraits__std__vector__float.html", null ],
     [ "mrmeshpy.VoxelTraits_std_vector_unsigned_short", "classmrmeshpy_1_1VoxelTraits__std__vector__unsigned__short.html", null ],
     [ "mrmeshpy.WatershedGraph", "classmrmeshpy_1_1WatershedGraph.html", null ],
-    [ "mrmeshpy.WeightedPointsShellParametersBase", "classmrmeshpy_1_1WeightedPointsShellParametersBase.html", [
-      [ "mrmeshpy.WeightedPointsShellParametersMetric", "classmrmeshpy_1_1WeightedPointsShellParametersMetric.html", null ],
-      [ "mrmeshpy.WeightedPointsShellParametersRegions", "classmrmeshpy_1_1WeightedPointsShellParametersRegions.html", null ]
-    ] ],
-    [ "mrmeshpy.WeightedPointsToDistanceVolumeParams", "classmrmeshpy_1_1WeightedPointsToDistanceVolumeParams.html", null ],
+    [ "mrmeshpy.WeightedShell", "classmrmeshpy_1_1WeightedShell.html", null ],
     [ "mrmeshpy.WeightedVertex", "classmrmeshpy_1_1WeightedVertex.html", null ],
     [ "mrmeshpy.WholeEdgeBMap", "classmrmeshpy_1_1WholeEdgeBMap.html", null ],
     [ "mrmeshpy.WholeEdgeMap", "classmrmeshpy_1_1WholeEdgeMap.html", null ],

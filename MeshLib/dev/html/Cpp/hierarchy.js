@@ -307,6 +307,7 @@ var hierarchy =
     [ "MR::DistanceToMeshOptions", "structMR_1_1DistanceToMeshOptions.html", [
       [ "MR::SignedDistanceToMeshOptions", "structMR_1_1SignedDistanceToMeshOptions.html", null ]
     ] ],
+    [ "MR::WeightedShell::DistanceVolumeCreationParams", "structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html", null ],
     [ "MR::DistanceVolumeParams", "structMR_1_1DistanceVolumeParams.html", [
       [ "MR::PointsToDistanceVolumeParams", "structMR_1_1PointsToDistanceVolumeParams.html", null ]
     ] ],
@@ -957,6 +958,10 @@ var hierarchy =
     [ "MR::SurfacePointWidget::Parameters", "structMR_1_1SurfacePointWidget_1_1Parameters.html", null ],
     [ "MR::Viewport::Parameters", "structMR_1_1Viewport_1_1Parameters.html", null ],
     [ "MR::VoxelsVolumeCachingAccessor< V >::Parameters", "structMR_1_1VoxelsVolumeCachingAccessor_1_1Parameters.html", null ],
+    [ "MR::WeightedShell::ParametersBase", "structMR_1_1WeightedShell_1_1ParametersBase.html", [
+      [ "MR::WeightedShell::ParametersMetric", "structMR_1_1WeightedShell_1_1ParametersMetric.html", null ],
+      [ "MR::WeightedShell::ParametersRegions", "structMR_1_1WeightedShell_1_1ParametersRegions.html", null ]
+    ] ],
     [ "MR::ImGuiMeasurementIndicators::Params", "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html", null ],
     [ "MR::PickPointManager::Params", "structMR_1_1PickPointManager_1_1Params.html", null ],
     [ "MR::UI::NonOverlappingLabelTask::Params", "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html", null ],
@@ -1046,7 +1051,7 @@ var hierarchy =
       [ "MR::Matrix< T >", "structMR_1_1Matrix.html", null ]
     ] ],
     [ "MR::RefineParameters", "structMR_1_1RefineParameters.html", null ],
-    [ "MR::WeightedPointsShellParametersRegions::Region", "structMR_1_1WeightedPointsShellParametersRegions_1_1Region.html", null ],
+    [ "MR::WeightedShell::ParametersRegions::Region", "structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region.html", null ],
     [ "MR::RegisterRenderObjectConstructor", "classMR_1_1RegisterRenderObjectConstructor.html", null ],
     [ "MR::RegularMapMesher", "classMR_1_1RegularMapMesher.html", null ],
     [ "MR::RelaxParams", "structMR_1_1RelaxParams.html", [
@@ -1371,11 +1376,6 @@ var hierarchy =
     [ "MR::VoxelTraits< VoxelValueGetter< T > >", "structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html", null ],
     [ "MR::WatershedGraph", "classMR_1_1WatershedGraph.html", null ],
     [ "MR::WebRequest", "classMR_1_1WebRequest.html", null ],
-    [ "MR::WeightedPointsShellParametersBase", "structMR_1_1WeightedPointsShellParametersBase.html", [
-      [ "MR::WeightedPointsShellParametersMetric", "structMR_1_1WeightedPointsShellParametersMetric.html", null ],
-      [ "MR::WeightedPointsShellParametersRegions", "structMR_1_1WeightedPointsShellParametersRegions.html", null ]
-    ] ],
-    [ "MR::WeightedPointsToDistanceVolumeParams", "structMR_1_1WeightedPointsToDistanceVolumeParams.html", null ],
     [ "MR::WeightedVertex", "structMR_1_1WeightedVertex.html", null ],
     [ "MR::Writer< T >", "structMR_1_1Writer.html", null ],
     [ "MR::XfBasedCache< T >", "classMR_1_1XfBasedCache.html", null ],

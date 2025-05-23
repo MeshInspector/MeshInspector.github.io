@@ -179,8 +179,11 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:a9b47aa3f3db622af71c97138bff74b58" id="r_a9b47aa3f3db622af71c97138bff74b58"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b47aa3f3db622af71c97138bff74b58">loc</a></td></tr>
+<tr class="memdesc:a9b47aa3f3db622af71c97138bff74b58"><td class="mdescLeft">&#160;</td><td class="mdescRight">point location  <br /></td></tr>
+<tr class="separator:a9b47aa3f3db622af71c97138bff74b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a758547372340f32380f76222e7c0b0" id="r_a1a758547372340f32380f76222e7c0b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a758547372340f32380f76222e7c0b0">mtp</a></td></tr>
-<tr class="memdesc:a1a758547372340f32380f76222e7c0b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">a point on mesh in barycentric representation  <br /></td></tr>
+<tr class="memdesc:a1a758547372340f32380f76222e7c0b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">the corresponding point on mesh in barycentric representation  <br /></td></tr>
 <tr class="separator:a1a758547372340f32380f76222e7c0b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c13570c2b1fc9561e7b69f49e4a2096" id="r_a3c13570c2b1fc9561e7b69f49e4a2096"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c13570c2b1fc9561e7b69f49e4a2096">eucledeanDist</a> = 0</td></tr>
 <tr class="memdesc:a3c13570c2b1fc9561e7b69f49e4a2096"><td class="mdescLeft">&#160;</td><td class="mdescRight">euclidean distance from input location to mtp  <br /></td></tr>
@@ -336,7 +339,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>either 1) bidirectional distances are computed, or 2) input location is locally outside of the surface (by pseudonormal) </p>
+<p>either 1) bidirectional distances are computed, or 2) input location is locally outside of the surface (by pseudonormal) used for optimization </p>
 
 </div>
 </div>
@@ -356,6 +359,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a9b47aa3f3db622af71c97138bff74b58" name="a9b47aa3f3db622af71c97138bff74b58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b47aa3f3db622af71c97138bff74b58">&#9670;&#160;</a></span>loc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3f MR::MeshPointAndDistance::loc</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>point location </p>
+
+</div>
+</div>
 <a id="a1a758547372340f32380f76222e7c0b0" name="a1a758547372340f32380f76222e7c0b0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1a758547372340f32380f76222e7c0b0">&#9670;&#160;</a></span>mtp</h2>
 
@@ -368,7 +387,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>a point on mesh in barycentric representation </p>
+<p>the corresponding point on mesh in barycentric representation </p>
 
 </div>
 </div>

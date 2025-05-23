@@ -1,11 +1,5 @@
 var NAVTREEINDEX63 =
 {
-"namespaceMR_1_1VoxelsLoad.html#a502a6fc0f3621c800b6569b6e56e99fa":[6,0,1,0,1,40,22],
-"namespaceMR_1_1VoxelsLoad.html#a57c362015058e67cdc805cce6bfec0b8":[6,0,1,0,1,40,8],
-"namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19":[6,0,1,0,1,40,6],
-"namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7":[6,0,1,0,1,40,6,0],
-"namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19af75f97f8f1058acd62c93bf29de9f49e":[6,0,1,0,1,40,6,1],
-"namespaceMR_1_1VoxelsLoad.html#a80f9d3c0df6c7033f2ea958de6f8a1d1":[6,0,1,0,1,40,23],
 "namespaceMR_1_1VoxelsLoad.html#a97daff0d663d2d21303f92b32c475f1d":[6,0,1,0,1,40,19],
 "namespaceMR_1_1VoxelsLoad.html#a9edb1f3f1374143d0d7b53bc7afefeb6":[6,0,1,0,1,40,20],
 "namespaceMR_1_1VoxelsLoad.html#ab74657867c56c855737e8a2dbc5eb1b1":[6,0,1,0,1,40,21],
@@ -19,6 +13,17 @@ var NAVTREEINDEX63 =
 "namespaceMR_1_1VoxelsSave.html#a5289196c605171ac3410bbe845a26176":[6,0,1,0,1,41,1],
 "namespaceMR_1_1VoxelsSave.html#a8b7a3d30f9b81594b08a8a90828dd8e6":[6,0,1,0,1,41,5],
 "namespaceMR_1_1VoxelsSave.html#af18166aaab350552a2f824a43c6faef9":[6,0,1,0,1,41,6],
+"namespaceMR_1_1WeightedShell.html":[6,0,1,0,1,42],
+"namespaceMR_1_1WeightedShell.html#a01eafebe7cd6350d108fb538e558fb12":[6,0,1,0,1,42,13],
+"namespaceMR_1_1WeightedShell.html#a073bb16262b665c98e72cbc2da3afc40":[6,0,1,0,1,42,11],
+"namespaceMR_1_1WeightedShell.html#a33b0f3cc490481ebb0f62010cf20518e":[6,0,1,0,1,42,10],
+"namespaceMR_1_1WeightedShell.html#a3e108c56779c35179e76f309f651b3ae":[6,0,1,0,1,42,5],
+"namespaceMR_1_1WeightedShell.html#a54580de8838b073a4531d9f3149ea22e":[6,0,1,0,1,42,7],
+"namespaceMR_1_1WeightedShell.html#a5f3f7e651a5e21cd4346de588b7641b1":[6,0,1,0,1,42,6],
+"namespaceMR_1_1WeightedShell.html#a7882f57d282bd3aa7b657061f8f9409b":[6,0,1,0,1,42,9],
+"namespaceMR_1_1WeightedShell.html#a8dc2c1b804b8a46b0a33345e1f1688f1":[6,0,1,0,1,42,12],
+"namespaceMR_1_1WeightedShell.html#a90e26c11723ff31873a2d5046d4edc5a":[6,0,1,0,1,42,8],
+"namespaceMR_1_1WeightedShell.html#ad2ba4e4f0e0175fc0608e172a0619984":[6,0,1,0,1,42,4],
 "namespaceMR_1_1detail.html":[6,0,1,0,1,3],
 "namespaceMR_1_1detail.html#a5620523d14d5ba70ac2f7841d93f6076":[6,0,1,0,1,3,6],
 "namespaceMR_1_1detail.html#a93c7b098b17358bdd4512a091bfcb6fa":[6,0,1,0,1,3,5],
@@ -244,10 +249,5 @@ var NAVTREEINDEX63 =
 "structMRICPProperties.html":[6,0,2,0,26],
 "structMRICPProperties.html#a01533b26bf04f650af9c2628b8804258":[6,0,2,0,26,1],
 "structMRICPProperties.html#a032ebb1b9396df0c2d307fc043167307":[6,0,2,0,26,5],
-"structMRICPProperties.html#a21b20f7216af2711301f59435713a9c2":[6,0,2,0,26,11],
-"structMRICPProperties.html#a27741c61220a9d8a833b03f4354cf9d6":[6,0,2,0,26,0],
-"structMRICPProperties.html#a2e7b2a199320af5a6d96b01ab388564e":[6,0,2,0,26,8],
-"structMRICPProperties.html#a3f48a94ed67f67bf7d0b65d62add2d0a":[6,0,2,0,26,6],
-"structMRICPProperties.html#a88912841f4a73c5941ddc87fac934139":[6,0,2,0,26,4],
-"structMRICPProperties.html#a93094df050def819f5582b2327011b50":[6,0,2,0,26,7]
+"structMRICPProperties.html#a21b20f7216af2711301f59435713a9c2":[6,0,2,0,26,11]
 };

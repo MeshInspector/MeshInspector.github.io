@@ -205,6 +205,12 @@ var annotated_dup =
       [ "VoxelsSave", "namespaceMR_1_1VoxelsSave.html", [
         [ "SavingSettings", "structMR_1_1VoxelsSave_1_1SavingSettings.html", "structMR_1_1VoxelsSave_1_1SavingSettings" ]
       ] ],
+      [ "WeightedShell", "namespaceMR_1_1WeightedShell.html", [
+        [ "DistanceVolumeCreationParams", "structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html", "structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams" ],
+        [ "ParametersBase", "structMR_1_1WeightedShell_1_1ParametersBase.html", "structMR_1_1WeightedShell_1_1ParametersBase" ],
+        [ "ParametersMetric", "structMR_1_1WeightedShell_1_1ParametersMetric.html", "structMR_1_1WeightedShell_1_1ParametersMetric" ],
+        [ "ParametersRegions", "structMR_1_1WeightedShell_1_1ParametersRegions.html", "structMR_1_1WeightedShell_1_1ParametersRegions" ]
+      ] ],
       [ "AABBTree", "classMR_1_1AABBTree.html", "classMR_1_1AABBTree" ],
       [ "AABBTreeBase", "classMR_1_1AABBTreeBase.html", "classMR_1_1AABBTreeBase" ],
       [ "AABBTreeNode", "structMR_1_1AABBTreeNode.html", "structMR_1_1AABBTreeNode" ],
@@ -962,10 +968,6 @@ var annotated_dup =
       [ "VoxelTraits< VoxelValueGetter< T > >", "structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html", "structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4" ],
       [ "WatershedGraph", "classMR_1_1WatershedGraph.html", "classMR_1_1WatershedGraph" ],
       [ "WebRequest", "classMR_1_1WebRequest.html", "classMR_1_1WebRequest" ],
-      [ "WeightedPointsShellParametersBase", "structMR_1_1WeightedPointsShellParametersBase.html", "structMR_1_1WeightedPointsShellParametersBase" ],
-      [ "WeightedPointsShellParametersMetric", "structMR_1_1WeightedPointsShellParametersMetric.html", "structMR_1_1WeightedPointsShellParametersMetric" ],
-      [ "WeightedPointsShellParametersRegions", "structMR_1_1WeightedPointsShellParametersRegions.html", "structMR_1_1WeightedPointsShellParametersRegions" ],
-      [ "WeightedPointsToDistanceVolumeParams", "structMR_1_1WeightedPointsToDistanceVolumeParams.html", "structMR_1_1WeightedPointsToDistanceVolumeParams" ],
       [ "WeightedVertex", "structMR_1_1WeightedVertex.html", "structMR_1_1WeightedVertex" ],
       [ "Writer", "structMR_1_1Writer.html", "structMR_1_1Writer" ],
       [ "XfBasedCache", "classMR_1_1XfBasedCache.html", "classMR_1_1XfBasedCache" ],

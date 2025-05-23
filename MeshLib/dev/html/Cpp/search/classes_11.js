@@ -303,7 +303,7 @@ var searchData=
   ['std_5fvector_5fwatershedgraph_5fbasininfo_300',['std_vector_WatershedGraph_BasinInfo',['../../Py/classmrmeshpy_1_1std__vector__WatershedGraph__BasinInfo.html',1,'mrmeshpy']]],
   ['std_5fvector_5fwatershedgraph_5fbdinfo_301',['std_vector_WatershedGraph_BdInfo',['../../Py/classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo.html',1,'mrmeshpy']]],
   ['std_5fvector_5fwatershedgraph_5foverflowpoint_302',['std_vector_WatershedGraph_OverflowPoint',['../../Py/classmrmeshpy_1_1std__vector__WatershedGraph__OverflowPoint.html',1,'mrmeshpy']]],
-  ['std_5fvector_5fweightedpointsshellparametersregions_5fregion_303',['std_vector_WeightedPointsShellParametersRegions_Region',['../../Py/classmrmeshpy_1_1std__vector__WeightedPointsShellParametersRegions__Region.html',1,'mrmeshpy']]],
+  ['std_5fvector_5fweightedshell_5fparametersregions_5fregion_303',['std_vector_WeightedShell_ParametersRegions_Region',['../../Py/classmrmeshpy_1_1std__vector__WeightedShell__ParametersRegions__Region.html',1,'mrmeshpy']]],
   ['stitchholesparams_304',['StitchHolesParams',['../structMR_1_1StitchHolesParams.html',1,'MR::StitchHolesParams'],['../../Py/classmrmeshpy_1_1StitchHolesParams.html',1,'mrmeshpy::StitchHolesParams']]],
   ['stopontruecombiner_305',['StopOnTrueCombiner',['../structMR_1_1StopOnTrueCombiner.html',1,'MR']]],
   ['stringwithicon_306',['StringWithIcon',['../structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html',1,'MR::ImGuiMeasurementIndicators']]],

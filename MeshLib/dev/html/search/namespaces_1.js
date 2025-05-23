@@ -89,7 +89,7 @@ var searchData=
   ['mr_3a_3avoxelsvolumecachingaccessor_86',['VoxelsVolumeCachingAccessor',['.././Cpp/structMR_1_1VoxelsVolumeCachingAccessor_1_1Parameters.html',1,'MR']]],
   ['mr_3a_3awatershedgraph_87',['WatershedGraph',['.././Cpp/structMR_1_1WatershedGraph_1_1BasinInfo.html',1,'MR']]],
   ['mr_3a_3awebrequest_88',['WebRequest',['.././Cpp/structMR_1_1WebRequest_1_1FormData.html',1,'MR']]],
-  ['mr_3a_3aweightedpointsshellparametersregions_89',['WeightedPointsShellParametersRegions',['.././Cpp/structMR_1_1WeightedPointsShellParametersRegions_1_1Region.html',1,'MR']]],
+  ['mr_3a_3aweightedshell_89',['WeightedShell',['.././Cpp/namespaceMR_1_1WeightedShell.html',1,'MR']]],
   ['mrcudapy_90',['mrcudapy',['.././Py/namespacemrcudapy.html',1,'']]],
   ['mrmeshnumpy_91',['mrmeshnumpy',['.././Py/namespacemrmeshnumpy.html',1,'']]],
   ['mrmeshpy_92',['mrmeshpy',['.././Py/namespacemrmeshpy.html',1,'']]],
@@ -128,6 +128,6 @@ var searchData=
   ['mrmeshpy_3a_3avoxelsload_125',['VoxelsLoad',['.././Py/classmrmeshpy_1_1VoxelsLoad_1_1DicomStatus.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3avoxelssave_126',['VoxelsSave',['.././Py/classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3awatershedgraph_127',['WatershedGraph',['.././Py/classmrmeshpy_1_1WatershedGraph_1_1BasinInfo.html',1,'mrmeshpy']]],
-  ['mrmeshpy_3a_3aweightedpointsshellparametersregions_128',['WeightedPointsShellParametersRegions',['.././Py/classmrmeshpy_1_1WeightedPointsShellParametersRegions_1_1Region.html',1,'mrmeshpy']]],
+  ['mrmeshpy_3a_3aweightedshell_128',['WeightedShell',['.././Py/classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams.html',1,'mrmeshpy']]],
   ['mrviewerpy_129',['mrviewerpy',['.././Py/namespacemrviewerpy.html',1,'']]]
 ];

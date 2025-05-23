@@ -144,7 +144,8 @@ var searchData=
   ['func_5fvoid_5ffrom_5fstd_5fvariant_5ffloat_5fvector3_5ffloat_5ffeatureobject_5fviewportid_141',['func_void_from_std_variant_float_Vector3_float_FeatureObject_ViewportId',['../classmrmeshpy_1_1func__void__from__std__variant__float__Vector3__float__FeatureObject__ViewportId.html',1,'mrmeshpy']]],
   ['func_5fvoid_5ffrom_5fvector3_5ffloat_5fmeshorpoints_5fprojectionresult_142',['func_void_from_Vector3_float_MeshOrPoints_ProjectionResult',['../classmrmeshpy_1_1func__void__from__Vector3__float__MeshOrPoints__ProjectionResult.html',1,'mrmeshpy']]],
   ['func_5fvoid_5ffrom_5fvector3_5ffloat_5fmeshorpoints_5fprojectionresult_5fid_5fobjtag_143',['func_void_from_Vector3_float_MeshOrPoints_ProjectionResult_Id_ObjTag',['../classmrmeshpy_1_1func__void__from__Vector3__float__MeshOrPoints__ProjectionResult__Id__ObjTag.html',1,'mrmeshpy']]],
-  ['funccallhelper_144',['FuncCallHelper',['../../Cpp/classMR_1_1detail_1_1FuncCallHelper.html',1,'MR::detail']]],
-  ['functionvolume_145',['FunctionVolume',['../classmrmeshpy_1_1FunctionVolume.html',1,'mrmeshpy']]],
-  ['functionvolumeu8_146',['FunctionVolumeU8',['../classmrmeshpy_1_1FunctionVolumeU8.html',1,'mrmeshpy']]]
+  ['func_5fvoxelsvolume_5fstd_5ffunction_5ffloat_5fvector3_5fint_5fconst_5ffrom_5fmesh_5fweightedshell_5fdistancevolumecreationparams_144',['func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams',['../classmrmeshpy_1_1func__VoxelsVolume__std__function__float__Vector3__int__const__from__Mesh__Weigf3e7d1c6aede669b4f44169a6ea23d5c.html',1,'mrmeshpy']]],
+  ['funccallhelper_145',['FuncCallHelper',['../../Cpp/classMR_1_1detail_1_1FuncCallHelper.html',1,'MR::detail']]],
+  ['functionvolume_146',['FunctionVolume',['../classmrmeshpy_1_1FunctionVolume.html',1,'mrmeshpy']]],
+  ['functionvolumeu8_147',['FunctionVolumeU8',['../classmrmeshpy_1_1FunctionVolumeU8.html',1,'mrmeshpy']]]
 ];

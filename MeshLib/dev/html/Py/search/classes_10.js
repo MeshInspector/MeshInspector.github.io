@@ -19,7 +19,7 @@ var searchData=
   ['rectallocator_16',['RectAllocator',['../../Cpp/classMR_1_1UI_1_1RectAllocator.html',1,'MR::UI']]],
   ['rectindexer_17',['RectIndexer',['../../Cpp/classMR_1_1RectIndexer.html',1,'MR::RectIndexer'],['../classmrmeshpy_1_1RectIndexer.html',1,'mrmeshpy.RectIndexer']]],
   ['refineparameters_18',['RefineParameters',['../../Cpp/structMR_1_1RefineParameters.html',1,'MR::RefineParameters'],['../classmrmeshpy_1_1RefineParameters.html',1,'mrmeshpy.RefineParameters']]],
-  ['region_19',['Region',['../../Cpp/structMR_1_1WeightedPointsShellParametersRegions_1_1Region.html',1,'MR::WeightedPointsShellParametersRegions::Region'],['../classmrmeshpy_1_1WeightedPointsShellParametersRegions_1_1Region.html',1,'mrmeshpy.WeightedPointsShellParametersRegions.Region']]],
+  ['region_19',['Region',['../../Cpp/structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region.html',1,'MR::WeightedShell::ParametersRegions::Region'],['../classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1_1Region.html',1,'mrmeshpy.WeightedShell.ParametersRegions.Region']]],
   ['regionbitset_20',['RegionBitSet',['../classmrmeshpy_1_1RegionBitSet.html',1,'mrmeshpy']]],
   ['regionid_21',['RegionId',['../classmrmeshpy_1_1RegionId.html',1,'mrmeshpy']]],
   ['registerrenderobjectconstructor_22',['RegisterRenderObjectConstructor',['../../Cpp/classMR_1_1RegisterRenderObjectConstructor.html',1,'MR']]],

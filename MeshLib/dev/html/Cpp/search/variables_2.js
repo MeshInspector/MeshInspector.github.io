@@ -47,7 +47,7 @@ var searchData=
   ['bestfitparabolaf_44',['BestFitParabolaf',['../../namespaceMR.html#aad07c491df6116046a3e24c47926bc1c',1,'MR']]],
   ['beta_45',['beta',['../structMR_1_1DenoiseViaNormalsSettings.html#aa7cab391c3f837a22f2d158c7647315a',1,'MR::DenoiseViaNormalsSettings::beta'],['../structMRDenoiseViaNormalsSettings.html#a541307655765642beba67c1d626b5d1e',1,'MRDenoiseViaNormalsSettings::beta']]],
   ['bface_46',['bFace',['../structMR_1_1FaceFace.html#aee3dbbcbddd14dd0707a78411581d0fc',1,'MR::FaceFace']]],
-  ['bidirectionalmode_47',['bidirectionalMode',['../structMR_1_1DistanceFromWeightedPointsParams.html#a443641ce50f2d662bdd033199017d2c2',1,'MR::DistanceFromWeightedPointsParams::bidirectionalMode'],['../structMR_1_1WeightedPointsShellParametersRegions.html#a0a29cdd0d90533e9db1ae49209214c65',1,'MR::WeightedPointsShellParametersRegions::bidirectionalMode']]],
+  ['bidirectionalmode_47',['bidirectionalMode',['../structMR_1_1DistanceFromWeightedPointsParams.html#a443641ce50f2d662bdd033199017d2c2',1,'MR::DistanceFromWeightedPointsParams::bidirectionalMode'],['../structMR_1_1WeightedShell_1_1ParametersRegions.html#aa3520ca7fb6d7d6bcfa86577f199a2d8',1,'MR::WeightedShell::ParametersRegions::bidirectionalMode']]],
   ['bidirectionaloroutside_48',['bidirectionalOrOutside',['../structMR_1_1MeshPointAndDistance.html#a85df864c952f06e84cd510cdebc36a74',1,'MR::MeshPointAndDistance']]],
   ['big_49',['Big',['../structMR_1_1DrawButtonParams.html#ad592bb614e9ec6cf631c4eb003a17103',1,'MR::DrawButtonParams']]],
   ['bigtitlepadding_50',['bigTitlePadding',['../namespaceMR_1_1StyleConsts_1_1Modal.html#a4004a26198c0d4ee7e9de5004b5c58cf',1,'MR::StyleConsts::Modal']]],
