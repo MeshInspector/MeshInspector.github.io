@@ -1,5 +1,6 @@
 var NAVTREEINDEX44 =
 {
+"classMR_1_1TaggedBitSet.html#a4b82a43e07a70118242eec5a2bcdd192":[6,0,0,3,3,23],
 "classMR_1_1TaggedBitSet.html#a53b449a12de4ac9ee78a0d7f030a31c6":[6,0,0,3,3,11],
 "classMR_1_1TaggedBitSet.html#a549d518b018f126420c7403ef5633a1c":[6,0,0,3,3,4],
 "classMR_1_1TaggedBitSet.html#a69c41129aa35d7c55308258093cb7ccc":[6,0,0,3,3,25],
@@ -248,6 +249,5 @@ var NAVTREEINDEX44 =
 "classMR_1_1UnionFind.html#addfb36167fbd876c96379b175c755a5b":[6,0,0,3,15,4],
 "classMR_1_1UniqueTemporaryFolder.html":[6,0,1,0,1,744],
 "classMR_1_1UniqueTemporaryFolder.html":[6,0,2,0,1,728],
-"classMR_1_1UniqueTemporaryFolder.html#a175a2246818aaee34d1f1be05f2d3256":[6,0,1,0,1,744,1],
-"classMR_1_1UniqueTemporaryFolder.html#a175a2246818aaee34d1f1be05f2d3256":[6,0,2,0,1,728,1]
+"classMR_1_1UniqueTemporaryFolder.html#a175a2246818aaee34d1f1be05f2d3256":[6,0,1,0,1,744,1]
 };

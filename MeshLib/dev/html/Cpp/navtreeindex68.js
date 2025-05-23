@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1DirectoryRecursive.html":[6,0,2,0,1,169],
 "structMR_1_1DirectoryRecursive.html#a0377432c17ff4de701e83f6c0ac198ae":[6,0,1,0,1,185,0],
 "structMR_1_1DirectoryRecursive.html#a0377432c17ff4de701e83f6c0ac198ae":[6,0,2,0,1,169,0],
 "structMR_1_1DirectoryRecursive.html#a2e941bde547838e6a74d34b9aed8d49e":[6,0,1,0,1,185,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1EdgePoint.html#a544f2a00465ce861508927e122b12ee5":[6,0,2,0,1,194,11],
 "structMR_1_1EdgePoint.html#a564ab78e8cb9ad078dc7f1b009c594c4":[6,0,1,0,1,210,7],
 "structMR_1_1EdgePoint.html#a564ab78e8cb9ad078dc7f1b009c594c4":[6,0,2,0,1,194,7],
-"structMR_1_1EdgePoint.html#a78a1e20c8433641c96ee2a30d603a137":[6,0,1,0,1,210,2],
-"structMR_1_1EdgePoint.html#a78a1e20c8433641c96ee2a30d603a137":[6,0,2,0,1,194,2]
+"structMR_1_1EdgePoint.html#a78a1e20c8433641c96ee2a30d603a137":[6,0,1,0,1,210,2]
 };

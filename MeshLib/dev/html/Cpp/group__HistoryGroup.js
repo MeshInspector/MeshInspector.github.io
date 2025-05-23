@@ -327,6 +327,7 @@ var group__HistoryGroup =
       [ "clear", "classMR_1_1HistoryStore.html#aeaca3b28f85fa63c443235a4539cfa25", null ],
       [ "filterStack", "classMR_1_1HistoryStore.html#a34a9d69ae6d37fc5a5b4155b63d3c100", null ],
       [ "getHistoryStack", "classMR_1_1HistoryStore.html#a6c72ca2143023fcef93b3e221d010c6d", null ],
+      [ "getLastAction", "classMR_1_1HistoryStore.html#a9a8500d0fc99954fc5387bad5fe4367e", null ],
       [ "getLastActionName", "classMR_1_1HistoryStore.html#ae95320267281820e0d4bdb60d052085e", null ],
       [ "getMemoryLimit", "classMR_1_1HistoryStore.html#a45b3529c2a011c9abd585452550ac145", null ],
       [ "getNActions", "classMR_1_1HistoryStore.html#a8f09d582234535d00d32ca5ece30c992", null ],

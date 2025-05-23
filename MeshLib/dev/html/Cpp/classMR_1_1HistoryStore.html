@@ -234,6 +234,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8f09d582234535d00d32ca5ece30c992" id="r_a8f09d582234535d00d32ca5ece30c992"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f09d582234535d00d32ca5ece30c992">getNActions</a> (unsigned n, <a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a> type) const</td></tr>
 <tr class="memdesc:a8f09d582234535d00d32ca5ece30c992"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns names of last N undo actions or first N redo actions.  <br /></td></tr>
 <tr class="separator:a8f09d582234535d00d32ca5ece30c992"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a8500d0fc99954fc5387bad5fe4367e" id="r_a9a8500d0fc99954fc5387bad5fe4367e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::shared_ptr&lt; <a class="el" href="classMR_1_1HistoryAction.html">HistoryAction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a8500d0fc99954fc5387bad5fe4367e">getLastAction</a> (<a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a> type) const</td></tr>
+<tr class="memdesc:a9a8500d0fc99954fc5387bad5fe4367e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the last undo or redo action based on requested type or empty pointer if corresponding stack is empty.  <br /></td></tr>
+<tr class="separator:a9a8500d0fc99954fc5387bad5fe4367e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae95320267281820e0d4bdb60d052085e" id="r_ae95320267281820e0d4bdb60d052085e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae95320267281820e0d4bdb60d052085e">getLastActionName</a> (<a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a> type) const</td></tr>
 <tr class="memdesc:ae95320267281820e0d4bdb60d052085e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of last undo or redo action (or empty string if there is no such action)  <br /></td></tr>
 <tr class="separator:ae95320267281820e0d4bdb60d052085e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -449,6 +452,33 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns full history stack. </p>
+
+</div>
+</div>
+<a id="a9a8500d0fc99954fc5387bad5fe4367e" name="a9a8500d0fc99954fc5387bad5fe4367e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a8500d0fc99954fc5387bad5fe4367e">&#9670;&#160;</a></span>getLastAction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API std::shared_ptr&lt; <a class="el" href="classMR_1_1HistoryAction.html">HistoryAction</a> &gt; MR::HistoryStore::getLastAction </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the last undo or redo action based on requested type or empty pointer if corresponding stack is empty. </p>
 
 </div>
 </div>

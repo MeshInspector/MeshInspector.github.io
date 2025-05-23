@@ -1,5 +1,6 @@
 var NAVTREEINDEX89 =
 {
+"structMR_1_1VoxelMetricParameters.html#ab2680e847f9d7f989c60b09700889278":[6,0,0,17,3,0,4],
 "structMR_1_1VoxelMetricParameters.html#ae851669e25fee95a2b98a79736a529cf":[6,0,0,17,3,0,3],
 "structMR_1_1VoxelTraits.html":[6,0,1,0,1,795],
 "structMR_1_1VoxelTraits.html":[6,0,2,0,1,779],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1AllLocalTriangulations.html":[6,0,1,0,1,53],
 "structMR_1_1AllLocalTriangulations.html":[6,0,2,0,1,37],
 "structMR_1_1AllLocalTriangulations.html#a37b85e8c82a4f3cc21ee54015ba67cbb":[6,0,1,0,1,53,1],
 "structMR_1_1AllLocalTriangulations.html#a37b85e8c82a4f3cc21ee54015ba67cbb":[6,0,2,0,1,37,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1BooleanInternalParameters.html#a3d8d32104f837c9064678f6e0cbc420c":[6,0,0,8,1,0],
 "structMR_1_1BooleanInternalParameters.html#a9564c4edb40ecc90fa59bfc7a9342bc5":[6,0,0,8,1,2],
 "structMR_1_1BooleanParameters.html":[6,0,1,0,1,79],
-"structMR_1_1BooleanParameters.html":[6,0,2,0,1,63],
-"structMR_1_1BooleanParameters.html#a3c9ab9ed36085974e0aedcdba8ee7b0c":[6,0,1,0,1,79,5]
+"structMR_1_1BooleanParameters.html":[6,0,2,0,1,63]
 };

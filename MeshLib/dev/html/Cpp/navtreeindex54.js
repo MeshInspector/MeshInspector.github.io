@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"group__RayBoxIntersectionGroup.html#ga710fb3f98b472e45efdd6c3671f90581":[6,0,0,0,9,1],
 "group__RayBoxIntersectionGroup.html#ga774d7b2ef218b7634faca3e3300f13b9":[6,0,0,0,9,2],
 "group__SerializerGroup.html":[6,0,0,2,15],
 "group__SerializerGroup.html#ga008566c571e968e28ac38c4317a9fbbe":[6,0,0,2,15,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "group__VoxelGroup.html#gad83baf7155c4c4be0ffa42c4de418e6b":[6,0,0,17,7],
 "group__VoxelGroup.html#gada259ed5ae07b6f5138fb6e8212f7531":[6,0,0,17,30],
 "group__VoxelGroup.html#gae847dbed512fd911819dbc766c0dc9bf":[6,0,0,17,15],
-"group__VoxelGroup.html#gaf0d94fe95fbc290e175743a06ad3d1c6":[6,0,0,17,21],
-"group__VoxelGroup.html#gaf972ceaa48b72a552781412be0e49eb6":[6,0,0,17,24]
+"group__VoxelGroup.html#gaf0d94fe95fbc290e175743a06ad3d1c6":[6,0,0,17,21]
 };

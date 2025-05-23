@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"classMR_1_1ITransformControls_1_1ChangeCenterAction.html#abf5a84325d8fc0c434b810083942d5d2":[6,0,2,0,1,303,0,1],
 "classMR_1_1IViewerSettingsManager.html":[6,0,1,0,1,320],
 "classMR_1_1IViewerSettingsManager.html":[6,0,2,0,1,304],
 "classMR_1_1IViewerSettingsManager.html#a06f9dd76c37cf576cfd31923c38dfcd0":[6,0,1,0,1,320,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "classMR_1_1ImGuiMenu.html#a2fc0e85a12011b7f97ae8de0c9174217aac4ef274f96fe2180181b165f1a20f43":[6,0,2,0,1,276,6,1],
 "classMR_1_1ImGuiMenu.html#a2fc0e85a12011b7f97ae8de0c9174217adc0daeba4c8bbd059be0547682073d26":[6,0,1,0,1,292,6,3],
 "classMR_1_1ImGuiMenu.html#a2fc0e85a12011b7f97ae8de0c9174217adc0daeba4c8bbd059be0547682073d26":[6,0,2,0,1,276,6,3],
-"classMR_1_1ImGuiMenu.html#a318c4a57bcb4a30a7620d3c954668c5a":[6,0,1,0,1,292,43],
-"classMR_1_1ImGuiMenu.html#a318c4a57bcb4a30a7620d3c954668c5a":[6,0,2,0,1,276,43]
+"classMR_1_1ImGuiMenu.html#a318c4a57bcb4a30a7620d3c954668c5a":[6,0,1,0,1,292,43]
 };
