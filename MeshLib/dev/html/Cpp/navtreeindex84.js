@@ -1,5 +1,9 @@
 var NAVTREEINDEX84 =
 {
+"structMR_1_1SortIntersectionsData.html#a4799d62c8691f94b44fc3c7f3a77bbe4":[6,0,2,0,1,649,1],
+"structMR_1_1SortIntersectionsData.html#a4ffc178d247321fb6150846084fd616a":[6,0,1,0,1,665,3],
+"structMR_1_1SortIntersectionsData.html#a4ffc178d247321fb6150846084fd616a":[6,0,2,0,1,649,3],
+"structMR_1_1SortIntersectionsData.html#a64cd77d679e163bbff985d79336ae2c4":[6,0,1,0,1,665,2],
 "structMR_1_1SortIntersectionsData.html#a64cd77d679e163bbff985d79336ae2c4":[6,0,2,0,1,649,2],
 "structMR_1_1SortIntersectionsData.html#ac190f44f37a1e2b9ece5d869fe02015d":[6,0,1,0,1,665,4],
 "structMR_1_1SortIntersectionsData.html#ac190f44f37a1e2b9ece5d869fe02015d":[6,0,2,0,1,649,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX84 =
 "structMR_1_1SystemMemory.html#a76875970bb84c9474cc9e582162fe351":[6,0,2,0,1,677,0],
 "structMR_1_1TbbTaskArenaAndGroup.html":[6,0,1,0,1,696],
 "structMR_1_1TbbTaskArenaAndGroup.html":[6,0,2,0,1,680],
-"structMR_1_1TbbTaskArenaAndGroup.html#a1f5614244e1fa27e65469e5f0266ec4b":[6,0,1,0,1,696,3],
-"structMR_1_1TbbTaskArenaAndGroup.html#a1f5614244e1fa27e65469e5f0266ec4b":[6,0,2,0,1,680,3],
-"structMR_1_1TbbTaskArenaAndGroup.html#a24c1257c943adf488e8748f5a05298ee":[6,0,1,0,1,696,2],
-"structMR_1_1TbbTaskArenaAndGroup.html#a24c1257c943adf488e8748f5a05298ee":[6,0,2,0,1,680,2],
-"structMR_1_1TbbTaskArenaAndGroup.html#a42c69991d5313139fd4a95c3e361a60d":[6,0,1,0,1,696,0]
+"structMR_1_1TbbTaskArenaAndGroup.html#a1f5614244e1fa27e65469e5f0266ec4b":[6,0,1,0,1,696,3]
 };

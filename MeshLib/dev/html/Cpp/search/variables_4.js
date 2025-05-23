@@ -109,6 +109,7 @@ var searchData=
   ['drawviewporttags_106',['drawViewportTags',['../structMR_1_1RibbonMenuUIConfig.html#ad25116ab1883c906d084fc3b87abde3a',1,'MR::RibbonMenuUIConfig']]],
   ['droplist_5f_107',['dropList_',['../classMR_1_1RibbonMenuItem.html#a2f25401d4b94a752bd63b79152673ab5',1,'MR::RibbonMenuItem']]],
   ['duplicatedvertexcount_108',['duplicatedVertexCount',['../group__MeshLoadObjGroup.html#ga26a8bc92daf43830d65572e1f00a40dc',1,'MR::MeshLoad::NamedMesh::duplicatedVertexCount'],['../structMR_1_1MeshLoadSettings.html#a1fdd9db8e441e5ff1bcee3e9d4b664a7',1,'MR::MeshLoadSettings::duplicatedVertexCount'],['../structMRMeshLoadNamedMesh.html#a065f44c0ac8915b00dc7a73732840b71',1,'MRMeshLoadNamedMesh::duplicatedVertexCount']]],
-  ['dupvert_109',['dupVert',['../structMR_1_1MeshBuilder_1_1VertDuplication.html#a304fd55bb8ea2a456b8fdf00cce9e14c',1,'MR::MeshBuilder::VertDuplication']]],
-  ['dynamic_110',['Dynamic',['../structMR_1_1Viewport_1_1Parameters.html#ab86532888b668d97ffd4c158c84ad63d',1,'MR::Viewport::Parameters']]]
+  ['duplicatenonmanifold_109',['duplicateNonManifold',['../structMR_1_1MeshBuilder_1_1UniteCloseParams.html#a6e04cfb485e0a54e7aaf0c75c8ad0eec',1,'MR::MeshBuilder::UniteCloseParams']]],
+  ['dupvert_110',['dupVert',['../structMR_1_1MeshBuilder_1_1VertDuplication.html#a304fd55bb8ea2a456b8fdf00cce9e14c',1,'MR::MeshBuilder::VertDuplication']]],
+  ['dynamic_111',['Dynamic',['../structMR_1_1Viewport_1_1Parameters.html#ab86532888b668d97ffd4c158c84ad63d',1,'MR::Viewport::Parameters']]]
 ];

@@ -169,10 +169,16 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a114d1d59ef37898d184ed75daaf0b5fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, only vertices from this region can be affected  <br /></td></tr>
 <tr class="separator:a114d1d59ef37898d184ed75daaf0b5fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fe2bba25d7c567c9b75a5a856990f20" id="r_a3fe2bba25d7c567c9b75a5a856990f20"><td class="memItemLeft" align="right" valign="top">VertBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fe2bba25d7c567c9b75a5a856990f20">region</a> = nullptr</td></tr>
-<tr class="memdesc:a3fe2bba25d7c567c9b75a5a856990f20"><td class="mdescLeft">&#160;</td><td class="mdescRight">is the mapping of vertices: before -&gt; after  <br /></td></tr>
+<tr class="memdesc:a3fe2bba25d7c567c9b75a5a856990f20"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true - try to duplicates non-manifold vertices instead of removing faces  <br /></td></tr>
 <tr class="separator:a3fe2bba25d7c567c9b75a5a856990f20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e04cfb485e0a54e7aaf0c75c8ad0eec" id="r_a6e04cfb485e0a54e7aaf0c75c8ad0eec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e04cfb485e0a54e7aaf0c75c8ad0eec">duplicateNonManifold</a> = false</td></tr>
+<tr class="memdesc:a6e04cfb485e0a54e7aaf0c75c8ad0eec"><td class="mdescLeft">&#160;</td><td class="mdescRight">is the mapping of vertices: before -&gt; after  <br /></td></tr>
+<tr class="separator:a6e04cfb485e0a54e7aaf0c75c8ad0eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5379829943a90af63f2b4db61f7ff57d" id="r_a5379829943a90af63f2b4db61f7ff57d"><td class="memItemLeft" align="right" valign="top">VertMap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5379829943a90af63f2b4db61f7ff57d">optionalVertOldToNew</a> = nullptr</td></tr>
+<tr class="memdesc:a5379829943a90af63f2b4db61f7ff57d"><td class="mdescLeft">&#160;</td><td class="mdescRight">this can be used to map attributes to duplicated vertices  <br /></td></tr>
 <tr class="separator:a5379829943a90af63f2b4db61f7ff57d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a110cc42934b904692094323354588513" id="r_a110cc42934b904692094323354588513"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1VertDuplication.html">MeshBuilder::VertDuplication</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a110cc42934b904692094323354588513">optionalDuplications</a> = nullptr</td></tr>
+<tr class="separator:a110cc42934b904692094323354588513"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a7a875c31321cd79bd5c7d57c5b9a6f4e" name="a7a875c31321cd79bd5c7d57c5b9a6f4e"></a>
@@ -197,6 +203,36 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a6e04cfb485e0a54e7aaf0c75c8ad0eec" name="a6e04cfb485e0a54e7aaf0c75c8ad0eec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e04cfb485e0a54e7aaf0c75c8ad0eec">&#9670;&#160;</a></span>duplicateNonManifold</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::MeshBuilder::UniteCloseParams::duplicateNonManifold = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>is the mapping of vertices: before -&gt; after </p>
+
+</div>
+</div>
+<a id="a110cc42934b904692094323354588513" name="a110cc42934b904692094323354588513"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a110cc42934b904692094323354588513">&#9670;&#160;</a></span>optionalDuplications</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="structMR_1_1MeshBuilder_1_1VertDuplication.html">MeshBuilder::VertDuplication</a>&gt;* MR::MeshBuilder::UniteCloseParams::optionalDuplications = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5379829943a90af63f2b4db61f7ff57d" name="a5379829943a90af63f2b4db61f7ff57d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5379829943a90af63f2b4db61f7ff57d">&#9670;&#160;</a></span>optionalVertOldToNew</h2>
 
@@ -208,6 +244,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>this can be used to map attributes to duplicated vertices </p>
 
 </div>
 </div>
@@ -223,7 +261,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>is the mapping of vertices: before -&gt; after </p>
+<p>if true - try to duplicates non-manifold vertices instead of removing faces </p>
 
 </div>
 </div>
