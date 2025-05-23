@@ -168,55 +168,75 @@ $(function(){initNavTree('MRChangeXfAction_8h_source.html',''); initResizable(tr
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">public</span>:</div>
 <div class="foldopen" id="foldopen00016" data-start="{" data-end="}">
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeXfAction.html#adc90b8207a85c52060b965692645d95b">   16</a></span>    <a class="code hl_function" href="classMR_1_1ChangeXfAction.html#adc90b8207a85c52060b965692645d95b">ChangeXfAction</a>( <span class="keyword">const</span> std::string&amp; <a class="code hl_function" href="classMR_1_1ChangeXfAction.html#a677bcbff928530a06249b4aa004556bc">name</a>, <span class="keyword">const</span> std::shared_ptr&lt;Object&gt;&amp; obj ) :</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        obj_{ obj },</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        xf_{ obj-&gt;xf() },</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeXfAction.html#adc90b8207a85c52060b965692645d95b">   16</a></span>    <a class="code hl_function" href="classMR_1_1ChangeXfAction.html#adc90b8207a85c52060b965692645d95b">ChangeXfAction</a>( <span class="keyword">const</span> std::string&amp; <a class="code hl_function" href="classMR_1_1ChangeXfAction.html#a677bcbff928530a06249b4aa004556bc">name</a>, <span class="keyword">const</span> std::shared_ptr&lt;Object&gt;&amp; <a class="code hl_function" href="classMR_1_1ChangeXfAction.html#a7ca462bf6ff993310a54857dc66ba1ff">obj</a> ) :</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        obj_{ <a class="code hl_function" href="classMR_1_1ChangeXfAction.html#a7ca462bf6ff993310a54857dc66ba1ff">obj</a> },</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        xf_{ <a class="code hl_function" href="classMR_1_1ChangeXfAction.html#a7ca462bf6ff993310a54857dc66ba1ff">obj</a>-&gt;xf() },</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        name_{ <a class="code hl_function" href="classMR_1_1ChangeXfAction.html#a677bcbff928530a06249b4aa004556bc">name</a> }</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    {</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    }</div>
 </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="foldopen" id="foldopen00023" data-start="{" data-end="}">
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeXfAction.html#a677bcbff928530a06249b4aa004556bc">   23</a></span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classMR_1_1ChangeXfAction.html#a677bcbff928530a06249b4aa004556bc">name</a>()<span class="keyword"> const override</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <span class="keywordflow">return</span> name_;</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    }</div>
+<div class="foldopen" id="foldopen00024" data-start="{" data-end="}">
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeXfAction.html#ac6aa69f1f7afe95ad6453c38ba4fb80e">   24</a></span>    <a class="code hl_function" href="classMR_1_1ChangeXfAction.html#ac6aa69f1f7afe95ad6453c38ba4fb80e">ChangeXfAction</a>( <span class="keyword">const</span> std::string&amp; <a class="code hl_function" href="classMR_1_1ChangeXfAction.html#a677bcbff928530a06249b4aa004556bc">name</a>, <span class="keyword">const</span> std::shared_ptr&lt;Object&gt;&amp; <a class="code hl_function" href="classMR_1_1ChangeXfAction.html#a7ca462bf6ff993310a54857dc66ba1ff">obj</a>, <span class="keyword">const</span> AffineXf3f&amp; newXf ) :</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        obj_{ <a class="code hl_function" href="classMR_1_1ChangeXfAction.html#a7ca462bf6ff993310a54857dc66ba1ff">obj</a> },</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        xf_{ <a class="code hl_function" href="classMR_1_1ChangeXfAction.html#a7ca462bf6ff993310a54857dc66ba1ff">obj</a>-&gt;xf() },</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        name_{ <a class="code hl_function" href="classMR_1_1ChangeXfAction.html#a677bcbff928530a06249b4aa004556bc">name</a> }</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    {</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <span class="keywordflow">if</span> ( obj_ )</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>            obj_-&gt;setXf( newXf );</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    }</div>
 </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="foldopen" id="foldopen00028" data-start="{" data-end="}">
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeXfAction.html#ae0205231d9c1c0389daaa03a05b302e2">   28</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ChangeXfAction.html#ae0205231d9c1c0389daaa03a05b302e2">action</a>( <a class="code hl_enumeration" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a> )<span class="keyword"> override</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <span class="keywordflow">if</span> ( !obj_ )</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        <span class="keyword">auto</span> tmpXf = obj_-&gt;xf();</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        obj_-&gt;setXf( xf_ );</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        xf_ = tmpXf;</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    }</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="foldopen" id="foldopen00033" data-start="{" data-end="}">
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeXfAction.html#a677bcbff928530a06249b4aa004556bc">   33</a></span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="classMR_1_1ChangeXfAction.html#a677bcbff928530a06249b4aa004556bc">name</a>()<span class="keyword"> const override</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keywordflow">return</span> name_;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    }</div>
 </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="foldopen" id="foldopen00037" data-start="{" data-end="}">
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeXfAction.html#a92b9d01bccf043de100f19110630ce24">   37</a></span>    [[nodiscard]] <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> <a class="code hl_function" href="classMR_1_1ChangeXfAction.html#a92b9d01bccf043de100f19110630ce24">heapBytes</a>()<span class="keyword"> const override</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        <span class="keywordflow">return</span> name_.capacity();</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    }</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="foldopen" id="foldopen00038" data-start="{" data-end="}">
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeXfAction.html#ae0205231d9c1c0389daaa03a05b302e2">   38</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ChangeXfAction.html#ae0205231d9c1c0389daaa03a05b302e2">action</a>( <a class="code hl_enumeration" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a> )<span class="keyword"> override</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="keywordflow">if</span> ( !obj_ )</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keyword">auto</span> tmpXf = obj_-&gt;xf();</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        obj_-&gt;setXf( xf_ );</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        xf_ = tmpXf;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    }</div>
 </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    std::shared_ptr&lt;Object&gt; obj_;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    AffineXf3f xf_;</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    std::string name_;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>};</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="foldopen" id="foldopen00047" data-start="{" data-end="}">
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeXfAction.html#a92b9d01bccf043de100f19110630ce24">   47</a></span>    [[nodiscard]] <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> <a class="code hl_function" href="classMR_1_1ChangeXfAction.html#a92b9d01bccf043de100f19110630ce24">heapBytes</a>()<span class="keyword"> const override</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keywordflow">return</span> name_.capacity();</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    }</div>
 </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>}</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="foldopen" id="foldopen00052" data-start="{" data-end="}">
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="classMR_1_1ChangeXfAction.html#a7ca462bf6ff993310a54857dc66ba1ff">   52</a></span>    <span class="keyword">const</span> std::shared_ptr&lt;Object&gt; &amp; <a class="code hl_function" href="classMR_1_1ChangeXfAction.html#a7ca462bf6ff993310a54857dc66ba1ff">obj</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <span class="keywordflow">return</span> obj_;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    }</div>
+</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    std::shared_ptr&lt;Object&gt; obj_;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    AffineXf3f xf_;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    std::string name_;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>};</div>
+</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>} <span class="comment">//namespace MR</span></div>
 <div class="ttc" id="aMRAffineXf3_8h_html"><div class="ttname"><a href="MRAffineXf3_8h.html">MRAffineXf3.h</a></div></div>
 <div class="ttc" id="aMRHistoryAction_8h_html"><div class="ttname"><a href="MRHistoryAction_8h.html">MRHistoryAction.h</a></div></div>
 <div class="ttc" id="aMRObject_8h_html"><div class="ttname"><a href="MRObject_8h.html">MRObject.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1ChangeXfAction_html"><div class="ttname"><a href="classMR_1_1ChangeXfAction.html">MR::ChangeXfAction</a></div><div class="ttdef"><b>Definition</b> MRChangeXfAction.h:13</div></div>
-<div class="ttc" id="aclassMR_1_1ChangeXfAction_html_a677bcbff928530a06249b4aa004556bc"><div class="ttname"><a href="classMR_1_1ChangeXfAction.html#a677bcbff928530a06249b4aa004556bc">MR::ChangeXfAction::name</a></div><div class="ttdeci">virtual std::string name() const override</div><div class="ttdef"><b>Definition</b> MRChangeXfAction.h:23</div></div>
-<div class="ttc" id="aclassMR_1_1ChangeXfAction_html_a92b9d01bccf043de100f19110630ce24"><div class="ttname"><a href="classMR_1_1ChangeXfAction.html#a92b9d01bccf043de100f19110630ce24">MR::ChangeXfAction::heapBytes</a></div><div class="ttdeci">virtual size_t heapBytes() const override</div><div class="ttdoc">returns the amount of memory this object occupies on heap</div><div class="ttdef"><b>Definition</b> MRChangeXfAction.h:37</div></div>
-<div class="ttc" id="aclassMR_1_1ChangeXfAction_html_adc90b8207a85c52060b965692645d95b"><div class="ttname"><a href="classMR_1_1ChangeXfAction.html#adc90b8207a85c52060b965692645d95b">MR::ChangeXfAction::ChangeXfAction</a></div><div class="ttdeci">ChangeXfAction(const std::string &amp;name, const std::shared_ptr&lt; Object &gt; &amp;obj)</div><div class="ttdoc">Constructed from original obj.</div><div class="ttdef"><b>Definition</b> MRChangeXfAction.h:16</div></div>
-<div class="ttc" id="aclassMR_1_1ChangeXfAction_html_ae0205231d9c1c0389daaa03a05b302e2"><div class="ttname"><a href="classMR_1_1ChangeXfAction.html#ae0205231d9c1c0389daaa03a05b302e2">MR::ChangeXfAction::action</a></div><div class="ttdeci">virtual void action(HistoryAction::Type) override</div><div class="ttdoc">This function is called on history action (undo, redo, etc.)</div><div class="ttdef"><b>Definition</b> MRChangeXfAction.h:28</div></div>
+<div class="ttc" id="aclassMR_1_1ChangeXfAction_html_a677bcbff928530a06249b4aa004556bc"><div class="ttname"><a href="classMR_1_1ChangeXfAction.html#a677bcbff928530a06249b4aa004556bc">MR::ChangeXfAction::name</a></div><div class="ttdeci">virtual std::string name() const override</div><div class="ttdef"><b>Definition</b> MRChangeXfAction.h:33</div></div>
+<div class="ttc" id="aclassMR_1_1ChangeXfAction_html_a7ca462bf6ff993310a54857dc66ba1ff"><div class="ttname"><a href="classMR_1_1ChangeXfAction.html#a7ca462bf6ff993310a54857dc66ba1ff">MR::ChangeXfAction::obj</a></div><div class="ttdeci">const std::shared_ptr&lt; Object &gt; &amp; obj() const</div><div class="ttdef"><b>Definition</b> MRChangeXfAction.h:52</div></div>
+<div class="ttc" id="aclassMR_1_1ChangeXfAction_html_a92b9d01bccf043de100f19110630ce24"><div class="ttname"><a href="classMR_1_1ChangeXfAction.html#a92b9d01bccf043de100f19110630ce24">MR::ChangeXfAction::heapBytes</a></div><div class="ttdeci">virtual size_t heapBytes() const override</div><div class="ttdoc">returns the amount of memory this object occupies on heap</div><div class="ttdef"><b>Definition</b> MRChangeXfAction.h:47</div></div>
+<div class="ttc" id="aclassMR_1_1ChangeXfAction_html_ac6aa69f1f7afe95ad6453c38ba4fb80e"><div class="ttname"><a href="classMR_1_1ChangeXfAction.html#ac6aa69f1f7afe95ad6453c38ba4fb80e">MR::ChangeXfAction::ChangeXfAction</a></div><div class="ttdeci">ChangeXfAction(const std::string &amp;name, const std::shared_ptr&lt; Object &gt; &amp;obj, const AffineXf3f &amp;newXf)</div><div class="ttdoc">use this constructor to remember object's transformation and immediately set new mesh</div><div class="ttdef"><b>Definition</b> MRChangeXfAction.h:24</div></div>
+<div class="ttc" id="aclassMR_1_1ChangeXfAction_html_adc90b8207a85c52060b965692645d95b"><div class="ttname"><a href="classMR_1_1ChangeXfAction.html#adc90b8207a85c52060b965692645d95b">MR::ChangeXfAction::ChangeXfAction</a></div><div class="ttdeci">ChangeXfAction(const std::string &amp;name, const std::shared_ptr&lt; Object &gt; &amp;obj)</div><div class="ttdoc">use this constructor to remember object's transformation before making any changes in it</div><div class="ttdef"><b>Definition</b> MRChangeXfAction.h:16</div></div>
+<div class="ttc" id="aclassMR_1_1ChangeXfAction_html_ae0205231d9c1c0389daaa03a05b302e2"><div class="ttname"><a href="classMR_1_1ChangeXfAction.html#ae0205231d9c1c0389daaa03a05b302e2">MR::ChangeXfAction::action</a></div><div class="ttdeci">virtual void action(HistoryAction::Type) override</div><div class="ttdoc">This function is called on history action (undo, redo, etc.)</div><div class="ttdef"><b>Definition</b> MRChangeXfAction.h:38</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryAction_html"><div class="ttname"><a href="classMR_1_1HistoryAction.html">MR::HistoryAction</a></div><div class="ttdef"><b>Definition</b> MRHistoryAction.h:12</div></div>
 <div class="ttc" id="aclassMR_1_1HistoryAction_html_ac16eb31dd26d35cfc18bac8a05983aa7"><div class="ttname"><a href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">MR::HistoryAction::Type</a></div><div class="ttdeci">Type</div><div class="ttdef"><b>Definition</b> MRHistoryAction.h:19</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="../namespaceMR.html">MR</a></div></div>

@@ -1,5 +1,9 @@
 var NAVTREEINDEX90 =
 {
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#ab7b5ae1a4bfe29dcc6fb96d1b059264f":[6,1,0,0,2,1045,18],
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#ab7b5ae1a4bfe29dcc6fb96d1b059264f":[6,1,0,0,2,1045,19],
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#ab7b5ae1a4bfe29dcc6fb96d1b059264f":[6,1,1,0,1,1045,18],
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#ab7b5ae1a4bfe29dcc6fb96d1b059264f":[6,1,1,0,1,1045,19],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#abdb8a1779c6ac589b49de82e71245be8":[6,1,0,0,2,1045,17],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#abdb8a1779c6ac589b49de82e71245be8":[6,1,1,0,1,1045,17],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#ac1b9e1ad99fecefffeb02de88d02db45":[6,1,0,0,2,1045,34],
@@ -245,9 +249,5 @@ var NAVTREEINDEX90 =
 "classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId.html#af217f90cb099a29d006bc36c6871c682":[6,1,0,0,2,1048,30],
 "classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId.html#af217f90cb099a29d006bc36c6871c682":[6,1,1,0,1,1048,30],
 "classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId.html#afba5adedb6072d60872ba11669f6520f":[6,1,0,0,2,1048,29],
-"classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId.html#afba5adedb6072d60872ba11669f6520f":[6,1,1,0,1,1048,29],
-"classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html":[6,1,0,0,2,1049],
-"classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html":[6,1,1,0,1,1049],
-"classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a02b69a6df50867f0a114989095b4326f":[6,1,0,0,2,1049,26],
-"classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a02b69a6df50867f0a114989095b4326f":[6,1,1,0,1,1049,26]
+"classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId.html#afba5adedb6072d60872ba11669f6520f":[6,1,1,0,1,1048,29]
 };

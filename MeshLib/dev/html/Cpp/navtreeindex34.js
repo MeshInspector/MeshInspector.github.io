@@ -1,5 +1,7 @@
 var NAVTREEINDEX34 =
 {
+"classMR_1_1ObjectVoxels.html#a31a6e0940a4632729bd5bab336d3b99f":[6,0,0,11,14,59],
+"classMR_1_1ObjectVoxels.html#a3572c9f87867a96883b1894481cbd313":[6,0,0,11,14,63],
 "classMR_1_1ObjectVoxels.html#a3933529459eee6bf988f3b9814a52818":[6,0,0,11,14,70],
 "classMR_1_1ObjectVoxels.html#a3ace9713c9d0e39585ccb708a7cadf94":[6,0,0,11,14,1],
 "classMR_1_1ObjectVoxels.html#a3c066a65c73f77c0e3a8438729f6102b":[6,0,0,11,14,50],
@@ -247,7 +249,5 @@ var NAVTREEINDEX34 =
 "classMR_1_1PickPointManager.html#ada6902120790d59fb87b99281b702b8c":[6,0,1,0,1,483,24],
 "classMR_1_1PickPointManager.html#ada6902120790d59fb87b99281b702b8c":[6,0,2,0,1,467,24],
 "classMR_1_1PickPointManager.html#adc30aaa3b2d5dea491584b3a5e6bf4c5":[6,0,1,0,1,483,21],
-"classMR_1_1PickPointManager.html#adc30aaa3b2d5dea491584b3a5e6bf4c5":[6,0,2,0,1,467,21],
-"classMR_1_1PickPointManager.html#adffaab931d52fa647870ad0274b3166f":[6,0,1,0,1,483,3],
-"classMR_1_1PickPointManager.html#adffaab931d52fa647870ad0274b3166f":[6,0,2,0,1,467,3]
+"classMR_1_1PickPointManager.html#adc30aaa3b2d5dea491584b3a5e6bf4c5":[6,0,2,0,1,467,21]
 };

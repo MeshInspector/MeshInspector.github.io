@@ -1,5 +1,9 @@
 var NAVTREEINDEX125 =
 {
+"classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#add1e761e077e98b90c7ec7f3843dc4a5":[6,1,0,0,2,823,10],
+"classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#add1e761e077e98b90c7ec7f3843dc4a5":[6,1,1,0,1,823,10],
+"classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#ae4ef370f367b9898ac3d92e6eb970db2":[6,1,0,0,2,823,17],
+"classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#ae4ef370f367b9898ac3d92e6eb970db2":[6,1,1,0,1,823,17],
 "classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#aeba721944953e8732f1620c9a571885a":[6,1,0,0,2,823,13],
 "classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#aeba721944953e8732f1620c9a571885a":[6,1,1,0,1,823,13],
 "classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#af3709f5bcf9ec60d100d151b22935567":[6,1,0,0,2,823,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX125 =
 "classmrmeshpy_1_1std__vector__EdgePointPair.html#a77790e7e76677c62ef6dc9e59d3e7bdd":[6,1,0,0,2,829,16],
 "classmrmeshpy_1_1std__vector__EdgePointPair.html#a77790e7e76677c62ef6dc9e59d3e7bdd":[6,1,1,0,1,829,16],
 "classmrmeshpy_1_1std__vector__EdgePointPair.html#a7f3dc670639528f8acd2441ddbc6f4b3":[6,1,0,0,2,829,18],
-"classmrmeshpy_1_1std__vector__EdgePointPair.html#a7f3dc670639528f8acd2441ddbc6f4b3":[6,1,1,0,1,829,18],
-"classmrmeshpy_1_1std__vector__EdgePointPair.html#a81fd402691ea8ae31b9286a624f61189":[6,1,0,0,2,829,24],
-"classmrmeshpy_1_1std__vector__EdgePointPair.html#a81fd402691ea8ae31b9286a624f61189":[6,1,1,0,1,829,24],
-"classmrmeshpy_1_1std__vector__EdgePointPair.html#a8708d2fbbfa5f6a6d16a490c05fe557e":[6,1,0,0,2,829,27],
-"classmrmeshpy_1_1std__vector__EdgePointPair.html#a8708d2fbbfa5f6a6d16a490c05fe557e":[6,1,1,0,1,829,27]
+"classmrmeshpy_1_1std__vector__EdgePointPair.html#a7f3dc670639528f8acd2441ddbc6f4b3":[6,1,1,0,1,829,18]
 };

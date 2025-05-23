@@ -174,9 +174,12 @@ $(function(){initNavTree('classMR_1_1ChangeXfAction.html',''); initResizable(tru
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:adc90b8207a85c52060b965692645d95b" id="r_adc90b8207a85c52060b965692645d95b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc90b8207a85c52060b965692645d95b">ChangeXfAction</a> (const std::string &amp;<a class="el" href="#a677bcbff928530a06249b4aa004556bc">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &amp;obj)</td></tr>
-<tr class="memdesc:adc90b8207a85c52060b965692645d95b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructed from original obj.  <br /></td></tr>
+<tr class="memitem:adc90b8207a85c52060b965692645d95b" id="r_adc90b8207a85c52060b965692645d95b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc90b8207a85c52060b965692645d95b">ChangeXfAction</a> (const std::string &amp;<a class="el" href="#a677bcbff928530a06249b4aa004556bc">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &amp;<a class="el" href="#a7ca462bf6ff993310a54857dc66ba1ff">obj</a>)</td></tr>
+<tr class="memdesc:adc90b8207a85c52060b965692645d95b"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's transformation before making any changes in it  <br /></td></tr>
 <tr class="separator:adc90b8207a85c52060b965692645d95b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6aa69f1f7afe95ad6453c38ba4fb80e" id="r_ac6aa69f1f7afe95ad6453c38ba4fb80e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6aa69f1f7afe95ad6453c38ba4fb80e">ChangeXfAction</a> (const std::string &amp;<a class="el" href="#a677bcbff928530a06249b4aa004556bc">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &amp;<a class="el" href="#a7ca462bf6ff993310a54857dc66ba1ff">obj</a>, const AffineXf3f &amp;newXf)</td></tr>
+<tr class="memdesc:ac6aa69f1f7afe95ad6453c38ba4fb80e"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's transformation and immediately set new mesh  <br /></td></tr>
+<tr class="separator:ac6aa69f1f7afe95ad6453c38ba4fb80e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a677bcbff928530a06249b4aa004556bc" id="r_a677bcbff928530a06249b4aa004556bc"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a677bcbff928530a06249b4aa004556bc">name</a> () const override</td></tr>
 <tr class="separator:a677bcbff928530a06249b4aa004556bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0205231d9c1c0389daaa03a05b302e2" id="r_ae0205231d9c1c0389daaa03a05b302e2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0205231d9c1c0389daaa03a05b302e2">action</a> (<a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a>) override</td></tr>
@@ -185,6 +188,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a92b9d01bccf043de100f19110630ce24" id="r_a92b9d01bccf043de100f19110630ce24"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92b9d01bccf043de100f19110630ce24">heapBytes</a> () const override</td></tr>
 <tr class="memdesc:a92b9d01bccf043de100f19110630ce24"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="separator:a92b9d01bccf043de100f19110630ce24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ca462bf6ff993310a54857dc66ba1ff" id="r_a7ca462bf6ff993310a54857dc66ba1ff"><td class="memItemLeft" align="right" valign="top">const std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ca462bf6ff993310a54857dc66ba1ff">obj</a> () const</td></tr>
+<tr class="separator:a7ca462bf6ff993310a54857dc66ba1ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1HistoryAction"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1HistoryAction')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMR_1_1HistoryAction.html">MR::HistoryAction</a></td></tr>
 <tr class="memitem:a97370459d3645a1169ed426ef4896e5c inherit pub_methods_classMR_1_1HistoryAction" id="r_a97370459d3645a1169ed426ef4896e5c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1HistoryAction.html#a97370459d3645a1169ed426ef4896e5c">~HistoryAction</a> ()=default</td></tr>
 <tr class="separator:a97370459d3645a1169ed426ef4896e5c inherit pub_methods_classMR_1_1HistoryAction"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -201,7 +206,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="textblock"><p>History action for xf change </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="adc90b8207a85c52060b965692645d95b" name="adc90b8207a85c52060b965692645d95b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc90b8207a85c52060b965692645d95b">&#9670;&#160;</a></span>ChangeXfAction()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adc90b8207a85c52060b965692645d95b">&#9670;&#160;</a></span>ChangeXfAction() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227,7 +232,43 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructed from original obj. </p>
+<p>use this constructor to remember object's transformation before making any changes in it </p>
+
+</div>
+</div>
+<a id="ac6aa69f1f7afe95ad6453c38ba4fb80e" name="ac6aa69f1f7afe95ad6453c38ba4fb80e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6aa69f1f7afe95ad6453c38ba4fb80e">&#9670;&#160;</a></span>ChangeXfAction() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::ChangeXfAction::ChangeXfAction </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>newXf</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>use this constructor to remember object's transformation and immediately set new mesh </p>
 
 </div>
 </div>
@@ -314,6 +355,31 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="classMR_1_1HistoryAction.html#a9daa0b79de161f676f6283e3804dc8ce">MR::HistoryAction</a>.</p>
+
+</div>
+</div>
+<a id="a7ca462bf6ff993310a54857dc66ba1ff" name="a7ca462bf6ff993310a54857dc66ba1ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ca462bf6ff993310a54857dc66ba1ff">&#9670;&#160;</a></span>obj()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &amp; MR::ChangeXfAction::obj </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
