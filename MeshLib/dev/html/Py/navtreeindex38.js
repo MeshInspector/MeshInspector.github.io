@@ -1,5 +1,9 @@
 var NAVTREEINDEX38 =
 {
+"classmrmeshpy_1_1Line3Mesh__float.html#ac477e8db31cd957c4a36cb976799f466":[6,1,0,0,2,415,5],
+"classmrmeshpy_1_1Line3Mesh__float.html#ac477e8db31cd957c4a36cb976799f466":[6,1,1,0,1,415,5],
+"classmrmeshpy_1_1Line3Mesh__float.html#ade30823e0b21fb4b8708fe156b3f57f6":[6,1,0,0,2,415,6],
+"classmrmeshpy_1_1Line3Mesh__float.html#ade30823e0b21fb4b8708fe156b3f57f6":[6,1,1,0,1,415,6],
 "classmrmeshpy_1_1Line3d.html":[6,1,0,0,2,412],
 "classmrmeshpy_1_1Line3d.html":[6,1,1,0,1,412],
 "classmrmeshpy_1_1Line3d.html#a1996ed1a6377589128d4fdc564213ac4":[6,1,0,0,2,412,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX38 =
 "classmrmeshpy_1_1LoadedObjectT__ObjectPoints.html#a756342ca2ead13f275ab328de9e12065":[6,1,0,0,2,429,1],
 "classmrmeshpy_1_1LoadedObjectT__ObjectPoints.html#a756342ca2ead13f275ab328de9e12065":[6,1,1,0,1,429,1],
 "classmrmeshpy_1_1LoadedObjectT__ObjectPoints.html#ab8e180d5460c111e7e46ac8cc650e80e":[6,1,0,0,2,429,3],
-"classmrmeshpy_1_1LoadedObjectT__ObjectPoints.html#ab8e180d5460c111e7e46ac8cc650e80e":[6,1,1,0,1,429,3],
-"classmrmeshpy_1_1LoadedObjectT__ObjectPoints.html#afc962b418feb871ee6ab1c5abe523e11":[6,1,0,0,2,429,0],
-"classmrmeshpy_1_1LoadedObjectT__ObjectPoints.html#afc962b418feb871ee6ab1c5abe523e11":[6,1,1,0,1,429,0],
-"classmrmeshpy_1_1LoadedObjectT__ObjectVoxels.html":[6,1,0,0,2,430],
-"classmrmeshpy_1_1LoadedObjectT__ObjectVoxels.html":[6,1,1,0,1,430]
+"classmrmeshpy_1_1LoadedObjectT__ObjectPoints.html#ab8e180d5460c111e7e46ac8cc650e80e":[6,1,1,0,1,429,3]
 };

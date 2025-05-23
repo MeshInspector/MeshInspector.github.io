@@ -1,5 +1,9 @@
 var NAVTREEINDEX15 =
 {
+"classmrmeshpy_1_1ColorMapAggregator__UndirectedEdgeTag__AggregateMode.html#af4f103b210b19f9130b403ab66fb9ea9":[6,1,0,0,2,147,9],
+"classmrmeshpy_1_1ColorMapAggregator__UndirectedEdgeTag__AggregateMode.html#af4f103b210b19f9130b403ab66fb9ea9":[6,1,1,0,1,147,9],
+"classmrmeshpy_1_1ColorMapAggregator__UndirectedEdgeTag__PartialColorMap.html":[6,1,0,0,2,148],
+"classmrmeshpy_1_1ColorMapAggregator__UndirectedEdgeTag__PartialColorMap.html":[6,1,1,0,1,148],
 "classmrmeshpy_1_1ColorMapAggregator__UndirectedEdgeTag__PartialColorMap.html#a399dde662e02eee3a1b7d0b716b49d60":[6,1,0,0,2,148,2],
 "classmrmeshpy_1_1ColorMapAggregator__UndirectedEdgeTag__PartialColorMap.html#a399dde662e02eee3a1b7d0b716b49d60":[6,1,1,0,1,148,2],
 "classmrmeshpy_1_1ColorMapAggregator__UndirectedEdgeTag__PartialColorMap.html#a443685dce65004dc73ee5c71bf3f8deb":[6,1,0,0,2,148,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX15 =
 "classmrmeshpy_1_1ConeFitterType.html#a4a4bf6d8da8a278a8a6670167d21d7d3":[6,1,0,0,2,157,5],
 "classmrmeshpy_1_1ConeFitterType.html#a4a4bf6d8da8a278a8a6670167d21d7d3":[6,1,1,0,1,157,5],
 "classmrmeshpy_1_1ConeFitterType.html#a4d2fbcab84c1633d2979a2e7a2160fca":[6,1,0,0,2,157,7],
-"classmrmeshpy_1_1ConeFitterType.html#a4d2fbcab84c1633d2979a2e7a2160fca":[6,1,1,0,1,157,7],
-"classmrmeshpy_1_1ConeFitterType.html#a660d547e061f3aebcea9f12b96674126":[6,1,0,0,2,157,11],
-"classmrmeshpy_1_1ConeFitterType.html#a660d547e061f3aebcea9f12b96674126":[6,1,1,0,1,157,11],
-"classmrmeshpy_1_1ConeFitterType.html#a6dbd5364ba53371b5634311092008b3a":[6,1,0,0,2,157,3],
-"classmrmeshpy_1_1ConeFitterType.html#a6dbd5364ba53371b5634311092008b3a":[6,1,1,0,1,157,3]
+"classmrmeshpy_1_1ConeFitterType.html#a4d2fbcab84c1633d2979a2e7a2160fca":[6,1,1,0,1,157,7]
 };

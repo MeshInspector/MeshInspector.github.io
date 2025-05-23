@@ -2201,7 +2201,7 @@ var mrmeshpy_8pyi =
     [ "printTimingTree", "mrmeshpy_8pyi.html#ad712e224759e4abea37cfb589eb0dc7d", null ],
     [ "printTimingTreeAtEnd", "mrmeshpy_8pyi.html#a7d533da540fa6fb48fc77f1055ee2cf2", null ],
     [ "processCloseTriangles", "mrmeshpy_8pyi.html#a86846c2e495e6c3a388d080aa0b25f11", null ],
-    [ "projArea", "mrmeshpy_8pyi.html#af3df88db21a0fbfa627a278393ac1203", null ],
+    [ "projArea", "mrmeshpy_8pyi.html#ab8ab3a75aa4a7071dfb17e0392305111", null ],
     [ "projectAllMeshVertices", "mrmeshpy_8pyi.html#aa361f47b947e1825d7de5a3e83ef3956", null ],
     [ "projectOnAll", "mrmeshpy_8pyi.html#abb6538fa9d6a356235356f5b503acb35", null ],
     [ "pseudonormal", "mrmeshpy_8pyi.html#af94492666ff27a8bce21007931b2fd96", null ],

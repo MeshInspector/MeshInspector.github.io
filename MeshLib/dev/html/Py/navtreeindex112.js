@@ -1,5 +1,13 @@
 var NAVTREEINDEX112 =
 {
+"classmrmeshpy_1_1WeightedVertex.html":[6,1,0,0,2,1141],
+"classmrmeshpy_1_1WeightedVertex.html":[6,1,1,0,1,1141],
+"classmrmeshpy_1_1WeightedVertex.html#a78d7c6a5d4bc95dfe91265a273468e13":[6,1,0,0,2,1141,1],
+"classmrmeshpy_1_1WeightedVertex.html#a78d7c6a5d4bc95dfe91265a273468e13":[6,1,1,0,1,1141,1],
+"classmrmeshpy_1_1WeightedVertex.html#aeea90b1cada6b7e7b374a2c29f0599be":[6,1,0,0,2,1141,0],
+"classmrmeshpy_1_1WeightedVertex.html#aeea90b1cada6b7e7b374a2c29f0599be":[6,1,1,0,1,1141,0],
+"classmrmeshpy_1_1WeightedVertex.html#af96dfb0ccfd4157c0a7903c33b33a310":[6,1,0,0,2,1141,2],
+"classmrmeshpy_1_1WeightedVertex.html#af96dfb0ccfd4157c0a7903c33b33a310":[6,1,1,0,1,1141,2],
 "classmrmeshpy_1_1WholeEdgeBMap.html":[6,1,0,0,2,1142],
 "classmrmeshpy_1_1WholeEdgeBMap.html":[6,1,1,0,1,1142],
 "classmrmeshpy_1_1WholeEdgeBMap.html#a4db5e43cc1c8576cdc30155813ffd89e":[6,1,0,0,2,1142,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX112 =
 "classmrmeshpy_1_1func__AABBTreePoints.html#a8293c272c35c504d8793d5348cde725e":[6,1,0,0,2,270,3],
 "classmrmeshpy_1_1func__AABBTreePoints.html#a8293c272c35c504d8793d5348cde725e":[6,1,1,0,1,270,3],
 "classmrmeshpy_1_1func__AABBTreePoints.html#a95e8c612aadac38968a88cb08c188f9e":[6,1,0,0,2,270,6],
-"classmrmeshpy_1_1func__AABBTreePoints.html#a95e8c612aadac38968a88cb08c188f9e":[6,1,1,0,1,270,6],
-"classmrmeshpy_1_1func__AABBTreePoints.html#a9996d7d2304720a68d80b94cdd2f094d":[6,1,0,0,2,270,2],
-"classmrmeshpy_1_1func__AABBTreePoints.html#a9996d7d2304720a68d80b94cdd2f094d":[6,1,1,0,1,270,2],
-"classmrmeshpy_1_1func__AABBTreePoints.html#ae265c366a34726eae3e866c0aad5be31":[6,1,0,0,2,270,1],
-"classmrmeshpy_1_1func__AABBTreePoints.html#ae265c366a34726eae3e866c0aad5be31":[6,1,1,0,1,270,1],
-"classmrmeshpy_1_1func__AABBTreePoints.html#ae792cb614fccd441c32e64d1b36438ff":[6,1,0,0,2,270,0],
-"classmrmeshpy_1_1func__AABBTreePoints.html#ae792cb614fccd441c32e64d1b36438ff":[6,1,1,0,1,270,0],
-"classmrmeshpy_1_1func__MeshOrPoints__ProjectionResult__from__Vector3__float.html":[6,1,0,0,2,297],
-"classmrmeshpy_1_1func__MeshOrPoints__ProjectionResult__from__Vector3__float.html":[6,1,1,0,1,297]
+"classmrmeshpy_1_1func__AABBTreePoints.html#a95e8c612aadac38968a88cb08c188f9e":[6,1,1,0,1,270,6]
 };

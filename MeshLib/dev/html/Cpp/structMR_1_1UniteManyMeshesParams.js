@@ -1,6 +1,7 @@
 var structMR_1_1UniteManyMeshesParams =
 [
     [ "fixDegenerations", "structMR_1_1UniteManyMeshesParams.html#a28505f79efacbde9b70d5d98148c26e4", null ],
+    [ "forceCut", "structMR_1_1UniteManyMeshesParams.html#ac647b8fce386278e1b3407f1b5f314e5", null ],
     [ "maxAllowedError", "structMR_1_1UniteManyMeshesParams.html#a87d0c6c71297df5ccba6efb599d35f57", null ],
     [ "mergeOnFail", "structMR_1_1UniteManyMeshesParams.html#a37fc9fd84323ac5579854222ba3453c8", null ],
     [ "nestedComponentsMode", "structMR_1_1UniteManyMeshesParams.html#a28a4b396128672937ced813919301558", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX85 =
 {
+"structMR_1_1TbbTaskArenaAndGroup.html":[6,0,2,0,1,680],
+"structMR_1_1TbbTaskArenaAndGroup.html#a1f5614244e1fa27e65469e5f0266ec4b":[6,0,1,0,1,696,3],
 "structMR_1_1TbbTaskArenaAndGroup.html#a1f5614244e1fa27e65469e5f0266ec4b":[6,0,2,0,1,680,3],
 "structMR_1_1TbbTaskArenaAndGroup.html#a24c1257c943adf488e8748f5a05298ee":[6,0,1,0,1,696,2],
 "structMR_1_1TbbTaskArenaAndGroup.html#a24c1257c943adf488e8748f5a05298ee":[6,0,2,0,1,680,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX85 =
 "structMR_1_1TouchpadZoomGestureUpdateListener.html#ae08054a4d6183bf4e0352e5ecdfcb450":[6,0,1,0,1,722,3],
 "structMR_1_1TouchpadZoomGestureUpdateListener.html#ae08054a4d6183bf4e0352e5ecdfcb450":[6,0,2,0,1,706,3],
 "structMR_1_1TransformControls_1_1VisualParams.html":[6,0,1,0,1,724,0],
-"structMR_1_1TransformControls_1_1VisualParams.html":[6,0,2,0,1,708,0],
-"structMR_1_1TransformControls_1_1VisualParams.html#a04d8b2be8f4de0ff07797799a68c1697":[6,0,1,0,1,724,0,12],
-"structMR_1_1TransformControls_1_1VisualParams.html#a04d8b2be8f4de0ff07797799a68c1697":[6,0,2,0,1,708,0,12]
+"structMR_1_1TransformControls_1_1VisualParams.html":[6,0,2,0,1,708,0]
 };

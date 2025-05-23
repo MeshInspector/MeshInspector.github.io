@@ -1,5 +1,7 @@
 var NAVTREEINDEX81 =
 {
+"structMR_1_1PositionedText.html#adf395638da1f3aeb90c01d197a2cf0e0":[6,0,1,0,1,529,3],
+"structMR_1_1PositionedText.html#adf395638da1f3aeb90c01d197a2cf0e0":[6,0,2,0,1,513,3],
 "structMR_1_1PostDrawListener.html":[6,0,1,0,1,530],
 "structMR_1_1PostDrawListener.html":[6,0,2,0,1,514],
 "structMR_1_1PostDrawListener.html#a05affc1a2bebb67a6d5111e3a324a96b":[6,0,1,0,1,530,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX81 =
 "structMR_1_1RemeshSettings.html#a6a29eef43f96e620bbdc1a55778d04b4":[6,0,1,0,1,564,11],
 "structMR_1_1RemeshSettings.html#a6a29eef43f96e620bbdc1a55778d04b4":[6,0,2,0,1,548,11],
 "structMR_1_1RemeshSettings.html#a719cad8f8428301214682399c497bbc1":[6,0,1,0,1,564,2],
-"structMR_1_1RemeshSettings.html#a719cad8f8428301214682399c497bbc1":[6,0,2,0,1,548,2],
-"structMR_1_1RemeshSettings.html#aba67372080b3650ca0d9a939e8b5526a":[6,0,1,0,1,564,12],
-"structMR_1_1RemeshSettings.html#aba67372080b3650ca0d9a939e8b5526a":[6,0,2,0,1,548,12]
+"structMR_1_1RemeshSettings.html#a719cad8f8428301214682399c497bbc1":[6,0,2,0,1,548,2]
 };

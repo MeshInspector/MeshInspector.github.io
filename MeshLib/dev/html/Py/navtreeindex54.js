@@ -1,5 +1,9 @@
 var NAVTREEINDEX54 =
 {
+"classmrmeshpy_1_1NodeBitSet.html#a7ec268765192e72f321d02c8b32b59a2":[6,1,0,0,2,541,15],
+"classmrmeshpy_1_1NodeBitSet.html#a7ec268765192e72f321d02c8b32b59a2":[6,1,1,0,1,541,15],
+"classmrmeshpy_1_1NodeBitSet.html#a801078d61d667a4b1ee4f860510b5547":[6,1,0,0,2,541,43],
+"classmrmeshpy_1_1NodeBitSet.html#a801078d61d667a4b1ee4f860510b5547":[6,1,1,0,1,541,43],
 "classmrmeshpy_1_1NodeBitSet.html#a8294b12ee8219946554540bd0e66034b":[6,1,0,0,2,541,9],
 "classmrmeshpy_1_1NodeBitSet.html#a8294b12ee8219946554540bd0e66034b":[6,1,1,0,1,541,9],
 "classmrmeshpy_1_1NodeBitSet.html#a847521295063d60ca2080946f59cb526":[6,1,0,0,2,541,35],
@@ -245,9 +249,5 @@ var NAVTREEINDEX54 =
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle.html":[6,1,0,0,2,579],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle.html":[6,1,1,0,1,579],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle.html#a2882fcd668791e1a98ea3eec3e321283":[6,1,0,0,2,579,0],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle.html#a2882fcd668791e1a98ea3eec3e321283":[6,1,0,0,2,579,2],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle.html#a2882fcd668791e1a98ea3eec3e321283":[6,1,1,0,1,579,0],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle.html#a2882fcd668791e1a98ea3eec3e321283":[6,1,1,0,1,579,2],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle.html#a30a4f6395ec4b4f4964e7bdbc06b8580":[6,1,0,0,2,579,1],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle.html#a30a4f6395ec4b4f4964e7bdbc06b8580":[6,1,1,0,1,579,1]
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle.html#a2882fcd668791e1a98ea3eec3e321283":[6,1,0,0,2,579,2]
 };

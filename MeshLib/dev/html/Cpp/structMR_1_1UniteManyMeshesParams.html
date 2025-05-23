@@ -183,6 +183,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a37fc9fd84323ac5579854222ba3453c8" id="r_a37fc9fd84323ac5579854222ba3453c8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37fc9fd84323ac5579854222ba3453c8">mergeOnFail</a> { false }</td></tr>
 <tr class="memdesc:a37fc9fd84323ac5579854222ba3453c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">If set - merges meshes instead of booleaning it if boolean operation fails.  <br /></td></tr>
 <tr class="separator:a37fc9fd84323ac5579854222ba3453c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac647b8fce386278e1b3407f1b5f314e5" id="r_ac647b8fce386278e1b3407f1b5f314e5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac647b8fce386278e1b3407f1b5f314e5">forceCut</a> = false</td></tr>
+<tr class="separator:ac647b8fce386278e1b3407f1b5f314e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9881bd75997eb09cd8e02b82b95bfd1" id="r_ab9881bd75997eb09cd8e02b82b95bfd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9881bd75997eb09cd8e02b82b95bfd1">progressCb</a></td></tr>
 <tr class="separator:ab9881bd75997eb09cd8e02b82b95bfd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -201,6 +203,21 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Try fix degenerations after each boolean step, to prevent boolean failure due to high amount of degenerated faces useful on meshes with many coincident surfaces (useRandomShifts used for same issue) </p>
+
+</div>
+</div>
+<a id="ac647b8fce386278e1b3407f1b5f314e5" name="ac647b8fce386278e1b3407f1b5f314e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac647b8fce386278e1b3407f1b5f314e5">&#9670;&#160;</a></span>forceCut</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::UniteManyMeshesParams::forceCut = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way </p><dl class="section warning"><dt>Warning</dt><dd>not recommended in most cases </dd></dl>
 
 </div>
 </div>
