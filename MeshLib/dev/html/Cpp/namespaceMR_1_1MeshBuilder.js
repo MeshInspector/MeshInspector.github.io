@@ -10,7 +10,7 @@ var namespaceMR_1_1MeshBuilder =
     [ "VertSpan", "structMR_1_1MeshBuilder_1_1VertSpan.html", "structMR_1_1MeshBuilder_1_1VertSpan" ],
     [ "addTriangles", "namespaceMR_1_1MeshBuilder.html#a338de61ac0a911470d50fe0f14af05d5", null ],
     [ "addTriangles", "namespaceMR_1_1MeshBuilder.html#affd71ea7a77ed4c02be34778c0923804", null ],
-    [ "duplicateNonManifoldVertices", "namespaceMR_1_1MeshBuilder.html#a490e7688bd91a7df375c29f2bd7633a4", null ],
+    [ "duplicateNonManifoldVertices", "namespaceMR_1_1MeshBuilder.html#a66c0589162941f3fb069c0c629d26137", null ],
     [ "fromDisjointMeshPieces", "namespaceMR_1_1MeshBuilder.html#ac89608a8862a7f497172398df6ccaf30", null ],
     [ "fromFaceSoup", "namespaceMR_1_1MeshBuilder.html#ab4643e01cde45551cee54cc59f539e61", null ],
     [ "fromPointTriples", "namespaceMR_1_1MeshBuilder.html#a787b6d63581b071cba69cde55f211cdf", null ],

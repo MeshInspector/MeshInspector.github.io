@@ -197,7 +197,7 @@ var NAVTREEINDEX8 =
 "MRMesh_2MRMeshBoolean_8h_source.html":[6,0,3,0,0,1,4,183],
 "MRMesh_2MRMeshBuilder_8h.html":[6,0,3,0,0,1,4,186],
 "MRMesh_2MRMeshBuilder_8h.html#a338de61ac0a911470d50fe0f14af05d5":[6,0,3,0,0,1,4,186,3],
-"MRMesh_2MRMeshBuilder_8h.html#a490e7688bd91a7df375c29f2bd7633a4":[6,0,3,0,0,1,4,186,5],
+"MRMesh_2MRMeshBuilder_8h.html#a66c0589162941f3fb069c0c629d26137":[6,0,3,0,0,1,4,186,5],
 "MRMesh_2MRMeshBuilder_8h.html#a787b6d63581b071cba69cde55f211cdf":[6,0,3,0,0,1,4,186,8],
 "MRMesh_2MRMeshBuilder_8h.html#aa308a697fa44ab178932733fdab79f16":[6,0,3,0,0,1,4,186,10],
 "MRMesh_2MRMeshBuilder_8h.html#aa50e77069b62348920b62f3484a265a3":[6,0,3,0,0,1,4,186,11],
