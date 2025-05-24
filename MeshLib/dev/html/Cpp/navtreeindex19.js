@@ -1,5 +1,8 @@
 var NAVTREEINDEX19 =
 {
+"classMR_1_1CNCMachineSettings.html#af43358e48d8585153010284ae8573894":[6,0,2,0,1,124,14],
+"classMR_1_1CameraOrientation.html":[6,0,1,0,1,88],
+"classMR_1_1CameraOrientation.html":[6,0,2,0,1,72],
 "classMR_1_1CameraOrientation.html#a7b825b1fc733e53dfbaab323acabaee3":[6,0,1,0,1,88,0],
 "classMR_1_1CameraOrientation.html#a7b825b1fc733e53dfbaab323acabaee3":[6,0,2,0,1,72,0],
 "classMR_1_1CameraOrientation.html#a84d255ab4e7f8f30f34eb6f6dd2d155a":[6,0,1,0,1,88,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1ChangePolylineAction.html#aeb94c9f13be0f037086e0296e2beea62":[6,0,0,4,21,0],
 "classMR_1_1ChangePolylinePointsAction.html":[6,0,0,4,22],
 "classMR_1_1ChangePolylinePointsAction.html#a304a69e07ee11c1bf44b60b2c38a8f12":[6,0,0,4,22,0],
-"classMR_1_1ChangePolylinePointsAction.html#a4524618733bcefbd17c242f49c3112e1":[6,0,0,4,22,2],
-"classMR_1_1ChangePolylinePointsAction.html#a506a1c3421dec57c85ee978ba69a0591":[6,0,0,4,22,1],
-"classMR_1_1ChangePolylinePointsAction.html#a63e6b7f8c45895a7781661ac76232a24":[6,0,0,4,22,3],
-"classMR_1_1ChangePolylinePointsAction.html#ae04072e7453616bbbf69ed34589627f2":[6,0,0,4,22,4]
+"classMR_1_1ChangePolylinePointsAction.html#a4524618733bcefbd17c242f49c3112e1":[6,0,0,4,22,2]
 };

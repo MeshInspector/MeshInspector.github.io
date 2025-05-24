@@ -326,6 +326,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRRegularMapMesher.h", "MRRegularMapMesher_8h.html", null ],
     [ "MRRelaxParams.h", "MRMesh_2MRRelaxParams_8h.html", "MRMesh_2MRRelaxParams_8h" ],
     [ "MRRenderModelParameters.h", "MRRenderModelParameters_8h.html", "MRRenderModelParameters_8h" ],
+    [ "MRResizeNoInit.h", "MRResizeNoInit_8h.html", "MRResizeNoInit_8h" ],
     [ "MRRestoringStreamsSink.h", "MRRestoringStreamsSink_8h.html", "MRRestoringStreamsSink_8h" ],
     [ "MRRigidScaleXf3.h", "MRRigidScaleXf3_8h.html", "MRRigidScaleXf3_8h" ],
     [ "MRRigidXf3.h", "MRRigidXf3_8h.html", "MRRigidXf3_8h" ],

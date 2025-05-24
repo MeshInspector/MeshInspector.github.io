@@ -181,8 +181,11 @@ var NAVTREEINDEX12 =
 "MRRenderVolumeObject_8h_source.html":[6,0,3,0,0,1,10,78],
 "MRRenderWrapObject_8h.html":[6,0,3,0,0,1,10,79],
 "MRRenderWrapObject_8h_source.html":[6,0,3,0,0,1,10,79],
-"MRRestoringStreamsSink_8h.html":[6,0,3,0,0,1,4,326],
-"MRRestoringStreamsSink_8h_source.html":[6,0,3,0,0,1,4,326],
+"MRResizeNoInit_8h.html":[6,0,3,0,0,1,4,326],
+"MRResizeNoInit_8h.html#aed67ff0988e591b0c1f763b786c3384d":[6,0,3,0,0,1,4,326,0],
+"MRResizeNoInit_8h_source.html":[6,0,3,0,0,1,4,326],
+"MRRestoringStreamsSink_8h.html":[6,0,3,0,0,1,4,327],
+"MRRestoringStreamsSink_8h_source.html":[6,0,3,0,0,1,4,327],
 "MRRibbonButtonDrawer_8h.html":[6,0,3,0,0,1,10,80],
 "MRRibbonButtonDrawer_8h_source.html":[6,0,3,0,0,1,10,80],
 "MRRibbonConstants_8h.html":[6,0,3,0,0,1,10,81],
@@ -246,8 +249,5 @@ var NAVTREEINDEX12 =
 "MRRibbonConstants_8h.html#afc9857750646620b389f5cb41ca048b9":[6,0,3,0,0,1,10,81,50],
 "MRRibbonConstants_8h.html#afe49e137af70c8aaef17a39366b4bd32":[6,0,3,0,0,1,10,81,28],
 "MRRibbonConstants_8h_source.html":[6,0,3,0,0,1,10,81],
-"MRRibbonFontManager_8h.html":[6,0,3,0,0,1,10,82],
-"MRRibbonFontManager_8h_source.html":[6,0,3,0,0,1,10,82],
-"MRRibbonIcons_8h.html":[6,0,3,0,0,1,10,83],
-"MRRibbonIcons_8h_source.html":[6,0,3,0,0,1,10,83]
+"MRRibbonFontManager_8h.html":[6,0,3,0,0,1,10,82]
 };

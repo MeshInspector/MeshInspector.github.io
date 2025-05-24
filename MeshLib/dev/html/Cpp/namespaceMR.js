@@ -2877,6 +2877,7 @@ var namespaceMR =
     [ "resampled", "group__BasicStructuresGroup.html#ga1ca037d5840cb55f43edc7af7164ee53", null ],
     [ "resampleVolumeByInterpolation", "../namespaceMR.html#aca1f6e889fadd4d30603c3cffcf9a930", null ],
     [ "reserveKeyEvent", "../namespaceMR.html#a9cab0079b5bdf8b5ebb5ba774cd76b62", null ],
+    [ "resizeNoInit", "../namespaceMR.html#aed67ff0988e591b0c1f763b786c3384d", null ],
     [ "resolveMeshDegenerations", "group__DecimateGroup.html#ga881bb2eecb81e65b51d1cb8a52340637", null ],
     [ "resolveMeshDegenerations", "../namespaceMR.html#ab62ca12bf096b6d51c71cf97ff6a88e0", null ],
     [ "reverse", "group__SurfacePathGroup.html#ga5ae89c778fe01228f20aa52aa2e160d0", null ],

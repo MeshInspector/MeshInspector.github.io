@@ -1,5 +1,9 @@
 var NAVTREEINDEX85 =
 {
+"structMR_1_1SystemMemory.html#a3087e60be22adc17e00bcb62da97a040":[6,0,2,0,1,677,1],
+"structMR_1_1SystemMemory.html#a76875970bb84c9474cc9e582162fe351":[6,0,1,0,1,693,0],
+"structMR_1_1SystemMemory.html#a76875970bb84c9474cc9e582162fe351":[6,0,2,0,1,677,0],
+"structMR_1_1TbbTaskArenaAndGroup.html":[6,0,1,0,1,696],
 "structMR_1_1TbbTaskArenaAndGroup.html":[6,0,2,0,1,680],
 "structMR_1_1TbbTaskArenaAndGroup.html#a1f5614244e1fa27e65469e5f0266ec4b":[6,0,1,0,1,696,3],
 "structMR_1_1TbbTaskArenaAndGroup.html#a1f5614244e1fa27e65469e5f0266ec4b":[6,0,2,0,1,680,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX85 =
 "structMR_1_1TouchpadZoomGestureUpdateListener.html#ab16d2a45a42547cacb952e49d9018c4d":[6,0,1,0,1,722,0],
 "structMR_1_1TouchpadZoomGestureUpdateListener.html#ab16d2a45a42547cacb952e49d9018c4d":[6,0,2,0,1,706,0],
 "structMR_1_1TouchpadZoomGestureUpdateListener.html#ab217e54fd04b93bb68db492b58504e33":[6,0,1,0,1,722,2],
-"structMR_1_1TouchpadZoomGestureUpdateListener.html#ab217e54fd04b93bb68db492b58504e33":[6,0,2,0,1,706,2],
-"structMR_1_1TouchpadZoomGestureUpdateListener.html#ae08054a4d6183bf4e0352e5ecdfcb450":[6,0,1,0,1,722,3],
-"structMR_1_1TouchpadZoomGestureUpdateListener.html#ae08054a4d6183bf4e0352e5ecdfcb450":[6,0,2,0,1,706,3],
-"structMR_1_1TransformControls_1_1VisualParams.html":[6,0,1,0,1,724,0],
-"structMR_1_1TransformControls_1_1VisualParams.html":[6,0,2,0,1,708,0]
+"structMR_1_1TouchpadZoomGestureUpdateListener.html#ab217e54fd04b93bb68db492b58504e33":[6,0,2,0,1,706,2]
 };

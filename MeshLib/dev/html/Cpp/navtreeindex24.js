@@ -1,5 +1,8 @@
 var NAVTREEINDEX24 =
 {
+"classMR_1_1FreeFormBestFit.html#ab4da354aabbcd433f8e592efba7472a7":[6,0,2,0,1,239,0],
+"classMR_1_1FreeFormDeformer.html":[6,0,1,0,1,256],
+"classMR_1_1FreeFormDeformer.html":[6,0,2,0,1,240],
 "classMR_1_1FreeFormDeformer.html#a2a9d732a3f8a4e282739319c0a79eb95":[6,0,1,0,1,256,11],
 "classMR_1_1FreeFormDeformer.html#a2a9d732a3f8a4e282739319c0a79eb95":[6,0,2,0,1,240,11],
 "classMR_1_1FreeFormDeformer.html#a3eb6ffed57f650462b286bfca66ed783":[6,0,1,0,1,256,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX24 =
 "classMR_1_1Heap.html#af4f46522c9ccfd4ade826452c287a15d":[6,0,0,3,7,3],
 "classMR_1_1Histogram.html":[6,0,0,0,16],
 "classMR_1_1Histogram.html#a2b4f6ecb70d69c8ccba757095f5162cc":[6,0,0,0,16,3],
-"classMR_1_1Histogram.html#a4666262b73e1f92125d26cb27d2d5eca":[6,0,0,0,16,9],
-"classMR_1_1Histogram.html#a46da7c1b719682c2e39bfb89ee04eca3":[6,0,0,0,16,8],
-"classMR_1_1Histogram.html#a489a0a4c59abc3a2d4a5b3382fd7e4b3":[6,0,0,0,16,6],
-"classMR_1_1Histogram.html#a77d44fead356e682cf2c30805722b59c":[6,0,0,0,16,5]
+"classMR_1_1Histogram.html#a4666262b73e1f92125d26cb27d2d5eca":[6,0,0,0,16,9]
 };
