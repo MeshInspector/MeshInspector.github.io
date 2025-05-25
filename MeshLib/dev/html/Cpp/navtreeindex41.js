@@ -1,5 +1,6 @@
 var NAVTREEINDEX41 =
 {
+"classMR_1_1RingIterator.html#a6a1ef2de2a1f13787a3b231f9ce3b4a4":[6,0,2,0,1,595,0],
 "classMR_1_1RingIterator.html#aaccd4999a06a4556d2a8728ed4ae5b15":[6,0,1,0,1,611,2],
 "classMR_1_1RingIterator.html#aaccd4999a06a4556d2a8728ed4ae5b15":[6,0,2,0,1,595,2],
 "classMR_1_1RingIterator.html#add7fd5a21509ef4dc57c7943b3da9920":[6,0,1,0,1,611,4],
@@ -240,14 +241,13 @@ var NAVTREEINDEX41 =
 "classMR_1_1ScopeHistory.html#a155a57e24f0f265fa6b27e456b83cec5":[6,0,2,0,1,621,0],
 "classMR_1_1ScopeHistory.html#a5a69bc34372ef0223eb4b90fab0082d8":[6,0,1,0,1,637,1],
 "classMR_1_1ScopeHistory.html#a5a69bc34372ef0223eb4b90fab0082d8":[6,0,2,0,1,621,1],
+"classMR_1_1ScopeHistory.html#ab4c17b1dd2ac2de71650b8211d421d1b":[6,0,1,0,1,637,2],
+"classMR_1_1ScopeHistory.html#ab4c17b1dd2ac2de71650b8211d421d1b":[6,0,2,0,1,621,2],
 "classMR_1_1SelectObjectByClick.html":[6,0,1,0,1,642],
 "classMR_1_1SelectObjectByClick.html":[6,0,2,0,1,626],
 "classMR_1_1SelectObjectByClick.html#a2a30b5e16efad50fc9ee0f3a38a87296":[6,0,1,0,1,642,2],
 "classMR_1_1SelectObjectByClick.html#a2a30b5e16efad50fc9ee0f3a38a87296":[6,0,2,0,1,626,2],
 "classMR_1_1SelectObjectByClick.html#a4e224981a48ecad3ccd0f3644cfeecd5":[6,0,1,0,1,642,1],
 "classMR_1_1SelectObjectByClick.html#a4e224981a48ecad3ccd0f3644cfeecd5":[6,0,2,0,1,626,1],
-"classMR_1_1SelectObjectByClick.html#af233d2ee48f41e6835cdf6896f6c9676":[6,0,1,0,1,642,0],
-"classMR_1_1SelectObjectByClick.html#af233d2ee48f41e6835cdf6896f6c9676":[6,0,2,0,1,626,0],
-"classMR_1_1SeparationPointStorage.html":[6,0,1,0,1,643],
-"classMR_1_1SeparationPointStorage.html":[6,0,2,0,1,627]
+"classMR_1_1SelectObjectByClick.html#af233d2ee48f41e6835cdf6896f6c9676":[6,0,1,0,1,642,0]
 };

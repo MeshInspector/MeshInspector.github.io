@@ -1,5 +1,7 @@
 var NAVTREEINDEX82 =
 {
+"classmrmeshpy_1_1TriPointf.html":[6,1,0,0,2,1003],
+"classmrmeshpy_1_1TriPointf.html":[6,1,1,0,1,1003],
 "classmrmeshpy_1_1TriPointf.html#a01200c0a58f015670f2cf63656fafcde":[6,1,0,0,2,1003,10],
 "classmrmeshpy_1_1TriPointf.html#a01200c0a58f015670f2cf63656fafcde":[6,1,1,0,1,1003,10],
 "classmrmeshpy_1_1TriPointf.html#a032d5ec470a2a45c99eba504dd08ad0d":[6,1,0,0,2,1003,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX82 =
 "classmrmeshpy_1_1TriangulationParameters.html#a0a17faa1ab3ca7a672416ed4bf0c7f67":[6,1,0,0,2,997,13],
 "classmrmeshpy_1_1TriangulationParameters.html#a0a17faa1ab3ca7a672416ed4bf0c7f67":[6,1,1,0,1,997,13],
 "classmrmeshpy_1_1TriangulationParameters.html#a256d204c76f19b95504089c8f8c84efc":[6,1,0,0,2,997,1],
-"classmrmeshpy_1_1TriangulationParameters.html#a256d204c76f19b95504089c8f8c84efc":[6,1,1,0,1,997,1],
-"classmrmeshpy_1_1TriangulationParameters.html#a2fbf15f62e32428ed397f38a7690ab3a":[6,1,0,0,2,997,2],
-"classmrmeshpy_1_1TriangulationParameters.html#a2fbf15f62e32428ed397f38a7690ab3a":[6,1,1,0,1,997,2]
+"classmrmeshpy_1_1TriangulationParameters.html#a256d204c76f19b95504089c8f8c84efc":[6,1,1,0,1,997,1]
 };

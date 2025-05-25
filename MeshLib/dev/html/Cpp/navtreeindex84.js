@@ -1,5 +1,8 @@
 var NAVTREEINDEX84 =
 {
+"structMR_1_1SomeLocalTriangulations.html#ae08afdcb5e02b6301d401046bf588b12":[6,0,1,0,1,664,2],
+"structMR_1_1SomeLocalTriangulations.html#ae08afdcb5e02b6301d401046bf588b12":[6,0,2,0,1,648,2],
+"structMR_1_1SortIntersectionsData.html":[6,0,1,0,1,665],
 "structMR_1_1SortIntersectionsData.html":[6,0,2,0,1,649],
 "structMR_1_1SortIntersectionsData.html#a24cce95182673d88059c5d9a38905fc0":[6,0,1,0,1,665,5],
 "structMR_1_1SortIntersectionsData.html#a24cce95182673d88059c5d9a38905fc0":[6,0,2,0,1,649,5],
@@ -246,8 +249,5 @@ var NAVTREEINDEX84 =
 "structMR_1_1SymbolMeshParams.html#acb1fbf339bac28e29347e8a59589b28b":[6,0,1,0,1,689,5],
 "structMR_1_1SymbolMeshParams.html#acb1fbf339bac28e29347e8a59589b28b":[6,0,2,0,1,673,5],
 "structMR_1_1SymbolMeshParams.html#afd1a0869903aae7b0b8c5df8492a936b":[6,0,1,0,1,689,0],
-"structMR_1_1SymbolMeshParams.html#afd1a0869903aae7b0b8c5df8492a936b":[6,0,2,0,1,673,0],
-"structMR_1_1SystemMemory.html":[6,0,1,0,1,693],
-"structMR_1_1SystemMemory.html":[6,0,2,0,1,677],
-"structMR_1_1SystemMemory.html#a3087e60be22adc17e00bcb62da97a040":[6,0,1,0,1,693,1]
+"structMR_1_1SymbolMeshParams.html#afd1a0869903aae7b0b8c5df8492a936b":[6,0,2,0,1,673,0]
 };

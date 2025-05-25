@@ -1,5 +1,7 @@
 var NAVTREEINDEX109 =
 {
+"classmrmeshpy_1_1VisualObject.html#afa64178b2ff0ec0f3160412286a20124":[6,1,0,0,2,1115,38],
+"classmrmeshpy_1_1VisualObject.html#afa64178b2ff0ec0f3160412286a20124":[6,1,1,0,1,1115,38],
 "classmrmeshpy_1_1VisualObject.html#afccac4560acbe3eb1403c494d2d9b197":[6,1,0,0,2,1115,54],
 "classmrmeshpy_1_1VisualObject.html#afccac4560acbe3eb1403c494d2d9b197":[6,1,1,0,1,1115,54],
 "classmrmeshpy_1_1VisualizeMaskType.html":[6,1,0,0,2,1114],
@@ -247,7 +249,5 @@ var NAVTREEINDEX109 =
 "classmrmeshpy_1_1VoxelFilterType.html":[6,1,0,0,2,1121],
 "classmrmeshpy_1_1VoxelFilterType.html":[6,1,1,0,1,1121],
 "classmrmeshpy_1_1VoxelFilterType.html#a07514afed911a544f0729c865d79771d":[6,1,0,0,2,1121,11],
-"classmrmeshpy_1_1VoxelFilterType.html#a07514afed911a544f0729c865d79771d":[6,1,1,0,1,1121,11],
-"classmrmeshpy_1_1VoxelFilterType.html#a27ce04260c27d7b98969f1d97d9543b6":[6,1,0,0,2,1121,9],
-"classmrmeshpy_1_1VoxelFilterType.html#a27ce04260c27d7b98969f1d97d9543b6":[6,1,1,0,1,1121,9]
+"classmrmeshpy_1_1VoxelFilterType.html#a07514afed911a544f0729c865d79771d":[6,1,1,0,1,1121,11]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX25 =
 {
+"classMR_1_1Histogram.html#a4666262b73e1f92125d26cb27d2d5eca":[6,0,0,0,16,9],
 "classMR_1_1Histogram.html#a46da7c1b719682c2e39bfb89ee04eca3":[6,0,0,0,16,8],
 "classMR_1_1Histogram.html#a489a0a4c59abc3a2d4a5b3382fd7e4b3":[6,0,0,0,16,6],
 "classMR_1_1Histogram.html#a77d44fead356e682cf2c30805722b59c":[6,0,0,0,16,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX25 =
 "classMR_1_1ITransformControls.html#af95856a61b1ace2e76600c292a4965c7":[6,0,2,0,1,303,5],
 "classMR_1_1ITransformControls_1_1ChangeCenterAction.html":[6,0,1,0,1,319,0],
 "classMR_1_1ITransformControls_1_1ChangeCenterAction.html":[6,0,2,0,1,303,0],
-"classMR_1_1ITransformControls_1_1ChangeCenterAction.html#a33f480e43da49df5be723d1981cda6c8":[6,0,1,0,1,319,0,2],
-"classMR_1_1ITransformControls_1_1ChangeCenterAction.html#a33f480e43da49df5be723d1981cda6c8":[6,0,2,0,1,303,0,2]
+"classMR_1_1ITransformControls_1_1ChangeCenterAction.html#a33f480e43da49df5be723d1981cda6c8":[6,0,1,0,1,319,0,2]
 };

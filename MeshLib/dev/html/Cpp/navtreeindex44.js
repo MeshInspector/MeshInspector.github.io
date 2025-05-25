@@ -1,5 +1,8 @@
 var NAVTREEINDEX44 =
 {
+"classMR_1_1TaggedBitSet.html#a1c8aee25bccee66a0c7e707d6f9a05c6":[6,0,0,3,3,28],
+"classMR_1_1TaggedBitSet.html#a1d9ad007c077a26b967a76773068474f":[6,0,0,3,3,40],
+"classMR_1_1TaggedBitSet.html#a212c6989ba220f4a519be90cd441a09e":[6,0,0,3,3,24],
 "classMR_1_1TaggedBitSet.html#a2aab8e5476aab380895dad35d479c316":[6,0,0,3,3,32],
 "classMR_1_1TaggedBitSet.html#a398e159fd9ac350d7f5daa233751f089":[6,0,0,3,3,35],
 "classMR_1_1TaggedBitSet.html#a462014129d5cd9d3812890a783da6bc9":[6,0,0,3,3,5],
@@ -246,8 +249,5 @@ var NAVTREEINDEX44 =
 "classMR_1_1UnionFind.html#a5b1ee758f69d77277361f8cbe1e0d77e":[6,0,0,3,15,6],
 "classMR_1_1UnionFind.html#a661398df57a710beae6f4b7c19ac3006":[6,0,0,3,15,1],
 "classMR_1_1UnionFind.html#a67ccf008e0816480dca10b19c530a7b1":[6,0,0,3,15,0],
-"classMR_1_1UnionFind.html#a6a74089f75f3b88edf1a6fb0beba1e13":[6,0,0,3,15,5],
-"classMR_1_1UnionFind.html#a90f0abbb89cc29b3e3ab237eb968cae5":[6,0,0,3,15,8],
-"classMR_1_1UnionFind.html#aa570cc6f33bbb51fb5859608b9c68fbc":[6,0,0,3,15,10],
-"classMR_1_1UnionFind.html#ab0d01d793fad21820791310d7318235e":[6,0,0,3,15,7]
+"classMR_1_1UnionFind.html#a6a74089f75f3b88edf1a6fb0beba1e13":[6,0,0,3,15,5]
 };

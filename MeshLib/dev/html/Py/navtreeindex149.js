@@ -1,5 +1,7 @@
 var NAVTREEINDEX149 =
 {
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectDistanceMap.html#afb09e436e1cd765b8e1cde76826105bf":[6,1,0,0,2,909,17],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectDistanceMap.html#afb09e436e1cd765b8e1cde76826105bf":[6,1,1,0,1,909,17],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLines.html":[6,1,0,0,2,910],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLines.html":[6,1,1,0,1,910],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLines.html#a02c70c4c564eb9b4d0cb5568f61e70b7":[6,1,0,0,2,910,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX149 =
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPoints.html#a0b2d7b4f0ad8659b83ad5efc770c0002":[6,1,0,0,2,914,0],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPoints.html#a0b2d7b4f0ad8659b83ad5efc770c0002":[6,1,1,0,1,914,0],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPoints.html#a0dfaa5c1ef2068fd0db22149e007f9a0":[6,1,0,0,2,914,23],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPoints.html#a0dfaa5c1ef2068fd0db22149e007f9a0":[6,1,1,0,1,914,23],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPoints.html#a116830c175cba2f6b52eb9b0c386ed3b":[6,1,0,0,2,914,12],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPoints.html#a116830c175cba2f6b52eb9b0c386ed3b":[6,1,1,0,1,914,12]
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPoints.html#a0dfaa5c1ef2068fd0db22149e007f9a0":[6,1,1,0,1,914,23]
 };

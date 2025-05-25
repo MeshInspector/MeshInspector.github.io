@@ -1,5 +1,6 @@
 var NAVTREEINDEX24 =
 {
+"classMR_1_1FreeFormBestFit.html#ab4da354aabbcd433f8e592efba7472a7":[6,0,1,0,1,255,0],
 "classMR_1_1FreeFormBestFit.html#ab4da354aabbcd433f8e592efba7472a7":[6,0,2,0,1,239,0],
 "classMR_1_1FreeFormDeformer.html":[6,0,1,0,1,256],
 "classMR_1_1FreeFormDeformer.html":[6,0,2,0,1,240],
@@ -248,6 +249,5 @@ var NAVTREEINDEX24 =
 "classMR_1_1Heap.html#abc98f8ae44b5055bed877900deb567d6":[6,0,0,3,7,11],
 "classMR_1_1Heap.html#af4f46522c9ccfd4ade826452c287a15d":[6,0,0,3,7,3],
 "classMR_1_1Histogram.html":[6,0,0,0,16],
-"classMR_1_1Histogram.html#a2b4f6ecb70d69c8ccba757095f5162cc":[6,0,0,0,16,3],
-"classMR_1_1Histogram.html#a4666262b73e1f92125d26cb27d2d5eca":[6,0,0,0,16,9]
+"classMR_1_1Histogram.html#a2b4f6ecb70d69c8ccba757095f5162cc":[6,0,0,0,16,3]
 };

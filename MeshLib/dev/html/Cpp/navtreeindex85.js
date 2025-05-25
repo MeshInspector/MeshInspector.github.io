@@ -1,5 +1,8 @@
 var NAVTREEINDEX85 =
 {
+"structMR_1_1SystemMemory.html":[6,0,1,0,1,693],
+"structMR_1_1SystemMemory.html":[6,0,2,0,1,677],
+"structMR_1_1SystemMemory.html#a3087e60be22adc17e00bcb62da97a040":[6,0,1,0,1,693,1],
 "structMR_1_1SystemMemory.html#a3087e60be22adc17e00bcb62da97a040":[6,0,2,0,1,677,1],
 "structMR_1_1SystemMemory.html#a76875970bb84c9474cc9e582162fe351":[6,0,1,0,1,693,0],
 "structMR_1_1SystemMemory.html#a76875970bb84c9474cc9e582162fe351":[6,0,2,0,1,677,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX85 =
 "structMR_1_1TouchpadZoomGestureUpdateListener.html":[6,0,2,0,1,706],
 "structMR_1_1TouchpadZoomGestureUpdateListener.html#a724f32397cb8683793b5cd819c263129":[6,0,1,0,1,722,1],
 "structMR_1_1TouchpadZoomGestureUpdateListener.html#a724f32397cb8683793b5cd819c263129":[6,0,2,0,1,706,1],
-"structMR_1_1TouchpadZoomGestureUpdateListener.html#ab16d2a45a42547cacb952e49d9018c4d":[6,0,1,0,1,722,0],
-"structMR_1_1TouchpadZoomGestureUpdateListener.html#ab16d2a45a42547cacb952e49d9018c4d":[6,0,2,0,1,706,0],
-"structMR_1_1TouchpadZoomGestureUpdateListener.html#ab217e54fd04b93bb68db492b58504e33":[6,0,1,0,1,722,2],
-"structMR_1_1TouchpadZoomGestureUpdateListener.html#ab217e54fd04b93bb68db492b58504e33":[6,0,2,0,1,706,2]
+"structMR_1_1TouchpadZoomGestureUpdateListener.html#ab16d2a45a42547cacb952e49d9018c4d":[6,0,1,0,1,722,0]
 };
