@@ -1373,6 +1373,7 @@ var hierarchy =
     [ "MR::VoxelsVolumeInterpolatedAccessor< MR::VoxelsVolumeAccessor< VolumeType > >", "classMR_1_1VoxelsVolumeInterpolatedAccessor.html", null ],
     [ "MR::VoxelTraits< T >", "structMR_1_1VoxelTraits.html", null ],
     [ "MR::VoxelTraits< FloatGrid >", "structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html", null ],
+    [ "MR::VoxelTraits< VoxelBitSet >", "structMR_1_1VoxelTraits_3_01VoxelBitSet_01_4.html", null ],
     [ "MR::VoxelTraits< VoxelValueGetter< T > >", "structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html", null ],
     [ "MR::WatershedGraph", "classMR_1_1WatershedGraph.html", null ],
     [ "MR::WebRequest", "classMR_1_1WebRequest.html", null ],

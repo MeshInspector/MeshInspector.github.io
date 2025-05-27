@@ -944,6 +944,7 @@ var hierarchy =
     [ "mrmeshpy.SignDetectionModeShort", "classmrmeshpy_1_1SignDetectionModeShort.html", null ],
     [ "mrmeshpy.ContoursDistanceMapOptions.SignedDetectionMethod", "classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html", null ],
     [ "mrmeshpy.SignedDistanceToMeshResult", "classmrmeshpy_1_1SignedDistanceToMeshResult.html", null ],
+    [ "mrmeshpy.SimpleBinaryVolume", "classmrmeshpy_1_1SimpleBinaryVolume.html", null ],
     [ "mrmeshpy.SimpleVolume", "classmrmeshpy_1_1SimpleVolume.html", [
       [ "mrmeshpy.SimpleVolumeMinMax", "classmrmeshpy_1_1SimpleVolumeMinMax.html", null ]
     ] ],
@@ -1367,6 +1368,7 @@ var hierarchy =
     [ "mrmeshpy.VoxelTraits_std_shared_ptr_OpenVdbFloatGrid", "classmrmeshpy_1_1VoxelTraits__std__shared__ptr__OpenVdbFloatGrid.html", null ],
     [ "mrmeshpy.VoxelTraits_std_vector_float", "classmrmeshpy_1_1VoxelTraits__std__vector__float.html", null ],
     [ "mrmeshpy.VoxelTraits_std_vector_unsigned_short", "classmrmeshpy_1_1VoxelTraits__std__vector__unsigned__short.html", null ],
+    [ "mrmeshpy.VoxelTraits_VoxelBitSet", "classmrmeshpy_1_1VoxelTraits__VoxelBitSet.html", null ],
     [ "mrmeshpy.WatershedGraph", "classmrmeshpy_1_1WatershedGraph.html", null ],
     [ "mrmeshpy.WeightedShell", "classmrmeshpy_1_1WeightedShell.html", null ],
     [ "mrmeshpy.WeightedVertex", "classmrmeshpy_1_1WeightedVertex.html", null ],

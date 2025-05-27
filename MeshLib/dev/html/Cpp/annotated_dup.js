@@ -965,6 +965,7 @@ var annotated_dup =
       [ "VoxelsVolumeMinMax", "structMR_1_1VoxelsVolumeMinMax.html", null ],
       [ "VoxelTraits", "structMR_1_1VoxelTraits.html", null ],
       [ "VoxelTraits< FloatGrid >", "structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html", "structMR_1_1VoxelTraits_3_01FloatGrid_01_4" ],
+      [ "VoxelTraits< VoxelBitSet >", "structMR_1_1VoxelTraits_3_01VoxelBitSet_01_4.html", "structMR_1_1VoxelTraits_3_01VoxelBitSet_01_4" ],
       [ "VoxelTraits< VoxelValueGetter< T > >", "structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html", "structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4" ],
       [ "WatershedGraph", "classMR_1_1WatershedGraph.html", "classMR_1_1WatershedGraph" ],
       [ "WebRequest", "classMR_1_1WebRequest.html", "classMR_1_1WebRequest" ],

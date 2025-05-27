@@ -1,5 +1,10 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1BindVertexAttribArraySettings.html#aa45f4a7fbb301632dd3cce3e70a01bef":[6,0,1,0,1,75,7],
+"structMR_1_1BindVertexAttribArraySettings.html#aa45f4a7fbb301632dd3cce3e70a01bef":[6,0,2,0,1,59,7],
+"structMR_1_1BindVertexAttribArraySettings.html#ac5fc320edee1d79c0c459926f8a80fef":[6,0,1,0,1,75,8],
+"structMR_1_1BindVertexAttribArraySettings.html#ac5fc320edee1d79c0c459926f8a80fef":[6,0,2,0,1,59,8],
+"structMR_1_1BindVertexAttribArraySettings.html#ae47afc7641f6193b867cc7f5bb42f07d":[6,0,1,0,1,75,5],
 "structMR_1_1BindVertexAttribArraySettings.html#ae47afc7641f6193b867cc7f5bb42f07d":[6,0,2,0,1,59,5],
 "structMR_1_1BindVertexAttribArraySettings.html#ae5e71ac65ba00245ac2ee44f35f33168":[6,0,1,0,1,75,4],
 "structMR_1_1BindVertexAttribArraySettings.html#ae5e71ac65ba00245ac2ee44f35f33168":[6,0,2,0,1,59,4],
@@ -244,10 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1ComputeSteepestDescentPathSettings.html#a9c5b63e96c36543a3af9203630d6325c":[6,0,0,16,3,0,0],
 "structMR_1_1ComputeSteepestDescentPathSettings.html#adb7629a9e4ce0c21efc00fd5f1b3932f":[6,0,0,16,3,0,2],
 "structMR_1_1Cone3ApproximationParams.html":[6,0,1,0,1,150],
-"structMR_1_1Cone3ApproximationParams.html":[6,0,2,0,1,134],
-"structMR_1_1Cone3ApproximationParams.html#a0c389ccce5e8616195da9e724505f8c2":[6,0,1,0,1,150,2],
-"structMR_1_1Cone3ApproximationParams.html#a0c389ccce5e8616195da9e724505f8c2":[6,0,2,0,1,134,2],
-"structMR_1_1Cone3ApproximationParams.html#a5b47cd0b4ce1e73f079a35fdc80d2850":[6,0,1,0,1,150,1],
-"structMR_1_1Cone3ApproximationParams.html#a5b47cd0b4ce1e73f079a35fdc80d2850":[6,0,2,0,1,134,1],
-"structMR_1_1Cone3ApproximationParams.html#a6c4848e08b47fefbf24a221b15e00329":[6,0,1,0,1,150,3]
+"structMR_1_1Cone3ApproximationParams.html":[6,0,2,0,1,134]
 };

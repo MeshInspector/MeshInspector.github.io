@@ -1,5 +1,10 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1PointOnFace.html":[6,0,2,0,1,485],
+"structMR_1_1PointOnFace.html#a025f9557286d25c7be1c794fbb8ecafa":[6,0,1,0,1,501,1],
+"structMR_1_1PointOnFace.html#a025f9557286d25c7be1c794fbb8ecafa":[6,0,2,0,1,485,1],
+"structMR_1_1PointOnFace.html#a2ec934aa6c7847dbfbc812bcea286b53":[6,0,1,0,1,501,2],
+"structMR_1_1PointOnFace.html#a2ec934aa6c7847dbfbc812bcea286b53":[6,0,2,0,1,485,2],
 "structMR_1_1PointOnFace.html#a8ee455f370bca112fa98cf9f81a2e3ad":[6,0,1,0,1,501,3],
 "structMR_1_1PointOnFace.html#a8ee455f370bca112fa98cf9f81a2e3ad":[6,0,2,0,1,485,3],
 "structMR_1_1PointOnFace.html#acabf2c49796ac6c253d2d2031fb688c7":[6,0,1,0,1,501,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1PolynomialWrapper.html#ae0ebee6b847c1068f7f9a612844c6043":[6,0,1,0,1,528,4],
 "structMR_1_1PolynomialWrapper.html#ae0ebee6b847c1068f7f9a612844c6043":[6,0,2,0,1,512,4],
 "structMR_1_1PolynomialWrapper.html#aeb39bb3ae145bc05890641bb1bef0cc0":[6,0,1,0,1,528,2],
-"structMR_1_1PolynomialWrapper.html#aeb39bb3ae145bc05890641bb1bef0cc0":[6,0,2,0,1,512,2],
-"structMR_1_1PolynomialWrapper.html#af0d6206aca2da0368e96f793d2b14219":[6,0,1,0,1,528,3],
-"structMR_1_1PolynomialWrapper.html#af0d6206aca2da0368e96f793d2b14219":[6,0,2,0,1,512,3],
-"structMR_1_1PositionedText.html":[6,0,1,0,1,529],
-"structMR_1_1PositionedText.html":[6,0,2,0,1,513],
-"structMR_1_1PositionedText.html#a0361f418c9fa0c8257d7148d219fe4c6":[6,0,1,0,1,529,4]
+"structMR_1_1PolynomialWrapper.html#aeb39bb3ae145bc05890641bb1bef0cc0":[6,0,2,0,1,512,2]
 };

@@ -219,6 +219,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:gacfd51356fbcb71948b1ef3f058ac75c7" id="r_gacfd51356fbcb71948b1ef3f058ac75c7"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacfd51356fbcb71948b1ef3f058ac75c7">MR::heapBytes</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;bs)</td></tr>
+<tr class="memdesc:gacfd51356fbcb71948b1ef3f058ac75c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory given <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> occupies on heap  <br /></td></tr>
+<tr class="separator:gacfd51356fbcb71948b1ef3f058ac75c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga300a438da6440ee7d2e92933bcfa6018" id="r_ga300a438da6440ee7d2e92933bcfa6018"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga300a438da6440ee7d2e92933bcfa6018">MR::operator==</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;a, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;b)</td></tr>
 <tr class="memdesc:ga300a438da6440ee7d2e92933bcfa6018"><td class="mdescLeft">&#160;</td><td class="mdescRight">compare that two bit sets have the same set bits (they can be equal even if sizes are distinct but last bits are off)  <br /></td></tr>
 <tr class="separator:ga300a438da6440ee7d2e92933bcfa6018"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1227,8 +1230,35 @@ template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae
 
 </div>
 </div>
+<a id="gacfd51356fbcb71948b1ef3f058ac75c7" name="gacfd51356fbcb71948b1ef3f058ac75c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacfd51356fbcb71948b1ef3f058ac75c7">&#9670;&#160;</a></span>heapBytes() <span class="overload">[1/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t MR::heapBytes </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the amount of memory given <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> occupies on heap </p>
+
+</div>
+</div>
 <a id="ga95720533ccaf5f5aa42fbabee1ce7067" name="ga95720533ccaf5f5aa42fbabee1ce7067"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga95720533ccaf5f5aa42fbabee1ce7067">&#9670;&#160;</a></span>heapBytes() <span class="overload">[1/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga95720533ccaf5f5aa42fbabee1ce7067">&#9670;&#160;</a></span>heapBytes() <span class="overload">[2/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1257,7 +1287,7 @@ template&lt;typename ... Ts&gt; </div>
 </div>
 </div>
 <a id="ga616873b34fa0db5205d049f845bec044" name="ga616873b34fa0db5205d049f845bec044"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga616873b34fa0db5205d049f845bec044">&#9670;&#160;</a></span>heapBytes() <span class="overload">[2/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga616873b34fa0db5205d049f845bec044">&#9670;&#160;</a></span>heapBytes() <span class="overload">[3/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1286,7 +1316,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="gac4cf85680ec3620cb08726ea6668e99a" name="gac4cf85680ec3620cb08726ea6668e99a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac4cf85680ec3620cb08726ea6668e99a">&#9670;&#160;</a></span>heapBytes() <span class="overload">[3/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac4cf85680ec3620cb08726ea6668e99a">&#9670;&#160;</a></span>heapBytes() <span class="overload">[4/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1315,7 +1345,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="ga6f62a19a1892f63b5d147de8ef2160c0" name="ga6f62a19a1892f63b5d147de8ef2160c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6f62a19a1892f63b5d147de8ef2160c0">&#9670;&#160;</a></span>heapBytes() <span class="overload">[4/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6f62a19a1892f63b5d147de8ef2160c0">&#9670;&#160;</a></span>heapBytes() <span class="overload">[5/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1344,7 +1374,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="ga2442ef2afa7012af6ca21ebcb6604536" name="ga2442ef2afa7012af6ca21ebcb6604536"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2442ef2afa7012af6ca21ebcb6604536">&#9670;&#160;</a></span>heapBytes() <span class="overload">[5/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2442ef2afa7012af6ca21ebcb6604536">&#9670;&#160;</a></span>heapBytes() <span class="overload">[6/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1373,7 +1403,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="ga92b723fb37bb2e5133cba528ecd679e6" name="ga92b723fb37bb2e5133cba528ecd679e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga92b723fb37bb2e5133cba528ecd679e6">&#9670;&#160;</a></span>heapBytes() <span class="overload">[6/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga92b723fb37bb2e5133cba528ecd679e6">&#9670;&#160;</a></span>heapBytes() <span class="overload">[7/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

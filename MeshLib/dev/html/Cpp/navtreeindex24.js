@@ -1,5 +1,7 @@
 var NAVTREEINDEX24 =
 {
+"classMR_1_1FreeFormBestFit.html#a92fb64c83b3d706c39e60b22c99bdfd1":[6,0,1,0,1,255,1],
+"classMR_1_1FreeFormBestFit.html#a92fb64c83b3d706c39e60b22c99bdfd1":[6,0,2,0,1,239,1],
 "classMR_1_1FreeFormBestFit.html#ab4da354aabbcd433f8e592efba7472a7":[6,0,1,0,1,255,0],
 "classMR_1_1FreeFormBestFit.html#ab4da354aabbcd433f8e592efba7472a7":[6,0,2,0,1,239,0],
 "classMR_1_1FreeFormDeformer.html":[6,0,1,0,1,256],
@@ -247,7 +249,5 @@ var NAVTREEINDEX24 =
 "classMR_1_1Heap.html#a516d00eb9620f9cdb1f5c43c0810f744":[6,0,0,3,7,9],
 "classMR_1_1Heap.html#a7d993f1a0fb45abb27e62ceee5a1dbe6":[6,0,0,3,7,10],
 "classMR_1_1Heap.html#abc98f8ae44b5055bed877900deb567d6":[6,0,0,3,7,11],
-"classMR_1_1Heap.html#af4f46522c9ccfd4ade826452c287a15d":[6,0,0,3,7,3],
-"classMR_1_1Histogram.html":[6,0,0,0,16],
-"classMR_1_1Histogram.html#a2b4f6ecb70d69c8ccba757095f5162cc":[6,0,0,0,16,3]
+"classMR_1_1Heap.html#af4f46522c9ccfd4ade826452c287a15d":[6,0,0,3,7,3]
 };

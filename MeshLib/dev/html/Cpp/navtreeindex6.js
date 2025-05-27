@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"MRMeshC_2MRMeshCollidePrecise_8h_source.html":[6,0,3,0,0,1,5,30],
+"MRMeshC_2MRMeshCollide_8h.html":[6,0,3,0,0,1,5,29],
 "MRMeshC_2MRMeshCollide_8h.html#a14f8f322b3d4498d94d89c06fd233ccc":[6,0,3,0,0,1,5,29,0],
 "MRMeshC_2MRMeshCollide_8h_source.html":[6,0,3,0,0,1,5,29],
 "MRMeshC_2MRMeshComponents_8h.html":[6,0,3,0,0,1,5,31],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "MRMeshC_2MROffset_8h.html#ac7f167c74ae36585005ebc3bf201682b":[6,0,3,0,0,1,5,53,7],
 "MRMeshC_2MROffset_8h.html#ad4c72f42f42761ee3fd77af2372ab83b":[6,0,3,0,0,1,5,53,14],
 "MRMeshC_2MROffset_8h.html#af70da9adcbba35b3a117eed9dce486a0":[6,0,3,0,0,1,5,53,10],
-"MRMeshC_2MROffset_8h_source.html":[6,0,3,0,0,1,5,53],
-"MRMeshC_2MRPointCloudTriangulation_8h.html":[6,0,3,0,0,1,5,55],
-"MRMeshC_2MRPointCloudTriangulation_8h.html#a25a82b128648f3868ef306e8f17697a6":[6,0,3,0,0,1,5,55,2]
+"MRMeshC_2MROffset_8h_source.html":[6,0,3,0,0,1,5,53]
 };

@@ -7,6 +7,7 @@ var MRMesh_2MRBitSet_8h =
     [ "contains", "MRMesh_2MRBitSet_8h.html#gaf22d770b767eff4d37bc4be52ef5032f", null ],
     [ "end", "MRMesh_2MRBitSet_8h.html#gab900ba901f90bfe11c4580814af4fbf6", null ],
     [ "end", "MRMesh_2MRBitSet_8h.html#ga324a24cbdfc8dd3d2dd2bc00954e9498", null ],
+    [ "heapBytes", "MRMesh_2MRBitSet_8h.html#gacfd51356fbcb71948b1ef3f058ac75c7", null ],
     [ "makeHashMapWithSeqNums", "MRMesh_2MRBitSet_8h.html#gaf73163bc53d0376fa656a61ca0d56cd2", null ],
     [ "makePredicate", "MRMesh_2MRBitSet_8h.html#ga5cf6c8bfca2b46c09c612ee5beff6772", null ],
     [ "makePredicate", "MRMesh_2MRBitSet_8h.html#ga88c10cdc1bac1ea496801bc6381969da", null ],

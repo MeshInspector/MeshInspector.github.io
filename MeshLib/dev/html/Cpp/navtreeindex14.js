@@ -1,5 +1,7 @@
 var NAVTREEINDEX14 =
 {
+"MRStatePluginUpdate_8h.html":[6,0,3,0,0,1,10,116],
+"MRStatePluginUpdate_8h_source.html":[6,0,3,0,0,1,10,116],
 "MRStatePlugin_8h.html":[6,0,3,0,0,1,10,115],
 "MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37":[6,0,3,0,0,1,10,115,2],
 "MRStatePlugin_8h.html#a9228096dfb940b935e8dada25c4b0c37a0cbc6611f5540bd0809a388dc95a615b":[6,0,3,0,0,1,10,115,2,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX14 =
 "MRTestC_2MRVector3_8h.html#a807dde1d38c93a2e2e9eaf4df33fa94e":[6,0,3,0,0,1,9,23,11],
 "MRTestC_2MRVector3_8h.html#aa5eb25864c0007e22e8ea57a5269141c":[6,0,3,0,0,1,9,23,6],
 "MRTestC_2MRVector3_8h.html#ab45f73b98cf2547bf426778324a0320f":[6,0,3,0,0,1,9,23,12],
-"MRTestC_2MRVector3_8h.html#ab46d115c5d3f213e5418dc36735cabf8":[6,0,3,0,0,1,9,23,10],
-"MRTestC_2MRVector3_8h.html#abd630c10147c789fe4f2433d61236fb6":[6,0,3,0,0,1,9,23,2],
-"MRTestC_2MRVector3_8h.html#ac1395c3128534731655ab4d720816a88":[6,0,3,0,0,1,9,23,4]
+"MRTestC_2MRVector3_8h.html#ab46d115c5d3f213e5418dc36735cabf8":[6,0,3,0,0,1,9,23,10]
 };

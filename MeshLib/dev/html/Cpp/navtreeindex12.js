@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"MRPrecisePredicates2_8h.html":[6,0,3,0,0,1,4,305],
+"MRPrecisePredicates2_8h.html#a04b9e51953d898cf85e76c05d426366a":[6,0,3,0,0,1,4,305,7],
 "MRPrecisePredicates2_8h.html#a084e4f0b1325cc3f6db691c8f4a79afb":[6,0,3,0,0,1,4,305,13],
 "MRPrecisePredicates2_8h.html#a10729a0925102f48ab56d783b191699c":[6,0,3,0,0,1,4,305,9],
 "MRPrecisePredicates2_8h.html#a1dd7d1f303aba49ee7b9f4e984261bd7":[6,0,3,0,0,1,4,305,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "MRRibbonConstants_8h.html#ae0f25876ce272b7da3ae953cd1469376":[6,0,3,0,0,1,10,81,7],
 "MRRibbonConstants_8h.html#afa5b42784cc74d768e33f84c3f8dbc37":[6,0,3,0,0,1,10,81,24],
 "MRRibbonConstants_8h.html#afc9857750646620b389f5cb41ca048b9":[6,0,3,0,0,1,10,81,50],
-"MRRibbonConstants_8h.html#afe49e137af70c8aaef17a39366b4bd32":[6,0,3,0,0,1,10,81,28],
-"MRRibbonConstants_8h_source.html":[6,0,3,0,0,1,10,81],
-"MRRibbonFontManager_8h.html":[6,0,3,0,0,1,10,82]
+"MRRibbonConstants_8h.html#afe49e137af70c8aaef17a39366b4bd32":[6,0,3,0,0,1,10,81,28]
 };

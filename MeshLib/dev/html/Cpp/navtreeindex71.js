@@ -1,5 +1,10 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1FixUndercuts_1_1FindParams.html#a0cdbe15c0d5243296ca490c36131b41a":[6,0,1,0,1,7,1,1],
+"structMR_1_1FixUndercuts_1_1FindParams.html#a0cdbe15c0d5243296ca490c36131b41a":[6,0,2,0,1,3,1,1],
+"structMR_1_1FixUndercuts_1_1FindParams.html#ae2c7f6104befccb90b1d399429ba991a":[6,0,1,0,1,7,1,0],
+"structMR_1_1FixUndercuts_1_1FindParams.html#ae2c7f6104befccb90b1d399429ba991a":[6,0,2,0,1,3,1,0],
+"structMR_1_1FixUndercuts_1_1FixParams.html":[6,0,1,0,1,7,2],
 "structMR_1_1FixUndercuts_1_1FixParams.html":[6,0,2,0,1,3,2],
 "structMR_1_1FixUndercuts_1_1FixParams.html#a0b82b3ed40ea6b099489b664630a2e27":[6,0,1,0,1,7,2,0],
 "structMR_1_1FixUndercuts_1_1FixParams.html#a0b82b3ed40ea6b099489b664630a2e27":[6,0,2,0,1,3,2,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1IOFilter.html#ad4426ebb26f3474b6d69ca07c8e35980":[6,0,0,2,6,0,5],
 "structMR_1_1IPointPairs.html":[6,0,1,0,1,304],
 "structMR_1_1IPointPairs.html":[6,0,2,0,1,288],
-"structMR_1_1IPointPairs.html#a21b4f073206e446af1e8c0c8895e56a8":[6,0,1,0,1,304,8],
-"structMR_1_1IPointPairs.html#a21b4f073206e446af1e8c0c8895e56a8":[6,0,2,0,1,288,8],
-"structMR_1_1IPointPairs.html#a3dd0343a154cad09f33735a106dcc64b":[6,0,1,0,1,304,6],
-"structMR_1_1IPointPairs.html#a3dd0343a154cad09f33735a106dcc64b":[6,0,2,0,1,288,6],
-"structMR_1_1IPointPairs.html#a3fcd8de5d97b49b84e9c984b494f10dc":[6,0,1,0,1,304,1],
-"structMR_1_1IPointPairs.html#a3fcd8de5d97b49b84e9c984b494f10dc":[6,0,2,0,1,288,1]
+"structMR_1_1IPointPairs.html#a21b4f073206e446af1e8c0c8895e56a8":[6,0,1,0,1,304,8]
 };

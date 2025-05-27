@@ -202,10 +202,12 @@ var searchData=
   ['voxelsvolumeminmax_199',['VoxelsVolumeMinMax',['../structMR_1_1VoxelsVolumeMinMax.html',1,'MR']]],
   ['voxeltraits_200',['VoxelTraits',['../structMR_1_1VoxelTraits.html',1,'MR']]],
   ['voxeltraits_3c_20floatgrid_20_3e_201',['VoxelTraits&lt; FloatGrid &gt;',['../structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html',1,'MR']]],
-  ['voxeltraits_3c_20voxelvaluegetter_3c_20t_20_3e_20_3e_202',['VoxelTraits&lt; VoxelValueGetter&lt; T &gt; &gt;',['../structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html',1,'MR']]],
-  ['voxeltraits_5fstd_5ffunction_5ffloat_5fconst_5fvector3i_203',['VoxelTraits_std_function_float_const_Vector3i',['../../Py/classmrmeshpy_1_1VoxelTraits__std__function__float__const__Vector3i.html',1,'mrmeshpy']]],
-  ['voxeltraits_5fstd_5ffunction_5funsigned_5fchar_5fconst_5fvector3i_204',['VoxelTraits_std_function_unsigned_char_const_Vector3i',['../../Py/classmrmeshpy_1_1VoxelTraits__std__function__unsigned__char__const__Vector3i.html',1,'mrmeshpy']]],
-  ['voxeltraits_5fstd_5fshared_5fptr_5fopenvdbfloatgrid_205',['VoxelTraits_std_shared_ptr_OpenVdbFloatGrid',['../../Py/classmrmeshpy_1_1VoxelTraits__std__shared__ptr__OpenVdbFloatGrid.html',1,'mrmeshpy']]],
-  ['voxeltraits_5fstd_5fvector_5ffloat_206',['VoxelTraits_std_vector_float',['../../Py/classmrmeshpy_1_1VoxelTraits__std__vector__float.html',1,'mrmeshpy']]],
-  ['voxeltraits_5fstd_5fvector_5funsigned_5fshort_207',['VoxelTraits_std_vector_unsigned_short',['../../Py/classmrmeshpy_1_1VoxelTraits__std__vector__unsigned__short.html',1,'mrmeshpy']]]
+  ['voxeltraits_3c_20voxelbitset_20_3e_202',['VoxelTraits&lt; VoxelBitSet &gt;',['../structMR_1_1VoxelTraits_3_01VoxelBitSet_01_4.html',1,'MR']]],
+  ['voxeltraits_3c_20voxelvaluegetter_3c_20t_20_3e_20_3e_203',['VoxelTraits&lt; VoxelValueGetter&lt; T &gt; &gt;',['../structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html',1,'MR']]],
+  ['voxeltraits_5fstd_5ffunction_5ffloat_5fconst_5fvector3i_204',['VoxelTraits_std_function_float_const_Vector3i',['../../Py/classmrmeshpy_1_1VoxelTraits__std__function__float__const__Vector3i.html',1,'mrmeshpy']]],
+  ['voxeltraits_5fstd_5ffunction_5funsigned_5fchar_5fconst_5fvector3i_205',['VoxelTraits_std_function_unsigned_char_const_Vector3i',['../../Py/classmrmeshpy_1_1VoxelTraits__std__function__unsigned__char__const__Vector3i.html',1,'mrmeshpy']]],
+  ['voxeltraits_5fstd_5fshared_5fptr_5fopenvdbfloatgrid_206',['VoxelTraits_std_shared_ptr_OpenVdbFloatGrid',['../../Py/classmrmeshpy_1_1VoxelTraits__std__shared__ptr__OpenVdbFloatGrid.html',1,'mrmeshpy']]],
+  ['voxeltraits_5fstd_5fvector_5ffloat_207',['VoxelTraits_std_vector_float',['../../Py/classmrmeshpy_1_1VoxelTraits__std__vector__float.html',1,'mrmeshpy']]],
+  ['voxeltraits_5fstd_5fvector_5funsigned_5fshort_208',['VoxelTraits_std_vector_unsigned_short',['../../Py/classmrmeshpy_1_1VoxelTraits__std__vector__unsigned__short.html',1,'mrmeshpy']]],
+  ['voxeltraits_5fvoxelbitset_209',['VoxelTraits_VoxelBitSet',['../../Py/classmrmeshpy_1_1VoxelTraits__VoxelBitSet.html',1,'mrmeshpy']]]
 ];
