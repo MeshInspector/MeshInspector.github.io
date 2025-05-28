@@ -1,5 +1,9 @@
 var NAVTREEINDEX64 =
 {
+"structMRFixMeshDegeneraciesParams.html#a25771fdf3ed98793f7b01ffd05d2823e":[6,0,2,0,21,5],
+"structMRFixMeshDegeneraciesParams.html#a43e9bfd950faa09ebd5ad405d4851678":[6,0,2,0,21,6],
+"structMRFixMeshDegeneraciesParams.html#a4f27ee78591d8af798d6f11a38bb7c8c":[6,0,2,0,21,7],
+"structMRFixMeshDegeneraciesParams.html#a6ae51556ecb7da197778471e3a10a0c2":[6,0,2,0,21,3],
 "structMRFixMeshDegeneraciesParams.html#aa6266c86363ad791c003dd8682501fe7":[6,0,2,0,21,4],
 "structMRFixMeshDegeneraciesParams.html#aab8419165d77fece4440efdd74f09b37":[6,0,2,0,21,1],
 "structMRFixMeshDegeneraciesParams.html#af09e4d46078be1c8804457082d26decc":[6,0,2,0,21,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX64 =
 "structMRVector3i.html#a4ea0c126c47204db82499a13ec248f4b":[6,0,2,0,68,2],
 "structMRVector3i.html#ab1a14f9aeee6b3d84ca6c4853100e6fd":[6,0,2,0,68,1],
 "structMRVector3i.html#acdce7eca65ea16ba75e1cecba23ebb60":[6,0,2,0,68,0],
-"structMRVertId.html":[6,0,2,0,69],
-"structMRVertId.html#a81465bbd9b0f213d4daad78a79e07c87":[6,0,2,0,69,0],
-"structMR_1_1AABBTreeNode.html":[6,0,0,1,4],
-"structMR_1_1AABBTreeNode.html#a0286485d67d37c6d4f76d7d1f43d13d0":[6,0,0,1,4,1],
-"structMR_1_1AABBTreeNode.html#a17304ef8e7e0d4062245a747fa45840e":[6,0,0,1,4,7]
+"structMRVertId.html":[6,0,2,0,69]
 };

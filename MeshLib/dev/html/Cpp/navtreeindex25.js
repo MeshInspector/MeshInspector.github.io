@@ -1,5 +1,7 @@
 var NAVTREEINDEX25 =
 {
+"classMR_1_1Heap.html#abc98f8ae44b5055bed877900deb567d6":[6,0,0,3,7,11],
+"classMR_1_1Heap.html#af4f46522c9ccfd4ade826452c287a15d":[6,0,0,3,7,3],
 "classMR_1_1Histogram.html":[6,0,0,0,16],
 "classMR_1_1Histogram.html#a2b4f6ecb70d69c8ccba757095f5162cc":[6,0,0,0,16,3],
 "classMR_1_1Histogram.html#a4666262b73e1f92125d26cb27d2d5eca":[6,0,0,0,16,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX25 =
 "classMR_1_1ITransformControls.html#ad18cade1f93573f1300cbdd29ea07518":[6,0,2,0,1,303,16],
 "classMR_1_1ITransformControls.html#af0fa6a664e8f0a43bbb41adf37fe296a":[6,0,1,0,1,319,1],
 "classMR_1_1ITransformControls.html#af0fa6a664e8f0a43bbb41adf37fe296a":[6,0,2,0,1,303,1],
-"classMR_1_1ITransformControls.html#af95856a61b1ace2e76600c292a4965c7":[6,0,1,0,1,319,5],
-"classMR_1_1ITransformControls.html#af95856a61b1ace2e76600c292a4965c7":[6,0,2,0,1,303,5],
-"classMR_1_1ITransformControls_1_1ChangeCenterAction.html":[6,0,1,0,1,319,0]
+"classMR_1_1ITransformControls.html#af95856a61b1ace2e76600c292a4965c7":[6,0,1,0,1,319,5]
 };

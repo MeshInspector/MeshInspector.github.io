@@ -1,5 +1,9 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1CompensateRadiusParams.html":[6,0,1,0,1,146],
+"structMR_1_1CompensateRadiusParams.html":[6,0,2,0,1,130],
+"structMR_1_1CompensateRadiusParams.html#a05af941103d0a3f88ddcf7383bf82c67":[6,0,1,0,1,146,6],
+"structMR_1_1CompensateRadiusParams.html#a05af941103d0a3f88ddcf7383bf82c67":[6,0,2,0,1,130,6],
 "structMR_1_1CompensateRadiusParams.html#a3becc371ebe70ab58e91982390945d41":[6,0,1,0,1,146,2],
 "structMR_1_1CompensateRadiusParams.html#a3becc371ebe70ab58e91982390945d41":[6,0,2,0,1,130,2],
 "structMR_1_1CompensateRadiusParams.html#a77908caf2d1de499c9dec6dbbbdc5737":[6,0,1,0,1,146,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1DenseBox.html#ae15fa3079fbe1aae94cb52176e59e802":[6,0,0,0,15,10],
 "structMR_1_1DenseBox.html#aee07541d158133fc4c85e7170de4d3e7":[6,0,0,0,15,3],
 "structMR_1_1DetectTunnelSettings.html":[6,0,0,16,4,0],
-"structMR_1_1DetectTunnelSettings.html#a2529d1b4547bb2eed9bb781f0c131829":[6,0,0,16,4,0,2],
-"structMR_1_1DetectTunnelSettings.html#a27a0181891bd9064803eb7608e3f0e10":[6,0,0,16,4,0,0],
-"structMR_1_1DetectTunnelSettings.html#abce133e9001f28cbce044fc8c1206ace":[6,0,0,16,4,0,1],
-"structMR_1_1DetectTunnelSettings.html#ae823ab96c2d11f1cccba5d61003a1202":[6,0,0,16,4,0,3],
-"structMR_1_1Dipole.html":[6,0,1,0,1,181]
+"structMR_1_1DetectTunnelSettings.html#a2529d1b4547bb2eed9bb781f0c131829":[6,0,0,16,4,0,2]
 };
