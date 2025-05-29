@@ -101,7 +101,7 @@ var searchData=
   ['_7esrc2tgtmaps_98',['~Src2TgtMaps',['../../Cpp/classMR_1_1Src2TgtMaps.html#a88278ec852d61abb0ae5c42168d73175',1,'MR::Src2TgtMaps']]],
   ['_7estatebaseplugin_99',['~StateBasePlugin',['../../Cpp/classMR_1_1StateBasePlugin.html#a9a8917bb4527c6108a4ec176619d2990',1,'MR::StateBasePlugin']]],
   ['_7estatelistenerplugin_100',['~StateListenerPlugin',['../../Cpp/classMR_1_1StateListenerPlugin.html#a85268a85190bc88be8cc76981bff5587',1,'MR::StateListenerPlugin']]],
-  ['_7esurfacemanipulationwidget_101',['~SurfaceManipulationWidget',['../../Cpp/classMR_1_1SurfaceManipulationWidget.html#a309f5b2581529ed58185dcd9718169ba',1,'MR::SurfaceManipulationWidget']]],
+  ['_7esurfacemanipulationwidget_101',['~SurfaceManipulationWidget',['../../Cpp/classMR_1_1SurfaceManipulationWidget.html#ae10a540d1dd7c3a27ad59f51e774c2c4',1,'MR::SurfaceManipulationWidget']]],
   ['_7esurfacepointwidget_102',['~SurfacePointWidget',['../../Cpp/classMR_1_1SurfacePointWidget.html#a7d9c8acabf47d730f83f1d17944e7462',1,'MR::SurfacePointWidget']]],
   ['_7etgt2srcmaps_103',['~Tgt2SrcMaps',['../../Cpp/classMR_1_1Tgt2SrcMaps.html#a14c3003ffc8403f5dea22328cb1eb28e',1,'MR::Tgt2SrcMaps']]],
   ['_7ethreadroottimerecord_104',['~ThreadRootTimeRecord',['../../Cpp/structMR_1_1ThreadRootTimeRecord.html#a3651985f131934c6036be279a0f01b58',1,'MR::ThreadRootTimeRecord']]],
