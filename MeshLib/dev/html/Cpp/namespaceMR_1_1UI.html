@@ -333,12 +333,18 @@ Functions</h2></td></tr>
 <tr class="memitem:aa1fd1e704f1ff98b82cc4c98e452f57a" id="r_aa1fd1e704f1ff98b82cc4c98e452f57a"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, detail::VectorOrScalar T&gt; </td></tr>
 <tr class="memitem:aa1fd1e704f1ff98b82cc4c98e452f57a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aa1fd1e704f1ff98b82cc4c98e452f57a">readOnlyValue</a> (const char *label, const T &amp;v, std::optional&lt; ImVec4 &gt; textColor={}, <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; unitParams={}, std::optional&lt; ImVec4 &gt; labelColor={})</td></tr>
 <tr class="separator:aa1fd1e704f1ff98b82cc4c98e452f57a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8383efc65d62e5b793a5e660ecd07c1e" id="r_a8383efc65d62e5b793a5e660ecd07c1e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const std::pair&lt; const char *, ImU32 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8383efc65d62e5b793a5e660ecd07c1e">notificationChar</a> (<a class="elRef" href="../namespaceMR.html#a3ccf27858d11d72a88bdbaf6e9d2b05d">NotificationType</a> type)</td></tr>
+<tr class="memdesc:a8383efc65d62e5b793a5e660ecd07c1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns icons font character for given notification type, and its color  <br /></td></tr>
+<tr class="separator:a8383efc65d62e5b793a5e660ecd07c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94309985ed89c89e0d6199e0c6a2e333" id="r_a94309985ed89c89e0d6199e0c6a2e333"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94309985ed89c89e0d6199e0c6a2e333">transparentText</a> (const char *fmt,...)</td></tr>
 <tr class="memdesc:a94309985ed89c89e0d6199e0c6a2e333"><td class="mdescLeft">&#160;</td><td class="mdescRight">similar to ImGui::Text but use current text color with alpha channel = 0.5  <br /></td></tr>
 <tr class="separator:a94309985ed89c89e0d6199e0c6a2e333"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e82aeb6c8dcd97dab6e1f0e68d4fed4" id="r_a2e82aeb6c8dcd97dab6e1f0e68d4fed4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e82aeb6c8dcd97dab6e1f0e68d4fed4">transparentTextWrapped</a> (const char *fmt,...)</td></tr>
 <tr class="memdesc:a2e82aeb6c8dcd97dab6e1f0e68d4fed4"><td class="mdescLeft">&#160;</td><td class="mdescRight">similar to ImGui::TextWrapped but use current text color with alpha channel = 0.5  <br /></td></tr>
 <tr class="separator:a2e82aeb6c8dcd97dab6e1f0e68d4fed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c7ab0aa29b1ce0d30d581d05a93ef8c" id="r_a5c7ab0aa29b1ce0d30d581d05a93ef8c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c7ab0aa29b1ce0d30d581d05a93ef8c">notificationFrame</a> (<a class="elRef" href="../namespaceMR.html#a3ccf27858d11d72a88bdbaf6e9d2b05d">NotificationType</a> type, const std::string &amp;str, float scaling)</td></tr>
+<tr class="memdesc:a5c7ab0aa29b1ce0d30d581d05a93ef8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">similar to ImGui::TextWrapped but also have styled background and notification type indicator  <br /></td></tr>
+<tr class="separator:a5c7ab0aa29b1ce0d30d581d05a93ef8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a872e637e1fc6bb7aa391dc842b565ed0" id="r_a872e637e1fc6bb7aa391dc842b565ed0"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a872e637e1fc6bb7aa391dc842b565ed0">setTooltipIfHovered</a> (const std::string &amp;text, float scaling)</td></tr>
 <tr class="memdesc:a872e637e1fc6bb7aa391dc842b565ed0"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw tooltip only if current item is hovered  <br /></td></tr>
 <tr class="separator:a872e637e1fc6bb7aa391dc842b565ed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1954,6 +1960,53 @@ template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidDragSpeedForTarge
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8383efc65d62e5b793a5e660ecd07c1e" name="a8383efc65d62e5b793a5e660ecd07c1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8383efc65d62e5b793a5e660ecd07c1e">&#9670;&#160;</a></span>notificationChar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API const std::pair&lt; const char *, ImU32 &gt; &amp; MR::UI::notificationChar </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" href="../namespaceMR.html#a3ccf27858d11d72a88bdbaf6e9d2b05d">NotificationType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns icons font character for given notification type, and its color </p>
+
+</div>
+</div>
+<a id="a5c7ab0aa29b1ce0d30d581d05a93ef8c" name="a5c7ab0aa29b1ce0d30d581d05a93ef8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c7ab0aa29b1ce0d30d581d05a93ef8c">&#9670;&#160;</a></span>notificationFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::UI::notificationFrame </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" href="../namespaceMR.html#a3ccf27858d11d72a88bdbaf6e9d2b05d">NotificationType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>str</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>scaling</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>similar to ImGui::TextWrapped but also have styled background and notification type indicator </p>
 
 </div>
 </div>

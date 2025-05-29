@@ -1,5 +1,9 @@
 var NAVTREEINDEX25 =
 {
+"classMR_1_1Heap.html":[6,0,0,3,7],
+"classMR_1_1Heap.html#a1f246bfe3c0676ad56a521a5b696d195":[6,0,0,3,7,7],
+"classMR_1_1Heap.html#a516d00eb9620f9cdb1f5c43c0810f744":[6,0,0,3,7,9],
+"classMR_1_1Heap.html#a7d993f1a0fb45abb27e62ceee5a1dbe6":[6,0,0,3,7,10],
 "classMR_1_1Heap.html#abc98f8ae44b5055bed877900deb567d6":[6,0,0,3,7,11],
 "classMR_1_1Heap.html#af4f46522c9ccfd4ade826452c287a15d":[6,0,0,3,7,3],
 "classMR_1_1Histogram.html":[6,0,0,0,16],
@@ -245,9 +249,5 @@ var NAVTREEINDEX25 =
 "classMR_1_1ITransformControls.html#a907d92df55bd4c1c24eb99b0ac884d77":[6,0,2,0,1,303,8],
 "classMR_1_1ITransformControls.html#a9603cd25e26df7d1c6fe9171d0335997":[6,0,1,0,1,319,9],
 "classMR_1_1ITransformControls.html#a9603cd25e26df7d1c6fe9171d0335997":[6,0,2,0,1,303,9],
-"classMR_1_1ITransformControls.html#ad18cade1f93573f1300cbdd29ea07518":[6,0,1,0,1,319,16],
-"classMR_1_1ITransformControls.html#ad18cade1f93573f1300cbdd29ea07518":[6,0,2,0,1,303,16],
-"classMR_1_1ITransformControls.html#af0fa6a664e8f0a43bbb41adf37fe296a":[6,0,1,0,1,319,1],
-"classMR_1_1ITransformControls.html#af0fa6a664e8f0a43bbb41adf37fe296a":[6,0,2,0,1,303,1],
-"classMR_1_1ITransformControls.html#af95856a61b1ace2e76600c292a4965c7":[6,0,1,0,1,319,5]
+"classMR_1_1ITransformControls.html#ad18cade1f93573f1300cbdd29ea07518":[6,0,1,0,1,319,16]
 };

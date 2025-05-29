@@ -1,5 +1,13 @@
 var NAVTREEINDEX83 =
 {
+"structMR_1_1RibbonConfig.html#ac2c7bf907acefc60264b250f1af05e61":[6,0,1,0,1,583,3],
+"structMR_1_1RibbonConfig.html#ac2c7bf907acefc60264b250f1af05e61":[6,0,2,0,1,567,3],
+"structMR_1_1RibbonConfig.html#afccbd7944f12542b4f6d3f27184a4633":[6,0,1,0,1,583,4],
+"structMR_1_1RibbonConfig.html#afccbd7944f12542b4f6d3f27184a4633":[6,0,2,0,1,567,4],
+"structMR_1_1RibbonMenuSearch_1_1Parameters.html":[6,0,1,0,1,591,0],
+"structMR_1_1RibbonMenuSearch_1_1Parameters.html":[6,0,2,0,1,575,0],
+"structMR_1_1RibbonMenuSearch_1_1Parameters.html#a557d5533b7a71b39965276427e9ce475":[6,0,1,0,1,591,0,2],
+"structMR_1_1RibbonMenuSearch_1_1Parameters.html#a557d5533b7a71b39965276427e9ce475":[6,0,2,0,1,575,0,2],
 "structMR_1_1RibbonMenuSearch_1_1Parameters.html#ae89aeabd1324d2ecbf9060e69c063eeb":[6,0,1,0,1,591,0,3],
 "structMR_1_1RibbonMenuSearch_1_1Parameters.html#ae89aeabd1324d2ecbf9060e69c063eeb":[6,0,2,0,1,575,0,3],
 "structMR_1_1RibbonMenuSearch_1_1Parameters.html#af9d5d5e38c27a6973c6e92a74e412d6e":[6,0,1,0,1,591,0,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX83 =
 "structMR_1_1SegmPoint.html#a58b2183bd06afd657f4427bec04ded35":[6,0,0,0,22,6],
 "structMR_1_1SegmPoint.html#a61b1906606755d16e699a890189ff3f8":[6,0,0,0,22,2],
 "structMR_1_1SegmPoint.html#a6dd9ffde5068ad5458d52af3e1c33617":[6,0,0,0,22,7],
-"structMR_1_1SegmPoint.html#a852616535cc51c188a52c77b3f324a6e":[6,0,0,0,22,1],
-"structMR_1_1SegmPoint.html#a87266fccf15374e6dc7587544c028d63":[6,0,0,0,22,4],
-"structMR_1_1SegmPoint.html#aa8dd11ef62ac9009f3b27a0dc5371bcc":[6,0,0,0,22,8],
-"structMR_1_1SegmPoint.html#aa9b427c351c923636029040aa207f718":[6,0,0,0,22,0],
-"structMR_1_1SegmPoint.html#ad9eb72a4d4775622305ebd86274183c9":[6,0,0,0,22,5],
-"structMR_1_1SegmentSegmentIntersectResult.html":[6,0,1,0,1,640],
-"structMR_1_1SegmentSegmentIntersectResult.html":[6,0,2,0,1,624],
-"structMR_1_1SegmentSegmentIntersectResult.html#a80259f73338ce5812b3cd0466379f9b6":[6,0,1,0,1,640,0],
-"structMR_1_1SegmentSegmentIntersectResult.html#a80259f73338ce5812b3cd0466379f9b6":[6,0,2,0,1,624,0]
+"structMR_1_1SegmPoint.html#a852616535cc51c188a52c77b3f324a6e":[6,0,0,0,22,1]
 };

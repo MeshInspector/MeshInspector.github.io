@@ -1,5 +1,13 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1PartMapping.html#af69dd39f60abdd4b769bb948a49a0737":[6,0,2,0,1,464,5],
+"structMR_1_1PdfParameters.html":[6,0,1,0,1,482],
+"structMR_1_1PdfParameters.html":[6,0,2,0,1,466],
+"structMR_1_1PdfParameters.html#a563834d6cb166576ad536d6b51e837af":[6,0,1,0,1,482,1],
+"structMR_1_1PdfParameters.html#a563834d6cb166576ad536d6b51e837af":[6,0,2,0,1,466,1],
+"structMR_1_1PdfParameters.html#aa20cd9b99862a1dd46e520ee19373456":[6,0,1,0,1,482,0],
+"structMR_1_1PdfParameters.html#aa20cd9b99862a1dd46e520ee19373456":[6,0,2,0,1,466,0],
+"structMR_1_1PdfParameters.html#af482d34d3b5113d24430a4d32cb23d43":[6,0,1,0,1,482,2],
 "structMR_1_1PdfParameters.html#af482d34d3b5113d24430a4d32cb23d43":[6,0,2,0,1,466,2],
 "structMR_1_1PickPointManager_1_1ObjectState.html":[6,0,1,0,1,483,0],
 "structMR_1_1PickPointManager_1_1ObjectState.html":[6,0,2,0,1,467,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a93bcbf8ddd9c5a89210bf3cf9f8acbef":[6,0,2,0,1,16,0,1],
 "structMR_1_1PointsSave_1_1PointsSaver.html":[6,0,1,0,1,27,1],
 "structMR_1_1PointsSave_1_1PointsSaver.html":[6,0,2,0,1,16,1],
-"structMR_1_1PointsSave_1_1PointsSaver.html#a38cf916ae7e979cab3b2565c5a8e07fd":[6,0,1,0,1,27,1,0],
-"structMR_1_1PointsSave_1_1PointsSaver.html#a38cf916ae7e979cab3b2565c5a8e07fd":[6,0,2,0,1,16,1,0],
-"structMR_1_1PointsSave_1_1PointsSaver.html#a9b76a81c6623b8ff71c897adad0e14d3":[6,0,1,0,1,27,1,1],
-"structMR_1_1PointsSave_1_1PointsSaver.html#a9b76a81c6623b8ff71c897adad0e14d3":[6,0,2,0,1,16,1,1],
-"structMR_1_1PointsToDistanceVolumeParams.html":[6,0,1,0,1,508],
-"structMR_1_1PointsToDistanceVolumeParams.html":[6,0,2,0,1,492],
-"structMR_1_1PointsToDistanceVolumeParams.html#a400737e4e31275ad8d54da9d1c2fc611":[6,0,1,0,1,508,2],
-"structMR_1_1PointsToDistanceVolumeParams.html#a400737e4e31275ad8d54da9d1c2fc611":[6,0,2,0,1,492,2],
-"structMR_1_1PointsToDistanceVolumeParams.html#a6253a7998223b8c2a5fffd0092b5883b":[6,0,1,0,1,508,1]
+"structMR_1_1PointsSave_1_1PointsSaver.html#a38cf916ae7e979cab3b2565c5a8e07fd":[6,0,1,0,1,27,1,0]
 };

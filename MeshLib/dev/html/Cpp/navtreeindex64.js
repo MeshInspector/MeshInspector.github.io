@@ -1,5 +1,13 @@
 var NAVTREEINDEX64 =
 {
+"structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98":[6,0,2,0,0,0,6],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a1b847836011905ac5e81447b23f40ca5":[6,0,1,0,0,0,10],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a1b847836011905ac5e81447b23f40ca5":[6,0,2,0,0,0,10],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0":[6,0,1,0,0,0,5],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0":[6,0,2,0,0,0,5],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a46f32802770f367c43e45614a0849819":[6,0,1,0,0,0,7],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a46f32802770f367c43e45614a0849819":[6,0,2,0,0,0,7],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a5754729068dbf7969cf941f3c84abfe4":[6,0,1,0,0,0,4],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a5754729068dbf7969cf941f3c84abfe4":[6,0,2,0,0,0,4],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a587435906bc6bfce42fc472c1863c883":[6,0,1,0,0,0,0],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a587435906bc6bfce42fc472c1863c883":[6,0,2,0,0,0,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX64 =
 "structMRMultipleEdge.html":[6,0,2,0,42],
 "structMRMultipleEdge.html#a69133b8cca2a96c744de2f022153b38b":[6,0,2,0,42,0],
 "structMRMultipleEdge.html#a99eda1238547e9eebd584fea876c5f40":[6,0,2,0,42,1],
-"structMRMultiwayICPSamplingParameters.html":[6,0,2,0,43],
-"structMRMultiwayICPSamplingParameters.html#a6ffd4ae5961126337fd51c62cf9ac751":[6,0,2,0,43,1],
-"structMRMultiwayICPSamplingParameters.html#a9e02f0c6508adad4c5bfb7fe846c9fc0":[6,0,2,0,43,2],
-"structMRMultiwayICPSamplingParameters.html#ac6058971b579e40ddc013b125896b756":[6,0,2,0,43,3],
-"structMRMultiwayICPSamplingParameters.html#afb1ffc02db827893fcb9639724311b4b":[6,0,2,0,43,0],
-"structMRNoiseSettings.html":[6,0,2,0,44],
-"structMRNoiseSettings.html#a5f609d9abf8ca6000ba1f49b95fe372c":[6,0,2,0,44,1],
-"structMRNoiseSettings.html#a794506b24ca7a1d5fe95a8f05ef44d82":[6,0,2,0,44,0],
-"structMRNoiseSettings.html#a85637a19167b434e5b5b7ad62009aab2":[6,0,2,0,44,2]
+"structMRMultiwayICPSamplingParameters.html":[6,0,2,0,43]
 };

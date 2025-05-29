@@ -1,5 +1,13 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1ProgressInterrupter.html#a448f23c735ae1b223b8b928ff4a2deb3":[6,0,1,0,1,541,1],
+"structMR_1_1ProgressInterrupter.html#a448f23c735ae1b223b8b928ff4a2deb3":[6,0,2,0,1,525,1],
+"structMR_1_1ProgressInterrupter.html#aa7c319b39d9ff06438f19d5c5306139e":[6,0,1,0,1,541,2],
+"structMR_1_1ProgressInterrupter.html#aa7c319b39d9ff06438f19d5c5306139e":[6,0,2,0,1,525,2],
+"structMR_1_1ProgressInterrupter.html#ad4f40f015b6a225a963200f8fced9ea8":[6,0,1,0,1,541,0],
+"structMR_1_1ProgressInterrupter.html#ad4f40f015b6a225a963200f8fced9ea8":[6,0,2,0,1,525,0],
+"structMR_1_1ProjectAttributeParams.html":[6,0,1,0,1,542],
+"structMR_1_1ProjectAttributeParams.html":[6,0,2,0,1,526],
 "structMR_1_1ProjectAttributeParams.html#a4ed7b5103a09ec50b55cc7d76e2fd9a5":[6,0,1,0,1,542,1],
 "structMR_1_1ProjectAttributeParams.html#a4ed7b5103a09ec50b55cc7d76e2fd9a5":[6,0,2,0,1,526,1],
 "structMR_1_1ProjectAttributeParams.html#af693ac66bc0bd5d4efcd44cde67cfda4":[6,0,1,0,1,542,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1RibbonConfig.html#a64f5562c14952b7d260af9fa205a774e":[6,0,1,0,1,583,0],
 "structMR_1_1RibbonConfig.html#a64f5562c14952b7d260af9fa205a774e":[6,0,2,0,1,567,0],
 "structMR_1_1RibbonConfig.html#a678575ecbadf5b880fab6e6072873ee5":[6,0,1,0,1,583,2],
-"structMR_1_1RibbonConfig.html#a678575ecbadf5b880fab6e6072873ee5":[6,0,2,0,1,567,2],
-"structMR_1_1RibbonConfig.html#ac2c7bf907acefc60264b250f1af05e61":[6,0,1,0,1,583,3],
-"structMR_1_1RibbonConfig.html#ac2c7bf907acefc60264b250f1af05e61":[6,0,2,0,1,567,3],
-"structMR_1_1RibbonConfig.html#afccbd7944f12542b4f6d3f27184a4633":[6,0,1,0,1,583,4],
-"structMR_1_1RibbonConfig.html#afccbd7944f12542b4f6d3f27184a4633":[6,0,2,0,1,567,4],
-"structMR_1_1RibbonMenuSearch_1_1Parameters.html":[6,0,1,0,1,591,0],
-"structMR_1_1RibbonMenuSearch_1_1Parameters.html":[6,0,2,0,1,575,0],
-"structMR_1_1RibbonMenuSearch_1_1Parameters.html#a557d5533b7a71b39965276427e9ce475":[6,0,1,0,1,591,0,2],
-"structMR_1_1RibbonMenuSearch_1_1Parameters.html#a557d5533b7a71b39965276427e9ce475":[6,0,2,0,1,575,0,2]
+"structMR_1_1RibbonConfig.html#a678575ecbadf5b880fab6e6072873ee5":[6,0,2,0,1,567,2]
 };

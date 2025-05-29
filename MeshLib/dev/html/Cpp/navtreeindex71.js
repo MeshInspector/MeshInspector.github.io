@@ -1,5 +1,13 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1FileLoadOptions.html#ac870f86b867d1f462ca29dfd23d4e761":[6,0,1,0,1,229,2],
+"structMR_1_1FileLoadOptions.html#ac870f86b867d1f462ca29dfd23d4e761":[6,0,2,0,1,213,2],
+"structMR_1_1FileLoadOptions.html#ae0a181135e902fbd720327ed1d13e3d1":[6,0,1,0,1,229,0],
+"structMR_1_1FileLoadOptions.html#ae0a181135e902fbd720327ed1d13e3d1":[6,0,2,0,1,213,0],
+"structMR_1_1FileParameters.html":[6,0,1,0,1,230],
+"structMR_1_1FileParameters.html":[6,0,2,0,1,214],
+"structMR_1_1FileParameters.html#a136b19b9c9c5b93c2788ccacc848e219":[6,0,1,0,1,230,1],
+"structMR_1_1FileParameters.html#a136b19b9c9c5b93c2788ccacc848e219":[6,0,2,0,1,214,1],
 "structMR_1_1FileParameters.html#a4712ec5afb78d48f6b26fd4813a720e7":[6,0,1,0,1,230,0],
 "structMR_1_1FileParameters.html#a4712ec5afb78d48f6b26fd4813a720e7":[6,0,2,0,1,214,0],
 "structMR_1_1FileParameters.html#af94f67fb7131833e77aa1c32e60f68d1":[6,0,1,0,1,230,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1GeneralOffsetParameters.html#abc2615fd96d188bbdb1407d0cc0e5c84":[6,0,1,0,1,260,0],
 "structMR_1_1GeneralOffsetParameters.html#abc2615fd96d188bbdb1407d0cc0e5c84":[6,0,2,0,1,244,0],
 "structMR_1_1GlTexture_1_1Settings.html":[6,0,1,0,1,263,0],
-"structMR_1_1GlTexture_1_1Settings.html":[6,0,2,0,1,247,0],
-"structMR_1_1GlTexture_1_1Settings.html#a3943dc4f528bc49722114379614e4c2e":[6,0,1,0,1,263,0,0],
-"structMR_1_1GlTexture_1_1Settings.html#a3943dc4f528bc49722114379614e4c2e":[6,0,2,0,1,247,0,0],
-"structMR_1_1GlTexture_1_1Settings.html#a3b834f386d4f814d5f03b43e229d4adb":[6,0,1,0,1,263,0,3],
-"structMR_1_1GlTexture_1_1Settings.html#a3b834f386d4f814d5f03b43e229d4adb":[6,0,2,0,1,247,0,3],
-"structMR_1_1GlTexture_1_1Settings.html#a43504dbf4a7fab179ae9e99940385273":[6,0,1,0,1,263,0,2],
-"structMR_1_1GlTexture_1_1Settings.html#a43504dbf4a7fab179ae9e99940385273":[6,0,2,0,1,247,0,2],
-"structMR_1_1GlTexture_1_1Settings.html#a622af16b47b77e020bec6dced9f55f65":[6,0,1,0,1,263,0,6],
-"structMR_1_1GlTexture_1_1Settings.html#a622af16b47b77e020bec6dced9f55f65":[6,0,2,0,1,247,0,6]
+"structMR_1_1GlTexture_1_1Settings.html":[6,0,2,0,1,247,0]
 };

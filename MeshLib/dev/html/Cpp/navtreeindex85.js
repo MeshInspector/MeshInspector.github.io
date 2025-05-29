@@ -1,5 +1,13 @@
 var NAVTREEINDEX85 =
 {
+"structMR_1_1SplineSettings.html#aa8f49a77bae9cc6a69e8bef44cf7afda":[6,0,1,0,1,678,2],
+"structMR_1_1SplineSettings.html#aa8f49a77bae9cc6a69e8bef44cf7afda":[6,0,2,0,1,662,2],
+"structMR_1_1SplineSettings.html#ae191af78be4cbd6a213f4296abadbaab":[6,0,1,0,1,678,1],
+"structMR_1_1SplineSettings.html#ae191af78be4cbd6a213f4296abadbaab":[6,0,2,0,1,662,1],
+"structMR_1_1SplineSettings.html#af076810565cee0720087fb452c2967f9":[6,0,1,0,1,678,3],
+"structMR_1_1SplineSettings.html#af076810565cee0720087fb452c2967f9":[6,0,2,0,1,662,3],
+"structMR_1_1StitchHolesParams.html":[6,0,0,9,3,1],
+"structMR_1_1StitchHolesParams.html#a472b65c8cadbd4c6cf5c2acbf4302f66":[6,0,0,9,3,1,1],
 "structMR_1_1StitchHolesParams.html#ac806ee8caa2479cc244851eaac1e7020":[6,0,0,9,3,1,0],
 "structMR_1_1StopOnTrueCombiner.html":[6,0,1,0,1,683],
 "structMR_1_1StopOnTrueCombiner.html":[6,0,2,0,1,667],
@@ -241,13 +249,5 @@ var NAVTREEINDEX85 =
 "structMR_1_1ToolPathParams.html#a369d0d2f955fa0ff8c3d1f01c5d78679":[6,0,1,0,1,707,0],
 "structMR_1_1ToolPathParams.html#a369d0d2f955fa0ff8c3d1f01c5d78679":[6,0,2,0,1,691,0],
 "structMR_1_1ToolPathParams.html#a4f475acb69d7a5c6cd72596f9ba39ab1":[6,0,1,0,1,707,10],
-"structMR_1_1ToolPathParams.html#a4f475acb69d7a5c6cd72596f9ba39ab1":[6,0,2,0,1,691,10],
-"structMR_1_1ToolPathParams.html#a50c755eddaa84d57053b8b2ac05090c7":[6,0,1,0,1,707,1],
-"structMR_1_1ToolPathParams.html#a50c755eddaa84d57053b8b2ac05090c7":[6,0,2,0,1,691,1],
-"structMR_1_1ToolPathParams.html#a58e0e695e11b0b6bd4c0ce7ecd0b0889":[6,0,1,0,1,707,14],
-"structMR_1_1ToolPathParams.html#a58e0e695e11b0b6bd4c0ce7ecd0b0889":[6,0,2,0,1,691,14],
-"structMR_1_1ToolPathParams.html#a785fe1445fcc56a97f20cf9daf8356e9":[6,0,1,0,1,707,16],
-"structMR_1_1ToolPathParams.html#a785fe1445fcc56a97f20cf9daf8356e9":[6,0,2,0,1,691,16],
-"structMR_1_1ToolPathParams.html#a7e16eeb5e2862d7ee09d5314b784cd4a":[6,0,1,0,1,707,9],
-"structMR_1_1ToolPathParams.html#a7e16eeb5e2862d7ee09d5314b784cd4a":[6,0,2,0,1,691,9]
+"structMR_1_1ToolPathParams.html#a4f475acb69d7a5c6cd72596f9ba39ab1":[6,0,2,0,1,691,10]
 };

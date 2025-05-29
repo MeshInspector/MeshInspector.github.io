@@ -1,5 +1,13 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1EmbeddedStructureParameters.html#aa4c80584b3d08189de287de06a281f18":[6,0,1,0,1,215,6],
+"structMR_1_1EmbeddedStructureParameters.html#aa4c80584b3d08189de287de06a281f18":[6,0,2,0,1,199,6],
+"structMR_1_1EmbeddedStructureParameters.html#aa7558ae5f2adc54f37b0610cb406b7a3":[6,0,1,0,1,215,1],
+"structMR_1_1EmbeddedStructureParameters.html#aa7558ae5f2adc54f37b0610cb406b7a3":[6,0,2,0,1,199,1],
+"structMR_1_1EmbeddedStructureParameters.html#aae10852bdbbce2035519d95bceadd171":[6,0,1,0,1,215,2],
+"structMR_1_1EmbeddedStructureParameters.html#aae10852bdbbce2035519d95bceadd171":[6,0,2,0,1,199,2],
+"structMR_1_1EmbeddedStructureParameters.html#abaade64848830680e26108a772fd1350":[6,0,1,0,1,215,4],
+"structMR_1_1EmbeddedStructureParameters.html#abaade64848830680e26108a772fd1350":[6,0,2,0,1,199,4],
 "structMR_1_1FaceDistancesSettings.html":[6,0,1,0,1,218],
 "structMR_1_1FaceDistancesSettings.html":[6,0,2,0,1,202],
 "structMR_1_1FaceDistancesSettings.html#a2ea8f49066513ec8895aadabd2bc8bd6":[6,0,1,0,1,218,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1FileLoadOptions.html":[6,0,1,0,1,229],
 "structMR_1_1FileLoadOptions.html":[6,0,2,0,1,213],
 "structMR_1_1FileLoadOptions.html#a4f4d8061842e6e46c5aab4e281bf1ad4":[6,0,1,0,1,229,1],
-"structMR_1_1FileLoadOptions.html#a4f4d8061842e6e46c5aab4e281bf1ad4":[6,0,2,0,1,213,1],
-"structMR_1_1FileLoadOptions.html#ac870f86b867d1f462ca29dfd23d4e761":[6,0,1,0,1,229,2],
-"structMR_1_1FileLoadOptions.html#ac870f86b867d1f462ca29dfd23d4e761":[6,0,2,0,1,213,2],
-"structMR_1_1FileLoadOptions.html#ae0a181135e902fbd720327ed1d13e3d1":[6,0,1,0,1,229,0],
-"structMR_1_1FileLoadOptions.html#ae0a181135e902fbd720327ed1d13e3d1":[6,0,2,0,1,213,0],
-"structMR_1_1FileParameters.html":[6,0,1,0,1,230],
-"structMR_1_1FileParameters.html":[6,0,2,0,1,214],
-"structMR_1_1FileParameters.html#a136b19b9c9c5b93c2788ccacc848e219":[6,0,1,0,1,230,1],
-"structMR_1_1FileParameters.html#a136b19b9c9c5b93c2788ccacc848e219":[6,0,2,0,1,214,1]
+"structMR_1_1FileLoadOptions.html#a4f4d8061842e6e46c5aab4e281bf1ad4":[6,0,2,0,1,213,1]
 };
