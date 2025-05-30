@@ -1881,7 +1881,7 @@ var mrmeshpy_8pyi =
     [ "getNumActivePairs", "mrmeshpy_8pyi.html#afad1997c3dd5a6417f268e6fd7cc1476", null ],
     [ "getNumNodes", "mrmeshpy_8pyi.html#ad244cdca4be6b19ce4e002f8a6f010fe", null ],
     [ "getNumSamples", "mrmeshpy_8pyi.html#ae04459914bb7b9e9c8508a1380f64ad8", null ],
-    [ "getOneMeshIntersectionContours", "mrmeshpy_8pyi.html#ae01ccf63d97c2d5d3a6c03912fb61d17", null ],
+    [ "getOneMeshIntersectionContours", "mrmeshpy_8pyi.html#a60d4faaa80a6a9a800a1fd8549abe742", null ],
     [ "getOneMeshSelfIntersectionContours", "mrmeshpy_8pyi.html#a5fa1b03e0cedb1827a89ff83664c665a", null ],
     [ "getOptimalFaceOrdering", "mrmeshpy_8pyi.html#a233bc3964a9d7b168d01d82c5756abe9", null ],
     [ "getOSNoSpaces", "mrmeshpy_8pyi.html#aa82ee39980c76e6f7b5d1963a63dcdd5", null ],

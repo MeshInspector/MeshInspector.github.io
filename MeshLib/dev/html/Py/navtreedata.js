@@ -278,16 +278,16 @@ var NAVTREEINDEX =
 "mrmeshpy_8pyi.html#a0a8466eecbe3d1a009e7b24623b653cd",
 "mrmeshpy_8pyi.html#a3337bab0540aad906df3b6c4542e1b2f",
 "mrmeshpy_8pyi.html#a54b9bcd9e61a66b4b52ffdafd2e6e247",
-"mrmeshpy_8pyi.html#a7eea3b8cdec17f0edc7caf411734dad6",
-"mrmeshpy_8pyi.html#aa7c1e5117e7e039cf51be6a0446f910a",
-"mrmeshpy_8pyi.html#acc59feb55923b0692150ffd1dcde355d",
+"mrmeshpy_8pyi.html#a7edff3d460d0538ea4f63c5b54242d25",
+"mrmeshpy_8pyi.html#aa7ad831194317d57627da8c15c8cc5a4",
+"mrmeshpy_8pyi.html#acc38f805836c49ecba9af93d4cd40f5a",
 "mrmeshpy_8pyi.html#af4483659cf3f5a0d4da50d3c9db52118",
 "namespacemrmeshpy.html#a076b46be5d6702d268311c7da4f0b080",
 "namespacemrmeshpy.html#a2fd59bba8b4da7b4926f18730d1188f2",
 "namespacemrmeshpy.html#a526a85908a974b2bdbfce63f7b1793ab",
-"namespacemrmeshpy.html#a7bf5831acd1f2def13645417e461df85",
-"namespacemrmeshpy.html#aa4bbd3b189c8192f1e979cae93c2106b",
-"namespacemrmeshpy.html#ac97bbbecf13c947b7a751d3b646b06a4",
+"namespacemrmeshpy.html#a7b58d49a1b49cf78c1244ce395584715",
+"namespacemrmeshpy.html#aa4a39b2c2f9c0f080508610d46c65f17",
+"namespacemrmeshpy.html#ac96b3da5d59b9b8a65f9b02057c3a5e0",
 "namespacemrmeshpy.html#af0fd1c16650f2177d3a26bfbdad69562"
 ];
 
