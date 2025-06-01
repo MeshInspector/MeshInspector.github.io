@@ -2544,6 +2544,7 @@ var mrmeshpy_8pyi =
     [ "MinMax_VoxelsVolume_Vector_unsigned_short_Id_VoxelTag_ValueType", "mrmeshpy_8pyi.html#a51401d598bc7205e6a3544c1dd1db246", null ],
     [ "MinMaxd", "mrmeshpy_8pyi.html#a159f22eee4915764b70f27c225a184f4", null ],
     [ "MinMaxf", "mrmeshpy_8pyi.html#a374b0cbc4c809892456a8bbd1a33d740", null ],
+    [ "MinMaxi", "mrmeshpy_8pyi.html#af65ff886874e21914e86953267fd4b70", null ],
     [ "MultiObjsSamples", "mrmeshpy_8pyi.html#abbc0b2f3edee217c8576d79b04f4932b", null ],
     [ "ObjectPtr", "mrmeshpy_8pyi.html#aa64c64542c89276643ad4277ea84008d", null ],
     [ "OffsetContoursVertMap", "mrmeshpy_8pyi.html#a27f3e27b9676265e509c1f63b35a7f38", null ],

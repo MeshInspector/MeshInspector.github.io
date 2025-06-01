@@ -26,6 +26,7 @@ var classMR_1_1Palette =
     [ "setDiscretizationNumber", "classMR_1_1Palette.html#a95993f62dda52bd555e9902cb0663a68", null ],
     [ "setFilterType", "classMR_1_1Palette.html#a1db62c44796f0e849665e352c9d02f61", null ],
     [ "setLabelsVisible", "classMR_1_1Palette.html#ade857d7d072e37d2311598da53b2ae73", null ],
+    [ "setLegendLimits", "classMR_1_1Palette.html#a55fe096aec459b2721c9b619f977f4b2", null ],
     [ "setMaxLabelCount", "classMR_1_1Palette.html#a72d1c43c3aad43836eb3c088ae61e428", null ],
     [ "setRangeMinMax", "classMR_1_1Palette.html#a7d6dd19e47f31c6e502113f4b413ff77", null ],
     [ "setRangeMinMaxNegPos", "classMR_1_1Palette.html#aa4516e9a134ac39f12c28ba08bc1b7e8", null ]

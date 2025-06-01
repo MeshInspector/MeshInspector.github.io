@@ -1,5 +1,11 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1PreciseVertCoords.html#a0c89d0a0e8bdc63b8bd4559e3761df3c":[6,0,1,0,1,537,1],
+"structMR_1_1PreciseVertCoords.html#a0c89d0a0e8bdc63b8bd4559e3761df3c":[6,0,2,0,1,521,1],
+"structMR_1_1PreciseVertCoords.html#aee4e7653cf187ba47b0eceff8088e6a5":[6,0,1,0,1,537,0],
+"structMR_1_1PreciseVertCoords.html#aee4e7653cf187ba47b0eceff8088e6a5":[6,0,2,0,1,521,0],
+"structMR_1_1PreciseVertCoords2.html":[6,0,1,0,1,538],
+"structMR_1_1PreciseVertCoords2.html":[6,0,2,0,1,522],
 "structMR_1_1PreciseVertCoords2.html#a5d5322f95eb294c6584a9f15f247fcd7":[6,0,1,0,1,538,1],
 "structMR_1_1PreciseVertCoords2.html#a5d5322f95eb294c6584a9f15f247fcd7":[6,0,2,0,1,522,1],
 "structMR_1_1PreciseVertCoords2.html#a6ffb69d89938c4fc7d7cf12857c89f25":[6,0,1,0,1,538,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1ResolveMeshDegenSettings.html#afc054861d37dd821d8c02677da8774da":[6,0,1,0,1,580,5],
 "structMR_1_1ResolveMeshDegenSettings.html#afc054861d37dd821d8c02677da8774da":[6,0,2,0,1,564,5],
 "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html":[6,0,1,0,1,582,0],
-"structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html":[6,0,2,0,1,566,0],
-"structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a4a178e6ea3323a12fdb7394b7f89cd71":[6,0,1,0,1,582,0,1],
-"structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a4a178e6ea3323a12fdb7394b7f89cd71":[6,0,2,0,1,566,0,1],
-"structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a9048532b67f8ae6a79ec42cf2a196ddf":[6,0,1,0,1,582,0,0],
-"structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a9048532b67f8ae6a79ec42cf2a196ddf":[6,0,2,0,1,566,0,0],
-"structMR_1_1RibbonConfig.html":[6,0,1,0,1,583],
-"structMR_1_1RibbonConfig.html":[6,0,2,0,1,567]
+"structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html":[6,0,2,0,1,566,0]
 };

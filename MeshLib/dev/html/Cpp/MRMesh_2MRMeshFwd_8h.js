@@ -51,6 +51,7 @@ var MRMesh_2MRMeshFwd_8h =
     [ "MeshEdgePoint", "MRMesh_2MRMeshFwd_8h.html#a8ffb37085bbd6060f17bcf222941ab8c", null ],
     [ "MinMaxd", "MRMesh_2MRMeshFwd_8h.html#a8a502bbb7355b197a80a998945d1a885", null ],
     [ "MinMaxf", "MRMesh_2MRMeshFwd_8h.html#a2bd3b23d498c69cd04c544b6c7068f3a", null ],
+    [ "MinMaxi", "MRMesh_2MRMeshFwd_8h.html#a8ed498ef177b78a0ca416fade3be9909", null ],
     [ "OnEdgeSplit", "MRMesh_2MRMeshFwd_8h.html#ab50339e87a21861f4405943730720850", null ],
     [ "ParallelHashMap", "MRMesh_2MRMeshFwd_8h.html#a05d4e4903837647940c265c6939dcfdf", null ],
     [ "ParallelHashSet", "MRMesh_2MRMeshFwd_8h.html#ad321412e874739790b445adf4bbb1139", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"MRPositionVertsSmoothly_8h.html#ae86354c05ad9fa894a5dd8c50099d7a9":[6,0,3,0,0,1,4,304,6],
 "MRPositionVertsSmoothly_8h.html#aee32fa354138e9639ff564f91e9d9c50":[6,0,3,0,0,1,4,304,7],
 "MRPositionVertsSmoothly_8h_source.html":[6,0,3,0,0,1,4,304],
 "MRPositionedText_8h.html":[6,0,3,0,0,1,4,303],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "MRRibbonConstants_8h.html#aaaac3eef6fa84776b2bf2bcd9c77e1fd":[6,0,3,0,0,1,10,81,40],
 "MRRibbonConstants_8h.html#aac592de3f9df1139cad7ffbcdbadea5b":[6,0,3,0,0,1,10,81,51],
 "MRRibbonConstants_8h.html#aacf3fd20b13de2d01250f5bda9173581":[6,0,3,0,0,1,10,81,2],
-"MRRibbonConstants_8h.html#aaded4cd4767b56cafcef761970128104":[6,0,3,0,0,1,10,81,3],
-"MRRibbonConstants_8h.html#ab44fac23055a5f76fda2e5fbbcff8154":[6,0,3,0,0,1,10,81,25]
+"MRRibbonConstants_8h.html#aaded4cd4767b56cafcef761970128104":[6,0,3,0,0,1,10,81,3]
 };

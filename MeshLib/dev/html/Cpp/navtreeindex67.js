@@ -1,5 +1,9 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#adf4f4e032450939bf9b4428636216ce0":[6,0,1,0,1,84,0,5],
+"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#adf4f4e032450939bf9b4428636216ce0":[6,0,2,0,1,68,0,5],
+"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#af1899a0952daad52f5218d45bf7d61a9":[6,0,1,0,1,84,0,1],
+"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html#af1899a0952daad52f5218d45bf7d61a9":[6,0,2,0,1,68,0,1],
 "structMR_1_1Box.html":[6,0,0,0,2,0],
 "structMR_1_1Box.html#a0b1e0b6b95e8b735eda8de2bb06fd987":[6,0,0,0,2,0,5],
 "structMR_1_1Box.html#a1425948e6f0f9ef6de04c45be07f81fd":[6,0,0,0,2,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1CoordinateConverters2.html#a7914d773b759411e23efd36b3c2fcc46":[6,0,1,0,1,160,0],
 "structMR_1_1CoordinateConverters2.html#a7914d773b759411e23efd36b3c2fcc46":[6,0,2,0,1,144,0],
 "structMR_1_1CoordinateConverters2.html#aec74867bf6fa21b7d48dfabf36194f8c":[6,0,1,0,1,160,1],
-"structMR_1_1CoordinateConverters2.html#aec74867bf6fa21b7d48dfabf36194f8c":[6,0,2,0,1,144,1],
-"structMR_1_1CubicBezierCurve.html":[6,0,1,0,1,161],
-"structMR_1_1CubicBezierCurve.html":[6,0,2,0,1,145],
-"structMR_1_1CubicBezierCurve.html#a253c4a44671e701720f11bb8c0078f06":[6,0,1,0,1,161,3],
-"structMR_1_1CubicBezierCurve.html#a253c4a44671e701720f11bb8c0078f06":[6,0,2,0,1,145,3]
+"structMR_1_1CoordinateConverters2.html#aec74867bf6fa21b7d48dfabf36194f8c":[6,0,2,0,1,144,1]
 };

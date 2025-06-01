@@ -25,13 +25,14 @@ var searchData=
   ['meshtripointsconnector_22',['MeshTriPointsConnector',['../../Cpp/namespaceMR.html#a217b7a3f4fc9168e09f3d423beb790e5',1,'MR']]],
   ['minmaxd_23',['MinMaxd',['../../Cpp/namespaceMR.html#a8a502bbb7355b197a80a998945d1a885',1,'MR']]],
   ['minmaxf_24',['MinMaxf',['../../Cpp/namespaceMR.html#a2bd3b23d498c69cd04c544b6c7068f3a',1,'MR']]],
-  ['mode_25',['Mode',['../../Cpp/structMR_1_1GeneralOffsetParameters.html#abc2615fd96d188bbdb1407d0cc0e5c84',1,'MR::GeneralOffsetParameters']]],
-  ['mousebutton_26',['MouseButton',['../../Cpp/classMR_1_1Viewer.html#acbb855ef51e627a2fd2b111d9d65277e',1,'MR::Viewer']]],
-  ['mousemode_27',['MouseMode',['../../Cpp/classMR_1_1Viewer.html#a8fda1ccb2d6d517de3047c2fd65203ea',1,'MR::Viewer']]],
-  ['mousemovesignal_28',['MouseMoveSignal',['../../Cpp/classMR_1_1Viewer.html#a12789e9a254227b600592bce4d442758',1,'MR::Viewer']]],
-  ['mousescrollsignal_29',['MouseScrollSignal',['../../Cpp/classMR_1_1Viewer.html#aec690d0dd00cd849a736c3436ed2e546',1,'MR::Viewer']]],
-  ['mouseupdownsignal_30',['MouseUpDownSignal',['../../Cpp/classMR_1_1Viewer.html#a1aecfd029115f7b6327183d3d313297a',1,'MR::Viewer']]],
-  ['multilistenerbase_31',['MultiListenerBase',['../../Cpp/classMR_1_1StateListenerPlugin.html#a700dee77fa82afbe743aa424eb782e2d',1,'MR::StateListenerPlugin']]],
-  ['multiobjssamples_32',['MultiObjsSamples',['../../Cpp/namespaceMR.html#aad6ac9cd0268793575ae31767169ad0e',1,'MR']]],
-  ['multipleedge_33',['MultipleEdge',['../../Cpp/group__MeshFixerGroup.html#gac8fc9cf58c37989c9d8ff982e8e378dc',1,'MR::MultipleEdge'],['../../Cpp/group__MeshFixerGroup.html#gac8fc9cf58c37989c9d8ff982e8e378dc',1,'MR::MultipleEdge']]]
+  ['minmaxi_25',['MinMaxi',['../../Cpp/namespaceMR.html#a8ed498ef177b78a0ca416fade3be9909',1,'MR']]],
+  ['mode_26',['Mode',['../../Cpp/structMR_1_1GeneralOffsetParameters.html#abc2615fd96d188bbdb1407d0cc0e5c84',1,'MR::GeneralOffsetParameters']]],
+  ['mousebutton_27',['MouseButton',['../../Cpp/classMR_1_1Viewer.html#acbb855ef51e627a2fd2b111d9d65277e',1,'MR::Viewer']]],
+  ['mousemode_28',['MouseMode',['../../Cpp/classMR_1_1Viewer.html#a8fda1ccb2d6d517de3047c2fd65203ea',1,'MR::Viewer']]],
+  ['mousemovesignal_29',['MouseMoveSignal',['../../Cpp/classMR_1_1Viewer.html#a12789e9a254227b600592bce4d442758',1,'MR::Viewer']]],
+  ['mousescrollsignal_30',['MouseScrollSignal',['../../Cpp/classMR_1_1Viewer.html#aec690d0dd00cd849a736c3436ed2e546',1,'MR::Viewer']]],
+  ['mouseupdownsignal_31',['MouseUpDownSignal',['../../Cpp/classMR_1_1Viewer.html#a1aecfd029115f7b6327183d3d313297a',1,'MR::Viewer']]],
+  ['multilistenerbase_32',['MultiListenerBase',['../../Cpp/classMR_1_1StateListenerPlugin.html#a700dee77fa82afbe743aa424eb782e2d',1,'MR::StateListenerPlugin']]],
+  ['multiobjssamples_33',['MultiObjsSamples',['../../Cpp/namespaceMR.html#aad6ac9cd0268793575ae31767169ad0e',1,'MR']]],
+  ['multipleedge_34',['MultipleEdge',['../../Cpp/group__MeshFixerGroup.html#gac8fc9cf58c37989c9d8ff982e8e378dc',1,'MR::MultipleEdge'],['../../Cpp/group__MeshFixerGroup.html#gac8fc9cf58c37989c9d8ff982e8e378dc',1,'MR::MultipleEdge']]]
 ];
