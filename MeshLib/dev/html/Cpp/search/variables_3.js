@@ -157,7 +157,7 @@ var searchData=
   ['contourid_154',['contourId',['../structMR_1_1OffsetContourIndex.html#aec9f5b82e1dfa088b1c90d534d047f67',1,'MR::OffsetContourIndex']]],
   ['contouridmap_155',['ContourIdMap',['../../Py/classmrmeshpy_1_1PlanarTriangulation.html#a39d009b45098727f56ce0a1956625eb4',1,'mrmeshpy::PlanarTriangulation']]],
   ['contourorientation_156',['ContourOrientation',['../../Py/classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#a9e1c7a2bb8684d2d8504699f18bed086',1,'mrmeshpy::ContoursDistanceMapOptions::SignedDetectionMethod::ContourOrientation'],['../structMR_1_1ContoursDistanceMapOptions.html#ada938644fd6754f567016b529b5f7340',1,'MR::ContoursDistanceMapOptions::ContourOrientation']]],
-  ['contours_157',['contours',['../structMR_1_1SortIntersectionsData.html#a3e022423fc25738632598f90c2caf5b1',1,'MR::SortIntersectionsData::contours'],['../structMR_1_1BooleanPreCutResult.html#afaca754878c1a03d1db3e1b2e6933dfc',1,'MR::BooleanPreCutResult::contours']]],
+  ['contours_157',['contours',['../structMR_1_1BooleanPreCutResult.html#afaca754878c1a03d1db3e1b2e6933dfc',1,'MR::BooleanPreCutResult::contours'],['../structMR_1_1SortIntersectionsData.html#a3e022423fc25738632598f90c2caf5b1',1,'MR::SortIntersectionsData::contours']]],
   ['contours2d_158',['Contours2d',['../../Py/namespacemrmeshpy.html#a97d8f68682102f8dd1e327509795cd67',1,'mrmeshpy']]],
   ['contours2f_159',['Contours2f',['../../Py/namespacemrmeshpy.html#a345f1304f7d263b6cdb2f7ea30b99b72',1,'mrmeshpy']]],
   ['contours3d_160',['Contours3d',['../../Py/namespacemrmeshpy.html#a8b681415dcb4c1ec0a043d875a3a6377',1,'mrmeshpy']]],

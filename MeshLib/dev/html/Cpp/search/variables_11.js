@@ -63,7 +63,7 @@ var searchData=
   ['rightleft_60',['RightLeft',['../../Py/classmrmeshpy_1_1QuarterBit.html#aa4ad18c2ecb8f22e2aa47c16e4943108',1,'mrmeshpy::QuarterBit']]],
   ['rightright_61',['RightRight',['../../Py/classmrmeshpy_1_1QuarterBit.html#aa48661bad4e58c7f678d86e7ebef4c31',1,'mrmeshpy::QuarterBit']]],
   ['rightside_62',['rightSide',['../structMR_1_1ShellVertexInfo.html#a4ad2a701c8676bd3a94338e7564f1a3c',1,'MR::ShellVertexInfo']]],
-  ['rigidb2a_63',['rigidB2A',['../structMR_1_1SortIntersectionsData.html#a24cce95182673d88059c5d9a38905fc0',1,'MR::SortIntersectionsData::rigidB2A'],['../structMR_1_1BooleanParameters.html#aa7d29b950e89579308197da903b43d92',1,'MR::BooleanParameters::rigidB2A'],['../structMRBooleanParameters.html#ae2061a98ee78884351c0cd88e485f32a',1,'MRBooleanParameters::rigidB2A']]],
+  ['rigidb2a_63',['rigidB2A',['../structMR_1_1BooleanParameters.html#aa7d29b950e89579308197da903b43d92',1,'MR::BooleanParameters::rigidB2A'],['../structMR_1_1SortIntersectionsData.html#a24cce95182673d88059c5d9a38905fc0',1,'MR::SortIntersectionsData::rigidB2A'],['../structMRBooleanParameters.html#ae2061a98ee78884351c0cd88e485f32a',1,'MRBooleanParameters::rigidB2A']]],
   ['rigidscale_64',['RigidScale',['../../Py/classmrmeshpy_1_1ICPMode.html#a98640dd09dd73af964769177d7a998fc',1,'mrmeshpy::ICPMode']]],
   ['rigidscalexf3_65',['RigidScaleXf3',['../../namespaceMR.html#aefb0e71ff0b54f3b21e3e841c23186f2',1,'MR']]],
   ['rigidscalexf3_5fdouble_5fv_66',['RigidScaleXf3_double_V',['../../Py/namespacemrmeshpy.html#a442febbf4ffa5cc592027c5abb1dca58',1,'mrmeshpy']]],

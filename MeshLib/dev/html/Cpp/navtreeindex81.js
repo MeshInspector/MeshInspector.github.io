@@ -1,5 +1,11 @@
 var NAVTREEINDEX81 =
 {
+"structMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a5f613f44fae6b6a33f13f57fc0161a01":[6,0,2,0,1,16,0,0],
+"structMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a93bcbf8ddd9c5a89210bf3cf9f8acbef":[6,0,1,0,1,27,0,1],
+"structMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a93bcbf8ddd9c5a89210bf3cf9f8acbef":[6,0,2,0,1,16,0,1],
+"structMR_1_1PointsSave_1_1PointsSaver.html":[6,0,1,0,1,27,1],
+"structMR_1_1PointsSave_1_1PointsSaver.html":[6,0,2,0,1,16,1],
+"structMR_1_1PointsSave_1_1PointsSaver.html#a38cf916ae7e979cab3b2565c5a8e07fd":[6,0,1,0,1,27,1,0],
 "structMR_1_1PointsSave_1_1PointsSaver.html#a38cf916ae7e979cab3b2565c5a8e07fd":[6,0,2,0,1,16,1,0],
 "structMR_1_1PointsSave_1_1PointsSaver.html#a9b76a81c6623b8ff71c897adad0e14d3":[6,0,1,0,1,27,1,1],
 "structMR_1_1PointsSave_1_1PointsSaver.html#a9b76a81c6623b8ff71c897adad0e14d3":[6,0,2,0,1,16,1,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX81 =
 "structMR_1_1PreciseVertCoords.html#aee4e7653cf187ba47b0eceff8088e6a5":[6,0,1,0,1,537,0],
 "structMR_1_1PreciseVertCoords.html#aee4e7653cf187ba47b0eceff8088e6a5":[6,0,2,0,1,521,0],
 "structMR_1_1PreciseVertCoords2.html":[6,0,1,0,1,538],
-"structMR_1_1PreciseVertCoords2.html":[6,0,2,0,1,522],
-"structMR_1_1PreciseVertCoords2.html#a5d5322f95eb294c6584a9f15f247fcd7":[6,0,1,0,1,538,1],
-"structMR_1_1PreciseVertCoords2.html#a5d5322f95eb294c6584a9f15f247fcd7":[6,0,2,0,1,522,1],
-"structMR_1_1PreciseVertCoords2.html#a6ffb69d89938c4fc7d7cf12857c89f25":[6,0,1,0,1,538,0],
-"structMR_1_1PreciseVertCoords2.html#a6ffb69d89938c4fc7d7cf12857c89f25":[6,0,2,0,1,522,0],
-"structMR_1_1ProgressInterrupter.html":[6,0,1,0,1,541],
-"structMR_1_1ProgressInterrupter.html":[6,0,2,0,1,525]
+"structMR_1_1PreciseVertCoords2.html":[6,0,2,0,1,522]
 };

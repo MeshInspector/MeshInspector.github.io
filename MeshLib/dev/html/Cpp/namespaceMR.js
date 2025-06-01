@@ -1271,10 +1271,10 @@ var namespaceMR =
       [ "Cannot", "group__MeshDeloneGroup.html#ggaa3ebc28a0c17a0a5fc0c9b90a97bfc95a540db3cc7e3c40ec046c3a290f1523ba", null ],
       [ "Must", "group__MeshDeloneGroup.html#ggaa3ebc28a0c17a0a5fc0c9b90a97bfc95ab2b39f251bc6784f2d44d4dd72a663be", null ]
     ] ],
-    [ "GeodesicPathApprox", "group__SurfacePathSubgroup.html#ga0d52c069a53aab9d22c0f2c4e3f262a2", [
-      [ "DijkstraBiDir", "group__SurfacePathSubgroup.html#gga0d52c069a53aab9d22c0f2c4e3f262a2a688de737bb8774938c023e0f0a373184", null ],
-      [ "DijkstraAStar", "group__SurfacePathSubgroup.html#gga0d52c069a53aab9d22c0f2c4e3f262a2aa9132a8a9b3c0d8c70e577b23e01e70d", null ],
-      [ "FastMarching", "group__SurfacePathSubgroup.html#gga0d52c069a53aab9d22c0f2c4e3f262a2aa379190d516779f65bad72b240e81435", null ]
+    [ "GeodesicPathApprox", "../namespaceMR.html#a0d52c069a53aab9d22c0f2c4e3f262a2", [
+      [ "DijkstraBiDir", "../namespaceMR.html#a0d52c069a53aab9d22c0f2c4e3f262a2a688de737bb8774938c023e0f0a373184", null ],
+      [ "DijkstraAStar", "../namespaceMR.html#a0d52c069a53aab9d22c0f2c4e3f262a2aa9132a8a9b3c0d8c70e577b23e01e70d", null ],
+      [ "FastMarching", "../namespaceMR.html#a0d52c069a53aab9d22c0f2c4e3f262a2aa379190d516779f65bad72b240e81435", null ]
     ] ],
     [ "ICPExitType", "../namespaceMR.html#ac977096020e15e4b699043b2c550bf83", [
       [ "NotStarted", "../namespaceMR.html#ac977096020e15e4b699043b2c550bf83afa7be7845bc42b3491d9d0377958be94", null ],

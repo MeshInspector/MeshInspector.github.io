@@ -1,5 +1,11 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1GeneralOffsetParameters.html#a32b4506f0ab7b7a76f0e3b1ce34a94d1":[6,0,1,0,1,260,1],
+"structMR_1_1GeneralOffsetParameters.html#a32b4506f0ab7b7a76f0e3b1ce34a94d1":[6,0,2,0,1,244,1],
+"structMR_1_1GeneralOffsetParameters.html#abc2615fd96d188bbdb1407d0cc0e5c84":[6,0,1,0,1,260,0],
+"structMR_1_1GeneralOffsetParameters.html#abc2615fd96d188bbdb1407d0cc0e5c84":[6,0,2,0,1,244,0],
+"structMR_1_1GlTexture_1_1Settings.html":[6,0,1,0,1,263,0],
+"structMR_1_1GlTexture_1_1Settings.html":[6,0,2,0,1,247,0],
 "structMR_1_1GlTexture_1_1Settings.html#a3943dc4f528bc49722114379614e4c2e":[6,0,1,0,1,263,0,0],
 "structMR_1_1GlTexture_1_1Settings.html#a3943dc4f528bc49722114379614e4c2e":[6,0,2,0,1,247,0,0],
 "structMR_1_1GlTexture_1_1Settings.html#a3b834f386d4f814d5f03b43e229d4adb":[6,0,1,0,1,263,0,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#a84786fdc043bbc9a3dbcd7613739a8a9":[6,0,2,0,1,5,2,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#afa94b8b95a6f04c1fd875ef2fa4850ae":[6,0,1,0,1,13,2,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#afa94b8b95a6f04c1fd875ef2fa4850ae":[6,0,2,0,1,5,2,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#afa94b8b95a6f04c1fd875ef2fa4850aea334c4a4c42fdb79d7ebc3e73b517e6f8":[6,0,1,0,1,13,2,0,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#afa94b8b95a6f04c1fd875ef2fa4850aea334c4a4c42fdb79d7ebc3e73b517e6f8":[6,0,2,0,1,5,2,0,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#afa94b8b95a6f04c1fd875ef2fa4850aea9022a153e6190f10d9b57aa4232b8aea":[6,0,1,0,1,13,2,0,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#afa94b8b95a6f04c1fd875ef2fa4850aea9022a153e6190f10d9b57aa4232b8aea":[6,0,2,0,1,5,2,0,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html":[6,0,1,0,1,13,3],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html":[6,0,2,0,1,5,3],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#a13bf25d17b0cd12e3c276a80d170fa5b":[6,0,1,0,1,13,3,0]
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#afa94b8b95a6f04c1fd875ef2fa4850aea334c4a4c42fdb79d7ebc3e73b517e6f8":[6,0,1,0,1,13,2,0,0]
 };

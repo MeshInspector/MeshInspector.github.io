@@ -1,5 +1,11 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1PartMapping.html#a73600646d6908faffc3c59ca5ad651ea":[6,0,2,0,1,464,2],
+"structMR_1_1PartMapping.html#ad04e1ef358a87463840701926e9856c1":[6,0,1,0,1,480,4],
+"structMR_1_1PartMapping.html#ad04e1ef358a87463840701926e9856c1":[6,0,2,0,1,464,4],
+"structMR_1_1PartMapping.html#af1b1858f450332378241a632d9186e89":[6,0,1,0,1,480,3],
+"structMR_1_1PartMapping.html#af1b1858f450332378241a632d9186e89":[6,0,2,0,1,464,3],
+"structMR_1_1PartMapping.html#af69dd39f60abdd4b769bb948a49a0737":[6,0,1,0,1,480,5],
 "structMR_1_1PartMapping.html#af69dd39f60abdd4b769bb948a49a0737":[6,0,2,0,1,464,5],
 "structMR_1_1PdfParameters.html":[6,0,1,0,1,482],
 "structMR_1_1PdfParameters.html":[6,0,2,0,1,466],
@@ -243,11 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1PointsProjectionResult.html#ac5592bc916da0b017f4e3a254bad34f7":[6,0,0,1,28,2],
 "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html":[6,0,1,0,1,27,0],
 "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html":[6,0,2,0,1,16,0],
-"structMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a5f613f44fae6b6a33f13f57fc0161a01":[6,0,1,0,1,27,0,0],
-"structMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a5f613f44fae6b6a33f13f57fc0161a01":[6,0,2,0,1,16,0,0],
-"structMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a93bcbf8ddd9c5a89210bf3cf9f8acbef":[6,0,1,0,1,27,0,1],
-"structMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a93bcbf8ddd9c5a89210bf3cf9f8acbef":[6,0,2,0,1,16,0,1],
-"structMR_1_1PointsSave_1_1PointsSaver.html":[6,0,1,0,1,27,1],
-"structMR_1_1PointsSave_1_1PointsSaver.html":[6,0,2,0,1,16,1],
-"structMR_1_1PointsSave_1_1PointsSaver.html#a38cf916ae7e979cab3b2565c5a8e07fd":[6,0,1,0,1,27,1,0]
+"structMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a5f613f44fae6b6a33f13f57fc0161a01":[6,0,1,0,1,27,0,0]
 };

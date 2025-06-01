@@ -1,5 +1,11 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1FileDialogSignals.html#afa35a6c193fd7c7c877407d10c4e4ebf":[6,0,1,0,1,228,3],
+"structMR_1_1FileDialogSignals.html#afa35a6c193fd7c7c877407d10c4e4ebf":[6,0,2,0,1,212,3],
+"structMR_1_1FileLoadOptions.html":[6,0,1,0,1,229],
+"structMR_1_1FileLoadOptions.html":[6,0,2,0,1,213],
+"structMR_1_1FileLoadOptions.html#a4f4d8061842e6e46c5aab4e281bf1ad4":[6,0,1,0,1,229,1],
+"structMR_1_1FileLoadOptions.html#a4f4d8061842e6e46c5aab4e281bf1ad4":[6,0,2,0,1,213,1],
 "structMR_1_1FileLoadOptions.html#ac870f86b867d1f462ca29dfd23d4e761":[6,0,1,0,1,229,2],
 "structMR_1_1FileLoadOptions.html#ac870f86b867d1f462ca29dfd23d4e761":[6,0,2,0,1,213,2],
 "structMR_1_1FileLoadOptions.html#ae0a181135e902fbd720327ed1d13e3d1":[6,0,1,0,1,229,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1GcodeProcessor_1_1MoveAction.html#afb16d620b32465be3a1f27d50c1640d3":[6,0,1,0,1,257,2,2],
 "structMR_1_1GcodeProcessor_1_1MoveAction.html#afb16d620b32465be3a1f27d50c1640d3":[6,0,2,0,1,241,2,2],
 "structMR_1_1GeneralOffsetParameters.html":[6,0,1,0,1,260],
-"structMR_1_1GeneralOffsetParameters.html":[6,0,2,0,1,244],
-"structMR_1_1GeneralOffsetParameters.html#a32b4506f0ab7b7a76f0e3b1ce34a94d1":[6,0,1,0,1,260,1],
-"structMR_1_1GeneralOffsetParameters.html#a32b4506f0ab7b7a76f0e3b1ce34a94d1":[6,0,2,0,1,244,1],
-"structMR_1_1GeneralOffsetParameters.html#abc2615fd96d188bbdb1407d0cc0e5c84":[6,0,1,0,1,260,0],
-"structMR_1_1GeneralOffsetParameters.html#abc2615fd96d188bbdb1407d0cc0e5c84":[6,0,2,0,1,244,0],
-"structMR_1_1GlTexture_1_1Settings.html":[6,0,1,0,1,263,0],
-"structMR_1_1GlTexture_1_1Settings.html":[6,0,2,0,1,247,0]
+"structMR_1_1GeneralOffsetParameters.html":[6,0,2,0,1,244]
 };
