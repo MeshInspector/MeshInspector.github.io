@@ -1,5 +1,9 @@
 var NAVTREEINDEX90 =
 {
+"structMR_1_1VoxelsLoad_1_1RawParameters.html":[6,0,0,2,17,0],
+"structMR_1_1VoxelsLoad_1_1RawParameters.html#a5d28afdbdf8874a171bdaa3da9a77db7":[6,0,0,2,17,0,1],
+"structMR_1_1VoxelsLoad_1_1RawParameters.html#a69214b3d1697f4864e145aa2b9802cea":[6,0,0,2,17,0,2],
+"structMR_1_1VoxelsLoad_1_1RawParameters.html#ab1db96ec60477ec788bfe5aeb3596da2":[6,0,0,2,17,0,0],
 "structMR_1_1VoxelsLoad_1_1RawParameters.html#afd3e66a2e50b601320d9254e884691dd":[6,0,0,2,17,0,3],
 "structMR_1_1VoxelsSave_1_1SavingSettings.html":[6,0,0,2,18],
 "structMR_1_1VoxelsSave_1_1SavingSettings.html#a61495391ee95acbc5462893baceab323":[6,0,0,2,18,0],
