@@ -1,5 +1,11 @@
 var NAVTREEINDEX83 =
 {
+"structMR_1_1ResolveMeshDegenSettings.html#abc665fb972e64aa14c3aaed55f8254b6":[6,0,1,0,1,580,3],
+"structMR_1_1ResolveMeshDegenSettings.html#abc665fb972e64aa14c3aaed55f8254b6":[6,0,2,0,1,564,3],
+"structMR_1_1ResolveMeshDegenSettings.html#afc054861d37dd821d8c02677da8774da":[6,0,1,0,1,580,5],
+"structMR_1_1ResolveMeshDegenSettings.html#afc054861d37dd821d8c02677da8774da":[6,0,2,0,1,564,5],
+"structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html":[6,0,1,0,1,582,0],
+"structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html":[6,0,2,0,1,566,0],
 "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a4a178e6ea3323a12fdb7394b7f89cd71":[6,0,1,0,1,582,0,1],
 "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a4a178e6ea3323a12fdb7394b7f89cd71":[6,0,2,0,1,566,0,1],
 "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a9048532b67f8ae6a79ec42cf2a196ddf":[6,0,1,0,1,582,0,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX83 =
 "structMR_1_1SceneReorder.html#abacbb4958924f1ae24622120a956b43f":[6,0,2,0,1,606,1],
 "structMR_1_1SceneReorder.html#ad02567fbc39d8a94b4870c8b0f55a01a":[6,0,1,0,1,622,2],
 "structMR_1_1SceneReorder.html#ad02567fbc39d8a94b4870c8b0f55a01a":[6,0,2,0,1,606,2],
-"structMR_1_1SearchPathSettings.html":[6,0,1,0,1,638],
-"structMR_1_1SearchPathSettings.html":[6,0,2,0,1,622],
-"structMR_1_1SearchPathSettings.html#a73e36cb0460a39c6bf496d2038aced39":[6,0,1,0,1,638,0],
-"structMR_1_1SearchPathSettings.html#a73e36cb0460a39c6bf496d2038aced39":[6,0,2,0,1,622,0],
-"structMR_1_1SearchPathSettings.html#aa176e79c6812cb52b0c1dabdaa2e61c3":[6,0,1,0,1,638,1],
-"structMR_1_1SearchPathSettings.html#aa176e79c6812cb52b0c1dabdaa2e61c3":[6,0,2,0,1,622,1],
-"structMR_1_1SegmEndColors.html":[6,0,1,0,1,639]
+"structMR_1_1SearchPathSettings.html":[6,0,1,0,1,638]
 };

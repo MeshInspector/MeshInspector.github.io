@@ -1,5 +1,11 @@
 var NAVTREEINDEX34 =
 {
+"classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html#a68b04cdedc80d6154aa103f169f308be":[6,0,2,0,1,427,0,0],
+"classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html#a9af38d8c2827041c970c5eec9eb10e05":[6,0,1,0,1,443,0,1],
+"classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html#a9af38d8c2827041c970c5eec9eb10e05":[6,0,2,0,1,427,0,1],
+"classMR_1_1ObjectVoxels.html":[6,0,0,11,14],
+"classMR_1_1ObjectVoxels.html#a01db317d14e060f58c079fbcaa73e3ce":[6,0,0,11,14,48],
+"classMR_1_1ObjectVoxels.html#a0a5cca18a913b0ac50da4541a044cd2b":[6,0,0,11,14,51],
 "classMR_1_1ObjectVoxels.html#a0be5abb458a3b28d1c15a5709be051c3":[6,0,0,11,14,44],
 "classMR_1_1ObjectVoxels.html#a1077ee7fda27e5924dd707c93bffafba":[6,0,0,11,14,16],
 "classMR_1_1ObjectVoxels.html#a10fd8457c5eafb626b75de39437e545a":[6,0,0,11,14,67],
@@ -243,11 +249,5 @@ var NAVTREEINDEX34 =
 "classMR_1_1PickPointManager.html#a0922ea18b0bacb74b2787b4e9fb1987f":[6,0,2,0,1,467,17],
 "classMR_1_1PickPointManager.html#a0dd9ef9d866e2b5ff2e61585eb577de6":[6,0,1,0,1,483,14],
 "classMR_1_1PickPointManager.html#a0dd9ef9d866e2b5ff2e61585eb577de6":[6,0,2,0,1,467,14],
-"classMR_1_1PickPointManager.html#a126f436cbe4bfa2339652d428159ad0b":[6,0,1,0,1,483,4],
-"classMR_1_1PickPointManager.html#a126f436cbe4bfa2339652d428159ad0b":[6,0,2,0,1,467,4],
-"classMR_1_1PickPointManager.html#a31b5a1ad4254215a601d20d9930c956c":[6,0,1,0,1,483,9],
-"classMR_1_1PickPointManager.html#a31b5a1ad4254215a601d20d9930c956c":[6,0,2,0,1,467,9],
-"classMR_1_1PickPointManager.html#a517842afda1f1c9d0c1487829fb09fb4":[6,0,1,0,1,483,7],
-"classMR_1_1PickPointManager.html#a517842afda1f1c9d0c1487829fb09fb4":[6,0,2,0,1,467,7],
-"classMR_1_1PickPointManager.html#a5293eb3d7c9e32d1534443a4eaadd070":[6,0,1,0,1,483,15]
+"classMR_1_1PickPointManager.html#a126f436cbe4bfa2339652d428159ad0b":[6,0,1,0,1,483,4]
 };

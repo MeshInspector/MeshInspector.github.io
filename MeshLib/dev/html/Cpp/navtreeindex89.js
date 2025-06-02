@@ -1,5 +1,11 @@
 var NAVTREEINDEX89 =
 {
+"structMR_1_1Vector4.html#a406ab28ca8f52a20219ceffe78e52cd5":[6,0,0,0,12,2,23],
+"structMR_1_1Vector4.html#a40d27756dd3dd012e19e847137c16532":[6,0,0,0,12,2,26],
+"structMR_1_1Vector4.html#a458502d7f4776a6bddef3495ad567541":[6,0,0,0,12,2,2],
+"structMR_1_1Vector4.html#a50bac4033d0f4d0e5c92933a5eda6883":[6,0,0,0,12,2,13],
+"structMR_1_1Vector4.html#a556227be53d866e9103d95440b88c41b":[6,0,0,0,12,2,20],
+"structMR_1_1Vector4.html#a5bb00471e4228b49442d8c7e717e31e7":[6,0,0,0,12,2,16],
 "structMR_1_1Vector4.html#a664e7947c3eb5d229c9ceb1c728a6f9b":[6,0,0,0,12,2,15],
 "structMR_1_1Vector4.html#a66a8f1480a9225ab25c5a97cf5c24c0a":[6,0,0,0,12,2,5],
 "structMR_1_1Vector4.html#a67f187692acd3476394b8db347e86843":[6,0,0,0,12,2,6],
@@ -243,11 +249,5 @@ var NAVTREEINDEX89 =
 "structMR_1_1VoxelsLoad_1_1RawParameters.html":[6,0,0,2,17,0],
 "structMR_1_1VoxelsLoad_1_1RawParameters.html#a5d28afdbdf8874a171bdaa3da9a77db7":[6,0,0,2,17,0,1],
 "structMR_1_1VoxelsLoad_1_1RawParameters.html#a69214b3d1697f4864e145aa2b9802cea":[6,0,0,2,17,0,2],
-"structMR_1_1VoxelsLoad_1_1RawParameters.html#ab1db96ec60477ec788bfe5aeb3596da2":[6,0,0,2,17,0,0],
-"structMR_1_1VoxelsLoad_1_1RawParameters.html#afd3e66a2e50b601320d9254e884691dd":[6,0,0,2,17,0,3],
-"structMR_1_1VoxelsSave_1_1SavingSettings.html":[6,0,0,2,18],
-"structMR_1_1VoxelsSave_1_1SavingSettings.html#a61495391ee95acbc5462893baceab323":[6,0,0,2,18,0],
-"structMR_1_1VoxelsSave_1_1SavingSettings.html#a8194c36117ac4d7ace9f1070ce398953":[6,0,0,2,18,3],
-"structMR_1_1VoxelsSave_1_1SavingSettings.html#a8415f6dc84ccf8061fd256e2420cd4fd":[6,0,0,2,18,2],
-"structMR_1_1VoxelsSave_1_1SavingSettings.html#abc7da521abdd392c79be9602cde3dc64":[6,0,0,2,18,1]
+"structMR_1_1VoxelsLoad_1_1RawParameters.html#ab1db96ec60477ec788bfe5aeb3596da2":[6,0,0,2,17,0,0]
 };

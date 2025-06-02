@@ -1,5 +1,11 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#a3d704b08012c57fec93ba58808ee3421":[6,0,1,0,1,257,2,5],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#a3d704b08012c57fec93ba58808ee3421":[6,0,2,0,1,241,2,5],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#a85b84c7e86dfe85baf10dcab2f46c9d6":[6,0,1,0,1,257,2,0],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#a85b84c7e86dfe85baf10dcab2f46c9d6":[6,0,2,0,1,241,2,0],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#a9c37820f22dbbb3c0a9fc9b01369abbc":[6,0,1,0,1,257,2,1],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#a9c37820f22dbbb3c0a9fc9b01369abbc":[6,0,2,0,1,241,2,1],
 "structMR_1_1GcodeProcessor_1_1MoveAction.html#afb16d620b32465be3a1f27d50c1640d3":[6,0,1,0,1,257,2,2],
 "structMR_1_1GcodeProcessor_1_1MoveAction.html#afb16d620b32465be3a1f27d50c1640d3":[6,0,2,0,1,241,2,2],
 "structMR_1_1GeneralOffsetParameters.html":[6,0,1,0,1,260],
@@ -243,11 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#abac2cff41f1bc2c17f07184162976b9f":[6,0,2,0,1,5,0,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html":[6,0,1,0,1,13,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html":[6,0,2,0,1,5,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#a3d5c40490eaf4234be2239ce7055eae5":[6,0,1,0,1,13,1,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#a3d5c40490eaf4234be2239ce7055eae5":[6,0,2,0,1,5,1,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html":[6,0,1,0,1,13,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html":[6,0,2,0,1,5,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#a44144148a10112aad36da80581e557d8":[6,0,1,0,1,13,2,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#a44144148a10112aad36da80581e557d8":[6,0,2,0,1,5,2,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#a84786fdc043bbc9a3dbcd7613739a8a9":[6,0,1,0,1,13,2,1]
+"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#a3d5c40490eaf4234be2239ce7055eae5":[6,0,1,0,1,13,1,0]
 };

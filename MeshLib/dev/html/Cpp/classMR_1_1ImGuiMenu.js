@@ -64,6 +64,7 @@ var classMR_1_1ImGuiMenu =
     [ "getShowShortcuts", "classMR_1_1ImGuiMenu.html#a71eee39290bad9e423c351d3e5199f06", null ],
     [ "getStoredColor_", "classMR_1_1ImGuiMenu.html#a94d45ffa94d1720d85a4120b6e769b55", null ],
     [ "getUiRenderManager", "classMR_1_1ImGuiMenu.html#a12da43f010acf739a8eccfc33ecdeb04", null ],
+    [ "getUserScaling", "classMR_1_1ImGuiMenu.html#a1e1cc9fce0ffe6ffb4bb3920f586cefb", null ],
     [ "hidpi_scaling", "classMR_1_1ImGuiMenu.html#ac28c9493029fa946734f3ed3980b6a68", null ],
     [ "init", "classMR_1_1ImGuiMenu.html#acf26f479a1c27455aadd05900f3832bd", null ],
     [ "initBackend", "classMR_1_1ImGuiMenu.html#a3425b4fd87149a0b1038c2caf99fb4ab", null ],
@@ -93,6 +94,7 @@ var classMR_1_1ImGuiMenu =
     [ "setObjectTreeState", "classMR_1_1ImGuiMenu.html#a760f379753472105d9f5cbefaeecc741", null ],
     [ "setShowShortcuts", "classMR_1_1ImGuiMenu.html#a86b80144e3a19e663a44c52daa73f55d", null ],
     [ "setupShortcuts_", "classMR_1_1ImGuiMenu.html#a133e9d1bc1eaddc62bc3607ef1c16dc1", null ],
+    [ "setUserScaling", "classMR_1_1ImGuiMenu.html#ae1070bda705ced4859b5b72a381c0432", null ],
     [ "showModalMessage", "classMR_1_1ImGuiMenu.html#a2a048091853e02ff674893add9adf7e3", null ],
     [ "shutdown", "classMR_1_1ImGuiMenu.html#ae8ea9f87c7bb3f33454eacc1a708eae8", null ],
     [ "simulateNameTagClick", "classMR_1_1ImGuiMenu.html#a95c82c0734872d0f3d937e4653c60574", null ],
@@ -154,5 +156,6 @@ var classMR_1_1ImGuiMenu =
     [ "storedModalMessage_", "classMR_1_1ImGuiMenu.html#a030eb50192d51050ab5c5aa34e63929d", null ],
     [ "uiRenderManager_", "classMR_1_1ImGuiMenu.html#ac676c6482bdbd381c6a69ec47774f8eb", null ],
     [ "uniformScale_", "classMR_1_1ImGuiMenu.html#afd9b841be73749d7e6b9ccbd81ba5afd", null ],
+    [ "userScaling_", "classMR_1_1ImGuiMenu.html#aa80cfb0d46a306f3db6578f73214759d", null ],
     [ "xfHistUpdated_", "classMR_1_1ImGuiMenu.html#a22b27718dfcaa0c7a6c683598c89b75d", null ]
 ];
