@@ -19,6 +19,7 @@ var classmrmeshpy_1_1std__vector__AffineXf__Vector3__float =
     [ "append", "classmrmeshpy_1_1std__vector__AffineXf__Vector3__float.html#a399c99787c29c1e9b6acb1014a896a7b", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__AffineXf__Vector3__float.html#a27cc7413a4b2340a4216674e380f8796", null ],
     [ "count", "classmrmeshpy_1_1std__vector__AffineXf__Vector3__float.html#a5096cdc3d14451b24fc862dd9db22453", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__AffineXf__Vector3__float.html#a7f86aa9a8e75668d92708407d462e5e5", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__AffineXf__Vector3__float.html#a55f265c73c216fd077a213ec65061262", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__AffineXf__Vector3__float.html#a134c58f5656694dbfde4856bfce626b5", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__AffineXf__Vector3__float.html#a957cb4d0fd9476b49dcf09fc1a288179", null ],

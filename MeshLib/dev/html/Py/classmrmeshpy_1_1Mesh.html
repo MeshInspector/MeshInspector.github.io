@@ -154,6 +154,7 @@ $(function(){initNavTree('classmrmeshpy_1_1Mesh.html',''); initResizable(true); 
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="classmrmeshpy_1_1Mesh-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.Mesh Class Reference</div></div>
 </div><!--header-->
@@ -416,6 +417,13 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a4a271057f06649f036173d2000c526b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23a56496f08bcfa7cfc1525e0d23fbaf" id="r_a23a56496f08bcfa7cfc1525e0d23fbaf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23a56496f08bcfa7cfc1525e0d23fbaf">fromTrianglesDuplicatingNonManifoldVertices</a> (<a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a> vertexCoordinates, <a class="el" href="classmrmeshpy_1_1Triangulation.html">Triangulation</a> t, <a class="el" href="classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html">std_vector_MeshBuilder_VertDuplication</a> dups=None, <a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder.BuildSettings</a> settings='{}')</td></tr>
 <tr class="separator:a23a56496f08bcfa7cfc1525e0d23fbaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
+Static Protected Attributes</h2></td></tr>
+<tr class="memitem:a62a0fba9df46637a90bf538749fefbdf" id="r_a62a0fba9df46637a90bf538749fefbdf"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62a0fba9df46637a90bf538749fefbdf">_offsetof_points</a> = 152</td></tr>
+<tr class="separator:a62a0fba9df46637a90bf538749fefbdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a672e95318e7a627614dec518c18516b2" id="r_a672e95318e7a627614dec518c18516b2"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a672e95318e7a627614dec518c18516b2">_offsetof_topology</a> = 0</td></tr>
+<tr class="separator:a672e95318e7a627614dec518c18516b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::Mesh
@@ -3791,6 +3799,51 @@ if the region has holes then each hole will be virtually filled by adding triang
 </div><div class="memdoc">
 <pre class="fragment">for all points not in topology.getValidVerts() sets coordinates to (0,0,0)
 </pre> 
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a62a0fba9df46637a90bf538749fefbdf" name="a62a0fba9df46637a90bf538749fefbdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62a0fba9df46637a90bf538749fefbdf">&#9670;&#160;</a></span>_offsetof_points</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">typing mrmeshpy.Mesh._offsetof_points = 152</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a672e95318e7a627614dec518c18516b2" name="a672e95318e7a627614dec518c18516b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a672e95318e7a627614dec518c18516b2">&#9670;&#160;</a></span>_offsetof_topology</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">typing mrmeshpy.Mesh._offsetof_topology = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>

@@ -19,6 +19,7 @@ var classmrmeshpy_1_1std__vector__Id__TextureTag =
     [ "append", "classmrmeshpy_1_1std__vector__Id__TextureTag.html#ab96faf796f17369b56ee16d4cef0e668", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__Id__TextureTag.html#af78363bb208aef7b444f50bb642971d5", null ],
     [ "count", "classmrmeshpy_1_1std__vector__Id__TextureTag.html#a760d54bfa9a57bfb8dadd46fd9c42e0f", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__Id__TextureTag.html#a2588dfc28a43a2c60a1a32430dfb87d7", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__Id__TextureTag.html#a0e11dda30601a7feaf6ee0a561a648fd", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__Id__TextureTag.html#af7de36589b35171322245f12f1cd10a5", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__Id__TextureTag.html#a8e78ac275d6d4e27638c228f3b437490", null ],

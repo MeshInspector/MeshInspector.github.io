@@ -14,6 +14,7 @@ var classmrmeshpy_1_1std__vector__WeightedShell__ParametersRegions__Region =
     [ "__setitem__", "classmrmeshpy_1_1std__vector__WeightedShell__ParametersRegions__Region.html#aeed3c08afe16a0acc814de626ea43283", null ],
     [ "append", "classmrmeshpy_1_1std__vector__WeightedShell__ParametersRegions__Region.html#a78b8bef7548c504d11da360090989967", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__WeightedShell__ParametersRegions__Region.html#a59454a6b55988eef68ab7f9b134868f1", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__WeightedShell__ParametersRegions__Region.html#a76c4c9e2c3a040a0c8a45cc0b6b8f5ae", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__WeightedShell__ParametersRegions__Region.html#ad3b37b847116b253b63e8bd8722cf9c0", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__WeightedShell__ParametersRegions__Region.html#a139cf3d836af0c258a014ebeb969fa72", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__WeightedShell__ParametersRegions__Region.html#a8b2b5a606db9ac5bb40fa54a0c70f5d2", null ],

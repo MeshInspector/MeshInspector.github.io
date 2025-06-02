@@ -19,6 +19,7 @@ var classmrmeshpy_1_1std__vector__Id__VertTag =
     [ "append", "classmrmeshpy_1_1std__vector__Id__VertTag.html#af2a936b450bce382efbf613738a89eca", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__Id__VertTag.html#a51b88128fe8b71f8d37cdab0130f8bad", null ],
     [ "count", "classmrmeshpy_1_1std__vector__Id__VertTag.html#a60eb566f71dcbd8fafcda5bd3bcd0952", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__Id__VertTag.html#a62525cbb741361268a2a0b4260fd590c", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__Id__VertTag.html#a9caecbda6bf97995c42230d466d8969c", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__Id__VertTag.html#ae809e23713cd4756b8972d86f0e3e8a8", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__Id__VertTag.html#a288d539a1624471dba66346675a4c29e", null ],

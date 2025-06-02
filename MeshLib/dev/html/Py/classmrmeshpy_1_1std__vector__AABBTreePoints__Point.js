@@ -14,6 +14,7 @@ var classmrmeshpy_1_1std__vector__AABBTreePoints__Point =
     [ "__setitem__", "classmrmeshpy_1_1std__vector__AABBTreePoints__Point.html#a36728d380a160f41f60d193ff8698ed7", null ],
     [ "append", "classmrmeshpy_1_1std__vector__AABBTreePoints__Point.html#accad02a3343050db5c20925242c5961c", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__AABBTreePoints__Point.html#aa75f66b8b1a4cfdad3fa0c42b3d9231d", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__AABBTreePoints__Point.html#ad67b9a8cd6311a3b3459705135c15d43", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__AABBTreePoints__Point.html#a918d82646ca787383cc389a91f814ed6", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__AABBTreePoints__Point.html#a9d79a7ecdcd2b65f363da0afb2478b1e", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__AABBTreePoints__Point.html#a6a061307377f4256059329503db57af5", null ],

@@ -14,6 +14,7 @@ var classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__Voxels
     [ "__setitem__", "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vectorc2b5eef6e9807f5f11e1e4080000f5ad.html#a4a0554222dc012071f78b25137df06ff", null ],
     [ "append", "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vectorc2b5eef6e9807f5f11e1e4080000f5ad.html#af843c4c1f991cdd299a6a6e8524edffa", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vectorc2b5eef6e9807f5f11e1e4080000f5ad.html#a5738f391c195ca5112d2df30c94fcc8c", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vectorc2b5eef6e9807f5f11e1e4080000f5ad.html#a72e28150d30e6d18f5f5de3ac2966f09", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vectorc2b5eef6e9807f5f11e1e4080000f5ad.html#aba5a76364586e113b9840d2535a78322", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vectorc2b5eef6e9807f5f11e1e4080000f5ad.html#af7ac921449334648eb2953f092cfa7c4", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vectorc2b5eef6e9807f5f11e1e4080000f5ad.html#a720e9297b4836d5125464b6ddad5fc25", null ],

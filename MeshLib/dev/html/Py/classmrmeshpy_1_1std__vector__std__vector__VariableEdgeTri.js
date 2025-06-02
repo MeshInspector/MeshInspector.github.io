@@ -18,6 +18,7 @@ var classmrmeshpy_1_1std__vector__std__vector__VariableEdgeTri =
     [ "append", "classmrmeshpy_1_1std__vector__std__vector__VariableEdgeTri.html#a100c1b8eb7fe0ededa6f33f68321f0a6", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__std__vector__VariableEdgeTri.html#a685d9a9f87b3ba58c36c8dc2672ee77f", null ],
     [ "count", "classmrmeshpy_1_1std__vector__std__vector__VariableEdgeTri.html#ae23050dbdfe35e8861d5f11b8989ce2e", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__std__vector__VariableEdgeTri.html#a8e69bb9efbee965332e59d92931806a4", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__std__vector__VariableEdgeTri.html#afc5e2a4d8bf66be93e7d617ac039eafc", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__std__vector__VariableEdgeTri.html#a4885f19bc6d229c55f4fd60dac9aa3c2", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__std__vector__VariableEdgeTri.html#aeae3ac1b48f3f402c8375e2e07ff1c23", null ],

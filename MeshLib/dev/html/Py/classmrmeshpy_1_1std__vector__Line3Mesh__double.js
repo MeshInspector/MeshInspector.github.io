@@ -14,6 +14,7 @@ var classmrmeshpy_1_1std__vector__Line3Mesh__double =
     [ "__setitem__", "classmrmeshpy_1_1std__vector__Line3Mesh__double.html#a4a83f79168b34e43b1500fa5c2c83794", null ],
     [ "append", "classmrmeshpy_1_1std__vector__Line3Mesh__double.html#adae7c1a6025db291361c524f36a7b8a4", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__Line3Mesh__double.html#adade7acd846074adce53b0633e95afaf", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__Line3Mesh__double.html#a6bf5674a2c2084343e888a6e6cfddbb5", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__Line3Mesh__double.html#a13cbc379af50076ba178f9361223bf4c", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__Line3Mesh__double.html#a6440154573733a5875e7dc1dd141162a", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__Line3Mesh__double.html#a8e61d46f0d8525e6e4e9c9956ab2bdb3", null ],

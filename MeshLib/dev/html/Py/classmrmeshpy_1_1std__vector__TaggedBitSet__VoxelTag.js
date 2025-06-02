@@ -19,6 +19,7 @@ var classmrmeshpy_1_1std__vector__TaggedBitSet__VoxelTag =
     [ "append", "classmrmeshpy_1_1std__vector__TaggedBitSet__VoxelTag.html#aed4e2b62f06c1ad06bb5a8c4a05863d7", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__TaggedBitSet__VoxelTag.html#a5f4f47ad25a31fe195738b46cfd56038", null ],
     [ "count", "classmrmeshpy_1_1std__vector__TaggedBitSet__VoxelTag.html#a692957f067d7c6c7cc0a1f2567552912", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__TaggedBitSet__VoxelTag.html#ae9cc966c0bb8a0c8e535b2fa5ce4d014", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__TaggedBitSet__VoxelTag.html#a8da5e211036cc65d8d31efd5af8cc7b6", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__TaggedBitSet__VoxelTag.html#a05eea4300b5a08a04d9fbf6f49fcd0fe", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__TaggedBitSet__VoxelTag.html#abdf8c4fe03100c5e4a4b8c53bf4f9e0b", null ],

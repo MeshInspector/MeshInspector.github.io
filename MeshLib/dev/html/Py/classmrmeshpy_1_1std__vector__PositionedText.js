@@ -18,6 +18,7 @@ var classmrmeshpy_1_1std__vector__PositionedText =
     [ "append", "classmrmeshpy_1_1std__vector__PositionedText.html#a42ae03a636c5ac277c4f1b6e7bcc3375", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__PositionedText.html#a55d26dfc0a9d2676077d9168250057d8", null ],
     [ "count", "classmrmeshpy_1_1std__vector__PositionedText.html#a5e29488401ef583dee278ab4fbbab996", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__PositionedText.html#ae2b4286d11f2bcbe9753fee3ed3a24d1", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__PositionedText.html#abcd17193c43d09c3a34a3ecfad48d70d", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__PositionedText.html#a6d06e681c9e2695bc0f8caa8df906629", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__PositionedText.html#ae731904e0b3b4c9e91c3cbe9b8eab9ae", null ],

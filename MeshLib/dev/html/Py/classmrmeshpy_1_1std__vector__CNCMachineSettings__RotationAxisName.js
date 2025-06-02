@@ -18,6 +18,7 @@ var classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName =
     [ "append", "classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#a914716dc4b4460f27dd038f4200b188f", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#afbbd52b4a1d8ca1a634fea211cb1e640", null ],
     [ "count", "classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#ae4ef370f367b9898ac3d92e6eb970db2", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#a6277af1405ef404de1e6bdce25f224c5", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#a8e8ae9527c09cf054390645000fa5c56", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#a90d131874ba9351620a30642f0a98727", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#a3370c9f76ab1fc56a90bdca159aa073f", null ],

@@ -18,6 +18,7 @@ var classmrmeshpy_1_1std__vector__std__vector__Id__EdgeTag =
     [ "append", "classmrmeshpy_1_1std__vector__std__vector__Id__EdgeTag.html#abb7aff5ad13e67351ace0a6051597aee", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__std__vector__Id__EdgeTag.html#a112248f129d5781064b4c8f2436d9030", null ],
     [ "count", "classmrmeshpy_1_1std__vector__std__vector__Id__EdgeTag.html#a23f53b6916b3d2e4aea38d68131f976c", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__std__vector__Id__EdgeTag.html#a9e1fbb7ca43a8a57c8802b0d6f387bea", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__std__vector__Id__EdgeTag.html#ae12f09b7dfba9086acb9602f59138da0", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__std__vector__Id__EdgeTag.html#a191a6505e0c3d21639ebfcf0ea4d5971", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__std__vector__Id__EdgeTag.html#a3fd7d49595df82fb27e4a9bf4adaeed8", null ],

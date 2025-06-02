@@ -19,6 +19,7 @@ var classmrmeshpy_1_1std__vector__std__shared__ptr__Mesh =
     [ "append", "classmrmeshpy_1_1std__vector__std__shared__ptr__Mesh.html#afb8a1c50b15b36d10030b751a6092c2e", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__std__shared__ptr__Mesh.html#a052eada985e02c34debeef4a09e4642d", null ],
     [ "count", "classmrmeshpy_1_1std__vector__std__shared__ptr__Mesh.html#a28b2b51a183d318d9290bfa1303c031f", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__std__shared__ptr__Mesh.html#aa18ebbb631a634cfa6d9c9a6b274af06", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__std__shared__ptr__Mesh.html#a6b03a4b2d173226c78e8b60047ded01c", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__std__shared__ptr__Mesh.html#a41920c48e3d46fb9eef1c78e0a6417cf", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__std__shared__ptr__Mesh.html#a2913b6a286d4c188e5709c71ff212870", null ],

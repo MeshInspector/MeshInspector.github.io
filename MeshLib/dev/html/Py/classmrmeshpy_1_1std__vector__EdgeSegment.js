@@ -18,6 +18,7 @@ var classmrmeshpy_1_1std__vector__EdgeSegment =
     [ "append", "classmrmeshpy_1_1std__vector__EdgeSegment.html#aeb690b0792884de4bcf966c579916706", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__EdgeSegment.html#a5ad464ebb5d9fcca356643d3e1228c2b", null ],
     [ "count", "classmrmeshpy_1_1std__vector__EdgeSegment.html#a86c46d46ec0b11c5ce7c505030e4d15c", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__EdgeSegment.html#a31ee3c7ac8248b66d197fadf896a2d7b", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__EdgeSegment.html#aa4270e37d11e7dfb07667eed712b8269", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__EdgeSegment.html#a3d9013495a4719786b2880152503be36", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__EdgeSegment.html#aa21a03f916ebf3398a8f8c7feb96e8d5", null ],

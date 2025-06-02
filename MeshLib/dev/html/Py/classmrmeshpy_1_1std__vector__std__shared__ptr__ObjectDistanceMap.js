@@ -19,6 +19,7 @@ var classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectDistanceMap =
     [ "append", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectDistanceMap.html#a557234f5e7cbd16fcfe5d1cfefd021be", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectDistanceMap.html#afb09e436e1cd765b8e1cde76826105bf", null ],
     [ "count", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectDistanceMap.html#afa165958dd96a2d1447ee20f834782af", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectDistanceMap.html#ac1fa65dbbd0f2916a51c795750cb875b", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectDistanceMap.html#a53bd60dfdd4294139f0c543b4ac45f3d", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectDistanceMap.html#a2c4ebb2dfe41283a7caaa3de3bc2d509", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectDistanceMap.html#ae0b8fdbbdc3ffd1270a98bb4c296ea12", null ],

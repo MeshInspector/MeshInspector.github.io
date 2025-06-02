@@ -14,6 +14,7 @@ var classmrmeshpy_1_1std__vector__RigidXf3__double =
     [ "__setitem__", "classmrmeshpy_1_1std__vector__RigidXf3__double.html#a86f4164e94986181b5602d7bddcaf11f", null ],
     [ "append", "classmrmeshpy_1_1std__vector__RigidXf3__double.html#a2ed302984651d9f6bd1841c0ccd15026", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__RigidXf3__double.html#a6444fa34f671bf1fc5e91e79601ae082", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__RigidXf3__double.html#a6bdb7ce1024236c002928a38dc9c7d62", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__RigidXf3__double.html#aabdf7263492354b4f41ff94cc9a89c75", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__RigidXf3__double.html#acde1688924d80bb60d44a7af45796e38", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__RigidXf3__double.html#af5ca811cbe3cdc64b3ebd0dab38ce04d", null ],

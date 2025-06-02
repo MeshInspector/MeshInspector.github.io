@@ -19,6 +19,7 @@ var classmrmeshpy_1_1std__vector__TaggedBitSet__FaceTag =
     [ "append", "classmrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html#af8a3e57edbf1ffc94693ff9c1b733dd9", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html#a18f672e428c2112588e489471e3f8fbe", null ],
     [ "count", "classmrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html#af1f968e7bcb97b2295b1f4b004fae468", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html#a76406c863f4cdb7ebef42d55b7515485", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html#a702498cb942eb2f9e6aa9150e57b8bc9", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html#a6e3cc6e1cb557b3755e4bbfa5d385daa", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__TaggedBitSet__FaceTag.html#ad40b25e48a5fa2ac0734169b478e98f3", null ],

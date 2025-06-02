@@ -14,6 +14,7 @@ var classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo =
     [ "__setitem__", "classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo.html#a0b7e4383dbf852c02f00b1cc29220f42", null ],
     [ "append", "classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo.html#a6b2baaacb5e224cb1e9bc48ea9c5490c", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo.html#a8bbca9b1664b833a0019898f1665dba7", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo.html#a0122c4f297d8db84bf2f19afdf624dfd", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo.html#a71ad92b6380d3787cdb1bd104ee5a8ad", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo.html#a125f82ef75d3e9b6296c57e215d02a65", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo.html#ac3454f92efcc8d68fc2cc54203ab9bac", null ],

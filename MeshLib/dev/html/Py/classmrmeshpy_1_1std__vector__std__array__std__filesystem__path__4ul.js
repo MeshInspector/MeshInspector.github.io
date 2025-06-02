@@ -18,6 +18,7 @@ var classmrmeshpy_1_1std__vector__std__array__std__filesystem__path__4ul =
     [ "append", "classmrmeshpy_1_1std__vector__std__array__std__filesystem__path__4ul.html#a59e2e4bc446d49666e788e2f19736635", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__std__array__std__filesystem__path__4ul.html#ac5f3e824950d804903f872fb07f7d94c", null ],
     [ "count", "classmrmeshpy_1_1std__vector__std__array__std__filesystem__path__4ul.html#a9cf6bb9acf94eab27b49f0b6d3e60f05", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__std__array__std__filesystem__path__4ul.html#a3705982d16980cb85130c92cb26214fe", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__std__array__std__filesystem__path__4ul.html#a6ee651b6bf3e316d44e67e7286b6edb1", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__std__array__std__filesystem__path__4ul.html#aaaa1b5229f2439f73abbaa2941f1d8c3", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__std__array__std__filesystem__path__4ul.html#a1e6274da610de9155d2e42ee8555a51c", null ],

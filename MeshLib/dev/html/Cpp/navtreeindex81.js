@@ -1,5 +1,9 @@
 var NAVTREEINDEX81 =
 {
+"structMR_1_1PointsLoad_1_1NamedCloud.html#a78c9aa18106b86c2d1fb9c2434889ab2":[6,0,2,0,1,15,1,0],
+"structMR_1_1PointsLoad_1_1NamedCloud.html#af2d5b81d7968e83a07655bf1a5cb95b8":[6,0,1,0,1,26,1,1],
+"structMR_1_1PointsLoad_1_1NamedCloud.html#af2d5b81d7968e83a07655bf1a5cb95b8":[6,0,2,0,1,15,1,1],
+"structMR_1_1PointsLoad_1_1PointsLoader.html":[6,0,1,0,1,26,2],
 "structMR_1_1PointsLoad_1_1PointsLoader.html":[6,0,2,0,1,15,2],
 "structMR_1_1PointsLoad_1_1PointsLoader.html#a4cd96c08ac7c58d159d713edac45f799":[6,0,1,0,1,26,2,0],
 "structMR_1_1PointsLoad_1_1PointsLoader.html#a4cd96c08ac7c58d159d713edac45f799":[6,0,2,0,1,15,2,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX81 =
 "structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#a2f62f5b7f2a9603d6968d202367602e8":[6,0,1,0,1,534,0,3],
 "structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#a2f62f5b7f2a9603d6968d202367602e8":[6,0,2,0,1,518,0,3],
 "structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#aa7801a4298a5f8c755d78b98c5bb77be":[6,0,1,0,1,534,0,0],
-"structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#aa7801a4298a5f8c755d78b98c5bb77be":[6,0,2,0,1,518,0,0],
-"structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#ade9b7d38327629cc2bb9f840e03ef429":[6,0,1,0,1,534,0,1],
-"structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#ade9b7d38327629cc2bb9f840e03ef429":[6,0,2,0,1,518,0,1],
-"structMR_1_1PreciseCollisionResult.html":[6,0,0,1,18],
-"structMR_1_1PreciseCollisionResult.html#a9b010a738a4b9a8757b61838ce33e92f":[6,0,0,1,18,1]
+"structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#aa7801a4298a5f8c755d78b98c5bb77be":[6,0,2,0,1,518,0,0]
 };

@@ -19,6 +19,7 @@ var classmrmeshpy_1_1std__vector__TaggedBitSet__VertTag =
     [ "append", "classmrmeshpy_1_1std__vector__TaggedBitSet__VertTag.html#ae96233a42c1031cad5a2663226d99708", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__TaggedBitSet__VertTag.html#a99ca799415894b9cda001ced1b659ef9", null ],
     [ "count", "classmrmeshpy_1_1std__vector__TaggedBitSet__VertTag.html#a029b5049734f6484893122ac1748db36", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__TaggedBitSet__VertTag.html#a6b2c5b203e528dfbbb97d4b7bfaab7c0", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__TaggedBitSet__VertTag.html#a2802a44083a0bd717080cd6670b74c9d", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__TaggedBitSet__VertTag.html#a8a36cdff78f08f4a7ee3a86233cf2ea2", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__TaggedBitSet__VertTag.html#aa368fde18ab3fbb83c2fc1caa65a4605", null ],

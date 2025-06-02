@@ -14,6 +14,7 @@ var classmrmeshpy_1_1std__vector__OffsetContoursOrigins =
     [ "__setitem__", "classmrmeshpy_1_1std__vector__OffsetContoursOrigins.html#a090d0559e32acc8af947aa51a9d14bbe", null ],
     [ "append", "classmrmeshpy_1_1std__vector__OffsetContoursOrigins.html#a86c1577b6622cb896958b098ac8df62c", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__OffsetContoursOrigins.html#a4c8876fc061d0b59d10f0cc4a9c14117", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__OffsetContoursOrigins.html#a916633f058ccf2c2ad0fa19ed6ce9871", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__OffsetContoursOrigins.html#a34896665657003ecd6e0c29d4bd9c3d1", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__OffsetContoursOrigins.html#a24d90c853dab6a839c4285897d15365b", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__OffsetContoursOrigins.html#a35845c70a82a7e9f896721a838914da7", null ],

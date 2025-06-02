@@ -14,6 +14,7 @@ var classmrmeshpy_1_1std__vector__PointsLoad__NamedCloud =
     [ "__setitem__", "classmrmeshpy_1_1std__vector__PointsLoad__NamedCloud.html#a989bba2ac927d25503793693b15f0e02", null ],
     [ "append", "classmrmeshpy_1_1std__vector__PointsLoad__NamedCloud.html#adb35a91ea306f668300374f886a280a2", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__PointsLoad__NamedCloud.html#a4ff0db1602b84d3835d1e6f31c142214", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__PointsLoad__NamedCloud.html#a609d2197a139124ad225683a6ec67991", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__PointsLoad__NamedCloud.html#ab78bd0dd1e2a1e335e380a1120073d8e", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__PointsLoad__NamedCloud.html#a1073b8ebcbe97b722c6e7a153cfd5e29", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__PointsLoad__NamedCloud.html#a1c8e2268fa955f343134ee35b5e9dd11", null ],

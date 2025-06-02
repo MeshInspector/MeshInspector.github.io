@@ -18,6 +18,7 @@ var classmrmeshpy_1_1std__vector__std__pair__double__int =
     [ "append", "classmrmeshpy_1_1std__vector__std__pair__double__int.html#a4d4906abeeba2fb72988c4151b9a5ed7", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__std__pair__double__int.html#ac07879ba42415ca8842f8d1a10578574", null ],
     [ "count", "classmrmeshpy_1_1std__vector__std__pair__double__int.html#acc2060d277655e13bc5579d3caaf3fa3", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__std__pair__double__int.html#a9601e0713e41b89766ec93722557dbd5", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__std__pair__double__int.html#a3d1545eb18d3e13b33b9d381f031f916", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__std__pair__double__int.html#a6b564ff59a1e9f431f52437728795de2", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__std__pair__double__int.html#a2932abbfd748f098d25785391c6de040", null ],

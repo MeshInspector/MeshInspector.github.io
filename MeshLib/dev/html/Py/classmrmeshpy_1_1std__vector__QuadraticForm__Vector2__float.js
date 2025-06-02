@@ -14,6 +14,7 @@ var classmrmeshpy_1_1std__vector__QuadraticForm__Vector2__float =
     [ "__setitem__", "classmrmeshpy_1_1std__vector__QuadraticForm__Vector2__float.html#a7a199d36e8e38e83e806e4db40fbca1c", null ],
     [ "append", "classmrmeshpy_1_1std__vector__QuadraticForm__Vector2__float.html#a8ad68fb7d62eb6b47275268f61d42958", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__QuadraticForm__Vector2__float.html#ab6cd136f0444085d2715e8239a29bb13", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__QuadraticForm__Vector2__float.html#a2edd757ebadc0c9a0425ffff91d747bd", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__QuadraticForm__Vector2__float.html#a419ee5248944bb2d98c48c0393ec0d62", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__QuadraticForm__Vector2__float.html#a47bbcf201a7a37396c4cbf68f44265aa", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__QuadraticForm__Vector2__float.html#a8ed8dcc24e1a8fca57c1570d4bffbcba", null ],

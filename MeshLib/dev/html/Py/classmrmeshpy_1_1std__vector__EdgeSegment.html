@@ -153,6 +153,7 @@ $(function(){initNavTree('classmrmeshpy_1_1std__vector__EdgeSegment.html',''); i
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classmrmeshpy_1_1std__vector__EdgeSegment-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.std_vector_EdgeSegment Class Reference</div></div>
 </div><!--header-->
@@ -196,6 +197,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5ad464ebb5d9fcca356643d3e1228c2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86c46d46ec0b11c5ce7c505030e4d15c" id="r_a86c46d46ec0b11c5ce7c505030e4d15c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86c46d46ec0b11c5ce7c505030e4d15c">count</a> (self, <a class="el" href="classmrmeshpy_1_1EdgeSegment.html">EdgeSegment</a> x)</td></tr>
 <tr class="separator:a86c46d46ec0b11c5ce7c505030e4d15c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31ee3c7ac8248b66d197fadf896a2d7b" id="r_a31ee3c7ac8248b66d197fadf896a2d7b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31ee3c7ac8248b66d197fadf896a2d7b">data_pointer</a> (self)</td></tr>
+<tr class="separator:a31ee3c7ac8248b66d197fadf896a2d7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4270e37d11e7dfb07667eed712b8269" id="r_aa4270e37d11e7dfb07667eed712b8269"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4270e37d11e7dfb07667eed712b8269">empty</a> (self)</td></tr>
 <tr class="separator:aa4270e37d11e7dfb07667eed712b8269"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d9013495a4719786b2880152503be36" id="r_a3d9013495a4719786b2880152503be36"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d9013495a4719786b2880152503be36">extend</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__EdgeSegment.html">std_vector_EdgeSegment</a> L)</td></tr>
@@ -216,6 +219,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a14b5b710879bf1ce3675c3bac86fd64f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ec347f99c29e60a933a429a26f4738e" id="r_a0ec347f99c29e60a933a429a26f4738e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ec347f99c29e60a933a429a26f4738e">size</a> (self)</td></tr>
 <tr class="separator:a0ec347f99c29e60a933a429a26f4738e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:acf5a6c877015cffb2342160de3fcff65" id="r_acf5a6c877015cffb2342160de3fcff65"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf5a6c877015cffb2342160de3fcff65">element_type_byte_size</a> = 12</td></tr>
+<tr class="separator:acf5a6c877015cffb2342160de3fcff65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a644919f47f89c0af0d9e544b24f6c290" name="a644919f47f89c0af0d9e544b24f6c290"></a>
@@ -596,6 +604,24 @@ Public Member Functions</h2></td></tr>
 </pre> 
 </div>
 </div>
+<a id="a31ee3c7ac8248b66d197fadf896a2d7b" name="a31ee3c7ac8248b66d197fadf896a2d7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31ee3c7ac8248b66d197fadf896a2d7b">&#9670;&#160;</a></span>data_pointer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int mrmeshpy.std_vector_EdgeSegment.data_pointer </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Returns the pointer to the contiguous vector contents, as an integer.
+</pre> 
+</div>
+</div>
 <a id="aa4270e37d11e7dfb07667eed712b8269" name="aa4270e37d11e7dfb07667eed712b8269"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa4270e37d11e7dfb07667eed712b8269">&#9670;&#160;</a></span>empty()</h2>
 
@@ -806,6 +832,29 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="acf5a6c877015cffb2342160de3fcff65" name="acf5a6c877015cffb2342160de3fcff65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf5a6c877015cffb2342160de3fcff65">&#9670;&#160;</a></span>element_type_byte_size</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">typing mrmeshpy.std_vector_EdgeSegment.element_type_byte_size = 12</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

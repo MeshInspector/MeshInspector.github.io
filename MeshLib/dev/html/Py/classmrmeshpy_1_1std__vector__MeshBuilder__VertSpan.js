@@ -14,6 +14,7 @@ var classmrmeshpy_1_1std__vector__MeshBuilder__VertSpan =
     [ "__setitem__", "classmrmeshpy_1_1std__vector__MeshBuilder__VertSpan.html#aeafceb1fb573edf983045a4ca718f654", null ],
     [ "append", "classmrmeshpy_1_1std__vector__MeshBuilder__VertSpan.html#af3e9c04fdba8c1fae4a7f524c596e7e4", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__MeshBuilder__VertSpan.html#a545846fb47b14c3da0ac5f0c061ffb8d", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__MeshBuilder__VertSpan.html#a747b56e2da3e6c2f4b9220f33f71be24", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__MeshBuilder__VertSpan.html#aeb69aac12363522005ba5576f7aede70", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__MeshBuilder__VertSpan.html#a7faa03e447909dbc4cc1c5d1a87b9a8d", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__MeshBuilder__VertSpan.html#a953c1bc132edb8ff34a0cb7d52141ade", null ],

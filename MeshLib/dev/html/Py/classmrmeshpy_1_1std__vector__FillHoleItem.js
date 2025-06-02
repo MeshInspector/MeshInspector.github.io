@@ -14,6 +14,7 @@ var classmrmeshpy_1_1std__vector__FillHoleItem =
     [ "__setitem__", "classmrmeshpy_1_1std__vector__FillHoleItem.html#a8898e57312689a863c6a3a2865709dc0", null ],
     [ "append", "classmrmeshpy_1_1std__vector__FillHoleItem.html#aa45367cbaaa001051e394626ede959e9", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__FillHoleItem.html#a03b9eb758dcf61cf97008d6fc3a450c1", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__FillHoleItem.html#a8ba886e824803824f8933bcf6cc3ff88", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__FillHoleItem.html#a64d701bab3b3639a1b47e2f9597788fa", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__FillHoleItem.html#a2acc1dbaa58a6fb5e5856d1b0d14716a", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__FillHoleItem.html#a5f4fcaf763cd8026c4c9dfcdbd0c3bb7", null ],

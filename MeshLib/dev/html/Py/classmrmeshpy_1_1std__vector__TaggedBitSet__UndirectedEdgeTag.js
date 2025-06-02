@@ -19,6 +19,7 @@ var classmrmeshpy_1_1std__vector__TaggedBitSet__UndirectedEdgeTag =
     [ "append", "classmrmeshpy_1_1std__vector__TaggedBitSet__UndirectedEdgeTag.html#a77700dc083d2460ae3a87ff865bdbcc5", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__TaggedBitSet__UndirectedEdgeTag.html#a9fda0d0f555b8a79ff81073a6e4e4997", null ],
     [ "count", "classmrmeshpy_1_1std__vector__TaggedBitSet__UndirectedEdgeTag.html#aeea529ff888a779b922524918484dc0b", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__TaggedBitSet__UndirectedEdgeTag.html#aa15dee0f011d96fcfc4819041267c8e8", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__TaggedBitSet__UndirectedEdgeTag.html#ad766f6b0cf86b9e38d035f4ff8d92caf", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__TaggedBitSet__UndirectedEdgeTag.html#a75d3eec91483c1ab6908efade44e013f", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__TaggedBitSet__UndirectedEdgeTag.html#ae79d9111c62c3ef9e4023c91b04af2a5", null ],

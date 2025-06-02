@@ -221,6 +221,8 @@ Public Types</h2></td></tr>
 <tr class="separator:a4ddbf48e08044f241c126505d2914ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0feb0d244ebf3015b8ed14e68ebb5f12" id="r_a0feb0d244ebf3015b8ed14e68ebb5f12"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0feb0d244ebf3015b8ed14e68ebb5f12">RenderSignal</a> = boost::signals2::signal&lt;void()&gt;</td></tr>
 <tr class="separator:a0feb0d244ebf3015b8ed14e68ebb5f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79b992388aca2cd4a3891e337423ab2c" id="r_a79b992388aca2cd4a3891e337423ab2c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79b992388aca2cd4a3891e337423ab2c">ObjectsLoadedSignal</a> = boost::signals2::signal&lt;void( const std::vector&lt;std::shared_ptr&lt;<a class="el" href="classMR_1_1Object.html">Object</a>&gt;&gt;&amp; objs, const std::string&amp; errors, const std::string&amp; warnings )&gt;</td></tr>
+<tr class="separator:a79b992388aca2cd4a3891e337423ab2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae75b061c70e140f41530c73ec2879d99" id="r_ae75b061c70e140f41530c73ec2879d99"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae75b061c70e140f41530c73ec2879d99">DragDropSignal</a> = boost::signals2::signal&lt;bool( const std::vector&lt;std::filesystem::path&gt;&amp; paths ), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td></tr>
 <tr class="separator:ae75b061c70e140f41530c73ec2879d99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7f0983455b1dfa5ccae593d205470d9" id="r_ab7f0983455b1dfa5ccae593d205470d9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7f0983455b1dfa5ccae593d205470d9">PostResizeSignal</a> = boost::signals2::signal&lt;void( int x, int y )&gt;</td></tr>
@@ -614,6 +616,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a31572368e43ca80eda4d820902ffc28e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35db98c7c205589452ad91374c79186d" id="r_a35db98c7c205589452ad91374c79186d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a0feb0d244ebf3015b8ed14e68ebb5f12">RenderSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35db98c7c205589452ad91374c79186d">postDrawSignal</a></td></tr>
 <tr class="separator:a35db98c7c205589452ad91374c79186d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86a5a9e1329a5e983e388fea6f9c10d9" id="r_a86a5a9e1329a5e983e388fea6f9c10d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a79b992388aca2cd4a3891e337423ab2c">ObjectsLoadedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86a5a9e1329a5e983e388fea6f9c10d9">objectsLoadedSignal</a></td></tr>
+<tr class="separator:a86a5a9e1329a5e983e388fea6f9c10d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2c82473f02c741b3be29cb4ff10daa0" id="r_ab2c82473f02c741b3be29cb4ff10daa0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ae75b061c70e140f41530c73ec2879d99">DragDropSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2c82473f02c741b3be29cb4ff10daa0">dragDropSignal</a></td></tr>
 <tr class="separator:ab2c82473f02c741b3be29cb4ff10daa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07e273d6252afe70606479ed9fb35cd2" id="r_a07e273d6252afe70606479ed9fb35cd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ab7f0983455b1dfa5ccae593d205470d9">PostResizeSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07e273d6252afe70606479ed9fb35cd2">postResizeSignal</a></td></tr>
@@ -804,6 +808,20 @@ Friends</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="#a1aecfd029115f7b6327183d3d313297a">MR::Viewer::MouseUpDownSignal</a> = boost::signals2::signal&lt;bool( <a class="elRef" href="../namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> btn, int modifier ), <a class="el" href="#a442f3e2a28e10e8233b334037730020e">SignalStopHandler</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a79b992388aca2cd4a3891e337423ab2c" name="a79b992388aca2cd4a3891e337423ab2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79b992388aca2cd4a3891e337423ab2c">&#9670;&#160;</a></span>ObjectsLoadedSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a79b992388aca2cd4a3891e337423ab2c">MR::Viewer::ObjectsLoadedSignal</a> = boost::signals2::signal&lt;void( const std::vector&lt;std::shared_ptr&lt;<a class="el" href="classMR_1_1Object.html">Object</a>&gt;&gt;&amp; objs, const std::string&amp; errors, const std::string&amp; warnings )&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4134,6 +4152,20 @@ template&lt;typename PluginType &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="#a1aecfd029115f7b6327183d3d313297a">MouseUpDownSignal</a> MR::Viewer::mouseUpSignal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a86a5a9e1329a5e983e388fea6f9c10d9" name="a86a5a9e1329a5e983e388fea6f9c10d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86a5a9e1329a5e983e388fea6f9c10d9">&#9670;&#160;</a></span>objectsLoadedSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a79b992388aca2cd4a3891e337423ab2c">ObjectsLoadedSignal</a> MR::Viewer::objectsLoadedSignal</td>
         </tr>
       </table>
 </div><div class="memdoc">
