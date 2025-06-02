@@ -1311,7 +1311,7 @@ var mrmeshpy_8pyi =
     [ "applyDouble", "mrmeshpy_8pyi.html#a526a85908a974b2bdbfce63f7b1793ab", null ],
     [ "applyFloat", "mrmeshpy_8pyi.html#a91644588aefded81453bf255e379f9a5", null ],
     [ "applyFloat", "mrmeshpy_8pyi.html#a339c4a647088e0d9b7ad287fcef8ef97", null ],
-    [ "area", "mrmeshpy_8pyi.html#ad041c9e2f871e6aab1c384a232721d43", null ],
+    [ "area", "mrmeshpy_8pyi.html#a3f6ba7379910a34d440dbdd16ef63144", null ],
     [ "area", "mrmeshpy_8pyi.html#a1325a4b4f1c8ed71d688d9f13aa86c99", null ],
     [ "asSelectivityType_Object", "mrmeshpy_8pyi.html#a49a911d38999303e1d48e9060cf4bb05", null ],
     [ "asSelectivityType_ObjectDistanceMap", "mrmeshpy_8pyi.html#a94ef0b1c846d7070191cc8820f10a4ec", null ],
