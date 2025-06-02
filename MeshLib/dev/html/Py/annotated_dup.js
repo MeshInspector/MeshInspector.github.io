@@ -852,6 +852,7 @@ var annotated_dup =
       [ "std_vector_GCommand", "classmrmeshpy_1_1std__vector__GCommand.html", "classmrmeshpy_1_1std__vector__GCommand" ],
       [ "std_vector_Graph_EndVertices", "classmrmeshpy_1_1std__vector__Graph__EndVertices.html", "classmrmeshpy_1_1std__vector__Graph__EndVertices" ],
       [ "std_vector_Heap_float_Id_GraphVertTag_std_greater_float_Element", "classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element.html", "classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element" ],
+      [ "std_vector_HoleFillPlan", "classmrmeshpy_1_1std__vector__HoleFillPlan.html", "classmrmeshpy_1_1std__vector__HoleFillPlan" ],
       [ "std_vector_ICPGroupPair", "classmrmeshpy_1_1std__vector__ICPGroupPair.html", "classmrmeshpy_1_1std__vector__ICPGroupPair" ],
       [ "std_vector_ICPGroupPairs", "classmrmeshpy_1_1std__vector__ICPGroupPairs.html", "classmrmeshpy_1_1std__vector__ICPGroupPairs" ],
       [ "std_vector_Id_EdgeTag", "classmrmeshpy_1_1std__vector__Id__EdgeTag.html", "classmrmeshpy_1_1std__vector__Id__EdgeTag" ],

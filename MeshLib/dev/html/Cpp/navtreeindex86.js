@@ -1,5 +1,7 @@
 var NAVTREEINDEX86 =
 {
+"structMR_1_1TiffParameters.html#af83e01315d14765d77386039af6d8687":[6,0,1,0,1,703,3],
+"structMR_1_1TiffParameters.html#af83e01315d14765d77386039af6d8687":[6,0,2,0,1,687,3],
 "structMR_1_1TimeRecord.html":[6,0,0,3,13],
 "structMR_1_1TimeRecord.html#a7fcf403676ad98c8772e03ebec6d37de":[6,0,0,3,13,0],
 "structMR_1_1TimeRecord.html#a80d3da8e260d6c62716855a674a2bc46":[6,0,0,3,13,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX86 =
 "structMR_1_1TriMesh.html#a2819cf8b07b6ca5bccb45dd61d9d7f9d":[6,0,1,0,1,730,0],
 "structMR_1_1TriMesh.html#a2819cf8b07b6ca5bccb45dd61d9d7f9d":[6,0,2,0,1,714,0],
 "structMR_1_1TriPoint.html":[6,0,0,0,24],
-"structMR_1_1TriPoint.html#a02506879ef28b9372cf1868c17a808da":[6,0,0,0,24,8],
-"structMR_1_1TriPoint.html#a173bd5baa937f72d4e42901d913f3ff3":[6,0,0,0,24,0],
-"structMR_1_1TriPoint.html#a3665ef8bed664d4374515106f2128c58":[6,0,0,0,24,2]
+"structMR_1_1TriPoint.html#a02506879ef28b9372cf1868c17a808da":[6,0,0,0,24,8]
 };

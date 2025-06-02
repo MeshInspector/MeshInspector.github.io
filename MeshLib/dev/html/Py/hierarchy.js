@@ -1036,6 +1036,7 @@ var hierarchy =
     [ "mrmeshpy.std_vector_GCommand", "classmrmeshpy_1_1std__vector__GCommand.html", null ],
     [ "mrmeshpy.std_vector_Graph_EndVertices", "classmrmeshpy_1_1std__vector__Graph__EndVertices.html", null ],
     [ "mrmeshpy.std_vector_Heap_float_Id_GraphVertTag_std_greater_float_Element", "classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element.html", null ],
+    [ "mrmeshpy.std_vector_HoleFillPlan", "classmrmeshpy_1_1std__vector__HoleFillPlan.html", null ],
     [ "mrmeshpy.std_vector_ICPGroupPair", "classmrmeshpy_1_1std__vector__ICPGroupPair.html", null ],
     [ "mrmeshpy.std_vector_ICPGroupPairs", "classmrmeshpy_1_1std__vector__ICPGroupPairs.html", null ],
     [ "mrmeshpy.std_vector_Id_EdgeTag", "classmrmeshpy_1_1std__vector__Id__EdgeTag.html", null ],

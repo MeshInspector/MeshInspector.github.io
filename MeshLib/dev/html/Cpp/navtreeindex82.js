@@ -1,5 +1,7 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#aa7801a4298a5f8c755d78b98c5bb77be":[6,0,1,0,1,534,0,0],
+"structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#aa7801a4298a5f8c755d78b98c5bb77be":[6,0,2,0,1,518,0,0],
 "structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#ade9b7d38327629cc2bb9f840e03ef429":[6,0,1,0,1,534,0,1],
 "structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#ade9b7d38327629cc2bb9f840e03ef429":[6,0,2,0,1,518,0,1],
 "structMR_1_1PreciseCollisionResult.html":[6,0,0,1,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1ResolveMeshDegenSettings.html#a109fa850f78fd8bce1db8edf8f434645":[6,0,1,0,1,580,1],
 "structMR_1_1ResolveMeshDegenSettings.html#a109fa850f78fd8bce1db8edf8f434645":[6,0,2,0,1,564,1],
 "structMR_1_1ResolveMeshDegenSettings.html#a1c8ab4ca92a23c0244bcd45ce40afdaa":[6,0,1,0,1,580,2],
-"structMR_1_1ResolveMeshDegenSettings.html#a1c8ab4ca92a23c0244bcd45ce40afdaa":[6,0,2,0,1,564,2],
-"structMR_1_1ResolveMeshDegenSettings.html#a1fd9db224a1fdd6e4d55700db57c1ab4":[6,0,1,0,1,580,4],
-"structMR_1_1ResolveMeshDegenSettings.html#a1fd9db224a1fdd6e4d55700db57c1ab4":[6,0,2,0,1,564,4]
+"structMR_1_1ResolveMeshDegenSettings.html#a1c8ab4ca92a23c0244bcd45ce40afdaa":[6,0,2,0,1,564,2]
 };

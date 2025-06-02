@@ -214,8 +214,12 @@ Functions</h2></td></tr>
 <tr class="separator:ga7b7b07510d4a7d74b02ef6890db04a9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa3256109cd439a9801f179661c65c7e6" id="r_gaa3256109cd439a9801f179661c65c7e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa3256109cd439a9801f179661c65c7e6">MR::getHoleFillPlan</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, EdgeId e, const <a class="el" href="structMR_1_1FillHoleParams.html">FillHoleParams</a> &amp;params={})</td></tr>
 <tr class="separator:gaa3256109cd439a9801f179661c65c7e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga774fddcb7bb0ac330a1e034edfd94db6" id="r_ga774fddcb7bb0ac330a1e034edfd94db6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga774fddcb7bb0ac330a1e034edfd94db6">MR::getHoleFillPlans</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; EdgeId &gt; &amp;holeRepresentativeEdges, const <a class="el" href="structMR_1_1FillHoleParams.html">FillHoleParams</a> &amp;params={})</td></tr>
+<tr class="separator:ga774fddcb7bb0ac330a1e034edfd94db6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1dbbac5f3d5dfdebbb1790578aed11d8" id="r_ga1dbbac5f3d5dfdebbb1790578aed11d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1dbbac5f3d5dfdebbb1790578aed11d8">MR::getPlanarHoleFillPlan</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, EdgeId e)</td></tr>
 <tr class="separator:ga1dbbac5f3d5dfdebbb1790578aed11d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2dd8633650b066fde22814493231dc04" id="r_ga2dd8633650b066fde22814493231dc04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2dd8633650b066fde22814493231dc04">MR::getPlanarHoleFillPlans</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; EdgeId &gt; &amp;holeRepresentativeEdges)</td></tr>
+<tr class="separator:ga2dd8633650b066fde22814493231dc04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac65388f63712128d8af8e1b81054f779" id="r_gac65388f63712128d8af8e1b81054f779"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac65388f63712128d8af8e1b81054f779">MR::executeHoleFillPlan</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, EdgeId a0, <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> &amp;plan, FaceBitSet *outNewFaces=nullptr)</td></tr>
 <tr class="memdesc:gac65388f63712128d8af8e1b81054f779"><td class="mdescLeft">&#160;</td><td class="mdescRight">quickly triangulates the face or hole to the left of (e) given the plan (quickly compared to fillHole function)  <br /></td></tr>
 <tr class="separator:gac65388f63712128d8af8e1b81054f779"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -882,6 +886,33 @@ Simple metric minimizing edge length </p>
 
 </div>
 </div>
+<a id="ga774fddcb7bb0ac330a1e034edfd94db6" name="ga774fddcb7bb0ac330a1e034edfd94db6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga774fddcb7bb0ac330a1e034edfd94db6">&#9670;&#160;</a></span>getHoleFillPlans()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> &gt; MR::getHoleFillPlans </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; EdgeId &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>holeRepresentativeEdges</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1FillHoleParams.html">FillHoleParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>prepares the plans how to triangulate the faces or holes, each given by a boundary edge (with filling target to the left), the plans are prepared in parallel with minimal memory allocation compared to manual calling of several <a class="el" href="#gaa3256109cd439a9801f179661c65c7e6">getHoleFillPlan()</a>, but it can inefficient when some holes are very complex </p>
+
+</div>
+</div>
 <a id="gab35620a56c8b1a4eb772c84e4dd9907b" name="gab35620a56c8b1a4eb772c84e4dd9907b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gab35620a56c8b1a4eb772c84e4dd9907b">&#9670;&#160;</a></span>getMaxDihedralAngleMetric()</h2>
 
@@ -984,6 +1015,28 @@ Simple metric minimizing edge length </p>
       </table>
 </div><div class="memdoc">
 <p>prepares the plan how to triangulate the planar face or planar hole to the left of (e) (not filling it immediately), several getPlanarHoleFillPlan can work in parallel </p>
+
+</div>
+</div>
+<a id="ga2dd8633650b066fde22814493231dc04" name="ga2dd8633650b066fde22814493231dc04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2dd8633650b066fde22814493231dc04">&#9670;&#160;</a></span>getPlanarHoleFillPlans()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> &gt; MR::getPlanarHoleFillPlans </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; EdgeId &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>holeRepresentativeEdges</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>prepares the plans how to triangulate the planar faces or holes, each given by a boundary edge (with filling target to the left), the plans are prepared in parallel with minimal memory allocation compared to manual calling of several <a class="el" href="#ga1dbbac5f3d5dfdebbb1790578aed11d8">getPlanarHoleFillPlan()</a>, but it can inefficient when some holes are very complex </p>
 
 </div>
 </div>
