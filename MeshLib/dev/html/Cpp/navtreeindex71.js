@@ -1,9 +1,5 @@
 var NAVTREEINDEX71 =
 {
-"structMR_1_1FileDialogSignals.html#a30d9fd30ce12a37e6dd4c677948e2b6f":[6,0,1,0,1,228,5],
-"structMR_1_1FileDialogSignals.html#a30d9fd30ce12a37e6dd4c677948e2b6f":[6,0,2,0,1,212,5],
-"structMR_1_1FileDialogSignals.html#a4033cb051c8401a511ba06b57a3b1d7c":[6,0,1,0,1,228,2],
-"structMR_1_1FileDialogSignals.html#a4033cb051c8401a511ba06b57a3b1d7c":[6,0,2,0,1,212,2],
 "structMR_1_1FileDialogSignals.html#a50641aec813bbc2afa35c6bce2e5be74":[6,0,1,0,1,228,6],
 "structMR_1_1FileDialogSignals.html#a50641aec813bbc2afa35c6bce2e5be74":[6,0,2,0,1,212,6],
 "structMR_1_1FileDialogSignals.html#a665adba9c1168b21ee04bcbfe30c0b30":[6,0,1,0,1,228,7],
@@ -249,5 +245,9 @@ var NAVTREEINDEX71 =
 "structMR_1_1GcodeProcessor_1_1Command.html#ae3896dcb88dae275220940ab26d6d42f":[6,0,1,0,1,257,1,0],
 "structMR_1_1GcodeProcessor_1_1Command.html#ae3896dcb88dae275220940ab26d6d42f":[6,0,2,0,1,241,1,0],
 "structMR_1_1GcodeProcessor_1_1MoveAction.html":[6,0,1,0,1,257,2],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html":[6,0,2,0,1,241,2]
+"structMR_1_1GcodeProcessor_1_1MoveAction.html":[6,0,2,0,1,241,2],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#a084a7529a3f6202733cdf15bef0d70df":[6,0,1,0,1,257,2,3],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#a084a7529a3f6202733cdf15bef0d70df":[6,0,2,0,1,241,2,3],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#a31e8f3ca925b988d46df24c5b5bf8ddd":[6,0,1,0,1,257,2,4],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#a31e8f3ca925b988d46df24c5b5bf8ddd":[6,0,2,0,1,241,2,4]
 };
