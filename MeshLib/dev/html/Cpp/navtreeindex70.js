@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1EdgeSegment.html#adbe97beb7bc790ab2d46f0863a5bbacf":[6,0,2,0,1,196,0],
+"structMR_1_1EdgeSegment.html#aea79b437b030390db5737ed448df376c":[6,0,1,0,1,212,3],
 "structMR_1_1EdgeSegment.html#aea79b437b030390db5737ed448df376c":[6,0,2,0,1,196,3],
 "structMR_1_1EdgeTri.html":[6,0,0,1,17],
 "structMR_1_1EdgeTri.html#a45de5d714a586bda433f476169bb81ef":[6,0,0,1,17,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html":[6,0,1,0,1,6,1,10],
 "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html":[6,0,2,0,1,2,1,10],
 "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html#a79f0e6f0a85464a7427e82777f24552d":[6,0,1,0,1,6,1,10,0],
-"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html#a79f0e6f0a85464a7427e82777f24552d":[6,0,2,0,1,2,1,10,0],
-"structMR_1_1FileDialogSignals.html":[6,0,1,0,1,228],
-"structMR_1_1FileDialogSignals.html":[6,0,2,0,1,212]
+"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html#a79f0e6f0a85464a7427e82777f24552d":[6,0,2,0,1,2,1,10,0]
 };

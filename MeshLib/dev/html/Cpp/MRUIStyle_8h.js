@@ -15,6 +15,7 @@ var MRUIStyle_8h =
       [ "Gradient", "MRUIStyle_8h.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6a5e59525cb7d1d1cd93be0b9f36e9d09a", null ],
       [ "GradientBtn", "MRUIStyle_8h.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6aecbe96567baf8cf6569140a80096a953", null ],
       [ "GradientBtnSecond", "MRUIStyle_8h.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6a9a90779dd28ced8bbf08290780e6ea30", null ],
+      [ "GradientBtnGray", "MRUIStyle_8h.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6ae352199311c805c4756751f60bf786e2", null ],
       [ "RainbowRect", "MRUIStyle_8h.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6a5f623490490b088611156df973163f7f", null ],
       [ "Count", "MRUIStyle_8h.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],

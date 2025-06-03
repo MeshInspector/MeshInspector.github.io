@@ -20,8 +20,9 @@ var searchData=
   ['gradbtntext_17',['GradBtnText',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0aa3e216a80fa3ed8ce043a3227686b692',1,'MR::ColorTheme']]],
   ['gradient_18',['Gradient',['../classMR_1_1RibbonButtonDrawer.html#a23c5f0f08b0b93d907d363936c36f368a5e59525cb7d1d1cd93be0b9f36e9d09a',1,'MR::RibbonButtonDrawer::Gradient'],['../namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6a5e59525cb7d1d1cd93be0b9f36e9d09a',1,'MR::UI::Gradient']]],
   ['gradientbtn_19',['GradientBtn',['../namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6aecbe96567baf8cf6569140a80096a953',1,'MR::UI']]],
-  ['gradientbtnsecond_20',['GradientBtnSecond',['../namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6a9a90779dd28ced8bbf08290780e6ea30',1,'MR::UI']]],
-  ['gradientend_21',['GradientEnd',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0aad7101ceb05b131ad92ee95d98c68c35',1,'MR::ColorTheme']]],
-  ['gradientstart_22',['GradientStart',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0afd01a2b69bde153fcd2589c5749c317d',1,'MR::ColorTheme']]],
-  ['grayshades_23',['GrayShades',['../structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ac2eccd63ca988ff87e0d09c1729effd5a1d2de7c46c67f218fe81aecd01ae5eaa',1,'MR::ObjectVoxels::VolumeRenderingParams']]]
+  ['gradientbtngray_20',['GradientBtnGray',['../namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6ae352199311c805c4756751f60bf786e2',1,'MR::UI']]],
+  ['gradientbtnsecond_21',['GradientBtnSecond',['../namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6a9a90779dd28ced8bbf08290780e6ea30',1,'MR::UI']]],
+  ['gradientend_22',['GradientEnd',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0aad7101ceb05b131ad92ee95d98c68c35',1,'MR::ColorTheme']]],
+  ['gradientstart_23',['GradientStart',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0afd01a2b69bde153fcd2589c5749c317d',1,'MR::ColorTheme']]],
+  ['grayshades_24',['GrayShades',['../structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html#ac2eccd63ca988ff87e0d09c1729effd5a1d2de7c46c67f218fe81aecd01ae5eaa',1,'MR::ObjectVoxels::VolumeRenderingParams']]]
 ];
