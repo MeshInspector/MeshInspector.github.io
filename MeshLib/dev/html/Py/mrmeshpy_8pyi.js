@@ -550,6 +550,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.NoDefInit_UndirectedEdgeId", "classmrmeshpy_1_1NoDefInit__UndirectedEdgeId.html", "classmrmeshpy_1_1NoDefInit__UndirectedEdgeId" ],
     [ "mrmeshpy.NoDefInit_VertId", "classmrmeshpy_1_1NoDefInit__VertId.html", "classmrmeshpy_1_1NoDefInit__VertId" ],
     [ "mrmeshpy.NoInit", "classmrmeshpy_1_1NoInit.html", "classmrmeshpy_1_1NoInit" ],
+    [ "mrmeshpy.NoInitNodeId", "classmrmeshpy_1_1NoInitNodeId.html", "classmrmeshpy_1_1NoInitNodeId" ],
     [ "mrmeshpy.NodeBitSet", "classmrmeshpy_1_1NodeBitSet.html", "classmrmeshpy_1_1NodeBitSet" ],
     [ "mrmeshpy.NodeId", "classmrmeshpy_1_1NodeId.html", "classmrmeshpy_1_1NodeId" ],
     [ "mrmeshpy.NodeNode", "classmrmeshpy_1_1NodeNode.html", "classmrmeshpy_1_1NodeNode" ],

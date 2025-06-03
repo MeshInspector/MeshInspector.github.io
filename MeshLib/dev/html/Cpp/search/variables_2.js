@@ -88,11 +88,12 @@ var searchData=
   ['btn_85',['btn',['../structMR_1_1MouseController_1_1MouseControlKey.html#a13a368ef25048dff50e694ce949484e6',1,'MR::MouseController::MouseControlKey']]],
   ['btndrawer_86',['btnDrawer',['../structMR_1_1RibbonMenuSearch_1_1Parameters.html#afb17b1a5e87e3e47d6e9df9cca75739a',1,'MR::RibbonMenuSearch::Parameters']]],
   ['buf_87',['buf',['../structMR_1_1BindVertexAttribArraySettings.html#a3ec552b76a650ac289114916c2714188',1,'MR::BindVertexAttribArraySettings']]],
-  ['buildpathexponentmodifier_88',['buildPathExponentModifier',['../structMR_1_1VolumeSegmentationParameters.html#af000ea80a099a9de6d4f4f4475580b6c',1,'MR::VolumeSegmentationParameters']]],
-  ['bundiredge_89',['bUndirEdge',['../structMR_1_1UndirectedEdgeUndirectedEdge.html#a535f1290920a2d84945d8cc8989397c6',1,'MR::UndirectedEdgeUndirectedEdge']]],
-  ['button_90',['button',['../../Py/classmrviewerpy_1_1UiEntryType.html#aa2e1652d166a90bae8b6dfa79b07edc3',1,'mrviewerpy::UiEntryType']]],
-  ['buttonname_91',['buttonName',['../structMR_1_1RibbonNotification.html#a156a1963010372c4c838def5344897ab',1,'MR::RibbonNotification']]],
-  ['bypassdir_92',['bypassDir',['../structMR_1_1ToolPathParams.html#a50c755eddaa84d57053b8b2ac05090c7',1,'MR::ToolPathParams']]],
-  ['bytes_93',['bytes',['../structMR_1_1RawTiffOutput.html#a0246df3ced8b0fffb290eb2abf95bb96',1,'MR::RawTiffOutput']]],
-  ['bytespersample_94',['bytesPerSample',['../structMR_1_1BaseTiffParameters.html#a3ff0d181f2553f8714d635e264f383c7',1,'MR::BaseTiffParameters']]]
+  ['buffer_88',['Buffer',['../../namespaceMR.html#a37aff178ea11017f727413341d84d596',1,'MR']]],
+  ['buildpathexponentmodifier_89',['buildPathExponentModifier',['../structMR_1_1VolumeSegmentationParameters.html#af000ea80a099a9de6d4f4f4475580b6c',1,'MR::VolumeSegmentationParameters']]],
+  ['bundiredge_90',['bUndirEdge',['../structMR_1_1UndirectedEdgeUndirectedEdge.html#a535f1290920a2d84945d8cc8989397c6',1,'MR::UndirectedEdgeUndirectedEdge']]],
+  ['button_91',['button',['../../Py/classmrviewerpy_1_1UiEntryType.html#aa2e1652d166a90bae8b6dfa79b07edc3',1,'mrviewerpy::UiEntryType']]],
+  ['buttonname_92',['buttonName',['../structMR_1_1RibbonNotification.html#a156a1963010372c4c838def5344897ab',1,'MR::RibbonNotification']]],
+  ['bypassdir_93',['bypassDir',['../structMR_1_1ToolPathParams.html#a50c755eddaa84d57053b8b2ac05090c7',1,'MR::ToolPathParams']]],
+  ['bytes_94',['bytes',['../structMR_1_1RawTiffOutput.html#a0246df3ced8b0fffb290eb2abf95bb96',1,'MR::RawTiffOutput']]],
+  ['bytespersample_95',['bytesPerSample',['../structMR_1_1BaseTiffParameters.html#a3ff0d181f2553f8714d635e264f383c7',1,'MR::BaseTiffParameters']]]
 ];

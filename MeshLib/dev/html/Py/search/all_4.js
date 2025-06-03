@@ -257,7 +257,7 @@ var searchData=
   ['btn_254',['btn',['../../Cpp/structMR_1_1MouseController_1_1MouseControlKey.html#a13a368ef25048dff50e694ce949484e6',1,'MR::MouseController::MouseControlKey']]],
   ['btndrawer_255',['btnDrawer',['../../Cpp/structMR_1_1RibbonMenuSearch_1_1Parameters.html#afb17b1a5e87e3e47d6e9df9cca75739a',1,'MR::RibbonMenuSearch::Parameters']]],
   ['buf_256',['buf',['../../Cpp/structMR_1_1BindVertexAttribArraySettings.html#a3ec552b76a650ac289114916c2714188',1,'MR::BindVertexAttribArraySettings']]],
-  ['buffer_257',['Buffer',['../../Cpp/classMR_1_1Buffer.html',1,'MR::Buffer&lt; typename V, typename I &gt;'],['../../Cpp/classMR_1_1Buffer.html#ad14f8729b4b1bf29927db584ffb5b052',1,'MR::Buffer::Buffer()=default'],['../../Cpp/classMR_1_1Buffer.html#afcf3d90225b34639d9eb1017164d7c18',1,'MR::Buffer::Buffer(size_t size)']]],
+  ['buffer_257',['Buffer',['../../Cpp/classMR_1_1Buffer.html',1,'MR::Buffer&lt; typename V, typename I &gt;'],['../../Cpp/classMR_1_1Buffer.html#ad14f8729b4b1bf29927db584ffb5b052',1,'MR::Buffer::Buffer()=default'],['../../Cpp/classMR_1_1Buffer.html#afcf3d90225b34639d9eb1017164d7c18',1,'MR::Buffer::Buffer(size_t size)'],['../../Cpp/namespaceMR.html#a37aff178ea11017f727413341d84d596',1,'MR::Buffer']]],
   ['buffer_3c_20t_2c_20i_20_3e_258',['Buffer&lt; T, I &gt;',['../../Cpp/classMR_1_1Buffer.html',1,'MR']]],
   ['buffer_3c_20vertid_20_3e_259',['Buffer&lt; VertId &gt;',['../../Cpp/classMR_1_1Buffer.html',1,'MR']]],
   ['buffer_5fchar_260',['Buffer_char',['../classmrmeshpy_1_1Buffer__char.html',1,'mrmeshpy']]],

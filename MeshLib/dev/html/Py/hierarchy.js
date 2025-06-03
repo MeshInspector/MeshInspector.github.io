@@ -682,7 +682,8 @@ var hierarchy =
     [ "mrmeshpy.NoCtor_VertId", "classmrmeshpy_1_1NoCtor__VertId.html", null ],
     [ "mrmeshpy.AABBTreePoints.Node", "classmrmeshpy_1_1AABBTreePoints_1_1Node.html", null ],
     [ "mrmeshpy.NodeId", "classmrmeshpy_1_1NodeId.html", [
-      [ "mrmeshpy.NoDefInit_NodeId", "classmrmeshpy_1_1NoDefInit__NodeId.html", null ]
+      [ "mrmeshpy.NoDefInit_NodeId", "classmrmeshpy_1_1NoDefInit__NodeId.html", null ],
+      [ "mrmeshpy.NoInitNodeId", "classmrmeshpy_1_1NoInitNodeId.html", null ]
     ] ],
     [ "mrmeshpy.NodeNode", "classmrmeshpy_1_1NodeNode.html", null ],
     [ "mrmeshpy.NoInit", "classmrmeshpy_1_1NoInit.html", null ],

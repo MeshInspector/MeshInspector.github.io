@@ -525,7 +525,9 @@ var hierarchy =
       [ "MR::PointPair", "structMR_1_1PointPair.html", null ]
     ] ],
     [ "MR::ICPProperties", "structMR_1_1ICPProperties.html", null ],
-    [ "MR::Id< T >", "classMR_1_1Id.html", null ],
+    [ "MR::Id< T >", "classMR_1_1Id.html", [
+      [ "MR::NoInitId< T >", "classMR_1_1NoInitId.html", null ]
+    ] ],
     [ "MR::Id< MR::EdgeTag >", "classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html", null ],
     [ "MR::Id< VoxelTag >", "classMR_1_1Id_3_01VoxelTag_01_4.html", null ],
     [ "MR::IdRange< Id >", "structMR_1_1IdRange.html", null ],
@@ -548,6 +550,7 @@ var hierarchy =
     ] ],
     [ "MR::ImproveSamplingSettings", "structMR_1_1ImproveSamplingSettings.html", null ],
     [ "MR::InflateSettings", "structMR_1_1InflateSettings.html", null ],
+    [ "MR::InplaceStack< T, N >", "classMR_1_1InplaceStack.html", null ],
     [ "MR::InSphere", "structMR_1_1InSphere.html", null ],
     [ "MR::InSphereSearchSettings", "structMR_1_1InSphereSearchSettings.html", null ],
     [ "std::integral_constant", null, [
