@@ -493,18 +493,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0e38e55e01676612abcce4c0d9a605b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3ffc7ad52720ee3c460867977323598" id="r_ab3ffc7ad52720ee3c460867977323598"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3ffc7ad52720ee3c460867977323598">addPart</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;from, FaceMap *outFmap=nullptr, VertMap *outVmap=nullptr, WholeEdgeMap *outEmap=nullptr, bool rearrangeTriangles=false)</td></tr>
 <tr class="separator:ab3ffc7ad52720ee3c460867977323598"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8abe180839f4d1b30cc35fa52318db7b" id="r_a8abe180839f4d1b30cc35fa52318db7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8abe180839f4d1b30cc35fa52318db7b">addPartByMask</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;from, const FaceBitSet &amp;fromFaces, const <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> &amp;map={})</td></tr>
-<tr class="memdesc:a8abe180839f4d1b30cc35fa52318db7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same but copies only portion of (from) specified by fromFaces,  <br /></td></tr>
-<tr class="separator:a8abe180839f4d1b30cc35fa52318db7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a1561558248c5adbaf03575e9ab6457" id="r_a9a1561558248c5adbaf03575e9ab6457"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a1561558248c5adbaf03575e9ab6457">addPartByMask</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;from, const FaceBitSet &amp;fromFaces, bool <a class="el" href="#a66254e26554618bd3b494548ac9a94f0">flipOrientation</a>=false, const std::vector&lt; <a class="elRef" href="../namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;thisContours={}, const std::vector&lt; <a class="elRef" href="../namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;fromContours={}, const <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> &amp;map={})</td></tr>
-<tr class="separator:a9a1561558248c5adbaf03575e9ab6457"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a082eace244e45e1391989891e54aeec2" id="r_a082eace244e45e1391989891e54aeec2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a082eace244e45e1391989891e54aeec2">addPartByFaceMap</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;from, const FaceMap &amp;fromFaces, bool <a class="el" href="#a66254e26554618bd3b494548ac9a94f0">flipOrientation</a>=false, const std::vector&lt; <a class="elRef" href="../namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;thisContours={}, const std::vector&lt; <a class="elRef" href="../namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;fromContours={}, const <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> &amp;map={})</td></tr>
-<tr class="memdesc:a082eace244e45e1391989891e54aeec2"><td class="mdescLeft">&#160;</td><td class="mdescRight">fromFaces contains mapping from this-topology (considering it is empty) to from-topology  <br /></td></tr>
-<tr class="separator:a082eace244e45e1391989891e54aeec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80600fd8dad6f50e214174f912643251" id="r_a80600fd8dad6f50e214174f912643251"><td class="memTemplParams" colspan="2">template&lt;typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </td></tr>
-<tr class="memitem:a80600fd8dad6f50e214174f912643251"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a80600fd8dad6f50e214174f912643251">addPartBy</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;from, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> fbegin, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> fend, size_t fcount, bool <a class="el" href="#a66254e26554618bd3b494548ac9a94f0">flipOrientation</a>=false, const std::vector&lt; <a class="elRef" href="../namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;thisContours={}, const std::vector&lt; <a class="elRef" href="../namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;fromContours={}, const <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> &amp;map={})</td></tr>
-<tr class="memdesc:a80600fd8dad6f50e214174f912643251"><td class="mdescLeft">&#160;</td><td class="mdescRight">both addPartByMask and addPartByFaceMap call this general implementation  <br /></td></tr>
-<tr class="separator:a80600fd8dad6f50e214174f912643251"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dc0aa80b71c78358ad0620c700bb365" id="r_a3dc0aa80b71c78358ad0620c700bb365"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dc0aa80b71c78358ad0620c700bb365">addPartByMask</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;from, const FaceBitSet *fromFaces, const <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> &amp;map={})</td></tr>
+<tr class="memdesc:a3dc0aa80b71c78358ad0620c700bb365"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same but copies only portion of (from) specified by fromFaces,  <br /></td></tr>
+<tr class="separator:a3dc0aa80b71c78358ad0620c700bb365"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b845a691985cdcab213189078e744c3" id="r_a8b845a691985cdcab213189078e744c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b845a691985cdcab213189078e744c3">addPartByMask</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;from, const FaceBitSet &amp;fromFaces, const <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> &amp;map={})</td></tr>
+<tr class="separator:a8b845a691985cdcab213189078e744c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ef9233b1fe328088065f9d18e08c879" id="r_a5ef9233b1fe328088065f9d18e08c879"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ef9233b1fe328088065f9d18e08c879">addPartByMask</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;from, const FaceBitSet *fromFaces, bool <a class="el" href="#a66254e26554618bd3b494548ac9a94f0">flipOrientation</a>=false, const std::vector&lt; <a class="elRef" href="../namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;thisContours={}, const std::vector&lt; <a class="elRef" href="../namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;fromContours={}, const <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> &amp;map={})</td></tr>
+<tr class="separator:a5ef9233b1fe328088065f9d18e08c879"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2c8b6c1a71169601cba1499b3085d16" id="r_af2c8b6c1a71169601cba1499b3085d16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2c8b6c1a71169601cba1499b3085d16">addPartByMask</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;from, const FaceBitSet &amp;fromFaces, bool <a class="el" href="#a66254e26554618bd3b494548ac9a94f0">flipOrientation</a>=false, const std::vector&lt; <a class="elRef" href="../namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;thisContours={}, const std::vector&lt; <a class="elRef" href="../namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;fromContours={}, const <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> &amp;map={})</td></tr>
+<tr class="separator:af2c8b6c1a71169601cba1499b3085d16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55a63965fb321b1f428ca4c3a253d22e" id="r_a55a63965fb321b1f428ca4c3a253d22e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55a63965fb321b1f428ca4c3a253d22e">rotateTriangles</a> ()</td></tr>
 <tr class="memdesc:a55a63965fb321b1f428ca4c3a253d22e"><td class="mdescLeft">&#160;</td><td class="mdescRight">for each triangle selects edgeWithLeft with minimal origin vertex  <br /></td></tr>
 <tr class="separator:a55a63965fb321b1f428ca4c3a253d22e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -688,33 +685,24 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a80600fd8dad6f50e214174f912643251" name="a80600fd8dad6f50e214174f912643251"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80600fd8dad6f50e214174f912643251">&#9670;&#160;</a></span>addPartBy()</h2>
+<a id="af2c8b6c1a71169601cba1499b3085d16" name="af2c8b6c1a71169601cba1499b3085d16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2c8b6c1a71169601cba1499b3085d16">&#9670;&#160;</a></span>addPartByMask() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::MeshTopology::addPartBy </td>
+          <td class="memname">void MR::MeshTopology::addPartByMask </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>from</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>fbegin</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>fend</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>fcount</em></span>, </td>
+          <td class="paramtype">const FaceBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>fromFaces</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -737,42 +725,33 @@ template&lt;typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d
           <td class="paramtype">const <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>map</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>both addPartByMask and addPartByFaceMap call this general implementation </p>
-
 </div>
 </div>
-<a id="a082eace244e45e1391989891e54aeec2" name="a082eace244e45e1391989891e54aeec2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a082eace244e45e1391989891e54aeec2">&#9670;&#160;</a></span>addPartByFaceMap()</h2>
+<a id="a8b845a691985cdcab213189078e744c3" name="a8b845a691985cdcab213189078e744c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b845a691985cdcab213189078e744c3">&#9670;&#160;</a></span>addPartByMask() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::MeshTopology::addPartByFaceMap </td>
+          <td class="memname">void MR::MeshTopology::addPartByMask </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>from</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const FaceMap &amp;</td>          <td class="paramname"><span class="paramname"><em>fromFaces</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>flipOrientation</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="elRef" href="../namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>thisContours</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="elRef" href="../namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>fromContours</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+          <td class="paramtype">const FaceBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>fromFaces</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -780,14 +759,17 @@ template&lt;typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d
           <td class="paramtype">const <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>map</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>fromFaces contains mapping from this-topology (considering it is empty) to from-topology </p>
-
 </div>
 </div>
-<a id="a9a1561558248c5adbaf03575e9ab6457" name="a9a1561558248c5adbaf03575e9ab6457"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a1561558248c5adbaf03575e9ab6457">&#9670;&#160;</a></span>addPartByMask() <span class="overload">[1/2]</span></h2>
+<a id="a5ef9233b1fe328088065f9d18e08c879" name="a5ef9233b1fe328088065f9d18e08c879"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ef9233b1fe328088065f9d18e08c879">&#9670;&#160;</a></span>addPartByMask() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -800,7 +782,7 @@ template&lt;typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const FaceBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>fromFaces</em></span>, </td>
+          <td class="paramtype">const FaceBitSet *</td>          <td class="paramname"><span class="paramname"><em>fromFaces</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -835,8 +817,8 @@ template&lt;typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d
 
 </div>
 </div>
-<a id="a8abe180839f4d1b30cc35fa52318db7b" name="a8abe180839f4d1b30cc35fa52318db7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8abe180839f4d1b30cc35fa52318db7b">&#9670;&#160;</a></span>addPartByMask() <span class="overload">[2/2]</span></h2>
+<a id="a3dc0aa80b71c78358ad0620c700bb365" name="a3dc0aa80b71c78358ad0620c700bb365"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dc0aa80b71c78358ad0620c700bb365">&#9670;&#160;</a></span>addPartByMask() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -849,7 +831,7 @@ template&lt;typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const FaceBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>fromFaces</em></span>, </td>
+          <td class="paramtype">const FaceBitSet *</td>          <td class="paramname"><span class="paramname"><em>fromFaces</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

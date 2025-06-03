@@ -8,7 +8,6 @@ var classmrmeshpy_1_1Mesh =
     [ "addMeshPart", "classmrmeshpy_1_1Mesh.html#ae1a58f4df477a87894363e66f9cc17eb", null ],
     [ "addMeshPart", "classmrmeshpy_1_1Mesh.html#afcca696467a2aff58a02cd8330235e6e", null ],
     [ "addPart", "classmrmeshpy_1_1Mesh.html#ac8be168277bfe5c2d288fa45f4c9c21a", null ],
-    [ "addPartByFaceMap", "classmrmeshpy_1_1Mesh.html#a6dad059fa42b3a7f035e6ae25c024419", null ],
     [ "addPartByMask", "classmrmeshpy_1_1Mesh.html#a586690d915955bd04ad24086362d5ba7", null ],
     [ "addPartByMask", "classmrmeshpy_1_1Mesh.html#a2a3fcd62182f4535a4ad8d1edf467fde", null ],
     [ "addPoint", "classmrmeshpy_1_1Mesh.html#aa8168a99fdd72af7ec60c15a351c61c2", null ],

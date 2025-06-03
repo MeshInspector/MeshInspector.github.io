@@ -2,11 +2,9 @@ var structMR_1_1Mesh =
 [
     [ "addMesh", "structMR_1_1Mesh.html#a2e89de05b17ce06b9519c98aef4a5c33", null ],
     [ "addMesh", "structMR_1_1Mesh.html#ac849720c9232498cb5e15afebe3b66a8", null ],
-    [ "addMeshPart", "structMR_1_1Mesh.html#aedd6db47df16797afde108ccec581b21", null ],
+    [ "addMeshPart", "structMR_1_1Mesh.html#ac9f5c81ebd21645d282c96331c3d1bb5", null ],
     [ "addMeshPart", "structMR_1_1Mesh.html#a263bae4a94fa6f79f6f743e6610a1c75", null ],
     [ "addPart", "structMR_1_1Mesh.html#ad7adbef117d94a1363f386eacca63973", null ],
-    [ "addPartBy", "structMR_1_1Mesh.html#a3a79f0f44fbbd679cff801144ef2df62", null ],
-    [ "addPartByFaceMap", "structMR_1_1Mesh.html#abfa14b4d2f6105806b0de757c0a87b7c", null ],
     [ "addPartByMask", "structMR_1_1Mesh.html#a67ab69a7648bb271777c2e7bf6c4825d", null ],
     [ "addPartByMask", "structMR_1_1Mesh.html#a8b2a31d3988f5155b2ce08ada845657a", null ],
     [ "addPoint", "structMR_1_1Mesh.html#aee64892c6401f2ffc0394a59628cdbb5", null ],
