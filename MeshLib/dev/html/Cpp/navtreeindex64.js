@@ -1,6 +1,5 @@
 var NAVTREEINDEX64 =
 {
-"namespaceMR_1_1VoxelsSave.html#a5289196c605171ac3410bbe845a26176":[6,0,1,0,1,41,1],
 "namespaceMR_1_1VoxelsSave.html#a8b7a3d30f9b81594b08a8a90828dd8e6":[6,0,1,0,1,41,10],
 "namespaceMR_1_1WeightedShell.html":[6,0,1,0,1,42],
 "namespaceMR_1_1WeightedShell.html#a01eafebe7cd6350d108fb538e558fb12":[6,0,1,0,1,42,13],
@@ -249,5 +248,6 @@ var NAVTREEINDEX64 =
 "structMRICPProperties.html#af361f47102e347876690d8afb088ed69":[6,0,2,0,26,3],
 "structMRICPProperties.html#af8056cb5ec97a0e2fb709ac76fc146de":[6,0,2,0,26,2],
 "structMRMakeCylinderAdvancedParameters.html":[6,0,2,0,27],
-"structMRMakeCylinderAdvancedParameters.html#a0a2bbfeff4fd96db2794c19bb68db9d1":[6,0,2,0,27,4]
+"structMRMakeCylinderAdvancedParameters.html#a0a2bbfeff4fd96db2794c19bb68db9d1":[6,0,2,0,27,4],
+"structMRMakeCylinderAdvancedParameters.html#a11e439c476c5588f13f203c6c44ac55d":[6,0,2,0,27,1]
 };

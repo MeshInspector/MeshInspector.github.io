@@ -1,6 +1,5 @@
 var NAVTREEINDEX72 =
 {
-"structMR_1_1FlatTree.html":[6,0,1,0,1,248],
 "structMR_1_1FlatTree.html":[6,0,2,0,1,232],
 "structMR_1_1FlatTree.html#a91ce578b57c3afcd001373ff561404a9":[6,0,1,0,1,248,0],
 "structMR_1_1FlatTree.html#a91ce578b57c3afcd001373ff561404a9":[6,0,2,0,1,232,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX72 =
 "structMR_1_1IdRange.html#aff5326f04115631dc2ec0096a162fc58":[6,0,0,3,5,2],
 "structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html":[6,0,1,0,1,12,1],
 "structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html":[6,0,2,0,1,4,1],
-"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#a1c450d64b652cb7ba2f84995e30c41d9":[6,0,1,0,1,12,1,7]
+"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#a1c450d64b652cb7ba2f84995e30c41d9":[6,0,1,0,1,12,1,7],
+"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#a1c450d64b652cb7ba2f84995e30c41d9":[6,0,2,0,1,4,1,7]
 };

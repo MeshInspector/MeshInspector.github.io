@@ -1,6 +1,5 @@
 var NAVTREEINDEX71 =
 {
-"structMR_1_1Features_1_1SubfeatureInfo.html#a541784a82382634e352793d6981d3214":[6,0,1,0,1,6,3,2],
 "structMR_1_1Features_1_1SubfeatureInfo.html#a541784a82382634e352793d6981d3214":[6,0,2,0,1,2,3,2],
 "structMR_1_1Features_1_1SubfeatureInfo.html#ae56a2191502d5ecf2fee0d83939a5013":[6,0,1,0,1,6,3,1],
 "structMR_1_1Features_1_1SubfeatureInfo.html#ae56a2191502d5ecf2fee0d83939a5013":[6,0,2,0,1,2,3,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX71 =
 "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#abf279ce04ebf122659affd07a95928f3":[6,0,1,0,1,7,3,3],
 "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#abf279ce04ebf122659affd07a95928f3":[6,0,2,0,1,3,3,3],
 "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ac0272dc3ddf798713b8395f78ed62b2e":[6,0,1,0,1,7,3,0],
-"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ac0272dc3ddf798713b8395f78ed62b2e":[6,0,2,0,1,3,3,0]
+"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ac0272dc3ddf798713b8395f78ed62b2e":[6,0,2,0,1,3,3,0],
+"structMR_1_1FlatTree.html":[6,0,1,0,1,248]
 };

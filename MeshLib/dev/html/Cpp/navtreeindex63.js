@@ -1,6 +1,5 @@
 var NAVTREEINDEX63 =
 {
-"namespaceMR_1_1ObjectLoad.html#a19c3bb2545005ca4c70a6243f3fd7a21":[6,0,1,0,1,21,0],
 "namespaceMR_1_1ObjectSave.html":[6,0,1,0,1,22],
 "namespaceMR_1_1ObjectSave.html#a101d2a9f563eb1680e3beb04c22908c6":[6,0,1,0,1,22,0],
 "namespaceMR_1_1ObjectSave.html#a54a3a511e827b1db27f3a67e02c92c08":[6,0,1,0,1,22,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX63 =
 "namespaceMR_1_1VoxelsLoad.html#adf1cf75d42be383bb66a5e1f952b2cd1":[6,0,1,0,1,40,30],
 "namespaceMR_1_1VoxelsSave.html":[6,0,1,0,1,41],
 "namespaceMR_1_1VoxelsSave.html#a06de9ebb71a997d3eec5251dc2a1c1e8":[6,0,1,0,1,41,11],
-"namespaceMR_1_1VoxelsSave.html#a0f83445b39c9bf24c4f50d6fe1f4cfe8":[6,0,1,0,1,41,12]
+"namespaceMR_1_1VoxelsSave.html#a0f83445b39c9bf24c4f50d6fe1f4cfe8":[6,0,1,0,1,41,12],
+"namespaceMR_1_1VoxelsSave.html#a5289196c605171ac3410bbe845a26176":[6,0,1,0,1,41,1]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX83 =
 {
-"structMR_1_1RenderDimensions_1_1AngleParams.html":[6,0,1,0,1,30,0],
 "structMR_1_1RenderDimensions_1_1AngleParams.html":[6,0,2,0,1,17,0],
 "structMR_1_1RenderDimensions_1_1AngleParams.html#a3a1739ccf9799082e97640d3942cd5a0":[6,0,1,0,1,30,0,2],
 "structMR_1_1RenderDimensions_1_1AngleParams.html#a3a1739ccf9799082e97640d3942cd5a0":[6,0,2,0,1,17,0,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX83 =
 "structMR_1_1SaveSettings.html#a71c2ed63cb6a101dbd9b47f8ca9898fd":[6,0,1,0,1,620,6],
 "structMR_1_1SaveSettings.html#a71c2ed63cb6a101dbd9b47f8ca9898fd":[6,0,2,0,1,604,6],
 "structMR_1_1SaveSettings.html#a972e4972bf3626cb56f22c55b69cccc0":[6,0,1,0,1,620,7],
-"structMR_1_1SaveSettings.html#a972e4972bf3626cb56f22c55b69cccc0":[6,0,2,0,1,604,7]
+"structMR_1_1SaveSettings.html#a972e4972bf3626cb56f22c55b69cccc0":[6,0,2,0,1,604,7],
+"structMR_1_1SceneColors.html":[6,0,0,18,2]
 };

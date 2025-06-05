@@ -1,6 +1,5 @@
 var NAVTREEINDEX78 =
 {
-"structMR_1_1ModelBaseRenderParams.html":[6,0,1,0,1,393],
 "structMR_1_1ModelBaseRenderParams.html":[6,0,2,0,1,377],
 "structMR_1_1ModelBaseRenderParams.html#a28337d3d5f8f9cc1db7812bca629ce40":[6,0,1,0,1,393,2],
 "structMR_1_1ModelBaseRenderParams.html#a28337d3d5f8f9cc1db7812bca629ce40":[6,0,2,0,1,377,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX78 =
 "structMR_1_1NumSum.html#afd716f4242e9554e7900e18a890be1fa":[6,0,1,0,1,429,2],
 "structMR_1_1NumSum.html#afd716f4242e9554e7900e18a890be1fa":[6,0,2,0,1,413,2],
 "structMR_1_1ObjKindTraits.html":[6,0,1,0,1,447],
-"structMR_1_1ObjKindTraits.html":[6,0,2,0,1,431]
+"structMR_1_1ObjKindTraits.html":[6,0,2,0,1,431],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html":[6,0,1,0,1,448]
 };

@@ -60,7 +60,7 @@ var searchData=
   ['isanimating_57',['isAnimating',['../structMR_1_1LaunchParams.html#afc8b03eeee8947080b371a8c17c18c1f',1,'MR::LaunchParams::isAnimating'],['../classMR_1_1Viewer.html#a7ccea0f47c749b27fc3a4ab8dc91026c',1,'MR::Viewer::isAnimating']]],
   ['isbd_58',['isBd',['../structMR_1_1MeshOrPoints_1_1ProjectionResult.html#ac1e15a8f200cad28d7b9d7c56757eee4',1,'MR::MeshOrPoints::ProjectionResult']]],
   ['iscolor_59',['isColor',['../structMR_1_1BindVertexAttribArraySettings.html#ae47afc7641f6193b867cc7f5bb42f07d',1,'MR::BindVertexAttribArraySettings']]],
-  ['iscompbd_60',['isCompBd',['../group__MeshComponentsGroup.html#ga1ea8faa6b7c4efd6cae93e692130ad04',1,'MR::MeshComponents::ExpandToComponentsParams::isCompBd'],['../group__MeshComponentsGroup.html#ga68f054cd2fdd3798f09d1695a71fd3c6',1,'MR::MeshComponents::LargeByAreaComponentsSettings::isCompBd']]],
+  ['iscompbd_60',['isCompBd',['../group__MeshComponentsGroup.html#ga3b52749445bbc0fec608f7f5449ad818',1,'MR::MeshComponents::ExpandToComponentsParams::isCompBd'],['../group__MeshComponentsGroup.html#ga2c590ad8afff69eb55abe07326d00edf',1,'MR::MeshComponents::LargeByAreaComponentsSettings::isCompBd']]],
   ['isconical_61',['isConical',['../structMR_1_1RenderDimensions_1_1AngleParams.html#acd45525e6d0f8a47a34a30c3a2596270',1,'MR::RenderDimensions::AngleParams']]],
   ['isectbary_62',['isectBary',['../structMR_1_1MultiRayMeshIntersectResult.html#abe24325f915016d19bbaa021b7acdf15',1,'MR::MultiRayMeshIntersectResult']]],
   ['isectfaces_63',['isectFaces',['../structMR_1_1MultiRayMeshIntersectResult.html#ab49b37818f779af102184978ebe758fc',1,'MR::MultiRayMeshIntersectResult']]],

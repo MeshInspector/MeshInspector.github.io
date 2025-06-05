@@ -1,6 +1,5 @@
 var NAVTREEINDEX74 =
 {
-"structMR_1_1IntrinsicDeloneSettings.html#a5fe9566d6f97f752f0d434d75a04ea53":[6,0,0,9,1,0,1],
 "structMR_1_1IntrinsicDeloneSettings.html#a826d54dbfadee964e4e8d815e3aeda22":[6,0,0,9,1,0,0],
 "structMR_1_1IntrinsicDeloneSettings.html#a8fed3ef49b5eeb2b4c7df0c84bbfad79":[6,0,0,9,1,0,3],
 "structMR_1_1IsVisualizeMaskEnum.html":[6,0,0,11,2,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX74 =
 "structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770da6adf97f83acf6453d4a6a4b1070f3754":[6,0,1,0,1,342,0,1],
 "structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770da6adf97f83acf6453d4a6a4b1070f3754":[6,0,2,0,1,326,0,1],
 "structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770da960b44c579bc2f6818d2daaf9e4c16f0":[6,0,1,0,1,342,0,2],
-"structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770da960b44c579bc2f6818d2daaf9e4c16f0":[6,0,2,0,1,326,0,2]
+"structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770da960b44c579bc2f6818d2daaf9e4c16f0":[6,0,2,0,1,326,0,2],
+"structMR_1_1MarchingCubesParams.html#ad2aa80147c810b8b84221bd763c2d1bc":[6,0,1,0,1,342,9]
 };

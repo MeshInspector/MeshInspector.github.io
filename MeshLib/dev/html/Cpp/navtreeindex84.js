@@ -1,6 +1,5 @@
 var NAVTREEINDEX84 =
 {
-"structMR_1_1SceneColors.html":[6,0,0,18,2],
 "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3a":[6,0,0,18,2,0],
 "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa02ea243d26ba88b944774b0dd860cca9":[6,0,0,18,2,0,6],
 "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa17965fcffe887a1ca6981a1818d44f6f":[6,0,0,18,2,0,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX84 =
 "structMR_1_1SpaceMouseDownListener.html":[6,0,2,0,1,653],
 "structMR_1_1SpaceMouseDownListener.html#a05b541f48e7534ed7df5e11043b82bca":[6,0,1,0,1,669,0],
 "structMR_1_1SpaceMouseDownListener.html#a05b541f48e7534ed7df5e11043b82bca":[6,0,2,0,1,653,0],
-"structMR_1_1SpaceMouseDownListener.html#a395df26bbdf613370b0ad0b4af252f1f":[6,0,1,0,1,669,3]
+"structMR_1_1SpaceMouseDownListener.html#a395df26bbdf613370b0ad0b4af252f1f":[6,0,1,0,1,669,3],
+"structMR_1_1SpaceMouseDownListener.html#a395df26bbdf613370b0ad0b4af252f1f":[6,0,2,0,1,653,3]
 };

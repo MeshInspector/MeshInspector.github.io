@@ -62,7 +62,7 @@ var searchData=
   ['isanimating_59',['isAnimating',['../../Cpp/structMR_1_1LaunchParams.html#afc8b03eeee8947080b371a8c17c18c1f',1,'MR::LaunchParams::isAnimating'],['../../Cpp/classMR_1_1Viewer.html#a7ccea0f47c749b27fc3a4ab8dc91026c',1,'MR::Viewer::isAnimating']]],
   ['isbd_60',['isBd',['../../Cpp/structMR_1_1MeshOrPoints_1_1ProjectionResult.html#ac1e15a8f200cad28d7b9d7c56757eee4',1,'MR::MeshOrPoints::ProjectionResult']]],
   ['iscolor_61',['isColor',['../../Cpp/structMR_1_1BindVertexAttribArraySettings.html#ae47afc7641f6193b867cc7f5bb42f07d',1,'MR::BindVertexAttribArraySettings']]],
-  ['iscompbd_62',['isCompBd',['../../Cpp/group__MeshComponentsGroup.html#ga1ea8faa6b7c4efd6cae93e692130ad04',1,'MR::MeshComponents::ExpandToComponentsParams::isCompBd'],['../../Cpp/group__MeshComponentsGroup.html#ga68f054cd2fdd3798f09d1695a71fd3c6',1,'MR::MeshComponents::LargeByAreaComponentsSettings::isCompBd']]],
+  ['iscompbd_62',['isCompBd',['../../Cpp/group__MeshComponentsGroup.html#ga3b52749445bbc0fec608f7f5449ad818',1,'MR::MeshComponents::ExpandToComponentsParams::isCompBd'],['../../Cpp/group__MeshComponentsGroup.html#ga2c590ad8afff69eb55abe07326d00edf',1,'MR::MeshComponents::LargeByAreaComponentsSettings::isCompBd']]],
   ['isconical_63',['isConical',['../../Cpp/structMR_1_1RenderDimensions_1_1AngleParams.html#acd45525e6d0f8a47a34a30c3a2596270',1,'MR::RenderDimensions::AngleParams']]],
   ['isectbary_64',['isectBary',['../../Cpp/structMR_1_1MultiRayMeshIntersectResult.html#abe24325f915016d19bbaa021b7acdf15',1,'MR::MultiRayMeshIntersectResult']]],
   ['isectfaces_65',['isectFaces',['../../Cpp/structMR_1_1MultiRayMeshIntersectResult.html#ab49b37818f779af102184978ebe758fc',1,'MR::MultiRayMeshIntersectResult']]],

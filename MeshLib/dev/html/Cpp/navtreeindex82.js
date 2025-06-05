@@ -1,6 +1,5 @@
 var NAVTREEINDEX82 =
 {
-"structMR_1_1PostFocusListener.html#a38251f795111e912a45ad68a7c13ca21":[6,0,1,0,1,533,3],
 "structMR_1_1PostFocusListener.html#a38251f795111e912a45ad68a7c13ca21":[6,0,2,0,1,517,3],
 "structMR_1_1PostFocusListener.html#ac6da51dc62db3e216930fa626bd53dd3":[6,0,1,0,1,533,2],
 "structMR_1_1PostFocusListener.html#ac6da51dc62db3e216930fa626bd53dd3":[6,0,2,0,1,517,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX82 =
 "structMR_1_1RemeshSettings.html#aed5e02a684c4323c9ad3143c3dfdb24d":[6,0,1,0,1,566,8],
 "structMR_1_1RemeshSettings.html#aed5e02a684c4323c9ad3143c3dfdb24d":[6,0,2,0,1,550,8],
 "structMR_1_1RemeshSettings.html#af94f082b1d13804c4460f447afcda26a":[6,0,1,0,1,566,5],
-"structMR_1_1RemeshSettings.html#af94f082b1d13804c4460f447afcda26a":[6,0,2,0,1,550,5]
+"structMR_1_1RemeshSettings.html#af94f082b1d13804c4460f447afcda26a":[6,0,2,0,1,550,5],
+"structMR_1_1RenderDimensions_1_1AngleParams.html":[6,0,1,0,1,30,0]
 };

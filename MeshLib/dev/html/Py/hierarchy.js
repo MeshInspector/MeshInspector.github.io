@@ -318,7 +318,6 @@ var hierarchy =
     [ "mrmeshpy.func_bool_from_Id_EdgeTag_Vector2_float", "classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector2__float.html", null ],
     [ "mrmeshpy.func_bool_from_Id_EdgeTag_Vector3_float", "classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector3__float.html", null ],
     [ "mrmeshpy.func_bool_from_Id_FaceTag", "classmrmeshpy_1_1func__bool__from__Id__FaceTag.html", null ],
-    [ "mrmeshpy.func_bool_from_Id_UndirectedEdgeTag", "classmrmeshpy_1_1func__bool__from__Id__UndirectedEdgeTag.html", null ],
     [ "mrmeshpy.func_bool_from_Id_VertTag", "classmrmeshpy_1_1func__bool__from__Id__VertTag.html", null ],
     [ "mrmeshpy.func_bool_from_MeshIntersectionResult", "classmrmeshpy_1_1func__bool__from__MeshIntersectionResult.html", null ],
     [ "mrmeshpy.func_bool_from_MeshProjectionResult", "classmrmeshpy_1_1func__bool__from__MeshProjectionResult.html", null ],
