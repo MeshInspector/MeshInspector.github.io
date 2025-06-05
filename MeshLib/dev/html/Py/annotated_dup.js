@@ -927,6 +927,7 @@ var annotated_dup =
       [ "std_vector_std_shared_ptr_ObjectPoints", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPoints.html", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPoints" ],
       [ "std_vector_std_shared_ptr_ObjectPointsHolder", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder" ],
       [ "std_vector_std_shared_ptr_ObjectVoxels", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels" ],
+      [ "std_vector_std_shared_ptr_OpenVdbFloatGrid", "classmrmeshpy_1_1std__vector__std__shared__ptr__OpenVdbFloatGrid.html", "classmrmeshpy_1_1std__vector__std__shared__ptr__OpenVdbFloatGrid" ],
       [ "std_vector_std_shared_ptr_VisualObject", "classmrmeshpy_1_1std__vector__std__shared__ptr__VisualObject.html", "classmrmeshpy_1_1std__vector__std__shared__ptr__VisualObject" ],
       [ "std_vector_std_string", "classmrmeshpy_1_1std__vector__std__string.html", "classmrmeshpy_1_1std__vector__std__string" ],
       [ "std_vector_std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane", "classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html", "classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193" ],

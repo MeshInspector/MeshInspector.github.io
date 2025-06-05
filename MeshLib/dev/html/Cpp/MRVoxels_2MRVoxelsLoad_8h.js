@@ -14,6 +14,12 @@ var MRVoxels_2MRVoxelsLoad_8h =
     [ "fromRaw", "MRVoxels_2MRVoxelsLoad_8h.html#gad3e3783e957919006d682b65886541bb", null ],
     [ "fromRaw", "MRVoxels_2MRVoxelsLoad_8h.html#ga603131e52dfc2ce8aa33d3a0d0028878", null ],
     [ "fromVdb", "MRVoxels_2MRVoxelsLoad_8h.html#gae5828d9a431d4b30b9d90a66a7fa0e9d", null ],
+    [ "gridFromRaw", "MRVoxels_2MRVoxelsLoad_8h.html#gaff744634fa4916b622b9c213b3a37243", null ],
+    [ "gridFromRaw", "MRVoxels_2MRVoxelsLoad_8h.html#ga8d1d5e8fd4d557ab5cb0501f801e09c2", null ],
+    [ "gridFromRaw", "MRVoxels_2MRVoxelsLoad_8h.html#ga7f875c47121fc2d63dc69e1376825a4f", null ],
+    [ "gridsFromAnySupportedFormat", "MRVoxels_2MRVoxelsLoad_8h.html#ga9c5c70dae47d427c0b4441b8b1df6b17", null ],
+    [ "gridsFromVdb", "MRVoxels_2MRVoxelsLoad_8h.html#ga292cb0932a07bdafb7ba56453be65262", null ],
+    [ "gridsFromVdb", "MRVoxels_2MRVoxelsLoad_8h.html#ga17380baf5a009298d3c817ed07b4b43f", null ],
     [ "loadTiffDir", "MRVoxels_2MRVoxelsLoad_8h.html#a44442bb9fb78ce9c9668e928460258b9", null ],
     [ "makeObjectFromVoxelsFile", "MRVoxels_2MRVoxelsLoad_8h.html#a3312390052a5a2d862b167edc9e773b3", null ],
     [ "makeObjectVoxelsFromFile", "MRVoxels_2MRVoxelsLoad_8h.html#a771ff6491d2acec943253070393ce902", null ]

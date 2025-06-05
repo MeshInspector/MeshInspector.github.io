@@ -1261,6 +1261,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.std_vector_std_shared_ptr_ObjectPointsHolder", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder" ],
     [ "mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels" ],
     [ "mrmeshpy.std_vector_std_shared_ptr_Object_const", "classmrmeshpy_1_1std__vector__std__shared__ptr__Object__const.html", "classmrmeshpy_1_1std__vector__std__shared__ptr__Object__const" ],
+    [ "mrmeshpy.std_vector_std_shared_ptr_OpenVdbFloatGrid", "classmrmeshpy_1_1std__vector__std__shared__ptr__OpenVdbFloatGrid.html", "classmrmeshpy_1_1std__vector__std__shared__ptr__OpenVdbFloatGrid" ],
     [ "mrmeshpy.std_vector_std_shared_ptr_VisualObject", "classmrmeshpy_1_1std__vector__std__shared__ptr__VisualObject.html", "classmrmeshpy_1_1std__vector__std__shared__ptr__VisualObject" ],
     [ "mrmeshpy.std_vector_std_string", "classmrmeshpy_1_1std__vector__std__string.html", "classmrmeshpy_1_1std__vector__std__string" ],
     [ "mrmeshpy.std_vector_std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane", "classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html", "classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193" ],

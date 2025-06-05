@@ -1,5 +1,16 @@
 var NAVTREEINDEX64 =
 {
+"namespaceMR_1_1WeightedShell.html#a33b0f3cc490481ebb0f62010cf20518e":[6,0,1,0,1,42,10],
+"namespaceMR_1_1WeightedShell.html#a3e108c56779c35179e76f309f651b3ae":[6,0,1,0,1,42,5],
+"namespaceMR_1_1WeightedShell.html#a54580de8838b073a4531d9f3149ea22e":[6,0,1,0,1,42,7],
+"namespaceMR_1_1WeightedShell.html#a5f3f7e651a5e21cd4346de588b7641b1":[6,0,1,0,1,42,6],
+"namespaceMR_1_1WeightedShell.html#a7882f57d282bd3aa7b657061f8f9409b":[6,0,1,0,1,42,9],
+"namespaceMR_1_1WeightedShell.html#a8dc2c1b804b8a46b0a33345e1f1688f1":[6,0,1,0,1,42,12],
+"namespaceMR_1_1WeightedShell.html#a90e26c11723ff31873a2d5046d4edc5a":[6,0,1,0,1,42,8],
+"namespaceMR_1_1WeightedShell.html#ad2ba4e4f0e0175fc0608e172a0619984":[6,0,1,0,1,42,4],
+"namespaceMR_1_1detail.html":[6,0,1,0,1,3],
+"namespaceMR_1_1detail.html#a5620523d14d5ba70ac2f7841d93f6076":[6,0,1,0,1,3,6],
+"namespaceMR_1_1detail.html#a93c7b098b17358bdd4512a091bfcb6fa":[6,0,1,0,1,3,5],
 "namespaceMR_1_1detail.html#ad7472d89bbf53dd56025b561db9deaca":[6,0,1,0,1,3,7],
 "namespaceMR_1_1detail_1_1Units.html":[6,0,1,0,1,3,0],
 "namespaceMR_1_1detail_1_1Units.html#aec57db09655986b2ed959d498edc6f2a":[6,0,1,0,1,3,0,2],
@@ -238,16 +249,5 @@ var NAVTREEINDEX64 =
 "structMRMakeCylinderAdvancedParameters.html#a7f8a322e1238830f9e1cf8ac1468f7f4":[6,0,2,0,27,0],
 "structMRMakeCylinderAdvancedParameters.html#a954f28f8586e56201fc5d37f1865a5f2":[6,0,2,0,27,3],
 "structMRMakeCylinderAdvancedParameters.html#ac0e345476c72ba97cd7601033b431fa2":[6,0,2,0,27,5],
-"structMRMakeCylinderAdvancedParameters.html#adb9dcc5a855e991275135241242c5ed9":[6,0,2,0,27,2],
-"structMRMakeTorusParameters.html":[6,0,2,0,28],
-"structMRMakeTorusParameters.html#a17f0a3976680bd5bf51a72024eeb1427":[6,0,2,0,28,0],
-"structMRMakeTorusParameters.html#a8d8c9a815bce9cd179486391928d019c":[6,0,2,0,28,2],
-"structMRMakeTorusParameters.html#ac7122dd9e2fdf5085a86d09c22f0d6a2":[6,0,2,0,28,3],
-"structMRMakeTorusParameters.html#af4b7950cf44e13e3a179354f293fc935":[6,0,2,0,28,1],
-"structMRMakeUVSphereParameters.html":[6,0,2,0,29],
-"structMRMakeUVSphereParameters.html#ad8c1e08a0f485ea2145d4e2125289750":[6,0,2,0,29,0],
-"structMRMakeUVSphereParameters.html#aedc7390bb236cdc9cf5301bbe25ece8e":[6,0,2,0,29,1],
-"structMRMakeUVSphereParameters.html#af470017e8fbca8a02433a21aea67d8c1":[6,0,2,0,29,2],
-"structMRMatrix3f.html":[6,0,2,0,30],
-"structMRMatrix3f.html#a37136d0dd3e59903d93dce302d67ef80":[6,0,2,0,30,2]
+"structMRMakeCylinderAdvancedParameters.html#adb9dcc5a855e991275135241242c5ed9":[6,0,2,0,27,2]
 };

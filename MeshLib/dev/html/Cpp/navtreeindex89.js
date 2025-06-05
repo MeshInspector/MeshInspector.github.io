@@ -1,5 +1,16 @@
 var NAVTREEINDEX89 =
 {
+"structMR_1_1Vector3.html#a6ff62d94821680cd4aa78b7f0e9fc08f":[6,0,0,0,12,1,30],
+"structMR_1_1Vector3.html#a7c629d81f031f089ef5fb3ea45689ea5":[6,0,0,0,12,1,0],
+"structMR_1_1Vector3.html#a7eff91fc4125a6e58692cd47a47988c8":[6,0,0,0,12,1,37],
+"structMR_1_1Vector3.html#a850a38ce3943bd9da515c2ad86ed017c":[6,0,0,0,12,1,15],
+"structMR_1_1Vector3.html#a8a737d6b966f9953f4dbf5cb90b409e7":[6,0,0,0,12,1,17],
+"structMR_1_1Vector3.html#a8d2060921c3ecd7d080f93c50e1bec51":[6,0,0,0,12,1,4],
+"structMR_1_1Vector3.html#a8ecb748650561c957b8b73afd24288cb":[6,0,0,0,12,1,2],
+"structMR_1_1Vector3.html#a91b0398c10d527ac2433b92451a3dfb8":[6,0,0,0,12,1,13],
+"structMR_1_1Vector3.html#a9b44af3c8a7c918cf88dac1811950e66":[6,0,0,0,12,1,10],
+"structMR_1_1Vector3.html#aa1b7f648b920d3afcfd29032b79ed8af":[6,0,0,0,12,1,5],
+"structMR_1_1Vector3.html#aa313f8ba832a4b648631b27ecc640444":[6,0,0,0,12,1,38],
 "structMR_1_1Vector3.html#aa5a5528f7655565df55378e5da9cf887":[6,0,0,0,12,1,29],
 "structMR_1_1Vector3.html#aa62b4ce06d0439125af427faabb987b1":[6,0,0,0,12,1,20],
 "structMR_1_1Vector3.html#aa80c4d71ef5b56a6aaa251f91e636873":[6,0,0,0,12,1,24],
@@ -238,16 +249,5 @@ var NAVTREEINDEX89 =
 "structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html":[6,0,2,0,1,784],
 "structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html#a3077359395681ceea5908eead7ca59f4":[6,0,1,0,1,800,0],
 "structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html#a3077359395681ceea5908eead7ca59f4":[6,0,2,0,1,784,0],
-"structMR_1_1VoxelTraits_3_01Vector_3_01T_00_01VoxelId_01_4_01_4.html":[6,0,1,0,1,801],
-"structMR_1_1VoxelTraits_3_01Vector_3_01T_00_01VoxelId_01_4_01_4.html":[6,0,2,0,1,785],
-"structMR_1_1VoxelTraits_3_01Vector_3_01T_00_01VoxelId_01_4_01_4.html#a7341252fb0ef6adbe45ec631f515ed7e":[6,0,1,0,1,801,0],
-"structMR_1_1VoxelTraits_3_01Vector_3_01T_00_01VoxelId_01_4_01_4.html#a7341252fb0ef6adbe45ec631f515ed7e":[6,0,2,0,1,785,0],
-"structMR_1_1VoxelTraits_3_01VoxelBitSet_01_4.html":[6,0,1,0,1,802],
-"structMR_1_1VoxelTraits_3_01VoxelBitSet_01_4.html":[6,0,2,0,1,786],
-"structMR_1_1VoxelTraits_3_01VoxelBitSet_01_4.html#a42a0fdf34759e79614a0d42502ed844d":[6,0,1,0,1,802,0],
-"structMR_1_1VoxelTraits_3_01VoxelBitSet_01_4.html#a42a0fdf34759e79614a0d42502ed844d":[6,0,2,0,1,786,0],
-"structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html":[6,0,1,0,1,803],
-"structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html":[6,0,2,0,1,787],
-"structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html#a43f515364672b7e4b97886189872ead0":[6,0,1,0,1,803,0],
-"structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html#a43f515364672b7e4b97886189872ead0":[6,0,2,0,1,787,0]
+"structMR_1_1VoxelTraits_3_01Vector_3_01T_00_01VoxelId_01_4_01_4.html":[6,0,1,0,1,801]
 };

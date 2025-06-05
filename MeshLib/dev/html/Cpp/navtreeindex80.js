@@ -1,5 +1,16 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1Parabola.html#a35b32607bcb14a8f5c89da76ea131304":[6,0,1,0,1,477,2],
+"structMR_1_1Parabola.html#a35b32607bcb14a8f5c89da76ea131304":[6,0,2,0,1,461,2],
+"structMR_1_1Parabola.html#a45bf9f53f24483c850f914def539451e":[6,0,1,0,1,477,5],
+"structMR_1_1Parabola.html#a45bf9f53f24483c850f914def539451e":[6,0,2,0,1,461,5],
+"structMR_1_1Parabola.html#a87d6da7f3dba1aa3504784c26b407da3":[6,0,1,0,1,477,8],
+"structMR_1_1Parabola.html#a87d6da7f3dba1aa3504784c26b407da3":[6,0,2,0,1,461,8],
+"structMR_1_1Parabola.html#a9753dfacf3e0613b37e554a7f4b63f8a":[6,0,1,0,1,477,7],
+"structMR_1_1Parabola.html#a9753dfacf3e0613b37e554a7f4b63f8a":[6,0,2,0,1,461,7],
+"structMR_1_1Parabola.html#aa24552a8fee4499ec38064ef05db41ac":[6,0,1,0,1,477,1],
+"structMR_1_1Parabola.html#aa24552a8fee4499ec38064ef05db41ac":[6,0,2,0,1,461,1],
+"structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html":[6,0,1,0,1,478,0],
 "structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html":[6,0,2,0,1,462,0],
 "structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html#a8a3bbfef3276f1831b2a645909a93a94":[6,0,1,0,1,478,0,2],
 "structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html#a8a3bbfef3276f1831b2a645909a93a94":[6,0,2,0,1,462,0,2],
@@ -238,16 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1PointPair.html":[6,0,1,0,1,505],
 "structMR_1_1PointPair.html":[6,0,2,0,1,489],
 "structMR_1_1PointPair.html#a087147661647b219169ee6e63da113fd":[6,0,1,0,1,505,1],
-"structMR_1_1PointPair.html#a087147661647b219169ee6e63da113fd":[6,0,2,0,1,489,1],
-"structMR_1_1PointPair.html#a0be978719b10258123e31ffe3413c532":[6,0,1,0,1,505,2],
-"structMR_1_1PointPair.html#a0be978719b10258123e31ffe3413c532":[6,0,2,0,1,489,2],
-"structMR_1_1PointPair.html#a5f761c6549a8d74c43a943993e9f7426":[6,0,1,0,1,505,0],
-"structMR_1_1PointPair.html#a5f761c6549a8d74c43a943993e9f7426":[6,0,2,0,1,489,0],
-"structMR_1_1PointPair.html#a6e96779ac71de15fae84c9c1dee17cb7":[6,0,1,0,1,505,3],
-"structMR_1_1PointPair.html#a6e96779ac71de15fae84c9c1dee17cb7":[6,0,2,0,1,489,3],
-"structMR_1_1PointPair.html#ae8d7edf5f01746179a2eb12b3e66b1d0":[6,0,1,0,1,505,4],
-"structMR_1_1PointPair.html#ae8d7edf5f01746179a2eb12b3e66b1d0":[6,0,2,0,1,489,4],
-"structMR_1_1PointPairs.html":[6,0,1,0,1,506],
-"structMR_1_1PointPairs.html":[6,0,2,0,1,490],
-"structMR_1_1PointPairs.html#a57a171fbd5024682750b723475ed0c7b":[6,0,1,0,1,506,2]
+"structMR_1_1PointPair.html#a087147661647b219169ee6e63da113fd":[6,0,2,0,1,489,1]
 };
