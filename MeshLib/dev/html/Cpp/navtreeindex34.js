@@ -1,5 +1,14 @@
 var NAVTREEINDEX34 =
 {
+"classMR_1_1ObjectTransformWidget.html#ab22daeb26cd1e936593d97d63cc407b5":[6,0,2,0,1,429,14],
+"classMR_1_1ObjectTransformWidget.html#ac815cb12bfdb99a8a650143d34de17ad":[6,0,1,0,1,445,10],
+"classMR_1_1ObjectTransformWidget.html#ac815cb12bfdb99a8a650143d34de17ad":[6,0,2,0,1,429,10],
+"classMR_1_1ObjectTransformWidget.html#acd0c05bb93bc949b222c2721ad1d4b70":[6,0,1,0,1,445,20],
+"classMR_1_1ObjectTransformWidget.html#acd0c05bb93bc949b222c2721ad1d4b70":[6,0,2,0,1,429,20],
+"classMR_1_1ObjectTransformWidget.html#ae251d733beed21672b8754f369937dca":[6,0,1,0,1,445,3],
+"classMR_1_1ObjectTransformWidget.html#ae251d733beed21672b8754f369937dca":[6,0,2,0,1,429,3],
+"classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8":[6,0,1,0,1,445,1],
+"classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8":[6,0,2,0,1,429,1],
 "classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a031ebfe11f33b7e097e349ea1ea93935":[6,0,1,0,1,445,1,1],
 "classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a031ebfe11f33b7e097e349ea1ea93935":[6,0,2,0,1,429,1,1],
 "classMR_1_1ObjectTransformWidget.html#ae637cb1b88edaa19f6495ccbb94d8ca8a14c17361812a82688e147e013b358510":[6,0,1,0,1,445,1,0],
@@ -240,14 +249,5 @@ var NAVTREEINDEX34 =
 "classMR_1_1Pdf.html":[6,0,2,0,1,467],
 "classMR_1_1Pdf.html#a0664af870ccab6786c23651b331270a2":[6,0,1,0,1,483,3],
 "classMR_1_1Pdf.html#a0664af870ccab6786c23651b331270a2":[6,0,2,0,1,467,3],
-"classMR_1_1Pdf.html#a1cd00e797b07d3531ab22317e4a70e89":[6,0,1,0,1,483,8],
-"classMR_1_1Pdf.html#a1cd00e797b07d3531ab22317e4a70e89":[6,0,2,0,1,467,8],
-"classMR_1_1Pdf.html#a1daea35a2c1a89104e601e2698703aa3":[6,0,1,0,1,483,12],
-"classMR_1_1Pdf.html#a1daea35a2c1a89104e601e2698703aa3":[6,0,2,0,1,467,12],
-"classMR_1_1Pdf.html#a2838fe45692b53926281ae909994b4b1":[6,0,1,0,1,483,7],
-"classMR_1_1Pdf.html#a2838fe45692b53926281ae909994b4b1":[6,0,2,0,1,467,7],
-"classMR_1_1Pdf.html#a291a56e9861b5beebfbdc37e96ed0a18":[6,0,1,0,1,483,5],
-"classMR_1_1Pdf.html#a291a56e9861b5beebfbdc37e96ed0a18":[6,0,2,0,1,467,5],
-"classMR_1_1Pdf.html#a57a668c7d6c3f66dc0e6482b969b511a":[6,0,1,0,1,483,11],
-"classMR_1_1Pdf.html#a57a668c7d6c3f66dc0e6482b969b511a":[6,0,2,0,1,467,11]
+"classMR_1_1Pdf.html#a1cd00e797b07d3531ab22317e4a70e89":[6,0,1,0,1,483,8]
 };

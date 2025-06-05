@@ -1,5 +1,14 @@
 var NAVTREEINDEX12 =
 {
+"MRPolylineTrimWithPlane_8h.html#ad412e17ccd41a72db846230e5b0aace9":[6,0,3,0,0,1,4,303,2],
+"MRPolylineTrimWithPlane_8h.html#af65a30e41e9b0e1bb95d4fcf5e87a4e2":[6,0,3,0,0,1,4,303,4],
+"MRPolylineTrimWithPlane_8h_source.html":[6,0,3,0,0,1,4,303],
+"MRPolyline_8h.html":[6,0,3,0,0,1,4,292],
+"MRPolyline_8h_source.html":[6,0,3,0,0,1,4,292],
+"MRPositionVertsSmoothly_8h.html":[6,0,3,0,0,1,4,305],
+"MRPositionVertsSmoothly_8h.html#a0ff13a6ee1e4553122efbc84946a0e01":[6,0,3,0,0,1,4,305,4],
+"MRPositionVertsSmoothly_8h.html#a1d34390e42800882d558656d3ea89684":[6,0,3,0,0,1,4,305,10],
+"MRPositionVertsSmoothly_8h.html#a2a95c920b7f5516228030dfcec13b882":[6,0,3,0,0,1,4,305,5],
 "MRPositionVertsSmoothly_8h.html#a346a48132e38e33f42c16f84435f32d0":[6,0,3,0,0,1,4,305,9],
 "MRPositionVertsSmoothly_8h.html#a3d881ee7943c5019e5a61768489f064e":[6,0,3,0,0,1,4,305,3],
 "MRPositionVertsSmoothly_8h.html#a44cdfa0fa0f605b3ff29d5437e8a93d8":[6,0,3,0,0,1,4,305,8],
@@ -240,14 +249,5 @@ var NAVTREEINDEX12 =
 "MRRibbonConstants_8h.html#a862b30077baf437e28b842a18c3997e4":[6,0,3,0,0,1,10,81,8],
 "MRRibbonConstants_8h.html#a8857be62711395545ca59a54a590e17f":[6,0,3,0,0,1,10,81,1],
 "MRRibbonConstants_8h.html#a8978f98278703c8b2857a9c3a0c5b17d":[6,0,3,0,0,1,10,81,43],
-"MRRibbonConstants_8h.html#a8a7826f17744adf420a5075847c99e9e":[6,0,3,0,0,1,10,81,19],
-"MRRibbonConstants_8h.html#a8ba309adbf075ead954ae080a7f9b0d1":[6,0,3,0,0,1,10,81,15],
-"MRRibbonConstants_8h.html#a8ce41bfb43ceb1601bea2736f4006100":[6,0,3,0,0,1,10,81,23],
-"MRRibbonConstants_8h.html#a8d4c96ab0082d0546992371e2ac83c29":[6,0,3,0,0,1,10,81,14],
-"MRRibbonConstants_8h.html#a941b167d61d8a5ba4ff489d0ddac477e":[6,0,3,0,0,1,10,81,60],
-"MRRibbonConstants_8h.html#a96fbf6ff116f2ef3003d0511ee978d18":[6,0,3,0,0,1,10,81,11],
-"MRRibbonConstants_8h.html#a9c921093c85c2da2608e2dfbac0456d1":[6,0,3,0,0,1,10,81,5],
-"MRRibbonConstants_8h.html#aa11041a14963784ef3f797b273afdcd0":[6,0,3,0,0,1,10,81,13],
-"MRRibbonConstants_8h.html#aa1ae7e72880bd59893da014002b30c09":[6,0,3,0,0,1,10,81,29],
-"MRRibbonConstants_8h.html#aa6af57435d9acbae46e95d40e73edc24":[6,0,3,0,0,1,10,81,17]
+"MRRibbonConstants_8h.html#a8a7826f17744adf420a5075847c99e9e":[6,0,3,0,0,1,10,81,19]
 };

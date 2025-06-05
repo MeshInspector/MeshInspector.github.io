@@ -1,5 +1,10 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html":[6,0,1,0,1,448],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html":[6,0,2,0,1,432],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html#a8c3def19c3370adb07aa8f4dc2dac79a":[6,0,1,0,1,448,0],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html#a8c3def19c3370adb07aa8f4dc2dac79a":[6,0,2,0,1,432,0],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cone_01_4.html":[6,0,1,0,1,449],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cone_01_4.html":[6,0,2,0,1,433],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cone_01_4.html#a763d4517cb20617afe59faf89b895749":[6,0,1,0,1,449,0],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cone_01_4.html#a763d4517cb20617afe59faf89b895749":[6,0,2,0,1,433,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1Parabola.html":[6,0,2,0,1,461],
 "structMR_1_1Parabola.html#a0cdfe97a6580c1aaa9b873a6320f0793":[6,0,1,0,1,477,0],
 "structMR_1_1Parabola.html#a0cdfe97a6580c1aaa9b873a6320f0793":[6,0,2,0,1,461,0],
-"structMR_1_1Parabola.html#a3244e04984e6a61cd9243af2af6e178d":[6,0,1,0,1,477,4],
-"structMR_1_1Parabola.html#a3244e04984e6a61cd9243af2af6e178d":[6,0,2,0,1,461,4],
-"structMR_1_1Parabola.html#a34d2109107ef4c428253a8755305114b":[6,0,1,0,1,477,6],
-"structMR_1_1Parabola.html#a34d2109107ef4c428253a8755305114b":[6,0,2,0,1,461,6],
-"structMR_1_1Parabola.html#a34d2a9ae743816f3e62667dd396479a3":[6,0,1,0,1,477,3],
-"structMR_1_1Parabola.html#a34d2a9ae743816f3e62667dd396479a3":[6,0,2,0,1,461,3]
+"structMR_1_1Parabola.html#a3244e04984e6a61cd9243af2af6e178d":[6,0,1,0,1,477,4]
 };

@@ -1,5 +1,10 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1ModelBaseRenderParams.html":[6,0,1,0,1,393],
+"structMR_1_1ModelBaseRenderParams.html":[6,0,2,0,1,377],
+"structMR_1_1ModelBaseRenderParams.html#a28337d3d5f8f9cc1db7812bca629ce40":[6,0,1,0,1,393,2],
+"structMR_1_1ModelBaseRenderParams.html#a28337d3d5f8f9cc1db7812bca629ce40":[6,0,2,0,1,377,2],
+"structMR_1_1ModelBaseRenderParams.html#a4c79d51067cd63730f681f5aa2c4ad67":[6,0,1,0,1,393,1],
 "structMR_1_1ModelBaseRenderParams.html#a4c79d51067cd63730f681f5aa2c4ad67":[6,0,2,0,1,377,1],
 "structMR_1_1ModelBaseRenderParams.html#a62b1dc3636e8859d7b4f46b53d1e02c8":[6,0,1,0,1,393,0],
 "structMR_1_1ModelBaseRenderParams.html#a62b1dc3636e8859d7b4f46b53d1e02c8":[6,0,2,0,1,377,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1NumSum.html#afd716f4242e9554e7900e18a890be1fa":[6,0,1,0,1,429,2],
 "structMR_1_1NumSum.html#afd716f4242e9554e7900e18a890be1fa":[6,0,2,0,1,413,2],
 "structMR_1_1ObjKindTraits.html":[6,0,1,0,1,447],
-"structMR_1_1ObjKindTraits.html":[6,0,2,0,1,431],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html":[6,0,1,0,1,448],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html":[6,0,2,0,1,432],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html#a8c3def19c3370adb07aa8f4dc2dac79a":[6,0,1,0,1,448,0],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html#a8c3def19c3370adb07aa8f4dc2dac79a":[6,0,2,0,1,432,0],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cone_01_4.html":[6,0,1,0,1,449]
+"structMR_1_1ObjKindTraits.html":[6,0,2,0,1,431]
 };

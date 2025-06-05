@@ -1,5 +1,14 @@
 var NAVTREEINDEX27 =
 {
+"classMR_1_1ImGuiMenu.html#a16d62bdb2a3278ade5f315b24ed2477c":[6,0,1,0,1,292,96],
+"classMR_1_1ImGuiMenu.html#a16d62bdb2a3278ade5f315b24ed2477c":[6,0,2,0,1,276,96],
+"classMR_1_1ImGuiMenu.html#a1995588bf4401620b33e1a4e6ed8c15d":[6,0,1,0,1,292,132],
+"classMR_1_1ImGuiMenu.html#a1995588bf4401620b33e1a4e6ed8c15d":[6,0,2,0,1,276,132],
+"classMR_1_1ImGuiMenu.html#a19f8c069859057e2b94e0581392811fd":[6,0,1,0,1,292,27],
+"classMR_1_1ImGuiMenu.html#a19f8c069859057e2b94e0581392811fd":[6,0,2,0,1,276,27],
+"classMR_1_1ImGuiMenu.html#a1a2ff7496cd88b62087cf3adef33dee1":[6,0,1,0,1,292,42],
+"classMR_1_1ImGuiMenu.html#a1a2ff7496cd88b62087cf3adef33dee1":[6,0,2,0,1,276,42],
+"classMR_1_1ImGuiMenu.html#a1e1cc9fce0ffe6ffb4bb3920f586cefb":[6,0,1,0,1,292,56],
 "classMR_1_1ImGuiMenu.html#a1e1cc9fce0ffe6ffb4bb3920f586cefb":[6,0,2,0,1,276,56],
 "classMR_1_1ImGuiMenu.html#a223a369cd0143ab0fd5e6d5577641ab4":[6,0,1,0,1,292,32],
 "classMR_1_1ImGuiMenu.html#a223a369cd0143ab0fd5e6d5577641ab4":[6,0,2,0,1,276,32],
@@ -240,14 +249,5 @@ var NAVTREEINDEX27 =
 "classMR_1_1ImGuiMenu.html#ae71e78bd6eb312fb03d4b7931a3d3241":[6,0,1,0,1,292,109],
 "classMR_1_1ImGuiMenu.html#ae71e78bd6eb312fb03d4b7931a3d3241":[6,0,2,0,1,276,109],
 "classMR_1_1ImGuiMenu.html#ae809764ef8ca8203ef9f26e34abb2c2f":[6,0,1,0,1,292,115],
-"classMR_1_1ImGuiMenu.html#ae809764ef8ca8203ef9f26e34abb2c2f":[6,0,2,0,1,276,115],
-"classMR_1_1ImGuiMenu.html#ae8ea9f87c7bb3f33454eacc1a708eae8":[6,0,1,0,1,292,88],
-"classMR_1_1ImGuiMenu.html#ae8ea9f87c7bb3f33454eacc1a708eae8":[6,0,2,0,1,276,88],
-"classMR_1_1ImGuiMenu.html#ae9bb69c3589e2a7be927ce74e0b1f2ac":[6,0,1,0,1,292,128],
-"classMR_1_1ImGuiMenu.html#ae9bb69c3589e2a7be927ce74e0b1f2ac":[6,0,2,0,1,276,128],
-"classMR_1_1ImGuiMenu.html#aed028910bb5ce3eedfa0802afa5e040d":[6,0,1,0,1,292,127],
-"classMR_1_1ImGuiMenu.html#aed028910bb5ce3eedfa0802afa5e040d":[6,0,2,0,1,276,127],
-"classMR_1_1ImGuiMenu.html#af12f28cc32062db2ff2e65a8abeab3ca":[6,0,1,0,1,292,138],
-"classMR_1_1ImGuiMenu.html#af12f28cc32062db2ff2e65a8abeab3ca":[6,0,2,0,1,276,138],
-"classMR_1_1ImGuiMenu.html#af67d48be36abd965d153cd88aa0f3638":[6,0,1,0,1,292,29]
+"classMR_1_1ImGuiMenu.html#ae809764ef8ca8203ef9f26e34abb2c2f":[6,0,2,0,1,276,115]
 };

@@ -1,5 +1,14 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1AlphaSortGL.html#a1dd61ddfaca7ad57995cff3e85436742":[6,0,1,0,1,54,1],
+"classMR_1_1AlphaSortGL.html#a1dd61ddfaca7ad57995cff3e85436742":[6,0,2,0,1,38,1],
+"classMR_1_1AlphaSortGL.html#a29e1a40f8ddae233dc49511e5daa9200":[6,0,1,0,1,54,0],
+"classMR_1_1AlphaSortGL.html#a29e1a40f8ddae233dc49511e5daa9200":[6,0,2,0,1,38,0],
+"classMR_1_1AlphaSortGL.html#a8ce534a2e3836fdcf88ee61badbb7eac":[6,0,1,0,1,54,3],
+"classMR_1_1AlphaSortGL.html#a8ce534a2e3836fdcf88ee61badbb7eac":[6,0,2,0,1,38,3],
+"classMR_1_1AlphaSortGL.html#aa3555625f912cb6a3c62641f8cdb5653":[6,0,1,0,1,54,2],
+"classMR_1_1AlphaSortGL.html#aa3555625f912cb6a3c62641f8cdb5653":[6,0,2,0,1,38,2],
+"classMR_1_1AlphaSortGL.html#aab9cdfaf33634bcf9bae0eec5a82ebb9":[6,0,1,0,1,54,6],
 "classMR_1_1AlphaSortGL.html#aab9cdfaf33634bcf9bae0eec5a82ebb9":[6,0,2,0,1,38,6],
 "classMR_1_1AlphaSortGL.html#aba382f76f34a17ef1f0536debd4b6683":[6,0,1,0,1,54,5],
 "classMR_1_1AlphaSortGL.html#aba382f76f34a17ef1f0536debd4b6683":[6,0,2,0,1,38,5],
@@ -240,14 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1CNCMachineSettings.html#a9b8cd0d699837ae1b90931ef9e94812e":[6,0,1,0,1,140,5],
 "classMR_1_1CNCMachineSettings.html#a9b8cd0d699837ae1b90931ef9e94812e":[6,0,2,0,1,124,5],
 "classMR_1_1CNCMachineSettings.html#aa86d3a2352dd1da528e0b0e02259cb2a":[6,0,1,0,1,140,3],
-"classMR_1_1CNCMachineSettings.html#aa86d3a2352dd1da528e0b0e02259cb2a":[6,0,2,0,1,124,3],
-"classMR_1_1CNCMachineSettings.html#ac0c13922a14bfc3a6a3a9add38676b04":[6,0,1,0,1,140,7],
-"classMR_1_1CNCMachineSettings.html#ac0c13922a14bfc3a6a3a9add38676b04":[6,0,2,0,1,124,7],
-"classMR_1_1CNCMachineSettings.html#ac2d2ccfe7fd64c3498a251b0a0d33223":[6,0,1,0,1,140,16],
-"classMR_1_1CNCMachineSettings.html#ac2d2ccfe7fd64c3498a251b0a0d33223":[6,0,2,0,1,124,16],
-"classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79a":[6,0,1,0,1,140,2],
-"classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79a":[6,0,2,0,1,124,2],
-"classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79aa0d61f8370cad1d412f80b84d143e1257":[6,0,1,0,1,140,2,2],
-"classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79aa0d61f8370cad1d412f80b84d143e1257":[6,0,2,0,1,124,2,2],
-"classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79aa7fc56270e7a70fa81a5935b72eacbe29":[6,0,1,0,1,140,2,0]
+"classMR_1_1CNCMachineSettings.html#aa86d3a2352dd1da528e0b0e02259cb2a":[6,0,2,0,1,124,3]
 };

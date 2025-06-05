@@ -33,7 +33,7 @@ var searchData=
   ['objectsave_30',['objectSave',['.././Py/namespacemrmeshpy.html#a19850aff4be51a76b11aa5d9de761673',1,'mrmeshpy']]],
   ['objectsaver_31',['ObjectSaver',['.././Cpp/namespaceMR_1_1ObjectSave.html#a101d2a9f563eb1680e3beb04c22908c6',1,'MR::ObjectSave']]],
   ['objectscale_32',['objectScale',['.././Cpp/structMR_1_1Viewport_1_1Parameters.html#af702c49c5d0e216669074795ef81a796',1,'MR::Viewport::Parameters']]],
-  ['objectselectivitytype_33',['ObjectSelectivityType',['.././Py/classmrmeshpy_1_1ObjectSelectivityType.html',1,'mrmeshpy::ObjectSelectivityType'],['.././Cpp/group__DataModelGroup.html#ga1ab156c0351dfcd112a67a72e485f123',1,'MR::ObjectSelectivityType'],['.././Cpp/group__DataModelGroup.html#ga1ab156c0351dfcd112a67a72e485f123',1,'MR::ObjectSelectivityType']]],
+  ['objectselectivitytype_33',['ObjectSelectivityType',['.././Py/classmrmeshpy_1_1ObjectSelectivityType.html',1,'mrmeshpy']]],
   ['objectsloadedsignal_34',['ObjectsLoadedSignal',['.././Cpp/classMR_1_1Viewer.html#a79b992388aca2cd4a3891e337423ab2c',1,'MR::Viewer']]],
   ['objectsloadedsignal_35',['objectsLoadedSignal',['.././Cpp/classMR_1_1Viewer.html#a86a5a9e1329a5e983e388fea6f9c10d9',1,'MR::Viewer']]],
   ['objectstate_36',['ObjectState',['.././Cpp/structMR_1_1PickPointManager_1_1ObjectState.html',1,'MR::PickPointManager']]],
