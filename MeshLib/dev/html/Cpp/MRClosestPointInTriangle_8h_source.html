@@ -185,20 +185,20 @@ $(function(){initNavTree('MRClosestPointInTriangle_8h_source.html',''); initResi
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keyword">const</span> <a class="code hl_variableRef" href="../namespaceMR.html#ac878ba63f3f91f5ab032a38cd3a2c206">Vector3&lt;T&gt;</a> ac = c - a;</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keyword">const</span> <a class="code hl_variableRef" href="../namespaceMR.html#ac878ba63f3f91f5ab032a38cd3a2c206">Vector3&lt;T&gt;</a> ap = p - a;</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keyword">const</span> T d1 = <a class="code hl_functionRef" href="../Py/namespacemrmeshpy.html#aaf1f9180ce67ad910b30a305374e4cdd">dot</a>( ab, ap );</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keyword">const</span> T d2 = <a class="code hl_functionRef" href="../Py/namespacemrmeshpy.html#aaf1f9180ce67ad910b30a305374e4cdd">dot</a>( ac, ap );</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keyword">const</span> T d1 = <a class="code hl_functionRef" href="../Py/namespacemrmeshpy.html#a8b8f0cff86f418c986602bd8b6f77145">dot</a>( ab, ap );</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keyword">const</span> T d2 = <a class="code hl_functionRef" href="../Py/namespacemrmeshpy.html#a8b8f0cff86f418c986602bd8b6f77145">dot</a>( ac, ap );</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keywordflow">if</span> ( d1 &lt;= 0 &amp;&amp; d2 &lt;= 0 ) </div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keywordflow">return</span> { a, { 0, 0 } }; <span class="comment">//#1</span></div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keyword">const</span> <a class="code hl_variableRef" href="../namespaceMR.html#ac878ba63f3f91f5ab032a38cd3a2c206">Vector3&lt;T&gt;</a> bp = p - b;</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keyword">const</span> T d3 = <a class="code hl_functionRef" href="../Py/namespacemrmeshpy.html#aaf1f9180ce67ad910b30a305374e4cdd">dot</a>( ab, bp );</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keyword">const</span> T d4 = <a class="code hl_functionRef" href="../Py/namespacemrmeshpy.html#aaf1f9180ce67ad910b30a305374e4cdd">dot</a>( ac, bp );</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keyword">const</span> T d3 = <a class="code hl_functionRef" href="../Py/namespacemrmeshpy.html#a8b8f0cff86f418c986602bd8b6f77145">dot</a>( ab, bp );</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keyword">const</span> T d4 = <a class="code hl_functionRef" href="../Py/namespacemrmeshpy.html#a8b8f0cff86f418c986602bd8b6f77145">dot</a>( ac, bp );</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordflow">if</span> ( d3 &gt;= 0 &amp;&amp; d4 &lt;= d3 ) </div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keywordflow">return</span> { b, { 1, 0 } }; <span class="comment">//#2</span></div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keyword">const</span> <a class="code hl_variableRef" href="../namespaceMR.html#ac878ba63f3f91f5ab032a38cd3a2c206">Vector3&lt;T&gt;</a> cp = p - c;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keyword">const</span> T d5 = <a class="code hl_functionRef" href="../Py/namespacemrmeshpy.html#aaf1f9180ce67ad910b30a305374e4cdd">dot</a>( ab, cp );</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keyword">const</span> T d6 = <a class="code hl_functionRef" href="../Py/namespacemrmeshpy.html#aaf1f9180ce67ad910b30a305374e4cdd">dot</a>( ac, cp );</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keyword">const</span> T d5 = <a class="code hl_functionRef" href="../Py/namespacemrmeshpy.html#a8b8f0cff86f418c986602bd8b6f77145">dot</a>( ab, cp );</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keyword">const</span> T d6 = <a class="code hl_functionRef" href="../Py/namespacemrmeshpy.html#a8b8f0cff86f418c986602bd8b6f77145">dot</a>( ac, cp );</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordflow">if</span> ( d6 &gt;= 0 &amp;&amp; d5 &lt;= d6 ) </div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keywordflow">return</span> { c, { 0, 1 } }; <span class="comment">//#3</span></div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
@@ -245,7 +245,7 @@ $(function(){initNavTree('MRClosestPointInTriangle_8h_source.html',''); initResi
 <div class="ttc" id="aMRMesh_2MRVector3_8h_html"><div class="ttname"><a href="MRMesh_2MRVector3_8h.html">MRVector3.h</a></div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="../namespaceMR.html">MR</a></div></div>
 <div class="ttc" id="anamespaceMR_html_ac878ba63f3f91f5ab032a38cd3a2c206"><div class="ttname"><a href="../namespaceMR.html#ac878ba63f3f91f5ab032a38cd3a2c206">MR::Vector3</a></div><div class="ttdeci">MRMESH_CLASS Vector3</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:174</div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_aaf1f9180ce67ad910b30a305374e4cdd"><div class="ttname"><a href="../Py/namespacemrmeshpy.html#aaf1f9180ce67ad910b30a305374e4cdd">mrmeshpy::dot</a></div><div class="ttdeci">float dot(Vector2f a, Vector2f b)</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_a8b8f0cff86f418c986602bd8b6f77145"><div class="ttname"><a href="../Py/namespacemrmeshpy.html#a8b8f0cff86f418c986602bd8b6f77145">mrmeshpy::dot</a></div><div class="ttdeci">int dot(Vector4b a, Vector4b b)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
