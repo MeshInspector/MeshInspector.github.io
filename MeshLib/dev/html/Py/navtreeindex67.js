@@ -1,13 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"classmrmeshpy_1_1PolylineTraits__Vector2f.html#aba248374d6688979f2cf15a8a3345bd1":[6,1,0,0,2,680,0],
-"classmrmeshpy_1_1PolylineTraits__Vector2f.html#aba248374d6688979f2cf15a8a3345bd1":[6,1,1,0,1,680,0],
-"classmrmeshpy_1_1PolylineTraits__Vector3f.html":[6,1,0,0,2,681],
-"classmrmeshpy_1_1PolylineTraits__Vector3f.html":[6,1,1,0,1,681],
-"classmrmeshpy_1_1PolylineTraits__Vector3f.html#a8adbf9ba374a5d35fbf8137d9473a7d3":[6,1,0,0,2,681,0],
-"classmrmeshpy_1_1PolylineTraits__Vector3f.html#a8adbf9ba374a5d35fbf8137d9473a7d3":[6,1,1,0,1,681,0],
-"classmrmeshpy_1_1PolylineTraits__Vector3f.html#afdd58e41a4e99ce7d335db08e39ea0a6":[6,1,0,0,2,681,1],
-"classmrmeshpy_1_1PolylineTraits__Vector3f.html#afdd58e41a4e99ce7d335db08e39ea0a6":[6,1,1,0,1,681,1],
 "classmrmeshpy_1_1PolylineUndirectedEdgeIterator.html":[6,1,0,0,2,682],
 "classmrmeshpy_1_1PolylineUndirectedEdgeIterator.html":[6,1,1,0,1,682],
 "classmrmeshpy_1_1PolylineUndirectedEdgeIterator.html#a1fcec7d99ad4bd9ff71c11e88c2b94c2":[6,1,0,0,2,682,6],
@@ -249,5 +241,13 @@ var NAVTREEINDEX67 =
 "classmrmeshpy_1_1Polynomial__float__6.html#a2752d47b1a559cca903c4c38298e656e":[6,1,1,0,1,696,0],
 "classmrmeshpy_1_1Polynomial__float__6.html#a2752d47b1a559cca903c4c38298e656e":[6,1,1,0,1,696,2],
 "classmrmeshpy_1_1Polynomial__float__6.html#a3213243450296c80bb5b6c9f24826203":[6,1,0,0,2,696,3],
-"classmrmeshpy_1_1Polynomial__float__6.html#a3213243450296c80bb5b6c9f24826203":[6,1,1,0,1,696,3]
+"classmrmeshpy_1_1Polynomial__float__6.html#a3213243450296c80bb5b6c9f24826203":[6,1,1,0,1,696,3],
+"classmrmeshpy_1_1Polynomial__float__6.html#aae54e3cbebfe19b4c1881c76037b1249":[6,1,0,0,2,696,1],
+"classmrmeshpy_1_1Polynomial__float__6.html#aae54e3cbebfe19b4c1881c76037b1249":[6,1,1,0,1,696,1],
+"classmrmeshpy_1_1PositionedText.html":[6,1,0,0,2,699],
+"classmrmeshpy_1_1PositionedText.html":[6,1,1,0,1,699],
+"classmrmeshpy_1_1PositionedText.html#adc826106d87240e25caa5595edcabc83":[6,1,0,0,2,699,1],
+"classmrmeshpy_1_1PositionedText.html#adc826106d87240e25caa5595edcabc83":[6,1,1,0,1,699,1],
+"classmrmeshpy_1_1PositionedText.html#ae4aa54d4ff6238cf83b0a4939aea6267":[6,1,0,0,2,699,0],
+"classmrmeshpy_1_1PositionedText.html#ae4aa54d4ff6238cf83b0a4939aea6267":[6,1,1,0,1,699,0]
 };

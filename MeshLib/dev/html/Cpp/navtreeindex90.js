@@ -1,9 +1,5 @@
 var NAVTREEINDEX90 =
 {
-"structMR_1_1VoxelMetricParameters.html#ae851669e25fee95a2b98a79736a529cf":[6,0,0,17,3,0,3],
-"structMR_1_1VoxelTraits.html":[6,0,1,0,1,799],
-"structMR_1_1VoxelTraits.html":[6,0,2,0,1,783],
-"structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html":[6,0,1,0,1,800],
 "structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html":[6,0,2,0,1,784],
 "structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html#a3077359395681ceea5908eead7ca59f4":[6,0,1,0,1,800,0],
 "structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html#a3077359395681ceea5908eead7ca59f4":[6,0,2,0,1,784,0],

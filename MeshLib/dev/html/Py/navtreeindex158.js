@@ -1,13 +1,5 @@
 var NAVTREEINDEX158 =
 {
-"classmrviewerpy_1_1MouseButton.html#a6904b07f845560235908972cb578cb5b":[6,1,0,0,3,1,5],
-"classmrviewerpy_1_1MouseButton.html#a6904b07f845560235908972cb578cb5b":[6,1,1,0,2,1,5],
-"classmrviewerpy_1_1MouseButton.html#a874503ed08071caca66d920841839e6e":[6,1,0,0,3,1,0],
-"classmrviewerpy_1_1MouseButton.html#a874503ed08071caca66d920841839e6e":[6,1,1,0,2,1,0],
-"classmrviewerpy_1_1MouseButton.html#abd811ff1d07526f1b13fd20f6a1abb18":[6,1,0,0,3,1,3],
-"classmrviewerpy_1_1MouseButton.html#abd811ff1d07526f1b13fd20f6a1abb18":[6,1,1,0,2,1,3],
-"classmrviewerpy_1_1MouseButton.html#ac5d01bf90b9f86de58f7c4b33747575d":[6,1,0,0,3,1,4],
-"classmrviewerpy_1_1MouseButton.html#ac5d01bf90b9f86de58f7c4b33747575d":[6,1,1,0,2,1,4],
 "classmrviewerpy_1_1MouseButton.html#ad2c6ae16775f1e36b65813526204cb70":[6,1,0,0,3,1,8],
 "classmrviewerpy_1_1MouseButton.html#ad2c6ae16775f1e36b65813526204cb70":[6,1,1,0,2,1,8],
 "classmrviewerpy_1_1MouseButton.html#ad68ee7e14dad671d2cb4b4bde478dfd7":[6,1,0,0,3,1,6],
@@ -249,5 +241,13 @@ var NAVTREEINDEX158 =
 "functions_func_u.html":[6,1,1,3,1,20],
 "functions_func_v.html":[6,1,1,3,1,21],
 "functions_func_w.html":[6,1,1,3,1,22],
-"functions_func_x.html":[6,1,1,3,1,23]
+"functions_func_x.html":[6,1,1,3,1,23],
+"functions_func_y.html":[6,1,1,3,1,24],
+"functions_func_z.html":[6,1,1,3,1,25],
+"functions_g.html":[6,1,1,3,0,7],
+"functions_h.html":[6,1,1,3,0,8],
+"functions_i.html":[6,1,1,3,0,9],
+"functions_k.html":[6,1,1,3,0,10],
+"functions_l.html":[6,1,1,3,0,11],
+"functions_m.html":[6,1,1,3,0,12]
 };

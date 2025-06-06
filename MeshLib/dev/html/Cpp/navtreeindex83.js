@@ -1,9 +1,5 @@
 var NAVTREEINDEX83 =
 {
-"structMR_1_1RemeshSettings.html#aed5e02a684c4323c9ad3143c3dfdb24d":[6,0,2,0,1,550,8],
-"structMR_1_1RemeshSettings.html#af94f082b1d13804c4460f447afcda26a":[6,0,1,0,1,566,5],
-"structMR_1_1RemeshSettings.html#af94f082b1d13804c4460f447afcda26a":[6,0,2,0,1,550,5],
-"structMR_1_1RenderDimensions_1_1AngleParams.html":[6,0,1,0,1,30,0],
 "structMR_1_1RenderDimensions_1_1AngleParams.html":[6,0,2,0,1,17,0],
 "structMR_1_1RenderDimensions_1_1AngleParams.html#a3a1739ccf9799082e97640d3942cd5a0":[6,0,1,0,1,30,0,2],
 "structMR_1_1RenderDimensions_1_1AngleParams.html#a3a1739ccf9799082e97640d3942cd5a0":[6,0,2,0,1,17,0,2],
@@ -249,5 +245,9 @@ var NAVTREEINDEX83 =
 "structMR_1_1SaveSettings.html#a3614a6ca71783b2dd64369d4f122ee69":[6,0,2,0,1,604,1],
 "structMR_1_1SaveSettings.html#a6aa78ab8ac3342aaeb267aa07e82721a":[6,0,1,0,1,620,0],
 "structMR_1_1SaveSettings.html#a6aa78ab8ac3342aaeb267aa07e82721a":[6,0,2,0,1,604,0],
-"structMR_1_1SaveSettings.html#a71c2ed63cb6a101dbd9b47f8ca9898fd":[6,0,1,0,1,620,6]
+"structMR_1_1SaveSettings.html#a71c2ed63cb6a101dbd9b47f8ca9898fd":[6,0,1,0,1,620,6],
+"structMR_1_1SaveSettings.html#a71c2ed63cb6a101dbd9b47f8ca9898fd":[6,0,2,0,1,604,6],
+"structMR_1_1SaveSettings.html#a972e4972bf3626cb56f22c55b69cccc0":[6,0,1,0,1,620,7],
+"structMR_1_1SaveSettings.html#a972e4972bf3626cb56f22c55b69cccc0":[6,0,2,0,1,604,7],
+"structMR_1_1SceneColors.html":[6,0,0,18,2]
 };

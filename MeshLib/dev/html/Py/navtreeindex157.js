@@ -1,13 +1,5 @@
 var NAVTREEINDEX157 =
 {
-"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#aa243c86038a64fc5a2109c5f2d0493e1":[6,1,0,0,2,940,6],
-"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#aa243c86038a64fc5a2109c5f2d0493e1":[6,1,1,0,1,940,6],
-"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#abf64787164ee9994502781ae8aa9d568":[6,1,0,0,2,940,9],
-"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#abf64787164ee9994502781ae8aa9d568":[6,1,1,0,1,940,9],
-"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#adfb4c86e8903a686a3431bacb41c7099":[6,1,0,0,2,940,19],
-"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#adfb4c86e8903a686a3431bacb41c7099":[6,1,1,0,1,940,19],
-"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#aed6b29a29e99777d077492be77397a59":[6,1,0,0,2,940,18],
-"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#aed6b29a29e99777d077492be77397a59":[6,1,1,0,1,940,18],
 "classmrmeshpy_1_1std__vector__unsigned__char.html":[6,1,0,0,2,945],
 "classmrmeshpy_1_1std__vector__unsigned__char.html":[6,1,1,0,1,945],
 "classmrmeshpy_1_1std__vector__unsigned__char.html#a182f32a75176dd64179e3c04e6b56fe5":[6,1,0,0,2,945,1],
@@ -249,5 +241,13 @@ var NAVTREEINDEX157 =
 "classmrviewerpy_1_1MouseButton.html#a57d1a0543cf4ee0c0bbbb970260ffb50":[6,1,0,0,3,1,1],
 "classmrviewerpy_1_1MouseButton.html#a57d1a0543cf4ee0c0bbbb970260ffb50":[6,1,1,0,2,1,1],
 "classmrviewerpy_1_1MouseButton.html#a581099cb087a341271271a7d45da906a":[6,1,0,0,3,1,10],
-"classmrviewerpy_1_1MouseButton.html#a581099cb087a341271271a7d45da906a":[6,1,1,0,2,1,10]
+"classmrviewerpy_1_1MouseButton.html#a581099cb087a341271271a7d45da906a":[6,1,1,0,2,1,10],
+"classmrviewerpy_1_1MouseButton.html#a6904b07f845560235908972cb578cb5b":[6,1,0,0,3,1,5],
+"classmrviewerpy_1_1MouseButton.html#a6904b07f845560235908972cb578cb5b":[6,1,1,0,2,1,5],
+"classmrviewerpy_1_1MouseButton.html#a874503ed08071caca66d920841839e6e":[6,1,0,0,3,1,0],
+"classmrviewerpy_1_1MouseButton.html#a874503ed08071caca66d920841839e6e":[6,1,1,0,2,1,0],
+"classmrviewerpy_1_1MouseButton.html#abd811ff1d07526f1b13fd20f6a1abb18":[6,1,0,0,3,1,3],
+"classmrviewerpy_1_1MouseButton.html#abd811ff1d07526f1b13fd20f6a1abb18":[6,1,1,0,2,1,3],
+"classmrviewerpy_1_1MouseButton.html#ac5d01bf90b9f86de58f7c4b33747575d":[6,1,0,0,3,1,4],
+"classmrviewerpy_1_1MouseButton.html#ac5d01bf90b9f86de58f7c4b33747575d":[6,1,1,0,2,1,4]
 };

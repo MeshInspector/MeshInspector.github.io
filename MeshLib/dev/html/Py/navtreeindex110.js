@@ -1,13 +1,5 @@
 var NAVTREEINDEX110 =
 {
-"classmrmeshpy_1_1VolumeIndexer.html#ab5647b13342b5f4d97f46cdb14a9274b":[6,1,0,0,2,1121,16],
-"classmrmeshpy_1_1VolumeIndexer.html#ab5647b13342b5f4d97f46cdb14a9274b":[6,1,1,0,1,1121,16],
-"classmrmeshpy_1_1VolumeIndexer.html#abf7678fb6c8f26018cbf1efd5d33bb32":[6,1,0,0,2,1121,5],
-"classmrmeshpy_1_1VolumeIndexer.html#abf7678fb6c8f26018cbf1efd5d33bb32":[6,1,1,0,1,1121,5],
-"classmrmeshpy_1_1VolumeIndexer.html#ac161ae920a36bdc4c0263d030b0394b4":[6,1,0,0,2,1121,6],
-"classmrmeshpy_1_1VolumeIndexer.html#ac161ae920a36bdc4c0263d030b0394b4":[6,1,1,0,1,1121,6],
-"classmrmeshpy_1_1VolumeIndexer.html#ae1440d01ec5512f6e2f54cefe35c6a4d":[6,1,0,0,2,1121,11],
-"classmrmeshpy_1_1VolumeIndexer.html#ae1440d01ec5512f6e2f54cefe35c6a4d":[6,1,1,0,1,1121,11],
 "classmrmeshpy_1_1VolumeIndexer.html#ae847dcbd260f3ea2e320fbfac1dff9cd":[6,1,0,0,2,1121,19],
 "classmrmeshpy_1_1VolumeIndexer.html#ae847dcbd260f3ea2e320fbfac1dff9cd":[6,1,1,0,1,1121,19],
 "classmrmeshpy_1_1VolumeIndexer.html#aecf126e5ead305f4117f199f09131a1c":[6,1,0,0,2,1121,12],
@@ -249,5 +241,13 @@ var NAVTREEINDEX110 =
 "classmrmeshpy_1_1VoxelMetricParameters.html#ab75228d7aba13006a35b787f8cf045cb":[6,1,0,0,2,1128,0],
 "classmrmeshpy_1_1VoxelMetricParameters.html#ab75228d7aba13006a35b787f8cf045cb":[6,1,1,0,1,1128,0],
 "classmrmeshpy_1_1VoxelMetricParameters.html#ada9bd62c971635a3c74e659f86ba1f2a":[6,1,0,0,2,1128,1],
-"classmrmeshpy_1_1VoxelMetricParameters.html#ada9bd62c971635a3c74e659f86ba1f2a":[6,1,1,0,1,1128,1]
+"classmrmeshpy_1_1VoxelMetricParameters.html#ada9bd62c971635a3c74e659f86ba1f2a":[6,1,1,0,1,1128,1],
+"classmrmeshpy_1_1VoxelMetricParameters.html#af99468fb6aa27a32869b4e9b63721204":[6,1,0,0,2,1128,12],
+"classmrmeshpy_1_1VoxelMetricParameters.html#af99468fb6aa27a32869b4e9b63721204":[6,1,1,0,1,1128,12],
+"classmrmeshpy_1_1VoxelTraits__Vector__float__Id__VoxelTag.html":[6,1,0,0,2,1142],
+"classmrmeshpy_1_1VoxelTraits__Vector__float__Id__VoxelTag.html":[6,1,1,0,1,1142],
+"classmrmeshpy_1_1VoxelTraits__Vector__float__Id__VoxelTag.html#a49a6498dbafcd0d762e092dcfa7b2f19":[6,1,0,0,2,1142,1],
+"classmrmeshpy_1_1VoxelTraits__Vector__float__Id__VoxelTag.html#a49a6498dbafcd0d762e092dcfa7b2f19":[6,1,1,0,1,1142,1],
+"classmrmeshpy_1_1VoxelTraits__Vector__float__Id__VoxelTag.html#a676b44e3033ffd65bc7afc5b6acf161a":[6,1,0,0,2,1142,0],
+"classmrmeshpy_1_1VoxelTraits__Vector__float__Id__VoxelTag.html#a676b44e3033ffd65bc7afc5b6acf161a":[6,1,1,0,1,1142,0]
 };

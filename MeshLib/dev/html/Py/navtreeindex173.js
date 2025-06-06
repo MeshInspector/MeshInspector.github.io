@@ -1,13 +1,5 @@
 var NAVTREEINDEX173 =
 {
-"namespacemrviewerpy.html#a4af835cd797e0a5704804f7accd98e5b":[6,1,0,0,3,16],
-"namespacemrviewerpy.html#a4e3940e810d3ed1f816f07f901b20b4e":[6,1,0,0,3,20],
-"namespacemrviewerpy.html#a5291930e30b9d22af54be3a7fbd32647":[6,1,0,0,3,25],
-"namespacemrviewerpy.html#a53af266fd58822b394bc4397c59973d7":[6,1,0,0,3,40],
-"namespacemrviewerpy.html#a5c2b587a3767681f8880428674f8b83a":[6,1,0,0,3,37],
-"namespacemrviewerpy.html#a5f9f0ec39ac8505d43e588a49ac7f067":[6,1,0,0,3,31],
-"namespacemrviewerpy.html#a65d4f1b502cba85f0843cbc2a0832d02":[6,1,0,0,3,24],
-"namespacemrviewerpy.html#a6bfe9b7df9f135d662c86bfb1f6007d4":[6,1,0,0,3,43],
 "namespacemrviewerpy.html#a6e1523262cde30ddff0938cd65944f15":[6,1,0,0,3,28],
 "namespacemrviewerpy.html#a7691bb318496be6f84ab4089a4728975":[6,1,0,0,3,29],
 "namespacemrviewerpy.html#a82dc2137c01c694015b04820623346d4":[6,1,0,0,3,30],

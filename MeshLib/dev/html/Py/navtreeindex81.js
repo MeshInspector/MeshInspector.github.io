@@ -1,13 +1,5 @@
 var NAVTREEINDEX81 =
 {
-"classmrmeshpy_1_1TexturePerFace.html":[6,1,0,0,2,990],
-"classmrmeshpy_1_1TexturePerFace.html":[6,1,1,0,1,990],
-"classmrmeshpy_1_1TexturePerFace.html#a0a48f493fd6dd936276ef9937dd29cf5":[6,1,0,0,2,990,36],
-"classmrmeshpy_1_1TexturePerFace.html#a0a48f493fd6dd936276ef9937dd29cf5":[6,1,1,0,1,990,36],
-"classmrmeshpy_1_1TexturePerFace.html#a1397acddf10727a0f2b40e895baa921b":[6,1,0,0,2,990,4],
-"classmrmeshpy_1_1TexturePerFace.html#a1397acddf10727a0f2b40e895baa921b":[6,1,1,0,1,990,4],
-"classmrmeshpy_1_1TexturePerFace.html#a2158d51439868ca968835c6aef1b32dd":[6,1,0,0,2,990,39],
-"classmrmeshpy_1_1TexturePerFace.html#a2158d51439868ca968835c6aef1b32dd":[6,1,1,0,1,990,39],
 "classmrmeshpy_1_1TexturePerFace.html#a26bf506130de75b2574cb7214b63cedb":[6,1,0,0,2,990,40],
 "classmrmeshpy_1_1TexturePerFace.html#a26bf506130de75b2574cb7214b63cedb":[6,1,1,0,1,990,40],
 "classmrmeshpy_1_1TexturePerFace.html#a283745dd806143c9a37b1a2e0b7597d8":[6,1,0,0,2,990,13],
@@ -249,5 +241,13 @@ var NAVTREEINDEX81 =
 "classmrmeshpy_1_1TriMesh.html#a7bc0d842cfdb2dfbbfd07d2fc1e41edc":[6,1,0,0,2,1002,2],
 "classmrmeshpy_1_1TriMesh.html#a7bc0d842cfdb2dfbbfd07d2fc1e41edc":[6,1,1,0,1,1002,2],
 "classmrmeshpy_1_1TriPointd.html":[6,1,0,0,2,1005],
-"classmrmeshpy_1_1TriPointd.html":[6,1,1,0,1,1005]
+"classmrmeshpy_1_1TriPointd.html":[6,1,1,0,1,1005],
+"classmrmeshpy_1_1TriPointd.html#a03c222afe454f9151b31ee621e8db273":[6,1,0,0,2,1005,3],
+"classmrmeshpy_1_1TriPointd.html#a03c222afe454f9151b31ee621e8db273":[6,1,1,0,1,1005,3],
+"classmrmeshpy_1_1TriPointd.html#a17162c0040b4294758dc7a9483409fe9":[6,1,0,0,2,1005,0],
+"classmrmeshpy_1_1TriPointd.html#a17162c0040b4294758dc7a9483409fe9":[6,1,1,0,1,1005,0],
+"classmrmeshpy_1_1TriPointd.html#a39013dbdb3e4e0304e1315f5e19a273e":[6,1,0,0,2,1005,5],
+"classmrmeshpy_1_1TriPointd.html#a39013dbdb3e4e0304e1315f5e19a273e":[6,1,1,0,1,1005,5],
+"classmrmeshpy_1_1TriPointd.html#a430ddea41d455e7e3c07ffa07ce5f789":[6,1,0,0,2,1005,7],
+"classmrmeshpy_1_1TriPointd.html#a430ddea41d455e7e3c07ffa07ce5f789":[6,1,1,0,1,1005,7]
 };
