@@ -1739,7 +1739,7 @@ var namespacemrmeshpy =
     [ "getInnerEdges", "namespacemrmeshpy.html#a31eceb3f58add1bbe923a8dfe5c3224e", null ],
     [ "getInnerEdges", "namespacemrmeshpy.html#a7ddbbd85fe960e9532bd3fdc63f2acca", null ],
     [ "getInnerFaces", "namespacemrmeshpy.html#aab005c40e8c068e936073e6f0e0eaf7e", null ],
-    [ "getInnerVerts", "namespacemrmeshpy.html#af9b42f5b9b907abd4b4baa98cc1d8f0e", null ],
+    [ "getInnerVerts", "namespacemrmeshpy.html#ac871f93e4a25a833d0666f4bf9d2e5e5", null ],
     [ "getInnerVerts", "namespacemrmeshpy.html#aca4804ee72b99c1bf85abc02de97c4b4", null ],
     [ "getLeftTriPoints", "namespacemrmeshpy.html#a70f64ab3a9b4eeb7dd340526055d916f", null ],
     [ "getLeftTriPoints", "namespacemrmeshpy.html#ac6bce74e8ab59d0935945f8c9ed007f4", null ],

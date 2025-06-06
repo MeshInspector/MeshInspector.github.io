@@ -1,5 +1,13 @@
 var NAVTREEINDEX80 =
 {
+"classmrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a41cdce7e075608960f2187bc496fe2db":[6,1,0,0,2,984,9],
+"classmrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a41cdce7e075608960f2187bc496fe2db":[6,1,1,0,1,984,9],
+"classmrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a457bf95cae434a7446c329ee4be194f1":[6,1,0,0,2,984,23],
+"classmrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a457bf95cae434a7446c329ee4be194f1":[6,1,1,0,1,984,23],
+"classmrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a49dddd93329d17fe6929b10b90424632":[6,1,0,0,2,984,25],
+"classmrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a49dddd93329d17fe6929b10b90424632":[6,1,1,0,1,984,25],
+"classmrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a4f5c64faea07908f122609c406cc447c":[6,1,0,0,2,984,4],
+"classmrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a4f5c64faea07908f122609c406cc447c":[6,1,1,0,1,984,4],
 "classmrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a5642250a9f407e240716cc2f8addfc10":[6,1,0,0,2,984,40],
 "classmrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a5642250a9f407e240716cc2f8addfc10":[6,1,1,0,1,984,40],
 "classmrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a5b0218fdd0e598d9e76cb62e44a695ce":[6,1,0,0,2,984,30],
@@ -241,13 +249,5 @@ var NAVTREEINDEX80 =
 "classmrmeshpy_1_1TextureId.html#afa45835db4ab4e37304ff0f940d1df99":[6,1,0,0,2,989,10],
 "classmrmeshpy_1_1TextureId.html#afa45835db4ab4e37304ff0f940d1df99":[6,1,1,0,1,989,10],
 "classmrmeshpy_1_1TextureId.html#afee6db071562841f7f949010d6557118":[6,1,0,0,2,989,1],
-"classmrmeshpy_1_1TextureId.html#afee6db071562841f7f949010d6557118":[6,1,1,0,1,989,1],
-"classmrmeshpy_1_1TexturePerFace.html":[6,1,0,0,2,990],
-"classmrmeshpy_1_1TexturePerFace.html":[6,1,1,0,1,990],
-"classmrmeshpy_1_1TexturePerFace.html#a0a48f493fd6dd936276ef9937dd29cf5":[6,1,0,0,2,990,36],
-"classmrmeshpy_1_1TexturePerFace.html#a0a48f493fd6dd936276ef9937dd29cf5":[6,1,1,0,1,990,36],
-"classmrmeshpy_1_1TexturePerFace.html#a1397acddf10727a0f2b40e895baa921b":[6,1,0,0,2,990,4],
-"classmrmeshpy_1_1TexturePerFace.html#a1397acddf10727a0f2b40e895baa921b":[6,1,1,0,1,990,4],
-"classmrmeshpy_1_1TexturePerFace.html#a2158d51439868ca968835c6aef1b32dd":[6,1,0,0,2,990,39],
-"classmrmeshpy_1_1TexturePerFace.html#a2158d51439868ca968835c6aef1b32dd":[6,1,1,0,1,990,39]
+"classmrmeshpy_1_1TextureId.html#afee6db071562841f7f949010d6557118":[6,1,1,0,1,989,1]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX106 =
 {
+"classmrmeshpy_1_1VertBitSet.html#a928e80730c3c91bfc5fa63d712b00067":[6,1,0,0,2,1097,29],
+"classmrmeshpy_1_1VertBitSet.html#a928e80730c3c91bfc5fa63d712b00067":[6,1,1,0,1,1097,29],
+"classmrmeshpy_1_1VertBitSet.html#a9573ba046dc518f718dc54cdfe3a7ddb":[6,1,0,0,2,1097,17],
+"classmrmeshpy_1_1VertBitSet.html#a9573ba046dc518f718dc54cdfe3a7ddb":[6,1,1,0,1,1097,17],
+"classmrmeshpy_1_1VertBitSet.html#a963265eb5ca4824e14573ba8ec3c222c":[6,1,0,0,2,1097,7],
+"classmrmeshpy_1_1VertBitSet.html#a963265eb5ca4824e14573ba8ec3c222c":[6,1,1,0,1,1097,7],
+"classmrmeshpy_1_1VertBitSet.html#a9a8634a40088c704704ad95aad3d30cb":[6,1,0,0,2,1097,11],
+"classmrmeshpy_1_1VertBitSet.html#a9a8634a40088c704704ad95aad3d30cb":[6,1,1,0,1,1097,11],
 "classmrmeshpy_1_1VertBitSet.html#a9efeed7746912f8eefde3651b2b84ced":[6,1,0,0,2,1097,12],
 "classmrmeshpy_1_1VertBitSet.html#a9efeed7746912f8eefde3651b2b84ced":[6,1,1,0,1,1097,12],
 "classmrmeshpy_1_1VertBitSet.html#aa258db5bc3b9034510a9ec6078c3f579":[6,1,0,0,2,1097,13],
@@ -241,13 +249,5 @@ var NAVTREEINDEX106 =
 "classmrmeshpy_1_1VertCoords2.html#a02e7f2a5fec48805b68a70af79ddfc9b":[6,1,0,0,2,1102,28],
 "classmrmeshpy_1_1VertCoords2.html#a02e7f2a5fec48805b68a70af79ddfc9b":[6,1,1,0,1,1102,28],
 "classmrmeshpy_1_1VertCoords2.html#a0a112e3d9191911ec5c906d07241eb55":[6,1,0,0,2,1102,1],
-"classmrmeshpy_1_1VertCoords2.html#a0a112e3d9191911ec5c906d07241eb55":[6,1,1,0,1,1102,1],
-"classmrmeshpy_1_1VertCoords2.html#a1473d0ba9b50479d140e7963a3b949ff":[6,1,0,0,2,1102,24],
-"classmrmeshpy_1_1VertCoords2.html#a1473d0ba9b50479d140e7963a3b949ff":[6,1,1,0,1,1102,24],
-"classmrmeshpy_1_1VertCoords2.html#a1e0d1523585cb1e99ab5d001b8e81388":[6,1,0,0,2,1102,19],
-"classmrmeshpy_1_1VertCoords2.html#a1e0d1523585cb1e99ab5d001b8e81388":[6,1,1,0,1,1102,19],
-"classmrmeshpy_1_1VertCoords2.html#a2bc32dccd05656984d77021a4f0e127a":[6,1,0,0,2,1102,9],
-"classmrmeshpy_1_1VertCoords2.html#a2bc32dccd05656984d77021a4f0e127a":[6,1,1,0,1,1102,9],
-"classmrmeshpy_1_1VertCoords2.html#a2bc6153448876ec22b46f68b2c986949":[6,1,0,0,2,1102,18],
-"classmrmeshpy_1_1VertCoords2.html#a2bc6153448876ec22b46f68b2c986949":[6,1,1,0,1,1102,18]
+"classmrmeshpy_1_1VertCoords2.html#a0a112e3d9191911ec5c906d07241eb55":[6,1,1,0,1,1102,1]
 };
