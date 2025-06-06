@@ -2029,6 +2029,7 @@ var namespacemrmeshpy =
     [ "offsetPolyline", "namespacemrmeshpy.html#a06eddbe0b733c984a645d595ac96fb8a", null ],
     [ "offsetSurfaceLine", "namespacemrmeshpy.html#ad39f8d79b8ea2d0e1c0f547df729b86a", null ],
     [ "offsetSurfaceLine", "namespacemrmeshpy.html#a4fb02b5999a0cf2f2c8ba29c8c95d74c", null ],
+    [ "offsetVerts", "namespacemrmeshpy.html#a22ac9136c5ef9c7d5cf318991cae39d6", null ],
     [ "OpenDocument", "namespacemrmeshpy.html#a0d84d163a9c39d3237de80aa3ece91bf", null ],
     [ "OpenLink", "namespacemrmeshpy.html#ab0236e0c67b9a164bffcdf9323ddd6cc", null ],
     [ "operator", "namespacemrmeshpy.html#a7136a6afb2449e4f9136469a7c879e80", null ],

@@ -2642,6 +2642,7 @@ var namespaceMR =
     [ "offsetPolyline", "../namespaceMR.html#aa6f9ce8f2f7a4b39c759f54fbfede167", null ],
     [ "offsetSurfaceLine", "../namespaceMR.html#a5c90e7ed0a38e9f1cd9a61f2742f12cc", null ],
     [ "offsetSurfaceLine", "../namespaceMR.html#a8964f9c61140cf585633903f71ced4eb", null ],
+    [ "offsetVerts", "../namespaceMR.html#ab7bf2bfc696e656e6f8336cb2401d725", null ],
     [ "onEdgeSplitFaceAttribute", "../namespaceMR.html#a858bd56c47ccd2af4b01a5bfa189ff64", null ],
     [ "onEdgeSplitVertAttribute", "../namespaceMR.html#a834d4370af921a7bc3c36d95b47f25d5", null ],
     [ "OpenDocument", "../namespaceMR.html#a2d2055c8154d0075f8388ca7579fd794", null ],

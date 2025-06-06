@@ -257,6 +257,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRObjectsAccess.h", "MRObjectsAccess_8h.html", "MRObjectsAccess_8h" ],
     [ "MRObjectSave.h", "MRObjectSave_8h.html", "MRObjectSave_8h" ],
     [ "MROffsetContours.h", "MROffsetContours_8h.html", "MROffsetContours_8h" ],
+    [ "MROffsetVerts.h", "MROffsetVerts_8h.html", "MROffsetVerts_8h" ],
     [ "MROneMeshContours.h", "MROneMeshContours_8h.html", "MROneMeshContours_8h" ],
     [ "MROnInit.h", "MROnInit_8h.html", "MROnInit_8h" ],
     [ "MROrder.h", "MROrder_8h.html", "MROrder_8h" ],
