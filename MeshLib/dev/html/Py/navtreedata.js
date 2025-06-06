@@ -282,14 +282,14 @@ var NAVTREEINDEX =
 "mrmeshpy_8pyi.html#a631ddf3b4248f1a8f6350c2f948d7d4a",
 "mrmeshpy_8pyi.html#a8e7455a2e129548b3044bf469455e992",
 "mrmeshpy_8pyi.html#ab5a6c6611035b1774ec8a9c560a5678d",
-"mrmeshpy_8pyi.html#adcb89924f4bd7f0397935a1a9e75e907",
+"mrmeshpy_8pyi.html#adc6cc09430b5ab93e236efb380d7147b",
 "mrviewerpy_8pyi.html#af16d9c1a524170c3557b83e96344062f",
 "namespacemrmeshpy.html#a16686f3c8eff8c321b89f566ccd85692",
 "namespacemrmeshpy.html#a3c67a1733be73be301a88f13d3cb907a",
 "namespacemrmeshpy.html#a602eac3281c596aedd5c57d7ea50a1ec",
 "namespacemrmeshpy.html#a89e9bc52d7fa62d3f58102f8d934adbd",
 "namespacemrmeshpy.html#ab262b109bf9e5b9c450dd307192e9ed6",
-"namespacemrmeshpy.html#ad84b27e582dcc3b5be67a3ecac14af04",
+"namespacemrmeshpy.html#ad84926dfd9b5084d8875af6a8e3b7f3d",
 "namespacemrviewerpy.html#a4af835cd797e0a5704804f7accd98e5b"
 ];
 
