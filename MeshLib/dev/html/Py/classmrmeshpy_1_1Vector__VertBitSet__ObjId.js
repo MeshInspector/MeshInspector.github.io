@@ -3,7 +3,7 @@ var classmrmeshpy_1_1Vector__VertBitSet__ObjId =
     [ "__init__", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#ab8ecee6a626133724a216b5a4faf047e", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#ac9489021180a7351b08b2ed84f08e556", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a8158db1dd1978bc14f73d798827ecc2d", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#ad95bff0a784815c4f96b51545a5700e2", null ],
+    [ "__init__", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#aea3be54382bfa43c4fbf44fb9f66fcc4", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#adbcb5ef7335a4617a1ee0cfc158bc944", null ],
     [ "__eq__", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#acd1d79d743a2a348823f7d9fac77b30c", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a24809aa734779552680565ce30764bb9", null ],
@@ -38,6 +38,6 @@ var classmrmeshpy_1_1Vector__VertBitSet__ObjId =
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a40cbaaf7ff7670243b8724cb82137200", null ],
     [ "size", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#ab1364c93df4cc8b24fe18fae24729835", null ],
     [ "swap", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#ae3219fac9da2c53cc77436b6d3c22ca8", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a64328d50ff76c830849b7a178de788be", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a8536410501ec5ea300a0d5eb71944806", null ]
+    [ "vec_", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#ac914981136075b793c5527c2da264f2a", null ],
+    [ "vec_", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#aebe0bc69559b1826517d893e3a058d4a", null ]
 ];

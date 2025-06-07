@@ -25,7 +25,7 @@ var searchData=
   ['inactivevoxelcolor_22',['inactiveVoxelColor',['.././Cpp/structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a457b6335d7f051cf9ad4ff3d0d6514a5',1,'MR::MarkedVoxelSlice::Parameters']]],
   ['incidence_23',['incidence',['.././Py/classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams.html#a7ac86f77d6a7eb1a8308834ed4d5175b',1,'mrmeshpy::MeshComponents::ExpandToComponentsParams::incidence'],['.././Cpp/group__MeshComponentsGroup.html#ga9fa4046abd37f9758ba01336676cf2c1',1,'MR::MeshComponents::ExpandToComponentsParams::incidence']]],
   ['index_24',['index',['.././Cpp/structMR_1_1ChunkIterator.html#a987331c567ec798d896b77adaf490fc0',1,'MR::ChunkIterator']]],
-  ['indextype_25',['IndexType',['.././Py/classmrmeshpy_1_1TaggedBitSet__ICPElemtTag.html#a4979e24d4a059bb58139d43d12e54a1c',1,'mrmeshpy::TaggedBitSet_ICPElemtTag']]],
+  ['indextype_25',['IndexType',['.././Py/classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html#a609a7ce47fe0bc9f61b78fd7b2fe4691',1,'mrmeshpy::TypedBitSet_Id_ICPElemtTag']]],
   ['indicatorparams_26',['indicatorParams',['.././Cpp/structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a1c7efed40362c244fe3448ccb9b4f5b8',1,'MR::UI::NonOverlappingLabelTask::Params']]],
   ['indicesmap_27',['indicesMap',['.././Cpp/structMR_1_1OffsetContoursParams.html#a8f22257eec663355f415c139933b24e3',1,'MR::OffsetContoursParams::indicesMap'],['.././Cpp/structMR_1_1PlanarTriangulation_1_1OutlineParameters.html#ad009c4928ad149dd5ce93232c4d495f2',1,'MR::PlanarTriangulation::OutlineParameters::indicesMap']]],
   ['indir_28',['inDir',['.././Cpp/structMR_1_1MeshPoint.html#ae6a8983e822178897c427087d4f65a28',1,'MR::MeshPoint']]],

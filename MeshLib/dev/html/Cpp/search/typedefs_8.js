@@ -9,7 +9,7 @@ var searchData=
   ['imageloader_6',['ImageLoader',['../namespaceMR_1_1ImageLoad.html#a13d83aa7ec99dc7a9ae166be69ecac53',1,'MR::ImageLoad']]],
   ['imagesaver_7',['ImageSaver',['../namespaceMR_1_1ImageSave.html#af787ba09d658e9fdb5560be6d9d7f2eb',1,'MR::ImageSave']]],
   ['imguitreenodeflags_8',['ImGuiTreeNodeFlags',['../classMR_1_1SceneObjectsListDrawer.html#adef3ad4d7054ccf6e99aba195fc29cf8',1,'MR::SceneObjectsListDrawer']]],
-  ['indextype_9',['IndexType',['../classMR_1_1BitSet.html#a0427884dece1dde1fa25caaa7b2aaba9',1,'MR::BitSet::IndexType'],['../classMR_1_1TaggedBitSet.html#aee1dc472d197dae5a76f707615ccf080',1,'MR::TaggedBitSet::IndexType'],['../classMR_1_1SetBitIteratorT.html#a819b9dc59c1187b38e0a0793779bb8b0',1,'MR::SetBitIteratorT::IndexType']]],
+  ['indextype_9',['IndexType',['../classMR_1_1BitSet.html#a0427884dece1dde1fa25caaa7b2aaba9',1,'MR::BitSet::IndexType'],['../classMR_1_1TypedBitSet.html#a7434b47b953a52e27cb6a6c645c7ca9e',1,'MR::TypedBitSet::IndexType'],['../classMR_1_1SetBitIteratorT.html#a819b9dc59c1187b38e0a0793779bb8b0',1,'MR::SetBitIteratorT::IndexType']]],
   ['inputtype_10',['InputType',['../structMR_1_1ConeFittingFunctor.html#a369f95839764bbea9a5f5db04ec360ae',1,'MR::ConeFittingFunctor']]],
   ['interruptclosesignal_11',['InterruptCloseSignal',['../classMR_1_1Viewer.html#a0d931c18f1c5ba9e57ae595db1a20d0b',1,'MR::Viewer']]],
   ['interruptfunc_12',['InterruptFunc',['../classMR_1_1RangeProcessor.html#aa315166f6f42d40bb94f5fc8380fca08',1,'MR::RangeProcessor::InterruptFunc'],['../classMR_1_1RangeProcessorSingle.html#a3dd22e8ad777958bc8dd5ca24697cab1',1,'MR::RangeProcessorSingle::InterruptFunc']]],

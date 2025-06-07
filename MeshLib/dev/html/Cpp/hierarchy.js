@@ -318,9 +318,7 @@ var hierarchy =
     [ "MR::RibbonMenu::DrawGroupConfig", "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html", null ],
     [ "boost::dynamic_bitset", null, [
       [ "MR::BitSet", "classMR_1_1BitSet.html", [
-        [ "MR::TaggedBitSet< Tag >", "classMR_1_1TaggedBitSet.html", null ],
-        [ "MR::TaggedBitSet< RegionTag >", "classMR_1_1TaggedBitSet.html", null ],
-        [ "MR::TaggedBitSet< T >", "classMR_1_1TaggedBitSet.html", null ]
+        [ "MR::TypedBitSet< I >", "classMR_1_1TypedBitSet.html", null ]
       ] ]
     ] ],
     [ "MR::PointsLoad::E57LoadSettings", "structMR_1_1PointsLoad_1_1E57LoadSettings.html", null ],

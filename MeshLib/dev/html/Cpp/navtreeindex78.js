@@ -1,11 +1,5 @@
 var NAVTREEINDEX78 =
 {
-"structMR_1_1ModalDialogSettings.html#af4bb1e08280d27647734c03a24b716e5":[6,0,2,0,1,376,3],
-"structMR_1_1ModalDialogSettings.html#aff877b60069cbba358ec18108751d01b":[6,0,1,0,1,392,6],
-"structMR_1_1ModalDialogSettings.html#aff877b60069cbba358ec18108751d01b":[6,0,2,0,1,376,6],
-"structMR_1_1ModelBaseRenderParams.html":[6,0,1,0,1,393],
-"structMR_1_1ModelBaseRenderParams.html":[6,0,2,0,1,377],
-"structMR_1_1ModelBaseRenderParams.html#a28337d3d5f8f9cc1db7812bca629ce40":[6,0,1,0,1,393,2],
 "structMR_1_1ModelBaseRenderParams.html#a28337d3d5f8f9cc1db7812bca629ce40":[6,0,2,0,1,377,2],
 "structMR_1_1ModelBaseRenderParams.html#a4c79d51067cd63730f681f5aa2c4ad67":[6,0,1,0,1,393,1],
 "structMR_1_1ModelBaseRenderParams.html#a4c79d51067cd63730f681f5aa2c4ad67":[6,0,2,0,1,377,1],
@@ -249,5 +243,11 @@ var NAVTREEINDEX78 =
 "structMR_1_1NumSum.html#a6e4c85d138945344d45fda05ab558710":[6,0,2,0,1,413,0],
 "structMR_1_1NumSum.html#adab70c85e9a40a08c221e2a031274326":[6,0,1,0,1,429,3],
 "structMR_1_1NumSum.html#adab70c85e9a40a08c221e2a031274326":[6,0,2,0,1,413,3],
-"structMR_1_1NumSum.html#afd716f4242e9554e7900e18a890be1fa":[6,0,1,0,1,429,2]
+"structMR_1_1NumSum.html#afd716f4242e9554e7900e18a890be1fa":[6,0,1,0,1,429,2],
+"structMR_1_1NumSum.html#afd716f4242e9554e7900e18a890be1fa":[6,0,2,0,1,413,2],
+"structMR_1_1ObjKindTraits.html":[6,0,1,0,1,447],
+"structMR_1_1ObjKindTraits.html":[6,0,2,0,1,431],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html":[6,0,1,0,1,448],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html":[6,0,2,0,1,432],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html#a8c3def19c3370adb07aa8f4dc2dac79a":[6,0,1,0,1,448,0]
 };

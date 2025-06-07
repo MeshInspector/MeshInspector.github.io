@@ -1,8 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"MRObjectPointsHolder_8h.html#acdce382a246b8c333783f28615aac9f0":[6,0,3,0,0,1,4,253,5],
-"MRObjectPointsHolder_8h.html#afef5d869778f6e470421c5e70529110c":[6,0,3,0,0,1,4,253,2],
-"MRObjectPointsHolder_8h_source.html":[6,0,3,0,0,1,4,253],
 "MRObjectPoints_8h.html":[6,0,3,0,0,1,4,252],
 "MRObjectPoints_8h.html#a0bc9f97aed9da24cf8d3c368ec4ffd0b":[6,0,3,0,0,1,4,252,1],
 "MRObjectPoints_8h.html#a86837deb8b4177b9b719b1faf4d2d0e8":[6,0,3,0,0,1,4,252,0],
@@ -249,5 +246,8 @@ var NAVTREEINDEX11 =
 "MRPolylineToVoxels_8h_source.html":[6,0,3,0,0,1,11,21],
 "MRPolylineTopology_8h.html":[6,0,3,0,0,1,4,303],
 "MRPolylineTopology_8h_source.html":[6,0,3,0,0,1,4,303],
-"MRPolylineTrimWithPlane_8h.html":[6,0,3,0,0,1,4,304]
+"MRPolylineTrimWithPlane_8h.html":[6,0,3,0,0,1,4,304],
+"MRPolylineTrimWithPlane_8h.html#a021c68ef31d7ddce5af4dffb3ebf6bc3":[6,0,3,0,0,1,4,304,1],
+"MRPolylineTrimWithPlane_8h.html#a1e14b7efccdf368c6f649270adf4fbc6":[6,0,3,0,0,1,4,304,3],
+"MRPolylineTrimWithPlane_8h.html#aa175288fa2fb892330efe3669b9bd578":[6,0,3,0,0,1,4,304,5]
 };
