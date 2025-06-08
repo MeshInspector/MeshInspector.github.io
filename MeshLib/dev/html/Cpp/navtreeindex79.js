@@ -1,5 +1,7 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1NumSum.html#adab70c85e9a40a08c221e2a031274326":[6,0,1,0,1,429,3],
+"structMR_1_1NumSum.html#adab70c85e9a40a08c221e2a031274326":[6,0,2,0,1,413,3],
 "structMR_1_1NumSum.html#afd716f4242e9554e7900e18a890be1fa":[6,0,1,0,1,429,2],
 "structMR_1_1NumSum.html#afd716f4242e9554e7900e18a890be1fa":[6,0,2,0,1,413,2],
 "structMR_1_1ObjKindTraits.html":[6,0,1,0,1,447],
@@ -247,7 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1Palette_1_1Parameters.html#a25a6807ebee10dcb03a9e00733288113":[6,0,2,0,1,459,1,1],
 "structMR_1_1Palette_1_1Parameters.html#a9a1c14b8de7d2c34b832c70062d489b9":[6,0,1,0,1,475,1,3],
 "structMR_1_1Palette_1_1Parameters.html#a9a1c14b8de7d2c34b832c70062d489b9":[6,0,2,0,1,459,1,3],
-"structMR_1_1Palette_1_1Parameters.html#ae9f6c64d1d00c242d6863b39c8a466fe":[6,0,1,0,1,475,1,2],
-"structMR_1_1Palette_1_1Parameters.html#ae9f6c64d1d00c242d6863b39c8a466fe":[6,0,2,0,1,459,1,2],
-"structMR_1_1Parabola.html":[6,0,1,0,1,477]
+"structMR_1_1Palette_1_1Parameters.html#ae9f6c64d1d00c242d6863b39c8a466fe":[6,0,1,0,1,475,1,2]
 };

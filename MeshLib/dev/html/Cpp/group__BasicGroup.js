@@ -196,6 +196,8 @@ var group__BasicGroup =
       [ "UnionFind", "classMR_1_1UnionFind.html#a67ccf008e0816480dca10b19c530a7b1", null ],
       [ "UnionFind", "classMR_1_1UnionFind.html#a661398df57a710beae6f4b7c19ac3006", null ],
       [ "find", "classMR_1_1UnionFind.html#a26e79fd903c0229dbd2f66a80549c75b", null ],
+      [ "findComponentBitSet", "classMR_1_1UnionFind.html#a8cb8c700895057fe106d2246628bb3b8", null ],
+      [ "findRootsBitSet", "classMR_1_1UnionFind.html#ae1ce835bcf47d774067416ae58611cf2", null ],
       [ "findUpdateRange", "classMR_1_1UnionFind.html#abf32e7c70e8d67a82d759ad44a5b08c1", null ],
       [ "parents", "classMR_1_1UnionFind.html#addfb36167fbd876c96379b175c755a5b", null ],
       [ "reset", "classMR_1_1UnionFind.html#a6a74089f75f3b88edf1a6fb0beba1e13", null ],

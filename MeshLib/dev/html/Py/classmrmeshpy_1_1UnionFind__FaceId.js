@@ -4,6 +4,8 @@ var classmrmeshpy_1_1UnionFind__FaceId =
     [ "__init__", "classmrmeshpy_1_1UnionFind__FaceId.html#a8dbc0ef21f19e8eec7a0a52fe032e950", null ],
     [ "__init__", "classmrmeshpy_1_1UnionFind__FaceId.html#aa8f02d780823f215b3aaed5f8f9fcfe9", null ],
     [ "find", "classmrmeshpy_1_1UnionFind__FaceId.html#a8a1d2127760db16291d96e629a8ad068", null ],
+    [ "findComponentBitSet", "classmrmeshpy_1_1UnionFind__FaceId.html#afd866ee376523dbc9b7e0a62188890be", null ],
+    [ "findRootsBitSet", "classmrmeshpy_1_1UnionFind__FaceId.html#a00d3a094d606a1780d451df12d0a1428", null ],
     [ "findUpdateRange", "classmrmeshpy_1_1UnionFind__FaceId.html#a8a2c6d7eaa32c8ba00b8883bcb4cf52e", null ],
     [ "parents", "classmrmeshpy_1_1UnionFind__FaceId.html#a9360a39eb91dd96192d72e5593d807ec", null ],
     [ "reset", "classmrmeshpy_1_1UnionFind__FaceId.html#a8d70844840c9c897142a440f31fd1b72", null ],

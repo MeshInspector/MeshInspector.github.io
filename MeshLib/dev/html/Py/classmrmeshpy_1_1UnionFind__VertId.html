@@ -168,6 +168,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4d4b88b6d60dd1dfd3fa8d3eae0edb1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10ea5991461c4f10ff3f58aa4abbb506" id="r_a10ea5991461c4f10ff3f58aa4abbb506"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10ea5991461c4f10ff3f58aa4abbb506">find</a> (self, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> a)</td></tr>
 <tr class="separator:a10ea5991461c4f10ff3f58aa4abbb506"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae044a4f0ce135bb4597a0cc23ef410e0" id="r_ae044a4f0ce135bb4597a0cc23ef410e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae044a4f0ce135bb4597a0cc23ef410e0">findComponentBitSet</a> (self, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> a, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> region=None)</td></tr>
+<tr class="separator:ae044a4f0ce135bb4597a0cc23ef410e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72c3249ba4d007b28772505bee8919be" id="r_a72c3249ba4d007b28772505bee8919be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72c3249ba4d007b28772505bee8919be">findRootsBitSet</a> (self, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> region=None)</td></tr>
+<tr class="separator:a72c3249ba4d007b28772505bee8919be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c33811d07fde956c7fd1c47ec8e51f1" id="r_a0c33811d07fde956c7fd1c47ec8e51f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c33811d07fde956c7fd1c47ec8e51f1">findUpdateRange</a> (self, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> a, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> <a class="el" href="namespacemrmeshpy.html#a00d7b5d0e585655a6613124b0deb7e10">begin</a>, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> <a class="el" href="namespacemrmeshpy.html#ad2dabc0b6caa86d6f8b767a776130c8b">end</a>)</td></tr>
 <tr class="separator:a0c33811d07fde956c7fd1c47ec8e51f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ee113dfce61f4f263d6e02b565feb78" id="r_a2ee113dfce61f4f263d6e02b565feb78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertMap.html">VertMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ee113dfce61f4f263d6e02b565feb78">parents</a> (self)</td></tr>
@@ -277,6 +281,57 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <pre class="fragment">finds the root of the set containing given element with optimizing data structure updates
+</pre> 
+</div>
+</div>
+<a id="ae044a4f0ce135bb4597a0cc23ef410e0" name="ae044a4f0ce135bb4597a0cc23ef410e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae044a4f0ce135bb4597a0cc23ef410e0">&#9670;&#160;</a></span>findComponentBitSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> mrmeshpy.UnionFind_VertId.findComponentBitSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> </td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">constructs in parallel the bitset with 1-bits corresponding to the elements from same set as (a);
+if region is provided then only its elements will be checked
+</pre> 
+</div>
+</div>
+<a id="a72c3249ba4d007b28772505bee8919be" name="a72c3249ba4d007b28772505bee8919be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72c3249ba4d007b28772505bee8919be">&#9670;&#160;</a></span>findRootsBitSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> mrmeshpy.UnionFind_VertId.findRootsBitSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> </td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">constructs in parallel the bitset with 1-bits corresponding to root elements;
+if region is provided then only its elements will be checked
 </pre> 
 </div>
 </div>

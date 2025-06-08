@@ -1,5 +1,7 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1ModalDialogSettings.html#aa6a1e75f223b26a6dc2ad1ddd9771ab4":[6,0,1,0,1,392,0],
+"structMR_1_1ModalDialogSettings.html#aa6a1e75f223b26a6dc2ad1ddd9771ab4":[6,0,2,0,1,376,0],
 "structMR_1_1ModalDialogSettings.html#af4bb1e08280d27647734c03a24b716e5":[6,0,1,0,1,392,3],
 "structMR_1_1ModalDialogSettings.html#af4bb1e08280d27647734c03a24b716e5":[6,0,2,0,1,376,3],
 "structMR_1_1ModalDialogSettings.html#aff877b60069cbba358ec18108751d01b":[6,0,1,0,1,392,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1NumSum.html#a0fe6b707b49d42eb921bab61a351f02f":[6,0,1,0,1,429,1],
 "structMR_1_1NumSum.html#a0fe6b707b49d42eb921bab61a351f02f":[6,0,2,0,1,413,1],
 "structMR_1_1NumSum.html#a6e4c85d138945344d45fda05ab558710":[6,0,1,0,1,429,0],
-"structMR_1_1NumSum.html#a6e4c85d138945344d45fda05ab558710":[6,0,2,0,1,413,0],
-"structMR_1_1NumSum.html#adab70c85e9a40a08c221e2a031274326":[6,0,1,0,1,429,3],
-"structMR_1_1NumSum.html#adab70c85e9a40a08c221e2a031274326":[6,0,2,0,1,413,3]
+"structMR_1_1NumSum.html#a6e4c85d138945344d45fda05ab558710":[6,0,2,0,1,413,0]
 };

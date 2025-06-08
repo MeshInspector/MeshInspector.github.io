@@ -1,5 +1,7 @@
 var NAVTREEINDEX90 =
 {
+"structMR_1_1VolumeToMeshByPartsSettings.html#addf979a4cc4d34fb2f506e84d1a9cf7a":[6,0,0,17,5,0],
+"structMR_1_1VoxelLocation.html":[6,0,0,17,0,0],
 "structMR_1_1VoxelMetricParameters.html":[6,0,0,17,3,0],
 "structMR_1_1VoxelMetricParameters.html#a3ae620491a9dd4eff4445eb022a73b7e":[6,0,0,17,3,0,0],
 "structMR_1_1VoxelMetricParameters.html#a4a39f4473b82dc98d9b380e6c081a438":[6,0,0,17,3,0,2],

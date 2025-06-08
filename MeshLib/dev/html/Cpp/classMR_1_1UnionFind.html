@@ -203,6 +203,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a009ad612aecca5afb9b91768536c406f" id="r_a009ad612aecca5afb9b91768536c406f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ad07cce64defb1fcef686551aecfd55d0">SizeType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a009ad612aecca5afb9b91768536c406f">sizeOfComp</a> (I a)</td></tr>
 <tr class="memdesc:a009ad612aecca5afb9b91768536c406f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of elements in the set containing given element  <br /></td></tr>
 <tr class="separator:a009ad612aecca5afb9b91768536c406f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1ce835bcf47d774067416ae58611cf2" id="r_ae1ce835bcf47d774067416ae58611cf2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1ce835bcf47d774067416ae58611cf2">findRootsBitSet</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; *region=nullptr) const</td></tr>
+<tr class="separator:ae1ce835bcf47d774067416ae58611cf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cb8c700895057fe106d2246628bb3b8" id="r_a8cb8c700895057fe106d2246628bb3b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cb8c700895057fe106d2246628bb3b8">findComponentBitSet</a> (I a, const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; *region=nullptr)</td></tr>
+<tr class="separator:a8cb8c700895057fe106d2246628bb3b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename I&gt;<br />
@@ -316,6 +320,50 @@ template&lt;typename I &gt; </div>
 </div><div class="memdoc">
 
 <p>finds the root of the set containing given element with optimizing data structure updates </p>
+
+</div>
+</div>
+<a id="a8cb8c700895057fe106d2246628bb3b8" name="a8cb8c700895057fe106d2246628bb3b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cb8c700895057fe106d2246628bb3b8">&#9670;&#160;</a></span>findComponentBitSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename I &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; <a class="el" href="classMR_1_1UnionFind.html">MR::UnionFind</a>&lt; I &gt;::findComponentBitSet </td>
+          <td>(</td>
+          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>constructs in parallel the bitset with 1-bits corresponding to the elements from same set as (a); if region is provided then only its elements will be checked </p>
+
+</div>
+</div>
+<a id="ae1ce835bcf47d774067416ae58611cf2" name="ae1ce835bcf47d774067416ae58611cf2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1ce835bcf47d774067416ae58611cf2">&#9670;&#160;</a></span>findRootsBitSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename I &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; <a class="el" href="classMR_1_1UnionFind.html">MR::UnionFind</a>&lt; I &gt;::findRootsBitSet </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>constructs in parallel the bitset with 1-bits corresponding to root elements; if region is provided then only its elements will be checked </p>
 
 </div>
 </div>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX87 =
 {
+"structMR_1_1TransformControls_1_1VisualParams.html#a2000340dcc4b3b42415a4a5113590373":[6,0,1,0,1,725,0,6],
+"structMR_1_1TransformControls_1_1VisualParams.html#a2000340dcc4b3b42415a4a5113590373":[6,0,2,0,1,709,0,6],
 "structMR_1_1TransformControls_1_1VisualParams.html#a263e10cb84fcd843581cc2aeea08d6a2":[6,0,1,0,1,725,0,11],
 "structMR_1_1TransformControls_1_1VisualParams.html#a263e10cb84fcd843581cc2aeea08d6a2":[6,0,2,0,1,709,0,11],
 "structMR_1_1TransformControls_1_1VisualParams.html#a45ae30c1c11cd9efdb0c1ffb4e90c2f7":[6,0,1,0,1,725,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX87 =
 "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a423ad35700fd7a37eae40c7cba627783":[6,0,1,0,1,38,10,0,0],
 "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a423ad35700fd7a37eae40c7cba627783":[6,0,2,0,1,23,9,0,0],
 "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a7bad8f2ab7400f08c728b644d1b1033e":[6,0,1,0,1,38,10,0,1],
-"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a7bad8f2ab7400f08c728b644d1b1033e":[6,0,2,0,1,23,9,0,1],
-"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a97ed99b906b672210756ad692b5a3a2a":[6,0,1,0,1,38,10,0,2],
-"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a97ed99b906b672210756ad692b5a3a2a":[6,0,2,0,1,23,9,0,2]
+"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a7bad8f2ab7400f08c728b644d1b1033e":[6,0,2,0,1,23,9,0,1]
 };
