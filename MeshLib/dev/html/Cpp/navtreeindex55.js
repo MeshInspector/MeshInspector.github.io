@@ -1,5 +1,12 @@
 var NAVTREEINDEX55 =
 {
+"group__SerializerGroup.html#ga88cac564b83aea9e1d7a37332fa81d50":[6,0,0,2,15,15],
+"group__SerializerGroup.html#ga890eacf2c6391cbf6dbb98c6bbb0fa28":[6,0,0,2,15,50],
+"group__SerializerGroup.html#ga8ba498d211b2a813befa63f55a7446cd":[6,0,0,2,15,7],
+"group__SerializerGroup.html#ga9f65600bd6b7fb223ab125f81c96ae25":[6,0,0,2,15,3],
+"group__SerializerGroup.html#gaa6c9fafbe5675e06061b897d2e92f138":[6,0,0,2,15,4],
+"group__SerializerGroup.html#gaa945fd69c2b9a828d6f34e7bc34b9df3":[6,0,0,2,15,19],
+"group__SerializerGroup.html#gaad585756b5bd8e2e9e6994cfc8f5b0fb":[6,0,0,2,15,13],
 "group__SerializerGroup.html#gaaeef0bd02442f441b66c7decaabd2047":[6,0,0,2,15,28],
 "group__SerializerGroup.html#gab49dd82250557d820cf52d7cd3a59464":[6,0,0,2,15,6],
 "group__SerializerGroup.html#gab5e07b1a572a894ec06e8bb8113827e6":[6,0,0,2,15,27],
@@ -242,12 +249,5 @@ var NAVTREEINDEX55 =
 "group__VoxelsLoadGroup.html#gae5828d9a431d4b30b9d90a66a7fa0e9d":[6,0,0,2,17,8],
 "group__VoxelsLoadGroup.html#gaff744634fa4916b622b9c213b3a37243":[6,0,0,2,17,9],
 "hierarchy.html":[6,0,2,2],
-"index.html":[],
-"namespaceImGui.html":[6,0,1,0,0],
-"namespaceImGui.html#a01e8908c9ff42e3510168251a97f1d48":[6,0,1,0,0,8],
-"namespaceImGui.html#a023d8107acf5b52a1594c2b935b824f0":[6,0,1,0,0,10],
-"namespaceImGui.html#a05c747c1c3e6b5e5f9435452360a521f":[6,0,1,0,0,18],
-"namespaceImGui.html#a1518948fa064c73b105776a73da476dc":[6,0,1,0,0,14],
-"namespaceImGui.html#a1fb7653d1377ce1f2dd7a8f9d1057615":[6,0,1,0,0,22],
-"namespaceImGui.html#a22263f205e7e3988ff6be4e152a963a6":[6,0,1,0,0,21]
+"index.html":[]
 };

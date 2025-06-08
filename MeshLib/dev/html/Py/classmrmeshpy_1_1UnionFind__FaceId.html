@@ -189,8 +189,11 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><pre class="fragment">Generated from:  MR::UnionFind&lt;MR::FaceId&gt;
 
 
-\\brief Simple union find data structure
-\\tparam I is an id type, e.g. FaceId
+\\brief Union-find data structure for representing disjoin sets of elements with few very quick operations:
+1) union of two sets in one,
+2) checking whether two elements pertain to the same set,
+3) finding representative element (root) of each set by any set's element
+\\tparam I is the identifier of a set's element, e.g. FaceId
 \\ingroup BasicGroup
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5921a8b7a46e08ce74fc65ad09747df3" name="a5921a8b7a46e08ce74fc65ad09747df3"></a>
@@ -228,7 +231,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates union-find with given number of elements, each element is the only one in its disjoint set
+</pre> 
 </div>
 </div>
 <a id="aa8f02d780823f215b3aaed5f8f9fcfe9" name="aa8f02d780823f215b3aaed5f8f9fcfe9"></a>
@@ -322,7 +326,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">gets the parents of all elements as in
+<pre class="fragment">gets the parents of all elements as is
 </pre> 
 </div>
 </div>
@@ -344,7 +348,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">reset roots to represent each element as disjoint set of rank 0
+<pre class="fragment">resets union-find to represent given number of elements, each element is the only one in its disjoint set
 </pre> 
 </div>
 </div>
@@ -362,7 +366,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">sets the root as the parent of each element, then returns the vector
+<pre class="fragment">sets the root of corresponding set as the parent of each element, then returns the vector
 </pre> 
 </div>
 </div>
@@ -380,7 +384,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">returns the number of elements in union-find
+</pre> 
 </div>
 </div>
 <a id="a095da7ec694ec72054dd43c6d33fc1b3" name="a095da7ec694ec72054dd43c6d33fc1b3"></a>
@@ -401,7 +406,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">returns the size of component containing given element
+<pre class="fragment">returns the number of elements in the set containing given element
 </pre> 
 </div>
 </div>
@@ -456,7 +461,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">returns true if given two elements are from one component
+<pre class="fragment">returns true if given two elements are from one set
 </pre> 
 </div>
 </div>
