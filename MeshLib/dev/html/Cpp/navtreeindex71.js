@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1Features_1_1Primitives_1_1Plane.html#a8ad7586da649f116dbeefd965f5ff897":[6,0,1,0,1,6,0,1,2],
+"structMR_1_1Features_1_1Primitives_1_1Plane.html#a8ad7586da649f116dbeefd965f5ff897":[6,0,2,0,1,2,0,1,2],
 "structMR_1_1Features_1_1Primitives_1_1Plane.html#aaef9e3698f1254ac0f28afb12046695d":[6,0,1,0,1,6,0,1,4],
 "structMR_1_1Features_1_1Primitives_1_1Plane.html#aaef9e3698f1254ac0f28afb12046695d":[6,0,2,0,1,2,0,1,4],
 "structMR_1_1Features_1_1SubfeatureInfo.html":[6,0,1,0,1,6,3],
@@ -240,14 +242,12 @@ var NAVTREEINDEX71 =
 "structMR_1_1FixUndercuts_1_1FixParams.html#a0b82b3ed40ea6b099489b664630a2e27":[6,0,2,0,1,3,2,0],
 "structMR_1_1FixUndercuts_1_1FixParams.html#a563ee145e303eb2d0a3cd31b71ca7344":[6,0,1,0,1,7,2,1],
 "structMR_1_1FixUndercuts_1_1FixParams.html#a563ee145e303eb2d0a3cd31b71ca7344":[6,0,2,0,1,3,2,1],
-"structMR_1_1FixUndercuts_1_1FixParams.html#a6d4290fa46807217ffa96e93f832b506":[6,0,1,0,1,7,2,4],
-"structMR_1_1FixUndercuts_1_1FixParams.html#a6d4290fa46807217ffa96e93f832b506":[6,0,2,0,1,3,2,4],
+"structMR_1_1FixUndercuts_1_1FixParams.html#a6d4290fa46807217ffa96e93f832b506":[6,0,1,0,1,7,2,5],
+"structMR_1_1FixUndercuts_1_1FixParams.html#a6d4290fa46807217ffa96e93f832b506":[6,0,2,0,1,3,2,5],
+"structMR_1_1FixUndercuts_1_1FixParams.html#a86fb3b02eb0f9d3df9cdeb8e1b66ca22":[6,0,1,0,1,7,2,4],
+"structMR_1_1FixUndercuts_1_1FixParams.html#a86fb3b02eb0f9d3df9cdeb8e1b66ca22":[6,0,2,0,1,3,2,4],
 "structMR_1_1FixUndercuts_1_1FixParams.html#afe6f6f22b57da33fbbf890e866b20af0":[6,0,1,0,1,7,2,2],
 "structMR_1_1FixUndercuts_1_1FixParams.html#afe6f6f22b57da33fbbf890e866b20af0":[6,0,2,0,1,3,2,2],
 "structMR_1_1FixUndercuts_1_1FixParams.html#aff2c0877c0a9eac16128d033db2d2860":[6,0,1,0,1,7,2,3],
-"structMR_1_1FixUndercuts_1_1FixParams.html#aff2c0877c0a9eac16128d033db2d2860":[6,0,2,0,1,3,2,3],
-"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html":[6,0,1,0,1,7,3],
-"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html":[6,0,2,0,1,3,3],
-"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#a6822b43f8eb010ed7b72c8159db3f7a6":[6,0,1,0,1,7,3,2],
-"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#a6822b43f8eb010ed7b72c8159db3f7a6":[6,0,2,0,1,3,3,2]
+"structMR_1_1FixUndercuts_1_1FixParams.html#aff2c0877c0a9eac16128d033db2d2860":[6,0,2,0,1,3,2,3]
 };

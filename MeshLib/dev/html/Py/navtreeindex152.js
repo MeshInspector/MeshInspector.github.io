@@ -1,5 +1,9 @@
 var NAVTREEINDEX152 =
 {
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#af6391be4e1318e0e3b533ff3f326ad31":[6,1,0,0,2,918,6],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#af6391be4e1318e0e3b533ff3f326ad31":[6,1,1,0,1,918,6],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__Object__const.html":[6,1,0,0,2,910],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__Object__const.html":[6,1,1,0,1,910],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__Object__const.html#a04f8d49f30dd8a1d7748955095c55a48":[6,1,0,0,2,910,18],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__Object__const.html#a04f8d49f30dd8a1d7748955095c55a48":[6,1,1,0,1,910,18],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__Object__const.html#a04fb05fa0f96ca9b2e4a6482f341f3ae":[6,1,0,0,2,910,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX152 =
 "classmrmeshpy_1_1std__vector__std__string.html#ae7aefb9080fc2f7ef08bbca23f00e983":[6,1,0,0,2,921,29],
 "classmrmeshpy_1_1std__vector__std__string.html#ae7aefb9080fc2f7ef08bbca23f00e983":[6,1,1,0,1,921,29],
 "classmrmeshpy_1_1std__vector__std__string.html#af8efa21f9cf8e0de62af4e2caa9231dc":[6,1,0,0,2,921,20],
-"classmrmeshpy_1_1std__vector__std__string.html#af8efa21f9cf8e0de62af4e2caa9231dc":[6,1,1,0,1,921,20],
-"classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html":[6,1,0,0,2,922],
-"classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html":[6,1,1,0,1,922],
-"classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html#a0488161a7cb01a0685a99a219e78d916":[6,1,0,0,2,922,10],
-"classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html#a0488161a7cb01a0685a99a219e78d916":[6,1,1,0,1,922,10]
+"classmrmeshpy_1_1std__vector__std__string.html#af8efa21f9cf8e0de62af4e2caa9231dc":[6,1,1,0,1,921,20]
 };

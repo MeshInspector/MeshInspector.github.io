@@ -158,7 +158,7 @@ $(function(){initNavTree('structMR_1_1FixUndercuts_1_1FixParams.html',''); initR
 </div><!--header-->
 <div class="contents">
 
-<p>Fix undercuts function paramters.  
+<p>Fix undercuts function parameters.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="MRFixUndercuts_8h_source.html">MRFixUndercuts.h</a>&gt;</code></p>
@@ -177,11 +177,14 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aff2c0877c0a9eac16128d033db2d2860" id="r_aff2c0877c0a9eac16128d033db2d2860"><td class="memItemLeft" align="right" valign="top">const FaceBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff2c0877c0a9eac16128d033db2d2860">region</a> = nullptr</td></tr>
 <tr class="memdesc:aff2c0877c0a9eac16128d033db2d2860"><td class="mdescLeft">&#160;</td><td class="mdescRight">if set - only this region will be fixed (but still all mesh will be rebuild)  <br /></td></tr>
 <tr class="separator:aff2c0877c0a9eac16128d033db2d2860"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86fb3b02eb0f9d3df9cdeb8e1b66ca22" id="r_a86fb3b02eb0f9d3df9cdeb8e1b66ca22"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86fb3b02eb0f9d3df9cdeb8e1b66ca22">smooth</a> = false</td></tr>
+<tr class="memdesc:a86fb3b02eb0f9d3df9cdeb8e1b66ca22"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true applies one iterations of gaussian filtering for voxels, useful if thin walls expected  <br /></td></tr>
+<tr class="separator:a86fb3b02eb0f9d3df9cdeb8e1b66ca22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a563ee145e303eb2d0a3cd31b71ca7344" id="r_a563ee145e303eb2d0a3cd31b71ca7344"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a563ee145e303eb2d0a3cd31b71ca7344">cb</a></td></tr>
 <tr class="separator:a563ee145e303eb2d0a3cd31b71ca7344"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Fix undercuts function paramters. </p>
+<div class="textblock"><p>Fix undercuts function parameters. </p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a0b82b3ed40ea6b099489b664630a2e27" name="a0b82b3ed40ea6b099489b664630a2e27"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0b82b3ed40ea6b099489b664630a2e27">&#9670;&#160;</a></span>bottomExtension</h2>
@@ -242,6 +245,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>if set - only this region will be fixed (but still all mesh will be rebuild) </p>
+
+</div>
+</div>
+<a id="a86fb3b02eb0f9d3df9cdeb8e1b66ca22" name="a86fb3b02eb0f9d3df9cdeb8e1b66ca22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86fb3b02eb0f9d3df9cdeb8e1b66ca22">&#9670;&#160;</a></span>smooth</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::FixUndercuts::FixParams::smooth = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>if true applies one iterations of gaussian filtering for voxels, useful if thin walls expected </p>
 
 </div>
 </div>

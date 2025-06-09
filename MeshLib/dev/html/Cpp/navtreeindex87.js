@@ -1,5 +1,9 @@
 var NAVTREEINDEX87 =
 {
+"structMR_1_1TransformControls_1_1VisualParams.html#a04d8b2be8f4de0ff07797799a68c1697":[6,0,1,0,1,725,0,12],
+"structMR_1_1TransformControls_1_1VisualParams.html#a04d8b2be8f4de0ff07797799a68c1697":[6,0,2,0,1,709,0,12],
+"structMR_1_1TransformControls_1_1VisualParams.html#a1e0d693cf0129f26df13421c207495df":[6,0,1,0,1,725,0,8],
+"structMR_1_1TransformControls_1_1VisualParams.html#a1e0d693cf0129f26df13421c207495df":[6,0,2,0,1,709,0,8],
 "structMR_1_1TransformControls_1_1VisualParams.html#a2000340dcc4b3b42415a4a5113590373":[6,0,1,0,1,725,0,6],
 "structMR_1_1TransformControls_1_1VisualParams.html#a2000340dcc4b3b42415a4a5113590373":[6,0,2,0,1,709,0,6],
 "structMR_1_1TransformControls_1_1VisualParams.html#a263e10cb84fcd843581cc2aeea08d6a2":[6,0,1,0,1,725,0,11],
@@ -245,9 +249,5 @@ var NAVTREEINDEX87 =
 "structMR_1_1UI_1_1RadioButtonOrModifierState.html#aef2b0d98c760a75a666aedd5cf4143c5":[6,0,1,0,1,38,9,0],
 "structMR_1_1UI_1_1RadioButtonOrModifierState.html#aef2b0d98c760a75a666aedd5cf4143c5":[6,0,2,0,1,23,8,0],
 "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html":[6,0,1,0,1,38,10,0],
-"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html":[6,0,2,0,1,23,9,0],
-"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a423ad35700fd7a37eae40c7cba627783":[6,0,1,0,1,38,10,0,0],
-"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a423ad35700fd7a37eae40c7cba627783":[6,0,2,0,1,23,9,0,0],
-"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a7bad8f2ab7400f08c728b644d1b1033e":[6,0,1,0,1,38,10,0,1],
-"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a7bad8f2ab7400f08c728b644d1b1033e":[6,0,2,0,1,23,9,0,1]
+"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html":[6,0,2,0,1,23,9,0]
 };

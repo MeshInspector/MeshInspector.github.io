@@ -195,6 +195,11 @@ Functions</h2></td></tr>
 <tr class="memitem:gaaa65eb4d7a6f3cf6b9682a32de1e0915" id="r_gaaa65eb4d7a6f3cf6b9682a32de1e0915"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="elRef" href="../namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaa65eb4d7a6f3cf6b9682a32de1e0915">MR::cropped</a> (const <a class="elRef" href="../namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, const Box3i &amp;box, <a class="el" href="#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memdesc:gaaa65eb4d7a6f3cf6b9682a32de1e0915"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cropped grid  <br /></td></tr>
 <tr class="separator:gaaa65eb4d7a6f3cf6b9682a32de1e0915"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5124238a8f9f74cadab3bc8dcc4438e6" id="r_ga5124238a8f9f74cadab3bc8dcc4438e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5124238a8f9f74cadab3bc8dcc4438e6">MR::gaussianFilter</a> (<a class="elRef" href="../namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, int <a class="el" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>, int iters, <a class="el" href="#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memdesc:ga5124238a8f9f74cadab3bc8dcc4438e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns grid with gaussian filter applied  <br /></td></tr>
+<tr class="separator:ga5124238a8f9f74cadab3bc8dcc4438e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafc2d64e9f6eb7deafd50ee83fd764989" id="r_gafc2d64e9f6eb7deafd50ee83fd764989"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="elRef" href="../namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafc2d64e9f6eb7deafd50ee83fd764989">MR::gaussianFiltered</a> (const <a class="elRef" href="../namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, int <a class="el" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>, int iters, <a class="el" href="#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="separator:gafc2d64e9f6eb7deafd50ee83fd764989"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4de97d8976ba9d3103b0d84d94214861" id="r_ga4de97d8976ba9d3103b0d84d94214861"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4de97d8976ba9d3103b0d84d94214861">MR::getValue</a> (const <a class="elRef" href="../namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, const Vector3i &amp;p)</td></tr>
 <tr class="memdesc:ga4de97d8976ba9d3103b0d84d94214861"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the value at given voxel  <br /></td></tr>
 <tr class="separator:ga4de97d8976ba9d3103b0d84d94214861"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -298,6 +303,70 @@ Functions</h2></td></tr>
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga5124238a8f9f74cadab3bc8dcc4438e6" name="ga5124238a8f9f74cadab3bc8dcc4438e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5124238a8f9f74cadab3bc8dcc4438e6">&#9670;&#160;</a></span>gaussianFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void MR::gaussianFilter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" href="../namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>iters</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns grid with gaussian filter applied </p>
+
+</div>
+</div>
+<a id="gafc2d64e9f6eb7deafd50ee83fd764989" name="gafc2d64e9f6eb7deafd50ee83fd764989"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafc2d64e9f6eb7deafd50ee83fd764989">&#9670;&#160;</a></span>gaussianFiltered()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="elRef" href="../namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> MR::gaussianFiltered </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="elRef" href="../namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>iters</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
