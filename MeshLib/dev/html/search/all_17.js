@@ -150,7 +150,7 @@ var searchData=
   ['updatecaches_147',['updateCaches',['.././Py/classmrmeshpy_1_1Mesh.html#a50620cd3a4364a60b1c2af2eb2e464de',1,'mrmeshpy::Mesh::updateCaches()'],['.././Cpp/structMR_1_1Mesh.html#ad64499dab83be6cf5433119a613d6953',1,'MR::Mesh::updateCaches()']]],
   ['updatecaptions_148',['updateCaptions',['.././Cpp/structMR_1_1RibbonSchema.html#a0c1f7b3946e054a392a6a4699ab6c3ec',1,'MR::RibbonSchema']]],
   ['updateconnected_149',['updateConnected',['.././Cpp/classMR_1_1SpaceMouseHandler.html#a0fb38b595b3fad2af3d19817e2f77297',1,'MR::SpaceMouseHandler']]],
-  ['updatecurrentviewbycontrollerregion_150',['updateCurrentViewByControllerRegion',['.././Cpp/namespaceMR.html#a86fd415280ce1a1ec77173ecce0be05d',1,'MR']]],
+  ['updatecurrentviewbycontrollerregion_150',['updateCurrentViewByControllerRegion',['.././Cpp/namespaceMR.html#ad00ee21a73a1bf4dad89a757efc127a0',1,'MR']]],
   ['updatedata_151',['updateData',['.././Py/classmrmeshpy_1_1ObjectMeshHolder.html#a0c00c682699dacfe3cef5446996c3657',1,'mrmeshpy::ObjectMeshHolder::updateData()'],['.././Cpp/classMR_1_1ObjectMeshHolder.html#ab7e47b82a6501403576f8f97bf8b117a',1,'MR::ObjectMeshHolder::updateData()']]],
   ['updatedbox_152',['updatedBox',['.././Cpp/structMR_1_1ViewportGL_1_1ScaledPickRes.html#a224b86e0fc476df4cd60410f71f7d516',1,'MR::ViewportGL::ScaledPickRes']]],
   ['updatedirection_153',['updateDirection',['.././Cpp/classMR_1_1DirectionWidget.html#a29827ac67baeb7b760b6387c4656a046',1,'MR::DirectionWidget']]],

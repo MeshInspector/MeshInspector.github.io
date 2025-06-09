@@ -1,5 +1,7 @@
 var MRViewportCornerController_8h =
 [
+    [ "MR::CornerControllerObject", "classMR_1_1CornerControllerObject.html", "classMR_1_1CornerControllerObject" ],
+    [ "MR::CornerControllerObject::PickedIds", "structMR_1_1CornerControllerObject_1_1PickedIds.html", "structMR_1_1CornerControllerObject_1_1PickedIds" ],
     [ "SideRegions", "MRViewportCornerController_8h.html#a3b6b94f5ad3595b510d6842ee045d493", [
       [ "CCWArrow", "MRViewportCornerController_8h.html#a3b6b94f5ad3595b510d6842ee045d493ae6553022651896cb21658b100e851cdd", null ],
       [ "CWArrow", "MRViewportCornerController_8h.html#a3b6b94f5ad3595b510d6842ee045d493ac9dec87e1252f2726ee58eac2c380518", null ]
@@ -11,5 +13,5 @@ var MRViewportCornerController_8h =
     [ "makeCornerControllerMesh", "MRViewportCornerController_8h.html#a60e39381727e51c4cad64d4e0c4f3b8f", null ],
     [ "makeCornerControllerRotationArrowMesh", "MRViewportCornerController_8h.html#ae5e9489254b51988519548546f68914a", null ],
     [ "makeCornerControllerUVCoords", "MRViewportCornerController_8h.html#a739b85ed00b84c2e37b63ffd04b683b4", null ],
-    [ "updateCurrentViewByControllerRegion", "MRViewportCornerController_8h.html#a86fd415280ce1a1ec77173ecce0be05d", null ]
+    [ "updateCurrentViewByControllerRegion", "MRViewportCornerController_8h.html#ad00ee21a73a1bf4dad89a757efc127a0", null ]
 ];
