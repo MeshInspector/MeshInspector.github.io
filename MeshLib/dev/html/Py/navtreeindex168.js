@@ -1,6 +1,5 @@
 var NAVTREEINDEX168 =
 {
-"namespacemrmeshpy.html#a5108c6ab7e290d17a759e5ad8c951a2f":[6,1,0,0,2,2406],
 "namespacemrmeshpy.html#a51401d598bc7205e6a3544c1dd1db246":[6,1,0,0,2,2417],
 "namespacemrmeshpy.html#a518a606de3a3f4f80e0ec69b5602b661":[6,1,0,0,2,2336],
 "namespacemrmeshpy.html#a519a1b5df9732430ae93f76ec544f79d":[6,1,0,0,2,2606],
@@ -249,5 +248,6 @@ var NAVTREEINDEX168 =
 "namespacemrmeshpy.html#a778999fea33c3dff4f4c62402f77164a":[6,1,0,0,2,1804],
 "namespacemrmeshpy.html#a77e479b5adb3f82ccd3cdefec082ea19":[6,1,0,0,2,1918],
 "namespacemrmeshpy.html#a782eed22c267c3ee40ecc5302f835431":[6,1,0,0,2,1200],
-"namespacemrmeshpy.html#a7877308d7896451a0dd5cf18775336d5":[6,1,0,0,2,1661]
+"namespacemrmeshpy.html#a7877308d7896451a0dd5cf18775336d5":[6,1,0,0,2,1661],
+"namespacemrmeshpy.html#a78f933eba68664692522e7847a5ffd21":[6,1,0,0,2,1263]
 };
