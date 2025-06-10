@@ -247,30 +247,33 @@ $(function(){initNavTree('MRLineSegm_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    <span class="comment">// check whether infinite line y intersect segment x</span></div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    <span class="keyword">const</span> <span class="keyword">auto</span> xa = cross( y.<a class="code hl_variable" href="structMR_1_1Line.html#a8b3c7d000e9148d5f14f3c7d0325c95b">d</a>, x.<a class="code hl_variable" href="structMR_1_1LineSegm.html#a5a416b6364f2ec163ab839380998b247">a</a> - y.<a class="code hl_variable" href="structMR_1_1Line.html#aca04c91be84f9b11da19a3e455b5a28a">p</a> );</div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    <span class="keyword">const</span> <span class="keyword">auto</span> xb = cross( y.<a class="code hl_variable" href="structMR_1_1Line.html#a8b3c7d000e9148d5f14f3c7d0325c95b">d</a>, x.<a class="code hl_variable" href="structMR_1_1LineSegm.html#afcb4423f5becc13fff968c531455f4e8">b</a> - y.<a class="code hl_variable" href="structMR_1_1Line.html#aca04c91be84f9b11da19a3e455b5a28a">p</a> );</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="keywordflow">if</span> ( xa * xb &gt; 0 )</div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="keywordflow">if</span> ( xPos )</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    {</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        <span class="comment">// calculates intersection position on segment x</span></div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>        <span class="keyword">const</span> <span class="keyword">auto</span> denom = xa - xb;</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>        *xPos = denom == 0 ? 0 : xa / denom;</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    }</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    <span class="keywordflow">if</span> ( yPos )</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    {</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>        <span class="comment">// calculates intersection position on line y</span></div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>        <span class="keyword">const</span> <span class="keyword">auto</span> xvec = x.<a class="code hl_variable" href="structMR_1_1LineSegm.html#afcb4423f5becc13fff968c531455f4e8">b</a> - x.<a class="code hl_variable" href="structMR_1_1LineSegm.html#a5a416b6364f2ec163ab839380998b247">a</a>;</div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>        <span class="keyword">const</span> <span class="keyword">auto</span> ya = cross( xvec, y.<a class="code hl_variable" href="structMR_1_1Line.html#aca04c91be84f9b11da19a3e455b5a28a">p</a> - x.<a class="code hl_variable" href="structMR_1_1LineSegm.html#a5a416b6364f2ec163ab839380998b247">a</a> );</div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>        <span class="keyword">const</span> <span class="keyword">auto</span> yb = cross( xvec, y.<a class="code hl_variable" href="structMR_1_1Line.html#aca04c91be84f9b11da19a3e455b5a28a">p</a> + y.<a class="code hl_variable" href="structMR_1_1Line.html#a8b3c7d000e9148d5f14f3c7d0325c95b">d</a> - x.<a class="code hl_variable" href="structMR_1_1LineSegm.html#a5a416b6364f2ec163ab839380998b247">a</a> );</div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>        <span class="keyword">const</span> <span class="keyword">auto</span> denom = ya - yb;</div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>        *yPos = denom == 0 ? 0 : ya / denom;</div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    }</div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>}</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="comment">// if several line segments are connected in polyline, this ensures that only one of them will be intersected,</span></div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="comment">// even is the line passes exactly through segment&#39;s end</span></div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="keywordflow">if</span> ( ( xa &lt;= 0 ) == ( xb &lt;= 0 ) )</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>; <span class="comment">// both ends of the segment are at the same side of the line</span></div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <span class="keywordflow">if</span> ( xPos )</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    {</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>        <span class="comment">// calculates intersection position on segment x</span></div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>        <span class="keyword">const</span> <span class="keyword">auto</span> denom = xa - xb;</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>        *xPos = denom == 0 ? 0 : xa / denom;</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    }</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    <span class="keywordflow">if</span> ( yPos )</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    {</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>        <span class="comment">// calculates intersection position on line y</span></div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>        <span class="keyword">const</span> <span class="keyword">auto</span> xvec = x.<a class="code hl_variable" href="structMR_1_1LineSegm.html#afcb4423f5becc13fff968c531455f4e8">b</a> - x.<a class="code hl_variable" href="structMR_1_1LineSegm.html#a5a416b6364f2ec163ab839380998b247">a</a>;</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>        <span class="keyword">const</span> <span class="keyword">auto</span> ya = cross( xvec, y.<a class="code hl_variable" href="structMR_1_1Line.html#aca04c91be84f9b11da19a3e455b5a28a">p</a> - x.<a class="code hl_variable" href="structMR_1_1LineSegm.html#a5a416b6364f2ec163ab839380998b247">a</a> );</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>        <span class="keyword">const</span> <span class="keyword">auto</span> yb = cross( xvec, y.<a class="code hl_variable" href="structMR_1_1Line.html#aca04c91be84f9b11da19a3e455b5a28a">p</a> + y.<a class="code hl_variable" href="structMR_1_1Line.html#a8b3c7d000e9148d5f14f3c7d0325c95b">d</a> - x.<a class="code hl_variable" href="structMR_1_1LineSegm.html#a5a416b6364f2ec163ab839380998b247">a</a> );</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>        <span class="keyword">const</span> <span class="keyword">auto</span> denom = ya - yb;</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>        *yPos = denom == 0 ? 0 : ya / denom;</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    }</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>}</div>
 </div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>} <span class="comment">//namespace MR</span></div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>} <span class="comment">//namespace MR</span></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="agroup__BasicGroup_html_ga300a438da6440ee7d2e92933bcfa6018"><div class="ttname"><a href="group__BasicGroup.html#ga300a438da6440ee7d2e92933bcfa6018">MR::operator==</a></div><div class="ttdeci">MRMESH_API bool operator==(const BitSet &amp;a, const BitSet &amp;b)</div><div class="ttdoc">compare that two bit sets have the same set bits (they can be equal even if sizes are distinct but la...</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="../namespaceMR.html">MR</a></div></div>
