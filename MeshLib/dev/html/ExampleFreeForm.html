@@ -161,11 +161,17 @@ $(function(){initNavTree('ExampleFreeForm.html',''); initResizable(true); });
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshLoad.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
 <div class="line"> </div>
+<div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// Load mesh</span></div>
 <div class="line">    <span class="keyword">auto</span> mesh = <a class="code hl_functionRef" href="./Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;mesh.stl&quot;</span> );</div>
-<div class="line">    assert( mesh );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !mesh.has_value() )</div>
+<div class="line">    {</div>
+<div class="line">        std::cerr &lt;&lt; mesh.error() &lt;&lt; std::endl;</div>
+<div class="line">        <span class="keywordflow">return</span> 1;</div>
+<div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Construct deformer on mesh vertices</span></div>
 <div class="line">    <a class="code hl_classRef" href="./Cpp/classMR_1_1FreeFormDeformer.html">MR::FreeFormDeformer</a> ffDeformer( mesh-&gt;points, mesh-&gt;topology.getValidVerts() );</div>
@@ -191,7 +197,11 @@ $(function(){initNavTree('ExampleFreeForm.html',''); initResizable(true); });
 <div class="line">    mesh-&gt;invalidateCaches();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save deformed mesh</span></div>
-<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a>( *mesh, <span class="stringliteral">&quot;deformed_mesh.stl&quot;</span> );</div>
+<div class="line">    <span class="keywordflow">if</span> ( <span class="keyword">auto</span> saveRes = <a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a>( *mesh, <span class="stringliteral">&quot;deformed_mesh.stl&quot;</span> ); !saveRes )</div>
+<div class="line">    {</div>
+<div class="line">        std::cerr &lt;&lt; saveRes.error() &lt;&lt; std::endl;</div>
+<div class="line">        <span class="keywordflow">return</span> 1;</div>
+<div class="line">    }</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
 <div class="ttc" id="aclassMR_1_1FreeFormDeformer_html"><div class="ttname"><a href="./Cpp/classMR_1_1FreeFormDeformer.html">MR::FreeFormDeformer</a></div></div>
