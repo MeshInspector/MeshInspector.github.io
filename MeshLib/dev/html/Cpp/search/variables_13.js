@@ -107,7 +107,7 @@ var searchData=
   ['translationonly_104',['TranslationOnly',['../../Py/classmrmeshpy_1_1ICPMode.html#a936819522cd5e478c5e10c1fb03c736e',1,'mrmeshpy::ICPMode']]],
   ['transparent_105',['Transparent',['../../Py/classmrmeshpy_1_1RenderModelPassMask.html#a875b68ccb6cf4a035889e37b57557028',1,'mrmeshpy::RenderModelPassMask']]],
   ['tree_106',['tree',['../structMR_1_1Line3Mesh.html#a993c546c36a0d4723de3bdaffd1d769e',1,'MR::Line3Mesh']]],
-  ['tri_107',['tri',['../structMR_1_1EdgeTri.html#ad73baa8260912b59b30536da0cb50318',1,'MR::EdgeTri::tri'],['../structMRVariableEdgeTri.html#abb4c9c760349879b819c09e1149051df',1,'MRVariableEdgeTri::tri'],['../structMREdgeTri.html#aa8868c7aa994636a3b2feb7ce4bff9b9',1,'MREdgeTri::tri']]],
+  ['tri_107',['tri',['../structMR_1_1EdgeTri.html#ad73baa8260912b59b30536da0cb50318',1,'MR::EdgeTri::tri'],['../structMREdgeTri.html#aa8868c7aa994636a3b2feb7ce4bff9b9',1,'MREdgeTri::tri']]],
   ['triangle3d_108',['Triangle3d',['../../Py/namespacemrmeshpy.html#a2a0546c199d448a508b8589112563560',1,'mrmeshpy']]],
   ['triangle3f_109',['Triangle3f',['../../Py/namespacemrmeshpy.html#ad7e5fcf5761aedeb3df66c282cc6424c',1,'mrmeshpy']]],
   ['triangle3i_110',['Triangle3i',['../../Py/namespacemrmeshpy.html#a73d9a576ba7e3345751e932a3e527757',1,'mrmeshpy']]],

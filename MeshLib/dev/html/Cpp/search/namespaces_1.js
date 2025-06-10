@@ -91,10 +91,11 @@ var searchData=
   ['mrmeshpy_3a_3asystempath_88',['SystemPath',['../../Py/classmrmeshpy_1_1SystemPath_1_1Directory.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3ateethmasktodirectionvolumeconvertor_89',['TeethMaskToDirectionVolumeConvertor',['../../Py/classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3atriangulationhelpers_90',['TriangulationHelpers',['../../Py/classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html',1,'mrmeshpy']]],
-  ['mrmeshpy_3a_3avolumesegmenter_91',['VolumeSegmenter',['../../Py/classmrmeshpy_1_1VolumeSegmenter_1_1SeedType.html',1,'mrmeshpy']]],
-  ['mrmeshpy_3a_3avoxelsload_92',['VoxelsLoad',['../../Py/classmrmeshpy_1_1VoxelsLoad_1_1DicomStatus.html',1,'mrmeshpy']]],
-  ['mrmeshpy_3a_3avoxelssave_93',['VoxelsSave',['../../Py/classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html',1,'mrmeshpy']]],
-  ['mrmeshpy_3a_3awatershedgraph_94',['WatershedGraph',['../../Py/classmrmeshpy_1_1WatershedGraph_1_1BasinInfo.html',1,'mrmeshpy']]],
-  ['mrmeshpy_3a_3aweightedshell_95',['WeightedShell',['../../Py/classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams.html',1,'mrmeshpy']]],
-  ['mrviewerpy_96',['mrviewerpy',['../../Py/namespacemrviewerpy.html',1,'']]]
+  ['mrmeshpy_3a_3avaredgetri_91',['VarEdgeTri',['../../Py/classmrmeshpy_1_1VarEdgeTri_1_1FlaggedTri.html',1,'mrmeshpy']]],
+  ['mrmeshpy_3a_3avolumesegmenter_92',['VolumeSegmenter',['../../Py/classmrmeshpy_1_1VolumeSegmenter_1_1SeedType.html',1,'mrmeshpy']]],
+  ['mrmeshpy_3a_3avoxelsload_93',['VoxelsLoad',['../../Py/classmrmeshpy_1_1VoxelsLoad_1_1DicomStatus.html',1,'mrmeshpy']]],
+  ['mrmeshpy_3a_3avoxelssave_94',['VoxelsSave',['../../Py/classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html',1,'mrmeshpy']]],
+  ['mrmeshpy_3a_3awatershedgraph_95',['WatershedGraph',['../../Py/classmrmeshpy_1_1WatershedGraph_1_1BasinInfo.html',1,'mrmeshpy']]],
+  ['mrmeshpy_3a_3aweightedshell_96',['WeightedShell',['../../Py/classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams.html',1,'mrmeshpy']]],
+  ['mrviewerpy_97',['mrviewerpy',['../../Py/namespacemrviewerpy.html',1,'']]]
 ];

@@ -331,9 +331,7 @@ var hierarchy =
     [ "MR::EdgePoint", "structMR_1_1EdgePoint.html", null ],
     [ "MR::EdgePointPair", "structMR_1_1EdgePointPair.html", null ],
     [ "MR::EdgeSegment", "structMR_1_1EdgeSegment.html", null ],
-    [ "MR::EdgeTri", "structMR_1_1EdgeTri.html", [
-      [ "MR::VariableEdgeTri", "structMR_1_1VariableEdgeTri.html", null ]
-    ] ],
+    [ "MR::EdgeTri", "structMR_1_1EdgeTri.html", null ],
     [ "MR::Heap< T, I, P >::Element", "structMR_1_1Heap_1_1Element.html", null ],
     [ "MR::EmbeddedPython", "classMR_1_1EmbeddedPython.html", null ],
     [ "MR::EmbeddedStructureParameters", "structMR_1_1EmbeddedStructureParameters.html", null ],
@@ -379,6 +377,7 @@ var hierarchy =
     [ "MR::FixCreasesParams", "structMR_1_1FixCreasesParams.html", null ],
     [ "MR::FixMeshDegeneraciesParams", "structMR_1_1FixMeshDegeneraciesParams.html", null ],
     [ "MR::FixUndercuts::FixParams", "structMR_1_1FixUndercuts_1_1FixParams.html", null ],
+    [ "MR::VarEdgeTri::FlaggedTri", "structMR_1_1VarEdgeTri_1_1FlaggedTri.html", null ],
     [ "MR::FlatTree", "structMR_1_1FlatTree.html", null ],
     [ "openvdb::FloatGrid", null, [
       [ "MR::OpenVdbFloatGrid", "structMR_1_1OpenVdbFloatGrid.html", null ]
@@ -797,6 +796,7 @@ var hierarchy =
     [ "MRFindProjectionParameters", "structMRFindProjectionParameters.html", null ],
     [ "MRFixMeshDegeneraciesParams", "structMRFixMeshDegeneraciesParams.html", null ],
     [ "MRFixSelfIntersectionsSettings", "structMRFixSelfIntersectionsSettings.html", null ],
+    [ "MRFlaggedTri", "structMRFlaggedTri.html", null ],
     [ "MRGeneralOffsetParameters", "structMRGeneralOffsetParameters.html", null ],
     [ "MRGridToMeshSettings", "structMRGridToMeshSettings.html", null ],
     [ "MRICPPairData", "structMRICPPairData.html", null ],
@@ -840,7 +840,7 @@ var hierarchy =
     [ "MR::MruFormatParameters", "structMR_1_1MruFormatParameters.html", null ],
     [ "MRUndirectedEdgeId", "structMRUndirectedEdgeId.html", null ],
     [ "MRUniformSamplingSettings", "structMRUniformSamplingSettings.html", null ],
-    [ "MRVariableEdgeTri", "structMRVariableEdgeTri.html", null ],
+    [ "MRVarEdgeTri", "structMRVarEdgeTri.html", null ],
     [ "MRVdbVolume", "structMRVdbVolume.html", null ],
     [ "MRVector3f", "structMRVector3f.html", null ],
     [ "MRVector3i", "structMRVector3i.html", null ],
@@ -1014,7 +1014,6 @@ var hierarchy =
     [ "MR::PolynomialWrapper< T >", "structMR_1_1PolynomialWrapper.html", null ],
     [ "MR::PositionedText", "structMR_1_1PositionedText.html", null ],
     [ "MR::PrecipitationSimulator", "classMR_1_1PrecipitationSimulator.html", null ],
-    [ "MR::PreciseCollisionResult", "structMR_1_1PreciseCollisionResult.html", null ],
     [ "MR::PreciseVertCoord", "structMR_1_1PreciseVertCoord.html", null ],
     [ "MR::PreciseVertCoords", "structMR_1_1PreciseVertCoords.html", null ],
     [ "MR::PreciseVertCoords2", "structMR_1_1PreciseVertCoords2.html", null ],
@@ -1276,6 +1275,7 @@ var hierarchy =
     [ "MR::UI::TestEngine::ValueEntry::Value< T >", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html", null ],
     [ "MR::UI::TestEngine::ValueEntry::Value< T >", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html", null ],
     [ "MR::UI::TestEngine::ValueEntry", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry.html", null ],
+    [ "MR::VarEdgeTri", "structMR_1_1VarEdgeTri.html", null ],
     [ "MR::ImGuiMath::detail::VecFromSize< N >", "structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize.html", null ],
     [ "MR::ImGuiMath::detail::VecFromSize< 2 >", "structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_012_01_4.html", null ],
     [ "MR::ImGuiMath::detail::VecFromSize< 4 >", "structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_014_01_4.html", null ],

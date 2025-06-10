@@ -205,7 +205,7 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1EdgeTri.html">MR::EdgeTri</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">edge from one mesh and triangle from another mesh  <a href="structMR_1_1EdgeTri.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PreciseCollisionResult.html">MR::PreciseCollisionResult</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VarEdgeTri.html">MR::VarEdgeTri</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshIntersectionResult.html">MR::MeshIntersectionResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -261,6 +261,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ga01c75e3c26967a90edbe075a77cb2ca9" id="r_ga01c75e3c26967a90edbe075a77cb2ca9"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga01c75e3c26967a90edbe075a77cb2ca9"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga01c75e3c26967a90edbe075a77cb2ca9">MR::AABBTreeNodeVec</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1AABBTreeNode.html">AABBTreeNode</a>&lt;T&gt;, NodeId&gt;</td></tr>
 <tr class="separator:ga01c75e3c26967a90edbe075a77cb2ca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga457b7bb3a129cf50a82586b670a93148" id="r_ga457b7bb3a129cf50a82586b670a93148"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga457b7bb3a129cf50a82586b670a93148">MR::PreciseCollisionResult</a> = std::vector&lt;<a class="el" href="structMR_1_1VarEdgeTri.html">VarEdgeTri</a>&gt;</td></tr>
+<tr class="memdesc:ga457b7bb3a129cf50a82586b670a93148"><td class="mdescLeft">&#160;</td><td class="mdescRight">each edge is directed to have its origin inside and its destination outside of the other mesh  <br /></td></tr>
+<tr class="separator:ga457b7bb3a129cf50a82586b670a93148"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga285ea5cd9fb638c90fec0099f526c057" id="r_ga285ea5cd9fb638c90fec0099f526c057"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga285ea5cd9fb638c90fec0099f526c057">MR::TriangleCallback</a> = std::function&lt;<a class="el" href="#ga3dd2fd9fcc06b6502d22a9ea3eb63e47">ProcessOneResult</a>( const Vector3f &amp; p, FaceId f, const Vector3f &amp; q, float distSq )&gt;</td></tr>
 <tr class="separator:ga285ea5cd9fb638c90fec0099f526c057"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9222ec2d954badb7ee5874321a084eb6" id="r_ga9222ec2d954badb7ee5874321a084eb6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9222ec2d954badb7ee5874321a084eb6">MR::Line3fMesh</a> = <a class="el" href="structMR_1_1Line3Mesh.html">Line3Mesh</a>&lt;float&gt;</td></tr>
@@ -349,7 +352,7 @@ Functions</h2></td></tr>
 <tr class="separator:ga3358455877a4f3ab26bb581338d86cd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8f7cfd40975f9648e9785f72d75ff92d" id="r_ga8f7cfd40975f9648e9785f72d75ff92d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8f7cfd40975f9648e9785f72d75ff92d">MR::operator==</a> (const <a class="el" href="structMR_1_1EdgeTri.html">EdgeTri</a> &amp;a, const <a class="el" href="structMR_1_1EdgeTri.html">EdgeTri</a> &amp;b)</td></tr>
 <tr class="separator:ga8f7cfd40975f9648e9785f72d75ff92d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga11d4ca955f1a62e15ebea578ffa83454" id="r_ga11d4ca955f1a62e15ebea578ffa83454"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1PreciseCollisionResult.html">PreciseCollisionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga11d4ca955f1a62e15ebea578ffa83454">MR::findCollidingEdgeTrisPrecise</a> (const MeshPart &amp;a, const MeshPart &amp;b, <a class="elRef" href="../namespaceMR.html#ab81d3ad87ff9cd57deee77336ddf83e1">ConvertToIntVector</a> conv, const AffineXf3f *rigidB2A=nullptr, bool anyIntersection=false)</td></tr>
+<tr class="memitem:ga11d4ca955f1a62e15ebea578ffa83454" id="r_ga11d4ca955f1a62e15ebea578ffa83454"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#ga457b7bb3a129cf50a82586b670a93148">PreciseCollisionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga11d4ca955f1a62e15ebea578ffa83454">MR::findCollidingEdgeTrisPrecise</a> (const MeshPart &amp;a, const MeshPart &amp;b, <a class="elRef" href="../namespaceMR.html#ab81d3ad87ff9cd57deee77336ddf83e1">ConvertToIntVector</a> conv, const AffineXf3f *rigidB2A=nullptr, bool anyIntersection=false)</td></tr>
 <tr class="memdesc:ga11d4ca955f1a62e15ebea578ffa83454"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all pairs of colliding edges from one mesh and triangle from another mesh  <br /></td></tr>
 <tr class="separator:ga11d4ca955f1a62e15ebea578ffa83454"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga50f22b9cff7188bb21cc3c7d72ec4a03" id="r_ga50f22b9cff7188bb21cc3c7d72ec4a03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1EdgeTri.html">EdgeTri</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga50f22b9cff7188bb21cc3c7d72ec4a03">MR::findSelfCollidingEdgeTrisPrecise</a> (const MeshPart &amp;mp, <a class="elRef" href="../namespaceMR.html#ab81d3ad87ff9cd57deee77336ddf83e1">ConvertToIntVector</a> conv, bool anyIntersection=false, const AffineXf3f *rigidB2A=nullptr, int aVertSizes=0)</td></tr>
@@ -723,6 +726,22 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
+<a id="ga457b7bb3a129cf50a82586b670a93148" name="ga457b7bb3a129cf50a82586b670a93148"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga457b7bb3a129cf50a82586b670a93148">&#9670;&#160;</a></span>PreciseCollisionResult</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ga457b7bb3a129cf50a82586b670a93148">MR::PreciseCollisionResult</a> = std::vector&lt;<a class="el" href="structMR_1_1VarEdgeTri.html">VarEdgeTri</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>each edge is directed to have its origin inside and its destination outside of the other mesh </p>
+
+</div>
+</div>
 <a id="ga285ea5cd9fb638c90fec0099f526c057" name="ga285ea5cd9fb638c90fec0099f526c057"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga285ea5cd9fb638c90fec0099f526c057">&#9670;&#160;</a></span>TriangleCallback</h2>
 
@@ -1046,7 +1065,7 @@ template&lt;typename V &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1PreciseCollisionResult.html">PreciseCollisionResult</a> MR::findCollidingEdgeTrisPrecise </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#ga457b7bb3a129cf50a82586b670a93148">PreciseCollisionResult</a> MR::findCollidingEdgeTrisPrecise </td>
           <td>(</td>
           <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>

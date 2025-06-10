@@ -112,7 +112,7 @@ var searchData=
   ['transparentmesh_109',['TransparentMesh',['.././Cpp/classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a0aceddd1bbfe40ef001c096d89ff39c5',1,'MR::GLStaticHolder']]],
   ['transparentpoints_110',['TransparentPoints',['.././Cpp/classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a6b95b06d80e70d38b782d9f3070311dd',1,'MR::GLStaticHolder']]],
   ['tree_111',['tree',['.././Cpp/structMR_1_1Line3Mesh.html#a993c546c36a0d4723de3bdaffd1d769e',1,'MR::Line3Mesh']]],
-  ['tri_112',['tri',['.././Cpp/structMR_1_1EdgeTri.html#ad73baa8260912b59b30536da0cb50318',1,'MR::EdgeTri::tri'],['.././Cpp/structMREdgeTri.html#aa8868c7aa994636a3b2feb7ce4bff9b9',1,'MREdgeTri::tri'],['.././Cpp/structMRVariableEdgeTri.html#abb4c9c760349879b819c09e1149051df',1,'MRVariableEdgeTri::tri']]],
+  ['tri_112',['tri',['.././Cpp/structMR_1_1EdgeTri.html#ad73baa8260912b59b30536da0cb50318',1,'MR::EdgeTri::tri'],['.././Cpp/structMREdgeTri.html#aa8868c7aa994636a3b2feb7ce4bff9b9',1,'MREdgeTri::tri']]],
   ['triangle3d_113',['Triangle3d',['.././Py/namespacemrmeshpy.html#a2a0546c199d448a508b8589112563560',1,'mrmeshpy']]],
   ['triangle3f_114',['Triangle3f',['.././Py/namespacemrmeshpy.html#ad7e5fcf5761aedeb3df66c282cc6424c',1,'mrmeshpy']]],
   ['triangle3i_115',['Triangle3i',['.././Py/namespacemrmeshpy.html#a73d9a576ba7e3345751e932a3e527757',1,'mrmeshpy']]],

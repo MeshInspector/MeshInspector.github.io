@@ -1,7 +1,6 @@
 var MRMesh_2MRIntersectionContour_8h =
 [
-    [ "MR::VariableEdgeTri", "structMR_1_1VariableEdgeTri.html", "structMR_1_1VariableEdgeTri" ],
-    [ "ContinuousContour", "MRMesh_2MRIntersectionContour_8h.html#a2b8ccb3570748a421671351b81855a84", null ],
+    [ "ContinuousContour", "MRMesh_2MRIntersectionContour_8h.html#a6a1dec59ef3e77a796356f23810d97be", null ],
     [ "ContinuousContours", "MRMesh_2MRIntersectionContour_8h.html#a9f26ad2470dbd62255be7fc1cab2b503", null ],
     [ "OneMeshContours", "MRMesh_2MRIntersectionContour_8h.html#ga9ecf19b8a704c505e8026abe7e64e38a", null ],
     [ "detectLoneContours", "MRMesh_2MRIntersectionContour_8h.html#a24a670e24fd91a189a928b3c3db6cd92", null ],

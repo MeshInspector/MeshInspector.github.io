@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"classmrmeshpy_1_1OffsetContoursParams_1_1Type.html#a14156977b0b348648d335489429a3991":[6,1,0,0,2,591,2,8],
+"classmrmeshpy_1_1OffsetContoursParams_1_1Type.html#a14156977b0b348648d335489429a3991":[6,1,1,0,1,591,2,8],
 "classmrmeshpy_1_1OffsetContoursParams_1_1Type.html#a152ba64fad116c998bb0201c0381ff0c":[6,1,0,0,2,591,2,4],
 "classmrmeshpy_1_1OffsetContoursParams_1_1Type.html#a152ba64fad116c998bb0201c0381ff0c":[6,1,1,0,1,591,2,4],
 "classmrmeshpy_1_1OffsetContoursParams_1_1Type.html#a2ced5434f61342fd10e547ec1c86c1c7":[6,1,0,0,2,591,2,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "classmrmeshpy_1_1OutlierParams.html#aefaa2698f7bbdf1a41467e907e0ac94f":[6,1,0,0,2,602,1],
 "classmrmeshpy_1_1OutlierParams.html#aefaa2698f7bbdf1a41467e907e0ac94f":[6,1,1,0,1,602,1],
 "classmrmeshpy_1_1OutlierTypeMask.html":[6,1,0,0,2,604],
-"classmrmeshpy_1_1OutlierTypeMask.html":[6,1,1,0,1,604],
-"classmrmeshpy_1_1OutlierTypeMask.html#a01afcaa4884b0b87402885d90b3cbbd6":[6,1,0,0,2,604,12],
-"classmrmeshpy_1_1OutlierTypeMask.html#a01afcaa4884b0b87402885d90b3cbbd6":[6,1,1,0,1,604,12]
+"classmrmeshpy_1_1OutlierTypeMask.html":[6,1,1,0,1,604]
 };

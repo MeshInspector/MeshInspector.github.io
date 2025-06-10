@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1DirectionWidget_1_1Arrow.html":[6,0,2,0,1,167,0],
+"structMR_1_1DirectionWidget_1_1Arrow.html#a0ecb81851105a8eb427a1f270b7659a2":[6,0,1,0,1,183,0,1],
 "structMR_1_1DirectionWidget_1_1Arrow.html#a0ecb81851105a8eb427a1f270b7659a2":[6,0,2,0,1,167,0,1],
 "structMR_1_1DirectionWidget_1_1Arrow.html#a2f55bff335dea2ab2a6b581fe070bef4":[6,0,1,0,1,183,0,0],
 "structMR_1_1DirectionWidget_1_1Arrow.html#a2f55bff335dea2ab2a6b581fe070bef4":[6,0,2,0,1,167,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1EdgeLengthMesh.html#ae600eca420be35f1622258bf5830453c":[6,0,0,7,0,5],
 "structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html":[6,0,1,0,1,210,0],
 "structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html":[6,0,2,0,1,194,0],
-"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a0e59111b442fc3dcfc4cfc089a0972ec":[6,0,1,0,1,210,0,2],
-"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a0e59111b442fc3dcfc4cfc089a0972ec":[6,0,2,0,1,194,0,2],
-"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a4c276cfcbefefc36c49ded5ed151d1f4":[6,0,1,0,1,210,0,0]
+"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a0e59111b442fc3dcfc4cfc089a0972ec":[6,0,1,0,1,210,0,2]
 };

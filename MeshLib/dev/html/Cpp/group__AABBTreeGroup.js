@@ -149,9 +149,21 @@ var group__AABBTreeGroup =
       [ "edge", "structMR_1_1EdgeTri.html#a75d3cbfc185bb135fa0ecacfa0eea64e", null ],
       [ "tri", "structMR_1_1EdgeTri.html#ad73baa8260912b59b30536da0cb50318", null ]
     ] ],
-    [ "MR::PreciseCollisionResult", "structMR_1_1PreciseCollisionResult.html", [
-      [ "edgesAtrisB", "structMR_1_1PreciseCollisionResult.html#ad604bf35dc957a8d01733d58d9704ba2", null ],
-      [ "edgesBtrisA", "structMR_1_1PreciseCollisionResult.html#a9b010a738a4b9a8757b61838ce33e92f", null ]
+    [ "MR::VarEdgeTri", "structMR_1_1VarEdgeTri.html", [
+      [ "FlaggedTri", "structMR_1_1VarEdgeTri_1_1FlaggedTri.html", [
+        [ "operator==", "structMR_1_1VarEdgeTri_1_1FlaggedTri.html#a408a18646248d1d57deb6e7546ec9716", null ],
+        [ "face", "structMR_1_1VarEdgeTri_1_1FlaggedTri.html#aa5ab2cbeb1b2f73ba9d3a268be384ace", null ],
+        [ "isEdgeATriB", "structMR_1_1VarEdgeTri_1_1FlaggedTri.html#a29688551fde640070c748b997eddb5ab", null ]
+      ] ],
+      [ "VarEdgeTri", "structMR_1_1VarEdgeTri.html#a9823b1d64efd1d93070b51f01ffa10c6", null ],
+      [ "VarEdgeTri", "structMR_1_1VarEdgeTri.html#ab11feb222ecdf219d714ed2b9b058ec6", null ],
+      [ "VarEdgeTri", "structMR_1_1VarEdgeTri.html#a959f88d5011716b91abacd8e5b6d357c", null ],
+      [ "edgeTri", "structMR_1_1VarEdgeTri.html#a2845a94e12c71150e5cc22e2c03a027d", null ],
+      [ "isEdgeATriB", "structMR_1_1VarEdgeTri.html#a33184180e0f7658211800f7ad3720833", null ],
+      [ "operator==", "structMR_1_1VarEdgeTri.html#a5f818bf5f96cbe4b5c899d56e9185ce6", null ],
+      [ "tri", "structMR_1_1VarEdgeTri.html#adf3bb4f9a10426c166bd866f89ddf797", null ],
+      [ "edge", "structMR_1_1VarEdgeTri.html#a40285e5911c3efc0fdba9474bce8129a", null ],
+      [ "flaggedTri", "structMR_1_1VarEdgeTri.html#a9ff04d23bee5568116250292fe986af6", null ]
     ] ],
     [ "MR::MeshIntersectionResult", "structMR_1_1MeshIntersectionResult.html", [
       [ "operator bool", "structMR_1_1MeshIntersectionResult.html#a35b9064f7ab7e270307559622c3ec903", null ],
@@ -275,6 +287,7 @@ var group__AABBTreeGroup =
     [ "MR::LineTreeTraits2", "group__AABBTreeGroup.html#ga346d2e7774495e3e4ca05a2325f11aaf", null ],
     [ "MR::LineTreeTraits3", "group__AABBTreeGroup.html#gacf6e57b5e87718397acc1762969ad77a", null ],
     [ "MR::MeshIntersectionCallback", "group__AABBTreeGroup.html#gac20cf6ba073a7db1e2df313fb87d9517", null ],
+    [ "MR::PreciseCollisionResult", "group__AABBTreeGroup.html#ga457b7bb3a129cf50a82586b670a93148", null ],
     [ "MR::TriangleCallback", "group__AABBTreeGroup.html#ga285ea5cd9fb638c90fec0099f526c057", null ],
     [ "MR::ProcessOneResult", "group__AABBTreeGroup.html#ga3dd2fd9fcc06b6502d22a9ea3eb63e47", [
       [ "MR::ProcessOneResult::StopProcessing", "group__AABBTreeGroup.html#gga3dd2fd9fcc06b6502d22a9ea3eb63e47a38e59feb928e37292c8ee0a50f447612", null ],

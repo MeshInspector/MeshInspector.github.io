@@ -1,6 +1,5 @@
 var NAVTREEINDEX34 =
 {
-"classMR_1_1ObjectPointsHolder.html#af7ab9f32dcef65ad1a79fde9078c19af":[6,0,2,0,1,429,53],
 "classMR_1_1ObjectPointsHolder.html#aff82edcc80eafd10cf373c842d0c3b8e":[6,0,1,0,1,445,56],
 "classMR_1_1ObjectPointsHolder.html#aff82edcc80eafd10cf373c842d0c3b8e":[6,0,2,0,1,429,56],
 "classMR_1_1ObjectTransformWidget.html":[6,0,1,0,1,446],
@@ -249,5 +248,6 @@ var NAVTREEINDEX34 =
 "classMR_1_1ParallelProgressReporter.html#a2c6d0ee3e32d318d2f21e81a65c786fb":[6,0,2,0,1,463,2],
 "classMR_1_1ParallelProgressReporter.html#afb8acccd63d1068e162e165f290b3227":[6,0,1,0,1,479,3],
 "classMR_1_1ParallelProgressReporter.html#afb8acccd63d1068e162e165f290b3227":[6,0,2,0,1,463,3],
-"classMR_1_1PartialChangeMeshAction.html":[6,0,0,4,38]
+"classMR_1_1PartialChangeMeshAction.html":[6,0,0,4,38],
+"classMR_1_1PartialChangeMeshAction.html#a677e3ef484c3decb94df9b1ce351cfdf":[6,0,0,4,38,3]
 };

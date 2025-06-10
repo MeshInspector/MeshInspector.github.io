@@ -4,7 +4,7 @@ var searchData=
   ['value_3c_20t_20_3e_1',['Value&lt; T &gt;',['../structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html',1,'MR::UI::TestEngine::ValueEntry']]],
   ['valueentry_2',['ValueEntry',['../structMR_1_1UI_1_1TestEngine_1_1ValueEntry.html',1,'MR::UI::TestEngine']]],
   ['valuetype_3',['ValueType',['../../Py/classmrmeshpy_1_1BaseTiffParameters_1_1ValueType.html',1,'mrmeshpy::BaseTiffParameters']]],
-  ['variableedgetri_4',['VariableEdgeTri',['../structMR_1_1VariableEdgeTri.html',1,'MR::VariableEdgeTri'],['../../Py/classmrmeshpy_1_1VariableEdgeTri.html',1,'mrmeshpy::VariableEdgeTri']]],
+  ['varedgetri_4',['VarEdgeTri',['../structMR_1_1VarEdgeTri.html',1,'MR::VarEdgeTri'],['../../Py/classmrmeshpy_1_1VarEdgeTri.html',1,'mrmeshpy::VarEdgeTri']]],
   ['variantindex_5',['VariantIndex',['../../Py/classmrmeshpy_1_1OneMeshIntersection_1_1VariantIndex.html',1,'mrmeshpy::OneMeshIntersection']]],
   ['vdbvolume_6',['VdbVolume',['../../Py/classmrmeshpy_1_1VdbVolume.html',1,'mrmeshpy']]],
   ['vecfromsize_7',['VecFromSize',['../structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize.html',1,'MR::ImGuiMath::detail']]],

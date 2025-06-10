@@ -1,6 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"MRMeshMath_8h.html#ab90be448411f1e7a917f330cbd45452d":[6,0,3,0,0,1,4,209,37],
 "MRMeshMath_8h.html#abd3259955c972492f27f1ec056e2fd41":[6,0,3,0,0,1,4,209,8],
 "MRMeshMath_8h.html#ac6f4e8a904a2f00fdb5a7dc8b4925b19":[6,0,3,0,0,1,4,209,23],
 "MRMeshMath_8h.html#ac951e8c2b35367642c93bc4c6c72b6f6":[6,0,3,0,0,1,4,209,44],
@@ -173,15 +172,15 @@ var NAVTREEINDEX8 =
 "MRMesh_2MRId_8h.html#aebe0d51098b225270ab37ed57b329648":[6,0,3,0,0,1,4,136,14],
 "MRMesh_2MRId_8h_source.html":[6,0,3,0,0,1,4,136],
 "MRMesh_2MRIntersectionContour_8h.html":[6,0,3,0,0,1,4,145],
-"MRMesh_2MRIntersectionContour_8h.html#a1c0a7cca07052683a2598650c7cb83ed":[6,0,3,0,0,1,4,145,9],
-"MRMesh_2MRIntersectionContour_8h.html#a24a670e24fd91a189a928b3c3db6cd92":[6,0,3,0,0,1,4,145,4],
-"MRMesh_2MRIntersectionContour_8h.html#a250501cf8de3c016cf374b34455c335f":[6,0,3,0,0,1,4,145,6],
-"MRMesh_2MRIntersectionContour_8h.html#a2b8ccb3570748a421671351b81855a84":[6,0,3,0,0,1,4,145,1],
-"MRMesh_2MRIntersectionContour_8h.html#a4d956c62b0c8514d3779ce5076b6b9ec":[6,0,3,0,0,1,4,145,5],
-"MRMesh_2MRIntersectionContour_8h.html#a757e0b5f05e6d5db5ea687114de26bd2":[6,0,3,0,0,1,4,145,8],
-"MRMesh_2MRIntersectionContour_8h.html#a99ed866012afe0f73d36e3f5179b4202":[6,0,3,0,0,1,4,145,7],
-"MRMesh_2MRIntersectionContour_8h.html#a9f26ad2470dbd62255be7fc1cab2b503":[6,0,3,0,0,1,4,145,2],
-"MRMesh_2MRIntersectionContour_8h.html#afac751f311b648116a3a4afcd06a10c7":[6,0,3,0,0,1,4,145,10],
+"MRMesh_2MRIntersectionContour_8h.html#a1c0a7cca07052683a2598650c7cb83ed":[6,0,3,0,0,1,4,145,8],
+"MRMesh_2MRIntersectionContour_8h.html#a24a670e24fd91a189a928b3c3db6cd92":[6,0,3,0,0,1,4,145,3],
+"MRMesh_2MRIntersectionContour_8h.html#a250501cf8de3c016cf374b34455c335f":[6,0,3,0,0,1,4,145,5],
+"MRMesh_2MRIntersectionContour_8h.html#a4d956c62b0c8514d3779ce5076b6b9ec":[6,0,3,0,0,1,4,145,4],
+"MRMesh_2MRIntersectionContour_8h.html#a6a1dec59ef3e77a796356f23810d97be":[6,0,3,0,0,1,4,145,0],
+"MRMesh_2MRIntersectionContour_8h.html#a757e0b5f05e6d5db5ea687114de26bd2":[6,0,3,0,0,1,4,145,7],
+"MRMesh_2MRIntersectionContour_8h.html#a99ed866012afe0f73d36e3f5179b4202":[6,0,3,0,0,1,4,145,6],
+"MRMesh_2MRIntersectionContour_8h.html#a9f26ad2470dbd62255be7fc1cab2b503":[6,0,3,0,0,1,4,145,1],
+"MRMesh_2MRIntersectionContour_8h.html#afac751f311b648116a3a4afcd06a10c7":[6,0,3,0,0,1,4,145,9],
 "MRMesh_2MRIntersectionContour_8h_source.html":[6,0,3,0,0,1,4,145],
 "MRMesh_2MRLaplacian_8h.html":[6,0,3,0,0,1,4,156],
 "MRMesh_2MRLaplacian_8h_source.html":[6,0,3,0,0,1,4,156],
@@ -249,5 +248,6 @@ var NAVTREEINDEX8 =
 "MRMesh_2MRMeshFwd_8h.html#a0f4247d5407fb2c5b11f4c4268911362":[6,0,3,0,0,1,4,204,118],
 "MRMesh_2MRMeshFwd_8h.html#a10b1bb82ec6277971f775e788f4b645b":[6,0,3,0,0,1,4,204,145],
 "MRMesh_2MRMeshFwd_8h.html#a134ccd7729d32b2a19d5ec49fe0db32c":[6,0,3,0,0,1,4,204,137],
-"MRMesh_2MRMeshFwd_8h.html#a14ff904b44efe8d73deea9652e3f2713":[6,0,3,0,0,1,4,204,83]
+"MRMesh_2MRMeshFwd_8h.html#a14ff904b44efe8d73deea9652e3f2713":[6,0,3,0,0,1,4,204,83],
+"MRMesh_2MRMeshFwd_8h.html#a1947baff009e7ba9b3d0754c30a458a5":[6,0,3,0,0,1,4,204,62]
 };

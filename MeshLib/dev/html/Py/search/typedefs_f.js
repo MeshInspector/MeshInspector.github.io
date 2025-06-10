@@ -35,10 +35,11 @@ var searchData=
   ['postmergecallback_32',['PostMergeCallback',['../../Cpp/structMR_1_1MergeVolumePartSettings.html#a49ad4e693c6a08af856dd55e575f702f',1,'MR::MergeVolumePartSettings']]],
   ['postrescalesignal_33',['PostRescaleSignal',['../../Cpp/classMR_1_1Viewer.html#a448a65e5c8e0f80950482647b4d8a786',1,'MR::Viewer']]],
   ['postresizesignal_34',['PostResizeSignal',['../../Cpp/classMR_1_1Viewer.html#ab7f0983455b1dfa5ccae593d205470d9',1,'MR::Viewer']]],
-  ['precollapsecallback_35',['PreCollapseCallback',['../../Cpp/namespaceMR.html#a8ca6fbc7c349a31c3f0a68ce8f513265',1,'MR']]],
-  ['precutcallback_36',['PreCutCallback',['../../Cpp/structMR_1_1MergeVolumePartSettings.html#a577e60ec177ee1ce4be553f79fc09a89',1,'MR::MergeVolumePartSettings']]],
-  ['progresscallback_37',['ProgressCallback',['../../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710',1,'MR::ProgressCallback'],['../../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710',1,'MR::ProgressCallback']]],
-  ['progressholder_38',['ProgressHolder',['../../Cpp/classMR_1_1RangeProcessorSingle.html#a18c7b1c6f5f3eb4ab1f683819ab2526b',1,'MR::RangeProcessorSingle']]],
-  ['projectonallcallback_39',['ProjectOnAllCallback',['../../Cpp/namespaceMR.html#a51c5c9bdf012ab12e360b5e161bb378e',1,'MR']]],
-  ['pythonregisterfuncton_40',['PythonRegisterFuncton',['../../Cpp/classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c',1,'MR::PythonExport']]]
+  ['precisecollisionresult_35',['PreciseCollisionResult',['../../Cpp/group__AABBTreeGroup.html#ga457b7bb3a129cf50a82586b670a93148',1,'MR::PreciseCollisionResult'],['../../Cpp/group__AABBTreeGroup.html#ga457b7bb3a129cf50a82586b670a93148',1,'MR::PreciseCollisionResult']]],
+  ['precollapsecallback_36',['PreCollapseCallback',['../../Cpp/namespaceMR.html#a8ca6fbc7c349a31c3f0a68ce8f513265',1,'MR']]],
+  ['precutcallback_37',['PreCutCallback',['../../Cpp/structMR_1_1MergeVolumePartSettings.html#a577e60ec177ee1ce4be553f79fc09a89',1,'MR::MergeVolumePartSettings']]],
+  ['progresscallback_38',['ProgressCallback',['../../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710',1,'MR::ProgressCallback'],['../../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710',1,'MR::ProgressCallback']]],
+  ['progressholder_39',['ProgressHolder',['../../Cpp/classMR_1_1RangeProcessorSingle.html#a18c7b1c6f5f3eb4ab1f683819ab2526b',1,'MR::RangeProcessorSingle']]],
+  ['projectonallcallback_40',['ProjectOnAllCallback',['../../Cpp/namespaceMR.html#a51c5c9bdf012ab12e360b5e161bb378e',1,'MR']]],
+  ['pythonregisterfuncton_41',['PythonRegisterFuncton',['../../Cpp/classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c',1,'MR::PythonExport']]]
 ];

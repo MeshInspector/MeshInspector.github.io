@@ -67,7 +67,7 @@ var searchData=
   ['isectbary_64',['isectBary',['../../Cpp/structMR_1_1MultiRayMeshIntersectResult.html#abe24325f915016d19bbaa021b7acdf15',1,'MR::MultiRayMeshIntersectResult']]],
   ['isectfaces_65',['isectFaces',['../../Cpp/structMR_1_1MultiRayMeshIntersectResult.html#ab49b37818f779af102184978ebe758fc',1,'MR::MultiRayMeshIntersectResult']]],
   ['isectpts_66',['isectPts',['../../Cpp/structMR_1_1MultiRayMeshIntersectResult.html#a7455a93722a7e3da39f0baacdfb67c00',1,'MR::MultiRayMeshIntersectResult']]],
-  ['isedgeatrib_67',['isEdgeATriB',['../../Cpp/structMRVariableEdgeTri.html#afdb5363f5103bfde2cc6a6507f3f97f6',1,'MRVariableEdgeTri::isEdgeATriB'],['../../Cpp/structMR_1_1VariableEdgeTri.html#aaf806bd6bbc163135641f8a5ca2a6f5f',1,'MR::VariableEdgeTri::isEdgeATriB']]],
+  ['isedgeatrib_67',['isEdgeATriB',['../../Cpp/structMR_1_1VarEdgeTri_1_1FlaggedTri.html#a29688551fde640070c748b997eddb5ab',1,'MR::VarEdgeTri::FlaggedTri::isEdgeATriB'],['../../Cpp/structMRFlaggedTri.html#a0a653630498562477d2d77fdc843e4bd',1,'MRFlaggedTri::isEdgeATriB']]],
   ['isenabled_5f_68',['isEnabled_',['../../Cpp/classMR_1_1StateBasePlugin.html#a239e7ea5887cf228c8ea6a7eef781a2c',1,'MR::StateBasePlugin']]],
   ['isinfinite_69',['isInfinite',['../../Cpp/structMR_1_1Features_1_1SubfeatureInfo.html#ae56a2191502d5ecf2fee0d83939a5013',1,'MR::Features::SubfeatureInfo']]],
   ['isinverted_70',['isInverted',['../../Cpp/structMR_1_1SpacingSettings.html#a65572ad8925a4fe549d886d23dc4b2e5',1,'MR::SpacingSettings']]],
