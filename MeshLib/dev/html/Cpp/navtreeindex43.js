@@ -1,5 +1,14 @@
 var NAVTREEINDEX43 =
 {
+"classMR_1_1ShortcutManager.html#aeff727b4670aa9fcca089a4f082b30e1":[6,0,1,0,1,658,14],
+"classMR_1_1ShortcutManager.html#aeff727b4670aa9fcca089a4f082b30e1":[6,0,2,0,1,642,14],
+"classMR_1_1ShortcutManager.html#af0dd4d072b92bf237ce72e80f357d475":[6,0,1,0,1,658,18],
+"classMR_1_1ShortcutManager.html#af0dd4d072b92bf237ce72e80f357d475":[6,0,2,0,1,642,18],
+"classMR_1_1SpaceMouseController.html":[6,0,1,0,1,668],
+"classMR_1_1SpaceMouseController.html":[6,0,2,0,1,652],
+"classMR_1_1SpaceMouseController.html#a7accd6b62f47b5cf5f772deed66e77f9":[6,0,1,0,1,668,3],
+"classMR_1_1SpaceMouseController.html#a7accd6b62f47b5cf5f772deed66e77f9":[6,0,2,0,1,652,3],
+"classMR_1_1SpaceMouseController.html#abeb719b76a7f6eab11a03225b18aebd0":[6,0,1,0,1,668,0],
 "classMR_1_1SpaceMouseController.html#abeb719b76a7f6eab11a03225b18aebd0":[6,0,2,0,1,652,0],
 "classMR_1_1SpaceMouseController.html#ae0a59b5372dca473cd6f7c21eb280c69":[6,0,1,0,1,668,2],
 "classMR_1_1SpaceMouseController.html#ae0a59b5372dca473cd6f7c21eb280c69":[6,0,2,0,1,652,2],
@@ -240,14 +249,5 @@ var NAVTREEINDEX43 =
 "classMR_1_1SurfaceManipulationWidget.html#a70ba5734344437097ab6791ef9f24943":[6,0,1,0,1,688,37],
 "classMR_1_1SurfaceManipulationWidget.html#a70ba5734344437097ab6791ef9f24943":[6,0,2,0,1,672,37],
 "classMR_1_1SurfaceManipulationWidget.html#a76be206635ab7abc679ccdad3f0ab7e8":[6,0,1,0,1,688,57],
-"classMR_1_1SurfaceManipulationWidget.html#a76be206635ab7abc679ccdad3f0ab7e8":[6,0,2,0,1,672,57],
-"classMR_1_1SurfaceManipulationWidget.html#a81c3f5f93d6cfba31ce7a84815bebb22":[6,0,1,0,1,688,15],
-"classMR_1_1SurfaceManipulationWidget.html#a81c3f5f93d6cfba31ce7a84815bebb22":[6,0,2,0,1,672,15],
-"classMR_1_1SurfaceManipulationWidget.html#a83f58ee4ef74ddd5127a9de59ad0658e":[6,0,1,0,1,688,68],
-"classMR_1_1SurfaceManipulationWidget.html#a83f58ee4ef74ddd5127a9de59ad0658e":[6,0,2,0,1,672,68],
-"classMR_1_1SurfaceManipulationWidget.html#a87e780495d7aae0fc12390c68b58631d":[6,0,1,0,1,688,30],
-"classMR_1_1SurfaceManipulationWidget.html#a87e780495d7aae0fc12390c68b58631d":[6,0,2,0,1,672,30],
-"classMR_1_1SurfaceManipulationWidget.html#a8b49dc6133efe789f4fa17bb75f3641c":[6,0,1,0,1,688,28],
-"classMR_1_1SurfaceManipulationWidget.html#a8b49dc6133efe789f4fa17bb75f3641c":[6,0,2,0,1,672,28],
-"classMR_1_1SurfaceManipulationWidget.html#a8c958ed29a4e3f960ce7aab676126adb":[6,0,1,0,1,688,60]
+"classMR_1_1SurfaceManipulationWidget.html#a76be206635ab7abc679ccdad3f0ab7e8":[6,0,2,0,1,672,57]
 };

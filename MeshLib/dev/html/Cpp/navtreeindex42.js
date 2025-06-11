@@ -1,5 +1,14 @@
 var NAVTREEINDEX42 =
 {
+"classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261a42e73be4e6a3c410002eb381e9575f5b":[6,0,0,18,3,1,9],
+"classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261a643f1e82cb1a542f73852553cdb88310":[6,0,0,18,3,1,3],
+"classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261a76f1624926021a8e4a671dd85c3cdc00":[6,0,0,18,3,1,0],
+"classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261a8a3aad920f8a916d4abf44b25a86ef1e":[6,0,0,18,3,1,6],
+"classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261a8ac314a210ce649b6362765e85106c2a":[6,0,0,18,3,1,10],
+"classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261a9e62e749ce08f2fc8cb6437f1b409778":[6,0,0,18,3,1,2],
+"classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261aad36d169353d55602524d078a697a16b":[6,0,0,18,3,1,4],
+"classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261abaca4c96c2c2eb0beb55075d1dfb25ce":[6,0,0,18,3,1,8],
+"classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261ae3241ff3a6a1c4e22348c34a6ef69904":[6,0,0,18,3,1,1],
 "classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,0,18,3,1,11],
 "classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261afa71df10d1ecadd399ea1c886d42daf3":[6,0,0,18,3,1,5],
 "classMR_1_1SceneSettings.html#ad40f8b0bfec68b50393b6e9e021b0261afc0611ad1874f59b7e47820b4cdd72e9":[6,0,0,18,3,1,7],
@@ -240,14 +249,5 @@ var NAVTREEINDEX42 =
 "classMR_1_1ShortcutManager.html#adf200a338401cd7994a122ba61bfce47":[6,0,1,0,1,658,10],
 "classMR_1_1ShortcutManager.html#adf200a338401cd7994a122ba61bfce47":[6,0,2,0,1,642,10],
 "classMR_1_1ShortcutManager.html#adf3fea364a499a2b41b73fb7fa94b301":[6,0,1,0,1,658,19],
-"classMR_1_1ShortcutManager.html#adf3fea364a499a2b41b73fb7fa94b301":[6,0,2,0,1,642,19],
-"classMR_1_1ShortcutManager.html#aeff727b4670aa9fcca089a4f082b30e1":[6,0,1,0,1,658,14],
-"classMR_1_1ShortcutManager.html#aeff727b4670aa9fcca089a4f082b30e1":[6,0,2,0,1,642,14],
-"classMR_1_1ShortcutManager.html#af0dd4d072b92bf237ce72e80f357d475":[6,0,1,0,1,658,18],
-"classMR_1_1ShortcutManager.html#af0dd4d072b92bf237ce72e80f357d475":[6,0,2,0,1,642,18],
-"classMR_1_1SpaceMouseController.html":[6,0,1,0,1,668],
-"classMR_1_1SpaceMouseController.html":[6,0,2,0,1,652],
-"classMR_1_1SpaceMouseController.html#a7accd6b62f47b5cf5f772deed66e77f9":[6,0,1,0,1,668,3],
-"classMR_1_1SpaceMouseController.html#a7accd6b62f47b5cf5f772deed66e77f9":[6,0,2,0,1,652,3],
-"classMR_1_1SpaceMouseController.html#abeb719b76a7f6eab11a03225b18aebd0":[6,0,1,0,1,668,0]
+"classMR_1_1ShortcutManager.html#adf3fea364a499a2b41b73fb7fa94b301":[6,0,2,0,1,642,19]
 };

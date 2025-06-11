@@ -1,5 +1,11 @@
 var NAVTREEINDEX10 =
 {
+"MRMesh_2MRNormalDenoising_8h.html#a40847df1ce412c4c7085dd392037e050":[6,0,3,0,0,1,4,239,4],
+"MRMesh_2MRNormalDenoising_8h.html#a4a2815eda5e04a1da7ec615027b52c86":[6,0,3,0,0,1,4,239,1],
+"MRMesh_2MRNormalDenoising_8h.html#a6bddd9d63512f9dfffb0fa869f249a4d":[6,0,3,0,0,1,4,239,2],
+"MRMesh_2MRNormalDenoising_8h.html#a786dcca1baeb53c3472aeec3c347aaf0":[6,0,3,0,0,1,4,239,3],
+"MRMesh_2MRNormalDenoising_8h_source.html":[6,0,3,0,0,1,4,239],
+"MRMesh_2MRPointCloudTriangulation_8h.html":[6,0,3,0,0,1,4,278],
 "MRMesh_2MRPointCloudTriangulation_8h_source.html":[6,0,3,0,0,1,4,278],
 "MRMesh_2MRPointCloud_8h.html":[6,0,3,0,0,1,4,272],
 "MRMesh_2MRPointCloud_8h_source.html":[6,0,3,0,0,1,4,272],
@@ -11,6 +17,10 @@ var NAVTREEINDEX10 =
 "MRMesh_2MRPointsLoad_8h_source.html":[6,0,3,0,0,1,4,286],
 "MRMesh_2MRPointsSave_8h.html":[6,0,3,0,0,1,4,289],
 "MRMesh_2MRPointsSave_8h_source.html":[6,0,3,0,0,1,4,289],
+"MRMesh_2MRPointsToMeshProjector_8h.html":[6,0,3,0,0,1,4,290],
+"MRMesh_2MRPointsToMeshProjector_8h.html#a9190cb2d402cfa697a55e8c7d3b0616a":[6,0,3,0,0,1,4,290,4],
+"MRMesh_2MRPointsToMeshProjector_8h.html#af932c229587a29f4c48cb5af27b2e6eb":[6,0,3,0,0,1,4,290,3],
+"MRMesh_2MRPointsToMeshProjector_8h_source.html":[6,0,3,0,0,1,4,290],
 "MRMesh_2MRPrecisePredicates3_8h.html":[6,0,3,0,0,1,4,309],
 "MRMesh_2MRPrecisePredicates3_8h.html#a1786b102734c05b43aec639689904eba":[6,0,3,0,0,1,4,309,5],
 "MRMesh_2MRPrecisePredicates3_8h.html#a2096ace9292b40c55421517434fd8bd8":[6,0,3,0,0,1,4,309,7],
@@ -239,15 +249,5 @@ var NAVTREEINDEX10 =
 "MRObjectMesh_8h.html#aaefec968ac6fb5cfee5c25c9a8e9b2c0":[6,0,3,0,0,1,4,249,0],
 "MRObjectMesh_8h.html#af864b9246bf8c972ba65a4ef698384f9":[6,0,3,0,0,1,4,249,1],
 "MRObjectMesh_8h_source.html":[6,0,3,0,0,1,4,249],
-"MRObjectPointsHistory_8h.html":[6,0,3,0,0,1,10,53],
-"MRObjectPointsHistory_8h.html#ac236381762735fee94cd52a902d87c67":[6,0,3,0,0,1,10,53,1],
-"MRObjectPointsHistory_8h.html#af70abcbee5fc303daa9a2cbbea864ac8":[6,0,3,0,0,1,10,53,0],
-"MRObjectPointsHistory_8h_source.html":[6,0,3,0,0,1,10,53],
-"MRObjectPointsHolder_8h.html":[6,0,3,0,0,1,4,253],
-"MRObjectPointsHolder_8h.html#a69c4cff6b9a1cd95c71fc56b8dd9a983":[6,0,3,0,0,1,4,253,4],
-"MRObjectPointsHolder_8h.html#abe89e68bb42ac37f29751da1b4f600eb":[6,0,3,0,0,1,4,253,3],
-"MRObjectPointsHolder_8h.html#acdce382a246b8c333783f28615aac9f0":[6,0,3,0,0,1,4,253,5],
-"MRObjectPointsHolder_8h.html#afef5d869778f6e470421c5e70529110c":[6,0,3,0,0,1,4,253,2],
-"MRObjectPointsHolder_8h_source.html":[6,0,3,0,0,1,4,253],
-"MRObjectPoints_8h.html":[6,0,3,0,0,1,4,252]
+"MRObjectPointsHistory_8h.html":[6,0,3,0,0,1,10,53]
 };

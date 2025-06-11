@@ -1,5 +1,14 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1AddVisualProperties.html#a534fe1b7809ccb50abd437a88b6c1412":[6,0,1,0,1,51,4],
+"classMR_1_1AddVisualProperties.html#a534fe1b7809ccb50abd437a88b6c1412":[6,0,2,0,1,35,4],
+"classMR_1_1AddVisualProperties.html#a7fc99037212a4beaeec730ca98373554":[6,0,1,0,1,51,0],
+"classMR_1_1AddVisualProperties.html#a7fc99037212a4beaeec730ca98373554":[6,0,2,0,1,35,0],
+"classMR_1_1AddVisualProperties.html#aa7ce9ce8b54a5a131d54334b7ed26fb1":[6,0,1,0,1,51,1],
+"classMR_1_1AddVisualProperties.html#aa7ce9ce8b54a5a131d54334b7ed26fb1":[6,0,2,0,1,35,1],
+"classMR_1_1AlphaSortGL.html":[6,0,1,0,1,54],
+"classMR_1_1AlphaSortGL.html":[6,0,2,0,1,38],
+"classMR_1_1AlphaSortGL.html#a1dd61ddfaca7ad57995cff3e85436742":[6,0,1,0,1,54,1],
 "classMR_1_1AlphaSortGL.html#a1dd61ddfaca7ad57995cff3e85436742":[6,0,2,0,1,38,1],
 "classMR_1_1AlphaSortGL.html#a29e1a40f8ddae233dc49511e5daa9200":[6,0,1,0,1,54,0],
 "classMR_1_1AlphaSortGL.html#a29e1a40f8ddae233dc49511e5daa9200":[6,0,2,0,1,38,0],
@@ -240,14 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1CNCMachineSettings.html":[6,0,1,0,1,140],
 "classMR_1_1CNCMachineSettings.html":[6,0,2,0,1,124],
 "classMR_1_1CNCMachineSettings.html#a0bbceb8d92b2fa4d3b6ef276385f4859":[6,0,1,0,1,140,9],
-"classMR_1_1CNCMachineSettings.html#a0bbceb8d92b2fa4d3b6ef276385f4859":[6,0,2,0,1,124,9],
-"classMR_1_1CNCMachineSettings.html#a278d2f6aa58def219645069a531f5bcb":[6,0,1,0,1,140,10],
-"classMR_1_1CNCMachineSettings.html#a278d2f6aa58def219645069a531f5bcb":[6,0,2,0,1,124,10],
-"classMR_1_1CNCMachineSettings.html#a404671f36c19d091b007337e8c67f052":[6,0,1,0,1,140,4],
-"classMR_1_1CNCMachineSettings.html#a404671f36c19d091b007337e8c67f052":[6,0,2,0,1,124,4],
-"classMR_1_1CNCMachineSettings.html#a9b8cd0d699837ae1b90931ef9e94812e":[6,0,1,0,1,140,5],
-"classMR_1_1CNCMachineSettings.html#a9b8cd0d699837ae1b90931ef9e94812e":[6,0,2,0,1,124,5],
-"classMR_1_1CNCMachineSettings.html#aa86d3a2352dd1da528e0b0e02259cb2a":[6,0,1,0,1,140,3],
-"classMR_1_1CNCMachineSettings.html#aa86d3a2352dd1da528e0b0e02259cb2a":[6,0,2,0,1,124,3],
-"classMR_1_1CNCMachineSettings.html#ac0c13922a14bfc3a6a3a9add38676b04":[6,0,1,0,1,140,7]
+"classMR_1_1CNCMachineSettings.html#a0bbceb8d92b2fa4d3b6ef276385f4859":[6,0,2,0,1,124,9]
 };

@@ -290,7 +290,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRPointsLoadSettings.h", "MRMesh_2MRPointsLoadSettings_8h.html", "MRMesh_2MRPointsLoadSettings_8h" ],
     [ "MRPointsProject.h", "MRPointsProject_8h.html", "MRPointsProject_8h" ],
     [ "MRPointsSave.h", "MRMesh_2MRPointsSave_8h.html", "MRMesh_2MRPointsSave_8h" ],
-    [ "MRPointsToMeshProjector.h", "MRPointsToMeshProjector_8h.html", "MRPointsToMeshProjector_8h" ],
+    [ "MRPointsToMeshProjector.h", "MRMesh_2MRPointsToMeshProjector_8h.html", "MRMesh_2MRPointsToMeshProjector_8h" ],
     [ "MRPointToPlaneAligningTransform.h", "MRPointToPlaneAligningTransform_8h.html", null ],
     [ "MRPointToPointAligningTransform.h", "MRPointToPointAligningTransform_8h.html", null ],
     [ "MRPolyline.h", "MRPolyline_8h.html", null ],

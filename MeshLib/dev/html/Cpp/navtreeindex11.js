@@ -1,5 +1,15 @@
 var NAVTREEINDEX11 =
 {
+"MRObjectPointsHistory_8h.html#ac236381762735fee94cd52a902d87c67":[6,0,3,0,0,1,10,53,1],
+"MRObjectPointsHistory_8h.html#af70abcbee5fc303daa9a2cbbea864ac8":[6,0,3,0,0,1,10,53,0],
+"MRObjectPointsHistory_8h_source.html":[6,0,3,0,0,1,10,53],
+"MRObjectPointsHolder_8h.html":[6,0,3,0,0,1,4,253],
+"MRObjectPointsHolder_8h.html#a69c4cff6b9a1cd95c71fc56b8dd9a983":[6,0,3,0,0,1,4,253,4],
+"MRObjectPointsHolder_8h.html#abe89e68bb42ac37f29751da1b4f600eb":[6,0,3,0,0,1,4,253,3],
+"MRObjectPointsHolder_8h.html#acdce382a246b8c333783f28615aac9f0":[6,0,3,0,0,1,4,253,5],
+"MRObjectPointsHolder_8h.html#afef5d869778f6e470421c5e70529110c":[6,0,3,0,0,1,4,253,2],
+"MRObjectPointsHolder_8h_source.html":[6,0,3,0,0,1,4,253],
+"MRObjectPoints_8h.html":[6,0,3,0,0,1,4,252],
 "MRObjectPoints_8h.html#a0bc9f97aed9da24cf8d3c368ec4ffd0b":[6,0,3,0,0,1,4,252,1],
 "MRObjectPoints_8h.html#a86837deb8b4177b9b719b1faf4d2d0e8":[6,0,3,0,0,1,4,252,0],
 "MRObjectPoints_8h.html#ac3547f635ac7e47bf1cb714faf3cc1cb":[6,0,3,0,0,1,4,252,2],
@@ -203,10 +213,6 @@ var NAVTREEINDEX11 =
 "MRPointsToMeshFusion_8h.html":[6,0,3,0,0,1,11,20],
 "MRPointsToMeshFusion_8h.html#abbc1adfce73c26127f80973b21afcbf4":[6,0,3,0,0,1,11,20,1],
 "MRPointsToMeshFusion_8h_source.html":[6,0,3,0,0,1,11,20],
-"MRPointsToMeshProjector_8h.html":[6,0,3,0,0,1,4,290],
-"MRPointsToMeshProjector_8h.html#a9190cb2d402cfa697a55e8c7d3b0616a":[6,0,3,0,0,1,4,290,4],
-"MRPointsToMeshProjector_8h.html#af932c229587a29f4c48cb5af27b2e6eb":[6,0,3,0,0,1,4,290,3],
-"MRPointsToMeshProjector_8h_source.html":[6,0,3,0,0,1,4,290],
 "MRPolyline2Collide_8h.html":[6,0,3,0,0,1,4,294],
 "MRPolyline2Collide_8h_source.html":[6,0,3,0,0,1,4,294],
 "MRPolyline2Intersect_8h.html":[6,0,3,0,0,1,4,295],
@@ -243,11 +249,5 @@ var NAVTREEINDEX11 =
 "MRPolylineToVoxels_8h.html#ae0f99bf61284f846914d0390d7951115":[6,0,3,0,0,1,11,21,3],
 "MRPolylineToVoxels_8h.html#ae9152c4fd78d40e4e55c048cdc278a89":[6,0,3,0,0,1,11,21,5],
 "MRPolylineToVoxels_8h_source.html":[6,0,3,0,0,1,11,21],
-"MRPolylineTopology_8h.html":[6,0,3,0,0,1,4,303],
-"MRPolylineTopology_8h_source.html":[6,0,3,0,0,1,4,303],
-"MRPolylineTrimWithPlane_8h.html":[6,0,3,0,0,1,4,304],
-"MRPolylineTrimWithPlane_8h.html#a021c68ef31d7ddce5af4dffb3ebf6bc3":[6,0,3,0,0,1,4,304,1],
-"MRPolylineTrimWithPlane_8h.html#a1e14b7efccdf368c6f649270adf4fbc6":[6,0,3,0,0,1,4,304,3],
-"MRPolylineTrimWithPlane_8h.html#aa175288fa2fb892330efe3669b9bd578":[6,0,3,0,0,1,4,304,5],
-"MRPolylineTrimWithPlane_8h.html#ad412e17ccd41a72db846230e5b0aace9":[6,0,3,0,0,1,4,304,2]
+"MRPolylineTopology_8h.html":[6,0,3,0,0,1,4,303]
 };

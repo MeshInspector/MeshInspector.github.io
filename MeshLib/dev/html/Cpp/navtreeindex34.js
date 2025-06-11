@@ -1,5 +1,14 @@
 var NAVTREEINDEX34 =
 {
+"classMR_1_1ObjectPointsHolder.html#ae0b780196658ba9017ae41f3ab2dd195":[6,0,2,0,1,429,32],
+"classMR_1_1ObjectPointsHolder.html#ae3b2bea04abb41d991834debde3ccedf":[6,0,1,0,1,445,19],
+"classMR_1_1ObjectPointsHolder.html#ae3b2bea04abb41d991834debde3ccedf":[6,0,2,0,1,429,19],
+"classMR_1_1ObjectPointsHolder.html#aea1d998484c820abf8d0f350e035f139":[6,0,1,0,1,445,47],
+"classMR_1_1ObjectPointsHolder.html#aea1d998484c820abf8d0f350e035f139":[6,0,2,0,1,429,47],
+"classMR_1_1ObjectPointsHolder.html#aee16d2b8918460907bba03f68431314c":[6,0,1,0,1,445,41],
+"classMR_1_1ObjectPointsHolder.html#aee16d2b8918460907bba03f68431314c":[6,0,2,0,1,429,41],
+"classMR_1_1ObjectPointsHolder.html#af7ab9f32dcef65ad1a79fde9078c19af":[6,0,1,0,1,445,53],
+"classMR_1_1ObjectPointsHolder.html#af7ab9f32dcef65ad1a79fde9078c19af":[6,0,2,0,1,429,53],
 "classMR_1_1ObjectPointsHolder.html#aff82edcc80eafd10cf373c842d0c3b8e":[6,0,1,0,1,445,56],
 "classMR_1_1ObjectPointsHolder.html#aff82edcc80eafd10cf373c842d0c3b8e":[6,0,2,0,1,429,56],
 "classMR_1_1ObjectTransformWidget.html":[6,0,1,0,1,446],
@@ -240,14 +249,5 @@ var NAVTREEINDEX34 =
 "classMR_1_1Palette.html#aee6fa3cea3a5b3449207a8a888addd49":[6,0,2,0,1,460,21],
 "classMR_1_1PalettePresets.html":[6,0,1,0,1,477],
 "classMR_1_1PalettePresets.html":[6,0,2,0,1,461],
-"classMR_1_1ParallelProgressReporter.html":[6,0,1,0,1,479],
-"classMR_1_1ParallelProgressReporter.html":[6,0,2,0,1,463],
-"classMR_1_1ParallelProgressReporter.html#a14f01226cb9a140ad5be9540453a8eed":[6,0,1,0,1,479,4],
-"classMR_1_1ParallelProgressReporter.html#a14f01226cb9a140ad5be9540453a8eed":[6,0,2,0,1,463,4],
-"classMR_1_1ParallelProgressReporter.html#a2c6d0ee3e32d318d2f21e81a65c786fb":[6,0,1,0,1,479,2],
-"classMR_1_1ParallelProgressReporter.html#a2c6d0ee3e32d318d2f21e81a65c786fb":[6,0,2,0,1,463,2],
-"classMR_1_1ParallelProgressReporter.html#afb8acccd63d1068e162e165f290b3227":[6,0,1,0,1,479,3],
-"classMR_1_1ParallelProgressReporter.html#afb8acccd63d1068e162e165f290b3227":[6,0,2,0,1,463,3],
-"classMR_1_1PartialChangeMeshAction.html":[6,0,0,4,38],
-"classMR_1_1PartialChangeMeshAction.html#a677e3ef484c3decb94df9b1ce351cfdf":[6,0,0,4,38,3]
+"classMR_1_1ParallelProgressReporter.html":[6,0,1,0,1,479]
 };

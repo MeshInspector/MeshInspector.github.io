@@ -1,5 +1,14 @@
 var NAVTREEINDEX19 =
 {
+"classMR_1_1CNCMachineSettings.html#a278d2f6aa58def219645069a531f5bcb":[6,0,1,0,1,140,10],
+"classMR_1_1CNCMachineSettings.html#a278d2f6aa58def219645069a531f5bcb":[6,0,2,0,1,124,10],
+"classMR_1_1CNCMachineSettings.html#a404671f36c19d091b007337e8c67f052":[6,0,1,0,1,140,4],
+"classMR_1_1CNCMachineSettings.html#a404671f36c19d091b007337e8c67f052":[6,0,2,0,1,124,4],
+"classMR_1_1CNCMachineSettings.html#a9b8cd0d699837ae1b90931ef9e94812e":[6,0,1,0,1,140,5],
+"classMR_1_1CNCMachineSettings.html#a9b8cd0d699837ae1b90931ef9e94812e":[6,0,2,0,1,124,5],
+"classMR_1_1CNCMachineSettings.html#aa86d3a2352dd1da528e0b0e02259cb2a":[6,0,1,0,1,140,3],
+"classMR_1_1CNCMachineSettings.html#aa86d3a2352dd1da528e0b0e02259cb2a":[6,0,2,0,1,124,3],
+"classMR_1_1CNCMachineSettings.html#ac0c13922a14bfc3a6a3a9add38676b04":[6,0,1,0,1,140,7],
 "classMR_1_1CNCMachineSettings.html#ac0c13922a14bfc3a6a3a9add38676b04":[6,0,2,0,1,124,7],
 "classMR_1_1CNCMachineSettings.html#ac2d2ccfe7fd64c3498a251b0a0d33223":[6,0,1,0,1,140,16],
 "classMR_1_1CNCMachineSettings.html#ac2d2ccfe7fd64c3498a251b0a0d33223":[6,0,2,0,1,124,16],
@@ -240,14 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1ChangeOnePointInCloudAction.html#a2a95838eed1970b6d1b9fe6009128d7f":[6,0,0,4,18,1],
 "classMR_1_1ChangeOnePointInCloudAction.html#a53daa4ab4948e49bce8cf3efb71982cb":[6,0,0,4,18,0],
 "classMR_1_1ChangeOnePointInCloudAction.html#a6dae80316417b70ee98f67ecf0477677":[6,0,0,4,18,2],
-"classMR_1_1ChangeOnePointInCloudAction.html#a90c1e3a545b13734142bde8638b3ee63":[6,0,0,4,18,4],
-"classMR_1_1ChangeOnePointInCloudAction.html#adbe79dc8bbe3a4158e22e912c78dfcd8":[6,0,0,4,18,3],
-"classMR_1_1ChangePointCloudAction.html":[6,0,0,4,16],
-"classMR_1_1ChangePointCloudAction.html#a36b0016bc6e04bb6c94996e9c8adbea2":[6,0,0,4,16,1],
-"classMR_1_1ChangePointCloudAction.html#a3d96f0fc00a2d6d30b4807712b3793b6":[6,0,0,4,16,4],
-"classMR_1_1ChangePointCloudAction.html#a618406d420de41e825205cae3f53c9c6":[6,0,0,4,16,2],
-"classMR_1_1ChangePointCloudAction.html#a88fbf81698d29dc3b1de82e6258f3e62":[6,0,0,4,16,0],
-"classMR_1_1ChangePointCloudAction.html#aea2ce2e41b3850a18e72e5766ccb86f5":[6,0,0,4,16,3],
-"classMR_1_1ChangePointCloudNormalsAction.html":[6,0,0,4,19],
-"classMR_1_1ChangePointCloudNormalsAction.html#a2bcd7434c87c613e94dd6c3ea18b541e":[6,0,0,4,19,4]
+"classMR_1_1ChangeOnePointInCloudAction.html#a90c1e3a545b13734142bde8638b3ee63":[6,0,0,4,18,4]
 };

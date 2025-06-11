@@ -1,5 +1,14 @@
 var NAVTREEINDEX40 =
 {
+"classMR_1_1RibbonMenu.html#a2b8f24d719c5b2f849c6a2da6a8e6a05":[6,0,1,0,1,588,9],
+"classMR_1_1RibbonMenu.html#a2b8f24d719c5b2f849c6a2da6a8e6a05":[6,0,2,0,1,572,9],
+"classMR_1_1RibbonMenu.html#a2f639a83635dfb22ba89545a6dc9d85e":[6,0,1,0,1,588,74],
+"classMR_1_1RibbonMenu.html#a2f639a83635dfb22ba89545a6dc9d85e":[6,0,2,0,1,572,74],
+"classMR_1_1RibbonMenu.html#a304f2add3b4e9221b6accdcf46c2bb68":[6,0,1,0,1,588,71],
+"classMR_1_1RibbonMenu.html#a304f2add3b4e9221b6accdcf46c2bb68":[6,0,2,0,1,572,71],
+"classMR_1_1RibbonMenu.html#a361cde7981902393e0db66ef54bf937e":[6,0,1,0,1,588,27],
+"classMR_1_1RibbonMenu.html#a361cde7981902393e0db66ef54bf937e":[6,0,2,0,1,572,27],
+"classMR_1_1RibbonMenu.html#a3d177f8768aa87645a633f7e5e3dd0ba":[6,0,1,0,1,588,28],
 "classMR_1_1RibbonMenu.html#a3d177f8768aa87645a633f7e5e3dd0ba":[6,0,2,0,1,572,28],
 "classMR_1_1RibbonMenu.html#a3e0bbf51d01df0169ab4de593b8f3e95":[6,0,1,0,1,588,68],
 "classMR_1_1RibbonMenu.html#a3e0bbf51d01df0169ab4de593b8f3e95":[6,0,2,0,1,572,68],
@@ -240,14 +249,5 @@ var NAVTREEINDEX40 =
 "classMR_1_1RibbonSceneObjectsListDrawer.html#ad86a3587a045aae766a1ba386a398763":[6,0,1,0,1,598,0],
 "classMR_1_1RibbonSceneObjectsListDrawer.html#ad86a3587a045aae766a1ba386a398763":[6,0,2,0,1,582,0],
 "classMR_1_1RibbonSceneRemoveSelected.html":[6,0,1,0,1,599],
-"classMR_1_1RibbonSceneRemoveSelected.html":[6,0,2,0,1,583],
-"classMR_1_1RibbonSceneRemoveSelected.html#a29caebde4be3ee15714f1c5698a8edb0":[6,0,1,0,1,599,1],
-"classMR_1_1RibbonSceneRemoveSelected.html#a29caebde4be3ee15714f1c5698a8edb0":[6,0,2,0,1,583,1],
-"classMR_1_1RibbonSceneRemoveSelected.html#a7570afcb911fef7ef4b4209311ff56fa":[6,0,1,0,1,599,0],
-"classMR_1_1RibbonSceneRemoveSelected.html#a7570afcb911fef7ef4b4209311ff56fa":[6,0,2,0,1,583,0],
-"classMR_1_1RibbonSceneRemoveSelected.html#ad163bea4fd969e36923bd710b0e9bbd5":[6,0,1,0,1,599,2],
-"classMR_1_1RibbonSceneRemoveSelected.html#ad163bea4fd969e36923bd710b0e9bbd5":[6,0,2,0,1,583,2],
-"classMR_1_1RibbonSceneRename.html":[6,0,1,0,1,600],
-"classMR_1_1RibbonSceneRename.html":[6,0,2,0,1,584],
-"classMR_1_1RibbonSceneRename.html#a0a3ceed28e10a93082b57b82d8488854":[6,0,1,0,1,600,1]
+"classMR_1_1RibbonSceneRemoveSelected.html":[6,0,2,0,1,583]
 };

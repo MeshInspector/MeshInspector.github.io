@@ -811,6 +811,7 @@ var hierarchy =
     [ "MRMeshLoadObjLoadSettings", "structMRMeshLoadObjLoadSettings.html", null ],
     [ "MRMeshNormals", "structMRMeshNormals.html", null ],
     [ "MRMeshPart", "structMRMeshPart.html", null ],
+    [ "MRMeshProjectionParameters", "structMRMeshProjectionParameters.html", null ],
     [ "MRMeshProjectionResult", "structMRMeshProjectionResult.html", null ],
     [ "MRMeshRegions", "structMRMeshRegions.html", null ],
     [ "MRMeshSaveNamedXfMesh", "structMRMeshSaveNamedXfMesh.html", null ],

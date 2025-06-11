@@ -1,5 +1,14 @@
 var NAVTREEINDEX26 =
 {
+"classMR_1_1ISceneSelectionChange.html#a46ed29a0c79bdfb7de53ea802fee042c":[6,0,1,0,1,310,0],
+"classMR_1_1ISceneSelectionChange.html#a46ed29a0c79bdfb7de53ea802fee042c":[6,0,2,0,1,294,0],
+"classMR_1_1ISceneStateCheck.html":[6,0,1,0,1,311],
+"classMR_1_1ISceneStateCheck.html":[6,0,2,0,1,295],
+"classMR_1_1ISceneStateCheck.html#ad6d7bd5bc97dd4a629de5e0a33af3afe":[6,0,1,0,1,311,0],
+"classMR_1_1ISceneStateCheck.html#ad6d7bd5bc97dd4a629de5e0a33af3afe":[6,0,2,0,1,295,0],
+"classMR_1_1ISceneStateCheck.html#adedf10c80ddfebcb456559fa828065c0":[6,0,1,0,1,311,1],
+"classMR_1_1ISceneStateCheck.html#adedf10c80ddfebcb456559fa828065c0":[6,0,2,0,1,295,1],
+"classMR_1_1ITransformControls.html":[6,0,1,0,1,321],
 "classMR_1_1ITransformControls.html":[6,0,2,0,1,305],
 "classMR_1_1ITransformControls.html#a044830cadc17d1698a87fcdd9a6c699e":[6,0,1,0,1,321,13],
 "classMR_1_1ITransformControls.html#a044830cadc17d1698a87fcdd9a6c699e":[6,0,2,0,1,305,13],
@@ -240,14 +249,5 @@ var NAVTREEINDEX26 =
 "classMR_1_1ImGuiMenu.html#a030eb50192d51050ab5c5aa34e63929d":[6,0,1,0,1,293,145],
 "classMR_1_1ImGuiMenu.html#a030eb50192d51050ab5c5aa34e63929d":[6,0,2,0,1,277,145],
 "classMR_1_1ImGuiMenu.html#a06b63d6e0f840a978d53ab48129df966":[6,0,1,0,1,293,19],
-"classMR_1_1ImGuiMenu.html#a06b63d6e0f840a978d53ab48129df966":[6,0,2,0,1,277,19],
-"classMR_1_1ImGuiMenu.html#a09e144807f360fa5ae2c48aa130a940d":[6,0,1,0,1,293,140],
-"classMR_1_1ImGuiMenu.html#a09e144807f360fa5ae2c48aa130a940d":[6,0,2,0,1,277,140],
-"classMR_1_1ImGuiMenu.html#a0b9508550f2dc503c7e8bfe4d20c6756":[6,0,1,0,1,293,65],
-"classMR_1_1ImGuiMenu.html#a0b9508550f2dc503c7e8bfe4d20c6756":[6,0,2,0,1,277,65],
-"classMR_1_1ImGuiMenu.html#a0d3348b637e1e6672669ff2da445a8e8":[6,0,1,0,1,293,51],
-"classMR_1_1ImGuiMenu.html#a0d3348b637e1e6672669ff2da445a8e8":[6,0,2,0,1,277,51],
-"classMR_1_1ImGuiMenu.html#a0d7ed7302aaadf4457e4e0e381bfaedf":[6,0,1,0,1,293,18],
-"classMR_1_1ImGuiMenu.html#a0d7ed7302aaadf4457e4e0e381bfaedf":[6,0,2,0,1,277,18],
-"classMR_1_1ImGuiMenu.html#a0e5fbe43cf10672413ba99ee734efbf6":[6,0,1,0,1,293,22]
+"classMR_1_1ImGuiMenu.html#a06b63d6e0f840a978d53ab48129df966":[6,0,2,0,1,277,19]
 };

@@ -1015,6 +1015,7 @@ var annotated_dup =
     [ "MRMeshLoadObjLoadSettings", "structMRMeshLoadObjLoadSettings.html", "structMRMeshLoadObjLoadSettings" ],
     [ "MRMeshNormals", "structMRMeshNormals.html", "structMRMeshNormals" ],
     [ "MRMeshPart", "structMRMeshPart.html", "structMRMeshPart" ],
+    [ "MRMeshProjectionParameters", "structMRMeshProjectionParameters.html", "structMRMeshProjectionParameters" ],
     [ "MRMeshProjectionResult", "structMRMeshProjectionResult.html", "structMRMeshProjectionResult" ],
     [ "MRMeshRegions", "structMRMeshRegions.html", "structMRMeshRegions" ],
     [ "MRMeshSaveNamedXfMesh", "structMRMeshSaveNamedXfMesh.html", "structMRMeshSaveNamedXfMesh" ],
