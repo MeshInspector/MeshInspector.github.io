@@ -382,6 +382,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRTupleBindings.h", "MRTupleBindings_8h.html", "MRTupleBindings_8h" ],
     [ "MRUniformSampling.h", "MRMesh_2MRUniformSampling_8h.html", "MRMesh_2MRUniformSampling_8h" ],
     [ "MRUnionFind.h", "MRUnionFind_8h.html", null ],
+    [ "MRUnionFindParallel.h", "MRUnionFindParallel_8h.html", "MRUnionFindParallel_8h" ],
     [ "MRUniquePtr.h", "MRUniquePtr_8h.html", "MRUniquePtr_8h" ],
     [ "MRUniqueTemporaryFolder.h", "MRUniqueTemporaryFolder_8h.html", "MRUniqueTemporaryFolder_8h" ],
     [ "MRUniqueThreadSafeOwner.h", "MRUniqueThreadSafeOwner_8h.html", null ],

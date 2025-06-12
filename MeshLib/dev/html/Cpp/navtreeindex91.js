@@ -1,5 +1,11 @@
 var NAVTREEINDEX91 =
 {
+"structMR_1_1ZeroOnMove.html#ac3bc0c5c28107a3a11a89d8b43373be0":[6,0,2,0,1,793,3],
+"structMR_1_1ZeroOnMove.html#af504ba39107aabf4c055c1a1f651c586":[6,0,1,0,1,809,0],
+"structMR_1_1ZeroOnMove.html#af504ba39107aabf4c055c1a1f651c586":[6,0,2,0,1,793,0],
+"structMR_1_1detail_1_1FileDialogParameters.html":[6,0,1,0,1,3,1],
+"structMR_1_1detail_1_1FileDialogParameters.html":[6,0,2,0,1,1,1],
+"structMR_1_1detail_1_1FileDialogParameters.html#a51695476a145bef72ff2020a7995cbbc":[6,0,1,0,1,3,1,1],
 "structMR_1_1detail_1_1FileDialogParameters.html#a51695476a145bef72ff2020a7995cbbc":[6,0,2,0,1,1,1,1],
 "structMR_1_1detail_1_1FileDialogParameters.html#a6dce3433153a1131ed0db0393ade24a6":[6,0,1,0,1,3,1,2],
 "structMR_1_1detail_1_1FileDialogParameters.html#a6dce3433153a1131ed0db0393ade24a6":[6,0,2,0,1,1,1,2],

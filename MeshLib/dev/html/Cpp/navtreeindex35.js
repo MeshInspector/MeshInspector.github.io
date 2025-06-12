@@ -1,5 +1,9 @@
 var NAVTREEINDEX35 =
 {
+"classMR_1_1Palette.html#aee6fa3cea3a5b3449207a8a888addd49":[6,0,2,0,1,460,21],
+"classMR_1_1PalettePresets.html":[6,0,1,0,1,477],
+"classMR_1_1PalettePresets.html":[6,0,2,0,1,461],
+"classMR_1_1ParallelProgressReporter.html":[6,0,1,0,1,479],
 "classMR_1_1ParallelProgressReporter.html":[6,0,2,0,1,463],
 "classMR_1_1ParallelProgressReporter.html#a14f01226cb9a140ad5be9540453a8eed":[6,0,1,0,1,479,4],
 "classMR_1_1ParallelProgressReporter.html#a14f01226cb9a140ad5be9540453a8eed":[6,0,2,0,1,463,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX35 =
 "classMR_1_1PointAccumulator.html#a76177fec5a1a4e3d0af890a84f1df551":[6,0,0,0,1,0,4],
 "classMR_1_1PointAccumulator.html#a9a8db7a86d2e4229d2ff0992aedf7b0f":[6,0,0,0,1,0,12],
 "classMR_1_1PointAccumulator.html#aac25c8343c28176214d2be06601fe2fd":[6,0,0,0,1,0,6],
-"classMR_1_1PointAccumulator.html#abee9287110bb3322c9323fa6a5898906":[6,0,0,0,1,0,11],
-"classMR_1_1PointAccumulator.html#aed6620e82b0ba20e993f8230d9f2e383":[6,0,0,0,1,0,5],
-"classMR_1_1PointAccumulator.html#aedf74106b093871a3f5f643ddebeee7f":[6,0,0,0,1,0,9],
-"classMR_1_1PointAccumulator.html#af304abbd279d3d26bfdfc095bf7f3eeb":[6,0,0,0,1,0,0],
-"classMR_1_1PointAccumulator.html#af42457c6f466fbc3a6b45fbae732a846":[6,0,0,0,1,0,13]
+"classMR_1_1PointAccumulator.html#abee9287110bb3322c9323fa6a5898906":[6,0,0,0,1,0,11]
 };

@@ -188,6 +188,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa570cc6f33bbb51fb5859608b9c68fbc" id="r_aa570cc6f33bbb51fb5859608b9c68fbc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa570cc6f33bbb51fb5859608b9c68fbc">united</a> (I first, I second)</td></tr>
 <tr class="memdesc:aa570cc6f33bbb51fb5859608b9c68fbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if given two elements are from one set  <br /></td></tr>
 <tr class="separator:aa570cc6f33bbb51fb5859608b9c68fbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a785b1dcdaf9a761a91a1331bfda21900" id="r_a785b1dcdaf9a761a91a1331bfda21900"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a785b1dcdaf9a761a91a1331bfda21900">isRoot</a> (I a) const</td></tr>
+<tr class="memdesc:a785b1dcdaf9a761a91a1331bfda21900"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if given element is the root of some set  <br /></td></tr>
+<tr class="separator:a785b1dcdaf9a761a91a1331bfda21900"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa982a275fa599ec51d07ad997c3902d3" id="r_aa982a275fa599ec51d07ad997c3902d3"><td class="memItemLeft" align="right" valign="top">I&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa982a275fa599ec51d07ad997c3902d3">parent</a> (I a) const</td></tr>
+<tr class="memdesc:aa982a275fa599ec51d07ad997c3902d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">return parent element of this element, which is equal to given element only for set's root  <br /></td></tr>
+<tr class="separator:aa982a275fa599ec51d07ad997c3902d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26e79fd903c0229dbd2f66a80549c75b" id="r_a26e79fd903c0229dbd2f66a80549c75b"><td class="memItemLeft" align="right" valign="top">I&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26e79fd903c0229dbd2f66a80549c75b">find</a> (I a)</td></tr>
 <tr class="memdesc:a26e79fd903c0229dbd2f66a80549c75b"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the root of the set containing given element with optimizing data structure updates  <br /></td></tr>
 <tr class="separator:a26e79fd903c0229dbd2f66a80549c75b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -203,10 +209,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a009ad612aecca5afb9b91768536c406f" id="r_a009ad612aecca5afb9b91768536c406f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ad07cce64defb1fcef686551aecfd55d0">SizeType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a009ad612aecca5afb9b91768536c406f">sizeOfComp</a> (I a)</td></tr>
 <tr class="memdesc:a009ad612aecca5afb9b91768536c406f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of elements in the set containing given element  <br /></td></tr>
 <tr class="separator:a009ad612aecca5afb9b91768536c406f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1ce835bcf47d774067416ae58611cf2" id="r_ae1ce835bcf47d774067416ae58611cf2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1ce835bcf47d774067416ae58611cf2">findRootsBitSet</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; *region=nullptr) const</td></tr>
-<tr class="separator:ae1ce835bcf47d774067416ae58611cf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cb8c700895057fe106d2246628bb3b8" id="r_a8cb8c700895057fe106d2246628bb3b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cb8c700895057fe106d2246628bb3b8">findComponentBitSet</a> (I a, const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; *region=nullptr)</td></tr>
-<tr class="separator:a8cb8c700895057fe106d2246628bb3b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename I&gt;<br />
@@ -323,50 +325,6 @@ template&lt;typename I &gt; </div>
 
 </div>
 </div>
-<a id="a8cb8c700895057fe106d2246628bb3b8" name="a8cb8c700895057fe106d2246628bb3b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8cb8c700895057fe106d2246628bb3b8">&#9670;&#160;</a></span>findComponentBitSet()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; <a class="el" href="classMR_1_1UnionFind.html">MR::UnionFind</a>&lt; I &gt;::findComponentBitSet </td>
-          <td>(</td>
-          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>constructs in parallel the bitset with 1-bits corresponding to the elements from same set as (a); if region is provided then only its elements will be checked </p>
-
-</div>
-</div>
-<a id="ae1ce835bcf47d774067416ae58611cf2" name="ae1ce835bcf47d774067416ae58611cf2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1ce835bcf47d774067416ae58611cf2">&#9670;&#160;</a></span>findRootsBitSet()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; <a class="el" href="classMR_1_1UnionFind.html">MR::UnionFind</a>&lt; I &gt;::findRootsBitSet </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>constructs in parallel the bitset with 1-bits corresponding to root elements; if region is provided then only its elements will be checked </p>
-
-</div>
-</div>
 <a id="abf32e7c70e8d67a82d759ad44a5b08c1" name="abf32e7c70e8d67a82d759ad44a5b08c1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abf32e7c70e8d67a82d759ad44a5b08c1">&#9670;&#160;</a></span>findUpdateRange()</h2>
 
@@ -402,6 +360,64 @@ template&lt;typename I &gt; </div>
 </div><div class="memdoc">
 
 <p>finds the root of the set containing given element with optimizing data structure in the range [begin, end) </p>
+
+</div>
+</div>
+<a id="a785b1dcdaf9a761a91a1331bfda21900" name="a785b1dcdaf9a761a91a1331bfda21900"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a785b1dcdaf9a761a91a1331bfda21900">&#9670;&#160;</a></span>isRoot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename I &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classMR_1_1UnionFind.html">MR::UnionFind</a>&lt; I &gt;::isRoot </td>
+          <td>(</td>
+          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true if given element is the root of some set </p>
+
+</div>
+</div>
+<a id="aa982a275fa599ec51d07ad997c3902d3" name="aa982a275fa599ec51d07ad997c3902d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa982a275fa599ec51d07ad997c3902d3">&#9670;&#160;</a></span>parent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename I &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">I <a class="el" href="classMR_1_1UnionFind.html">MR::UnionFind</a>&lt; I &gt;::parent </td>
+          <td>(</td>
+          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return parent element of this element, which is equal to given element only for set's root </p>
 
 </div>
 </div>

@@ -1,5 +1,11 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1MetricToAStarPenalty.html#a1abb85a715d1e270fa171a12e30b3b33":[6,0,1,0,1,389,2],
+"structMR_1_1MetricToAStarPenalty.html#a1abb85a715d1e270fa171a12e30b3b33":[6,0,2,0,1,373,2],
+"structMR_1_1MetricToAStarPenalty.html#adcfa3f6e76c7ebd915a9859d2105ab57":[6,0,1,0,1,389,0],
+"structMR_1_1MetricToAStarPenalty.html#adcfa3f6e76c7ebd915a9859d2105ab57":[6,0,2,0,1,373,0],
+"structMR_1_1MetricToAStarPenalty.html#ae78d929b06e35477653b8824ffed2383":[6,0,1,0,1,389,1],
+"structMR_1_1MetricToAStarPenalty.html#ae78d929b06e35477653b8824ffed2383":[6,0,2,0,1,373,1],
 "structMR_1_1MinArg.html":[6,0,1,0,1,390],
 "structMR_1_1MinArg.html":[6,0,2,0,1,374],
 "structMR_1_1MinArg.html#a390b27154863521ab2f36edc39b42011":[6,0,1,0,1,390,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1NewEdgesMap.html#a3af4a8bfbe6579dc273d0b9f368f77aa":[6,0,0,8,2,1],
 "structMR_1_1NoCtor.html":[6,0,1,0,1,419],
 "structMR_1_1NoCtor.html":[6,0,2,0,1,403],
-"structMR_1_1NoCtor_3_01T_01_4.html":[6,0,1,0,1,420],
-"structMR_1_1NoCtor_3_01T_01_4.html":[6,0,2,0,1,404],
-"structMR_1_1NoCtor_3_01T_01_4.html#a5ad36941cb49b13cf04d17446b102370":[6,0,1,0,1,420,0],
-"structMR_1_1NoCtor_3_01T_01_4.html#a5ad36941cb49b13cf04d17446b102370":[6,0,2,0,1,404,0],
-"structMR_1_1NoCtor_3_01T_01_4.html#a9043c90869c007f7262a6c843c881219":[6,0,1,0,1,420,1],
-"structMR_1_1NoCtor_3_01T_01_4.html#a9043c90869c007f7262a6c843c881219":[6,0,2,0,1,404,1],
-"structMR_1_1NoDefInit.html":[6,0,1,0,1,421]
+"structMR_1_1NoCtor_3_01T_01_4.html":[6,0,1,0,1,420]
 };

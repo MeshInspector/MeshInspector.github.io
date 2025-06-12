@@ -1,5 +1,11 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1PolylineToVolumeParams.html":[6,0,2,0,1,509],
+"structMR_1_1PolylineToVolumeParams.html#a000c468f653f412dd5e5110354c49d7b":[6,0,1,0,1,525,0],
+"structMR_1_1PolylineToVolumeParams.html#a000c468f653f412dd5e5110354c49d7b":[6,0,2,0,1,509,0],
+"structMR_1_1PolylineToVolumeParams.html#a1daa9529865ff9fa75f4e718e54fbd75":[6,0,1,0,1,525,1],
+"structMR_1_1PolylineToVolumeParams.html#a1daa9529865ff9fa75f4e718e54fbd75":[6,0,2,0,1,509,1],
+"structMR_1_1PolylineTraits.html":[6,0,0,1,8],
 "structMR_1_1PolylineTraits_3_01Vector2f_01_4.html":[6,0,0,1,9],
 "structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d":[6,0,0,1,9,0],
 "structMR_1_1PolylineTraits_3_01Vector3f_01_4.html":[6,0,0,1,10],
@@ -243,11 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1RebuildMeshSettings.html#aef34909f1adee996217b09204c89d4ec":[6,0,2,0,1,543,4],
 "structMR_1_1RefineParameters.html":[6,0,1,0,1,562],
 "structMR_1_1RefineParameters.html":[6,0,2,0,1,546],
-"structMR_1_1RefineParameters.html#a0550c06323ac687236b8994cbdef837c":[6,0,1,0,1,562,4],
-"structMR_1_1RefineParameters.html#a0550c06323ac687236b8994cbdef837c":[6,0,2,0,1,546,4],
-"structMR_1_1RefineParameters.html#a40ca7824e8be55ed988710074a82c8ac":[6,0,1,0,1,562,0],
-"structMR_1_1RefineParameters.html#a40ca7824e8be55ed988710074a82c8ac":[6,0,2,0,1,546,0],
-"structMR_1_1RefineParameters.html#a486a6518c80e8dcbf53b70b8870eaa6f":[6,0,1,0,1,562,1],
-"structMR_1_1RefineParameters.html#a486a6518c80e8dcbf53b70b8870eaa6f":[6,0,2,0,1,546,1],
-"structMR_1_1RefineParameters.html#a528671040882a5d5982efd35a695f752":[6,0,1,0,1,562,5]
+"structMR_1_1RefineParameters.html#a0550c06323ac687236b8994cbdef837c":[6,0,1,0,1,562,4]
 };
