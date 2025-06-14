@@ -175,6 +175,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a33184180e0f7658211800f7ad3720833"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2845a94e12c71150e5cc22e2c03a027d" id="r_a2845a94e12c71150e5cc22e2c03a027d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1EdgeTri.html">EdgeTri</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2845a94e12c71150e5cc22e2c03a027d">edgeTri</a> () const</td></tr>
 <tr class="separator:a2845a94e12c71150e5cc22e2c03a027d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e7c3895e3226b4e74de73d21cd4c4ad" id="r_a8e7c3895e3226b4e74de73d21cd4c4ad"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e7c3895e3226b4e74de73d21cd4c4ad">valid</a> () const</td></tr>
+<tr class="separator:a8e7c3895e3226b4e74de73d21cd4c4ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b24a1fdcebee2cef32bf0884f9625fc" id="r_a0b24a1fdcebee2cef32bf0884f9625fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b24a1fdcebee2cef32bf0884f9625fc">operator bool</a> () const</td></tr>
+<tr class="separator:a0b24a1fdcebee2cef32bf0884f9625fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9823b1d64efd1d93070b51f01ffa10c6" id="r_a9823b1d64efd1d93070b51f01ffa10c6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9823b1d64efd1d93070b51f01ffa10c6">VarEdgeTri</a> ()=default</td></tr>
 <tr class="separator:a9823b1d64efd1d93070b51f01ffa10c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab11feb222ecdf219d714ed2b9b058ec6" id="r_ab11feb222ecdf219d714ed2b9b058ec6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab11feb222ecdf219d714ed2b9b058ec6">VarEdgeTri</a> (bool <a class="el" href="#a33184180e0f7658211800f7ad3720833">isEdgeATriB</a>, EdgeId e, FaceId t)</td></tr>
@@ -301,7 +305,7 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -326,7 +330,32 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0b24a1fdcebee2cef32bf0884f9625fc" name="a0b24a1fdcebee2cef32bf0884f9625fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b24a1fdcebee2cef32bf0884f9625fc">&#9670;&#160;</a></span>operator bool()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::VarEdgeTri::operator bool </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -351,7 +380,7 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel">nodiscard</span><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -376,7 +405,32 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8e7c3895e3226b4e74de73d21cd4c4ad" name="a8e7c3895e3226b4e74de73d21cd4c4ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e7c3895e3226b4e74de73d21cd4c4ad">&#9670;&#160;</a></span>valid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::VarEdgeTri::valid </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

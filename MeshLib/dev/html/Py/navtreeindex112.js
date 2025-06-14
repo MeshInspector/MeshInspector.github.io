@@ -1,5 +1,9 @@
 var NAVTREEINDEX112 =
 {
+"classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a91165cf6c7ef6abd42f056f2675fe88a":[6,1,0,0,2,1143,0,1],
+"classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a91165cf6c7ef6abd42f056f2675fe88a":[6,1,1,0,1,1143,0,1],
+"classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a9ffa88374e7a5d9df0894817cd2996ee":[6,1,0,0,2,1143,0,0],
+"classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a9ffa88374e7a5d9df0894817cd2996ee":[6,1,1,0,1,1143,0,0],
 "classmrmeshpy_1_1WeightedShell_1_1ParametersBase.html":[6,1,0,0,2,1143,1],
 "classmrmeshpy_1_1WeightedShell_1_1ParametersBase.html":[6,1,1,0,1,1143,1],
 "classmrmeshpy_1_1WeightedShell_1_1ParametersBase.html#a17d001bababe881e536282b3a0eff7bc":[6,1,0,0,2,1143,1,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX112 =
 "classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__string.html#a7b6569c0b7b2af48c36e65ecb1481bdf":[6,1,0,0,2,224,5],
 "classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__string.html#a7b6569c0b7b2af48c36e65ecb1481bdf":[6,1,1,0,1,224,5],
 "classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__string.html#a89a09496dcb08e2a3542bb95098a39d0":[6,1,0,0,2,224,0],
-"classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__string.html#a89a09496dcb08e2a3542bb95098a39d0":[6,1,1,0,1,224,0],
-"classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__string.html#a8f01949cdae4ef861ff7ea92f52d3249":[6,1,0,0,2,224,2],
-"classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__string.html#a8f01949cdae4ef861ff7ea92f52d3249":[6,1,1,0,1,224,2],
-"classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__string.html#ac7f9c3615dee40bc052ed4e763892d8a":[6,1,0,0,2,224,1],
-"classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__string.html#ac7f9c3615dee40bc052ed4e763892d8a":[6,1,1,0,1,224,1]
+"classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__string.html#a89a09496dcb08e2a3542bb95098a39d0":[6,1,1,0,1,224,0]
 };
