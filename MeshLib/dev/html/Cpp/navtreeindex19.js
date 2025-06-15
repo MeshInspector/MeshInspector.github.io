@@ -1,5 +1,16 @@
 var NAVTREEINDEX19 =
 {
+"classMR_1_1Buffer.html#a9db6d53dd2501eb585f56eb189af4340":[6,0,0,3,6,17],
+"classMR_1_1Buffer.html#aa0e2029752634265e64418bec35cd18e":[6,0,0,3,6,3],
+"classMR_1_1Buffer.html#ab1bc4a40918912e001d6da1bf1595d36":[6,0,0,3,6,18],
+"classMR_1_1Buffer.html#abfa0b936734c36dff600039214adb66f":[6,0,0,3,6,14],
+"classMR_1_1Buffer.html#ac20d3e206804590699b1e944ebe0bb1d":[6,0,0,3,6,16],
+"classMR_1_1Buffer.html#ad14f8729b4b1bf29927db584ffb5b052":[6,0,0,3,6,5],
+"classMR_1_1Buffer.html#ada2b50e2318e59c2eacdf962114ab3ce":[6,0,0,3,6,1],
+"classMR_1_1Buffer.html#ae59d432ebfdf2ba3aa9e626357dcc0a3":[6,0,0,3,6,0],
+"classMR_1_1Buffer.html#af6b75ad9972a297c57f5ac949f0062ef":[6,0,0,3,6,9],
+"classMR_1_1Buffer.html#afa13cb6ef3db757db3c9c7e75957e061":[6,0,0,3,6,2],
+"classMR_1_1Buffer.html#afcf3d90225b34639d9eb1017164d7c18":[6,0,0,3,6,6],
 "classMR_1_1CNCMachineSettings.html":[6,0,1,0,1,140],
 "classMR_1_1CNCMachineSettings.html":[6,0,2,0,1,124],
 "classMR_1_1CNCMachineSettings.html#a0bbceb8d92b2fa4d3b6ef276385f4859":[6,0,1,0,1,140,9],
@@ -238,16 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1ChangeObjectVisibilityAction.html#a037473fbea41f9ad41ed74351f148e01":[6,0,0,4,15,4],
 "classMR_1_1ChangeObjectVisibilityAction.html#a4227858b5c82b2cf9ad2aec611a17f65":[6,0,0,4,15,2],
 "classMR_1_1ChangeObjectVisibilityAction.html#a479356824a42fb710dc8fd412c4b34b7":[6,0,0,4,15,1],
-"classMR_1_1ChangeObjectVisibilityAction.html#aa3f6bc9f32a9afa29f3f632c1c8a6e5d":[6,0,0,4,15,0],
-"classMR_1_1ChangeObjectVisibilityAction.html#ab2ff1171bd87dd95a3e338f4244fafa6":[6,0,0,4,15,3],
-"classMR_1_1ChangeObjectVisibilityAction.html#aeb43acff9643bd750856214f6f50b39d":[6,0,0,4,15,5],
-"classMR_1_1ChangeOneNormalInCloudAction.html":[6,0,0,4,20],
-"classMR_1_1ChangeOneNormalInCloudAction.html#a56b040ed71f05bfbf64a540bf3b4bf3d":[6,0,0,4,20,1],
-"classMR_1_1ChangeOneNormalInCloudAction.html#a67594b68431eb196ebfb45604cedbdb9":[6,0,0,4,20,4],
-"classMR_1_1ChangeOneNormalInCloudAction.html#aa2642a2de919be105852f8ea69084eac":[6,0,0,4,20,2],
-"classMR_1_1ChangeOneNormalInCloudAction.html#aa922f462c2baab3f1699371f60ca1059":[6,0,0,4,20,5],
-"classMR_1_1ChangeOneNormalInCloudAction.html#aafd6fc62e7b35ee903d98899500b8dc9":[6,0,0,4,20,3],
-"classMR_1_1ChangeOneNormalInCloudAction.html#ac4f0cb98bb0490e5bc3bf86995a76ac0":[6,0,0,4,20,0],
-"classMR_1_1ChangeOnePointInCloudAction.html":[6,0,0,4,18],
-"classMR_1_1ChangeOnePointInCloudAction.html#a12d6cf9879dfc2c296fa9440b96442e3":[6,0,0,4,18,5]
+"classMR_1_1ChangeObjectVisibilityAction.html#aa3f6bc9f32a9afa29f3f632c1c8a6e5d":[6,0,0,4,15,0]
 };

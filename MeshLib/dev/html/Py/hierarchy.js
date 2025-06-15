@@ -1188,6 +1188,7 @@ var hierarchy =
       [ "mrmeshpy.ConstantCuspParams", "classmrmeshpy_1_1ConstantCuspParams.html", null ]
     ] ],
     [ "mrmeshpy.ToolPathResult", "classmrmeshpy_1_1ToolPathResult.html", null ],
+    [ "mrmeshpy.TPMSType", "classmrmeshpy_1_1TPMSType.html", null ],
     [ "mrmeshpy.Features.Traits", "classmrmeshpy_1_1Features_1_1Traits.html", null ],
     [ "mrmeshpy.TransformedMesh", "classmrmeshpy_1_1TransformedMesh.html", null ],
     [ "mrmeshpy.TransformVdbVolumeResult", "classmrmeshpy_1_1TransformVdbVolumeResult.html", null ],

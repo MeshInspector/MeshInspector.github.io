@@ -1,5 +1,16 @@
 var NAVTREEINDEX41 =
 {
+"classMR_1_1RibbonSceneObjectsListDrawer.html#a7b203ae37c12d09d2d98e86766a46fe5":[6,0,2,0,1,582,9],
+"classMR_1_1RibbonSceneObjectsListDrawer.html#a93c05ad6cbe137ae91506d25d990e5f6":[6,0,1,0,1,598,5],
+"classMR_1_1RibbonSceneObjectsListDrawer.html#a93c05ad6cbe137ae91506d25d990e5f6":[6,0,2,0,1,582,5],
+"classMR_1_1RibbonSceneObjectsListDrawer.html#a9edde88675685e22f89f455241fd1eef":[6,0,1,0,1,598,3],
+"classMR_1_1RibbonSceneObjectsListDrawer.html#a9edde88675685e22f89f455241fd1eef":[6,0,2,0,1,582,3],
+"classMR_1_1RibbonSceneObjectsListDrawer.html#aa3fac069d87e7b77317f8987e5a591f0":[6,0,1,0,1,598,10],
+"classMR_1_1RibbonSceneObjectsListDrawer.html#aa3fac069d87e7b77317f8987e5a591f0":[6,0,2,0,1,582,10],
+"classMR_1_1RibbonSceneObjectsListDrawer.html#ab0592b6646c6a39259000c29e2a6bcce":[6,0,1,0,1,598,1],
+"classMR_1_1RibbonSceneObjectsListDrawer.html#ab0592b6646c6a39259000c29e2a6bcce":[6,0,2,0,1,582,1],
+"classMR_1_1RibbonSceneObjectsListDrawer.html#ace8f2d89b5482ae8137036f4d38ed4fa":[6,0,1,0,1,598,8],
+"classMR_1_1RibbonSceneObjectsListDrawer.html#ace8f2d89b5482ae8137036f4d38ed4fa":[6,0,2,0,1,582,8],
 "classMR_1_1RibbonSceneObjectsListDrawer.html#ad86a3587a045aae766a1ba386a398763":[6,0,1,0,1,598,0],
 "classMR_1_1RibbonSceneObjectsListDrawer.html#ad86a3587a045aae766a1ba386a398763":[6,0,2,0,1,582,0],
 "classMR_1_1RibbonSceneRemoveSelected.html":[6,0,1,0,1,599],
@@ -238,16 +249,5 @@ var NAVTREEINDEX41 =
 "classMR_1_1SceneRootObject.html#af5adb3060c521b2e091eff673e8780ce":[6,0,1,0,1,626,9],
 "classMR_1_1SceneRootObject.html#af5adb3060c521b2e091eff673e8780ce":[6,0,2,0,1,610,9],
 "classMR_1_1SceneSelectionChangeClose.html":[6,0,1,0,1,627],
-"classMR_1_1SceneSelectionChangeClose.html":[6,0,2,0,1,611],
-"classMR_1_1SceneSelectionChangeClose.html#accb011d3020704157238d133e6ac990d":[6,0,1,0,1,627,0],
-"classMR_1_1SceneSelectionChangeClose.html#accb011d3020704157238d133e6ac990d":[6,0,2,0,1,611,0],
-"classMR_1_1SceneSelectionChangeRestart.html":[6,0,1,0,1,628],
-"classMR_1_1SceneSelectionChangeRestart.html":[6,0,2,0,1,612],
-"classMR_1_1SceneSelectionChangeRestart.html#ae03b497a188281988804ecd125fd8f7c":[6,0,1,0,1,628,0],
-"classMR_1_1SceneSelectionChangeRestart.html#ae03b497a188281988804ecd125fd8f7c":[6,0,2,0,1,612,0],
-"classMR_1_1SceneSettings.html":[6,0,0,18,3],
-"classMR_1_1SceneSettings.html#a01216132f55f2f10947b9f6143f1b9b8":[6,0,0,18,3,0],
-"classMR_1_1SceneSettings.html#a01216132f55f2f10947b9f6143f1b9b8a227e8dc9a98750c5dd23f4ea2da04c7a":[6,0,0,18,3,0,0],
-"classMR_1_1SceneSettings.html#a01216132f55f2f10947b9f6143f1b9b8ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,0,18,3,0,1],
-"classMR_1_1SceneSettings.html#a308e72dcfc90ae1a9370ca7c7bc3290c":[6,0,0,18,3,2]
+"classMR_1_1SceneSelectionChangeClose.html":[6,0,2,0,1,611]
 };

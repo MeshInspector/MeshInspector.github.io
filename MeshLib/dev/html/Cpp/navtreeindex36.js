@@ -1,5 +1,16 @@
 var NAVTREEINDEX36 =
 {
+"classMR_1_1PointAccumulator.html#a13bcaab870ceaab70ec6b3b7d4470185":[6,0,0,0,1,0,1],
+"classMR_1_1PointAccumulator.html#a15a8cf1a4ee07c5e665631a49d310b88":[6,0,0,0,1,0,8],
+"classMR_1_1PointAccumulator.html#a2101603a476d7949c907898b3513fc27":[6,0,0,0,1,0,10],
+"classMR_1_1PointAccumulator.html#a33e732c4dbfd1cb17c360cbc838f461c":[6,0,0,0,1,0,3],
+"classMR_1_1PointAccumulator.html#a3bbfe3a2dafb965a1e58b1ebede9744f":[6,0,0,0,1,0,7],
+"classMR_1_1PointAccumulator.html#a629602337391d01befbec1b5ee3fa00c":[6,0,0,0,1,0,2],
+"classMR_1_1PointAccumulator.html#a7514ac6107ebe4077c548746882a7d2d":[6,0,0,0,1,0,14],
+"classMR_1_1PointAccumulator.html#a76177fec5a1a4e3d0af890a84f1df551":[6,0,0,0,1,0,4],
+"classMR_1_1PointAccumulator.html#a9a8db7a86d2e4229d2ff0992aedf7b0f":[6,0,0,0,1,0,12],
+"classMR_1_1PointAccumulator.html#aac25c8343c28176214d2be06601fe2fd":[6,0,0,0,1,0,6],
+"classMR_1_1PointAccumulator.html#abee9287110bb3322c9323fa6a5898906":[6,0,0,0,1,0,11],
 "classMR_1_1PointAccumulator.html#aed6620e82b0ba20e993f8230d9f2e383":[6,0,0,0,1,0,5],
 "classMR_1_1PointAccumulator.html#aedf74106b093871a3f5f643ddebeee7f":[6,0,0,0,1,0,9],
 "classMR_1_1PointAccumulator.html#af304abbd279d3d26bfdfc095bf7f3eeb":[6,0,0,0,1,0,0],
@@ -238,16 +249,5 @@ var NAVTREEINDEX36 =
 "classMR_1_1RadiusMeasurementObject.html#a880866dc5c43f3b4c8fb4b7ce6d6472b":[6,0,1,0,1,551,11],
 "classMR_1_1RadiusMeasurementObject.html#a880866dc5c43f3b4c8fb4b7ce6d6472b":[6,0,2,0,1,535,11],
 "classMR_1_1RadiusMeasurementObject.html#a881370b0a38e287dc6a8ef290f2747e6":[6,0,1,0,1,551,20],
-"classMR_1_1RadiusMeasurementObject.html#a881370b0a38e287dc6a8ef290f2747e6":[6,0,2,0,1,535,20],
-"classMR_1_1RadiusMeasurementObject.html#a896f78dba51a77e27ca06d9a9b9f85a7":[6,0,1,0,1,551,10],
-"classMR_1_1RadiusMeasurementObject.html#a896f78dba51a77e27ca06d9a9b9f85a7":[6,0,2,0,1,535,10],
-"classMR_1_1RadiusMeasurementObject.html#a9a79b85955d16c7ca3c23a0ba8ec605c":[6,0,1,0,1,551,9],
-"classMR_1_1RadiusMeasurementObject.html#a9a79b85955d16c7ca3c23a0ba8ec605c":[6,0,2,0,1,535,9],
-"classMR_1_1RadiusMeasurementObject.html#a9b080f4f3e5e41d9be380906d3acaa7e":[6,0,1,0,1,551,18],
-"classMR_1_1RadiusMeasurementObject.html#a9b080f4f3e5e41d9be380906d3acaa7e":[6,0,2,0,1,535,18],
-"classMR_1_1RadiusMeasurementObject.html#ab222630cf9cb5f26e2d8f023bc726c3a":[6,0,1,0,1,551,14],
-"classMR_1_1RadiusMeasurementObject.html#ab222630cf9cb5f26e2d8f023bc726c3a":[6,0,2,0,1,535,14],
-"classMR_1_1RadiusMeasurementObject.html#abb52ce1741bbea13111e16aae84dbde5":[6,0,1,0,1,551,5],
-"classMR_1_1RadiusMeasurementObject.html#abb52ce1741bbea13111e16aae84dbde5":[6,0,2,0,1,535,5],
-"classMR_1_1RadiusMeasurementObject.html#abf829a28a78153a2114e13a36a46f092":[6,0,1,0,1,551,4]
+"classMR_1_1RadiusMeasurementObject.html#a881370b0a38e287dc6a8ef290f2747e6":[6,0,2,0,1,535,20]
 };

@@ -1,5 +1,16 @@
 var NAVTREEINDEX35 =
 {
+"classMR_1_1Palette.html#ac45bdaf4d2808a25a9b6aa7739030f56":[6,0,1,0,1,476,19],
+"classMR_1_1Palette.html#ac45bdaf4d2808a25a9b6aa7739030f56":[6,0,2,0,1,460,19],
+"classMR_1_1Palette.html#ac4e7906af8dbc34bddc17c0e1e7878a9":[6,0,1,0,1,476,8],
+"classMR_1_1Palette.html#ac4e7906af8dbc34bddc17c0e1e7878a9":[6,0,2,0,1,460,8],
+"classMR_1_1Palette.html#adccdea8021d31637354ec45f848bb7a3":[6,0,1,0,1,476,14],
+"classMR_1_1Palette.html#adccdea8021d31637354ec45f848bb7a3":[6,0,2,0,1,460,14],
+"classMR_1_1Palette.html#ade857d7d072e37d2311598da53b2ae73":[6,0,1,0,1,476,25],
+"classMR_1_1Palette.html#ade857d7d072e37d2311598da53b2ae73":[6,0,2,0,1,460,25],
+"classMR_1_1Palette.html#ae4429356ab627f21dea626ec383a24fa":[6,0,1,0,1,476,5],
+"classMR_1_1Palette.html#ae4429356ab627f21dea626ec383a24fa":[6,0,2,0,1,460,5],
+"classMR_1_1Palette.html#aee6fa3cea3a5b3449207a8a888addd49":[6,0,1,0,1,476,21],
 "classMR_1_1Palette.html#aee6fa3cea3a5b3449207a8a888addd49":[6,0,2,0,1,460,21],
 "classMR_1_1PalettePresets.html":[6,0,1,0,1,477],
 "classMR_1_1PalettePresets.html":[6,0,2,0,1,461],
@@ -238,16 +249,5 @@ var NAVTREEINDEX35 =
 "classMR_1_1PluginUpdateOr.html#ad916bd3dde1ec66ce4c87b223517fc00":[6,0,2,0,1,480,1],
 "classMR_1_1PluginUpdateOr.html#ae8df8724ca459a77b0b3d07ebfbd0f21":[6,0,1,0,1,496,3],
 "classMR_1_1PluginUpdateOr.html#ae8df8724ca459a77b0b3d07ebfbd0f21":[6,0,2,0,1,480,3],
-"classMR_1_1PointAccumulator.html":[6,0,0,0,1,0],
-"classMR_1_1PointAccumulator.html#a13bcaab870ceaab70ec6b3b7d4470185":[6,0,0,0,1,0,1],
-"classMR_1_1PointAccumulator.html#a15a8cf1a4ee07c5e665631a49d310b88":[6,0,0,0,1,0,8],
-"classMR_1_1PointAccumulator.html#a2101603a476d7949c907898b3513fc27":[6,0,0,0,1,0,10],
-"classMR_1_1PointAccumulator.html#a33e732c4dbfd1cb17c360cbc838f461c":[6,0,0,0,1,0,3],
-"classMR_1_1PointAccumulator.html#a3bbfe3a2dafb965a1e58b1ebede9744f":[6,0,0,0,1,0,7],
-"classMR_1_1PointAccumulator.html#a629602337391d01befbec1b5ee3fa00c":[6,0,0,0,1,0,2],
-"classMR_1_1PointAccumulator.html#a7514ac6107ebe4077c548746882a7d2d":[6,0,0,0,1,0,14],
-"classMR_1_1PointAccumulator.html#a76177fec5a1a4e3d0af890a84f1df551":[6,0,0,0,1,0,4],
-"classMR_1_1PointAccumulator.html#a9a8db7a86d2e4229d2ff0992aedf7b0f":[6,0,0,0,1,0,12],
-"classMR_1_1PointAccumulator.html#aac25c8343c28176214d2be06601fe2fd":[6,0,0,0,1,0,6],
-"classMR_1_1PointAccumulator.html#abee9287110bb3322c9323fa6a5898906":[6,0,0,0,1,0,11]
+"classMR_1_1PointAccumulator.html":[6,0,0,0,1,0]
 };

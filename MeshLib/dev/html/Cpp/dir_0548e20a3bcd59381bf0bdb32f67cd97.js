@@ -13,6 +13,7 @@ var dir_0548e20a3bcd59381bf0bdb32f67cd97 =
     [ "MRFloatGridComponents.h", "MRFloatGridComponents_8h.html", "MRFloatGridComponents_8h" ],
     [ "MRMarchingCubes.h", "MRMarchingCubes_8h.html", "MRMarchingCubes_8h" ],
     [ "MRMeshToDistanceVolume.h", "MRMeshToDistanceVolume_8h.html", "MRMeshToDistanceVolume_8h" ],
+    [ "MRMinimalSurface.h", "MRMinimalSurface_8h.html", "MRMinimalSurface_8h" ],
     [ "MRMoveMeshToVoxelMaxDeriv.h", "MRMoveMeshToVoxelMaxDeriv_8h.html", "MRMoveMeshToVoxelMaxDeriv_8h" ],
     [ "MRObjectVoxels.h", "MRObjectVoxels_8h.html", "MRObjectVoxels_8h" ],
     [ "MROffset.h", "MRVoxels_2MROffset_8h.html", "MRVoxels_2MROffset_8h" ],

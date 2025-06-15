@@ -26,5 +26,6 @@ var searchData=
   ['group_23',['group',['.././Py/classmrviewerpy_1_1UiEntryType.html#a7609c19acbf5748d4553cc86661611f0',1,'mrviewerpy::UiEntryType::group'],['.././Cpp/structMR_1_1TbbTaskArenaAndGroup.html#a1f5614244e1fa27e65469e5f0266ec4b',1,'MR::TbbTaskArenaAndGroup::group']]],
   ['groupsmap_24',['groupsMap',['.././Cpp/structMR_1_1RibbonSchema.html#a55e0334c55b2b6a85bc323a85f88ea10',1,'MR::RibbonSchema']]],
   ['guicontext_5f_25',['guiContext_',['.././Cpp/classMR_1_1SplashWindow.html#a8e1b0c94c0dec969c8476897de435fdb',1,'MR::SplashWindow']]],
-  ['guideweight_26',['guideWeight',['.././Cpp/structMR_1_1DenoiseViaNormalsSettings.html#a6852271fa1efbc4da52e0fb5b851810f',1,'MR::DenoiseViaNormalsSettings::guideWeight'],['.././Cpp/structMRDenoiseViaNormalsSettings.html#aa8029cf336446f8f1f98f5a2cdb204c2',1,'MRDenoiseViaNormalsSettings::guideWeight']]]
+  ['guideweight_26',['guideWeight',['.././Cpp/structMR_1_1DenoiseViaNormalsSettings.html#a6852271fa1efbc4da52e0fb5b851810f',1,'MR::DenoiseViaNormalsSettings::guideWeight'],['.././Cpp/structMRDenoiseViaNormalsSettings.html#aa8029cf336446f8f1f98f5a2cdb204c2',1,'MRDenoiseViaNormalsSettings::guideWeight']]],
+  ['gyroid_27',['Gyroid',['.././Py/classmrmeshpy_1_1TPMSType.html#a328da656d9970330537efe95d11c8302',1,'mrmeshpy::TPMSType']]]
 ];

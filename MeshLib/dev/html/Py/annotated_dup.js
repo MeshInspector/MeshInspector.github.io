@@ -1000,6 +1000,7 @@ var annotated_dup =
       [ "TiffParameters", "classmrmeshpy_1_1TiffParameters.html", "classmrmeshpy_1_1TiffParameters" ],
       [ "ToolPathParams", "classmrmeshpy_1_1ToolPathParams.html", "classmrmeshpy_1_1ToolPathParams" ],
       [ "ToolPathResult", "classmrmeshpy_1_1ToolPathResult.html", "classmrmeshpy_1_1ToolPathResult" ],
+      [ "TPMSType", "classmrmeshpy_1_1TPMSType.html", "classmrmeshpy_1_1TPMSType" ],
       [ "TransformedMesh", "classmrmeshpy_1_1TransformedMesh.html", "classmrmeshpy_1_1TransformedMesh" ],
       [ "TransformVdbVolumeResult", "classmrmeshpy_1_1TransformVdbVolumeResult.html", "classmrmeshpy_1_1TransformVdbVolumeResult" ],
       [ "TriangleSegmentIntersectResult", "classmrmeshpy_1_1TriangleSegmentIntersectResult.html", "classmrmeshpy_1_1TriangleSegmentIntersectResult" ],
