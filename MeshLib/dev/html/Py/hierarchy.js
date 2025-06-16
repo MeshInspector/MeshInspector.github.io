@@ -1247,7 +1247,6 @@ var hierarchy =
     [ "mrmeshpy.UseAABBTree", "classmrmeshpy_1_1UseAABBTree.html", null ],
     [ "mrmeshpy.BaseTiffParameters.ValueType", "classmrmeshpy_1_1BaseTiffParameters_1_1ValueType.html", null ],
     [ "mrmeshpy.VarEdgeTri", "classmrmeshpy_1_1VarEdgeTri.html", null ],
-    [ "mrmeshpy.OneMeshIntersection.VariantIndex", "classmrmeshpy_1_1OneMeshIntersection_1_1VariantIndex.html", null ],
     [ "mrmeshpy.Vector2b", "classmrmeshpy_1_1Vector2b.html", null ],
     [ "mrmeshpy.Vector2d", "classmrmeshpy_1_1Vector2d.html", null ],
     [ "mrmeshpy.Vector2f", "classmrmeshpy_1_1Vector2f.html", null ],

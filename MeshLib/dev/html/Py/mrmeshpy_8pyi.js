@@ -601,7 +601,6 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.OffsetParameters", "classmrmeshpy_1_1OffsetParameters.html", "classmrmeshpy_1_1OffsetParameters" ],
     [ "mrmeshpy.OneMeshContour", "classmrmeshpy_1_1OneMeshContour.html", "classmrmeshpy_1_1OneMeshContour" ],
     [ "mrmeshpy.OneMeshIntersection", "classmrmeshpy_1_1OneMeshIntersection.html", "classmrmeshpy_1_1OneMeshIntersection" ],
-    [ "mrmeshpy.OneMeshIntersection.VariantIndex", "classmrmeshpy_1_1OneMeshIntersection_1_1VariantIndex.html", "classmrmeshpy_1_1OneMeshIntersection_1_1VariantIndex" ],
     [ "mrmeshpy.OpenVdbFloatGrid", "classmrmeshpy_1_1OpenVdbFloatGrid.html", "classmrmeshpy_1_1OpenVdbFloatGrid" ],
     [ "mrmeshpy.OrientNormals", "classmrmeshpy_1_1OrientNormals.html", "classmrmeshpy_1_1OrientNormals" ],
     [ "mrmeshpy.OriginAndDimensions", "classmrmeshpy_1_1OriginAndDimensions.html", "classmrmeshpy_1_1OriginAndDimensions" ],

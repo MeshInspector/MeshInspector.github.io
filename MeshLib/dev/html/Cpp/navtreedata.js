@@ -215,17 +215,17 @@ var NAVTREEINDEX =
 "structMR_1_1MeshVoxelsConverter.html#ab180b7c950637b7ef71f6a4d2dd078d1",
 "structMR_1_1MutexOwner.html#abb7351b3a06553b474e90d20d68efc30",
 "structMR_1_1OneMeshContour.html#ae2a61041d982700ef3d887aedc03a320",
-"structMR_1_1PointAndDistance.html#a95a6c6e03ea27af92edfb720b51eb6cc",
-"structMR_1_1PolylineSubdivideSettings.html#a508f0caa9ead99ba37cd6a62babca39f",
-"structMR_1_1RebuildMeshSettings.html#a0fd939665ae442e058cb11d7cc52ac20",
-"structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html#a5ca5321968c0133a4d4bf0187f1b11c5",
-"structMR_1_1ShortcutManager_1_1ShortcutCommand.html#ac999d8643aea2ec7e9ddc3a4adc4daf6",
-"structMR_1_1SymMatrix3.html#a607435c965ee7d4fabb2f1a0c7b779f2",
-"structMR_1_1TouchpadRotateGestureUpdateListener.html#a5cc8ba8e6f14534373f4af57eb899efb",
-"structMR_1_1UI_1_1ButtonIconCustomizationParams.html#a63e77b7d31f7b1d90d01878c92a26af3",
-"structMR_1_1UniteManyMeshesParams.html#ad905aa665d2879e62cb41d03eb580eab",
-"structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780b",
-"structMR_1_1WeightedVertex.html#a1208b58be6e320fd52f5e5a18d6c5760"
+"structMR_1_1PointCloud.html#a28846bc1f86b18053ff605bd9cdffc26",
+"structMR_1_1PolylineToDistanceVolumeParams.html",
+"structMR_1_1RebuildMeshSettings.html#ab3fd176a4586472f781779fd1126f50c",
+"structMR_1_1RibbonTab.html#a49c89a14fe5caa50d3bdb2faf511dcc0",
+"structMR_1_1Signal.html#a488990e85880132e9fbf56b93e3deb55",
+"structMR_1_1SymMatrix3.html#aac8fe52f2316a4d0bc9fe09739a230ef",
+"structMR_1_1TouchpadSwipeGestureBeginListener.html#a8894be5d6692a4cf5badceda38c0e464",
+"structMR_1_1UI_1_1CachedTextSize.html#ad31fcee8885480c212111d933cfa10d6",
+"structMR_1_1UnorientedTriangle.html#a2acb7c3b59143a9bddbe412c01ec2489",
+"structMR_1_1Viewport_1_1Parameters.html#a1c27a50a950c5531b7b4198a165971f4",
+"structMR_1_1Writer.html#aa459ed75918dac0dd5c9055f24c156f6"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

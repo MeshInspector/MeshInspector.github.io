@@ -1,13 +1,5 @@
 var NAVTREEINDEX90 =
 {
-"structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780b":[6,0,2,0,1,758,1,1],
-"structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba5ca4f2430f49ee813f846bbcdc0e575e":[6,0,1,0,1,774,1,1,1],
-"structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba5ca4f2430f49ee813f846bbcdc0e575e":[6,0,2,0,1,758,1,1,1],
-"structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba84a8921b25f505d0d2077aeb5db4bc16":[6,0,1,0,1,774,1,1,0],
-"structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba84a8921b25f505d0d2077aeb5db4bc16":[6,0,2,0,1,758,1,1,0],
-"structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba971fd8cc345d8bd9f92e9f7d88fdf20c":[6,0,1,0,1,774,1,1,2],
-"structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba971fd8cc345d8bd9f92e9f7d88fdf20c":[6,0,2,0,1,758,1,1,2],
-"structMR_1_1Viewport_1_1Parameters.html#a1c27a50a950c5531b7b4198a165971f4":[6,0,1,0,1,774,1,10],
 "structMR_1_1Viewport_1_1Parameters.html#a1c27a50a950c5531b7b4198a165971f4":[6,0,2,0,1,758,1,10],
 "structMR_1_1Viewport_1_1Parameters.html#a1df762dce4c2e6b6f250ab0220bf3429":[6,0,1,0,1,774,1,9],
 "structMR_1_1Viewport_1_1Parameters.html#a1df762dce4c2e6b6f250ab0220bf3429":[6,0,2,0,1,758,1,9],
@@ -249,5 +241,13 @@ var NAVTREEINDEX90 =
 "structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region.html#aa47efdcf86ee2cbcfefc52e1781b2c61":[6,0,2,0,1,26,3,0,1],
 "structMR_1_1WeightedVertex.html":[6,0,1,0,1,806],
 "structMR_1_1WeightedVertex.html":[6,0,2,0,1,790],
-"structMR_1_1WeightedVertex.html#a1208b58be6e320fd52f5e5a18d6c5760":[6,0,1,0,1,806,1]
+"structMR_1_1WeightedVertex.html#a1208b58be6e320fd52f5e5a18d6c5760":[6,0,1,0,1,806,1],
+"structMR_1_1WeightedVertex.html#a1208b58be6e320fd52f5e5a18d6c5760":[6,0,2,0,1,790,1],
+"structMR_1_1WeightedVertex.html#a2f8953ff5552fb2b6756a483ef480790":[6,0,1,0,1,806,0],
+"structMR_1_1WeightedVertex.html#a2f8953ff5552fb2b6756a483ef480790":[6,0,2,0,1,790,0],
+"structMR_1_1Writer.html":[6,0,1,0,1,807],
+"structMR_1_1Writer.html":[6,0,2,0,1,791],
+"structMR_1_1Writer.html#a1ff0e2daeb475fb1edc47380d8255f59":[6,0,1,0,1,807,2],
+"structMR_1_1Writer.html#a1ff0e2daeb475fb1edc47380d8255f59":[6,0,2,0,1,791,2],
+"structMR_1_1Writer.html#aa459ed75918dac0dd5c9055f24c156f6":[6,0,1,0,1,807,1]
 };
