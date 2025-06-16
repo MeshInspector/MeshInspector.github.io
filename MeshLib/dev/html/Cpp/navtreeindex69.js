@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1DenoiseViaNormalsSettings.html#aa7cab391c3f837a22f2d158c7647315a":[6,0,2,0,1,162,0],
 "structMR_1_1DenoiseViaNormalsSettings.html#ab298fec8f17af7398ab708ce69c2af2d":[6,0,1,0,1,178,6],
 "structMR_1_1DenoiseViaNormalsSettings.html#ab298fec8f17af7398ab708ce69c2af2d":[6,0,2,0,1,162,6],
 "structMR_1_1DenoiseViaNormalsSettings.html#ad5c55319dff328b55475f07390acd505":[6,0,1,0,1,178,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1DrawButtonParams.html#ab74f8d9df1de54c37cd0803d64f01b34":[6,0,1,0,1,205,5],
 "structMR_1_1DrawButtonParams.html#ab74f8d9df1de54c37cd0803d64f01b34":[6,0,2,0,1,189,5],
 "structMR_1_1DrawButtonParams.html#ab8f3d59cb2dfd82cae6a79ab6746ee09":[6,0,1,0,1,205,7],
-"structMR_1_1DrawButtonParams.html#ab8f3d59cb2dfd82cae6a79ab6746ee09":[6,0,2,0,1,189,7],
-"structMR_1_1DrawButtonParams.html#acf1bfc8da08f0a97639e95b6aeacdde1":[6,0,1,0,1,205,4]
+"structMR_1_1DrawButtonParams.html#ab8f3d59cb2dfd82cae6a79ab6746ee09":[6,0,2,0,1,189,7]
 };

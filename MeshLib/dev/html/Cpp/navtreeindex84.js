@@ -1,5 +1,6 @@
 var NAVTREEINDEX84 =
 {
+"structMR_1_1RibbonTab.html#a49c89a14fe5caa50d3bdb2faf511dcc0":[6,0,1,0,1,610,0],
 "structMR_1_1RibbonTab.html#a49c89a14fe5caa50d3bdb2faf511dcc0":[6,0,2,0,1,594,0],
 "structMR_1_1RibbonTab.html#a4ad8c190219bcd156fa5b9748ffb679c":[6,0,1,0,1,610,2],
 "structMR_1_1RibbonTab.html#a4ad8c190219bcd156fa5b9748ffb679c":[6,0,2,0,1,594,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX84 =
 "structMR_1_1ShortcutManager_1_1ShortcutCommand.html#acf2e272c865f0181e677f9a0cce89ec5":[6,0,2,0,1,642,0,3],
 "structMR_1_1Signal.html":[6,0,1,0,1,659],
 "structMR_1_1Signal.html":[6,0,2,0,1,643],
-"structMR_1_1Signal.html#a186f243369f993f6c645e1ac87ce80c4":[6,0,1,0,1,659,1],
-"structMR_1_1Signal.html#a186f243369f993f6c645e1ac87ce80c4":[6,0,2,0,1,643,1]
+"structMR_1_1Signal.html#a186f243369f993f6c645e1ac87ce80c4":[6,0,1,0,1,659,1]
 };

@@ -2162,6 +2162,7 @@ var namespaceMR =
     [ "findSmallestCloseVertices", "../namespaceMR.html#a89fc2fa34c591add37820e2a281513f8", null ],
     [ "findSmallestCloseVertices", "../namespaceMR.html#a92bdbda4e88b4bc55b26f1a36c85c85f", null ],
     [ "findSmallestCloseVerticesUsingTree", "../namespaceMR.html#adb5835a53edf43e46279c04a2ad4949b", null ],
+    [ "findSortedBoxDims", "group__BoxGroup.html#ga38d4182b91d82686467e35af47b71fe0", null ],
     [ "findSpikeVertices", "../namespaceMR.html#a190ad3366c13f1e3ed9c12cdc0291177", null ],
     [ "findSteepestDescentPoint", "group__SurfacePathSubgroup.html#ga03317f13dce667de5ec4fce7626aa415", null ],
     [ "findSteepestDescentPoint", "group__SurfacePathSubgroup.html#ga316d288d92ba2fc460dcc7d29398e084", null ],

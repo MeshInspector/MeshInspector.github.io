@@ -1,5 +1,6 @@
 var NAVTREEINDEX66 =
 {
+"structMRVarEdgeTri.html#a401e59856a99802ba3c5c2729c4f2262":[6,0,2,0,67,0],
 "structMRVarEdgeTri.html#a5d4f1ad2e69531960239b7ce730c2a10":[6,0,2,0,67,1],
 "structMRVdbVolume.html":[6,0,2,0,68],
 "structMRVdbVolume.html#a1c5d0db6fc80b1b97e80c6374f2b8304":[6,0,2,0,68,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1BaseTiffParameters.html#adc1dce84dde29a56c33ce9d8fd1e0d8d":[6,0,2,0,1,53,6],
 "structMR_1_1BasicUiRenderTask.html":[6,0,1,0,1,70],
 "structMR_1_1BasicUiRenderTask.html":[6,0,2,0,1,54],
-"structMR_1_1BasicUiRenderTask.html#a09fdc1e47a7a92974a945bfcc98be400":[6,0,1,0,1,70,3],
-"structMR_1_1BasicUiRenderTask.html#a09fdc1e47a7a92974a945bfcc98be400":[6,0,2,0,1,54,3]
+"structMR_1_1BasicUiRenderTask.html#a09fdc1e47a7a92974a945bfcc98be400":[6,0,1,0,1,70,3]
 };
