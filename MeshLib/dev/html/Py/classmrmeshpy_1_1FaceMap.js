@@ -4,7 +4,6 @@ var classmrmeshpy_1_1FaceMap =
     [ "__init__", "classmrmeshpy_1_1FaceMap.html#a935ef8998d96624cfcf5aa480459098f", null ],
     [ "__init__", "classmrmeshpy_1_1FaceMap.html#ae5fc72234504bc46ed274c9f8c87110c", null ],
     [ "__init__", "classmrmeshpy_1_1FaceMap.html#adf9586e914fa8497b8e4b91b1a45fa81", null ],
-    [ "__init__", "classmrmeshpy_1_1FaceMap.html#a37f7206d29e4072c1143e2498bbf6006", null ],
     [ "__eq__", "classmrmeshpy_1_1FaceMap.html#a038cd86e6f3c77ac204b1086362e0d2f", null ],
     [ "__getitem__", "classmrmeshpy_1_1FaceMap.html#af0d5a0fe74b4bdeb0d54e78863e81f29", null ],
     [ "__getitem__", "classmrmeshpy_1_1FaceMap.html#af0d5a0fe74b4bdeb0d54e78863e81f29", null ],

@@ -4,7 +4,6 @@ var classmrmeshpy_1_1Vector__std__filesystem__path__TextureId =
     [ "__init__", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a0a374724ce5794029693fc366a5bdf22", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a4abe31a9b966ada0219b9f0b169e6ed3", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a24a5ce7548dd09bef2609324327f94a4", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a91789358846daeecf963381f75b16a45", null ],
     [ "__eq__", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#ae62277285df162ea7678e3f89e31590c", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a96a9ae7fff26c1811f304c0ceae76975", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a96a9ae7fff26c1811f304c0ceae76975", null ],

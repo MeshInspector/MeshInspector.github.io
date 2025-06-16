@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1DecimateSettings =
 [
     [ "__init__", "classmrmeshpy_1_1DecimateSettings.html#adc864beb92ab0473ec0a508b57b3f3f8", null ],
-    [ "__init__", "classmrmeshpy_1_1DecimateSettings.html#a051ad80dd4673ad4e825bdef48419f87", null ],
     [ "__init__", "classmrmeshpy_1_1DecimateSettings.html#a8f5827c606e93f2b657389c5b7d73b15", null ],
     [ "adjustCollapse", "classmrmeshpy_1_1DecimateSettings.html#ad23e1338af289f8942bea68e493a1c69", null ],
     [ "adjustCollapse", "classmrmeshpy_1_1DecimateSettings.html#acc3cfe893142f2e7424ac9f6d07c5285", null ],

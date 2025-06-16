@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1MeshPointAndDistance =
 [
     [ "__init__", "classmrmeshpy_1_1MeshPointAndDistance.html#a4fb78184f6567cf259144c18595e2b5a", null ],
-    [ "__init__", "classmrmeshpy_1_1MeshPointAndDistance.html#aa081a26e78cdd23d875c1f3ee5ca04de", null ],
     [ "__init__", "classmrmeshpy_1_1MeshPointAndDistance.html#ad917ad98099fc755be051d6224321c0e", null ],
     [ "__bool__", "classmrmeshpy_1_1MeshPointAndDistance.html#a4b45d9eefb8d8ad09dd4caf13ea2206d", null ],
     [ "bidirDist", "classmrmeshpy_1_1MeshPointAndDistance.html#ab68875183ca26a816eaf38924c77044f", null ],

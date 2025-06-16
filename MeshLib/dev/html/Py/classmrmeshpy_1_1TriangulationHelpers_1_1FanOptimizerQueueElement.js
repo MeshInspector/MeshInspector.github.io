@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement =
 [
     [ "__init__", "classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a86d8872bdc327d9a34b1b5edec46c5b5", null ],
-    [ "__init__", "classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a25976345498da42bebce079251d6f18d", null ],
     [ "__init__", "classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a44ba4578569152655ee32e282cc809f3", null ],
     [ "__eq__", "classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#af93c1982dda9e3eb07f4ba696c5d4f3c", null ],
     [ "id", "classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a7a5edc30c711fbd414af4ad8c12e43de", null ],

@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1VoxelMetricParameters =
 [
     [ "__init__", "classmrmeshpy_1_1VoxelMetricParameters.html#ab75228d7aba13006a35b787f8cf045cb", null ],
-    [ "__init__", "classmrmeshpy_1_1VoxelMetricParameters.html#ada9bd62c971635a3c74e659f86ba1f2a", null ],
     [ "__init__", "classmrmeshpy_1_1VoxelMetricParameters.html#aa92f9238f1b93dca7e78440103761c5f", null ],
     [ "maxDistRatio", "classmrmeshpy_1_1VoxelMetricParameters.html#a6be4c37bbd85c0da3e5d697961ac4471", null ],
     [ "maxDistRatio", "classmrmeshpy_1_1VoxelMetricParameters.html#a29aa87c2cf1699a2599585bdb308ba66", null ],

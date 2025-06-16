@@ -2,7 +2,6 @@ var classmrmeshpy_1_1Matrix2d =
 [
     [ "__init__", "classmrmeshpy_1_1Matrix2d.html#a452930f88f0ca244fea8d6b37f7b331f", null ],
     [ "__init__", "classmrmeshpy_1_1Matrix2d.html#a7bb2efcac928eb8886fbc76da166ce8a", null ],
-    [ "__init__", "classmrmeshpy_1_1Matrix2d.html#ae9e6e6e1d45546f3a922b2ae04f806bd", null ],
     [ "__add__", "classmrmeshpy_1_1Matrix2d.html#aa0f3de15ab617904d506083b87162860", null ],
     [ "__eq__", "classmrmeshpy_1_1Matrix2d.html#a8bb4e50725b205a0f915b73a7dd47bcc", null ],
     [ "__getitem__", "classmrmeshpy_1_1Matrix2d.html#a0fc0cce4dba1a018a7d2462dbab0459d", null ],

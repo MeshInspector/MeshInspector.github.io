@@ -2,7 +2,6 @@ var classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty =
 [
     [ "ReachedVert", "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1_1ReachedVert.html", "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1_1ReachedVert" ],
     [ "__init__", "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty.html#ab8cdd0a1c20cb7c9187c1c39da310a49", null ],
-    [ "__init__", "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty.html#a74e5a445b77884ae813fd319bf9dea68", null ],
     [ "addOrgRingSteps", "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty.html#adbabf07f473d945ab10e69f1c10e0769", null ],
     [ "addStart", "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty.html#aa0cf6fedf311764be141be0b7b69e9c3", null ],
     [ "done", "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty.html#a49c3a3acee2b66bceca63e6d2738d4e6", null ],

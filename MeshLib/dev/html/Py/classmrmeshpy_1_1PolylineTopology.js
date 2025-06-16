@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1PolylineTopology =
 [
     [ "__init__", "classmrmeshpy_1_1PolylineTopology.html#ad6f3e5bef5e445aef0638a20bb50ed5a", null ],
-    [ "__init__", "classmrmeshpy_1_1PolylineTopology.html#acfcb2b0913edc559a1cd92403b9dddbd", null ],
     [ "__eq__", "classmrmeshpy_1_1PolylineTopology.html#a3be5c06a4fcb9e577bbecd89ac6ae486", null ],
     [ "__ne__", "classmrmeshpy_1_1PolylineTopology.html#a0493a0855f54cf30b8850d19b96f2a79", null ],
     [ "addPart", "classmrmeshpy_1_1PolylineTopology.html#a1d33fde6014d0b1009d17e5758119d1b", null ],

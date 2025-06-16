@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1InSphereSearchSettings =
 [
     [ "__init__", "classmrmeshpy_1_1InSphereSearchSettings.html#a3f0e7622ee44d9207319b3c585391fd7", null ],
-    [ "__init__", "classmrmeshpy_1_1InSphereSearchSettings.html#a1a8fa1b3bcec86c2f87f96d71505640b", null ],
     [ "__init__", "classmrmeshpy_1_1InSphereSearchSettings.html#a6f8bb0eec3f2cfd8dd6d8070b69c7405", null ],
     [ "insideAndOutside", "classmrmeshpy_1_1InSphereSearchSettings.html#a43e18f120551a90286eb010911b4bf82", null ],
     [ "insideAndOutside", "classmrmeshpy_1_1InSphereSearchSettings.html#a0b1d48e74aaad8aa3e05a714ceb9bf47", null ],

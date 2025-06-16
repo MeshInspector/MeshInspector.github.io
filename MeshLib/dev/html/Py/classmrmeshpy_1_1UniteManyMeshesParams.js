@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1UniteManyMeshesParams =
 [
     [ "__init__", "classmrmeshpy_1_1UniteManyMeshesParams.html#a6b75470354ab2c84f4fd8ad042102fc4", null ],
-    [ "__init__", "classmrmeshpy_1_1UniteManyMeshesParams.html#a4dcc615aaf063a321bdb0a2f7b57a29d", null ],
     [ "__init__", "classmrmeshpy_1_1UniteManyMeshesParams.html#a2f9c0b940c5f7f974af7ce036ea5fced", null ],
     [ "fixDegenerations", "classmrmeshpy_1_1UniteManyMeshesParams.html#a79549c3ed005154678ddb4f5fb641021", null ],
     [ "fixDegenerations", "classmrmeshpy_1_1UniteManyMeshesParams.html#a4c003f09bb8ae1b7d1c25b6b67cc49e0", null ],

@@ -4,7 +4,6 @@ var classmrmeshpy_1_1UndirectedEdgeScalars =
     [ "__init__", "classmrmeshpy_1_1UndirectedEdgeScalars.html#a209f2fe85a7fd4b402b4da728c5be605", null ],
     [ "__init__", "classmrmeshpy_1_1UndirectedEdgeScalars.html#a631c36c351c5f143555b090b7a13272e", null ],
     [ "__init__", "classmrmeshpy_1_1UndirectedEdgeScalars.html#a6fa38fcacd6673398c4b04b6a05d5fe3", null ],
-    [ "__init__", "classmrmeshpy_1_1UndirectedEdgeScalars.html#a15e8623a63d085dea24f738a42a9377d", null ],
     [ "__eq__", "classmrmeshpy_1_1UndirectedEdgeScalars.html#a9ded916ff99b59c60d01f934c322196c", null ],
     [ "__getitem__", "classmrmeshpy_1_1UndirectedEdgeScalars.html#ad0bf37e4ded4f01d8efdd221a758799d", null ],
     [ "__getitem__", "classmrmeshpy_1_1UndirectedEdgeScalars.html#ad0bf37e4ded4f01d8efdd221a758799d", null ],

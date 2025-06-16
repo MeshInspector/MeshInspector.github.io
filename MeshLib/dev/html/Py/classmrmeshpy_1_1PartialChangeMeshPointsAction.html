@@ -172,8 +172,6 @@ $(function(){initNavTree('classmrmeshpy_1_1PartialChangeMeshPointsAction.html','
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a841050a0d23e6a3b56ec8d26a21ba767" id="r_a841050a0d23e6a3b56ec8d26a21ba767"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a841050a0d23e6a3b56ec8d26a21ba767">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1PartialChangeMeshPointsAction.html">PartialChangeMeshPointsAction</a> arg0)</td></tr>
-<tr class="separator:a841050a0d23e6a3b56ec8d26a21ba767"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08e812dd11f4f67f1e7a492eeb6d3b97" id="r_a08e812dd11f4f67f1e7a492eeb6d3b97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08e812dd11f4f67f1e7a492eeb6d3b97">heapBytes</a> (self)</td></tr>
 <tr class="separator:a08e812dd11f4f67f1e7a492eeb6d3b97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae32cd6cc0f2fde9760c71e45ddfd0ef9" id="r_ae32cd6cc0f2fde9760c71e45ddfd0ef9"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae32cd6cc0f2fde9760c71e45ddfd0ef9">name</a> (self)</td></tr>
@@ -185,8 +183,14 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:acadff5780e91f4f9c5d728c94bb48dbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acadff5780e91f4f9c5d728c94bb48dbd" id="r_acadff5780e91f4f9c5d728c94bb48dbd"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acadff5780e91f4f9c5d728c94bb48dbd">__init__</a> (*args, **kwargs)</td></tr>
 <tr class="separator:acadff5780e91f4f9c5d728c94bb48dbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acadff5780e91f4f9c5d728c94bb48dbd" id="r_acadff5780e91f4f9c5d728c94bb48dbd"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acadff5780e91f4f9c5d728c94bb48dbd">__init__</a> (*args, **kwargs)</td></tr>
+<tr class="separator:acadff5780e91f4f9c5d728c94bb48dbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2af275f0bae3f91a9c44e5bda514e92" id="r_ab2af275f0bae3f91a9c44e5bda514e92"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2af275f0bae3f91a9c44e5bda514e92">action</a> (*args, **kwargs)</td></tr>
 <tr class="separator:ab2af275f0bae3f91a9c44e5bda514e92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79e2933893c6e9d4216affd00d2fcb60" id="r_a79e2933893c6e9d4216affd00d2fcb60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1PartialChangeMeshPointsAction.html">PartialChangeMeshPointsAction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79e2933893c6e9d4216affd00d2fcb60">operator</a> (*args, **kwargs)</td></tr>
+<tr class="separator:a79e2933893c6e9d4216affd00d2fcb60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79e2933893c6e9d4216affd00d2fcb60" id="r_a79e2933893c6e9d4216affd00d2fcb60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1PartialChangeMeshPointsAction.html">PartialChangeMeshPointsAction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79e2933893c6e9d4216affd00d2fcb60">operator</a> (*args, **kwargs)</td></tr>
+<tr class="separator:a79e2933893c6e9d4216affd00d2fcb60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::PartialChangeMeshPointsAction
@@ -219,9 +223,7 @@ Undo action for efficiently storage of partial change in mesh points (e.g. a mod
   </tr>
 </table>
 </div><div class="memdoc">
-<pre class="fragment">use this constructor after the object already contains new points,
-and old points are passed to remember the difference for future undoing
-</pre> 
+
 </div>
 </div>
 <a id="acadff5780e91f4f9c5d728c94bb48dbd" name="acadff5780e91f4f9c5d728c94bb48dbd"></a>
@@ -250,29 +252,38 @@ and old points are passed to remember the difference for future undoing
   </tr>
 </table>
 </div><div class="memdoc">
-<pre class="fragment">use this constructor to set new object's points and remember its difference from existed points for future undoing
+<pre class="fragment">use this constructor after the object already contains new points,
+and old points are passed to remember the difference for future undoing
 </pre> 
 </div>
 </div>
-<a id="a841050a0d23e6a3b56ec8d26a21ba767" name="a841050a0d23e6a3b56ec8d26a21ba767"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a841050a0d23e6a3b56ec8d26a21ba767">&#9670;&#160;</a></span>__init__() <span class="overload">[3/3]</span></h2>
+<a id="acadff5780e91f4f9c5d728c94bb48dbd" name="acadff5780e91f4f9c5d728c94bb48dbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acadff5780e91f4f9c5d728c94bb48dbd">&#9670;&#160;</a></span>__init__() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"> None mrmeshpy.PartialChangeMeshPointsAction.__init__ </td>
           <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1PartialChangeMeshPointsAction.html">PartialChangeMeshPointsAction</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<pre class="fragment">Implicit copy constructor.
+<pre class="fragment">use this constructor to set new object's points and remember its difference from existed points for future undoing
 </pre> 
 </div>
 </div>
@@ -345,6 +356,68 @@ and old points are passed to remember the difference for future undoing
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classmrmeshpy_1_1HistoryAction.html#ae7381d8eabc34dc5007f597956d64c2a">mrmeshpy.HistoryAction</a>.</p>
+
+</div>
+</div>
+<a id="a79e2933893c6e9d4216affd00d2fcb60" name="a79e2933893c6e9d4216affd00d2fcb60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79e2933893c6e9d4216affd00d2fcb60">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1PartialChangeMeshPointsAction.html">PartialChangeMeshPointsAction</a> mrmeshpy.PartialChangeMeshPointsAction.operator </td>
+          <td>(</td>
+          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1HistoryAction.html#aa2253e78e401e2d32e5dd07fd773e0da">mrmeshpy.HistoryAction</a>.</p>
+
+</div>
+</div>
+<a id="a79e2933893c6e9d4216affd00d2fcb60" name="a79e2933893c6e9d4216affd00d2fcb60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79e2933893c6e9d4216affd00d2fcb60">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1PartialChangeMeshPointsAction.html">PartialChangeMeshPointsAction</a> mrmeshpy.PartialChangeMeshPointsAction.operator </td>
+          <td>(</td>
+          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1HistoryAction.html#aa2253e78e401e2d32e5dd07fd773e0da">mrmeshpy.HistoryAction</a>.</p>
 
 </div>
 </div>

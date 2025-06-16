@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1MultiRayMeshIntersectResult =
 [
     [ "__init__", "classmrmeshpy_1_1MultiRayMeshIntersectResult.html#ab30fdf78773453aeafe3e43bbc279402", null ],
-    [ "__init__", "classmrmeshpy_1_1MultiRayMeshIntersectResult.html#ad9db70c8fd2c27bfc55d9f5b7860e6c0", null ],
     [ "__init__", "classmrmeshpy_1_1MultiRayMeshIntersectResult.html#ab25b7f94d49dbdf15a524a65e9ad8f5b", null ],
     [ "intersectingRays", "classmrmeshpy_1_1MultiRayMeshIntersectResult.html#a2c27a9639cefa609603a29596b6c4dea", null ],
     [ "intersectingRays", "classmrmeshpy_1_1MultiRayMeshIntersectResult.html#a5946776b7b7238eb672f29b0be94dd45", null ],

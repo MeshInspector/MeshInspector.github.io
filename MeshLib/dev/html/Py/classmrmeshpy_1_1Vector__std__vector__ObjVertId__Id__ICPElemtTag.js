@@ -4,7 +4,6 @@ var classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag =
     [ "__init__", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#add1f2bb42ab3e31e65883357f2940c1a", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#aa747abdb705880e371b78670832b3d3d", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a82e749f97a95a55e86e6f9c9f521f414", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a7f6034f7ea824a56cccf23ab5021be1c", null ],
     [ "__eq__", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a983d2c7979b6851fe564abc4a56fafca", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a961852348726c62f8e1d4a6aee24bf3a", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a961852348726c62f8e1d4a6aee24bf3a", null ],

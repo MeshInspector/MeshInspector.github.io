@@ -4,7 +4,6 @@ var classmrmeshpy_1_1Vector__Id__VoxelTag__Id__VoxelTag =
     [ "__init__", "classmrmeshpy_1_1Vector__Id__VoxelTag__Id__VoxelTag.html#a8fc67f3e32f39ab6abccc16291a5ca5b", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__Id__VoxelTag__Id__VoxelTag.html#a5049040c0fcbb56f9971a27da7000011", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__Id__VoxelTag__Id__VoxelTag.html#a2d3ffcc19ae24c06d99d543980bc6b05", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__Id__VoxelTag__Id__VoxelTag.html#a5e248face1f111fe7cbe6187671c6c5e", null ],
     [ "__eq__", "classmrmeshpy_1_1Vector__Id__VoxelTag__Id__VoxelTag.html#ae5e33883ce20b1dada8c7f097688e95b", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__Id__VoxelTag__Id__VoxelTag.html#a3af9b1853d5f990174f05770eee58b2f", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__Id__VoxelTag__Id__VoxelTag.html#a3af9b1853d5f990174f05770eee58b2f", null ],

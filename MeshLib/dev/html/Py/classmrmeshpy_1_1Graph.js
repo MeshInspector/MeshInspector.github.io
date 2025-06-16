@@ -2,7 +2,6 @@ var classmrmeshpy_1_1Graph =
 [
     [ "EndVertices", "classmrmeshpy_1_1Graph_1_1EndVertices.html", "classmrmeshpy_1_1Graph_1_1EndVertices" ],
     [ "__init__", "classmrmeshpy_1_1Graph.html#a3712305aed0ad1e87fa63d612151a211", null ],
-    [ "__init__", "classmrmeshpy_1_1Graph.html#a92cf845cfa15987573293a70fabd90e1", null ],
     [ "areNeighbors", "classmrmeshpy_1_1Graph.html#adb850399916f589182a5218d4eb1757c", null ],
     [ "checkValidity", "classmrmeshpy_1_1Graph.html#a6f6dce4ccfffbea903b65ba66c7b871e", null ],
     [ "construct", "classmrmeshpy_1_1Graph.html#a62e8dc7f72748f0636e1169d05a889b8", null ],

@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1MeshVoxelsConverter =
 [
     [ "__init__", "classmrmeshpy_1_1MeshVoxelsConverter.html#a9d3382e2261fe573381bb1a909dfe687", null ],
-    [ "__init__", "classmrmeshpy_1_1MeshVoxelsConverter.html#a2a537cbb10e8bdcb7088d9c72a02d2f8", null ],
     [ "__init__", "classmrmeshpy_1_1MeshVoxelsConverter.html#ad2f0c782b238e1c2211ca4d682220e87", null ],
     [ "__call__", "classmrmeshpy_1_1MeshVoxelsConverter.html#ac92b34f12965ec9497fc688d70353c0a", null ],
     [ "__call__", "classmrmeshpy_1_1MeshVoxelsConverter.html#a0028c4e70dcbc218389c688a05fc5c79", null ],

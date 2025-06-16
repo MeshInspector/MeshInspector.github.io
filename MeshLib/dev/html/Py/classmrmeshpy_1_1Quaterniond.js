@@ -6,7 +6,6 @@ var classmrmeshpy_1_1Quaterniond =
     [ "__init__", "classmrmeshpy_1_1Quaterniond.html#a18bb8ef0ec2dc0d4d0171c5fa6afaed0", null ],
     [ "__init__", "classmrmeshpy_1_1Quaterniond.html#ab96c102ccfed4240150e1eb10af532d0", null ],
     [ "__init__", "classmrmeshpy_1_1Quaterniond.html#a812e7cac9f9c9006b160ebb39e7087cc", null ],
-    [ "__init__", "classmrmeshpy_1_1Quaterniond.html#a43967780f5dc345811424854803101ca", null ],
     [ "__call__", "classmrmeshpy_1_1Quaterniond.html#aa2a225ce57a80cba705987d891103815", null ],
     [ "__imatmul__", "classmrmeshpy_1_1Quaterniond.html#a26e4d603fca7035607828065e003a9b6", null ],
     [ "__itruediv__", "classmrmeshpy_1_1Quaterniond.html#aba4eb3b6bb705c1972a1acbb3e2d8df9", null ],

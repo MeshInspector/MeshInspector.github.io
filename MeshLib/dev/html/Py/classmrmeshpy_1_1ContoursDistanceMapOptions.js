@@ -2,7 +2,6 @@ var classmrmeshpy_1_1ContoursDistanceMapOptions =
 [
     [ "SignedDetectionMethod", "classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html", "classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod" ],
     [ "__init__", "classmrmeshpy_1_1ContoursDistanceMapOptions.html#a21de5411a919c47cb379f125afa2146e", null ],
-    [ "__init__", "classmrmeshpy_1_1ContoursDistanceMapOptions.html#a225820dbd2b83579f1f2cda4e58291f0", null ],
     [ "__init__", "classmrmeshpy_1_1ContoursDistanceMapOptions.html#ad0467c16d71d7d5a0264571f8346d952", null ],
     [ "maxDist", "classmrmeshpy_1_1ContoursDistanceMapOptions.html#a8d138906b8baead32744e85ed09797c4", null ],
     [ "maxDist", "classmrmeshpy_1_1ContoursDistanceMapOptions.html#a96ccdd993d1e8daada52a0acd6b54a87", null ],

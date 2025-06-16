@@ -2,7 +2,6 @@ var classmrmeshpy_1_1Box__unsigned__short =
 [
     [ "__init__", "classmrmeshpy_1_1Box__unsigned__short.html#a8cb4b79fbfcaacc8da7ff3c21dfa2ba1", null ],
     [ "__init__", "classmrmeshpy_1_1Box__unsigned__short.html#ad775b593bc36396366ff8ba8cb31e065", null ],
-    [ "__init__", "classmrmeshpy_1_1Box__unsigned__short.html#a481289757e3dbfc0399d0dbea73a9518", null ],
     [ "__eq__", "classmrmeshpy_1_1Box__unsigned__short.html#a8cd6552aa211eb5406e964f094fe9c7f", null ],
     [ "__getitem__", "classmrmeshpy_1_1Box__unsigned__short.html#a5132344b4c0a9ad54bef328e5c734138", null ],
     [ "__getitem__", "classmrmeshpy_1_1Box__unsigned__short.html#a5132344b4c0a9ad54bef328e5c734138", null ],

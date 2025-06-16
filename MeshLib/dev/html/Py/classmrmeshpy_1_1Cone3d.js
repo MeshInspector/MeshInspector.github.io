@@ -2,7 +2,6 @@ var classmrmeshpy_1_1Cone3d =
 [
     [ "__init__", "classmrmeshpy_1_1Cone3d.html#a925ecc0dd6eee4eef19cbcb6b4866baf", null ],
     [ "__init__", "classmrmeshpy_1_1Cone3d.html#adcbab617cc171cd97b44fb2e93e4977f", null ],
-    [ "__init__", "classmrmeshpy_1_1Cone3d.html#aa22c3908bc6c2697db5574a8164aff87", null ],
     [ "angle", "classmrmeshpy_1_1Cone3d.html#a27e604698fbf00547e30f42e430a51be", null ],
     [ "angle", "classmrmeshpy_1_1Cone3d.html#ae0eb307dc48fc3dffb1b8df0fb1a1a5b", null ],
     [ "apex", "classmrmeshpy_1_1Cone3d.html#ad5d4515776d84cfeb19f45ecf69f99f6", null ],

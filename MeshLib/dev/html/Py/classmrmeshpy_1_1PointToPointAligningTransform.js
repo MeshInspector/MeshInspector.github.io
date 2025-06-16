@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1PointToPointAligningTransform =
 [
     [ "__init__", "classmrmeshpy_1_1PointToPointAligningTransform.html#aefc8cd26b42a002f00d377e3782dfd36", null ],
-    [ "__init__", "classmrmeshpy_1_1PointToPointAligningTransform.html#acd8ca40f2984539da64f075b8df2ced7", null ],
     [ "add", "classmrmeshpy_1_1PointToPointAligningTransform.html#a99ef5a6899ef9ef3f62f43812523b674", null ],
     [ "add", "classmrmeshpy_1_1PointToPointAligningTransform.html#a2f7672f353a33d7dc062b6a7ff3a42d5", null ],
     [ "add", "classmrmeshpy_1_1PointToPointAligningTransform.html#a86aca32140f4b9131b96438aa438257f", null ],

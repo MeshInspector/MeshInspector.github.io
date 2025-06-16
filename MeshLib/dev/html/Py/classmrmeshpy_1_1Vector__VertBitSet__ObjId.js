@@ -4,7 +4,6 @@ var classmrmeshpy_1_1Vector__VertBitSet__ObjId =
     [ "__init__", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#ac9489021180a7351b08b2ed84f08e556", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a8158db1dd1978bc14f73d798827ecc2d", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#aea3be54382bfa43c4fbf44fb9f66fcc4", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#adbcb5ef7335a4617a1ee0cfc158bc944", null ],
     [ "__eq__", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#acd1d79d743a2a348823f7d9fac77b30c", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a24809aa734779552680565ce30764bb9", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a24809aa734779552680565ce30764bb9", null ],

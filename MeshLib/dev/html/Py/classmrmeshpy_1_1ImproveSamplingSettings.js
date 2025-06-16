@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1ImproveSamplingSettings =
 [
     [ "__init__", "classmrmeshpy_1_1ImproveSamplingSettings.html#afc8e3a0c5b18a966b060ffeb0b2f8ced", null ],
-    [ "__init__", "classmrmeshpy_1_1ImproveSamplingSettings.html#ab88d5fb32055f802a4dce423b072dd26", null ],
     [ "__init__", "classmrmeshpy_1_1ImproveSamplingSettings.html#a71e528676124b23964739633b6d387a7", null ],
     [ "cloudOfSamples", "classmrmeshpy_1_1ImproveSamplingSettings.html#a316f86c621f441ca2182f7da2634f24e", null ],
     [ "cloudOfSamples", "classmrmeshpy_1_1ImproveSamplingSettings.html#a8a2058127117d08bcd634aeb240fdecc", null ],

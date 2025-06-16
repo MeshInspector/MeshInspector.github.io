@@ -2,7 +2,6 @@ var classmrmeshpy_1_1Id__VoxelTag =
 [
     [ "__init__", "classmrmeshpy_1_1Id__VoxelTag.html#adb1eed2ba56711e3332ce21acee5e7c6", null ],
     [ "__init__", "classmrmeshpy_1_1Id__VoxelTag.html#a7f6d4049ac36b1502b593eb56b64f335", null ],
-    [ "__init__", "classmrmeshpy_1_1Id__VoxelTag.html#a62d41c5f9dfc525830acf134f2fe831e", null ],
     [ "__add__", "classmrmeshpy_1_1Id__VoxelTag.html#ae241a5e2a8d2d4f2ce2229c950f63b3e", null ],
     [ "__add__", "classmrmeshpy_1_1Id__VoxelTag.html#ae241a5e2a8d2d4f2ce2229c950f63b3e", null ],
     [ "__add__", "classmrmeshpy_1_1Id__VoxelTag.html#ae241a5e2a8d2d4f2ce2229c950f63b3e", null ],
@@ -16,9 +15,9 @@ var classmrmeshpy_1_1Id__VoxelTag =
     [ "__sub__", "classmrmeshpy_1_1Id__VoxelTag.html#a807ca83957df548bf7dcbe392622d573", null ],
     [ "__sub__", "classmrmeshpy_1_1Id__VoxelTag.html#a807ca83957df548bf7dcbe392622d573", null ],
     [ "__sub__", "classmrmeshpy_1_1Id__VoxelTag.html#a807ca83957df548bf7dcbe392622d573", null ],
-    [ "_Less", "classmrmeshpy_1_1Id__VoxelTag.html#af0d03979d024bef8f7ad47dd23e375f6", null ],
-    [ "_MinusMinus", "classmrmeshpy_1_1Id__VoxelTag.html#a7657c993638e69ae2cc25864bd270ba3", null ],
-    [ "_PlusPlus", "classmrmeshpy_1_1Id__VoxelTag.html#a87cdc2690142ea5adb306549c72a7aae", null ],
     [ "get", "classmrmeshpy_1_1Id__VoxelTag.html#aaabf05c924cfd0554b9898bbd741a4df", null ],
+    [ "operator", "classmrmeshpy_1_1Id__VoxelTag.html#a8e3f919933ed18a7d63dbe36c3f41f2a", null ],
+    [ "operator", "classmrmeshpy_1_1Id__VoxelTag.html#a5f62e55be626e7dec19e811af7e4b24e", null ],
+    [ "operatorminusminus", "classmrmeshpy_1_1Id__VoxelTag.html#a9210672e4a3f623faa974d0bb0f44335", null ],
     [ "valid", "classmrmeshpy_1_1Id__VoxelTag.html#ae95d5fd6f2c6c4a54c26b34c1fca540b", null ]
 ];

@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1FindOverlappingSettings =
 [
     [ "__init__", "classmrmeshpy_1_1FindOverlappingSettings.html#a6c42d65509afb6fe95bc8d617b37b4ab", null ],
-    [ "__init__", "classmrmeshpy_1_1FindOverlappingSettings.html#ade4351c4bef00d43e9e0dedacbad574a", null ],
     [ "__init__", "classmrmeshpy_1_1FindOverlappingSettings.html#ae320b0126aab51673e54f6d22ab47ac8", null ],
     [ "cb", "classmrmeshpy_1_1FindOverlappingSettings.html#ade09b45936539f29487c01c2f2bba4e0", null ],
     [ "cb", "classmrmeshpy_1_1FindOverlappingSettings.html#a4c6000e6f18e01619a36fc93ef280cba", null ],

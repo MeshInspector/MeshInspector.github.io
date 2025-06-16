@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1FixCreasesParams =
 [
     [ "__init__", "classmrmeshpy_1_1FixCreasesParams.html#af315b88687c5921e9228451490cc27c7", null ],
-    [ "__init__", "classmrmeshpy_1_1FixCreasesParams.html#aeca48746be7dd6c00ab991f456ddbf4e", null ],
     [ "__init__", "classmrmeshpy_1_1FixCreasesParams.html#a610120d27dcf1231894246101129edb0", null ],
     [ "creaseAngle", "classmrmeshpy_1_1FixCreasesParams.html#af34e66adbab9af3fd3878dc0906a4362", null ],
     [ "creaseAngle", "classmrmeshpy_1_1FixCreasesParams.html#a9eaeb2323839c3d1ee5decc47654eeaa", null ],

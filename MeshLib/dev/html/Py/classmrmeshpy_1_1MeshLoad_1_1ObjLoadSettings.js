@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings =
 [
     [ "__init__", "classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html#ac2bc3511081c8cfbb2a59fdf50b28a1f", null ],
-    [ "__init__", "classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html#af06fb0140de4166a32e9cac2a1ca0e4d", null ],
     [ "__init__", "classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html#a3f8d39f3a687bf8bd86b8695e238bb03", null ],
     [ "callback", "classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html#af91dd95e7e2c46001b45d94fcf24d6a1", null ],
     [ "callback", "classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html#ad98007c28ef3bcf599ab7a8a480ce45e", null ],

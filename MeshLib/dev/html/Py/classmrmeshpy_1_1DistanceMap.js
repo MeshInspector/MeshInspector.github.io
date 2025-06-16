@@ -3,7 +3,6 @@ var classmrmeshpy_1_1DistanceMap =
     [ "__init__", "classmrmeshpy_1_1DistanceMap.html#ae3315272a9e1826dcda63ec5b5358629", null ],
     [ "__init__", "classmrmeshpy_1_1DistanceMap.html#a3ce5d48e25a8951884962a8ea4c78959", null ],
     [ "__init__", "classmrmeshpy_1_1DistanceMap.html#aa2c3ba1a8b94b798f418223a5561ce71", null ],
-    [ "__init__", "classmrmeshpy_1_1DistanceMap.html#ad38a0abf119f8ad2f14ffda136ceed4c", null ],
     [ "__isub__", "classmrmeshpy_1_1DistanceMap.html#adb4ebdb589d86793bac94b9ee60d40b3", null ],
     [ "__sub__", "classmrmeshpy_1_1DistanceMap.html#acde3c8b98de14ca34093e2d7be48aee8", null ],
     [ "clear", "classmrmeshpy_1_1DistanceMap.html#a7a52b1d24279d4963c5254956479c363", null ],

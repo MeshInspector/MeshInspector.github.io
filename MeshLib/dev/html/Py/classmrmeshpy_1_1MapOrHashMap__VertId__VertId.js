@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1MapOrHashMap__VertId__VertId =
 [
     [ "__init__", "classmrmeshpy_1_1MapOrHashMap__VertId__VertId.html#adca10f24b8b5d5e1e50bc44fec6c4eaf", null ],
-    [ "__init__", "classmrmeshpy_1_1MapOrHashMap__VertId__VertId.html#a2d2504255c09695c2deb68650668cf9e", null ],
     [ "__init__", "classmrmeshpy_1_1MapOrHashMap__VertId__VertId.html#a8293c5009765b1a4f2edc97741783b85", null ],
     [ "clear", "classmrmeshpy_1_1MapOrHashMap__VertId__VertId.html#ad2b7cb9afc458979433e37ed87e932e8", null ],
     [ "getHashMap", "classmrmeshpy_1_1MapOrHashMap__VertId__VertId.html#ab8b8a0711ec27876df0d7d8c85e4efed", null ],

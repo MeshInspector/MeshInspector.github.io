@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1MeshBuilder_1_1MeshPiece =
 [
     [ "__init__", "classmrmeshpy_1_1MeshBuilder_1_1MeshPiece.html#abb34cc2ada2c00fd2b8f4d20bc318098", null ],
-    [ "__init__", "classmrmeshpy_1_1MeshBuilder_1_1MeshPiece.html#ac9fdb23ca5af094f7b9017ed508537ee", null ],
     [ "__init__", "classmrmeshpy_1_1MeshBuilder_1_1MeshPiece.html#a120bb6370d73b03461d02db18f584e04", null ],
     [ "fmap", "classmrmeshpy_1_1MeshBuilder_1_1MeshPiece.html#af980874964126c29c37e9c7c577b8dcb", null ],
     [ "fmap", "classmrmeshpy_1_1MeshBuilder_1_1MeshPiece.html#a831fec21fffce1fa7a99f9023c59b3ec", null ],

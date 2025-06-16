@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1Mesh =
 [
     [ "__init__", "classmrmeshpy_1_1Mesh.html#acc1edd98e1f80b1efd3f0d4b8ef39af1", null ],
-    [ "__init__", "classmrmeshpy_1_1Mesh.html#a95fc109ee0cb9c5f9d8fe32312ea6a49", null ],
     [ "__eq__", "classmrmeshpy_1_1Mesh.html#a103b613cee322330912a3c900658294a", null ],
     [ "addMesh", "classmrmeshpy_1_1Mesh.html#ae731d56bbdc20ff0d0e51f413aa78a73", null ],
     [ "addMesh", "classmrmeshpy_1_1Mesh.html#a73081a62befcf1c4ab1a6b94e9f1bb37", null ],

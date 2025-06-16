@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult =
 [
     [ "__init__", "classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult.html#aa34f3220aa67e0f7aa487d07b16a14b8", null ],
-    [ "__init__", "classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult.html#adc642a813e26cea48bc83eb13fe3f8ed", null ],
     [ "__init__", "classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult.html#aa2c9006e8d30159f789465ef0d435f67", null ],
     [ "closestVert", "classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult.html#ac7d0f6552a3de96eadc7e29c22c20622", null ],
     [ "closestVert", "classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult.html#af28008e8316263825078bc5724a1da38", null ],

@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1DividePolylineParameters =
 [
     [ "__init__", "classmrmeshpy_1_1DividePolylineParameters.html#a7c5efe6a217f57857a383be05785ebe9", null ],
-    [ "__init__", "classmrmeshpy_1_1DividePolylineParameters.html#adb2496f3319f79a27183f06f243c2ad9", null ],
     [ "__init__", "classmrmeshpy_1_1DividePolylineParameters.html#a76f17699d42a8ce4afcc7567d77d2201", null ],
     [ "closeLineAfterCut", "classmrmeshpy_1_1DividePolylineParameters.html#a79f9af5246a113b0b95d008a33e04a33", null ],
     [ "closeLineAfterCut", "classmrmeshpy_1_1DividePolylineParameters.html#a9eb1e1be378fd558e623292aa2c070af", null ],

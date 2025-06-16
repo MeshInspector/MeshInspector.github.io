@@ -4,7 +4,6 @@ var classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId =
     [ "__init__", "classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId.html#ac7859bf5fb5609f5c40370e1a09a2f14", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId.html#ac0edbdfbc5ad85740c0c2899f5ad8526", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId.html#a9cef2ea993ea7bf613c7c0a076081e53", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId.html#a77c4d94fecd11f891ed88b144344310e", null ],
     [ "__eq__", "classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId.html#ad78a7568b05bb5ec2f98360597c5aca8", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId.html#ada33c4d957d7847858c6e3e0d2ca4e9e", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId.html#ada33c4d957d7847858c6e3e0d2ca4e9e", null ],

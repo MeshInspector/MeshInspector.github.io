@@ -4,7 +4,6 @@ var classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__in
     [ "__init__", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#aac717240e0f27936babb1ed46d67f152", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#a95cb66d231b8b4375a41acb0b1442175", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#ad5765723469ea759571027a7fefef155", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#abeaa99e62b4a27af1e11940dfa841bcd", null ],
     [ "__eq__", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#ace85c3624151d862da069e7bc0873e96", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#a02fe9ee5730ccc87a54c87afe51cc1c7", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#a02fe9ee5730ccc87a54c87afe51cc1c7", null ],

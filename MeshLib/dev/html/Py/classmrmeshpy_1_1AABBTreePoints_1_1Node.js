@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1AABBTreePoints_1_1Node =
 [
     [ "__init__", "classmrmeshpy_1_1AABBTreePoints_1_1Node.html#a59ad28c25dd0cc3ff4b2bc44bb09ba00", null ],
-    [ "__init__", "classmrmeshpy_1_1AABBTreePoints_1_1Node.html#ac45531d60ba845f1cf3d0f855268ffcd", null ],
     [ "__init__", "classmrmeshpy_1_1AABBTreePoints_1_1Node.html#a5163fa352254be78eb130e9cc9e05195", null ],
     [ "box", "classmrmeshpy_1_1AABBTreePoints_1_1Node.html#a2ce04f915d0a6e69eaac9cd09c65ce41", null ],
     [ "box", "classmrmeshpy_1_1AABBTreePoints_1_1Node.html#a2d053ef46595ccf422c25de09d2d5bd0", null ],

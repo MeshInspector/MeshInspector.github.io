@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1BooleanParameters =
 [
     [ "__init__", "classmrmeshpy_1_1BooleanParameters.html#abb7637baaf4c83e462e120dffee7c8bd", null ],
-    [ "__init__", "classmrmeshpy_1_1BooleanParameters.html#a80602af8522d4f2c2a53da8f6000187e", null ],
     [ "__init__", "classmrmeshpy_1_1BooleanParameters.html#a57cd12148e4c1346d798ec07e80243ce", null ],
     [ "forceCut", "classmrmeshpy_1_1BooleanParameters.html#a5591696eca8c5c1d9e5f38283650c42a", null ],
     [ "forceCut", "classmrmeshpy_1_1BooleanParameters.html#a07313501e3867f65e768cb2b9ac7684b", null ],

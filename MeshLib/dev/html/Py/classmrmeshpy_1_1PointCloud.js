@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1PointCloud =
 [
     [ "__init__", "classmrmeshpy_1_1PointCloud.html#aa2f848dd7a5e46e9bd2fa378c093f916", null ],
-    [ "__init__", "classmrmeshpy_1_1PointCloud.html#a86e40c6a1001156cfa613a0235a2cece", null ],
     [ "addPartByMask", "classmrmeshpy_1_1PointCloud.html#a2c97d52855050d84a8400ea50cf92ef3", null ],
     [ "addPoint", "classmrmeshpy_1_1PointCloud.html#a8884527c29d8dd443384b53c12dc0682", null ],
     [ "addPoint", "classmrmeshpy_1_1PointCloud.html#aa878b459bd7d49cee2241f959fd097b9", null ],

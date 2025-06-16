@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1OffsetContoursOrigins =
 [
     [ "__init__", "classmrmeshpy_1_1OffsetContoursOrigins.html#a22a78f0abfa0af4420a712e67a981057", null ],
-    [ "__init__", "classmrmeshpy_1_1OffsetContoursOrigins.html#a4df8564556e7bb4ba795fe3be413f599", null ],
     [ "__init__", "classmrmeshpy_1_1OffsetContoursOrigins.html#a07d8331bad73640ee9312c5d3121e19c", null ],
     [ "isIntersection", "classmrmeshpy_1_1OffsetContoursOrigins.html#a1cb04b3eef387cbf6f388491d94688bc", null ],
     [ "lDest", "classmrmeshpy_1_1OffsetContoursOrigins.html#ab804df8043d3435a078f3ed50db2baf8", null ],

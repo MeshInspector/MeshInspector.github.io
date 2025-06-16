@@ -4,7 +4,6 @@ var classmrmeshpy_1_1FaceColors =
     [ "__init__", "classmrmeshpy_1_1FaceColors.html#a9ecbcf793287a7ed92b1cbe28fccf76b", null ],
     [ "__init__", "classmrmeshpy_1_1FaceColors.html#a666a7e39b137cd30114f3bd4b2a3328e", null ],
     [ "__init__", "classmrmeshpy_1_1FaceColors.html#afef88c791b0a83506f84a61e1d4c5b92", null ],
-    [ "__init__", "classmrmeshpy_1_1FaceColors.html#a2b053e31110de685b382ec0e3e420e0d", null ],
     [ "__eq__", "classmrmeshpy_1_1FaceColors.html#a4aea1e5d1d82c747afdfa7c01152854f", null ],
     [ "__getitem__", "classmrmeshpy_1_1FaceColors.html#ad171364d7b349241ac3d5d3166be58d5", null ],
     [ "__getitem__", "classmrmeshpy_1_1FaceColors.html#ad171364d7b349241ac3d5d3166be58d5", null ],

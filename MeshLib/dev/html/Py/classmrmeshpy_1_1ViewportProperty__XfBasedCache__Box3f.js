@@ -2,7 +2,6 @@ var classmrmeshpy_1_1ViewportProperty__XfBasedCache__Box3f =
 [
     [ "__init__", "classmrmeshpy_1_1ViewportProperty__XfBasedCache__Box3f.html#a1bb4a80d88083d9d406cc0241ac47a81", null ],
     [ "__init__", "classmrmeshpy_1_1ViewportProperty__XfBasedCache__Box3f.html#adda094d04081d8070e9caa038a80717a", null ],
-    [ "__init__", "classmrmeshpy_1_1ViewportProperty__XfBasedCache__Box3f.html#af17e3ddebea38750978ac60a2d30fb13", null ],
     [ "__getitem__", "classmrmeshpy_1_1ViewportProperty__XfBasedCache__Box3f.html#a67f89d0d45fa7fc1c64a93fcd6b22989", null ],
     [ "__setitem__", "classmrmeshpy_1_1ViewportProperty__XfBasedCache__Box3f.html#ae6ddd7bd24fdd5e1043a154b62fae957", null ],
     [ "get", "classmrmeshpy_1_1ViewportProperty__XfBasedCache__Box3f.html#a2d965086fece359c99bb85e57712030e", null ],

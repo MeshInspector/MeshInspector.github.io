@@ -4,7 +4,6 @@ var classmrmeshpy_1_1Matrix4d =
     [ "__init__", "classmrmeshpy_1_1Matrix4d.html#ac4af1b15130e0a3a01030b7d1b1ad203", null ],
     [ "__init__", "classmrmeshpy_1_1Matrix4d.html#aef42c2d4dbd94dcd5d2319c8ac404954", null ],
     [ "__init__", "classmrmeshpy_1_1Matrix4d.html#a881a5caafb856f9b0b25114b7e44a399", null ],
-    [ "__init__", "classmrmeshpy_1_1Matrix4d.html#a2a8aecec78b4fd69ee56549edb0789ec", null ],
     [ "__add__", "classmrmeshpy_1_1Matrix4d.html#a3a4865a97b2625a088b792a95829227a", null ],
     [ "__call__", "classmrmeshpy_1_1Matrix4d.html#a7bde4d6fdc7f5abd9b6ad038bf93902f", null ],
     [ "__call__", "classmrmeshpy_1_1Matrix4d.html#a7bde4d6fdc7f5abd9b6ad038bf93902f", null ],

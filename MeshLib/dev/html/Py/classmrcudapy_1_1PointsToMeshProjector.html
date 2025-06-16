@@ -153,6 +153,7 @@ $(function(){initNavTree('classmrcudapy_1_1PointsToMeshProjector.html',''); init
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classmrcudapy_1_1PointsToMeshProjector-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrcudapy.PointsToMeshProjector Class Reference</div></div>
 </div><!--header-->
@@ -170,22 +171,58 @@ $(function(){initNavTree('classmrcudapy_1_1PointsToMeshProjector.html',''); init
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a38354a6476dde3ae844cefe7aad70127" id="r_a38354a6476dde3ae844cefe7aad70127"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38354a6476dde3ae844cefe7aad70127">__init__</a> (self)</td></tr>
 <tr class="separator:a38354a6476dde3ae844cefe7aad70127"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae74a98f239b0bbab89a61687fa5c64bb" id="r_ae74a98f239b0bbab89a61687fa5c64bb"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae74a98f239b0bbab89a61687fa5c64bb">__init__</a> (self, <a class="el" href="classmrcudapy_1_1PointsToMeshProjector.html">PointsToMeshProjector</a> arg0)</td></tr>
-<tr class="separator:ae74a98f239b0bbab89a61687fa5c64bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9e3d2f29deef64bceb77f8039a2f552" id="r_af9e3d2f29deef64bceb77f8039a2f552"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9e3d2f29deef64bceb77f8039a2f552">findProjections</a> (self, meshlib.mrmeshpy.std_vector_MeshProjectionResult res, meshlib.mrmeshpy.std_vector_Vector3_float points, meshlib.mrmeshpy.AffineXf3f objXf, meshlib.mrmeshpy.AffineXf3f refObjXf, float upDistLimitSq, float loDistLimitSq)</td></tr>
 <tr class="separator:af9e3d2f29deef64bceb77f8039a2f552"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade7dcf8286fd3ca24929e74e8255b32c" id="r_ade7dcf8286fd3ca24929e74e8255b32c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade7dcf8286fd3ca24929e74e8255b32c">projectionsHeapBytes</a> (self, int numProjections)</td></tr>
 <tr class="separator:ade7dcf8286fd3ca24929e74e8255b32c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab45dc281f3953a6c454876694c6557bf" id="r_ab45dc281f3953a6c454876694c6557bf"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab45dc281f3953a6c454876694c6557bf">updateMeshData</a> (self, meshlib.mrmeshpy.Mesh mesh)</td></tr>
 <tr class="separator:ab45dc281f3953a6c454876694c6557bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a7ae6595cb54aa911885983066ee012ed" id="r_a7ae6595cb54aa911885983066ee012ed"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ae6595cb54aa911885983066ee012ed">__init__</a> (*args, **kwargs)</td></tr>
+<tr class="separator:a7ae6595cb54aa911885983066ee012ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28a24b9b930813d5c341e79fd0dbc6a4" id="r_a28a24b9b930813d5c341e79fd0dbc6a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrcudapy_1_1PointsToMeshProjector.html">PointsToMeshProjector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28a24b9b930813d5c341e79fd0dbc6a4">operator</a> (*args, **kwargs)</td></tr>
+<tr class="separator:a28a24b9b930813d5c341e79fd0dbc6a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28a24b9b930813d5c341e79fd0dbc6a4" id="r_a28a24b9b930813d5c341e79fd0dbc6a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrcudapy_1_1PointsToMeshProjector.html">PointsToMeshProjector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28a24b9b930813d5c341e79fd0dbc6a4">operator</a> (*args, **kwargs)</td></tr>
+<tr class="separator:a28a24b9b930813d5c341e79fd0dbc6a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::Cuda::PointsToMeshProjector
 
 Computes the closest point on mesh to each of given points on GPU. It caches data that necessary for computing
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a7ae6595cb54aa911885983066ee012ed" name="a7ae6595cb54aa911885983066ee012ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ae6595cb54aa911885983066ee012ed">&#9670;&#160;</a></span>__init__() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrcudapy.PointsToMeshProjector.__init__ </td>
+          <td>(</td>
+          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a38354a6476dde3ae844cefe7aad70127" name="a38354a6476dde3ae844cefe7aad70127"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38354a6476dde3ae844cefe7aad70127">&#9670;&#160;</a></span>__init__() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a38354a6476dde3ae844cefe7aad70127">&#9670;&#160;</a></span>__init__() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -199,28 +236,6 @@ Computes the closest point on mesh to each of given points on GPU. It caches dat
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="ae74a98f239b0bbab89a61687fa5c64bb" name="ae74a98f239b0bbab89a61687fa5c64bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae74a98f239b0bbab89a61687fa5c64bb">&#9670;&#160;</a></span>__init__() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> None mrcudapy.PointsToMeshProjector.__init__ </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrcudapy_1_1PointsToMeshProjector.html">PointsToMeshProjector</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">Implicit copy constructor.
-</pre> 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -277,6 +292,64 @@ Computes the closest point on mesh to each of given points
 &lt;param name="upDistLimitSq"&gt;maximal squared distance from point to mesh&lt;/param&gt;
 &lt;param name="loDistLimitSq"&gt;minimal squared distance from point to mesh&lt;/param&gt;
 </pre> 
+</div>
+</div>
+<a id="a28a24b9b930813d5c341e79fd0dbc6a4" name="a28a24b9b930813d5c341e79fd0dbc6a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28a24b9b930813d5c341e79fd0dbc6a4">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrcudapy_1_1PointsToMeshProjector.html">PointsToMeshProjector</a> mrcudapy.PointsToMeshProjector.operator </td>
+          <td>(</td>
+          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a28a24b9b930813d5c341e79fd0dbc6a4" name="a28a24b9b930813d5c341e79fd0dbc6a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28a24b9b930813d5c341e79fd0dbc6a4">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrcudapy_1_1PointsToMeshProjector.html">PointsToMeshProjector</a> mrcudapy.PointsToMeshProjector.operator </td>
+          <td>(</td>
+          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <a id="ade7dcf8286fd3ca24929e74e8255b32c" name="ade7dcf8286fd3ca24929e74e8255b32c"></a>

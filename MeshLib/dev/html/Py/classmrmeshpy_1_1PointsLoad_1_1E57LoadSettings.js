@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1PointsLoad_1_1E57LoadSettings =
 [
     [ "__init__", "classmrmeshpy_1_1PointsLoad_1_1E57LoadSettings.html#aef0db68a018ebaa06131c52350b01e27", null ],
-    [ "__init__", "classmrmeshpy_1_1PointsLoad_1_1E57LoadSettings.html#a988d56d4942609c5930d3817d2022339", null ],
     [ "__init__", "classmrmeshpy_1_1PointsLoad_1_1E57LoadSettings.html#a557247ea94b29ec536a247ba314cd9bd", null ],
     [ "combineAllObjects", "classmrmeshpy_1_1PointsLoad_1_1E57LoadSettings.html#a24343034cc50779a3e3b99c096af2792", null ],
     [ "combineAllObjects", "classmrmeshpy_1_1PointsLoad_1_1E57LoadSettings.html#ade7f792339b7a04ff3b3a69635145b47", null ],

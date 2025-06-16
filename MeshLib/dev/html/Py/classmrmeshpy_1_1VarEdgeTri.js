@@ -4,7 +4,6 @@ var classmrmeshpy_1_1VarEdgeTri =
     [ "__init__", "classmrmeshpy_1_1VarEdgeTri.html#a93709b90d3238788a71e91c068c9507f", null ],
     [ "__init__", "classmrmeshpy_1_1VarEdgeTri.html#a0073ea5154565b2702620cc4009184a5", null ],
     [ "__init__", "classmrmeshpy_1_1VarEdgeTri.html#aea0fa4738c512e73f35defc36d3e8521", null ],
-    [ "__init__", "classmrmeshpy_1_1VarEdgeTri.html#a8c4af5aaf4089d399c07e708b7adf528", null ],
     [ "__bool__", "classmrmeshpy_1_1VarEdgeTri.html#a7ee582253b5bbc558492f39558d0f94d", null ],
     [ "edgeTri", "classmrmeshpy_1_1VarEdgeTri.html#a983a63826882bedac59ae1bd1292fb65", null ],
     [ "isEdgeATriB", "classmrmeshpy_1_1VarEdgeTri.html#a10c2425babf7c46876fe236d3557dee8", null ],
