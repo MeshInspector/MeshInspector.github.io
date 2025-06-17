@@ -171,11 +171,12 @@ var NAVTREEINDEX6 =
 "MRMeshC_2MRMeshToPointCloud_8h_source.html":[6,0,3,0,0,1,5,48],
 "MRMeshC_2MRMeshTopology_8h.html":[6,0,3,0,0,1,5,49],
 "MRMeshC_2MRMeshTopology_8h.html#a2a05aa7e35717e1896c31ed45a955a02":[6,0,3,0,0,1,5,49,0],
-"MRMeshC_2MRMeshTopology_8h.html#a351a63283c1a22542684de030c155226":[6,0,3,0,0,1,5,49,6],
+"MRMeshC_2MRMeshTopology_8h.html#a351a63283c1a22542684de030c155226":[6,0,3,0,0,1,5,49,7],
+"MRMeshC_2MRMeshTopology_8h.html#a6724355114a6a35e37b4fb12f54974d4":[6,0,3,0,0,1,5,49,6],
 "MRMeshC_2MRMeshTopology_8h.html#a826e2228fe0a20b80a1023fa2e965ea0":[6,0,3,0,0,1,5,49,5],
-"MRMeshC_2MRMeshTopology_8h.html#a9ad8091f9a9eae3c7660f68733ffc2ee":[6,0,3,0,0,1,5,49,7],
+"MRMeshC_2MRMeshTopology_8h.html#a9ad8091f9a9eae3c7660f68733ffc2ee":[6,0,3,0,0,1,5,49,8],
 "MRMeshC_2MRMeshTopology_8h.html#a9f90efb543cd4eb68bd0e32073de983e":[6,0,3,0,0,1,5,49,4],
-"MRMeshC_2MRMeshTopology_8h.html#aad54f8e25f762f3e7f334d36450b712e":[6,0,3,0,0,1,5,49,8],
+"MRMeshC_2MRMeshTopology_8h.html#aad54f8e25f762f3e7f334d36450b712e":[6,0,3,0,0,1,5,49,9],
 "MRMeshC_2MRMeshTopology_8h.html#ae1750c7b207397dbc57181488cc53855":[6,0,3,0,0,1,5,49,3],
 "MRMeshC_2MRMeshTopology_8h.html#ae9c826fbc21fc2823fd964193b15ddb9":[6,0,3,0,0,1,5,49,1],
 "MRMeshC_2MRMeshTopology_8h.html#af9ee82ae93bf1297054bbda5cf8b1f33":[6,0,3,0,0,1,5,49,2],
@@ -198,6 +199,7 @@ var NAVTREEINDEX6 =
 "MRMeshC_2MRMesh_8h.html#a623fb3de189397803e03bda8f951bdc1":[6,0,3,0,0,1,5,25,17],
 "MRMeshC_2MRMesh_8h.html#a66876c0d684c51318803ae141caeb384":[6,0,3,0,0,1,5,25,12],
 "MRMeshC_2MRMesh_8h.html#a671dd90ca80f4bc34ce8205a57fe1b3d":[6,0,3,0,0,1,5,25,9],
+"MRMeshC_2MRMesh_8h.html#a7a39d3bd45738de6df84bf56eba024eb":[6,0,3,0,0,1,5,25,28],
 "MRMeshC_2MRMesh_8h.html#a9831a689157c78cdf1083cd9d8c0287e":[6,0,3,0,0,1,5,25,27],
 "MRMeshC_2MRMesh_8h.html#a99ebfa267b1846a8761c58c902352499":[6,0,3,0,0,1,5,25,19],
 "MRMeshC_2MRMesh_8h.html#aa3d016c217ed1d760c0e0085a4a3629b":[6,0,3,0,0,1,5,25,25],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "MRMeshC_2MROffset_8h.html#aa0b04cacc8525d27414f1e4e08872119a47b69549f47c6a049be501050bd75553":[6,0,3,0,0,1,5,53,5,1],
 "MRMeshC_2MROffset_8h.html#aa0b04cacc8525d27414f1e4e08872119aa70e26aed54b8955879575cbb3336c35":[6,0,3,0,0,1,5,53,5,0],
 "MRMeshC_2MROffset_8h.html#aa0b04cacc8525d27414f1e4e08872119aecec8fc6e216d60b81736c4957270a91":[6,0,3,0,0,1,5,53,5,2],
-"MRMeshC_2MROffset_8h.html#aadf4e0af42f9fdcd6f178290427e707a":[6,0,3,0,0,1,5,53,8],
-"MRMeshC_2MROffset_8h.html#ab0102fab24c464c71b05780276f26fbc":[6,0,3,0,0,1,5,53,15],
-"MRMeshC_2MROffset_8h.html#ab0bcbdc61697a510f5fe0bc636ac7a93":[6,0,3,0,0,1,5,53,12]
+"MRMeshC_2MROffset_8h.html#aadf4e0af42f9fdcd6f178290427e707a":[6,0,3,0,0,1,5,53,8]
 };

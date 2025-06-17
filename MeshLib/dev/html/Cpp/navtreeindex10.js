@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"MRMesh_2MRMultiwayICP_8h_source.html":[6,0,3,0,0,1,4,236],
+"MRMesh_2MRNormalDenoising_8h.html":[6,0,3,0,0,1,4,239],
 "MRMesh_2MRNormalDenoising_8h.html#a40847df1ce412c4c7085dd392037e050":[6,0,3,0,0,1,4,239,4],
 "MRMesh_2MRNormalDenoising_8h.html#a4a2815eda5e04a1da7ec615027b52c86":[6,0,3,0,0,1,4,239,1],
 "MRMesh_2MRNormalDenoising_8h.html#a6bddd9d63512f9dfffb0fa869f249a4d":[6,0,3,0,0,1,4,239,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX10 =
 "MRObjectMeshHolder_8h.html#a271d7a1f7dd9dd0cd4bf38aa8c65c462":[6,0,3,0,0,1,4,251,14],
 "MRObjectMeshHolder_8h.html#a29d14b75d26970bc256e90bf11c3f0e5":[6,0,3,0,0,1,4,251,6],
 "MRObjectMeshHolder_8h.html#a2da488fcdb3a28435745efe40498b0bb":[6,0,3,0,0,1,4,251,7],
-"MRObjectMeshHolder_8h.html#a50ba2acfd483f395e71abb80f687463e":[6,0,3,0,0,1,4,251,11],
-"MRObjectMeshHolder_8h.html#a69c4cff6b9a1cd95c71fc56b8dd9a983":[6,0,3,0,0,1,4,251,4],
-"MRObjectMeshHolder_8h.html#a7422162bc2563c6305895035880605d5":[6,0,3,0,0,1,4,251,3]
+"MRObjectMeshHolder_8h.html#a50ba2acfd483f395e71abb80f687463e":[6,0,3,0,0,1,4,251,11]
 };
