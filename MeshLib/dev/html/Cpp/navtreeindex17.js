@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"MRVolumeShader_8h_source.html":[6,0,3,0,0,1,10,149],
 "MRVoxelFilter_8h.html":[6,0,3,0,0,1,11,33],
 "MRVoxelFilter_8h.html#a8e520c62ea91e9695f96c3e9340d730a":[6,0,3,0,0,1,11,33,0],
 "MRVoxelFilter_8h.html#a8e520c62ea91e9695f96c3e9340d730aa3d6c9ac08ada31c184094bbc67afe00d":[6,0,3,0,0,1,11,33,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1AABBTreePolyline.html#a52c528f5d14d69efc2f4a51166515170":[6,0,0,1,11,6],
 "classMR_1_1AABBTreePolyline.html#a7bfaaa5a66978f3d97cd8451644bed9a":[6,0,0,1,11,0],
 "classMR_1_1AABBTreePolyline.html#a82f5feeca891be31840c7bba4a85cb1a":[6,0,0,1,11,4],
-"classMR_1_1AABBTreePolyline.html#a86c6f6500ab7a1df6e7bf30cab730bc3":[6,0,0,1,11,2],
-"classMR_1_1AABBTreePolyline.html#aaf1c13f7909dc226ed6e0a332e61ba4c":[6,0,0,1,11,3]
+"classMR_1_1AABBTreePolyline.html#a86c6f6500ab7a1df6e7bf30cab730bc3":[6,0,0,1,11,2]
 };
