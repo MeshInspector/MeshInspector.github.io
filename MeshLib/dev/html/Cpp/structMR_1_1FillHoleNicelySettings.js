@@ -3,6 +3,7 @@ var structMR_1_1FillHoleNicelySettings =
     [ "beforeEdgeSplit", "structMR_1_1FillHoleNicelySettings.html#a6d0f88d49fd92560346c908c5b5a6559", null ],
     [ "colorMap", "structMR_1_1FillHoleNicelySettings.html#af9530ece1e8bd0354145a59d4d603bf9", null ],
     [ "edgeWeights", "structMR_1_1FillHoleNicelySettings.html#a033b24c89dfe82d1d7ebadc8b24f1a79", null ],
+    [ "faceColors", "structMR_1_1FillHoleNicelySettings.html#a4e373a3a06bd7f738fc35e108b3fdfa0", null ],
     [ "maxAngleChangeAfterFlip", "structMR_1_1FillHoleNicelySettings.html#a0e811b431fee7fca37d8a2ea46bf916c", null ],
     [ "maxEdgeLen", "structMR_1_1FillHoleNicelySettings.html#adebcc27b0bdbb4fa55baa8eae16a0dfb", null ],
     [ "maxEdgeSplits", "structMR_1_1FillHoleNicelySettings.html#a6dab8822d5eac719a15e99f44c4a3407", null ],

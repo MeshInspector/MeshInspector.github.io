@@ -1,5 +1,7 @@
 var NAVTREEINDEX87 =
 {
+"structMR_1_1TouchpadSwipeGestureBeginListener.html#a138a7f5c34d9eab74870b2dd04a528a3":[6,0,1,0,1,718,0],
+"structMR_1_1TouchpadSwipeGestureBeginListener.html#a138a7f5c34d9eab74870b2dd04a528a3":[6,0,2,0,1,702,0],
 "structMR_1_1TouchpadSwipeGestureBeginListener.html#a39c615cf78a87988966beff6e188e6fe":[6,0,1,0,1,718,2],
 "structMR_1_1TouchpadSwipeGestureBeginListener.html#a39c615cf78a87988966beff6e188e6fe":[6,0,2,0,1,702,2],
 "structMR_1_1TouchpadSwipeGestureBeginListener.html#a8894be5d6692a4cf5badceda38c0e464":[6,0,1,0,1,718,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX87 =
 "structMR_1_1UI_1_1ButtonIconCustomizationParams.html#a63e77b7d31f7b1d90d01878c92a26af3":[6,0,1,0,1,38,3,0],
 "structMR_1_1UI_1_1ButtonIconCustomizationParams.html#a63e77b7d31f7b1d90d01878c92a26af3":[6,0,2,0,1,23,2,0],
 "structMR_1_1UI_1_1ButtonIconCustomizationParams.html#aa7755d0cc192563e2f8641d447160b10":[6,0,1,0,1,38,3,3],
-"structMR_1_1UI_1_1ButtonIconCustomizationParams.html#aa7755d0cc192563e2f8641d447160b10":[6,0,2,0,1,23,2,3],
-"structMR_1_1UI_1_1ButtonIconCustomizationParams.html#add2c4b80cb3ff9ec6a4509a74335f50f":[6,0,1,0,1,38,3,1],
-"structMR_1_1UI_1_1ButtonIconCustomizationParams.html#add2c4b80cb3ff9ec6a4509a74335f50f":[6,0,2,0,1,23,2,1]
+"structMR_1_1UI_1_1ButtonIconCustomizationParams.html#aa7755d0cc192563e2f8641d447160b10":[6,0,2,0,1,23,2,3]
 };

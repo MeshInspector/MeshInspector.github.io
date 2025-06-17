@@ -1,5 +1,7 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1MeshBuilder_1_1VertSpan.html#af483f48c26d9bb2d28b92af0b477712b":[6,0,1,0,1,16,7,0],
+"structMR_1_1MeshBuilder_1_1VertSpan.html#af483f48c26d9bb2d28b92af0b477712b":[6,0,2,0,1,8,7,0],
 "structMR_1_1MeshBuilder_1_1equalVector3f.html":[6,0,1,0,1,16,1],
 "structMR_1_1MeshBuilder_1_1equalVector3f.html":[6,0,2,0,1,8,1],
 "structMR_1_1MeshBuilder_1_1equalVector3f.html#a8fdebf815e795678656400f4e3a957f2":[6,0,1,0,1,16,1,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1MeshTriPoint.html#aabb02c854af5fe943fbefdec9600d4c9":[6,0,0,7,3,5],
 "structMR_1_1MeshTriPoint.html#ab5509e634e7415787efe42cfc5daf178":[6,0,0,7,3,3],
 "structMR_1_1MeshTriPoint.html#abb0591df25f88f44c1c55406d826b63e":[6,0,0,7,3,15],
-"structMR_1_1MeshTriPoint.html#abbd2e1560699eb7d09752dce26fe2ee7":[6,0,0,7,3,6],
-"structMR_1_1MeshTriPoint.html#afb2e8376855431a09626f25ffe6039bc":[6,0,0,7,3,22],
-"structMR_1_1MeshVoxelsConverter.html":[6,0,1,0,1,388]
+"structMR_1_1MeshTriPoint.html#abbd2e1560699eb7d09752dce26fe2ee7":[6,0,0,7,3,6]
 };

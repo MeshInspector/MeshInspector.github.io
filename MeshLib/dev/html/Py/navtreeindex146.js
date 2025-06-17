@@ -1,5 +1,9 @@
 var NAVTREEINDEX146 =
 {
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#abd3a3c87905261b19f4ecd17fb6764da":[6,1,0,0,2,916,15],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#abd3a3c87905261b19f4ecd17fb6764da":[6,1,1,0,1,916,15],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#abed725729a4bb3062b68a3bdb1220168":[6,1,0,0,2,916,10],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#abed725729a4bb3062b68a3bdb1220168":[6,1,1,0,1,916,10],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#ac38949d639c743599b94db7b7c640c6c":[6,1,0,0,2,916,16],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#ac38949d639c743599b94db7b7c640c6c":[6,1,1,0,1,916,16],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#ad4bf725fac2b0904eeb8570344b97d2c":[6,1,0,0,2,916,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX146 =
 "classmrmeshpy_1_1std__vector__std__shared__ptr__VisualObject.html#ac614a65e6f679c432e001af6c53c9f87":[6,1,0,0,2,919,17],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__VisualObject.html#ac614a65e6f679c432e001af6c53c9f87":[6,1,1,0,1,919,17],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__VisualObject.html#acebd3674ad4ef7a1b7910a2b8d871803":[6,1,0,0,2,919,27],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__VisualObject.html#acebd3674ad4ef7a1b7910a2b8d871803":[6,1,1,0,1,919,27],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__VisualObject.html#ae2cb5e7a56beb26606f08104296c82a1":[6,1,0,0,2,919,0],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__VisualObject.html#ae2cb5e7a56beb26606f08104296c82a1":[6,1,1,0,1,919,0],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__VisualObject.html#ae3a793068bc77fcb1ff61b4e12a2d51c":[6,1,0,0,2,919,9],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__VisualObject.html#ae3a793068bc77fcb1ff61b4e12a2d51c":[6,1,1,0,1,919,9]
+"classmrmeshpy_1_1std__vector__std__shared__ptr__VisualObject.html#acebd3674ad4ef7a1b7910a2b8d871803":[6,1,1,0,1,919,27]
 };

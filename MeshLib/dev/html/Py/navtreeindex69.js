@@ -1,5 +1,9 @@
 var NAVTREEINDEX69 =
 {
+"classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#a18ac3432ca47c7ae0fe58b0ceb9dc106":[6,1,0,0,2,741,2,2],
+"classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#a18ac3432ca47c7ae0fe58b0ceb9dc106":[6,1,1,0,1,741,2,2],
+"classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#a28600d8f0afe9307f840ce7ce6ebb586":[6,1,0,0,2,741,2,0],
+"classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#a28600d8f0afe9307f840ce7ce6ebb586":[6,1,1,0,1,741,2,0],
 "classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#a2e65ae03a99eab91136046df17102e88":[6,1,0,0,2,741,2,4],
 "classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#a2e65ae03a99eab91136046df17102e88":[6,1,1,0,1,741,2,4],
 "classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#a56295f828403e2eed1a40aea6f6b5a81":[6,1,0,0,2,741,2,9],
@@ -245,9 +249,5 @@ var NAVTREEINDEX69 =
 "classmrmeshpy_1_1ShellVertexInfo.html#a21430aef6dbe2062c076e1d22d4ef605":[6,1,0,0,2,751,5],
 "classmrmeshpy_1_1ShellVertexInfo.html#a21430aef6dbe2062c076e1d22d4ef605":[6,1,1,0,1,751,5],
 "classmrmeshpy_1_1ShellVertexInfo.html#a366d62d1f90ced72e9c243c37cce93ac":[6,1,0,0,2,751,7],
-"classmrmeshpy_1_1ShellVertexInfo.html#a366d62d1f90ced72e9c243c37cce93ac":[6,1,1,0,1,751,7],
-"classmrmeshpy_1_1ShellVertexInfo.html#a762bc455398b2eae6578c17cde345bec":[6,1,0,0,2,751,2],
-"classmrmeshpy_1_1ShellVertexInfo.html#a762bc455398b2eae6578c17cde345bec":[6,1,1,0,1,751,2],
-"classmrmeshpy_1_1ShellVertexInfo.html#a97cba472e2ab2890f49eb13ca4ac4945":[6,1,0,0,2,751,8],
-"classmrmeshpy_1_1ShellVertexInfo.html#a97cba472e2ab2890f49eb13ca4ac4945":[6,1,1,0,1,751,8]
+"classmrmeshpy_1_1ShellVertexInfo.html#a366d62d1f90ced72e9c243c37cce93ac":[6,1,1,0,1,751,7]
 };

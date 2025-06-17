@@ -1,5 +1,9 @@
 var NAVTREEINDEX52 =
 {
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cone.html#a71c483fd484561321c3266ca58993873":[6,1,1,0,1,580,0],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cone.html#a71c483fd484561321c3266ca58993873":[6,1,1,0,1,580,1],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html":[6,1,0,0,2,581],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html":[6,1,1,0,1,581],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html#a7ec87be1af24c5c8d0f45ebf959f41b0":[6,1,0,0,2,581,0],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html#a7ec87be1af24c5c8d0f45ebf959f41b0":[6,1,0,0,2,581,1],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html#a7ec87be1af24c5c8d0f45ebf959f41b0":[6,1,1,0,1,581,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX52 =
 "classmrmeshpy_1_1ObjectChildrenHolder.html#aa1020074c1326a825c86467a0580791d":[6,1,0,0,2,563,1],
 "classmrmeshpy_1_1ObjectChildrenHolder.html#aa1020074c1326a825c86467a0580791d":[6,1,1,0,1,563,1],
 "classmrmeshpy_1_1ObjectChildrenHolder.html#ab156f05a236a7ac85bc140f3e80f4298":[6,1,0,0,2,563,2],
-"classmrmeshpy_1_1ObjectChildrenHolder.html#ab156f05a236a7ac85bc140f3e80f4298":[6,1,1,0,1,563,2],
-"classmrmeshpy_1_1ObjectDistanceMap.html":[6,1,0,0,2,564],
-"classmrmeshpy_1_1ObjectDistanceMap.html":[6,1,1,0,1,564],
-"classmrmeshpy_1_1ObjectDistanceMap.html#a0672d0c1744aaaac7b221309c053fa43":[6,1,0,0,2,564,9],
-"classmrmeshpy_1_1ObjectDistanceMap.html#a0672d0c1744aaaac7b221309c053fa43":[6,1,1,0,1,564,9]
+"classmrmeshpy_1_1ObjectChildrenHolder.html#ab156f05a236a7ac85bc140f3e80f4298":[6,1,1,0,1,563,2]
 };
