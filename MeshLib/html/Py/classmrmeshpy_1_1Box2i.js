@@ -2,7 +2,6 @@ var classmrmeshpy_1_1Box2i =
 [
     [ "__init__", "classmrmeshpy_1_1Box2i.html#a82c672c02370f70d4251bf185b619aed", null ],
     [ "__init__", "classmrmeshpy_1_1Box2i.html#a027608e2dedcacee27f378925fbfe9f9", null ],
-    [ "__init__", "classmrmeshpy_1_1Box2i.html#a524e09cc8fbde944b88ad181491a8fb9", null ],
     [ "__eq__", "classmrmeshpy_1_1Box2i.html#a3af366a79661739b32c0f0e05a0a8d90", null ],
     [ "__getitem__", "classmrmeshpy_1_1Box2i.html#a4d972984d2b79dcc350705f6b4687f64", null ],
     [ "__getitem__", "classmrmeshpy_1_1Box2i.html#a4d972984d2b79dcc350705f6b4687f64", null ],

@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1MeshBuilder_1_1BuildSettings =
 [
     [ "__init__", "classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html#ae66b06cb47ebec9a7251acf18af14452", null ],
-    [ "__init__", "classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html#af3c5cabb5431133af67c403a6a6c9810", null ],
     [ "__init__", "classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html#a3fd608401a9d5be2e03a21b60e08dc0b", null ],
     [ "allowNonManifoldEdge", "classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html#acb939bb883c9461c85e7b9e49fd65292", null ],
     [ "allowNonManifoldEdge", "classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html#a89ac8bfee2ccf98eeea5b5d50b699963", null ],

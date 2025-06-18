@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1MakeSignedByWindingNumberSettings =
 [
     [ "__init__", "classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html#a9ccfab58f7d8a756c7a21a68def7f8d6", null ],
-    [ "__init__", "classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html#ab189609b41b31eb4fe1a0e21b5453433", null ],
     [ "__init__", "classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html#a5b047b73d409b1c81efb7f6b1e8e99f0", null ],
     [ "fwn", "classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html#adcddfedc59758f271d7cbaa89a82ecfa", null ],
     [ "fwn", "classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html#a88f32da2a45d05842834a584e2bf5e59", null ],

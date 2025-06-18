@@ -14,6 +14,7 @@ var classmrmeshpy_1_1std__vector__Polyline__Vector3__float =
     [ "__setitem__", "classmrmeshpy_1_1std__vector__Polyline__Vector3__float.html#a524c24fc189104e3c044151726a52cf9", null ],
     [ "append", "classmrmeshpy_1_1std__vector__Polyline__Vector3__float.html#a7e3aa319af16260cc8735b45b20c9095", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__Polyline__Vector3__float.html#a6faedb5785a01743a9d003831ca42b5d", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__Polyline__Vector3__float.html#a95fa623b632b963ff98cb3797dc82309", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__Polyline__Vector3__float.html#a0359bdbb70a4fa9d03a3ea268000e06d", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__Polyline__Vector3__float.html#ae8a88af00894cecc8e25a9aa090e4bae", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__Polyline__Vector3__float.html#add9d77216c0bcc789877ddb10533102e", null ],

@@ -19,6 +19,7 @@ var classmrmeshpy_1_1std__vector__Id__GraphEdgeTag =
     [ "append", "classmrmeshpy_1_1std__vector__Id__GraphEdgeTag.html#a38ff99fdaefd8b68d2ca49c1d39bdd3d", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__Id__GraphEdgeTag.html#a039e993eb7f0cd8042f63e70e08eb7d6", null ],
     [ "count", "classmrmeshpy_1_1std__vector__Id__GraphEdgeTag.html#ac1d0e0c5df3ed7dbd2bd8ca002114004", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__Id__GraphEdgeTag.html#a66a6c99e8815f43746c7a9452b858232", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__Id__GraphEdgeTag.html#a879e3b3d42a8e409529546813ed684c9", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__Id__GraphEdgeTag.html#a5480c7691a99d5dc56951bd6ae20961e", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__Id__GraphEdgeTag.html#a30624bd3c7194f9d14be83ae57971873", null ],

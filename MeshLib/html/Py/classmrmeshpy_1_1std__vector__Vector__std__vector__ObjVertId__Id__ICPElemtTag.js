@@ -18,6 +18,7 @@ var classmrmeshpy_1_1std__vector__Vector__std__vector__ObjVertId__Id__ICPElemtTa
     [ "append", "classmrmeshpy_1_1std__vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#ac32dd7c992293c6714be6cb8a495d53e", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#ad8cd7166ba43f1311b87952bded98526", null ],
     [ "count", "classmrmeshpy_1_1std__vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#ac68d11b134625a22d797b572372b1820", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a4ce4141bdb8f922584350ee2a7857600", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a7efbee2f68fa85734ed1b962b4c11e6f", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#ab27118e25432ff2924bda84cadea5701", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a848a2e34d51ba47e79a21d9ccbafa71d", null ],

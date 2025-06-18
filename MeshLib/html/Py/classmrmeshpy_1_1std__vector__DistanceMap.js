@@ -14,6 +14,7 @@ var classmrmeshpy_1_1std__vector__DistanceMap =
     [ "__setitem__", "classmrmeshpy_1_1std__vector__DistanceMap.html#aad5629e9b7ebcbe3c458fb14c8d04864", null ],
     [ "append", "classmrmeshpy_1_1std__vector__DistanceMap.html#a047c7707c632368512ee7222394b6553", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__DistanceMap.html#a51c17f466ce6bf7918f7cf15eb2458a8", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__DistanceMap.html#a22827435519e9caa2ebcc17a5c4cffc4", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__DistanceMap.html#a844ad5583c3366ee678cf08c6513a174", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__DistanceMap.html#a3b420837a43b8367fb6f77d887e987c6", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__DistanceMap.html#ad19ea68a9c2ba67b449ead500f5fcb12", null ],

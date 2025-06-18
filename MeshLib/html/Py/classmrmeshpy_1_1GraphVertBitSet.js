@@ -1,9 +1,8 @@
 var classmrmeshpy_1_1GraphVertBitSet =
 [
-    [ "__init__", "classmrmeshpy_1_1GraphVertBitSet.html#acfd5bbeb3c88c2877adef0cbbd013746", null ],
-    [ "__init__", "classmrmeshpy_1_1GraphVertBitSet.html#acfd5bbeb3c88c2877adef0cbbd013746", null ],
     [ "__init__", "classmrmeshpy_1_1GraphVertBitSet.html#a6f6ac87cd94c97add7f004320ced8092", null ],
-    [ "__init__", "classmrmeshpy_1_1GraphVertBitSet.html#ac08d5ba4fdcb5f6c291aa492cab5529d", null ],
+    [ "__init__", "classmrmeshpy_1_1GraphVertBitSet.html#acfd5bbeb3c88c2877adef0cbbd013746", null ],
+    [ "__init__", "classmrmeshpy_1_1GraphVertBitSet.html#acfd5bbeb3c88c2877adef0cbbd013746", null ],
     [ "__and__", "classmrmeshpy_1_1GraphVertBitSet.html#a0ed597f34b83f6bca59b46a178908099", null ],
     [ "__getitem__", "classmrmeshpy_1_1GraphVertBitSet.html#af3a1d199d26baa72ee83b1c6333eb4f7", null ],
     [ "__iand__", "classmrmeshpy_1_1GraphVertBitSet.html#a284dcd5ddaa7cafa8779d5141c7c3d01", null ],

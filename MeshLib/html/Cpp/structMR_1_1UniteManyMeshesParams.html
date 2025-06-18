@@ -159,26 +159,39 @@ $(function(){initNavTree('structMR_1_1UniteManyMeshesParams.html',''); initResiz
 </div><!--header-->
 <div class="contents">
 
+<p>Parameters structure for uniteManyMeshes function.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRUniteManyMeshes_8h_source.html">MRUniteManyMeshes.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ad905aa665d2879e62cb41d03eb580eab" id="r_ad905aa665d2879e62cb41d03eb580eab"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad905aa665d2879e62cb41d03eb580eab">useRandomShifts</a> { false }</td></tr>
+<tr class="memdesc:ad905aa665d2879e62cb41d03eb580eab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply random shift to each mesh, to prevent degenerations on coincident surfaces.  <br /></td></tr>
 <tr class="separator:ad905aa665d2879e62cb41d03eb580eab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28505f79efacbde9b70d5d98148c26e4" id="r_a28505f79efacbde9b70d5d98148c26e4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28505f79efacbde9b70d5d98148c26e4">fixDegenerations</a> { false }</td></tr>
 <tr class="separator:a28505f79efacbde9b70d5d98148c26e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87d0c6c71297df5ccba6efb599d35f57" id="r_a87d0c6c71297df5ccba6efb599d35f57"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87d0c6c71297df5ccba6efb599d35f57">maxAllowedError</a> { 1e-5f }</td></tr>
 <tr class="separator:a87d0c6c71297df5ccba6efb599d35f57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a9dfe0c8c99c3913373200d1cb1ddfc" id="r_a3a9dfe0c8c99c3913373200d1cb1ddfc"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a9dfe0c8c99c3913373200d1cb1ddfc">randomShiftsSeed</a> { 0 }</td></tr>
+<tr class="memdesc:a3a9dfe0c8c99c3913373200d1cb1ddfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Seed that is used for random shifts.  <br /></td></tr>
 <tr class="separator:a3a9dfe0c8c99c3913373200d1cb1ddfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae80b58ee38488a2b5e0cd954e32231b4" id="r_ae80b58ee38488a2b5e0cd954e32231b4"><td class="memItemLeft" align="right" valign="top">FaceBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae80b58ee38488a2b5e0cd954e32231b4">newFaces</a> { nullptr }</td></tr>
+<tr class="memdesc:ae80b58ee38488a2b5e0cd954e32231b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">If set, the bitset will store new faces created by boolean operations.  <br /></td></tr>
 <tr class="separator:ae80b58ee38488a2b5e0cd954e32231b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28a4b396128672937ced813919301558" id="r_a28a4b396128672937ced813919301558"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a58525252a9ee9abb57d352127584531f">NestedComponenetsMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28a4b396128672937ced813919301558">nestedComponentsMode</a> { <a class="el" href="namespaceMR.html#a58525252a9ee9abb57d352127584531fa1063e38cb53d94d386f21227fcd84717">NestedComponenetsMode::Remove</a> }</td></tr>
+<tr class="memitem:a28a4b396128672937ced813919301558" id="r_a28a4b396128672937ced813919301558"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../namespaceMR.html#a58525252a9ee9abb57d352127584531f">NestedComponenetsMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28a4b396128672937ced813919301558">nestedComponentsMode</a> { NestedComponenetsMode::Remove }</td></tr>
 <tr class="separator:a28a4b396128672937ced813919301558"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37fc9fd84323ac5579854222ba3453c8" id="r_a37fc9fd84323ac5579854222ba3453c8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37fc9fd84323ac5579854222ba3453c8">mergeOnFail</a> { false }</td></tr>
+<tr class="memdesc:a37fc9fd84323ac5579854222ba3453c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">If set - merges meshes instead of booleaning it if boolean operation fails.  <br /></td></tr>
+<tr class="separator:a37fc9fd84323ac5579854222ba3453c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac647b8fce386278e1b3407f1b5f314e5" id="r_ac647b8fce386278e1b3407f1b5f314e5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac647b8fce386278e1b3407f1b5f314e5">forceCut</a> = false</td></tr>
+<tr class="separator:ac647b8fce386278e1b3407f1b5f314e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9881bd75997eb09cd8e02b82b95bfd1" id="r_ab9881bd75997eb09cd8e02b82b95bfd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9881bd75997eb09cd8e02b82b95bfd1">progressCb</a></td></tr>
 <tr class="separator:ab9881bd75997eb09cd8e02b82b95bfd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Data Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Parameters structure for uniteManyMeshes function. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a28505f79efacbde9b70d5d98148c26e4" name="a28505f79efacbde9b70d5d98148c26e4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a28505f79efacbde9b70d5d98148c26e4">&#9670;&#160;</a></span>fixDegenerations</h2>
 
@@ -190,6 +203,22 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Try fix degenerations after each boolean step, to prevent boolean failure due to high amount of degenerated faces useful on meshes with many coincident surfaces (useRandomShifts used for same issue) </p>
+
+</div>
+</div>
+<a id="ac647b8fce386278e1b3407f1b5f314e5" name="ac647b8fce386278e1b3407f1b5f314e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac647b8fce386278e1b3407f1b5f314e5">&#9670;&#160;</a></span>forceCut</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::UniteManyMeshesParams::forceCut = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way </p><dl class="section warning"><dt>Warning</dt><dd>not recommended in most cases </dd></dl>
 
 </div>
 </div>
@@ -204,6 +233,23 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Max allowed random shifts in each direction, and max allowed deviation after degeneration fixing not used if both flags (useRandomShifts,fixDegenerations) are false </p>
+
+</div>
+</div>
+<a id="a37fc9fd84323ac5579854222ba3453c8" name="a37fc9fd84323ac5579854222ba3453c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37fc9fd84323ac5579854222ba3453c8">&#9670;&#160;</a></span>mergeOnFail</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::UniteManyMeshesParams::mergeOnFail { false }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>If set - merges meshes instead of booleaning it if boolean operation fails. </p>
 
 </div>
 </div>
@@ -214,10 +260,11 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#a58525252a9ee9abb57d352127584531f">NestedComponenetsMode</a> MR::UniteManyMeshesParams::nestedComponentsMode { <a class="el" href="namespaceMR.html#a58525252a9ee9abb57d352127584531fa1063e38cb53d94d386f21227fcd84717">NestedComponenetsMode::Remove</a> }</td>
+          <td class="memname"><a class="elRef" href="../namespaceMR.html#a58525252a9ee9abb57d352127584531f">NestedComponenetsMode</a> MR::UniteManyMeshesParams::nestedComponentsMode { NestedComponenetsMode::Remove }</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>By default function separate nested meshes and remove them, just like union operation should do read comment of NestedComponenetsMode enum for more information </p>
 
 </div>
 </div>
@@ -232,6 +279,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>If set, the bitset will store new faces created by boolean operations. </p>
 
 </div>
 </div>
@@ -261,6 +310,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Seed that is used for random shifts. </p>
+
 </div>
 </div>
 <a id="ad905aa665d2879e62cb41d03eb580eab" name="ad905aa665d2879e62cb41d03eb580eab"></a>
@@ -275,6 +326,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Apply random shift to each mesh, to prevent degenerations on coincident surfaces. </p>
+
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
@@ -286,7 +339,7 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="structMR_1_1UniteManyMeshesParams.html">UniteManyMeshesParams</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="structMR_1_1UniteManyMeshesParams.html">UniteManyMeshesParams</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1SaveSettings =
 [
     [ "__init__", "classmrmeshpy_1_1SaveSettings.html#acf92cdef58fceea6660f7be5e47d8093", null ],
-    [ "__init__", "classmrmeshpy_1_1SaveSettings.html#a72283386dd7c2700a272d9ef1c81c29b", null ],
     [ "__init__", "classmrmeshpy_1_1SaveSettings.html#adaeea047657c67c3147190d4e8a29943", null ],
     [ "colors", "classmrmeshpy_1_1SaveSettings.html#a5ec9ce1fa6f90eb7f892b31b2b3ef370", null ],
     [ "colors", "classmrmeshpy_1_1SaveSettings.html#a8aa43c02d17f5a9ee0e26dce9257efbd", null ],

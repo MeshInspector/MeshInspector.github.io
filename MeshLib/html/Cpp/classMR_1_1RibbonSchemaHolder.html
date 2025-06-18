@@ -164,6 +164,9 @@ $(function(){initNavTree('classMR_1_1RibbonSchemaHolder.html',''); initResizable
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RibbonSchemaHolder_1_1SearchParams.html">SearchParams</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">tool search options  <a href="structMR_1_1RibbonSchemaHolder_1_1SearchParams.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RibbonSchemaHolder_1_1SearchResult.html">SearchResult</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">struct to hold information for search result presentation  <a href="structMR_1_1RibbonSchemaHolder_1_1SearchResult.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -179,8 +182,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a28d7c0a6ed492a3e6678588c499d5a29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a091aa7fdc2342488f7e268ef28a578d7" id="r_a091aa7fdc2342488f7e268ef28a578d7"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a091aa7fdc2342488f7e268ef28a578d7">delItem</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1RibbonMenuItem.html">RibbonMenuItem</a> &gt; &amp;item)</td></tr>
 <tr class="separator:a091aa7fdc2342488f7e268ef28a578d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a874605999408fc4576544edbbaa4793c" id="r_a874605999408fc4576544edbbaa4793c"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API std::vector&lt; <a class="el" href="structMR_1_1RibbonSchemaHolder_1_1SearchResult.html">SearchResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a874605999408fc4576544edbbaa4793c">search</a> (const std::string &amp;searchStr, int *captionCount=nullptr, std::vector&lt; <a class="el" href="structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html">SearchResultWeight</a> &gt; *weights=nullptr)</td></tr>
-<tr class="separator:a874605999408fc4576544edbbaa4793c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb256a8a2b16bea518f1937d0683ca1a" id="r_aeb256a8a2b16bea518f1937d0683ca1a"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API std::vector&lt; <a class="el" href="structMR_1_1RibbonSchemaHolder_1_1SearchResult.html">SearchResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb256a8a2b16bea518f1937d0683ca1a">search</a> (const std::string &amp;searchStr, const <a class="el" href="structMR_1_1RibbonSchemaHolder_1_1SearchParams.html">SearchParams</a> &amp;params)</td></tr>
+<tr class="memdesc:aeb256a8a2b16bea518f1937d0683ca1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">searches for tools with the most appropriate names (captions) or tooltips  <br /></td></tr>
+<tr class="separator:aeb256a8a2b16bea518f1937d0683ca1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab23a7433dd866e4a1f54103011c2e116" id="r_ab23a7433dd866e4a1f54103011c2e116"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab23a7433dd866e4a1f54103011c2e116">findItemTab</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1RibbonMenuItem.html">RibbonMenuItem</a> &gt; &amp;item)</td></tr>
 <tr class="memdesc:ab23a7433dd866e4a1f54103011c2e116"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns item tab index in schema.tabsOrder or -1 if no tab found (e.g. scene fast access panel or header access panel)  <br /></td></tr>
 <tr class="separator:ab23a7433dd866e4a1f54103011c2e116"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -290,8 +294,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a874605999408fc4576544edbbaa4793c" name="a874605999408fc4576544edbbaa4793c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a874605999408fc4576544edbbaa4793c">&#9670;&#160;</a></span>search()</h2>
+<a id="aeb256a8a2b16bea518f1937d0683ca1a" name="aeb256a8a2b16bea518f1937d0683ca1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb256a8a2b16bea518f1937d0683ca1a">&#9670;&#160;</a></span>search()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -307,12 +311,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>captionCount</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html">SearchResultWeight</a> &gt; *</td>          <td class="paramname"><span class="paramname"><em>weights</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1RibbonSchemaHolder_1_1SearchParams.html">SearchParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -321,6 +320,8 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>searches for tools with the most appropriate names (captions) or tooltips </p>
 
 </div>
 </div>
@@ -333,7 +334,7 @@ Static Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1RibbonSchemaHolder.html">RibbonSchemaHolder</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="classMR_1_1RibbonSchemaHolder.html">RibbonSchemaHolder</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

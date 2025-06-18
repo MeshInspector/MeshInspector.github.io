@@ -14,6 +14,7 @@ var classmrmeshpy_1_1std__vector__OneMeshContour =
     [ "__setitem__", "classmrmeshpy_1_1std__vector__OneMeshContour.html#a8a78ef8532876e89c6c31ae5574464da", null ],
     [ "append", "classmrmeshpy_1_1std__vector__OneMeshContour.html#a83ca413aa23598c9b0c48cff7a9283b8", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__OneMeshContour.html#a37c58078ff2502ad400ed8aa81678c9d", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__OneMeshContour.html#afe5bb0fc5d21c51a76f939ccc3662f26", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__OneMeshContour.html#a426792a54a2ff8c42e33811a990bb891", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__OneMeshContour.html#a68c3aef94a84bfa289e107ff281bc7fa", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__OneMeshContour.html#a7e7635874cf91313d23f1bd5f5a095ba", null ],

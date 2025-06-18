@@ -18,6 +18,7 @@ var classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features
     [ "append", "classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html#a6516d2afb21983676c4b6ae70b90f5fd", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html#a08deede4f4b20455de210efbc1ff2b22", null ],
     [ "count", "classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html#aff3927d0eee6c425a86f788a22f3d8e9", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html#ad688626e20fc2aa6cee4ac910f2cd27c", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html#ae29ee2e3b5c4ad1b5c5f88d8a6b5f972", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html#a2c017042a8a2b7d641c55e1d510071e0", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html#a3e5d5853ef105c21a16921a7ba148fb2", null ],

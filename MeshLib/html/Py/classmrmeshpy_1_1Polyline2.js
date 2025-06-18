@@ -1,10 +1,9 @@
 var classmrmeshpy_1_1Polyline2 =
 [
     [ "__init__", "classmrmeshpy_1_1Polyline2.html#ae64d607f4c7ced29cebbe131fca04c7c", null ],
+    [ "__init__", "classmrmeshpy_1_1Polyline2.html#a5e2dd68024b3232f7f3e753fdd3b1ca8", null ],
     [ "__init__", "classmrmeshpy_1_1Polyline2.html#a73c8b8c8310e124dbb61ae9b8a52e373", null ],
-    [ "__init__", "classmrmeshpy_1_1Polyline2.html#aa1759418785934b042eaf015ab659136", null ],
     [ "__init__", "classmrmeshpy_1_1Polyline2.html#afb37419efc075cb740e77dcda5b55022", null ],
-    [ "__init__", "classmrmeshpy_1_1Polyline2.html#a01b9c524aa90034938a760a70fd6668e", null ],
     [ "addFromEdgePath", "classmrmeshpy_1_1Polyline2.html#ad34e3e8648d1ec0606550aeee0866faf", null ],
     [ "addFromGeneralSurfacePath", "classmrmeshpy_1_1Polyline2.html#a4cdbaaae1240cec444bf41019fa1d343", null ],
     [ "addFromPoints", "classmrmeshpy_1_1Polyline2.html#a20677894d265c78bcf4eb749deb86fa6", null ],
@@ -14,7 +13,6 @@ var classmrmeshpy_1_1Polyline2 =
     [ "addPartByMask", "classmrmeshpy_1_1Polyline2.html#ad718dc9a7567c05130175058dee72b71", null ],
     [ "computeBoundingBox", "classmrmeshpy_1_1Polyline2.html#a84d9bc35001a3917a3e122424e2fb196", null ],
     [ "contours", "classmrmeshpy_1_1Polyline2.html#ae41a8431fbebaf52229ae5996ff3ae5f", null ],
-    [ "contours2", "classmrmeshpy_1_1Polyline2.html#a5e1acea1d9e17701c33f7e24daffff5c", null ],
     [ "destPnt", "classmrmeshpy_1_1Polyline2.html#a5daeee19c31e61dc34e0c691fd4d3f6d", null ],
     [ "edgeCenter", "classmrmeshpy_1_1Polyline2.html#a0652201f9c1f8136a1b6ce20e30c9908", null ],
     [ "edgeLength", "classmrmeshpy_1_1Polyline2.html#a5f382151cf3b3c4eabc6ee337c8595a5", null ],

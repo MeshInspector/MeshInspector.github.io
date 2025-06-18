@@ -4,11 +4,6 @@ var MRSurfacePath_8h =
       [ "Ridge", "MRSurfacePath_8h.html#gga3887057b7aa95d9993b5ce57130c25a6ae9eeca48aa5cccacde08760c6ec9dd5a", null ],
       [ "Gorge", "MRSurfacePath_8h.html#gga3887057b7aa95d9993b5ce57130c25a6a90290d32b4deae8703b07bfcd17af5a4", null ]
     ] ],
-    [ "GeodesicPathApprox", "MRSurfacePath_8h.html#ga0d52c069a53aab9d22c0f2c4e3f262a2", [
-      [ "DijkstraBiDir", "MRSurfacePath_8h.html#gga0d52c069a53aab9d22c0f2c4e3f262a2a688de737bb8774938c023e0f0a373184", null ],
-      [ "DijkstraAStar", "MRSurfacePath_8h.html#gga0d52c069a53aab9d22c0f2c4e3f262a2aa9132a8a9b3c0d8c70e577b23e01e70d", null ],
-      [ "FastMarching", "MRSurfacePath_8h.html#gga0d52c069a53aab9d22c0f2c4e3f262a2aa379190d516779f65bad72b240e81435", null ]
-    ] ],
     [ "PathError", "MRSurfacePath_8h.html#gaf2c93aa0da8a9748d23340f32349a8b8", [
       [ "StartEndNotConnected", "MRSurfacePath_8h.html#ggaf2c93aa0da8a9748d23340f32349a8b8aad309ea76f6bf055e7b62a3dd200631f", null ],
       [ "InternalError", "MRSurfacePath_8h.html#ggaf2c93aa0da8a9748d23340f32349a8b8a8462b58246e70e5c83e5b939a9332cb5", null ]

@@ -1,7 +1,7 @@
 var structMR_1_1AncillaryPoints =
 [
     [ "AncillaryPoints", "structMR_1_1AncillaryPoints.html#af6fa967b33227eb24738dbe16aa90a15", null ],
-    [ "AncillaryPoints", "structMR_1_1AncillaryPoints.html#a216d4fd7817ede9a4f80a11ec68881ca", null ],
+    [ "AncillaryPoints", "structMR_1_1AncillaryPoints.html#a37e968a4fe6703e8890329ac2f83d978", null ],
     [ "AncillaryPoints", "structMR_1_1AncillaryPoints.html#a1053dde41fe1dfb09838cbc4f556f23b", null ],
     [ "~AncillaryPoints", "structMR_1_1AncillaryPoints.html#a1ae6091149af08970f521f474ed0cb1e", null ],
     [ "addPoint", "structMR_1_1AncillaryPoints.html#a63a0097eb35e67be4a2ea6f2d5f98402", null ],

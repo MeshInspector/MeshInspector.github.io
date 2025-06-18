@@ -175,11 +175,13 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a3c9ab9ed36085974e0aedcdba8ee7b0c" id="r_a3c9ab9ed36085974e0aedcdba8ee7b0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1BooleanPreCutResult.html">BooleanPreCutResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c9ab9ed36085974e0aedcdba8ee7b0c">outPreCutB</a> = nullptr</td></tr>
 <tr class="memdesc:a3c9ab9ed36085974e0aedcdba8ee7b0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional precut output of meshB, if present - does not perform boolean and just return them.  <br /></td></tr>
 <tr class="separator:a3c9ab9ed36085974e0aedcdba8ee7b0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e9fd686cd57658f583e243451c94393" id="r_a4e9fd686cd57658f583e243451c94393"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e9fd686cd57658f583e243451c94393">outCutEdges</a> = nullptr</td></tr>
+<tr class="memitem:a4e9fd686cd57658f583e243451c94393" id="r_a4e9fd686cd57658f583e243451c94393"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="elRef" href="../namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e9fd686cd57658f583e243451c94393">outCutEdges</a> = nullptr</td></tr>
 <tr class="memdesc:a4e9fd686cd57658f583e243451c94393"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional output cut edges of booleaned meshes.  <br /></td></tr>
 <tr class="separator:a4e9fd686cd57658f583e243451c94393"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4617bb49dfbad4a7fda08bd0c7a9fe2e" id="r_a4617bb49dfbad4a7fda08bd0c7a9fe2e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4617bb49dfbad4a7fda08bd0c7a9fe2e">mergeAllNonIntersectingComponents</a> = false</td></tr>
 <tr class="separator:a4617bb49dfbad4a7fda08bd0c7a9fe2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4502c74eb11e7d2d08ea54e0fa153ac1" id="r_a4502c74eb11e7d2d08ea54e0fa153ac1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4502c74eb11e7d2d08ea54e0fa153ac1">forceCut</a> = false</td></tr>
+<tr class="separator:a4502c74eb11e7d2d08ea54e0fa153ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e10d01aa0e3e192325518ba6d1ea24c" id="r_a3e10d01aa0e3e192325518ba6d1ea24c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e10d01aa0e3e192325518ba6d1ea24c">cb</a> = {}</td></tr>
 <tr class="separator:a3e10d01aa0e3e192325518ba6d1ea24c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -195,6 +197,21 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4502c74eb11e7d2d08ea54e0fa153ac1" name="a4502c74eb11e7d2d08ea54e0fa153ac1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4502c74eb11e7d2d08ea54e0fa153ac1">&#9670;&#160;</a></span>forceCut</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::BooleanParameters::forceCut = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way </p><dl class="section warning"><dt>Warning</dt><dd>not recommended in most cases </dd></dl>
 
 </div>
 </div>
@@ -236,7 +253,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a>&gt;* MR::BooleanParameters::outCutEdges = nullptr</td>
+          <td class="memname">std::vector&lt;<a class="elRef" href="../namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a>&gt;* MR::BooleanParameters::outCutEdges = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -302,7 +319,7 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="structMR_1_1BooleanParameters.html">BooleanParameters</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="structMR_1_1BooleanParameters.html">BooleanParameters</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

@@ -18,6 +18,7 @@ var classmrmeshpy_1_1std__vector__ViewportMask =
     [ "append", "classmrmeshpy_1_1std__vector__ViewportMask.html#a3c3315aed939c3a9cfdcda6e67d1cb07", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__ViewportMask.html#aaeb4285f8c0b7900672c917aaf003a5c", null ],
     [ "count", "classmrmeshpy_1_1std__vector__ViewportMask.html#a9db4912913f0b735cbfa45bba2bcbe1f", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__ViewportMask.html#a6480c9b46dc00a86e0c02dc5ff99bc22", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__ViewportMask.html#a5311816d1c7e5226f0d985b957088fec", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__ViewportMask.html#ac542f1b1913085c49dbf7e5b68566fa9", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__ViewportMask.html#adb0fda158c17bdff701b6f1b46b759cf", null ],

@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1SymbolMeshParams =
 [
     [ "__init__", "classmrmeshpy_1_1SymbolMeshParams.html#ab455b8585019151079a93eb1527ef580", null ],
-    [ "__init__", "classmrmeshpy_1_1SymbolMeshParams.html#a1b12ca8c2f384f7c53d378682a91c84b", null ],
     [ "__init__", "classmrmeshpy_1_1SymbolMeshParams.html#a5cc2b561872dc6434be56745cc81b91b", null ],
     [ "align", "classmrmeshpy_1_1SymbolMeshParams.html#a3a4a6f82ac46e675b87187cd83ebe813", null ],
     [ "align", "classmrmeshpy_1_1SymbolMeshParams.html#a2f054401c787e300ed7ae86eee637a2a", null ],

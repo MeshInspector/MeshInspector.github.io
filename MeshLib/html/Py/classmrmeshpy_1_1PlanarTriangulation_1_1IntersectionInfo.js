@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo =
 [
     [ "__init__", "classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#acd91edcc7f26c117b26c62761be3151b", null ],
-    [ "__init__", "classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#af35745a0f5ce2ac2da83deeb47386b7e", null ],
     [ "__init__", "classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#adc648358fd5f0c7dacabd71220221c07", null ],
     [ "isIntersection", "classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#ad9444d854dfa6d0983eca2851762c967", null ],
     [ "lDest", "classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#a69de1e62d16c5353063300f4495af668", null ],

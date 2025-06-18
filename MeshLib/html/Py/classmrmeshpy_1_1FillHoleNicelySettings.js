@@ -1,14 +1,15 @@
 var classmrmeshpy_1_1FillHoleNicelySettings =
 [
     [ "__init__", "classmrmeshpy_1_1FillHoleNicelySettings.html#ae6ea8ac79fa3e78fc50502640af68e2a", null ],
-    [ "__init__", "classmrmeshpy_1_1FillHoleNicelySettings.html#ac5e3498c40d977fe9fde7f527d77942b", null ],
-    [ "__init__", "classmrmeshpy_1_1FillHoleNicelySettings.html#a722066d43db8a1fab0b68cc702674b19", null ],
+    [ "__init__", "classmrmeshpy_1_1FillHoleNicelySettings.html#a44e73fd80cfc0365ca4e4edfe5820e90", null ],
     [ "beforeEdgeSplit", "classmrmeshpy_1_1FillHoleNicelySettings.html#a50ccd6545e4fb0876ea176d9ef42a5eb", null ],
     [ "beforeEdgeSplit", "classmrmeshpy_1_1FillHoleNicelySettings.html#a163fee0fdff0c18290cae488bb309f83", null ],
     [ "colorMap", "classmrmeshpy_1_1FillHoleNicelySettings.html#a15568bc243eb26da530f3b659b07cf94", null ],
     [ "colorMap", "classmrmeshpy_1_1FillHoleNicelySettings.html#a2eba5f9b6b0c5f633f710db16714b689", null ],
     [ "edgeWeights", "classmrmeshpy_1_1FillHoleNicelySettings.html#a8822bddbb915ef20c02959eea1331678", null ],
     [ "edgeWeights", "classmrmeshpy_1_1FillHoleNicelySettings.html#abdb3b8fe51ebf8ee95504d2c874979da", null ],
+    [ "faceColors", "classmrmeshpy_1_1FillHoleNicelySettings.html#a70285e609eccdb6ad08404a8c545aae9", null ],
+    [ "faceColors", "classmrmeshpy_1_1FillHoleNicelySettings.html#a8f0afabbbc5eec26e2cbbcde63c4bc6b", null ],
     [ "maxAngleChangeAfterFlip", "classmrmeshpy_1_1FillHoleNicelySettings.html#a04a189c6920cda6cf7f9a8308c77d7c0", null ],
     [ "maxAngleChangeAfterFlip", "classmrmeshpy_1_1FillHoleNicelySettings.html#aa1254a38f4f3280d14bda8ad4b6e49a2", null ],
     [ "maxEdgeLen", "classmrmeshpy_1_1FillHoleNicelySettings.html#a36fd5ac316ea771331116b7d59692fff", null ],

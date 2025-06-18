@@ -4,7 +4,6 @@ var classmrmeshpy_1_1Vector__MeshTexture__TextureId =
     [ "__init__", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a7a7ab74620c9de54ce33f6c4dd39c528", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a3f810c8795bd078f7af0fed58c5251d7", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a3c20ed263b812e218a449aa03f757f49", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a68c1873aacc4d78e6492342f4ce9d88a", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a653276b867609f606c2982909527ea0b", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a653276b867609f606c2982909527ea0b", null ],
     [ "__iter__", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a2204a7d59c0165556710348a31dddc98", null ],

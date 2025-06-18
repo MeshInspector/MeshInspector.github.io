@@ -6,6 +6,7 @@ var MRMeshC_2MRMeshTopology_8h =
     [ "mrMeshTopologyFindNumHoles", "MRMeshC_2MRMeshTopology_8h.html#ae1750c7b207397dbc57181488cc53855", null ],
     [ "mrMeshTopologyGetLeftTriVerts", "MRMeshC_2MRMeshTopology_8h.html#a9f90efb543cd4eb68bd0e32073de983e", null ],
     [ "mrMeshTopologyGetTriangulation", "MRMeshC_2MRMeshTopology_8h.html#a826e2228fe0a20b80a1023fa2e965ea0", null ],
+    [ "mrMeshTopologyGetTriVerts", "MRMeshC_2MRMeshTopology_8h.html#a6724355114a6a35e37b4fb12f54974d4", null ],
     [ "mrMeshTopologyGetValidFaces", "MRMeshC_2MRMeshTopology_8h.html#a351a63283c1a22542684de030c155226", null ],
     [ "mrMeshTopologyGetValidVerts", "MRMeshC_2MRMeshTopology_8h.html#a9ad8091f9a9eae3c7660f68733ffc2ee", null ],
     [ "mrMeshTopologyPack", "MRMeshC_2MRMeshTopology_8h.html#aad54f8e25f762f3e7f334d36450b712e", null ]

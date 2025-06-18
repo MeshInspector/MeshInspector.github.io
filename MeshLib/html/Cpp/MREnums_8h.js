@@ -11,6 +11,11 @@ var MREnums_8h =
       [ "Unit", "MREnums_8h.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8a19c562a36aeb455d09534f93b4f5236f", null ],
       [ "Cotan", "MREnums_8h.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9", null ]
     ] ],
+    [ "GeodesicPathApprox", "MREnums_8h.html#a0d52c069a53aab9d22c0f2c4e3f262a2", [
+      [ "DijkstraBiDir", "MREnums_8h.html#a0d52c069a53aab9d22c0f2c4e3f262a2a688de737bb8774938c023e0f0a373184", null ],
+      [ "DijkstraAStar", "MREnums_8h.html#a0d52c069a53aab9d22c0f2c4e3f262a2aa9132a8a9b3c0d8c70e577b23e01e70d", null ],
+      [ "FastMarching", "MREnums_8h.html#a0d52c069a53aab9d22c0f2c4e3f262a2aa379190d516779f65bad72b240e81435", null ]
+    ] ],
     [ "OffsetMode", "MREnums_8h.html#aaa631c02105f2a8fa6fe24c7873e8d98", [
       [ "Smooth", "MREnums_8h.html#aaa631c02105f2a8fa6fe24c7873e8d98ae510cdf33cd497134b47b9316314d4b4", null ],
       [ "Standard", "MREnums_8h.html#aaa631c02105f2a8fa6fe24c7873e8d98aeb6d8ae6f20283755b339c0dc273988b", null ],

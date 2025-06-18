@@ -40,10 +40,11 @@ var searchData=
   ['uniquethreadsafeowner_37',['UniqueThreadSafeOwner',['../classMR_1_1UniqueThreadSafeOwner.html',1,'MR']]],
   ['uniquethreadsafeowner_5faabbtree_38',['UniqueThreadSafeOwner_AABBTree',['../../Py/classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree.html',1,'mrmeshpy']]],
   ['uniquethreadsafeowner_5faabbtreepoints_39',['UniqueThreadSafeOwner_AABBTreePoints',['../../Py/classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTreePoints.html',1,'mrmeshpy']]],
-  ['unitemanymeshesparams_40',['UniteManyMeshesParams',['../structMR_1_1UniteManyMeshesParams.html',1,'MR::UniteManyMeshesParams'],['../../Py/classmrmeshpy_1_1UniteManyMeshesParams.html',1,'mrmeshpy::UniteManyMeshesParams']]],
-  ['unitinfo_41',['UnitInfo',['../structMR_1_1UnitInfo.html',1,'MR']]],
-  ['unittostringparams_42',['UnitToStringParams',['../structMR_1_1UnitToStringParams.html',1,'MR']]],
-  ['unorientedtriangle_43',['UnorientedTriangle',['../structMR_1_1UnorientedTriangle.html',1,'MR::UnorientedTriangle'],['../../Py/classmrmeshpy_1_1UnorientedTriangle.html',1,'mrmeshpy::UnorientedTriangle']]],
-  ['unsigned_5fchar_5foutput_44',['unsigned_char_output',['../../Py/classmrmeshpy_1_1unsigned__char__output.html',1,'mrmeshpy']]],
-  ['useaabbtree_45',['UseAABBTree',['../../Py/classmrmeshpy_1_1UseAABBTree.html',1,'mrmeshpy']]]
+  ['unitecloseparams_40',['UniteCloseParams',['../structMR_1_1MeshBuilder_1_1UniteCloseParams.html',1,'MR::MeshBuilder::UniteCloseParams'],['../../Py/classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams.html',1,'mrmeshpy::MeshBuilder::UniteCloseParams']]],
+  ['unitemanymeshesparams_41',['UniteManyMeshesParams',['../structMR_1_1UniteManyMeshesParams.html',1,'MR::UniteManyMeshesParams'],['../../Py/classmrmeshpy_1_1UniteManyMeshesParams.html',1,'mrmeshpy::UniteManyMeshesParams']]],
+  ['unitinfo_42',['UnitInfo',['../structMR_1_1UnitInfo.html',1,'MR']]],
+  ['unittostringparams_43',['UnitToStringParams',['../structMR_1_1UnitToStringParams.html',1,'MR']]],
+  ['unorientedtriangle_44',['UnorientedTriangle',['../structMR_1_1UnorientedTriangle.html',1,'MR::UnorientedTriangle'],['../../Py/classmrmeshpy_1_1UnorientedTriangle.html',1,'mrmeshpy::UnorientedTriangle']]],
+  ['unsigned_5fchar_5foutput_45',['unsigned_char_output',['../../Py/classmrmeshpy_1_1unsigned__char__output.html',1,'mrmeshpy']]],
+  ['useaabbtree_46',['UseAABBTree',['../../Py/classmrmeshpy_1_1UseAABBTree.html',1,'mrmeshpy']]]
 ];

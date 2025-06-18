@@ -2,7 +2,6 @@ var classmrmeshpy_1_1ViewportProperty__Matrix3f =
 [
     [ "__init__", "classmrmeshpy_1_1ViewportProperty__Matrix3f.html#a4581ff18487cac41791a69f378179001", null ],
     [ "__init__", "classmrmeshpy_1_1ViewportProperty__Matrix3f.html#a2d0fbb66a651611b91568c9ceb030bc6", null ],
-    [ "__init__", "classmrmeshpy_1_1ViewportProperty__Matrix3f.html#aea596361649a8249f51cbbc81aeca1e5", null ],
     [ "__getitem__", "classmrmeshpy_1_1ViewportProperty__Matrix3f.html#aaf5a3694db79da5e4cc28ddf4074f255", null ],
     [ "__setitem__", "classmrmeshpy_1_1ViewportProperty__Matrix3f.html#a4960d664af5eab644ff9566cc0b4767a", null ],
     [ "get", "classmrmeshpy_1_1ViewportProperty__Matrix3f.html#a465809c66ac224275e09431d92d79352", null ],

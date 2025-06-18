@@ -1,8 +1,8 @@
 var structMR_1_1Polyline =
 [
     [ "Polyline", "structMR_1_1Polyline.html#a5b3f0a6dabe52200adbd05fce503069a", null ],
-    [ "Polyline", "structMR_1_1Polyline.html#af6304c2e704e188b2072b3bfc74d4a9a", null ],
-    [ "Polyline", "structMR_1_1Polyline.html#a45f4e47f567de8900614578bf0becc56", null ],
+    [ "Polyline", "structMR_1_1Polyline.html#a9142ac9cb66c174e62a22937ddb32c24", null ],
+    [ "Polyline", "structMR_1_1Polyline.html#ab6d5abcf7fd7877a16aa2665eee6913e", null ],
     [ "Polyline", "structMR_1_1Polyline.html#aa95a33cc56a264a94edd7ef4c0f833bf", null ],
     [ "addFromEdgePath", "structMR_1_1Polyline.html#a21cfd60868c3fbabcfda71008f98cfa1", null ],
     [ "addFromGeneralSurfacePath", "structMR_1_1Polyline.html#af26b4e6a0cf3287f52bdf51f2eeebd02", null ],
@@ -13,7 +13,6 @@ var structMR_1_1Polyline =
     [ "addPartByMask", "structMR_1_1Polyline.html#a3c415d06f60c7ddc956d9c1f5b4b9609", null ],
     [ "computeBoundingBox", "structMR_1_1Polyline.html#af1debf021b9bc68d02c2905e0527ab11", null ],
     [ "contours", "structMR_1_1Polyline.html#a91470a70289b04baf4e278a4b7c4702b", null ],
-    [ "contours2", "structMR_1_1Polyline.html#ab5ba9b1bd705b2eee1f6faa6e1a1ab29", null ],
     [ "destPnt", "structMR_1_1Polyline.html#a29635bdcaade26236bf38e9044e1605a", null ],
     [ "edgeCenter", "structMR_1_1Polyline.html#ad1f0b9ea32808bf20f7aa8c85eb62641", null ],
     [ "edgeLength", "structMR_1_1Polyline.html#a2c547895888165d873db848b161cb5c0", null ],

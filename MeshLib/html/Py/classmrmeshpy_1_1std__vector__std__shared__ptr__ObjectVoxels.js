@@ -19,6 +19,7 @@ var classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels =
     [ "append", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#a7d73e527536c2ab375e5c6d2e7c971df", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#a189abf4632531a5ed0483d5a740c6735", null ],
     [ "count", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#a305714fafc0e2c3dec7ba04109c30da5", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#a8a4268042fc409d43315b094c4760c6a", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#ab2e81c05f38851f0c4b2f8ae5bc7bcce", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#a2fc1444728a5acdc333c3877f3a90e83", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#aa513a224c862ff0559f4ef4f0ea50351", null ],

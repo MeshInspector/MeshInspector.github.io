@@ -14,6 +14,7 @@ var classmrmeshpy_1_1std__vector__SomeLocalTriangulations =
     [ "__setitem__", "classmrmeshpy_1_1std__vector__SomeLocalTriangulations.html#a0ed734f2c33d4116ac2dcc735cc20327", null ],
     [ "append", "classmrmeshpy_1_1std__vector__SomeLocalTriangulations.html#a764aedf3031718338f6a937f7067fbeb", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__SomeLocalTriangulations.html#a0aa4503c8c07a0ad07b235f983abc373", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__SomeLocalTriangulations.html#a172985b9e16ebf4273fbb1d2d77db3b0", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__SomeLocalTriangulations.html#a99cae9dc4695c7a670807a1b116ad365", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__SomeLocalTriangulations.html#af922fe362a5edb25895869a1622a96de", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__SomeLocalTriangulations.html#a58bbc4828c633f08f6f83cd3725c6fd3", null ],

@@ -3,8 +3,7 @@ var classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId =
     [ "__init__", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#aa8b9ba3ae514060ce829e89ba11fe8f4", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#ae7aabddef58c7f16ea76fe0b99784e6e", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#a8a5887a2dd9211e31687e9ed55432fae", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#a178fafaee1dcca4154ae3ae83804b5ec", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#a207bffe09246f61725337f6faac7f016", null ],
+    [ "__init__", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#ad423406a4e31b03069e5cca375ec17ec", null ],
     [ "__eq__", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#ac330be2ba998b4d18f85e8bcc3ea3abd", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#a76d7860db32b2d7e9bf8fdcc6855298c", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#a76d7860db32b2d7e9bf8fdcc6855298c", null ],
@@ -38,6 +37,6 @@ var classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId =
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#ad636d35d6dcf470ffd10e861747ef8bb", null ],
     [ "size", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#a03c0006c3df6f2d3cb1fe67c49d357d8", null ],
     [ "swap", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#ad4d23d373a52c5be1ff3227f416f8010", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#a7d5c8c92704946fe12f5dc9de3590cd3", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#ad02b50f677fa1d1a27cca5722374f84c", null ]
+    [ "vec_", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#ae3b5d470e870ed7cd84790844c0f4f47", null ],
+    [ "vec_", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#a25b968a590d8397d220ce205d73e4d53", null ]
 ];

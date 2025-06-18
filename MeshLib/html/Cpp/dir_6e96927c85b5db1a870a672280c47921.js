@@ -45,6 +45,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRMeshBoundarySelectionWidget.h", "MRMeshBoundarySelectionWidget_8h.html", "MRMeshBoundarySelectionWidget_8h" ],
     [ "MRMeshModifier.h", "MRMeshModifier_8h.html", "MRMeshModifier_8h" ],
     [ "MRMeshShader.h", "MRMeshShader_8h.html", "MRMeshShader_8h" ],
+    [ "MRModalDialog.h", "MRModalDialog_8h.html", "MRModalDialog_8h" ],
     [ "MRMouse.h", "MRMouse_8h.html", "MRMouse_8h" ],
     [ "MRMouseController.h", "MRMouseController_8h.html", "MRMouseController_8h" ],
     [ "MRMoveObjectByMouseImpl.h", "MRMoveObjectByMouseImpl_8h.html", "MRMoveObjectByMouseImpl_8h" ],

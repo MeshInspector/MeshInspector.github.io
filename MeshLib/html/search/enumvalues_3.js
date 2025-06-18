@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fastmarching_0',['FastMarching',['.././Cpp/group__SurfacePathSubgroup.html#ga0d52c069a53aab9d22c0f2c4e3f262a2aa379190d516779f65bad72b240e81435',1,'MR::FastMarching'],['.././Cpp/group__SurfacePathSubgroup.html#ga0d52c069a53aab9d22c0f2c4e3f262a2aa379190d516779f65bad72b240e81435',1,'MR::FastMarching']]]
+  ['gorge_0',['Gorge',['.././Cpp/group__SurfacePathSubgroup.html#ga3887057b7aa95d9993b5ce57130c25a6a90290d32b4deae8703b07bfcd17af5a4',1,'MR::Gorge'],['.././Cpp/group__SurfacePathSubgroup.html#ga3887057b7aa95d9993b5ce57130c25a6a90290d32b4deae8703b07bfcd17af5a4',1,'MR::Gorge']]]
 ];

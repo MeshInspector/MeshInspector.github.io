@@ -45,6 +45,8 @@ var MRRibbonConstants_8h =
     [ "cTabMinimumWidth", "MRRibbonConstants_8h.html#a429a2293457b924cb7dab5ba802389d2", null ],
     [ "cTabsInterval", "MRRibbonConstants_8h.html#a8978f98278703c8b2857a9c3a0c5b17d", null ],
     [ "cTabYOffset", "MRRibbonConstants_8h.html#a6f5560d361aaab79fc35a8418362345d", null ],
+    [ "cTextFramePadding", "MRRibbonConstants_8h.html#a6dc9ff820b38609f4fad5d7b50b2da59", null ],
+    [ "cTextFrameRounding", "MRRibbonConstants_8h.html#a483f138c30daa1fe0e5686bf554e2915", null ],
     [ "cTopPanelAditionalButtonSize", "MRRibbonConstants_8h.html#a24400b0c1a9e56cafb8abf4c9725633d", null ],
     [ "cTopPanelScrollBtnSize", "MRRibbonConstants_8h.html#a2fbf8a5ae5179bb822e29a7c5966fdd0", null ],
     [ "cTopPanelScrollStep", "MRRibbonConstants_8h.html#a1cb547836ab1506cf81cab06b24a9532", null ],

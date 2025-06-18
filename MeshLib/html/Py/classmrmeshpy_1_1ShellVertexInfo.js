@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1ShellVertexInfo =
 [
     [ "__init__", "classmrmeshpy_1_1ShellVertexInfo.html#aa6f3b79ef58e520ec73e91a5281dd87a", null ],
-    [ "__init__", "classmrmeshpy_1_1ShellVertexInfo.html#a0a240e1e487b84daf187c42c80eb0cdd", null ],
     [ "__init__", "classmrmeshpy_1_1ShellVertexInfo.html#aa3ebb7ba92b1824fc34103cdb66dc649", null ],
     [ "inRange", "classmrmeshpy_1_1ShellVertexInfo.html#a762bc455398b2eae6578c17cde345bec", null ],
     [ "inRange", "classmrmeshpy_1_1ShellVertexInfo.html#aca43c354a8cde25e1419d1119e499573", null ],

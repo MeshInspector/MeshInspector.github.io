@@ -14,6 +14,7 @@ var classmrmeshpy_1_1std__vector__MeshOrPointsXf =
     [ "__setitem__", "classmrmeshpy_1_1std__vector__MeshOrPointsXf.html#a31f72651c345196d4c1b31bce6f9a8b9", null ],
     [ "append", "classmrmeshpy_1_1std__vector__MeshOrPointsXf.html#a96687a01582f242c38ce9d2c3cba407b", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__MeshOrPointsXf.html#a96adf535bbf0a329cfaad3b98ee97518", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__MeshOrPointsXf.html#ae940a4df6a261e9bac8aef5edc4976af", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__MeshOrPointsXf.html#a1d33ba2652235f432363deff2635d29e", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__MeshOrPointsXf.html#a52ce54ab3eccdcc35986c9f1069e856d", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__MeshOrPointsXf.html#a50755e80932a0dccc4dc7fcfb316b167", null ],

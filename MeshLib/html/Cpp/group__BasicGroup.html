@@ -180,8 +180,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1BitSet.html">MR::BitSet</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">container of bits  <a href="classMR_1_1BitSet.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1TaggedBitSet.html">MR::TaggedBitSet&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">container of bits representing specific indices (faces, verts or edges)  <a href="classMR_1_1TaggedBitSet.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1TypedBitSet.html">MR::TypedBitSet&lt; I &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">container of bits representing specific indices (faces, verts or edges)  <a href="classMR_1_1TypedBitSet.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SetBitIteratorT.html">MR::SetBitIteratorT&lt; T &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">iterator to enumerate all indices with set bits in <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> class or its derivatives  <a href="classMR_1_1SetBitIteratorT.html#details">More...</a><br /></td></tr>
@@ -212,7 +212,7 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ThreadRootTimeRecord.html">MR::ThreadRootTimeRecord</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UnionFind.html">MR::UnionFind&lt; I &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple union find data structure.  <a href="classMR_1_1UnionFind.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Union-find data structure for representing disjoin sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set's element.  <a href="classMR_1_1UnionFind.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Vector.html">MR::Vector&lt; T, I &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <a href="classMR_1_1Vector.html#details">More...</a><br /></td></tr>
@@ -220,28 +220,31 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:gacfd51356fbcb71948b1ef3f058ac75c7" id="r_gacfd51356fbcb71948b1ef3f058ac75c7"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacfd51356fbcb71948b1ef3f058ac75c7">MR::heapBytes</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;bs)</td></tr>
+<tr class="memdesc:gacfd51356fbcb71948b1ef3f058ac75c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory given <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> occupies on heap  <br /></td></tr>
+<tr class="separator:gacfd51356fbcb71948b1ef3f058ac75c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga300a438da6440ee7d2e92933bcfa6018" id="r_ga300a438da6440ee7d2e92933bcfa6018"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga300a438da6440ee7d2e92933bcfa6018">MR::operator==</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;a, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;b)</td></tr>
 <tr class="memdesc:ga300a438da6440ee7d2e92933bcfa6018"><td class="mdescLeft">&#160;</td><td class="mdescRight">compare that two bit sets have the same set bits (they can be equal even if sizes are distinct but last bits are off)  <br /></td></tr>
 <tr class="separator:ga300a438da6440ee7d2e92933bcfa6018"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3cb32d170d480a2efd86849814c074fb" id="r_ga3cb32d170d480a2efd86849814c074fb"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga3cb32d170d480a2efd86849814c074fb"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga3cb32d170d480a2efd86849814c074fb">MR::operator==</a> (const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;a, const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;b)</td></tr>
-<tr class="separator:ga3cb32d170d480a2efd86849814c074fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1098f1bd4059de8fc518f620c7e556a7" id="r_ga1098f1bd4059de8fc518f620c7e556a7"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U &gt; </td></tr>
-<tr class="memitem:ga1098f1bd4059de8fc518f620c7e556a7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga1098f1bd4059de8fc518f620c7e556a7">MR::operator==</a> (const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;a, const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; U &gt; &amp;b)=delete</td></tr>
-<tr class="memdesc:ga1098f1bd4059de8fc518f620c7e556a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">prohibit comparison of unrelated sets  <br /></td></tr>
-<tr class="separator:ga1098f1bd4059de8fc518f620c7e556a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga88c10cdc1bac1ea496801bc6381969da" id="r_ga88c10cdc1bac1ea496801bc6381969da"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga88c10cdc1bac1ea496801bc6381969da"><td class="memTemplItemLeft" align="right" valign="top">std::function&lt; bool(<a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;)&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga88c10cdc1bac1ea496801bc6381969da">MR::makePredicate</a> (const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; *bitset)</td></tr>
-<tr class="separator:ga88c10cdc1bac1ea496801bc6381969da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5cf6c8bfca2b46c09c612ee5beff6772" id="r_ga5cf6c8bfca2b46c09c612ee5beff6772"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga5cf6c8bfca2b46c09c612ee5beff6772"><td class="memTemplItemLeft" align="right" valign="top">std::function&lt; bool(<a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;)&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga5cf6c8bfca2b46c09c612ee5beff6772">MR::makePredicate</a> (const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;bitset)</td></tr>
-<tr class="separator:ga5cf6c8bfca2b46c09c612ee5beff6772"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf22d770b767eff4d37bc4be52ef5032f" id="r_gaf22d770b767eff4d37bc4be52ef5032f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gaf22d770b767eff4d37bc4be52ef5032f"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gaf22d770b767eff4d37bc4be52ef5032f">MR::contains</a> (const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; *bitset, <a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt; id)</td></tr>
-<tr class="separator:gaf22d770b767eff4d37bc4be52ef5032f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaae680d00c7b1337cc8ad166eb5089694" id="r_gaae680d00c7b1337cc8ad166eb5089694"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gaae680d00c7b1337cc8ad166eb5089694"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gaae680d00c7b1337cc8ad166eb5089694">MR::contains</a> (const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;bitset, <a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt; id)</td></tr>
-<tr class="separator:gaae680d00c7b1337cc8ad166eb5089694"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6eb99174c3e76c7cef9281244bb0352b" id="r_ga6eb99174c3e76c7cef9281244bb0352b"><td class="memTemplParams" colspan="2">template&lt;typename I &gt; </td></tr>
+<tr class="memitem:ga6eb99174c3e76c7cef9281244bb0352b"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga6eb99174c3e76c7cef9281244bb0352b">MR::operator==</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;a, const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;b)</td></tr>
+<tr class="separator:ga6eb99174c3e76c7cef9281244bb0352b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4369afee04806dc72d3e0bca2ddaa0ec" id="r_ga4369afee04806dc72d3e0bca2ddaa0ec"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U &gt; </td></tr>
+<tr class="memitem:ga4369afee04806dc72d3e0bca2ddaa0ec"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga4369afee04806dc72d3e0bca2ddaa0ec">MR::operator==</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; T &gt; &amp;a, const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; U &gt; &amp;b)=delete</td></tr>
+<tr class="memdesc:ga4369afee04806dc72d3e0bca2ddaa0ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">prohibit comparison of unrelated sets  <br /></td></tr>
+<tr class="separator:ga4369afee04806dc72d3e0bca2ddaa0ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaca9e6bd2b2457e272996c41e32320995" id="r_gaca9e6bd2b2457e272996c41e32320995"><td class="memTemplParams" colspan="2">template&lt;typename I &gt; </td></tr>
+<tr class="memitem:gaca9e6bd2b2457e272996c41e32320995"><td class="memTemplItemLeft" align="right" valign="top">std::function&lt; bool(I)&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gaca9e6bd2b2457e272996c41e32320995">MR::makePredicate</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; *bitset)</td></tr>
+<tr class="separator:gaca9e6bd2b2457e272996c41e32320995"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3057a729a683a6a8a6b4f097a0094d58" id="r_ga3057a729a683a6a8a6b4f097a0094d58"><td class="memTemplParams" colspan="2">template&lt;typename I &gt; </td></tr>
+<tr class="memitem:ga3057a729a683a6a8a6b4f097a0094d58"><td class="memTemplItemLeft" align="right" valign="top">std::function&lt; bool(I)&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga3057a729a683a6a8a6b4f097a0094d58">MR::makePredicate</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;bitset)</td></tr>
+<tr class="separator:ga3057a729a683a6a8a6b4f097a0094d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga84d3ef89997a21c7e28a95f9888e3a2e" id="r_ga84d3ef89997a21c7e28a95f9888e3a2e"><td class="memTemplParams" colspan="2">template&lt;typename I &gt; </td></tr>
+<tr class="memitem:ga84d3ef89997a21c7e28a95f9888e3a2e"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga84d3ef89997a21c7e28a95f9888e3a2e">MR::contains</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; *bitset, I id)</td></tr>
+<tr class="separator:ga84d3ef89997a21c7e28a95f9888e3a2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga57dc941dcc422cae832eb4e285f9258b" id="r_ga57dc941dcc422cae832eb4e285f9258b"><td class="memTemplParams" colspan="2">template&lt;typename I &gt; </td></tr>
+<tr class="memitem:ga57dc941dcc422cae832eb4e285f9258b"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga57dc941dcc422cae832eb4e285f9258b">MR::contains</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;bitset, I id)</td></tr>
+<tr class="separator:ga57dc941dcc422cae832eb4e285f9258b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab1290f2c9416eead9ca4bd34c5ab9415" id="r_gab1290f2c9416eead9ca4bd34c5ab9415"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gab1290f2c9416eead9ca4bd34c5ab9415"><td class="memTemplItemLeft" align="right" valign="top">MR_BIND_IGNORE bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gab1290f2c9416eead9ca4bd34c5ab9415">MR::operator==</a> (const <a class="el" href="classMR_1_1SetBitIteratorT.html">SetBitIteratorT</a>&lt; T &gt; &amp;a, const <a class="el" href="classMR_1_1SetBitIteratorT.html">SetBitIteratorT</a>&lt; T &gt; &amp;b)</td></tr>
 <tr class="separator:gab1290f2c9416eead9ca4bd34c5ab9415"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -252,20 +255,20 @@ Functions</h2></td></tr>
 <tr class="separator:ga130a7b2de56f57ba4b13111c6e3a31ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab900ba901f90bfe11c4580814af4fbf6" id="r_gab900ba901f90bfe11c4580814af4fbf6"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab900ba901f90bfe11c4580814af4fbf6">MR::end</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;)</td></tr>
 <tr class="separator:gab900ba901f90bfe11c4580814af4fbf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3d1a4311a2a0356120a4ae85017780f3" id="r_ga3d1a4311a2a0356120a4ae85017780f3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga3d1a4311a2a0356120a4ae85017780f3"><td class="memTemplItemLeft" align="right" valign="top">MR_BIND_IGNORE auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga3d1a4311a2a0356120a4ae85017780f3">MR::begin</a> (const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;a)</td></tr>
-<tr class="separator:ga3d1a4311a2a0356120a4ae85017780f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga324a24cbdfc8dd3d2dd2bc00954e9498" id="r_ga324a24cbdfc8dd3d2dd2bc00954e9498"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga324a24cbdfc8dd3d2dd2bc00954e9498"><td class="memTemplItemLeft" align="right" valign="top">MR_BIND_IGNORE auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga324a24cbdfc8dd3d2dd2bc00954e9498">MR::end</a> (const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;)</td></tr>
-<tr class="separator:ga324a24cbdfc8dd3d2dd2bc00954e9498"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8b847c813a39d58ea927b252971f751a" id="r_ga8b847c813a39d58ea927b252971f751a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga8b847c813a39d58ea927b252971f751a"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; int, <a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga8b847c813a39d58ea927b252971f751a">MR::makeVectorWithSeqNums</a> (const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;bs)</td></tr>
-<tr class="memdesc:ga8b847c813a39d58ea927b252971f751a"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="classMR_1_1Vector.html" title="std::vector&lt;T&gt;-like container that requires specific indexing type,">Vector</a> where for each set bit of input bitset its sequential number starting from 0 is returned; and -1 for reset bits  <br /></td></tr>
-<tr class="separator:ga8b847c813a39d58ea927b252971f751a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf73163bc53d0376fa656a61ca0d56cd2" id="r_gaf73163bc53d0376fa656a61ca0d56cd2"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gaf73163bc53d0376fa656a61ca0d56cd2"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#af8ad9e1b05a45987a3075d43bf345d68">HashMap</a>&lt; <a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;, int &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gaf73163bc53d0376fa656a61ca0d56cd2">MR::makeHashMapWithSeqNums</a> (const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;bs)</td></tr>
-<tr class="memdesc:gaf73163bc53d0376fa656a61ca0d56cd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a HashMap where for each set bit of input bitset its sequential number starting from 0 is returned  <br /></td></tr>
-<tr class="separator:gaf73163bc53d0376fa656a61ca0d56cd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa18932ce3c14764452a025ca4b3433d1" id="r_gaa18932ce3c14764452a025ca4b3433d1"><td class="memTemplParams" colspan="2">template&lt;typename I &gt; </td></tr>
+<tr class="memitem:gaa18932ce3c14764452a025ca4b3433d1"><td class="memTemplItemLeft" align="right" valign="top">MR_BIND_IGNORE auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gaa18932ce3c14764452a025ca4b3433d1">MR::begin</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;a)</td></tr>
+<tr class="separator:gaa18932ce3c14764452a025ca4b3433d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1af2238409a220061dc07d5c4466558b" id="r_ga1af2238409a220061dc07d5c4466558b"><td class="memTemplParams" colspan="2">template&lt;typename I &gt; </td></tr>
+<tr class="memitem:ga1af2238409a220061dc07d5c4466558b"><td class="memTemplItemLeft" align="right" valign="top">MR_BIND_IGNORE auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga1af2238409a220061dc07d5c4466558b">MR::end</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;)</td></tr>
+<tr class="separator:ga1af2238409a220061dc07d5c4466558b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga68d5cff879ff5d9d841c1ecebfb71ed1" id="r_ga68d5cff879ff5d9d841c1ecebfb71ed1"><td class="memTemplParams" colspan="2">template&lt;typename I &gt; </td></tr>
+<tr class="memitem:ga68d5cff879ff5d9d841c1ecebfb71ed1"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; int, I &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga68d5cff879ff5d9d841c1ecebfb71ed1">MR::makeVectorWithSeqNums</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;bs)</td></tr>
+<tr class="memdesc:ga68d5cff879ff5d9d841c1ecebfb71ed1"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="classMR_1_1Vector.html" title="std::vector&lt;T&gt;-like container that requires specific indexing type,">Vector</a> where for each set bit of input bitset its sequential number starting from 0 is returned; and -1 for reset bits  <br /></td></tr>
+<tr class="separator:ga68d5cff879ff5d9d841c1ecebfb71ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2637b6b01910fbe8294a9f26f472f35f" id="r_ga2637b6b01910fbe8294a9f26f472f35f"><td class="memTemplParams" colspan="2">template&lt;typename I &gt; </td></tr>
+<tr class="memitem:ga2637b6b01910fbe8294a9f26f472f35f"><td class="memTemplItemLeft" align="right" valign="top"><a class="elRef" href="../namespaceMR.html#af8ad9e1b05a45987a3075d43bf345d68">HashMap</a>&lt; I, int &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga2637b6b01910fbe8294a9f26f472f35f">MR::makeHashMapWithSeqNums</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;bs)</td></tr>
+<tr class="memdesc:ga2637b6b01910fbe8294a9f26f472f35f"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a HashMap where for each set bit of input bitset its sequential number starting from 0 is returned  <br /></td></tr>
+<tr class="separator:ga2637b6b01910fbe8294a9f26f472f35f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4383c7ccfb257c9434fe3e9e0b59a27b" id="r_ga4383c7ccfb257c9434fe3e9e0b59a27b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4383c7ccfb257c9434fe3e9e0b59a27b">MR::operator&amp;</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;a, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;b)</td></tr>
 <tr class="separator:ga4383c7ccfb257c9434fe3e9e0b59a27b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8e5910c21dd8d185e8c21a9691826314" id="r_ga8e5910c21dd8d185e8c21a9691826314"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8e5910c21dd8d185e8c21a9691826314">MR::operator|</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;a, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;b)</td></tr>
@@ -315,17 +318,17 @@ Functions</h2></td></tr>
 <tr class="memitem:ga95720533ccaf5f5aa42fbabee1ce7067"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga95720533ccaf5f5aa42fbabee1ce7067">MR::heapBytes</a> (const phmap::flat_hash_map&lt; Ts... &gt; &amp;hashMap)</td></tr>
 <tr class="memdesc:ga95720533ccaf5f5aa42fbabee1ce7067"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory given HashMap occupies on heap  <br /></td></tr>
 <tr class="separator:ga95720533ccaf5f5aa42fbabee1ce7067"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacebe01b37f86a061aec73665e5458155" id="r_gacebe01b37f86a061aec73665e5458155"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> , typename ... F&gt; </td></tr>
-<tr class="memitem:gacebe01b37f86a061aec73665e5458155"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gacebe01b37f86a061aec73665e5458155">MR::ParallelFor</a> (<a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> <a class="el" href="#ga130a7b2de56f57ba4b13111c6e3a31ef">begin</a>, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> <a class="el" href="#gab900ba901f90bfe11c4580814af4fbf6">end</a>, F &amp;&amp;... f)</td></tr>
+<tr class="memitem:gacebe01b37f86a061aec73665e5458155" id="r_gacebe01b37f86a061aec73665e5458155"><td class="memTemplParams" colspan="2">template&lt;typename I , typename ... F&gt; </td></tr>
+<tr class="memitem:gacebe01b37f86a061aec73665e5458155"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gacebe01b37f86a061aec73665e5458155">MR::ParallelFor</a> (I <a class="el" href="#ga130a7b2de56f57ba4b13111c6e3a31ef">begin</a>, I <a class="el" href="#gab900ba901f90bfe11c4580814af4fbf6">end</a>, F &amp;&amp;... f)</td></tr>
 <tr class="separator:gacebe01b37f86a061aec73665e5458155"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9ad21bab650271b14fe5e8c2c5eb6d5b" id="r_ga9ad21bab650271b14fe5e8c2c5eb6d5b"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> , typename L , typename ... F&gt; </td></tr>
-<tr class="memitem:ga9ad21bab650271b14fe5e8c2c5eb6d5b"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga9ad21bab650271b14fe5e8c2c5eb6d5b">MR::ParallelFor</a> (<a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> <a class="el" href="#ga130a7b2de56f57ba4b13111c6e3a31ef">begin</a>, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> <a class="el" href="#gab900ba901f90bfe11c4580814af4fbf6">end</a>, tbb::enumerable_thread_specific&lt; L &gt; &amp;e, F &amp;&amp;... f)</td></tr>
+<tr class="memitem:ga9ad21bab650271b14fe5e8c2c5eb6d5b" id="r_ga9ad21bab650271b14fe5e8c2c5eb6d5b"><td class="memTemplParams" colspan="2">template&lt;typename I , typename L , typename ... F&gt; </td></tr>
+<tr class="memitem:ga9ad21bab650271b14fe5e8c2c5eb6d5b"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga9ad21bab650271b14fe5e8c2c5eb6d5b">MR::ParallelFor</a> (I <a class="el" href="#ga130a7b2de56f57ba4b13111c6e3a31ef">begin</a>, I <a class="el" href="#gab900ba901f90bfe11c4580814af4fbf6">end</a>, tbb::enumerable_thread_specific&lt; L &gt; &amp;e, F &amp;&amp;... f)</td></tr>
 <tr class="separator:ga9ad21bab650271b14fe5e8c2c5eb6d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga97e8749c8a61bfc6c81edcebdcebbdd6" id="r_ga97e8749c8a61bfc6c81edcebdcebbdd6"><td class="memTemplParams" colspan="2">template&lt;typename T , typename ... F&gt; </td></tr>
 <tr class="memitem:ga97e8749c8a61bfc6c81edcebdcebbdd6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga97e8749c8a61bfc6c81edcebdcebbdd6">MR::ParallelFor</a> (const std::vector&lt; T &gt; &amp;v, F &amp;&amp;... f)</td></tr>
 <tr class="separator:ga97e8749c8a61bfc6c81edcebdcebbdd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga465ce65b82d1fa8749312b1b6de8ede6" id="r_ga465ce65b82d1fa8749312b1b6de8ede6"><td class="memTemplParams" colspan="2">template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> , typename ... F&gt; </td></tr>
-<tr class="memitem:ga465ce65b82d1fa8749312b1b6de8ede6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga465ce65b82d1fa8749312b1b6de8ede6">MR::ParallelFor</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; &amp;v, F &amp;&amp;... f)</td></tr>
+<tr class="memitem:ga465ce65b82d1fa8749312b1b6de8ede6" id="r_ga465ce65b82d1fa8749312b1b6de8ede6"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I , typename ... F&gt; </td></tr>
+<tr class="memitem:ga465ce65b82d1fa8749312b1b6de8ede6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga465ce65b82d1fa8749312b1b6de8ede6">MR::ParallelFor</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;v, F &amp;&amp;... f)</td></tr>
 <tr class="separator:ga465ce65b82d1fa8749312b1b6de8ede6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4accadafe09c169e3742b72d1e5e5733" id="r_ga4accadafe09c169e3742b72d1e5e5733"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4accadafe09c169e3742b72d1e5e5733">MR::vertMapsComposition</a> (VertMap &amp;a2b, const VertMap &amp;b2c)</td></tr>
 <tr class="memdesc:ga4accadafe09c169e3742b72d1e5e5733"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates a2b map to a2c map using b2c map  <br /></td></tr>
@@ -392,12 +395,12 @@ Functions</h2></td></tr>
 <tr class="memitem:gad352239f809241e329ff312b293854bd" id="r_gad352239f809241e329ff312b293854bd"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad352239f809241e329ff312b293854bd">MR::unregisterThreadRootTimeRecord</a> (<a class="el" href="structMR_1_1ThreadRootTimeRecord.html">ThreadRootTimeRecord</a> &amp;root)</td></tr>
 <tr class="memdesc:gad352239f809241e329ff312b293854bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">un-installs given record in the current thread  <br /></td></tr>
 <tr class="separator:gad352239f809241e329ff312b293854bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa4bfd91f5deea86ed182d80b926a7d67" id="r_gaa4bfd91f5deea86ed182d80b926a7d67"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; </td></tr>
-<tr class="memitem:gaa4bfd91f5deea86ed182d80b926a7d67"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gaa4bfd91f5deea86ed182d80b926a7d67">MR::TaggedBitSet&lt; T &gt;::getMapping</a> (const <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &amp;map) const</td></tr>
-<tr class="separator:gaa4bfd91f5deea86ed182d80b926a7d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga83b6dafddf5dba83e0a3bda7fb69c98c" id="r_ga83b6dafddf5dba83e0a3bda7fb69c98c"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; </td></tr>
-<tr class="memitem:ga83b6dafddf5dba83e0a3bda7fb69c98c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga83b6dafddf5dba83e0a3bda7fb69c98c">MR::TaggedBitSet&lt; T &gt;::getMapping</a> (const <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &amp;map, size_t resSize) const</td></tr>
-<tr class="separator:ga83b6dafddf5dba83e0a3bda7fb69c98c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabefbd707048572a74df60a453534dbab" id="r_gabefbd707048572a74df60a453534dbab"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; </td></tr>
+<tr class="memitem:gabefbd707048572a74df60a453534dbab"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gabefbd707048572a74df60a453534dbab">MR::TypedBitSet&lt; I &gt;::getMapping</a> (const <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &amp;map) const</td></tr>
+<tr class="separator:gabefbd707048572a74df60a453534dbab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga37348afa24bcbc43d3a71e35e02267d6" id="r_ga37348afa24bcbc43d3a71e35e02267d6"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; </td></tr>
+<tr class="memitem:ga37348afa24bcbc43d3a71e35e02267d6"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga37348afa24bcbc43d3a71e35e02267d6">MR::TypedBitSet&lt; I &gt;::getMapping</a> (const <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &amp;map, size_t resSize) const</td></tr>
+<tr class="separator:ga37348afa24bcbc43d3a71e35e02267d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga484758be506c83b8a42bbb37f7761507" id="r_ga484758be506c83b8a42bbb37f7761507"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga484758be506c83b8a42bbb37f7761507">MR::Heap&lt; T, I, P &gt;::Heap</a> (size_t <a class="el" href="classMR_1_1Heap.html#a516d00eb9620f9cdb1f5c43c0810f744">size</a>, T def={}, P pred={})</td></tr>
 <tr class="memdesc:ga484758be506c83b8a42bbb37f7761507"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs heap for given number of elements, assigning given default value to each element  <br /></td></tr>
 <tr class="separator:ga484758be506c83b8a42bbb37f7761507"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -407,13 +410,13 @@ Functions</h2></td></tr>
 <tr class="memitem:ga1850d4188a12bb75802dc364f7309bd6" id="r_ga1850d4188a12bb75802dc364f7309bd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1850d4188a12bb75802dc364f7309bd6">MR::Heap&lt; T, I, P &gt;::resize</a> (size_t <a class="el" href="classMR_1_1Heap.html#a516d00eb9620f9cdb1f5c43c0810f744">size</a>, T def={})</td></tr>
 <tr class="memdesc:ga1850d4188a12bb75802dc364f7309bd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">increases the size of the heap by adding elements at the end  <br /></td></tr>
 <tr class="separator:ga1850d4188a12bb75802dc364f7309bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4dedcc9253b2c45a7d8a9417d1c19362" id="r_ga4dedcc9253b2c45a7d8a9417d1c19362"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4dedcc9253b2c45a7d8a9417d1c19362">MR::Heap&lt; T, I, P &gt;::setValue</a> (<a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> elemId, const T &amp;newVal)</td></tr>
+<tr class="memitem:ga4dedcc9253b2c45a7d8a9417d1c19362" id="r_ga4dedcc9253b2c45a7d8a9417d1c19362"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4dedcc9253b2c45a7d8a9417d1c19362">MR::Heap&lt; T, I, P &gt;::setValue</a> (I elemId, const T &amp;newVal)</td></tr>
 <tr class="memdesc:ga4dedcc9253b2c45a7d8a9417d1c19362"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets new value to given element  <br /></td></tr>
 <tr class="separator:ga4dedcc9253b2c45a7d8a9417d1c19362"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga967a46dde0718e3a1b167f25dfc62251" id="r_ga967a46dde0718e3a1b167f25dfc62251"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga967a46dde0718e3a1b167f25dfc62251">MR::Heap&lt; T, I, P &gt;::setLargerValue</a> (<a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> elemId, const T &amp;newVal)</td></tr>
+<tr class="memitem:ga967a46dde0718e3a1b167f25dfc62251" id="r_ga967a46dde0718e3a1b167f25dfc62251"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga967a46dde0718e3a1b167f25dfc62251">MR::Heap&lt; T, I, P &gt;::setLargerValue</a> (I elemId, const T &amp;newVal)</td></tr>
 <tr class="memdesc:ga967a46dde0718e3a1b167f25dfc62251"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets new value to given element, which shall be larger/smaller than the current value  <br /></td></tr>
 <tr class="separator:ga967a46dde0718e3a1b167f25dfc62251"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8b871063e6c314fad7809432d2f74b64" id="r_ga8b871063e6c314fad7809432d2f74b64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8b871063e6c314fad7809432d2f74b64">MR::Heap&lt; T, I, P &gt;::setSmallerValue</a> (<a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> elemId, const T &amp;newVal)</td></tr>
+<tr class="memitem:ga8b871063e6c314fad7809432d2f74b64" id="r_ga8b871063e6c314fad7809432d2f74b64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8b871063e6c314fad7809432d2f74b64">MR::Heap&lt; T, I, P &gt;::setSmallerValue</a> (I elemId, const T &amp;newVal)</td></tr>
 <tr class="separator:ga8b871063e6c314fad7809432d2f74b64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -544,13 +547,13 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ga3d1a4311a2a0356120a4ae85017780f3" name="ga3d1a4311a2a0356120a4ae85017780f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3d1a4311a2a0356120a4ae85017780f3">&#9670;&#160;</a></span>begin() <span class="overload">[2/2]</span></h2>
+<a id="gaa18932ce3c14764452a025ca4b3433d1" name="gaa18932ce3c14764452a025ca4b3433d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa18932ce3c14764452a025ca4b3433d1">&#9670;&#160;</a></span>begin() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename I &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -558,7 +561,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">MR_BIND_IGNORE auto MR::begin </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -843,13 +846,13 @@ template&lt;typename BS , typename L , typename ... F&gt; </div>
 
 </div>
 </div>
-<a id="gaae680d00c7b1337cc8ad166eb5089694" name="gaae680d00c7b1337cc8ad166eb5089694"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaae680d00c7b1337cc8ad166eb5089694">&#9670;&#160;</a></span>contains() <span class="overload">[1/2]</span></h2>
+<a id="ga57dc941dcc422cae832eb4e285f9258b" name="ga57dc941dcc422cae832eb4e285f9258b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga57dc941dcc422cae832eb4e285f9258b">&#9670;&#160;</a></span>contains() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename I &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -857,12 +860,12 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">bool MR::contains </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>bitset</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>bitset</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
+          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -874,13 +877,13 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="gaf22d770b767eff4d37bc4be52ef5032f" name="gaf22d770b767eff4d37bc4be52ef5032f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf22d770b767eff4d37bc4be52ef5032f">&#9670;&#160;</a></span>contains() <span class="overload">[2/2]</span></h2>
+<a id="ga84d3ef89997a21c7e28a95f9888e3a2e" name="ga84d3ef89997a21c7e28a95f9888e3a2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga84d3ef89997a21c7e28a95f9888e3a2e">&#9670;&#160;</a></span>contains() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename I &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -888,12 +891,12 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">bool MR::contains </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; *</td>          <td class="paramname"><span class="paramname"><em>bitset</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; *</td>          <td class="paramname"><span class="paramname"><em>bitset</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
+          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -984,13 +987,13 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ga324a24cbdfc8dd3d2dd2bc00954e9498" name="ga324a24cbdfc8dd3d2dd2bc00954e9498"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga324a24cbdfc8dd3d2dd2bc00954e9498">&#9670;&#160;</a></span>end() <span class="overload">[2/2]</span></h2>
+<a id="ga1af2238409a220061dc07d5c4466558b" name="ga1af2238409a220061dc07d5c4466558b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1af2238409a220061dc07d5c4466558b">&#9670;&#160;</a></span>end() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename I &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -998,7 +1001,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">MR_BIND_IGNORE auto MR::end </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1095,13 +1098,13 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="gaa4bfd91f5deea86ed182d80b926a7d67" name="gaa4bfd91f5deea86ed182d80b926a7d67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa4bfd91f5deea86ed182d80b926a7d67">&#9670;&#160;</a></span>getMapping() <span class="overload">[1/2]</span></h2>
+<a id="gabefbd707048572a74df60a453534dbab" name="gabefbd707048572a74df60a453534dbab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabefbd707048572a74df60a453534dbab">&#9670;&#160;</a></span>getMapping() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename I &gt; </div>
 <div class="memtemplate">
 template&lt;typename <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; </div>
 <table class="mlabels">
@@ -1109,7 +1112,7 @@ template&lt;typename <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df5
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; <a class="el" href="classMR_1_1TaggedBitSet.html">MR::TaggedBitSet</a>&lt; T &gt;::getMapping </td>
+          <td class="memname"><a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; <a class="el" href="classMR_1_1TypedBitSet.html">MR::TypedBitSet</a>&lt; I &gt;::getMapping </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>map</em></span></td><td>)</td>
           <td> const</td>
@@ -1124,13 +1127,13 @@ template&lt;typename <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df5
 
 </div>
 </div>
-<a id="ga83b6dafddf5dba83e0a3bda7fb69c98c" name="ga83b6dafddf5dba83e0a3bda7fb69c98c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga83b6dafddf5dba83e0a3bda7fb69c98c">&#9670;&#160;</a></span>getMapping() <span class="overload">[2/2]</span></h2>
+<a id="ga37348afa24bcbc43d3a71e35e02267d6" name="ga37348afa24bcbc43d3a71e35e02267d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga37348afa24bcbc43d3a71e35e02267d6">&#9670;&#160;</a></span>getMapping() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename I &gt; </div>
 <div class="memtemplate">
 template&lt;typename <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; </div>
 <table class="mlabels">
@@ -1138,7 +1141,7 @@ template&lt;typename <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df5
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; <a class="el" href="classMR_1_1TaggedBitSet.html">MR::TaggedBitSet</a>&lt; T &gt;::getMapping </td>
+          <td class="memname"><a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; <a class="el" href="classMR_1_1TypedBitSet.html">MR::TypedBitSet</a>&lt; I &gt;::getMapping </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>map</em></span>, </td>
         </tr>
@@ -1163,13 +1166,13 @@ template&lt;typename <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df5
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> , typename P &gt; </div>
+template&lt;typename T , typename I , typename P &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a>, P &gt;::Heap </td>
+          <td class="memname"><a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, I, P &gt;::Heap </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
         </tr>
@@ -1201,13 +1204,13 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> , typename P &gt; </div>
+template&lt;typename T , typename I , typename P &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a>, P &gt;::Heap </td>
+          <td class="memname"><a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, I, P &gt;::Heap </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1Heap_1_1Element.html">Element</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>elms</em></span>, </td>
         </tr>
@@ -1228,8 +1231,35 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 
 </div>
 </div>
+<a id="gacfd51356fbcb71948b1ef3f058ac75c7" name="gacfd51356fbcb71948b1ef3f058ac75c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacfd51356fbcb71948b1ef3f058ac75c7">&#9670;&#160;</a></span>heapBytes() <span class="overload">[1/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t MR::heapBytes </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the amount of memory given <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> occupies on heap </p>
+
+</div>
+</div>
 <a id="ga95720533ccaf5f5aa42fbabee1ce7067" name="ga95720533ccaf5f5aa42fbabee1ce7067"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga95720533ccaf5f5aa42fbabee1ce7067">&#9670;&#160;</a></span>heapBytes() <span class="overload">[1/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga95720533ccaf5f5aa42fbabee1ce7067">&#9670;&#160;</a></span>heapBytes() <span class="overload">[2/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1258,7 +1288,7 @@ template&lt;typename ... Ts&gt; </div>
 </div>
 </div>
 <a id="ga616873b34fa0db5205d049f845bec044" name="ga616873b34fa0db5205d049f845bec044"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga616873b34fa0db5205d049f845bec044">&#9670;&#160;</a></span>heapBytes() <span class="overload">[2/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga616873b34fa0db5205d049f845bec044">&#9670;&#160;</a></span>heapBytes() <span class="overload">[3/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1287,7 +1317,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="gac4cf85680ec3620cb08726ea6668e99a" name="gac4cf85680ec3620cb08726ea6668e99a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac4cf85680ec3620cb08726ea6668e99a">&#9670;&#160;</a></span>heapBytes() <span class="overload">[3/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac4cf85680ec3620cb08726ea6668e99a">&#9670;&#160;</a></span>heapBytes() <span class="overload">[4/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1316,7 +1346,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="ga6f62a19a1892f63b5d147de8ef2160c0" name="ga6f62a19a1892f63b5d147de8ef2160c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6f62a19a1892f63b5d147de8ef2160c0">&#9670;&#160;</a></span>heapBytes() <span class="overload">[4/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6f62a19a1892f63b5d147de8ef2160c0">&#9670;&#160;</a></span>heapBytes() <span class="overload">[5/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1345,7 +1375,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="ga2442ef2afa7012af6ca21ebcb6604536" name="ga2442ef2afa7012af6ca21ebcb6604536"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2442ef2afa7012af6ca21ebcb6604536">&#9670;&#160;</a></span>heapBytes() <span class="overload">[5/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2442ef2afa7012af6ca21ebcb6604536">&#9670;&#160;</a></span>heapBytes() <span class="overload">[6/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1374,7 +1404,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="ga92b723fb37bb2e5133cba528ecd679e6" name="ga92b723fb37bb2e5133cba528ecd679e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga92b723fb37bb2e5133cba528ecd679e6">&#9670;&#160;</a></span>heapBytes() <span class="overload">[6/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga92b723fb37bb2e5133cba528ecd679e6">&#9670;&#160;</a></span>heapBytes() <span class="overload">[7/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1400,21 +1430,21 @@ template&lt;typename T , typename U &gt; </div>
 
 </div>
 </div>
-<a id="gaf73163bc53d0376fa656a61ca0d56cd2" name="gaf73163bc53d0376fa656a61ca0d56cd2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf73163bc53d0376fa656a61ca0d56cd2">&#9670;&#160;</a></span>makeHashMapWithSeqNums()</h2>
+<a id="ga2637b6b01910fbe8294a9f26f472f35f" name="ga2637b6b01910fbe8294a9f26f472f35f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2637b6b01910fbe8294a9f26f472f35f">&#9670;&#160;</a></span>makeHashMapWithSeqNums()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename I &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#af8ad9e1b05a45987a3075d43bf345d68">HashMap</a>&lt; <a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;, int &gt; MR::makeHashMapWithSeqNums </td>
+          <td class="memname"><a class="elRef" href="../namespaceMR.html#af8ad9e1b05a45987a3075d43bf345d68">HashMap</a>&lt; I, int &gt; MR::makeHashMapWithSeqNums </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1429,21 +1459,21 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ga5cf6c8bfca2b46c09c612ee5beff6772" name="ga5cf6c8bfca2b46c09c612ee5beff6772"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5cf6c8bfca2b46c09c612ee5beff6772">&#9670;&#160;</a></span>makePredicate() <span class="overload">[1/2]</span></h2>
+<a id="ga3057a729a683a6a8a6b4f097a0094d58" name="ga3057a729a683a6a8a6b4f097a0094d58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3057a729a683a6a8a6b4f097a0094d58">&#9670;&#160;</a></span>makePredicate() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename I &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt; bool(<a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;)&gt; MR::makePredicate </td>
+          <td class="memname">std::function&lt; bool(I)&gt; MR::makePredicate </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>bitset</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>bitset</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1456,21 +1486,21 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ga88c10cdc1bac1ea496801bc6381969da" name="ga88c10cdc1bac1ea496801bc6381969da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga88c10cdc1bac1ea496801bc6381969da">&#9670;&#160;</a></span>makePredicate() <span class="overload">[2/2]</span></h2>
+<a id="gaca9e6bd2b2457e272996c41e32320995" name="gaca9e6bd2b2457e272996c41e32320995"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaca9e6bd2b2457e272996c41e32320995">&#9670;&#160;</a></span>makePredicate() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename I &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt; bool(<a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;)&gt; MR::makePredicate </td>
+          <td class="memname">std::function&lt; bool(I)&gt; MR::makePredicate </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; *</td>          <td class="paramname"><span class="paramname"><em>bitset</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; *</td>          <td class="paramname"><span class="paramname"><em>bitset</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1483,21 +1513,21 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ga8b847c813a39d58ea927b252971f751a" name="ga8b847c813a39d58ea927b252971f751a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8b847c813a39d58ea927b252971f751a">&#9670;&#160;</a></span>makeVectorWithSeqNums()</h2>
+<a id="ga68d5cff879ff5d9d841c1ecebfb71ed1" name="ga68d5cff879ff5d9d841c1ecebfb71ed1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga68d5cff879ff5d9d841c1ecebfb71ed1">&#9670;&#160;</a></span>makeVectorWithSeqNums()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename I &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; int, <a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt; &gt; MR::makeVectorWithSeqNums </td>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; int, I &gt; MR::makeVectorWithSeqNums </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1663,13 +1693,13 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ga3cb32d170d480a2efd86849814c074fb" name="ga3cb32d170d480a2efd86849814c074fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3cb32d170d480a2efd86849814c074fb">&#9670;&#160;</a></span>operator==() <span class="overload">[3/4]</span></h2>
+<a id="ga6eb99174c3e76c7cef9281244bb0352b" name="ga6eb99174c3e76c7cef9281244bb0352b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6eb99174c3e76c7cef9281244bb0352b">&#9670;&#160;</a></span>operator==() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename I &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1677,12 +1707,12 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">bool MR::operator== </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1694,8 +1724,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ga1098f1bd4059de8fc518f620c7e556a7" name="ga1098f1bd4059de8fc518f620c7e556a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1098f1bd4059de8fc518f620c7e556a7">&#9670;&#160;</a></span>operator==() <span class="overload">[4/4]</span></h2>
+<a id="ga4369afee04806dc72d3e0bca2ddaa0ec" name="ga4369afee04806dc72d3e0bca2ddaa0ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4369afee04806dc72d3e0bca2ddaa0ec">&#9670;&#160;</a></span>operator==() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1708,12 +1738,12 @@ template&lt;typename T , typename U &gt; </div>
         <tr>
           <td class="memname">void MR::operator== </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1TaggedBitSet.html">TaggedBitSet</a>&lt; U &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; U &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1823,7 +1853,7 @@ template&lt;typename T , typename ... F&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> , typename ... F&gt; </div>
+template&lt;typename T , typename I , typename ... F&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1831,7 +1861,7 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
         <tr>
           <td class="memname">auto MR::ParallelFor </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1855,7 +1885,7 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> , typename ... F&gt; </div>
+template&lt;typename I , typename ... F&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1863,12 +1893,12 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
         <tr>
           <td class="memname">auto MR::ParallelFor </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>begin</em></span>, </td>
+          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>begin</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
+          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1892,7 +1922,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> , typename L , typename ... F&gt; </div>
+template&lt;typename I , typename L , typename ... F&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1900,12 +1930,12 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
         <tr>
           <td class="memname">auto MR::ParallelFor </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>begin</em></span>, </td>
+          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>begin</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
+          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2061,7 +2091,7 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Redirects stdcout stdcerr stdclog to default logger </p><dl class="section note"><dt>Note</dt><dd>do not call this function directly if you use <a class="el" href="namespaceMR.html#a6804a7415d5f018fa64bf1b533af3d4f">MR::setupLoggerByDefault()</a> </dd></dl>
+<p>Redirects stdcout stdcerr stdclog to default logger </p><dl class="section note"><dt>Note</dt><dd>do not call this function directly if you use <a class="elRef" href="../namespaceMR.html#a6804a7415d5f018fa64bf1b533af3d4f">MR::setupLoggerByDefault()</a> </dd></dl>
 
 </div>
 </div>
@@ -2090,10 +2120,10 @@ template&lt;typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dc
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> , typename P &gt; </div>
+template&lt;typename T , typename I , typename P &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a>, P &gt;::resize </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, I, P &gt;::resize </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
         </tr>
@@ -2115,12 +2145,12 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> , typename P &gt; </div>
+template&lt;typename T , typename I , typename P &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a>, P &gt;::setLargerValue </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, I, P &gt;::setLargerValue </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>elemId</em></span>, </td>
+          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>elemId</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2140,12 +2170,12 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> , typename P &gt; </div>
+template&lt;typename T , typename I , typename P &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a>, P &gt;::setSmallerValue </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, I, P &gt;::setSmallerValue </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>elemId</em></span>, </td>
+          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>elemId</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2163,12 +2193,12 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> , typename P &gt; </div>
+template&lt;typename T , typename I , typename P &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a>, P &gt;::setValue </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, I, P &gt;::setValue </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>elemId</em></span>, </td>
+          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>elemId</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

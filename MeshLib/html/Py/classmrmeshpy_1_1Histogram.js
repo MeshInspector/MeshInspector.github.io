@@ -2,7 +2,6 @@ var classmrmeshpy_1_1Histogram =
 [
     [ "__init__", "classmrmeshpy_1_1Histogram.html#aec1797f19ef6beeef0085525ad967ef3", null ],
     [ "__init__", "classmrmeshpy_1_1Histogram.html#a4016e7f424620e6adc361fdb0918efc0", null ],
-    [ "__init__", "classmrmeshpy_1_1Histogram.html#ab248134bbf9f175c896d8c604c3e4e53", null ],
     [ "addHistogram", "classmrmeshpy_1_1Histogram.html#af3fe2bcd9fff2c36db5b84ea3b2fae25", null ],
     [ "addSample", "classmrmeshpy_1_1Histogram.html#a3dec0185df4341fb8641de3d0aa4feb9", null ],
     [ "getBinId", "classmrmeshpy_1_1Histogram.html#ad2b830128b8e35d6cf0fb83ae5313693", null ],

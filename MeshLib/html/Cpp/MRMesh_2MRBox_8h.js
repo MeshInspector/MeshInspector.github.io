@@ -1,6 +1,7 @@
 var MRMesh_2MRBox_8h =
 [
     [ "depth", "MRMesh_2MRBox_8h.html#ga7f9739369c171b50d576ee7cc726996f", null ],
+    [ "findSortedBoxDims", "MRMesh_2MRBox_8h.html#ga38d4182b91d82686467e35af47b71fe0", null ],
     [ "get", "MRMesh_2MRBox_8h.html#ga76c5563a8f378f26e9e7cd06542fc0bf", null ],
     [ "get", "MRMesh_2MRBox_8h.html#ga053696cba1348e4b44c49f0751433c8e", null ],
     [ "getCorners", "MRMesh_2MRBox_8h.html#ga29381aa0a95542624d22842711d672f9", null ],

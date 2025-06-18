@@ -18,6 +18,7 @@ var classmrmeshpy_1_1std__vector__Graph__EndVertices =
     [ "append", "classmrmeshpy_1_1std__vector__Graph__EndVertices.html#a9f2c529c53f6ead948c13de429a067d0", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__Graph__EndVertices.html#a6d9cc639392cdb7ad0d406b6dee21948", null ],
     [ "count", "classmrmeshpy_1_1std__vector__Graph__EndVertices.html#a29dd1fc384730ae85bc9c8b666b57fcc", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__Graph__EndVertices.html#af6fff075af27c182f509bf7bc22cdb5b", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__Graph__EndVertices.html#ae1d67e20dd44637e2be62a8e15552a11", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__Graph__EndVertices.html#ab479f14f85a31cdfdd1a580bd2d2bd39", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__Graph__EndVertices.html#af3d5d7c40d2cd814886716a0a44d9bf6", null ],

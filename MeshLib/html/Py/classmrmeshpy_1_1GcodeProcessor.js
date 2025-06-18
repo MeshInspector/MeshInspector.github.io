@@ -5,7 +5,6 @@ var classmrmeshpy_1_1GcodeProcessor =
     [ "Command", "classmrmeshpy_1_1GcodeProcessor_1_1Command.html", "classmrmeshpy_1_1GcodeProcessor_1_1Command" ],
     [ "MoveAction", "classmrmeshpy_1_1GcodeProcessor_1_1MoveAction.html", "classmrmeshpy_1_1GcodeProcessor_1_1MoveAction" ],
     [ "__init__", "classmrmeshpy_1_1GcodeProcessor.html#ab816e88711e9a634e5cdc3aa2a03cc0e", null ],
-    [ "__init__", "classmrmeshpy_1_1GcodeProcessor.html#a2cd6928176837a56c3cfa5dfb848efad", null ],
     [ "getCNCMachineSettings", "classmrmeshpy_1_1GcodeProcessor.html#accbe507a40401eefa8f347281323a035", null ],
     [ "processLine", "classmrmeshpy_1_1GcodeProcessor.html#a83e62814520b045ad3cb9c0ff2c1fb34", null ],
     [ "processSource", "classmrmeshpy_1_1GcodeProcessor.html#a61060e096102b2eb04bd9c17676c013a", null ],

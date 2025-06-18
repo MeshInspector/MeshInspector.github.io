@@ -14,6 +14,7 @@ var classmrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo =
     [ "__setitem__", "classmrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html#a84edcc5728d5af79028c9b3eba2a5282", null ],
     [ "append", "classmrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html#adf95d99bd00a5e40edd248f8e8e820cc", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html#a54db837f3d82bb30d88725b4ec75a9f2", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html#a230df57456632f165751e75f73c06da1", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html#add45a4f269981d25256c3ae92ef32929", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html#a3b8fcd00cc7e7cd8996c14568d1b180f", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html#a1dfb6bc9bb45814380f002c698074fc8", null ],

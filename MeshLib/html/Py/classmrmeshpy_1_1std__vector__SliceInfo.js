@@ -18,6 +18,7 @@ var classmrmeshpy_1_1std__vector__SliceInfo =
     [ "append", "classmrmeshpy_1_1std__vector__SliceInfo.html#a6052f0643e716b4f88bad135ad3bfc18", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__SliceInfo.html#a54e3d6ade9ed77b43f5ceb985e91bb40", null ],
     [ "count", "classmrmeshpy_1_1std__vector__SliceInfo.html#a68c3ad238572f21a3e16c40c8b496209", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__SliceInfo.html#a4b81e630014654515adf25b8477c2f31", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__SliceInfo.html#a78a84226d8a6761823260e27fc982219", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__SliceInfo.html#a3ae3c5d4582003e303944eea92e91063", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__SliceInfo.html#afd6ba065ad91ae049d6aed19dd68d967", null ],

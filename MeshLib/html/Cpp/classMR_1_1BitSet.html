@@ -173,9 +173,7 @@ $(function(){initNavTree('classMR_1_1BitSet.html',''); initResizable(true); });
  <div class="center">
   <img src="classMR_1_1BitSet.png" usemap="#MR::BitSet_map" alt=""/>
   <map id="MR::BitSet_map" name="MR::BitSet_map">
-<area href="classMR_1_1TaggedBitSet.html" alt="MR::TaggedBitSet&lt; Tag &gt;" shape="rect" coords="0,112,221,136"/>
-<area href="classMR_1_1TaggedBitSet.html" alt="MR::TaggedBitSet&lt; RegionTag &gt;" shape="rect" coords="231,112,452,136"/>
-<area href="classMR_1_1TaggedBitSet.html" title="container of bits representing specific indices (faces, verts or edges)" alt="MR::TaggedBitSet&lt; T &gt;" shape="rect" coords="462,112,683,136"/>
+<area href="classMR_1_1TypedBitSet.html" title="container of bits representing specific indices (faces, verts or edges)" alt="MR::TypedBitSet&lt; I &gt;" shape="rect" coords="0,112,221,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -191,6 +189,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae581135b70066374b248a52f167c4d4c" id="r_ae581135b70066374b248a52f167c4d4c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae581135b70066374b248a52f167c4d4c">BitSet</a> (size_t numBits, bool fillValue)</td></tr>
 <tr class="memdesc:ae581135b70066374b248a52f167c4d4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates bitset of given size filled with given value  <br /></td></tr>
 <tr class="separator:ae581135b70066374b248a52f167c4d4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48f325ee7390807d44715db5a07cf666" id="r_a48f325ee7390807d44715db5a07cf666"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48f325ee7390807d44715db5a07cf666">BitSet</a> (size_t, unsigned long)=delete</td></tr>
+<tr class="memdesc:a48f325ee7390807d44715db5a07cf666"><td class="mdescLeft">&#160;</td><td class="mdescRight">prohibit these constructors inherited from boost::dynamic_bitset, which can initialize only few initial bits  <br /></td></tr>
+<tr class="separator:a48f325ee7390807d44715db5a07cf666"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae117cb7aa7c8793bcc7580ad8de60fee" id="r_ae117cb7aa7c8793bcc7580ad8de60fee"><td class="memTemplParams" colspan="2">template&lt;class T , std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, std::nullptr_t &gt;  = nullptr&gt; </td></tr>
+<tr class="memitem:ae117cb7aa7c8793bcc7580ad8de60fee"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ae117cb7aa7c8793bcc7580ad8de60fee">BitSet</a> (T, T)=delete</td></tr>
+<tr class="separator:ae117cb7aa7c8793bcc7580ad8de60fee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab6d4690169ae21969bc5f538fc8fbff" id="r_aab6d4690169ae21969bc5f538fc8fbff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab6d4690169ae21969bc5f538fc8fbff">test</a> (<a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> n) const</td></tr>
 <tr class="separator:aab6d4690169ae21969bc5f538fc8fbff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85be34ba3bb731ce828ca21c67b1413c" id="r_a85be34ba3bb731ce828ca21c67b1413c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85be34ba3bb731ce828ca21c67b1413c">test_set</a> (<a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> n, bool val=true)</td></tr>
@@ -292,7 +296,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae581135b70066374b248a52f167c4d4c" name="ae581135b70066374b248a52f167c4d4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae581135b70066374b248a52f167c4d4c">&#9670;&#160;</a></span>BitSet()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae581135b70066374b248a52f167c4d4c">&#9670;&#160;</a></span>BitSet() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -319,6 +323,68 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>creates bitset of given size filled with given value </p>
+
+</div>
+</div>
+<a id="a48f325ee7390807d44715db5a07cf666" name="a48f325ee7390807d44715db5a07cf666"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48f325ee7390807d44715db5a07cf666">&#9670;&#160;</a></span>BitSet() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::BitSet::BitSet </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned long</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>prohibit these constructors inherited from boost::dynamic_bitset, which can initialize only few initial bits </p>
+
+</div>
+</div>
+<a id="ae117cb7aa7c8793bcc7580ad8de60fee" name="ae117cb7aa7c8793bcc7580ad8de60fee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae117cb7aa7c8793bcc7580ad8de60fee">&#9670;&#160;</a></span>BitSet() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , std::enable_if_t&lt; std::is_arithmetic&lt; T &gt;::value, std::nullptr_t &gt;  = nullptr&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::BitSet::BitSet </td>
+          <td>(</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1033,7 +1099,7 @@ Static Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1BitSet.html">BitSet</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="classMR_1_1BitSet.html">BitSet</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

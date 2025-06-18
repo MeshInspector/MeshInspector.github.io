@@ -20,6 +20,6 @@ var MRDicom_8h =
     [ "loadDicomsFolderTreeAsVdb", "MRDicom_8h.html#ad79032cc6ef1a0e389097a70c1000de3", null ],
     [ "makeObjectVoxelsFromDicomFolder", "MRDicom_8h.html#a279a152a57f0cd1d7f680c48cc341687", null ],
     [ "toDicom", "MRDicom_8h.html#a8b7a3d30f9b81594b08a8a90828dd8e6", null ],
-    [ "toDicom", "MRDicom_8h.html#af18166aaab350552a2f824a43c6faef9", null ],
-    [ "toDicom", "MRDicom_8h.html#a0f1cbd074f33c0c8f5dcda546829153b", null ]
+    [ "toDicom", "MRDicom_8h.html#a06de9ebb71a997d3eec5251dc2a1c1e8", null ],
+    [ "toDicom", "MRDicom_8h.html#a0f83445b39c9bf24c4f50d6fe1f4cfe8", null ]
 ];

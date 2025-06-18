@@ -11,6 +11,8 @@ var namespaceMR_1_1StyleConsts =
       [ "cHistoryButtonSizeY", "namespaceMR_1_1StyleConsts_1_1Notification.html#a52e5057bbe55444050f29109e7fe6369", null ],
       [ "cNotificationWindowPaddingX", "namespaceMR_1_1StyleConsts_1_1Notification.html#afa5b42784cc74d768e33f84c3f8dbc37", null ],
       [ "cNotificationWindowPaddingY", "namespaceMR_1_1StyleConsts_1_1Notification.html#ab44fac23055a5f76fda2e5fbbcff8154", null ],
+      [ "cTextFramePadding", "namespaceMR_1_1StyleConsts_1_1Notification.html#a6dc9ff820b38609f4fad5d7b50b2da59", null ],
+      [ "cTextFrameRounding", "namespaceMR_1_1StyleConsts_1_1Notification.html#a483f138c30daa1fe0e5686bf554e2915", null ],
       [ "cWindowBorderWidth", "namespaceMR_1_1StyleConsts_1_1Notification.html#a85ff61268fac639e5871b152b1834e4d", null ],
       [ "cWindowPadding", "namespaceMR_1_1StyleConsts_1_1Notification.html#aac592de3f9df1139cad7ffbcdbadea5b", null ],
       [ "cWindowRounding", "namespaceMR_1_1StyleConsts_1_1Notification.html#afc9857750646620b389f5cb41ca048b9", null ],

@@ -18,6 +18,7 @@ var classmrmeshpy_1_1std__vector__FaceFace =
     [ "append", "classmrmeshpy_1_1std__vector__FaceFace.html#a8393acb4517d32fd0d3bec29ce260e23", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__FaceFace.html#a3013dc0f78b78240fe4178304ae27c7d", null ],
     [ "count", "classmrmeshpy_1_1std__vector__FaceFace.html#a710e84b7a2b07a5dc9e73b59a9a8240c", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__FaceFace.html#ab1b8c34a9e59febd9390a3b7ab530931", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__FaceFace.html#a1cd6e91bf5cb1847720ef23048923189", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__FaceFace.html#a6e6700915154301a3d77d25d20a77406", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__FaceFace.html#a433e3510e348deaa774c2a4eb8a4c3f3", null ],

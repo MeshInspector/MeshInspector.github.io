@@ -2,7 +2,6 @@ var classmrmeshpy_1_1SelfIntersections_1_1Settings =
 [
     [ "Method", "classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html", "classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method" ],
     [ "__init__", "classmrmeshpy_1_1SelfIntersections_1_1Settings.html#aaa985ecd891f26687647b5a9efc6d45a", null ],
-    [ "__init__", "classmrmeshpy_1_1SelfIntersections_1_1Settings.html#ae449be75e1fc649fd7bc1e55437678ef", null ],
     [ "__init__", "classmrmeshpy_1_1SelfIntersections_1_1Settings.html#a007472cdf93f5d672c3fa255076f8522", null ],
     [ "callback", "classmrmeshpy_1_1SelfIntersections_1_1Settings.html#a7f59e857791e7b2e978f86d3313c4106", null ],
     [ "callback", "classmrmeshpy_1_1SelfIntersections_1_1Settings.html#a8f3dc7c12f4279c0be5c4b7e6da46d3b", null ],

@@ -164,6 +164,7 @@ $(function(){initNavTree('MRMeshC_2MRMesh_8h.html',''); initResizable(true); });
 <code>#include &quot;<a class="el" href="MRMeshC_2MRBox_8h_source.html">MRBox.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMeshC_2MRId_8h_source.html">MRId.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMeshC_2MRMeshTopology_8h_source.html">MRMeshTopology.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRMeshC_2MRMeshTriPoint_8h_source.html">MRMeshTriPoint.h</a>&quot;</code><br />
 </div>
 <p><a href="MRMeshC_2MRMesh_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -249,6 +250,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ae8ab772129ee8122887bd922979f0e53" id="r_ae8ab772129ee8122887bd922979f0e53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="structMRVector3f.html">MRVector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8ab772129ee8122887bd922979f0e53">mrMeshNormalFromVert</a> (const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh, <a class="el" href="structMRVertId.html">MRVertId</a> v)</td></tr>
 <tr class="memdesc:ae8ab772129ee8122887bd922979f0e53"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes normal in a vertex using sum of directed areas of neighboring triangles  <br /></td></tr>
 <tr class="separator:ae8ab772129ee8122887bd922979f0e53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a39d3bd45738de6df84bf56eba024eb" id="r_a7a39d3bd45738de6df84bf56eba024eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="structMRMeshTriPoint.html">MRMeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a39d3bd45738de6df84bf56eba024eb">mrToTriPoint</a> (const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *mesh, <a class="el" href="structMRFaceId.html">MRFaceId</a> f, <a class="el" href="structMRVector3f.html">MRVector3f</a> point)</td></tr>
+<tr class="memdesc:a7a39d3bd45738de6df84bf56eba024eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts face id and 3d point into barycentric representation  <br /></td></tr>
+<tr class="separator:a7a39d3bd45738de6df84bf56eba024eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a00cfce158dd0e474696a303ab46bdf1f" name="a00cfce158dd0e474696a303ab46bdf1f"></a>
@@ -879,6 +883,34 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>returns volume of closed mesh region, if region is not closed DBL_MAX is returned if region is NULL - whole mesh is region </p>
+
+</div>
+</div>
+<a id="a7a39d3bd45738de6df84bf56eba024eb" name="a7a39d3bd45738de6df84bf56eba024eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a39d3bd45738de6df84bf56eba024eb">&#9670;&#160;</a></span>mrToTriPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#ab8a099cc7166020a82c2f96fa5043ae6">MRMESHC_API</a> <a class="el" href="structMRMeshTriPoint.html">MRMeshTriPoint</a> mrToTriPoint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMRFaceId.html">MRFaceId</a></td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMRVector3f.html">MRVector3f</a></td>          <td class="paramname"><span class="paramname"><em>point</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>converts face id and 3d point into barycentric representation </p>
 
 </div>
 </div>

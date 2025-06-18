@@ -2,7 +2,6 @@ var classmrmeshpy_1_1IntersectionPrecomputes2__float =
 [
     [ "__init__", "classmrmeshpy_1_1IntersectionPrecomputes2__float.html#a714371e417a00cc3474ec5d385f001ae", null ],
     [ "__init__", "classmrmeshpy_1_1IntersectionPrecomputes2__float.html#a781006f514e108dd33b23fdcce34dbcf", null ],
-    [ "__init__", "classmrmeshpy_1_1IntersectionPrecomputes2__float.html#aa347b69e7404df6d5ed3b458ecbe5744", null ],
     [ "invDir", "classmrmeshpy_1_1IntersectionPrecomputes2__float.html#a3fcea794b088455c961b27acc845b9e0", null ],
     [ "invDir", "classmrmeshpy_1_1IntersectionPrecomputes2__float.html#aa9f1d211ca90ff8b9227dc9c60a7ed50", null ],
     [ "maxDimIdxY", "classmrmeshpy_1_1IntersectionPrecomputes2__float.html#a148d9dd2faf4186f16ec92d87ec1603a", null ],

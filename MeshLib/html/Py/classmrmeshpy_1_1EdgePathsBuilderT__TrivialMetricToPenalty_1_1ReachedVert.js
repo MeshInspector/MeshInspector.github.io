@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert =
 [
     [ "__init__", "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html#a657c003e725509a1e63aba2d0fdf448e", null ],
-    [ "__init__", "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html#abc750faee723329a0c459f58691963ac", null ],
     [ "__init__", "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html#a4bc3a81f9ef13568659492614f86dea3", null ],
     [ "backward", "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html#a8801e34d1dc610219e92db3e0fea8128", null ],
     [ "backward", "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1_1ReachedVert.html#ab897f02b20eabd54a035f98d31419237", null ],

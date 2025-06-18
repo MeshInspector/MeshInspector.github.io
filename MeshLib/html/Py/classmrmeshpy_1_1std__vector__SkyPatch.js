@@ -14,6 +14,7 @@ var classmrmeshpy_1_1std__vector__SkyPatch =
     [ "__setitem__", "classmrmeshpy_1_1std__vector__SkyPatch.html#a0623dcff847796ed8f72f3aa0850369b", null ],
     [ "append", "classmrmeshpy_1_1std__vector__SkyPatch.html#a0b17cf838ed2a62016c63afb49cad98d", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__SkyPatch.html#a93c30f84a2aa3fa6a9739ad86fa3928b", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__SkyPatch.html#a72d3dcf4d65d67bfe18afc492a6f0af4", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__SkyPatch.html#a715263558e9837e333bb8f53de0c13ac", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__SkyPatch.html#a3ad2010bc2f29b08db47fac6fcaee194", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__SkyPatch.html#a8b21e608a8a5fb56582d7515dc2e7ea6", null ],

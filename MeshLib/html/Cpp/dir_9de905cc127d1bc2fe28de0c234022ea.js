@@ -60,6 +60,7 @@ var dir_9de905cc127d1bc2fe28de0c234022ea =
     [ "MRPointsLoad.h", "MRMeshC_2MRPointsLoad_8h.html", "MRMeshC_2MRPointsLoad_8h" ],
     [ "MRPointsLoadSettings.h", "MRMeshC_2MRPointsLoadSettings_8h.html", "MRMeshC_2MRPointsLoadSettings_8h" ],
     [ "MRPointsSave.h", "MRMeshC_2MRPointsSave_8h.html", "MRMeshC_2MRPointsSave_8h" ],
+    [ "MRPointsToMeshProjector.h", "MRMeshC_2MRPointsToMeshProjector_8h.html", "MRMeshC_2MRPointsToMeshProjector_8h" ],
     [ "MRPrecisePredicates3.h", "MRMeshC_2MRPrecisePredicates3_8h.html", "MRMeshC_2MRPrecisePredicates3_8h" ],
     [ "MRRegionBoundary.h", "MRMeshC_2MRRegionBoundary_8h.html", "MRMeshC_2MRRegionBoundary_8h" ],
     [ "MRRelaxParams.h", "MRMeshC_2MRRelaxParams_8h.html", "MRMeshC_2MRRelaxParams_8h" ],

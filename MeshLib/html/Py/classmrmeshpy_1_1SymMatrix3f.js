@@ -2,7 +2,6 @@ var classmrmeshpy_1_1SymMatrix3f =
 [
     [ "__init__", "classmrmeshpy_1_1SymMatrix3f.html#af99086954004ca7a54711152d5d91cbb", null ],
     [ "__init__", "classmrmeshpy_1_1SymMatrix3f.html#acfd842972291c639ec7108b0e234dd0b", null ],
-    [ "__init__", "classmrmeshpy_1_1SymMatrix3f.html#abe8d042b89a5c8d1add1c7a149bb63d5", null ],
     [ "__iadd__", "classmrmeshpy_1_1SymMatrix3f.html#a7529ecde35ba507705cbd726de40586d", null ],
     [ "__imatmul__", "classmrmeshpy_1_1SymMatrix3f.html#a5a349b06a9b277828cce4d1e722a2240", null ],
     [ "__isub__", "classmrmeshpy_1_1SymMatrix3f.html#a555274fcc8d6e9685a8b2a557396366a", null ],

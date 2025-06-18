@@ -11,8 +11,8 @@ var MRMeshC_2MRMeshComponents_8h =
     ] ],
     [ "mrMeshComponentsAllComponentsMapFree", "MRMeshC_2MRMeshComponents_8h.html#a20f7b355c1dec2490be3ed611ff94dc5", null ],
     [ "mrMeshComponentsGetAllComponentsMap", "MRMeshC_2MRMeshComponents_8h.html#a648e16b274f4cca4858b6adbf624536a", null ],
-    [ "mrMeshComponentsGetComponent", "MRMeshC_2MRMeshComponents_8h.html#aa1354281ea011209786e2fabdae08520", null ],
-    [ "mrMeshComponentsGetLargeByAreaComponents", "MRMeshC_2MRMeshComponents_8h.html#a6e5928e30f83e59db58196d11924037b", null ],
+    [ "mrMeshComponentsGetComponent", "MRMeshC_2MRMeshComponents_8h.html#abe06d5e9c9604cae1894a1da2ebf325d", null ],
+    [ "mrMeshComponentsGetLargeByAreaComponents", "MRMeshC_2MRMeshComponents_8h.html#a2c685d697f09b13ab6a759156ce6908d", null ],
     [ "mrMeshComponentsGetLargeByAreaRegions", "MRMeshC_2MRMeshComponents_8h.html#a76f39778486a67b5a8c3fe5f6cdaabf2", null ],
-    [ "mrMeshComponentsGetLargestComponent", "MRMeshC_2MRMeshComponents_8h.html#a8d90de4b1779b117b3380804a0d0b3f7", null ]
+    [ "mrMeshComponentsGetLargestComponent", "MRMeshC_2MRMeshComponents_8h.html#adaed077b2146a3921d4071c2db929429", null ]
 ];

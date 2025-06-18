@@ -154,6 +154,7 @@ $(function(){initNavTree('classmrmeshpy_1_1std__vector__double.html',''); initRe
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classmrmeshpy_1_1std__vector__double-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.std_vector_double Class Reference</div></div>
 </div><!--header-->
@@ -199,6 +200,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad99a7a335fd7f517fa4a264786c6ca4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abedead2d0e412cdc83b5bc489379ec42" id="r_abedead2d0e412cdc83b5bc489379ec42"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abedead2d0e412cdc83b5bc489379ec42">count</a> (self, float x)</td></tr>
 <tr class="separator:abedead2d0e412cdc83b5bc489379ec42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5878ac994ec8038b420c168f3f084d8" id="r_ab5878ac994ec8038b420c168f3f084d8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5878ac994ec8038b420c168f3f084d8">data_pointer</a> (self)</td></tr>
+<tr class="separator:ab5878ac994ec8038b420c168f3f084d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03f03c0b2f9c008d333548f5a619de41" id="r_a03f03c0b2f9c008d333548f5a619de41"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03f03c0b2f9c008d333548f5a619de41">empty</a> (self)</td></tr>
 <tr class="separator:a03f03c0b2f9c008d333548f5a619de41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f846b5f42ee9a9c0afa044b4a4dd2e9" id="r_a0f846b5f42ee9a9c0afa044b4a4dd2e9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f846b5f42ee9a9c0afa044b4a4dd2e9">extend</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__double.html">std_vector_double</a> L)</td></tr>
@@ -219,6 +222,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8c49fb1e558fc0114f00efbebd859b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc7b886e0a635aab510acac413a00bc1" id="r_afc7b886e0a635aab510acac413a00bc1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc7b886e0a635aab510acac413a00bc1">size</a> (self)</td></tr>
 <tr class="separator:afc7b886e0a635aab510acac413a00bc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:ae5db80f80ec1c83c42c28e248753b389" id="r_ae5db80f80ec1c83c42c28e248753b389"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5db80f80ec1c83c42c28e248753b389">element_type_byte_size</a> = 8</td></tr>
+<tr class="separator:ae5db80f80ec1c83c42c28e248753b389"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a854786645e78ba0fa71c4bd5c80c7053" name="a854786645e78ba0fa71c4bd5c80c7053"></a>
@@ -617,6 +625,24 @@ Public Member Functions</h2></td></tr>
 </pre> 
 </div>
 </div>
+<a id="ab5878ac994ec8038b420c168f3f084d8" name="ab5878ac994ec8038b420c168f3f084d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5878ac994ec8038b420c168f3f084d8">&#9670;&#160;</a></span>data_pointer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int mrmeshpy.std_vector_double.data_pointer </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Returns the pointer to the contiguous vector contents, as an integer.
+</pre> 
+</div>
+</div>
 <a id="a03f03c0b2f9c008d333548f5a619de41" name="a03f03c0b2f9c008d333548f5a619de41"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a03f03c0b2f9c008d333548f5a619de41">&#9670;&#160;</a></span>empty()</h2>
 
@@ -827,6 +853,29 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ae5db80f80ec1c83c42c28e248753b389" name="ae5db80f80ec1c83c42c28e248753b389"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5db80f80ec1c83c42c28e248753b389">&#9670;&#160;</a></span>element_type_byte_size</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">typing mrmeshpy.std_vector_double.element_type_byte_size = 8</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1RemeshSettings =
 [
     [ "__init__", "classmrmeshpy_1_1RemeshSettings.html#a7f588f169cfab3f2d2af9be61a920c32", null ],
-    [ "__init__", "classmrmeshpy_1_1RemeshSettings.html#a3908688eff5c630d2c4345b27e529d5b", null ],
     [ "__init__", "classmrmeshpy_1_1RemeshSettings.html#a6cfbe9174375917649d0b69cc6a00d20", null ],
     [ "finalRelaxIters", "classmrmeshpy_1_1RemeshSettings.html#adcb8a007b9ea011deb95c459c5f9140d", null ],
     [ "finalRelaxIters", "classmrmeshpy_1_1RemeshSettings.html#ac6ebd0a1ec85dded124d05be0cb69d6a", null ],

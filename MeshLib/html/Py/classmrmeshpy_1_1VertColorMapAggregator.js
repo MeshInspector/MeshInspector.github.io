@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1VertColorMapAggregator =
 [
     [ "__init__", "classmrmeshpy_1_1VertColorMapAggregator.html#a4a117155e81101952d4c3b3d7abac4b2", null ],
-    [ "__init__", "classmrmeshpy_1_1VertColorMapAggregator.html#ac91093bd934704d1f15c1b8091176f69", null ],
     [ "aggregate", "classmrmeshpy_1_1VertColorMapAggregator.html#a48fff858c4f53a2b7a858a3c99db95bb", null ],
     [ "erase", "classmrmeshpy_1_1VertColorMapAggregator.html#aa7afe6148ba60b95b8aecc31f8b9cb8b", null ],
     [ "getColorMapNumber", "classmrmeshpy_1_1VertColorMapAggregator.html#a078a9969cfa93776ef78aa865f186dfe", null ],

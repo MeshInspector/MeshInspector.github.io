@@ -7,7 +7,7 @@ var searchData=
   ['perobjectholes_4',['PerObjectHoles',['.././Cpp/classMR_1_1BoundarySelectionWidget.html#ab4f86167c1457d09cd461a0d8a7f4ce1',1,'MR::BoundarySelectionWidget']]],
   ['perobjectholespolylines_5',['PerObjectHolesPolylines',['.././Cpp/classMR_1_1BoundarySelectionWidget.html#a2f69c3bd828d0e6845a71bce194419df',1,'MR::BoundarySelectionWidget']]],
   ['perobjectmeshchangedsignals_6',['PerObjectMeshChangedSignals',['.././Cpp/classMR_1_1BoundarySelectionWidget.html#a2f67030fd7e0d0dc13eeb84d29585009',1,'MR::BoundarySelectionWidget']]],
-  ['pickedpoint_7',['PickedPoint',['.././Cpp/namespaceMR.html#adf0c24ba1b9e4f32fd04264018065447',1,'MR']]],
+  ['pickedpoint_7',['PickedPoint',['.././Cpp/namespaceMR.html#a3c6c4a3a98a6d5a53b51d05984395fa3',1,'MR']]],
   ['pickerpointcallback_8',['PickerPointCallBack',['.././Cpp/classMR_1_1PickPointManager.html#af5dd9ce5eda38d70eb2e0c789aa3e06c',1,'MR::PickPointManager']]],
   ['pickrenderobjectpredicate_9',['PickRenderObjectPredicate',['.././Cpp/classMR_1_1Viewport.html#a2ee75851f20f8798cdefa740b799b467',1,'MR::Viewport']]],
   ['pickresults_10',['PickResults',['.././Cpp/classMR_1_1ViewportGL.html#a79d22916ef4534d1503a4433e40d44c1',1,'MR::ViewportGL']]],
@@ -35,10 +35,11 @@ var searchData=
   ['postmergecallback_32',['PostMergeCallback',['.././Cpp/structMR_1_1MergeVolumePartSettings.html#a49ad4e693c6a08af856dd55e575f702f',1,'MR::MergeVolumePartSettings']]],
   ['postrescalesignal_33',['PostRescaleSignal',['.././Cpp/classMR_1_1Viewer.html#a448a65e5c8e0f80950482647b4d8a786',1,'MR::Viewer']]],
   ['postresizesignal_34',['PostResizeSignal',['.././Cpp/classMR_1_1Viewer.html#ab7f0983455b1dfa5ccae593d205470d9',1,'MR::Viewer']]],
-  ['precollapsecallback_35',['PreCollapseCallback',['.././Cpp/namespaceMR.html#a8ca6fbc7c349a31c3f0a68ce8f513265',1,'MR']]],
-  ['precutcallback_36',['PreCutCallback',['.././Cpp/structMR_1_1MergeVolumePartSettings.html#a577e60ec177ee1ce4be553f79fc09a89',1,'MR::MergeVolumePartSettings']]],
-  ['progresscallback_37',['ProgressCallback',['.././Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710',1,'MR::ProgressCallback'],['.././Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710',1,'MR::ProgressCallback']]],
-  ['progressholder_38',['ProgressHolder',['.././Cpp/classMR_1_1RangeProcessorSingle.html#a18c7b1c6f5f3eb4ab1f683819ab2526b',1,'MR::RangeProcessorSingle']]],
-  ['projectonallcallback_39',['ProjectOnAllCallback',['.././Cpp/namespaceMR.html#a51c5c9bdf012ab12e360b5e161bb378e',1,'MR']]],
-  ['pythonregisterfuncton_40',['PythonRegisterFuncton',['.././Cpp/classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c',1,'MR::PythonExport']]]
+  ['precisecollisionresult_35',['PreciseCollisionResult',['.././Cpp/group__AABBTreeGroup.html#ga457b7bb3a129cf50a82586b670a93148',1,'MR::PreciseCollisionResult'],['.././Cpp/group__AABBTreeGroup.html#ga457b7bb3a129cf50a82586b670a93148',1,'MR::PreciseCollisionResult']]],
+  ['precollapsecallback_36',['PreCollapseCallback',['.././Cpp/namespaceMR.html#a8ca6fbc7c349a31c3f0a68ce8f513265',1,'MR']]],
+  ['precutcallback_37',['PreCutCallback',['.././Cpp/structMR_1_1MergeVolumePartSettings.html#a577e60ec177ee1ce4be553f79fc09a89',1,'MR::MergeVolumePartSettings']]],
+  ['progresscallback_38',['ProgressCallback',['.././Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710',1,'MR::ProgressCallback'],['.././Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710',1,'MR::ProgressCallback']]],
+  ['progressholder_39',['ProgressHolder',['.././Cpp/classMR_1_1RangeProcessorSingle.html#a18c7b1c6f5f3eb4ab1f683819ab2526b',1,'MR::RangeProcessorSingle']]],
+  ['projectonallcallback_40',['ProjectOnAllCallback',['.././Cpp/namespaceMR.html#a51c5c9bdf012ab12e360b5e161bb378e',1,'MR']]],
+  ['pythonregisterfuncton_41',['PythonRegisterFuncton',['.././Cpp/classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c',1,'MR::PythonExport']]]
 ];

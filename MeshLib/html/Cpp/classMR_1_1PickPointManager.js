@@ -20,7 +20,7 @@ var classMR_1_1PickPointManager =
     [ "getSurfaceContour", "classMR_1_1PickPointManager.html#a0922ea18b0bacb74b2787b4e9fb1987f", null ],
     [ "getSurfaceContours", "classMR_1_1PickPointManager.html#a7785cb6ce3cab3d064b6c20f07958cf3", null ],
     [ "insertPoint", "classMR_1_1PickPointManager.html#a02c3091306f572deb4b8f46b6fe4c87f", null ],
-    [ "isClosedCountour", "classMR_1_1PickPointManager.html#aead9be191022d11da51d4eb2f8127735", null ],
+    [ "isClosedContour", "classMR_1_1PickPointManager.html#abf753ac8d813babfa08dc56142474e65", null ],
     [ "numPickPoints", "classMR_1_1PickPointManager.html#adc30aaa3b2d5dea491584b3a5e6bf4c5", null ],
     [ "removePoint", "classMR_1_1PickPointManager.html#a9c4b283d6f473e8f7b894b329c3af11d", null ],
     [ "setFullState", "classMR_1_1PickPointManager.html#acba6697c62cf417cb8b8ed078a6a1288", null ],

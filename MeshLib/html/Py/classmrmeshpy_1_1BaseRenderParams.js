@@ -1,6 +1,5 @@
 var classmrmeshpy_1_1BaseRenderParams =
 [
-    [ "__init__", "classmrmeshpy_1_1BaseRenderParams.html#a8b8cddc25c93c7224167d107b23ba511", null ],
     [ "__init__", "classmrmeshpy_1_1BaseRenderParams.html#a9f51be4c8559c7ea0fbd9a82af48ba01", null ],
     [ "projMatrix", "classmrmeshpy_1_1BaseRenderParams.html#a66148c04dc295e2bdf7b7b622bf44ff2", null ],
     [ "viewMatrix", "classmrmeshpy_1_1BaseRenderParams.html#a06a24f78b01ee76af109eec7fdd8a6e6", null ],

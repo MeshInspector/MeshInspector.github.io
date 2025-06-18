@@ -18,6 +18,7 @@ var classmrmeshpy_1_1std__vector__UnorientedTriangle =
     [ "append", "classmrmeshpy_1_1std__vector__UnorientedTriangle.html#a80c226d412d91aeeb0332b8f0a31e3f6", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__UnorientedTriangle.html#ab81db84d55da32848af85a240ee811fd", null ],
     [ "count", "classmrmeshpy_1_1std__vector__UnorientedTriangle.html#a005aa310d567bb0f6ce1e12e31d40d03", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__UnorientedTriangle.html#ad1e876df6e65fac9abb53fac9d4286f2", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__UnorientedTriangle.html#a1c2ba794ce442533ecde4456850ee8b4", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__UnorientedTriangle.html#a84943900863d26c86715aa88e5914c17", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__UnorientedTriangle.html#a70a1f40f21a08f539d25c94e85d96518", null ],

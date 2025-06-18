@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1PointAccumulator =
 [
     [ "__init__", "classmrmeshpy_1_1PointAccumulator.html#aab67da4348a22241f5a102bdc4f6790a", null ],
-    [ "__init__", "classmrmeshpy_1_1PointAccumulator.html#ae713174cc89069e8a74eabbc5dc696d9", null ],
     [ "addPoint", "classmrmeshpy_1_1PointAccumulator.html#ab852f3d3eb749db28056dee77c3c12b6", null ],
     [ "addPoint", "classmrmeshpy_1_1PointAccumulator.html#a822bb6a64e64c23fb36c6e8c15dc551b", null ],
     [ "addPoint", "classmrmeshpy_1_1PointAccumulator.html#ab79e2d41ec92b236234c190ebe54b57c", null ],

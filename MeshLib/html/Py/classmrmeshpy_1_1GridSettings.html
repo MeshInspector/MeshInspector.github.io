@@ -155,6 +155,7 @@ $(function(){initNavTree('classmrmeshpy_1_1GridSettings.html',''); initResizable
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="classmrmeshpy_1_1GridSettings-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.GridSettings Class Reference</div></div>
 </div><!--header-->
@@ -181,6 +182,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af2874d459e5f51aa91203c93401c9812"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a015e8ad14ead0887b765aec85f0bb71d" id="r_a015e8ad14ead0887b765aec85f0bb71d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BMap__VertId__unsigned__long.html">BMap_VertId_unsigned_long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a015e8ad14ead0887b765aec85f0bb71d">vertIds</a> (self)</td></tr>
 <tr class="separator:a015e8ad14ead0887b765aec85f0bb71d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
+Static Protected Attributes</h2></td></tr>
+<tr class="memitem:aa1ecf83841a3677a9f95cabeb2e3db88" id="r_aa1ecf83841a3677a9f95cabeb2e3db88"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1ecf83841a3677a9f95cabeb2e3db88">_offsetof_faceIds</a> = 72</td></tr>
+<tr class="separator:aa1ecf83841a3677a9f95cabeb2e3db88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadc943df22c55a872b7b69cb7cf8a263" id="r_aadc943df22c55a872b7b69cb7cf8a263"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadc943df22c55a872b7b69cb7cf8a263">_offsetof_uedgeIds</a> = 40</td></tr>
+<tr class="separator:aadc943df22c55a872b7b69cb7cf8a263"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad49b7edf135b931172b2265a8f38bb22" id="r_ad49b7edf135b931172b2265a8f38bb22"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad49b7edf135b931172b2265a8f38bb22">_offsetof_vertIds</a> = 8</td></tr>
+<tr class="separator:ad49b7edf135b931172b2265a8f38bb22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::GridSettings
@@ -201,8 +211,7 @@ settings defining regular grid, where each quadrangular cell is split on two tri
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">Implicit default constructor.
-</pre> 
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -303,6 +312,73 @@ index is 4 * ( x + y * ( settings.dim.x + 1 ) ) + edgeType
 <pre class="fragment">grid coordinates to vertex Id; invalid vertex Id means that this vertex is missing in grid;
 index is x + y * ( settings.dim.x + 1 )
 </pre> 
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa1ecf83841a3677a9f95cabeb2e3db88" name="aa1ecf83841a3677a9f95cabeb2e3db88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1ecf83841a3677a9f95cabeb2e3db88">&#9670;&#160;</a></span>_offsetof_faceIds</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">typing mrmeshpy.GridSettings._offsetof_faceIds = 72</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aadc943df22c55a872b7b69cb7cf8a263" name="aadc943df22c55a872b7b69cb7cf8a263"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadc943df22c55a872b7b69cb7cf8a263">&#9670;&#160;</a></span>_offsetof_uedgeIds</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">typing mrmeshpy.GridSettings._offsetof_uedgeIds = 40</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad49b7edf135b931172b2265a8f38bb22" name="ad49b7edf135b931172b2265a8f38bb22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad49b7edf135b931172b2265a8f38bb22">&#9670;&#160;</a></span>_offsetof_vertIds</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">typing mrmeshpy.GridSettings._offsetof_vertIds = 8</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>

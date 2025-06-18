@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1DistanceToMeshOptions =
 [
     [ "__init__", "classmrmeshpy_1_1DistanceToMeshOptions.html#aa5a71155931c1d066d5a1e26f45424a5", null ],
-    [ "__init__", "classmrmeshpy_1_1DistanceToMeshOptions.html#aefb62cc8be3cdcddff00defdd687e5cb", null ],
     [ "__init__", "classmrmeshpy_1_1DistanceToMeshOptions.html#a2d7378f391fdcdecc071d5fea21dd54f", null ],
     [ "maxDistSq", "classmrmeshpy_1_1DistanceToMeshOptions.html#ad09befd18d3d1af91f3abcdc32723ab8", null ],
     [ "maxDistSq", "classmrmeshpy_1_1DistanceToMeshOptions.html#a6599e39abe3fb35f92b2bad44faebb84", null ],

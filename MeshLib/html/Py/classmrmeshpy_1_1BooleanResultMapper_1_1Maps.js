@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1BooleanResultMapper_1_1Maps =
 [
     [ "__init__", "classmrmeshpy_1_1BooleanResultMapper_1_1Maps.html#a4d97bc7c057ef4e75febf73e875fb43f", null ],
-    [ "__init__", "classmrmeshpy_1_1BooleanResultMapper_1_1Maps.html#af785e798c45895cede42752f15f5d04c", null ],
     [ "__init__", "classmrmeshpy_1_1BooleanResultMapper_1_1Maps.html#a39824a99b3246954b6e526c7f30a8433", null ],
     [ "cut2newFaces", "classmrmeshpy_1_1BooleanResultMapper_1_1Maps.html#a8dc56ac5f14faf5bfa130bbeddacead0", null ],
     [ "cut2newFaces", "classmrmeshpy_1_1BooleanResultMapper_1_1Maps.html#afbf333f9c6944fa94af0bbb4c1c44bf7", null ],

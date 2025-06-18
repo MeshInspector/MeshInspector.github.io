@@ -4,7 +4,6 @@ var classmrmeshpy_1_1UndirectedEdgeMap =
     [ "__init__", "classmrmeshpy_1_1UndirectedEdgeMap.html#ade679738cf05d49e74704412e8b02cf4", null ],
     [ "__init__", "classmrmeshpy_1_1UndirectedEdgeMap.html#a35080db14e4f6ed431f2a24de57f1899", null ],
     [ "__init__", "classmrmeshpy_1_1UndirectedEdgeMap.html#a0a97ce968c227986c5d7ff96d1248e58", null ],
-    [ "__init__", "classmrmeshpy_1_1UndirectedEdgeMap.html#ad201387688ee29ba29a7fb2589eae181", null ],
     [ "__eq__", "classmrmeshpy_1_1UndirectedEdgeMap.html#a727e6f8d7eae127c88799067033537af", null ],
     [ "__getitem__", "classmrmeshpy_1_1UndirectedEdgeMap.html#a0613caf37f87f823e6220de6ebb08872", null ],
     [ "__getitem__", "classmrmeshpy_1_1UndirectedEdgeMap.html#a0613caf37f87f823e6220de6ebb08872", null ],

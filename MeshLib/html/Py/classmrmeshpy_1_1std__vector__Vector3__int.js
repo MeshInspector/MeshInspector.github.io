@@ -19,6 +19,7 @@ var classmrmeshpy_1_1std__vector__Vector3__int =
     [ "append", "classmrmeshpy_1_1std__vector__Vector3__int.html#a7d90e2f33b9d5f84e2eb42c62dca2a31", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__Vector3__int.html#ac44c5c1d503faa33c2360db88b6d248a", null ],
     [ "count", "classmrmeshpy_1_1std__vector__Vector3__int.html#ab2d7a2a7f9800061a1f14db77d0edd14", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__Vector3__int.html#a4e974bb5cbd15e830681b2b1c7ebad08", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__Vector3__int.html#a0d6cc51842b40470955f7288fd0fe17c", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__Vector3__int.html#a5e4df38b8b4404b247890ff722498430", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__Vector3__int.html#a0a42ac0f09dc3eaecda41da39feac973", null ],

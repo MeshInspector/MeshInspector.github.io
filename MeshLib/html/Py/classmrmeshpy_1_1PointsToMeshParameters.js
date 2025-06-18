@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1PointsToMeshParameters =
 [
     [ "__init__", "classmrmeshpy_1_1PointsToMeshParameters.html#ac8719faad46d177c5c0b8cca1af6531e", null ],
-    [ "__init__", "classmrmeshpy_1_1PointsToMeshParameters.html#abefb38c66f6ee20b7d74200caddd32d0", null ],
     [ "__init__", "classmrmeshpy_1_1PointsToMeshParameters.html#ad8ea8854f998238bda997e17a00625a0", null ],
     [ "minWeight", "classmrmeshpy_1_1PointsToMeshParameters.html#aed14ef4130d1188cb31d2c2fd103b0d8", null ],
     [ "minWeight", "classmrmeshpy_1_1PointsToMeshParameters.html#ad7bfdc0ea43fd7af3fce90b7927a31ca", null ],

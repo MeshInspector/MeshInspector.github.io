@@ -1,9 +1,8 @@
 var classmrmeshpy_1_1PixelBitSet =
 [
-    [ "__init__", "classmrmeshpy_1_1PixelBitSet.html#ac6197f2b8025d64fbf8c0039dad9d4ff", null ],
-    [ "__init__", "classmrmeshpy_1_1PixelBitSet.html#ac6197f2b8025d64fbf8c0039dad9d4ff", null ],
     [ "__init__", "classmrmeshpy_1_1PixelBitSet.html#aa4a879edc2a0040aff3ec0c2958fa553", null ],
-    [ "__init__", "classmrmeshpy_1_1PixelBitSet.html#a0f82c93f911a0cc323b95430fe13eb15", null ],
+    [ "__init__", "classmrmeshpy_1_1PixelBitSet.html#ac6197f2b8025d64fbf8c0039dad9d4ff", null ],
+    [ "__init__", "classmrmeshpy_1_1PixelBitSet.html#ac6197f2b8025d64fbf8c0039dad9d4ff", null ],
     [ "__and__", "classmrmeshpy_1_1PixelBitSet.html#a4774dd308fa4b5c89c01dbb73483657b", null ],
     [ "__getitem__", "classmrmeshpy_1_1PixelBitSet.html#ac794c95cd3352f2a1a2a255ac4840a36", null ],
     [ "__iand__", "classmrmeshpy_1_1PixelBitSet.html#afa5a096072f2351283ecdcd8fa2d1759", null ],

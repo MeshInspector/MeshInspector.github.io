@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1PointPairs =
 [
     [ "__init__", "classmrmeshpy_1_1PointPairs.html#a9bac98863929f4d083157a3ac6f06797", null ],
-    [ "__init__", "classmrmeshpy_1_1PointPairs.html#ab1856c0f4803cbab7a875b96e396d254", null ],
     [ "__getitem__", "classmrmeshpy_1_1PointPairs.html#a17297d08012326188d9a93386cfe82a7", null ],
     [ "__getitem__", "classmrmeshpy_1_1PointPairs.html#a17297d08012326188d9a93386cfe82a7", null ],
     [ "__setitem__", "classmrmeshpy_1_1PointPairs.html#a34f15f93aec5e051ab01c2eadc353c27", null ],

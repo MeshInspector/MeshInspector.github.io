@@ -18,6 +18,7 @@ var classmrmeshpy_1_1std__vector__EdgePoint =
     [ "append", "classmrmeshpy_1_1std__vector__EdgePoint.html#afa464b2174d3661dd08f29ac5b22f5bb", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__EdgePoint.html#a4f91fc9a9596cfbfb21806cb258e97f5", null ],
     [ "count", "classmrmeshpy_1_1std__vector__EdgePoint.html#ae9c8d37d878128d1e5022df4b7d0ff63", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__EdgePoint.html#a5931ad93b7087bf36369ae75ba0bafa5", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__EdgePoint.html#aa676aa2391a3ffe55a22df60cf26fe04", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__EdgePoint.html#a2cbfa57b47c589f93f85a18c31dbeb83", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__EdgePoint.html#a0b0393a8a0f939f14617d91e961c7325", null ],

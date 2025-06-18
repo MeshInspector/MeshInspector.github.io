@@ -19,6 +19,7 @@ var classmrmeshpy_1_1std__vector__std__shared__ptr__HistoryAction =
     [ "append", "classmrmeshpy_1_1std__vector__std__shared__ptr__HistoryAction.html#a37edfd588b9bea7a76b80ddafbce442d", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__std__shared__ptr__HistoryAction.html#af831bfa7184252df4fc5c84e8f866465", null ],
     [ "count", "classmrmeshpy_1_1std__vector__std__shared__ptr__HistoryAction.html#a3a2b9b570dbb0c3a7461e8deb6a6f3cb", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__std__shared__ptr__HistoryAction.html#a908459f934e7a0dabfde74e1d208630b", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__std__shared__ptr__HistoryAction.html#a20e4aae51949490f529d6aebaa7bbb6e", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__std__shared__ptr__HistoryAction.html#adbad4981d33620f759aec61a5840526c", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__std__shared__ptr__HistoryAction.html#a6258b72477313b837c815cd454547455", null ],

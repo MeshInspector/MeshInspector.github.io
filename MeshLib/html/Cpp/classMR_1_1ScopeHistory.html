@@ -159,16 +159,26 @@ $(function(){initNavTree('classMR_1_1ScopeHistory.html',''); initResizable(true)
 </div><!--header-->
 <div class="contents">
 
+<p>The purpose of this class is to combine all actions appended to global history store in one big action to undo/redo them all at once.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRAppendHistory_8h_source.html">MRAppendHistory.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a155a57e24f0f265fa6b27e456b83cec5" id="r_a155a57e24f0f265fa6b27e456b83cec5"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a155a57e24f0f265fa6b27e456b83cec5">ScopeHistory</a> (const std::string &amp;name)</td></tr>
+<tr class="memdesc:a155a57e24f0f265fa6b27e456b83cec5"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates new <a class="el" href="classMR_1_1CombinedHistoryAction.html">CombinedHistoryAction</a>, and setups global history store to append all new actions there during this object lifetime  <br /></td></tr>
 <tr class="separator:a155a57e24f0f265fa6b27e456b83cec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a69bc34372ef0223eb4b90fab0082d8" id="r_a5a69bc34372ef0223eb4b90fab0082d8"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a69bc34372ef0223eb4b90fab0082d8">~ScopeHistory</a> ()</td></tr>
+<tr class="memdesc:a5a69bc34372ef0223eb4b90fab0082d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">created before <a class="el" href="classMR_1_1CombinedHistoryAction.html">CombinedHistoryAction</a> if not empty is appended (with all sub-actions) in the global history store  <br /></td></tr>
 <tr class="separator:a5a69bc34372ef0223eb4b90fab0082d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4c17b1dd2ac2de71650b8211d421d1b" id="r_ab4c17b1dd2ac2de71650b8211d421d1b"><td class="memItemLeft" align="right" valign="top">const std::shared_ptr&lt; <a class="el" href="classMR_1_1CombinedHistoryAction.html">CombinedHistoryAction</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4c17b1dd2ac2de71650b8211d421d1b">combinedAction</a> () const</td></tr>
+<tr class="memdesc:ab4c17b1dd2ac2de71650b8211d421d1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the action being populated  <br /></td></tr>
+<tr class="separator:ab4c17b1dd2ac2de71650b8211d421d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>The purpose of this class is to combine all actions appended to global history store in one big action to undo/redo them all at once. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a155a57e24f0f265fa6b27e456b83cec5" name="a155a57e24f0f265fa6b27e456b83cec5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a155a57e24f0f265fa6b27e456b83cec5">&#9670;&#160;</a></span>ScopeHistory()</h2>
 
@@ -183,6 +193,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>creates new <a class="el" href="classMR_1_1CombinedHistoryAction.html">CombinedHistoryAction</a>, and setups global history store to append all new actions there during this object lifetime </p>
 
 </div>
 </div>
@@ -201,6 +213,36 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>created before <a class="el" href="classMR_1_1CombinedHistoryAction.html">CombinedHistoryAction</a> if not empty is appended (with all sub-actions) in the global history store </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab4c17b1dd2ac2de71650b8211d421d1b" name="ab4c17b1dd2ac2de71650b8211d421d1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4c17b1dd2ac2de71650b8211d421d1b">&#9670;&#160;</a></span>combinedAction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::shared_ptr&lt; <a class="el" href="classMR_1_1CombinedHistoryAction.html">CombinedHistoryAction</a> &gt; &amp; MR::ScopeHistory::combinedAction </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the action being populated </p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
@@ -212,7 +254,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1ScopeHistory.html">ScopeHistory</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="classMR_1_1ScopeHistory.html">ScopeHistory</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

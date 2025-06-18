@@ -78,6 +78,8 @@ var group__BasicStructuresGroup =
     [ "MR::ProgressCallback", "group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710", null ],
     [ "MR::cropped", "group__BasicStructuresGroup.html#gaaa65eb4d7a6f3cf6b9682a32de1e0915", null ],
     [ "MR::fromVdb", "group__BasicStructuresGroup.html#ga218b14201bd57ed729188c171faf44b4", null ],
+    [ "MR::gaussianFilter", "group__BasicStructuresGroup.html#ga5124238a8f9f74cadab3bc8dcc4438e6", null ],
+    [ "MR::gaussianFiltered", "group__BasicStructuresGroup.html#gafc2d64e9f6eb7deafd50ee83fd764989", null ],
     [ "MR::getValue", "group__BasicStructuresGroup.html#ga4de97d8976ba9d3103b0d84d94214861", null ],
     [ "MR::heapBytes", "group__BasicStructuresGroup.html#ga0f1e6296451691269fc538aad8088557", null ],
     [ "MR::MakeFloatGrid", "group__BasicStructuresGroup.html#ga008386feb5f7364043e76dc51b8a0a9d", null ],

@@ -19,6 +19,7 @@ var classmrmeshpy_1_1std__vector__std__shared__ptr__Object =
     [ "append", "classmrmeshpy_1_1std__vector__std__shared__ptr__Object.html#ace9549e68df526fb02e4c482afd135a4", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__std__shared__ptr__Object.html#a2e54db954b901efaa2c5ac9f25ce93c8", null ],
     [ "count", "classmrmeshpy_1_1std__vector__std__shared__ptr__Object.html#aba62dd0b5134eb13a090e3a05c71d532", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__std__shared__ptr__Object.html#a04296dd6305c758b914d5236a43881be", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__std__shared__ptr__Object.html#a478c59a8216af5566f0214cccfe50675", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__std__shared__ptr__Object.html#a884f4dba01252bbabf6503891243875a", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__std__shared__ptr__Object.html#ac90e40e1658c274d13dd1e0211205c11", null ],

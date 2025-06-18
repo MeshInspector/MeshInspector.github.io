@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1IntrinsicDeloneSettings =
 [
     [ "__init__", "classmrmeshpy_1_1IntrinsicDeloneSettings.html#a5b252c6373d25663d82367d8387bcaab", null ],
-    [ "__init__", "classmrmeshpy_1_1IntrinsicDeloneSettings.html#ab943831fcd13bad9b0503f30f47958b1", null ],
     [ "__init__", "classmrmeshpy_1_1IntrinsicDeloneSettings.html#a66f45fd343a9598217b87486162edca9", null ],
     [ "notFlippable", "classmrmeshpy_1_1IntrinsicDeloneSettings.html#a3e8de5da8dc1b9c9c0d56e79200eb36e", null ],
     [ "notFlippable", "classmrmeshpy_1_1IntrinsicDeloneSettings.html#a059f73176048b63ddb6344b63e4ba89d", null ],

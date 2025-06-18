@@ -4,7 +4,6 @@ var classmrmeshpy_1_1VertMap =
     [ "__init__", "classmrmeshpy_1_1VertMap.html#a71d8a2db36749db938a59ec41110834a", null ],
     [ "__init__", "classmrmeshpy_1_1VertMap.html#adc717f1a8eb1a34bd70a7e144ec7605e", null ],
     [ "__init__", "classmrmeshpy_1_1VertMap.html#a9a4addccf3d77129c488e7c31585fc44", null ],
-    [ "__init__", "classmrmeshpy_1_1VertMap.html#a8875cf81423da255ae0be9f2d89ad0b6", null ],
     [ "__eq__", "classmrmeshpy_1_1VertMap.html#a6326c4f85f7acb158afbb297ad4e3958", null ],
     [ "__getitem__", "classmrmeshpy_1_1VertMap.html#a0f867b97e8e6ba4b784d7082ecf8f80a", null ],
     [ "__getitem__", "classmrmeshpy_1_1VertMap.html#a0f867b97e8e6ba4b784d7082ecf8f80a", null ],

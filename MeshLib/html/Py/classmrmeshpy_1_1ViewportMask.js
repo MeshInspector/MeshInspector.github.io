@@ -3,7 +3,6 @@ var classmrmeshpy_1_1ViewportMask =
     [ "__init__", "classmrmeshpy_1_1ViewportMask.html#a3ddd00f0f9c4adda32ce14e36ef263fd", null ],
     [ "__init__", "classmrmeshpy_1_1ViewportMask.html#a1be45ad24999badfb69a88bbc9e08420", null ],
     [ "__init__", "classmrmeshpy_1_1ViewportMask.html#afdf096ab7446a6d5c046c559bd31524f", null ],
-    [ "__init__", "classmrmeshpy_1_1ViewportMask.html#afd97023b53b38c1b8272353f4363fcb3", null ],
     [ "__and__", "classmrmeshpy_1_1ViewportMask.html#a69dc0e81397eb4a745fba709e73a632e", null ],
     [ "__eq__", "classmrmeshpy_1_1ViewportMask.html#a74306d5b05f17a4ca8e4d4f92fb9ecde", null ],
     [ "__iand__", "classmrmeshpy_1_1ViewportMask.html#a7fbcb8e5e0f8967d6bab4168bdd8b4cc", null ],

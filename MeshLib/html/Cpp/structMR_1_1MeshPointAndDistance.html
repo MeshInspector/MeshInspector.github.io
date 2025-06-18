@@ -164,22 +164,91 @@ $(function(){initNavTree('structMR_1_1MeshPointAndDistance.html',''); initResiza
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:ac102c7f872739c407d7b1cd4e2d6ac1c" id="r_ac102c7f872739c407d7b1cd4e2d6ac1c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac102c7f872739c407d7b1cd4e2d6ac1c">bidirDist</a> () const</td></tr>
+<tr class="memdesc:ac102c7f872739c407d7b1cd4e2d6ac1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">bidirectional distance from input location to mtp considering point's weight  <br /></td></tr>
+<tr class="separator:ac102c7f872739c407d7b1cd4e2d6ac1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d5b1deffdaf0a9520c4eb1bd4664877" id="r_a4d5b1deffdaf0a9520c4eb1bd4664877"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d5b1deffdaf0a9520c4eb1bd4664877">dist</a> () const</td></tr>
+<tr class="separator:a4d5b1deffdaf0a9520c4eb1bd4664877"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac15e1542a970638bdb13b4eb80bdd3e4" id="r_ac15e1542a970638bdb13b4eb80bdd3e4"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac15e1542a970638bdb13b4eb80bdd3e4">operator&lt;=&gt;</a> (const <a class="el" href="structMR_1_1MeshPointAndDistance.html">MeshPointAndDistance</a> &amp;other) const</td></tr>
+<tr class="memdesc:ac15e1542a970638bdb13b4eb80bdd3e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">comparison telling which point is closer to the location  <br /></td></tr>
+<tr class="separator:ac15e1542a970638bdb13b4eb80bdd3e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf36a93304ddd8624d26589cec96401f" id="r_adf36a93304ddd8624d26589cec96401f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf36a93304ddd8624d26589cec96401f">valid</a> () const</td></tr>
-<tr class="memdesc:adf36a93304ddd8624d26589cec96401f"><td class="mdescLeft">&#160;</td><td class="mdescRight">check for validity, otherwise there is no point closer than maxDistance  <br /></td></tr>
+<tr class="memdesc:adf36a93304ddd8624d26589cec96401f"><td class="mdescLeft">&#160;</td><td class="mdescRight">check for validity, otherwise there is no point closer than maxBidirDist  <br /></td></tr>
 <tr class="separator:adf36a93304ddd8624d26589cec96401f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a656e490b9dc2a583eca217f757e6a1db" id="r_a656e490b9dc2a583eca217f757e6a1db"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a656e490b9dc2a583eca217f757e6a1db">operator bool</a> () const</td></tr>
 <tr class="separator:a656e490b9dc2a583eca217f757e6a1db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:a9b47aa3f3db622af71c97138bff74b58" id="r_a9b47aa3f3db622af71c97138bff74b58"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b47aa3f3db622af71c97138bff74b58">loc</a></td></tr>
+<tr class="memdesc:a9b47aa3f3db622af71c97138bff74b58"><td class="mdescLeft">&#160;</td><td class="mdescRight">point location  <br /></td></tr>
+<tr class="separator:a9b47aa3f3db622af71c97138bff74b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a758547372340f32380f76222e7c0b0" id="r_a1a758547372340f32380f76222e7c0b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a758547372340f32380f76222e7c0b0">mtp</a></td></tr>
-<tr class="memdesc:a1a758547372340f32380f76222e7c0b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">a point on mesh in barycentric representation  <br /></td></tr>
+<tr class="memdesc:a1a758547372340f32380f76222e7c0b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">the corresponding point on mesh in barycentric representation  <br /></td></tr>
 <tr class="separator:a1a758547372340f32380f76222e7c0b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa4413c1f201f2abb68e3c1f604e80cb" id="r_afa4413c1f201f2abb68e3c1f604e80cb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa4413c1f201f2abb68e3c1f604e80cb">dist</a> = 0</td></tr>
-<tr class="memdesc:afa4413c1f201f2abb68e3c1f604e80cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">the distance from input location to mtp considering point's weight  <br /></td></tr>
-<tr class="separator:afa4413c1f201f2abb68e3c1f604e80cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c13570c2b1fc9561e7b69f49e4a2096" id="r_a3c13570c2b1fc9561e7b69f49e4a2096"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c13570c2b1fc9561e7b69f49e4a2096">eucledeanDist</a> = 0</td></tr>
+<tr class="memdesc:a3c13570c2b1fc9561e7b69f49e4a2096"><td class="mdescLeft">&#160;</td><td class="mdescRight">euclidean distance from input location to mtp  <br /></td></tr>
+<tr class="separator:a3c13570c2b1fc9561e7b69f49e4a2096"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5063b9b09f75ea011d86233ae29a6ed7" id="r_a5063b9b09f75ea011d86233ae29a6ed7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5063b9b09f75ea011d86233ae29a6ed7">w</a> = 0</td></tr>
+<tr class="memdesc:a5063b9b09f75ea011d86233ae29a6ed7"><td class="mdescLeft">&#160;</td><td class="mdescRight">point's weight  <br /></td></tr>
+<tr class="separator:a5063b9b09f75ea011d86233ae29a6ed7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85df864c952f06e84cd510cdebc36a74" id="r_a85df864c952f06e84cd510cdebc36a74"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85df864c952f06e84cd510cdebc36a74">bidirectionalOrOutside</a> = true</td></tr>
+<tr class="separator:a85df864c952f06e84cd510cdebc36a74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac102c7f872739c407d7b1cd4e2d6ac1c" name="ac102c7f872739c407d7b1cd4e2d6ac1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac102c7f872739c407d7b1cd4e2d6ac1c">&#9670;&#160;</a></span>bidirDist()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::MeshPointAndDistance::bidirDist </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>bidirectional distance from input location to mtp considering point's weight </p>
+
+</div>
+</div>
+<a id="a4d5b1deffdaf0a9520c4eb1bd4664877" name="a4d5b1deffdaf0a9520c4eb1bd4664877"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d5b1deffdaf0a9520c4eb1bd4664877">&#9670;&#160;</a></span>dist()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::MeshPointAndDistance::dist </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>the distance from input location to mtp considering point's weight and location inside/outside; <a class="el" href="#a4d5b1deffdaf0a9520c4eb1bd4664877">dist()</a> is continuous function of location unlike innerDist(), which makes 2*weight jump if the location moves through the surface </p>
+
+</div>
+</div>
 <a id="a656e490b9dc2a583eca217f757e6a1db" name="a656e490b9dc2a583eca217f757e6a1db"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a656e490b9dc2a583eca217f757e6a1db">&#9670;&#160;</a></span>operator bool()</h2>
 
@@ -202,6 +271,33 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac15e1542a970638bdb13b4eb80bdd3e4" name="ac15e1542a970638bdb13b4eb80bdd3e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac15e1542a970638bdb13b4eb80bdd3e4">&#9670;&#160;</a></span>operator&lt;=&gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto MR::MeshPointAndDistance::operator&lt;=&gt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshPointAndDistance.html">MeshPointAndDistance</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>comparison telling which point is closer to the location </p>
 
 </div>
 </div>
@@ -228,24 +324,55 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>check for validity, otherwise there is no point closer than maxDistance </p>
+<p>check for validity, otherwise there is no point closer than maxBidirDist </p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="afa4413c1f201f2abb68e3c1f604e80cb" name="afa4413c1f201f2abb68e3c1f604e80cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa4413c1f201f2abb68e3c1f604e80cb">&#9670;&#160;</a></span>dist</h2>
+<a id="a85df864c952f06e84cd510cdebc36a74" name="a85df864c952f06e84cd510cdebc36a74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85df864c952f06e84cd510cdebc36a74">&#9670;&#160;</a></span>bidirectionalOrOutside</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float MR::MeshPointAndDistance::dist = 0</td>
+          <td class="memname">bool MR::MeshPointAndDistance::bidirectionalOrOutside = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>either 1) bidirectional distances are computed, or 2) input location is locally outside of the surface (by pseudonormal) used for optimization </p>
+
+</div>
+</div>
+<a id="a3c13570c2b1fc9561e7b69f49e4a2096" name="a3c13570c2b1fc9561e7b69f49e4a2096"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c13570c2b1fc9561e7b69f49e4a2096">&#9670;&#160;</a></span>eucledeanDist</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::MeshPointAndDistance::eucledeanDist = 0</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>the distance from input location to mtp considering point's weight </p>
+<p>euclidean distance from input location to mtp </p>
+
+</div>
+</div>
+<a id="a9b47aa3f3db622af71c97138bff74b58" name="a9b47aa3f3db622af71c97138bff74b58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b47aa3f3db622af71c97138bff74b58">&#9670;&#160;</a></span>loc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3f MR::MeshPointAndDistance::loc</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>point location </p>
 
 </div>
 </div>
@@ -261,7 +388,23 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>a point on mesh in barycentric representation </p>
+<p>the corresponding point on mesh in barycentric representation </p>
+
+</div>
+</div>
+<a id="a5063b9b09f75ea011d86233ae29a6ed7" name="a5063b9b09f75ea011d86233ae29a6ed7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5063b9b09f75ea011d86233ae29a6ed7">&#9670;&#160;</a></span>w</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::MeshPointAndDistance::w = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>point's weight </p>
 
 </div>
 </div>
@@ -274,7 +417,7 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="structMR_1_1MeshPointAndDistance.html">MeshPointAndDistance</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="structMR_1_1MeshPointAndDistance.html">MeshPointAndDistance</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

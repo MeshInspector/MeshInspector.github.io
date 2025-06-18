@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1MakeBridgeResult =
 [
     [ "__init__", "classmrmeshpy_1_1MakeBridgeResult.html#a4daae35c186a7f1ea680b2a1978e04f4", null ],
-    [ "__init__", "classmrmeshpy_1_1MakeBridgeResult.html#aacec4b8d649d564181441bd1c335a734", null ],
     [ "__init__", "classmrmeshpy_1_1MakeBridgeResult.html#a51c2753e8511ee8eef6a9f7cc008dda7", null ],
     [ "__bool__", "classmrmeshpy_1_1MakeBridgeResult.html#a399642ff857e108850dea4815b49bd3f", null ],
     [ "na", "classmrmeshpy_1_1MakeBridgeResult.html#a7996d3bfc5cfb358ba942b66a5a4f0a7", null ],

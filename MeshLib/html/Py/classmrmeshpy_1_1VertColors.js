@@ -4,7 +4,6 @@ var classmrmeshpy_1_1VertColors =
     [ "__init__", "classmrmeshpy_1_1VertColors.html#a5f3c72101f9dad2bee86a2e2eb57a21f", null ],
     [ "__init__", "classmrmeshpy_1_1VertColors.html#a10a5b42268e9f66a4f5b1aeb51320abf", null ],
     [ "__init__", "classmrmeshpy_1_1VertColors.html#add9aebe3faf4c232b1dfddf9ee41cdfa", null ],
-    [ "__init__", "classmrmeshpy_1_1VertColors.html#a6f6b65fc8ca58ca24974c2a552e58309", null ],
     [ "__eq__", "classmrmeshpy_1_1VertColors.html#af8e8f7a9a68227876dbef5a27c90036c", null ],
     [ "__getitem__", "classmrmeshpy_1_1VertColors.html#ad9f67c53e579f3fd8393414e5c558828", null ],
     [ "__getitem__", "classmrmeshpy_1_1VertColors.html#ad9f67c53e579f3fd8393414e5c558828", null ],

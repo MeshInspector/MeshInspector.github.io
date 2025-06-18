@@ -14,6 +14,7 @@ var classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTa
     [ "__setitem__", "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vector2__float.html#ad027680500e614cf6014cec9e9798565", null ],
     [ "append", "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vector2__float.html#a77385fb8181a906b75c0921e3b9cfd94", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vector2__float.html#a26e68da2cef19422eedafb11d7d1a2b2", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vector2__float.html#a63bf1407a19a81f378cb37e29677872e", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vector2__float.html#ad8a0acc007d2323fcbf07759597a5a53", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vector2__float.html#a92826bb9a7747c73df5b22fcec9e1320", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vector2__float.html#a557f018811c05ffeea8edbd584c798dd", null ],

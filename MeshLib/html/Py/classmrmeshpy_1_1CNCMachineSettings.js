@@ -2,7 +2,6 @@ var classmrmeshpy_1_1CNCMachineSettings =
 [
     [ "RotationAxisName", "classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html", "classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName" ],
     [ "__init__", "classmrmeshpy_1_1CNCMachineSettings.html#a8e36a1917ef1c963af5df577d36df723", null ],
-    [ "__init__", "classmrmeshpy_1_1CNCMachineSettings.html#a300349a2ea153b9281ae08e257621e11", null ],
     [ "__eq__", "classmrmeshpy_1_1CNCMachineSettings.html#a9887638126755af3ff7e31b8702371ea", null ],
     [ "__ne__", "classmrmeshpy_1_1CNCMachineSettings.html#ac1aeb121f646d7b24e7972c8f4506d0a", null ],
     [ "getFeedrateIdle", "classmrmeshpy_1_1CNCMachineSettings.html#a49bb19ca0be0a64000c0edeb5a38856b", null ],

@@ -149,9 +149,23 @@ var group__AABBTreeGroup =
       [ "edge", "structMR_1_1EdgeTri.html#a75d3cbfc185bb135fa0ecacfa0eea64e", null ],
       [ "tri", "structMR_1_1EdgeTri.html#ad73baa8260912b59b30536da0cb50318", null ]
     ] ],
-    [ "MR::PreciseCollisionResult", "structMR_1_1PreciseCollisionResult.html", [
-      [ "edgesAtrisB", "structMR_1_1PreciseCollisionResult.html#ad604bf35dc957a8d01733d58d9704ba2", null ],
-      [ "edgesBtrisA", "structMR_1_1PreciseCollisionResult.html#a9b010a738a4b9a8757b61838ce33e92f", null ]
+    [ "MR::VarEdgeTri", "structMR_1_1VarEdgeTri.html", [
+      [ "FlaggedTri", "structMR_1_1VarEdgeTri_1_1FlaggedTri.html", [
+        [ "operator==", "structMR_1_1VarEdgeTri_1_1FlaggedTri.html#a408a18646248d1d57deb6e7546ec9716", null ],
+        [ "face", "structMR_1_1VarEdgeTri_1_1FlaggedTri.html#aa5ab2cbeb1b2f73ba9d3a268be384ace", null ],
+        [ "isEdgeATriB", "structMR_1_1VarEdgeTri_1_1FlaggedTri.html#a29688551fde640070c748b997eddb5ab", null ]
+      ] ],
+      [ "VarEdgeTri", "structMR_1_1VarEdgeTri.html#a9823b1d64efd1d93070b51f01ffa10c6", null ],
+      [ "VarEdgeTri", "structMR_1_1VarEdgeTri.html#ab11feb222ecdf219d714ed2b9b058ec6", null ],
+      [ "VarEdgeTri", "structMR_1_1VarEdgeTri.html#a959f88d5011716b91abacd8e5b6d357c", null ],
+      [ "edgeTri", "structMR_1_1VarEdgeTri.html#a2845a94e12c71150e5cc22e2c03a027d", null ],
+      [ "isEdgeATriB", "structMR_1_1VarEdgeTri.html#a33184180e0f7658211800f7ad3720833", null ],
+      [ "operator bool", "structMR_1_1VarEdgeTri.html#a0b24a1fdcebee2cef32bf0884f9625fc", null ],
+      [ "operator==", "structMR_1_1VarEdgeTri.html#a5f818bf5f96cbe4b5c899d56e9185ce6", null ],
+      [ "tri", "structMR_1_1VarEdgeTri.html#adf3bb4f9a10426c166bd866f89ddf797", null ],
+      [ "valid", "structMR_1_1VarEdgeTri.html#a8e7c3895e3226b4e74de73d21cd4c4ad", null ],
+      [ "edge", "structMR_1_1VarEdgeTri.html#a40285e5911c3efc0fdba9474bce8129a", null ],
+      [ "flaggedTri", "structMR_1_1VarEdgeTri.html#a9ff04d23bee5568116250292fe986af6", null ]
     ] ],
     [ "MR::MeshIntersectionResult", "structMR_1_1MeshIntersectionResult.html", [
       [ "operator bool", "structMR_1_1MeshIntersectionResult.html#a35b9064f7ab7e270307559622c3ec903", null ],
@@ -164,7 +178,7 @@ var group__AABBTreeGroup =
       [ "isectBary", "structMR_1_1MultiRayMeshIntersectResult.html#abe24325f915016d19bbaa021b7acdf15", null ],
       [ "isectFaces", "structMR_1_1MultiRayMeshIntersectResult.html#ab49b37818f779af102184978ebe758fc", null ],
       [ "isectPts", "structMR_1_1MultiRayMeshIntersectResult.html#a7455a93722a7e3da39f0baacdfb67c00", null ],
-      [ "rayParams", "structMR_1_1MultiRayMeshIntersectResult.html#a30ea67fa78a1fc789771c27d5d7d4868", null ]
+      [ "rayDistances", "structMR_1_1MultiRayMeshIntersectResult.html#a9a3654ac0ded1bdf4d07ac43e5c5e085", null ]
     ] ],
     [ "MR::MultiMeshIntersectionResult", "structMR_1_1MultiMeshIntersectionResult.html", [
       [ "mesh", "structMR_1_1MultiMeshIntersectionResult.html#af09308818e602f745c2bfb1144b73980", null ]
@@ -233,6 +247,9 @@ var group__AABBTreeGroup =
       [ "line", "structMR_1_1PolylineProjectionResult.html#a575d694a03d4903a8b460aeba47cfe1c", null ],
       [ "point", "structMR_1_1PolylineProjectionResult.html#a954df3a650cf8eeea5e253acae8126bd", null ]
     ] ],
+    [ "MR::PolylineProjectionResult3Arg", "structMR_1_1PolylineProjectionResult3Arg.html", [
+      [ "pointId", "structMR_1_1PolylineProjectionResult3Arg.html#a2cf18e52c58f017c162f7f60ad2c514e", null ]
+    ] ],
     [ "MR::PolylineProjectionWithOffsetResult< V >", "structMR_1_1PolylineProjectionWithOffsetResult.html", [
       [ "dist", "structMR_1_1PolylineProjectionWithOffsetResult.html#af9b6fe85013195dcada09f829b2c552d", null ],
       [ "line", "structMR_1_1PolylineProjectionWithOffsetResult.html#a11d0a9e4090b200e7152c1d2000db9c3", null ],
@@ -272,6 +289,7 @@ var group__AABBTreeGroup =
     [ "MR::LineTreeTraits2", "group__AABBTreeGroup.html#ga346d2e7774495e3e4ca05a2325f11aaf", null ],
     [ "MR::LineTreeTraits3", "group__AABBTreeGroup.html#gacf6e57b5e87718397acc1762969ad77a", null ],
     [ "MR::MeshIntersectionCallback", "group__AABBTreeGroup.html#gac20cf6ba073a7db1e2df313fb87d9517", null ],
+    [ "MR::PreciseCollisionResult", "group__AABBTreeGroup.html#ga457b7bb3a129cf50a82586b670a93148", null ],
     [ "MR::TriangleCallback", "group__AABBTreeGroup.html#ga285ea5cd9fb638c90fec0099f526c057", null ],
     [ "MR::ProcessOneResult", "group__AABBTreeGroup.html#ga3dd2fd9fcc06b6502d22a9ea3eb63e47", [
       [ "MR::ProcessOneResult::StopProcessing", "group__AABBTreeGroup.html#gga3dd2fd9fcc06b6502d22a9ea3eb63e47a38e59feb928e37292c8ee0a50f447612", null ],
@@ -300,6 +318,7 @@ var group__AABBTreeGroup =
     [ "MR::findFewClosestPoints", "group__AABBTreeGroup.html#ga5b2c2b50e8b1835a53ac746d5da87b54", null ],
     [ "MR::findMaxDistanceSq", "group__AABBTreeGroup.html#ga3672072155e3f272d13a40ccd4645d02", null ],
     [ "MR::findMaxDistanceSqOneWay", "group__AABBTreeGroup.html#ga375d9c9dcfb1fd7d9a254a73370d71ba", null ],
+    [ "MR::findMaxProjectionOnPolyline", "group__AABBTreeGroup.html#ga491ccc452b2d068da6ce82aaebcd5372", null ],
     [ "MR::findMaxVectorDim", "group__AABBTreeGroup.html#ga562052fddd56327be07ffe8c0cc7f7af", null ],
     [ "MR::findMaxVectorDim", "group__AABBTreeGroup.html#ga7fcb33a674ea8b57ac858e40d42e26e3", null ],
     [ "MR::findMeshEdgesInBall", "group__AABBTreeGroup.html#ga50911249a881bd7365929503c138d8fa", null ],
@@ -316,6 +335,7 @@ var group__AABBTreeGroup =
     [ "MR::findProjection", "group__AABBTreeGroup.html#gaa20d785f3f82fad58fb659bc0009563d", null ],
     [ "MR::findProjectionOnMeshEdges", "group__AABBTreeGroup.html#gaccdf7712b3c2bc175e4b09aae138aa40", null ],
     [ "MR::findProjectionOnMeshEdges", "group__AABBTreeGroup.html#ga64c37b9a7a04aa567390955a50891b57", null ],
+    [ "MR::findProjectionOnPoints", "group__AABBTreeGroup.html#gabc2ddddc1d6fae40b8efc80cc28d123a", null ],
     [ "MR::findProjectionOnPoints", "group__AABBTreeGroup.html#ga8a9ede35586c7db2c8ab59c42bcd6b7d", null ],
     [ "MR::findProjectionOnPolyline", "group__AABBTreeGroup.html#gaa484a0628a7ac3858cd590589687141c", null ],
     [ "MR::findProjectionOnPolyline", "group__AABBTreeGroup.html#ga5e71a300face382a26ba8596d9b19820", null ],

@@ -22,6 +22,7 @@ var dir_ae78f784ae402f48d875196e46319a59 =
     [ "MRMeshSubdivide.h", "MRTestC_2MRMeshSubdivide_8h.html", "MRTestC_2MRMeshSubdivide_8h" ],
     [ "MRMeshTopology.h", "MRTestC_2MRMeshTopology_8h.html", "MRTestC_2MRMeshTopology_8h" ],
     [ "MRPointCloud.h", "MRTestC_2MRPointCloud_8h.html", "MRTestC_2MRPointCloud_8h" ],
+    [ "MRPointsToMeshProjector.h", "MRTestC_2MRPointsToMeshProjector_8h.html", "MRTestC_2MRPointsToMeshProjector_8h" ],
     [ "MRVDBConversions.h", "MRTestC_2MRVDBConversions_8h.html", "MRTestC_2MRVDBConversions_8h" ],
     [ "MRVector3.h", "MRTestC_2MRVector3_8h.html", "MRTestC_2MRVector3_8h" ],
     [ "SimpleObjects.h", "SimpleObjects_8h.html", "SimpleObjects_8h" ],

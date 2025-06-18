@@ -14,6 +14,7 @@ var classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__f
     [ "__setitem__", "classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element.html#a8aa0c03048b15dbbd45075a3d73ca3f5", null ],
     [ "append", "classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element.html#afc22f8889f5e97b5a8c5535864ba31ea", null ],
     [ "clear", "classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element.html#a2dfea403124c7212e5b33c2091cd4fd8", null ],
+    [ "data_pointer", "classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element.html#ac29b70a951bffc342a6999f985dc449d", null ],
     [ "empty", "classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element.html#a3924a5c8746e14910c60bafada8d7e87", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element.html#aede7af4600273c7f7b8e8b3a7aa9bf58", null ],
     [ "extend", "classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element.html#a254578b71f9e23714cee479c1c288d48", null ],
