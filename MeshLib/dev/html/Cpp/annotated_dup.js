@@ -946,7 +946,6 @@ var annotated_dup =
       [ "ViewportGL", "classMR_1_1ViewportGL.html", "classMR_1_1ViewportGL" ],
       [ "ViewportId", "classMR_1_1ViewportId.html", "classMR_1_1ViewportId" ],
       [ "ViewportIterator", "classMR_1_1ViewportIterator.html", "classMR_1_1ViewportIterator" ],
-      [ "ViewportLinesWithColors", "structMR_1_1ViewportLinesWithColors.html", "structMR_1_1ViewportLinesWithColors" ],
       [ "ViewportMask", "classMR_1_1ViewportMask.html", "classMR_1_1ViewportMask" ],
       [ "ViewportParametersAction", "classMR_1_1ViewportParametersAction.html", "classMR_1_1ViewportParametersAction" ],
       [ "ViewportPointsWithColors", "structMR_1_1ViewportPointsWithColors.html", "structMR_1_1ViewportPointsWithColors" ],

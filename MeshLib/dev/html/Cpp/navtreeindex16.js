@@ -213,9 +213,8 @@ var NAVTREEINDEX16 =
 "MRViewportCornerController_8h.html#ae5e9489254b51988519548546f68914a":[6,0,3,0,0,1,10,145,8],
 "MRViewportCornerController_8h_source.html":[6,0,3,0,0,1,10,145],
 "MRViewportGL_8h.html":[6,0,3,0,0,1,10,146],
-"MRViewportGL_8h.html#a063c104022f7dee6a63efd4b129f4779":[6,0,3,0,0,1,10,146,10],
-"MRViewportGL_8h.html#a1d373c7805aa607ceab34f611207120c":[6,0,3,0,0,1,10,146,8],
-"MRViewportGL_8h.html#ad6132828de807e2a186015c0e53b45cf":[6,0,3,0,0,1,10,146,9],
+"MRViewportGL_8h.html#a063c104022f7dee6a63efd4b129f4779":[6,0,3,0,0,1,10,146,8],
+"MRViewportGL_8h.html#a1d373c7805aa607ceab34f611207120c":[6,0,3,0,0,1,10,146,7],
 "MRViewportGL_8h_source.html":[6,0,3,0,0,1,10,146],
 "MRViewportId_8h.html":[6,0,3,0,0,1,4,396],
 "MRViewportId_8h_source.html":[6,0,3,0,0,1,4,396],
@@ -249,5 +248,6 @@ var NAVTREEINDEX16 =
 "MRVolumeSegment_8h.html":[6,0,3,0,0,1,11,32],
 "MRVolumeSegment_8h_source.html":[6,0,3,0,0,1,11,32],
 "MRVolumeShader_8h.html":[6,0,3,0,0,1,10,149],
-"MRVolumeShader_8h.html#a3e9889db672284199460d483317d72a2":[6,0,3,0,0,1,10,149,0]
+"MRVolumeShader_8h.html#a3e9889db672284199460d483317d72a2":[6,0,3,0,0,1,10,149,0],
+"MRVolumeShader_8h.html#a5a4a33e29777a43598f7c8536ddd3b5f":[6,0,3,0,0,1,10,149,1]
 };

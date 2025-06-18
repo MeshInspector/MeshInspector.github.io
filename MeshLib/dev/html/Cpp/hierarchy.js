@@ -1348,7 +1348,6 @@ var hierarchy =
     [ "MR::ViewportGL", "classMR_1_1ViewportGL.html", null ],
     [ "MR::ViewportId", "classMR_1_1ViewportId.html", null ],
     [ "MR::ViewportIterator", "classMR_1_1ViewportIterator.html", null ],
-    [ "MR::ViewportLinesWithColors", "structMR_1_1ViewportLinesWithColors.html", null ],
     [ "MR::ViewportMask", "classMR_1_1ViewportMask.html", null ],
     [ "MR::ViewportPointsWithColors", "structMR_1_1ViewportPointsWithColors.html", null ],
     [ "MR::ViewportProperty< T >", "classMR_1_1ViewportProperty.html", null ],

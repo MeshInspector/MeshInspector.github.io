@@ -1,6 +1,5 @@
 var NAVTREEINDEX18 =
 {
-"classMR_1_1AABBTreePolyline.html#a82f5feeca891be31840c7bba4a85cb1a":[6,0,0,1,11,4],
 "classMR_1_1AABBTreePolyline.html#a86c6f6500ab7a1df6e7bf30cab730bc3":[6,0,0,1,11,2],
 "classMR_1_1AABBTreePolyline.html#aaf1c13f7909dc226ed6e0a332e61ba4c":[6,0,0,1,11,3],
 "classMR_1_1AABBTreePolyline.html#ac9462890b338f7d6d0455c3137f6a48b":[6,0,0,1,11,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX18 =
 "classMR_1_1Buffer.html#a40bf924b784b4438431f70517b950d70":[6,0,0,3,6,19],
 "classMR_1_1Buffer.html#a41da905f71d8b9c53aa517dae7af261a":[6,0,0,3,6,11],
 "classMR_1_1Buffer.html#a5b6a0d86e31b5f12076c72778352a6a8":[6,0,0,3,6,4],
-"classMR_1_1Buffer.html#a639284e16d0d26e25ac330e5e04651ca":[6,0,0,3,6,13]
+"classMR_1_1Buffer.html#a639284e16d0d26e25ac330e5e04651ca":[6,0,0,3,6,13],
+"classMR_1_1Buffer.html#a68a63a004e6c105cbf0daf5ec4b1ec96":[6,0,0,3,6,12]
 };

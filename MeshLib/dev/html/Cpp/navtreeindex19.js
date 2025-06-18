@@ -1,6 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"classMR_1_1Buffer.html#a68a63a004e6c105cbf0daf5ec4b1ec96":[6,0,0,3,6,12],
 "classMR_1_1Buffer.html#a6fa2be8099e8b9ba78c8a4ca991103be":[6,0,0,3,6,8],
 "classMR_1_1Buffer.html#a7351432c6f65b963c17560ef8054076c":[6,0,0,3,6,15],
 "classMR_1_1Buffer.html#a9db6d53dd2501eb585f56eb189af4340":[6,0,0,3,6,17],
@@ -249,5 +248,6 @@ var NAVTREEINDEX19 =
 "classMR_1_1ChangeObjectSelectedAction.html#aace3c2763b5625fb8eea898a21f5fc26":[6,0,0,4,14,3],
 "classMR_1_1ChangeObjectSelectedAction.html#ae709358ae5d269b3ef15942ba7ccea30":[6,0,0,4,14,5],
 "classMR_1_1ChangeObjectVisibilityAction.html":[6,0,0,4,15],
-"classMR_1_1ChangeObjectVisibilityAction.html#a037473fbea41f9ad41ed74351f148e01":[6,0,0,4,15,4]
+"classMR_1_1ChangeObjectVisibilityAction.html#a037473fbea41f9ad41ed74351f148e01":[6,0,0,4,15,4],
+"classMR_1_1ChangeObjectVisibilityAction.html#a4227858b5c82b2cf9ad2aec611a17f65":[6,0,0,4,15,2]
 };
