@@ -1,5 +1,6 @@
 var NAVTREEINDEX52 =
 {
+"globals_vars.html":[6,0,3,1,2],
 "group__AABBTreeGroup.html":[6,0,0,1],
 "group__AABBTreeGroup.html#ga01c75e3c26967a90edbe075a77cb2ca9":[6,0,0,1,37],
 "group__AABBTreeGroup.html#ga025c593a83827d6bf51e5df0acd27db5":[6,0,0,1,64],
@@ -248,6 +249,5 @@ var NAVTREEINDEX52 =
 "group__BoxGroup.html#gab7e63d12c29922a0bc2a53683789c03f":[6,0,0,0,2,7],
 "group__BoxGroup.html#gae1a724a1801d1bf348bf471329645cf3":[6,0,0,0,2,10],
 "group__ComponentsGroup.html":[6,0,0,19],
-"group__ComponentsGroup.html#ga2c677b8145a12d5f3bfba158ff3e719d":[6,0,0,19,4],
-"group__ComponentsGroup.html#ga4e45c9f9a413927f7c08c3cd1062d8b3":[6,0,0,19,7]
+"group__ComponentsGroup.html#ga2c677b8145a12d5f3bfba158ff3e719d":[6,0,0,19,4]
 };

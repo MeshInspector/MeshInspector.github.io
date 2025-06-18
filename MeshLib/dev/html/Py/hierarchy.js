@@ -1306,6 +1306,7 @@ var hierarchy =
     [ "mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html", null ],
     [ "mrmeshpy.Vector_Vector_Vector_ICPGroupPairs_Id_ICPElemtTag_Id_ICPElemtTag_int", "classmrmeshpy_1_1Vector__Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag__int.html", null ],
     [ "mrmeshpy.Vector_VertBitSet_ObjId", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html", null ],
+    [ "mrmeshpy.Vector_VertId_Id_EdgeTag", "classmrmeshpy_1_1Vector__VertId__Id__EdgeTag.html", null ],
     [ "mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html", null ],
     [ "mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId", "classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html", null ],
     [ "mrmeshpy.Vert2RegionMap", "classmrmeshpy_1_1Vert2RegionMap.html", null ],

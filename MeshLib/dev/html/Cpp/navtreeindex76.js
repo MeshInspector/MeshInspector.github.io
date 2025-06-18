@@ -1,5 +1,6 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1Matrix4.html#ade24a44c56ddf3dabd01ce465b8db576":[6,0,0,0,7,3,2],
 "structMR_1_1Matrix4.html#ae14dd0c11d00774b57b26477176eaf75":[6,0,0,0,7,3,9],
 "structMR_1_1Matrix4.html#ae657a1e89e13302d7d15a7d02d90a08e":[6,0,0,0,7,3,40],
 "structMR_1_1Matrix4.html#ae7db341476ea39c09db9484ee3516d8a":[6,0,0,0,7,3,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1MeshBuilder_1_1VertDuplication.html#a304fd55bb8ea2a456b8fdf00cce9e14c":[6,0,2,0,1,8,5,0],
 "structMR_1_1MeshBuilder_1_1VertDuplication.html#af11c3a7954be62b84ca6ea3b824ec5a6":[6,0,1,0,1,16,5,1],
 "structMR_1_1MeshBuilder_1_1VertDuplication.html#af11c3a7954be62b84ca6ea3b824ec5a6":[6,0,2,0,1,8,5,1],
-"structMR_1_1MeshBuilder_1_1VertSpan.html":[6,0,1,0,1,16,7],
-"structMR_1_1MeshBuilder_1_1VertSpan.html":[6,0,2,0,1,8,7]
+"structMR_1_1MeshBuilder_1_1VertSpan.html":[6,0,1,0,1,16,7]
 };

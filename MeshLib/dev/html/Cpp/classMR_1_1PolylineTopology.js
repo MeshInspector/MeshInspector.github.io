@@ -18,6 +18,7 @@ var classMR_1_1PolylineTopology =
     [ "edgeWithOrg", "classMR_1_1PolylineTopology.html#a2ebdc3893e2fbb0963c302c1361dfe3b", null ],
     [ "findEdge", "classMR_1_1PolylineTopology.html#a545252ec8468378f5bc6f71e18ccaad9", null ],
     [ "flip", "classMR_1_1PolylineTopology.html#a712f0d64d5d5c5700ab29936be4bf517", null ],
+    [ "getOrgs", "classMR_1_1PolylineTopology.html#aac8bb7a1725feb34f6a12bf8e0cb0acb", null ],
     [ "getPathVertices", "classMR_1_1PolylineTopology.html#ab361c486e12e092c48559ed3d5a079db", null ],
     [ "getValidVerts", "classMR_1_1PolylineTopology.html#a3ec7d95cc6120617767536b8705d3ee6", null ],
     [ "getVertDegree", "classMR_1_1PolylineTopology.html#a00b86f230a493bc0dcb16c0ce361c5d0", null ],

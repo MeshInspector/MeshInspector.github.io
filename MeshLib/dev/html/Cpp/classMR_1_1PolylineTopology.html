@@ -222,6 +222,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a838e6a01b85575bf999c154f00ba9a90" id="r_a838e6a01b85575bf999c154f00ba9a90"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; EdgeId, VertId &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a838e6a01b85575bf999c154f00ba9a90">edgePerVertex</a> () const</td></tr>
 <tr class="memdesc:a838e6a01b85575bf999c154f00ba9a90"><td class="mdescLeft">&#160;</td><td class="mdescRight">for all valid vertices this vector contains an edge with the origin there  <br /></td></tr>
 <tr class="separator:a838e6a01b85575bf999c154f00ba9a90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac8bb7a1725feb34f6a12bf8e0cb0acb" id="r_aac8bb7a1725feb34f6a12bf8e0cb0acb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; VertId, EdgeId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac8bb7a1725feb34f6a12bf8e0cb0acb">getOrgs</a> () const</td></tr>
+<tr class="memdesc:aac8bb7a1725feb34f6a12bf8e0cb0acb"><td class="mdescLeft">&#160;</td><td class="mdescRight">for all edges this vector contains its origin  <br /></td></tr>
+<tr class="separator:aac8bb7a1725feb34f6a12bf8e0cb0acb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ebdc3893e2fbb0963c302c1361dfe3b" id="r_a2ebdc3893e2fbb0963c302c1361dfe3b"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ebdc3893e2fbb0963c302c1361dfe3b">edgeWithOrg</a> (VertId a) const</td></tr>
 <tr class="memdesc:a2ebdc3893e2fbb0963c302c1361dfe3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns valid edge if given vertex is present in the mesh  <br /></td></tr>
 <tr class="separator:a2ebdc3893e2fbb0963c302c1361dfe3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -773,6 +776,33 @@ template&lt;typename T , typename F &gt; </div>
 </div><div class="memdoc">
 
 <p>changes the orientation of all edges: every edge e is replaced with e.sym() </p>
+
+</div>
+</div>
+<a id="aac8bb7a1725feb34f6a12bf8e0cb0acb" name="aac8bb7a1725feb34f6a12bf8e0cb0acb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac8bb7a1725feb34f6a12bf8e0cb0acb">&#9670;&#160;</a></span>getOrgs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; VertId, EdgeId &gt; MR::PolylineTopology::getOrgs </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>for all edges this vector contains its origin </p>
 
 </div>
 </div>

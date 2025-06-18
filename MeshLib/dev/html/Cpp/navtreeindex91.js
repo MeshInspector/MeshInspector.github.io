@@ -1,5 +1,6 @@
 var NAVTREEINDEX91 =
 {
+"structMR_1_1WeightedVertex.html#a1208b58be6e320fd52f5e5a18d6c5760":[6,0,2,0,1,790,1],
 "structMR_1_1WeightedVertex.html#a2f8953ff5552fb2b6756a483ef480790":[6,0,1,0,1,806,0],
 "structMR_1_1WeightedVertex.html#a2f8953ff5552fb2b6756a483ef480790":[6,0,2,0,1,790,0],
 "structMR_1_1Writer.html":[6,0,1,0,1,807],

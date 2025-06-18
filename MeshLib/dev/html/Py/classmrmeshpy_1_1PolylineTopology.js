@@ -19,6 +19,7 @@ var classmrmeshpy_1_1PolylineTopology =
     [ "edgeWithOrg", "classmrmeshpy_1_1PolylineTopology.html#a5401060aaca8c17a972abd0f3f19efe0", null ],
     [ "findEdge", "classmrmeshpy_1_1PolylineTopology.html#a029f56b36d36ef6c0da7546c143b2180", null ],
     [ "flip", "classmrmeshpy_1_1PolylineTopology.html#a0c46030b6f2b69779d9bcb8b060b47e4", null ],
+    [ "getOrgs", "classmrmeshpy_1_1PolylineTopology.html#a68e89e1d969e22efa9c9d691513af489", null ],
     [ "getPathVertices", "classmrmeshpy_1_1PolylineTopology.html#aa9683e4bc05969f5b2259853858f7462", null ],
     [ "getValidVerts", "classmrmeshpy_1_1PolylineTopology.html#a0d20501d538a3542d374fbca94cb3c26", null ],
     [ "getVertDegree", "classmrmeshpy_1_1PolylineTopology.html#a33026a88cade021d46bdab4b16952782", null ],

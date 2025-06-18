@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"structMRFillHoleNicelyParams.html#adcc8aa46e3e2533a5f042a66491ddcc0":[6,0,2,0,18,6],
 "structMRFillHoleNicelyParams.html#af7f128fdb0b8ea8d308549a2112b4a02":[6,0,2,0,18,0],
 "structMRFillHoleParams.html":[6,0,2,0,19],
 "structMRFillHoleParams.html#a05da1169f27089c5a54676011f2c9e99":[6,0,2,0,19,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX65 =
 "structMRTriangulationParameters.html#ae637332b7b838628fa4fa13815c7969b":[6,0,2,0,63,5],
 "structMRUndirectedEdgeId.html":[6,0,2,0,65],
 "structMRUndirectedEdgeId.html#a802a45481fa4421b94eab5b7cfd396b6":[6,0,2,0,65,0],
-"structMRUniformSamplingSettings.html":[6,0,2,0,66],
-"structMRUniformSamplingSettings.html#a3661faaaac79fa783e93507d114aeea6":[6,0,2,0,66,2]
+"structMRUniformSamplingSettings.html":[6,0,2,0,66]
 };

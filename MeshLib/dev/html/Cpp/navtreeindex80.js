@@ -1,5 +1,6 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1OffsetParameters.html#abd9bbd0481fadc99967608720c11fee4":[6,0,2,0,1,446,2],
 "structMR_1_1OffsetParameters.html#ad18e4a01d5b80daf7231296013920c10":[6,0,1,0,1,462,4],
 "structMR_1_1OffsetParameters.html#ad18e4a01d5b80daf7231296013920c10":[6,0,2,0,1,446,4],
 "structMR_1_1OneMeshContour.html":[6,0,1,0,1,463],
@@ -248,6 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1PointAndDistance.html#a22d2548f25c23157315955c70584d502":[6,0,1,0,1,498,0],
 "structMR_1_1PointAndDistance.html#a22d2548f25c23157315955c70584d502":[6,0,2,0,1,482,0],
 "structMR_1_1PointAndDistance.html#a30b687a3ae4e9a8f1e2faf636e415f5c":[6,0,1,0,1,498,1],
-"structMR_1_1PointAndDistance.html#a30b687a3ae4e9a8f1e2faf636e415f5c":[6,0,2,0,1,482,1],
-"structMR_1_1PointAndDistance.html#a95a6c6e03ea27af92edfb720b51eb6cc":[6,0,1,0,1,498,2]
+"structMR_1_1PointAndDistance.html#a30b687a3ae4e9a8f1e2faf636e415f5c":[6,0,2,0,1,482,1]
 };

@@ -904,6 +904,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.Vector_Vector_Vector_ICPGroupPairs_Id_ICPElemtTag_Id_ICPElemtTag_int", "classmrmeshpy_1_1Vector__Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag__int.html", "classmrmeshpy_1_1Vector__Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag__int" ],
     [ "mrmeshpy.Vector_Vector_std_vector_ObjVertId_Id_ICPElemtTag_int", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int" ],
     [ "mrmeshpy.Vector_VertBitSet_ObjId", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html", "classmrmeshpy_1_1Vector__VertBitSet__ObjId" ],
+    [ "mrmeshpy.Vector_VertId_Id_EdgeTag", "classmrmeshpy_1_1Vector__VertId__Id__EdgeTag.html", "classmrmeshpy_1_1Vector__VertId__Id__EdgeTag" ],
     [ "mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId" ],
     [ "mrmeshpy.Vector_WatershedGraph_BdInfo_GraphEdgeId", "classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html", "classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId" ],
     [ "mrmeshpy.Vector_char_VertId", "classmrmeshpy_1_1Vector__char__VertId.html", "classmrmeshpy_1_1Vector__char__VertId" ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX51 =
 {
+"classMR_1_1WebRequest.html#a0d3236e9c137c50abba068fb721d8b6a":[6,0,2,0,1,789,8],
 "classMR_1_1WebRequest.html#a127ff4863cb6f49573d3d843b9dbcf60":[6,0,1,0,1,805,3],
 "classMR_1_1WebRequest.html#a127ff4863cb6f49573d3d843b9dbcf60":[6,0,2,0,1,789,3],
 "classMR_1_1WebRequest.html#a156f2336044553b04244d55aa0275975":[6,0,1,0,1,805,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX51 =
 "globals_s.html":[6,0,3,1,0,15],
 "globals_t.html":[6,0,3,1,0,16],
 "globals_type.html":[6,0,3,1,3],
-"globals_v.html":[6,0,3,1,0,17],
-"globals_vars.html":[6,0,3,1,2]
+"globals_v.html":[6,0,3,1,0,17]
 };
