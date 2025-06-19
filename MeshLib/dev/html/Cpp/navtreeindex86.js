@@ -1,5 +1,9 @@
 var NAVTREEINDEX86 =
 {
+"structMR_1_1SymMatrix3.html#a58d4310ad87b99b94d1bea2f1059484b":[6,0,0,0,7,5,15],
+"structMR_1_1SymMatrix3.html#a598c8556717d9cf45eab493d1801dee5":[6,0,0,0,7,5,1],
+"structMR_1_1SymMatrix3.html#a607435c965ee7d4fabb2f1a0c7b779f2":[6,0,0,0,7,5,17],
+"structMR_1_1SymMatrix3.html#a67770e5a0f61e735f7d0ee98feb063d2":[6,0,0,0,7,5,4],
 "structMR_1_1SymMatrix3.html#a6ebdff1e289a9153c5bef3e6a7683b25":[6,0,0,0,7,5,23],
 "structMR_1_1SymMatrix3.html#a7ea2ac738a97ccd6c1480da40d655c52":[6,0,0,0,7,5,10],
 "structMR_1_1SymMatrix3.html#a8d70252193181da8d5d1a8cd1393d59d":[6,0,0,0,7,5,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX86 =
 "structMR_1_1TouchpadRotateGestureUpdateListener.html#a1543608250b47eb5f6a2545ff3cb0d5a":[6,0,2,0,1,701,1],
 "structMR_1_1TouchpadRotateGestureUpdateListener.html#a24ed3f7e2ae56c6df5adc3606fb0ec7e":[6,0,1,0,1,717,3],
 "structMR_1_1TouchpadRotateGestureUpdateListener.html#a24ed3f7e2ae56c6df5adc3606fb0ec7e":[6,0,2,0,1,701,3],
-"structMR_1_1TouchpadRotateGestureUpdateListener.html#a4a6459f8e52042e121c679fb50fe589b":[6,0,1,0,1,717,2],
-"structMR_1_1TouchpadRotateGestureUpdateListener.html#a4a6459f8e52042e121c679fb50fe589b":[6,0,2,0,1,701,2],
-"structMR_1_1TouchpadRotateGestureUpdateListener.html#a5cc8ba8e6f14534373f4af57eb899efb":[6,0,1,0,1,717,0],
-"structMR_1_1TouchpadRotateGestureUpdateListener.html#a5cc8ba8e6f14534373f4af57eb899efb":[6,0,2,0,1,701,0],
-"structMR_1_1TouchpadSwipeGestureBeginListener.html":[6,0,1,0,1,718]
+"structMR_1_1TouchpadRotateGestureUpdateListener.html#a4a6459f8e52042e121c679fb50fe589b":[6,0,1,0,1,717,2]
 };
