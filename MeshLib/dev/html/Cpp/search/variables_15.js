@@ -32,7 +32,7 @@ var searchData=
   ['vector2_5fint_5fsymmatrixtype_29',['Vector2_int_SymMatrixType',['../../Py/namespacemrmeshpy.html#afa8982737a12597dbca95af506390ab5',1,'mrmeshpy']]],
   ['vector2_5flong_5flong_5fmatrixtype_30',['Vector2_long_long_MatrixType',['../../Py/namespacemrmeshpy.html#a04d021ebfd693e4fd8adab1aca24c48c',1,'mrmeshpy']]],
   ['vector2_5flong_5flong_5fsymmatrixtype_31',['Vector2_long_long_SymMatrixType',['../../Py/namespacemrmeshpy.html#ae02bc227b6f5e262874b24cd24c9250a',1,'mrmeshpy']]],
-  ['vector3_32',['Vector3',['../../namespaceMR.html#ac878ba63f3f91f5ab032a38cd3a2c206',1,'MR']]],
+  ['vector3_32',['Vector3',['../namespaceMR.html#ac878ba63f3f91f5ab032a38cd3a2c206',1,'MR']]],
   ['vector3_5fbool_5fmatrixtype_33',['Vector3_bool_MatrixType',['../../Py/namespacemrmeshpy.html#a374bf35a45902118c41bb92cab915e76',1,'mrmeshpy']]],
   ['vector3_5fbool_5fsymmatrixtype_34',['Vector3_bool_SymMatrixType',['../../Py/namespacemrmeshpy.html#af02945bb988f11c08227904d7740e0e4',1,'mrmeshpy']]],
   ['vector3_5fdouble_5fmatrixtype_35',['Vector3_double_MatrixType',['../../Py/namespacemrmeshpy.html#af0fd1c16650f2177d3a26bfbdad69562',1,'mrmeshpy']]],
@@ -43,7 +43,7 @@ var searchData=
   ['vector3_5fint_5fsymmatrixtype_40',['Vector3_int_SymMatrixType',['../../Py/namespacemrmeshpy.html#a10952d73247e3fd36b44db42fa409de5',1,'mrmeshpy']]],
   ['vector3_5flong_5flong_5fmatrixtype_41',['Vector3_long_long_MatrixType',['../../Py/namespacemrmeshpy.html#af88f1c29fbb29260556925751f11ed39',1,'mrmeshpy']]],
   ['vector3_5flong_5flong_5fsymmatrixtype_42',['Vector3_long_long_SymMatrixType',['../../Py/namespacemrmeshpy.html#af0e7eb0f76efb5958289728859bac8d4',1,'mrmeshpy']]],
-  ['vector3b_43',['Vector3b',['../../namespaceMR.html#a73b7851ec4d88f2c3f7e87db186279be',1,'MR']]],
+  ['vector3b_43',['Vector3b',['../namespaceMR.html#a73b7851ec4d88f2c3f7e87db186279be',1,'MR']]],
   ['vector4_5fbool_5fmatrixtype_44',['Vector4_bool_MatrixType',['../../Py/namespacemrmeshpy.html#af336e035bfb538a2df8c838fc52d78ae',1,'mrmeshpy']]],
   ['vector4_5fbool_5fsymmatrixtype_45',['Vector4_bool_SymMatrixType',['../../Py/namespacemrmeshpy.html#ae972b31d25d686e8d9c9675d11a5e6d5',1,'mrmeshpy']]],
   ['vector4_5fdouble_5fmatrixtype_46',['Vector4_double_MatrixType',['../../Py/namespacemrmeshpy.html#a04a9b844838421165558ffac548c5686',1,'mrmeshpy']]],
@@ -145,7 +145,7 @@ var searchData=
   ['vertscolormap_142',['VertsColorMap',['../../Py/classmrmeshpy_1_1ColoringType.html#a9ceaba40388b05761221916a5da06948',1,'mrmeshpy::ColoringType']]],
   ['vertscolormap_5f_143',['vertsColorMap_',['../classMR_1_1ObjectLinesHolder.html#aebf8fd3ebbe9baca5e1890a03da63db7',1,'MR::ObjectLinesHolder::vertsColorMap_'],['../classMR_1_1ObjectPointsHolder.html#a3bea7e24940446fdc81e38da2f8db14c',1,'MR::ObjectPointsHolder::vertsColorMap_']]],
   ['vertsdeleted_144',['vertsDeleted',['../structMR_1_1DecimateResult.html#a0150f587c1f6e81b22cf7cf1194daedd',1,'MR::DecimateResult::vertsDeleted'],['../structMR_1_1DecimatePolylineResult.html#af042d52b52cb89cb1dbf4a779d82f3c6',1,'MR::DecimatePolylineResult::vertsDeleted'],['../structMRDecimateResult.html#a3b75dcba6fdc6c60935add7ed5ffad09',1,'MRDecimateResult::vertsDeleted']]],
-  ['verttag_145',['VertTag',['../../namespaceMR.html#aa92378bf233fad3fbb22ac30f72ea71e',1,'MR']]],
+  ['verttag_145',['VertTag',['../namespaceMR.html#aa92378bf233fad3fbb22ac30f72ea71e',1,'MR']]],
   ['vertuvbuffer_5f_146',['vertUVBuffer_',['../classMR_1_1RenderMeshObject.html#a08d8c036ef75bf130d97cbcc7992b943',1,'MR::RenderMeshObject']]],
   ['vertuvcoords_147',['VertUVCoords',['../../Py/namespacemrmeshpy.html#a3c3fe8b7846cb7642c7b2cba525f3917',1,'mrmeshpy']]],
   ['vertuvsize_5f_148',['vertUVSize_',['../classMR_1_1RenderMeshObject.html#a36832676f48c87a67ff5782e57a7bd66',1,'MR::RenderMeshObject']]],
@@ -180,5 +180,5 @@ var searchData=
   ['voxelsformat_177',['voxelsFormat',['../structMR_1_1MruFormatParameters.html#a98733bb350e4aff5f5ef721bc16d9b27',1,'MR::MruFormatParameters']]],
   ['voxelsize_178',['voxelSize',['../structMROffsetParameters.html#a101abd04d5b2643285510c4fa363b679',1,'MROffsetParameters::voxelSize'],['../structMRMeshToVolumeSettings.html#a9dd30ca07a73a9295dcbd01f98ba25a9',1,'MRMeshToVolumeSettings::voxelSize'],['../structMRGridToMeshSettings.html#a964ad008d08c69083b2944629deb5c5f',1,'MRGridToMeshSettings::voxelSize'],['../structMRVdbVolume.html#ab1c95170370b963a8c22399c950ea3ab',1,'MRVdbVolume::voxelSize'],['../structMR_1_1MeshVoxelsConverter.html#aff9a0bc144c30c521df635ba7c3ae056',1,'MR::MeshVoxelsConverter::voxelSize'],['../structMR_1_1DistanceVolumeParams.html#a1cb9a2d437a8280082f79d22a1fd1ab4',1,'MR::DistanceVolumeParams::voxelSize'],['../structMR_1_1FixUndercuts_1_1FixParams.html#a6d4290fa46807217ffa96e93f832b506',1,'MR::FixUndercuts::FixParams::voxelSize'],['../structMR_1_1BaseShellParameters.html#a0496e82daf37476561be7bd450c6fb48',1,'MR::BaseShellParameters::voxelSize'],['../structMR_1_1PointsToMeshParameters.html#a00eeb792ec36e21c8cc51989d1052210',1,'MR::PointsToMeshParameters::voxelSize'],['../structMR_1_1PolylineToDistanceVolumeParams.html#a6960b88843f2b683f6dbca4f21e82e86',1,'MR::PolylineToDistanceVolumeParams::voxelSize'],['../structMR_1_1RebuildMeshSettings.html#a277cd0e4fca4f06fd90dd9977ec8a418',1,'MR::RebuildMeshSettings::voxelSize'],['../structMR_1_1ToolPathParams.html#a785fe1445fcc56a97f20cf9daf8356e9',1,'MR::ToolPathParams::voxelSize'],['../structMR_1_1MeshToVolumeParams.html#a51905e2ab88ac1c4d53c11ed65896ce9',1,'MR::MeshToVolumeParams::voxelSize'],['../structMR_1_1GridToMeshSettings.html#acee0af0c67fecb819dabf8238de050fc',1,'MR::GridToMeshSettings::voxelSize'],['../structMR_1_1DoubleOffsetSettings.html#a2ea174fec10de72e248dbb0a5e1073d8',1,'MR::DoubleOffsetSettings::voxelSize'],['../structMR_1_1VoxelsLoad_1_1RawParameters.html#afd3e66a2e50b601320d9254e884691dd',1,'MR::VoxelsLoad::RawParameters::voxelSize'],['../structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a39c8477a2a590bcaef5179d861b7f1de',1,'MR::VoxelsLoad::LoadingTiffSettings::voxelSize'],['../structMR_1_1VoxelsVolume.html#a3d40ff5d6e909a58566b67d177842ba0',1,'MR::VoxelsVolume::voxelSize'],['../structMR_1_1WeightedShell_1_1ParametersBase.html#af8d85417b99b631e7f2c01ba2d039443',1,'MR::WeightedShell::ParametersBase::voxelSize']]],
   ['voxelssavesavingsettings_179',['VoxelsSaveSavingSettings',['../../Py/namespacemrmeshpy.html#abb5593a3e15c60e65ee44c26cef90e20',1,'mrmeshpy']]],
-  ['voxeltag_180',['VoxelTag',['../../namespaceMR.html#a643d3f06a57ec77e78fffeee6a27fc3d',1,'MR']]]
+  ['voxeltag_180',['VoxelTag',['../namespaceMR.html#a643d3f06a57ec77e78fffeee6a27fc3d',1,'MR']]]
 ];

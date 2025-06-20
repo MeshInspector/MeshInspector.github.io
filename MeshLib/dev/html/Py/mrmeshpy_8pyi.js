@@ -1888,6 +1888,7 @@ var mrmeshpy_8pyi =
     [ "getNumActivePairs", "mrmeshpy_8pyi.html#afad1997c3dd5a6417f268e6fd7cc1476", null ],
     [ "getNumberOfVoxelsForTPMS", "mrmeshpy_8pyi.html#a43dfb3461e2a10c5744318ec457af407", null ],
     [ "getNumNodes", "mrmeshpy_8pyi.html#ad244cdca4be6b19ce4e002f8a6f010fe", null ],
+    [ "getNumNodesPoints", "mrmeshpy_8pyi.html#a928da997d01cb010e4bfa1474942529c", null ],
     [ "getNumSamples", "mrmeshpy_8pyi.html#ae04459914bb7b9e9c8508a1380f64ad8", null ],
     [ "getOneMeshIntersectionContours", "mrmeshpy_8pyi.html#a51f6b87ed7fe2738237ba500c82a981b", null ],
     [ "getOneMeshSelfIntersectionContours", "mrmeshpy_8pyi.html#aac33dbf04cbbabecaeb2f2052f48219a", null ],

@@ -176,12 +176,12 @@ $(function(){initNavTree('ExampleNoiseDenoise.html',''); initResizable(true); })
 <div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a>&amp; mesh = *loadRes;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Add noise to the mesh</span></div>
-<div class="line">    std::ignore = <a class="code hl_functionRef" href="./Cpp/namespaceMR.html#ac87c8628100309ba212e32c882cb85e0">MR::addNoise</a>( mesh.<a class="code hl_variableRef" href="./Cpp/structMR_1_1Mesh.html#a9c8ead50efe2f8a111848b488f0a6aca">points</a>, mesh.<a class="code hl_variableRef" href="./Cpp/structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4">topology</a>.<a class="code hl_functionRef" href="./Cpp/classMR_1_1MeshTopology.html#ae63ac568ee78898e47a22b30ec475e26">getValidVerts</a>(), {</div>
+<div class="line">    std::ignore = <a class="code hl_functionRef" href="./Cpp/namespaceMR.html#ac87c8628100309ba212e32c882cb85e0">MR::addNoise</a>( mesh.points, mesh.topology.getValidVerts(), {</div>
 <div class="line">        .sigma = mesh.computeBoundingBox().diagonal() * 0.0001f,</div>
 <div class="line">    } );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Invalidate the mesh because of the external vertex changes</span></div>
-<div class="line">    mesh.<a class="code hl_functionRef" href="./Cpp/structMR_1_1Mesh.html#ac4cfa4d1a1f01bbcf883f4e96079e505">invalidateCaches</a>();</div>
+<div class="line">    mesh.invalidateCaches();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save the noised mesh</span></div>
 <div class="line">    <span class="keywordflow">if</span> ( <span class="keyword">auto</span> saveRes = <a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a>( mesh, <span class="stringliteral">&quot;noised_mesh.stl&quot;</span> ); !saveRes )</div>
@@ -202,15 +202,11 @@ $(function(){initNavTree('ExampleNoiseDenoise.html',''); initResizable(true); })
 <div class="line">    }</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
-<div class="ttc" id="aclassMR_1_1MeshTopology_html_ae63ac568ee78898e47a22b30ec475e26"><div class="ttname"><a href="./Cpp/classMR_1_1MeshTopology.html#ae63ac568ee78898e47a22b30ec475e26">MR::MeshTopology::getValidVerts</a></div><div class="ttdeci">const VertBitSet &amp; getValidVerts() const</div></div>
 <div class="ttc" id="agroup__MeshLoadGroup_html_gac9118492a6cd095ff8e563c0987fc477"><div class="ttname"><a href="./Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div></div>
 <div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
 <div class="ttc" id="anamespaceMR_html_a6bddd9d63512f9dfffb0fa869f249a4d"><div class="ttname"><a href="./Cpp/namespaceMR.html#a6bddd9d63512f9dfffb0fa869f249a4d">MR::meshDenoiseViaNormals</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; meshDenoiseViaNormals(Mesh &amp;mesh, const DenoiseViaNormalsSettings &amp;settings={})</div></div>
 <div class="ttc" id="anamespaceMR_html_ac87c8628100309ba212e32c882cb85e0"><div class="ttname"><a href="./Cpp/namespaceMR.html#ac87c8628100309ba212e32c882cb85e0">MR::addNoise</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; addNoise(VertCoords &amp;points, const VertBitSet &amp;validVerts, NoiseSettings settings)</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a></div></div>
-<div class="ttc" id="astructMR_1_1Mesh_html_a91b13898794821d7f88845ebaa6cc1c4"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4">MR::Mesh::topology</a></div><div class="ttdeci">MeshTopology topology</div></div>
-<div class="ttc" id="astructMR_1_1Mesh_html_a9c8ead50efe2f8a111848b488f0a6aca"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html#a9c8ead50efe2f8a111848b488f0a6aca">MR::Mesh::points</a></div><div class="ttdeci">VertCoords points</div></div>
-<div class="ttc" id="astructMR_1_1Mesh_html_ac4cfa4d1a1f01bbcf883f4e96079e505"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html#ac4cfa4d1a1f01bbcf883f4e96079e505">MR::Mesh::invalidateCaches</a></div><div class="ttdeci">MRMESH_API void invalidateCaches(bool pointsChanged=true)</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> <dl class="section note"><dt>Note</dt><dd>Python API version 3 and later</dd></dl>
 <div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy <span class="keyword">as</span> mm</div>

@@ -157,7 +157,7 @@ $(function(){initNavTree('MRSceneTextureGL_8h_source.html',''); initResizable(tr
 <a href="MRSceneTextureGL_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRRenderGLHelpers_8h.html">MRRenderGLHelpers.h</a>&quot;</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">namespace </span><a class="code hl_namespaceRef" href="../namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span>{</div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">// Class for rendering 3d scene into texture</span></div>
 <div class="foldopen" id="foldopen00007" data-start="{" data-end="};">
@@ -172,7 +172,7 @@ $(function(){initNavTree('MRSceneTextureGL_8h_source.html',''); initResizable(tr
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="comment">// if present-&gt; del();gen();</span></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="comment">// otherwise just gen()</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="comment">// msaaPow - 2^msaaPow samples, msaaPow &lt; 0 - use same default amount of samples</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="classMR_1_1SceneTextureGL.html#aa4fc9f3f3e519c2a98976b5a6df6664a">   18</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1SceneTextureGL.html#aa4fc9f3f3e519c2a98976b5a6df6664a">reset</a>( <span class="keyword">const</span> Vector2i&amp; <a class="code hl_functionRef" href="../namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>, <span class="keywordtype">int</span> msaaPow );</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="classMR_1_1SceneTextureGL.html#aa4fc9f3f3e519c2a98976b5a6df6664a">   18</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1SceneTextureGL.html#aa4fc9f3f3e519c2a98976b5a6df6664a">reset</a>( <span class="keyword">const</span> Vector2i&amp; <a class="code hl_function" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>, <span class="keywordtype">int</span> msaaPow );</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="comment">// copy texture so draw() can render it</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="classMR_1_1SceneTextureGL.html#a81ce2688f5c1199861bcbd627db71b78">   20</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1SceneTextureGL.html#a81ce2688f5c1199861bcbd627db71b78">copyTexture</a>();</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="comment">// renders texture</span></div>
@@ -197,8 +197,8 @@ $(function(){initNavTree('MRSceneTextureGL_8h_source.html',''); initResizable(tr
 <div class="ttc" id="aclassMR_1_1SceneTextureGL_html_ad3c55cbc78f657dbba1f5ce06e0183b4"><div class="ttname"><a href="classMR_1_1SceneTextureGL.html#ad3c55cbc78f657dbba1f5ce06e0183b4">MR::SceneTextureGL::draw</a></div><div class="ttdeci">void draw()</div></div>
 <div class="ttc" id="aclassMR_1_1SceneTextureGL_html_af29aa94c5d0f28fabf5baa5aeefd075e"><div class="ttname"><a href="classMR_1_1SceneTextureGL.html#af29aa94c5d0f28fabf5baa5aeefd075e">MR::SceneTextureGL::bind</a></div><div class="ttdeci">void bind(bool clear)</div></div>
 <div class="ttc" id="aclassMR_1_1SceneTextureGL_html_afada1d5c821061119918954bebf336b7"><div class="ttname"><a href="classMR_1_1SceneTextureGL.html#afada1d5c821061119918954bebf336b7">MR::SceneTextureGL::isBound</a></div><div class="ttdeci">bool isBound() const</div><div class="ttdef"><b>Definition</b> MRSceneTextureGL.h:24</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="../namespaceMR.html">MR</a></div></div>
-<div class="ttc" id="anamespaceMR_html_a306ff1f62992b3eb33c446913b64188a"><div class="ttname"><a href="../namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">MR::size</a></div><div class="ttdeci">ImVec2 size(const ViewportRectangle &amp;rect)</div><div class="ttdef"><b>Definition</b> MRViewport.h:29</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_a306ff1f62992b3eb33c446913b64188a"><div class="ttname"><a href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">MR::size</a></div><div class="ttdeci">ImVec2 size(const ViewportRectangle &amp;rect)</div><div class="ttdef"><b>Definition</b> MRViewport.h:29</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

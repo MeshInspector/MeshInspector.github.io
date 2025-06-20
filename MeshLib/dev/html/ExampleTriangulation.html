@@ -165,7 +165,7 @@ $(function(){initNavTree('ExampleTriangulation.html',''); initResizable(true); }
 <div class="line">{</div>
 <div class="line">    <span class="comment">// Generate point cloud</span></div>
 <div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1PointCloud.html">MR::PointCloud</a> pc;</div>
-<div class="line">    pc.<a class="code hl_variableRef" href="./Cpp/structMR_1_1PointCloud.html#a0da05bf74b7157037f314c884ab018b4">points</a>.reserve( 10000 );</div>
+<div class="line">    pc.points.reserve( 10000 );</div>
 <div class="line">    <span class="keywordflow">for</span> ( <span class="keyword">auto</span> i = 0; i &lt; 100; ++i )</div>
 <div class="line">    {</div>
 <div class="line">        <span class="keyword">const</span> <span class="keyword">auto</span> u = MR::PI2_F * float( i ) / ( 100.f - 1.f );</div>
@@ -173,7 +173,7 @@ $(function(){initNavTree('ExampleTriangulation.html',''); initResizable(true); }
 <div class="line">        {</div>
 <div class="line">            <span class="keyword">const</span> <span class="keyword">auto</span> v = MR::PI_F * float( j ) / ( 100.f - 1.f );</div>
 <div class="line"> </div>
-<div class="line">            pc.<a class="code hl_variableRef" href="./Cpp/structMR_1_1PointCloud.html#a0da05bf74b7157037f314c884ab018b4">points</a>.emplace_back(</div>
+<div class="line">            pc.points.emplace_back(</div>
 <div class="line">                std::cos( u ) * std::sin( v ),</div>
 <div class="line">                std::sin( u ) * std::sin( v ),</div>
 <div class="line">                std::cos( v )</div>
@@ -185,8 +185,8 @@ $(function(){initNavTree('ExampleTriangulation.html',''); initResizable(true); }
 <div class="line">        .distance = 1e-3f,</div>
 <div class="line">    } );</div>
 <div class="line">    assert( vs );</div>
-<div class="line">    pc.<a class="code hl_variableRef" href="./Cpp/structMR_1_1PointCloud.html#a99cd2bd3f8fa8482032603f382ab9a03">validPoints</a> = std::move( *vs );</div>
-<div class="line">    pc.<a class="code hl_functionRef" href="./Cpp/structMR_1_1PointCloud.html#ab7c257206a284f22b8e2484b87436069">invalidateCaches</a>();</div>
+<div class="line">    pc.validPoints = std::move( *vs );</div>
+<div class="line">    pc.invalidateCaches();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Triangulate it</span></div>
 <div class="line">    <span class="keyword">auto</span> triangulated = <a class="code hl_functionRef" href="./Cpp/group__PointCloudTriangulationGroup.html#ga9d337ad4ab25ed0b9ad75512670ca1df">MR::triangulatePointCloud</a>( pc );</div>
@@ -203,9 +203,6 @@ $(function(){initNavTree('ExampleTriangulation.html',''); initResizable(true); }
 <div class="ttc" id="anamespaceMR_html_a346ad7a38921d6822ceffafc1eba769d"><div class="ttname"><a href="./Cpp/namespaceMR.html#a346ad7a38921d6822ceffafc1eba769d">MR::suggestVoxelSize</a></div><div class="ttdeci">MRVOXELS_API float suggestVoxelSize(const MeshPart &amp;mp, float approxNumVoxels)</div></div>
 <div class="ttc" id="anamespaceMR_html_aa8cff093ce429503e9b5c0e33d5b9080"><div class="ttname"><a href="./Cpp/namespaceMR.html#aa8cff093ce429503e9b5c0e33d5b9080">MR::offsetMesh</a></div><div class="ttdeci">MRVOXELS_API Expected&lt; Mesh &gt; offsetMesh(const MeshPart &amp;mp, float offset, const OffsetParameters &amp;params={})</div></div>
 <div class="ttc" id="astructMR_1_1PointCloud_html"><div class="ttname"><a href="./Cpp/structMR_1_1PointCloud.html">MR::PointCloud</a></div></div>
-<div class="ttc" id="astructMR_1_1PointCloud_html_a0da05bf74b7157037f314c884ab018b4"><div class="ttname"><a href="./Cpp/structMR_1_1PointCloud.html#a0da05bf74b7157037f314c884ab018b4">MR::PointCloud::points</a></div><div class="ttdeci">VertCoords points</div></div>
-<div class="ttc" id="astructMR_1_1PointCloud_html_a99cd2bd3f8fa8482032603f382ab9a03"><div class="ttname"><a href="./Cpp/structMR_1_1PointCloud.html#a99cd2bd3f8fa8482032603f382ab9a03">MR::PointCloud::validPoints</a></div><div class="ttdeci">VertBitSet validPoints</div></div>
-<div class="ttc" id="astructMR_1_1PointCloud_html_ab7c257206a284f22b8e2484b87436069"><div class="ttname"><a href="./Cpp/structMR_1_1PointCloud.html#ab7c257206a284f22b8e2484b87436069">MR::PointCloud::invalidateCaches</a></div><div class="ttdeci">void invalidateCaches()</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">Python API v2</b> <div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy <span class="keyword">as</span> mm</div>
 <div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshnumpy <span class="keyword">as</span> mn</div>

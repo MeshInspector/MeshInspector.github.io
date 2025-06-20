@@ -408,8 +408,8 @@ var searchData=
   ['sy_405',['Sy',['../group__AABBTreeGroup.html#gaf95502c89221bba3187782d4ed18199b',1,'MR::IntersectionPrecomputes::Sy'],['../structMR_1_1IntersectionPrecomputes2.html#a48da57b1568b50155d61042128d457de',1,'MR::IntersectionPrecomputes2::Sy']]],
   ['symbolsdistanceadditionaloffset_406',['symbolsDistanceAdditionalOffset',['../structMR_1_1SymbolMeshParams.html#a13308560203bfeb849317043fdd1957a',1,'MR::SymbolMeshParams']]],
   ['symbolsthicknessoffsetmodifier_407',['symbolsThicknessOffsetModifier',['../structMR_1_1SymbolMeshParams.html#a41e3e2a0fe3747d584ee52635c67c307',1,'MR::SymbolMeshParams']]],
-  ['symmatrix3_408',['SymMatrix3',['../../namespaceMR.html#a02e90b12bc50d61d8f58ed9cfb45ff75',1,'MR']]],
-  ['symmatrix3b_409',['SymMatrix3b',['../../namespaceMR.html#af72956816e655beb855e0c6a777d9be1',1,'MR']]],
+  ['symmatrix3_408',['SymMatrix3',['../namespaceMR.html#a02e90b12bc50d61d8f58ed9cfb45ff75',1,'MR']]],
+  ['symmatrix3b_409',['SymMatrix3b',['../namespaceMR.html#af72956816e655beb855e0c6a777d9be1',1,'MR']]],
   ['systemfontpaths_410',['SystemFontPaths',['../../Py/classmrmeshpy_1_1SystemPath.html#a84d866912ceb2c5a7e5c3071df723d9f',1,'mrmeshpy::SystemPath']]],
   ['sz_411',['Sz',['../group__AABBTreeGroup.html#ga6159c869b0afc38ccf26091c1681194a',1,'MR::IntersectionPrecomputes']]]
 ];

@@ -171,12 +171,12 @@ $(function(){initNavTree('ExampleMeshBoolean.html',''); initResizable(true); });
 <div class="line">    <span class="comment">// create second sphere by cloning the first sphere and moving it in X direction</span></div>
 <div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a> sphere2 = sphere1;</div>
 <div class="line">    MR::AffineXf3f xf = MR::AffineXf3f::translation( MR::Vector3f( 0.7f, 0.0f, 0.0f ) );</div>
-<div class="line">    sphere2.<a class="code hl_functionRef" href="./Cpp/structMR_1_1Mesh.html#a9295908f703adbacd9b9b8f900b85f7d">transform</a>( xf );</div>
+<div class="line">    sphere2.transform( xf );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// perform boolean operation</span></div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1BooleanResult.html">MR::BooleanResult</a> result = <a class="code hl_functionRef" href="./Cpp/group__BooleanGroup.html#ga5dc229b89588f1a3416aca4910e460d9">MR::boolean</a>( sphere1, sphere2, <a class="code hl_enumvalueRef" href="./Cpp/group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbdaa06d31c2ee920b4d53e8c9c06d90ba24">MR::BooleanOperation::Intersection</a> );</div>
-<div class="line">    <span class="keywordflow">if</span> ( !result.<a class="code hl_functionRef" href="./Cpp/structMR_1_1BooleanResult.html#a48ebd7d576c05349da5aab0f92e0d289">valid</a>() )</div>
-<div class="line">        std::cerr &lt;&lt; result.<a class="code hl_variableRef" href="./Cpp/structMR_1_1BooleanResult.html#a78e59aeca9497a9c74d7512157fcf5df">errorString</a> &lt;&lt; std::endl;</div>
+<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1BooleanResult.html">MR::BooleanResult</a> result = <a class="code hl_functionRef" href="./Cpp/group__BooleanGroup.html#ga5dc229b89588f1a3416aca4910e460d9">MR::boolean</a>( sphere1, sphere2, MR::BooleanOperation::Intersection );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !result.valid() )</div>
+<div class="line">        std::cerr &lt;&lt; result.errorString &lt;&lt; std::endl;</div>
 <div class="line"> </div>
 <div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a> resultMesh = *result;</div>
 <div class="line"> </div>
@@ -192,14 +192,10 @@ $(function(){initNavTree('ExampleMeshBoolean.html',''); initResizable(true); });
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
 <div class="ttc" id="aMRUVSphere_8h_html"><div class="ttname"><a href="./Cpp/MRUVSphere_8h.html">MRUVSphere.h</a></div></div>
 <div class="ttc" id="agroup__BooleanGroup_html_ga5dc229b89588f1a3416aca4910e460d9"><div class="ttname"><a href="./Cpp/group__BooleanGroup.html#ga5dc229b89588f1a3416aca4910e460d9">MR::boolean</a></div><div class="ttdeci">MRMESH_API BooleanResult boolean(const Mesh &amp;meshA, const Mesh &amp;meshB, BooleanOperation operation, const AffineXf3f *rigidB2A, BooleanResultMapper *mapper=nullptr, ProgressCallback cb={})</div></div>
-<div class="ttc" id="agroup__BooleanGroup_html_ga9e84a8cc429efdf5cc108ca1c6aaccbdaa06d31c2ee920b4d53e8c9c06d90ba24"><div class="ttname"><a href="./Cpp/group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbdaa06d31c2ee920b4d53e8c9c06d90ba24">MR::BooleanOperation::Intersection</a></div><div class="ttdeci">@ Intersection</div></div>
 <div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
 <div class="ttc" id="anamespaceMR_html_a669b6772939a2427c2564e7a4a66b25e"><div class="ttname"><a href="./Cpp/namespaceMR.html#a669b6772939a2427c2564e7a4a66b25e">MR::makeUVSphere</a></div><div class="ttdeci">MRMESH_API Mesh makeUVSphere(float radius=1.0, int horisontalResolution=16, int verticalResolution=16)</div></div>
 <div class="ttc" id="astructMR_1_1BooleanResult_html"><div class="ttname"><a href="./Cpp/structMR_1_1BooleanResult.html">MR::BooleanResult</a></div></div>
-<div class="ttc" id="astructMR_1_1BooleanResult_html_a48ebd7d576c05349da5aab0f92e0d289"><div class="ttname"><a href="./Cpp/structMR_1_1BooleanResult.html#a48ebd7d576c05349da5aab0f92e0d289">MR::BooleanResult::valid</a></div><div class="ttdeci">bool valid() const</div></div>
-<div class="ttc" id="astructMR_1_1BooleanResult_html_a78e59aeca9497a9c74d7512157fcf5df"><div class="ttname"><a href="./Cpp/structMR_1_1BooleanResult.html#a78e59aeca9497a9c74d7512157fcf5df">MR::BooleanResult::errorString</a></div><div class="ttdeci">std::string errorString</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a></div></div>
-<div class="ttc" id="astructMR_1_1Mesh_html_a9295908f703adbacd9b9b8f900b85f7d"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html#a9295908f703adbacd9b9b8f900b85f7d">MR::Mesh::transform</a></div><div class="ttdeci">MRMESH_API void transform(const AffineXf3f &amp;xf, const VertBitSet *region=nullptr)</div></div>
 </div><!-- fragment --> Source meshes <div class="image">
 <img src="boolean_before.png" alt=""/>
 </div>

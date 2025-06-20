@@ -161,7 +161,7 @@ $(function(){initNavTree('MRSceneCache_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;exports.h&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;unordered_map&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_namespaceRef" href="../namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment">// class to cached scene objects data</span></div>
@@ -211,7 +211,7 @@ $(function(){initNavTree('MRSceneCache_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keywordflow">if</span> ( !cachedVec )</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    {</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <span class="keyword">auto</span> dataList = std::make_shared&lt;ResultType&gt;();</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        dataList-&gt;value = <a class="code hl_functionRef" href="../namespaceMR.html#a60db6fdac099905987b703a7fffe4746">getAllObjectsInTree&lt;ObjectType&gt;</a>( &amp;<a class="code hl_function" href="classMR_1_1SceneRoot.html#a26c9bd358e7e5e76b3f4e08bfc3eea4f">SceneRoot::get</a>(), SelectivityType );</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        dataList-&gt;value = <a class="code hl_function" href="namespaceMR.html#a60db6fdac099905987b703a7fffe4746">getAllObjectsInTree&lt;ObjectType&gt;</a>( &amp;<a class="code hl_function" href="classMR_1_1SceneRoot.html#a26c9bd358e7e5e76b3f4e08bfc3eea4f">SceneRoot::get</a>(), SelectivityType );</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        cachedVec = dataList;</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    }</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    assert( cachedVec );</div>
@@ -230,8 +230,8 @@ $(function(){initNavTree('MRSceneCache_8h_source.html',''); initResizable(true);
 <div class="ttc" id="aclassMR_1_1SceneCache_html_aba6c0d17104f37a1b2af8967dab219e5"><div class="ttname"><a href="classMR_1_1SceneCache.html#aba6c0d17104f37a1b2af8967dab219e5">MR::SceneCache::invalidateAll</a></div><div class="ttdeci">static MRVIEWER_API void invalidateAll()</div></div>
 <div class="ttc" id="aclassMR_1_1SceneCache_html_af66e451d5cc1d0246d98bb3700a0b82c"><div class="ttname"><a href="classMR_1_1SceneCache.html#af66e451d5cc1d0246d98bb3700a0b82c">MR::SceneCache::getAllObjects</a></div><div class="ttdeci">static const ObjectList&lt; ObjectType &gt; &amp; getAllObjects()</div><div class="ttdef"><b>Definition</b> MRSceneCache.h:46</div></div>
 <div class="ttc" id="aclassMR_1_1SceneRoot_html_a26c9bd358e7e5e76b3f4e08bfc3eea4f"><div class="ttname"><a href="classMR_1_1SceneRoot.html#a26c9bd358e7e5e76b3f4e08bfc3eea4f">MR::SceneRoot::get</a></div><div class="ttdeci">static MRMESH_API SceneRootObject &amp; get()</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="../namespaceMR.html">MR</a></div></div>
-<div class="ttc" id="anamespaceMR_html_a60db6fdac099905987b703a7fffe4746"><div class="ttname"><a href="../namespaceMR.html#a60db6fdac099905987b703a7fffe4746">MR::getAllObjectsInTree</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; ObjectT &gt; &gt; getAllObjectsInTree(Object *root, const ObjectSelectivityType &amp;type=ObjectSelectivityType::Selectable)</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_a60db6fdac099905987b703a7fffe4746"><div class="ttname"><a href="namespaceMR.html#a60db6fdac099905987b703a7fffe4746">MR::getAllObjectsInTree</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; ObjectT &gt; &gt; getAllObjectsInTree(Object *root, const ObjectSelectivityType &amp;type=ObjectSelectivityType::Selectable)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
