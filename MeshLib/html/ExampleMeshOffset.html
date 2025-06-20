@@ -174,12 +174,12 @@ $(function(){initNavTree('ExampleMeshOffset.html',''); initResizable(true); });
 <div class="line">    <span class="comment">// Setup parameters</span></div>
 <div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1GeneralOffsetParameters.html">MR::GeneralOffsetParameters</a> params;</div>
 <div class="line">    <span class="comment">// calculate voxel size depending on desired accuracy and/or memory consumption</span></div>
-<div class="line">    params.<a class="code hl_variableRef" href="./Cpp/structMR_1_1BaseShellParameters.html#a0496e82daf37476561be7bd450c6fb48">voxelSize</a> = suggestVoxelSize( mesh, 10000000.f );</div>
-<div class="line">    <span class="keywordflow">if</span> ( !<a class="code hl_functionRef" href="./Cpp/namespaceMR.html#a25514d4f7efbcece3bf2daa5fa1bff62">MR::findRightBoundary</a>( mesh.<a class="code hl_variableRef" href="./Cpp/structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4">topology</a> ).empty() )</div>
-<div class="line">        params.<a class="code hl_variableRef" href="./Cpp/structMR_1_1OffsetParameters.html#aa411170d1cc5cc475f3caeab0a525e26">signDetectionMode</a> = MR::SignDetectionMode::HoleWindingRule; <span class="comment">// use if you have holes in mesh</span></div>
+<div class="line">    params.voxelSize = suggestVoxelSize( mesh, 10000000.f );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !<a class="code hl_functionRef" href="./Cpp/namespaceMR.html#a25514d4f7efbcece3bf2daa5fa1bff62">MR::findRightBoundary</a>( mesh.topology ).empty() )</div>
+<div class="line">        params.signDetectionMode = MR::SignDetectionMode::HoleWindingRule; <span class="comment">// use if you have holes in mesh</span></div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Make offset mesh</span></div>
-<div class="line">    <span class="keywordtype">float</span> offset = mesh.<a class="code hl_functionRef" href="./Cpp/structMR_1_1Mesh.html#a30783b277e8cd9daed4827c15daede28">computeBoundingBox</a>().diagonal() * 0.1f;</div>
+<div class="line">    <span class="keywordtype">float</span> offset = mesh.computeBoundingBox().diagonal() * 0.1f;</div>
 <div class="line">    <span class="keyword">auto</span> meshRes = <a class="code hl_functionRef" href="./Cpp/namespaceMR.html#a5edbfcffae3bcdb000d83b7c6cf9e050">MR::generalOffsetMesh</a>( mesh, offset, params );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !meshRes.has_value() )</div>
 <div class="line">    {</div>
@@ -201,12 +201,8 @@ $(function(){initNavTree('ExampleMeshOffset.html',''); initResizable(true); });
 <div class="ttc" id="anamespaceMR_html_a25514d4f7efbcece3bf2daa5fa1bff62"><div class="ttname"><a href="./Cpp/namespaceMR.html#a25514d4f7efbcece3bf2daa5fa1bff62">MR::findRightBoundary</a></div><div class="ttdeci">MRMESH_API std::vector&lt; EdgeLoop &gt; findRightBoundary(const MeshTopology &amp;topology, const FaceBitSet *region=nullptr)</div></div>
 <div class="ttc" id="anamespaceMR_html_a5edbfcffae3bcdb000d83b7c6cf9e050"><div class="ttname"><a href="./Cpp/namespaceMR.html#a5edbfcffae3bcdb000d83b7c6cf9e050">MR::generalOffsetMesh</a></div><div class="ttdeci">MRVOXELS_API Expected&lt; Mesh &gt; generalOffsetMesh(const MeshPart &amp;mp, float offset, const GeneralOffsetParameters &amp;params)</div></div>
 <div class="ttc" id="anamespaceMR_html_ac19d6db4200945b6861959bd421a41e1"><div class="ttname"><a href="./Cpp/namespaceMR.html#ac19d6db4200945b6861959bd421a41e1">MR::makeCube</a></div><div class="ttdeci">MRMESH_API Mesh makeCube(const Vector3f &amp;size=Vector3f::diagonal(1.0f), const Vector3f &amp;base=Vector3f::diagonal(-0.5f))</div></div>
-<div class="ttc" id="astructMR_1_1BaseShellParameters_html_a0496e82daf37476561be7bd450c6fb48"><div class="ttname"><a href="./Cpp/structMR_1_1BaseShellParameters.html#a0496e82daf37476561be7bd450c6fb48">MR::BaseShellParameters::voxelSize</a></div><div class="ttdeci">float voxelSize</div></div>
 <div class="ttc" id="astructMR_1_1GeneralOffsetParameters_html"><div class="ttname"><a href="./Cpp/structMR_1_1GeneralOffsetParameters.html">MR::GeneralOffsetParameters</a></div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a></div></div>
-<div class="ttc" id="astructMR_1_1Mesh_html_a30783b277e8cd9daed4827c15daede28"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html#a30783b277e8cd9daed4827c15daede28">MR::Mesh::computeBoundingBox</a></div><div class="ttdeci">MRMESH_API Box3f computeBoundingBox(const AffineXf3f *toWorld=nullptr) const</div></div>
-<div class="ttc" id="astructMR_1_1Mesh_html_a91b13898794821d7f88845ebaa6cc1c4"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4">MR::Mesh::topology</a></div><div class="ttdeci">MeshTopology topology</div></div>
-<div class="ttc" id="astructMR_1_1OffsetParameters_html_aa411170d1cc5cc475f3caeab0a525e26"><div class="ttname"><a href="./Cpp/structMR_1_1OffsetParameters.html#aa411170d1cc5cc475f3caeab0a525e26">MR::OffsetParameters::signDetectionMode</a></div><div class="ttdeci">SignDetectionMode signDetectionMode</div></div>
 </div><!-- fragment --> Source mesh <div class="image">
 <img src="offset_before.png" alt=""/>
 </div>

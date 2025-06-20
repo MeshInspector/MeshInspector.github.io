@@ -1,13 +1,5 @@
 var NAVTREEINDEX49 =
 {
-"classmrmeshpy_1_1MoveType.html#a042cbf9268bbf4520df6ed8950a9a2ba":[6,1,0,0,2,513,2],
-"classmrmeshpy_1_1MoveType.html#a042cbf9268bbf4520df6ed8950a9a2ba":[6,1,1,0,1,513,2],
-"classmrmeshpy_1_1MoveType.html#a09e6b3dd79046086e91cc2ff925ec768":[6,1,0,0,2,513,0],
-"classmrmeshpy_1_1MoveType.html#a09e6b3dd79046086e91cc2ff925ec768":[6,1,1,0,1,513,0],
-"classmrmeshpy_1_1MoveType.html#a1b7a12f64f4458cc3995f24a210f5bfb":[6,1,0,0,2,513,4],
-"classmrmeshpy_1_1MoveType.html#a1b7a12f64f4458cc3995f24a210f5bfb":[6,1,1,0,1,513,4],
-"classmrmeshpy_1_1MoveType.html#a2a2184fb2ca78b82b4410c8a78dc953e":[6,1,0,0,2,513,7],
-"classmrmeshpy_1_1MoveType.html#a2a2184fb2ca78b82b4410c8a78dc953e":[6,1,1,0,1,513,7],
 "classmrmeshpy_1_1MoveType.html#a34c6270a74f33e4fd8b0b6eb1fffa0aa":[6,1,0,0,2,513,10],
 "classmrmeshpy_1_1MoveType.html#a34c6270a74f33e4fd8b0b6eb1fffa0aa":[6,1,1,0,1,513,10],
 "classmrmeshpy_1_1MoveType.html#a74b89fb435385fd772920cda0e4f42f2":[6,1,0,0,2,513,8],
@@ -249,5 +241,13 @@ var NAVTREEINDEX49 =
 "classmrmeshpy_1_1NestedComponenetsMode.html#af03a843a63c3aa7ba64d4622ff3e21a8":[6,1,0,0,2,521,8],
 "classmrmeshpy_1_1NestedComponenetsMode.html#af03a843a63c3aa7ba64d4622ff3e21a8":[6,1,1,0,1,521,8],
 "classmrmeshpy_1_1NestedComponenetsMode.html#afcfe8d36ba462777af2f868b1fa9c2e1":[6,1,0,0,2,521,4],
-"classmrmeshpy_1_1NestedComponenetsMode.html#afcfe8d36ba462777af2f868b1fa9c2e1":[6,1,1,0,1,521,4]
+"classmrmeshpy_1_1NestedComponenetsMode.html#afcfe8d36ba462777af2f868b1fa9c2e1":[6,1,1,0,1,521,4],
+"classmrmeshpy_1_1NewEdgesMap.html":[6,1,0,0,2,522],
+"classmrmeshpy_1_1NewEdgesMap.html":[6,1,1,0,1,522],
+"classmrmeshpy_1_1NewEdgesMap.html#a0448826dd31ba6fe3b0fa364bd25017c":[6,1,0,0,2,522,4],
+"classmrmeshpy_1_1NewEdgesMap.html#a0448826dd31ba6fe3b0fa364bd25017c":[6,1,1,0,1,522,4],
+"classmrmeshpy_1_1NewEdgesMap.html#a15686abe68974f9fd7644251e5f8d958":[6,1,0,0,2,522,0],
+"classmrmeshpy_1_1NewEdgesMap.html#a15686abe68974f9fd7644251e5f8d958":[6,1,1,0,1,522,0],
+"classmrmeshpy_1_1NewEdgesMap.html#a7d563c8646ac6495f850481cd50f5150":[6,1,0,0,2,522,1],
+"classmrmeshpy_1_1NewEdgesMap.html#a7d563c8646ac6495f850481cd50f5150":[6,1,1,0,1,522,1]
 };

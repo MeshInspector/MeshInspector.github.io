@@ -1,13 +1,5 @@
 var NAVTREEINDEX56 =
 {
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1AlphaType.html#a6e45aede4549c09cc47b2271c75c6024":[6,1,0,0,2,577,0,0,7],
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1AlphaType.html#a6e45aede4549c09cc47b2271c75c6024":[6,1,1,0,1,577,0,0,7],
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1AlphaType.html#a7702f3cfeb5a1d17c3e1e5ddefbc277c":[6,1,0,0,2,577,0,0,0],
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1AlphaType.html#a7702f3cfeb5a1d17c3e1e5ddefbc277c":[6,1,1,0,1,577,0,0,0],
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1AlphaType.html#a81470981fb707aff963b17efdbb64c4e":[6,1,0,0,2,577,0,0,6],
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1AlphaType.html#a81470981fb707aff963b17efdbb64c4e":[6,1,1,0,1,577,0,0,6],
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1AlphaType.html#a83d6a70a0fad112b4d1a63af0a9903cd":[6,1,0,0,2,577,0,0,8],
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1AlphaType.html#a83d6a70a0fad112b4d1a63af0a9903cd":[6,1,1,0,1,577,0,0,8],
 "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1AlphaType.html#ae2d87e3daca7a4671ea75041f39c6e06":[6,1,0,0,2,577,0,0,4],
 "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1AlphaType.html#ae2d87e3daca7a4671ea75041f39c6e06":[6,1,1,0,1,577,0,0,4],
 "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1AlphaType.html#aeb861a2c72c4a3fc780ed72c39805490":[6,1,0,0,2,577,0,0,11],
@@ -249,5 +241,13 @@ var NAVTREEINDEX56 =
 "classmrmeshpy_1_1OffsetMode.html#a99bb5fc99e219ef7ca5fcc2e99e111b9":[6,1,0,0,2,593,0],
 "classmrmeshpy_1_1OffsetMode.html#a99bb5fc99e219ef7ca5fcc2e99e111b9":[6,1,1,0,1,593,0],
 "classmrmeshpy_1_1OffsetMode.html#abbe4025099bd45ae1c71c9f377490795":[6,1,0,0,2,593,10],
-"classmrmeshpy_1_1OffsetMode.html#abbe4025099bd45ae1c71c9f377490795":[6,1,1,0,1,593,10]
+"classmrmeshpy_1_1OffsetMode.html#abbe4025099bd45ae1c71c9f377490795":[6,1,1,0,1,593,10],
+"classmrmeshpy_1_1OffsetMode.html#aff9190c69e4b1dda4c3578f1f5fe5a67":[6,1,0,0,2,593,2],
+"classmrmeshpy_1_1OffsetMode.html#aff9190c69e4b1dda4c3578f1f5fe5a67":[6,1,1,0,1,593,2],
+"classmrmeshpy_1_1OffsetParameters.html":[6,1,0,0,2,594],
+"classmrmeshpy_1_1OffsetParameters.html":[6,1,1,0,1,594],
+"classmrmeshpy_1_1OffsetParameters.html#a0af3482b1171b23d0a442dbd2720e13c":[6,1,0,0,2,594,1],
+"classmrmeshpy_1_1OffsetParameters.html#a0af3482b1171b23d0a442dbd2720e13c":[6,1,1,0,1,594,1],
+"classmrmeshpy_1_1OffsetParameters.html#a1343c6bbe536951a7419b2d8b0494b04":[6,1,0,0,2,594,12],
+"classmrmeshpy_1_1OffsetParameters.html#a1343c6bbe536951a7419b2d8b0494b04":[6,1,1,0,1,594,12]
 };

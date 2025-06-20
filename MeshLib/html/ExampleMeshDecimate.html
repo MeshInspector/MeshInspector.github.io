@@ -180,18 +180,18 @@ $(function(){initNavTree('ExampleMeshDecimate.html',''); initResizable(true); })
 <div class="line">    </div>
 <div class="line">    <span class="comment">// Repack mesh optimally.</span></div>
 <div class="line">    <span class="comment">// It&#39;s not necessary but highly recommended to achieve the best performance in parallel processing</span></div>
-<div class="line">    mesh.<a class="code hl_functionRef" href="./Cpp/structMR_1_1Mesh.html#ac790be9d7fbcbf9f765ebdd90f761c71">packOptimally</a>();</div>
+<div class="line">    mesh.packOptimally();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Setup decimate parameters</span></div>
 <div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1DecimateSettings.html">MR::DecimateSettings</a> settings;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Decimation stop thresholds, you may specify one or both</span></div>
-<div class="line">    settings.<a class="code hl_variableRef" href="./Cpp/structMR_1_1DecimateSettings.html#a38bbdf3c479e6edea3b93ca7a7b52084">maxDeletedFaces</a> = 1000; <span class="comment">// Number of faces to be deleted</span></div>
-<div class="line">    settings.<a class="code hl_variableRef" href="./Cpp/structMR_1_1DecimateSettings.html#ab97888b6d597260226ade61b4e542ef0">maxError</a> = 0.05f; <span class="comment">// Maximum error when decimation stops</span></div>
+<div class="line">    settings.maxDeletedFaces = 1000; <span class="comment">// Number of faces to be deleted</span></div>
+<div class="line">    settings.maxError = 0.05f; <span class="comment">// Maximum error when decimation stops</span></div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Number of parts to simultaneous processing, greatly improves performance by cost of minor quality loss.</span></div>
 <div class="line">    <span class="comment">// Recommended to set to the number of available CPU cores or more for the best performance</span></div>
-<div class="line">    settings.<a class="code hl_variableRef" href="./Cpp/structMR_1_1DecimateSettings.html#a8f97c534c28993195cc07d01e1721fe4">subdivideParts</a> = 64;</div>
+<div class="line">    settings.subdivideParts = 64;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Decimate mesh</span></div>
 <div class="line">    <a class="code hl_functionRef" href="./Cpp/group__DecimateGroup.html#ga16a994862b0ba8f6a68c61463be0ed4e">MR::decimateMesh</a>( mesh, settings );</div>
@@ -211,11 +211,7 @@ $(function(){initNavTree('ExampleMeshDecimate.html',''); initResizable(true); })
 <div class="ttc" id="agroup__MeshLoadGroup_html_gac9118492a6cd095ff8e563c0987fc477"><div class="ttname"><a href="./Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div></div>
 <div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
 <div class="ttc" id="astructMR_1_1DecimateSettings_html"><div class="ttname"><a href="./Cpp/structMR_1_1DecimateSettings.html">MR::DecimateSettings</a></div></div>
-<div class="ttc" id="astructMR_1_1DecimateSettings_html_a38bbdf3c479e6edea3b93ca7a7b52084"><div class="ttname"><a href="./Cpp/structMR_1_1DecimateSettings.html#a38bbdf3c479e6edea3b93ca7a7b52084">MR::DecimateSettings::maxDeletedFaces</a></div><div class="ttdeci">int maxDeletedFaces</div></div>
-<div class="ttc" id="astructMR_1_1DecimateSettings_html_a8f97c534c28993195cc07d01e1721fe4"><div class="ttname"><a href="./Cpp/structMR_1_1DecimateSettings.html#a8f97c534c28993195cc07d01e1721fe4">MR::DecimateSettings::subdivideParts</a></div><div class="ttdeci">int subdivideParts</div></div>
-<div class="ttc" id="astructMR_1_1DecimateSettings_html_ab97888b6d597260226ade61b4e542ef0"><div class="ttname"><a href="./Cpp/structMR_1_1DecimateSettings.html#ab97888b6d597260226ade61b4e542ef0">MR::DecimateSettings::maxError</a></div><div class="ttdeci">float maxError</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a></div></div>
-<div class="ttc" id="astructMR_1_1Mesh_html_ac790be9d7fbcbf9f765ebdd90f761c71"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html#ac790be9d7fbcbf9f765ebdd90f761c71">MR::Mesh::packOptimally</a></div><div class="ttdeci">MRMESH_API PackMapping packOptimally(bool preserveAABBTree=true)</div></div>
 </div><!-- fragment --> Source mesh <div class="image">
 <img src="decimate_before.png" alt=""/>
 </div>

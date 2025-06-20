@@ -167,14 +167,14 @@ $(function(){initNavTree('ExampleGlobalRegistration.html',''); initResizable(tru
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span> printStats( <span class="keyword">const</span> <a class="code hl_classRef" href="./Cpp/classMR_1_1MultiwayICP.html">MR::MultiwayICP</a>&amp; icp )</div>
 <div class="line">{</div>
-<div class="line">    std::cout &lt;&lt; <span class="stringliteral">&quot;Samples: &quot;</span> &lt;&lt; icp.<a class="code hl_functionRef" href="./Cpp/classMR_1_1MultiwayICP.html#a7d58f57c70792f0ec9ef82aa6e95407a">getNumSamples</a>() &lt;&lt; std::endl</div>
-<div class="line">              &lt;&lt; <span class="stringliteral">&quot;Active point pairs: &quot;</span> &lt;&lt; icp.<a class="code hl_functionRef" href="./Cpp/classMR_1_1MultiwayICP.html#a2b9103b68bd7af393660d7dafc751954">getNumActivePairs</a>() &lt;&lt; std::endl;</div>
-<div class="line">    <span class="keywordflow">if</span> ( icp.<a class="code hl_functionRef" href="./Cpp/classMR_1_1MultiwayICP.html#a2b9103b68bd7af393660d7dafc751954">getNumActivePairs</a>() &gt; 0 )</div>
+<div class="line">    std::cout &lt;&lt; <span class="stringliteral">&quot;Samples: &quot;</span> &lt;&lt; icp.getNumSamples() &lt;&lt; std::endl</div>
+<div class="line">              &lt;&lt; <span class="stringliteral">&quot;Active point pairs: &quot;</span> &lt;&lt; icp.getNumActivePairs() &lt;&lt; std::endl;</div>
+<div class="line">    <span class="keywordflow">if</span> ( icp.getNumActivePairs() &gt; 0 )</div>
 <div class="line">    {</div>
-<div class="line">        <span class="keyword">const</span> <span class="keyword">auto</span> p2ptMetric = icp.<a class="code hl_functionRef" href="./Cpp/classMR_1_1MultiwayICP.html#a64ac3c584445bc45cecd3c1c41d10ae6">getMeanSqDistToPoint</a>();</div>
-<div class="line">        <span class="keyword">const</span> <span class="keyword">auto</span> p2plMetric = icp.<a class="code hl_functionRef" href="./Cpp/classMR_1_1MultiwayICP.html#adef2b42123425d640c3ba527a8ba8f08">getMeanSqDistToPlane</a>();</div>
-<div class="line">        std::cout &lt;&lt; <span class="stringliteral">&quot;RMS point-to-point distance: &quot;</span> &lt;&lt; p2ptMetric &lt;&lt; <span class="stringliteral">&quot; ± &quot;</span> &lt;&lt; icp.<a class="code hl_functionRef" href="./Cpp/classMR_1_1MultiwayICP.html#a64ac3c584445bc45cecd3c1c41d10ae6">getMeanSqDistToPoint</a>( p2ptMetric ) &lt;&lt; std::endl</div>
-<div class="line">                  &lt;&lt; <span class="stringliteral">&quot;RMS point-to-plane distance: &quot;</span> &lt;&lt; p2plMetric &lt;&lt; <span class="stringliteral">&quot; ± &quot;</span> &lt;&lt; icp.<a class="code hl_functionRef" href="./Cpp/classMR_1_1MultiwayICP.html#adef2b42123425d640c3ba527a8ba8f08">getMeanSqDistToPlane</a>( p2plMetric ) &lt;&lt; std::endl;</div>
+<div class="line">        <span class="keyword">const</span> <span class="keyword">auto</span> p2ptMetric = icp.getMeanSqDistToPoint();</div>
+<div class="line">        <span class="keyword">const</span> <span class="keyword">auto</span> p2plMetric = icp.getMeanSqDistToPlane();</div>
+<div class="line">        std::cout &lt;&lt; <span class="stringliteral">&quot;RMS point-to-point distance: &quot;</span> &lt;&lt; p2ptMetric &lt;&lt; <span class="stringliteral">&quot; ± &quot;</span> &lt;&lt; icp.getMeanSqDistToPoint( p2ptMetric ) &lt;&lt; std::endl</div>
+<div class="line">                  &lt;&lt; <span class="stringliteral">&quot;RMS point-to-plane distance: &quot;</span> &lt;&lt; p2plMetric &lt;&lt; <span class="stringliteral">&quot; ± &quot;</span> &lt;&lt; icp.getMeanSqDistToPlane( p2plMetric ) &lt;&lt; std::endl;</div>
 <div class="line">    }</div>
 <div class="line">}</div>
 <div class="line"> </div>
@@ -209,7 +209,7 @@ $(function(){initNavTree('ExampleGlobalRegistration.html',''); initResizable(tru
 <div class="line"> </div>
 <div class="line">        inputs.emplace_back( std::move( *pointCloud ) );</div>
 <div class="line">        <span class="comment">// you may also set an affine transformation for each input as a second argument</span></div>
-<div class="line">        objects.<a class="code hl_functionRef" href="./Cpp/classMR_1_1Vector.html#a78fa1b6365aa64b3aec65883530dc735">push_back</a>( { inputs.back(), {} } );</div>
+<div class="line">        objects.push_back( { inputs.back(), {} } );</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// you can set various parameters for the global registration; see the documentation for more info</span></div>
@@ -218,14 +218,14 @@ $(function(){initNavTree('ExampleGlobalRegistration.html',''); initResizable(tru
 <div class="line">        .samplingVoxelSize = maxBBox.diagonal() * 0.03f,</div>
 <div class="line">    } );</div>
 <div class="line"> </div>
-<div class="line">    icp.<a class="code hl_functionRef" href="./Cpp/classMR_1_1MultiwayICP.html#afa420b3638e8c4e0b5ac70acb575a741">setParams</a>( {} );</div>
+<div class="line">    icp.setParams( {} );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// gather statistics</span></div>
-<div class="line">    icp.<a class="code hl_functionRef" href="./Cpp/classMR_1_1MultiwayICP.html#ac693705b4903e76f00b8e11f568c3397">updateAllPointPairs</a>();</div>
+<div class="line">    icp.updateAllPointPairs();</div>
 <div class="line">    printStats( icp );</div>
 <div class="line"> </div>
 <div class="line">    std::cout &lt;&lt; <span class="stringliteral">&quot;Calculating transformations...&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line">    <span class="keyword">auto</span> xfs = icp.<a class="code hl_functionRef" href="./Cpp/classMR_1_1MultiwayICP.html#a41d907a6c720ef37eb8620caba3be739">calculateTransformations</a>();</div>
+<div class="line">    <span class="keyword">auto</span> xfs = icp.calculateTransformations();</div>
 <div class="line">    printStats( icp );</div>
 <div class="line"> </div>
 <div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1PointCloud.html">MR::PointCloud</a> output;</div>
@@ -248,15 +248,7 @@ $(function(){initNavTree('ExampleGlobalRegistration.html',''); initResizable(tru
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
 <div class="ttc" id="aclassMR_1_1MultiwayICP_html"><div class="ttname"><a href="./Cpp/classMR_1_1MultiwayICP.html">MR::MultiwayICP</a></div></div>
-<div class="ttc" id="aclassMR_1_1MultiwayICP_html_a2b9103b68bd7af393660d7dafc751954"><div class="ttname"><a href="./Cpp/classMR_1_1MultiwayICP.html#a2b9103b68bd7af393660d7dafc751954">MR::MultiwayICP::getNumActivePairs</a></div><div class="ttdeci">MRMESH_API size_t getNumActivePairs() const</div></div>
-<div class="ttc" id="aclassMR_1_1MultiwayICP_html_a41d907a6c720ef37eb8620caba3be739"><div class="ttname"><a href="./Cpp/classMR_1_1MultiwayICP.html#a41d907a6c720ef37eb8620caba3be739">MR::MultiwayICP::calculateTransformations</a></div><div class="ttdeci">MRMESH_API Vector&lt; AffineXf3f, ObjId &gt; calculateTransformations(ProgressCallback cb={})</div></div>
-<div class="ttc" id="aclassMR_1_1MultiwayICP_html_a64ac3c584445bc45cecd3c1c41d10ae6"><div class="ttname"><a href="./Cpp/classMR_1_1MultiwayICP.html#a64ac3c584445bc45cecd3c1c41d10ae6">MR::MultiwayICP::getMeanSqDistToPoint</a></div><div class="ttdeci">MRMESH_API float getMeanSqDistToPoint(std::optional&lt; double &gt; value={}) const</div></div>
-<div class="ttc" id="aclassMR_1_1MultiwayICP_html_a7d58f57c70792f0ec9ef82aa6e95407a"><div class="ttname"><a href="./Cpp/classMR_1_1MultiwayICP.html#a7d58f57c70792f0ec9ef82aa6e95407a">MR::MultiwayICP::getNumSamples</a></div><div class="ttdeci">MRMESH_API size_t getNumSamples() const</div></div>
-<div class="ttc" id="aclassMR_1_1MultiwayICP_html_ac693705b4903e76f00b8e11f568c3397"><div class="ttname"><a href="./Cpp/classMR_1_1MultiwayICP.html#ac693705b4903e76f00b8e11f568c3397">MR::MultiwayICP::updateAllPointPairs</a></div><div class="ttdeci">MRMESH_API bool updateAllPointPairs(ProgressCallback cb={})</div></div>
-<div class="ttc" id="aclassMR_1_1MultiwayICP_html_adef2b42123425d640c3ba527a8ba8f08"><div class="ttname"><a href="./Cpp/classMR_1_1MultiwayICP.html#adef2b42123425d640c3ba527a8ba8f08">MR::MultiwayICP::getMeanSqDistToPlane</a></div><div class="ttdeci">MRMESH_API float getMeanSqDistToPlane(std::optional&lt; double &gt; value={}) const</div></div>
-<div class="ttc" id="aclassMR_1_1MultiwayICP_html_afa420b3638e8c4e0b5ac70acb575a741"><div class="ttname"><a href="./Cpp/classMR_1_1MultiwayICP.html#afa420b3638e8c4e0b5ac70acb575a741">MR::MultiwayICP::setParams</a></div><div class="ttdeci">void setParams(const ICPProperties &amp;prop)</div></div>
 <div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="./Cpp/classMR_1_1Vector.html">MR::Vector</a></div></div>
-<div class="ttc" id="aclassMR_1_1Vector_html_a78fa1b6365aa64b3aec65883530dc735"><div class="ttname"><a href="./Cpp/classMR_1_1Vector.html#a78fa1b6365aa64b3aec65883530dc735">MR::Vector::push_back</a></div><div class="ttdeci">void push_back(const T &amp;t)</div></div>
 <div class="ttc" id="agroup__IOGroup_html_gab0f629849bb97f655fcf29a1b3afd9fa"><div class="ttname"><a href="./Cpp/group__IOGroup.html#gab0f629849bb97f655fcf29a1b3afd9fa">MR::PointsLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; PointCloud &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const PointsLoadSettings &amp;settings={})</div></div>
 <div class="ttc" id="agroup__PointsSaveGroup_html_ga3c8f83fa34faa244672c9f70f436659d"><div class="ttname"><a href="./Cpp/group__PointsSaveGroup.html#ga3c8f83fa34faa244672c9f70f436659d">MR::PointsSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const PointCloud &amp;points, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
 <div class="ttc" id="anamespaceMR_1_1ImGuiMeasurementIndicators_html_a41f4d6d002c7cff807425bbcb80c5edd"><div class="ttname"><a href="./Cpp/namespaceMR_1_1ImGuiMeasurementIndicators.html#a41f4d6d002c7cff807425bbcb80c5edd">MR::ImGuiMeasurementIndicators::point</a></div><div class="ttdeci">MRVIEWER_API void point(Element elem, float menuScaling, const Params &amp;params, ImVec2 point)</div></div>
