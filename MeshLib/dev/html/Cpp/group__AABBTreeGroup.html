@@ -262,7 +262,6 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ga01c75e3c26967a90edbe075a77cb2ca9"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ga01c75e3c26967a90edbe075a77cb2ca9">MR::AABBTreeNodeVec</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1AABBTreeNode.html">AABBTreeNode</a>&lt;T&gt;, NodeId&gt;</td></tr>
 <tr class="separator:ga01c75e3c26967a90edbe075a77cb2ca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga457b7bb3a129cf50a82586b670a93148" id="r_ga457b7bb3a129cf50a82586b670a93148"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga457b7bb3a129cf50a82586b670a93148">MR::PreciseCollisionResult</a> = std::vector&lt;<a class="el" href="structMR_1_1VarEdgeTri.html">VarEdgeTri</a>&gt;</td></tr>
-<tr class="memdesc:ga457b7bb3a129cf50a82586b670a93148"><td class="mdescLeft">&#160;</td><td class="mdescRight">each edge is directed to have its origin inside and its destination outside of the other mesh  <br /></td></tr>
 <tr class="separator:ga457b7bb3a129cf50a82586b670a93148"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga285ea5cd9fb638c90fec0099f526c057" id="r_ga285ea5cd9fb638c90fec0099f526c057"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga285ea5cd9fb638c90fec0099f526c057">MR::TriangleCallback</a> = std::function&lt;<a class="el" href="#ga3dd2fd9fcc06b6502d22a9ea3eb63e47">ProcessOneResult</a>( const Vector3f &amp; p, FaceId f, const Vector3f &amp; q, float distSq )&gt;</td></tr>
 <tr class="separator:ga285ea5cd9fb638c90fec0099f526c057"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -739,8 +738,7 @@ template&lt;typename V &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>each edge is directed to have its origin inside and its destination outside of the other mesh </p>
+<p>In each <a class="el" href="structMR_1_1VarEdgeTri.html">VarEdgeTri</a> = pair of (intersected edge, intersected triangle), the intersected edge is directed from negative half-space of the intersected triangle B to its positive half-space </p>
 
 </div>
 </div>
