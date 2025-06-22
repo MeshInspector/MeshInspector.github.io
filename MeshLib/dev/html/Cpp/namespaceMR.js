@@ -1954,7 +1954,7 @@ var namespaceMR =
     [ "edgePoint", "namespaceMR.html#a537cde697d7f35e3370cd46156a03646", null ],
     [ "edgePoint", "namespaceMR.html#a7d641e99aa4679047a71ff850e614f60", null ],
     [ "edgePointsFromContours", "group__DistanceMapGroup.html#ga00ea89be5cae9953d5df7ef382259b58", null ],
-    [ "edgeSegment", "namespaceMR.html#a2298085a06a459719ca28a1f8c583f2a", null ],
+    [ "edgeSegment", "namespaceMR.html#af65aebb8f1629e7c2f7a969e296efa92", null ],
     [ "edgeTableMetric", "group__SurfacePathGroup.html#gaca57e01c0ade3ec65621f646bba9822c", null ],
     [ "edgeTableSymMetric", "group__SurfacePathGroup.html#ga04e5ae2dd9a34149d37b4c31364b4b68", null ],
     [ "edgeVector", "namespaceMR.html#a2ecd5552b4907aa1e0a475427a4cef98", null ],

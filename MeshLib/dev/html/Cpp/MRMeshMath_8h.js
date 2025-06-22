@@ -28,7 +28,7 @@ var MRMeshMath_8h =
     [ "edgeLengthSq", "MRMeshMath_8h.html#a8375bb81ce2308e9b03e2e0d5792dcd9", null ],
     [ "edgePoint", "MRMeshMath_8h.html#a537cde697d7f35e3370cd46156a03646", null ],
     [ "edgePoint", "MRMeshMath_8h.html#a7d641e99aa4679047a71ff850e614f60", null ],
-    [ "edgeSegment", "MRMeshMath_8h.html#a2298085a06a459719ca28a1f8c583f2a", null ],
+    [ "edgeSegment", "MRMeshMath_8h.html#af65aebb8f1629e7c2f7a969e296efa92", null ],
     [ "edgeVector", "MRMeshMath_8h.html#a2ecd5552b4907aa1e0a475427a4cef98", null ],
     [ "findCenterFromBBox", "MRMeshMath_8h.html#a0140eb8894552101f3fdabe8d842eb25", null ],
     [ "findCenterFromFaces", "MRMeshMath_8h.html#a0e9b24b3d309eba7ea1fb20758afd025", null ],

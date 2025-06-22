@@ -1,6 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"MRMeshMath_8h.html#a9b08c6deef4fc081ff82d6291456dbdd":[6,0,3,0,0,1,4,209,20],
 "MRMeshMath_8h.html#aa066b3823c0d189be92f99b46d6d1bb1":[6,0,3,0,0,1,4,209,15],
 "MRMeshMath_8h.html#aa2a7fba3a600699de880615c69671718":[6,0,3,0,0,1,4,209,54],
 "MRMeshMath_8h.html#aa776be59eeaaa3ab4503389cbf4f41c3":[6,0,3,0,0,1,4,209,21],
@@ -21,6 +20,7 @@ var NAVTREEINDEX8 =
 "MRMeshMath_8h.html#aeaaa231de17fd92490d5ffbdac7d7c16":[6,0,3,0,0,1,4,209,52],
 "MRMeshMath_8h.html#af04c9fae0daff536f4098c78b1c10b95":[6,0,3,0,0,1,4,209,61],
 "MRMeshMath_8h.html#af0748014e16c8c27ba2438118ae939a1":[6,0,3,0,0,1,4,209,49],
+"MRMeshMath_8h.html#af65aebb8f1629e7c2f7a969e296efa92":[6,0,3,0,0,1,4,209,28],
 "MRMeshMath_8h.html#afb5e341e476649b321cdb9f27e72c6d1":[6,0,3,0,0,1,4,209,13],
 "MRMeshMath_8h.html#aff94707b83310dd38361b67bf3490f8e":[6,0,3,0,0,1,4,209,18],
 "MRMeshMath_8h_source.html":[6,0,3,0,0,1,4,209],
