@@ -1,5 +1,7 @@
 var NAVTREEINDEX16 =
 {
+"MRUIStyle_8h.html#af81d056e2ca2afaceec0e67e12ed9afb":[6,0,3,0,0,1,10,130,53],
+"MRUIStyle_8h.html#afadef8b878371dc0bc9aa07df5dec003":[6,0,3,0,0,1,10,130,14],
 "MRUIStyle_8h.html#afbf63021d04e94c878b093fd86fef43f":[6,0,3,0,0,1,10,130,18],
 "MRUIStyle_8h.html#afc1009af05439b78707e8372d21f9a87":[6,0,3,0,0,1,10,130,54],
 "MRUIStyle_8h.html#affdd9ce8585853bc545f4f60bda2611f":[6,0,3,0,0,1,10,130,21],
@@ -247,7 +249,5 @@ var NAVTREEINDEX16 =
 "MRVolumeInterpolation_8h_source.html":[6,0,3,0,0,1,11,31],
 "MRVolumeSegment_8h.html":[6,0,3,0,0,1,11,32],
 "MRVolumeSegment_8h_source.html":[6,0,3,0,0,1,11,32],
-"MRVolumeShader_8h.html":[6,0,3,0,0,1,10,149],
-"MRVolumeShader_8h.html#a3e9889db672284199460d483317d72a2":[6,0,3,0,0,1,10,149,0],
-"MRVolumeShader_8h.html#a5a4a33e29777a43598f7c8536ddd3b5f":[6,0,3,0,0,1,10,149,1]
+"MRVolumeShader_8h.html":[6,0,3,0,0,1,10,149]
 };

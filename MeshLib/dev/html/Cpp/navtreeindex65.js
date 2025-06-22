@@ -1,5 +1,9 @@
 var NAVTREEINDEX65 =
 {
+"structMRDecimateSettings.html#a772d763e2025022e8ecad5e0df7081ee":[6,0,2,0,12,10],
+"structMRDecimateSettings.html#a868cd45481f4a69102b4ca7467320dde":[6,0,2,0,12,1],
+"structMRDecimateSettings.html#a9b4ec1883fa5a1aa043899f0151b85ea":[6,0,2,0,12,19],
+"structMRDecimateSettings.html#aafb6028ee59303a8ee4ec69083b50f4c":[6,0,2,0,12,4],
 "structMRDecimateSettings.html#ac280387b37c574d825a5dae4e745b550":[6,0,2,0,12,11],
 "structMRDecimateSettings.html#ad1e58750f155e9e45c27770c31ebe6f8":[6,0,2,0,12,14],
 "structMRDecimateSettings.html#ad43c7ad0a3072a5a93ec8e44e56be28a":[6,0,2,0,12,20],
@@ -245,9 +249,5 @@ var NAVTREEINDEX65 =
 "structMRSaveSettings.html":[6,0,2,0,59],
 "structMRSaveSettings.html#a47c3805a57d7062446bc12172eb77943":[6,0,2,0,59,3],
 "structMRSaveSettings.html#a4df1627285e1943e46ed5844acd7acf8":[6,0,2,0,59,2],
-"structMRSaveSettings.html#a9c114be117bb46a789028e6f1f814201":[6,0,2,0,59,1],
-"structMRSaveSettings.html#ab91ad76d039a96d79720bce0772eb46b":[6,0,2,0,59,0],
-"structMRSphereParams.html":[6,0,2,0,60],
-"structMRSphereParams.html#a4439c01e0e27173543a6da34336b2024":[6,0,2,0,60,1],
-"structMRSphereParams.html#a5f59105f7d8815267e7e295ce861e739":[6,0,2,0,60,0]
+"structMRSaveSettings.html#a9c114be117bb46a789028e6f1f814201":[6,0,2,0,59,1]
 };

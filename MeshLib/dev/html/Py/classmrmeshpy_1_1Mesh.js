@@ -66,6 +66,8 @@ var classmrmeshpy_1_1Mesh =
     [ "getDipolesNotCreate", "classmrmeshpy_1_1Mesh.html#a99a590c16bfdf1a65bc507ac837d4c31", null ],
     [ "getLeftTriPoints", "classmrmeshpy_1_1Mesh.html#a8bbfd75c630b7f6e72ca92803d9d5bb9", null ],
     [ "getLeftTriPoints", "classmrmeshpy_1_1Mesh.html#af9ca0586a0fff0d76ecb88a38133ac57", null ],
+    [ "getPlane3d", "classmrmeshpy_1_1Mesh.html#a9d7e922c8c60dc1ff607284cfb760853", null ],
+    [ "getPlane3f", "classmrmeshpy_1_1Mesh.html#ae11d7dd6ca7b73d3580968f04534358f", null ],
     [ "getTriPoints", "classmrmeshpy_1_1Mesh.html#af107adb679e8352ec0fb7ea1dcb097a9", null ],
     [ "getTriPoints", "classmrmeshpy_1_1Mesh.html#abff68d27969c3be8fd356e9a39861947", null ],
     [ "heapBytes", "classmrmeshpy_1_1Mesh.html#aa18602ecf6746363a491831c7a0a7990", null ],

@@ -1,5 +1,9 @@
 var NAVTREEINDEX151 =
 {
+"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#a8700ff100151de3cca7a53be44076206":[6,1,0,0,2,934,1],
+"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#a8700ff100151de3cca7a53be44076206":[6,1,1,0,1,934,1],
+"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#a8c57cd76f96a790c692ca9b69b46d0ef":[6,1,0,0,2,934,0],
+"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#a8c57cd76f96a790c692ca9b69b46d0ef":[6,1,1,0,1,934,0],
 "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#a8eb99b4ae29932942476647698212cc5":[6,1,0,0,2,934,7],
 "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#a8eb99b4ae29932942476647698212cc5":[6,1,1,0,1,934,7],
 "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#a92edf43590b6f522aae1e267e6a2a27e":[6,1,0,0,2,934,12],
@@ -245,9 +249,5 @@ var NAVTREEINDEX151 =
 "classmrviewerpy_1_1KeyMod.html#adab125b8b1cce61e0c1c9cb7e3a9d528":[6,1,0,0,3,0,8],
 "classmrviewerpy_1_1KeyMod.html#adab125b8b1cce61e0c1c9cb7e3a9d528":[6,1,1,0,2,0,8],
 "classmrviewerpy_1_1KeyMod.html#ae437999a8b0db98afd6b7f55346611d6":[6,1,0,0,3,0,12],
-"classmrviewerpy_1_1KeyMod.html#ae437999a8b0db98afd6b7f55346611d6":[6,1,1,0,2,0,12],
-"classmrviewerpy_1_1MouseButton.html":[6,1,0,0,3,1],
-"classmrviewerpy_1_1MouseButton.html":[6,1,1,0,2,1],
-"classmrviewerpy_1_1MouseButton.html#a1d4510c10a24c423d2762d2aff22ea05":[6,1,0,0,3,1,7],
-"classmrviewerpy_1_1MouseButton.html#a1d4510c10a24c423d2762d2aff22ea05":[6,1,1,0,2,1,7]
+"classmrviewerpy_1_1KeyMod.html#ae437999a8b0db98afd6b7f55346611d6":[6,1,1,0,2,0,12]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1DragListener.html":[6,0,1,0,1,203],
+"structMR_1_1DragListener.html":[6,0,2,0,1,187],
+"structMR_1_1DragListener.html#a0be1825501218bbfbba2eaa2f39383d2":[6,0,1,0,1,203,2],
+"structMR_1_1DragListener.html#a0be1825501218bbfbba2eaa2f39383d2":[6,0,2,0,1,187,2],
 "structMR_1_1DragListener.html#a3c8e2af0bd0db619dafdc936fec70576":[6,0,1,0,1,203,1],
 "structMR_1_1DragListener.html#a3c8e2af0bd0db619dafdc936fec70576":[6,0,2,0,1,187,1],
 "structMR_1_1DragListener.html#a3d494895fda9789af1254de71a622845":[6,0,1,0,1,203,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1FeatureObjectSharedProperty.html#abb260f1f2ce1cf3b86553e3b8c213840":[6,0,2,0,1,210,0],
 "structMR_1_1FeatureObjectSharedProperty.html#add72ff1842f783bf1ceae521c7d614ec":[6,0,1,0,1,226,2],
 "structMR_1_1FeatureObjectSharedProperty.html#add72ff1842f783bf1ceae521c7d614ec":[6,0,2,0,1,210,2],
-"structMR_1_1Features_1_1MeasureResult.html":[6,0,1,0,1,6,2],
-"structMR_1_1Features_1_1MeasureResult.html":[6,0,2,0,1,2,2],
-"structMR_1_1Features_1_1MeasureResult.html#a0682477036fb2befa7ff871bab780be2":[6,0,1,0,1,6,2,4],
-"structMR_1_1Features_1_1MeasureResult.html#a0682477036fb2befa7ff871bab780be2":[6,0,2,0,1,2,2,4],
-"structMR_1_1Features_1_1MeasureResult.html#a31415c50f3b3e2ee62b2778114b20ec9":[6,0,1,0,1,6,2,6]
+"structMR_1_1Features_1_1MeasureResult.html":[6,0,1,0,1,6,2]
 };

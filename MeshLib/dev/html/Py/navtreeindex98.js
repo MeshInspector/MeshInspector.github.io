@@ -1,5 +1,9 @@
 var NAVTREEINDEX98 =
 {
+"classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a180b87ce5589283cf889a5bbd727ee99":[6,1,0,0,2,1081,34],
+"classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a180b87ce5589283cf889a5bbd727ee99":[6,1,1,0,1,1081,34],
+"classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a1b13a774e90ab8bd29011e8cd8a93756":[6,1,0,0,2,1081,26],
+"classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a1b13a774e90ab8bd29011e8cd8a93756":[6,1,1,0,1,1081,26],
 "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a1d1183c983bdd92944c625683894864e":[6,1,0,0,2,1081,11],
 "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a1d1183c983bdd92944c625683894864e":[6,1,1,0,1,1081,11],
 "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a24a5ce7548dd09bef2609324327f94a4":[6,1,0,0,2,1081,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX98 =
 "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a4672268086e9ea4c252d7aa10fa2e037":[6,1,0,0,2,1084,9],
 "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a4672268086e9ea4c252d7aa10fa2e037":[6,1,1,0,1,1084,9],
 "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a4a093f1e8fe1a233af16c1fae969f550":[6,1,0,0,2,1084,15],
-"classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a4a093f1e8fe1a233af16c1fae969f550":[6,1,1,0,1,1084,15],
-"classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a4d23fd67989b14706837a5c2ae318c48":[6,1,0,0,2,1084,21],
-"classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a4d23fd67989b14706837a5c2ae318c48":[6,1,1,0,1,1084,21],
-"classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a4f88d92fb6f4572356aa173f6d36549b":[6,1,0,0,2,1084,18],
-"classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a4f88d92fb6f4572356aa173f6d36549b":[6,1,1,0,1,1084,18]
+"classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a4a093f1e8fe1a233af16c1fae969f550":[6,1,1,0,1,1084,15]
 };

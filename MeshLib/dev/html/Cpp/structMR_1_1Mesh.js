@@ -65,6 +65,8 @@ var structMR_1_1Mesh =
     [ "getLeftTriPoints", "structMR_1_1Mesh.html#a7173fafd19150c40259003561a02162a", null ],
     [ "getLeftTriPoints", "structMR_1_1Mesh.html#a587dd9a2bd990d58c6409c01b684553d", null ],
     [ "getLeftTriPoints", "structMR_1_1Mesh.html#af1c5a975cbd95ff470346d693287bb5d", null ],
+    [ "getPlane3d", "structMR_1_1Mesh.html#a702edaca41c2a85172ffb4710fd751c1", null ],
+    [ "getPlane3f", "structMR_1_1Mesh.html#a9d28f4d3c01028c7a1f278593eb90fd3", null ],
     [ "getTriPoints", "structMR_1_1Mesh.html#a55a31eccbae1dd87a464a0907aad14ce", null ],
     [ "getTriPoints", "structMR_1_1Mesh.html#abe211d973521963165b09ad25d9a971c", null ],
     [ "getTriPoints", "structMR_1_1Mesh.html#abe28c0649ca99c11e22e99fcce026ffe", null ],

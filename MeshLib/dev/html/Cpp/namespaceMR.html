@@ -4590,6 +4590,11 @@ Functions</h2></td></tr>
 <tr class="memitem:aeaaa231de17fd92490d5ffbdac7d7c16" id="r_aeaaa231de17fd92490d5ffbdac7d7c16"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeaaa231de17fd92490d5ffbdac7d7c16">normal</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertCoords &amp;points, FaceId f)</td></tr>
 <tr class="memdesc:aeaaa231de17fd92490d5ffbdac7d7c16"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes triangular face normal from its vertices  <br /></td></tr>
 <tr class="separator:aeaaa231de17fd92490d5ffbdac7d7c16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb4dd7a594fbcbc6046c52f5fa593b0f" id="r_adb4dd7a594fbcbc6046c52f5fa593b0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Plane3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb4dd7a594fbcbc6046c52f5fa593b0f">getPlane3f</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertCoords &amp;points, FaceId f)</td></tr>
+<tr class="memdesc:adb4dd7a594fbcbc6046c52f5fa593b0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the plane containing given triangular face with normal looking outwards  <br /></td></tr>
+<tr class="separator:adb4dd7a594fbcbc6046c52f5fa593b0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8918d7bafc5f9beb5a4320e55e25cef" id="r_ae8918d7bafc5f9beb5a4320e55e25cef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Plane3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8918d7bafc5f9beb5a4320e55e25cef">getPlane3d</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertCoords &amp;points, FaceId f)</td></tr>
+<tr class="separator:ae8918d7bafc5f9beb5a4320e55e25cef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48b8d23ea7f7dd04366bf343830af62e" id="r_a48b8d23ea7f7dd04366bf343830af62e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48b8d23ea7f7dd04366bf343830af62e">dirDblArea</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertCoords &amp;points, VertId v)</td></tr>
 <tr class="memdesc:a48b8d23ea7f7dd04366bf343830af62e"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes sum of directed double areas of all triangles around given vertex  <br /></td></tr>
 <tr class="separator:a48b8d23ea7f7dd04366bf343830af62e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -23542,6 +23547,76 @@ template&lt;typename ObjectT &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae8918d7bafc5f9beb5a4320e55e25cef" name="ae8918d7bafc5f9beb5a4320e55e25cef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8918d7bafc5f9beb5a4320e55e25cef">&#9670;&#160;</a></span>getPlane3d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Plane3d MR::getPlane3d </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FaceId</td>          <td class="paramname"><span class="paramname"><em>f</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adb4dd7a594fbcbc6046c52f5fa593b0f" name="adb4dd7a594fbcbc6046c52f5fa593b0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb4dd7a594fbcbc6046c52f5fa593b0f">&#9670;&#160;</a></span>getPlane3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Plane3f MR::getPlane3f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FaceId</td>          <td class="paramname"><span class="paramname"><em>f</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the plane containing given triangular face with normal looking outwards </p>
 
 </div>
 </div>

@@ -1901,6 +1901,8 @@ var mrmeshpy_8pyi =
     [ "getPickedPointPosition", "mrmeshpy_8pyi.html#af81852a41d1037269c6f1a6e5299e963", null ],
     [ "getPlanarHoleFillPlan", "mrmeshpy_8pyi.html#a82932288ccacafc6244f275a7c99a5f9", null ],
     [ "getPlanarHoleFillPlans", "mrmeshpy_8pyi.html#a8ee28bb13f35210dc8411bf7305f4419", null ],
+    [ "getPlane3d", "mrmeshpy_8pyi.html#ae142f0765500cb352d6e0d348b0b62a8", null ],
+    [ "getPlane3f", "mrmeshpy_8pyi.html#a6e2f97a495d9a00eba00bad07ad3ad8d", null ],
     [ "getPlaneFillMetric", "mrmeshpy_8pyi.html#aaac24ab819d625ae22d0b98741ec667d", null ],
     [ "getPlaneNormalizedFillMetric", "mrmeshpy_8pyi.html#a62e35383a2d894e625a36f15615ea184", null ],
     [ "getRegionBoundaryVerts", "mrmeshpy_8pyi.html#a70811dded7ed0ad2de54c406d42dec57", null ],

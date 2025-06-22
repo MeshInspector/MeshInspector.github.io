@@ -1,5 +1,9 @@
 var NAVTREEINDEX66 =
 {
+"structMRSaveSettings.html#ab91ad76d039a96d79720bce0772eb46b":[6,0,2,0,59,0],
+"structMRSphereParams.html":[6,0,2,0,60],
+"structMRSphereParams.html#a4439c01e0e27173543a6da34336b2024":[6,0,2,0,60,1],
+"structMRSphereParams.html#a5f59105f7d8815267e7e295ce861e739":[6,0,2,0,60,0],
 "structMRStitchHolesParams.html":[6,0,2,0,61],
 "structMRStitchHolesParams.html#ab1a3eda7adaffbeaa8f8a7da237d2888":[6,0,2,0,61,1],
 "structMRStitchHolesParams.html#af2802077c43ff3c07a29080f2a908ade":[6,0,2,0,61,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1BaseRenderParams.html#aabb1d7dfa544bd6cb1d98a79a8d036a9":[6,0,2,0,1,51,2],
 "structMR_1_1BaseRenderParams.html#ab108063540156c1b73540c07c48e6d01":[6,0,1,0,1,67,0],
 "structMR_1_1BaseRenderParams.html#ab108063540156c1b73540c07c48e6d01":[6,0,2,0,1,51,0],
-"structMR_1_1BaseRenderParams.html#adf952473500110be7f693c5d725f6fde":[6,0,1,0,1,67,3],
-"structMR_1_1BaseRenderParams.html#adf952473500110be7f693c5d725f6fde":[6,0,2,0,1,51,3],
-"structMR_1_1BaseShellParameters.html":[6,0,1,0,1,68],
-"structMR_1_1BaseShellParameters.html":[6,0,2,0,1,52],
-"structMR_1_1BaseShellParameters.html#a0496e82daf37476561be7bd450c6fb48":[6,0,1,0,1,68,1]
+"structMR_1_1BaseRenderParams.html#adf952473500110be7f693c5d725f6fde":[6,0,1,0,1,67,3]
 };

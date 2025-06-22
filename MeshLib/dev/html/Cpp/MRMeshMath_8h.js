@@ -42,6 +42,8 @@ var MRMeshMath_8h =
     [ "getLeftTriPoints", "MRMeshMath_8h.html#a4f76c7c53566d50dedc2505feaeaa30b", null ],
     [ "getLeftTriPoints", "MRMeshMath_8h.html#a7c31ded9fca5ab0be7fbc73187e14e17", null ],
     [ "getLeftTriPoints", "MRMeshMath_8h.html#ad93f2b890a8c5bc9854f7fc4c54f7c55", null ],
+    [ "getPlane3d", "MRMeshMath_8h.html#ae8918d7bafc5f9beb5a4320e55e25cef", null ],
+    [ "getPlane3f", "MRMeshMath_8h.html#adb4dd7a594fbcbc6046c52f5fa593b0f", null ],
     [ "getTriPoints", "MRMeshMath_8h.html#a8597debb336c94ce7e51ca1626e71ef4", null ],
     [ "getTriPoints", "MRMeshMath_8h.html#a4f1ba2ac64996a6cd34ae45a5c002194", null ],
     [ "getTriPoints", "MRMeshMath_8h.html#ac951e8c2b35367642c93bc4c6c72b6f6", null ],

@@ -294,6 +294,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af9ca0586a0fff0d76ecb88a38133ac57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bbfd75c630b7f6e72ca92803d9d5bb9" id="r_a8bbfd75c630b7f6e72ca92803d9d5bb9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__array__Vector3__float__3.html">std_array_Vector3_float_3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bbfd75c630b7f6e72ca92803d9d5bb9">getLeftTriPoints</a> (self, <a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> e)</td></tr>
 <tr class="separator:a8bbfd75c630b7f6e72ca92803d9d5bb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d7e922c8c60dc1ff607284cfb760853" id="r_a9d7e922c8c60dc1ff607284cfb760853"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Plane3d.html">Plane3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d7e922c8c60dc1ff607284cfb760853">getPlane3d</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> f)</td></tr>
+<tr class="separator:a9d7e922c8c60dc1ff607284cfb760853"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae11d7dd6ca7b73d3580968f04534358f" id="r_ae11d7dd6ca7b73d3580968f04534358f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Plane3f.html">Plane3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae11d7dd6ca7b73d3580968f04534358f">getPlane3f</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> f)</td></tr>
+<tr class="separator:ae11d7dd6ca7b73d3580968f04534358f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abff68d27969c3be8fd356e9a39861947" id="r_abff68d27969c3be8fd356e9a39861947"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abff68d27969c3be8fd356e9a39861947">getTriPoints</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> f, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> v0, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> v1, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> v2)</td></tr>
 <tr class="separator:abff68d27969c3be8fd356e9a39861947"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af107adb679e8352ec0fb7ea1dcb097a9" id="r_af107adb679e8352ec0fb7ea1dcb097a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__array__Vector3__float__3.html">std_array_Vector3_float_3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af107adb679e8352ec0fb7ea1dcb097a9">getTriPoints</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> f)</td></tr>
@@ -2298,6 +2302,49 @@ this bounding box is insignificantly bigger that minimal box due to AABB algorit
       </table>
 </div><div class="memdoc">
 <pre class="fragment">returns three points of left face of e: v0 = orgPnt( e ), v1 = destPnt( e )
+</pre> 
+</div>
+</div>
+<a id="a9d7e922c8c60dc1ff607284cfb760853" name="a9d7e922c8c60dc1ff607284cfb760853"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d7e922c8c60dc1ff607284cfb760853">&#9670;&#160;</a></span>getPlane3d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Plane3d.html">Plane3d</a> mrmeshpy.Mesh.getPlane3d </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>f</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae11d7dd6ca7b73d3580968f04534358f" name="ae11d7dd6ca7b73d3580968f04534358f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae11d7dd6ca7b73d3580968f04534358f">&#9670;&#160;</a></span>getPlane3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Plane3f.html">Plane3f</a> mrmeshpy.Mesh.getPlane3f </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>f</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the plane containing given triangular face with normal looking outwards
 </pre> 
 </div>
 </div>
