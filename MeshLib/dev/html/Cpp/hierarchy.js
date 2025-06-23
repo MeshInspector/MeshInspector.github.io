@@ -996,6 +996,8 @@ var hierarchy =
     [ "MR::PointToPlaneAligningTransform", "classMR_1_1PointToPlaneAligningTransform.html", null ],
     [ "MR::PointToPointAligningTransform", "classMR_1_1PointToPointAligningTransform.html", null ],
     [ "MR::Polyline< V >", "structMR_1_1Polyline.html", null ],
+    [ "MR::Cuda::Polyline2DataHolder", "classMR_1_1Cuda_1_1Polyline2DataHolder.html", null ],
+    [ "MR::Cuda::Polyline3DataHolder", "classMR_1_1Cuda_1_1Polyline3DataHolder.html", null ],
     [ "MR::PolylineIntersectionResult2", "structMR_1_1PolylineIntersectionResult2.html", null ],
     [ "MR::PolylineMaker", "structMR_1_1PolylineMaker.html", null ],
     [ "MR::PolylineProjectionResult< V >", "structMR_1_1PolylineProjectionResult.html", null ],

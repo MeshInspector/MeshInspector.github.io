@@ -3,6 +3,8 @@ var namespaceMR_1_1Cuda =
     [ "FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", "classMR_1_1Cuda_1_1FastWindingNumber" ],
     [ "PointsProjector", "classMR_1_1Cuda_1_1PointsProjector.html", "classMR_1_1Cuda_1_1PointsProjector" ],
     [ "PointsToMeshProjector", "classMR_1_1Cuda_1_1PointsToMeshProjector.html", "classMR_1_1Cuda_1_1PointsToMeshProjector" ],
+    [ "Polyline2DataHolder", "classMR_1_1Cuda_1_1Polyline2DataHolder.html", "classMR_1_1Cuda_1_1Polyline2DataHolder" ],
+    [ "Polyline3DataHolder", "classMR_1_1Cuda_1_1Polyline3DataHolder.html", "classMR_1_1Cuda_1_1Polyline3DataHolder" ],
     [ "computeDistanceMap", "namespaceMR_1_1Cuda.html#ae00800a975100101a6b94ad8c6c4c817", null ],
     [ "computeDistanceMapHeapBytes", "namespaceMR_1_1Cuda.html#ad3376b68fd0e9661c0072bf92dd704a3", null ],
     [ "computeSkyViewFactor", "namespaceMR_1_1Cuda.html#ab5f9490f820c7e7eb708e516e58d6e5a", null ],

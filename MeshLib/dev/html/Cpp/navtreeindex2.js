@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"MRDicom_8h.html#ad79032cc6ef1a0e389097a70c1000de3":[6,0,3,0,0,1,11,6,13],
+"MRDicom_8h.html#adbcdf154c89bce3f54684092bcc3f76e":[6,0,3,0,0,1,11,6,6],
 "MRDicom_8h.html#adf1cf75d42be383bb66a5e1f952b2cd1":[6,0,3,0,0,1,11,6,12],
 "MRDicom_8h_source.html":[6,0,3,0,0,1,11,6],
 "MRDipole_8h.html":[6,0,3,0,0,1,4,80],
@@ -116,12 +118,13 @@ var NAVTREEINDEX2 =
 "MREnums_8h.html#afb67fe49bcb6006882e7b08e51b2eeffabafd7322c6e97d25b6299b5d6fe8920b":[6,0,3,0,0,1,4,98,6,0],
 "MREnums_8h_source.html":[6,0,3,0,0,1,4,98],
 "MRExpected_8h.html":[6,0,3,0,0,1,4,100],
-"MRExpected_8h.html#a1544b69f030c536c35a2d00c154caaf6":[6,0,3,0,0,1,4,100,2],
-"MRExpected_8h.html#a35384d6fca989aa5fd419f6c6d730022":[6,0,3,0,0,1,4,100,3],
-"MRExpected_8h.html#a6d7483b6adbc485e9c9b52eb09cb7735":[6,0,3,0,0,1,4,100,0],
-"MRExpected_8h.html#a7114fa1fb5a55cb47db1db69eb04634b":[6,0,3,0,0,1,4,100,5],
-"MRExpected_8h.html#a78cf002f660ab73123553df1f3ab3bc1":[6,0,3,0,0,1,4,100,4],
-"MRExpected_8h.html#adaeda128e3a2e131a28e25934de4203c":[6,0,3,0,0,1,4,100,1],
+"MRExpected_8h.html#a1544b69f030c536c35a2d00c154caaf6":[6,0,3,0,0,1,4,100,3],
+"MRExpected_8h.html#a35384d6fca989aa5fd419f6c6d730022":[6,0,3,0,0,1,4,100,4],
+"MRExpected_8h.html#a6d7483b6adbc485e9c9b52eb09cb7735":[6,0,3,0,0,1,4,100,1],
+"MRExpected_8h.html#a7114fa1fb5a55cb47db1db69eb04634b":[6,0,3,0,0,1,4,100,6],
+"MRExpected_8h.html#a78cf002f660ab73123553df1f3ab3bc1":[6,0,3,0,0,1,4,100,5],
+"MRExpected_8h.html#acceb51312ffcedf923f69bfea9ab9770":[6,0,3,0,0,1,4,100,0],
+"MRExpected_8h.html#adaeda128e3a2e131a28e25934de4203c":[6,0,3,0,0,1,4,100,2],
 "MRExpected_8h_source.html":[6,0,3,0,0,1,4,100],
 "MRExtractIsolines_8h.html":[6,0,3,0,0,1,4,101],
 "MRExtractIsolines_8h.html#a0af750bc6c8661a8942e40aa5889bee9":[6,0,3,0,0,1,4,101,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX2 =
 "MRFillContours2D_8h.html#af4a1dbdb9aedd7fadc599adb576b16da":[6,0,3,0,0,1,4,114,3],
 "MRFillContours2D_8h_source.html":[6,0,3,0,0,1,4,114],
 "MRFilterCreaseEdges_8h.html":[6,0,3,0,0,1,4,116],
-"MRFilterCreaseEdges_8h.html#af323676e5a2bf779fb0700037ad648da":[6,0,3,0,0,1,4,116,0],
-"MRFilterCreaseEdges_8h_source.html":[6,0,3,0,0,1,4,116],
-"MRFinally_8h.html":[6,0,3,0,0,1,4,117],
-"MRFinally_8h.html#a40e5af90a48f13bfd508e3019793ad23":[6,0,3,0,0,1,4,117,5]
+"MRFilterCreaseEdges_8h.html#af323676e5a2bf779fb0700037ad648da":[6,0,3,0,0,1,4,116,0]
 };

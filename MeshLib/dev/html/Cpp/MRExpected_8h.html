@@ -153,6 +153,7 @@ $(function(){initNavTree('MRExpected_8h.html',''); initResizable(true); });
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRExpected.h File Reference</div></div>
@@ -169,6 +170,12 @@ $(function(){initNavTree('MRExpected_8h.html',''); initResizable(true); });
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:acceb51312ffcedf923f69bfea9ab9770" id="r_acceb51312ffcedf923f69bfea9ab9770"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acceb51312ffcedf923f69bfea9ab9770">MR_RETURN_IF_UNEXPECTED</a>(expr)</td></tr>
+<tr class="memdesc:acceb51312ffcedf923f69bfea9ab9770"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exits the current function with an error if the given expression contains an error.  <br /></td></tr>
+<tr class="separator:acceb51312ffcedf923f69bfea9ab9770"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -194,6 +201,28 @@ Functions</h2></td></tr>
 <tr class="memdesc:a7114fa1fb5a55cb47db1db69eb04634b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns Expected error with <code><a class="el" href="namespaceMR.html#a1544b69f030c536c35a2d00c154caaf6" title="common message about unknown file extension">stringUnsupportedFileExtension()</a></code>  <br /></td></tr>
 <tr class="separator:a7114fa1fb5a55cb47db1db69eb04634b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="acceb51312ffcedf923f69bfea9ab9770" name="acceb51312ffcedf923f69bfea9ab9770"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acceb51312ffcedf923f69bfea9ab9770">&#9670;&#160;</a></span>MR_RETURN_IF_UNEXPECTED</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_RETURN_IF_UNEXPECTED</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>expr</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">if</span> ( <span class="keyword">auto</span>&amp;&amp; res = ( expr ); !res ) \</div>
+<div class="line">        <span class="keywordflow">return</span> unexpected( std::move( res.error() ) );</div>
+</div><!-- fragment -->
+<p>Exits the current function with an error if the given expression contains an error. </p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

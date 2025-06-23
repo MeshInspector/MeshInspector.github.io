@@ -218,7 +218,13 @@ $(function(){initNavTree('MRExpected_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>}</div>
 </div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>} <span class="comment">//namespace MR</span></div>
+<div class="foldopen" id="foldopen00060" data-start="" data-end="">
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="MRExpected_8h.html#acceb51312ffcedf923f69bfea9ab9770">   60</a></span><span class="preprocessor">#define MR_RETURN_IF_UNEXPECTED( expr ) \</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">    if ( auto&amp;&amp; res = ( expr ); !res ) \</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="preprocessor">        return unexpected( std::move( res.error() ) );</span></div>
+</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>} <span class="comment">//namespace MR</span></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a1544b69f030c536c35a2d00c154caaf6"><div class="ttname"><a href="namespaceMR.html#a1544b69f030c536c35a2d00c154caaf6">MR::stringUnsupportedFileExtension</a></div><div class="ttdeci">MR_BIND_IGNORE std::string stringUnsupportedFileExtension()</div><div class="ttdoc">common message about unknown file extension</div><div class="ttdef"><b>Definition</b> MRExpected.h:48</div></div>

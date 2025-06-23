@@ -9,7 +9,9 @@ var annotated_dup =
       [ "Cuda", "namespaceMR_1_1Cuda.html", [
         [ "FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", "classMR_1_1Cuda_1_1FastWindingNumber" ],
         [ "PointsProjector", "classMR_1_1Cuda_1_1PointsProjector.html", "classMR_1_1Cuda_1_1PointsProjector" ],
-        [ "PointsToMeshProjector", "classMR_1_1Cuda_1_1PointsToMeshProjector.html", "classMR_1_1Cuda_1_1PointsToMeshProjector" ]
+        [ "PointsToMeshProjector", "classMR_1_1Cuda_1_1PointsToMeshProjector.html", "classMR_1_1Cuda_1_1PointsToMeshProjector" ],
+        [ "Polyline2DataHolder", "classMR_1_1Cuda_1_1Polyline2DataHolder.html", "classMR_1_1Cuda_1_1Polyline2DataHolder" ],
+        [ "Polyline3DataHolder", "classMR_1_1Cuda_1_1Polyline3DataHolder.html", "classMR_1_1Cuda_1_1Polyline3DataHolder" ]
       ] ],
       [ "detail", "namespaceMR_1_1detail.html", [
         [ "Units", "namespaceMR_1_1detail_1_1Units.html", [

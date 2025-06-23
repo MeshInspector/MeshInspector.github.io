@@ -1,5 +1,8 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1AABBTreePoints.html#affd18b1fda8da3797dbcaa84425ab594":[6,0,0,1,7,7],
+"classMR_1_1AABBTreePolyline.html":[6,0,0,1,11],
+"classMR_1_1AABBTreePolyline.html#a0da0a8d855b1e2981083b1e681398a8b":[6,0,0,1,11,1],
 "classMR_1_1AABBTreePolyline.html#a52c528f5d14d69efc2f4a51166515170":[6,0,0,1,11,6],
 "classMR_1_1AABBTreePolyline.html#a7bfaaa5a66978f3d97cd8451644bed9a":[6,0,0,1,11,0],
 "classMR_1_1AABBTreePolyline.html#a82f5feeca891be31840c7bba4a85cb1a":[6,0,0,1,11,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1BoundarySelectionWidget.html#afbc86f5613c3dd468b07182608a9aee9":[6,0,1,0,1,84,12],
 "classMR_1_1BoundarySelectionWidget.html#afbc86f5613c3dd468b07182608a9aee9":[6,0,2,0,1,68,12],
 "classMR_1_1Buffer.html":[6,0,0,3,6],
-"classMR_1_1Buffer.html#a0aae7e1ae916ef6da5cd9f342f93207c":[6,0,0,3,6,7],
-"classMR_1_1Buffer.html#a2f01b559e5cafefd57bef4c73f59b669":[6,0,0,3,6,10],
-"classMR_1_1Buffer.html#a40bf924b784b4438431f70517b950d70":[6,0,0,3,6,19],
-"classMR_1_1Buffer.html#a41da905f71d8b9c53aa517dae7af261a":[6,0,0,3,6,11]
+"classMR_1_1Buffer.html#a0aae7e1ae916ef6da5cd9f342f93207c":[6,0,0,3,6,7]
 };
