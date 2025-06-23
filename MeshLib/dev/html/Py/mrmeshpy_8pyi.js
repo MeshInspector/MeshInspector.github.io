@@ -1323,6 +1323,7 @@ var mrmeshpy_8pyi =
     [ "asSelectivityType_ObjectPointsHolder", "mrmeshpy_8pyi.html#a304c33ff0201b60f5c996a0248e5129d", null ],
     [ "asSelectivityType_ObjectVoxels", "mrmeshpy_8pyi.html#aa968235c09ac6781bbc4a00cfd882461", null ],
     [ "asSelectivityType_VisualObject", "mrmeshpy_8pyi.html#a076f8b627eebb1788a838dc4eae8efa2", null ],
+    [ "asString", "mrmeshpy_8pyi.html#a09a8f1468493a514e5189a74388d2cc7", null ],
     [ "asString", "mrmeshpy_8pyi.html#a03fabff627dd496f5682b0b7981fa675", null ],
     [ "asString", "mrmeshpy_8pyi.html#aaaca200b149540ac882d2466e22dfe7b", null ],
     [ "asU8String", "mrmeshpy_8pyi.html#a8b193bc9df65e1155539ba1f83090ee1", null ],

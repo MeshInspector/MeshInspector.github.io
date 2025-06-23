@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"MRImGuiVectorOperators_8h_source.html":[6,0,3,0,0,1,10,34],
 "MRImGui_8h.html":[6,0,3,0,0,1,10,30],
 "MRImGui_8h_source.html":[6,0,3,0,0,1,10,30],
 "MRImageLoad_8h.html":[6,0,3,0,0,1,4,139],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "MRMeshC_2MRBooleanOperation_8h.html":[6,0,3,0,0,1,5,4],
 "MRMeshC_2MRBooleanOperation_8h.html#a127e53a69993ac9d8362f544a94f9f31":[6,0,3,0,0,1,5,4,1],
 "MRMeshC_2MRBooleanOperation_8h.html#a23023d1e8bdd5c8deebba6a109008b1a":[6,0,3,0,0,1,5,4,4],
-"MRMeshC_2MRBooleanOperation_8h.html#a23023d1e8bdd5c8deebba6a109008b1aa288f6eb4c17c3cbf16f9692cd8b641ed":[6,0,3,0,0,1,5,4,4,0],
-"MRMeshC_2MRBooleanOperation_8h.html#a23023d1e8bdd5c8deebba6a109008b1aa3d43a308ba33f30800011fdbfd3e4b7a":[6,0,3,0,0,1,5,4,4,2]
+"MRMeshC_2MRBooleanOperation_8h.html#a23023d1e8bdd5c8deebba6a109008b1aa288f6eb4c17c3cbf16f9692cd8b641ed":[6,0,3,0,0,1,5,4,4,0]
 };

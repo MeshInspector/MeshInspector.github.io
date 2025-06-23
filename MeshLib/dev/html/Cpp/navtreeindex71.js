@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1FeatureObjectSharedProperty.html#add72ff1842f783bf1ceae521c7d614ec":[6,0,2,0,1,210,2],
+"structMR_1_1Features_1_1MeasureResult.html":[6,0,1,0,1,6,2],
 "structMR_1_1Features_1_1MeasureResult.html":[6,0,2,0,1,2,2],
 "structMR_1_1Features_1_1MeasureResult.html#a0682477036fb2befa7ff871bab780be2":[6,0,1,0,1,6,2,4],
 "structMR_1_1Features_1_1MeasureResult.html#a0682477036fb2befa7ff871bab780be2":[6,0,2,0,1,2,2,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301ac43e0fd449c758dab8f891d8e19eb1a9":[6,0,0,9,3,0,0,2],
 "structMR_1_1FindDisorientationParams.html":[6,0,0,9,4,2],
 "structMR_1_1FindDisorientationParams.html#a0c40bf2320287e58137728520c03765e":[6,0,0,9,4,2,1],
-"structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389d":[6,0,0,9,4,2,0],
-"structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389da130c5b3473c57faa76e2a1c54e26f88e":[6,0,0,9,4,2,0,2],
-"structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389da3289297424e01eda5b788c083bbf3147":[6,0,0,9,4,2,0,0]
+"structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389d":[6,0,0,9,4,2,0]
 };

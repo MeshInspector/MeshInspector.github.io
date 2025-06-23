@@ -1,5 +1,7 @@
 var NAVTREEINDEX90 =
 {
+"structMR_1_1ViewportGL_1_1BasePickResult.html#ab3a28df9902a6bfa722c359efdd91d44":[6,0,1,0,1,775,0,0],
+"structMR_1_1ViewportGL_1_1BasePickResult.html#ab3a28df9902a6bfa722c359efdd91d44":[6,0,2,0,1,759,0,0],
 "structMR_1_1ViewportGL_1_1PickParameters.html":[6,0,1,0,1,775,1],
 "structMR_1_1ViewportGL_1_1PickParameters.html":[6,0,2,0,1,759,1],
 "structMR_1_1ViewportGL_1_1PickParameters.html#a518b85161ebde2615c4805c8d6edb010":[6,0,1,0,1,775,1,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX90 =
 "structMR_1_1WebRequest_1_1FormData.html#af10f20cfbd2570080e50872cbf89931f":[6,0,1,0,1,804,0,0],
 "structMR_1_1WebRequest_1_1FormData.html#af10f20cfbd2570080e50872cbf89931f":[6,0,2,0,1,788,0,0],
 "structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html":[6,0,1,0,1,42,0],
-"structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html":[6,0,2,0,1,26,0],
-"structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a29acc2ff0fb3ba09c6eecaf68f3a5f65":[6,0,1,0,1,42,0,1],
-"structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a29acc2ff0fb3ba09c6eecaf68f3a5f65":[6,0,2,0,1,26,0,1]
+"structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html":[6,0,2,0,1,26,0]
 };

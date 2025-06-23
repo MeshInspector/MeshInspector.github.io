@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"MRPolylineDecimate_8h.html#a8e3fea3b34acecc3eafb0088d3a9e468":[6,0,3,0,0,1,4,298,6],
 "MRPolylineDecimate_8h_source.html":[6,0,3,0,0,1,4,298],
 "MRPolylineEdgeIterator_8h.html":[6,0,3,0,0,1,4,299],
 "MRPolylineEdgeIterator_8h_source.html":[6,0,3,0,0,1,4,299],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "MRRibbonConstants_8h.html#a3751389d3e765404fee965fe7e4d5114":[6,0,3,0,0,1,10,81,37],
 "MRRibbonConstants_8h.html#a3980e45b7cc71e35412820615644bca6":[6,0,3,0,0,1,10,81,10],
 "MRRibbonConstants_8h.html#a4004a26198c0d4ee7e9de5004b5c58cf":[6,0,3,0,0,1,10,81,0],
-"MRRibbonConstants_8h.html#a40b832fe75f008db0d06d0ce99d54600":[6,0,3,0,0,1,10,81,54],
-"MRRibbonConstants_8h.html#a429a2293457b924cb7dab5ba802389d2":[6,0,3,0,0,1,10,81,42]
+"MRRibbonConstants_8h.html#a40b832fe75f008db0d06d0ce99d54600":[6,0,3,0,0,1,10,81,54]
 };

@@ -38,5 +38,6 @@ var MREnums_8h =
     [ "VertexMass", "MREnums_8h.html#ada281bbc8bccd66b01be1b6d2b99e3cd", [
       [ "Unit", "MREnums_8h.html#ada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f", null ],
       [ "NeiArea", "MREnums_8h.html#ada281bbc8bccd66b01be1b6d2b99e3cda1382ee05d86c5b607841935eeb648e06", null ]
-    ] ]
+    ] ],
+    [ "asString", "MREnums_8h.html#aacea1a148219f6a3a63f157178a7ee08", null ]
 ];

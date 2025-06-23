@@ -1,5 +1,6 @@
 var NAVTREEINDEX29 =
 {
+"classMR_1_1MarkedVoxelSlice.html#ad26146bfaaea86c6642ac101c7f5bbfc":[6,0,2,0,1,329,20],
 "classMR_1_1MarkedVoxelSlice.html#ad8db7482eea8aa284e25701a769f2fd1":[6,0,1,0,1,345,3],
 "classMR_1_1MarkedVoxelSlice.html#ad8db7482eea8aa284e25701a769f2fd1":[6,0,2,0,1,329,3],
 "classMR_1_1MarkedVoxelSlice.html#adbcf5136f507046d164884a62801f018":[6,0,1,0,1,345,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX29 =
 "classMR_1_1MeshTopology.html#ab3ffc7ad52720ee3c460867977323598":[6,0,0,7,2,3],
 "classMR_1_1MeshTopology.html#ab5f2cd2b3dbdcb502edf741bee2bc7f1":[6,0,0,7,2,89],
 "classMR_1_1MeshTopology.html#ab8f6bac43d55cb3f54de7ea9fe084499":[6,0,0,7,2,19],
-"classMR_1_1MeshTopology.html#abf04500a2b4fbdd3584d89d2ce2f46d6":[6,0,0,7,2,85],
-"classMR_1_1MeshTopology.html#ac2acc2c945d672bad703119cf06ba3d3":[6,0,0,7,2,105]
+"classMR_1_1MeshTopology.html#abf04500a2b4fbdd3584d89d2ce2f46d6":[6,0,0,7,2,85]
 };

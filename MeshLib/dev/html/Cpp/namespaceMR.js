@@ -1632,6 +1632,7 @@ var namespaceMR =
     [ "area", "namespaceMR.html#a5db5640e628bfb98d046695d1bf378af", null ],
     [ "area", "namespaceMR.html#ad0da44181dd40e142f6e464e276c6c03", null ],
     [ "asSelectivityType", "namespaceMR.html#a63769cf93cfa3d68cbf331f305c195d8", null ],
+    [ "asString", "namespaceMR.html#aacea1a148219f6a3a63f157178a7ee08", null ],
     [ "asString", "group__BasicGroup.html#ga772133dc76f16920332b4b0074da394e", null ],
     [ "asString", "namespaceMR.html#adef43100b8549538f5eac0fb7a9a0107", null ],
     [ "asString", "group__BasicGroup.html#gae19e95b1a9a0a6b0a74848dc36d9f863", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"structMRSaveSettings.html#a4df1627285e1943e46ed5844acd7acf8":[6,0,2,0,59,2],
+"structMRSaveSettings.html#a9c114be117bb46a789028e6f1f814201":[6,0,2,0,59,1],
 "structMRSaveSettings.html#ab91ad76d039a96d79720bce0772eb46b":[6,0,2,0,59,0],
 "structMRSphereParams.html":[6,0,2,0,60],
 "structMRSphereParams.html#a4439c01e0e27173543a6da34336b2024":[6,0,2,0,60,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1BaseRenderParams.html#a564bcf6e1925912d15fa1cb20a3b0a3c":[6,0,2,0,1,51,1],
 "structMR_1_1BaseRenderParams.html#aabb1d7dfa544bd6cb1d98a79a8d036a9":[6,0,1,0,1,67,2],
 "structMR_1_1BaseRenderParams.html#aabb1d7dfa544bd6cb1d98a79a8d036a9":[6,0,2,0,1,51,2],
-"structMR_1_1BaseRenderParams.html#ab108063540156c1b73540c07c48e6d01":[6,0,1,0,1,67,0],
-"structMR_1_1BaseRenderParams.html#ab108063540156c1b73540c07c48e6d01":[6,0,2,0,1,51,0],
-"structMR_1_1BaseRenderParams.html#adf952473500110be7f693c5d725f6fde":[6,0,1,0,1,67,3]
+"structMR_1_1BaseRenderParams.html#ab108063540156c1b73540c07c48e6d01":[6,0,1,0,1,67,0]
 };

@@ -1194,6 +1194,7 @@ var namespacemrmeshpy =
     [ "asSelectivityType_ObjectPointsHolder", "namespacemrmeshpy.html#a304c33ff0201b60f5c996a0248e5129d", null ],
     [ "asSelectivityType_ObjectVoxels", "namespacemrmeshpy.html#aa968235c09ac6781bbc4a00cfd882461", null ],
     [ "asSelectivityType_VisualObject", "namespacemrmeshpy.html#a076f8b627eebb1788a838dc4eae8efa2", null ],
+    [ "asString", "namespacemrmeshpy.html#a09a8f1468493a514e5189a74388d2cc7", null ],
     [ "asString", "namespacemrmeshpy.html#a03fabff627dd496f5682b0b7981fa675", null ],
     [ "asString", "namespacemrmeshpy.html#aaaca200b149540ac882d2466e22dfe7b", null ],
     [ "asU8String", "namespacemrmeshpy.html#a8b193bc9df65e1155539ba1f83090ee1", null ],
