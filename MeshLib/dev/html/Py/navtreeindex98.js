@@ -1,5 +1,9 @@
 var NAVTREEINDEX98 =
 {
+"classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a0593a9e7352463b9f6d2d14b84dec717":[6,1,0,0,2,1081,23],
+"classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a0593a9e7352463b9f6d2d14b84dec717":[6,1,1,0,1,1081,23],
+"classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a0a374724ce5794029693fc366a5bdf22":[6,1,0,0,2,1081,1],
+"classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a0a374724ce5794029693fc366a5bdf22":[6,1,1,0,1,1081,1],
 "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a180b87ce5589283cf889a5bbd727ee99":[6,1,0,0,2,1081,34],
 "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a180b87ce5589283cf889a5bbd727ee99":[6,1,1,0,1,1081,34],
 "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a1b13a774e90ab8bd29011e8cd8a93756":[6,1,0,0,2,1081,26],
@@ -245,9 +249,5 @@ var NAVTREEINDEX98 =
 "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a36f6c139eb6e127ae784e3703844a030":[6,1,0,0,2,1084,36],
 "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a36f6c139eb6e127ae784e3703844a030":[6,1,1,0,1,1084,36],
 "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a3e8767573ed2d60fd20ab075d90a2006":[6,1,0,0,2,1084,35],
-"classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a3e8767573ed2d60fd20ab075d90a2006":[6,1,1,0,1,1084,35],
-"classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a4672268086e9ea4c252d7aa10fa2e037":[6,1,0,0,2,1084,9],
-"classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a4672268086e9ea4c252d7aa10fa2e037":[6,1,1,0,1,1084,9],
-"classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a4a093f1e8fe1a233af16c1fae969f550":[6,1,0,0,2,1084,15],
-"classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a4a093f1e8fe1a233af16c1fae969f550":[6,1,1,0,1,1084,15]
+"classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a3e8767573ed2d60fd20ab075d90a2006":[6,1,1,0,1,1084,35]
 };

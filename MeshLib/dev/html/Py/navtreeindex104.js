@@ -1,5 +1,9 @@
 var NAVTREEINDEX104 =
 {
+"classmrmeshpy_1_1VisualObject.html#ac93868b05bd4133b812381d686c527d6":[6,1,0,0,2,1119,8],
+"classmrmeshpy_1_1VisualObject.html#ac93868b05bd4133b812381d686c527d6":[6,1,1,0,1,1119,8],
+"classmrmeshpy_1_1VisualObject.html#acdbcc2226221f32f64842601d9e1e4a3":[6,1,0,0,2,1119,36],
+"classmrmeshpy_1_1VisualObject.html#acdbcc2226221f32f64842601d9e1e4a3":[6,1,1,0,1,1119,36],
 "classmrmeshpy_1_1VisualObject.html#ad509bb820ada532c9f7ac2957aec5726":[6,1,0,0,2,1119,32],
 "classmrmeshpy_1_1VisualObject.html#ad509bb820ada532c9f7ac2957aec5726":[6,1,1,0,1,1119,32],
 "classmrmeshpy_1_1VisualObject.html#adf37fc4271039b5e74b29185ddbd35e3":[6,1,0,0,2,1119,51],
@@ -245,9 +249,5 @@ var NAVTREEINDEX104 =
 "classmrmeshpy_1_1VoxelBitSet.html#aef2d84ae7454b4e5d8d52154f2f4222a":[6,1,0,0,2,1124,10],
 "classmrmeshpy_1_1VoxelBitSet.html#aef2d84ae7454b4e5d8d52154f2f4222a":[6,1,1,0,1,1124,10],
 "classmrmeshpy_1_1VoxelBitSet.html#af614ff8a7d359370192a7d53d5ce8a50":[6,1,0,0,2,1124,24],
-"classmrmeshpy_1_1VoxelBitSet.html#af614ff8a7d359370192a7d53d5ce8a50":[6,1,1,0,1,1124,24],
-"classmrmeshpy_1_1VoxelBitSet.html#af70de9e12af9939b6451b14ddae311ba":[6,1,0,0,2,1124,7],
-"classmrmeshpy_1_1VoxelBitSet.html#af70de9e12af9939b6451b14ddae311ba":[6,1,1,0,1,1124,7],
-"classmrmeshpy_1_1VoxelBitSet.html#afd581d4830743faeda141f800f53d713":[6,1,0,0,2,1124,42],
-"classmrmeshpy_1_1VoxelBitSet.html#afd581d4830743faeda141f800f53d713":[6,1,1,0,1,1124,42]
+"classmrmeshpy_1_1VoxelBitSet.html#af614ff8a7d359370192a7d53d5ce8a50":[6,1,1,0,1,1124,24]
 };

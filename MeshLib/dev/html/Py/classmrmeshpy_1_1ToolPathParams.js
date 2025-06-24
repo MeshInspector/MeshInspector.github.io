@@ -1,7 +1,7 @@
 var classmrmeshpy_1_1ToolPathParams =
 [
     [ "__init__", "classmrmeshpy_1_1ToolPathParams.html#a2022977d2f7251245444a6c8cfa3f0e9", null ],
-    [ "__init__", "classmrmeshpy_1_1ToolPathParams.html#ac44bee3d4009fb851f52c74fab4ce287", null ],
+    [ "__init__", "classmrmeshpy_1_1ToolPathParams.html#a52a3be29a1315f9925cc41bb58e1625a", null ],
     [ "baseFeed", "classmrmeshpy_1_1ToolPathParams.html#a0a0d9b8803be28f8e10e0e5df907f4dc", null ],
     [ "baseFeed", "classmrmeshpy_1_1ToolPathParams.html#ac7970c73beed870e4ef92f840da4c8b2", null ],
     [ "bypassDir", "classmrmeshpy_1_1ToolPathParams.html#afd76884deec847f439722a85c8d8e9bb", null ],
@@ -32,6 +32,8 @@ var classmrmeshpy_1_1ToolPathParams =
     [ "startContours", "classmrmeshpy_1_1ToolPathParams.html#ab7a8c5a2e6d56eb04ed46ecb62a19827", null ],
     [ "startVertices", "classmrmeshpy_1_1ToolPathParams.html#a1cf15bece43b8bfb8c96fc8501b91b55", null ],
     [ "startVertices", "classmrmeshpy_1_1ToolPathParams.html#a51200c0431b550f489183efebf3297e2", null ],
+    [ "toolpathExpansion", "classmrmeshpy_1_1ToolPathParams.html#af2a65c15ed675d32fb03a60e7e092210", null ],
+    [ "toolpathExpansion", "classmrmeshpy_1_1ToolPathParams.html#ad931242b84fd87e9436f92f468a74db7", null ],
     [ "voxelSize", "classmrmeshpy_1_1ToolPathParams.html#a0b8110ca8251b2133259be9900961a70", null ],
     [ "voxelSize", "classmrmeshpy_1_1ToolPathParams.html#a2b48f2a5b13c2d56bf47561f1dbbe255", null ],
     [ "xf", "classmrmeshpy_1_1ToolPathParams.html#ac141d933f8d3559178e496a96a3cab0d", null ],
