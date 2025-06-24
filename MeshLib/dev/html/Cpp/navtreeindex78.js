@@ -1,5 +1,7 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1MeshToDistanceMapParams.html#a9cd65a60a7f447243861fb42df431beb":[6,0,0,5,3,5],
+"structMR_1_1MeshToDistanceMapParams.html#aa581e3154ca47d52f8cc418e27121f0f":[6,0,0,5,3,11],
 "structMR_1_1MeshToDistanceMapParams.html#aac1ab78936263c419b3c72a94c08ea99":[6,0,0,5,3,15],
 "structMR_1_1MeshToDistanceMapParams.html#acbd0c885022ae4d52662d581094cee10":[6,0,0,5,3,18],
 "structMR_1_1MeshToDistanceMapParams.html#acd9523a7ea030a77856bbadf789bd132":[6,0,0,5,3,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1MruFormatParameters.html#a0896b0c59237dfd0301dec798a268a29":[6,0,2,0,1,391,4],
 "structMR_1_1MruFormatParameters.html#a54e98c48affcdf0689a304151d417c25":[6,0,1,0,1,407,0],
 "structMR_1_1MruFormatParameters.html#a54e98c48affcdf0689a304151d417c25":[6,0,2,0,1,391,0],
-"structMR_1_1MruFormatParameters.html#a54e98c48affcdf0689a304151d417c25a31f480a71fd01b933a2d0e1e7482581f":[6,0,1,0,1,407,0,0],
-"structMR_1_1MruFormatParameters.html#a54e98c48affcdf0689a304151d417c25a31f480a71fd01b933a2d0e1e7482581f":[6,0,2,0,1,391,0,0],
-"structMR_1_1MruFormatParameters.html#a54e98c48affcdf0689a304151d417c25a48401d62ab2455effbf491df29ae1fd3":[6,0,1,0,1,407,0,2]
+"structMR_1_1MruFormatParameters.html#a54e98c48affcdf0689a304151d417c25a31f480a71fd01b933a2d0e1e7482581f":[6,0,1,0,1,407,0,0]
 };

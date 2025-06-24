@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"namespaceMR_1_1UI.html#a872e637e1fc6bb7aa391dc842b565ed0":[6,0,1,0,1,38,76],
+"namespaceMR_1_1UI.html#a877e7bd4fbef2de7e95cee03dc0f71b3":[6,0,1,0,1,38,38],
 "namespaceMR_1_1UI.html#a8782e9cded23844b3ae2138d6287b99c":[6,0,1,0,1,38,50],
 "namespaceMR_1_1UI.html#a8cffb4ab7998318c522df73a1d12a4f9":[6,0,1,0,1,38,47],
 "namespaceMR_1_1UI.html#a8e4c6b5d376e0b7733631a2901b86d4b":[6,0,1,0,1,38,58],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "structMRColor.html#aa27732a3e7c83ab0d14378adcf74404a":[6,0,2,0,9,3],
 "structMRColor.html#ac405549bae4177f0a1b6cb68b08392f0":[6,0,2,0,9,0],
 "structMRColor.html#aff02d9a407c87aec4e8814e559f9f0dd":[6,0,2,0,9,2],
-"structMRCoordinateConverters.html":[6,0,2,0,10],
-"structMRCoordinateConverters.html#a045ac7e849ea18d3cb66c7f0b40c6cd6":[6,0,2,0,10,0],
-"structMRCoordinateConverters.html#a56607e99af907574f8b2318d7a4adf44":[6,0,2,0,10,1]
+"structMRCoordinateConverters.html":[6,0,2,0,10]
 };

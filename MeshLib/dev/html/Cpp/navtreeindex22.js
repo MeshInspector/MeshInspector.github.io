@@ -1,5 +1,7 @@
 var NAVTREEINDEX22 =
 {
+"classMR_1_1Cuda_1_1FastWindingNumber.html#aeb495c4eda1b8be00020369fc04f7159":[6,0,0,1,0,3],
+"classMR_1_1Cuda_1_1FastWindingNumber.html#afed4d0df31eef8da93ca2d843c3a8a63":[6,0,0,1,0,0],
 "classMR_1_1Cuda_1_1PointsProjector.html":[6,0,1,0,1,2,1],
 "classMR_1_1Cuda_1_1PointsProjector.html":[6,0,2,0,1,0,1],
 "classMR_1_1Cuda_1_1PointsProjector.html#acc3b795a692a05aa71390db850bb9ff4":[6,0,1,0,1,2,1,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX22 =
 "classMR_1_1DistanceMeasurementObject.html#a6a06fba3c75ed5593bee4cedd4c9d41c":[6,0,2,0,1,179,19],
 "classMR_1_1DistanceMeasurementObject.html#a7d8dc7b94d1a8f6533b6de5659495a9b":[6,0,1,0,1,195,27],
 "classMR_1_1DistanceMeasurementObject.html#a7d8dc7b94d1a8f6533b6de5659495a9b":[6,0,2,0,1,179,27],
-"classMR_1_1DistanceMeasurementObject.html#a88884fe950634ef07794998d453d8bf2":[6,0,1,0,1,195,24],
-"classMR_1_1DistanceMeasurementObject.html#a88884fe950634ef07794998d453d8bf2":[6,0,2,0,1,179,24],
-"classMR_1_1DistanceMeasurementObject.html#a8fe11848d5ab1bc0767216b9177db335":[6,0,1,0,1,195,16]
+"classMR_1_1DistanceMeasurementObject.html#a88884fe950634ef07794998d453d8bf2":[6,0,1,0,1,195,24]
 };

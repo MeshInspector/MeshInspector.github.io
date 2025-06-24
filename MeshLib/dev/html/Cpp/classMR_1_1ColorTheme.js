@@ -12,6 +12,7 @@ var classMR_1_1ColorTheme =
       [ "HeaderBackground", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a2dfef339aeaa577faf0d49879bc040d2", null ],
       [ "HeaderSeparator", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a7af2aa44b44cb2c9ed912410b4f3fa4d", null ],
       [ "TopPanelBackground", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a2d838f579eb9b302faa00ef4fbc90172", null ],
+      [ "TopPanelSearchBackground", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ab73410dff2c1861ebb8980d455bc29ac", null ],
       [ "QuickAccessBackground", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a085d26fc5e16986ab4f0f365f2f49a19", null ],
       [ "Borders", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ae313502ef38a56454f3e9de57f384476", null ],
       [ "TabHovered", "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ab9ec620a9b6e516079ed9090700ef961", null ],
