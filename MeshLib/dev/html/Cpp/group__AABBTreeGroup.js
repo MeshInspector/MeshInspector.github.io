@@ -356,6 +356,7 @@ var group__AABBTreeGroup =
     [ "MR::findTwoClosestPoints", "group__AABBTreeGroup.html#ga994aaba24d39e18802b546f4fdab10cc", null ],
     [ "MR::getNumNodes", "group__AABBTreeGroup.html#ga3c1bb6417aaa769fa4156f2edac91749", null ],
     [ "MR::getNumNodesPoints", "group__AABBTreeGroup.html#ga47032a5f420080191bd8d3600c3c24ef", null ],
+    [ "MR::getVectorConverters", "group__AABBTreeGroup.html#gada6fc8da7b44241f0c208c2f2b085124", null ],
     [ "MR::getVectorConverters", "group__AABBTreeGroup.html#ga125d7b99c7b4840e87a3470ef0c64b17", null ],
     [ "MR::IntersectionPrecomputes::IntersectionPrecomputes", "group__AABBTreeGroup.html#ga9984ed4cff38cd012243e835f02e0e92", null ],
     [ "MR::IntersectionPrecomputes::IntersectionPrecomputes", "group__AABBTreeGroup.html#gac2a5a2178c875139ca3e402c1a46324c", null ],

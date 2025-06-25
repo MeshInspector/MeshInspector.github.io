@@ -1807,6 +1807,7 @@ var namespacemrmeshpy =
     [ "getUserConfigDir", "namespacemrmeshpy.html#ad2f5062caf918f3baffff885b01a0165", null ],
     [ "getUserConfigFilePath", "namespacemrmeshpy.html#a12c8496ff6b70eb783145551956691ce", null ],
     [ "getValue", "namespacemrmeshpy.html#a62e1e6f3608ce771aa019ff6073fa8e4", null ],
+    [ "getVectorConverters", "namespacemrmeshpy.html#aaaa38e6657059622c8e59b2b4f3b0059", null ],
     [ "getVectorConverters", "namespacemrmeshpy.html#ac1348efc016f630fa50ac778eacdc074", null ],
     [ "getVertexAsMeshTriPoint", "namespacemrmeshpy.html#a425c1b0271ab29a71db8cbcbc012b230", null ],
     [ "getVertexOrdering", "namespacemrmeshpy.html#aab69224c7401e800cf604174fc880bfa", null ],

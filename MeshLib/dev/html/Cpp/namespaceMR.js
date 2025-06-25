@@ -2372,6 +2372,7 @@ var namespaceMR =
     [ "getUserConfigDir", "namespaceMR.html#ac8ef1e5eb550d8cb502e7a5a5ac8c038", null ],
     [ "getUserConfigFilePath", "namespaceMR.html#a77dbe991d4f1d8a2b0ffd3ed1e1320bb", null ],
     [ "getValue", "group__BasicStructuresGroup.html#ga4de97d8976ba9d3103b0d84d94214861", null ],
+    [ "getVectorConverters", "group__AABBTreeGroup.html#gada6fc8da7b44241f0c208c2f2b085124", null ],
     [ "getVectorConverters", "group__AABBTreeGroup.html#ga125d7b99c7b4840e87a3470ef0c64b17", null ],
     [ "getVertexOrdering", "namespaceMR.html#aaf96c4ae6f54b13630e2800975f7b4c7", null ],
     [ "getVertexOrdering", "group__SurfacePathGroup.html#ga6fdee8dc184f919e5ad6ef399faf48ba", null ],

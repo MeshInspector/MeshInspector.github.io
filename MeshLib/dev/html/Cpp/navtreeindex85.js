@@ -1,5 +1,6 @@
 var NAVTREEINDEX85 =
 {
+"structMR_1_1SetNew.html":[6,0,0,4,37],
 "structMR_1_1ShaderWarning.html":[6,0,1,0,1,650],
 "structMR_1_1ShaderWarning.html":[6,0,2,0,1,634],
 "structMR_1_1ShaderWarning.html#a930eaa6dc15670480191448c07138e81":[6,0,1,0,1,650,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX85 =
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a39181874053a773d7db01166de8a0c7b":[6,0,1,0,1,688,0,2],
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a39181874053a773d7db01166de8a0c7b":[6,0,2,0,1,672,0,2],
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ab14405334e68a28589b518f7764d2176":[6,0,1,0,1,688,0,1],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ab14405334e68a28589b518f7764d2176":[6,0,2,0,1,672,0,1],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ab3d9e28df35121c177e6e2eead86a43a":[6,0,1,0,1,688,0,4]
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ab14405334e68a28589b518f7764d2176":[6,0,2,0,1,672,0,1]
 };

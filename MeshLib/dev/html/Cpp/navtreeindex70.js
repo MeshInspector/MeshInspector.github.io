@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1DragDropListener.html":[6,0,1,0,1,201],
 "structMR_1_1DragDropListener.html":[6,0,2,0,1,185],
 "structMR_1_1DragDropListener.html#a14335ad47979c8d5059dc9c8bb2af252":[6,0,1,0,1,201,2],
 "structMR_1_1DragDropListener.html#a14335ad47979c8d5059dc9c8bb2af252":[6,0,2,0,1,185,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1FanRecordWithCenter.html#a010e9445541af4e90e90d34acc98220e":[6,0,2,0,1,206,0],
 "structMR_1_1FanRecordWithCenter.html#a066cda1cd4ae46c8b3236007bf1033b1":[6,0,1,0,1,222,2],
 "structMR_1_1FanRecordWithCenter.html#a066cda1cd4ae46c8b3236007bf1033b1":[6,0,2,0,1,206,2],
-"structMR_1_1FanRecordWithCenter.html#ac112017931324f9b12a9af38f28671e2":[6,0,1,0,1,222,1],
-"structMR_1_1FanRecordWithCenter.html#ac112017931324f9b12a9af38f28671e2":[6,0,2,0,1,206,1]
+"structMR_1_1FanRecordWithCenter.html#ac112017931324f9b12a9af38f28671e2":[6,0,1,0,1,222,1]
 };
