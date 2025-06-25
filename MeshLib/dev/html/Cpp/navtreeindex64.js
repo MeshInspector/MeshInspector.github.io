@@ -1,5 +1,17 @@
 var NAVTREEINDEX64 =
 {
+"namespaceMR_1_1UI.html#a624bcecd8d08c2dc6fd574cd643c4b1a":[6,0,1,0,1,38,15],
+"namespaceMR_1_1UI.html#a63e011139a97a30e31e34d070e0f0e11":[6,0,1,0,1,38,73],
+"namespaceMR_1_1UI.html#a66dc61c68cc74e41c52ec9552380924e":[6,0,1,0,1,38,16],
+"namespaceMR_1_1UI.html#a6960ed24f5176be45d3dae21bae38d42":[6,0,1,0,1,38,45],
+"namespaceMR_1_1UI.html#a6d5300d4685c08883eebec83b277c71a":[6,0,1,0,1,38,40],
+"namespaceMR_1_1UI.html#a6d6f8139e24eb7840d9711fbe7e00a76":[6,0,1,0,1,38,46],
+"namespaceMR_1_1UI.html#a72b7457df4d4b5353fc89751ef8d9501":[6,0,1,0,1,38,19],
+"namespaceMR_1_1UI.html#a7618ad711338c485abe6cea17c1e304e":[6,0,1,0,1,38,26],
+"namespaceMR_1_1UI.html#a7ce97f5be533c3522d66cb2fbfaf250f":[6,0,1,0,1,38,81],
+"namespaceMR_1_1UI.html#a7ede0f8f76cc959c7be6cb81ee9174f8":[6,0,1,0,1,38,77],
+"namespaceMR_1_1UI.html#a820aa2a94b65ad7536194e8527f89a12":[6,0,1,0,1,38,43],
+"namespaceMR_1_1UI.html#a8383efc65d62e5b793a5e660ecd07c1e":[6,0,1,0,1,38,64],
 "namespaceMR_1_1UI.html#a8475dd1f1a29f5bb0edc0fcd7c53d115":[6,0,1,0,1,38,67],
 "namespaceMR_1_1UI.html#a872e637e1fc6bb7aa391dc842b565ed0":[6,0,1,0,1,38,76],
 "namespaceMR_1_1UI.html#a877e7bd4fbef2de7e95cee03dc0f71b3":[6,0,1,0,1,38,38],
@@ -237,17 +249,5 @@ var NAVTREEINDEX64 =
 "structMRBooleanParameters.html#ae2061a98ee78884351c0cd88e485f32a":[6,0,2,0,4,3],
 "structMRBooleanResult.html":[6,0,2,0,5],
 "structMRBooleanResult.html#a096f8590e0be80474811d8100e7cb9a7":[6,0,2,0,5,0],
-"structMRBooleanResult.html#af66d647101fbc678dd856c52b5b77418":[6,0,2,0,5,1],
-"structMRBooleanResultMapper.html":[6,0,2,0,6],
-"structMRBox3f.html":[6,0,2,0,7],
-"structMRBox3f.html#a2a39366e93eb8d6552da01c061b9c909":[6,0,2,0,7,0],
-"structMRBox3f.html#acfef258beb9f0c40476c1f93410fcc5f":[6,0,2,0,7,1],
-"structMRBox3i.html":[6,0,2,0,8],
-"structMRBox3i.html#a1adbe125bcb4e62f38b1a78d9aca7fac":[6,0,2,0,8,1],
-"structMRBox3i.html#a922200412625e7bbc2de30d2c1764984":[6,0,2,0,8,0],
-"structMRColor.html":[6,0,2,0,9],
-"structMRColor.html#a619f04ba5a882494f1459c0d2e2d3dc8":[6,0,2,0,9,1],
-"structMRColor.html#aa27732a3e7c83ab0d14378adcf74404a":[6,0,2,0,9,3],
-"structMRColor.html#ac405549bae4177f0a1b6cb68b08392f0":[6,0,2,0,9,0],
-"structMRColor.html#aff02d9a407c87aec4e8814e559f9f0dd":[6,0,2,0,9,2]
+"structMRBooleanResult.html#af66d647101fbc678dd856c52b5b77418":[6,0,2,0,5,1]
 };

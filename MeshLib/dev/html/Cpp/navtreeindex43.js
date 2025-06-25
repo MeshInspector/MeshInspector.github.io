@@ -1,5 +1,17 @@
 var NAVTREEINDEX43 =
 {
+"classMR_1_1ShiftTransformer.html#a1884898b6086a4da8a93f20af5c6519e":[6,0,1,0,1,656,3],
+"classMR_1_1ShiftTransformer.html#a1884898b6086a4da8a93f20af5c6519e":[6,0,2,0,1,640,3],
+"classMR_1_1ShiftTransformer.html#a2462275abc34da748597b3ebccd9f961":[6,0,1,0,1,656,4],
+"classMR_1_1ShiftTransformer.html#a2462275abc34da748597b3ebccd9f961":[6,0,2,0,1,640,4],
+"classMR_1_1ShiftTransformer.html#a25779f4d269609b5b8a197c243b7a19c":[6,0,1,0,1,656,0],
+"classMR_1_1ShiftTransformer.html#a25779f4d269609b5b8a197c243b7a19c":[6,0,2,0,1,640,0],
+"classMR_1_1ShiftTransformer.html#ab7175d7b506f4e42478b9365b5b2ddbf":[6,0,1,0,1,656,2],
+"classMR_1_1ShiftTransformer.html#ab7175d7b506f4e42478b9365b5b2ddbf":[6,0,2,0,1,640,2],
+"classMR_1_1ShortcutManager.html":[6,0,1,0,1,658],
+"classMR_1_1ShortcutManager.html":[6,0,2,0,1,642],
+"classMR_1_1ShortcutManager.html#a0d5470fbe42101af3a425b0108338a10":[6,0,1,0,1,658,11],
+"classMR_1_1ShortcutManager.html#a0d5470fbe42101af3a425b0108338a10":[6,0,2,0,1,642,11],
 "classMR_1_1ShortcutManager.html#a12fa153bb2f0df72498264f840eeef6c":[6,0,1,0,1,658,4],
 "classMR_1_1ShortcutManager.html#a12fa153bb2f0df72498264f840eeef6c":[6,0,2,0,1,642,4],
 "classMR_1_1ShortcutManager.html#a1a85baae28af51cf7825c2099b693c1b":[6,0,1,0,1,658,6],
@@ -237,17 +249,5 @@ var NAVTREEINDEX43 =
 "classMR_1_1SurfaceManipulationWidget.html#a1ec79535e6a70009906b9e2f0008cb22":[6,0,1,0,1,688,10],
 "classMR_1_1SurfaceManipulationWidget.html#a1ec79535e6a70009906b9e2f0008cb22":[6,0,2,0,1,672,10],
 "classMR_1_1SurfaceManipulationWidget.html#a25e49cf9c1e37ef211bba3608e20b972":[6,0,1,0,1,688,31],
-"classMR_1_1SurfaceManipulationWidget.html#a25e49cf9c1e37ef211bba3608e20b972":[6,0,2,0,1,672,31],
-"classMR_1_1SurfaceManipulationWidget.html#a297618816e83dce980de3f9075d4657a":[6,0,1,0,1,688,20],
-"classMR_1_1SurfaceManipulationWidget.html#a297618816e83dce980de3f9075d4657a":[6,0,2,0,1,672,20],
-"classMR_1_1SurfaceManipulationWidget.html#a2bb3cc2556966f7a514fefa8774cf9b9":[6,0,1,0,1,688,75],
-"classMR_1_1SurfaceManipulationWidget.html#a2bb3cc2556966f7a514fefa8774cf9b9":[6,0,2,0,1,672,75],
-"classMR_1_1SurfaceManipulationWidget.html#a2bce77a98a1b42394a4f68d72bcb1637":[6,0,1,0,1,688,67],
-"classMR_1_1SurfaceManipulationWidget.html#a2bce77a98a1b42394a4f68d72bcb1637":[6,0,2,0,1,672,67],
-"classMR_1_1SurfaceManipulationWidget.html#a2f27b490ad008b35fb24b4fb9d4ae8da":[6,0,1,0,1,688,8],
-"classMR_1_1SurfaceManipulationWidget.html#a2f27b490ad008b35fb24b4fb9d4ae8da":[6,0,2,0,1,672,8],
-"classMR_1_1SurfaceManipulationWidget.html#a33c798997c7d3436ab160f4c1dc6009e":[6,0,1,0,1,688,22],
-"classMR_1_1SurfaceManipulationWidget.html#a33c798997c7d3436ab160f4c1dc6009e":[6,0,2,0,1,672,22],
-"classMR_1_1SurfaceManipulationWidget.html#a36f9a86b24ef8363fa101445a7131338":[6,0,1,0,1,688,72],
-"classMR_1_1SurfaceManipulationWidget.html#a36f9a86b24ef8363fa101445a7131338":[6,0,2,0,1,672,72]
+"classMR_1_1SurfaceManipulationWidget.html#a25e49cf9c1e37ef211bba3608e20b972":[6,0,2,0,1,672,31]
 };

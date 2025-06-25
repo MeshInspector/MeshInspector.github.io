@@ -1,5 +1,17 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1BMap.html#a092cf8a0fd74634e6e4d50b8cfc9956d":[6,0,2,0,1,61,0],
+"structMR_1_1BMap.html#a82445cec627eb947404a79b0b670c515":[6,0,1,0,1,77,1],
+"structMR_1_1BMap.html#a82445cec627eb947404a79b0b670c515":[6,0,2,0,1,61,1],
+"structMR_1_1Ball.html":[6,0,1,0,1,65],
+"structMR_1_1Ball.html":[6,0,2,0,1,49],
+"structMR_1_1Ball.html#a18bd851f9c63fe2f529f8ef586a5ea69":[6,0,1,0,1,65,3],
+"structMR_1_1Ball.html#a18bd851f9c63fe2f529f8ef586a5ea69":[6,0,2,0,1,49,3],
+"structMR_1_1Ball.html#a954cef52a073087f7bfdb9555e9584a3":[6,0,1,0,1,65,5],
+"structMR_1_1Ball.html#a954cef52a073087f7bfdb9555e9584a3":[6,0,2,0,1,49,5],
+"structMR_1_1Ball.html#aad1f3f595e73be14324c1ad3964ab4fd":[6,0,1,0,1,65,0],
+"structMR_1_1Ball.html#aad1f3f595e73be14324c1ad3964ab4fd":[6,0,2,0,1,49,0],
+"structMR_1_1Ball.html#ab29b342345673c2ab559f44111f75bdd":[6,0,1,0,1,65,1],
 "structMR_1_1Ball.html#ab29b342345673c2ab559f44111f75bdd":[6,0,2,0,1,49,1],
 "structMR_1_1Ball.html#ab893ec6d092032257b91b7fcbcb6a58a":[6,0,1,0,1,65,2],
 "structMR_1_1Ball.html#ab893ec6d092032257b91b7fcbcb6a58a":[6,0,2,0,1,49,2],
@@ -237,17 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1CharPressedListener.html#a8a6a064feb60cce174c9984e57327c53":[6,0,1,0,1,134,1],
 "structMR_1_1CharPressedListener.html#a8a6a064feb60cce174c9984e57327c53":[6,0,2,0,1,118,1],
 "structMR_1_1CharPressedListener.html#a8fee63fd3d2285947ffd40097bcbbaf4":[6,0,1,0,1,134,2],
-"structMR_1_1CharPressedListener.html#a8fee63fd3d2285947ffd40097bcbbaf4":[6,0,2,0,1,118,2],
-"structMR_1_1CharPressedListener.html#acb23223388e965ab4405fb7f18d4fcde":[6,0,1,0,1,134,0],
-"structMR_1_1CharPressedListener.html#acb23223388e965ab4405fb7f18d4fcde":[6,0,2,0,1,118,0],
-"structMR_1_1Chunk.html":[6,0,1,0,1,135],
-"structMR_1_1Chunk.html":[6,0,2,0,1,119],
-"structMR_1_1Chunk.html#a67302698c90451ac1dbc264851582a22":[6,0,1,0,1,135,0],
-"structMR_1_1Chunk.html#a67302698c90451ac1dbc264851582a22":[6,0,2,0,1,119,0],
-"structMR_1_1Chunk.html#adb4508fa30f32657421915e81df16da7":[6,0,1,0,1,135,1],
-"structMR_1_1Chunk.html#adb4508fa30f32657421915e81df16da7":[6,0,2,0,1,119,1],
-"structMR_1_1ChunkIterator.html":[6,0,1,0,1,136],
-"structMR_1_1ChunkIterator.html":[6,0,2,0,1,120],
-"structMR_1_1ChunkIterator.html#a3d81344e7c7048e9e13514de12883555":[6,0,1,0,1,136,8],
-"structMR_1_1ChunkIterator.html#a3d81344e7c7048e9e13514de12883555":[6,0,2,0,1,120,8]
+"structMR_1_1CharPressedListener.html#a8fee63fd3d2285947ffd40097bcbbaf4":[6,0,2,0,1,118,2]
 };

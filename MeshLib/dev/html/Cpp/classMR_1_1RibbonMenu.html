@@ -530,6 +530,18 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a597bf3251a597e7d18def3c23b156d45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad83984d816bde0619ef416625513f3e8" id="r_ad83984d816bde0619ef416625513f3e8"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad83984d816bde0619ef416625513f3e8">updateTopPanelSize_</a> (bool drawTabs)</td></tr>
 <tr class="separator:ad83984d816bde0619ef416625513f3e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad82ab93f4af68b34ec97b98cd8298597" id="r_ad82ab93f4af68b34ec97b98cd8298597"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad82ab93f4af68b34ec97b98cd8298597">drawHeaderQuickAccess_</a> (float menuScaling)</td></tr>
+<tr class="separator:ad82ab93f4af68b34ec97b98cd8298597"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9357999538698afb3c9dee8af91426e9" id="r_a9357999538698afb3c9dee8af91426e9"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9357999538698afb3c9dee8af91426e9">drawHeaderHelpers_</a> (float requiredTabSize, float menuScaling)</td></tr>
+<tr class="separator:a9357999538698afb3c9dee8af91426e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74725cc224e9f050790abef346ddba93" id="r_a74725cc224e9f050790abef346ddba93"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74725cc224e9f050790abef346ddba93">drawActiveListButton_</a> (float btnSize)</td></tr>
+<tr class="separator:a74725cc224e9f050790abef346ddba93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1567084f559553c43c93c235931bfdfa" id="r_a1567084f559553c43c93c235931bfdfa"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1567084f559553c43c93c235931bfdfa">drawSearchButton_</a> ()</td></tr>
+<tr class="separator:a1567084f559553c43c93c235931bfdfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a1db6b21c215e078cc28f9410d0345f" id="r_a3a1db6b21c215e078cc28f9410d0345f"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a1db6b21c215e078cc28f9410d0345f">drawCollapseButton_</a> ()</td></tr>
+<tr class="separator:a3a1db6b21c215e078cc28f9410d0345f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c662079dee88d267ae6ae55a20fbe29" id="r_a5c662079dee88d267ae6ae55a20fbe29"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c662079dee88d267ae6ae55a20fbe29">drawHelpButton_</a> (const std::string &amp;url)</td></tr>
+<tr class="separator:a5c662079dee88d267ae6ae55a20fbe29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classMR_1_1ImGuiMenu"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classMR_1_1ImGuiMenu')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classMR_1_1ImGuiMenu.html">MR::ImGuiMenu</a></td></tr>
 <tr class="memitem:a94d45ffa94d1720d85a4120b6e769b55 inherit pro_methods_classMR_1_1ImGuiMenu" id="r_a94d45ffa94d1720d85a4120b6e769b55"><td class="memItemLeft" align="right" valign="top">Vector4f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ImGuiMenu.html#a94d45ffa94d1720d85a4120b6e769b55">getStoredColor_</a> (const std::string &amp;str, const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;defaultColor) const</td></tr>
 <tr class="separator:a94d45ffa94d1720d85a4120b6e769b55 inherit pro_methods_classMR_1_1ImGuiMenu"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -904,6 +916,31 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a74725cc224e9f050790abef346ddba93" name="a74725cc224e9f050790abef346ddba93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74725cc224e9f050790abef346ddba93">&#9670;&#160;</a></span>drawActiveListButton_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual MRVIEWER_API void MR::RibbonMenu::drawActiveListButton_ </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>btnSize</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2b8f24d719c5b2f849c6a2da6a8e6a05" name="a2b8f24d719c5b2f849c6a2da6a8e6a05"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2b8f24d719c5b2f849c6a2da6a8e6a05">&#9670;&#160;</a></span>drawActiveNonBlockingDialogs_()</h2>
 
@@ -984,6 +1021,31 @@ Protected Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3a1db6b21c215e078cc28f9410d0345f" name="a3a1db6b21c215e078cc28f9410d0345f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a1db6b21c215e078cc28f9410d0345f">&#9670;&#160;</a></span>drawCollapseButton_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual MRVIEWER_API void MR::RibbonMenu::drawCollapseButton_ </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1080,6 +1142,85 @@ Protected Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9357999538698afb3c9dee8af91426e9" name="a9357999538698afb3c9dee8af91426e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9357999538698afb3c9dee8af91426e9">&#9670;&#160;</a></span>drawHeaderHelpers_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual MRVIEWER_API float MR::RibbonMenu::drawHeaderHelpers_ </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>requiredTabSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>menuScaling</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad82ab93f4af68b34ec97b98cd8298597" name="ad82ab93f4af68b34ec97b98cd8298597"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad82ab93f4af68b34ec97b98cd8298597">&#9670;&#160;</a></span>drawHeaderQuickAccess_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual MRVIEWER_API void MR::RibbonMenu::drawHeaderQuickAccess_ </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>menuScaling</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5c662079dee88d267ae6ae55a20fbe29" name="a5c662079dee88d267ae6ae55a20fbe29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c662079dee88d267ae6ae55a20fbe29">&#9670;&#160;</a></span>drawHelpButton_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual MRVIEWER_API void MR::RibbonMenu::drawHelpButton_ </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>url</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1296,6 +1437,31 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">virtual MRVIEWER_API void MR::RibbonMenu::drawSceneListButtons_ </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1567084f559553c43c93c235931bfdfa" name="a1567084f559553c43c93c235931bfdfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1567084f559553c43c93c235931bfdfa">&#9670;&#160;</a></span>drawSearchButton_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual MRVIEWER_API void MR::RibbonMenu::drawSearchButton_ </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>

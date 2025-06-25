@@ -1,5 +1,17 @@
 var NAVTREEINDEX66 =
 {
+"structMRPointsLoadSettings.html#aa213763c3d2e989e1fd32ed9d1c3a342":[6,0,2,0,54,1],
+"structMRRegionId.html":[6,0,2,0,55],
+"structMRRegionId.html#ad9f715f69453d6412635543673366cd0":[6,0,2,0,55,0],
+"structMRRelaxParams.html":[6,0,2,0,56],
+"structMRRelaxParams.html#a544fe366775e3dabfb86a83f7f7c8911":[6,0,2,0,56,3],
+"structMRRelaxParams.html#a971cde2ee06090007854ed72f340262c":[6,0,2,0,56,0],
+"structMRRelaxParams.html#ab7123951867b1faf2ba67e7c60b2950f":[6,0,2,0,56,4],
+"structMRRelaxParams.html#ad1e83a9511a31c4412a48c8d865fd50a":[6,0,2,0,56,2],
+"structMRRelaxParams.html#af3a1a637d046e2e3c41ca9cb10048e53":[6,0,2,0,56,1],
+"structMRRemeshSettings.html":[6,0,2,0,57],
+"structMRRemeshSettings.html#a130c782b734bdbe914cd080e35e0f0e9":[6,0,2,0,57,7],
+"structMRRemeshSettings.html#a2926173237cdf60eb4ba2053493933c2":[6,0,2,0,57,6],
 "structMRRemeshSettings.html#a2b2343d629b9543f0524ef893cd59aee":[6,0,2,0,57,4],
 "structMRRemeshSettings.html#a3dbe1ebb0443e5828b5a2dd1d645d890":[6,0,2,0,57,3],
 "structMRRemeshSettings.html#a78606d5f61e430e2624dce8df9956316":[6,0,2,0,57,9],
@@ -237,17 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1ArcInterpolationParams.html#ab7cd8db5e72fb6cad7702d8de23622fe":[6,0,2,0,1,46,0],
 "structMR_1_1BMap.html":[6,0,1,0,1,77],
 "structMR_1_1BMap.html":[6,0,2,0,1,61],
-"structMR_1_1BMap.html#a092cf8a0fd74634e6e4d50b8cfc9956d":[6,0,1,0,1,77,0],
-"structMR_1_1BMap.html#a092cf8a0fd74634e6e4d50b8cfc9956d":[6,0,2,0,1,61,0],
-"structMR_1_1BMap.html#a82445cec627eb947404a79b0b670c515":[6,0,1,0,1,77,1],
-"structMR_1_1BMap.html#a82445cec627eb947404a79b0b670c515":[6,0,2,0,1,61,1],
-"structMR_1_1Ball.html":[6,0,1,0,1,65],
-"structMR_1_1Ball.html":[6,0,2,0,1,49],
-"structMR_1_1Ball.html#a18bd851f9c63fe2f529f8ef586a5ea69":[6,0,1,0,1,65,3],
-"structMR_1_1Ball.html#a18bd851f9c63fe2f529f8ef586a5ea69":[6,0,2,0,1,49,3],
-"structMR_1_1Ball.html#a954cef52a073087f7bfdb9555e9584a3":[6,0,1,0,1,65,5],
-"structMR_1_1Ball.html#a954cef52a073087f7bfdb9555e9584a3":[6,0,2,0,1,49,5],
-"structMR_1_1Ball.html#aad1f3f595e73be14324c1ad3964ab4fd":[6,0,1,0,1,65,0],
-"structMR_1_1Ball.html#aad1f3f595e73be14324c1ad3964ab4fd":[6,0,2,0,1,49,0],
-"structMR_1_1Ball.html#ab29b342345673c2ab559f44111f75bdd":[6,0,1,0,1,65,1]
+"structMR_1_1BMap.html#a092cf8a0fd74634e6e4d50b8cfc9956d":[6,0,1,0,1,77,0]
 };
