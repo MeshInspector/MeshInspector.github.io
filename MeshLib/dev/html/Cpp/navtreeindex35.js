@@ -1,5 +1,7 @@
 var NAVTREEINDEX35 =
 {
+"classMR_1_1Palette.html#a44501a9627b9d595ecf6516ccff98ab4":[6,0,1,0,1,476,12],
+"classMR_1_1Palette.html#a44501a9627b9d595ecf6516ccff98ab4":[6,0,2,0,1,460,12],
 "classMR_1_1Palette.html#a50944144ea783bb242d09a0601738ace":[6,0,1,0,1,476,22],
 "classMR_1_1Palette.html#a50944144ea783bb242d09a0601738ace":[6,0,2,0,1,460,22],
 "classMR_1_1Palette.html#a55fe096aec459b2721c9b619f977f4b2":[6,0,1,0,1,476,26],
@@ -247,7 +249,5 @@ var NAVTREEINDEX35 =
 "classMR_1_1PluginCloseOnSelectedObjectRemove.html#a174d0cc22e4a0b69220109e026efaf7f":[6,0,2,0,1,478,2],
 "classMR_1_1PluginCloseOnSelectedObjectRemove.html#a3692cfee7d26f636f2487f01cfa6afc8":[6,0,1,0,1,494,0],
 "classMR_1_1PluginCloseOnSelectedObjectRemove.html#a3692cfee7d26f636f2487f01cfa6afc8":[6,0,2,0,1,478,0],
-"classMR_1_1PluginCloseOnSelectedObjectRemove.html#a4be1eca9d7909ac4a5cbe2b48ceee2f2":[6,0,1,0,1,494,1],
-"classMR_1_1PluginCloseOnSelectedObjectRemove.html#a4be1eca9d7909ac4a5cbe2b48ceee2f2":[6,0,2,0,1,478,1],
-"classMR_1_1PluginUpdateOnChangeMeshPart.html":[6,0,1,0,1,495]
+"classMR_1_1PluginCloseOnSelectedObjectRemove.html#a4be1eca9d7909ac4a5cbe2b48ceee2f2":[6,0,1,0,1,494,1]
 };

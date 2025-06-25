@@ -1232,6 +1232,7 @@ var namespaceMR =
       [ "DIRTY_BORDER_LINES", "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a4d37651692aaecc731860a4e8c4df169", null ],
       [ "DIRTY_EDGES_SELECTION", "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a38d6a5c484bf483e7d19d0e88b575a5f", null ],
       [ "DIRTY_CACHES", "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a7930beec8f8d317d708811012219855a", null ],
+      [ "DIRTY_VOLUME", "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a6c7eea869dc164adaaa93aa744a519f2", null ],
       [ "DIRTY_ALL", "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a5f0ff2832e18692b2704a662acfc6b2a", null ]
     ] ],
     [ "EdgeWeights", "namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8", [

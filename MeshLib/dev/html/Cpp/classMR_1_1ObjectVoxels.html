@@ -190,6 +190,9 @@ Public Types</h2></td></tr>
 <tr class="memitem:a3ace9713c9d0e39585ccb708a7cadf94" id="r_a3ace9713c9d0e39585ccb708a7cadf94"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ace9713c9d0e39585ccb708a7cadf94">IsoSurfaceChangedSignal</a> = <a class="el" href="structMR_1_1Signal.html">Signal</a>&lt;void()&gt;</td></tr>
 <tr class="memdesc:a3ace9713c9d0e39585ccb708a7cadf94"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal about Iso-surface changes (from updateIsoSurface)  <br /></td></tr>
 <tr class="separator:a3ace9713c9d0e39585ccb708a7cadf94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9aa51e7f23f9431829b49ad6530c439" id="r_aa9aa51e7f23f9431829b49ad6530c439"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9aa51e7f23f9431829b49ad6530c439">VoxelsChangedSignal</a> = <a class="el" href="structMR_1_1Signal.html">Signal</a>&lt;void()&gt;</td></tr>
+<tr class="memdesc:aa9aa51e7f23f9431829b49ad6530c439"><td class="mdescLeft">&#160;</td><td class="mdescRight">triggered by changes to voxels data  <br /></td></tr>
+<tr class="separator:aa9aa51e7f23f9431829b49ad6530c439"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_classMR_1_1ObjectMeshHolder"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_types_classMR_1_1ObjectMeshHolder')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classMR_1_1ObjectMeshHolder.html">MR::ObjectMeshHolder</a></td></tr>
 <tr class="memitem:a805c1ad3440c499cc84cd984e5284780 inherit pub_types_classMR_1_1ObjectMeshHolder" id="r_a805c1ad3440c499cc84cd984e5284780"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a805c1ad3440c499cc84cd984e5284780">SelectionChangedSignal</a> = <a class="el" href="structMR_1_1Signal.html">Signal</a>&lt;void()&gt;</td></tr>
 <tr class="memdesc:a805c1ad3440c499cc84cd984e5284780 inherit pub_types_classMR_1_1ObjectMeshHolder"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal about face selection changing, triggered in selectFaces  <br /></td></tr>
@@ -888,6 +891,8 @@ Static Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a3933529459eee6bf988f3b9814a52818" id="r_a3933529459eee6bf988f3b9814a52818"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a3ace9713c9d0e39585ccb708a7cadf94">IsoSurfaceChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3933529459eee6bf988f3b9814a52818">isoSurfaceChangedSignal</a></td></tr>
 <tr class="separator:a3933529459eee6bf988f3b9814a52818"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9f3bf968d1e9084c912f67cf8fcdaec" id="r_af9f3bf968d1e9084c912f67cf8fcdaec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aa9aa51e7f23f9431829b49ad6530c439">VoxelsChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9f3bf968d1e9084c912f67cf8fcdaec">voxelsChangedSignal</a></td></tr>
+<tr class="separator:af9f3bf968d1e9084c912f67cf8fcdaec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classMR_1_1ObjectMeshHolder"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_classMR_1_1ObjectMeshHolder')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classMR_1_1ObjectMeshHolder.html">MR::ObjectMeshHolder</a></td></tr>
 <tr class="memitem:a48c0b6cc10d1a9e2b625d37d6c982ebd inherit pub_attribs_classMR_1_1ObjectMeshHolder" id="r_a48c0b6cc10d1a9e2b625d37d6c982ebd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a805c1ad3440c499cc84cd984e5284780">SelectionChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectMeshHolder.html#a48c0b6cc10d1a9e2b625d37d6c982ebd">faceSelectionChangedSignal</a></td></tr>
 <tr class="separator:a48c0b6cc10d1a9e2b625d37d6c982ebd inherit pub_attribs_classMR_1_1ObjectMeshHolder"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1119,6 +1124,22 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>signal about Iso-surface changes (from updateIsoSurface) </p>
+
+</div>
+</div>
+<a id="aa9aa51e7f23f9431829b49ad6530c439" name="aa9aa51e7f23f9431829b49ad6530c439"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9aa51e7f23f9431829b49ad6530c439">&#9670;&#160;</a></span>VoxelsChangedSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#aa9aa51e7f23f9431829b49ad6530c439">MR::ObjectVoxels::VoxelsChangedSignal</a> = <a class="el" href="structMR_1_1Signal.html">Signal</a>&lt;void()&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>triggered by changes to voxels data </p>
 
 </div>
 </div>
@@ -2978,6 +2999,20 @@ Protected Attributes</h2></td></tr>
 <span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af9f3bf968d1e9084c912f67cf8fcdaec" name="af9f3bf968d1e9084c912f67cf8fcdaec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9f3bf968d1e9084c912f67cf8fcdaec">&#9670;&#160;</a></span>voxelsChangedSignal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#aa9aa51e7f23f9431829b49ad6530c439">VoxelsChangedSignal</a> MR::ObjectVoxels::voxelsChangedSignal</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

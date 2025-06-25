@@ -1,5 +1,7 @@
 var NAVTREEINDEX43 =
 {
+"classMR_1_1ShiftTransformer.html#a002673d0c242633120d670961940cac5":[6,0,1,0,1,656,1],
+"classMR_1_1ShiftTransformer.html#a002673d0c242633120d670961940cac5":[6,0,2,0,1,640,1],
 "classMR_1_1ShiftTransformer.html#a1884898b6086a4da8a93f20af5c6519e":[6,0,1,0,1,656,3],
 "classMR_1_1ShiftTransformer.html#a1884898b6086a4da8a93f20af5c6519e":[6,0,2,0,1,640,3],
 "classMR_1_1ShiftTransformer.html#a2462275abc34da748597b3ebccd9f961":[6,0,1,0,1,656,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX43 =
 "classMR_1_1SurfaceManipulationWidget.html#a19b5f418f871baaab19f8b61b09a900a":[6,0,1,0,1,688,64],
 "classMR_1_1SurfaceManipulationWidget.html#a19b5f418f871baaab19f8b61b09a900a":[6,0,2,0,1,672,64],
 "classMR_1_1SurfaceManipulationWidget.html#a1ec79535e6a70009906b9e2f0008cb22":[6,0,1,0,1,688,10],
-"classMR_1_1SurfaceManipulationWidget.html#a1ec79535e6a70009906b9e2f0008cb22":[6,0,2,0,1,672,10],
-"classMR_1_1SurfaceManipulationWidget.html#a25e49cf9c1e37ef211bba3608e20b972":[6,0,1,0,1,688,31],
-"classMR_1_1SurfaceManipulationWidget.html#a25e49cf9c1e37ef211bba3608e20b972":[6,0,2,0,1,672,31]
+"classMR_1_1SurfaceManipulationWidget.html#a1ec79535e6a70009906b9e2f0008cb22":[6,0,2,0,1,672,10]
 };

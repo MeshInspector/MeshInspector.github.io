@@ -44,13 +44,14 @@ var searchData=
   ['dirty_5fuv_41',['DIRTY_UV',['../group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a877972448d284e00b0ce05682f39dbb6',1,'MR']]],
   ['dirty_5fverts_5fcolormap_42',['DIRTY_VERTS_COLORMAP',['../group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a3a601c32f4902f478919ce2b64a4e475',1,'MR']]],
   ['dirty_5fverts_5frender_5fnormal_43',['DIRTY_VERTS_RENDER_NORMAL',['../group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a7901e85f6ada294be0794acc817a1914',1,'MR']]],
-  ['disablevisibility_44',['DisableVisibility',['../namespaceImGui.html#a265e606cad7268f09dacbeeb9b6be3d5a34b1ae6edf2999f3e5089ef71bd49dac',1,'ImGui']]],
-  ['discrete_45',['Discrete',['../namespaceMR.html#a6b6dd7eadc1056fc5ffd8af1810d925aa4984667940802dedc139aa7a430a6553',1,'MR']]],
-  ['distancemap_46',['DistanceMap',['../classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76ae76139f4dbe2f91f14577bcccc1baf77',1,'MR::ViewerSettingsManager::DistanceMap'],['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37ae76139f4dbe2f91f14577bcccc1baf77',1,'MR::DistanceMap']]],
-  ['distances_47',['Distances',['../structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aadcccbad6a160d87b883d166736919b6b',1,'MR::FaceDistancesSettings']]],
-  ['distributeprecision_48',['distributePrecision',['../namespaceMR.html#a09f9590ed4411f71af1c1526458d5dd1a85a27592021a82ac0d0cce34c2c39963',1,'MR']]],
-  ['doublegyroid_49',['DoubleGyroid',['../namespaceMR.html#a822f069b4555784aef09aed36b42a71fa5ac1f3e35d09d52b4e556936581cef44',1,'MR']]],
-  ['doubleschwartzp_50',['DoubleSchwartzP',['../namespaceMR.html#a822f069b4555784aef09aed36b42a71fa176c45a898d7d2902128d73b789e3a1a',1,'MR']]],
-  ['dynamic_51',['Dynamic',['../structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba971fd8cc345d8bd9f92e9f7d88fdf20c',1,'MR::Viewport::Parameters']]],
-  ['dynamicstatic_52',['DynamicStatic',['../structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba5ca4f2430f49ee813f846bbcdc0e575e',1,'MR::Viewport::Parameters']]]
+  ['dirty_5fvolume_44',['DIRTY_VOLUME',['../group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a6c7eea869dc164adaaa93aa744a519f2',1,'MR']]],
+  ['disablevisibility_45',['DisableVisibility',['../namespaceImGui.html#a265e606cad7268f09dacbeeb9b6be3d5a34b1ae6edf2999f3e5089ef71bd49dac',1,'ImGui']]],
+  ['discrete_46',['Discrete',['../namespaceMR.html#a6b6dd7eadc1056fc5ffd8af1810d925aa4984667940802dedc139aa7a430a6553',1,'MR']]],
+  ['distancemap_47',['DistanceMap',['../classMR_1_1ViewerSettingsManager.html#a0467e77cf6f92e5f94c8d1d75eef8a76ae76139f4dbe2f91f14577bcccc1baf77',1,'MR::ViewerSettingsManager::DistanceMap'],['../namespaceMR.html#a9228096dfb940b935e8dada25c4b0c37ae76139f4dbe2f91f14577bcccc1baf77',1,'MR::DistanceMap']]],
+  ['distances_48',['Distances',['../structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aadcccbad6a160d87b883d166736919b6b',1,'MR::FaceDistancesSettings']]],
+  ['distributeprecision_49',['distributePrecision',['../namespaceMR.html#a09f9590ed4411f71af1c1526458d5dd1a85a27592021a82ac0d0cce34c2c39963',1,'MR']]],
+  ['doublegyroid_50',['DoubleGyroid',['../namespaceMR.html#a822f069b4555784aef09aed36b42a71fa5ac1f3e35d09d52b4e556936581cef44',1,'MR']]],
+  ['doubleschwartzp_51',['DoubleSchwartzP',['../namespaceMR.html#a822f069b4555784aef09aed36b42a71fa176c45a898d7d2902128d73b789e3a1a',1,'MR']]],
+  ['dynamic_52',['Dynamic',['../structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba971fd8cc345d8bd9f92e9f7d88fdf20c',1,'MR::Viewport::Parameters']]],
+  ['dynamicstatic_53',['DynamicStatic',['../structMR_1_1Viewport_1_1Parameters.html#a021c10bdda5a71cfdc88b0e7142e780ba5ca4f2430f49ee813f846bbcdc0e575e',1,'MR::Viewport::Parameters']]]
 ];

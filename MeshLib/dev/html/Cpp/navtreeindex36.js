@@ -1,5 +1,7 @@
 var NAVTREEINDEX36 =
 {
+"classMR_1_1PluginCloseOnSelectedObjectRemove.html#a4be1eca9d7909ac4a5cbe2b48ceee2f2":[6,0,2,0,1,478,1],
+"classMR_1_1PluginUpdateOnChangeMeshPart.html":[6,0,1,0,1,495],
 "classMR_1_1PluginUpdateOnChangeMeshPart.html":[6,0,2,0,1,479],
 "classMR_1_1PluginUpdateOnChangeMeshPart.html#a5c3907d5d352c381ea77f8c3081e136d":[6,0,1,0,1,495,1],
 "classMR_1_1PluginUpdateOnChangeMeshPart.html#a5c3907d5d352c381ea77f8c3081e136d":[6,0,2,0,1,479,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX36 =
 "classMR_1_1RadiusMeasurementObject.html#a1b5aa08c8b28e86e8975727bc77f4ace":[6,0,2,0,1,535,16],
 "classMR_1_1RadiusMeasurementObject.html#a1ffb3dd2486ce97b6782022fd5302670":[6,0,1,0,1,551,22],
 "classMR_1_1RadiusMeasurementObject.html#a1ffb3dd2486ce97b6782022fd5302670":[6,0,2,0,1,535,22],
-"classMR_1_1RadiusMeasurementObject.html#a20c27fa1febacd50d91412edf55934a9":[6,0,1,0,1,551,26],
-"classMR_1_1RadiusMeasurementObject.html#a20c27fa1febacd50d91412edf55934a9":[6,0,2,0,1,535,26],
-"classMR_1_1RadiusMeasurementObject.html#a21bd1cbee7a50b939e1f8cfce837d477":[6,0,1,0,1,551,1]
+"classMR_1_1RadiusMeasurementObject.html#a20c27fa1febacd50d91412edf55934a9":[6,0,1,0,1,551,26]
 };

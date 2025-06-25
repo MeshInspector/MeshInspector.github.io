@@ -1,5 +1,8 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1OffsetContourIndex.html#a54bdd66c3fff31476178a447886820e7":[6,0,2,0,1,442,2],
+"structMR_1_1OffsetContourIndex.html#ae382efff2f4e2a54df6db8e72d4c7420":[6,0,1,0,1,458,0],
+"structMR_1_1OffsetContourIndex.html#ae382efff2f4e2a54df6db8e72d4c7420":[6,0,2,0,1,442,0],
 "structMR_1_1OffsetContourIndex.html#aec9f5b82e1dfa088b1c90d534d047f67":[6,0,1,0,1,458,1],
 "structMR_1_1OffsetContourIndex.html#aec9f5b82e1dfa088b1c90d534d047f67":[6,0,2,0,1,442,1],
 "structMR_1_1OffsetContoursOrigins.html":[6,0,1,0,1,459],
@@ -246,8 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1PickPointManager_1_1Params.html#a53a190ae905fd433a574393eca3095af":[6,0,2,0,1,470,1,15],
 "structMR_1_1PickPointManager_1_1Params.html#a5d35a20b9e47119564dff212d893abb7":[6,0,1,0,1,486,1,13],
 "structMR_1_1PickPointManager_1_1Params.html#a5d35a20b9e47119564dff212d893abb7":[6,0,2,0,1,470,1,13],
-"structMR_1_1PickPointManager_1_1Params.html#a5fea1d890a42ca21cec4e297bf2ae7ed":[6,0,1,0,1,486,1,14],
-"structMR_1_1PickPointManager_1_1Params.html#a5fea1d890a42ca21cec4e297bf2ae7ed":[6,0,2,0,1,470,1,14],
-"structMR_1_1PickPointManager_1_1Params.html#a648a0ae70816ba38a53eb3e858578152":[6,0,1,0,1,486,1,5],
-"structMR_1_1PickPointManager_1_1Params.html#a648a0ae70816ba38a53eb3e858578152":[6,0,2,0,1,470,1,5]
+"structMR_1_1PickPointManager_1_1Params.html#a5fea1d890a42ca21cec4e297bf2ae7ed":[6,0,1,0,1,486,1,14]
 };
