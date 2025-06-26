@@ -1762,7 +1762,7 @@ var namespacemrmeshpy =
     [ "getNumNodes", "namespacemrmeshpy.html#ad244cdca4be6b19ce4e002f8a6f010fe", null ],
     [ "getNumNodesPoints", "namespacemrmeshpy.html#a928da997d01cb010e4bfa1474942529c", null ],
     [ "getNumSamples", "namespacemrmeshpy.html#ae04459914bb7b9e9c8508a1380f64ad8", null ],
-    [ "getOneMeshIntersectionContours", "namespacemrmeshpy.html#a51f6b87ed7fe2738237ba500c82a981b", null ],
+    [ "getOneMeshIntersectionContours", "namespacemrmeshpy.html#aa83514401d75a9f9e95a73c8521542c0", null ],
     [ "getOneMeshSelfIntersectionContours", "namespacemrmeshpy.html#aac33dbf04cbbabecaeb2f2052f48219a", null ],
     [ "getOptimalFaceOrdering", "namespacemrmeshpy.html#a233bc3964a9d7b168d01d82c5756abe9", null ],
     [ "getOSNoSpaces", "namespacemrmeshpy.html#aa82ee39980c76e6f7b5d1963a63dcdd5", null ],
