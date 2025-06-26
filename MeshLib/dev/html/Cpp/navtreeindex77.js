@@ -1,5 +1,7 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1MeshApproxRelaxParams.html":[6,0,0,9,6,2],
+"structMR_1_1MeshApproxRelaxParams.html#a1cee1338307334369140e04b54f03b51":[6,0,0,9,6,2,1],
 "structMR_1_1MeshApproxRelaxParams.html#aed8137acdd95c73e5606d4ad5fa7e3ae":[6,0,0,9,6,2,0],
 "structMR_1_1MeshAttributes.html":[6,0,1,0,1,358],
 "structMR_1_1MeshAttributes.html":[6,0,2,0,1,342],
@@ -247,7 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1MeshTexture.html":[6,0,0,18,1],
 "structMR_1_1MeshTexture.html#a624eb3f0792caeac64bd958de43405ba":[6,0,0,18,1,0],
 "structMR_1_1MeshTexture.html#ab1d9b311e280516bb81e8749bfb440bc":[6,0,0,18,1,1],
-"structMR_1_1MeshToDirectionVolumeParams.html":[6,0,1,0,1,381],
-"structMR_1_1MeshToDirectionVolumeParams.html":[6,0,2,0,1,365],
-"structMR_1_1MeshToDirectionVolumeParams.html#abc2ad86ead41f3e878ed25f71acf4882":[6,0,1,0,1,381,2]
+"structMR_1_1MeshToDirectionVolumeParams.html":[6,0,1,0,1,381]
 };

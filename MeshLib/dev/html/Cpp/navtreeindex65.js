@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"structMRBooleanParameters.html#ad49bd9282407d4564f6967d93c9a7909":[6,0,2,0,4,2],
+"structMRBooleanParameters.html#ae2061a98ee78884351c0cd88e485f32a":[6,0,2,0,4,3],
 "structMRBooleanResult.html":[6,0,2,0,5],
 "structMRBooleanResult.html#a096f8590e0be80474811d8100e7cb9a7":[6,0,2,0,5,0],
 "structMRBooleanResult.html#af66d647101fbc678dd856c52b5b77418":[6,0,2,0,5,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "structMRPointPair.html":[6,0,2,0,53],
 "structMRPointPair.html#a3a1c36eeeff22faca6d6749a8630cff5":[6,0,2,0,53,4],
 "structMRPointPair.html#a3a57febe50fbfa87ec9506c23214c723":[6,0,2,0,53,0],
-"structMRPointPair.html#a85030f1c32b6fa41b3cb99f84864951a":[6,0,2,0,53,1],
-"structMRPointPair.html#aaf071fe8e6ec54c8e173d7c49c968b10":[6,0,2,0,53,3],
-"structMRPointPair.html#ade96451aa57e9f26439ea7333910d37a":[6,0,2,0,53,2]
+"structMRPointPair.html#a85030f1c32b6fa41b3cb99f84864951a":[6,0,2,0,53,1]
 };

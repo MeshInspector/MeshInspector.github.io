@@ -1,5 +1,7 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1Matrix3.html#a0e84eccaf5aba97fd20cd00995d5a8f3":[6,0,0,0,7,2,22],
+"structMR_1_1Matrix3.html#a112f3a49d572819df2602fdfb0bcbcfb":[6,0,0,0,7,2,16],
 "structMR_1_1Matrix3.html#a2ee57b23e7f7718f6800a1769ab30df5":[6,0,0,0,7,2,7],
 "structMR_1_1Matrix3.html#a34220148555a9b57f32f7edb08289ea4":[6,0,0,0,7,2,32],
 "structMR_1_1Matrix3.html#a3571bc7afa9d380e1da582750e9e0db2":[6,0,0,0,7,2,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1Mesh.html#afac77c3e7c3aec5919f862904c857621":[6,0,0,7,1,91],
 "structMR_1_1Mesh.html#afd3563494ce9b9a0cf5a7e4346606961":[6,0,0,7,1,31],
 "structMR_1_1Mesh.html#afe79fbba41c13a31bd40b10fdff8b5ee":[6,0,0,7,1,9],
-"structMR_1_1Mesh.html#aff330955f978300560fd33b43cd77cdd":[6,0,0,7,1,83],
-"structMR_1_1MeshApproxRelaxParams.html":[6,0,0,9,6,2],
-"structMR_1_1MeshApproxRelaxParams.html#a1cee1338307334369140e04b54f03b51":[6,0,0,9,6,2,1]
+"structMR_1_1Mesh.html#aff330955f978300560fd33b43cd77cdd":[6,0,0,7,1,83]
 };

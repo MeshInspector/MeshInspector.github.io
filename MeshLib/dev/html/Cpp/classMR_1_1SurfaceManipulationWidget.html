@@ -284,6 +284,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a96de0be0839e0a27813a5cf42983d280" id="r_a96de0be0839e0a27813a5cf42983d280"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96de0be0839e0a27813a5cf42983d280">postDraw_</a> () override</td></tr>
 <tr class="memdesc:a96de0be0839e0a27813a5cf42983d280"><td class="mdescLeft">&#160;</td><td class="mdescRight">need to visualize bad region (draw grey circle)  <br /></td></tr>
 <tr class="separator:a96de0be0839e0a27813a5cf42983d280"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e1f9dd3fd90ff7bee82f9a283a538a9" id="r_a6e1f9dd3fd90ff7bee82f9a283a538a9"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e1f9dd3fd90ff7bee82f9a283a538a9">checkModifiers_</a> (int modifiers) const</td></tr>
+<tr class="separator:a6e1f9dd3fd90ff7bee82f9a283a538a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01b688fc30d608be61aa23e4cba46c6a" id="r_a01b688fc30d608be61aa23e4cba46c6a"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01b688fc30d608be61aa23e4cba46c6a">appendMeshChangeHistory_</a> (std::shared_ptr&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; newMesh, const FaceBitSet &amp;newFaces)</td></tr>
 <tr class="separator:a01b688fc30d608be61aa23e4cba46c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bf4b908832273c2d2b0dff19ba3eddc" id="r_a6bf4b908832273c2d2b0dff19ba3eddc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bf4b908832273c2d2b0dff19ba3eddc">reallocData_</a> (size_t <a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>)</td></tr>
@@ -606,6 +608,32 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e1f9dd3fd90ff7bee82f9a283a538a9" name="a6e1f9dd3fd90ff7bee82f9a283a538a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e1f9dd3fd90ff7bee82f9a283a538a9">&#9670;&#160;</a></span>checkModifiers_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual MRVIEWER_API bool MR::SurfaceManipulationWidget::checkModifiers_ </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>modifiers</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>customize modifiers check on mouse down </p><dl class="section return"><dt>Returns</dt><dd>true if widget consumes event, false if modifiers do not satisfy widget requirements </dd></dl>
 
 </div>
 </div>
