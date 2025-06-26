@@ -1,5 +1,6 @@
 var NAVTREEINDEX66 =
 {
+"structMRPointPair.html#a85030f1c32b6fa41b3cb99f84864951a":[6,0,2,0,53,1],
 "structMRPointPair.html#aaf071fe8e6ec54c8e173d7c49c968b10":[6,0,2,0,53,3],
 "structMRPointPair.html#ade96451aa57e9f26439ea7333910d37a":[6,0,2,0,53,2],
 "structMRPointsLoadSettings.html":[6,0,2,0,54],
@@ -248,6 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1ArcInterpolationParams.html":[6,0,2,0,1,46],
 "structMR_1_1ArcInterpolationParams.html#a527c4937cd106bad1847ff7adc254bea":[6,0,1,0,1,62,2],
 "structMR_1_1ArcInterpolationParams.html#a527c4937cd106bad1847ff7adc254bea":[6,0,2,0,1,46,2],
-"structMR_1_1ArcInterpolationParams.html#a6f075ab660c32eec4c036340e2b88f1c":[6,0,1,0,1,62,1],
-"structMR_1_1ArcInterpolationParams.html#a6f075ab660c32eec4c036340e2b88f1c":[6,0,2,0,1,46,1]
+"structMR_1_1ArcInterpolationParams.html#a6f075ab660c32eec4c036340e2b88f1c":[6,0,1,0,1,62,1]
 };

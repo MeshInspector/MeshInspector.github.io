@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#afc1144032d4fc1610cab3ac00c78986c":[6,1,0,0,2,749,5],
+"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#afc1144032d4fc1610cab3ac00c78986c":[6,1,1,0,1,749,5],
 "classmrmeshpy_1_1ShellVertexInfo.html":[6,1,0,0,2,751],
 "classmrmeshpy_1_1ShellVertexInfo.html":[6,1,1,0,1,751],
 "classmrmeshpy_1_1ShellVertexInfo.html#a21430aef6dbe2062c076e1d22d4ef605":[6,1,0,0,2,751,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "classmrmeshpy_1_1SpacingSettings.html":[6,1,0,0,2,768],
 "classmrmeshpy_1_1SpacingSettings.html":[6,1,1,0,1,768],
 "classmrmeshpy_1_1SpacingSettings.html#a01e8b385d40babc54a739d168d5254d1":[6,1,0,0,2,768,8],
-"classmrmeshpy_1_1SpacingSettings.html#a01e8b385d40babc54a739d168d5254d1":[6,1,1,0,1,768,8],
-"classmrmeshpy_1_1SpacingSettings.html#a1331a6fbb1b0171b7728a9bbc374346d":[6,1,0,0,2,768,1],
-"classmrmeshpy_1_1SpacingSettings.html#a1331a6fbb1b0171b7728a9bbc374346d":[6,1,1,0,1,768,1]
+"classmrmeshpy_1_1SpacingSettings.html#a01e8b385d40babc54a739d168d5254d1":[6,1,1,0,1,768,8]
 };

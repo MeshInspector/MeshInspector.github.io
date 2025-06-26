@@ -1,5 +1,7 @@
 var NAVTREEINDEX51 =
 {
+"classmrmeshpy_1_1NodeBitSet.html#a622022e7a27f05b7c55e050b6f45b3ec":[6,1,0,0,2,540,22],
+"classmrmeshpy_1_1NodeBitSet.html#a622022e7a27f05b7c55e050b6f45b3ec":[6,1,1,0,1,540,22],
 "classmrmeshpy_1_1NodeBitSet.html#a634516e24ab14258ba7a672a26f837f1":[6,1,0,0,2,540,3],
 "classmrmeshpy_1_1NodeBitSet.html#a634516e24ab14258ba7a672a26f837f1":[6,1,1,0,1,540,3],
 "classmrmeshpy_1_1NodeBitSet.html#a65c8f14852b513b577d4ddc522e23410":[6,1,0,0,2,540,35],
@@ -247,7 +249,5 @@ var NAVTREEINDEX51 =
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle.html":[6,1,0,0,2,579],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle.html":[6,1,1,0,1,579],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle.html#a2882fcd668791e1a98ea3eec3e321283":[6,1,0,0,2,579,0],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle.html#a2882fcd668791e1a98ea3eec3e321283":[6,1,0,0,2,579,1],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle.html#a2882fcd668791e1a98ea3eec3e321283":[6,1,1,0,1,579,0],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle.html#a2882fcd668791e1a98ea3eec3e321283":[6,1,1,0,1,579,1]
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle.html#a2882fcd668791e1a98ea3eec3e321283":[6,1,0,0,2,579,1]
 };

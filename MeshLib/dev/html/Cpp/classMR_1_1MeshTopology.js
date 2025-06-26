@@ -99,6 +99,7 @@ var classMR_1_1MeshTopology =
     [ "isLeftQuad", "classMR_1_1MeshTopology.html#a43d2bcbe6b6dc95cf6eb7fd1c0f8457b", null ],
     [ "isLeftTri", "classMR_1_1MeshTopology.html#a3d34196ea43bcf08fefe69868c170818", null ],
     [ "isLoneEdge", "classMR_1_1MeshTopology.html#a79fd3cd33fb58d779528540fa7403b7f", null ],
+    [ "isTriVert", "classMR_1_1MeshTopology.html#af020bbe446f3965db015301732d7592d", null ],
     [ "lastNotLoneEdge", "classMR_1_1MeshTopology.html#a183e7f78dfae636f44de186d488f8a4b", null ],
     [ "lastValidFace", "classMR_1_1MeshTopology.html#a7d1e6c97c4dd059dac11e327116393a3", null ],
     [ "lastValidVert", "classMR_1_1MeshTopology.html#a58eefd8381acb8871c4b8e8f48ae1bd4", null ],

@@ -347,6 +347,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad359478aaf922a4218cdfe1a0dfaaf21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd301cef33f7556013911d2a93768f0d" id="r_acd301cef33f7556013911d2a93768f0d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd301cef33f7556013911d2a93768f0d">isLoneEdge</a> (self, <a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> a)</td></tr>
 <tr class="separator:acd301cef33f7556013911d2a93768f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6dbf94e011a96110751a9025a85fa53" id="r_ac6dbf94e011a96110751a9025a85fa53"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6dbf94e011a96110751a9025a85fa53">isTriVert</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> f, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> v)</td></tr>
+<tr class="separator:ac6dbf94e011a96110751a9025a85fa53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0ca2bb51563b2d385b6a85b64224631" id="r_aa0ca2bb51563b2d385b6a85b64224631"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0ca2bb51563b2d385b6a85b64224631">lastNotLoneEdge</a> (self)</td></tr>
 <tr class="separator:aa0ca2bb51563b2d385b6a85b64224631"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0833da6b36fa29aafc314d81d44063e6" id="r_a0833da6b36fa29aafc314d81d44063e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0833da6b36fa29aafc314d81d44063e6">lastValidFace</a> (self)</td></tr>
@@ -2781,6 +2783,33 @@ and it has a boundary edge (isBdEdge(e,region) == true)
       </table>
 </div><div class="memdoc">
 <pre class="fragment">checks whether the edge is disconnected from all other edges and disassociated from all vertices and faces (as if after makeEdge)
+</pre> 
+</div>
+</div>
+<a id="ac6dbf94e011a96110751a9025a85fa53" name="ac6dbf94e011a96110751a9025a85fa53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6dbf94e011a96110751a9025a85fa53">&#9670;&#160;</a></span>isTriVert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.MeshTopology.isTriVert </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">return true if triangular face (f) has (v) as one of its vertices
 </pre> 
 </div>
 </div>

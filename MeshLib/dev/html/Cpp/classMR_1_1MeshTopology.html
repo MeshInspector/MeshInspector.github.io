@@ -260,6 +260,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ace0e3be1697a60c54a5f9fe91db3a30d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a845c17dd094d1fdc37fb0a874ee98eaa" id="r_a845c17dd094d1fdc37fb0a874ee98eaa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a9fa45e8860a645c31bc2c7f1a2abf56b">ThreeVertIds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a845c17dd094d1fdc37fb0a874ee98eaa">getTriVerts</a> (FaceId f) const</td></tr>
 <tr class="separator:a845c17dd094d1fdc37fb0a874ee98eaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af020bbe446f3965db015301732d7592d" id="r_af020bbe446f3965db015301732d7592d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af020bbe446f3965db015301732d7592d">isTriVert</a> (FaceId f, VertId v) const</td></tr>
+<tr class="memdesc:af020bbe446f3965db015301732d7592d"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if triangular face (f) has (v) as one of its vertices  <br /></td></tr>
+<tr class="separator:af020bbe446f3965db015301732d7592d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b13b128c8398cb07fa91de5068f71d9" id="r_a0b13b128c8398cb07fa91de5068f71d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="namespaceMR.html#a9fa45e8860a645c31bc2c7f1a2abf56b">ThreeVertIds</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b13b128c8398cb07fa91de5068f71d9">getAllTriVerts</a> () const</td></tr>
 <tr class="memdesc:a0b13b128c8398cb07fa91de5068f71d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns three vertex ids for valid triangles, invalid triangles are skipped  <br /></td></tr>
 <tr class="separator:a0b13b128c8398cb07fa91de5068f71d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3362,6 +3365,37 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>checks whether the edge is disconnected from all other edges and disassociated from all vertices and faces (as if after makeEdge) </p>
+
+</div>
+</div>
+<a id="af020bbe446f3965db015301732d7592d" name="af020bbe446f3965db015301732d7592d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af020bbe446f3965db015301732d7592d">&#9670;&#160;</a></span>isTriVert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::MeshTopology::isTriVert </td>
+          <td>(</td>
+          <td class="paramtype">FaceId</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>v</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return true if triangular face (f) has (v) as one of its vertices </p>
 
 </div>
 </div>

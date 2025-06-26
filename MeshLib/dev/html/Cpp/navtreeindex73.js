@@ -1,5 +1,6 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1Graph_1_1EndVertices.html#acdf8c4e8411247e361733ddd467cd8bb":[6,0,2,0,1,252,0,2],
 "structMR_1_1Graph_1_1EndVertices.html#afe146d825ed418eab8e42d1bdb2f7a43":[6,0,1,0,1,268,0,0],
 "structMR_1_1Graph_1_1EndVertices.html#afe146d825ed418eab8e42d1bdb2f7a43":[6,0,2,0,1,252,0,0],
 "structMR_1_1GridSettings.html":[6,0,1,0,1,269],
@@ -248,6 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a21883ccd688b28487ed257c67162946e":[6,0,1,0,1,13,4,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a21883ccd688b28487ed257c67162946e":[6,0,2,0,1,5,4,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a3c33808729b011c55c757f4aec823465":[6,0,1,0,1,13,4,19],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a3c33808729b011c55c757f4aec823465":[6,0,2,0,1,5,4,19],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a3cdfa3eaf63c23dbb300d2b66cd90930":[6,0,1,0,1,13,4,11]
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a3c33808729b011c55c757f4aec823465":[6,0,2,0,1,5,4,19]
 };
