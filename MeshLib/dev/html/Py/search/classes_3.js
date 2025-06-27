@@ -52,10 +52,12 @@ var searchData=
   ['doubleoffsetsettings_49',['DoubleOffsetSettings',['../../Cpp/structMR_1_1DoubleOffsetSettings.html',1,'MR::DoubleOffsetSettings'],['../classmrmeshpy_1_1DoubleOffsetSettings.html',1,'mrmeshpy.DoubleOffsetSettings']]],
   ['dragdroplistener_50',['DragDropListener',['../../Cpp/structMR_1_1DragDropListener.html',1,'MR']]],
   ['dragendlistener_51',['DragEndListener',['../../Cpp/structMR_1_1DragEndListener.html',1,'MR']]],
-  ['draglistener_52',['DragListener',['../../Cpp/structMR_1_1DragListener.html',1,'MR']]],
-  ['dragstartlistener_53',['DragStartListener',['../../Cpp/structMR_1_1DragStartListener.html',1,'MR']]],
-  ['drawbuttonparams_54',['DrawButtonParams',['../../Cpp/structMR_1_1DrawButtonParams.html',1,'MR']]],
-  ['drawgroupconfig_55',['DrawGroupConfig',['../../Cpp/structMR_1_1RibbonMenu_1_1DrawGroupConfig.html',1,'MR::RibbonMenu']]],
-  ['drawlistener_56',['DrawListener',['../../Cpp/structMR_1_1DrawListener.html',1,'MR']]],
-  ['drawsceneuilistener_57',['DrawSceneUiListener',['../../Cpp/structMR_1_1DrawSceneUiListener.html',1,'MR']]]
+  ['dragentrancelistener_52',['DragEntranceListener',['../../Cpp/structMR_1_1DragEntranceListener.html',1,'MR']]],
+  ['draglistener_53',['DragListener',['../../Cpp/structMR_1_1DragListener.html',1,'MR']]],
+  ['dragoverlistener_54',['DragOverListener',['../../Cpp/structMR_1_1DragOverListener.html',1,'MR']]],
+  ['dragstartlistener_55',['DragStartListener',['../../Cpp/structMR_1_1DragStartListener.html',1,'MR']]],
+  ['drawbuttonparams_56',['DrawButtonParams',['../../Cpp/structMR_1_1DrawButtonParams.html',1,'MR']]],
+  ['drawgroupconfig_57',['DrawGroupConfig',['../../Cpp/structMR_1_1RibbonMenu_1_1DrawGroupConfig.html',1,'MR::RibbonMenu']]],
+  ['drawlistener_58',['DrawListener',['../../Cpp/structMR_1_1DrawListener.html',1,'MR']]],
+  ['drawsceneuilistener_59',['DrawSceneUiListener',['../../Cpp/structMR_1_1DrawSceneUiListener.html',1,'MR']]]
 ];

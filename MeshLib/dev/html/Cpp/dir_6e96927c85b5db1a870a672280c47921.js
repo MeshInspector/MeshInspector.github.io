@@ -18,6 +18,8 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRCudaAccessor.h", "MRCudaAccessor_8h.html", "MRCudaAccessor_8h" ],
     [ "MRDemoPlugin.h", "MRDemoPlugin_8h.html", "MRDemoPlugin_8h" ],
     [ "MRDirectionWidget.h", "MRDirectionWidget_8h.html", "MRDirectionWidget_8h" ],
+    [ "MRDragDropHandler.h", "MRDragDropHandler_8h.html", "MRDragDropHandler_8h" ],
+    [ "MRDragDropWin32Handler.h", "MRDragDropWin32Handler_8h.html", null ],
     [ "MRFileDialog.h", "MRFileDialog_8h.html", "MRFileDialog_8h" ],
     [ "MRFileDialogCocoa.h", "MRFileDialogCocoa_8h.html", "MRFileDialogCocoa_8h" ],
     [ "MRFileDialogInternal.h", "MRFileDialogInternal_8h.html", "MRFileDialogInternal_8h" ],

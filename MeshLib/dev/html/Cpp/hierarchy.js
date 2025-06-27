@@ -239,7 +239,7 @@ var hierarchy =
       [ "MR::MultiListener< MouseDownListener, MouseMoveListener, MouseUpListener, PreDrawListener, PostDrawListener >", "structMR_1_1MultiListener.html", [
         [ "MR::ObjectTransformWidget", "classMR_1_1ObjectTransformWidget.html", null ]
       ] ],
-      [ "MR::MultiListener< DragDropListener >", "structMR_1_1MultiListener.html", [
+      [ "MR::MultiListener< DragEntranceListener, DragOverListener, DragDropListener, PreDrawListener >", "structMR_1_1MultiListener.html", [
         [ "MR::OpenFilesMenuItem", "classMR_1_1OpenFilesMenuItem.html", null ]
       ] ],
       [ "MR::MultiListener< PreDrawListener >", "structMR_1_1MultiListener.html", [
@@ -477,7 +477,9 @@ var hierarchy =
         [ "MR::CursorEntranceListener", "structMR_1_1CursorEntranceListener.html", null ],
         [ "MR::DragDropListener", "structMR_1_1DragDropListener.html", null ],
         [ "MR::DragEndListener", "structMR_1_1DragEndListener.html", null ],
+        [ "MR::DragEntranceListener", "structMR_1_1DragEntranceListener.html", null ],
         [ "MR::DragListener", "structMR_1_1DragListener.html", null ],
+        [ "MR::DragOverListener", "structMR_1_1DragOverListener.html", null ],
         [ "MR::DragStartListener", "structMR_1_1DragStartListener.html", null ],
         [ "MR::DrawListener", "structMR_1_1DrawListener.html", null ],
         [ "MR::DrawSceneUiListener", "structMR_1_1DrawSceneUiListener.html", null ],
@@ -528,6 +530,7 @@ var hierarchy =
     ] ],
     [ "MR::Id< MR::EdgeTag >", "classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html", null ],
     [ "MR::Id< VoxelTag >", "classMR_1_1Id_3_01VoxelTag_01_4.html", null ],
+    [ "MR::IDragDropHandler", "classMR_1_1IDragDropHandler.html", null ],
     [ "MR::IdRange< Id >", "structMR_1_1IdRange.html", null ],
     [ "MR::IFastWindingNumber", "classMR_1_1IFastWindingNumber.html", [
       [ "MR::Cuda::FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", null ],

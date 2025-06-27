@@ -639,7 +639,11 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DragEndListener.html">DragEndListener</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DragEntranceListener.html">DragEntranceListener</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DragListener.html">DragListener</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DragOverListener.html">DragOverListener</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DragStartListener.html">DragStartListener</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -836,6 +840,8 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html">Id&lt; MR::EdgeTag &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Id_3_01VoxelTag_01_4.html">Id&lt; VoxelTag &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IDragDropHandler.html">IDragDropHandler</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1IdRange.html">IdRange</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">range of indices [beg, end)  <a href="structMR_1_1IdRange.html#details">More...</a><br /></td></tr>
@@ -6106,6 +6112,8 @@ same leafs are skipped and different leafs area processed with <code>processLeaf
 <tr class="separator:a9afa144203c32fd7ae42043bee1a6aa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01df447cdd25031a9480868f3a237070" id="r_a01df447cdd25031a9480868f3a237070"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01df447cdd25031a9480868f3a237070">destroyShader</a> (GLuint id)</td></tr>
 <tr class="separator:a01df447cdd25031a9480868f3a237070"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74d4efceb84e434c67a95cd0f144de01" id="r_a74d4efceb84e434c67a95cd0f144de01"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classMR_1_1IDragDropHandler.html">IDragDropHandler</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74d4efceb84e434c67a95cd0f144de01">getDragDropHandler</a> (GLFWwindow *window)</td></tr>
+<tr class="separator:a74d4efceb84e434c67a95cd0f144de01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a4bcce4daa4d3b3423c31dff3a881bb" id="r_a0a4bcce4daa4d3b3423c31dff3a881bb"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a4bcce4daa4d3b3423c31dff3a881bb">openFileDialog</a> (const <a class="el" href="structMR_1_1FileParameters.html">FileParameters</a> &amp;params={})</td></tr>
 <tr class="separator:a0a4bcce4daa4d3b3423c31dff3a881bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5cb1fd46b50301553853ea480cee32b3" id="r_a5cb1fd46b50301553853ea480cee32b3"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5cb1fd46b50301553853ea480cee32b3">openFileDialogAsync</a> (std::function&lt; void(const std::filesystem::path &amp;)&gt; callback, const <a class="el" href="structMR_1_1FileParameters.html">FileParameters</a> &amp;params={})</td></tr>
@@ -21943,6 +21951,23 @@ template&lt;typename ObjectT  = Object&gt; </div>
 <span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a74d4efceb84e434c67a95cd0f144de01" name="a74d4efceb84e434c67a95cd0f144de01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74d4efceb84e434c67a95cd0f144de01">&#9670;&#160;</a></span>getDragDropHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classMR_1_1IDragDropHandler.html">IDragDropHandler</a> &gt; MR::getDragDropHandler </td>
+          <td>(</td>
+          <td class="paramtype">GLFWwindow *</td>          <td class="paramname"><span class="paramname"><em>window</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

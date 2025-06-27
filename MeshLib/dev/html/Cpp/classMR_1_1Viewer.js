@@ -186,6 +186,8 @@ var classMR_1_1Viewer =
     [ "cursorEntranceSignal", "classMR_1_1Viewer.html#abd3006129b57915bb8988a1afc0f095c", null ],
     [ "dragDropSignal", "classMR_1_1Viewer.html#ab2c82473f02c741b3be29cb4ff10daa0", null ],
     [ "dragEndSignal", "classMR_1_1Viewer.html#a56a065b32c494e3d533b08a24249d20e", null ],
+    [ "dragEntranceSignal", "classMR_1_1Viewer.html#aaa117ecace91fc61f51a84d24a8edc37", null ],
+    [ "dragOverSignal", "classMR_1_1Viewer.html#ac3b7a1662525ac670c4a3f976ac4b822", null ],
     [ "dragSignal", "classMR_1_1Viewer.html#ae61b533e58da105143ce2e702dadc789", null ],
     [ "dragStartSignal", "classMR_1_1Viewer.html#a1caa04e761486984969a78f76685f938", null ],
     [ "drawSignal", "classMR_1_1Viewer.html#a299cf1cccfffbe714ff8369008be4659", null ],
