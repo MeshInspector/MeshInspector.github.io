@@ -2328,6 +2328,7 @@ var namespaceMR =
     [ "getNObjectsLine", "namespaceMR.html#a1aa52aa577955c12272d65be2a25bf5e", null ],
     [ "getNumActivePairs", "namespaceMR.html#a5f3e72229b19af1e43886673711093af", null ],
     [ "getNumberOfVoxelsForTPMS", "namespaceMR.html#a5ebf3466293dbaf0f93374315ba210ed", null ],
+    [ "getNumberOfVoxelsForTPMS", "namespaceMR.html#a2af9f84a017e4ff34980eeca395aadc2", null ],
     [ "getNumNodes", "group__AABBTreeGroup.html#ga3c1bb6417aaa769fa4156f2edac91749", null ],
     [ "getNumNodesPoints", "group__AABBTreeGroup.html#ga47032a5f420080191bd8d3600c3c24ef", null ],
     [ "getNumSamples", "namespaceMR.html#a6bc994c1ebf7a119332f7d7a212cdd5e", null ],

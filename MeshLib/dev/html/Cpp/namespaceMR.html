@@ -6470,6 +6470,9 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="memitem:a5ebf3466293dbaf0f93374315ba210ed" id="r_a5ebf3466293dbaf0f93374315ba210ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ebf3466293dbaf0f93374315ba210ed">getNumberOfVoxelsForTPMS</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, float frequency, float resolution)</td></tr>
 <tr class="memdesc:a5ebf3466293dbaf0f93374315ba210ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns number of voxels that would be used to perform <a class="el" href="#a5333afd17d036169463e63e4bff58009">fillWithTPMS</a>.  <br /></td></tr>
 <tr class="separator:a5ebf3466293dbaf0f93374315ba210ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2af9f84a017e4ff34980eeca395aadc2" id="r_a2af9f84a017e4ff34980eeca395aadc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2af9f84a017e4ff34980eeca395aadc2">getNumberOfVoxelsForTPMS</a> (const Vector3f &amp;<a class="el" href="#a306ff1f62992b3eb33c446913b64188a">size</a>, float frequency, float resolution)</td></tr>
+<tr class="memdesc:a2af9f84a017e4ff34980eeca395aadc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns number of voxels that would be used to perform <a class="el" href="#ada437f5ab97d510beaea1555400b74d1">buildTPMS</a> or <a class="el" href="#af8af3727676af4be8f3292e7f776751f">buildTPMSVolume</a>.  <br /></td></tr>
+<tr class="separator:a2af9f84a017e4ff34980eeca395aadc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaaa03e36604e9587df674801bac3a653f" id="r_gaaa03e36604e9587df674801bac3a653f"><td class="memTemplParams" colspan="2">template&lt;typename VolumeType  = VdbVolume&gt; </td></tr>
 <tr class="memitem:gaaa03e36604e9587df674801bac3a653f"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VertBitSet &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__SubvoxelMeshCorrection.html#gaaa03e36604e9587df674801bac3a653f">moveMeshToVoxelMaxDeriv</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const AffineXf3f &amp;meshXf, const VolumeType &amp;<a class="el" href="#a83e40508b3f05b594da19748c1da2d05">volume</a>, const AffineXf3f &amp;volumeXf, const <a class="el" href="structMR_1_1MoveMeshToVoxelMaxDerivSettings.html">MoveMeshToVoxelMaxDerivSettings</a> &amp;settings, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> callback={})</td></tr>
 <tr class="separator:gaaa03e36604e9587df674801bac3a653f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -23353,7 +23356,7 @@ template&lt;typename ObjectT &gt; </div>
 </div>
 </div>
 <a id="a5ebf3466293dbaf0f93374315ba210ed" name="a5ebf3466293dbaf0f93374315ba210ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ebf3466293dbaf0f93374315ba210ed">&#9670;&#160;</a></span>getNumberOfVoxelsForTPMS()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ebf3466293dbaf0f93374315ba210ed">&#9670;&#160;</a></span>getNumberOfVoxelsForTPMS() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -23377,6 +23380,34 @@ template&lt;typename ObjectT &gt; </div>
 </div><div class="memdoc">
 
 <p>Returns number of voxels that would be used to perform <a class="el" href="#a5333afd17d036169463e63e4bff58009">fillWithTPMS</a>. </p>
+
+</div>
+</div>
+<a id="a2af9f84a017e4ff34980eeca395aadc2" name="a2af9f84a017e4ff34980eeca395aadc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2af9f84a017e4ff34980eeca395aadc2">&#9670;&#160;</a></span>getNumberOfVoxelsForTPMS() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> size_t MR::getNumberOfVoxelsForTPMS </td>
+          <td>(</td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>frequency</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>resolution</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns number of voxels that would be used to perform <a class="el" href="#ada437f5ab97d510beaea1555400b74d1">buildTPMS</a> or <a class="el" href="#af8af3727676af4be8f3292e7f776751f">buildTPMSVolume</a>. </p>
 
 </div>
 </div>

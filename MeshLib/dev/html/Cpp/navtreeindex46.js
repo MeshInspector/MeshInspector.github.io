@@ -1,5 +1,6 @@
 var NAVTREEINDEX46 =
 {
+"classMR_1_1UI_1_1RectAllocator.html#ae453c167334b49a2d08f4bffa76c0fe2":[6,0,2,0,1,23,9,3],
 "classMR_1_1UI_1_1WindowRectAllocator.html":[6,0,1,0,1,38,12],
 "classMR_1_1UI_1_1WindowRectAllocator.html":[6,0,2,0,1,23,11],
 "classMR_1_1UI_1_1WindowRectAllocator.html#a38bb8cbe2433b411b130857219fc3be4":[6,0,1,0,1,38,12,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX46 =
 "classMR_1_1Viewer.html#a442f3e2a28e10e8233b334037730020e":[6,0,2,0,1,754,17],
 "classMR_1_1Viewer.html#a44471d66496b4d2184d8604af087598e":[6,0,1,0,1,770,56],
 "classMR_1_1Viewer.html#a44471d66496b4d2184d8604af087598e":[6,0,2,0,1,754,56],
-"classMR_1_1Viewer.html#a447c125eeac88a0873b6416d0c4d5772":[6,0,1,0,1,770,51],
-"classMR_1_1Viewer.html#a447c125eeac88a0873b6416d0c4d5772":[6,0,2,0,1,754,51]
+"classMR_1_1Viewer.html#a447c125eeac88a0873b6416d0c4d5772":[6,0,1,0,1,770,51]
 };

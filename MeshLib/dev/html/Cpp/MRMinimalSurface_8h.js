@@ -10,5 +10,6 @@ var MRMinimalSurface_8h =
     [ "buildTPMSVolume", "MRMinimalSurface_8h.html#af8af3727676af4be8f3292e7f776751f", null ],
     [ "fillWithTPMS", "MRMinimalSurface_8h.html#a5333afd17d036169463e63e4bff58009", null ],
     [ "getNumberOfVoxelsForTPMS", "MRMinimalSurface_8h.html#a5ebf3466293dbaf0f93374315ba210ed", null ],
+    [ "getNumberOfVoxelsForTPMS", "MRMinimalSurface_8h.html#a2af9f84a017e4ff34980eeca395aadc2", null ],
     [ "getTPMSTypeNames", "MRMinimalSurface_8h.html#aa0a6a1636e536dd5e20f5016c5ac154b", null ]
 ];

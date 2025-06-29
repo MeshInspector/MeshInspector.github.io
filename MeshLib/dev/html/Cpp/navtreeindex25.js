@@ -1,5 +1,6 @@
 var NAVTREEINDEX25 =
 {
+"classMR_1_1GlTexture.html#a381d704de87710189350e842dab5ad18":[6,0,1,0,1,266,4],
 "classMR_1_1GlTexture.html#a381d704de87710189350e842dab5ad18":[6,0,2,0,1,250,4],
 "classMR_1_1GlTexture.html#a3ac4435c96afe603c9f4fac5e7bbb2cc":[6,0,1,0,1,266,9],
 "classMR_1_1GlTexture.html#a3ac4435c96afe603c9f4fac5e7bbb2cc":[6,0,2,0,1,250,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX25 =
 "classMR_1_1IICPTreeIndexer.html#a68616944ac0168797fb2fece7d28f477":[6,0,1,0,1,293,0],
 "classMR_1_1IICPTreeIndexer.html#a68616944ac0168797fb2fece7d28f477":[6,0,2,0,1,277,0],
 "classMR_1_1IICPTreeIndexer.html#ae9d6c57f127d30e14ec9ce539bb2b0f7":[6,0,1,0,1,293,2],
-"classMR_1_1IICPTreeIndexer.html#ae9d6c57f127d30e14ec9ce539bb2b0f7":[6,0,2,0,1,277,2],
-"classMR_1_1IPluginUpdate.html":[6,0,1,0,1,308]
+"classMR_1_1IICPTreeIndexer.html#ae9d6c57f127d30e14ec9ce539bb2b0f7":[6,0,2,0,1,277,2]
 };

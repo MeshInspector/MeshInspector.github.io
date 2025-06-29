@@ -1888,6 +1888,7 @@ var mrmeshpy_8pyi =
     [ "getNeighborFaces", "mrmeshpy_8pyi.html#a2c1acf18cb45ba48d430c9f9fbd9f0fc", null ],
     [ "getNumActivePairs", "mrmeshpy_8pyi.html#afad1997c3dd5a6417f268e6fd7cc1476", null ],
     [ "getNumberOfVoxelsForTPMS", "mrmeshpy_8pyi.html#a43dfb3461e2a10c5744318ec457af407", null ],
+    [ "getNumberOfVoxelsForTPMS", "mrmeshpy_8pyi.html#a8e899823bb82573349bee09be68d8ba6", null ],
     [ "getNumNodes", "mrmeshpy_8pyi.html#ad244cdca4be6b19ce4e002f8a6f010fe", null ],
     [ "getNumNodesPoints", "mrmeshpy_8pyi.html#a928da997d01cb010e4bfa1474942529c", null ],
     [ "getNumSamples", "mrmeshpy_8pyi.html#ae04459914bb7b9e9c8508a1380f64ad8", null ],

@@ -3702,6 +3702,8 @@ Functions</h2></td></tr>
 <tr class="separator:ae04459914bb7b9e9c8508a1380f64ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43dfb3461e2a10c5744318ec457af407" id="r_a43dfb3461e2a10c5744318ec457af407"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43dfb3461e2a10c5744318ec457af407">getNumberOfVoxelsForTPMS</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, float frequency, float resolution)</td></tr>
 <tr class="separator:a43dfb3461e2a10c5744318ec457af407"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e899823bb82573349bee09be68d8ba6" id="r_a8e899823bb82573349bee09be68d8ba6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e899823bb82573349bee09be68d8ba6">getNumberOfVoxelsForTPMS</a> (<a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>, float frequency, float resolution)</td></tr>
+<tr class="separator:a8e899823bb82573349bee09be68d8ba6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa82ee39980c76e6f7b5d1963a63dcdd5" id="r_aa82ee39980c76e6f7b5d1963a63dcdd5"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa82ee39980c76e6f7b5d1963a63dcdd5">getOSNoSpaces</a> ()</td></tr>
 <tr class="separator:aa82ee39980c76e6f7b5d1963a63dcdd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9da626bb4dc1b50f0537c45db57b477" id="r_ad9da626bb4dc1b50f0537c45db57b477"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9da626bb4dc1b50f0537c45db57b477">getOneMeshIntersectionContours</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> meshA, <a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> meshB, <a class="el" href="classmrmeshpy_1_1std__vector__std__vector__VarEdgeTri.html">std_vector_std_vector_VarEdgeTri</a> contours, <a class="el" href="classmrmeshpy_1_1std__vector__OneMeshContour.html">std_vector_OneMeshContour</a> outA, <a class="el" href="classmrmeshpy_1_1std__vector__OneMeshContour.html">std_vector_OneMeshContour</a> outB, <a class="el" href="classmrmeshpy_1_1CoordinateConverters.html">CoordinateConverters</a> converters, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> rigidB2A=None, <a class="el" href="classmrmeshpy_1_1std__vector__std__vector__Vector3__float.html">std_vector_std_vector_Vector3_float</a> outPtsA=None, bool addSelfyTerminalVerts=False)</td></tr>
@@ -22204,7 +22206,7 @@ Warning: this metric can produce degenerated triangles
 </div>
 </div>
 <a id="a43dfb3461e2a10c5744318ec457af407" name="a43dfb3461e2a10c5744318ec457af407"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43dfb3461e2a10c5744318ec457af407">&#9670;&#160;</a></span>getNumberOfVoxelsForTPMS()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a43dfb3461e2a10c5744318ec457af407">&#9670;&#160;</a></span>getNumberOfVoxelsForTPMS() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -22227,6 +22229,33 @@ Warning: this metric can produce degenerated triangles
       </table>
 </div><div class="memdoc">
 <pre class="fragment">Returns number of voxels that would be used to perform \\ref fillWithTPMS
+</pre> 
+</div>
+</div>
+<a id="a8e899823bb82573349bee09be68d8ba6" name="a8e899823bb82573349bee09be68d8ba6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e899823bb82573349bee09be68d8ba6">&#9670;&#160;</a></span>getNumberOfVoxelsForTPMS() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int mrmeshpy.getNumberOfVoxelsForTPMS </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>frequency</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>resolution</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Returns number of voxels that would be used to perform \\ref buildTPMS or \\ref buildTPMSVolume
 </pre> 
 </div>
 </div>

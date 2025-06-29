@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1DividePointCloudOptionalOutput.html#abf7d2f349e450a24bc74e71d1de3d1bc":[6,0,1,0,1,198,1],
+"structMR_1_1DividePointCloudOptionalOutput.html#abf7d2f349e450a24bc74e71d1de3d1bc":[6,0,2,0,1,182,1],
 "structMR_1_1DividePolylineParameters.html":[6,0,1,0,1,199],
 "structMR_1_1DividePolylineParameters.html":[6,0,2,0,1,183],
 "structMR_1_1DividePolylineParameters.html#a0dd7e0ac90d0f63dc7e3903f3107a461":[6,0,1,0,1,199,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1EmbeddedPython_1_1Config.html":[6,0,2,0,1,201,0],
 "structMR_1_1EmbeddedPython_1_1Config.html#a172af80d129ecab54d4c310e812523a5":[6,0,1,0,1,217,0,1],
 "structMR_1_1EmbeddedPython_1_1Config.html#a172af80d129ecab54d4c310e812523a5":[6,0,2,0,1,201,0,1],
-"structMR_1_1EmbeddedPython_1_1Config.html#a6309e26a08ee1df3fe6bb514aa84cf58":[6,0,1,0,1,217,0,0],
-"structMR_1_1EmbeddedPython_1_1Config.html#a6309e26a08ee1df3fe6bb514aa84cf58":[6,0,2,0,1,201,0,0],
-"structMR_1_1EmbeddedPython_1_1Config.html#ae17ecbf3ed9c59e47c91c7ddc1b173aa":[6,0,1,0,1,217,0,2]
+"structMR_1_1EmbeddedPython_1_1Config.html#a6309e26a08ee1df3fe6bb514aa84cf58":[6,0,1,0,1,217,0,0]
 };

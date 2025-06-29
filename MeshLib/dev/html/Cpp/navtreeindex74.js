@@ -1,5 +1,7 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html":[6,0,1,0,1,13,2],
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html":[6,0,2,0,1,5,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#a44144148a10112aad36da80581e557d8":[6,0,1,0,1,13,2,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#a44144148a10112aad36da80581e557d8":[6,0,2,0,1,5,2,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#a84786fdc043bbc9a3dbcd7613739a8a9":[6,0,1,0,1,13,2,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1KeyUpListener.html#abd5bf532b5f8a6b362e491fbdfb05719":[6,0,1,0,1,328,3],
 "structMR_1_1KeyUpListener.html#abd5bf532b5f8a6b362e491fbdfb05719":[6,0,2,0,1,312,3],
 "structMR_1_1LaunchParams.html":[6,0,1,0,1,331],
-"structMR_1_1LaunchParams.html":[6,0,2,0,1,315],
-"structMR_1_1LaunchParams.html#a022b76b62fcdfb2c120c1c0ccb08513d":[6,0,1,0,1,331,0],
-"structMR_1_1LaunchParams.html#a022b76b62fcdfb2c120c1c0ccb08513d":[6,0,2,0,1,315,0]
+"structMR_1_1LaunchParams.html":[6,0,2,0,1,315]
 };
