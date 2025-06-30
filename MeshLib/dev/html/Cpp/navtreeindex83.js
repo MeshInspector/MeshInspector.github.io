@@ -1,5 +1,7 @@
 var NAVTREEINDEX83 =
 {
+"structMR_1_1PreDrawListener.html#a4e0adfc848772aeae37ad04a7d61d787":[6,0,2,0,1,529,3],
+"structMR_1_1PreDrawListener.html#a69d5ba4966a5c7fc86d0f9f39924c180":[6,0,1,0,1,545,1],
 "structMR_1_1PreDrawListener.html#a69d5ba4966a5c7fc86d0f9f39924c180":[6,0,2,0,1,529,1],
 "structMR_1_1PreDrawListener.html#aaaad0be432409ee6a00436099613fe77":[6,0,1,0,1,545,2],
 "structMR_1_1PreDrawListener.html#aaaad0be432409ee6a00436099613fe77":[6,0,2,0,1,529,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX83 =
 "structMR_1_1RenderDimensions_1_1RadiusParams.html#acbc9da122212ec41904e71d4e3002cc9":[6,0,1,0,1,30,4,0],
 "structMR_1_1RenderDimensions_1_1RadiusParams.html#acbc9da122212ec41904e71d4e3002cc9":[6,0,2,0,1,17,4,0],
 "structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html":[6,0,1,0,1,32,0,1],
-"structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html":[6,0,2,0,1,19,0,1],
-"structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html#aefbb8b64a400a9acc5e776111c7ae297":[6,0,1,0,1,32,0,1,0],
-"structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html#aefbb8b64a400a9acc5e776111c7ae297":[6,0,2,0,1,19,0,1,0]
+"structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html":[6,0,2,0,1,19,0,1]
 };

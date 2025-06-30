@@ -2501,6 +2501,7 @@ var namespaceMR =
     [ "makeConvexHull", "namespaceMR.html#a2b1ae8facc8f4e9e09073b91da0f9949", null ],
     [ "makeConvexHull", "namespaceMR.html#ad4f2e7823d67de1684e13a3829315dc2", null ],
     [ "makeConvexHull", "namespaceMR.html#a914df647c5ed18410f4b85fd4af5f47e", null ],
+    [ "makeConvexHull", "namespaceMR.html#add9e75db45f7b7d636d5f5f70d48c1a5", null ],
     [ "makeCornerControllerMesh", "namespaceMR.html#a60e39381727e51c4cad64d4e0c4f3b8f", null ],
     [ "makeCornerControllerRotationArrowMesh", "namespaceMR.html#ae5e9489254b51988519548546f68914a", null ],
     [ "makeCornerControllerUVCoords", "namespaceMR.html#a739b85ed00b84c2e37b63ffd04b683b4", null ],

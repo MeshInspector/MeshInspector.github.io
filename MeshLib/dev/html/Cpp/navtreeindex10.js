@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"MRMesh_2MRMeshTriPoint_8h.html":[6,0,3,0,0,1,4,230],
 "MRMesh_2MRMeshTriPoint_8h_source.html":[6,0,3,0,0,1,4,230],
 "MRMesh_2MRMesh_8h.html":[6,0,3,0,0,1,4,182],
 "MRMesh_2MRMesh_8h_source.html":[6,0,3,0,0,1,4,182],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "MRObjectLoad_8h_source.html":[6,0,3,0,0,1,4,248],
 "MRObjectMeshData_8h.html":[6,0,3,0,0,1,4,250],
 "MRObjectMeshData_8h_source.html":[6,0,3,0,0,1,4,250],
-"MRObjectMeshHistory_8h.html":[6,0,3,0,0,1,10,54],
-"MRObjectMeshHistory_8h.html#a01f19fead4c6c2ee2498d12d276b6740":[6,0,3,0,0,1,10,54,0]
+"MRObjectMeshHistory_8h.html":[6,0,3,0,0,1,10,54]
 };

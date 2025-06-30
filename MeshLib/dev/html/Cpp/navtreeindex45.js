@@ -1,5 +1,6 @@
 var NAVTREEINDEX45 =
 {
+"classMR_1_1SwapRootAction.html#af6bb4c1dda747f34b96c94f1c8dba6be":[6,0,2,0,1,678,0],
 "classMR_1_1SystemPath.html":[6,0,1,0,1,700],
 "classMR_1_1SystemPath.html":[6,0,2,0,1,684],
 "classMR_1_1SystemPath.html#a0cf7d55377d8e831c45ed8aa549b7ac8":[6,0,1,0,1,700,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX45 =
 "classMR_1_1UI_1_1NonOverlappingLabelTask.html#aeb3b781dc6c9e400a854b1ff628c17fc":[6,0,2,0,1,23,6,1],
 "classMR_1_1UI_1_1RectAllocator.html":[6,0,1,0,1,38,10],
 "classMR_1_1UI_1_1RectAllocator.html":[6,0,2,0,1,23,9],
-"classMR_1_1UI_1_1RectAllocator.html#a0c0e4459ae9255dde41c3c2e216999a3":[6,0,1,0,1,38,10,1],
-"classMR_1_1UI_1_1RectAllocator.html#a0c0e4459ae9255dde41c3c2e216999a3":[6,0,2,0,1,23,9,1]
+"classMR_1_1UI_1_1RectAllocator.html#a0c0e4459ae9255dde41c3c2e216999a3":[6,0,1,0,1,38,10,1]
 };

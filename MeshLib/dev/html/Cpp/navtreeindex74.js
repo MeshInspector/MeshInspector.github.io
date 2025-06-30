@@ -1,5 +1,7 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_014_01_4.html#adfc0ecae222770b0db30cfc9c46495ca":[6,0,1,0,1,12,0,4,0],
+"structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_014_01_4.html#adfc0ecae222770b0db30cfc9c46495ca":[6,0,2,0,1,4,0,4,0],
 "structMR_1_1ImGuiMath_1_1detail_1_1VecSize.html":[6,0,1,0,1,12,0,5],
 "structMR_1_1ImGuiMath_1_1detail_1_1VecSize.html":[6,0,2,0,1,4,0,5],
 "structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec2_01_4.html":[6,0,1,0,1,12,0,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1KeyDownListener.html#af86a1cfaae2446a6124adbf0d57fcd22":[6,0,1,0,1,327,2],
 "structMR_1_1KeyDownListener.html#af86a1cfaae2446a6124adbf0d57fcd22":[6,0,2,0,1,311,2],
 "structMR_1_1KeyRepeatListener.html":[6,0,1,0,1,328],
-"structMR_1_1KeyRepeatListener.html":[6,0,2,0,1,312],
-"structMR_1_1KeyRepeatListener.html#a0f51c4b0274522776a58519e64f392d3":[6,0,1,0,1,328,3],
-"structMR_1_1KeyRepeatListener.html#a0f51c4b0274522776a58519e64f392d3":[6,0,2,0,1,312,3]
+"structMR_1_1KeyRepeatListener.html":[6,0,2,0,1,312]
 };
