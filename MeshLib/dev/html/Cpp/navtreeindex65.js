@@ -1,5 +1,9 @@
 var NAVTREEINDEX65 =
 {
+"structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[6,0,2,0,0,0,3],
+"structImGui_1_1HistogramGridLine.html":[6,0,1,0,0,1],
+"structImGui_1_1HistogramGridLine.html":[6,0,2,0,0,1],
+"structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[6,0,1,0,0,1,1],
 "structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[6,0,2,0,0,1,1],
 "structImGui_1_1HistogramGridLine.html#acffdb0cea13c4773abcdfaa935aa1dc5":[6,0,1,0,0,1,0],
 "structImGui_1_1HistogramGridLine.html#acffdb0cea13c4773abcdfaa935aa1dc5":[6,0,2,0,0,1,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX65 =
 "structMRObjId.html":[6,0,2,0,47],
 "structMRObjId.html#a26da559ee8e7f8fae7407215dee6db33":[6,0,2,0,47,0],
 "structMRObjVertId.html":[6,0,2,0,48],
-"structMRObjVertId.html#a724bfda98a1cbc88bb90004372d2b844":[6,0,2,0,48,0],
-"structMRObjVertId.html#acd5a62c78cf341d9ec230a2e075f2e28":[6,0,2,0,48,1],
-"structMROffsetParameters.html":[6,0,2,0,49],
-"structMROffsetParameters.html#a101abd04d5b2643285510c4fa363b679":[6,0,2,0,49,3],
-"structMROffsetParameters.html#a4fda3dbd0f6df9ed45abc300fee48b17":[6,0,2,0,49,0]
+"structMRObjVertId.html#a724bfda98a1cbc88bb90004372d2b844":[6,0,2,0,48,0]
 };

@@ -26,7 +26,7 @@ var searchData=
   ['additionalwidth_23',['additionalWidth',['../structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a9048532b67f8ae6a79ec42cf2a196ddf',1,'MR::RibbonButtonDrawer::ButtonItemWidth']]],
   ['addobject_24',['AddObject',['../../Py/classmrmeshpy_1_1ChangeSceneAction_1_1Type.html#a3c7addda2a86a5387d50554322660469',1,'mrmeshpy::ChangeSceneAction::Type']]],
   ['adjustcollapse_25',['adjustCollapse',['../structMR_1_1DecimateSettings.html#a21d7c6d9122286b4edf7bd531d38b72b',1,'MR::DecimateSettings::adjustCollapse'],['../structMR_1_1DecimatePolylineSettings.html#ad58496f8458d8d5a517ba34926cb0c61',1,'MR::DecimatePolylineSettings::adjustCollapse']]],
-  ['aface_26',['aFace',['../structMR_1_1FaceFace.html#aec8e3edd8159870a77814db603ba8c5d',1,'MR::FaceFace']]],
+  ['aface_26',['aFace',['../structMR_1_1FaceFace.html#aec8e3edd8159870a77814db603ba8c5d',1,'MR::FaceFace::aFace'],['../structMR_1_1FaceFaceFace.html#acd551d9c00ebe29729a816dec419d8b3',1,'MR::FaceFaceFace::aFace']]],
   ['affinexf_27',['AffineXf',['../namespaceMR.html#aba55748ce74bb048bfb84500d7095678',1,'MR']]],
   ['affinexf2f_28',['AffineXf2f',['../namespaceMR.html#a800c9816563b894edca43508f9f6b56e',1,'MR']]],
   ['affinexf_5fvector2d_5fm_29',['AffineXf_Vector2d_M',['../../Py/namespacemrmeshpy.html#a1e07a2bdf0d19ec87ca5f13a7a18f538',1,'mrmeshpy']]],

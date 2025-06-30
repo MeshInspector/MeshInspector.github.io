@@ -377,6 +377,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRTriDist.h", "MRTriDist_8h.html", "MRTriDist_8h" ],
     [ "MRTriMath.h", "MRTriMath_8h.html", "MRTriMath_8h" ],
     [ "MRTriMesh.h", "MRTriMesh_8h.html", "MRTriMesh_8h" ],
+    [ "MRTripleFaceIntersections.h", "MRTripleFaceIntersections_8h.html", "MRTripleFaceIntersections_8h" ],
     [ "MRTriPoint.h", "MRMesh_2MRTriPoint_8h.html", null ],
     [ "MRTunnelDetector.h", "MRTunnelDetector_8h.html", "MRTunnelDetector_8h" ],
     [ "MRTupleBindings.h", "MRTupleBindings_8h.html", "MRTupleBindings_8h" ],

@@ -361,6 +361,7 @@
 <a href="MRTriDist_8h_source.html"/>
 <a href="MRTriMath_8h_source.html"/>
 <a href="MRTriMesh_8h_source.html"/>
+<a href="MRTripleFaceIntersections_8h_source.html"/>
 <a href="MRTunnelDetector_8h_source.html"/>
 <a href="MRTupleBindings_8h_source.html"/>
 <a href="MRUnionFind_8h_source.html"/>
@@ -1118,6 +1119,7 @@
 <a href="MRTriDist_8h.html"/>
 <a href="MRTriMath_8h.html"/>
 <a href="MRTriMesh_8h.html"/>
+<a href="MRTripleFaceIntersections_8h.html"/>
 <a href="MRTunnelDetector_8h.html"/>
 <a href="MRTupleBindings_8h.html"/>
 <a href="MRUnionFind_8h.html"/>
@@ -2134,6 +2136,8 @@
 <a href="structMR_1_1FaceDistancesSettings-members.html"/>
 <a href="structMR_1_1FaceFace.html"/>
 <a href="structMR_1_1FaceFace-members.html"/>
+<a href="structMR_1_1FaceFaceFace.html"/>
+<a href="structMR_1_1FaceFaceFace-members.html"/>
 <a href="structMR_1_1FanRecord.html"/>
 <a href="structMR_1_1FanRecord-members.html"/>
 <a href="structMR_1_1FanRecordWithCenter.html"/>
@@ -8116,6 +8120,8 @@
 <a href="MRTriangleIntersection_8h.html#gad2f32d1f571dde6434e36df0a4357290"/>
 <a href="MRTriangleIntersection_8h.html#gaed73232a6d870938e7b209dc68abfe14"/>
 <a href="MRTriangleIntersection_8h.html#gaff70eb7ab1db8fd3d414cc2e6e9d4d67"/>
+<a href="MRTripleFaceIntersections_8h.html"/>
+<a href="MRTripleFaceIntersections_8h.html#a968e503140f4eea930b1c7c63a2777e1"/>
 <a href="MRTunnelDetector_8h.html"/>
 <a href="MRTunnelDetector_8h.html#ga7dd035558540c3818d6d69afc731f953"/>
 <a href="MRTunnelDetector_8h.html#gaecd871a653e3af47a39e7017288eb69c"/>
@@ -16233,6 +16239,7 @@
 <a href="namespaceMR.html#a9593b2fda01d494d4edc7665267d2b53"/>
 <a href="namespaceMR.html#a964135dd0f9cc9740de117f85b0e793d"/>
 <a href="namespaceMR.html#a964a181b4bf9b03b222d6e2ad3529487"/>
+<a href="namespaceMR.html#a968e503140f4eea930b1c7c63a2777e1"/>
 <a href="namespaceMR.html#a96c0afdf384671d181d6111113d5bf35"/>
 <a href="namespaceMR.html#a96fbf6ff116f2ef3003d0511ee978d18"/>
 <a href="namespaceMR.html#a972aa33f2723ecfd1a0f7b41ff77a113"/>
@@ -18489,11 +18496,18 @@
 <a href="structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aaa32d7ae8d0ab848262ba158d90d97527"/>
 <a href="structMR_1_1FaceDistancesSettings.html#afb9b1832b03f4aa0afb1842bf74a358aadcccbad6a160d87b883d166736919b6b"/>
 <a href="structMR_1_1FaceFace.html"/>
+<a href="structMR_1_1FaceFace.html#a8c0ae6c21ae275e2d6d66235d4aa4a3f"/>
 <a href="structMR_1_1FaceFace.html#a8e856ba4f380bb43a7a4efe0f1dc02bc"/>
 <a href="structMR_1_1FaceFace.html#ac3a31b47e7baa47611ea150254a49fe3"/>
-<a href="structMR_1_1FaceFace.html#adc07e0f4a04d7f00997f5f0836fdbcaf"/>
 <a href="structMR_1_1FaceFace.html#aec8e3edd8159870a77814db603ba8c5d"/>
 <a href="structMR_1_1FaceFace.html#aee3dbbcbddd14dd0707a78411581d0fc"/>
+<a href="structMR_1_1FaceFaceFace.html"/>
+<a href="structMR_1_1FaceFaceFace.html#a0e5733dffb431d23e489ffb540237689"/>
+<a href="structMR_1_1FaceFaceFace.html#a39681be0c7ab1dc1c15c832197986024"/>
+<a href="structMR_1_1FaceFaceFace.html#a8a49e27d2dc2b97960798a2ff0ab1dc0"/>
+<a href="structMR_1_1FaceFaceFace.html#a9c0b3b8d9c8e17c12f60f7feec45c757"/>
+<a href="structMR_1_1FaceFaceFace.html#acd551d9c00ebe29729a816dec419d8b3"/>
+<a href="structMR_1_1FaceFaceFace.html#ae8b8ea6a8fe4113e5a65704d378e0720"/>
 <a href="structMR_1_1FanRecord.html"/>
 <a href="structMR_1_1FanRecord.html#a27df8546e114728c41355bf45b7f4666"/>
 <a href="structMR_1_1FanRecord.html#ab96acab7dff75b813d869d05ae408ca7"/>
@@ -21259,7 +21273,7 @@
 <a href="structMR_1_1UndirectedEdgeUndirectedEdge.html"/>
 <a href="structMR_1_1UndirectedEdgeUndirectedEdge.html#a535f1290920a2d84945d8cc8989397c6"/>
 <a href="structMR_1_1UndirectedEdgeUndirectedEdge.html#a76340cad705f0262c4adba8d2e051524"/>
-<a href="structMR_1_1UndirectedEdgeUndirectedEdge.html#a9641a6ea0b597a958c7138e6b7ed8947"/>
+<a href="structMR_1_1UndirectedEdgeUndirectedEdge.html#a86370e0ca44ce18760320f63faac8aa1"/>
 <a href="structMR_1_1UndirectedEdgeUndirectedEdge.html#aaf55dde37dfa59f981e1bc41ee3ac74a"/>
 <a href="structMR_1_1UndirectedEdgeUndirectedEdge.html#afc38d24da2e811fd6d7ae9a05045b2d0"/>
 <a href="structMR_1_1UniformSamplingSettings.html"/>

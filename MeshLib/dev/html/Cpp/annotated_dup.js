@@ -393,6 +393,7 @@ var annotated_dup =
       [ "EnumNeihbourVertices", "classMR_1_1EnumNeihbourVertices.html", "classMR_1_1EnumNeihbourVertices" ],
       [ "FaceDistancesSettings", "structMR_1_1FaceDistancesSettings.html", "structMR_1_1FaceDistancesSettings" ],
       [ "FaceFace", "structMR_1_1FaceFace.html", "structMR_1_1FaceFace" ],
+      [ "FaceFaceFace", "structMR_1_1FaceFaceFace.html", "structMR_1_1FaceFaceFace" ],
       [ "FanRecord", "structMR_1_1FanRecord.html", "structMR_1_1FanRecord" ],
       [ "FanRecordWithCenter", "structMR_1_1FanRecordWithCenter.html", "structMR_1_1FanRecordWithCenter" ],
       [ "FastWindingNumber", "classMR_1_1FastWindingNumber.html", "classMR_1_1FastWindingNumber" ],

@@ -102,14 +102,14 @@ var group__AABBTreeGroup =
     [ "MR::FaceFace", "structMR_1_1FaceFace.html", [
       [ "FaceFace", "structMR_1_1FaceFace.html#ac3a31b47e7baa47611ea150254a49fe3", null ],
       [ "FaceFace", "structMR_1_1FaceFace.html#a8e856ba4f380bb43a7a4efe0f1dc02bc", null ],
-      [ "operator==", "structMR_1_1FaceFace.html#adc07e0f4a04d7f00997f5f0836fdbcaf", null ],
+      [ "operator<=>", "structMR_1_1FaceFace.html#a8c0ae6c21ae275e2d6d66235d4aa4a3f", null ],
       [ "aFace", "structMR_1_1FaceFace.html#aec8e3edd8159870a77814db603ba8c5d", null ],
       [ "bFace", "structMR_1_1FaceFace.html#aee3dbbcbddd14dd0707a78411581d0fc", null ]
     ] ],
     [ "MR::UndirectedEdgeUndirectedEdge", "structMR_1_1UndirectedEdgeUndirectedEdge.html", [
       [ "UndirectedEdgeUndirectedEdge", "structMR_1_1UndirectedEdgeUndirectedEdge.html#a76340cad705f0262c4adba8d2e051524", null ],
       [ "UndirectedEdgeUndirectedEdge", "structMR_1_1UndirectedEdgeUndirectedEdge.html#afc38d24da2e811fd6d7ae9a05045b2d0", null ],
-      [ "operator==", "structMR_1_1UndirectedEdgeUndirectedEdge.html#a9641a6ea0b597a958c7138e6b7ed8947", null ],
+      [ "operator<=>", "structMR_1_1UndirectedEdgeUndirectedEdge.html#a86370e0ca44ce18760320f63faac8aa1", null ],
       [ "aUndirEdge", "structMR_1_1UndirectedEdgeUndirectedEdge.html#aaf55dde37dfa59f981e1bc41ee3ac74a", null ],
       [ "bUndirEdge", "structMR_1_1UndirectedEdgeUndirectedEdge.html#a535f1290920a2d84945d8cc8989397c6", null ]
     ] ],

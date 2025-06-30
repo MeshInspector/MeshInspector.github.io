@@ -345,6 +345,7 @@ var hierarchy =
     [ "MR::ViewerSettingsPlugin::ExternalSettings", "classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html", null ],
     [ "MR::FaceDistancesSettings", "structMR_1_1FaceDistancesSettings.html", null ],
     [ "MR::FaceFace", "structMR_1_1FaceFace.html", null ],
+    [ "MR::FaceFaceFace", "structMR_1_1FaceFaceFace.html", null ],
     [ "std::false_type", null, [
       [ "MR::IsVisualizeMaskEnum< T >", "structMR_1_1IsVisualizeMaskEnum.html", null ]
     ] ],

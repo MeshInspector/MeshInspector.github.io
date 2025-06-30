@@ -265,6 +265,7 @@ var hierarchy =
     [ "mrmeshpy.FaceColors", "classmrmeshpy_1_1FaceColors.html", null ],
     [ "mrmeshpy.FaceDistancesSettings", "classmrmeshpy_1_1FaceDistancesSettings.html", null ],
     [ "mrmeshpy.FaceFace", "classmrmeshpy_1_1FaceFace.html", null ],
+    [ "mrmeshpy.FaceFaceFace", "classmrmeshpy_1_1FaceFaceFace.html", null ],
     [ "mrmeshpy.FaceId", "classmrmeshpy_1_1FaceId.html", [
       [ "mrmeshpy.NoDefInit_FaceId", "classmrmeshpy_1_1NoDefInit__FaceId.html", null ]
     ] ],
@@ -1023,6 +1024,7 @@ var hierarchy =
     [ "mrmeshpy.std_vector_EdgeSegment", "classmrmeshpy_1_1std__vector__EdgeSegment.html", null ],
     [ "mrmeshpy.std_vector_EdgeTri", "classmrmeshpy_1_1std__vector__EdgeTri.html", null ],
     [ "mrmeshpy.std_vector_FaceFace", "classmrmeshpy_1_1std__vector__FaceFace.html", null ],
+    [ "mrmeshpy.std_vector_FaceFaceFace", "classmrmeshpy_1_1std__vector__FaceFaceFace.html", null ],
     [ "mrmeshpy.std_vector_FanRecord", "classmrmeshpy_1_1std__vector__FanRecord.html", null ],
     [ "mrmeshpy.std_vector_FanRecordWithCenter", "classmrmeshpy_1_1std__vector__FanRecordWithCenter.html", null ],
     [ "mrmeshpy.std_vector_FeatureObjectSharedProperty", "classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty.html", null ],
