@@ -2,8 +2,8 @@ var searchData=
 [
   ['hash_0',['Hash',['../structMR_1_1MapOrHashMap.html#a9b9b3bd19e1e1187943ce7850bcf6ee0',1,'MR::MapOrHashMap']]],
   ['hashmap_1',['HashMap',['../namespaceMR.html#af8ad9e1b05a45987a3075d43bf345d68',1,'MR']]],
-  ['highhighprecisionint_2',['HighHighPrecisionInt',['../group__HighPrecisionGroup.html#gac2eff02a96007c9c46a935c68abdde21',1,'MR']]],
-  ['highprecisionint_3',['HighPrecisionInt',['../group__HighPrecisionGroup.html#ga7972aa1a25bcfa69347cd04ffc919722',1,'MR']]],
+  ['highhighprecisionint_2',['HighHighPrecisionInt',['../group__HighPrecisionGroup.html#ga374188733372fa57253cf31480e788b7',1,'MR']]],
+  ['highprecisionint_3',['HighPrecisionInt',['../group__HighPrecisionGroup.html#ga701dc2459750c7f6c639865cb7d077f6',1,'MR']]],
   ['historyactionsvector_4',['HistoryActionsVector',['../namespaceMR.html#a951264a40637210aff82d6b0e375446f',1,'MR']]],
   ['historystackfilter_5',['HistoryStackFilter',['../namespaceMR.html#a85276508657eac277a84365d3e41c118',1,'MR']]],
   ['historystorechangedsignal_6',['HistoryStoreChangedSignal',['../classMR_1_1HistoryStore.html#a440531fdee4c587daae1e792a6c62410',1,'MR::HistoryStore']]],

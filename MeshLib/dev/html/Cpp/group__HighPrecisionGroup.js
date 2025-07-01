@@ -1,7 +1,7 @@
 var group__HighPrecisionGroup =
 [
-    [ "MR::HighHighPrecisionInt", "group__HighPrecisionGroup.html#gac2eff02a96007c9c46a935c68abdde21", null ],
-    [ "MR::HighPrecisionInt", "group__HighPrecisionGroup.html#ga7972aa1a25bcfa69347cd04ffc919722", null ],
+    [ "MR::HighHighPrecisionInt", "group__HighPrecisionGroup.html#ga374188733372fa57253cf31480e788b7", null ],
+    [ "MR::HighPrecisionInt", "group__HighPrecisionGroup.html#ga701dc2459750c7f6c639865cb7d077f6", null ],
     [ "MR::Matrix3hp", "group__HighPrecisionGroup.html#ga0922e5b4a25a3ad2c71f656da459b58c", null ],
     [ "MR::Matrix4hp", "group__HighPrecisionGroup.html#ga0b51da12ec169920c600eef21e61b2ef", null ],
     [ "MR::Vector2hp", "group__HighPrecisionGroup.html#ga45d8c623f248026fa1e207e1e742b070", null ],
