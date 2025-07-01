@@ -32,6 +32,7 @@ var mrviewerpy_8pyi =
     [ "getSelectedVoxels", "mrviewerpy_8pyi.html#a7691bb318496be6f84ab4089a4728975", null ],
     [ "launch", "mrviewerpy_8pyi.html#a82dc2137c01c694015b04820623346d4", null ],
     [ "modifySelectedMesh", "mrviewerpy_8pyi.html#a5f9f0ec39ac8505d43e588a49ac7f067", null ],
+    [ "runFromGUIThread", "mrviewerpy_8pyi.html#a904c3c0401d0fd8be3c5ec9595495d0b", null ],
     [ "selectByName", "mrviewerpy_8pyi.html#af16d9c1a524170c3557b83e96344062f", null ],
     [ "selectByType", "mrviewerpy_8pyi.html#a8f3ee3fc4ff32163e040e02d2757eebe", null ],
     [ "setSelectedMeshEdges", "mrviewerpy_8pyi.html#ab750eca819286b723ee0e70eaaeb2012", null ],

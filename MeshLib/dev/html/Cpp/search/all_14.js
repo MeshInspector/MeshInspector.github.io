@@ -374,6 +374,7 @@ var searchData=
   ['run_5ftest_371',['RUN_TEST',['../TestMacros_8h.html#a27cf08abbe33174b41d808a147cfef11',1,'TestMacros.h']]],
   ['runcocoafiledialog_372',['runCocoaFileDialog',['../namespaceMR_1_1detail.html#a5620523d14d5ba70ac2f7841d93f6076',1,'MR::detail']]],
   ['runcommandfromguithread_373',['runCommandFromGUIThread',['../classMR_1_1CommandLoop.html#a10e006b28fa9dbd3572e3b43c8037640',1,'MR::CommandLoop']]],
-  ['runscript_374',['runScript',['../classMR_1_1EmbeddedPython.html#a5916e55128078261efdff12ec1f7fee9',1,'MR::EmbeddedPython']]],
-  ['runstring_375',['runString',['../classMR_1_1EmbeddedPython.html#a98fa9cab1d957fb2da8cc015b46a44cd',1,'MR::EmbeddedPython']]]
+  ['runfromguithread_374',['runFromGUIThread',['../../Py/namespacemrviewerpy.html#a904c3c0401d0fd8be3c5ec9595495d0b',1,'mrviewerpy']]],
+  ['runscript_375',['runScript',['../classMR_1_1EmbeddedPython.html#a5916e55128078261efdff12ec1f7fee9',1,'MR::EmbeddedPython']]],
+  ['runstring_376',['runString',['../classMR_1_1EmbeddedPython.html#a98fa9cab1d957fb2da8cc015b46a44cd',1,'MR::EmbeddedPython']]]
 ];
