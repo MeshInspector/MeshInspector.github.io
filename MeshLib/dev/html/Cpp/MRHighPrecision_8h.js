@@ -1,11 +1,14 @@
 var MRHighPrecision_8h =
 [
-    [ "HighHighPrecisionInt", "MRHighPrecision_8h.html#ga374188733372fa57253cf31480e788b7", null ],
-    [ "HighPrecisionInt", "MRHighPrecision_8h.html#ga701dc2459750c7f6c639865cb7d077f6", null ],
-    [ "Matrix3hp", "MRHighPrecision_8h.html#ga0922e5b4a25a3ad2c71f656da459b58c", null ],
-    [ "Matrix4hp", "MRHighPrecision_8h.html#ga0b51da12ec169920c600eef21e61b2ef", null ],
-    [ "Vector2hp", "MRHighPrecision_8h.html#ga45d8c623f248026fa1e207e1e742b070", null ],
-    [ "Vector3hhp", "MRHighPrecision_8h.html#gaf88114dbe36ad34a981584d74fccf040", null ],
-    [ "Vector3hp", "MRHighPrecision_8h.html#ga93ff5b42be6a4dda9d599acede538a24", null ],
-    [ "Vector4hp", "MRHighPrecision_8h.html#ga3c9be5ef811d30e290a852a487132ff5", null ]
+    [ "Int128", "MRHighPrecision_8h.html#gaeb20f5b66b3c7532bcdb24bd415bd130", null ],
+    [ "Int256", "MRHighPrecision_8h.html#ga62843f076a5d1ed019b89472396d5b37", null ],
+    [ "Int64", "MRHighPrecision_8h.html#gaa611315810b07fbeee31381ae6a4e056", null ],
+    [ "Vector2i128", "MRHighPrecision_8h.html#ga564f83b9c74fcac72243ca5b5ca0b366", null ],
+    [ "Vector2i128fast", "MRHighPrecision_8h.html#ga6cc6a39f0d719c385249f1a861f2f603", null ],
+    [ "Vector2i256", "MRHighPrecision_8h.html#ga5e9d2be2ad9f46eff16c846e4c195057", null ],
+    [ "Vector2i64", "MRHighPrecision_8h.html#gaef94748d079d6d8f9057d7a289061b1c", null ],
+    [ "Vector3i128", "MRHighPrecision_8h.html#ga63880082d353e6f29c0da82c436c2f17", null ],
+    [ "Vector3i128fast", "MRHighPrecision_8h.html#gae17811dbb1f4d3ba17f955bab2dab90d", null ],
+    [ "Vector3i256", "MRHighPrecision_8h.html#ga6290db8f78d4998addb556921ff349ef", null ],
+    [ "Vector3i64", "MRHighPrecision_8h.html#ga1a139955a569eb45d7d221846a34a851", null ]
 ];

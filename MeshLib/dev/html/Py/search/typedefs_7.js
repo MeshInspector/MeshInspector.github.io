@@ -2,12 +2,10 @@ var searchData=
 [
   ['hash_0',['Hash',['../../Cpp/structMR_1_1MapOrHashMap.html#a9b9b3bd19e1e1187943ce7850bcf6ee0',1,'MR::MapOrHashMap']]],
   ['hashmap_1',['HashMap',['../../Cpp/namespaceMR.html#af8ad9e1b05a45987a3075d43bf345d68',1,'MR']]],
-  ['highhighprecisionint_2',['HighHighPrecisionInt',['../../Cpp/group__HighPrecisionGroup.html#ga374188733372fa57253cf31480e788b7',1,'MR::HighHighPrecisionInt'],['../../Cpp/group__HighPrecisionGroup.html#ga374188733372fa57253cf31480e788b7',1,'MR::HighHighPrecisionInt']]],
-  ['highprecisionint_3',['HighPrecisionInt',['../../Cpp/group__HighPrecisionGroup.html#ga701dc2459750c7f6c639865cb7d077f6',1,'MR::HighPrecisionInt'],['../../Cpp/group__HighPrecisionGroup.html#ga701dc2459750c7f6c639865cb7d077f6',1,'MR::HighPrecisionInt']]],
-  ['historyactionsvector_4',['HistoryActionsVector',['../../Cpp/namespaceMR.html#a951264a40637210aff82d6b0e375446f',1,'MR']]],
-  ['historystackfilter_5',['HistoryStackFilter',['../../Cpp/namespaceMR.html#a85276508657eac277a84365d3e41c118',1,'MR']]],
-  ['historystorechangedsignal_6',['HistoryStoreChangedSignal',['../../Cpp/classMR_1_1HistoryStore.html#a440531fdee4c587daae1e792a6c62410',1,'MR::HistoryStore']]],
-  ['holesonobject_7',['HolesOnObject',['../../Cpp/classMR_1_1BoundarySelectionWidget.html#a9e3aafe476e30d362b2b0070a6ce21c6',1,'MR::BoundarySelectionWidget']]],
-  ['holesvertids_8',['HolesVertIds',['../../Cpp/namespaceMR_1_1PlanarTriangulation.html#a0515df1bf2b2920651b9617e6b1493f9',1,'MR::PlanarTriangulation']]],
-  ['holevertids_9',['HoleVertIds',['../../Cpp/namespaceMR_1_1PlanarTriangulation.html#a4ea76a89e8c8fb95eb68d7497122271b',1,'MR::PlanarTriangulation']]]
+  ['historyactionsvector_2',['HistoryActionsVector',['../../Cpp/namespaceMR.html#a951264a40637210aff82d6b0e375446f',1,'MR']]],
+  ['historystackfilter_3',['HistoryStackFilter',['../../Cpp/namespaceMR.html#a85276508657eac277a84365d3e41c118',1,'MR']]],
+  ['historystorechangedsignal_4',['HistoryStoreChangedSignal',['../../Cpp/classMR_1_1HistoryStore.html#a440531fdee4c587daae1e792a6c62410',1,'MR::HistoryStore']]],
+  ['holesonobject_5',['HolesOnObject',['../../Cpp/classMR_1_1BoundarySelectionWidget.html#a9e3aafe476e30d362b2b0070a6ce21c6',1,'MR::BoundarySelectionWidget']]],
+  ['holesvertids_6',['HolesVertIds',['../../Cpp/namespaceMR_1_1PlanarTriangulation.html#a0515df1bf2b2920651b9617e6b1493f9',1,'MR::PlanarTriangulation']]],
+  ['holevertids_7',['HoleVertIds',['../../Cpp/namespaceMR_1_1PlanarTriangulation.html#a4ea76a89e8c8fb95eb68d7497122271b',1,'MR::PlanarTriangulation']]]
 ];
