@@ -1,5 +1,9 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html#af790be1acb4e05aaea55fd8ac0a82a65":[6,0,2,0,1,443,0],
+"structMR_1_1ObjTreeTraits.html":[6,0,1,0,1,460],
+"structMR_1_1ObjTreeTraits.html":[6,0,2,0,1,444],
+"structMR_1_1ObjTreeTraits.html#a5517b355b3a51538470f957d6a23bff1":[6,0,1,0,1,460,2],
 "structMR_1_1ObjTreeTraits.html#a5517b355b3a51538470f957d6a23bff1":[6,0,2,0,1,444,2],
 "structMR_1_1ObjTreeTraits.html#a7208b3ed4cbf6a7db7c03785856d5131":[6,0,1,0,1,460,1],
 "structMR_1_1ObjTreeTraits.html#a7208b3ed4cbf6a7db7c03785856d5131":[6,0,2,0,1,444,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1Parallel_1_1CallSimply.html#a468346fde82355b348c6dab673e56dc8":[6,0,1,0,1,23,0,0],
 "structMR_1_1Parallel_1_1CallSimply.html#a468346fde82355b348c6dab673e56dc8":[6,0,2,0,1,13,0,0],
 "structMR_1_1Parallel_1_1CallSimply.html#a977120d7564720a22808ebdbad48799d":[6,0,1,0,1,23,0,1],
-"structMR_1_1Parallel_1_1CallSimply.html#a977120d7564720a22808ebdbad48799d":[6,0,2,0,1,13,0,1],
-"structMR_1_1Parallel_1_1CallSimplyMaker.html":[6,0,1,0,1,23,1],
-"structMR_1_1Parallel_1_1CallSimplyMaker.html":[6,0,2,0,1,13,1],
-"structMR_1_1Parallel_1_1CallSimplyMaker.html#a52b3271f5af4251f286977712cfaa24b":[6,0,1,0,1,23,1,0],
-"structMR_1_1Parallel_1_1CallSimplyMaker.html#a52b3271f5af4251f286977712cfaa24b":[6,0,2,0,1,13,1,0]
+"structMR_1_1Parallel_1_1CallSimply.html#a977120d7564720a22808ebdbad48799d":[6,0,2,0,1,13,0,1]
 };

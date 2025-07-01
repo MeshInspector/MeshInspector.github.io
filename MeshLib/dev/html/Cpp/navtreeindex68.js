@@ -1,5 +1,9 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1Box.html#a58367ea0fa34d4b4d1009044564aded9":[6,0,0,0,2,0,12],
+"structMR_1_1Box.html#a5edd7e58dce05a67482b2c179f6abc6e":[6,0,0,0,2,0,9],
+"structMR_1_1Box.html#a6fa5434776a3bb7b53014edc67295ec8":[6,0,0,0,2,0,17],
+"structMR_1_1Box.html#a71c94df372502f935a239c62e591a70c":[6,0,0,0,2,0,28],
 "structMR_1_1Box.html#a72642a4bb313d2774abf257cefe1f2f0":[6,0,0,0,2,0,3],
 "structMR_1_1Box.html#aacbc2c9aca82714d27d007c9cc6aa696":[6,0,0,0,2,0,23],
 "structMR_1_1Box.html#aaf8c494ec86f9a6ef904299b78f1cc23":[6,0,0,0,2,0,30],
@@ -245,9 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1CubicBezierCurve.html#a6b83dc1d69f50bd387ec3bf5392c92c2":[6,0,2,0,1,146,0],
 "structMR_1_1CubicBezierCurve.html#a808273a91fc951f1b82faa9424e6451e":[6,0,1,0,1,162,2],
 "structMR_1_1CubicBezierCurve.html#a808273a91fc951f1b82faa9424e6451e":[6,0,2,0,1,146,2],
-"structMR_1_1CubicBezierCurve.html#a9a0577357dd243e6ec6075e03d6dcf8b":[6,0,1,0,1,162,1],
-"structMR_1_1CubicBezierCurve.html#a9a0577357dd243e6ec6075e03d6dcf8b":[6,0,2,0,1,146,1],
-"structMR_1_1CursorEntranceListener.html":[6,0,1,0,1,164],
-"structMR_1_1CursorEntranceListener.html":[6,0,2,0,1,148],
-"structMR_1_1CursorEntranceListener.html#a2d5c27d95f9984ab5220e7c158d41841":[6,0,1,0,1,164,1]
+"structMR_1_1CubicBezierCurve.html#a9a0577357dd243e6ec6075e03d6dcf8b":[6,0,1,0,1,162,1]
 };

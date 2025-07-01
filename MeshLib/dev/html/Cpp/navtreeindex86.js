@@ -1,5 +1,9 @@
 var NAVTREEINDEX86 =
 {
+"structMR_1_1SpacingSettings.html":[6,0,2,0,1,663],
+"structMR_1_1SpacingSettings.html#a49adf144c8f1f64aafce1e6927f03dc0":[6,0,1,0,1,679,0],
+"structMR_1_1SpacingSettings.html#a49adf144c8f1f64aafce1e6927f03dc0":[6,0,2,0,1,663,0],
+"structMR_1_1SpacingSettings.html#a5443622562ccec60fb967801e5c0ad46":[6,0,1,0,1,679,2],
 "structMR_1_1SpacingSettings.html#a5443622562ccec60fb967801e5c0ad46":[6,0,2,0,1,663,2],
 "structMR_1_1SpacingSettings.html#a612a52253b770197ad7b0ddea8224c14":[6,0,1,0,1,679,5],
 "structMR_1_1SpacingSettings.html#a612a52253b770197ad7b0ddea8224c14":[6,0,2,0,1,663,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX86 =
 "structMR_1_1ThreadRootTimeRecord.html#a5de581b2d12ca1b28b07d904c6bc000b":[6,0,0,3,14,5],
 "structMR_1_1ThreadRootTimeRecord.html#ab11d7cc5223e4f0ed8b6d247c3eb5f88":[6,0,0,3,14,6],
 "structMR_1_1ThreadRootTimeRecord.html#ab1a1265af16cac54bd16adf7e8c44c27":[6,0,0,3,14,2],
-"structMR_1_1ThreadRootTimeRecord.html#ae29d85986eb71cbb8e09862f174fee16":[6,0,0,3,14,7],
-"structMR_1_1ThreadRootTimeRecord.html#aeda7fbd28acbffe32fb39f0fd9098965":[6,0,0,3,14,3],
-"structMR_1_1ThreadRootTimeRecord.html#afcc5ed565036ccc1c8fb6062fe2b4405":[6,0,0,3,14,4],
-"structMR_1_1TiffParameters.html":[6,0,1,0,1,708],
-"structMR_1_1TiffParameters.html":[6,0,2,0,1,692]
+"structMR_1_1ThreadRootTimeRecord.html#ae29d85986eb71cbb8e09862f174fee16":[6,0,0,3,14,7]
 };

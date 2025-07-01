@@ -1,5 +1,9 @@
 var NAVTREEINDEX66 =
 {
+"structMRNoiseSettings.html#a794506b24ca7a1d5fe95a8f05ef44d82":[6,0,2,0,46,0],
+"structMRNoiseSettings.html#a85637a19167b434e5b5b7ad62009aab2":[6,0,2,0,46,2],
+"structMRObjId.html":[6,0,2,0,47],
+"structMRObjId.html#a26da559ee8e7f8fae7407215dee6db33":[6,0,2,0,47,0],
 "structMRObjVertId.html":[6,0,2,0,48],
 "structMRObjVertId.html#a724bfda98a1cbc88bb90004372d2b844":[6,0,2,0,48,0],
 "structMRObjVertId.html#acd5a62c78cf341d9ec230a2e075f2e28":[6,0,2,0,48,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1AncillaryPoints.html":[6,0,2,0,1,43],
 "structMR_1_1AncillaryPoints.html#a0cdf55740b5048f21da661679c6deddc":[6,0,1,0,1,59,5],
 "structMR_1_1AncillaryPoints.html#a0cdf55740b5048f21da661679c6deddc":[6,0,2,0,1,43,5],
-"structMR_1_1AncillaryPoints.html#a1053dde41fe1dfb09838cbc4f556f23b":[6,0,1,0,1,59,2],
-"structMR_1_1AncillaryPoints.html#a1053dde41fe1dfb09838cbc4f556f23b":[6,0,2,0,1,43,2],
-"structMR_1_1AncillaryPoints.html#a176b8c6b96297257540722e2127489d5":[6,0,1,0,1,59,7],
-"structMR_1_1AncillaryPoints.html#a176b8c6b96297257540722e2127489d5":[6,0,2,0,1,43,7],
-"structMR_1_1AncillaryPoints.html#a19619544546d28e1fe037cd4d39dfab5":[6,0,1,0,1,59,10]
+"structMR_1_1AncillaryPoints.html#a1053dde41fe1dfb09838cbc4f556f23b":[6,0,1,0,1,59,2]
 };

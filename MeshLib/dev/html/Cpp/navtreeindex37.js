@@ -1,5 +1,8 @@
 var NAVTREEINDEX37 =
 {
+"classMR_1_1QuadTextureVertexObject.html#a671aee1dfab68b7ee88a6c8453c18eb0":[6,0,2,0,1,537,0],
+"classMR_1_1QuadricApprox.html":[6,0,0,0,14],
+"classMR_1_1QuadricApprox.html#a0cea7a7005e02a997a52d3b6cb12c0e3":[6,0,0,0,14,2],
 "classMR_1_1QuadricApprox.html#a342756aa48e8673901de34a1d494a186":[6,0,0,0,14,1],
 "classMR_1_1QuadricApprox.html#ae270ffda4cb41173e3c68cdc4f52ad51":[6,0,0,0,14,0],
 "classMR_1_1RadiusMeasurementObject.html":[6,0,1,0,1,555],
@@ -246,8 +249,5 @@ var NAVTREEINDEX37 =
 "classMR_1_1RenderDimensions_1_1LengthTask.html#a51e67eb60266c370689d03ec27c8e963":[6,0,2,0,1,17,3,1],
 "classMR_1_1RenderDimensions_1_1LengthTask.html#a715a4d5b64d292694ce99d1961780697":[6,0,1,0,1,30,3,2],
 "classMR_1_1RenderDimensions_1_1LengthTask.html#a715a4d5b64d292694ce99d1961780697":[6,0,2,0,1,17,3,2],
-"classMR_1_1RenderDimensions_1_1RadiusTask.html":[6,0,1,0,1,30,5],
-"classMR_1_1RenderDimensions_1_1RadiusTask.html":[6,0,2,0,1,17,5],
-"classMR_1_1RenderDimensions_1_1RadiusTask.html#a30249fdc01e8ba2c00b5d79d76a11d65":[6,0,1,0,1,30,5,1],
-"classMR_1_1RenderDimensions_1_1RadiusTask.html#a30249fdc01e8ba2c00b5d79d76a11d65":[6,0,2,0,1,17,5,1]
+"classMR_1_1RenderDimensions_1_1RadiusTask.html":[6,0,1,0,1,30,5]
 };

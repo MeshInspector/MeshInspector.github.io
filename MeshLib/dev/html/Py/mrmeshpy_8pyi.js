@@ -1631,7 +1631,7 @@ var mrmeshpy_8pyi =
     [ "extractPlaneSections", "mrmeshpy_8pyi.html#ac045bbed791b84e9229603f4adf6ae51", null ],
     [ "extractSectionsFromPolyline", "mrmeshpy_8pyi.html#a95c8bf58f7c906c4cb3273c2d4b5407e", null ],
     [ "extractXYPlaneSections", "mrmeshpy_8pyi.html#aac979080009731142d826e511ecb342f", null ],
-    [ "faceMapsComposition", "mrmeshpy_8pyi.html#a64de5adb738b0e3547ddc95f5b75ff58", null ],
+    [ "faceMapsComposition", "mrmeshpy_8pyi.html#aa83cf9d03d34487151dcdc5d139544ba", null ],
     [ "fillContourLeft", "mrmeshpy_8pyi.html#aa95889504de64c0e87c1c6de7c93297f", null ],
     [ "fillContourLeft", "mrmeshpy_8pyi.html#aab12a4c16ddc49c6da4ea146de6369c6", null ],
     [ "fillContourLeftByGraphCut", "mrmeshpy_8pyi.html#aa94bde566c5344e9702e16e9d2aa312a", null ],

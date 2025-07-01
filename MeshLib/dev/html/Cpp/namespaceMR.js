@@ -986,6 +986,7 @@ var namespaceMR =
     [ "FacePair", "namespaceMR.html#aaa1b9cb8e04334b38aa70434301df035", null ],
     [ "FacePredicate", "namespaceMR.html#a2b15c0d875f91b8c0da03e651251832b", null ],
     [ "FaceTreeTraits3", "group__AABBTreeGroup.html#ga2d9f9e10f5365b971c9f7300264be632", null ],
+    [ "FastInt128", "namespaceMR.html#a626821a3551ab1b67dc553a092bd0a2f", null ],
     [ "FeaturesPropertyTypesVariant", "namespaceMR.html#a45cb1332fad43a5a921294d643411ba0", null ],
     [ "FileNamesStack", "namespaceMR.html#abf9e7451b5087b4485b6207161438dc3", null ],
     [ "FilesLoadedCallback", "namespaceMR.html#a17ccacdfeadccb79721c62567730f6cc", null ],

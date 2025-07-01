@@ -1,5 +1,8 @@
 var NAVTREEINDEX5 =
 {
+"MRMeshC_2MRBitSet_8h.html#aacf523ce8e3a4a4fab8b6c7096cb2c0b":[6,0,3,0,0,1,5,3,15],
+"MRMeshC_2MRBitSet_8h.html#abb94b9a152d94a7c591914f8ac90078b":[6,0,3,0,0,1,5,3,29],
+"MRMeshC_2MRBitSet_8h.html#abbf34cdc6271677492b92464bf8c04f9":[6,0,3,0,0,1,5,3,17],
 "MRMeshC_2MRBitSet_8h.html#ac72de3399902ca30827fcc386fe67adc":[6,0,3,0,0,1,5,3,6],
 "MRMeshC_2MRBitSet_8h.html#aec8b684bbb35f17091fbf9c3aabc8115":[6,0,3,0,0,1,5,3,10],
 "MRMeshC_2MRBitSet_8h.html#af0d8dafec0f5728ccfbcb918b371e302":[6,0,3,0,0,1,5,3,18],
@@ -246,8 +249,5 @@ var NAVTREEINDEX5 =
 "MRMeshC_2MRMatrix3_8h.html#aa8bc8adc10a50303a3f926de02dbd355":[6,0,3,0,0,1,5,24,1],
 "MRMeshC_2MRMatrix3_8h.html#add9facc1448d11a637e72a606526be0c":[6,0,3,0,0,1,5,24,3],
 "MRMeshC_2MRMatrix3_8h.html#af89caadb02e5bb1d32b94c92b7b104d5":[6,0,3,0,0,1,5,24,4],
-"MRMeshC_2MRMatrix3_8h_source.html":[6,0,3,0,0,1,5,24],
-"MRMeshC_2MRMeshBoolean_8h.html":[6,0,3,0,0,1,5,26],
-"MRMeshC_2MRMeshBoolean_8h.html#a0ae14a8082684553cf1e53fb60437e75":[6,0,3,0,0,1,5,26,5],
-"MRMeshC_2MRMeshBoolean_8h.html#a2ebe2ff1d5625d9dc0703716893bc21d":[6,0,3,0,0,1,5,26,3]
+"MRMeshC_2MRMatrix3_8h_source.html":[6,0,3,0,0,1,5,24]
 };

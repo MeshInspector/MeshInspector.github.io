@@ -1,5 +1,9 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1CubicBezierCurve.html#a9a0577357dd243e6ec6075e03d6dcf8b":[6,0,2,0,1,146,1],
+"structMR_1_1CursorEntranceListener.html":[6,0,1,0,1,164],
+"structMR_1_1CursorEntranceListener.html":[6,0,2,0,1,148],
+"structMR_1_1CursorEntranceListener.html#a2d5c27d95f9984ab5220e7c158d41841":[6,0,1,0,1,164,1],
 "structMR_1_1CursorEntranceListener.html#a2d5c27d95f9984ab5220e7c158d41841":[6,0,2,0,1,148,1],
 "structMR_1_1CursorEntranceListener.html#a2e6ad6df00a5718db8e060aec257534b":[6,0,1,0,1,164,3],
 "structMR_1_1CursorEntranceListener.html#a2e6ad6df00a5718db8e060aec257534b":[6,0,2,0,1,148,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1DistanceVolumeParams.html#a1cb9a2d437a8280082f79d22a1fd1ab4":[6,0,1,0,1,197,3],
 "structMR_1_1DistanceVolumeParams.html#a1cb9a2d437a8280082f79d22a1fd1ab4":[6,0,2,0,1,181,3],
 "structMR_1_1DistanceVolumeParams.html#a57f0f5741fc414817c5c20a26970ec30":[6,0,1,0,1,197,2],
-"structMR_1_1DistanceVolumeParams.html#a57f0f5741fc414817c5c20a26970ec30":[6,0,2,0,1,181,2],
-"structMR_1_1DistanceVolumeParams.html#a920081c5dce988d2f087b470ea72803a":[6,0,1,0,1,197,0],
-"structMR_1_1DistanceVolumeParams.html#a920081c5dce988d2f087b470ea72803a":[6,0,2,0,1,181,0],
-"structMR_1_1DistanceVolumeParams.html#ade7c79fd5b25f3a928fa747f8e6d61d2":[6,0,1,0,1,197,1],
-"structMR_1_1DistanceVolumeParams.html#ade7c79fd5b25f3a928fa747f8e6d61d2":[6,0,2,0,1,181,1]
+"structMR_1_1DistanceVolumeParams.html#a57f0f5741fc414817c5c20a26970ec30":[6,0,2,0,1,181,2]
 };
