@@ -228,6 +228,8 @@ var annotated_dup =
       [ "EdgeTri", "classmrmeshpy_1_1EdgeTri.html", "classmrmeshpy_1_1EdgeTri" ],
       [ "EdgeWeights", "classmrmeshpy_1_1EdgeWeights.html", "classmrmeshpy_1_1EdgeWeights" ],
       [ "EmbeddedStructureParameters", "classmrmeshpy_1_1EmbeddedStructureParameters.html", "classmrmeshpy_1_1EmbeddedStructureParameters" ],
+      [ "EndMillCutter", "classmrmeshpy_1_1EndMillCutter.html", "classmrmeshpy_1_1EndMillCutter" ],
+      [ "EndMillTool", "classmrmeshpy_1_1EndMillTool.html", "classmrmeshpy_1_1EndMillTool" ],
       [ "EnumNeihbourFaces", "classmrmeshpy_1_1EnumNeihbourFaces.html", "classmrmeshpy_1_1EnumNeihbourFaces" ],
       [ "EnumNeihbourVertices", "classmrmeshpy_1_1EnumNeihbourVertices.html", "classmrmeshpy_1_1EnumNeihbourVertices" ],
       [ "expected_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid_std_string", "classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__shared__ptr__OpenVdbFloatGrid__std__string.html", "classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__shared__ptr__OpenVdbFloatGrid__std__string" ],

@@ -1,5 +1,11 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1ChangeObjectAction.html":[6,0,0,4,12],
+"classMR_1_1ChangeObjectAction.html#a1fb57757d3858115a5eb58acce570d82":[6,0,0,4,12,0],
+"classMR_1_1ChangeObjectAction.html#a657dce770efd0cbe3235515223438b7f":[6,0,0,4,12,3],
+"classMR_1_1ChangeObjectAction.html#a74d98addc33191161e4cf6b9adaa55f2":[6,0,0,4,12,2],
+"classMR_1_1ChangeObjectAction.html#abae57c93f1aaa324cd73f0dd5a678718":[6,0,0,4,12,1],
+"classMR_1_1ChangeObjectColorAction.html":[6,0,0,4,0],
 "classMR_1_1ChangeObjectColorAction.html#a0a70aa0463c05950aea6686ecc817d30":[6,0,0,4,0,2],
 "classMR_1_1ChangeObjectColorAction.html#a5474abe2fe0d35caaf558c71cb6847d3":[6,0,0,4,0,0],
 "classMR_1_1ChangeObjectColorAction.html#a8b2119cba575337b8ff6ef6ed838ddad":[6,0,0,4,0,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a2403adc78e8c55b12b417c627bb19162":[6,0,1,0,1,143,1,56],
 "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a2403adc78e8c55b12b417c627bb19162":[6,0,2,0,1,127,1,56],
 "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a2d838f579eb9b302faa00ef4fbc90172":[6,0,1,0,1,143,1,4],
-"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a2d838f579eb9b302faa00ef4fbc90172":[6,0,2,0,1,127,1,4],
-"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a2db2d120c28ce02f3ae09cb46ab142be":[6,0,1,0,1,143,1,43],
-"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a2db2d120c28ce02f3ae09cb46ab142be":[6,0,2,0,1,127,1,43],
-"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a2dfef339aeaa577faf0d49879bc040d2":[6,0,1,0,1,143,1,2],
-"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a2dfef339aeaa577faf0d49879bc040d2":[6,0,2,0,1,127,1,2],
-"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a34b6901b18dad551befcf60407ff1509":[6,0,1,0,1,143,1,9],
-"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a34b6901b18dad551befcf60407ff1509":[6,0,2,0,1,127,1,9]
+"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a2d838f579eb9b302faa00ef4fbc90172":[6,0,2,0,1,127,1,4]
 };

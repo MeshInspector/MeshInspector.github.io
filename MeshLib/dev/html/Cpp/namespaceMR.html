@@ -676,6 +676,12 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1EmbeddedStructureParameters.html">EmbeddedStructureParameters</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1EndMillCutter.html">EndMillCutter</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">end mill cutter specifications  <a href="structMR_1_1EndMillCutter.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1EndMillTool.html">EndMillTool</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">end mill tool specifications  <a href="structMR_1_1EndMillTool.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1EnumNeihbourFaces.html">EnumNeihbourFaces</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1EnumNeihbourVertices.html">EnumNeihbourVertices</a></td></tr>
@@ -3566,6 +3572,14 @@ Functions</h2></td></tr>
 <tr class="separator:a1c0d3c449b52a98c85522a1aa06c1e88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9e70548933ddf1b51d7e9a33a5b056a" id="r_ad9e70548933ddf1b51d7e9a33a5b056a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9e70548933ddf1b51d7e9a33a5b056a">embedStructureToTerrain</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;terrain, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;structure, const <a class="el" href="structMR_1_1EmbeddedStructureParameters.html">EmbeddedStructureParameters</a> &amp;params)</td></tr>
 <tr class="separator:ad9e70548933ddf1b51d7e9a33a5b056a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62cbf37180f317f1f9be285d1df921fe" id="r_a62cbf37180f317f1f9be285d1df921fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62cbf37180f317f1f9be285d1df921fe">serializeToJson</a> (const <a class="el" href="structMR_1_1EndMillCutter.html">EndMillCutter</a> &amp;cutter, Json::Value &amp;root)</td></tr>
+<tr class="separator:a62cbf37180f317f1f9be285d1df921fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab789d1e9d08bc1c7e2cf43e2abdf7d60" id="r_ab789d1e9d08bc1c7e2cf43e2abdf7d60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab789d1e9d08bc1c7e2cf43e2abdf7d60">serializeToJson</a> (const <a class="el" href="structMR_1_1EndMillTool.html">EndMillTool</a> &amp;tool, Json::Value &amp;root)</td></tr>
+<tr class="separator:ab789d1e9d08bc1c7e2cf43e2abdf7d60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd0255930f486d88a3adb40805670ded" id="r_afd0255930f486d88a3adb40805670ded"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd0255930f486d88a3adb40805670ded">deserializeFromJson</a> (const Json::Value &amp;root, <a class="el" href="structMR_1_1EndMillCutter.html">EndMillCutter</a> &amp;cutter)</td></tr>
+<tr class="separator:afd0255930f486d88a3adb40805670ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a395d952734ccc7bc446984ec9e89a2b2" id="r_a395d952734ccc7bc446984ec9e89a2b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a395d952734ccc7bc446984ec9e89a2b2">deserializeFromJson</a> (const Json::Value &amp;root, <a class="el" href="structMR_1_1EndMillTool.html">EndMillTool</a> &amp;tool)</td></tr>
+<tr class="separator:a395d952734ccc7bc446984ec9e89a2b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94117671036cf6c2bf6bc33547519d1a" id="r_a94117671036cf6c2bf6bc33547519d1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94117671036cf6c2bf6bc33547519d1a">computeSpaceDistances</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1PointOnFace.html">PointOnFace</a> &amp;start, float range)</td></tr>
 <tr class="separator:a94117671036cf6c2bf6bc33547519d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad803f39e74d5d4e2388cd7b981d606da" id="r_ad803f39e74d5d4e2388cd7b981d606da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad803f39e74d5d4e2388cd7b981d606da">findNeighborVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1PointOnFace.html">PointOnFace</a> &amp;start, float rangeSq)</td></tr>
@@ -15369,6 +15383,48 @@ template&lt;typename R , typename E , typename... Args&gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="afd0255930f486d88a3adb40805670ded" name="afd0255930f486d88a3adb40805670ded"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd0255930f486d88a3adb40805670ded">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::deserializeFromJson </td>
+          <td>(</td>
+          <td class="paramtype">const Json::Value &amp;</td>          <td class="paramname"><span class="paramname"><em>root</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1EndMillCutter.html">EndMillCutter</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cutter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a395d952734ccc7bc446984ec9e89a2b2" name="a395d952734ccc7bc446984ec9e89a2b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a395d952734ccc7bc446984ec9e89a2b2">&#9670;&#160;</a></span>deserializeFromJson() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::deserializeFromJson </td>
+          <td>(</td>
+          <td class="paramtype">const Json::Value &amp;</td>          <td class="paramname"><span class="paramname"><em>root</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1EndMillTool.html">EndMillTool</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tool</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -36077,6 +36133,48 @@ template&lt;typename ObjectT , bool visualRepresentationCheck, bool modelCheck&g
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a62cbf37180f317f1f9be285d1df921fe" name="a62cbf37180f317f1f9be285d1df921fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62cbf37180f317f1f9be285d1df921fe">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::serializeToJson </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1EndMillCutter.html">EndMillCutter</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cutter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Json::Value &amp;</td>          <td class="paramname"><span class="paramname"><em>root</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab789d1e9d08bc1c7e2cf43e2abdf7d60" name="ab789d1e9d08bc1c7e2cf43e2abdf7d60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab789d1e9d08bc1c7e2cf43e2abdf7d60">&#9670;&#160;</a></span>serializeToJson() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::serializeToJson </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1EndMillTool.html">EndMillTool</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tool</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Json::Value &amp;</td>          <td class="paramname"><span class="paramname"><em>root</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

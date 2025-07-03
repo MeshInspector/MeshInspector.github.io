@@ -336,6 +336,8 @@ var hierarchy =
     [ "MR::EmbeddedPython", "classMR_1_1EmbeddedPython.html", null ],
     [ "MR::EmbeddedStructureParameters", "structMR_1_1EmbeddedStructureParameters.html", null ],
     [ "MR::detail::Units::Empty", "structMR_1_1detail_1_1Units_1_1Empty.html", null ],
+    [ "MR::EndMillCutter", "structMR_1_1EndMillCutter.html", null ],
+    [ "MR::EndMillTool", "structMR_1_1EndMillTool.html", null ],
     [ "MR::Graph::EndVertices", "structMR_1_1Graph_1_1EndVertices.html", null ],
     [ "MR::UI::TestEngine::Entry", "structMR_1_1UI_1_1TestEngine_1_1Entry.html", null ],
     [ "MR::EnumNeihbourFaces", "classMR_1_1EnumNeihbourFaces.html", null ],

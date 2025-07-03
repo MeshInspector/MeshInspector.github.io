@@ -38,7 +38,7 @@ var searchData=
   ['dialogiscollapsed_5f_35',['dialogIsCollapsed_',['.././Cpp/classMR_1_1StateBasePlugin.html#a55b362aee5989fe359aadd33c9be78b4',1,'MR::StateBasePlugin']]],
   ['dialogisopen_5f_36',['dialogIsOpen_',['.././Cpp/classMR_1_1StateBasePlugin.html#a1d97f71a0f325fbe29b0bbec3e564204',1,'MR::StateBasePlugin']]],
   ['dialogpositionfixed_37',['dialogPositionFixed',['.././Cpp/structMR_1_1RibbonMenu_1_1DialogItemPtr.html#a81cacb5c7aa2d35d0b873c9a48145777',1,'MR::RibbonMenu::DialogItemPtr']]],
-  ['diameter_38',['diameter',['.././Py/classmrmeshpy_1_1DimensionsVisualizePropertyType.html#af6dd36ed09cbca16a9fa352144f6fda0',1,'mrmeshpy::DimensionsVisualizePropertyType']]],
+  ['diameter_38',['diameter',['.././Py/classmrmeshpy_1_1DimensionsVisualizePropertyType.html#af6dd36ed09cbca16a9fa352144f6fda0',1,'mrmeshpy::DimensionsVisualizePropertyType::diameter'],['.././Cpp/structMR_1_1EndMillTool.html#ad8f4a7587862e0863fa16e3bc9763cda',1,'MR::EndMillTool::diameter']]],
   ['differenceab_39',['DifferenceAB',['.././Py/classmrmeshpy_1_1BooleanOperation.html#a2b31551b0637c26c561bddebbcf6baa8',1,'mrmeshpy::BooleanOperation']]],
   ['differenceba_40',['DifferenceBA',['.././Py/classmrmeshpy_1_1BooleanOperation.html#a955253a8b2f0da400fb45b3e874bef74',1,'mrmeshpy::BooleanOperation']]],
   ['diffusecolor_41',['diffuseColor',['.././Cpp/group__MeshLoadObjGroup.html#ga24c0d1fb11f0d559f180bff7fc3fc188',1,'MR::MeshLoad::NamedMesh']]],

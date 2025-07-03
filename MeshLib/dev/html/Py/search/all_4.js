@@ -21,7 +21,7 @@ var searchData=
   ['badregion_5f_18',['badRegion_',['../../Cpp/classMR_1_1SurfaceManipulationWidget.html#ab29aa143377b68d247fab12b0da55a6a',1,'MR::SurfaceManipulationWidget']]],
   ['badrelativelocation_19',['badRelativeLocation',['../classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status.html#a2b474ba260354cbebc262e87be0529a8',1,'mrmeshpy::Features::MeasureResult::Status']]],
   ['badtriangulationmetric_20',['BadTriangulationMetric',['../../Cpp/group__FillHoleGroup.html#gac632bf42924389cba000b725ef53d7bc',1,'MR::BadTriangulationMetric'],['../../Cpp/group__FillHoleGroup.html#gac632bf42924389cba000b725ef53d7bc',1,'MR::BadTriangulationMetric']]],
-  ['ball_21',['Ball',['../../Cpp/structMR_1_1Ball.html',1,'MR']]],
+  ['ball_21',['Ball',['../../Cpp/structMR_1_1Ball.html',1,'MR::Ball&lt; typename V &gt;'],['../classmrmeshpy_1_1EndMillCutter_1_1Type.html#ad6825112edb34215e410189d9ae7a77b',1,'mrmeshpy.EndMillCutter.Type.Ball']]],
   ['ball1d_22',['Ball1d',['../classmrmeshpy_1_1Ball1d.html',1,'mrmeshpy']]],
   ['ball1f_23',['Ball1f',['../classmrmeshpy_1_1Ball1f.html',1,'mrmeshpy']]],
   ['ball2_24',['Ball2',['../../Cpp/namespaceMR.html#a576c35058503c0c22a7d4e8846efd1b6',1,'MR']]],

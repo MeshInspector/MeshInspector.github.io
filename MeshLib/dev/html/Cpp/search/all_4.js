@@ -22,7 +22,7 @@ var searchData=
   ['badregion_5f_19',['badRegion_',['../classMR_1_1SurfaceManipulationWidget.html#ab29aa143377b68d247fab12b0da55a6a',1,'MR::SurfaceManipulationWidget']]],
   ['badrelativelocation_20',['badRelativeLocation',['../../Py/classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status.html#a2b474ba260354cbebc262e87be0529a8',1,'mrmeshpy::Features::MeasureResult::Status::badRelativeLocation'],['../structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7ea485094d05ff3ed356932b126a20864e2',1,'MR::Features::MeasureResult::badRelativeLocation']]],
   ['badtriangulationmetric_21',['BadTriangulationMetric',['../group__FillHoleGroup.html#gac632bf42924389cba000b725ef53d7bc',1,'MR']]],
-  ['ball_22',['Ball',['../structMR_1_1Ball.html',1,'MR']]],
+  ['ball_22',['Ball',['../structMR_1_1Ball.html',1,'MR::Ball&lt; V &gt;'],['../../Py/classmrmeshpy_1_1EndMillCutter_1_1Type.html#ad6825112edb34215e410189d9ae7a77b',1,'mrmeshpy::EndMillCutter::Type::Ball'],['../structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518a353df421c4fc976e2637061d7a83f601',1,'MR::EndMillCutter::Ball']]],
   ['ball1d_23',['Ball1d',['../../Py/classmrmeshpy_1_1Ball1d.html',1,'mrmeshpy']]],
   ['ball1f_24',['Ball1f',['../../Py/classmrmeshpy_1_1Ball1f.html',1,'mrmeshpy']]],
   ['ball2_25',['Ball2',['../namespaceMR.html#a576c35058503c0c22a7d4e8846efd1b6',1,'MR']]],

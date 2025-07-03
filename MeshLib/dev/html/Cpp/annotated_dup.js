@@ -389,6 +389,8 @@ var annotated_dup =
       [ "EdgeTri", "structMR_1_1EdgeTri.html", "structMR_1_1EdgeTri" ],
       [ "EmbeddedPython", "classMR_1_1EmbeddedPython.html", "classMR_1_1EmbeddedPython" ],
       [ "EmbeddedStructureParameters", "structMR_1_1EmbeddedStructureParameters.html", "structMR_1_1EmbeddedStructureParameters" ],
+      [ "EndMillCutter", "structMR_1_1EndMillCutter.html", "structMR_1_1EndMillCutter" ],
+      [ "EndMillTool", "structMR_1_1EndMillTool.html", "structMR_1_1EndMillTool" ],
       [ "EnumNeihbourFaces", "classMR_1_1EnumNeihbourFaces.html", "classMR_1_1EnumNeihbourFaces" ],
       [ "EnumNeihbourVertices", "classMR_1_1EnumNeihbourVertices.html", "classMR_1_1EnumNeihbourVertices" ],
       [ "FaceDistancesSettings", "structMR_1_1FaceDistancesSettings.html", "structMR_1_1FaceDistancesSettings" ],

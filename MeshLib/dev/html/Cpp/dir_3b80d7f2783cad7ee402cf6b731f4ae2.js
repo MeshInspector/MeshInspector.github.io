@@ -97,6 +97,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MREdgePathsBuilder.h", "MREdgePathsBuilder_8h.html", "MREdgePathsBuilder_8h" ],
     [ "MREdgePoint.h", "MREdgePoint_8h.html", "MREdgePoint_8h" ],
     [ "MREmbedTerrainStructure.h", "MREmbedTerrainStructure_8h.html", "MREmbedTerrainStructure_8h" ],
+    [ "MREndMill.h", "MREndMill_8h.html", "MREndMill_8h" ],
     [ "MREnumNeighbours.h", "MREnumNeighbours_8h.html", "MREnumNeighbours_8h" ],
     [ "MREnums.h", "MREnums_8h.html", "MREnums_8h" ],
     [ "MRExpandShrink.h", "MRMesh_2MRExpandShrink_8h.html", "MRMesh_2MRExpandShrink_8h" ],
