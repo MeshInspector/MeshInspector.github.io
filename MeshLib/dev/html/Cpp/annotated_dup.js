@@ -852,6 +852,7 @@ var annotated_dup =
       [ "SpaceMouseParameters", "structMR_1_1SpaceMouseParameters.html", "structMR_1_1SpaceMouseParameters" ],
       [ "SpaceMouseUpListener", "structMR_1_1SpaceMouseUpListener.html", "structMR_1_1SpaceMouseUpListener" ],
       [ "SpacingSettings", "structMR_1_1SpacingSettings.html", "structMR_1_1SpacingSettings" ],
+      [ "SparsePolynomial", "classMR_1_1SparsePolynomial.html", "classMR_1_1SparsePolynomial" ],
       [ "Sphere", "structMR_1_1Sphere.html", "structMR_1_1Sphere" ],
       [ "SphereObject", "classMR_1_1SphereObject.html", "classMR_1_1SphereObject" ],
       [ "SphereParams", "structMR_1_1SphereParams.html", "structMR_1_1SphereParams" ],

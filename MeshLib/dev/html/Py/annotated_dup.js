@@ -796,6 +796,7 @@ var annotated_dup =
       [ "std_array_int_4", "classmrmeshpy_1_1std__array__int__4.html", "classmrmeshpy_1_1std__array__int__4" ],
       [ "std_array_PreciseVertCoords2_3", "classmrmeshpy_1_1std__array__PreciseVertCoords2__3.html", "classmrmeshpy_1_1std__array__PreciseVertCoords2__3" ],
       [ "std_array_PreciseVertCoords2_4", "classmrmeshpy_1_1std__array__PreciseVertCoords2__4.html", "classmrmeshpy_1_1std__array__PreciseVertCoords2__4" ],
+      [ "std_array_PreciseVertCoords2_6", "classmrmeshpy_1_1std__array__PreciseVertCoords2__6.html", "classmrmeshpy_1_1std__array__PreciseVertCoords2__6" ],
       [ "std_array_PreciseVertCoords_4", "classmrmeshpy_1_1std__array__PreciseVertCoords__4.html", "classmrmeshpy_1_1std__array__PreciseVertCoords__4" ],
       [ "std_array_PreciseVertCoords_5", "classmrmeshpy_1_1std__array__PreciseVertCoords__5.html", "classmrmeshpy_1_1std__array__PreciseVertCoords__5" ],
       [ "std_array_std_filesystem_path_4", "classmrmeshpy_1_1std__array__std__filesystem__path__4.html", "classmrmeshpy_1_1std__array__std__filesystem__path__4" ],

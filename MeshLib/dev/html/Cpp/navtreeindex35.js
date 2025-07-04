@@ -1,5 +1,9 @@
 var NAVTREEINDEX35 =
 {
+"classMR_1_1OutliersDetector.html#a1154a1b3f20843accd3192e14c23769a":[6,0,1,0,1,478,4],
+"classMR_1_1OutliersDetector.html#a1154a1b3f20843accd3192e14c23769a":[6,0,2,0,1,462,4],
+"classMR_1_1OutliersDetector.html#a1df5e62392b1ff49fe78e24b80ec1694":[6,0,1,0,1,478,2],
+"classMR_1_1OutliersDetector.html#a1df5e62392b1ff49fe78e24b80ec1694":[6,0,2,0,1,462,2],
 "classMR_1_1OutliersDetector.html#a6becc4c4034355314a33f130bcba2799":[6,0,1,0,1,478,0],
 "classMR_1_1OutliersDetector.html#a6becc4c4034355314a33f130bcba2799":[6,0,2,0,1,462,0],
 "classMR_1_1OutliersDetector.html#ab7b1de4b899eec78ae6014c69084741f":[6,0,1,0,1,478,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX35 =
 "classMR_1_1PlaneWidget.html#ade4245fe1a8605fb5f9b563ea03d5f71":[6,0,2,0,1,480,0],
 "classMR_1_1PlaneWidget.html#adf199dcf2c914f0c5584c3703355e7ae":[6,0,1,0,1,496,9],
 "classMR_1_1PlaneWidget.html#adf199dcf2c914f0c5584c3703355e7ae":[6,0,2,0,1,480,9],
-"classMR_1_1PlaneWidget.html#adf904937d1dcfe1bd338c31cd4e45a2d":[6,0,1,0,1,496,6],
-"classMR_1_1PlaneWidget.html#adf904937d1dcfe1bd338c31cd4e45a2d":[6,0,2,0,1,480,6],
-"classMR_1_1PluginCloseOnChangeMesh.html":[6,0,1,0,1,497],
-"classMR_1_1PluginCloseOnChangeMesh.html":[6,0,2,0,1,481],
-"classMR_1_1PluginCloseOnChangeMesh.html#a2e05f59d67c502229f3a2a2e919886fc":[6,0,1,0,1,497,1]
+"classMR_1_1PlaneWidget.html#adf904937d1dcfe1bd338c31cd4e45a2d":[6,0,1,0,1,496,6]
 };

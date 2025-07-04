@@ -1,0 +1,435 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C++ Docs: MR::SparsePolynomial&lt; C, D &gt; Class Template Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C++ Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classMR_1_1SparsePolynomial.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#friends">Friends</a> &#124;
+<a href="classMR_1_1SparsePolynomial-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">MR::SparsePolynomial&lt; C, D &gt; Class Template Reference</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="MRSparsePolynomial_8h_source.html">MRSparsePolynomial.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a7dd8edd2f9a7518224a78547a3e54bb7" id="r_a7dd8edd2f9a7518224a78547a3e54bb7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7dd8edd2f9a7518224a78547a3e54bb7">SparsePolynomial</a> ()=default</td></tr>
+<tr class="memdesc:a7dd8edd2f9a7518224a78547a3e54bb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs zero polynomial  <br /></td></tr>
+<tr class="separator:a7dd8edd2f9a7518224a78547a3e54bb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec2d0892e9bc56883e4fecbb85760b5c" id="r_aec2d0892e9bc56883e4fecbb85760b5c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec2d0892e9bc56883e4fecbb85760b5c">SparsePolynomial</a> (std::map&lt; D, C &gt; &amp;&amp;)</td></tr>
+<tr class="memdesc:aec2d0892e9bc56883e4fecbb85760b5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">takes existing coefficients in ownership  <br /></td></tr>
+<tr class="separator:aec2d0892e9bc56883e4fecbb85760b5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adda939a981d9cc2771fd6f118e78c815" id="r_adda939a981d9cc2771fd6f118e78c815"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adda939a981d9cc2771fd6f118e78c815">SparsePolynomial</a> (C c0, D d1, C c1)</td></tr>
+<tr class="memdesc:adda939a981d9cc2771fd6f118e78c815"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs polynomial c0 + c1*x^d1  <br /></td></tr>
+<tr class="separator:adda939a981d9cc2771fd6f118e78c815"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70b0e99bae7e830d61cc93a68aac6f06" id="r_a70b0e99bae7e830d61cc93a68aac6f06"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70b0e99bae7e830d61cc93a68aac6f06">SparsePolynomial</a> (C c0, D d1, C c1, D d2, C c2)</td></tr>
+<tr class="memdesc:a70b0e99bae7e830d61cc93a68aac6f06"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs polynomial c0 + c1*x^d1 + c2*x^d2  <br /></td></tr>
+<tr class="separator:a70b0e99bae7e830d61cc93a68aac6f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdd6386e7ce0b459bf620f1243939470" id="r_acdd6386e7ce0b459bf620f1243939470"><td class="memItemLeft" align="right" valign="top">const std::map&lt; D, C &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdd6386e7ce0b459bf620f1243939470">get</a> () const</td></tr>
+<tr class="memdesc:acdd6386e7ce0b459bf620f1243939470"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets read-only access to all not-zero coefficients  <br /></td></tr>
+<tr class="separator:acdd6386e7ce0b459bf620f1243939470"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d24a93387748ce48dac1d618ab60c69" id="r_a6d24a93387748ce48dac1d618ab60c69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d24a93387748ce48dac1d618ab60c69">operator+=</a> (const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a> &amp;b)</td></tr>
+<tr class="separator:a6d24a93387748ce48dac1d618ab60c69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d47542ad2a88c02a03538eeea1a31e4" id="r_a1d47542ad2a88c02a03538eeea1a31e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d47542ad2a88c02a03538eeea1a31e4">operator-=</a> (const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a> &amp;b)</td></tr>
+<tr class="separator:a1d47542ad2a88c02a03538eeea1a31e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:ae7d77a6dff850c8e2a355bbebaf3e011" id="r_ae7d77a6dff850c8e2a355bbebaf3e011"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7d77a6dff850c8e2a355bbebaf3e011">operator*</a> (const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a> &amp;a, const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a> &amp;b)</td></tr>
+<tr class="separator:ae7d77a6dff850c8e2a355bbebaf3e011"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename C, typename D = int&gt;<br />
+class MR::SparsePolynomial&lt; C, D &gt;</div><p>The class to store a polynomial with a large number of zero coefficient (only non-zeros are stored in std::map) </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">C</td><td>- type of coefficients </td></tr>
+    <tr><td class="paramname">D</td><td>- type of degrees </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a7dd8edd2f9a7518224a78547a3e54bb7" name="a7dd8edd2f9a7518224a78547a3e54bb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dd8edd2f9a7518224a78547a3e54bb7">&#9670;&#160;</a></span>SparsePolynomial() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename C , typename D  = int&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1SparsePolynomial.html">MR::SparsePolynomial</a>&lt; C, D &gt;::SparsePolynomial </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>constructs zero polynomial </p>
+
+</div>
+</div>
+<a id="aec2d0892e9bc56883e4fecbb85760b5c" name="aec2d0892e9bc56883e4fecbb85760b5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec2d0892e9bc56883e4fecbb85760b5c">&#9670;&#160;</a></span>SparsePolynomial() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename C , typename D &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1SparsePolynomial.html">MR::SparsePolynomial</a>&lt; C, D &gt;::SparsePolynomial </td>
+          <td>(</td>
+          <td class="paramtype">std::map&lt; D, C &gt; &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>m</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>takes existing coefficients in ownership </p>
+
+</div>
+</div>
+<a id="adda939a981d9cc2771fd6f118e78c815" name="adda939a981d9cc2771fd6f118e78c815"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adda939a981d9cc2771fd6f118e78c815">&#9670;&#160;</a></span>SparsePolynomial() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename C , typename D &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1SparsePolynomial.html">MR::SparsePolynomial</a>&lt; C, D &gt;::SparsePolynomial </td>
+          <td>(</td>
+          <td class="paramtype">C</td>          <td class="paramname"><span class="paramname"><em>c0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">D</td>          <td class="paramname"><span class="paramname"><em>d1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">C</td>          <td class="paramname"><span class="paramname"><em>c1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>constructs polynomial c0 + c1*x^d1 </p>
+
+</div>
+</div>
+<a id="a70b0e99bae7e830d61cc93a68aac6f06" name="a70b0e99bae7e830d61cc93a68aac6f06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70b0e99bae7e830d61cc93a68aac6f06">&#9670;&#160;</a></span>SparsePolynomial() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename C , typename D &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1SparsePolynomial.html">MR::SparsePolynomial</a>&lt; C, D &gt;::SparsePolynomial </td>
+          <td>(</td>
+          <td class="paramtype">C</td>          <td class="paramname"><span class="paramname"><em>c0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">D</td>          <td class="paramname"><span class="paramname"><em>d1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">C</td>          <td class="paramname"><span class="paramname"><em>c1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">D</td>          <td class="paramname"><span class="paramname"><em>d2</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">C</td>          <td class="paramname"><span class="paramname"><em>c2</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>constructs polynomial c0 + c1*x^d1 + c2*x^d2 </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="acdd6386e7ce0b459bf620f1243939470" name="acdd6386e7ce0b459bf620f1243939470"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdd6386e7ce0b459bf620f1243939470">&#9670;&#160;</a></span>get()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename C , typename D  = int&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::map&lt; D, C &gt; &amp; <a class="el" href="classMR_1_1SparsePolynomial.html">MR::SparsePolynomial</a>&lt; C, D &gt;::get </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>gets read-only access to all not-zero coefficients </p>
+
+</div>
+</div>
+<a id="a6d24a93387748ce48dac1d618ab60c69" name="a6d24a93387748ce48dac1d618ab60c69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d24a93387748ce48dac1d618ab60c69">&#9670;&#160;</a></span>operator+=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename C , typename D &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D &gt; &amp; <a class="el" href="classMR_1_1SparsePolynomial.html">MR::SparsePolynomial</a>&lt; C, D &gt;::operator+= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1d47542ad2a88c02a03538eeea1a31e4" name="a1d47542ad2a88c02a03538eeea1a31e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d47542ad2a88c02a03538eeea1a31e4">&#9670;&#160;</a></span>operator-=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename C , typename D &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D &gt; &amp; <a class="el" href="classMR_1_1SparsePolynomial.html">MR::SparsePolynomial</a>&lt; C, D &gt;::operator-= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Symbol Documentation</h2>
+<a id="ae7d77a6dff850c8e2a355bbebaf3e011" name="ae7d77a6dff850c8e2a355bbebaf3e011"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7d77a6dff850c8e2a355bbebaf3e011">&#9670;&#160;</a></span>operator*</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename C , typename D  = int&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a> operator* </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="MRSparsePolynomial_8h_source.html">MRSparsePolynomial.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

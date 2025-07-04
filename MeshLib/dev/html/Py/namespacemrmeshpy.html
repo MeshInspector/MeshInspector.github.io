@@ -1739,6 +1739,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1std__array__PreciseVertCoords2__4.html">std_array_PreciseVertCoords2_4</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1std__array__PreciseVertCoords2__6.html">std_array_PreciseVertCoords2_6</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1std__array__PreciseVertCoords__4.html">std_array_PreciseVertCoords_4</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1std__array__PreciseVertCoords__5.html">std_array_PreciseVertCoords_5</a></td></tr>
@@ -4550,6 +4552,8 @@ Functions</h2></td></tr>
 <tr class="separator:a4fee4967b22ae7179b5411cfce17f783"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ffb4ee1c50f0cbe72bc01b8d0b885c2" id="r_a9ffb4ee1c50f0cbe72bc01b8d0b885c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ffb4ee1c50f0cbe72bc01b8d0b885c2">segmentByGraphCut</a> (<a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> source, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> sink, <a class="el" href="classmrmeshpy_1_1func__float__from__Id__EdgeTag.html">func_float_from_Id_EdgeTag</a> metric)</td></tr>
 <tr class="separator:a9ffb4ee1c50f0cbe72bc01b8d0b885c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85dfe702eddd07723e2dba67e2bfc0ef" id="r_a85dfe702eddd07723e2dba67e2bfc0ef"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85dfe702eddd07723e2dba67e2bfc0ef">segmentIntersectionOrder</a> (<a class="el" href="classmrmeshpy_1_1std__array__PreciseVertCoords2__6.html">std_array_PreciseVertCoords2_6</a> vs)</td></tr>
+<tr class="separator:a85dfe702eddd07723e2dba67e2bfc0ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd6cb28284360fd2cd8047e66f53eaab" id="r_abd6cb28284360fd2cd8047e66f53eaab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd6cb28284360fd2cd8047e66f53eaab">segmentVolume</a> (<a class="el" href="classmrmeshpy_1_1VdbVolume.html">VdbVolume</a> <a class="el" href="#ac48a56ece148639e5c153ef52b3038b7">volume</a>, <a class="el" href="classmrmeshpy_1_1std__vector__std__pair__Vector3__float__Vector3__float.html">std_vector_std_pair_Vector3_float_Vector3_float</a> pairs, <a class="el" href="classmrmeshpy_1_1VolumeSegmentationParameters.html">VolumeSegmentationParameters</a> params='<a class="elRef" href="../Cpp/structMR_1_1VolumeSegmentationParameters.html">MR::VolumeSegmentationParameters</a>()')</td></tr>
 <tr class="separator:abd6cb28284360fd2cd8047e66f53eaab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e1799af7c865683af6de3e4e7c241b8" id="r_a7e1799af7c865683af6de3e4e7c241b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VoxelBitSet.html">VoxelBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e1799af7c865683af6de3e4e7c241b8">segmentVolumeByGraphCut</a> (<a class="el" href="classmrmeshpy_1_1SimpleVolume.html">SimpleVolume</a> densityVolume, float k, <a class="el" href="classmrmeshpy_1_1VoxelBitSet.html">VoxelBitSet</a> sourceSeeds, <a class="el" href="classmrmeshpy_1_1VoxelBitSet.html">VoxelBitSet</a> sinkSeeds, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='{}')</td></tr>
@@ -33521,6 +33525,26 @@ invalid (infinity): 0.0 (black)
 </div><div class="memdoc">
 <pre class="fragment"> \\brief Finds segment that divide mesh on source and sink (source included, sink excluded), by minimizing the sum of metric over the boundary
  \\ingroup MeshSegmentationGroup
+</pre> 
+</div>
+</div>
+<a id="a85dfe702eddd07723e2dba67e2bfc0ef" name="a85dfe702eddd07723e2dba67e2bfc0ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85dfe702eddd07723e2dba67e2bfc0ef">&#9670;&#160;</a></span>segmentIntersectionOrder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.segmentIntersectionOrder </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__array__PreciseVertCoords2__6.html">std_array_PreciseVertCoords2_6</a></td>          <td class="paramname"><span class="paramname"><em>vs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">given line segment s=01 and two other segments sa=23, sb=45 known to intersect it, finds the order of intersection using precise predicates:
+true:  s[0], s ^ sa, s ^ sb, s[1]
+false: s[0], s ^ sb, s ^ sa, s[1]
 </pre> 
 </div>
 </div>
