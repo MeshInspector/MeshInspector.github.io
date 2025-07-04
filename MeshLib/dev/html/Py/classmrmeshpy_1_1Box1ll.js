@@ -17,6 +17,7 @@ var classmrmeshpy_1_1Box1ll =
     [ "getBoxClosestPointTo", "classmrmeshpy_1_1Box1ll.html#a4d340cf595ce4595c5933630d0d8bc43", null ],
     [ "getDistanceSq", "classmrmeshpy_1_1Box1ll.html#a7e1ffc81b214c08754e08ea453a5e99c", null ],
     [ "getDistanceSq", "classmrmeshpy_1_1Box1ll.html#a1fd43a9ae12f35b160d789496177ebfb", null ],
+    [ "getProjection", "classmrmeshpy_1_1Box1ll.html#ad396af8a2077e20f1048d2020e1cc2b1", null ],
     [ "include", "classmrmeshpy_1_1Box1ll.html#ac3a58c943f0860246d943ba182839ada", null ],
     [ "include", "classmrmeshpy_1_1Box1ll.html#a5a629ff262d622a06217d221a656c796", null ],
     [ "insignificantlyExpanded", "classmrmeshpy_1_1Box1ll.html#a645217c942b67fc4ac07a67b799497de", null ],

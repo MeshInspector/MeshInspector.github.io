@@ -199,6 +199,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac3467db51f48cf0c6925bff4534b3eb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6751058913b5da91512bc005031ce327" id="r_a6751058913b5da91512bc005031ce327"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6751058913b5da91512bc005031ce327">getDistanceSq</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3d.html">Vector3d</a> pt)</td></tr>
 <tr class="separator:a6751058913b5da91512bc005031ce327"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5befdf111aa0b78f7c7b7452dc9be40" id="r_ac5befdf111aa0b78f7c7b7452dc9be40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3d.html">Vector3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5befdf111aa0b78f7c7b7452dc9be40">getProjection</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3d.html">Vector3d</a> pt)</td></tr>
+<tr class="separator:ac5befdf111aa0b78f7c7b7452dc9be40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2f92967756b23e9f8f1f8a744883be6" id="r_af2f92967756b23e9f8f1f8a744883be6"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2f92967756b23e9f8f1f8a744883be6">include</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3d.html">Vector3d</a> pt)</td></tr>
 <tr class="separator:af2f92967756b23e9f8f1f8a744883be6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c163c2e57ad89020ec553764b0b2326" id="r_a9c163c2e57ad89020ec553764b0b2326"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c163c2e57ad89020ec553764b0b2326">include</a> (self, <a class="el" href="classmrmeshpy_1_1Box3d.html">Box3d</a> b)</td></tr>
@@ -810,6 +812,29 @@ finds the box's corner for which d is maximal
 </div><div class="memdoc">
 <pre class="fragment">considering all planes with given normal and arbitrary shift: dot(n,x) = d
 finds the box's corner for which d is minimal
+</pre> 
+</div>
+</div>
+<a id="ac5befdf111aa0b78f7c7b7452dc9be40" name="ac5befdf111aa0b78f7c7b7452dc9be40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5befdf111aa0b78f7c7b7452dc9be40">&#9670;&#160;</a></span>getProjection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Vector3d.html">Vector3d</a> mrmeshpy.Box3d.getProjection </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3d.html">Vector3d</a></td>          <td class="paramname"><span class="paramname"><em>pt</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the closest point on the box to the given point
+for points outside the box this is equivalent to getBoxClosestPointTo
 </pre> 
 </div>
 </div>

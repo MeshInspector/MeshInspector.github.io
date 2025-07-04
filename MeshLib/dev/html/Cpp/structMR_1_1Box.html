@@ -244,6 +244,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a25efa79c9a3710f2c59fac06fb39ad12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fa5434776a3bb7b53014edc67295ec8" id="r_a6fa5434776a3bb7b53014edc67295ec8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a1425948e6f0f9ef6de04c45be07f81fd">T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fa5434776a3bb7b53014edc67295ec8">getDistanceSq</a> (const V &amp;pt) const</td></tr>
 <tr class="separator:a6fa5434776a3bb7b53014edc67295ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36a72e5786051efa6c3fa7512b00c6c3" id="r_a36a72e5786051efa6c3fa7512b00c6c3"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36a72e5786051efa6c3fa7512b00c6c3">getProjection</a> (const V &amp;pt) const</td></tr>
+<tr class="separator:a36a72e5786051efa6c3fa7512b00c6c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f06adfa8006bd6000537a4d96e4f66e" id="r_a3f06adfa8006bd6000537a4d96e4f66e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Box.html">Box</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f06adfa8006bd6000537a4d96e4f66e">expanded</a> (const V &amp;expansion) const</td></tr>
 <tr class="memdesc:a3f06adfa8006bd6000537a4d96e4f66e"><td class="mdescLeft">&#160;</td><td class="mdescRight">decreases min and increased max on given value  <br /></td></tr>
 <tr class="separator:a3f06adfa8006bd6000537a4d96e4f66e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -837,6 +839,34 @@ template&lt;typename V &gt; </div>
 </table>
 </div><div class="memdoc">
 <p>considering all planes with given normal and arbitrary shift: dot(n,x) = d finds the box's corner for which d is minimal </p>
+
+</div>
+</div>
+<a id="a36a72e5786051efa6c3fa7512b00c6c3" name="a36a72e5786051efa6c3fa7512b00c6c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36a72e5786051efa6c3fa7512b00c6c3">&#9670;&#160;</a></span>getProjection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">V <a class="el" href="structMR_1_1Box.html">MR::Box</a>&lt; V &gt;::getProjection </td>
+          <td>(</td>
+          <td class="paramtype">const V &amp;</td>          <td class="paramname"><span class="paramname"><em>pt</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>returns the closest point on the box to the given point for points outside the box this is equivalent to getBoxClosestPointTo </p>
 
 </div>
 </div>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1DistanceToMeshOptions.html":[6,0,1,0,1,196],
 "structMR_1_1DistanceToMeshOptions.html":[6,0,2,0,1,180],
 "structMR_1_1DistanceToMeshOptions.html#a32a5670750d3aecf21776f2fe2ad28d9":[6,0,1,0,1,196,4],
 "structMR_1_1DistanceToMeshOptions.html#a32a5670750d3aecf21776f2fe2ad28d9":[6,0,2,0,1,180,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1EdgeSegment.html":[6,0,1,0,1,215],
 "structMR_1_1EdgeSegment.html":[6,0,2,0,1,199],
 "structMR_1_1EdgeSegment.html#a1d81986816953f871379b4fd7f212b0f":[6,0,1,0,1,215,2],
-"structMR_1_1EdgeSegment.html#a1d81986816953f871379b4fd7f212b0f":[6,0,2,0,1,199,2],
-"structMR_1_1EdgeSegment.html#a2cd476f962cb44bbb72355daf9bd9735":[6,0,1,0,1,215,1]
+"structMR_1_1EdgeSegment.html#a1d81986816953f871379b4fd7f212b0f":[6,0,2,0,1,199,2]
 };

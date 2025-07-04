@@ -1,5 +1,6 @@
 var NAVTREEINDEX91 =
 {
+"structMR_1_1VolumeSegmentationParameters.html#ab07494ac7f1627ecc2dfce39e9502118":[6,0,0,17,2,0,1],
 "structMR_1_1VolumeSegmentationParameters.html#af000ea80a099a9de6d4f4f4475580b6c":[6,0,0,17,2,0,0],
 "structMR_1_1VolumeToMeshByPartsSettings.html":[6,0,0,17,5],
 "structMR_1_1VolumeToMeshByPartsSettings.html#a49895c0e58dfde0834b03dcc99e6279c":[6,0,0,17,5,1],

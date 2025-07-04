@@ -1,5 +1,6 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1MeshOrPoints_1_1ProjectionResult.html#a1da43d795c49a78d26d63c9f1f90bdae":[6,0,2,0,1,360,0,3],
 "structMR_1_1MeshOrPoints_1_1ProjectionResult.html#a975a5de8766c9ee7093fa82c4620f049":[6,0,1,0,1,376,0,4],
 "structMR_1_1MeshOrPoints_1_1ProjectionResult.html#a975a5de8766c9ee7093fa82c4620f049":[6,0,2,0,1,360,0,4],
 "structMR_1_1MeshOrPoints_1_1ProjectionResult.html#ab04e26fe4503fb08898aaeccad548f71":[6,0,1,0,1,376,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1MinMaxArg.html#aecc5a502b2649c84a49a95f5429ba1cd":[6,0,2,0,1,381,1],
 "structMR_1_1ModalDialogSettings.html":[6,0,1,0,1,399],
 "structMR_1_1ModalDialogSettings.html":[6,0,2,0,1,383],
-"structMR_1_1ModalDialogSettings.html#a06ef8b7cc8cd092df38f3573cb9ccd16":[6,0,1,0,1,399,4],
-"structMR_1_1ModalDialogSettings.html#a06ef8b7cc8cd092df38f3573cb9ccd16":[6,0,2,0,1,383,4]
+"structMR_1_1ModalDialogSettings.html#a06ef8b7cc8cd092df38f3573cb9ccd16":[6,0,1,0,1,399,4]
 };

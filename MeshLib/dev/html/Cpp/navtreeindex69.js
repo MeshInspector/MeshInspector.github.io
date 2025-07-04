@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1CoordinateConverters2.html#aec74867bf6fa21b7d48dfabf36194f8c":[6,0,2,0,1,144,1],
 "structMR_1_1CornerControllerObject_1_1PickedIds.html":[6,0,1,0,1,161,0],
 "structMR_1_1CornerControllerObject_1_1PickedIds.html":[6,0,2,0,1,145,0],
 "structMR_1_1CornerControllerObject_1_1PickedIds.html#a192c07449fb32e2b964cc6becc915dd4":[6,0,1,0,1,161,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1DistanceMapToWorld.html#a866ac1e7f146d2a868527a502d376c74":[6,0,0,5,5,7],
 "structMR_1_1DistanceMapToWorld.html#a92e916455b2d6b276605af3bca683742":[6,0,0,5,5,5],
 "structMR_1_1DistanceMapToWorld.html#ac20206aa1ac29437ea53266ea70723dc":[6,0,0,5,5,10],
-"structMR_1_1DistanceMapToWorld.html#aee6ea73dd4b8ce002eaa164c6d5e45f5":[6,0,0,5,5,1],
-"structMR_1_1DistanceToMeshOptions.html":[6,0,1,0,1,196]
+"structMR_1_1DistanceMapToWorld.html#aee6ea73dd4b8ce002eaa164c6d5e45f5":[6,0,0,5,5,1]
 };

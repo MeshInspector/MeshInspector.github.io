@@ -1,5 +1,6 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1ModalDialogSettings.html#a06ef8b7cc8cd092df38f3573cb9ccd16":[6,0,2,0,1,383,4],
 "structMR_1_1ModalDialogSettings.html#a26096cca550b1692d761f787646e25c7":[6,0,1,0,1,399,1],
 "structMR_1_1ModalDialogSettings.html#a26096cca550b1692d761f787646e25c7":[6,0,2,0,1,383,1],
 "structMR_1_1ModalDialogSettings.html#a6f27fa29dcdfba807ff60ced88467e51":[6,0,1,0,1,399,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a58bca33d6ad2854d29c6ff020e8b0851":[6,0,2,0,1,418,0,4],
 "structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a5b9be82a1acc4be0e293f6d175610d3d":[6,0,1,0,1,434,0,5],
 "structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a5b9be82a1acc4be0e293f6d175610d3d":[6,0,2,0,1,418,0,5],
-"structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7aa53c19a5992ea9b4c35b429f300a57e3":[6,0,1,0,1,434,0,0],
-"structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7aa53c19a5992ea9b4c35b429f300a57e3":[6,0,2,0,1,418,0,0]
+"structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7aa53c19a5992ea9b4c35b429f300a57e3":[6,0,1,0,1,434,0,0]
 };
