@@ -1,5 +1,9 @@
 var NAVTREEINDEX83 =
 {
+"structMR_1_1Polynomial.html#aa365a06c840a632101e61a9d0ba31866":[6,0,2,0,1,520,1],
+"structMR_1_1Polynomial.html#af4cea678a8bd6d42610d8b839862f4d2":[6,0,1,0,1,536,4],
+"structMR_1_1Polynomial.html#af4cea678a8bd6d42610d8b839862f4d2":[6,0,2,0,1,520,4],
+"structMR_1_1PolynomialWrapper.html":[6,0,1,0,1,537],
 "structMR_1_1PolynomialWrapper.html":[6,0,2,0,1,521],
 "structMR_1_1PolynomialWrapper.html#abe4466e0d13a4b608b0de2bfa541792a":[6,0,1,0,1,537,0],
 "structMR_1_1PolynomialWrapper.html#abe4466e0d13a4b608b0de2bfa541792a":[6,0,2,0,1,521,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX83 =
 "structMR_1_1RelaxParams.html#abeb08d7e70411cf9ef2826c0f058b909":[6,0,1,0,1,571,5],
 "structMR_1_1RelaxParams.html#abeb08d7e70411cf9ef2826c0f058b909":[6,0,2,0,1,555,5],
 "structMR_1_1RelaxParams.html#ae2779bd159120c7d84c4d2e13186af7e":[6,0,1,0,1,571,4],
-"structMR_1_1RelaxParams.html#ae2779bd159120c7d84c4d2e13186af7e":[6,0,2,0,1,555,4],
-"structMR_1_1RelaxParams.html#ae8d07089d4abc1f4c2ccd3018e66e23a":[6,0,1,0,1,571,3],
-"structMR_1_1RelaxParams.html#ae8d07089d4abc1f4c2ccd3018e66e23a":[6,0,2,0,1,555,3],
-"structMR_1_1RelaxParams.html#af6f0f001e98c26c2b38d1d51b3f3ef1f":[6,0,1,0,1,571,2],
-"structMR_1_1RelaxParams.html#af6f0f001e98c26c2b38d1d51b3f3ef1f":[6,0,2,0,1,555,2]
+"structMR_1_1RelaxParams.html#ae2779bd159120c7d84c4d2e13186af7e":[6,0,2,0,1,555,4]
 };

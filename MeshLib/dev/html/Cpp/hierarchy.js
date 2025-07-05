@@ -1173,7 +1173,7 @@ var hierarchy =
     ] ],
     [ "MR::SpaceMouseParameters", "structMR_1_1SpaceMouseParameters.html", null ],
     [ "MR::SpacingSettings", "structMR_1_1SpacingSettings.html", null ],
-    [ "MR::SparsePolynomial< C, D >", "classMR_1_1SparsePolynomial.html", null ],
+    [ "MR::SparsePolynomial< C, D, M >", "classMR_1_1SparsePolynomial.html", null ],
     [ "MR::Sphere< V >", "structMR_1_1Sphere.html", null ],
     [ "MR::SphereParams", "structMR_1_1SphereParams.html", null ],
     [ "MR::SplashWindow", "classMR_1_1SplashWindow.html", [

@@ -32,7 +32,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib C++ Docs: MR::SparsePolynomial&lt; C, D &gt; Class Template Reference</title>
+<title>MeshLib C++ Docs: MR::SparsePolynomial&lt; C, D, M &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -155,7 +155,7 @@ $(function(){initNavTree('classMR_1_1SparsePolynomial.html',''); initResizable(t
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="classMR_1_1SparsePolynomial-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::SparsePolynomial&lt; C, D &gt; Class Template Reference</div></div>
+  <div class="headertitle"><div class="title">MR::SparsePolynomial&lt; C, D, M &gt; Class Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -163,25 +163,31 @@ $(function(){initNavTree('classMR_1_1SparsePolynomial.html',''); initResizable(t
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7dd8edd2f9a7518224a78547a3e54bb7" id="r_a7dd8edd2f9a7518224a78547a3e54bb7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7dd8edd2f9a7518224a78547a3e54bb7">SparsePolynomial</a> ()=default</td></tr>
-<tr class="memdesc:a7dd8edd2f9a7518224a78547a3e54bb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs zero polynomial  <br /></td></tr>
-<tr class="separator:a7dd8edd2f9a7518224a78547a3e54bb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec2d0892e9bc56883e4fecbb85760b5c" id="r_aec2d0892e9bc56883e4fecbb85760b5c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec2d0892e9bc56883e4fecbb85760b5c">SparsePolynomial</a> (std::map&lt; D, C &gt; &amp;&amp;)</td></tr>
-<tr class="memdesc:aec2d0892e9bc56883e4fecbb85760b5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">takes existing coefficients in ownership  <br /></td></tr>
-<tr class="separator:aec2d0892e9bc56883e4fecbb85760b5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adda939a981d9cc2771fd6f118e78c815" id="r_adda939a981d9cc2771fd6f118e78c815"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adda939a981d9cc2771fd6f118e78c815">SparsePolynomial</a> (C c0, D d1, C c1)</td></tr>
-<tr class="memdesc:adda939a981d9cc2771fd6f118e78c815"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs polynomial c0 + c1*x^d1  <br /></td></tr>
-<tr class="separator:adda939a981d9cc2771fd6f118e78c815"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70b0e99bae7e830d61cc93a68aac6f06" id="r_a70b0e99bae7e830d61cc93a68aac6f06"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70b0e99bae7e830d61cc93a68aac6f06">SparsePolynomial</a> (C c0, D d1, C c1, D d2, C c2)</td></tr>
-<tr class="memdesc:a70b0e99bae7e830d61cc93a68aac6f06"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs polynomial c0 + c1*x^d1 + c2*x^d2  <br /></td></tr>
-<tr class="separator:a70b0e99bae7e830d61cc93a68aac6f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acdd6386e7ce0b459bf620f1243939470" id="r_acdd6386e7ce0b459bf620f1243939470"><td class="memItemLeft" align="right" valign="top">const std::map&lt; D, C &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdd6386e7ce0b459bf620f1243939470">get</a> () const</td></tr>
-<tr class="memdesc:acdd6386e7ce0b459bf620f1243939470"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets read-only access to all not-zero coefficients  <br /></td></tr>
-<tr class="separator:acdd6386e7ce0b459bf620f1243939470"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d24a93387748ce48dac1d618ab60c69" id="r_a6d24a93387748ce48dac1d618ab60c69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d24a93387748ce48dac1d618ab60c69">operator+=</a> (const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a> &amp;b)</td></tr>
-<tr class="separator:a6d24a93387748ce48dac1d618ab60c69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d47542ad2a88c02a03538eeea1a31e4" id="r_a1d47542ad2a88c02a03538eeea1a31e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d47542ad2a88c02a03538eeea1a31e4">operator-=</a> (const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a> &amp;b)</td></tr>
-<tr class="separator:a1d47542ad2a88c02a03538eeea1a31e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dc64df27400abce4c5aa702e5829ac3" id="r_a3dc64df27400abce4c5aa702e5829ac3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dc64df27400abce4c5aa702e5829ac3">SparsePolynomial</a> ()=default</td></tr>
+<tr class="memdesc:a3dc64df27400abce4c5aa702e5829ac3"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs zero polynomial  <br /></td></tr>
+<tr class="separator:a3dc64df27400abce4c5aa702e5829ac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ade5e79589d06b2bbdcb738b0e667fb" id="r_a5ade5e79589d06b2bbdcb738b0e667fb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ade5e79589d06b2bbdcb738b0e667fb">SparsePolynomial</a> (std::map&lt; D, C &gt; &amp;&amp;)</td></tr>
+<tr class="memdesc:a5ade5e79589d06b2bbdcb738b0e667fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">takes existing coefficients in ownership  <br /></td></tr>
+<tr class="separator:a5ade5e79589d06b2bbdcb738b0e667fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af742f5b139ea26142c4b53b07b105655" id="r_af742f5b139ea26142c4b53b07b105655"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af742f5b139ea26142c4b53b07b105655">SparsePolynomial</a> (C c0, D d1, C c1)</td></tr>
+<tr class="memdesc:af742f5b139ea26142c4b53b07b105655"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs polynomial c0 + c1*x^d1  <br /></td></tr>
+<tr class="separator:af742f5b139ea26142c4b53b07b105655"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb8ff3c08eca24b211a02e31060ec736" id="r_adb8ff3c08eca24b211a02e31060ec736"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb8ff3c08eca24b211a02e31060ec736">SparsePolynomial</a> (C c0, D d1, C c1, D d2, C c2)</td></tr>
+<tr class="memdesc:adb8ff3c08eca24b211a02e31060ec736"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs polynomial c0 + c1*x^d1 + c2*x^d2  <br /></td></tr>
+<tr class="separator:adb8ff3c08eca24b211a02e31060ec736"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3121c41d3714630889e95595c2ed63ba" id="r_a3121c41d3714630889e95595c2ed63ba"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3121c41d3714630889e95595c2ed63ba">empty</a> () const</td></tr>
+<tr class="memdesc:a3121c41d3714630889e95595c2ed63ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if no single polynomial coefficient is defined  <br /></td></tr>
+<tr class="separator:a3121c41d3714630889e95595c2ed63ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a555f6678115944f56cb6b347fcbc297a" id="r_a555f6678115944f56cb6b347fcbc297a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a555f6678115944f56cb6b347fcbc297a">isPositive</a> () const</td></tr>
+<tr class="memdesc:a555f6678115944f56cb6b347fcbc297a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the coefficient for the smallest not-zero degress is positive  <br /></td></tr>
+<tr class="separator:a555f6678115944f56cb6b347fcbc297a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cd30857ce58fb5b8e689aa4a56a9a4d" id="r_a9cd30857ce58fb5b8e689aa4a56a9a4d"><td class="memItemLeft" align="right" valign="top">const std::map&lt; D, C &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cd30857ce58fb5b8e689aa4a56a9a4d">get</a> () const</td></tr>
+<tr class="memdesc:a9cd30857ce58fb5b8e689aa4a56a9a4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets read-only access to all not-zero coefficients  <br /></td></tr>
+<tr class="separator:a9cd30857ce58fb5b8e689aa4a56a9a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7db8147e43ed44e6850f4f813a585247" id="r_a7db8147e43ed44e6850f4f813a585247"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7db8147e43ed44e6850f4f813a585247">operator+=</a> (const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a> &amp;b)</td></tr>
+<tr class="separator:a7db8147e43ed44e6850f4f813a585247"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33daec7c11a36c33eb5530ffa262a597" id="r_a33daec7c11a36c33eb5530ffa262a597"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33daec7c11a36c33eb5530ffa262a597">operator-=</a> (const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a> &amp;b)</td></tr>
+<tr class="separator:a33daec7c11a36c33eb5530ffa262a597"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
@@ -189,28 +195,29 @@ Friends</h2></td></tr>
 <tr class="separator:ae7d77a6dff850c8e2a355bbebaf3e011"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;typename C, typename D = int&gt;<br />
-class MR::SparsePolynomial&lt; C, D &gt;</div><p>The class to store a polynomial with a large number of zero coefficient (only non-zeros are stored in std::map) </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename C, typename D, D M&gt;<br />
+class MR::SparsePolynomial&lt; C, D, M &gt;</div><p>The class to store a polynomial with a large number of zero coefficient (only non-zeros are stored in std::map) </p><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">C</td><td>- type of coefficients </td></tr>
     <tr><td class="paramname">D</td><td>- type of degrees </td></tr>
+    <tr><td class="paramname">M</td><td>- maximum degree to store in the polynomial </td></tr>
   </table>
   </dd>
 </dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a7dd8edd2f9a7518224a78547a3e54bb7" name="a7dd8edd2f9a7518224a78547a3e54bb7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7dd8edd2f9a7518224a78547a3e54bb7">&#9670;&#160;</a></span>SparsePolynomial() <span class="overload">[1/4]</span></h2>
+<a id="a3dc64df27400abce4c5aa702e5829ac3" name="a3dc64df27400abce4c5aa702e5829ac3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dc64df27400abce4c5aa702e5829ac3">&#9670;&#160;</a></span>SparsePolynomial() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename C , typename D  = int&gt; </div>
+template&lt;typename C , typename D , D M&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1SparsePolynomial.html">MR::SparsePolynomial</a>&lt; C, D &gt;::SparsePolynomial </td>
+          <td class="memname"><a class="el" href="classMR_1_1SparsePolynomial.html">MR::SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt;::SparsePolynomial </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -227,16 +234,16 @@ template&lt;typename C , typename D  = int&gt; </div>
 
 </div>
 </div>
-<a id="aec2d0892e9bc56883e4fecbb85760b5c" name="aec2d0892e9bc56883e4fecbb85760b5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec2d0892e9bc56883e4fecbb85760b5c">&#9670;&#160;</a></span>SparsePolynomial() <span class="overload">[2/4]</span></h2>
+<a id="a5ade5e79589d06b2bbdcb738b0e667fb" name="a5ade5e79589d06b2bbdcb738b0e667fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ade5e79589d06b2bbdcb738b0e667fb">&#9670;&#160;</a></span>SparsePolynomial() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename C , typename D &gt; </div>
+template&lt;typename C , typename D , D M&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1SparsePolynomial.html">MR::SparsePolynomial</a>&lt; C, D &gt;::SparsePolynomial </td>
+          <td class="memname"><a class="el" href="classMR_1_1SparsePolynomial.html">MR::SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt;::SparsePolynomial </td>
           <td>(</td>
           <td class="paramtype">std::map&lt; D, C &gt; &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>m</em></span></td><td>)</td>
           <td></td>
@@ -248,16 +255,16 @@ template&lt;typename C , typename D &gt; </div>
 
 </div>
 </div>
-<a id="adda939a981d9cc2771fd6f118e78c815" name="adda939a981d9cc2771fd6f118e78c815"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adda939a981d9cc2771fd6f118e78c815">&#9670;&#160;</a></span>SparsePolynomial() <span class="overload">[3/4]</span></h2>
+<a id="af742f5b139ea26142c4b53b07b105655" name="af742f5b139ea26142c4b53b07b105655"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af742f5b139ea26142c4b53b07b105655">&#9670;&#160;</a></span>SparsePolynomial() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename C , typename D &gt; </div>
+template&lt;typename C , typename D , D M&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1SparsePolynomial.html">MR::SparsePolynomial</a>&lt; C, D &gt;::SparsePolynomial </td>
+          <td class="memname"><a class="el" href="classMR_1_1SparsePolynomial.html">MR::SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt;::SparsePolynomial </td>
           <td>(</td>
           <td class="paramtype">C</td>          <td class="paramname"><span class="paramname"><em>c0</em></span>, </td>
         </tr>
@@ -278,16 +285,16 @@ template&lt;typename C , typename D &gt; </div>
 
 </div>
 </div>
-<a id="a70b0e99bae7e830d61cc93a68aac6f06" name="a70b0e99bae7e830d61cc93a68aac6f06"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70b0e99bae7e830d61cc93a68aac6f06">&#9670;&#160;</a></span>SparsePolynomial() <span class="overload">[4/4]</span></h2>
+<a id="adb8ff3c08eca24b211a02e31060ec736" name="adb8ff3c08eca24b211a02e31060ec736"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb8ff3c08eca24b211a02e31060ec736">&#9670;&#160;</a></span>SparsePolynomial() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename C , typename D &gt; </div>
+template&lt;typename C , typename D , D M&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1SparsePolynomial.html">MR::SparsePolynomial</a>&lt; C, D &gt;::SparsePolynomial </td>
+          <td class="memname"><a class="el" href="classMR_1_1SparsePolynomial.html">MR::SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt;::SparsePolynomial </td>
           <td>(</td>
           <td class="paramtype">C</td>          <td class="paramname"><span class="paramname"><em>c0</em></span>, </td>
         </tr>
@@ -319,19 +326,19 @@ template&lt;typename C , typename D &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="acdd6386e7ce0b459bf620f1243939470" name="acdd6386e7ce0b459bf620f1243939470"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acdd6386e7ce0b459bf620f1243939470">&#9670;&#160;</a></span>get()</h2>
+<a id="a3121c41d3714630889e95595c2ed63ba" name="a3121c41d3714630889e95595c2ed63ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3121c41d3714630889e95595c2ed63ba">&#9670;&#160;</a></span>empty()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename C , typename D  = int&gt; </div>
+template&lt;typename C , typename D , D M&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::map&lt; D, C &gt; &amp; <a class="el" href="classMR_1_1SparsePolynomial.html">MR::SparsePolynomial</a>&lt; C, D &gt;::get </td>
+          <td class="memname">bool <a class="el" href="classMR_1_1SparsePolynomial.html">MR::SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt;::empty </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -339,7 +346,36 @@ template&lt;typename C , typename D  = int&gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true if no single polynomial coefficient is defined </p>
+
+</div>
+</div>
+<a id="a9cd30857ce58fb5b8e689aa4a56a9a4d" name="a9cd30857ce58fb5b8e689aa4a56a9a4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cd30857ce58fb5b8e689aa4a56a9a4d">&#9670;&#160;</a></span>get()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename C , typename D , D M&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::map&lt; D, C &gt; &amp; <a class="el" href="classMR_1_1SparsePolynomial.html">MR::SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt;::get </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -348,18 +384,47 @@ template&lt;typename C , typename D  = int&gt; </div>
 
 </div>
 </div>
-<a id="a6d24a93387748ce48dac1d618ab60c69" name="a6d24a93387748ce48dac1d618ab60c69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d24a93387748ce48dac1d618ab60c69">&#9670;&#160;</a></span>operator+=()</h2>
+<a id="a555f6678115944f56cb6b347fcbc297a" name="a555f6678115944f56cb6b347fcbc297a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a555f6678115944f56cb6b347fcbc297a">&#9670;&#160;</a></span>isPositive()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename C , typename D &gt; </div>
+template&lt;typename C , typename D , D M&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D &gt; &amp; <a class="el" href="classMR_1_1SparsePolynomial.html">MR::SparsePolynomial</a>&lt; C, D &gt;::operator+= </td>
+          <td class="memname">bool <a class="el" href="classMR_1_1SparsePolynomial.html">MR::SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt;::isPositive </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true if the coefficient for the smallest not-zero degress is positive </p>
+
+</div>
+</div>
+<a id="a7db8147e43ed44e6850f4f813a585247" name="a7db8147e43ed44e6850f4f813a585247"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7db8147e43ed44e6850f4f813a585247">&#9670;&#160;</a></span>operator+=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename C , typename D , D M&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; &amp; <a class="el" href="classMR_1_1SparsePolynomial.html">MR::SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt;::operator+= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -367,18 +432,18 @@ template&lt;typename C , typename D &gt; </div>
 
 </div>
 </div>
-<a id="a1d47542ad2a88c02a03538eeea1a31e4" name="a1d47542ad2a88c02a03538eeea1a31e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d47542ad2a88c02a03538eeea1a31e4">&#9670;&#160;</a></span>operator-=()</h2>
+<a id="a33daec7c11a36c33eb5530ffa262a597" name="a33daec7c11a36c33eb5530ffa262a597"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33daec7c11a36c33eb5530ffa262a597">&#9670;&#160;</a></span>operator-=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename C , typename D &gt; </div>
+template&lt;typename C , typename D , D M&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D &gt; &amp; <a class="el" href="classMR_1_1SparsePolynomial.html">MR::SparsePolynomial</a>&lt; C, D &gt;::operator-= </td>
+          <td class="memname"><a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; &amp; <a class="el" href="classMR_1_1SparsePolynomial.html">MR::SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt;::operator-= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -393,7 +458,7 @@ template&lt;typename C , typename D &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename C , typename D  = int&gt; </div>
+template&lt;typename C , typename D , D M&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -401,12 +466,12 @@ template&lt;typename C , typename D  = int&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a> operator* </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
         </tr>
       </table>
   </td>

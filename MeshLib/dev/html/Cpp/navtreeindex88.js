@@ -1,5 +1,9 @@
 var NAVTREEINDEX88 =
 {
+"structMR_1_1TouchpadZoomGestureBeginListener.html#af5348be745ad12096850899abc2bec29":[6,0,1,0,1,728,1],
+"structMR_1_1TouchpadZoomGestureBeginListener.html#af5348be745ad12096850899abc2bec29":[6,0,2,0,1,712,1],
+"structMR_1_1TouchpadZoomGestureEndListener.html":[6,0,1,0,1,729],
+"structMR_1_1TouchpadZoomGestureEndListener.html":[6,0,2,0,1,713],
 "structMR_1_1TouchpadZoomGestureEndListener.html#a2921d52163618add8bbd7a16dd5203f6":[6,0,1,0,1,729,1],
 "structMR_1_1TouchpadZoomGestureEndListener.html#a2921d52163618add8bbd7a16dd5203f6":[6,0,2,0,1,713,1],
 "structMR_1_1TouchpadZoomGestureEndListener.html#ad1668e1d1874a834c7c6875f53d9f728":[6,0,1,0,1,729,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX88 =
 "structMR_1_1UI_1_1PlotAxis.html#a0e51c5bc9d4ef7d750e29a744e69b2aa":[6,0,1,0,1,38,8,0],
 "structMR_1_1UI_1_1PlotAxis.html#a0e51c5bc9d4ef7d750e29a744e69b2aa":[6,0,2,0,1,23,7,0],
 "structMR_1_1UI_1_1PlotAxis.html#a4f5a326eb4b1bad75896698c5db7bca8":[6,0,1,0,1,38,8,1],
-"structMR_1_1UI_1_1PlotAxis.html#a4f5a326eb4b1bad75896698c5db7bca8":[6,0,2,0,1,23,7,1],
-"structMR_1_1UI_1_1PlotAxis.html#a6300f8d6f358cd258351cd2c6f5a6b41":[6,0,1,0,1,38,8,8],
-"structMR_1_1UI_1_1PlotAxis.html#a6300f8d6f358cd258351cd2c6f5a6b41":[6,0,2,0,1,23,7,8],
-"structMR_1_1UI_1_1PlotAxis.html#a6b3549baa2023f1f1ef3c3cf40f6dbc5":[6,0,1,0,1,38,8,4],
-"structMR_1_1UI_1_1PlotAxis.html#a6b3549baa2023f1f1ef3c3cf40f6dbc5":[6,0,2,0,1,23,7,4]
+"structMR_1_1UI_1_1PlotAxis.html#a4f5a326eb4b1bad75896698c5db7bca8":[6,0,2,0,1,23,7,1]
 };

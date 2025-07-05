@@ -2708,7 +2708,7 @@ var namespaceMR =
     [ "operator&", "group__BasicGroup.html#ga4383c7ccfb257c9434fe3e9e0b59a27b", null ],
     [ "operator&", "group__ViewportGroup.html#gaab3f3280e9df3ad6b0ae88ee01f28286", null ],
     [ "operator*", "namespaceMR.html#aac5fb6c59ce62feddc3ac64b13643c67", null ],
-    [ "operator*", "namespaceMR.html#aedce9c32b3495aa9cdff4262a2ac383e", null ],
+    [ "operator*", "namespaceMR.html#a39de2d02d74ee4158df88993a656c0d0", null ],
     [ "operator*", "namespaceMR.html#a74faa3fac803f77476aefb0300f66b51", null ],
     [ "operator*=", "group__BasicStructuresGroup.html#ga245aead53191a5ec52138336c54c109c", null ],
     [ "operator*=", "namespaceMR.html#ab3166f1ae304a5ff0106e7c88b67960e", null ],
