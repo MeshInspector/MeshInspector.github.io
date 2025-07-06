@@ -1,5 +1,15 @@
 var NAVTREEINDEX88 =
 {
+"structMR_1_1TouchpadSwipeGestureUpdateListener.html#a699126c1c4c296d0dcfd76964121d306":[6,0,1,0,1,727,1],
+"structMR_1_1TouchpadSwipeGestureUpdateListener.html#a699126c1c4c296d0dcfd76964121d306":[6,0,2,0,1,711,1],
+"structMR_1_1TouchpadSwipeGestureUpdateListener.html#aef526e0582b51edc407c765caedd0b9b":[6,0,1,0,1,727,3],
+"structMR_1_1TouchpadSwipeGestureUpdateListener.html#aef526e0582b51edc407c765caedd0b9b":[6,0,2,0,1,711,3],
+"structMR_1_1TouchpadZoomGestureBeginListener.html":[6,0,1,0,1,728],
+"structMR_1_1TouchpadZoomGestureBeginListener.html":[6,0,2,0,1,712],
+"structMR_1_1TouchpadZoomGestureBeginListener.html#a2ba6b0096c5e4c6d7e2474ea754cf3b1":[6,0,1,0,1,728,0],
+"structMR_1_1TouchpadZoomGestureBeginListener.html#a2ba6b0096c5e4c6d7e2474ea754cf3b1":[6,0,2,0,1,712,0],
+"structMR_1_1TouchpadZoomGestureBeginListener.html#aa1466bd78b47344b1f14b7f80586b10c":[6,0,1,0,1,728,3],
+"structMR_1_1TouchpadZoomGestureBeginListener.html#aa1466bd78b47344b1f14b7f80586b10c":[6,0,2,0,1,712,3],
 "structMR_1_1TouchpadZoomGestureBeginListener.html#ae78265b3b8f64da2ffc4c9dcdc7292ff":[6,0,1,0,1,728,2],
 "structMR_1_1TouchpadZoomGestureBeginListener.html#ae78265b3b8f64da2ffc4c9dcdc7292ff":[6,0,2,0,1,712,2],
 "structMR_1_1TouchpadZoomGestureBeginListener.html#af5348be745ad12096850899abc2bec29":[6,0,1,0,1,728,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX88 =
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a57d48656778b010132308d6f1b17dda3":[6,0,1,0,1,38,7,0,2],
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a57d48656778b010132308d6f1b17dda3":[6,0,2,0,1,23,6,0,2],
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a669ea51c367ab807beb54423bc2717f6":[6,0,1,0,1,38,7,0,5],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a669ea51c367ab807beb54423bc2717f6":[6,0,2,0,1,23,6,0,5],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a8f0e17801627126920b79b9159e927bc":[6,0,1,0,1,38,7,0,4],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a8f0e17801627126920b79b9159e927bc":[6,0,2,0,1,23,6,0,4],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#ab1d43c463dad455d38df62802e67d941":[6,0,1,0,1,38,7,0,0],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#ab1d43c463dad455d38df62802e67d941":[6,0,2,0,1,23,6,0,0],
-"structMR_1_1UI_1_1PlotAxis.html":[6,0,1,0,1,38,8],
-"structMR_1_1UI_1_1PlotAxis.html":[6,0,2,0,1,23,7],
-"structMR_1_1UI_1_1PlotAxis.html#a07e8a2e4ecc0a1ae78ccb53e9b785255":[6,0,1,0,1,38,8,6],
-"structMR_1_1UI_1_1PlotAxis.html#a07e8a2e4ecc0a1ae78ccb53e9b785255":[6,0,2,0,1,23,7,6],
-"structMR_1_1UI_1_1PlotAxis.html#a0e51c5bc9d4ef7d750e29a744e69b2aa":[6,0,1,0,1,38,8,0],
-"structMR_1_1UI_1_1PlotAxis.html#a0e51c5bc9d4ef7d750e29a744e69b2aa":[6,0,2,0,1,23,7,0]
+"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a669ea51c367ab807beb54423bc2717f6":[6,0,2,0,1,23,6,0,5]
 };

@@ -1,5 +1,15 @@
 var NAVTREEINDEX84 =
 {
+"structMR_1_1RefineParameters.html#ac994e7450108ddf9d7a3e4a5973de92e":[6,0,1,0,1,568,2],
+"structMR_1_1RefineParameters.html#ac994e7450108ddf9d7a3e4a5973de92e":[6,0,2,0,1,552,2],
+"structMR_1_1RelaxParams.html":[6,0,1,0,1,571],
+"structMR_1_1RelaxParams.html":[6,0,2,0,1,555],
+"structMR_1_1RelaxParams.html#a47663082758ba9a1d7d9942c1d2550fc":[6,0,1,0,1,571,0],
+"structMR_1_1RelaxParams.html#a47663082758ba9a1d7d9942c1d2550fc":[6,0,2,0,1,555,0],
+"structMR_1_1RelaxParams.html#a7f58a3b0b7e5c09209f53edd90b4371a":[6,0,1,0,1,571,1],
+"structMR_1_1RelaxParams.html#a7f58a3b0b7e5c09209f53edd90b4371a":[6,0,2,0,1,555,1],
+"structMR_1_1RelaxParams.html#abeb08d7e70411cf9ef2826c0f058b909":[6,0,1,0,1,571,5],
+"structMR_1_1RelaxParams.html#abeb08d7e70411cf9ef2826c0f058b909":[6,0,2,0,1,555,5],
 "structMR_1_1RelaxParams.html#ae2779bd159120c7d84c4d2e13186af7e":[6,0,1,0,1,571,4],
 "structMR_1_1RelaxParams.html#ae2779bd159120c7d84c4d2e13186af7e":[6,0,2,0,1,555,4],
 "structMR_1_1RelaxParams.html#ae8d07089d4abc1f4c2ccd3018e66e23a":[6,0,1,0,1,571,3],
@@ -239,15 +249,5 @@ var NAVTREEINDEX84 =
 "structMR_1_1RigidScaleXf3.html#a997f09f418f6e779a0a511288d316a06":[6,0,1,0,1,617,2],
 "structMR_1_1RigidScaleXf3.html#a997f09f418f6e779a0a511288d316a06":[6,0,2,0,1,601,2],
 "structMR_1_1RigidScaleXf3.html#aab41cf4d5be1d1a224a24a5b484e3a1d":[6,0,1,0,1,617,8],
-"structMR_1_1RigidScaleXf3.html#aab41cf4d5be1d1a224a24a5b484e3a1d":[6,0,2,0,1,601,8],
-"structMR_1_1RigidScaleXf3.html#ac7250fbdfd02baf9936e263ed527779e":[6,0,1,0,1,617,7],
-"structMR_1_1RigidScaleXf3.html#ac7250fbdfd02baf9936e263ed527779e":[6,0,2,0,1,601,7],
-"structMR_1_1RigidScaleXf3.html#acd29039623f95b68b2c1cdce22cdba76":[6,0,1,0,1,617,3],
-"structMR_1_1RigidScaleXf3.html#acd29039623f95b68b2c1cdce22cdba76":[6,0,2,0,1,601,3],
-"structMR_1_1RigidScaleXf3.html#adcb2be531582327cfde07191af6837c8":[6,0,1,0,1,617,6],
-"structMR_1_1RigidScaleXf3.html#adcb2be531582327cfde07191af6837c8":[6,0,2,0,1,601,6],
-"structMR_1_1RigidXf3.html":[6,0,1,0,1,618],
-"structMR_1_1RigidXf3.html":[6,0,2,0,1,602],
-"structMR_1_1RigidXf3.html#a1c18eb2cefaafa045ec3e26dc9948f71":[6,0,1,0,1,618,7],
-"structMR_1_1RigidXf3.html#a1c18eb2cefaafa045ec3e26dc9948f71":[6,0,2,0,1,602,7]
+"structMR_1_1RigidScaleXf3.html#aab41cf4d5be1d1a224a24a5b484e3a1d":[6,0,2,0,1,601,8]
 };

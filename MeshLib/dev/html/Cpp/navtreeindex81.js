@@ -1,5 +1,15 @@
 var NAVTREEINDEX81 =
 {
+"structMR_1_1OutlierParams.html#a9561ff72aba23dad165d0922967bf343":[6,0,1,0,1,477,1],
+"structMR_1_1OutlierParams.html#a9561ff72aba23dad165d0922967bf343":[6,0,2,0,1,461,1],
+"structMR_1_1OutlierParams.html#ae7fcf0f64db2a7e109689f6722285abd":[6,0,1,0,1,477,0],
+"structMR_1_1OutlierParams.html#ae7fcf0f64db2a7e109689f6722285abd":[6,0,2,0,1,461,0],
+"structMR_1_1OutputFlows.html":[6,0,1,0,1,479],
+"structMR_1_1OutputFlows.html":[6,0,2,0,1,463],
+"structMR_1_1OutputFlows.html#a269ce938dc53ce1c582db0ce91e12693":[6,0,1,0,1,479,0],
+"structMR_1_1OutputFlows.html#a269ce938dc53ce1c582db0ce91e12693":[6,0,2,0,1,463,0],
+"structMR_1_1OutputFlows.html#a72f9e10ced291a77b3b93815e416e700":[6,0,1,0,1,479,1],
+"structMR_1_1OutputFlows.html#a72f9e10ced291a77b3b93815e416e700":[6,0,2,0,1,463,1],
 "structMR_1_1OutputFlows.html#ab696447c7c75c2271af326e9df613cd7":[6,0,1,0,1,479,2],
 "structMR_1_1OutputFlows.html#ab696447c7c75c2271af326e9df613cd7":[6,0,2,0,1,463,2],
 "structMR_1_1PackMapping.html":[6,0,1,0,1,481],
@@ -239,15 +249,5 @@ var NAVTREEINDEX81 =
 "structMR_1_1PointCloud.html#af2811d551e2205169b30d34edd323c26":[6,0,0,12,0,6],
 "structMR_1_1PointCloud.html#af4769b0bcb9a9bd664aa03c8e23c0ca0":[6,0,0,12,0,5],
 "structMR_1_1PointCloudApproxRelaxParams.html":[6,0,0,12,2],
-"structMR_1_1PointCloudApproxRelaxParams.html#a5122f4607ef8eeb82d4765383d619a3d":[6,0,0,12,2,0],
-"structMR_1_1PointCloudRelaxParams.html":[6,0,0,12,1],
-"structMR_1_1PointCloudRelaxParams.html#ab8de6ecb0effc2fb5ae7f053955d6caf":[6,0,0,12,1,0],
-"structMR_1_1PointInAllSpaces.html":[6,0,1,0,1,508],
-"structMR_1_1PointInAllSpaces.html":[6,0,2,0,1,492],
-"structMR_1_1PointInAllSpaces.html#a0faf89a2289bed4bb23a92601e2a6cd9":[6,0,1,0,1,508,4],
-"structMR_1_1PointInAllSpaces.html#a0faf89a2289bed4bb23a92601e2a6cd9":[6,0,2,0,1,492,4],
-"structMR_1_1PointInAllSpaces.html#a137079597c74de0d73863a07b3a88f12":[6,0,1,0,1,508,7],
-"structMR_1_1PointInAllSpaces.html#a137079597c74de0d73863a07b3a88f12":[6,0,2,0,1,492,7],
-"structMR_1_1PointInAllSpaces.html#a1cba71d0b9b3f78aff8c080d214b074f":[6,0,1,0,1,508,0],
-"structMR_1_1PointInAllSpaces.html#a1cba71d0b9b3f78aff8c080d214b074f":[6,0,2,0,1,492,0]
+"structMR_1_1PointCloudApproxRelaxParams.html#a5122f4607ef8eeb82d4765383d619a3d":[6,0,0,12,2,0]
 };

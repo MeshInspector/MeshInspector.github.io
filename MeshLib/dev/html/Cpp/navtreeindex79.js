@@ -1,5 +1,15 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1MetricToAStarPenalty.html#adcfa3f6e76c7ebd915a9859d2105ab57":[6,0,2,0,1,379,0],
+"structMR_1_1MetricToAStarPenalty.html#ae78d929b06e35477653b8824ffed2383":[6,0,1,0,1,395,1],
+"structMR_1_1MetricToAStarPenalty.html#ae78d929b06e35477653b8824ffed2383":[6,0,2,0,1,379,1],
+"structMR_1_1MinArg.html":[6,0,1,0,1,396],
+"structMR_1_1MinArg.html":[6,0,2,0,1,380],
+"structMR_1_1MinArg.html#a390b27154863521ab2f36edc39b42011":[6,0,1,0,1,396,0],
+"structMR_1_1MinArg.html#a390b27154863521ab2f36edc39b42011":[6,0,2,0,1,380,0],
+"structMR_1_1MinArg.html#a539cbb55f4a4e7957683ce73c06d5f59":[6,0,1,0,1,396,5],
+"structMR_1_1MinArg.html#a539cbb55f4a4e7957683ce73c06d5f59":[6,0,2,0,1,380,5],
+"structMR_1_1MinArg.html#a731dfaa5ec4094892a6629e4f9c91128":[6,0,1,0,1,396,1],
 "structMR_1_1MinArg.html#a731dfaa5ec4094892a6629e4f9c91128":[6,0,2,0,1,380,1],
 "structMR_1_1MinArg.html#a90ff34f715406ed3ab55e23094cb6141":[6,0,1,0,1,396,2],
 "structMR_1_1MinArg.html#a90ff34f715406ed3ab55e23094cb6141":[6,0,2,0,1,380,2],
@@ -239,15 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1NoCtor_3_01T_01_4.html":[6,0,1,0,1,426],
 "structMR_1_1NoCtor_3_01T_01_4.html":[6,0,2,0,1,410],
 "structMR_1_1NoCtor_3_01T_01_4.html#a5ad36941cb49b13cf04d17446b102370":[6,0,1,0,1,426,0],
-"structMR_1_1NoCtor_3_01T_01_4.html#a5ad36941cb49b13cf04d17446b102370":[6,0,2,0,1,410,0],
-"structMR_1_1NoCtor_3_01T_01_4.html#a9043c90869c007f7262a6c843c881219":[6,0,1,0,1,426,1],
-"structMR_1_1NoCtor_3_01T_01_4.html#a9043c90869c007f7262a6c843c881219":[6,0,2,0,1,410,1],
-"structMR_1_1NoDefInit.html":[6,0,1,0,1,427],
-"structMR_1_1NoDefInit.html":[6,0,2,0,1,411],
-"structMR_1_1NoDefInit.html#aaa8735508a78c638055d6001174d206a":[6,0,1,0,1,427,0],
-"structMR_1_1NoDefInit.html#aaa8735508a78c638055d6001174d206a":[6,0,2,0,1,411,0],
-"structMR_1_1NoInit.html":[6,0,1,0,1,429],
-"structMR_1_1NoInit.html":[6,0,2,0,1,413],
-"structMR_1_1NoModelCheck.html":[6,0,1,0,1,432],
-"structMR_1_1NoModelCheck.html":[6,0,2,0,1,416]
+"structMR_1_1NoCtor_3_01T_01_4.html#a5ad36941cb49b13cf04d17446b102370":[6,0,2,0,1,410,0]
 };

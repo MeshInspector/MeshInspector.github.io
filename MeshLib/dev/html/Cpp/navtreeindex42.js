@@ -1,5 +1,11 @@
 var NAVTREEINDEX42 =
 {
+"classMR_1_1SceneObjectsListDrawer.html#a7d2bd6811f26a83ed152c93732753238":[6,0,1,0,1,629,13],
+"classMR_1_1SceneObjectsListDrawer.html#a7d2bd6811f26a83ed152c93732753238":[6,0,2,0,1,613,13],
+"classMR_1_1SceneObjectsListDrawer.html#a87100a0f8079f7712cae2c150a6a9ed9":[6,0,1,0,1,629,26],
+"classMR_1_1SceneObjectsListDrawer.html#a87100a0f8079f7712cae2c150a6a9ed9":[6,0,2,0,1,613,26],
+"classMR_1_1SceneObjectsListDrawer.html#a928e8a018e952ef2b817ba4027203972":[6,0,1,0,1,629,14],
+"classMR_1_1SceneObjectsListDrawer.html#a928e8a018e952ef2b817ba4027203972":[6,0,2,0,1,613,14],
 "classMR_1_1SceneObjectsListDrawer.html#a9384ea577cd19059753bd1e4a31df82c":[6,0,1,0,1,629,20],
 "classMR_1_1SceneObjectsListDrawer.html#a9384ea577cd19059753bd1e4a31df82c":[6,0,2,0,1,613,20],
 "classMR_1_1SceneObjectsListDrawer.html#a9626d7f29fef80a19bfa08d0389643f4":[6,0,1,0,1,629,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX42 =
 "classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9dae9017664588010860a92ceb5f8fcb824":[6,0,2,0,1,638,0,3],
 "classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9dae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,1,0,1,654,0,5],
 "classMR_1_1SetViewportConfigPresetMenuItem.html#a3d2a81d9958b76933c36a468144ccc9dae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,2,0,1,638,0,5],
-"classMR_1_1SetViewportConfigPresetMenuItem.html#aa5f3104ebb87b4497658882eaf9511cc":[6,0,1,0,1,654,1],
-"classMR_1_1SetViewportConfigPresetMenuItem.html#aa5f3104ebb87b4497658882eaf9511cc":[6,0,2,0,1,638,1],
-"classMR_1_1SetViewportConfigPresetMenuItem.html#aab1e4ca9d8717e7092bf07b4ff40434a":[6,0,1,0,1,654,2],
-"classMR_1_1SetViewportConfigPresetMenuItem.html#aab1e4ca9d8717e7092bf07b4ff40434a":[6,0,2,0,1,638,2],
-"classMR_1_1SetViewportConfigPresetMenuItem.html#af38a4828a4d0a03c1ff96f685d5bc06f":[6,0,1,0,1,654,3],
-"classMR_1_1SetViewportConfigPresetMenuItem.html#af38a4828a4d0a03c1ff96f685d5bc06f":[6,0,2,0,1,638,3],
-"classMR_1_1ShadowsGL.html":[6,0,1,0,1,657]
+"classMR_1_1SetViewportConfigPresetMenuItem.html#aa5f3104ebb87b4497658882eaf9511cc":[6,0,1,0,1,654,1]
 };

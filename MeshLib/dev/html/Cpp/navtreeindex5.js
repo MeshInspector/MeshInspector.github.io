@@ -1,5 +1,11 @@
 var NAVTREEINDEX5 =
 {
+"MRMeshC_2MRBitSet_8h.html#a579f670e699cbb597d486bcd68ef5530":[6,0,3,0,0,1,5,3,24],
+"MRMeshC_2MRBitSet_8h.html#a601f9fb0815d2c1a417a4b81860ff403":[6,0,3,0,0,1,5,3,0],
+"MRMeshC_2MRBitSet_8h.html#a656e54750dfafbbcd341b61802a2cb53":[6,0,3,0,0,1,5,3,8],
+"MRMeshC_2MRBitSet_8h.html#a6c463de59771e69b448f9a5db732aa28":[6,0,3,0,0,1,5,3,22],
+"MRMeshC_2MRBitSet_8h.html#a6db3376608213607ac878648b90deb1d":[6,0,3,0,0,1,5,3,12],
+"MRMeshC_2MRBitSet_8h.html#a74be3074ad7bf91877c10cbb1473dc6f":[6,0,3,0,0,1,5,3,16],
 "MRMeshC_2MRBitSet_8h.html#a7b1bff21da3a779b8eff0cbdf4067a24":[6,0,3,0,0,1,5,3,20],
 "MRMeshC_2MRBitSet_8h.html#a8098ee08450e87398ee7b6b86596869f":[6,0,3,0,0,1,5,3,9],
 "MRMeshC_2MRBitSet_8h.html#a81bd73519fd2dbe4f23aeed80ac691e6":[6,0,3,0,0,1,5,3,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX5 =
 "MRMeshC_2MRMakeSphereMesh_8h.html#a5c9ffdd8d709f51595e68919c613dd3d":[6,0,3,0,0,1,5,23,7],
 "MRMeshC_2MRMakeSphereMesh_8h.html#a70d7cdb50802dba4e98e7a604d503cd2":[6,0,3,0,0,1,5,23,3],
 "MRMeshC_2MRMakeSphereMesh_8h.html#aa5376c56e30df5e92308fc374ce57228":[6,0,3,0,0,1,5,23,6],
-"MRMeshC_2MRMakeSphereMesh_8h.html#aff3a5d40e4c9735457f46bb94fd6fefa":[6,0,3,0,0,1,5,23,5],
-"MRMeshC_2MRMakeSphereMesh_8h_source.html":[6,0,3,0,0,1,5,23],
-"MRMeshC_2MRMatrix3_8h.html":[6,0,3,0,0,1,5,24],
-"MRMeshC_2MRMatrix3_8h.html#a11cf7e2444bea875abd31fa0c30607bc":[6,0,3,0,0,1,5,24,6],
-"MRMeshC_2MRMatrix3_8h.html#a2fd8b13f2803b4506c74a3d9e1232079":[6,0,3,0,0,1,5,24,9],
-"MRMeshC_2MRMatrix3_8h.html#a3100bf8d7c848b8710002e6ed136a627":[6,0,3,0,0,1,5,24,8],
-"MRMeshC_2MRMatrix3_8h.html#a3e9f35e4f4a68b535fe47f1dc1f85e36":[6,0,3,0,0,1,5,24,7]
+"MRMeshC_2MRMakeSphereMesh_8h.html#aff3a5d40e4c9735457f46bb94fd6fefa":[6,0,3,0,0,1,5,23,5]
 };

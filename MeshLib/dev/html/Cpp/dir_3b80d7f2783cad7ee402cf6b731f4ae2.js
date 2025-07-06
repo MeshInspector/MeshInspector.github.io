@@ -90,6 +90,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRDistanceMapSave.h", "MRDistanceMapSave_8h.html", "MRDistanceMapSave_8h" ],
     [ "MRDistanceMeasurementObject.h", "MRDistanceMeasurementObject_8h.html", "MRDistanceMeasurementObject_8h" ],
     [ "MRDistanceToMeshOptions.h", "MRDistanceToMeshOptions_8h.html", "MRDistanceToMeshOptions_8h" ],
+    [ "MRDivRound.h", "MRDivRound_8h.html", "MRDivRound_8h" ],
     [ "MREdgeIterator.h", "MREdgeIterator_8h.html", "MREdgeIterator_8h" ],
     [ "MREdgeLengthMesh.h", "MREdgeLengthMesh_8h.html", null ],
     [ "MREdgeMetric.h", "MREdgeMetric_8h.html", "MREdgeMetric_8h" ],

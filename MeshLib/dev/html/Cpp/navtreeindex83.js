@@ -1,5 +1,15 @@
 var NAVTREEINDEX83 =
 {
+"structMR_1_1PolylineTraits_3_01Vector3f_01_4.html#a84bad48f4d3dae8d75fb1280ea03b42b":[6,0,0,1,10,0],
+"structMR_1_1Polynomial.html":[6,0,1,0,1,536],
+"structMR_1_1Polynomial.html":[6,0,2,0,1,520],
+"structMR_1_1Polynomial.html#a3cc5be84c9490736e6839f7d4f54e839":[6,0,1,0,1,536,5],
+"structMR_1_1Polynomial.html#a3cc5be84c9490736e6839f7d4f54e839":[6,0,2,0,1,520,5],
+"structMR_1_1Polynomial.html#a6420dd28fcfe1d9d94da2689048ed849":[6,0,1,0,1,536,2],
+"structMR_1_1Polynomial.html#a6420dd28fcfe1d9d94da2689048ed849":[6,0,2,0,1,520,2],
+"structMR_1_1Polynomial.html#a647fa3efb019e9541f3faabd5316bbe3":[6,0,1,0,1,536,3],
+"structMR_1_1Polynomial.html#a647fa3efb019e9541f3faabd5316bbe3":[6,0,2,0,1,520,3],
+"structMR_1_1Polynomial.html#a7b90334059066d4883920a0f7fa6942f":[6,0,1,0,1,536,0],
 "structMR_1_1Polynomial.html#a7b90334059066d4883920a0f7fa6942f":[6,0,2,0,1,520,0],
 "structMR_1_1Polynomial.html#aa365a06c840a632101e61a9d0ba31866":[6,0,1,0,1,536,1],
 "structMR_1_1Polynomial.html#aa365a06c840a632101e61a9d0ba31866":[6,0,2,0,1,520,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX83 =
 "structMR_1_1RefineParameters.html#a528671040882a5d5982efd35a695f752":[6,0,1,0,1,568,5],
 "structMR_1_1RefineParameters.html#a528671040882a5d5982efd35a695f752":[6,0,2,0,1,552,5],
 "structMR_1_1RefineParameters.html#a808c9f463fc7c33c8d774a3638ebca29":[6,0,1,0,1,568,3],
-"structMR_1_1RefineParameters.html#a808c9f463fc7c33c8d774a3638ebca29":[6,0,2,0,1,552,3],
-"structMR_1_1RefineParameters.html#ac994e7450108ddf9d7a3e4a5973de92e":[6,0,1,0,1,568,2],
-"structMR_1_1RefineParameters.html#ac994e7450108ddf9d7a3e4a5973de92e":[6,0,2,0,1,552,2],
-"structMR_1_1RelaxParams.html":[6,0,1,0,1,571],
-"structMR_1_1RelaxParams.html":[6,0,2,0,1,555],
-"structMR_1_1RelaxParams.html#a47663082758ba9a1d7d9942c1d2550fc":[6,0,1,0,1,571,0],
-"structMR_1_1RelaxParams.html#a47663082758ba9a1d7d9942c1d2550fc":[6,0,2,0,1,555,0],
-"structMR_1_1RelaxParams.html#a7f58a3b0b7e5c09209f53edd90b4371a":[6,0,1,0,1,571,1],
-"structMR_1_1RelaxParams.html#a7f58a3b0b7e5c09209f53edd90b4371a":[6,0,2,0,1,555,1],
-"structMR_1_1RelaxParams.html#abeb08d7e70411cf9ef2826c0f058b909":[6,0,1,0,1,571,5],
-"structMR_1_1RelaxParams.html#abeb08d7e70411cf9ef2826c0f058b909":[6,0,2,0,1,555,5]
+"structMR_1_1RefineParameters.html#a808c9f463fc7c33c8d774a3638ebca29":[6,0,2,0,1,552,3]
 };

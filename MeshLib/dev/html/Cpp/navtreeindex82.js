@@ -1,5 +1,15 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1PointCloudRelaxParams.html":[6,0,0,12,1],
+"structMR_1_1PointCloudRelaxParams.html#ab8de6ecb0effc2fb5ae7f053955d6caf":[6,0,0,12,1,0],
+"structMR_1_1PointInAllSpaces.html":[6,0,1,0,1,508],
+"structMR_1_1PointInAllSpaces.html":[6,0,2,0,1,492],
+"structMR_1_1PointInAllSpaces.html#a0faf89a2289bed4bb23a92601e2a6cd9":[6,0,1,0,1,508,4],
+"structMR_1_1PointInAllSpaces.html#a0faf89a2289bed4bb23a92601e2a6cd9":[6,0,2,0,1,492,4],
+"structMR_1_1PointInAllSpaces.html#a137079597c74de0d73863a07b3a88f12":[6,0,1,0,1,508,7],
+"structMR_1_1PointInAllSpaces.html#a137079597c74de0d73863a07b3a88f12":[6,0,2,0,1,492,7],
+"structMR_1_1PointInAllSpaces.html#a1cba71d0b9b3f78aff8c080d214b074f":[6,0,1,0,1,508,0],
+"structMR_1_1PointInAllSpaces.html#a1cba71d0b9b3f78aff8c080d214b074f":[6,0,2,0,1,492,0],
 "structMR_1_1PointInAllSpaces.html#a5512321f2684ad8e986186697b2ccc51":[6,0,1,0,1,508,6],
 "structMR_1_1PointInAllSpaces.html#a5512321f2684ad8e986186697b2ccc51":[6,0,2,0,1,492,6],
 "structMR_1_1PointInAllSpaces.html#a836698583352b520081e97d4d91b40d2":[6,0,1,0,1,508,5],
@@ -239,15 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1PolylineTraits.html":[6,0,0,1,8],
 "structMR_1_1PolylineTraits_3_01Vector2f_01_4.html":[6,0,0,1,9],
 "structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d":[6,0,0,1,9,0],
-"structMR_1_1PolylineTraits_3_01Vector3f_01_4.html":[6,0,0,1,10],
-"structMR_1_1PolylineTraits_3_01Vector3f_01_4.html#a84bad48f4d3dae8d75fb1280ea03b42b":[6,0,0,1,10,0],
-"structMR_1_1Polynomial.html":[6,0,1,0,1,536],
-"structMR_1_1Polynomial.html":[6,0,2,0,1,520],
-"structMR_1_1Polynomial.html#a3cc5be84c9490736e6839f7d4f54e839":[6,0,1,0,1,536,5],
-"structMR_1_1Polynomial.html#a3cc5be84c9490736e6839f7d4f54e839":[6,0,2,0,1,520,5],
-"structMR_1_1Polynomial.html#a6420dd28fcfe1d9d94da2689048ed849":[6,0,1,0,1,536,2],
-"structMR_1_1Polynomial.html#a6420dd28fcfe1d9d94da2689048ed849":[6,0,2,0,1,520,2],
-"structMR_1_1Polynomial.html#a647fa3efb019e9541f3faabd5316bbe3":[6,0,1,0,1,536,3],
-"structMR_1_1Polynomial.html#a647fa3efb019e9541f3faabd5316bbe3":[6,0,2,0,1,520,3],
-"structMR_1_1Polynomial.html#a7b90334059066d4883920a0f7fa6942f":[6,0,1,0,1,536,0]
+"structMR_1_1PolylineTraits_3_01Vector3f_01_4.html":[6,0,0,1,10]
 };

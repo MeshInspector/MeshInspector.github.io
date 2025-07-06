@@ -1,5 +1,11 @@
 var NAVTREEINDEX48 =
 {
+"classMR_1_1Viewer.html#ab5c3982fd523193e4b8a83ebde609f85":[6,0,1,0,1,774,32],
+"classMR_1_1Viewer.html#ab5c3982fd523193e4b8a83ebde609f85":[6,0,2,0,1,758,32],
+"classMR_1_1Viewer.html#ab7f0983455b1dfa5ccae593d205470d9":[6,0,1,0,1,774,15],
+"classMR_1_1Viewer.html#ab7f0983455b1dfa5ccae593d205470d9":[6,0,2,0,1,758,15],
+"classMR_1_1Viewer.html#ab85b7bf9ec873e3253b2e214ced07544":[6,0,1,0,1,774,98],
+"classMR_1_1Viewer.html#ab85b7bf9ec873e3253b2e214ced07544":[6,0,2,0,1,758,98],
 "classMR_1_1Viewer.html#ab8b98e5129d643d9a893c28e17ebe388":[6,0,1,0,1,774,77],
 "classMR_1_1Viewer.html#ab8b98e5129d643d9a893c28e17ebe388":[6,0,2,0,1,758,77],
 "classMR_1_1Viewer.html#ab99774ac83e35b2f47669cc2b8b88afb":[6,0,1,0,1,774,64],
@@ -243,11 +249,5 @@ var NAVTREEINDEX48 =
 "classMR_1_1ViewerSettingsPlugin.html#afeeff27006fc4c615527cbd2c08c552bae498749f3c42246d50b15c81c101d988":[6,0,1,0,1,778,1,1],
 "classMR_1_1ViewerSettingsPlugin.html#afeeff27006fc4c615527cbd2c08c552bae498749f3c42246d50b15c81c101d988":[6,0,2,0,1,762,1,1],
 "classMR_1_1ViewerSettingsPlugin.html#afeeff27006fc4c615527cbd2c08c552bae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,1,0,1,778,1,6],
-"classMR_1_1ViewerSettingsPlugin.html#afeeff27006fc4c615527cbd2c08c552bae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,2,0,1,762,1,6],
-"classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html":[6,0,1,0,1,778,0],
-"classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html":[6,0,2,0,1,762,0],
-"classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html#a2b40b2d1d9febe79a58c0f64f8aaf704":[6,0,1,0,1,778,0,2],
-"classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html#a2b40b2d1d9febe79a58c0f64f8aaf704":[6,0,2,0,1,762,0,2],
-"classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html#a5daa51d87dc540fd02b52303e05cbe20":[6,0,1,0,1,778,0,3],
-"classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html#a5daa51d87dc540fd02b52303e05cbe20":[6,0,2,0,1,762,0,3]
+"classMR_1_1ViewerSettingsPlugin.html#afeeff27006fc4c615527cbd2c08c552bae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,2,0,1,762,1,6]
 };
