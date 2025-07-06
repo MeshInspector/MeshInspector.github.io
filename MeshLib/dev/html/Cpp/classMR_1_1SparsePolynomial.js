@@ -9,5 +9,6 @@ var classMR_1_1SparsePolynomial =
     [ "isPositive", "classMR_1_1SparsePolynomial.html#a555f6678115944f56cb6b347fcbc297a", null ],
     [ "operator+=", "classMR_1_1SparsePolynomial.html#a7db8147e43ed44e6850f4f813a585247", null ],
     [ "operator-=", "classMR_1_1SparsePolynomial.html#a33daec7c11a36c33eb5530ffa262a597", null ],
+    [ "setZeroCoeff", "classMR_1_1SparsePolynomial.html#a687ad0841acd4ba8dd03d5915fdaecf3", null ],
     [ "operator*", "classMR_1_1SparsePolynomial.html#ae7d77a6dff850c8e2a355bbebaf3e011", null ]
 ];

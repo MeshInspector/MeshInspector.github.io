@@ -136,14 +136,16 @@ var NAVTREEINDEX43 =
 "classMR_1_1SparsePolynomial.html#a555f6678115944f56cb6b347fcbc297a":[6,0,2,0,1,666,6],
 "classMR_1_1SparsePolynomial.html#a5ade5e79589d06b2bbdcb738b0e667fb":[6,0,1,0,1,682,1],
 "classMR_1_1SparsePolynomial.html#a5ade5e79589d06b2bbdcb738b0e667fb":[6,0,2,0,1,666,1],
+"classMR_1_1SparsePolynomial.html#a687ad0841acd4ba8dd03d5915fdaecf3":[6,0,1,0,1,682,9],
+"classMR_1_1SparsePolynomial.html#a687ad0841acd4ba8dd03d5915fdaecf3":[6,0,2,0,1,666,9],
 "classMR_1_1SparsePolynomial.html#a7db8147e43ed44e6850f4f813a585247":[6,0,1,0,1,682,7],
 "classMR_1_1SparsePolynomial.html#a7db8147e43ed44e6850f4f813a585247":[6,0,2,0,1,666,7],
 "classMR_1_1SparsePolynomial.html#a9cd30857ce58fb5b8e689aa4a56a9a4d":[6,0,1,0,1,682,5],
 "classMR_1_1SparsePolynomial.html#a9cd30857ce58fb5b8e689aa4a56a9a4d":[6,0,2,0,1,666,5],
 "classMR_1_1SparsePolynomial.html#adb8ff3c08eca24b211a02e31060ec736":[6,0,1,0,1,682,3],
 "classMR_1_1SparsePolynomial.html#adb8ff3c08eca24b211a02e31060ec736":[6,0,2,0,1,666,3],
-"classMR_1_1SparsePolynomial.html#ae7d77a6dff850c8e2a355bbebaf3e011":[6,0,1,0,1,682,9],
-"classMR_1_1SparsePolynomial.html#ae7d77a6dff850c8e2a355bbebaf3e011":[6,0,2,0,1,666,9],
+"classMR_1_1SparsePolynomial.html#ae7d77a6dff850c8e2a355bbebaf3e011":[6,0,1,0,1,682,10],
+"classMR_1_1SparsePolynomial.html#ae7d77a6dff850c8e2a355bbebaf3e011":[6,0,2,0,1,666,10],
 "classMR_1_1SparsePolynomial.html#af742f5b139ea26142c4b53b07b105655":[6,0,1,0,1,682,2],
 "classMR_1_1SparsePolynomial.html#af742f5b139ea26142c4b53b07b105655":[6,0,2,0,1,666,2],
 "classMR_1_1SphereObject.html":[6,0,0,11,0,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX43 =
 "classMR_1_1StateBasePlugin.html#adede9d0773e7eff370bd78dc66a4c898":[6,0,2,0,1,673,17],
 "classMR_1_1StateBasePlugin.html#ae7a96edadae63c78192e0f1f6b1f9db9":[6,0,1,0,1,689,3],
 "classMR_1_1StateBasePlugin.html#ae7a96edadae63c78192e0f1f6b1f9db9":[6,0,2,0,1,673,3],
-"classMR_1_1StateBasePlugin.html#ae7da0ed13a069a29ec8fac496e7aa065":[6,0,1,0,1,689,12],
-"classMR_1_1StateBasePlugin.html#ae7da0ed13a069a29ec8fac496e7aa065":[6,0,2,0,1,673,12],
-"classMR_1_1StateBasePlugin.html#af0d68f675e98e0a1ceb44192eaf94a13":[6,0,1,0,1,689,16]
+"classMR_1_1StateBasePlugin.html#ae7da0ed13a069a29ec8fac496e7aa065":[6,0,1,0,1,689,12]
 };
