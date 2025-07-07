@@ -1,7 +1,7 @@
 var classmrmeshpy_1_1ResolveMeshDegenSettings =
 [
     [ "__init__", "classmrmeshpy_1_1ResolveMeshDegenSettings.html#a4efadbadeba7b68701eed34d01b7f00f", null ],
-    [ "__init__", "classmrmeshpy_1_1ResolveMeshDegenSettings.html#a05fdf40e36680add832e5ae516d1e74a", null ],
+    [ "__init__", "classmrmeshpy_1_1ResolveMeshDegenSettings.html#a042fe95f7c2e619aa1081869e59c15b2", null ],
     [ "criticalAspectRatio", "classmrmeshpy_1_1ResolveMeshDegenSettings.html#ab58d9b167e66ece2adfb7d92d19ae323", null ],
     [ "criticalAspectRatio", "classmrmeshpy_1_1ResolveMeshDegenSettings.html#a3593dc31228e9582f9e0d94f94362e51", null ],
     [ "maxAngleChange", "classmrmeshpy_1_1ResolveMeshDegenSettings.html#a64974b8ae4f9a55d6e49e283052ce909", null ],
