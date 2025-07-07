@@ -1,5 +1,6 @@
 var NAVTREEINDEX45 =
 {
+"classMR_1_1SurfacePointWidget.html#a7d9c8acabf47d730f83f1d17944e7462":[6,0,2,0,1,680,2],
 "classMR_1_1SurfacePointWidget.html#a8ad9783712fb3b856b5f4c466bebebb2":[6,0,1,0,1,696,25],
 "classMR_1_1SurfacePointWidget.html#a8ad9783712fb3b856b5f4c466bebebb2":[6,0,2,0,1,680,25],
 "classMR_1_1SurfacePointWidget.html#a8caf797895b0781cf13598ae376d1941":[6,0,1,0,1,696,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX45 =
 "classMR_1_1TypedBitSet.html#a1e7bde75493bee03d4d0858b1511edb7":[6,0,0,3,3,6],
 "classMR_1_1TypedBitSet.html#a206e4d9defb2821fb33670c90a946523":[6,0,0,3,3,29],
 "classMR_1_1TypedBitSet.html#a26dcfe764bcfba79f19d2050ee47a416":[6,0,0,3,3,16],
-"classMR_1_1TypedBitSet.html#a34826be992210dd6713098da542d64b3":[6,0,0,3,3,28],
-"classMR_1_1TypedBitSet.html#a45519a54bca8b779e3d28914573976e4":[6,0,0,3,3,38]
+"classMR_1_1TypedBitSet.html#a34826be992210dd6713098da542d64b3":[6,0,0,3,3,28]
 };

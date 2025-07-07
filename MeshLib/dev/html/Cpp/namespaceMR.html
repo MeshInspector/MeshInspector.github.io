@@ -7268,6 +7268,8 @@ Variables</h2></td></tr>
 <tr class="memitem:a2096ace9292b40c55421517434fd8bd8" id="r_a2096ace9292b40c55421517434fd8bd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a55867f88ac3e3a329e67a208b4634d96">ConvertToFloatVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2096ace9292b40c55421517434fd8bd8">getToFloatConverter</a> (const Box3d &amp;box)</td></tr>
 <tr class="memdesc:a2096ace9292b40c55421517434fd8bd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates converter from Vector3i to Vector3f in <a class="el" href="structMR_1_1Box.html" title="Box given by its min- and max- corners.">Box</a> range (int diapason is mapped to box range)  <br /></td></tr>
 <tr class="separator:a2096ace9292b40c55421517434fd8bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab44344e6fdff4411490db5446baa0245" id="r_ab44344e6fdff4411490db5446baa0245"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; Vector3i &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab44344e6fdff4411490db5446baa0245">findTwoSegmentsIntersection</a> (const Vector3i &amp;ai, const Vector3i &amp;bi, const Vector3i &amp;ci, const Vector3i &amp;di)</td></tr>
+<tr class="separator:ab44344e6fdff4411490db5446baa0245"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f4d593d1b9ff1f262a583bf72f384f8" id="r_a6f4d593d1b9ff1f262a583bf72f384f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f4d593d1b9ff1f262a583bf72f384f8">findTriangleSegmentIntersectionPrecise</a> (const Vector3f &amp;a, const Vector3f &amp;b, const Vector3f &amp;c, const Vector3f &amp;d, const Vector3f &amp;e, <a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a> converters)</td></tr>
 <tr class="separator:a6f4d593d1b9ff1f262a583bf72f384f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -20626,6 +20628,46 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab44344e6fdff4411490db5446baa0245" name="ab44344e6fdff4411490db5446baa0245"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab44344e6fdff4411490db5446baa0245">&#9670;&#160;</a></span>findTwoSegmentsIntersection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; Vector3i &gt; MR::findTwoSegmentsIntersection </td>
+          <td>(</td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>ai</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>bi</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>ci</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>di</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>given two line segments AB and CD located in one plane, finds whether they intersect and if yes, computes their common point using integer-only arithmetic </p>
 
 </div>
 </div>

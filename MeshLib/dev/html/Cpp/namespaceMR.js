@@ -2200,6 +2200,7 @@ var namespaceMR =
     [ "findTwinUndirectedEdges", "namespaceMR.html#aa44e343ad4cf83164ad4771ea9e880b3", null ],
     [ "findTwinUndirectedEdges", "namespaceMR.html#a21baf87f437b852b1e607b1dfa6319f2", null ],
     [ "findTwoClosestPoints", "group__AABBTreeGroup.html#ga994aaba24d39e18802b546f4fdab10cc", null ],
+    [ "findTwoSegmentsIntersection", "namespaceMR.html#ab44344e6fdff4411490db5446baa0245", null ],
     [ "findVertsInViewportArea", "namespaceMR.html#a5296205b5f80eb5b87c334ab98121aff", null ],
     [ "fixMeshCreases", "group__MeshFixerGroup.html#gab288e6567def34c11ffd9a7a3ce86db3", null ],
     [ "fixMeshDegeneracies", "group__MeshFixerGroup.html#gad11bed424b514b2e835eb9ba644dd4eb", null ],

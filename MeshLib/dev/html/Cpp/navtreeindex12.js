@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"MRPointsToDistanceVolume_8h.html#a2a68dc1cf487d20d55f20f536c2dedfc":[6,0,3,0,0,1,11,20,2],
 "MRPointsToDistanceVolume_8h.html#a4924b85972ee04b7df75da333d851117":[6,0,3,0,0,1,11,20,3],
 "MRPointsToDistanceVolume_8h_source.html":[6,0,3,0,0,1,11,20],
 "MRPointsToMeshFusion_8h.html":[6,0,3,0,0,1,11,21],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "MRRenderPointsObject_8h.html":[6,0,3,0,0,1,10,79],
 "MRRenderPointsObject_8h_source.html":[6,0,3,0,0,1,10,79],
 "MRRenderVolumeObject_8h.html":[6,0,3,0,0,1,10,80],
-"MRRenderVolumeObject_8h_source.html":[6,0,3,0,0,1,10,80],
-"MRRenderWrapObject_8h.html":[6,0,3,0,0,1,10,81]
+"MRRenderVolumeObject_8h_source.html":[6,0,3,0,0,1,10,80]
 };

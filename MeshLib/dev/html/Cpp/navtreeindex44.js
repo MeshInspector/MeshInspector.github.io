@@ -1,5 +1,6 @@
 var NAVTREEINDEX44 =
 {
+"classMR_1_1StateBasePlugin.html#ad91197be262f6b569d9234033d73bb8d":[6,0,1,0,1,689,5],
 "classMR_1_1StateBasePlugin.html#ad91197be262f6b569d9234033d73bb8d":[6,0,2,0,1,673,5],
 "classMR_1_1StateBasePlugin.html#adede9d0773e7eff370bd78dc66a4c898":[6,0,1,0,1,689,17],
 "classMR_1_1StateBasePlugin.html#adede9d0773e7eff370bd78dc66a4c898":[6,0,2,0,1,673,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX44 =
 "classMR_1_1SurfacePointWidget.html#a7490f0d419228b077322177f164a2552":[6,0,2,0,1,680,23],
 "classMR_1_1SurfacePointWidget.html#a798cfe4e8403435129f4788dbfe0604b":[6,0,1,0,1,696,7],
 "classMR_1_1SurfacePointWidget.html#a798cfe4e8403435129f4788dbfe0604b":[6,0,2,0,1,680,7],
-"classMR_1_1SurfacePointWidget.html#a7d9c8acabf47d730f83f1d17944e7462":[6,0,1,0,1,696,2],
-"classMR_1_1SurfacePointWidget.html#a7d9c8acabf47d730f83f1d17944e7462":[6,0,2,0,1,680,2]
+"classMR_1_1SurfacePointWidget.html#a7d9c8acabf47d730f83f1d17944e7462":[6,0,1,0,1,696,2]
 };

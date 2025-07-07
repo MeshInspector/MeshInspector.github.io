@@ -1,5 +1,7 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1PointCloudApproxRelaxParams.html":[6,0,0,12,2],
+"structMR_1_1PointCloudApproxRelaxParams.html#a5122f4607ef8eeb82d4765383d619a3d":[6,0,0,12,2,0],
 "structMR_1_1PointCloudRelaxParams.html":[6,0,0,12,1],
 "structMR_1_1PointCloudRelaxParams.html#ab8de6ecb0effc2fb5ae7f053955d6caf":[6,0,0,12,1,0],
 "structMR_1_1PointInAllSpaces.html":[6,0,1,0,1,508],
@@ -247,7 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1PolylineToVolumeParams.html#a1daa9529865ff9fa75f4e718e54fbd75":[6,0,1,0,1,531,1],
 "structMR_1_1PolylineToVolumeParams.html#a1daa9529865ff9fa75f4e718e54fbd75":[6,0,2,0,1,515,1],
 "structMR_1_1PolylineTraits.html":[6,0,0,1,8],
-"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html":[6,0,0,1,9],
-"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d":[6,0,0,1,9,0],
-"structMR_1_1PolylineTraits_3_01Vector3f_01_4.html":[6,0,0,1,10]
+"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html":[6,0,0,1,9]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"MRObjectLabel_8h.html#af1439dbeb519b61d94005d8bfa52093c":[6,0,3,0,0,1,8,2,5],
 "MRObjectLabel_8h.html#af642e49e213e62cc072e2ac4c92b0c16":[6,0,3,0,0,1,8,2,4],
 "MRObjectLabel_8h_source.html":[6,0,3,0,0,1,8,2],
 "MRObjectLinesHolder_8h.html":[6,0,3,0,0,1,4,250],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "MRPointsShader_8h.html#ad955b6a2b26f772c9baa0e45f672f3b4":[6,0,3,0,0,1,10,63,0],
 "MRPointsShader_8h_source.html":[6,0,3,0,0,1,10,63],
 "MRPointsToDistanceVolume_8h.html":[6,0,3,0,0,1,11,20],
-"MRPointsToDistanceVolume_8h.html#a1746d757b12ddb4f1527a3c3b361ec4c":[6,0,3,0,0,1,11,20,1],
-"MRPointsToDistanceVolume_8h.html#a2a68dc1cf487d20d55f20f536c2dedfc":[6,0,3,0,0,1,11,20,2]
+"MRPointsToDistanceVolume_8h.html#a1746d757b12ddb4f1527a3c3b361ec4c":[6,0,3,0,0,1,11,20,1]
 };

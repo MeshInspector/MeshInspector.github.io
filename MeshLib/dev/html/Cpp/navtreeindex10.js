@@ -52,13 +52,14 @@ var NAVTREEINDEX10 =
 "MRMesh_2MRPointsToMeshProjector_8h_source.html":[6,0,3,0,0,1,4,293],
 "MRMesh_2MRPrecisePredicates3_8h.html":[6,0,3,0,0,1,4,312],
 "MRMesh_2MRPrecisePredicates3_8h.html#a1786b102734c05b43aec639689904eba":[6,0,3,0,0,1,4,312,5],
-"MRMesh_2MRPrecisePredicates3_8h.html#a2096ace9292b40c55421517434fd8bd8":[6,0,3,0,0,1,4,312,7],
-"MRMesh_2MRPrecisePredicates3_8h.html#a24ef393e1380f77979d9cfa6f7e0e88e":[6,0,3,0,0,1,4,312,12],
-"MRMesh_2MRPrecisePredicates3_8h.html#a529a69e762c0747c64c93926a897862b":[6,0,3,0,0,1,4,312,9],
+"MRMesh_2MRPrecisePredicates3_8h.html#a2096ace9292b40c55421517434fd8bd8":[6,0,3,0,0,1,4,312,8],
+"MRMesh_2MRPrecisePredicates3_8h.html#a24ef393e1380f77979d9cfa6f7e0e88e":[6,0,3,0,0,1,4,312,13],
+"MRMesh_2MRPrecisePredicates3_8h.html#a529a69e762c0747c64c93926a897862b":[6,0,3,0,0,1,4,312,10],
 "MRMesh_2MRPrecisePredicates3_8h.html#a55867f88ac3e3a329e67a208b4634d96":[6,0,3,0,0,1,4,312,3],
-"MRMesh_2MRPrecisePredicates3_8h.html#a5bd54d5a4565669fb45c78db08bc403e":[6,0,3,0,0,1,4,312,10],
+"MRMesh_2MRPrecisePredicates3_8h.html#a5bd54d5a4565669fb45c78db08bc403e":[6,0,3,0,0,1,4,312,11],
 "MRMesh_2MRPrecisePredicates3_8h.html#a6f4d593d1b9ff1f262a583bf72f384f8":[6,0,3,0,0,1,4,312,6],
-"MRMesh_2MRPrecisePredicates3_8h.html#a9736a434a7f001c05b9a7d23675ca257":[6,0,3,0,0,1,4,312,8],
+"MRMesh_2MRPrecisePredicates3_8h.html#a9736a434a7f001c05b9a7d23675ca257":[6,0,3,0,0,1,4,312,9],
+"MRMesh_2MRPrecisePredicates3_8h.html#ab44344e6fdff4411490db5446baa0245":[6,0,3,0,0,1,4,312,7],
 "MRMesh_2MRPrecisePredicates3_8h.html#ab81d3ad87ff9cd57deee77336ddf83e1":[6,0,3,0,0,1,4,312,4],
 "MRMesh_2MRPrecisePredicates3_8h_source.html":[6,0,3,0,0,1,4,312],
 "MRMesh_2MRRegionBoundary_8h.html":[6,0,3,0,0,1,4,327],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "MRObjectLabel_8h.html":[6,0,3,0,0,1,8,2],
 "MRObjectLabel_8h.html#a1671b043728dec2b5c7e5446f1b8c97e":[6,0,3,0,0,1,8,2,3],
 "MRObjectLabel_8h.html#a359dee50af5c0aa1a77b899f0b0c177e":[6,0,3,0,0,1,8,2,2],
-"MRObjectLabel_8h.html#a69c4cff6b9a1cd95c71fc56b8dd9a983":[6,0,3,0,0,1,8,2,1],
-"MRObjectLabel_8h.html#af1439dbeb519b61d94005d8bfa52093c":[6,0,3,0,0,1,8,2,5]
+"MRObjectLabel_8h.html#a69c4cff6b9a1cd95c71fc56b8dd9a983":[6,0,3,0,0,1,8,2,1]
 };

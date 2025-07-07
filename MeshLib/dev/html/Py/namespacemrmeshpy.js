@@ -1659,6 +1659,7 @@ var namespacemrmeshpy =
     [ "findTwinUndirectedEdges", "namespacemrmeshpy.html#ad2ce44e371f9321378d942be177cfad9", null ],
     [ "findTwinUndirectedEdges", "namespacemrmeshpy.html#a111ba6a04063d8ba863b98498822de31", null ],
     [ "findTwoClosestPoints", "namespacemrmeshpy.html#ae948a67a8d962bb321869687a9331f5e", null ],
+    [ "findTwoSegmentsIntersection", "namespacemrmeshpy.html#a15eaedc3c17f48007deeb027c17c68f9", null ],
     [ "findUndercuts", "namespacemrmeshpy.html#aa80a64ad24f0e660cb89aa7025fbb7bc", null ],
     [ "findUndercuts", "namespacemrmeshpy.html#a8966131bf84389f60e32459c2e8c9e45", null ],
     [ "findUndercuts", "namespacemrmeshpy.html#aa5b8c461fddf52aa27d6d55622122f6b", null ],

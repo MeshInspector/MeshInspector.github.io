@@ -1,5 +1,7 @@
 var NAVTREEINDEX83 =
 {
+"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d":[6,0,0,1,9,0],
+"structMR_1_1PolylineTraits_3_01Vector3f_01_4.html":[6,0,0,1,10],
 "structMR_1_1PolylineTraits_3_01Vector3f_01_4.html#a84bad48f4d3dae8d75fb1280ea03b42b":[6,0,0,1,10,0],
 "structMR_1_1Polynomial.html":[6,0,1,0,1,536],
 "structMR_1_1Polynomial.html":[6,0,2,0,1,520],
@@ -247,7 +249,5 @@ var NAVTREEINDEX83 =
 "structMR_1_1RefineParameters.html#a486a6518c80e8dcbf53b70b8870eaa6f":[6,0,1,0,1,568,1],
 "structMR_1_1RefineParameters.html#a486a6518c80e8dcbf53b70b8870eaa6f":[6,0,2,0,1,552,1],
 "structMR_1_1RefineParameters.html#a528671040882a5d5982efd35a695f752":[6,0,1,0,1,568,5],
-"structMR_1_1RefineParameters.html#a528671040882a5d5982efd35a695f752":[6,0,2,0,1,552,5],
-"structMR_1_1RefineParameters.html#a808c9f463fc7c33c8d774a3638ebca29":[6,0,1,0,1,568,3],
-"structMR_1_1RefineParameters.html#a808c9f463fc7c33c8d774a3638ebca29":[6,0,2,0,1,552,3]
+"structMR_1_1RefineParameters.html#a528671040882a5d5982efd35a695f752":[6,0,2,0,1,552,5]
 };
