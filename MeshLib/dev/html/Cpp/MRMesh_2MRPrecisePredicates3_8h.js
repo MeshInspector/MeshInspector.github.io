@@ -13,5 +13,6 @@ var MRMesh_2MRPrecisePredicates3_8h =
     [ "orient3d", "MRMesh_2MRPrecisePredicates3_8h.html#a529a69e762c0747c64c93926a897862b", null ],
     [ "orient3d", "MRMesh_2MRPrecisePredicates3_8h.html#a5bd54d5a4565669fb45c78db08bc403e", null ],
     [ "orient3d", "MRMesh_2MRPrecisePredicates3_8h.html#gaf33aff000dfb310f8d4e2b79698c3373", null ],
-    [ "orient3d", "MRMesh_2MRPrecisePredicates3_8h.html#a24ef393e1380f77979d9cfa6f7e0e88e", null ]
+    [ "orient3d", "MRMesh_2MRPrecisePredicates3_8h.html#a24ef393e1380f77979d9cfa6f7e0e88e", null ],
+    [ "segmentIntersectionOrder", "MRMesh_2MRPrecisePredicates3_8h.html#a38bf09e48cc1f340d50f86e96d6cc15c", null ]
 ];

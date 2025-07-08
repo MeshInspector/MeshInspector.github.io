@@ -799,6 +799,7 @@ var annotated_dup =
       [ "std_array_PreciseVertCoords2_6", "classmrmeshpy_1_1std__array__PreciseVertCoords2__6.html", "classmrmeshpy_1_1std__array__PreciseVertCoords2__6" ],
       [ "std_array_PreciseVertCoords_4", "classmrmeshpy_1_1std__array__PreciseVertCoords__4.html", "classmrmeshpy_1_1std__array__PreciseVertCoords__4" ],
       [ "std_array_PreciseVertCoords_5", "classmrmeshpy_1_1std__array__PreciseVertCoords__5.html", "classmrmeshpy_1_1std__array__PreciseVertCoords__5" ],
+      [ "std_array_PreciseVertCoords_8", "classmrmeshpy_1_1std__array__PreciseVertCoords__8.html", "classmrmeshpy_1_1std__array__PreciseVertCoords__8" ],
       [ "std_array_std_filesystem_path_4", "classmrmeshpy_1_1std__array__std__filesystem__path__4.html", "classmrmeshpy_1_1std__array__std__filesystem__path__4" ],
       [ "std_array_Vector3_double_3", "classmrmeshpy_1_1std__array__Vector3__double__3.html", "classmrmeshpy_1_1std__array__Vector3__double__3" ],
       [ "std_array_Vector3_float_3", "classmrmeshpy_1_1std__array__Vector3__float__3.html", "classmrmeshpy_1_1std__array__Vector3__float__3" ],

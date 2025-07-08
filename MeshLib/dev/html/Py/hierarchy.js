@@ -982,6 +982,7 @@ var hierarchy =
     [ "mrmeshpy.std_array_PreciseVertCoords2_6", "classmrmeshpy_1_1std__array__PreciseVertCoords2__6.html", null ],
     [ "mrmeshpy.std_array_PreciseVertCoords_4", "classmrmeshpy_1_1std__array__PreciseVertCoords__4.html", null ],
     [ "mrmeshpy.std_array_PreciseVertCoords_5", "classmrmeshpy_1_1std__array__PreciseVertCoords__5.html", null ],
+    [ "mrmeshpy.std_array_PreciseVertCoords_8", "classmrmeshpy_1_1std__array__PreciseVertCoords__8.html", null ],
     [ "mrmeshpy.std_array_std_filesystem_path_4", "classmrmeshpy_1_1std__array__std__filesystem__path__4.html", null ],
     [ "mrmeshpy.std_array_Vector3_double_3", "classmrmeshpy_1_1std__array__Vector3__double__3.html", null ],
     [ "mrmeshpy.std_array_Vector3_float_3", "classmrmeshpy_1_1std__array__Vector3__float__3.html", null ],

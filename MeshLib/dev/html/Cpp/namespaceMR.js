@@ -2948,6 +2948,7 @@ var namespaceMR =
     [ "sceneSelectedAtLeast", "namespaceMR.html#ac7eb465c1b7cbbcb8daa25703edc931d", null ],
     [ "sceneSelectedExactly", "namespaceMR.html#ac60866be39596654019ff3af45b501c5", null ],
     [ "segmentByGraphCut", "group__MeshSegmentationGroup.html#ga94134d6a12381a36151563fe8472f818", null ],
+    [ "segmentIntersectionOrder", "namespaceMR.html#a38bf09e48cc1f340d50f86e96d6cc15c", null ],
     [ "segmentIntersectionOrder", "namespaceMR.html#a60a0c2f417f93c5b7146c1ea63680d02", null ],
     [ "segmentVolume", "group__VolumeSegmentationGroup.html#gad44e7dfa9a22ec4a0c94232c1791b7d2", null ],
     [ "segmentVolumeByGraphCut", "group__VoxelGroup.html#gaaaebc49a422252db86351ce55dc91bef", null ],
