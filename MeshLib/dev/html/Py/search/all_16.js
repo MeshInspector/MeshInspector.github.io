@@ -82,7 +82,7 @@ var searchData=
   ['tgtonbd_79',['tgtOnBd',['../../Cpp/structMRPointPair.html#a3a1c36eeeff22faca6d6749a8630cff5',1,'MRPointPair::tgtOnBd'],['../../Cpp/structMR_1_1PointPair.html#ae8d7edf5f01746179a2eb12b3e66b1d0',1,'MR::PointPair::tgtOnBd'],['../classmrmeshpy_1_1PointPair.html#a42e142b00acc3e786a02e82de68cf9c1',1,'mrmeshpy.PointPair.tgtOnBd(self)'],['../classmrmeshpy_1_1PointPair.html#a5b9ca9ca28eb2eee813859849e5d9635',1,'mrmeshpy.PointPair.tgtOnBd(self, bool arg1)']]],
   ['tgtpoint_80',['tgtPoint',['../../Cpp/structMR_1_1ICPPairData.html#a5a8aa18bdc6d6ceb392dafa06cbf3ba7',1,'MR::ICPPairData::tgtPoint'],['../../Cpp/structMRICPPairData.html#af985418f8344cd7fff2fb9219041866b',1,'MRICPPairData::tgtPoint'],['../classmrmeshpy_1_1ICPPairData.html#a8fd5cbb59c667c22d5b48c5e0a3fe81e',1,'mrmeshpy.ICPPairData.tgtPoint(self)'],['../classmrmeshpy_1_1ICPPairData.html#ae3543d2260c7847ebf61a1b2bd780d4b',1,'mrmeshpy.ICPPairData.tgtPoint(self, Vector3f arg1)']]],
   ['thickenmesh_81',['thickenMesh',['../../Cpp/namespaceMR.html#a4786362a7faf5309ddb05c773cf3b513',1,'MR::thickenMesh()'],['../namespacemrmeshpy.html#a229183c23cf9c49fb2d6e41a4f32f09b',1,'mrmeshpy.thickenMesh()']]],
-  ['thirdparty_20list_82',['Thirdparty List',['../../ThirdParty.html',1,'']]],
+  ['third_20party_20dependencies_82',['Third-Party Dependencies',['../../ThirdParty.html',1,'']]],
   ['thirdpartylist_2edox_83',['ThirdpartyList.dox',['../../ThirdpartyList_8dox.html',1,'']]],
   ['thiscontours_84',['thisContours',['../../Cpp/structMRMeshAddMeshPartParameters.html#a82a303b8f1ab804167306fb5d9c8cd46',1,'MRMeshAddMeshPartParameters']]],
   ['thiscontoursnum_85',['thisContoursNum',['../../Cpp/structMRMeshAddMeshPartParameters.html#a863b4de41ab82f7b51097b0245e014fc',1,'MRMeshAddMeshPartParameters']]],

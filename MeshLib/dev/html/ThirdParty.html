@@ -32,7 +32,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib Documentation: Thirdparty List</title>
+<title>MeshLib Documentation: Third-Party Dependencies</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -151,12 +151,34 @@ $(function(){initNavTree('ThirdParty.html',''); initResizable(true); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Thirdparty List</div></div>
+  <div class="headertitle"><div class="title">Third-Party Dependencies</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h3><a class="anchor" id="autotoc_md110"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md110"></a>
+List of dependencies</h1>
+<p>MeshLib is modular by design. Our goal is to provide only what you need, so you can avoid what you do not and keep your project lightweight. The only mandatory module is MRMesh. All others are optional.</p>
+<p>Below is a summary of all modules and their dependencies, so you can see what each requires before including it in your build</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Module   </th><th class="markdownTableHeadNone">Task   </th><th class="markdownTableHeadNone">Required modules   </th><th class="markdownTableHeadNone">Optional?    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">MRMesh   </td><td class="markdownTableBodyNone">Core geometry   </td><td class="markdownTableBodyNone">-   </td><td class="markdownTableBodyNone">No, Mandatory    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">MRIOExtras   </td><td class="markdownTableBodyNone">Input/Output   </td><td class="markdownTableBodyNone">MRMesh   </td><td class="markdownTableBodyNone">Yes    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">MRSymbolMesh   </td><td class="markdownTableBodyNone">Text-to-mesh   </td><td class="markdownTableBodyNone">MRMesh   </td><td class="markdownTableBodyNone">Yes    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">MRPython   </td><td class="markdownTableBodyNone">Python   </td><td class="markdownTableBodyNone">MRMesh   </td><td class="markdownTableBodyNone">Yes    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">MRVoxels   </td><td class="markdownTableBodyNone">Volumetric   </td><td class="markdownTableBodyNone">MRMesh   </td><td class="markdownTableBodyNone">Yes    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">MRCuda   </td><td class="markdownTableBodyNone">GPU acceleration   </td><td class="markdownTableBodyNone">MRMesh and MRVoxels   </td><td class="markdownTableBodyNone">Yes    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">MRViewer   </td><td class="markdownTableBodyNone">Rendering and user interface   </td><td class="markdownTableBodyNone">MRMesh, MRVoxels, MRSymbolMesh and MRIOExtras   </td><td class="markdownTableBodyNone">Yes   </td></tr>
+</table>
+<h3><a class="anchor" id="autotoc_md111"></a>
 MRMesh</h3>
-<p>Main library with geometry operations</p>
+<p><b>MRMesh</b> is our core module, handling geometry operations. Since it is mandatory, its dependencies are required for every build.</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Name   </th><th class="markdownTableHeadNone">Description   </th><th class="markdownTableHeadNone">License    </th></tr>
@@ -189,10 +211,10 @@ MRMesh</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a href="https://github.com/Mbed-TLS/mbedtls" rel="nofollow">Mbed TLS</a>   </td><td class="markdownTableBodyNone">a C library that implements cryptographic primitives   </td><td class="markdownTableBodyNone">Apache-2.0 or GPL-2.0-or-later   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md111"></a>
+<h3><a class="anchor" id="autotoc_md112"></a>
 MRIOExtras</h3>
-<p>Library with additional Input/Output formats</p>
-<p><b>MRMesh</b> + </p><table class="markdownTable">
+<p><b>MRIOExtras</b> adds support for the input and output of additional file formats (e.g., glTF, STEP, PDF). It requires MRMesh and includes:</p>
+<table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Name   </th><th class="markdownTableHeadNone">Description   </th><th class="markdownTableHeadNone">License    </th></tr>
 <tr class="markdownTableRowOdd">
@@ -214,19 +236,19 @@ MRIOExtras</h3>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><a href="https://leethomason.github.io/tinyxml2/" rel="nofollow">tinyxml2</a>   </td><td class="markdownTableBodyNone">an efficient, C++ XML parser   </td><td class="markdownTableBodyNone">zlib   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md112"></a>
+<h3><a class="anchor" id="autotoc_md113"></a>
 MRSymbolMesh</h3>
-<p>Library with text to mesh operations</p>
-<p><b>MRMesh</b> + </p><table class="markdownTable">
+<p><b>MRSymbolMesh</b> is our module responsible for text-to-mesh conversion operations. As such, it requires MRMesh plus:</p>
+<table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Name   </th><th class="markdownTableHeadNone">Description   </th><th class="markdownTableHeadNone">License    </th></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><a href="https://freetype.org" rel="nofollow">FreeType</a>   </td><td class="markdownTableBodyNone">a freely available software library to render fonts   </td><td class="markdownTableBodyNone">GPL-2.0, FTL(BSD like)   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md113"></a>
+<h3><a class="anchor" id="autotoc_md114"></a>
 MRPython</h3>
-<p>Library for creating python bindings and for Embedded python</p>
-<p><b>MRMesh</b> + </p><table class="markdownTable">
+<p><b>MRPython enables</b> Python bindings and embedded Python scripting for MeshLib. It depends on MRMesh and:</p>
+<table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Name   </th><th class="markdownTableHeadNone">Description   </th><th class="markdownTableHeadNone">License    </th></tr>
 <tr class="markdownTableRowOdd">
@@ -234,10 +256,10 @@ MRPython</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a href="https://github.com/pybind/pybind11" rel="nofollow">pybind11</a>   </td><td class="markdownTableBodyNone">a library that exposes C++ types in Python and vice versa   </td><td class="markdownTableBodyNone">BSD-3-Clause   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md114"></a>
+<h3><a class="anchor" id="autotoc_md115"></a>
 MRVoxels</h3>
-<p>Library for voxels operations</p>
-<p><b>MRMesh</b> + </p><table class="markdownTable">
+<p><b>MRVoxels provides</b> functionality for volumetric operations. It depends on MRMesh plus:</p>
+<table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Name   </th><th class="markdownTableHeadNone">Description   </th><th class="markdownTableHeadNone">License    </th></tr>
 <tr class="markdownTableRowOdd">
@@ -245,19 +267,19 @@ MRVoxels</h3>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><a href="https://sourceforge.net/projects/gdcm/" rel="nofollow">gdcm</a>   </td><td class="markdownTableBodyNone">C++ library dedicated to reading/parsing and writing DICOM medical files   </td><td class="markdownTableBodyNone">BSD   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md115"></a>
+<h3><a class="anchor" id="autotoc_md116"></a>
 MRCuda</h3>
-<p>Library for CUDA based algorithms</p>
-<p><b>MRMesh</b> + <b>MRVoxels</b> + </p><table class="markdownTable">
+<p><b>MRCuda enables</b> GPU-accelerated algorithms using NVIDIA CUDA. Here, you need MRMesh, MRVoxels, and:</p>
+<table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Name   </th><th class="markdownTableHeadNone">Description   </th><th class="markdownTableHeadNone">License    </th></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><a href="https://developer.nvidia.com/cuda-toolkit" rel="nofollow">CUDA</a>   </td><td class="markdownTableBodyNone">GPU-accelerated libraries, debugging and optimization tools, a C/C++ compiler, and a runtime library   </td><td class="markdownTableBodyNone"><a href="https://docs.nvidia.com/cuda/eula/index.html#license" rel="nofollow">CUDA License</a>   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md116"></a>
+<h3><a class="anchor" id="autotoc_md117"></a>
 MRViewer</h3>
-<p>Main library with rendering and window handling</p>
-<p><b>MRMesh</b> + <b>MRVoxels</b> + <b>MRSymbolMesh</b> + <b>MRIOExtras</b> + </p><table class="markdownTable">
+<p><b>MRViewer is</b> MeshLib’s module for rendering and <a class="elRef" href="./Cpp/namespaceMR_1_1UI.html">UI</a>. It handles window creation, input, and GUI elements. It needs MRMesh, MRVoxels, MRSymbolMesh, MRIOExtras, and:</p>
+<table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Name   </th><th class="markdownTableHeadNone">Description   </th><th class="markdownTableHeadNone">License    </th></tr>
 <tr class="markdownTableRowOdd">

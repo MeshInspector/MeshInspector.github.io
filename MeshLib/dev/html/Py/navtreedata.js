@@ -111,7 +111,7 @@ var NAVTREE =
         ] ]
       ] ]
     ] ],
-    [ "Thirdparty List", "../ThirdParty.html", null ]
+    [ "Third-Party Dependencies", "../ThirdParty.html", null ]
   ] ]
 ];
 

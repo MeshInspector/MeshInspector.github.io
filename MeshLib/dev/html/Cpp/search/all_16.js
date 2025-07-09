@@ -191,7 +191,7 @@ var searchData=
   ['tgtpoint_188',['tgtPoint',['../structMR_1_1ICPPairData.html#a5a8aa18bdc6d6ceb392dafa06cbf3ba7',1,'MR::ICPPairData::tgtPoint'],['../structMRICPPairData.html#af985418f8344cd7fff2fb9219041866b',1,'MRICPPairData::tgtPoint'],['../../Py/classmrmeshpy_1_1ICPPairData.html#a8fd5cbb59c667c22d5b48c5e0a3fe81e',1,'mrmeshpy::ICPPairData::tgtPoint(self)'],['../../Py/classmrmeshpy_1_1ICPPairData.html#ae3543d2260c7847ebf61a1b2bd780d4b',1,'mrmeshpy::ICPPairData::tgtPoint(self, Vector3f arg1)']]],
   ['the_20algorithm_189',['Description of the algorithm.',['../group__SubvoxelMeshCorrection.html#description',1,'']]],
   ['thickenmesh_190',['thickenMesh',['../../Py/namespacemrmeshpy.html#a229183c23cf9c49fb2d6e41a4f32f09b',1,'mrmeshpy::thickenMesh()'],['../namespaceMR.html#a4786362a7faf5309ddb05c773cf3b513',1,'MR::thickenMesh()']]],
-  ['thirdparty_20list_191',['Thirdparty List',['../../ThirdParty.html',1,'']]],
+  ['third_20party_20dependencies_191',['Third-Party Dependencies',['../../ThirdParty.html',1,'']]],
   ['thirdpartybackground_192',['ThirdpartyBackground',['../classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0aa9748daf587164a6715a081151c33bf8',1,'MR::ColorTheme']]],
   ['thirdpartylist_2edox_193',['ThirdpartyList.dox',['../../ThirdpartyList_8dox.html',1,'']]],
   ['thiscontours_194',['thisContours',['../structMRMeshAddMeshPartParameters.html#a82a303b8f1ab804167306fb5d9c8cd46',1,'MRMeshAddMeshPartParameters']]],

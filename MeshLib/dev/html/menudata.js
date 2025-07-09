@@ -80,4 +80,4 @@ var menudata={children:[
 {text:"API",url:"APIPage.html",children:[
 {text:"C++",url:"Cpp/APICppPage.html"},
 {text:"Python",url:"Py/APIPyPage.html"}]},
-{text:"Thirdparty List",url:"ThirdParty.html"}]}
+{text:"Third-Party Dependencies",url:"ThirdParty.html"}]}

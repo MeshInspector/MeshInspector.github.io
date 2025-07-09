@@ -44,7 +44,7 @@ var searchData=
   ['windowname_41',['windowName',['.././Cpp/classMR_1_1RibbonMenuSearch.html#a9e21069323068b3d3e37691e3e2bdb09',1,'MR::RibbonMenuSearch']]],
   ['windowoldpos_42',['windowOldPos',['.././Cpp/classMR_1_1Viewer.html#a4cdddbaa5eba70fd3ab533a608991894',1,'MR::Viewer']]],
   ['windowrectallocator_43',['WindowRectAllocator',['.././Cpp/classMR_1_1UI_1_1WindowRectAllocator.html',1,'MR::UI']]],
-  ['windows_44',['Windows',['../Tutorials.html#autotoc_md118',1,'How to Create a First Plugin Using MeshLib C++ on Windows'],['../FirstPluginTutorial.html',1,'How to create a first plugin using MeshLib C++ on Windows'],['../MeshLibCSharpSetupGuide.html#autotoc_md44',1,'Using Visual Studio on Windows'],['../MeshLibCppSetupGuide.html#CppSetupWindows',1,'Windows']]],
+  ['windows_44',['Windows',['../Tutorials.html#autotoc_md119',1,'How to Create a First Plugin Using MeshLib C++ on Windows'],['../FirstPluginTutorial.html',1,'How to create a first plugin using MeshLib C++ on Windows'],['../MeshLibCSharpSetupGuide.html#autotoc_md44',1,'Using Visual Studio on Windows'],['../MeshLibCppSetupGuide.html#CppSetupWindows',1,'Windows']]],
   ['windows_20integration_20guide_45',['Windows Integration Guide',['../MeshLibCmakeSetupGuide.html#autotoc_md17',1,'']]],
   ['windowsavepos_46',['windowSavePos',['.././Cpp/classMR_1_1Viewer.html#ace49ac281b241eab9e8e5f1aae4bcdbe',1,'MR::Viewer']]],
   ['windowsavesize_47',['windowSaveSize',['.././Cpp/classMR_1_1Viewer.html#a2b4fb1e2f21f33e213858ab579eb8620',1,'MR::Viewer']]],

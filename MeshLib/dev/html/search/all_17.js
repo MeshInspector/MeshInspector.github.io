@@ -221,7 +221,7 @@ var searchData=
   ['userscaling_5f_218',['userScaling_',['.././Cpp/classMR_1_1ImGuiMenu.html#aa80cfb0d46a306f3db6578f73214759d',1,'MR::ImGuiMenu']]],
   ['usewindingnumber_219',['useWindingNumber',['.././Cpp/structMR_1_1FindInnerShellSettings.html#ac15bd082d7f22aa7db37b1263fb2f8e4',1,'MR::FindInnerShellSettings::useWindingNumber'],['.././Py/classmrmeshpy_1_1FindInnerShellSettings.html#ac866c181d88898ec572b13bb20c1b474',1,'mrmeshpy::FindInnerShellSettings::useWindingNumber(self)'],['.././Py/classmrmeshpy_1_1FindInnerShellSettings.html#a062ca3b764cf23982652255cff18e92b',1,'mrmeshpy::FindInnerShellSettings::useWindingNumber(self, bool arg1)']]],
   ['using_20emscripten_220',['Building WebAssembly with MeshLib Using Emscripten',['../MeshLibCppSetupGuide.html#CppSetupWASM',1,'']]],
-  ['using_20meshlib_20c_20on_20windows_221',['How to Create a First Plugin Using MeshLib C++ on Windows',['../Tutorials.html#autotoc_md118',1,'']]],
+  ['using_20meshlib_20c_20on_20windows_221',['How to Create a First Plugin Using MeshLib C++ on Windows',['../Tutorials.html#autotoc_md119',1,'']]],
   ['using_20meshlib_20c_20on_20windows_222',['How to create a first plugin using MeshLib C++ on Windows',['../FirstPluginTutorial.html',1,'']]],
   ['using_20meshlib_20with_20c_223',['Using MeshLib with C#',['../MeshLibCSharpSetupGuide.html#UsingMeshLibwithCSharp',1,'']]],
   ['using_20visual_20studio_20on_20windows_224',['Using Visual Studio on Windows',['../MeshLibCSharpSetupGuide.html#autotoc_md44',1,'']]],

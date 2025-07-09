@@ -240,4 +240,4 @@ var menudata={children:[
 {text:"z",url:"functions_vars_z.html#index_z"}]}]}]},
 {text:"File List",url:"files.html",children:[
 {text:"File List",url:"files.html"}]}]}]},
-{text:"Thirdparty List",url:"../ThirdParty.html"}]}
+{text:"Third-Party Dependencies",url:"../ThirdParty.html"}]}

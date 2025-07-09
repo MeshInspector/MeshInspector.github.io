@@ -128,7 +128,7 @@ var NAVTREE =
       ] ],
       [ "Python", "../Py/APIPyPage.html", null ]
     ] ],
-    [ "Thirdparty List", "../ThirdParty.html", null ]
+    [ "Third-Party Dependencies", "../ThirdParty.html", null ]
   ] ]
 ];
 

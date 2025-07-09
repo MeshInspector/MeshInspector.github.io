@@ -2,7 +2,7 @@ var searchData=
 [
   ['terrain_20triangulation_20example_0',['Terrain Triangulation Example',['../../ExampleTerrainTriangulation.html',1,'']]],
   ['text_20to_20mesh_1',['Convert text to mesh',['../../ExampleMeshFromText.html',1,'']]],
-  ['thirdparty_20list_2',['Thirdparty List',['../../ThirdParty.html',1,'']]],
+  ['third_20party_20dependencies_2',['Third-Party Dependencies',['../../ThirdParty.html',1,'']]],
   ['to_20add_20plugin_3',['How to Add Plugin',['../../HowtoAddPluginOverview.html',1,'']]],
   ['to_20create_20a_20first_20plugin_20using_20meshlib_20c_20on_20windows_4',['How to create a first plugin using MeshLib C++ on Windows',['../../FirstPluginTutorial.html',1,'']]],
   ['to_20install_20meshlib_20sdk_20for_20python_5',['How to Install MeshLib SDK for Python',['../../MeshLibPythonSetupGuide.html',1,'']]],

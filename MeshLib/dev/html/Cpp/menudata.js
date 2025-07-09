@@ -439,4 +439,4 @@ var menudata={children:[
 {text:"t",url:"globals_defs.html#index_t"},
 {text:"v",url:"globals_defs.html#index_v"}]}]}]}]},
 {text:"Python",url:"../Py/APIPyPage.html"}]},
-{text:"Thirdparty List",url:"../ThirdParty.html"}]}
+{text:"Third-Party Dependencies",url:"../ThirdParty.html"}]}
