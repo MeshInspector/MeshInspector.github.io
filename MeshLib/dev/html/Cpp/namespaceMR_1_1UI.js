@@ -71,6 +71,7 @@ var namespaceMR_1_1UI =
     [ "inputTextIntoArrayMultilineFullyScrollable", "namespaceMR_1_1UI.html#a5e2b43c7fc21e6665c27724211ffb039", null ],
     [ "inputTextMultiline", "namespaceMR_1_1UI.html#ab4275e67335731ec2250b16795f2e4a1", null ],
     [ "inputTextMultilineFullyScrollable", "namespaceMR_1_1UI.html#a0e4fcd89c72f4be1967ab7ba90d92c1b", null ],
+    [ "mouseControlHint", "namespaceMR_1_1UI.html#a4d7733f0351b6a1220f2fe89aecf9106", null ],
     [ "nonOverlappingLabel", "namespaceMR_1_1UI.html#a50698dfeecb0a68a2ddfc71eae08a0c7", null ],
     [ "notificationChar", "namespaceMR_1_1UI.html#a8383efc65d62e5b793a5e660ecd07c1e", null ],
     [ "notificationFrame", "namespaceMR_1_1UI.html#a5c7ab0aa29b1ce0d30d581d05a93ef8c", null ],

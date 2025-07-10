@@ -1,5 +1,7 @@
 var NAVTREEINDEX85 =
 {
+"structMR_1_1RigidScaleXf3.html#a89ce25c6f6b3805955c04f054a2fb0a7":[6,0,1,0,1,617,9],
+"structMR_1_1RigidScaleXf3.html#a89ce25c6f6b3805955c04f054a2fb0a7":[6,0,2,0,1,601,9],
 "structMR_1_1RigidScaleXf3.html#a997f09f418f6e779a0a511288d316a06":[6,0,1,0,1,617,2],
 "structMR_1_1RigidScaleXf3.html#a997f09f418f6e779a0a511288d316a06":[6,0,2,0,1,601,2],
 "structMR_1_1RigidScaleXf3.html#aab41cf4d5be1d1a224a24a5b484e3a1d":[6,0,1,0,1,617,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX85 =
 "structMR_1_1SignedDistanceToMeshOptions.html":[6,0,2,0,1,650],
 "structMR_1_1SignedDistanceToMeshOptions.html#a0cd9e5d7a7828694eccf3cd8a455f47e":[6,0,1,0,1,666,0],
 "structMR_1_1SignedDistanceToMeshOptions.html#a0cd9e5d7a7828694eccf3cd8a455f47e":[6,0,2,0,1,650,0],
-"structMR_1_1SignedDistanceToMeshResult.html":[6,0,0,1,27],
-"structMR_1_1SignedDistanceToMeshResult.html#ab2ab2feebc81103d19915755ccb48d23":[6,0,0,1,27,0],
-"structMR_1_1SignedDistanceToMeshResult.html#adb459805ccfb452c3a5c82fe673bbfec":[6,0,0,1,27,2]
+"structMR_1_1SignedDistanceToMeshResult.html":[6,0,0,1,27]
 };

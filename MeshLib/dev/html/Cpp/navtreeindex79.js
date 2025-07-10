@@ -1,5 +1,7 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1Meta_1_1SharedPtrTraits.html":[6,0,2,0,1,12,0],
+"structMR_1_1Meta_1_1SharedPtrTraits.html#a47fdaa7dfd2dfb549cbc8209d27ec617":[6,0,1,0,1,20,0,0],
 "structMR_1_1Meta_1_1SharedPtrTraits.html#a47fdaa7dfd2dfb549cbc8209d27ec617":[6,0,2,0,1,12,0,0],
 "structMR_1_1MetricToAStarPenalty.html":[6,0,1,0,1,395],
 "structMR_1_1MetricToAStarPenalty.html":[6,0,2,0,1,379],
@@ -247,7 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1NameTagClickListener.html#a4c87ad9f9d5bde9a4037d25bdc190cba":[6,0,2,0,1,405,1],
 "structMR_1_1NameTagClickListener.html#aa3cab6f28416e27d7628154e93009e31":[6,0,1,0,1,421,2],
 "structMR_1_1NameTagClickListener.html#aa3cab6f28416e27d7628154e93009e31":[6,0,2,0,1,405,2],
-"structMR_1_1NewEdgesMap.html":[6,0,0,8,2],
-"structMR_1_1NewEdgesMap.html#a1d44ed6247b64a9007baa4bbbf2903aa":[6,0,0,8,2,0],
-"structMR_1_1NewEdgesMap.html#a3af4a8bfbe6579dc273d0b9f368f77aa":[6,0,0,8,2,1]
+"structMR_1_1NewEdgesMap.html":[6,0,0,8,2]
 };

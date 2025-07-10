@@ -337,6 +337,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a8383efc65d62e5b793a5e660ecd07c1e" id="r_a8383efc65d62e5b793a5e660ecd07c1e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const std::pair&lt; const char *, ImU32 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8383efc65d62e5b793a5e660ecd07c1e">notificationChar</a> (<a class="el" href="namespaceMR.html#a3ccf27858d11d72a88bdbaf6e9d2b05d">NotificationType</a> type)</td></tr>
 <tr class="memdesc:a8383efc65d62e5b793a5e660ecd07c1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns icons font character for given notification type, and its color  <br /></td></tr>
 <tr class="separator:a8383efc65d62e5b793a5e660ecd07c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d7733f0351b6a1220f2fe89aecf9106" id="r_a4d7733f0351b6a1220f2fe89aecf9106"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d7733f0351b6a1220f2fe89aecf9106">mouseControlHint</a> (ImGuiMouseButton btn, const std::string &amp;hint, float scaling)</td></tr>
+<tr class="memdesc:a4d7733f0351b6a1220f2fe89aecf9106"><td class="mdescLeft">&#160;</td><td class="mdescRight">draws hint with corresponding mouse btn icon  <br /></td></tr>
+<tr class="separator:a4d7733f0351b6a1220f2fe89aecf9106"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94309985ed89c89e0d6199e0c6a2e333" id="r_a94309985ed89c89e0d6199e0c6a2e333"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94309985ed89c89e0d6199e0c6a2e333">transparentText</a> (const char *fmt,...)</td></tr>
 <tr class="memdesc:a94309985ed89c89e0d6199e0c6a2e333"><td class="mdescLeft">&#160;</td><td class="mdescRight">similar to ImGui::Text but use current text color with alpha channel = 0.5  <br /></td></tr>
 <tr class="separator:a94309985ed89c89e0d6199e0c6a2e333"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1945,6 +1948,34 @@ template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidDragSpeedForTarge
 </div><div class="memdoc">
 
 <p>This version adds a horizontal scrollbar. Also it never draws the label, and uses full window width by default (so you can pass <code>0</code> as width). </p>
+
+</div>
+</div>
+<a id="a4d7733f0351b6a1220f2fe89aecf9106" name="a4d7733f0351b6a1220f2fe89aecf9106"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d7733f0351b6a1220f2fe89aecf9106">&#9670;&#160;</a></span>mouseControlHint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::UI::mouseControlHint </td>
+          <td>(</td>
+          <td class="paramtype">ImGuiMouseButton</td>          <td class="paramname"><span class="paramname"><em>btn</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>hint</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>scaling</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>draws hint with corresponding mouse btn icon </p>
 
 </div>
 </div>

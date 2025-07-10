@@ -69,6 +69,7 @@ var MRUIStyle_8h =
     [ "inputTextIntoArrayMultilineFullyScrollable", "MRUIStyle_8h.html#a5e2b43c7fc21e6665c27724211ffb039", null ],
     [ "inputTextMultiline", "MRUIStyle_8h.html#ab4275e67335731ec2250b16795f2e4a1", null ],
     [ "inputTextMultilineFullyScrollable", "MRUIStyle_8h.html#a0e4fcd89c72f4be1967ab7ba90d92c1b", null ],
+    [ "mouseControlHint", "MRUIStyle_8h.html#a4d7733f0351b6a1220f2fe89aecf9106", null ],
     [ "notificationChar", "MRUIStyle_8h.html#a8383efc65d62e5b793a5e660ecd07c1e", null ],
     [ "notificationFrame", "MRUIStyle_8h.html#a5c7ab0aa29b1ce0d30d581d05a93ef8c", null ],
     [ "progressBar", "MRUIStyle_8h.html#aa49fc435b33d42412b5a43816ed40e52", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1PointCloud.html#ac0910605ccb60ed6a5dbc543e9e98fe2":[6,0,0,12,0,18],
+"structMR_1_1PointCloud.html#ac3b1015ea089d93658ff4783c2282c8e":[6,0,0,12,0,4],
 "structMR_1_1PointCloud.html#ac58b0b5f3bf2f48f46f9fe30e054b7cb":[6,0,0,12,0,9],
 "structMR_1_1PointCloud.html#ada79e353b7a72ed40a42bc08b60cc225":[6,0,0,12,0,2],
 "structMR_1_1PointCloud.html#af2811d551e2205169b30d34edd323c26":[6,0,0,12,0,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1PolylineToDistanceVolumeParams.html#acb46281fb4d9a0d9f27091d5ffe5f7b3":[6,0,1,0,1,529,0],
 "structMR_1_1PolylineToDistanceVolumeParams.html#acb46281fb4d9a0d9f27091d5ffe5f7b3":[6,0,2,0,1,513,0],
 "structMR_1_1PolylineToVolumeParams.html":[6,0,1,0,1,531],
-"structMR_1_1PolylineToVolumeParams.html":[6,0,2,0,1,515],
-"structMR_1_1PolylineToVolumeParams.html#a000c468f653f412dd5e5110354c49d7b":[6,0,1,0,1,531,0],
-"structMR_1_1PolylineToVolumeParams.html#a000c468f653f412dd5e5110354c49d7b":[6,0,2,0,1,515,0]
+"structMR_1_1PolylineToVolumeParams.html":[6,0,2,0,1,515]
 };

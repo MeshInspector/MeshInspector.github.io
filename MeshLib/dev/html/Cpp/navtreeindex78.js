@@ -1,5 +1,7 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1MeshLoadSettings.html#a230e016c84aafc3886deeb6fd2b33455":[6,0,2,0,1,353,6],
+"structMR_1_1MeshLoadSettings.html#a3d2dec2482a716804af51ed748ebcebc":[6,0,1,0,1,369,1],
 "structMR_1_1MeshLoadSettings.html#a3d2dec2482a716804af51ed748ebcebc":[6,0,2,0,1,353,1],
 "structMR_1_1MeshLoadSettings.html#a60b5f4bc63d35b0ef8261da4de65917d":[6,0,1,0,1,369,0],
 "structMR_1_1MeshLoadSettings.html#a60b5f4bc63d35b0ef8261da4de65917d":[6,0,2,0,1,353,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1MeshVoxelsConverter.html#ae9647fc22d86c2a08eeefd53f6f48961":[6,0,2,0,1,378,2],
 "structMR_1_1MeshVoxelsConverter.html#aff9a0bc144c30c521df635ba7c3ae056":[6,0,1,0,1,394,7],
 "structMR_1_1MeshVoxelsConverter.html#aff9a0bc144c30c521df635ba7c3ae056":[6,0,2,0,1,378,7],
-"structMR_1_1Meta_1_1SharedPtrTraits.html":[6,0,1,0,1,20,0],
-"structMR_1_1Meta_1_1SharedPtrTraits.html":[6,0,2,0,1,12,0],
-"structMR_1_1Meta_1_1SharedPtrTraits.html#a47fdaa7dfd2dfb549cbc8209d27ec617":[6,0,1,0,1,20,0,0]
+"structMR_1_1Meta_1_1SharedPtrTraits.html":[6,0,1,0,1,20,0]
 };

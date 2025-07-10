@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1ConnectionHolder.html#a99ffc44dd73f73e2e907b7ab5bb38aaf":[6,0,2,0,1,138,0],
+"structMR_1_1ConnectionHolder.html#afe082892826d9c3fe604a038f3509c70":[6,0,1,0,1,154,1],
 "structMR_1_1ConnectionHolder.html#afe082892826d9c3fe604a038f3509c70":[6,0,2,0,1,138,1],
 "structMR_1_1ConstantCuspParams.html":[6,0,1,0,1,155],
 "structMR_1_1ConstantCuspParams.html":[6,0,2,0,1,139],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1DirectoryRecursiveIterator.html#a1d7ccfb4cee663b44ee8386962c7898d":[6,0,1,0,1,187,2],
 "structMR_1_1DirectoryRecursiveIterator.html#a1d7ccfb4cee663b44ee8386962c7898d":[6,0,2,0,1,171,2],
 "structMR_1_1DirectoryRecursiveIterator.html#a86cbbbe84f0161d57736c0baca9e7f48":[6,0,1,0,1,187,0],
-"structMR_1_1DirectoryRecursiveIterator.html#a86cbbbe84f0161d57736c0baca9e7f48":[6,0,2,0,1,171,0],
-"structMR_1_1DirectoryRecursiveIterator.html#af1ca3bdb83138eed5c4e5dd621505ffb":[6,0,1,0,1,187,1],
-"structMR_1_1DirectoryRecursiveIterator.html#af1ca3bdb83138eed5c4e5dd621505ffb":[6,0,2,0,1,171,1]
+"structMR_1_1DirectoryRecursiveIterator.html#a86cbbbe84f0161d57736c0baca9e7f48":[6,0,2,0,1,171,0]
 };

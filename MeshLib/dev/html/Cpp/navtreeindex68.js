@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1BooleanResult.html":[6,0,0,8,5],
+"structMR_1_1BooleanResult.html#a2d3a10c35e289abf78a95bd3005b9486":[6,0,0,8,5,7],
 "structMR_1_1BooleanResult.html#a48ebd7d576c05349da5aab0f92e0d289":[6,0,0,8,5,5],
 "structMR_1_1BooleanResult.html#a5158c930dad94ff45198508c2b01788a":[6,0,0,8,5,9],
 "structMR_1_1BooleanResult.html#a78e59aeca9497a9c74d7512157fcf5df":[6,0,0,8,5,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1ConnectionHolder.html":[6,0,2,0,1,138],
 "structMR_1_1ConnectionHolder.html#a56827c58cd144995185b539aad6929d4":[6,0,1,0,1,154,2],
 "structMR_1_1ConnectionHolder.html#a56827c58cd144995185b539aad6929d4":[6,0,2,0,1,138,2],
-"structMR_1_1ConnectionHolder.html#a99ffc44dd73f73e2e907b7ab5bb38aaf":[6,0,1,0,1,154,0],
-"structMR_1_1ConnectionHolder.html#a99ffc44dd73f73e2e907b7ab5bb38aaf":[6,0,2,0,1,138,0],
-"structMR_1_1ConnectionHolder.html#afe082892826d9c3fe604a038f3509c70":[6,0,1,0,1,154,1]
+"structMR_1_1ConnectionHolder.html#a99ffc44dd73f73e2e907b7ab5bb38aaf":[6,0,1,0,1,154,0]
 };
