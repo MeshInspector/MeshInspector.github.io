@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"MRMeshC_2MRMakeSphereMesh_8h.html#aff3a5d40e4c9735457f46bb94fd6fefa":[6,0,3,0,0,1,5,23,5],
 "MRMeshC_2MRMakeSphereMesh_8h_source.html":[6,0,3,0,0,1,5,23],
 "MRMeshC_2MRMatrix3_8h.html":[6,0,3,0,0,1,5,24],
 "MRMeshC_2MRMatrix3_8h.html#a11cf7e2444bea875abd31fa0c30607bc":[6,0,3,0,0,1,5,24,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "MRMeshC_2MRMultiwayICP_8h.html#a85436a61b2d55359e9dd0fe4c4adc4f6ac633b541224715e0e47cf60653fac42e":[6,0,3,0,0,1,5,51,4,0],
 "MRMeshC_2MRMultiwayICP_8h.html#a85436a61b2d55359e9dd0fe4c4adc4f6ad2ba31aa68368b838e979f39b8e0f0ab":[6,0,3,0,0,1,5,51,4,1],
 "MRMeshC_2MRMultiwayICP_8h.html#a8c74b1a33e19cc9f3bf1b3db8d360dda":[6,0,3,0,0,1,5,51,10],
-"MRMeshC_2MRMultiwayICP_8h.html#a98f1d2972eb9f1c59fa786e91fada290":[6,0,3,0,0,1,5,51,14],
-"MRMeshC_2MRMultiwayICP_8h.html#aa03e3f2172ce72b70972af946da67063":[6,0,3,0,0,1,5,51,6]
+"MRMeshC_2MRMultiwayICP_8h.html#a98f1d2972eb9f1c59fa786e91fada290":[6,0,3,0,0,1,5,51,14]
 };

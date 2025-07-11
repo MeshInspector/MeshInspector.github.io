@@ -172,10 +172,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aedaebeb791f1300a121668a8a525ecb1" id="r_aedaebeb791f1300a121668a8a525ecb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedaebeb791f1300a121668a8a525ecb1">getDefaultPattern</a> () const</td></tr>
 <tr class="memdesc:aedaebeb791f1300a121668a8a525ecb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns default logger pattern  <br /></td></tr>
 <tr class="separator:aedaebeb791f1300a121668a8a525ecb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07fd961518f48457c8f593cb84b583cc" id="r_a07fd961518f48457c8f593cb84b583cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07fd961518f48457c8f593cb84b583cc">addSink</a> (const spdlog::sink_ptr &amp;sink)</td></tr>
+<tr class="memitem:a07fd961518f48457c8f593cb84b583cc" id="r_a07fd961518f48457c8f593cb84b583cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07fd961518f48457c8f593cb84b583cc">addSink</a> (const <a class="el" href="namespacespdlog.html#ace143432a1dd3e3ddde8949f014f90da">spdlog::sink_ptr</a> &amp;sink)</td></tr>
 <tr class="memdesc:a07fd961518f48457c8f593cb84b583cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds custom sink to logger  <br /></td></tr>
 <tr class="separator:a07fd961518f48457c8f593cb84b583cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49397b1c0308f3639e914775ba6d0b38" id="r_a49397b1c0308f3639e914775ba6d0b38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49397b1c0308f3639e914775ba6d0b38">removeSink</a> (const spdlog::sink_ptr &amp;sink)</td></tr>
+<tr class="memitem:a49397b1c0308f3639e914775ba6d0b38" id="r_a49397b1c0308f3639e914775ba6d0b38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49397b1c0308f3639e914775ba6d0b38">removeSink</a> (const <a class="el" href="namespacespdlog.html#ace143432a1dd3e3ddde8949f014f90da">spdlog::sink_ptr</a> &amp;sink)</td></tr>
 <tr class="separator:a49397b1c0308f3639e914775ba6d0b38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36009f2c90bd53d2e844e3c72c21e554" id="r_a36009f2c90bd53d2e844e3c72c21e554"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36009f2c90bd53d2e844e3c72c21e554">getLogFileName</a> () const</td></tr>
 <tr class="memdesc:a36009f2c90bd53d2e844e3c72c21e554"><td class="mdescLeft">&#160;</td><td class="mdescRight">return filename of first found file sink, if there is no one, returns {}  <br /></td></tr>
@@ -185,6 +185,18 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aac7549309d09f2c9a41818a18c1b0e50" id="r_aac7549309d09f2c9a41818a18c1b0e50"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Logger.html">Logger</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac7549309d09f2c9a41818a18c1b0e50">instance</a> ()</td></tr>
 <tr class="separator:aac7549309d09f2c9a41818a18c1b0e50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aceba61ab06a9d2f9f06d6799252fb5db" id="r_aceba61ab06a9d2f9f06d6799252fb5db"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aceba61ab06a9d2f9f06d6799252fb5db">trace</a> (std::string_view msg)</td></tr>
+<tr class="separator:aceba61ab06a9d2f9f06d6799252fb5db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae14c159398416dca6e41f47d55c87709" id="r_ae14c159398416dca6e41f47d55c87709"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae14c159398416dca6e41f47d55c87709">debug</a> (std::string_view msg)</td></tr>
+<tr class="separator:ae14c159398416dca6e41f47d55c87709"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4b6f220539dbc6ac6a26f0d085e10b1" id="r_ae4b6f220539dbc6ac6a26f0d085e10b1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4b6f220539dbc6ac6a26f0d085e10b1">info</a> (std::string_view msg)</td></tr>
+<tr class="separator:ae4b6f220539dbc6ac6a26f0d085e10b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42470a1128cda082f1ab76e2f573e22e" id="r_a42470a1128cda082f1ab76e2f573e22e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42470a1128cda082f1ab76e2f573e22e">warn</a> (std::string_view msg)</td></tr>
+<tr class="separator:a42470a1128cda082f1ab76e2f573e22e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7090ce4ccaa16c574a144bd4ca06aab" id="r_ad7090ce4ccaa16c574a144bd4ca06aab"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7090ce4ccaa16c574a144bd4ca06aab">error</a> (std::string_view msg)</td></tr>
+<tr class="separator:ad7090ce4ccaa16c574a144bd4ca06aab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa047bdafd2b845818a2f49b89f684e0e" id="r_aa047bdafd2b845818a2f49b89f684e0e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa047bdafd2b845818a2f49b89f684e0e">critical</a> (std::string_view msg)</td></tr>
+<tr class="separator:aa047bdafd2b845818a2f49b89f684e0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Make default spd logger. </p>
@@ -198,13 +210,88 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::Logger::addSink </td>
           <td>(</td>
-          <td class="paramtype">const spdlog::sink_ptr &amp;</td>          <td class="paramname"><span class="paramname"><em>sink</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="namespacespdlog.html#ace143432a1dd3e3ddde8949f014f90da">spdlog::sink_ptr</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sink</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>adds custom sink to logger </p>
+
+</div>
+</div>
+<a id="aa047bdafd2b845818a2f49b89f684e0e" name="aa047bdafd2b845818a2f49b89f684e0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa047bdafd2b845818a2f49b89f684e0e">&#9670;&#160;</a></span>critical()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::Logger::critical </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>msg</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae14c159398416dca6e41f47d55c87709" name="ae14c159398416dca6e41f47d55c87709"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae14c159398416dca6e41f47d55c87709">&#9670;&#160;</a></span>debug()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::Logger::debug </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>msg</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad7090ce4ccaa16c574a144bd4ca06aab" name="ad7090ce4ccaa16c574a144bd4ca06aab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7090ce4ccaa16c574a144bd4ca06aab">&#9670;&#160;</a></span>error()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::Logger::error </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>msg</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -265,6 +352,31 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ae4b6f220539dbc6ac6a26f0d085e10b1" name="ae4b6f220539dbc6ac6a26f0d085e10b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4b6f220539dbc6ac6a26f0d085e10b1">&#9670;&#160;</a></span>info()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::Logger::info </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>msg</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aac7549309d09f2c9a41818a18c1b0e50" name="aac7549309d09f2c9a41818a18c1b0e50"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aac7549309d09f2c9a41818a18c1b0e50">&#9670;&#160;</a></span>instance()</h2>
 
@@ -299,10 +411,61 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::Logger::removeSink </td>
           <td>(</td>
-          <td class="paramtype">const spdlog::sink_ptr &amp;</td>          <td class="paramname"><span class="paramname"><em>sink</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="namespacespdlog.html#ace143432a1dd3e3ddde8949f014f90da">spdlog::sink_ptr</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sink</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aceba61ab06a9d2f9f06d6799252fb5db" name="aceba61ab06a9d2f9f06d6799252fb5db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aceba61ab06a9d2f9f06d6799252fb5db">&#9670;&#160;</a></span>trace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::Logger::trace </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>msg</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>simple methods to log messages for more optimal methods use <a class="el" href="#ac5d54247fea49f7312322217b9c8620b" title="store this pointer if need to prolong logger life time (necessary to log something from destructors)">getSpdLogger()</a> </p>
+
+</div>
+</div>
+<a id="a42470a1128cda082f1ab76e2f573e22e" name="a42470a1128cda082f1ab76e2f573e22e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42470a1128cda082f1ab76e2f573e22e">&#9670;&#160;</a></span>warn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::Logger::warn </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>msg</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

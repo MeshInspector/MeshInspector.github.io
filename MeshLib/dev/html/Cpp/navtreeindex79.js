@@ -1,5 +1,9 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1MeshVoxelsConverter.html#ae9647fc22d86c2a08eeefd53f6f48961":[6,0,2,0,1,378,2],
+"structMR_1_1MeshVoxelsConverter.html#aff9a0bc144c30c521df635ba7c3ae056":[6,0,1,0,1,394,7],
+"structMR_1_1MeshVoxelsConverter.html#aff9a0bc144c30c521df635ba7c3ae056":[6,0,2,0,1,378,7],
+"structMR_1_1Meta_1_1SharedPtrTraits.html":[6,0,1,0,1,20,0],
 "structMR_1_1Meta_1_1SharedPtrTraits.html":[6,0,2,0,1,12,0],
 "structMR_1_1Meta_1_1SharedPtrTraits.html#a47fdaa7dfd2dfb549cbc8209d27ec617":[6,0,1,0,1,20,0,0],
 "structMR_1_1Meta_1_1SharedPtrTraits.html#a47fdaa7dfd2dfb549cbc8209d27ec617":[6,0,2,0,1,12,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1NameTagClickListener.html#a241455464a68ef410af14f445c6dad6b":[6,0,2,0,1,405,3],
 "structMR_1_1NameTagClickListener.html#a4a8c57e5f08a369097b9f8d66a0cb097":[6,0,1,0,1,421,0],
 "structMR_1_1NameTagClickListener.html#a4a8c57e5f08a369097b9f8d66a0cb097":[6,0,2,0,1,405,0],
-"structMR_1_1NameTagClickListener.html#a4c87ad9f9d5bde9a4037d25bdc190cba":[6,0,1,0,1,421,1],
-"structMR_1_1NameTagClickListener.html#a4c87ad9f9d5bde9a4037d25bdc190cba":[6,0,2,0,1,405,1],
-"structMR_1_1NameTagClickListener.html#aa3cab6f28416e27d7628154e93009e31":[6,0,1,0,1,421,2],
-"structMR_1_1NameTagClickListener.html#aa3cab6f28416e27d7628154e93009e31":[6,0,2,0,1,405,2],
-"structMR_1_1NewEdgesMap.html":[6,0,0,8,2]
+"structMR_1_1NameTagClickListener.html#a4c87ad9f9d5bde9a4037d25bdc190cba":[6,0,1,0,1,421,1]
 };

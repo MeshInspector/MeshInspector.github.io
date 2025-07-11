@@ -1,5 +1,9 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1AncillaryLabel.html#a90d00ac352d1fa4ccc4cff63c8a887b6":[6,0,1,0,1,56,8],
+"structMR_1_1AncillaryLabel.html#a90d00ac352d1fa4ccc4cff63c8a887b6":[6,0,2,0,1,40,8],
+"structMR_1_1AncillaryLabel.html#a9f49573b059e019198ac431311d41dee":[6,0,1,0,1,56,0],
+"structMR_1_1AncillaryLabel.html#a9f49573b059e019198ac431311d41dee":[6,0,2,0,1,40,0],
 "structMR_1_1AncillaryLabel.html#aa817fb0fcef0118aa48198fc9fdff44a":[6,0,1,0,1,56,9],
 "structMR_1_1AncillaryLabel.html#aa817fb0fcef0118aa48198fc9fdff44a":[6,0,2,0,1,40,9],
 "structMR_1_1AncillaryLabel.html#aac228064feb136fb3eeb98efcfeac28c":[6,0,1,0,1,56,10],
@@ -245,9 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1BooleanParameters.html#af4d200cef62096c6780b126ec5eaf0a7":[6,0,1,0,1,79,5],
 "structMR_1_1BooleanParameters.html#af4d200cef62096c6780b126ec5eaf0a7":[6,0,2,0,1,63,5],
 "structMR_1_1BooleanPreCutResult.html":[6,0,1,0,1,80],
-"structMR_1_1BooleanPreCutResult.html":[6,0,2,0,1,64],
-"structMR_1_1BooleanPreCutResult.html#ac3043629b51e619f82eddefaa9e678fb":[6,0,1,0,1,80,1],
-"structMR_1_1BooleanPreCutResult.html#ac3043629b51e619f82eddefaa9e678fb":[6,0,2,0,1,64,1],
-"structMR_1_1BooleanPreCutResult.html#afaca754878c1a03d1db3e1b2e6933dfc":[6,0,1,0,1,80,0],
-"structMR_1_1BooleanPreCutResult.html#afaca754878c1a03d1db3e1b2e6933dfc":[6,0,2,0,1,64,0]
+"structMR_1_1BooleanPreCutResult.html":[6,0,2,0,1,64]
 };

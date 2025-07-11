@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"namespacemembers_func_t.html":[6,0,1,1,1,17],
 "namespacemembers_func_u.html":[6,0,1,1,1,18],
 "namespacemembers_func_v.html":[6,0,1,1,1,19],
 "namespacemembers_func_w.html":[6,0,1,1,1,20],
@@ -47,6 +48,9 @@ var NAVTREEINDEX65 =
 "namespacemembers_y.html":[6,0,1,1,0,22],
 "namespacemembers_z.html":[6,0,1,1,0,23],
 "namespaces.html":[6,0,1,0],
+"namespacespdlog.html":[6,0,1,0,2],
+"namespacespdlog.html#ace143432a1dd3e3ddde8949f014f90da":[6,0,1,0,2,1],
+"namespacespdlog_1_1sinks.html":[6,0,1,0,2,0],
 "pages.html":[],
 "structImGui_1_1CustomStatePluginWindowParameters.html":[6,0,1,0,0,0],
 "structImGui_1_1CustomStatePluginWindowParameters.html":[6,0,2,0,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX65 =
 "structMRMakeTorusParameters.html#a17f0a3976680bd5bf51a72024eeb1427":[6,0,2,0,29,0],
 "structMRMakeTorusParameters.html#a8d8c9a815bce9cd179486391928d019c":[6,0,2,0,29,2],
 "structMRMakeTorusParameters.html#ac7122dd9e2fdf5085a86d09c22f0d6a2":[6,0,2,0,29,3],
-"structMRMakeTorusParameters.html#af4b7950cf44e13e3a179354f293fc935":[6,0,2,0,29,1],
-"structMRMakeUVSphereParameters.html":[6,0,2,0,30],
-"structMRMakeUVSphereParameters.html#ad8c1e08a0f485ea2145d4e2125289750":[6,0,2,0,30,0],
-"structMRMakeUVSphereParameters.html#aedc7390bb236cdc9cf5301bbe25ece8e":[6,0,2,0,30,1],
-"structMRMakeUVSphereParameters.html#af470017e8fbca8a02433a21aea67d8c1":[6,0,2,0,30,2]
+"structMRMakeTorusParameters.html#af4b7950cf44e13e3a179354f293fc935":[6,0,2,0,29,1]
 };

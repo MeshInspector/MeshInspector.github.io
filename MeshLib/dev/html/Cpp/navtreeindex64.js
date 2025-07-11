@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"namespaceMR_1_1ProgressBar.html":[6,0,1,0,1,29],
 "namespaceMR_1_1ProgressBar.html#a01e2c488a5c5dea28c7203cfbfbfd0f1":[6,0,1,0,1,29,11],
 "namespaceMR_1_1ProgressBar.html#a08670326b3d5427ad65c0583c83ff4ee":[6,0,1,0,1,29,3],
 "namespaceMR_1_1ProgressBar.html#a096de280a40715b2c4db2b4ccfeb821d":[6,0,1,0,1,29,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "namespacemembers_func_p.html":[6,0,1,1,1,13],
 "namespacemembers_func_q.html":[6,0,1,1,1,14],
 "namespacemembers_func_r.html":[6,0,1,1,1,15],
-"namespacemembers_func_s.html":[6,0,1,1,1,16],
-"namespacemembers_func_t.html":[6,0,1,1,1,17]
+"namespacemembers_func_s.html":[6,0,1,1,1,16]
 };
