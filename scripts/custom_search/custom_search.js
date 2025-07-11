@@ -91,7 +91,7 @@ function createCustomSearchResults( searchStr, resultsPath )
   if ( searchStr == "" )
     return 0;
 
-  createItemWeights( searchResults.convertToId( searchStr ) );
+  createItemWeights( convertToId( searchStr ) );
 
   const results = document.getElementById("SRResults");
   results.innerHTML = '';

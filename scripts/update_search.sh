@@ -1,10 +1,9 @@
 #!/bin/bash
 
 # Run the script only from MeshInspector.github.io directory
-ROOT_DIR="."
 
 # Define source folders
-SOURCE_DIR="custom_search"
+SOURCE_DIR="scripts/custom_search"
 
 # Set destination folders
 if [ $# -lt 1 ]; then
@@ -56,13 +55,13 @@ for SUB_DIR in "${SUB_DIR_LIST[@]}"; do
     TYPES_LIST=($(<"${WORK_DIR}/tmp"))
     rm "${WORK_DIR}/tmp" "${WORK_DIR}/tmp2"
 
+    # 1. Combine *.js files
     for TYPE in "${TYPES_LIST[@]}"; do
-        # 1. Combine *.js files
         combine_js "${TYPE}"
     done
 
-    # 2. patch serarch.js
+    # 2. patch serarch.js and add custom search functions
     cp "${SOURCE_DIR}/search.js" "${WORK_DIR}"
-    echo "${SOURCE_DIR}/custom_search.js" >> "${SOURCE_DIR}/search.js"
+    cat "${SOURCE_DIR}/custom_search.js" >> "${WORK_DIR}/search.js"
 done
 

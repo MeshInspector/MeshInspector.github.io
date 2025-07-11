@@ -331,24 +331,24 @@ function SearchBox(name, resultsPath, extension) {
 
 // -----------------------------------------------------------------------
 
+function convertToId(search) {
+  let result = '';
+  for (let i=0;i<search.length;i++) {
+    const c = search.charAt(i);
+    const cn = c.charCodeAt(0);
+    if (c.match(/[a-z0-9\u0080-\uFFFF]/)) {
+      result+=c;
+    } else if (cn<16) {
+      result+="_0"+cn.toString(16);
+    } else {
+      result+="_"+cn.toString(16);
+    }
+  }
+  return result;
+}
+
 // The class that handles everything on the search results page.
 function SearchResults() {
-
-  function convertToId(search) {
-    let result = '';
-    for (let i=0;i<search.length;i++) {
-      const c = search.charAt(i);
-      const cn = c.charCodeAt(0);
-      if (c.match(/[a-z0-9\u0080-\uFFFF]/)) {
-        result+=c;
-      } else if (cn<16) {
-        result+="_0"+cn.toString(16);
-      } else {
-        result+="_"+cn.toString(16);
-      }
-    }
-    return result;
-  }
 
   // The number of matches from the last run of <Search()>.
   this.lastMatchCount = 0;
