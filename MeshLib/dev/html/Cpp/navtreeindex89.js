@@ -1,5 +1,9 @@
 var NAVTREEINDEX89 =
 {
+"structMR_1_1UI_1_1CheckboxOrModifierState.html#a1b7f056835dfa614cc9907ac8d467d87":[6,0,1,0,1,38,5,2],
+"structMR_1_1UI_1_1CheckboxOrModifierState.html#a1b7f056835dfa614cc9907ac8d467d87":[6,0,2,0,1,23,4,2],
+"structMR_1_1UI_1_1CheckboxOrModifierState.html#adcb5d1f8f18006ba9caee1cf22f7c04a":[6,0,1,0,1,38,5,1],
+"structMR_1_1UI_1_1CheckboxOrModifierState.html#adcb5d1f8f18006ba9caee1cf22f7c04a":[6,0,2,0,1,23,4,1],
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html":[6,0,1,0,1,38,7,0],
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html":[6,0,2,0,1,23,6,0],
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a1c7efed40362c244fe3448ccb9b4f5b8":[6,0,1,0,1,38,7,0,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX89 =
 "structMR_1_1UnorientedTriangle.html#a3def19a0ec6d9b753da75d05825e1d0b":[6,0,1,0,1,758,4],
 "structMR_1_1UnorientedTriangle.html#a3def19a0ec6d9b753da75d05825e1d0b":[6,0,2,0,1,742,4],
 "structMR_1_1UnorientedTriangle.html#a45e593296b33c08794467bccc48dc9ef":[6,0,1,0,1,758,2],
-"structMR_1_1UnorientedTriangle.html#a45e593296b33c08794467bccc48dc9ef":[6,0,2,0,1,742,2],
-"structMR_1_1UnorientedTriangle.html#a612a5709db207a238542c54810f6af4c":[6,0,1,0,1,758,6],
-"structMR_1_1UnorientedTriangle.html#a612a5709db207a238542c54810f6af4c":[6,0,2,0,1,742,6],
-"structMR_1_1UnorientedTriangle.html#a6dc0b9d338593fc4fd8715ed4e11b9f8":[6,0,1,0,1,758,7],
-"structMR_1_1UnorientedTriangle.html#a6dc0b9d338593fc4fd8715ed4e11b9f8":[6,0,2,0,1,742,7]
+"structMR_1_1UnorientedTriangle.html#a45e593296b33c08794467bccc48dc9ef":[6,0,2,0,1,742,2]
 };

@@ -12,7 +12,7 @@ var searchData=
   ['absolute_9',['absolute',['.././Py/classmrmeshpy_1_1DistanceMeasurementObject_1_1PerCoordDeltas.html#a585afc2f3e8908c677e7cd3c7d6428f9',1,'mrmeshpy::DistanceMeasurementObject::PerCoordDeltas']]],
   ['accvolume_10',['accVolume',['.././Cpp/structMR_1_1WatershedGraph_1_1BasinInfo.html#a5c26879d176c92192f673552c21b3ea9',1,'MR::WatershedGraph::BasinInfo']]],
   ['action_11',['action',['.././Py/classmrmeshpy_1_1GcodeProcessor_1_1MoveAction.html#a0fa8344e002259564197ead7d0524600',1,'mrmeshpy::GcodeProcessor::MoveAction::action'],['.././Cpp/structMR_1_1GcodeProcessor_1_1MoveAction.html#afb16d620b32465be3a1f27d50c1640d3',1,'MR::GcodeProcessor::MoveAction::action'],['.././Cpp/structMR_1_1ShortcutManager_1_1ShortcutCommand.html#a74e7c30555d8435657c7465809b44a6a',1,'MR::ShortcutManager::ShortcutCommand::action']]],
-  ['active_12',['active',['.././Cpp/structMR_1_1UI_1_1ButtonIconCustomizationParams.html#a63e77b7d31f7b1d90d01878c92a26af3',1,'MR::UI::ButtonIconCustomizationParams::active'],['.././Cpp/structMR_1_1IPointPairs.html#ab838ce7cceeb506514a4124c9587f032',1,'MR::IPointPairs::active']]],
+  ['active_12',['active',['.././Cpp/structMR_1_1IPointPairs.html#ab838ce7cceeb506514a4124c9587f032',1,'MR::IPointPairs']]],
   ['activeblockingitem_5f_13',['activeBlockingItem_',['.././Cpp/classMR_1_1RibbonMenu.html#a2f639a83635dfb22ba89545a6dc9d85e',1,'MR::RibbonMenu']]],
   ['activebox_14',['activeBox',['.././Cpp/structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a93fbaf0d7a2c10d26661c66f178f5ddf',1,'MR::MarkedVoxelSlice::Parameters']]],
   ['activecolor_15',['activeColor',['.././Cpp/structMR_1_1SurfacePointWidget_1_1Parameters.html#ae7f3be408f91d5f62dedd067168968b1',1,'MR::SurfacePointWidget::Parameters']]],

@@ -167,10 +167,9 @@ var hierarchy =
     [ "MR::Buffer< VertId >", "classMR_1_1Buffer.html", null ],
     [ "MR::Buffer< VertId, size_t >", "classMR_1_1Buffer.html", null ],
     [ "MR::MeshBuilder::BuildSettings", "structMR_1_1MeshBuilder_1_1BuildSettings.html", null ],
-    [ "MR::UI::ButtonCustomizationParams", "structMR_1_1UI_1_1ButtonCustomizationParams.html", [
-      [ "MR::UI::ButtonIconCustomizationParams", "structMR_1_1UI_1_1ButtonIconCustomizationParams.html", null ]
-    ] ],
+    [ "MR::UI::ButtonCustomizationParams", "structMR_1_1UI_1_1ButtonCustomizationParams.html", null ],
     [ "MR::UI::TestEngine::ButtonEntry", "structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html", null ],
+    [ "MR::UI::ButtonIconCustomizationParams", "structMR_1_1UI_1_1ButtonIconCustomizationParams.html", null ],
     [ "MR::RibbonButtonDrawer::ButtonItemWidth", "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html", null ],
     [ "MR::UI::CachedTextSize", "structMR_1_1UI_1_1CachedTextSize.html", null ],
     [ "MR::Parallel::CallSimply", "structMR_1_1Parallel_1_1CallSimply.html", null ],

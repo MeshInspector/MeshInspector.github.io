@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"namespacemembers_func_r.html":[6,0,1,1,1,15],
+"namespacemembers_func_s.html":[6,0,1,1,1,16],
 "namespacemembers_func_t.html":[6,0,1,1,1,17],
 "namespacemembers_func_u.html":[6,0,1,1,1,18],
 "namespacemembers_func_v.html":[6,0,1,1,1,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "structMRMakeCylinderAdvancedParameters.html#adb9dcc5a855e991275135241242c5ed9":[6,0,2,0,28,2],
 "structMRMakeTorusParameters.html":[6,0,2,0,29],
 "structMRMakeTorusParameters.html#a17f0a3976680bd5bf51a72024eeb1427":[6,0,2,0,29,0],
-"structMRMakeTorusParameters.html#a8d8c9a815bce9cd179486391928d019c":[6,0,2,0,29,2],
-"structMRMakeTorusParameters.html#ac7122dd9e2fdf5085a86d09c22f0d6a2":[6,0,2,0,29,3],
-"structMRMakeTorusParameters.html#af4b7950cf44e13e3a179354f293fc935":[6,0,2,0,29,1]
+"structMRMakeTorusParameters.html#a8d8c9a815bce9cd179486391928d019c":[6,0,2,0,29,2]
 };
