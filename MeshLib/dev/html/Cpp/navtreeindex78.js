@@ -1,5 +1,7 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1MeshIntersectionResult.html#a59e06434bac0180ffaac80a2fb3041d1":[6,0,0,1,19,3],
+"structMR_1_1MeshIntersectionResult.html#a701e1414a45534a29d2ad1f7074c3c61":[6,0,0,1,19,1],
 "structMR_1_1MeshIntersectionResult.html#aa6767f8fee0dd3f9883b1657e2d9fcb2":[6,0,0,1,19,2],
 "structMR_1_1MeshLoadSettings.html":[6,0,1,0,1,369],
 "structMR_1_1MeshLoadSettings.html":[6,0,2,0,1,353],
@@ -247,7 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1MeshVoxelsConverter.html#ab2f0c91461973d3a5fbb2ef07a4d3596":[6,0,2,0,1,378,6],
 "structMR_1_1MeshVoxelsConverter.html#adaab280c372f3b9aa33c9a6087199957":[6,0,1,0,1,394,3],
 "structMR_1_1MeshVoxelsConverter.html#adaab280c372f3b9aa33c9a6087199957":[6,0,2,0,1,378,3],
-"structMR_1_1MeshVoxelsConverter.html#adc6a0a341b57e23c8d707441794d45f3":[6,0,1,0,1,394,5],
-"structMR_1_1MeshVoxelsConverter.html#adc6a0a341b57e23c8d707441794d45f3":[6,0,2,0,1,378,5],
-"structMR_1_1MeshVoxelsConverter.html#ae2bf474d4a220ce2a3fef16172d2874d":[6,0,1,0,1,394,0]
+"structMR_1_1MeshVoxelsConverter.html#adc6a0a341b57e23c8d707441794d45f3":[6,0,1,0,1,394,5]
 };

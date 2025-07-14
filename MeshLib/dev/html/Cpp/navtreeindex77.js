@@ -1,5 +1,7 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1MaxArg.html#ad30afe2538c6149652bcfaf60a97544a":[6,0,2,0,1,340,1],
+"structMR_1_1MaxArg.html#ad539b3994d5669f58854f0a4cebe4616":[6,0,1,0,1,356,5],
 "structMR_1_1MaxArg.html#ad539b3994d5669f58854f0a4cebe4616":[6,0,2,0,1,340,5],
 "structMR_1_1MaxArg.html#ae1be1deb12cae946010ff62e920861a9":[6,0,1,0,1,356,4],
 "structMR_1_1MaxArg.html#ae1be1deb12cae946010ff62e920861a9":[6,0,2,0,1,340,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1MeshEqualizeTriAreasParams.html":[6,0,0,9,6,1],
 "structMR_1_1MeshEqualizeTriAreasParams.html#a7a54f93ce9d16e271b34554e4b0bd4f0":[6,0,0,9,6,1,0],
 "structMR_1_1MeshIntersectionResult.html":[6,0,0,1,19],
-"structMR_1_1MeshIntersectionResult.html#a35b9064f7ab7e270307559622c3ec903":[6,0,0,1,19,0],
-"structMR_1_1MeshIntersectionResult.html#a59e06434bac0180ffaac80a2fb3041d1":[6,0,0,1,19,3],
-"structMR_1_1MeshIntersectionResult.html#a701e1414a45534a29d2ad1f7074c3c61":[6,0,0,1,19,1]
+"structMR_1_1MeshIntersectionResult.html#a35b9064f7ab7e270307559622c3ec903":[6,0,0,1,19,0]
 };

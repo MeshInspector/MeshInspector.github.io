@@ -191,6 +191,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aba6660d67c3455cb242987a649e85162" id="r_aba6660d67c3455cb242987a649e85162"><td class="memItemLeft" align="right" valign="top">ImVec2 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba6660d67c3455cb242987a649e85162">changedSize</a> { nullptr }</td></tr>
 <tr class="memdesc:aba6660d67c3455cb242987a649e85162"><td class="mdescLeft">&#160;</td><td class="mdescRight">outside owned parameter for windows with resize option  <br /></td></tr>
 <tr class="separator:aba6660d67c3455cb242987a649e85162"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22df65426ef651326ea22792fd010bd1" id="r_a22df65426ef651326ea22792fd010bd1"><td class="memItemLeft" align="right" valign="top">std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22df65426ef651326ea22792fd010bd1">customHeaderFn</a> = nullptr</td></tr>
+<tr class="memdesc:a22df65426ef651326ea22792fd010bd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw custom header items immediately after the caption  <br /></td></tr>
+<tr class="separator:a22df65426ef651326ea22792fd010bd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03c3bb1a741563a7f133d3da8f2b6d98" id="r_a03c3bb1a741563a7f133d3da8f2b6d98"><td class="memItemLeft" align="right" valign="top">std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03c3bb1a741563a7f133d3da8f2b6d98">helpBtnFn</a> = nullptr</td></tr>
 <tr class="memdesc:a03c3bb1a741563a7f133d3da8f2b6d98"><td class="mdescLeft">&#160;</td><td class="mdescRight">reaction on press "Help" button  <br /></td></tr>
 <tr class="separator:a03c3bb1a741563a7f133d3da8f2b6d98"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -261,6 +264,22 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>current collapsed state of window in/out parameter, owned outside of <code>BeginCustomStatePlugin</code> function </p>
+
+</div>
+</div>
+<a id="a22df65426ef651326ea22792fd010bd1" name="a22df65426ef651326ea22792fd010bd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22df65426ef651326ea22792fd010bd1">&#9670;&#160;</a></span>customHeaderFn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;void()&gt; ImGui::CustomStatePluginWindowParameters::customHeaderFn = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>draw custom header items immediately after the caption </p>
 
 </div>
 </div>

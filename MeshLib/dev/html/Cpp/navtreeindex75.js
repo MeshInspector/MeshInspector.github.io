@@ -1,5 +1,7 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1ImproveSamplingSettings.html#a16a300ede2680b4bc68e81aeb8130903":[6,0,2,0,1,284,3],
+"structMR_1_1ImproveSamplingSettings.html#a23d034e4e8ff34a828259420ecd4a8d5":[6,0,1,0,1,300,2],
 "structMR_1_1ImproveSamplingSettings.html#a23d034e4e8ff34a828259420ecd4a8d5":[6,0,2,0,1,284,2],
 "structMR_1_1ImproveSamplingSettings.html#a360e357b9f7ac2e2bd821f4ed477a6ba":[6,0,1,0,1,300,4],
 "structMR_1_1ImproveSamplingSettings.html#a360e357b9f7ac2e2bd821f4ed477a6ba":[6,0,2,0,1,284,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1MakeBridgeResult.html#a2d3386014f3867f61860546d2b63b02a":[6,0,0,9,3,4,3],
 "structMR_1_1MakeBridgeResult.html#a5959fa7b09b9a888870b4492e158145f":[6,0,0,9,3,4,1],
 "structMR_1_1MakeBridgeResult.html#ada00548262d69e8a5ce7f4536d752495":[6,0,0,9,3,4,2],
-"structMR_1_1MakeDegenerateBandAroundRegionParams.html":[6,0,1,0,1,345],
-"structMR_1_1MakeDegenerateBandAroundRegionParams.html":[6,0,2,0,1,329],
-"structMR_1_1MakeDegenerateBandAroundRegionParams.html#a7d6c4b4b9c582144c01aad1b8bf29605":[6,0,1,0,1,345,3]
+"structMR_1_1MakeDegenerateBandAroundRegionParams.html":[6,0,1,0,1,345]
 };

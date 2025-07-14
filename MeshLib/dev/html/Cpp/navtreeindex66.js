@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"structMRMakeTorusParameters.html#a17f0a3976680bd5bf51a72024eeb1427":[6,0,2,0,29,0],
+"structMRMakeTorusParameters.html#a8d8c9a815bce9cd179486391928d019c":[6,0,2,0,29,2],
 "structMRMakeTorusParameters.html#ac7122dd9e2fdf5085a86d09c22f0d6a2":[6,0,2,0,29,3],
 "structMRMakeTorusParameters.html#af4b7950cf44e13e3a179354f293fc935":[6,0,2,0,29,1],
 "structMRMakeUVSphereParameters.html":[6,0,2,0,30],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1AncillaryLabel.html#a16025faba8e564c0ffa83a7e2f72bf40":[6,0,1,0,1,56,6],
 "structMR_1_1AncillaryLabel.html#a16025faba8e564c0ffa83a7e2f72bf40":[6,0,2,0,1,40,6],
 "structMR_1_1AncillaryLabel.html#a239c63d2e67790f3d6e1338de1f351ac":[6,0,1,0,1,56,1],
-"structMR_1_1AncillaryLabel.html#a239c63d2e67790f3d6e1338de1f351ac":[6,0,2,0,1,40,1],
-"structMR_1_1AncillaryLabel.html#a4ad01ecea78683580f97a7bc98dee31b":[6,0,1,0,1,56,11],
-"structMR_1_1AncillaryLabel.html#a4ad01ecea78683580f97a7bc98dee31b":[6,0,2,0,1,40,11]
+"structMR_1_1AncillaryLabel.html#a239c63d2e67790f3d6e1338de1f351ac":[6,0,2,0,1,40,1]
 };

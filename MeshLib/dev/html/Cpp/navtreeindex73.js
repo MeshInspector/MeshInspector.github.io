@@ -1,5 +1,7 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1FindProjectionOnPointsSettings.html#aa4d8d3a3b0dac4b24f0e182945040220":[6,0,0,1,29,0],
+"structMR_1_1FindProjectionOnPointsSettings.html#ad8f6c40c1465fcd41082510e2022e694":[6,0,0,1,29,5],
 "structMR_1_1FitBoxParams.html":[6,0,1,0,1,247],
 "structMR_1_1FitBoxParams.html":[6,0,2,0,1,231],
 "structMR_1_1FitBoxParams.html#a5594292518e53a54c005c6e95576306d":[6,0,1,0,1,247,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1ICPPairData.html#afe05b997a712f074a3053f11dab0a7eb":[6,0,2,0,1,271,1],
 "structMR_1_1ICPProperties.html":[6,0,1,0,1,288],
 "structMR_1_1ICPProperties.html":[6,0,2,0,1,272],
-"structMR_1_1ICPProperties.html#a108845995db78805f41524217e474500":[6,0,1,0,1,288,1],
-"structMR_1_1ICPProperties.html#a108845995db78805f41524217e474500":[6,0,2,0,1,272,1],
-"structMR_1_1ICPProperties.html#a1fe34b378f38697c828575c8204e7b57":[6,0,1,0,1,288,5]
+"structMR_1_1ICPProperties.html#a108845995db78805f41524217e474500":[6,0,1,0,1,288,1]
 };

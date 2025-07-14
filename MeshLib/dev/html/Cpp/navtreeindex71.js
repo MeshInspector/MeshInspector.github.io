@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1EdgePoint.html":[6,0,1,0,1,213],
+"structMR_1_1EdgePoint.html":[6,0,2,0,1,197],
 "structMR_1_1EdgePoint.html#a1b897527d833919c4b3da5c84edd2d23":[6,0,1,0,1,213,16],
 "structMR_1_1EdgePoint.html#a1b897527d833919c4b3da5c84edd2d23":[6,0,2,0,1,197,16],
 "structMR_1_1EdgePoint.html#a25f0e8422ec2c8591279616e4f81709a":[6,0,1,0,1,213,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html#a86193b4dbe9a464e56ff2fe272c46486":[6,0,2,0,1,2,2,1,1],
 "structMR_1_1Features_1_1MeasureResult_1_1Distance.html":[6,0,1,0,1,6,2,2],
 "structMR_1_1Features_1_1MeasureResult_1_1Distance.html":[6,0,2,0,1,2,2,2],
-"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#a63df7d9b2bc70ecaf640167b54487acc":[6,0,1,0,1,6,2,2,1],
-"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#a63df7d9b2bc70ecaf640167b54487acc":[6,0,2,0,1,2,2,2,1],
-"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#a8670c18dcc3043de2c9724f9e7412b45":[6,0,1,0,1,6,2,2,0]
+"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#a63df7d9b2bc70ecaf640167b54487acc":[6,0,1,0,1,6,2,2,1]
 };

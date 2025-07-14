@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1DirectoryRecursive.html#a2e941bde547838e6a74d34b9aed8d49e":[6,0,1,0,1,186,1],
+"structMR_1_1DirectoryRecursive.html#a2e941bde547838e6a74d34b9aed8d49e":[6,0,2,0,1,170,1],
 "structMR_1_1DirectoryRecursiveIterator.html":[6,0,1,0,1,187],
 "structMR_1_1DirectoryRecursiveIterator.html":[6,0,2,0,1,171],
 "structMR_1_1DirectoryRecursiveIterator.html#a1d7ccfb4cee663b44ee8386962c7898d":[6,0,1,0,1,187,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a86bbb1910bc530c8f88287ede3605c5f":[6,0,1,0,1,212,0,1],
 "structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a86bbb1910bc530c8f88287ede3605c5f":[6,0,2,0,1,196,0,1],
 "structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#ad5e8720a5c82f4ea7340efebb072d1cd":[6,0,1,0,1,212,0,3],
-"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#ad5e8720a5c82f4ea7340efebb072d1cd":[6,0,2,0,1,196,0,3],
-"structMR_1_1EdgePoint.html":[6,0,1,0,1,213],
-"structMR_1_1EdgePoint.html":[6,0,2,0,1,197]
+"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#ad5e8720a5c82f4ea7340efebb072d1cd":[6,0,2,0,1,196,0,3]
 };
