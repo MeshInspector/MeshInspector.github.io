@@ -10,9 +10,9 @@ var classMR_1_1Pdf =
     [ "getCursorPosX", "classMR_1_1Pdf.html#a2838fe45692b53926281ae909994b4b1", null ],
     [ "getCursorPosY", "classMR_1_1Pdf.html#a1cd00e797b07d3531ab22317e4a70e89", null ],
     [ "newPage", "classMR_1_1Pdf.html#a6b4f163cd54edddf7ed416f248944a41", null ],
-    [ "operator bool", "classMR_1_1Pdf.html#ab7a6b95995c88b2ded77efbcfef86a8d", null ],
+    [ "operator bool", "classMR_1_1Pdf.html#a1dd5556a4f0d253153c5fe0bd80ceab3", null ],
     [ "operator=", "classMR_1_1Pdf.html#a57a668c7d6c3f66dc0e6482b969b511a", null ],
     [ "operator=", "classMR_1_1Pdf.html#a1daea35a2c1a89104e601e2698703aa3", null ],
-    [ "setCursorPosX", "classMR_1_1Pdf.html#aa97c8a9a025cb08706ced6ffe1cf872c", null ],
-    [ "setCursorPosY", "classMR_1_1Pdf.html#a6b51fcacd49dc585e270f007ed3ef464", null ]
+    [ "setCursorPosX", "classMR_1_1Pdf.html#a2d50ce4fd99aacbb45dbd1c55bcaef48", null ],
+    [ "setCursorPosY", "classMR_1_1Pdf.html#abf4d77cea93bab673b2b6cf427789622", null ]
 ];
