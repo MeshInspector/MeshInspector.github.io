@@ -38,5 +38,6 @@ doxygen ./DoxyfilePy 1 >> log.txt
 sed -e "s|TAGFILES\s*=.*|TAGFILES = MeshLib/MeshLibMain.tag=../ MeshLib/MeshLibPy.tag=../Py|" -i DoxyfileCpp
 doxygen ./DoxyfileCpp 1 >> log.txt
 
+./scripts/update_search.sh "$TARGET_DIR"
 ./scripts/restore_files.sh
 ./scripts/post.sh "$TARGET_DIR"
