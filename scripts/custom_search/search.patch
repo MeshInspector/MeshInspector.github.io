@@ -1,0 +1,154 @@
+--- MeshLib/dev/html/search/search.js	2025-07-11 11:24:18.480224473 +0300
++++ scripts/custom_search/search.js	2025-07-11 16:53:37.718797005 +0300
+@@ -256,18 +256,8 @@
+     // strip leading whitespace
+     const searchValue = this.DOMSearchField().value.replace(/^ +/, "");
+ 
+-    const code = searchValue.toLowerCase().charCodeAt(0);
+-    let idxChar = searchValue.substr(0, 1).toLowerCase();
+-    if ( 0xD800 <= code && code <= 0xDBFF && searchValue > 1) { // surrogate pair
+-      idxChar = searchValue.substr(0, 2);
+-    }
+-
+     let jsFile;
+-    let idx = indexSectionsWithContent[this.searchIndex].indexOf(idxChar);
+-    if (idx!=-1) {
+-      const hexCode=idx.toString(16);
+-      jsFile = this.resultsPath + indexSectionNames[this.searchIndex] + '_' + hexCode + '.js';
+-    }
++    jsFile = this.resultsPath + indexSectionNames[this.searchIndex] + '.js';
+ 
+     const loadJS = function(url, impl, loc) {
+       const scriptTag = document.createElement('script');
+@@ -286,16 +276,10 @@
+     const handleResults = function() {
+       document.getElementById("Loading").style.display="none";
+       if (typeof searchData !== 'undefined') {
+-        createResults(resultsPath);
++        createResults(searchValue, resultsPath);
+         document.getElementById("NoMatches").style.display="none";
+       }
+ 
+-      if (idx!=-1) {
+-        searchResults.Search(searchValue);
+-      } else { // no file with search results => force empty search results
+-        searchResults.Search('====');
+-      }
+-
+       if (domPopupSearchResultsWindow.style.display!='block') {
+         domSearchClose.style.display = 'inline-block';
+         let left = getXPos(domSearchBox) + 150;
+@@ -347,24 +331,24 @@
+ 
+ // -----------------------------------------------------------------------
+ 
+-// The class that handles everything on the search results page.
+-function SearchResults() {
+-
+-  function convertToId(search) {
+-    let result = '';
+-    for (let i=0;i<search.length;i++) {
+-      const c = search.charAt(i);
+-      const cn = c.charCodeAt(0);
+-      if (c.match(/[a-z0-9\u0080-\uFFFF]/)) {
+-        result+=c;
+-      } else if (cn<16) {
+-        result+="_0"+cn.toString(16);
+-      } else {
+-        result+="_"+cn.toString(16);
+-      }
++function convertToId(search) {
++  let result = '';
++  for (let i=0;i<search.length;i++) {
++    const c = search.charAt(i);
++    const cn = c.charCodeAt(0);
++    if (c.match(/[a-z0-9\u0080-\uFFFF]/)) {
++      result+=c;
++    } else if (cn<16) {
++      result+="_0"+cn.toString(16);
++    } else {
++      result+="_"+cn.toString(16);
+     }
+-    return result;
+   }
++  return result;
++}
++
++// The class that handles everything on the search results page.
++function SearchResults() {
+ 
+   // The number of matches from the last run of <Search()>.
+   this.lastMatchCount = 0;
+@@ -594,70 +578,8 @@
+   }
+ }
+ 
+-function createResults(resultsPath) {
+-
+-  function setKeyActions(elem,action) {
+-    elem.setAttribute('onkeydown',action);
+-    elem.setAttribute('onkeypress',action);
+-    elem.setAttribute('onkeyup',action);
+-  }
+-
+-  function setClassAttr(elem,attr) {
+-    elem.setAttribute('class',attr);
+-    elem.setAttribute('className',attr);
+-  }
+-
+-  const results = document.getElementById("SRResults");
+-  results.innerHTML = '';
+-  searchData.forEach((elem,index) => {
+-    const id = elem[0];
+-    const srResult = document.createElement('div');
+-    srResult.setAttribute('id','SR_'+id);
+-    setClassAttr(srResult,'SRResult');
+-    const srEntry = document.createElement('div');
+-    setClassAttr(srEntry,'SREntry');
+-    const srLink = document.createElement('a');
+-    srLink.setAttribute('id','Item'+index);
+-    setKeyActions(srLink,'return searchResults.Nav(event,'+index+')');
+-    setClassAttr(srLink,'SRSymbol');
+-    srLink.innerHTML = elem[1][0];
+-    srEntry.appendChild(srLink);
+-    if (elem[1].length==2) { // single result
+-      srLink.setAttribute('href',resultsPath+elem[1][1][0]);
+-      srLink.setAttribute('onclick','searchBox.CloseResultsWindow()');
+-      if (elem[1][1][1]) {
+-       srLink.setAttribute('target','_parent');
+-      } else {
+-       srLink.setAttribute('target','_blank');
+-      }
+-      const srScope = document.createElement('span');
+-      setClassAttr(srScope,'SRScope');
+-      srScope.innerHTML = elem[1][1][2];
+-      srEntry.appendChild(srScope);
+-    } else { // multiple results
+-      srLink.setAttribute('href','javascript:searchResults.Toggle("SR_'+id+'")');
+-      const srChildren = document.createElement('div');
+-      setClassAttr(srChildren,'SRChildren');
+-      for (let c=0; c<elem[1].length-1; c++) {
+-        const srChild = document.createElement('a');
+-        srChild.setAttribute('id','Item'+index+'_c'+c);
+-        setKeyActions(srChild,'return searchResults.NavChild(event,'+index+','+c+')');
+-        setClassAttr(srChild,'SRScope');
+-        srChild.setAttribute('href',resultsPath+elem[1][c+1][0]);
+-        srChild.setAttribute('onclick','searchBox.CloseResultsWindow()');
+-        if (elem[1][c+1][1]) {
+-         srChild.setAttribute('target','_parent');
+-        } else {
+-         srChild.setAttribute('target','_blank');
+-        }
+-        srChild.innerHTML = elem[1][c+1][2];
+-        srChildren.appendChild(srChild);
+-      }
+-      srEntry.appendChild(srChildren);
+-    }
+-    srResult.appendChild(srEntry);
+-    results.appendChild(srResult);
+-  });
++function createResults( searchStr, resultsPath ) {
++  createCustomSearchResults( searchStr, resultsPath )
+ }
+ 
+ function init_search() {

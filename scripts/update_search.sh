@@ -1,6 +1,10 @@
 #!/bin/bash
 
 # Run the script only from MeshInspector.github.io directory
+if [ "$(basename "$PWD")" != "MeshInspector.github.io" ]; then
+    echo "[ERROR] Incorrect script launch directory!"
+    return 1
+fi
 
 # Define source folders
 SOURCE_DIR="scripts/custom_search"
@@ -20,7 +24,8 @@ SUB_DIR_LIST=(
 
 function combine_js {
     if [ $# -ne 1 ]; then
-        return 1;
+        echo "[ERROR] Incorrect number of arguments!"
+        return 1
     fi
 
     TYPE="$1" # from TYPES_LIST
@@ -61,7 +66,7 @@ for SUB_DIR in "${SUB_DIR_LIST[@]}"; do
     done
 
     # 2. patch serarch.js and add custom search functions
-    cp "${SOURCE_DIR}/search.js" "${WORK_DIR}"
+    patch "${WORK_DIR}/search.js" < "${SOURCE_DIR}/search.patch"
     cat "${SOURCE_DIR}/custom_search.js" >> "${WORK_DIR}/search.js"
 done
 
