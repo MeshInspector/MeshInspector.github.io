@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"classMR_1_1BitSet.html#af5fff3291406197a18b73907ba6d0ad0":[6,0,0,3,2,13],
 "classMR_1_1BoundarySelectionWidget.html":[6,0,1,0,1,84],
 "classMR_1_1BoundarySelectionWidget.html":[6,0,2,0,1,68],
 "classMR_1_1BoundarySelectionWidget.html#a14ed83528f3fdbb996f9d5cf5d86fa55":[6,0,1,0,1,84,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1ChangeMeshTexturePerFaceAction.html#a74f10a919c46c00ffa6dc5bbfe354000":[6,0,0,4,9,3],
 "classMR_1_1ChangeMeshTexturePerFaceAction.html#ab088029d6c5d868e8a5de7216aafe8ab":[6,0,0,4,9,1],
 "classMR_1_1ChangeMeshTexturePerFaceAction.html#ab6aa5335ed7975682a4f23ccfbd8d5f2":[6,0,0,4,9,2],
-"classMR_1_1ChangeMeshTopologyAction.html":[6,0,0,4,8],
-"classMR_1_1ChangeMeshTopologyAction.html#a390c7099109f9817a3502210630fa228":[6,0,0,4,8,3]
+"classMR_1_1ChangeMeshTopologyAction.html":[6,0,0,4,8]
 };

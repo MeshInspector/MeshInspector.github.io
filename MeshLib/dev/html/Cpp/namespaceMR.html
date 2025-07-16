@@ -7224,10 +7224,11 @@ Variables</h2></td></tr>
 <tr class="memitem:a748634eee611373365c3a338f0259d7e" id="r_a748634eee611373365c3a338f0259d7e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a748634eee611373365c3a338f0259d7e">ccw</a> (const Vector2i &amp;a, const Vector2i &amp;b, const Vector2i &amp;c)</td></tr>
 <tr class="separator:a748634eee611373365c3a338f0259d7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adebe37534b9bb6c1ccc995df1839c432" id="r_adebe37534b9bb6c1ccc995df1839c432"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adebe37534b9bb6c1ccc995df1839c432">ccw</a> (const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords2.html">PreciseVertCoords2</a>, 3 &gt; &amp;vs)</td></tr>
-<tr class="memdesc:adebe37534b9bb6c1ccc995df1839c432"><td class="mdescLeft">&#160;</td><td class="mdescRight">first sorts the indices in ascending order, then calls the predicate for sorted points  <br /></td></tr>
 <tr class="separator:adebe37534b9bb6c1ccc995df1839c432"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadc1b40eb80e70a7e20d00559456217d" id="r_aadc1b40eb80e70a7e20d00559456217d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadc1b40eb80e70a7e20d00559456217d">ccw</a> (const <a class="el" href="structMR_1_1PreciseVertCoords2.html">PreciseVertCoords2</a> *vs)</td></tr>
 <tr class="separator:aadc1b40eb80e70a7e20d00559456217d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1f6a034186998d75a78ef5b6b6daff0" id="r_ad1f6a034186998d75a78ef5b6b6daff0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1f6a034186998d75a78ef5b6b6daff0">ccwLess</a> (const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords2.html">PreciseVertCoords2</a>, 4 &gt; &amp;vs)</td></tr>
+<tr class="separator:ad1f6a034186998d75a78ef5b6b6daff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6626f7c315e4aae48380b5c214af0e42" id="r_a6626f7c315e4aae48380b5c214af0e42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6626f7c315e4aae48380b5c214af0e42">orientParaboloid3d</a> (const Vector2i &amp;a, const Vector2i &amp;b, const Vector2i &amp;c)</td></tr>
 <tr class="separator:a6626f7c315e4aae48380b5c214af0e42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a565f119f21a7b73c4af0da283afb6c30" id="r_a565f119f21a7b73c4af0da283afb6c30"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a565f119f21a7b73c4af0da283afb6c30">orientParaboloid3d</a> (const Vector2i &amp;a, const Vector2i &amp;b, const Vector2i &amp;c, const Vector2i &amp;d)</td></tr>
@@ -13282,6 +13283,9 @@ template&lt;typename GridT &gt; </div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::ccw </td>
@@ -13290,6 +13294,11 @@ template&lt;typename GridT &gt; </div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -13299,6 +13308,9 @@ template&lt;typename GridT &gt; </div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::ccw </td>
@@ -13307,9 +13319,13 @@ template&lt;typename GridT &gt; </div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-
-<p>first sorts the indices in ascending order, then calls the predicate for sorted points </p>
+<p>return true if the smallest rotation from vector (vs[0]-vs[2]) to vector (vs[1]-vs[2]) is in counter-clock-wise direction; uses simulation-of-simplicity (assuming larger perturbations of points with smaller id) to avoid "vectors are collinear" </p>
 
 </div>
 </div>
@@ -13318,6 +13334,9 @@ template&lt;typename GridT &gt; </div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::ccw </td>
@@ -13330,8 +13349,13 @@ template&lt;typename GridT &gt; </div>
           <td class="paramtype">const Vector2i &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<p>return true if the smallest rotation from vector (a) to vector (b) is in counter-clock-wise direction; uses simulation-of-simplicity to avoid "vectors are collinear" </p>
+<p>return true if the smallest rotation from vector (a) to vector (b) is in counter-clock-wise direction; uses simulation-of-simplicity (assuming perturbations a &gt;&gt; b) to avoid "vectors are collinear" </p>
 
 </div>
 </div>
@@ -13362,11 +13386,37 @@ template&lt;typename GridT &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>return true if the smallest rotation from vector (a-c) to vector (b-c) is in counter-clock-wise direction; uses simulation-of-simplicity to avoid "vectors are collinear" </p>
+<p>return true if the smallest rotation from vector (a-c) to vector (b-c) is in counter-clock-wise direction; uses simulation-of-simplicity (assuming perturbations a &gt;&gt; b &gt;&gt; c) to avoid "vectors are collinear" </p>
+
+</div>
+</div>
+<a id="ad1f6a034186998d75a78ef5b6b6daff0" name="ad1f6a034186998d75a78ef5b6b6daff0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1f6a034186998d75a78ef5b6b6daff0">&#9670;&#160;</a></span>ccwLess()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::ccwLess </td>
+          <td>(</td>
+          <td class="paramtype">const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords2.html">PreciseVertCoords2</a>, 4 &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>return true if area( vs[0], vs[1], vs[2] ) &lt; area( vs[0], vs[1], vs[3] ); avoids equality of areas using simulation-of-simplicity approach (assuming larger perturbations of points with smaller id) </p>
 
 </div>
 </div>
@@ -25306,6 +25356,9 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::inCircle </td>
@@ -25314,6 +25367,11 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -25323,6 +25381,9 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::inCircle </td>
@@ -25331,6 +25392,11 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>return true if 4th point in array lays inside circumcircle of first 3 points based triangle </p>
@@ -32794,6 +32860,9 @@ template&lt;typename T &gt; </div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::orientParaboloid3d </td>
@@ -32811,6 +32880,11 @@ template&lt;typename T &gt; </div>
           <td class="paramtype">const Vector2i &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p>considers 3D points obtained from 2D inputs by moving each point on paraboloid: z = x*x+y*y; returns true if the plane with orientated triangle ABC has D point at the left; uses simulation-of-simplicity to avoid "D is exactly on plane" </p>
 
@@ -32848,7 +32922,7 @@ template&lt;typename T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -36998,11 +37072,11 @@ template&lt;typename T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>return true if l is smaller then r uses simulation-of-simplicity to avoid "number are the same" </p>
+<p>return true if l is smaller than r, uses simulation-of-simplicity (assuming larger perturbations of points with smaller id) to avoid "coordinates are the same" </p>
 
 </div>
 </div>

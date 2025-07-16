@@ -1386,6 +1386,7 @@ var mrmeshpy_8pyi =
     [ "ccw", "mrmeshpy_8pyi.html#ad4392035f4332d2dd8613ec448b64f47", null ],
     [ "ccw", "mrmeshpy_8pyi.html#ab194ad4b07ea3b744928fd1c478288a8", null ],
     [ "ccw", "mrmeshpy_8pyi.html#a6e3fc9fbcc33273cfe7c18d7870b8b65", null ],
+    [ "ccwLess", "mrmeshpy_8pyi.html#aa53676c63663c2c442d2e67bf41ce171", null ],
     [ "checkDeloneQuadrangle", "mrmeshpy_8pyi.html#a8a17b41e59a404516d9a6e09a32a7294", null ],
     [ "checkDeloneQuadrangle", "mrmeshpy_8pyi.html#a49db4a68ebf5be4f5256ee9033ff6b39", null ],
     [ "checkDeloneQuadrangleInMesh", "mrmeshpy_8pyi.html#af9c40e2d8fe4dd6ee968301cf6cbdfa5", null ],

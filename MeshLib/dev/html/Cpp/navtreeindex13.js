@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"MRRenderPointsObject_8h_source.html":[6,0,3,0,0,1,10,79],
 "MRRenderVolumeObject_8h.html":[6,0,3,0,0,1,10,80],
 "MRRenderVolumeObject_8h_source.html":[6,0,3,0,0,1,10,80],
 "MRRenderWrapObject_8h.html":[6,0,3,0,0,1,10,81],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "MRSharpenMarchingCubesMesh_8h_source.html":[6,0,3,0,0,1,4,347],
 "MRShortcutManager_8h.html":[6,0,3,0,0,1,10,108],
 "MRShortcutManager_8h.html#abeff4ec21e8ee2ea544cdb4ce4d55d6b":[6,0,3,0,0,1,10,108,3],
-"MRShortcutManager_8h.html#abeff4ec21e8ee2ea544cdb4ce4d55d6ba4059b0251f66a18cb56f544728796875":[6,0,3,0,0,1,10,108,3,0],
-"MRShortcutManager_8h.html#abeff4ec21e8ee2ea544cdb4ce4d55d6ba4351cfebe4b61d8aa5efa1d020710005":[6,0,3,0,0,1,10,108,3,2]
+"MRShortcutManager_8h.html#abeff4ec21e8ee2ea544cdb4ce4d55d6ba4059b0251f66a18cb56f544728796875":[6,0,3,0,0,1,10,108,3,0]
 };
