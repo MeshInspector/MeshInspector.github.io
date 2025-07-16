@@ -13,7 +13,7 @@ function createItemWeights( searchStr )
   weightsMap = new Array( searchData.length );
   for ( var i = 0; i < searchData.length; i++ )
   {
-    var itemName = searchData[i][0].toLowerCase().substring(1); // strip '_'
+    var itemName = searchData[i][0].toLowerCase();
     weightsMap[i] = [calcWeight( itemName, searchStr ), i];
   }
   weightsMap.sort( (a, b) => b[0] - a[0] );
