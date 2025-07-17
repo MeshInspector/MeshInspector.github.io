@@ -1,5 +1,7 @@
 var NAVTREEINDEX110 =
 {
+"classmrmeshpy_1_1func__bool__from__Id__EdgeTag.html":[6,1,0,0,2,276],
+"classmrmeshpy_1_1func__bool__from__Id__EdgeTag.html":[6,1,1,0,1,276],
 "classmrmeshpy_1_1func__bool__from__Id__EdgeTag.html#a0fa87c3d17ad9d88574f74bb07ac8033":[6,1,0,0,2,276,7],
 "classmrmeshpy_1_1func__bool__from__Id__EdgeTag.html#a0fa87c3d17ad9d88574f74bb07ac8033":[6,1,1,0,1,276,7],
 "classmrmeshpy_1_1func__bool__from__Id__EdgeTag.html#a24f84471ce1a2a6ac84fe93ab4c9ffd5":[6,1,0,0,2,276,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX110 =
 "classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams.html#ab370850d282d3b480cd2c558047b1bf5":[6,1,0,0,2,289,4],
 "classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams.html#ab370850d282d3b480cd2c558047b1bf5":[6,1,1,0,1,289,4],
 "classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams.html#ab5b2254ed002ebbfe264a4bdc7fe3c6a":[6,1,0,0,2,289,7],
-"classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams.html#ab5b2254ed002ebbfe264a4bdc7fe3c6a":[6,1,1,0,1,289,7],
-"classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams.html#ab79202b6e535999897ef97db3335d7d1":[6,1,0,0,2,289,3],
-"classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams.html#ab79202b6e535999897ef97db3335d7d1":[6,1,1,0,1,289,3]
+"classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams.html#ab5b2254ed002ebbfe264a4bdc7fe3c6a":[6,1,1,0,1,289,7]
 };

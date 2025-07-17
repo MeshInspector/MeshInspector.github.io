@@ -1,5 +1,7 @@
 var NAVTREEINDEX63 =
 {
+"classmrmeshpy_1_1Polyline3.html#aff279aaef2ede055940f6e67e6dec6d8":[6,1,0,0,2,673,34],
+"classmrmeshpy_1_1Polyline3.html#aff279aaef2ede055940f6e67e6dec6d8":[6,1,1,0,1,673,34],
 "classmrmeshpy_1_1PolylineComponents.html":[6,1,0,0,2,674],
 "classmrmeshpy_1_1PolylineComponents.html":[6,1,1,0,1,674],
 "classmrmeshpy_1_1PolylineIntersectionResult2.html":[6,1,0,0,2,675],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "classmrmeshpy_1_1PolylineTopology.html#ad6f3e5bef5e445aef0638a20bb50ed5a":[6,1,0,0,2,683,0],
 "classmrmeshpy_1_1PolylineTopology.html#ad6f3e5bef5e445aef0638a20bb50ed5a":[6,1,1,0,1,683,0],
 "classmrmeshpy_1_1PolylineTopology.html#ae17ce0f872a8eaca4cfc6bcc7eabdfa9":[6,1,0,0,2,683,43],
-"classmrmeshpy_1_1PolylineTopology.html#ae17ce0f872a8eaca4cfc6bcc7eabdfa9":[6,1,1,0,1,683,43],
-"classmrmeshpy_1_1PolylineTopology.html#ae24cad4774f136e204d6fd0f9e723684":[6,1,0,0,2,683,12],
-"classmrmeshpy_1_1PolylineTopology.html#ae24cad4774f136e204d6fd0f9e723684":[6,1,1,0,1,683,12]
+"classmrmeshpy_1_1PolylineTopology.html#ae17ce0f872a8eaca4cfc6bcc7eabdfa9":[6,1,1,0,1,683,43]
 };

@@ -3,6 +3,7 @@ var classmrmeshpy_1_1ObjectLinesHolder =
     [ "__init__", "classmrmeshpy_1_1ObjectLinesHolder.html#ae89c55eb14c80dcca14c9e11137e09fa", null ],
     [ "applyScale", "classmrmeshpy_1_1ObjectLinesHolder.html#acb205f054024051149f4102cd445e788", null ],
     [ "clone", "classmrmeshpy_1_1ObjectLinesHolder.html#a0ce5f0f36cb7ebc31e410e151c5775c3", null ],
+    [ "copyColors", "classmrmeshpy_1_1ObjectLinesHolder.html#adb4c956a11a4aa8fdb7b1445ac00f633", null ],
     [ "getAllVisualizeProperties", "classmrmeshpy_1_1ObjectLinesHolder.html#a994cad33d6a8028132f72cdd9b0dca98", null ],
     [ "getLinesColorMap", "classmrmeshpy_1_1ObjectLinesHolder.html#a933eec1123ee3897a437afcd8f694693", null ],
     [ "getLineWidth", "classmrmeshpy_1_1ObjectLinesHolder.html#ac7b63e5eee394d637f7bce100638ac78", null ],

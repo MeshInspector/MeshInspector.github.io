@@ -200,6 +200,7 @@ var group__DataModelGroup =
       [ "applyScale", "classMR_1_1ObjectLinesHolder.html#a866b821cbf1353875759fa45e614249f", null ],
       [ "clone", "classMR_1_1ObjectLinesHolder.html#a8d62fc8248ac41e37620d11e4e326b62", null ],
       [ "computeBoundingBox_", "classMR_1_1ObjectLinesHolder.html#a502ed4a3293b4e8466ef0eacaa0f8d9d", null ],
+      [ "copyColors", "classMR_1_1ObjectLinesHolder.html#a8958b915eb5b7b9f6f0b7ffa704700f5", null ],
       [ "deserializeBaseFields_", "classMR_1_1ObjectLinesHolder.html#aace1c3bef514115c4645861934321253", null ],
       [ "deserializeFields_", "classMR_1_1ObjectLinesHolder.html#a91f1067311fb1cc387d342a67e4557cb", null ],
       [ "getAllVisualizeProperties", "classMR_1_1ObjectLinesHolder.html#af36a700f7b56ba0159abf2c66b58d630", null ],

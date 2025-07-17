@@ -4917,6 +4917,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ad8bfcdd27aa7037f5d7fa7b17f725c21" id="r_ad8bfcdd27aa7037f5d7fa7b17f725c21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectLines.html">ObjectLines</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8bfcdd27aa7037f5d7fa7b17f725c21">merge</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectLines.html">ObjectLines</a> &gt; &gt; &amp;objsLines)</td></tr>
 <tr class="memdesc:ad8bfcdd27aa7037f5d7fa7b17f725c21"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs new <a class="el" href="classMR_1_1ObjectLines.html">ObjectLines</a> containing the union of valid data from all input objects  <br /></td></tr>
 <tr class="separator:ad8bfcdd27aa7037f5d7fa7b17f725c21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2762f2b4aeb66b9147cee27a9b72ab3d" id="r_a2762f2b4aeb66b9147cee27a9b72ab3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectLines.html">ObjectLines</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2762f2b4aeb66b9147cee27a9b72ab3d">cloneRegion</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectLines.html">ObjectLines</a> &gt; &amp;objLines, const UndirectedEdgeBitSet &amp;region)</td></tr>
+<tr class="memdesc:a2762f2b4aeb66b9147cee27a9b72ab3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs new <a class="el" href="classMR_1_1ObjectLines.html">ObjectLines</a> containing the region of data from input object  <br /></td></tr>
+<tr class="separator:a2762f2b4aeb66b9147cee27a9b72ab3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af864b9246bf8c972ba65a4ef698384f9" id="r_af864b9246bf8c972ba65a4ef698384f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af864b9246bf8c972ba65a4ef698384f9">merge</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &gt; &amp;objsMesh)</td></tr>
 <tr class="memdesc:af864b9246bf8c972ba65a4ef698384f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs new <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> containing the union of valid data from all input objects  <br /></td></tr>
 <tr class="separator:af864b9246bf8c972ba65a4ef698384f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -13683,8 +13686,39 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a2762f2b4aeb66b9147cee27a9b72ab3d" name="a2762f2b4aeb66b9147cee27a9b72ab3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2762f2b4aeb66b9147cee27a9b72ab3d">&#9670;&#160;</a></span>cloneRegion() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectLines.html">ObjectLines</a> &gt; MR::cloneRegion </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectLines.html">ObjectLines</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>objLines</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const UndirectedEdgeBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>constructs new <a class="el" href="classMR_1_1ObjectLines.html">ObjectLines</a> containing the region of data from input object </p>
+
+</div>
+</div>
 <a id="aaefec968ac6fb5cfee5c25c9a8e9b2c0" name="aaefec968ac6fb5cfee5c25c9a8e9b2c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaefec968ac6fb5cfee5c25c9a8e9b2c0">&#9670;&#160;</a></span>cloneRegion() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaefec968ac6fb5cfee5c25c9a8e9b2c0">&#9670;&#160;</a></span>cloneRegion() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13719,7 +13753,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="a86837deb8b4177b9b719b1faf4d2d0e8" name="a86837deb8b4177b9b719b1faf4d2d0e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86837deb8b4177b9b719b1faf4d2d0e8">&#9670;&#160;</a></span>cloneRegion() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a86837deb8b4177b9b719b1faf4d2d0e8">&#9670;&#160;</a></span>cloneRegion() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

@@ -1400,6 +1400,7 @@ var mrmeshpy_8pyi =
     [ "circumcircleDiameter", "mrmeshpy_8pyi.html#a08eb738c0d881062b521c2a82079367f", null ],
     [ "circumcircleDiameterSq", "mrmeshpy_8pyi.html#ae893f7de4c6093dff987f28e668ba8bd", null ],
     [ "classifyShellVert", "mrmeshpy_8pyi.html#a04b6ed32d3dd96c227432d8fe6164585", null ],
+    [ "cloneRegion", "mrmeshpy_8pyi.html#a07a27e02cbb10c2b0dd83ea1ec5f12ce", null ],
     [ "cloneRegion", "mrmeshpy_8pyi.html#a27922d0e318bff356c04f28ebf635e8b", null ],
     [ "cloneRegion", "mrmeshpy_8pyi.html#a29619f933fc4b061e384717e30ca64b9", null ],
     [ "combineXYderivativeMaps", "mrmeshpy_8pyi.html#a52ac8fa7ccde5d18a88961797b770764", null ],

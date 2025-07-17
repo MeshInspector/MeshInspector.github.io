@@ -1,5 +1,8 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1EdgeLengthMesh.html#abdc61c2dae8f243c3682e0dfc637f536":[6,0,0,7,0,4],
+"structMR_1_1EdgeLengthMesh.html#ae600eca420be35f1622258bf5830453c":[6,0,0,7,0,5],
+"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html":[6,0,1,0,1,212,0],
 "structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html":[6,0,2,0,1,196,0],
 "structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a0e59111b442fc3dcfc4cfc089a0972ec":[6,0,1,0,1,212,0,2],
 "structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#a0e59111b442fc3dcfc4cfc089a0972ec":[6,0,2,0,1,196,0,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#a91b56f3de892d527f62012a689981635":[6,0,2,0,1,2,2,0,3],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aca66ca9ce428b369a304aca13a2cd25c":[6,0,1,0,1,6,2,0,2],
 "structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aca66ca9ce428b369a304aca13a2cd25c":[6,0,2,0,1,2,2,0,2],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#ae7cbce0a25261174c06274fcaffe2a0f":[6,0,1,0,1,6,2,0,5],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#ae7cbce0a25261174c06274fcaffe2a0f":[6,0,2,0,1,2,2,0,5],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aed8c3331e8b7c2fd1ab738f49d87f5ce":[6,0,1,0,1,6,2,0,7],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#aed8c3331e8b7c2fd1ab738f49d87f5ce":[6,0,2,0,1,2,2,0,7]
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html#ae7cbce0a25261174c06274fcaffe2a0f":[6,0,1,0,1,6,2,0,5]
 };

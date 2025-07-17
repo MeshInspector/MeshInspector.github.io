@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"classmrmeshpy_1_1PlanarTriangulation_1_1WindingMode.html#a8cc3e96e23c59852845062d7bbd550a2":[6,1,0,0,2,643,4,1],
+"classmrmeshpy_1_1PlanarTriangulation_1_1WindingMode.html#a8cc3e96e23c59852845062d7bbd550a2":[6,1,1,0,1,643,4,1],
 "classmrmeshpy_1_1PlanarTriangulation_1_1WindingMode.html#a925534044f69b2c802f1de8f6039f694":[6,1,0,0,2,643,4,10],
 "classmrmeshpy_1_1PlanarTriangulation_1_1WindingMode.html#a925534044f69b2c802f1de8f6039f694":[6,1,1,0,1,643,4,10],
 "classmrmeshpy_1_1PlanarTriangulation_1_1WindingMode.html#a9a672177ef60101ee099319ff07f761c":[6,1,0,0,2,643,4,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "classmrmeshpy_1_1PointCloud.html#acdb67f6989ea8100aac560a5bcc83e04":[6,1,0,0,2,651,22],
 "classmrmeshpy_1_1PointCloud.html#acdb67f6989ea8100aac560a5bcc83e04":[6,1,1,0,1,651,22],
 "classmrmeshpy_1_1PointCloud.html#acf845dbd3aa2ff71ae51238f253f8d64":[6,1,0,0,2,651,16],
-"classmrmeshpy_1_1PointCloud.html#acf845dbd3aa2ff71ae51238f253f8d64":[6,1,1,0,1,651,16],
-"classmrmeshpy_1_1PointCloudApproxRelaxParams.html":[6,1,0,0,2,652],
-"classmrmeshpy_1_1PointCloudApproxRelaxParams.html":[6,1,1,0,1,652]
+"classmrmeshpy_1_1PointCloud.html#acf845dbd3aa2ff71ae51238f253f8d64":[6,1,1,0,1,651,16]
 };

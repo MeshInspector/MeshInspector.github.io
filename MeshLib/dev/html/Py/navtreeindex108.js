@@ -1,5 +1,7 @@
 var NAVTREEINDEX108 =
 {
+"classmrmeshpy_1_1WholeEdgeMap.html#aa083a24fc8b38908064dfe5b24220a24":[6,1,0,0,2,1160,1],
+"classmrmeshpy_1_1WholeEdgeMap.html#aa083a24fc8b38908064dfe5b24220a24":[6,1,1,0,1,1160,1],
 "classmrmeshpy_1_1WholeEdgeMap.html#aa68ecc252a723ea927d82b415ddfd4d9":[6,1,0,0,2,1160,39],
 "classmrmeshpy_1_1WholeEdgeMap.html#aa68ecc252a723ea927d82b415ddfd4d9":[6,1,1,0,1,1160,39],
 "classmrmeshpy_1_1WholeEdgeMap.html#aa9c924b281df191060e6e6c47d85d6a4":[6,1,0,0,2,1160,31],
@@ -247,7 +249,5 @@ var NAVTREEINDEX108 =
 "classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double.html#af73a926effda0b3db39a5ea25605f97d":[6,1,0,0,2,302,3],
 "classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double.html#af73a926effda0b3db39a5ea25605f97d":[6,1,1,0,1,302,3],
 "classmrmeshpy_1_1func__Processing__from__EdgePoint__float__float.html":[6,1,0,0,2,303],
-"classmrmeshpy_1_1func__Processing__from__EdgePoint__float__float.html":[6,1,1,0,1,303],
-"classmrmeshpy_1_1func__Processing__from__EdgePoint__float__float.html#a22aa1f823fd8bdf0e8f5d400e83c3f9e":[6,1,0,0,2,303,3],
-"classmrmeshpy_1_1func__Processing__from__EdgePoint__float__float.html#a22aa1f823fd8bdf0e8f5d400e83c3f9e":[6,1,1,0,1,303,3]
+"classmrmeshpy_1_1func__Processing__from__EdgePoint__float__float.html":[6,1,1,0,1,303]
 };
