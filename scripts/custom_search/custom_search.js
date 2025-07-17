@@ -95,8 +95,8 @@ function createCustomSearchResults( searchStr, resultsPath )
   if ( searchStr == "" )
     return 0;
 
-  searchStr = search.replace(/^ +/, ""); // strip leading spaces
-  searchStr = search.replace(/ +$/, ""); // strip trailing spaces
+  searchStr = searchStr.replace(/^ +/, ""); // strip leading spaces
+  searchStr = searchStr.replace(/ +$/, ""); // strip trailing spaces
   searchStr = searchStr.toLowerCase();
 
   createItemWeights( convertToId( searchStr ) );
