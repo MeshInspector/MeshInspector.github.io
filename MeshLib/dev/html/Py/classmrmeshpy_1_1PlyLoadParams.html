@@ -1,0 +1,756 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: mrmeshpy.PlyLoadParams Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmrmeshpy_1_1PlyLoadParams.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
+<a href="classmrmeshpy_1_1PlyLoadParams-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">mrmeshpy.PlyLoadParams Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ae4bea723a4b5e45c7bb94386ef62dfc0" id="r_ae4bea723a4b5e45c7bb94386ef62dfc0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4bea723a4b5e45c7bb94386ef62dfc0">__init__</a> (self)</td></tr>
+<tr class="separator:ae4bea723a4b5e45c7bb94386ef62dfc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63826722b351c494790f30183ea25e41" id="r_a63826722b351c494790f30183ea25e41"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63826722b351c494790f30183ea25e41">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__3ul__Id__FaceTag.html">std_optional_Vector_std_array_Id_VertTag_3ul_Id_FaceTag</a> <a class="el" href="#a21b359faf264c887cd283dfaa9bdd91d">tris</a>, <a class="el" href="classmrmeshpy_1_1VertColors.html">VertColors</a> <a class="el" href="#aa3fb981e83fb3212bd36f85f67abd85a">colors</a>, <a class="el" href="classmrmeshpy_1_1VertCoords2.html">VertCoords2</a> <a class="el" href="#ac7d6e201a789388b899fe9ee460e7900">uvCoords</a>, <a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a> <a class="el" href="#a0d735734a3ac9240bca3ebe65ed58980">normals</a>, <a class="el" href="classmrmeshpy_1_1MeshTexture.html">MeshTexture</a> <a class="el" href="#abedca63e352b4ea63c0327fc4f34f726">texture</a>, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> <a class="el" href="#a740dcc8e3346dfd9d024cdfcdc7b9eee">callback</a>)</td></tr>
+<tr class="separator:a63826722b351c494790f30183ea25e41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a740dcc8e3346dfd9d024cdfcdc7b9eee" id="r_a740dcc8e3346dfd9d024cdfcdc7b9eee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a740dcc8e3346dfd9d024cdfcdc7b9eee">callback</a> (self)</td></tr>
+<tr class="separator:a740dcc8e3346dfd9d024cdfcdc7b9eee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fe759868e05ff762e78bbaa43ad950a" id="r_a6fe759868e05ff762e78bbaa43ad950a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fe759868e05ff762e78bbaa43ad950a">callback</a> (self, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> arg1)</td></tr>
+<tr class="separator:a6fe759868e05ff762e78bbaa43ad950a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3fb981e83fb3212bd36f85f67abd85a" id="r_aa3fb981e83fb3212bd36f85f67abd85a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertColors.html">VertColors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3fb981e83fb3212bd36f85f67abd85a">colors</a> (self)</td></tr>
+<tr class="separator:aa3fb981e83fb3212bd36f85f67abd85a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad53d9f30ab07f86a4a1814370971b275" id="r_ad53d9f30ab07f86a4a1814370971b275"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad53d9f30ab07f86a4a1814370971b275">colors</a> (self, <a class="el" href="classmrmeshpy_1_1VertColors.html">VertColors</a> arg1)</td></tr>
+<tr class="separator:ad53d9f30ab07f86a4a1814370971b275"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d735734a3ac9240bca3ebe65ed58980" id="r_a0d735734a3ac9240bca3ebe65ed58980"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d735734a3ac9240bca3ebe65ed58980">normals</a> (self)</td></tr>
+<tr class="separator:a0d735734a3ac9240bca3ebe65ed58980"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5af01422f9aa45c198c1df9420bf3a5" id="r_ac5af01422f9aa45c198c1df9420bf3a5"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5af01422f9aa45c198c1df9420bf3a5">normals</a> (self, <a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a> arg1)</td></tr>
+<tr class="separator:ac5af01422f9aa45c198c1df9420bf3a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abedca63e352b4ea63c0327fc4f34f726" id="r_abedca63e352b4ea63c0327fc4f34f726"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1MeshTexture.html">MeshTexture</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abedca63e352b4ea63c0327fc4f34f726">texture</a> (self)</td></tr>
+<tr class="separator:abedca63e352b4ea63c0327fc4f34f726"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73c13b2cf1dda15ab5aa69b7cebfebe1" id="r_a73c13b2cf1dda15ab5aa69b7cebfebe1"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73c13b2cf1dda15ab5aa69b7cebfebe1">texture</a> (self, <a class="el" href="classmrmeshpy_1_1MeshTexture.html">MeshTexture</a> arg1)</td></tr>
+<tr class="separator:a73c13b2cf1dda15ab5aa69b7cebfebe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21b359faf264c887cd283dfaa9bdd91d" id="r_a21b359faf264c887cd283dfaa9bdd91d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__3ul__Id__FaceTag.html">std_optional_Vector_std_array_Id_VertTag_3ul_Id_FaceTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21b359faf264c887cd283dfaa9bdd91d">tris</a> (self)</td></tr>
+<tr class="separator:a21b359faf264c887cd283dfaa9bdd91d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea7f02db6807d7da15a40c94e7aa644b" id="r_aea7f02db6807d7da15a40c94e7aa644b"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea7f02db6807d7da15a40c94e7aa644b">tris</a> (self, <a class="el" href="classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__3ul__Id__FaceTag.html">std_optional_Vector_std_array_Id_VertTag_3ul_Id_FaceTag</a> arg1)</td></tr>
+<tr class="separator:aea7f02db6807d7da15a40c94e7aa644b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7d6e201a789388b899fe9ee460e7900" id="r_ac7d6e201a789388b899fe9ee460e7900"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertCoords2.html">VertCoords2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7d6e201a789388b899fe9ee460e7900">uvCoords</a> (self)</td></tr>
+<tr class="separator:ac7d6e201a789388b899fe9ee460e7900"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3f1f7755bea77c615a95144a663d0b2" id="r_ab3f1f7755bea77c615a95144a663d0b2"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3f1f7755bea77c615a95144a663d0b2">uvCoords</a> (self, <a class="el" href="classmrmeshpy_1_1VertCoords2.html">VertCoords2</a> arg1)</td></tr>
+<tr class="separator:ab3f1f7755bea77c615a95144a663d0b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:aeca7a899278d30324d33c43f426b233f" id="r_aeca7a899278d30324d33c43f426b233f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeca7a899278d30324d33c43f426b233f">__init__</a> (*args, **kwargs)</td></tr>
+<tr class="separator:aeca7a899278d30324d33c43f426b233f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b79c5c51b5da78e32c09b55efd2f2f9" id="r_a6b79c5c51b5da78e32c09b55efd2f2f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1PlyLoadParams.html">PlyLoadParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b79c5c51b5da78e32c09b55efd2f2f9">operator</a> (*args, **kwargs)</td></tr>
+<tr class="separator:a6b79c5c51b5da78e32c09b55efd2f2f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b79c5c51b5da78e32c09b55efd2f2f9" id="r_a6b79c5c51b5da78e32c09b55efd2f2f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1PlyLoadParams.html">PlyLoadParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b79c5c51b5da78e32c09b55efd2f2f9">operator</a> (*args, **kwargs)</td></tr>
+<tr class="separator:a6b79c5c51b5da78e32c09b55efd2f2f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
+Static Protected Attributes</h2></td></tr>
+<tr class="memitem:a467115ce8bbcf649cb0c3457626a5949" id="r_a467115ce8bbcf649cb0c3457626a5949"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a467115ce8bbcf649cb0c3457626a5949">_offsetof_callback</a> = 40</td></tr>
+<tr class="separator:a467115ce8bbcf649cb0c3457626a5949"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85fba3cbb158dd4c52b0187d4d7cd541" id="r_a85fba3cbb158dd4c52b0187d4d7cd541"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85fba3cbb158dd4c52b0187d4d7cd541">_offsetof_colors</a> = 8</td></tr>
+<tr class="separator:a85fba3cbb158dd4c52b0187d4d7cd541"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a887d6c9e1ef64f4082fa2871d4bb15d7" id="r_a887d6c9e1ef64f4082fa2871d4bb15d7"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a887d6c9e1ef64f4082fa2871d4bb15d7">_offsetof_normals</a> = 24</td></tr>
+<tr class="separator:a887d6c9e1ef64f4082fa2871d4bb15d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a067e3230d3ecc8ba4013ac5b7b1c3e86" id="r_a067e3230d3ecc8ba4013ac5b7b1c3e86"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a067e3230d3ecc8ba4013ac5b7b1c3e86">_offsetof_texture</a> = 32</td></tr>
+<tr class="separator:a067e3230d3ecc8ba4013ac5b7b1c3e86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29aa1bf12ebf5039d29f1cbe9afcb255" id="r_a29aa1bf12ebf5039d29f1cbe9afcb255"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29aa1bf12ebf5039d29f1cbe9afcb255">_offsetof_tris</a> = 0</td></tr>
+<tr class="separator:a29aa1bf12ebf5039d29f1cbe9afcb255"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad3958b56df3351c8f98a66cfe6a6687" id="r_aad3958b56df3351c8f98a66cfe6a6687"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad3958b56df3351c8f98a66cfe6a6687">_offsetof_uvCoords</a> = 16</td></tr>
+<tr class="separator:aad3958b56df3351c8f98a66cfe6a6687"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Generated from:  MR::PlyLoadParams
+
+optional load artifacts and other setting for PLY file loading
+</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aeca7a899278d30324d33c43f426b233f" name="aeca7a899278d30324d33c43f426b233f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeca7a899278d30324d33c43f426b233f">&#9670;&#160;</a></span>__init__() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.PlyLoadParams.__init__ </td>
+          <td>(</td>
+          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae4bea723a4b5e45c7bb94386ef62dfc0" name="ae4bea723a4b5e45c7bb94386ef62dfc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4bea723a4b5e45c7bb94386ef62dfc0">&#9670;&#160;</a></span>__init__() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.PlyLoadParams.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a63826722b351c494790f30183ea25e41" name="a63826722b351c494790f30183ea25e41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63826722b351c494790f30183ea25e41">&#9670;&#160;</a></span>__init__() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.PlyLoadParams.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__3ul__Id__FaceTag.html">std_optional_Vector_std_array_Id_VertTag_3ul_Id_FaceTag</a></td>          <td class="paramname"><span class="paramname"><em>tris</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertColors.html">VertColors</a></td>          <td class="paramname"><span class="paramname"><em>colors</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertCoords2.html">VertCoords2</a></td>          <td class="paramname"><span class="paramname"><em>uvCoords</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a></td>          <td class="paramname"><span class="paramname"><em>normals</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshTexture.html">MeshTexture</a></td>          <td class="paramname"><span class="paramname"><em>texture</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a></td>          <td class="paramname"><span class="paramname"><em>callback</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit aggregate constructor.
+</pre> 
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a740dcc8e3346dfd9d024cdfcdc7b9eee" name="a740dcc8e3346dfd9d024cdfcdc7b9eee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a740dcc8e3346dfd9d024cdfcdc7b9eee">&#9670;&#160;</a></span>callback() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> mrmeshpy.PlyLoadParams.callback </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">callback for set progress and stop process
+</pre> 
+</div>
+</div>
+<a id="a6fe759868e05ff762e78bbaa43ad950a" name="a6fe759868e05ff762e78bbaa43ad950a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fe759868e05ff762e78bbaa43ad950a">&#9670;&#160;</a></span>callback() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.PlyLoadParams.callback </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa3fb981e83fb3212bd36f85f67abd85a" name="aa3fb981e83fb3212bd36f85f67abd85a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3fb981e83fb3212bd36f85f67abd85a">&#9670;&#160;</a></span>colors() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1VertColors.html">VertColors</a> mrmeshpy.PlyLoadParams.colors </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">optional load artifact: per-vertex color map
+</pre> 
+</div>
+</div>
+<a id="ad53d9f30ab07f86a4a1814370971b275" name="ad53d9f30ab07f86a4a1814370971b275"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad53d9f30ab07f86a4a1814370971b275">&#9670;&#160;</a></span>colors() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.PlyLoadParams.colors </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertColors.html">VertColors</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0d735734a3ac9240bca3ebe65ed58980" name="a0d735734a3ac9240bca3ebe65ed58980"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d735734a3ac9240bca3ebe65ed58980">&#9670;&#160;</a></span>normals() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a> mrmeshpy.PlyLoadParams.normals </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">optional load artifact: per-vertex normals
+</pre> 
+</div>
+</div>
+<a id="ac5af01422f9aa45c198c1df9420bf3a5" name="ac5af01422f9aa45c198c1df9420bf3a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5af01422f9aa45c198c1df9420bf3a5">&#9670;&#160;</a></span>normals() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.PlyLoadParams.normals </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6b79c5c51b5da78e32c09b55efd2f2f9" name="a6b79c5c51b5da78e32c09b55efd2f2f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b79c5c51b5da78e32c09b55efd2f2f9">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1PlyLoadParams.html">PlyLoadParams</a> mrmeshpy.PlyLoadParams.operator </td>
+          <td>(</td>
+          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6b79c5c51b5da78e32c09b55efd2f2f9" name="a6b79c5c51b5da78e32c09b55efd2f2f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b79c5c51b5da78e32c09b55efd2f2f9">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1PlyLoadParams.html">PlyLoadParams</a> mrmeshpy.PlyLoadParams.operator </td>
+          <td>(</td>
+          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abedca63e352b4ea63c0327fc4f34f726" name="abedca63e352b4ea63c0327fc4f34f726"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abedca63e352b4ea63c0327fc4f34f726">&#9670;&#160;</a></span>texture() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1MeshTexture.html">MeshTexture</a> mrmeshpy.PlyLoadParams.texture </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">optional load artifact: texture image
+</pre> 
+</div>
+</div>
+<a id="a73c13b2cf1dda15ab5aa69b7cebfebe1" name="a73c13b2cf1dda15ab5aa69b7cebfebe1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73c13b2cf1dda15ab5aa69b7cebfebe1">&#9670;&#160;</a></span>texture() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.PlyLoadParams.texture </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshTexture.html">MeshTexture</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a21b359faf264c887cd283dfaa9bdd91d" name="a21b359faf264c887cd283dfaa9bdd91d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21b359faf264c887cd283dfaa9bdd91d">&#9670;&#160;</a></span>tris() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__3ul__Id__FaceTag.html">std_optional_Vector_std_array_Id_VertTag_3ul_Id_FaceTag</a> mrmeshpy.PlyLoadParams.tris </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">optional load artifact: mesh triangles
+</pre> 
+</div>
+</div>
+<a id="aea7f02db6807d7da15a40c94e7aa644b" name="aea7f02db6807d7da15a40c94e7aa644b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea7f02db6807d7da15a40c94e7aa644b">&#9670;&#160;</a></span>tris() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.PlyLoadParams.tris </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__3ul__Id__FaceTag.html">std_optional_Vector_std_array_Id_VertTag_3ul_Id_FaceTag</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7d6e201a789388b899fe9ee460e7900" name="ac7d6e201a789388b899fe9ee460e7900"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7d6e201a789388b899fe9ee460e7900">&#9670;&#160;</a></span>uvCoords() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1VertCoords2.html">VertCoords2</a> mrmeshpy.PlyLoadParams.uvCoords </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">optional load artifact: per-vertex uv-coordinates
+</pre> 
+</div>
+</div>
+<a id="ab3f1f7755bea77c615a95144a663d0b2" name="ab3f1f7755bea77c615a95144a663d0b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3f1f7755bea77c615a95144a663d0b2">&#9670;&#160;</a></span>uvCoords() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.PlyLoadParams.uvCoords </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertCoords2.html">VertCoords2</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a467115ce8bbcf649cb0c3457626a5949" name="a467115ce8bbcf649cb0c3457626a5949"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a467115ce8bbcf649cb0c3457626a5949">&#9670;&#160;</a></span>_offsetof_callback</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">typing mrmeshpy.PlyLoadParams._offsetof_callback = 40</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a85fba3cbb158dd4c52b0187d4d7cd541" name="a85fba3cbb158dd4c52b0187d4d7cd541"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85fba3cbb158dd4c52b0187d4d7cd541">&#9670;&#160;</a></span>_offsetof_colors</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">typing mrmeshpy.PlyLoadParams._offsetof_colors = 8</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a887d6c9e1ef64f4082fa2871d4bb15d7" name="a887d6c9e1ef64f4082fa2871d4bb15d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a887d6c9e1ef64f4082fa2871d4bb15d7">&#9670;&#160;</a></span>_offsetof_normals</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">typing mrmeshpy.PlyLoadParams._offsetof_normals = 24</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a067e3230d3ecc8ba4013ac5b7b1c3e86" name="a067e3230d3ecc8ba4013ac5b7b1c3e86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a067e3230d3ecc8ba4013ac5b7b1c3e86">&#9670;&#160;</a></span>_offsetof_texture</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">typing mrmeshpy.PlyLoadParams._offsetof_texture = 32</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a29aa1bf12ebf5039d29f1cbe9afcb255" name="a29aa1bf12ebf5039d29f1cbe9afcb255"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29aa1bf12ebf5039d29f1cbe9afcb255">&#9670;&#160;</a></span>_offsetof_tris</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">typing mrmeshpy.PlyLoadParams._offsetof_tris = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aad3958b56df3351c8f98a66cfe6a6687" name="aad3958b56df3351c8f98a66cfe6a6687"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad3958b56df3351c8f98a66cfe6a6687">&#9670;&#160;</a></span>_offsetof_uvCoords</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">typing mrmeshpy.PlyLoadParams._offsetof_uvCoords = 16</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmrmeshpy_1_1PlyLoadParams.html">PlyLoadParams</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -986,6 +986,7 @@ var hierarchy =
     [ "MR::PlaneAccumulator", "classMR_1_1PlaneAccumulator.html", null ],
     [ "MR::UI::PlotAxis", "structMR_1_1UI_1_1PlotAxis.html", null ],
     [ "MR::ImGuiMenu::PluginsCache", "structMR_1_1ImGuiMenu_1_1PluginsCache.html", null ],
+    [ "MR::PlyLoadParams", "structMR_1_1PlyLoadParams.html", null ],
     [ "MR::AABBTreePoints::Point", "structMR_1_1AABBTreePoints_1_1Point.html", null ],
     [ "MR::PointAccumulator", "classMR_1_1PointAccumulator.html", null ],
     [ "MR::PointAndDistance", "structMR_1_1PointAndDistance.html", null ],

@@ -275,6 +275,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRPartMapping.h", "MRPartMapping_8h.html", "MRPartMapping_8h" ],
     [ "MRPlane3.h", "MRPlane3_8h.html", null ],
     [ "MRPlaneObject.h", "MRPlaneObject_8h.html", null ],
+    [ "MRPly.h", "MRPly_8h.html", "MRPly_8h" ],
     [ "MRPointCloud.h", "MRMesh_2MRPointCloud_8h.html", null ],
     [ "MRPointCloudDistance.h", "MRPointCloudDistance_8h.html", "MRPointCloudDistance_8h" ],
     [ "MRPointCloudDivideWithPlane.h", "MRPointCloudDivideWithPlane_8h.html", "MRPointCloudDivideWithPlane_8h" ],

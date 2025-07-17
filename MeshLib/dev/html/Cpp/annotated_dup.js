@@ -673,6 +673,7 @@ var annotated_dup =
       [ "PluginCloseOnSelectedObjectRemove", "classMR_1_1PluginCloseOnSelectedObjectRemove.html", "classMR_1_1PluginCloseOnSelectedObjectRemove" ],
       [ "PluginUpdateOnChangeMeshPart", "classMR_1_1PluginUpdateOnChangeMeshPart.html", "classMR_1_1PluginUpdateOnChangeMeshPart" ],
       [ "PluginUpdateOr", "classMR_1_1PluginUpdateOr.html", "classMR_1_1PluginUpdateOr" ],
+      [ "PlyLoadParams", "structMR_1_1PlyLoadParams.html", "structMR_1_1PlyLoadParams" ],
       [ "PointAccumulator", "classMR_1_1PointAccumulator.html", "classMR_1_1PointAccumulator" ],
       [ "PointAndDistance", "structMR_1_1PointAndDistance.html", "structMR_1_1PointAndDistance" ],
       [ "PointCloud", "structMR_1_1PointCloud.html", "structMR_1_1PointCloud" ],

@@ -1,5 +1,9 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1MaxArg.html#a6e631e817fa5321af17499e6d85dd493":[6,0,2,0,1,340,3],
+"structMR_1_1MaxArg.html#a92801c4c188336ee3d3fb4032cfa7f03":[6,0,1,0,1,356,0],
+"structMR_1_1MaxArg.html#a92801c4c188336ee3d3fb4032cfa7f03":[6,0,2,0,1,340,0],
+"structMR_1_1MaxArg.html#aa21a71bf7a4170f22b846dfd6f688a3b":[6,0,1,0,1,356,2],
 "structMR_1_1MaxArg.html#aa21a71bf7a4170f22b846dfd6f688a3b":[6,0,2,0,1,340,2],
 "structMR_1_1MaxArg.html#ad30afe2538c6149652bcfaf60a97544a":[6,0,1,0,1,356,1],
 "structMR_1_1MaxArg.html#ad30afe2538c6149652bcfaf60a97544a":[6,0,2,0,1,340,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1MeshBuilder_1_1equalVector3f.html":[6,0,1,0,1,16,1],
 "structMR_1_1MeshBuilder_1_1equalVector3f.html":[6,0,2,0,1,8,1],
 "structMR_1_1MeshBuilder_1_1equalVector3f.html#a8fdebf815e795678656400f4e3a957f2":[6,0,1,0,1,16,1,0],
-"structMR_1_1MeshBuilder_1_1equalVector3f.html#a8fdebf815e795678656400f4e3a957f2":[6,0,2,0,1,8,1,0],
-"structMR_1_1MeshComponents_1_1ExpandToComponentsParams.html":[6,0,0,19,0,0],
-"structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html":[6,0,0,19,0,1],
-"structMR_1_1MeshEqualizeTriAreasParams.html":[6,0,0,9,6,1],
-"structMR_1_1MeshEqualizeTriAreasParams.html#a7a54f93ce9d16e271b34554e4b0bd4f0":[6,0,0,9,6,1,0]
+"structMR_1_1MeshBuilder_1_1equalVector3f.html#a8fdebf815e795678656400f4e3a957f2":[6,0,2,0,1,8,1,0]
 };
