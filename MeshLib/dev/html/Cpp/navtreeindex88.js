@@ -232,8 +232,10 @@ var NAVTREEINDEX88 =
 "structMR_1_1UI_1_1ButtonCustomizationParams.html#a4f1e3048ba6230a8535ee31a43944921":[6,0,2,0,1,23,1,4],
 "structMR_1_1UI_1_1ButtonCustomizationParams.html#a535ce8036fde0db76e18417ab476bf53":[6,0,1,0,1,38,2,2],
 "structMR_1_1UI_1_1ButtonCustomizationParams.html#a535ce8036fde0db76e18417ab476bf53":[6,0,2,0,1,23,1,2],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#aa05d1e76244fb6b4afc1122ad02e1d5e":[6,0,1,0,1,38,2,7],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#aa05d1e76244fb6b4afc1122ad02e1d5e":[6,0,2,0,1,23,1,7],
+"structMR_1_1UI_1_1ButtonCustomizationParams.html#a95c7d0696bf82bdb91773e3df15adce1":[6,0,1,0,1,38,2,7],
+"structMR_1_1UI_1_1ButtonCustomizationParams.html#a95c7d0696bf82bdb91773e3df15adce1":[6,0,2,0,1,23,1,7],
+"structMR_1_1UI_1_1ButtonCustomizationParams.html#aa05d1e76244fb6b4afc1122ad02e1d5e":[6,0,1,0,1,38,2,8],
+"structMR_1_1UI_1_1ButtonCustomizationParams.html#aa05d1e76244fb6b4afc1122ad02e1d5e":[6,0,2,0,1,23,1,8],
 "structMR_1_1UI_1_1ButtonCustomizationParams.html#aa156c6a89d078c902ee22cbfb09bfc42":[6,0,1,0,1,38,2,5],
 "structMR_1_1UI_1_1ButtonCustomizationParams.html#aa156c6a89d078c902ee22cbfb09bfc42":[6,0,2,0,1,23,1,5],
 "structMR_1_1UI_1_1ButtonCustomizationParams.html#ace10f316495c9cf052464a0154fee1c5":[6,0,1,0,1,38,2,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX88 =
 "structMR_1_1UI_1_1ButtonIconCustomizationParams.html#ae70b40fe67c4360ea6328d4d514217ea":[6,0,1,0,1,38,3,0],
 "structMR_1_1UI_1_1ButtonIconCustomizationParams.html#ae70b40fe67c4360ea6328d4d514217ea":[6,0,2,0,1,23,2,0],
 "structMR_1_1UI_1_1CachedTextSize.html":[6,0,1,0,1,38,4],
-"structMR_1_1UI_1_1CachedTextSize.html":[6,0,2,0,1,23,3],
-"structMR_1_1UI_1_1CachedTextSize.html#ad31fcee8885480c212111d933cfa10d6":[6,0,1,0,1,38,4,0],
-"structMR_1_1UI_1_1CachedTextSize.html#ad31fcee8885480c212111d933cfa10d6":[6,0,2,0,1,23,3,0]
+"structMR_1_1UI_1_1CachedTextSize.html":[6,0,2,0,1,23,3]
 };

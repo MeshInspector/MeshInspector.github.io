@@ -223,10 +223,10 @@ var NAVTREEINDEX =
 "structMR_1_1Signal.html#ad2ac352405fa0b18359e9604a84d95eb",
 "structMR_1_1SymMatrix3.html#ae429d9d10243a2e9b7e1446ed7235c36",
 "structMR_1_1TouchpadSwipeGestureEndListener.html",
-"structMR_1_1UI_1_1CheckboxOrModifierState.html",
-"structMR_1_1UnorientedTriangle.html#a3def19a0ec6d9b753da75d05825e1d0b",
-"structMR_1_1Viewport_1_1Parameters.html#a4e04005c46ed161365c6df1748e23b07",
-"structMR_1_1ZeroOnMove.html#a2a13927970e03bd552e6ba6241206a15"
+"structMR_1_1UI_1_1CachedTextSize.html#ad31fcee8885480c212111d933cfa10d6",
+"structMR_1_1UnorientedTriangle.html#a2acb7c3b59143a9bddbe412c01ec2489",
+"structMR_1_1Viewport_1_1Parameters.html#a331a42d9b0fd61e7260642f7ce040342",
+"structMR_1_1ZeroOnMove.html#a1eb512d1aea6742b0d8392f71ce425a2"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
