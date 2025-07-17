@@ -9,7 +9,6 @@ var MRPrecisePredicates2_8h =
     [ "ccw", "MRPrecisePredicates2_8h.html#adebe37534b9bb6c1ccc995df1839c432", null ],
     [ "ccw", "MRPrecisePredicates2_8h.html#a04b9e51953d898cf85e76c05d426366a", null ],
     [ "ccw", "MRPrecisePredicates2_8h.html#a748634eee611373365c3a338f0259d7e", null ],
-    [ "ccwLess", "MRPrecisePredicates2_8h.html#ad1f6a034186998d75a78ef5b6b6daff0", null ],
     [ "doSegmentSegmentIntersect", "MRPrecisePredicates2_8h.html#a10729a0925102f48ab56d783b191699c", null ],
     [ "findSegmentSegmentIntersectionPrecise", "MRPrecisePredicates2_8h.html#a5f3df64863abc3404145b3343176c230", null ],
     [ "findSegmentSegmentIntersectionPrecise", "MRPrecisePredicates2_8h.html#a1dd7d1f303aba49ee7b9f4e984261bd7", null ],
@@ -18,5 +17,6 @@ var MRPrecisePredicates2_8h =
     [ "orientParaboloid3d", "MRPrecisePredicates2_8h.html#a6626f7c315e4aae48380b5c214af0e42", null ],
     [ "orientParaboloid3d", "MRPrecisePredicates2_8h.html#a565f119f21a7b73c4af0da283afb6c30", null ],
     [ "segmentIntersectionOrder", "MRPrecisePredicates2_8h.html#a60a0c2f417f93c5b7146c1ea63680d02", null ],
-    [ "smaller", "MRPrecisePredicates2_8h.html#ab32707ab055efa8d14815955fdfbcadd", null ]
+    [ "smaller", "MRPrecisePredicates2_8h.html#ab32707ab055efa8d14815955fdfbcadd", null ],
+    [ "smaller2", "MRPrecisePredicates2_8h.html#a9a7e0ce0f1abfc4c495e78fa9b09057e", null ]
 ];

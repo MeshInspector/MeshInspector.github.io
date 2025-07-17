@@ -7227,8 +7227,8 @@ Variables</h2></td></tr>
 <tr class="separator:adebe37534b9bb6c1ccc995df1839c432"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadc1b40eb80e70a7e20d00559456217d" id="r_aadc1b40eb80e70a7e20d00559456217d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadc1b40eb80e70a7e20d00559456217d">ccw</a> (const <a class="el" href="structMR_1_1PreciseVertCoords2.html">PreciseVertCoords2</a> *vs)</td></tr>
 <tr class="separator:aadc1b40eb80e70a7e20d00559456217d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1f6a034186998d75a78ef5b6b6daff0" id="r_ad1f6a034186998d75a78ef5b6b6daff0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1f6a034186998d75a78ef5b6b6daff0">ccwLess</a> (const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords2.html">PreciseVertCoords2</a>, 4 &gt; &amp;vs)</td></tr>
-<tr class="separator:ad1f6a034186998d75a78ef5b6b6daff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a7e0ce0f1abfc4c495e78fa9b09057e" id="r_a9a7e0ce0f1abfc4c495e78fa9b09057e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a7e0ce0f1abfc4c495e78fa9b09057e">smaller2</a> (const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords2.html">PreciseVertCoords2</a>, 4 &gt; &amp;vs)</td></tr>
+<tr class="separator:a9a7e0ce0f1abfc4c495e78fa9b09057e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6626f7c315e4aae48380b5c214af0e42" id="r_a6626f7c315e4aae48380b5c214af0e42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6626f7c315e4aae48380b5c214af0e42">orientParaboloid3d</a> (const Vector2i &amp;a, const Vector2i &amp;b, const Vector2i &amp;c)</td></tr>
 <tr class="separator:a6626f7c315e4aae48380b5c214af0e42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a565f119f21a7b73c4af0da283afb6c30" id="r_a565f119f21a7b73c4af0da283afb6c30"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a565f119f21a7b73c4af0da283afb6c30">orientParaboloid3d</a> (const Vector2i &amp;a, const Vector2i &amp;b, const Vector2i &amp;c, const Vector2i &amp;d)</td></tr>
@@ -13391,32 +13391,6 @@ template&lt;typename GridT &gt; </div>
 </table>
 </div><div class="memdoc">
 <p>return true if the smallest rotation from vector (a-c) to vector (b-c) is in counter-clock-wise direction; uses simulation-of-simplicity (assuming perturbations a &gt;&gt; b &gt;&gt; c) to avoid "vectors are collinear" </p>
-
-</div>
-</div>
-<a id="ad1f6a034186998d75a78ef5b6b6daff0" name="ad1f6a034186998d75a78ef5b6b6daff0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1f6a034186998d75a78ef5b6b6daff0">&#9670;&#160;</a></span>ccwLess()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::ccwLess </td>
-          <td>(</td>
-          <td class="paramtype">const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords2.html">PreciseVertCoords2</a>, 4 &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vs</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>return true if area( vs[0], vs[1], vs[2] ) &lt; area( vs[0], vs[1], vs[3] ); avoids equality of areas using simulation-of-simplicity approach (assuming larger perturbations of points with smaller id) </p>
 
 </div>
 </div>
@@ -37077,6 +37051,32 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 <p>return true if l is smaller than r, uses simulation-of-simplicity (assuming larger perturbations of points with smaller id) to avoid "coordinates are the same" </p>
+
+</div>
+</div>
+<a id="a9a7e0ce0f1abfc4c495e78fa9b09057e" name="a9a7e0ce0f1abfc4c495e78fa9b09057e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a7e0ce0f1abfc4c495e78fa9b09057e">&#9670;&#160;</a></span>smaller2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::smaller2 </td>
+          <td>(</td>
+          <td class="paramtype">const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords2.html">PreciseVertCoords2</a>, 4 &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>given the line passing via points vs[0] and vs[1], which defines linear signed scalar distance field: zero on the line, positive for x where ccw(vs[0], vs[1], x) == true, and negative for x where ccw(vs[0], vs[1], x) == false finds whether sdistance(vs[2]) &lt; sdistance(vs[3]); avoids equality of signed distances using simulation-of-simplicity approach (assuming larger perturbations of points with smaller id) </p>
 
 </div>
 </div>
