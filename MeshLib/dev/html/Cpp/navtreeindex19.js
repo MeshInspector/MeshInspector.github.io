@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"classMR_1_1BitSet.html#ae581135b70066374b248a52f167c4d4c":[6,0,0,3,2,2],
 "classMR_1_1BitSet.html#ae73a641818182660d303a4b2db7d34a4":[6,0,0,3,2,20],
 "classMR_1_1BitSet.html#aeb7bb0c8ddc8cb0b9a917fe43a2cc514":[6,0,0,3,2,19],
 "classMR_1_1BitSet.html#af4367d27b2897443f41bc359deeab256":[6,0,0,3,2,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1ChangeMeshTexturePerFaceAction.html":[6,0,0,4,9],
 "classMR_1_1ChangeMeshTexturePerFaceAction.html#a26005c217798c440b5d38b82e747c9df":[6,0,0,4,9,4],
 "classMR_1_1ChangeMeshTexturePerFaceAction.html#a4b2e329d2919c7bf660598c1f458ac86":[6,0,0,4,9,5],
-"classMR_1_1ChangeMeshTexturePerFaceAction.html#a5ac275b9b06a01874c43ebe7baea03d8":[6,0,0,4,9,0],
-"classMR_1_1ChangeMeshTexturePerFaceAction.html#a74f10a919c46c00ffa6dc5bbfe354000":[6,0,0,4,9,3]
+"classMR_1_1ChangeMeshTexturePerFaceAction.html#a5ac275b9b06a01874c43ebe7baea03d8":[6,0,0,4,9,0]
 };

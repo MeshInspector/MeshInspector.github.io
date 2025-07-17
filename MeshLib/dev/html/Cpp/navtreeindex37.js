@@ -1,5 +1,7 @@
 var NAVTREEINDEX37 =
 {
+"classMR_1_1PriorityQueue.html#aeaf2b86418b3f772aaf5c8bc2329d8c2":[6,0,1,0,1,549,0],
+"classMR_1_1PriorityQueue.html#aeaf2b86418b3f772aaf5c8bc2329d8c2":[6,0,2,0,1,533,0],
 "classMR_1_1PriorityQueue.html#aebd81e426914ebd5fa07ba5e4bfa0142":[6,0,1,0,1,549,4],
 "classMR_1_1PriorityQueue.html#aebd81e426914ebd5fa07ba5e4bfa0142":[6,0,2,0,1,533,4],
 "classMR_1_1PriorityQueue.html#af82d3663565c02f63678292a87e97192":[6,0,1,0,1,549,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX37 =
 "classMR_1_1RenderAngleObject.html#a27735a1d0225c060e7c06bbb288c0225":[6,0,1,0,1,574,1],
 "classMR_1_1RenderAngleObject.html#a27735a1d0225c060e7c06bbb288c0225":[6,0,2,0,1,558,1],
 "classMR_1_1RenderAngleObject.html#ad783673b63b5a23dcf35d0bc3ecd7a02":[6,0,1,0,1,574,0],
-"classMR_1_1RenderAngleObject.html#ad783673b63b5a23dcf35d0bc3ecd7a02":[6,0,2,0,1,558,0],
-"classMR_1_1RenderBufferRef.html":[6,0,1,0,1,575],
-"classMR_1_1RenderBufferRef.html":[6,0,2,0,1,559]
+"classMR_1_1RenderAngleObject.html#ad783673b63b5a23dcf35d0bc3ecd7a02":[6,0,2,0,1,558,0]
 };

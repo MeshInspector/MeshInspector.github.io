@@ -227,8 +227,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a397d39aafb06969b79175b391cc0ebe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abceb8f33ee79574bc25c1e18e5a56b9d" id="r_abceb8f33ee79574bc25c1e18e5a56b9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abceb8f33ee79574bc25c1e18e5a56b9d">makeEdge</a> (self)</td></tr>
 <tr class="separator:abceb8f33ee79574bc25c1e18e5a56b9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a6ba62637df84aeec4960a62b04d5c7" id="r_a7a6ba62637df84aeec4960a62b04d5c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a6ba62637df84aeec4960a62b04d5c7">makeEdge</a> (self, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> a, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> b)</td></tr>
-<tr class="separator:a7a6ba62637df84aeec4960a62b04d5c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13eee9ccb3b179ca7e26a41639a0c707" id="r_a13eee9ccb3b179ca7e26a41639a0c707"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13eee9ccb3b179ca7e26a41639a0c707">makeEdge</a> (self, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> a, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> b, <a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> e='{}')</td></tr>
+<tr class="separator:a13eee9ccb3b179ca7e26a41639a0c707"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbd93fb490464206972018a3bfb038a4" id="r_acbd93fb490464206972018a3bfb038a4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbd93fb490464206972018a3bfb038a4">makeEdges</a> (self, <a class="el" href="classmrmeshpy_1_1Edges.html">Edges</a> edges)</td></tr>
+<tr class="separator:acbd93fb490464206972018a3bfb038a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2322182cbde58ed981736e1ed9074d43" id="r_a2322182cbde58ed981736e1ed9074d43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2322182cbde58ed981736e1ed9074d43">makePolyline</a> (self, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> vs, int num)</td></tr>
 <tr class="separator:a2322182cbde58ed981736e1ed9074d43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab61ce5e4b26e16c1b3df975837382e8d" id="r_ab61ce5e4b26e16c1b3df975837382e8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab61ce5e4b26e16c1b3df975837382e8d">next</a> (self, <a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> he)</td></tr>
@@ -999,8 +1001,8 @@ each pair (a,b) of indices in \\param comp2firstVert defines vertex range of a p
 </pre> 
 </div>
 </div>
-<a id="a7a6ba62637df84aeec4960a62b04d5c7" name="a7a6ba62637df84aeec4960a62b04d5c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a6ba62637df84aeec4960a62b04d5c7">&#9670;&#160;</a></span>makeEdge() <span class="overload">[2/2]</span></h2>
+<a id="a13eee9ccb3b179ca7e26a41639a0c707" name="a13eee9ccb3b179ca7e26a41639a0c707"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13eee9ccb3b179ca7e26a41639a0c707">&#9670;&#160;</a></span>makeEdge() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1018,12 +1020,46 @@ each pair (a,b) of indices in \\param comp2firstVert defines vertex range of a p
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> </td>          <td class="paramname"><span class="paramname"><em>e</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'{}'</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">makes an edge from vertex a to b (both must be within reserved capacity for vertices)
-\\details if a==b, either a or b already has 2 incident edges, then makeEdge(a,b) does nothing and returns invalid edge
+<pre class="fragment">makes an edge connecting vertices a and b
+\\param e if valid then the function does not make new edge, but connects the vertices using given one (and returns it)
+\\details if
+  1) any of the vertices is invalid or not within the vertSize(),
+  2) or a==b,
+  3) or either a or b already has 2 incident edges,
+  4) given edge e is not lone or not within the edgeSize()
+then makeEdge(a,b) does nothing and returns invalid edge
+</pre> 
+</div>
+</div>
+<a id="acbd93fb490464206972018a3bfb038a4" name="acbd93fb490464206972018a3bfb038a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbd93fb490464206972018a3bfb038a4">&#9670;&#160;</a></span>makeEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int mrmeshpy.PolylineTopology.makeEdges </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Edges.html">Edges</a></td>          <td class="paramname"><span class="paramname"><em>edges</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">for every given edge[ue] calls makeEdge( edge[ue][0], edge[ue][1], ue ), making new edges so that edges.size() &lt;= undirectedEdgeSize() at the end
+\\return the total number of edges created
 </pre> 
 </div>
 </div>
@@ -1222,7 +1258,8 @@ return the edge from first to second vertex
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">loads this from binary stream
+</pre> 
 </div>
 </div>
 <a id="a13194771e05c2ea8463f8947bb4acf5d" name="a13194771e05c2ea8463f8947bb4acf5d"></a>
@@ -1446,7 +1483,7 @@ dest(e) = dest(e-before-split)
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">saves and loads in binary stream
+<pre class="fragment">saves this in binary stream
 </pre> 
 </div>
 </div>

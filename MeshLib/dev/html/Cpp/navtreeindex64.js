@@ -1,5 +1,8 @@
 var NAVTREEINDEX64 =
 {
+"namespaceMR_1_1PointsLoad.html#ae4cbf7590e7b73675bbbdaa9fb468ac2":[6,0,1,0,1,26,14],
+"namespaceMR_1_1PointsSave.html":[6,0,1,0,1,27],
+"namespaceMR_1_1PointsSave.html#a1c0d45a07ed1828ee0d1190c6ca69cab":[6,0,1,0,1,27,3],
 "namespaceMR_1_1PointsSave.html#a356417aed0685b9e9741744f7b357eba":[6,0,1,0,1,27,2],
 "namespaceMR_1_1PointsSave.html#a98e902c9b3693ad0e13b4cea99cf4930":[6,0,1,0,1,27,10],
 "namespaceMR_1_1PointsSave.html#aa04e7f02c224a36b21fe5634798e0ec0":[6,0,1,0,1,27,8],
@@ -246,8 +249,5 @@ var NAVTREEINDEX64 =
 "namespacemembers_func_c.html":[6,0,1,1,1,2],
 "namespacemembers_func_d.html":[6,0,1,1,1,3],
 "namespacemembers_func_e.html":[6,0,1,1,1,4],
-"namespacemembers_func_f.html":[6,0,1,1,1,5],
-"namespacemembers_func_g.html":[6,0,1,1,1,6],
-"namespacemembers_func_h.html":[6,0,1,1,1,7],
-"namespacemembers_func_i.html":[6,0,1,1,1,8]
+"namespacemembers_func_f.html":[6,0,1,1,1,5]
 };

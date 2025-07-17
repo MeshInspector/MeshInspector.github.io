@@ -174,8 +174,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a45f9c4c6c22c11a8dc7eae9eefc3e265" id="r_a45f9c4c6c22c11a8dc7eae9eefc3e265"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45f9c4c6c22c11a8dc7eae9eefc3e265">makeEdge</a> ()</td></tr>
 <tr class="memdesc:a45f9c4c6c22c11a8dc7eae9eefc3e265"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates an edge not associated with any vertex  <br /></td></tr>
 <tr class="separator:a45f9c4c6c22c11a8dc7eae9eefc3e265"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5005a1cdb9c4df70f91b51b0813ecd68" id="r_a5005a1cdb9c4df70f91b51b0813ecd68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5005a1cdb9c4df70f91b51b0813ecd68">makeEdge</a> (VertId a, VertId b)</td></tr>
-<tr class="separator:a5005a1cdb9c4df70f91b51b0813ecd68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4543a9f8d087efb6b31004efd75ca825" id="r_a4543a9f8d087efb6b31004efd75ca825"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4543a9f8d087efb6b31004efd75ca825">makeEdge</a> (VertId a, VertId b, EdgeId e={})</td></tr>
+<tr class="separator:a4543a9f8d087efb6b31004efd75ca825"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1373fb92a0666b9654be8a4930bf66c3" id="r_a1373fb92a0666b9654be8a4930bf66c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1373fb92a0666b9654be8a4930bf66c3">makeEdges</a> (const <a class="el" href="MRObjectMeshHolder_8h.html#a29d14b75d26970bc256e90bf11c3f0e5">Edges</a> &amp;edges)</td></tr>
+<tr class="separator:a1373fb92a0666b9654be8a4930bf66c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a9412a90e63fc7a356cd7098e1f8ad6" id="r_a0a9412a90e63fc7a356cd7098e1f8ad6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a9412a90e63fc7a356cd7098e1f8ad6">isLoneEdge</a> (EdgeId a) const</td></tr>
 <tr class="memdesc:a0a9412a90e63fc7a356cd7098e1f8ad6"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks whether the edge is disconnected from all other edges and disassociated from all vertices (as if after makeEdge)  <br /></td></tr>
 <tr class="separator:a0a9412a90e63fc7a356cd7098e1f8ad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -282,9 +284,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6c67e7b3c6e1ae6967dc7b66a6c5ab6d" id="r_a6c67e7b3c6e1ae6967dc7b66a6c5ab6d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c67e7b3c6e1ae6967dc7b66a6c5ab6d">pack</a> (VertMap *outVmap=nullptr, WholeEdgeMap *outEmap=nullptr)</td></tr>
 <tr class="separator:a6c67e7b3c6e1ae6967dc7b66a6c5ab6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afeacaa2685ac05679afb0b6675a1ff4b" id="r_afeacaa2685ac05679afb0b6675a1ff4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afeacaa2685ac05679afb0b6675a1ff4b">write</a> (std::ostream &amp;s) const</td></tr>
-<tr class="memdesc:afeacaa2685ac05679afb0b6675a1ff4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves and loads in binary stream  <br /></td></tr>
+<tr class="memdesc:afeacaa2685ac05679afb0b6675a1ff4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves this in binary stream  <br /></td></tr>
 <tr class="separator:afeacaa2685ac05679afb0b6675a1ff4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a642a8c374781bd45adb78ea77dc31bf0" id="r_a642a8c374781bd45adb78ea77dc31bf0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a642a8c374781bd45adb78ea77dc31bf0">read</a> (std::istream &amp;s)</td></tr>
+<tr class="memdesc:a642a8c374781bd45adb78ea77dc31bf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads this from binary stream  <br /></td></tr>
 <tr class="separator:a642a8c374781bd45adb78ea77dc31bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1878c347e52b88e1e86d50a9f38264b" id="r_af1878c347e52b88e1e86d50a9f38264b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1878c347e52b88e1e86d50a9f38264b">operator==</a> (const <a class="el" href="classMR_1_1PolylineTopology.html">PolylineTopology</a> &amp;b) const</td></tr>
 <tr class="memdesc:af1878c347e52b88e1e86d50a9f38264b"><td class="mdescLeft">&#160;</td><td class="mdescRight">comparison via edges (all other members are considered as not important caches)  <br /></td></tr>
@@ -1157,8 +1160,8 @@ template&lt;typename T , typename F &gt; </div>
 
 </div>
 </div>
-<a id="a5005a1cdb9c4df70f91b51b0813ecd68" name="a5005a1cdb9c4df70f91b51b0813ecd68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5005a1cdb9c4df70f91b51b0813ecd68">&#9670;&#160;</a></span>makeEdge() <span class="overload">[2/2]</span></h2>
+<a id="a4543a9f8d087efb6b31004efd75ca825" name="a4543a9f8d087efb6b31004efd75ca825"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4543a9f8d087efb6b31004efd75ca825">&#9670;&#160;</a></span>makeEdge() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1171,12 +1174,40 @@ template&lt;typename T , typename F &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>makes an edge from vertex a to b (both must be within reserved capacity for vertices)</p>
-<p>if a==b, either a or b already has 2 incident edges, then makeEdge(a,b) does nothing and returns invalid edge </p>
+<p>makes an edge connecting vertices a and b </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>if valid then the function does not make new edge, but connects the vertices using given one (and returns it)</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>if 1) any of the vertices is invalid or not within the <a class="el" href="#a9574f81615523ac5fe203e1648765942" title="returns the number of vertex records including invalid ones">vertSize()</a>, 2) or a==b, 3) or either a or b already has 2 incident edges, 4) given edge e is not lone or not within the <a class="el" href="#a7308421016a4a943460946176b524bc8" title="returns the number of half-edge records including lone ones">edgeSize()</a> then makeEdge(a,b) does nothing and returns invalid edge </p>
+
+</div>
+</div>
+<a id="a1373fb92a0666b9654be8a4930bf66c3" name="a1373fb92a0666b9654be8a4930bf66c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1373fb92a0666b9654be8a4930bf66c3">&#9670;&#160;</a></span>makeEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int MR::PolylineTopology::makeEdges </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRObjectMeshHolder_8h.html#a29d14b75d26970bc256e90bf11c3f0e5">Edges</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>edges</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>for every given edge[ue] calls makeEdge( edge[ue][0], edge[ue][1], ue ), making new edges so that edges.size() &lt;= <a class="el" href="#a061dd907ada10af2d8ed533c49f4b0ab" title="returns the number of undirected edges (pairs of half-edges) including lone ones">undirectedEdgeSize()</a> at the end </p><dl class="section return"><dt>Returns</dt><dd>the total number of edges created </dd></dl>
 
 </div>
 </div>
@@ -1376,6 +1407,8 @@ template&lt;typename T , typename F &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>loads this from binary stream </p>
 
 </div>
 </div>
@@ -1606,7 +1639,7 @@ template&lt;typename T , typename F &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>saves and loads in binary stream </p>
+<p>saves this in binary stream </p>
 
 </div>
 </div>
