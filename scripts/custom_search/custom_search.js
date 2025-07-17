@@ -13,7 +13,7 @@ function createItemWeights( searchStr )
   weightsMap = new Array( searchData.length );
   for ( var i = 0; i < searchData.length; i++ )
   {
-    var itemName = searchData[i][0].toLowerCase();
+    var itemName = searchData[i][0];
     weightsMap[i] = [calcWeight( itemName, searchStr ), i];
   }
   weightsMap.sort( (a, b) => b[0] - a[0] );
@@ -94,6 +94,10 @@ function createCustomSearchResults( searchStr, resultsPath )
 {
   if ( searchStr == "" )
     return 0;
+
+  searchStr = search.replace(/^ +/, ""); // strip leading spaces
+  searchStr = search.replace(/ +$/, ""); // strip trailing spaces
+  searchStr = searchStr.toLowerCase();
 
   createItemWeights( convertToId( searchStr ) );
 
