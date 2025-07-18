@@ -1,5 +1,7 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1Plane3.html#ab78bbcb21e57f07de12885121b3e2177":[6,0,0,0,18,8],
+"structMR_1_1Plane3.html#ad931841bd9391994b3b9a9669c546b86":[6,0,0,0,18,6],
 "structMR_1_1Plane3.html#afb998d773747e2d7de8dce0344afcfe0":[6,0,0,0,18,1],
 "structMR_1_1PlyLoadParams.html":[6,0,1,0,1,503],
 "structMR_1_1PlyLoadParams.html":[6,0,2,0,1,487],
@@ -247,7 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1PolylineIntersectionResult2.html#a982fc29b0df692b0fecec815554eb78b":[6,0,2,0,1,508,0],
 "structMR_1_1PolylineMaker.html":[6,0,1,0,1,525],
 "structMR_1_1PolylineMaker.html":[6,0,2,0,1,509],
-"structMR_1_1PolylineMaker.html#a4728051228e7a8b6910c567e9a075840":[6,0,1,0,1,525,4],
-"structMR_1_1PolylineMaker.html#a4728051228e7a8b6910c567e9a075840":[6,0,2,0,1,509,4],
-"structMR_1_1PolylineMaker.html#a4a15b5f552bb650a6fab86110c95ad3f":[6,0,1,0,1,525,2]
+"structMR_1_1PolylineMaker.html#a4728051228e7a8b6910c567e9a075840":[6,0,1,0,1,525,4]
 };

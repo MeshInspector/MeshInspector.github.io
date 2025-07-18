@@ -9,6 +9,8 @@ var namespaceMR_1_1LinesSave =
     [ "toDxf", "group__LinesSaveGroup.html#gaf9e24deee77823271019b388fedada34", null ],
     [ "toMrLines", "group__LinesSaveGroup.html#ga802f6247e04cbaf42586219ff7ac82ca", null ],
     [ "toMrLines", "group__LinesSaveGroup.html#ga4b7e9d630f170ae31e5bd907deb81e87", null ],
+    [ "toPly", "group__LinesSaveGroup.html#ga8582df77b31c46c45c89a69bc125e25b", null ],
+    [ "toPly", "group__LinesSaveGroup.html#gaf4108e691fa648cb77a81978a2da87ac", null ],
     [ "toPts", "group__LinesSaveGroup.html#gacc61869c3919edab3a7ba6f1c319dd20", null ],
     [ "toPts", "group__LinesSaveGroup.html#ga5c820510729d56008737085405a76399", null ]
 ];

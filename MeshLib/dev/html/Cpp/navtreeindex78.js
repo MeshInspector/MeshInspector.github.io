@@ -1,5 +1,7 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1MeshBuilder_1_1VertDuplication.html#a304fd55bb8ea2a456b8fdf00cce9e14c":[6,0,1,0,1,16,5,0],
+"structMR_1_1MeshBuilder_1_1VertDuplication.html#a304fd55bb8ea2a456b8fdf00cce9e14c":[6,0,2,0,1,8,5,0],
 "structMR_1_1MeshBuilder_1_1VertDuplication.html#af11c3a7954be62b84ca6ea3b824ec5a6":[6,0,1,0,1,16,5,1],
 "structMR_1_1MeshBuilder_1_1VertDuplication.html#af11c3a7954be62b84ca6ea3b824ec5a6":[6,0,2,0,1,8,5,1],
 "structMR_1_1MeshBuilder_1_1VertSpan.html":[6,0,1,0,1,16,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1MeshTriPoint.html#a6371d8245c7dbe42491b7506c52d1478":[6,0,0,7,3,14],
 "structMR_1_1MeshTriPoint.html#a6796e7f3ca4cdbeb66145767bbf12dc7":[6,0,0,7,3,9],
 "structMR_1_1MeshTriPoint.html#a6c6fbefac0cf996b3da9fa89a3146eac":[6,0,0,7,3,7],
-"structMR_1_1MeshTriPoint.html#a7856dabc24d2467efad8b2ce055c8677":[6,0,0,7,3,2],
-"structMR_1_1MeshTriPoint.html#a8a974fd4d0a547b3acff27ac8730ef92":[6,0,0,7,3,21],
-"structMR_1_1MeshTriPoint.html#a90a50a563b67d4e1fa6ad0e30f2e9d71":[6,0,0,7,3,11]
+"structMR_1_1MeshTriPoint.html#a7856dabc24d2467efad8b2ce055c8677":[6,0,0,7,3,2]
 };

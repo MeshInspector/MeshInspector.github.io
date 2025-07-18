@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"namespaceMR_1_1PointCloudComponents.html":[6,0,1,0,1,25],
+"namespaceMR_1_1PointsLoad.html":[6,0,1,0,1,26],
 "namespaceMR_1_1PointsLoad.html#a017223f665d17204885688a9f3e0d66a":[6,0,1,0,1,26,12],
 "namespaceMR_1_1PointsLoad.html#a0b7a6c4b1858171ee10c0d0af8ebd77b":[6,0,1,0,1,26,24],
 "namespaceMR_1_1PointsLoad.html#a0f81139db68679c906d09ff033071478":[6,0,1,0,1,26,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "namespacemembers.html":[6,0,1,1,0,0],
 "namespacemembers_b.html":[6,0,1,1,0,1],
 "namespacemembers_c.html":[6,0,1,1,0,2],
-"namespacemembers_d.html":[6,0,1,1,0,3],
-"namespacemembers_e.html":[6,0,1,1,0,4],
-"namespacemembers_enum.html":[6,0,1,1,4]
+"namespacemembers_d.html":[6,0,1,1,0,3]
 };
