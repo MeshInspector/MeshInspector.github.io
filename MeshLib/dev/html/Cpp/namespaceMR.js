@@ -455,6 +455,7 @@ var namespaceMR =
     [ "LineInterpolationParams", "structMR_1_1LineInterpolationParams.html", "structMR_1_1LineInterpolationParams" ],
     [ "LineObject", "classMR_1_1LineObject.html", "classMR_1_1LineObject" ],
     [ "LineSegm", "structMR_1_1LineSegm.html", "structMR_1_1LineSegm" ],
+    [ "LinesLoadSettings", "structMR_1_1LinesLoadSettings.html", "structMR_1_1LinesLoadSettings" ],
     [ "LoadedObjects", "structMR_1_1LoadedObjects.html", "structMR_1_1LoadedObjects" ],
     [ "LoadedObjectT", "structMR_1_1LoadedObjectT.html", "structMR_1_1LoadedObjectT" ],
     [ "Logger", "classMR_1_1Logger.html", "classMR_1_1Logger" ],

@@ -552,6 +552,7 @@ var hierarchy =
     [ "mrmeshpy.LineSegm3d", "classmrmeshpy_1_1LineSegm3d.html", null ],
     [ "mrmeshpy.LineSegm3f", "classmrmeshpy_1_1LineSegm3f.html", null ],
     [ "mrmeshpy.LinesLoad", "classmrmeshpy_1_1LinesLoad.html", null ],
+    [ "mrmeshpy.LinesLoadSettings", "classmrmeshpy_1_1LinesLoadSettings.html", null ],
     [ "mrmeshpy.LinesSave", "classmrmeshpy_1_1LinesSave.html", null ],
     [ "mrmeshpy.LinesVisualizePropertyType", "classmrmeshpy_1_1LinesVisualizePropertyType.html", null ],
     [ "mrmeshpy.LoadedObjects", "classmrmeshpy_1_1LoadedObjects.html", null ],

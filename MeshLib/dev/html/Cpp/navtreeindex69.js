@@ -1,5 +1,9 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1Cone3ApproximationParams.html#a5b47cd0b4ce1e73f079a35fdc80d2850":[6,0,2,0,1,134,1],
+"structMR_1_1Cone3ApproximationParams.html#a6c4848e08b47fefbf24a221b15e00329":[6,0,1,0,1,150,3],
+"structMR_1_1Cone3ApproximationParams.html#a6c4848e08b47fefbf24a221b15e00329":[6,0,2,0,1,134,3],
+"structMR_1_1Cone3ApproximationParams.html#a78abf2b4f9d3845ec382b09ec2c865d3":[6,0,1,0,1,150,0],
 "structMR_1_1Cone3ApproximationParams.html#a78abf2b4f9d3845ec382b09ec2c865d3":[6,0,2,0,1,134,0],
 "structMR_1_1ConeFittingFunctor.html":[6,0,1,0,1,151],
 "structMR_1_1ConeFittingFunctor.html":[6,0,2,0,1,135],
@@ -245,9 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1DirectionWidget_1_1Arrow.html":[6,0,1,0,1,183,0],
 "structMR_1_1DirectionWidget_1_1Arrow.html":[6,0,2,0,1,167,0],
 "structMR_1_1DirectionWidget_1_1Arrow.html#a0ecb81851105a8eb427a1f270b7659a2":[6,0,1,0,1,183,0,1],
-"structMR_1_1DirectionWidget_1_1Arrow.html#a0ecb81851105a8eb427a1f270b7659a2":[6,0,2,0,1,167,0,1],
-"structMR_1_1DirectionWidget_1_1Arrow.html#a2f55bff335dea2ab2a6b581fe070bef4":[6,0,1,0,1,183,0,0],
-"structMR_1_1DirectionWidget_1_1Arrow.html#a2f55bff335dea2ab2a6b581fe070bef4":[6,0,2,0,1,167,0,0],
-"structMR_1_1DirectionWidget_1_1Arrow.html#ad87c52072ac6532b21210fb8f8f48921":[6,0,1,0,1,183,0,2],
-"structMR_1_1DirectionWidget_1_1Arrow.html#ad87c52072ac6532b21210fb8f8f48921":[6,0,2,0,1,167,0,2]
+"structMR_1_1DirectionWidget_1_1Arrow.html#a0ecb81851105a8eb427a1f270b7659a2":[6,0,2,0,1,167,0,1]
 };

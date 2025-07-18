@@ -433,6 +433,7 @@ var annotated_dup =
       [ "LineSegm3d", "classmrmeshpy_1_1LineSegm3d.html", "classmrmeshpy_1_1LineSegm3d" ],
       [ "LineSegm3f", "classmrmeshpy_1_1LineSegm3f.html", "classmrmeshpy_1_1LineSegm3f" ],
       [ "LinesLoad", "classmrmeshpy_1_1LinesLoad.html", null ],
+      [ "LinesLoadSettings", "classmrmeshpy_1_1LinesLoadSettings.html", "classmrmeshpy_1_1LinesLoadSettings" ],
       [ "LinesSave", "classmrmeshpy_1_1LinesSave.html", null ],
       [ "LinesVisualizePropertyType", "classmrmeshpy_1_1LinesVisualizePropertyType.html", "classmrmeshpy_1_1LinesVisualizePropertyType" ],
       [ "LoadedObjects", "classmrmeshpy_1_1LoadedObjects.html", "classmrmeshpy_1_1LoadedObjects" ],

@@ -1,12 +1,14 @@
 var namespaceMR_1_1LinesLoad =
 [
     [ "LinesLoader", "structMR_1_1LinesLoad_1_1LinesLoader.html", "structMR_1_1LinesLoad_1_1LinesLoader" ],
-    [ "LinesFileLoader", "namespaceMR_1_1LinesLoad.html#af9711c25db9d07dac939c6de4412620f", null ],
-    [ "LinesStreamLoader", "namespaceMR_1_1LinesLoad.html#a70812aee66445caeeeb0a1ce8cf6a071", null ],
-    [ "fromAnySupportedFormat", "group__LinesLoad.html#ga9dbd2c49c9126ad00299679c1901797a", null ],
-    [ "fromAnySupportedFormat", "group__LinesLoad.html#ga946bd34cb3bb149965670c6e8c7fb242", null ],
-    [ "fromMrLines", "group__LinesLoad.html#gae01343ba1b9e20a819096ff99f5d8cb7", null ],
-    [ "fromMrLines", "group__LinesLoad.html#ga1b6abd0497977292cdaf35eedd5c9689", null ],
-    [ "fromPts", "group__LinesLoad.html#ga237c4eab016d887ef8f536c0a9720ccc", null ],
-    [ "fromPts", "group__LinesLoad.html#gade658ed2767d5682e579eac7882bbdbe", null ]
+    [ "LinesFileLoader", "namespaceMR_1_1LinesLoad.html#a90da90447771026ea69eb4b7e8a2c5af", null ],
+    [ "LinesStreamLoader", "namespaceMR_1_1LinesLoad.html#a8ba03f82b986b90262ac83290496a441", null ],
+    [ "fromAnySupportedFormat", "group__LinesLoad.html#gad25df65cb1286463c40c3525d7462da7", null ],
+    [ "fromAnySupportedFormat", "group__LinesLoad.html#gac9f73ce11df2e9984939255605e2d437", null ],
+    [ "fromMrLines", "group__LinesLoad.html#ga5bbd4986a67fe058c317fc572072f788", null ],
+    [ "fromMrLines", "group__LinesLoad.html#ga6b9ba72bb9c72e152c3157c6e6e7d20a", null ],
+    [ "fromPly", "group__LinesLoad.html#ga6d309e19703b9fd3f9a7b5258471f304", null ],
+    [ "fromPly", "group__LinesLoad.html#ga902501cd4125cf2facbf356941dcb8f1", null ],
+    [ "fromPts", "group__LinesLoad.html#gae7291e11583b98a3ad4fc821d635cd69", null ],
+    [ "fromPts", "group__LinesLoad.html#ga8bcc88ce6332215acae8bdcb45c3ec3a", null ]
 ];

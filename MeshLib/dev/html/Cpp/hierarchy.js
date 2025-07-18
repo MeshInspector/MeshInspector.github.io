@@ -705,6 +705,7 @@ var hierarchy =
     [ "MR::ImGuiMeasurementIndicators::LineParams", "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html", null ],
     [ "MR::LineSegm< V >", "structMR_1_1LineSegm.html", null ],
     [ "MR::LinesLoad::LinesLoader", "structMR_1_1LinesLoad_1_1LinesLoader.html", null ],
+    [ "MR::LinesLoadSettings", "structMR_1_1LinesLoadSettings.html", null ],
     [ "MR::LinesSave::LinesSaver", "structMR_1_1LinesSave_1_1LinesSaver.html", null ],
     [ "MR::LoadedObjects", "structMR_1_1LoadedObjects.html", null ],
     [ "MR::LoadedObjectT< ObjectT >", "structMR_1_1LoadedObjectT.html", null ],

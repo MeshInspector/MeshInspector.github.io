@@ -1,5 +1,9 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1ImGuiMenu_1_1LabelParams.html#a9b6fa31d0eca45b8885f1594a2bf3f4a":[6,0,1,0,1,299,0,0],
+"structMR_1_1ImGuiMenu_1_1LabelParams.html#a9b6fa31d0eca45b8885f1594a2bf3f4a":[6,0,2,0,1,283,0,0],
+"structMR_1_1ImGuiMenu_1_1LabelParams.html#adf0278292ff9ea06a7b310f6c39c237b":[6,0,1,0,1,299,0,1],
+"structMR_1_1ImGuiMenu_1_1LabelParams.html#adf0278292ff9ea06a7b310f6c39c237b":[6,0,2,0,1,283,0,1],
 "structMR_1_1ImGuiMenu_1_1PluginsCache.html":[6,0,1,0,1,299,1],
 "structMR_1_1ImGuiMenu_1_1PluginsCache.html":[6,0,2,0,1,283,1],
 "structMR_1_1ImGuiMenu_1_1PluginsCache.html#a45a67d011a2849b95f0531f732a0df8c":[6,0,1,0,1,299,1,2],
@@ -240,14 +244,10 @@ var NAVTREEINDEX75 =
 "structMR_1_1LineSegm.html#af25a41f042c3bade3e1bd129c6c69702":[6,0,2,0,1,323,2],
 "structMR_1_1LineSegm.html#afcb4423f5becc13fff968c531455f4e8":[6,0,1,0,1,339,9],
 "structMR_1_1LineSegm.html#afcb4423f5becc13fff968c531455f4e8":[6,0,2,0,1,323,9],
-"structMR_1_1LinesLoad_1_1LinesLoader.html":[6,0,1,0,1,14,0],
-"structMR_1_1LinesLoad_1_1LinesLoader.html":[6,0,2,0,1,6,0],
-"structMR_1_1LinesLoad_1_1LinesLoader.html#a6a9ab889c0e193730868448ce28334e3":[6,0,1,0,1,14,0,0],
-"structMR_1_1LinesLoad_1_1LinesLoader.html#a6a9ab889c0e193730868448ce28334e3":[6,0,2,0,1,6,0,0],
-"structMR_1_1LinesLoad_1_1LinesLoader.html#a826687e61ead645d166e147717449224":[6,0,1,0,1,14,0,1],
-"structMR_1_1LinesLoad_1_1LinesLoader.html#a826687e61ead645d166e147717449224":[6,0,2,0,1,6,0,1],
-"structMR_1_1LinesSave_1_1LinesSaver.html":[6,0,1,0,1,15,0],
-"structMR_1_1LinesSave_1_1LinesSaver.html":[6,0,2,0,1,7,0],
-"structMR_1_1LinesSave_1_1LinesSaver.html#a735f5d3f3d96af8932f3ed31b33b2054":[6,0,1,0,1,15,0,1],
-"structMR_1_1LinesSave_1_1LinesSaver.html#a735f5d3f3d96af8932f3ed31b33b2054":[6,0,2,0,1,7,0,1]
+"structMR_1_1LinesLoadSettings.html":[6,0,1,0,1,340],
+"structMR_1_1LinesLoadSettings.html":[6,0,2,0,1,324],
+"structMR_1_1LinesLoadSettings.html#a371abd05d6978245a5059c507e1b237e":[6,0,1,0,1,340,0],
+"structMR_1_1LinesLoadSettings.html#a371abd05d6978245a5059c507e1b237e":[6,0,2,0,1,324,0],
+"structMR_1_1LinesLoadSettings.html#a4fb70d302e63d42b78b3ae9b090f1118":[6,0,1,0,1,340,1],
+"structMR_1_1LinesLoadSettings.html#a4fb70d302e63d42b78b3ae9b090f1118":[6,0,2,0,1,324,1]
 };
