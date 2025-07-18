@@ -31,6 +31,7 @@ var classmrmeshpy_1_1PolylineTopology =
     [ "isConsistentlyOriented", "classmrmeshpy_1_1PolylineTopology.html#afddc6410e8a702df2a4ff54c20a3aed2", null ],
     [ "isLoneEdge", "classmrmeshpy_1_1PolylineTopology.html#a4b77a37c93110e2ed50528cbb67c78d7", null ],
     [ "lastNotLoneEdge", "classmrmeshpy_1_1PolylineTopology.html#ae53932214ffe37af29fdf3271b4e6b33", null ],
+    [ "lastNotLoneUndirectedEdge", "classmrmeshpy_1_1PolylineTopology.html#a0ff995e8bea245bebe82663893d25559", null ],
     [ "lastValidVert", "classmrmeshpy_1_1PolylineTopology.html#a397d39aafb06969b79175b391cc0ebe2", null ],
     [ "makeEdge", "classmrmeshpy_1_1PolylineTopology.html#abceb8f33ee79574bc25c1e18e5a56b9d", null ],
     [ "makeEdge", "classmrmeshpy_1_1PolylineTopology.html#a13eee9ccb3b179ca7e26a41639a0c707", null ],

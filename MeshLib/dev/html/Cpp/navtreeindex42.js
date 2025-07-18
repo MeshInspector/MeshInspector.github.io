@@ -1,5 +1,7 @@
 var NAVTREEINDEX42 =
 {
+"classMR_1_1SceneObjectsListDrawer.html#a098e7d25adfb62e62c71451173a29712":[6,0,2,0,1,614,8],
+"classMR_1_1SceneObjectsListDrawer.html#a10c80ec2e0551fe4c73122703e48897e":[6,0,1,0,1,630,2],
 "classMR_1_1SceneObjectsListDrawer.html#a10c80ec2e0551fe4c73122703e48897e":[6,0,2,0,1,614,2],
 "classMR_1_1SceneObjectsListDrawer.html#a2e703a641c0ffc898d9aa4e864ab912a":[6,0,1,0,1,630,12],
 "classMR_1_1SceneObjectsListDrawer.html#a2e703a641c0ffc898d9aa4e864ab912a":[6,0,2,0,1,614,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX42 =
 "classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dcae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,1,0,1,656,0,7],
 "classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dcae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,2,0,1,640,0,7],
 "classMR_1_1SetViewPresetMenuItem.html#a51faff0dc6e4224c895240fefd9e06b5":[6,0,1,0,1,656,1],
-"classMR_1_1SetViewPresetMenuItem.html#a51faff0dc6e4224c895240fefd9e06b5":[6,0,2,0,1,640,1],
-"classMR_1_1SetViewportConfigPresetMenuItem.html":[6,0,1,0,1,655],
-"classMR_1_1SetViewportConfigPresetMenuItem.html":[6,0,2,0,1,639]
+"classMR_1_1SetViewPresetMenuItem.html#a51faff0dc6e4224c895240fefd9e06b5":[6,0,2,0,1,640,1]
 };

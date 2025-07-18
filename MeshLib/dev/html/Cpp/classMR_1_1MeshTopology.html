@@ -169,9 +169,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a79fd3cd33fb58d779528540fa7403b7f" id="r_a79fd3cd33fb58d779528540fa7403b7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79fd3cd33fb58d779528540fa7403b7f">isLoneEdge</a> (EdgeId a) const</td></tr>
 <tr class="memdesc:a79fd3cd33fb58d779528540fa7403b7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks whether the edge is disconnected from all other edges and disassociated from all vertices and faces (as if after makeEdge)  <br /></td></tr>
 <tr class="separator:a79fd3cd33fb58d779528540fa7403b7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a183e7f78dfae636f44de186d488f8a4b" id="r_a183e7f78dfae636f44de186d488f8a4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a183e7f78dfae636f44de186d488f8a4b">lastNotLoneEdge</a> () const</td></tr>
-<tr class="memdesc:a183e7f78dfae636f44de186d488f8a4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns last not lone edge id, or invalid id if no such edge exists  <br /></td></tr>
-<tr class="separator:a183e7f78dfae636f44de186d488f8a4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a978041dc17e0405b8b8a7e9712ce6870" id="r_a978041dc17e0405b8b8a7e9712ce6870"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> UndirectedEdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a978041dc17e0405b8b8a7e9712ce6870">lastNotLoneUndirectedEdge</a> () const</td></tr>
+<tr class="memdesc:a978041dc17e0405b8b8a7e9712ce6870"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns last not lone undirected edge id, or invalid id if no such edge exists  <br /></td></tr>
+<tr class="separator:a978041dc17e0405b8b8a7e9712ce6870"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84f4a99b6419f6bbbf63c128af78b1c6" id="r_a84f4a99b6419f6bbbf63c128af78b1c6"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84f4a99b6419f6bbbf63c128af78b1c6">lastNotLoneEdge</a> () const</td></tr>
+<tr class="memdesc:a84f4a99b6419f6bbbf63c128af78b1c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns last not lone edge id, or invalid id if no such edge exists  <br /></td></tr>
+<tr class="separator:a84f4a99b6419f6bbbf63c128af78b1c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:addcf4c5e6460cd0ef1247b87c0a080a5" id="r_addcf4c5e6460cd0ef1247b87c0a080a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addcf4c5e6460cd0ef1247b87c0a080a5">excludeLoneEdges</a> (UndirectedEdgeBitSet &amp;edges) const</td></tr>
 <tr class="memdesc:addcf4c5e6460cd0ef1247b87c0a080a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove all lone edges from given set  <br /></td></tr>
 <tr class="separator:addcf4c5e6460cd0ef1247b87c0a080a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3399,8 +3402,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a183e7f78dfae636f44de186d488f8a4b" name="a183e7f78dfae636f44de186d488f8a4b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a183e7f78dfae636f44de186d488f8a4b">&#9670;&#160;</a></span>lastNotLoneEdge()</h2>
+<a id="a84f4a99b6419f6bbbf63c128af78b1c6" name="a84f4a99b6419f6bbbf63c128af78b1c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84f4a99b6419f6bbbf63c128af78b1c6">&#9670;&#160;</a></span>lastNotLoneEdge()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3409,7 +3412,34 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId MR::MeshTopology::lastNotLoneEdge </td>
+          <td class="memname">EdgeId MR::MeshTopology::lastNotLoneEdge </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns last not lone edge id, or invalid id if no such edge exists </p>
+
+</div>
+</div>
+<a id="a978041dc17e0405b8b8a7e9712ce6870" name="a978041dc17e0405b8b8a7e9712ce6870"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a978041dc17e0405b8b8a7e9712ce6870">&#9670;&#160;</a></span>lastNotLoneUndirectedEdge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> UndirectedEdgeId MR::MeshTopology::lastNotLoneUndirectedEdge </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -3422,7 +3452,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>returns last not lone edge id, or invalid id if no such edge exists </p>
+<p>returns last not lone undirected edge id, or invalid id if no such edge exists </p>
 
 </div>
 </div>

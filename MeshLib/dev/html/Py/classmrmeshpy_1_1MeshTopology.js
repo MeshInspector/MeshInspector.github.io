@@ -95,6 +95,7 @@ var classmrmeshpy_1_1MeshTopology =
     [ "isLoneEdge", "classmrmeshpy_1_1MeshTopology.html#acd301cef33f7556013911d2a93768f0d", null ],
     [ "isTriVert", "classmrmeshpy_1_1MeshTopology.html#ac6dbf94e011a96110751a9025a85fa53", null ],
     [ "lastNotLoneEdge", "classmrmeshpy_1_1MeshTopology.html#aa0ca2bb51563b2d385b6a85b64224631", null ],
+    [ "lastNotLoneUndirectedEdge", "classmrmeshpy_1_1MeshTopology.html#a57109e13e6822f329bfa4838b056fe8f", null ],
     [ "lastValidFace", "classmrmeshpy_1_1MeshTopology.html#a0833da6b36fa29aafc314d81d44063e6", null ],
     [ "lastValidVert", "classmrmeshpy_1_1MeshTopology.html#a85072d179d86abb84fb88b7981a29904", null ],
     [ "left", "classmrmeshpy_1_1MeshTopology.html#a36388332dd7bdeefc968829d4fbb4e12", null ],

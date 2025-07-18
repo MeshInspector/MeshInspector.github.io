@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"structMRICPProperties.html#a21b20f7216af2711301f59435713a9c2":[6,0,2,0,27,11],
+"structMRICPProperties.html#a27741c61220a9d8a833b03f4354cf9d6":[6,0,2,0,27,0],
 "structMRICPProperties.html#a2e7b2a199320af5a6d96b01ab388564e":[6,0,2,0,27,8],
 "structMRICPProperties.html#a3f48a94ed67f67bf7d0b65d62add2d0a":[6,0,2,0,27,6],
 "structMRICPProperties.html#a88912841f4a73c5941ddc87fac934139":[6,0,2,0,27,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1AffineXf.html#a60960f9da874c4087c143336fbbd23ee":[6,0,0,0,13,0],
 "structMR_1_1AffineXf.html#aa858f1158ee32c91e5e1c76b2c03910e":[6,0,0,0,13,5],
 "structMR_1_1AffineXf.html#ab3b595e5fd83370d9417a0d1e93cf2c1":[6,0,0,0,13,2],
-"structMR_1_1AffineXf.html#abc589d85e328480de8c5972558bd7b3c":[6,0,0,0,13,12],
-"structMR_1_1AffineXf.html#ac50d0dfa0b11a916ac644165073713ca":[6,0,0,0,13,11],
-"structMR_1_1AffineXf.html#aed36bec4a9d093011a85c99f21ced5f3":[6,0,0,0,13,6]
+"structMR_1_1AffineXf.html#abc589d85e328480de8c5972558bd7b3c":[6,0,0,0,13,12]
 };

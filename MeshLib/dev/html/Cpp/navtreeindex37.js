@@ -1,5 +1,7 @@
 var NAVTREEINDEX37 =
 {
+"classMR_1_1PriorityQueue.html#ac59724ac4d832ab0bd70f42d9c2170d1":[6,0,1,0,1,549,10],
+"classMR_1_1PriorityQueue.html#ac59724ac4d832ab0bd70f42d9c2170d1":[6,0,2,0,1,533,10],
 "classMR_1_1PriorityQueue.html#ada44a589fd04a828763560decb38cdf8":[6,0,1,0,1,549,8],
 "classMR_1_1PriorityQueue.html#ada44a589fd04a828763560decb38cdf8":[6,0,2,0,1,533,8],
 "classMR_1_1PriorityQueue.html#aeaf2b86418b3f772aaf5c8bc2329d8c2":[6,0,1,0,1,549,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX37 =
 "classMR_1_1RegularMapMesher.html#a9ed2cde9e77dce74ecb24b16eb4db785":[6,0,0,12,3,4],
 "classMR_1_1RegularMapMesher.html#acdde192d67f89fe363a158f3ee13f499":[6,0,0,12,3,0],
 "classMR_1_1RenderAngleObject.html":[6,0,1,0,1,574],
-"classMR_1_1RenderAngleObject.html":[6,0,2,0,1,558],
-"classMR_1_1RenderAngleObject.html#a27735a1d0225c060e7c06bbb288c0225":[6,0,1,0,1,574,1],
-"classMR_1_1RenderAngleObject.html#a27735a1d0225c060e7c06bbb288c0225":[6,0,2,0,1,558,1]
+"classMR_1_1RenderAngleObject.html":[6,0,2,0,1,558]
 };
