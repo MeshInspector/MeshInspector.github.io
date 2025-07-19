@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"classmrmeshpy_1_1Polynomial__float__5.html#ab2dd7b9ea26feb6fc001ec093381ac6e":[6,1,1,0,1,701,0],
+"classmrmeshpy_1_1Polynomial__float__5.html#ab2dd7b9ea26feb6fc001ec093381ac6e":[6,1,1,0,1,701,1],
 "classmrmeshpy_1_1Polynomial__float__5.html#ae33a5608542cf5c4d5e915d3729b0fd5":[6,1,0,0,2,701,2],
 "classmrmeshpy_1_1Polynomial__float__5.html#ae33a5608542cf5c4d5e915d3729b0fd5":[6,1,1,0,1,701,2],
 "classmrmeshpy_1_1Polynomial__float__6.html":[6,1,0,0,2,702],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "classmrmeshpy_1_1QuadricApprox.html#a23e69cda75f413c14b31f4dfb68962af":[6,1,0,0,2,717,1],
 "classmrmeshpy_1_1QuadricApprox.html#a23e69cda75f413c14b31f4dfb68962af":[6,1,1,0,1,717,1],
 "classmrmeshpy_1_1QuarterBit.html":[6,1,0,0,2,718],
-"classmrmeshpy_1_1QuarterBit.html":[6,1,1,0,1,718],
-"classmrmeshpy_1_1QuarterBit.html#a1316dfa9017296433e732a2cb202c9e1":[6,1,0,0,2,718,0],
-"classmrmeshpy_1_1QuarterBit.html#a1316dfa9017296433e732a2cb202c9e1":[6,1,1,0,1,718,0]
+"classmrmeshpy_1_1QuarterBit.html":[6,1,1,0,1,718]
 };

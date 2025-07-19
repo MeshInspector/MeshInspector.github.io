@@ -1,5 +1,6 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1AffineXf.html#a4f40e964b7034f2c0121f71a30bdf36e":[6,0,0,0,13,3],
 "structMR_1_1AffineXf.html#a55d01857e172a9cbf746957013009926":[6,0,0,0,13,10],
 "structMR_1_1AffineXf.html#a5be41c92ebfbb340e9651f0efd210fcb":[6,0,0,0,13,7],
 "structMR_1_1AffineXf.html#a60960f9da874c4087c143336fbbd23ee":[6,0,0,0,13,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1BindVertexAttribArraySettings.html#aa0c81d5bd817513cae1dca00c0f1d0e7":[6,0,2,0,1,59,2],
 "structMR_1_1BindVertexAttribArraySettings.html#aa45f4a7fbb301632dd3cce3e70a01bef":[6,0,1,0,1,75,7],
 "structMR_1_1BindVertexAttribArraySettings.html#aa45f4a7fbb301632dd3cce3e70a01bef":[6,0,2,0,1,59,7],
-"structMR_1_1BindVertexAttribArraySettings.html#ac5fc320edee1d79c0c459926f8a80fef":[6,0,1,0,1,75,8],
-"structMR_1_1BindVertexAttribArraySettings.html#ac5fc320edee1d79c0c459926f8a80fef":[6,0,2,0,1,59,8]
+"structMR_1_1BindVertexAttribArraySettings.html#ac5fc320edee1d79c0c459926f8a80fef":[6,0,1,0,1,75,8]
 };

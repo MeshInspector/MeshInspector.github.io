@@ -1,5 +1,7 @@
 var NAVTREEINDEX118 =
 {
+"classmrmeshpy_1_1std__optional__Box__Vector3__float.html#ac6f71a93ad947e629b9743eaef64eb3a":[6,1,0,0,2,806,3],
+"classmrmeshpy_1_1std__optional__Box__Vector3__float.html#ac6f71a93ad947e629b9743eaef64eb3a":[6,1,1,0,1,806,3],
 "classmrmeshpy_1_1std__optional__Box__Vector3__float.html#ae8680b37c3dd143501db0d899d836e54":[6,1,0,0,2,806,2],
 "classmrmeshpy_1_1std__optional__Box__Vector3__float.html#ae8680b37c3dd143501db0d899d836e54":[6,1,1,0,1,806,2],
 "classmrmeshpy_1_1std__optional__Box__float.html":[6,1,0,0,2,805],
@@ -247,7 +249,5 @@ var NAVTREEINDEX118 =
 "classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane.html#ad192662866389f9c2e1b9b4eea3bcf8e":[6,1,0,0,2,819,8],
 "classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane.html#ad192662866389f9c2e1b9b4eea3bcf8e":[6,1,1,0,1,819,8],
 "classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__EdgeTag__phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag.html":[6,1,0,0,2,821],
-"classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__EdgeTag__phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag.html":[6,1,1,0,1,821],
-"classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__EdgeTag__phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag.html#a023fbb2df099d17a5304eab5c5a384d4":[6,1,0,0,2,821,2],
-"classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__EdgeTag__phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag.html#a023fbb2df099d17a5304eab5c5a384d4":[6,1,1,0,1,821,2]
+"classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__EdgeTag__phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag.html":[6,1,1,0,1,821]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1MeshBuilder_1_1UniteCloseParams.html#a114d1d59ef37898d184ed75daaf0b5fa":[6,0,2,0,1,8,4,5],
 "structMR_1_1MeshBuilder_1_1UniteCloseParams.html#a3fe2bba25d7c567c9b75a5a856990f20":[6,0,1,0,1,16,4,4],
 "structMR_1_1MeshBuilder_1_1UniteCloseParams.html#a3fe2bba25d7c567c9b75a5a856990f20":[6,0,2,0,1,8,4,4],
 "structMR_1_1MeshBuilder_1_1UniteCloseParams.html#a5379829943a90af63f2b4db61f7ff57d":[6,0,1,0,1,16,4,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1MeshToVolumeParams.html#ad2911735fdf5e6da1f6bfb93f285f6a8":[6,0,1,0,1,393,1],
 "structMR_1_1MeshToVolumeParams.html#ad2911735fdf5e6da1f6bfb93f285f6a8":[6,0,2,0,1,377,1],
 "structMR_1_1MeshTriPoint.html":[6,0,0,7,3],
-"structMR_1_1MeshTriPoint.html#a16e988e643929d407301f793664a431a":[6,0,0,7,3,0],
-"structMR_1_1MeshTriPoint.html#a1709949fd7429ecfaa96a98d1876f5b2":[6,0,0,7,3,12]
+"structMR_1_1MeshTriPoint.html#a16e988e643929d407301f793664a431a":[6,0,0,7,3,0]
 };

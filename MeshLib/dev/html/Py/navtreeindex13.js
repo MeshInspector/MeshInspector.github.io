@@ -24,12 +24,14 @@ var NAVTREEINDEX13 =
 "classmrmeshpy_1_1ChangePointPointSelectionAction.html#ae541bc7570e9604ddc65ccef365a6023":[6,1,1,0,1,124,1],
 "classmrmeshpy_1_1ChangePolylineAction.html":[6,1,0,0,2,125],
 "classmrmeshpy_1_1ChangePolylineAction.html":[6,1,1,0,1,125],
-"classmrmeshpy_1_1ChangePolylineAction.html#a37fc9d9197ff625af7f20658c576bbf7":[6,1,0,0,2,125,1],
-"classmrmeshpy_1_1ChangePolylineAction.html#a37fc9d9197ff625af7f20658c576bbf7":[6,1,1,0,1,125,1],
+"classmrmeshpy_1_1ChangePolylineAction.html#a18b2781c4a7dcb6edf4f1d539a81d9d2":[6,1,0,0,2,125,1],
+"classmrmeshpy_1_1ChangePolylineAction.html#a18b2781c4a7dcb6edf4f1d539a81d9d2":[6,1,1,0,1,125,1],
+"classmrmeshpy_1_1ChangePolylineAction.html#a37fc9d9197ff625af7f20658c576bbf7":[6,1,0,0,2,125,2],
+"classmrmeshpy_1_1ChangePolylineAction.html#a37fc9d9197ff625af7f20658c576bbf7":[6,1,1,0,1,125,2],
 "classmrmeshpy_1_1ChangePolylineAction.html#a61e8e69877a459644b94fff2b250e117":[6,1,0,0,2,125,0],
 "classmrmeshpy_1_1ChangePolylineAction.html#a61e8e69877a459644b94fff2b250e117":[6,1,1,0,1,125,0],
-"classmrmeshpy_1_1ChangePolylineAction.html#acaf2e8d428cb2c5234663a056d62bb02":[6,1,0,0,2,125,2],
-"classmrmeshpy_1_1ChangePolylineAction.html#acaf2e8d428cb2c5234663a056d62bb02":[6,1,1,0,1,125,2],
+"classmrmeshpy_1_1ChangePolylineAction.html#acaf2e8d428cb2c5234663a056d62bb02":[6,1,0,0,2,125,3],
+"classmrmeshpy_1_1ChangePolylineAction.html#acaf2e8d428cb2c5234663a056d62bb02":[6,1,1,0,1,125,3],
 "classmrmeshpy_1_1ChangePolylinePointsAction.html":[6,1,0,0,2,126],
 "classmrmeshpy_1_1ChangePolylinePointsAction.html":[6,1,1,0,1,126],
 "classmrmeshpy_1_1ChangePolylinePointsAction.html#a0976efe6a59ef72acd5f51fd476706bd":[6,1,0,0,2,126,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX13 =
 "classmrmeshpy_1_1Color.html#a8b037a0619c092ee939b95d8ae78289f":[6,1,0,0,2,143,16],
 "classmrmeshpy_1_1Color.html#a8b037a0619c092ee939b95d8ae78289f":[6,1,1,0,1,143,16],
 "classmrmeshpy_1_1Color.html#aa732aacc8453e31f5d72d5590e6e1a9e":[6,1,0,0,2,143,7],
-"classmrmeshpy_1_1Color.html#aa732aacc8453e31f5d72d5590e6e1a9e":[6,1,0,0,2,143,8],
-"classmrmeshpy_1_1Color.html#aa732aacc8453e31f5d72d5590e6e1a9e":[6,1,1,0,1,143,7],
-"classmrmeshpy_1_1Color.html#aa732aacc8453e31f5d72d5590e6e1a9e":[6,1,1,0,1,143,8]
+"classmrmeshpy_1_1Color.html#aa732aacc8453e31f5d72d5590e6e1a9e":[6,1,0,0,2,143,8]
 };

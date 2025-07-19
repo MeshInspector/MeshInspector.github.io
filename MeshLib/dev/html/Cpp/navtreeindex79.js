@@ -1,5 +1,6 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1MeshTriPoint.html#a1709949fd7429ecfaa96a98d1876f5b2":[6,0,0,7,3,12],
 "structMR_1_1MeshTriPoint.html#a28516877dbf31eb9b23a58abf5a65d31":[6,0,0,7,3,18],
 "structMR_1_1MeshTriPoint.html#a3eb261b602a6bb5dc6342b8a585f3a7c":[6,0,0,7,3,13],
 "structMR_1_1MeshTriPoint.html#a448317ec66d714fc3faa1d0bd3b64867":[6,0,0,7,3,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1MultiRayMeshIntersectResult.html#abe24325f915016d19bbaa021b7acdf15":[6,0,0,1,20,1],
 "structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html":[6,0,0,0,8,0,0],
 "structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#a7145307fcfb6ab1a4ad9426e6d2ac36b":[6,0,0,0,8,0,0,1],
-"structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#ad0025a9806d714127a0820f48a343136":[6,0,0,0,8,0,0,0],
-"structMR_1_1MultiwayICPSamplingParameters.html":[6,0,1,0,1,420]
+"structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#ad0025a9806d714127a0820f48a343136":[6,0,0,0,8,0,0,0]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"classmrmeshpy_1_1PartialChangeMeshPointsAction.html#a08e812dd11f4f67f1e7a492eeb6d3b97":[6,1,0,0,2,616,0],
+"classmrmeshpy_1_1PartialChangeMeshPointsAction.html#a08e812dd11f4f67f1e7a492eeb6d3b97":[6,1,1,0,1,616,0],
 "classmrmeshpy_1_1PartialChangeMeshPointsAction.html#ae32cd6cc0f2fde9760c71e45ddfd0ef9":[6,1,0,0,2,616,1],
 "classmrmeshpy_1_1PartialChangeMeshPointsAction.html#ae32cd6cc0f2fde9760c71e45ddfd0ef9":[6,1,1,0,1,616,1],
 "classmrmeshpy_1_1PartialChangeMeshTopologyAction.html":[6,1,0,0,2,617],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionsMap.html#acc1a37254610eb12662a6c8319d57965":[6,1,0,0,2,644,2,5],
 "classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionsMap.html#acc1a37254610eb12662a6c8319d57965":[6,1,1,0,1,644,2,5],
 "classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionsMap.html#adb11c3f71f1da4c457e30129e4f6729f":[6,1,0,0,2,644,2,4],
-"classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionsMap.html#adb11c3f71f1da4c457e30129e4f6729f":[6,1,1,0,1,644,2,4],
-"classmrmeshpy_1_1PlanarTriangulation_1_1OutlineParameters.html":[6,1,0,0,2,644,3],
-"classmrmeshpy_1_1PlanarTriangulation_1_1OutlineParameters.html":[6,1,1,0,1,644,3]
+"classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionsMap.html#adb11c3f71f1da4c457e30129e4f6729f":[6,1,1,0,1,644,2,4]
 };
