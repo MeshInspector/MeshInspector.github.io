@@ -1,5 +1,17 @@
 var NAVTREEINDEX98 =
 {
+"classmrmeshpy_1_1Vector__int__UndirectedEdgeId.html":[6,1,0,0,2,1082],
+"classmrmeshpy_1_1Vector__int__UndirectedEdgeId.html":[6,1,1,0,1,1082],
+"classmrmeshpy_1_1Vector__int__UndirectedEdgeId.html#a0961784a9c5a8afed429b7a4148122aa":[6,1,0,0,2,1082,22],
+"classmrmeshpy_1_1Vector__int__UndirectedEdgeId.html#a0961784a9c5a8afed429b7a4148122aa":[6,1,1,0,1,1082,22],
+"classmrmeshpy_1_1Vector__int__UndirectedEdgeId.html#a0b06b5cf18909f7a9c1183f42efb0128":[6,1,0,0,2,1082,34],
+"classmrmeshpy_1_1Vector__int__UndirectedEdgeId.html#a0b06b5cf18909f7a9c1183f42efb0128":[6,1,1,0,1,1082,34],
+"classmrmeshpy_1_1Vector__int__UndirectedEdgeId.html#a0f75f1ccf18930b98af6544f375877f9":[6,1,0,0,2,1082,3],
+"classmrmeshpy_1_1Vector__int__UndirectedEdgeId.html#a0f75f1ccf18930b98af6544f375877f9":[6,1,1,0,1,1082,3],
+"classmrmeshpy_1_1Vector__int__UndirectedEdgeId.html#a125e859d858d271a8a012d6a84150515":[6,1,0,0,2,1082,4],
+"classmrmeshpy_1_1Vector__int__UndirectedEdgeId.html#a125e859d858d271a8a012d6a84150515":[6,1,1,0,1,1082,4],
+"classmrmeshpy_1_1Vector__int__UndirectedEdgeId.html#a262ef0c50ee2dcfa1f03d43f681edbbe":[6,1,0,0,2,1082,16],
+"classmrmeshpy_1_1Vector__int__UndirectedEdgeId.html#a262ef0c50ee2dcfa1f03d43f681edbbe":[6,1,1,0,1,1082,16],
 "classmrmeshpy_1_1Vector__int__UndirectedEdgeId.html#a272f40363ac3817306734f0529efdcc7":[6,1,0,0,2,1082,1],
 "classmrmeshpy_1_1Vector__int__UndirectedEdgeId.html#a272f40363ac3817306734f0529efdcc7":[6,1,1,0,1,1082,1],
 "classmrmeshpy_1_1Vector__int__UndirectedEdgeId.html#a2b9de00eca0c926970809a9713f59b59":[6,1,0,0,2,1082,5],
@@ -237,17 +249,5 @@ var NAVTREEINDEX98 =
 "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a180b87ce5589283cf889a5bbd727ee99":[6,1,0,0,2,1094,34],
 "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a180b87ce5589283cf889a5bbd727ee99":[6,1,1,0,1,1094,34],
 "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a1b13a774e90ab8bd29011e8cd8a93756":[6,1,0,0,2,1094,26],
-"classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a1b13a774e90ab8bd29011e8cd8a93756":[6,1,1,0,1,1094,26],
-"classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a1d1183c983bdd92944c625683894864e":[6,1,0,0,2,1094,11],
-"classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a1d1183c983bdd92944c625683894864e":[6,1,1,0,1,1094,11],
-"classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a24a5ce7548dd09bef2609324327f94a4":[6,1,0,0,2,1094,3],
-"classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a24a5ce7548dd09bef2609324327f94a4":[6,1,1,0,1,1094,3],
-"classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a2791e814331cb670e7cd04edab836823":[6,1,0,0,2,1094,28],
-"classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a2791e814331cb670e7cd04edab836823":[6,1,0,0,2,1094,29],
-"classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a2791e814331cb670e7cd04edab836823":[6,1,1,0,1,1094,28],
-"classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a2791e814331cb670e7cd04edab836823":[6,1,1,0,1,1094,29],
-"classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a34643a1ea62c14625e9ee634ef66ad69":[6,1,0,0,2,1094,37],
-"classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a34643a1ea62c14625e9ee634ef66ad69":[6,1,1,0,1,1094,37],
-"classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a39dffe501cb9c1f12e6d269c56da1454":[6,1,0,0,2,1094,0],
-"classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a39dffe501cb9c1f12e6d269c56da1454":[6,1,1,0,1,1094,0]
+"classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a1b13a774e90ab8bd29011e8cd8a93756":[6,1,1,0,1,1094,26]
 };

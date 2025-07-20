@@ -180,6 +180,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae89c55eb14c80dcca14c9e11137e09fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb205f054024051149f4102cd445e788" id="r_acb205f054024051149f4102cd445e788"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb205f054024051149f4102cd445e788">applyScale</a> (self, float scaleFactor)</td></tr>
 <tr class="separator:acb205f054024051149f4102cd445e788"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63154f43549ab27f62446810817169fa" id="r_a63154f43549ab27f62446810817169fa"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63154f43549ab27f62446810817169fa">avgEdgeLen</a> (self)</td></tr>
+<tr class="separator:a63154f43549ab27f62446810817169fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ce5f0f36cb7ebc31e410e151c5775c3" id="r_a0ce5f0f36cb7ebc31e410e151c5775c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Object.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ce5f0f36cb7ebc31e410e151c5775c3">clone</a> (self)</td></tr>
 <tr class="separator:a0ce5f0f36cb7ebc31e410e151c5775c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb4c956a11a4aa8fdb7b1445ac00f633" id="r_adb4c956a11a4aa8fdb7b1445ac00f633"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb4c956a11a4aa8fdb7b1445ac00f633">copyColors</a> (self, <a class="el" href="classmrmeshpy_1_1ObjectLinesHolder.html">ObjectLinesHolder</a> src, <a class="el" href="classmrmeshpy_1_1VertMap.html">VertMap</a> thisToSrc)</td></tr>
@@ -204,6 +206,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a66a9da044d1ff0dafad25ee62ec981cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b1a6a7bd1e518c46da8429a841f873b" id="r_a2b1a6a7bd1e518c46da8429a841f873b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b1a6a7bd1e518c46da8429a841f873b">numComponents</a> (self)</td></tr>
 <tr class="separator:a2b1a6a7bd1e518c46da8429a841f873b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c8bef0028808244b470495c2c937844" id="r_a9c8bef0028808244b470495c2c937844"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c8bef0028808244b470495c2c937844">numUndirectedEdges</a> (self)</td></tr>
+<tr class="separator:a9c8bef0028808244b470495c2c937844"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ae665bceaf15ddd1db70c553f88ef8f" id="r_a6ae665bceaf15ddd1db70c553f88ef8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ae665bceaf15ddd1db70c553f88ef8f">polyline</a> (self)</td></tr>
 <tr class="separator:a6ae665bceaf15ddd1db70c553f88ef8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2cf69c6b8bbc437fac219147a738433" id="r_ae2cf69c6b8bbc437fac219147a738433"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2cf69c6b8bbc437fac219147a738433">setDirtyFlags</a> (self, int mask, bool invalidateCaches=True)</td></tr>
@@ -501,6 +505,24 @@ an object that stores a lines
 
 </div>
 </div>
+<a id="a63154f43549ab27f62446810817169fa" name="a63154f43549ab27f62446810817169fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63154f43549ab27f62446810817169fa">&#9670;&#160;</a></span>avgEdgeLen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float mrmeshpy.ObjectLinesHolder.avgEdgeLen </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns cached average edge length
+</pre> 
+</div>
+</div>
 <a id="a0ce5f0f36cb7ebc31e410e151c5775c3" name="a0ce5f0f36cb7ebc31e410e151c5775c3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0ce5f0f36cb7ebc31e410e151c5775c3">&#9670;&#160;</a></span>clone()</h2>
 
@@ -775,6 +797,24 @@ e.g. ObjectMesh has valid mesh() or ObjectPoints has valid pointCloud()
       </table>
 </div><div class="memdoc">
 <pre class="fragment">returns cached information about the number of components in the polyline
+</pre> 
+</div>
+</div>
+<a id="a9c8bef0028808244b470495c2c937844" name="a9c8bef0028808244b470495c2c937844"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c8bef0028808244b470495c2c937844">&#9670;&#160;</a></span>numUndirectedEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int mrmeshpy.ObjectLinesHolder.numUndirectedEdges </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns cached information about the number of undirected edges in the polyline
 </pre> 
 </div>
 </div>

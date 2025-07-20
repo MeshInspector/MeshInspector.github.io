@@ -1,5 +1,11 @@
 var NAVTREEINDEX64 =
 {
+"namespaceMR_1_1PlanarTriangulation.html#a3638a79ba38f8621fd9eb80783cb14be":[6,0,1,0,1,24,9],
+"namespaceMR_1_1PlanarTriangulation.html#a3a4d8b0d7301b69cd93de010d000bbcc":[6,0,1,0,1,24,14],
+"namespaceMR_1_1PlanarTriangulation.html#a41b088a697624ae295c7b3a7b137bca9":[6,0,1,0,1,24,8],
+"namespaceMR_1_1PlanarTriangulation.html#a41b088a697624ae295c7b3a7b137bca9a3289297424e01eda5b788c083bbf3147":[6,0,1,0,1,24,8,1],
+"namespaceMR_1_1PlanarTriangulation.html#a41b088a697624ae295c7b3a7b137bca9a3d0365a27a39c0af183445fc4d932a8a":[6,0,1,0,1,24,8,0],
+"namespaceMR_1_1PlanarTriangulation.html#a41b088a697624ae295c7b3a7b137bca9affb9356ff2b7da85c75c92fa7ea03b8b":[6,0,1,0,1,24,8,2],
 "namespaceMR_1_1PlanarTriangulation.html#a4ea76a89e8c8fb95eb68d7497122271b":[6,0,1,0,1,24,7],
 "namespaceMR_1_1PlanarTriangulation.html#a83cb3ae007112f97a7019d02c16c2201":[6,0,1,0,1,24,13],
 "namespaceMR_1_1PlanarTriangulation.html#aaae55b5f79adbd80cfe0f6f147069953":[6,0,1,0,1,24,10],
@@ -243,11 +249,5 @@ var NAVTREEINDEX64 =
 "namespaceMR_1_1WeightedShell.html#a7882f57d282bd3aa7b657061f8f9409b":[6,0,1,0,1,42,9],
 "namespaceMR_1_1WeightedShell.html#a8dc2c1b804b8a46b0a33345e1f1688f1":[6,0,1,0,1,42,12],
 "namespaceMR_1_1WeightedShell.html#a90e26c11723ff31873a2d5046d4edc5a":[6,0,1,0,1,42,8],
-"namespaceMR_1_1WeightedShell.html#ad2ba4e4f0e0175fc0608e172a0619984":[6,0,1,0,1,42,4],
-"namespaceMR_1_1detail.html":[6,0,1,0,1,3],
-"namespaceMR_1_1detail.html#a5620523d14d5ba70ac2f7841d93f6076":[6,0,1,0,1,3,6],
-"namespaceMR_1_1detail.html#a93c7b098b17358bdd4512a091bfcb6fa":[6,0,1,0,1,3,5],
-"namespaceMR_1_1detail.html#ad7472d89bbf53dd56025b561db9deaca":[6,0,1,0,1,3,7],
-"namespaceMR_1_1detail_1_1Units.html":[6,0,1,0,1,3,0],
-"namespaceMR_1_1detail_1_1Units.html#aec57db09655986b2ed959d498edc6f2a":[6,0,1,0,1,3,0,2]
+"namespaceMR_1_1WeightedShell.html#ad2ba4e4f0e0175fc0608e172a0619984":[6,0,1,0,1,42,4]
 };

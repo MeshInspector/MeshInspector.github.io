@@ -2,6 +2,7 @@ var classmrmeshpy_1_1ObjectLinesHolder =
 [
     [ "__init__", "classmrmeshpy_1_1ObjectLinesHolder.html#ae89c55eb14c80dcca14c9e11137e09fa", null ],
     [ "applyScale", "classmrmeshpy_1_1ObjectLinesHolder.html#acb205f054024051149f4102cd445e788", null ],
+    [ "avgEdgeLen", "classmrmeshpy_1_1ObjectLinesHolder.html#a63154f43549ab27f62446810817169fa", null ],
     [ "clone", "classmrmeshpy_1_1ObjectLinesHolder.html#a0ce5f0f36cb7ebc31e410e151c5775c3", null ],
     [ "copyColors", "classmrmeshpy_1_1ObjectLinesHolder.html#adb4c956a11a4aa8fdb7b1445ac00f633", null ],
     [ "getAllVisualizeProperties", "classmrmeshpy_1_1ObjectLinesHolder.html#a994cad33d6a8028132f72cdd9b0dca98", null ],
@@ -14,6 +15,7 @@ var classmrmeshpy_1_1ObjectLinesHolder =
     [ "hasVisualRepresentation", "classmrmeshpy_1_1ObjectLinesHolder.html#acf9de6509d7769c04d816fce4614089c", null ],
     [ "heapBytes", "classmrmeshpy_1_1ObjectLinesHolder.html#a66a9da044d1ff0dafad25ee62ec981cb", null ],
     [ "numComponents", "classmrmeshpy_1_1ObjectLinesHolder.html#a2b1a6a7bd1e518c46da8429a841f873b", null ],
+    [ "numUndirectedEdges", "classmrmeshpy_1_1ObjectLinesHolder.html#a9c8bef0028808244b470495c2c937844", null ],
     [ "polyline", "classmrmeshpy_1_1ObjectLinesHolder.html#a6ae665bceaf15ddd1db70c553f88ef8f", null ],
     [ "setDirtyFlags", "classmrmeshpy_1_1ObjectLinesHolder.html#ae2cf69c6b8bbc437fac219147a738433", null ],
     [ "setLinesColorMap", "classmrmeshpy_1_1ObjectLinesHolder.html#acebcd884d454d5c6138f9087f1b80387", null ],

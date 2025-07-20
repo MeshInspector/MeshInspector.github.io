@@ -184,6 +184,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a28c6d4168baee6d5be0b3e070e0acaf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad718dc9a7567c05130175058dee72b71" id="r_ad718dc9a7567c05130175058dee72b71"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad718dc9a7567c05130175058dee72b71">addPartByMask</a> (self, <a class="el" href="classmrmeshpy_1_1Polyline2.html">Polyline2</a> from_, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> mask, <a class="el" href="classmrmeshpy_1_1VertMap.html">VertMap</a> outVmap=None, <a class="el" href="classmrmeshpy_1_1EdgeMap.html">EdgeMap</a> outEmap=None)</td></tr>
 <tr class="separator:ad718dc9a7567c05130175058dee72b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a012b3b6778402cf412b1155df05dbd4f" id="r_a012b3b6778402cf412b1155df05dbd4f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a012b3b6778402cf412b1155df05dbd4f">averageEdgeLength</a> (self)</td></tr>
+<tr class="separator:a012b3b6778402cf412b1155df05dbd4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84d9bc35001a3917a3e122424e2fb196" id="r_a84d9bc35001a3917a3e122424e2fb196"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Box2f.html">Box2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84d9bc35001a3917a3e122424e2fb196">computeBoundingBox</a> (self, <a class="el" href="classmrmeshpy_1_1AffineXf2f.html">AffineXf2f</a> toWorld=None)</td></tr>
 <tr class="separator:a84d9bc35001a3917a3e122424e2fb196"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae41a8431fbebaf52229ae5996ff3ae5f" id="r_ae41a8431fbebaf52229ae5996ff3ae5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__std__vector__Vector2__float.html">std_vector_std_vector_Vector2_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae41a8431fbebaf52229ae5996ff3ae5f">contours</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__std__vector__Id__VertTag.html">std_vector_std_vector_Id_VertTag</a> vertMap=None)</td></tr>
@@ -602,6 +604,24 @@ each pair (a,b) of indices in \\param comp2firstVert defines vertex range of a p
       </table>
 </div><div class="memdoc">
 <pre class="fragment">appends polyline (from) in addition to this polyline: creates new edges, verts and points
+</pre> 
+</div>
+</div>
+<a id="a012b3b6778402cf412b1155df05dbd4f" name="a012b3b6778402cf412b1155df05dbd4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a012b3b6778402cf412b1155df05dbd4f">&#9670;&#160;</a></span>averageEdgeLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float mrmeshpy.Polyline2.averageEdgeLength </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns average edge length in the polyline
 </pre> 
 </div>
 </div>

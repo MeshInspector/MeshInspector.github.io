@@ -11,6 +11,7 @@ var classmrmeshpy_1_1Polyline2 =
     [ "addFromSurfacePath", "classmrmeshpy_1_1Polyline2.html#ad34e5614069214f78d42c78028e3b9fa", null ],
     [ "addPart", "classmrmeshpy_1_1Polyline2.html#a28c6d4168baee6d5be0b3e070e0acaf7", null ],
     [ "addPartByMask", "classmrmeshpy_1_1Polyline2.html#ad718dc9a7567c05130175058dee72b71", null ],
+    [ "averageEdgeLength", "classmrmeshpy_1_1Polyline2.html#a012b3b6778402cf412b1155df05dbd4f", null ],
     [ "computeBoundingBox", "classmrmeshpy_1_1Polyline2.html#a84d9bc35001a3917a3e122424e2fb196", null ],
     [ "contours", "classmrmeshpy_1_1Polyline2.html#ae41a8431fbebaf52229ae5996ff3ae5f", null ],
     [ "destPnt", "classmrmeshpy_1_1Polyline2.html#a5daeee19c31e61dc34e0c691fd4d3f6d", null ],

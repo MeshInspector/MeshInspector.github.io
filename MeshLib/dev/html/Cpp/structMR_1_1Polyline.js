@@ -11,6 +11,7 @@ var structMR_1_1Polyline =
     [ "addFromSurfacePath", "structMR_1_1Polyline.html#a97fea45a4170313a719a900d98a1ee7d", null ],
     [ "addPart", "structMR_1_1Polyline.html#a51d38e177ee751404d7e836928dc4689", null ],
     [ "addPartByMask", "structMR_1_1Polyline.html#a3c415d06f60c7ddc956d9c1f5b4b9609", null ],
+    [ "averageEdgeLength", "structMR_1_1Polyline.html#a6680e632ef5cd15c07a087a1b0f4da18", null ],
     [ "computeBoundingBox", "structMR_1_1Polyline.html#af1debf021b9bc68d02c2905e0527ab11", null ],
     [ "contours", "structMR_1_1Polyline.html#a91470a70289b04baf4e278a4b7c4702b", null ],
     [ "destPnt", "structMR_1_1Polyline.html#a29635bdcaade26236bf38e9044e1605a", null ],

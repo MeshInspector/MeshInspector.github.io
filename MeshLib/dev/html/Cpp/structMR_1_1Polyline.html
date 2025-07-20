@@ -222,6 +222,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2a9c58f07401349f8113bfc5e5e03619" id="r_a2a9c58f07401349f8113bfc5e5e03619"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a9c58f07401349f8113bfc5e5e03619">totalLength</a> () const</td></tr>
 <tr class="memdesc:a2a9c58f07401349f8113bfc5e5e03619"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns total length of the polyline  <br /></td></tr>
 <tr class="separator:a2a9c58f07401349f8113bfc5e5e03619"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6680e632ef5cd15c07a087a1b0f4da18" id="r_a6680e632ef5cd15c07a087a1b0f4da18"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6680e632ef5cd15c07a087a1b0f4da18">averageEdgeLength</a> () const</td></tr>
+<tr class="memdesc:a6680e632ef5cd15c07a087a1b0f4da18"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns average edge length in the polyline  <br /></td></tr>
+<tr class="separator:a6680e632ef5cd15c07a087a1b0f4da18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:addf7be82ffec83205ba7adcd66001c5b" id="r_addf7be82ffec83205ba7adcd66001c5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> const <a class="el" href="classMR_1_1AABBTreePolyline.html">AABBTreePolyline</a>&lt; V &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addf7be82ffec83205ba7adcd66001c5b">getAABBTree</a> () const</td></tr>
 <tr class="memdesc:addf7be82ffec83205ba7adcd66001c5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached aabb-tree for this polyline, creating it if it did not exist in a thread-safe manner  <br /></td></tr>
 <tr class="separator:addf7be82ffec83205ba7adcd66001c5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -588,6 +591,35 @@ template&lt;typename V &gt; </div>
 </div><div class="memdoc">
 
 <p>appends polyline (from) in addition to this polyline: creates new edges, verts and points </p>
+
+</div>
+</div>
+<a id="a6680e632ef5cd15c07a087a1b0f4da18" name="a6680e632ef5cd15c07a087a1b0f4da18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6680e632ef5cd15c07a087a1b0f4da18">&#9670;&#160;</a></span>averageEdgeLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::averageEdgeLength </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns average edge length in the polyline </p>
 
 </div>
 </div>

@@ -187,6 +187,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8cb34e3ceee5a50a6c10d171e5ab10ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae24cad4774f136e204d6fd0f9e723684" id="r_ae24cad4774f136e204d6fd0f9e723684"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae24cad4774f136e204d6fd0f9e723684">dest</a> (self, <a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> he)</td></tr>
 <tr class="separator:ae24cad4774f136e204d6fd0f9e723684"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f8f9c45d0da506eaceec72fc57601fe" id="r_a0f8f9c45d0da506eaceec72fc57601fe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f8f9c45d0da506eaceec72fc57601fe">edgeCapacity</a> (self)</td></tr>
+<tr class="separator:a0f8f9c45d0da506eaceec72fc57601fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7298df1b1a8ac3733691a86c2ff664a4" id="r_a7298df1b1a8ac3733691a86c2ff664a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector__Id__EdgeTag__VertId.html">Vector_Id_EdgeTag_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7298df1b1a8ac3733691a86c2ff664a4">edgePerVertex</a> (self)</td></tr>
 <tr class="separator:a7298df1b1a8ac3733691a86c2ff664a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a7ebe7bbd28e3c3797fb09820ddd2e5" id="r_a6a7ebe7bbd28e3c3797fb09820ddd2e5"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a7ebe7bbd28e3c3797fb09820ddd2e5">edgeReserve</a> (self, int newCapacity)</td></tr>
@@ -251,6 +253,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a816e2b7018375283b5879bc81e520573"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae17ce0f872a8eaca4cfc6bcc7eabdfa9" id="r_ae17ce0f872a8eaca4cfc6bcc7eabdfa9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae17ce0f872a8eaca4cfc6bcc7eabdfa9">splitEdge</a> (self, <a class="el" href="classmrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> e)</td></tr>
 <tr class="separator:ae17ce0f872a8eaca4cfc6bcc7eabdfa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad31ed3a3afe4bf02fc70e7ade047e09d" id="r_ad31ed3a3afe4bf02fc70e7ade047e09d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad31ed3a3afe4bf02fc70e7ade047e09d">undirectedEdgeCapacity</a> (self)</td></tr>
+<tr class="separator:ad31ed3a3afe4bf02fc70e7ade047e09d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae78fca5314a3d52f750c179d09f9dca1" id="r_ae78fca5314a3d52f750c179d09f9dca1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae78fca5314a3d52f750c179d09f9dca1">undirectedEdgeSize</a> (self)</td></tr>
 <tr class="separator:ae78fca5314a3d52f750c179d09f9dca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7e5e4112b932cbf686e8d87f1cf18e4" id="r_ab7e5e4112b932cbf686e8d87f1cf18e4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7e5e4112b932cbf686e8d87f1cf18e4">vertCapacity</a> (self)</td></tr>
@@ -599,6 +603,24 @@ each pair (a,b) of indices in \\param comp2firstVert defines vertex range of a p
       </table>
 </div><div class="memdoc">
 <pre class="fragment">returns destination vertex of half-edge
+</pre> 
+</div>
+</div>
+<a id="a0f8f9c45d0da506eaceec72fc57601fe" name="a0f8f9c45d0da506eaceec72fc57601fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f8f9c45d0da506eaceec72fc57601fe">&#9670;&#160;</a></span>edgeCapacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int mrmeshpy.PolylineTopology.edgeCapacity </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the number of allocated edge records
 </pre> 
 </div>
 </div>
@@ -1362,6 +1384,24 @@ return the edge from first to second vertex
 dest(returned-edge) = org(e) - newly created vertex,
 org(returned-edge) = org(e-before-split),
 dest(e) = dest(e-before-split)
+</pre> 
+</div>
+</div>
+<a id="ad31ed3a3afe4bf02fc70e7ade047e09d" name="ad31ed3a3afe4bf02fc70e7ade047e09d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad31ed3a3afe4bf02fc70e7ade047e09d">&#9670;&#160;</a></span>undirectedEdgeCapacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int mrmeshpy.PolylineTopology.undirectedEdgeCapacity </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the number of allocated undirected edges (pairs of half-edges)
 </pre> 
 </div>
 </div>

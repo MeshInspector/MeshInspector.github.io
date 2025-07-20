@@ -248,6 +248,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad64322425bc9354238fc990bff3e2b10" id="r_ad64322425bc9354238fc990bff3e2b10"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad64322425bc9354238fc990bff3e2b10">heapBytes</a> () const override</td></tr>
 <tr class="memdesc:ad64322425bc9354238fc990bff3e2b10"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="separator:ad64322425bc9354238fc990bff3e2b10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a647c62ff7baffd91938b1f79f5ad92bb" id="r_a647c62ff7baffd91938b1f79f5ad92bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a647c62ff7baffd91938b1f79f5ad92bb">avgEdgeLen</a> () const</td></tr>
+<tr class="memdesc:a647c62ff7baffd91938b1f79f5ad92bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached average edge length  <br /></td></tr>
+<tr class="separator:a647c62ff7baffd91938b1f79f5ad92bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0652baca888594cfe0fb1c17bcb78dbb" id="r_a0652baca888594cfe0fb1c17bcb78dbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0652baca888594cfe0fb1c17bcb78dbb">numUndirectedEdges</a> () const</td></tr>
+<tr class="memdesc:a0652baca888594cfe0fb1c17bcb78dbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached information about the number of undirected edges in the polyline  <br /></td></tr>
+<tr class="separator:a0652baca888594cfe0fb1c17bcb78dbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65723d5693a73384784167b2451da400" id="r_a65723d5693a73384784167b2451da400"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65723d5693a73384784167b2451da400">numComponents</a> () const</td></tr>
 <tr class="memdesc:a65723d5693a73384784167b2451da400"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached information about the number of components in the polyline  <br /></td></tr>
 <tr class="separator:a65723d5693a73384784167b2451da400"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -639,8 +645,12 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
+<tr class="memitem:a93290385193f37f80ec2fe07e19fc8c9" id="r_a93290385193f37f80ec2fe07e19fc8c9"><td class="memItemLeft" align="right" valign="top">std::optional&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93290385193f37f80ec2fe07e19fc8c9">numUndirectedEdges_</a></td></tr>
+<tr class="separator:a93290385193f37f80ec2fe07e19fc8c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4657e92207e28ae97a59ce816f15f2e" id="r_ac4657e92207e28ae97a59ce816f15f2e"><td class="memItemLeft" align="right" valign="top">std::optional&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4657e92207e28ae97a59ce816f15f2e">numComponents_</a></td></tr>
 <tr class="separator:ac4657e92207e28ae97a59ce816f15f2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2abf795e99899109737e507f19ac02a7" id="r_a2abf795e99899109737e507f19ac02a7"><td class="memItemLeft" align="right" valign="top">std::optional&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2abf795e99899109737e507f19ac02a7">avgEdgeLen_</a></td></tr>
+<tr class="separator:a2abf795e99899109737e507f19ac02a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee46157cb8a669b29f698f0ea9688264" id="r_aee46157cb8a669b29f698f0ea9688264"><td class="memItemLeft" align="right" valign="top">std::optional&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee46157cb8a669b29f698f0ea9688264">totalLength_</a></td></tr>
 <tr class="separator:aee46157cb8a669b29f698f0ea9688264"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3f76f7286057cda0116754b663cf340" id="r_af3f76f7286057cda0116754b663cf340"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ViewportProperty.html">ViewportProperty</a>&lt; <a class="el" href="classMR_1_1XfBasedCache.html">XfBasedCache</a>&lt; Box3f &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3f76f7286057cda0116754b663cf340">worldBox_</a></td></tr>
@@ -865,6 +875,33 @@ Additional Inherited Members</h2></td></tr>
 <p>scale object size (all point positions) </p>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1Object.html#a0afca40a7c24d33df4e4d7a5c98167a4">MR::Object</a>.</p>
+
+</div>
+</div>
+<a id="a647c62ff7baffd91938b1f79f5ad92bb" name="a647c62ff7baffd91938b1f79f5ad92bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a647c62ff7baffd91938b1f79f5ad92bb">&#9670;&#160;</a></span>avgEdgeLen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float MR::ObjectLinesHolder::avgEdgeLen </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns cached average edge length </p>
 
 </div>
 </div>
@@ -1303,6 +1340,9 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t MR::ObjectLinesHolder::numComponents </td>
@@ -1311,9 +1351,41 @@ Additional Inherited Members</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>returns cached information about the number of components in the polyline </p>
+
+</div>
+</div>
+<a id="a0652baca888594cfe0fb1c17bcb78dbb" name="a0652baca888594cfe0fb1c17bcb78dbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0652baca888594cfe0fb1c17bcb78dbb">&#9670;&#160;</a></span>numUndirectedEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t MR::ObjectLinesHolder::numUndirectedEdges </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns cached information about the number of undirected edges in the polyline </p>
 
 </div>
 </div>
@@ -1722,6 +1794,9 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float MR::ObjectLinesHolder::totalLength </td>
@@ -1730,6 +1805,11 @@ Additional Inherited Members</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>return cached total length </p>
@@ -1843,6 +1923,28 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a2abf795e99899109737e507f19ac02a7" name="a2abf795e99899109737e507f19ac02a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2abf795e99899109737e507f19ac02a7">&#9670;&#160;</a></span>avgEdgeLen_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;float&gt; MR::ObjectLinesHolder::avgEdgeLen_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a58e224092d5971b40208e6d4a15e6862" name="a58e224092d5971b40208e6d4a15e6862"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a58e224092d5971b40208e6d4a15e6862">&#9670;&#160;</a></span>linesColorMap_</h2>
 
@@ -1900,6 +2002,28 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">std::optional&lt;size_t&gt; MR::ObjectLinesHolder::numComponents_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a93290385193f37f80ec2fe07e19fc8c9" name="a93290385193f37f80ec2fe07e19fc8c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93290385193f37f80ec2fe07e19fc8c9">&#9670;&#160;</a></span>numUndirectedEdges_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;size_t&gt; MR::ObjectLinesHolder::numUndirectedEdges_</td>
         </tr>
       </table>
   </td>

@@ -1,5 +1,9 @@
 var NAVTREEINDEX57 =
 {
+"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#a25f81197e9197a387da9d125a8688586":[6,1,0,0,2,582,0,2,11],
+"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#a25f81197e9197a387da9d125a8688586":[6,1,1,0,1,582,0,2,11],
+"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#a303e1d2e822687fc614c7fe307e600e3":[6,1,0,0,2,582,0,2,0],
+"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#a303e1d2e822687fc614c7fe307e600e3":[6,1,1,0,1,582,0,2,0],
 "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#a5624c48d073790db0a284651ff65041a":[6,1,0,0,2,582,0,2,9],
 "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#a5624c48d073790db0a284651ff65041a":[6,1,1,0,1,582,0,2,9],
 "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#a5a7c68e82761c32d4e85cb55fe6c7d7c":[6,1,0,0,2,582,0,2,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX57 =
 "classmrmeshpy_1_1OpenVdbFloatGrid.html#a5d745ddafeff64511a7ebc52d4cc0fad":[6,1,0,0,2,602,1],
 "classmrmeshpy_1_1OpenVdbFloatGrid.html#a5d745ddafeff64511a7ebc52d4cc0fad":[6,1,1,0,1,602,1],
 "classmrmeshpy_1_1OpenVdbFloatGrid.html#a82345a0c4a31d4f99de30dc6155564b3":[6,1,0,0,2,602,0],
-"classmrmeshpy_1_1OpenVdbFloatGrid.html#a82345a0c4a31d4f99de30dc6155564b3":[6,1,1,0,1,602,0],
-"classmrmeshpy_1_1OrientNormals.html":[6,1,0,0,2,603],
-"classmrmeshpy_1_1OrientNormals.html":[6,1,1,0,1,603],
-"classmrmeshpy_1_1OrientNormals.html#a036ba97ffc5ffed73af460110051f673":[6,1,0,0,2,603,2],
-"classmrmeshpy_1_1OrientNormals.html#a036ba97ffc5ffed73af460110051f673":[6,1,1,0,1,603,2]
+"classmrmeshpy_1_1OpenVdbFloatGrid.html#a82345a0c4a31d4f99de30dc6155564b3":[6,1,1,0,1,602,0]
 };

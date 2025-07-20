@@ -1,5 +1,17 @@
 var NAVTREEINDEX66 =
 {
+"classmrmeshpy_1_1QuadraticForm3f.html#aacab84d06a0fb99034d81ce6d2ef7e37":[6,1,0,0,2,716,7],
+"classmrmeshpy_1_1QuadraticForm3f.html#aacab84d06a0fb99034d81ce6d2ef7e37":[6,1,1,0,1,716,7],
+"classmrmeshpy_1_1QuadraticForm3f.html#acfbc01bfedb94d7f2bce30f3724e224c":[6,1,0,0,2,716,4],
+"classmrmeshpy_1_1QuadraticForm3f.html#acfbc01bfedb94d7f2bce30f3724e224c":[6,1,1,0,1,716,4],
+"classmrmeshpy_1_1QuadricApprox.html":[6,1,0,0,2,717],
+"classmrmeshpy_1_1QuadricApprox.html":[6,1,1,0,1,717],
+"classmrmeshpy_1_1QuadricApprox.html#a09ed7eb2114885d9e8a532d542995c49":[6,1,0,0,2,717,0],
+"classmrmeshpy_1_1QuadricApprox.html#a09ed7eb2114885d9e8a532d542995c49":[6,1,1,0,1,717,0],
+"classmrmeshpy_1_1QuadricApprox.html#a23e69cda75f413c14b31f4dfb68962af":[6,1,0,0,2,717,1],
+"classmrmeshpy_1_1QuadricApprox.html#a23e69cda75f413c14b31f4dfb68962af":[6,1,1,0,1,717,1],
+"classmrmeshpy_1_1QuarterBit.html":[6,1,0,0,2,718],
+"classmrmeshpy_1_1QuarterBit.html":[6,1,1,0,1,718],
 "classmrmeshpy_1_1QuarterBit.html#a1316dfa9017296433e732a2cb202c9e1":[6,1,0,0,2,718,0],
 "classmrmeshpy_1_1QuarterBit.html#a1316dfa9017296433e732a2cb202c9e1":[6,1,1,0,1,718,0],
 "classmrmeshpy_1_1QuarterBit.html#a140c6a2e23ef7816bc2f2b8cea6acbe8":[6,1,0,0,2,718,14],
@@ -237,17 +249,5 @@ var NAVTREEINDEX66 =
 "classmrmeshpy_1_1RebuildMeshSettings.html":[6,1,0,0,2,723],
 "classmrmeshpy_1_1RebuildMeshSettings.html":[6,1,1,0,1,723],
 "classmrmeshpy_1_1RebuildMeshSettings.html#a06ff3ab78c3b8f295373987e3b9840a8":[6,1,0,0,2,723,2],
-"classmrmeshpy_1_1RebuildMeshSettings.html#a06ff3ab78c3b8f295373987e3b9840a8":[6,1,1,0,1,723,2],
-"classmrmeshpy_1_1RebuildMeshSettings.html#a2ea1afb3fd48beb8571df44c4e1dde6c":[6,1,0,0,2,723,12],
-"classmrmeshpy_1_1RebuildMeshSettings.html#a2ea1afb3fd48beb8571df44c4e1dde6c":[6,1,1,0,1,723,12],
-"classmrmeshpy_1_1RebuildMeshSettings.html#a30b5eee0aaf333fbce4bb2234bbcf0a3":[6,1,0,0,2,723,16],
-"classmrmeshpy_1_1RebuildMeshSettings.html#a30b5eee0aaf333fbce4bb2234bbcf0a3":[6,1,1,0,1,723,16],
-"classmrmeshpy_1_1RebuildMeshSettings.html#a3271035a52047c2de7c3663312112152":[6,1,0,0,2,723,1],
-"classmrmeshpy_1_1RebuildMeshSettings.html#a3271035a52047c2de7c3663312112152":[6,1,1,0,1,723,1],
-"classmrmeshpy_1_1RebuildMeshSettings.html#a4be5194200af5897cb0a010567bc24ef":[6,1,0,0,2,723,15],
-"classmrmeshpy_1_1RebuildMeshSettings.html#a4be5194200af5897cb0a010567bc24ef":[6,1,1,0,1,723,15],
-"classmrmeshpy_1_1RebuildMeshSettings.html#a4eaabcdc8f1cd37414088cb66a505ff2":[6,1,0,0,2,723,23],
-"classmrmeshpy_1_1RebuildMeshSettings.html#a4eaabcdc8f1cd37414088cb66a505ff2":[6,1,1,0,1,723,23],
-"classmrmeshpy_1_1RebuildMeshSettings.html#a4ec4e4d3aaa027396135d26ea160731f":[6,1,0,0,2,723,14],
-"classmrmeshpy_1_1RebuildMeshSettings.html#a4ec4e4d3aaa027396135d26ea160731f":[6,1,1,0,1,723,14]
+"classmrmeshpy_1_1RebuildMeshSettings.html#a06ff3ab78c3b8f295373987e3b9840a8":[6,1,1,0,1,723,2]
 };

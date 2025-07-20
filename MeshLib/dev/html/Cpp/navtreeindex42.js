@@ -1,5 +1,11 @@
 var NAVTREEINDEX42 =
 {
+"classMR_1_1SceneCache.html":[6,0,1,0,1,629],
+"classMR_1_1SceneCache.html":[6,0,2,0,1,613],
+"classMR_1_1SceneCache.html#a9d132145ed6e28c339f8a129698217d6":[6,0,1,0,1,629,0],
+"classMR_1_1SceneCache.html#a9d132145ed6e28c339f8a129698217d6":[6,0,2,0,1,613,0],
+"classMR_1_1SceneObjectsListDrawer.html":[6,0,1,0,1,631],
+"classMR_1_1SceneObjectsListDrawer.html":[6,0,2,0,1,615],
 "classMR_1_1SceneObjectsListDrawer.html#a062dbdb186840f7e320957f6b752acfc":[6,0,1,0,1,631,21],
 "classMR_1_1SceneObjectsListDrawer.html#a062dbdb186840f7e320957f6b752acfc":[6,0,2,0,1,615,21],
 "classMR_1_1SceneObjectsListDrawer.html#a098e7d25adfb62e62c71451173a29712":[6,0,1,0,1,631,8],
@@ -243,11 +249,5 @@ var NAVTREEINDEX42 =
 "classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca5835bab1ade0060909e31a06af2e2cde":[6,0,2,0,1,641,0,0],
 "classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca92b09c7c48c520c3c55e497875da437c":[6,0,1,0,1,657,0,5],
 "classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca92b09c7c48c520c3c55e497875da437c":[6,0,2,0,1,641,0,5],
-"classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca93fe1f7c5ca2e09af063aca96d0625cc":[6,0,1,0,1,657,0,6],
-"classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca93fe1f7c5ca2e09af063aca96d0625cc":[6,0,2,0,1,641,0,6],
-"classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca945d5e233cf7d6240f6b783b36a374ff":[6,0,1,0,1,657,0,3],
-"classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca945d5e233cf7d6240f6b783b36a374ff":[6,0,2,0,1,641,0,3],
-"classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dcaa4ffdcf0dc1f31b9acaf295d75b51d00":[6,0,1,0,1,657,0,1],
-"classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dcaa4ffdcf0dc1f31b9acaf295d75b51d00":[6,0,2,0,1,641,0,1],
-"classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dcae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,1,0,1,657,0,7]
+"classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dca93fe1f7c5ca2e09af063aca96d0625cc":[6,0,1,0,1,657,0,6]
 };

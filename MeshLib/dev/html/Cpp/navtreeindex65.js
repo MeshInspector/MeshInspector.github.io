@@ -1,5 +1,11 @@
 var NAVTREEINDEX65 =
 {
+"namespaceMR_1_1detail.html":[6,0,1,0,1,3],
+"namespaceMR_1_1detail.html#a5620523d14d5ba70ac2f7841d93f6076":[6,0,1,0,1,3,6],
+"namespaceMR_1_1detail.html#a93c7b098b17358bdd4512a091bfcb6fa":[6,0,1,0,1,3,5],
+"namespaceMR_1_1detail.html#ad7472d89bbf53dd56025b561db9deaca":[6,0,1,0,1,3,7],
+"namespaceMR_1_1detail_1_1Units.html":[6,0,1,0,1,3,0],
+"namespaceMR_1_1detail_1_1Units.html#aec57db09655986b2ed959d498edc6f2a":[6,0,1,0,1,3,0,2],
 "namespacemembers.html":[6,0,1,1,0],
 "namespacemembers.html":[6,0,1,1,0,0],
 "namespacemembers_b.html":[6,0,1,1,0,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX65 =
 "structMRGridToMeshSettings.html#a17ece63df1f3938108a7b08b5b26ab88":[6,0,2,0,25,3],
 "structMRGridToMeshSettings.html#a4c36e4cf9596765206137962c766ee16":[6,0,2,0,25,4],
 "structMRGridToMeshSettings.html#a74bb91e2da12140d389ee2e9a0b93329":[6,0,2,0,25,1],
-"structMRGridToMeshSettings.html#a964ad008d08c69083b2944629deb5c5f":[6,0,2,0,25,6],
-"structMRGridToMeshSettings.html#ab19c87781b493e404967e9daca3e4593":[6,0,2,0,25,2],
-"structMRGridToMeshSettings.html#abd93b68cab0508e17337f89bc93b1635":[6,0,2,0,25,0],
-"structMRGridToMeshSettings.html#ae4f25adf40385844dd64f3241cc97879":[6,0,2,0,25,5],
-"structMRICPPairData.html":[6,0,2,0,26],
-"structMRICPPairData.html#a1058754ffc1ca72641a18f3948b5e193":[6,0,2,0,26,3],
-"structMRICPPairData.html#a378a97d5205f2e9f3da4234898bce466":[6,0,2,0,26,0]
+"structMRGridToMeshSettings.html#a964ad008d08c69083b2944629deb5c5f":[6,0,2,0,25,6]
 };
