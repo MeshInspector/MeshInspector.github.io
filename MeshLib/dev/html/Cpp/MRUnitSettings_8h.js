@@ -10,7 +10,7 @@ var MRUnitSettings_8h =
     [ "resetToDefaults", "MRUnitSettings_8h.html#ae406c519ab41f7cbc08d65a9c83d2bcf", null ],
     [ "setDegreesMode", "MRUnitSettings_8h.html#a095d298e864fff2df5d9ec05315d6d8b", null ],
     [ "setShowLeadingZero", "MRUnitSettings_8h.html#a2b2fc6815346b05ae633d230e475a414", null ],
-    [ "setThousandsSeparator", "MRUnitSettings_8h.html#a9274e5f81702cc490493898076559da2", null ],
+    [ "setThousandsSeparator", "MRUnitSettings_8h.html#a035b6705c6bf6c337d949fd451ec8078", null ],
     [ "setUiAnglePrecision", "MRUnitSettings_8h.html#a17f256d60a5bca751f33412395fcfa86", null ],
     [ "setUiLengthPrecision", "MRUnitSettings_8h.html#a6c2457148f4800dfc82a654d0d9f3592", null ],
     [ "setUiLengthUnit", "MRUnitSettings_8h.html#ad8d6be62abf0d99eeb86139fd7939da1", null ],

@@ -149,7 +149,7 @@ var namespaceMR =
       [ "resetToDefaults", "namespaceMR_1_1UnitSettings.html#ae406c519ab41f7cbc08d65a9c83d2bcf", null ],
       [ "setDegreesMode", "namespaceMR_1_1UnitSettings.html#a095d298e864fff2df5d9ec05315d6d8b", null ],
       [ "setShowLeadingZero", "namespaceMR_1_1UnitSettings.html#a2b2fc6815346b05ae633d230e475a414", null ],
-      [ "setThousandsSeparator", "namespaceMR_1_1UnitSettings.html#a9274e5f81702cc490493898076559da2", null ],
+      [ "setThousandsSeparator", "namespaceMR_1_1UnitSettings.html#a035b6705c6bf6c337d949fd451ec8078", null ],
       [ "setUiAnglePrecision", "namespaceMR_1_1UnitSettings.html#a17f256d60a5bca751f33412395fcfa86", null ],
       [ "setUiLengthPrecision", "namespaceMR_1_1UnitSettings.html#a6c2457148f4800dfc82a654d0d9f3592", null ],
       [ "setUiLengthUnit", "namespaceMR_1_1UnitSettings.html#ad8d6be62abf0d99eeb86139fd7939da1", null ],
