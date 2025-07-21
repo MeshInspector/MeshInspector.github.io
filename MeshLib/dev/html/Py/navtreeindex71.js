@@ -1,7 +1,5 @@
 var NAVTREEINDEX71 =
 {
-"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#af51d8ce005c19cd0b45c6a50fbee2860":[6,1,0,0,2,755,15],
-"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#af51d8ce005c19cd0b45c6a50fbee2860":[6,1,1,0,1,755,15],
 "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#af5cd0ffc1cec32c301d2ede1283d9bf4":[6,1,0,0,2,755,11],
 "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#af5cd0ffc1cec32c301d2ede1283d9bf4":[6,1,1,0,1,755,11],
 "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#af6e49f4ba1926072f9e0e1b47723d3d4":[6,1,0,0,2,755,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX71 =
 "classmrmeshpy_1_1SortIntersectionsData.html#a01148e9d45e304e96079b598d0b97959":[6,1,0,0,2,773,1],
 "classmrmeshpy_1_1SortIntersectionsData.html#a01148e9d45e304e96079b598d0b97959":[6,1,1,0,1,773,1],
 "classmrmeshpy_1_1SortIntersectionsData.html#a48a1479e8a919ac300f959a10c3f4d04":[6,1,0,0,2,773,0],
-"classmrmeshpy_1_1SortIntersectionsData.html#a48a1479e8a919ac300f959a10c3f4d04":[6,1,1,0,1,773,0]
+"classmrmeshpy_1_1SortIntersectionsData.html#a48a1479e8a919ac300f959a10c3f4d04":[6,1,1,0,1,773,0],
+"classmrmeshpy_1_1SortIntersectionsData.html#a48c53990c5786ce6f72adee753690fbe":[6,1,0,0,2,773,2],
+"classmrmeshpy_1_1SortIntersectionsData.html#a48c53990c5786ce6f72adee753690fbe":[6,1,1,0,1,773,2]
 };

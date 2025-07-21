@@ -181,6 +181,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshLoad_1_1MeshLoader.html">MR::MeshLoad::MeshLoader</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshSave_1_1MeshSaverCapabilities.html">MR::MeshSave::MeshSaverCapabilities</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">describes optional abilities of a <a class="el" href="structMR_1_1MeshSave_1_1MeshSaver.html">MeshSaver</a>  <a href="structMR_1_1MeshSave_1_1MeshSaverCapabilities.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshSave_1_1MeshSaver.html">MR::MeshSave::MeshSaver</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1LinesLoad_1_1LinesLoader.html">MR::LinesLoad::LinesLoader</a></td></tr>
@@ -240,10 +243,10 @@ Macros</h2></td></tr>
 <tr class="separator:ga5ee8e917fb46e839dd5ff1a5cb49fdeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaacf2f9b26a2c29111f029dfed6320630" id="r_gaacf2f9b26a2c29111f029dfed6320630"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__IOFormatsRegistryGroup.html#gaacf2f9b26a2c29111f029dfed6320630">MR_ADD_MESH_LOADER_WITH_PRIORITY</a>(filter,  loader,  priority)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::MeshLoad; setMeshLoader( filter, { static_cast&lt;MeshFileLoader&gt;( loader ), static_cast&lt;MeshStreamLoader&gt;( loader ) }, priority ); };</td></tr>
 <tr class="separator:gaacf2f9b26a2c29111f029dfed6320630"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbaa2ba6fd0f247d93c5c30d89690b4d" id="r_acbaa2ba6fd0f247d93c5c30d89690b4d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbaa2ba6fd0f247d93c5c30d89690b4d">MR_ADD_MESH_SAVER</a>(filter,  saver)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::MeshSave; setMeshSaver( filter, { static_cast&lt;MeshFileSaver&gt;( saver ), static_cast&lt;MeshStreamSaver&gt;( saver ) } ); };</td></tr>
-<tr class="separator:acbaa2ba6fd0f247d93c5c30d89690b4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73f6e8b49bf4a369c74a84aa41cc744e" id="r_a73f6e8b49bf4a369c74a84aa41cc744e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73f6e8b49bf4a369c74a84aa41cc744e">MR_ADD_MESH_SAVER_WITH_PRIORITY</a>(filter,  saver,  priority)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::MeshSave; setMeshSaver( filter, { static_cast&lt;MeshFileSaver&gt;( saver ), static_cast&lt;MeshStreamSaver&gt;( saver ) }, priority ); };</td></tr>
-<tr class="separator:a73f6e8b49bf4a369c74a84aa41cc744e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c9aac1e89ced8dee6ecf04400c1f071" id="r_a4c9aac1e89ced8dee6ecf04400c1f071"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c9aac1e89ced8dee6ecf04400c1f071">MR_ADD_MESH_SAVER</a>(filter,  saver,  caps)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::MeshSave; setMeshSaver( filter, { static_cast&lt;MeshFileSaver&gt;( saver ), static_cast&lt;MeshStreamSaver&gt;( saver ), caps } ); };</td></tr>
+<tr class="separator:a4c9aac1e89ced8dee6ecf04400c1f071"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59f6d9d89614f96f51ebf48987cfd8b6" id="r_a59f6d9d89614f96f51ebf48987cfd8b6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59f6d9d89614f96f51ebf48987cfd8b6">MR_ADD_MESH_SAVER_WITH_PRIORITY</a>(filter,  saver,  caps,  priority)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::MeshSave; setMeshSaver( filter, { static_cast&lt;MeshFileSaver&gt;( saver ), static_cast&lt;MeshStreamSaver&gt;( saver ), caps }, priority ); };</td></tr>
+<tr class="separator:a59f6d9d89614f96f51ebf48987cfd8b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5c25199e6378ab457f1cf1185081963" id="r_ae5c25199e6378ab457f1cf1185081963"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5c25199e6378ab457f1cf1185081963">MR_ADD_LINES_LOADER</a>(filter,  loader)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::LinesLoad; setLinesLoader( filter, { static_cast&lt;LinesFileLoader&gt;( loader ), static_cast&lt;LinesStreamLoader&gt;( loader ) } ); };</td></tr>
 <tr class="separator:ae5c25199e6378ab457f1cf1185081963"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2a0353ca00ec7f57d15523d3da45558" id="r_af2a0353ca00ec7f57d15523d3da45558"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2a0353ca00ec7f57d15523d3da45558">MR_ADD_LINES_LOADER_WITH_PRIORITY</a>(filter,  loader,  priority)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::LinesLoad; setLinesLoader( filter, { static_cast&lt;LinesFileLoader&gt;( loader ), static_cast&lt;LinesStreamLoader&gt;( loader ) }, priority ); };</td></tr>
@@ -620,8 +623,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="acbaa2ba6fd0f247d93c5c30d89690b4d" name="acbaa2ba6fd0f247d93c5c30d89690b4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acbaa2ba6fd0f247d93c5c30d89690b4d">&#9670;&#160;</a></span>MR_ADD_MESH_SAVER</h2>
+<a id="a4c9aac1e89ced8dee6ecf04400c1f071" name="a4c9aac1e89ced8dee6ecf04400c1f071"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c9aac1e89ced8dee6ecf04400c1f071">&#9670;&#160;</a></span>MR_ADD_MESH_SAVER</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -634,15 +637,20 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>saver</em></span>&#160;)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::MeshSave; setMeshSaver( filter, { static_cast&lt;MeshFileSaver&gt;( saver ), static_cast&lt;MeshStreamSaver&gt;( saver ) } ); };</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>saver</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>caps</em></span>&#160;)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::MeshSave; setMeshSaver( filter, { static_cast&lt;MeshFileSaver&gt;( saver ), static_cast&lt;MeshStreamSaver&gt;( saver ), caps } ); };</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a73f6e8b49bf4a369c74a84aa41cc744e" name="a73f6e8b49bf4a369c74a84aa41cc744e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73f6e8b49bf4a369c74a84aa41cc744e">&#9670;&#160;</a></span>MR_ADD_MESH_SAVER_WITH_PRIORITY</h2>
+<a id="a59f6d9d89614f96f51ebf48987cfd8b6" name="a59f6d9d89614f96f51ebf48987cfd8b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59f6d9d89614f96f51ebf48987cfd8b6">&#9670;&#160;</a></span>MR_ADD_MESH_SAVER_WITH_PRIORITY</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -660,7 +668,12 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>priority</em></span>&#160;)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::MeshSave; setMeshSaver( filter, { static_cast&lt;MeshFileSaver&gt;( saver ), static_cast&lt;MeshStreamSaver&gt;( saver ) }, priority ); };</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>caps</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>priority</em></span>&#160;)&#160;&#160;&#160;<a class="el" href="MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227">MR_ON_INIT</a> { using namespace MR::MeshSave; setMeshSaver( filter, { static_cast&lt;MeshFileSaver&gt;( saver ), static_cast&lt;MeshStreamSaver&gt;( saver ), caps }, priority ); };</td>
         </tr>
       </table>
 </div><div class="memdoc">

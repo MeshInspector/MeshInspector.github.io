@@ -1,7 +1,5 @@
 var NAVTREEINDEX107 =
 {
-"classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume.html":[6,1,0,0,2,1147],
-"classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume.html":[6,1,1,0,1,1147],
 "classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume.html#a1dd4ffc03879fa4a6b686ed1c9cf9cd2":[6,1,0,0,2,1147,3],
 "classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume.html#a1dd4ffc03879fa4a6b686ed1c9cf9cd2":[6,1,1,0,1,1147,3],
 "classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume.html#a77a529aea7ee0e8acb3c222afdb13418":[6,1,0,0,2,1147,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX107 =
 "classmrmeshpy_1_1WholeEdgeMap.html#a0e3bd4e9fc4f70ccf4e426d362a06acf":[6,1,0,0,2,1161,34],
 "classmrmeshpy_1_1WholeEdgeMap.html#a0e3bd4e9fc4f70ccf4e426d362a06acf":[6,1,1,0,1,1161,34],
 "classmrmeshpy_1_1WholeEdgeMap.html#a0e4205b3fee526ee4631e2c060a64d0f":[6,1,0,0,2,1161,35],
-"classmrmeshpy_1_1WholeEdgeMap.html#a0e4205b3fee526ee4631e2c060a64d0f":[6,1,1,0,1,1161,35]
+"classmrmeshpy_1_1WholeEdgeMap.html#a0e4205b3fee526ee4631e2c060a64d0f":[6,1,1,0,1,1161,35],
+"classmrmeshpy_1_1WholeEdgeMap.html#a10606bdd8471b9221cfbe97fa4060a5c":[6,1,0,0,2,1161,28],
+"classmrmeshpy_1_1WholeEdgeMap.html#a10606bdd8471b9221cfbe97fa4060a5c":[6,1,0,0,2,1161,29]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX72 =
 {
-"classmrmeshpy_1_1SortIntersectionsData.html#a48c53990c5786ce6f72adee753690fbe":[6,1,0,0,2,773,2],
-"classmrmeshpy_1_1SortIntersectionsData.html#a48c53990c5786ce6f72adee753690fbe":[6,1,1,0,1,773,2],
 "classmrmeshpy_1_1SpacingSettings.html":[6,1,0,0,2,774],
 "classmrmeshpy_1_1SpacingSettings.html":[6,1,1,0,1,774],
 "classmrmeshpy_1_1SpacingSettings.html#a01e8b385d40babc54a739d168d5254d1":[6,1,0,0,2,774,8],
@@ -249,5 +247,7 @@ var NAVTREEINDEX72 =
 "classmrmeshpy_1_1SubdivideSettings.html#af47d33901c93698827a6a9229dfa4998":[6,1,0,0,2,976,18],
 "classmrmeshpy_1_1SubdivideSettings.html#af47d33901c93698827a6a9229dfa4998":[6,1,1,0,1,976,18],
 "classmrmeshpy_1_1SubdivideSettings.html#af5f7e30bd31f1a5159da6777ba82bc14":[6,1,0,0,2,976,22],
-"classmrmeshpy_1_1SubdivideSettings.html#af5f7e30bd31f1a5159da6777ba82bc14":[6,1,1,0,1,976,22]
+"classmrmeshpy_1_1SubdivideSettings.html#af5f7e30bd31f1a5159da6777ba82bc14":[6,1,1,0,1,976,22],
+"classmrmeshpy_1_1SurfaceDistanceBuilder.html":[6,1,0,0,2,977],
+"classmrmeshpy_1_1SurfaceDistanceBuilder.html":[6,1,1,0,1,977]
 };

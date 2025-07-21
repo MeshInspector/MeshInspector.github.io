@@ -1,7 +1,5 @@
 var NAVTREEINDEX58 =
 {
-"classmrmeshpy_1_1OneMeshContour.html#af74823f44272f9ac1b1af1c896786a30":[6,1,0,0,2,600,0],
-"classmrmeshpy_1_1OneMeshContour.html#af74823f44272f9ac1b1af1c896786a30":[6,1,1,0,1,600,0],
 "classmrmeshpy_1_1OneMeshIntersection.html":[6,1,0,0,2,601],
 "classmrmeshpy_1_1OneMeshIntersection.html":[6,1,1,0,1,601],
 "classmrmeshpy_1_1OneMeshIntersection.html#a8da33f7635ccb7e951d2997e88edb041":[6,1,0,0,2,601,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX58 =
 "classmrmeshpy_1_1PartMapping.html#a03f7b4afd31fab37d1012508f025b37e":[6,1,0,0,2,618,6],
 "classmrmeshpy_1_1PartMapping.html#a03f7b4afd31fab37d1012508f025b37e":[6,1,1,0,1,618,6],
 "classmrmeshpy_1_1PartMapping.html#a111fe15355e183b686537eec9b6cb6a8":[6,1,0,0,2,618,1],
-"classmrmeshpy_1_1PartMapping.html#a111fe15355e183b686537eec9b6cb6a8":[6,1,1,0,1,618,1]
+"classmrmeshpy_1_1PartMapping.html#a111fe15355e183b686537eec9b6cb6a8":[6,1,1,0,1,618,1],
+"classmrmeshpy_1_1PartMapping.html#a2d976b31634cd7218ef61770648552b8":[6,1,0,0,2,618,4],
+"classmrmeshpy_1_1PartMapping.html#a2d976b31634cd7218ef61770648552b8":[6,1,1,0,1,618,4]
 };

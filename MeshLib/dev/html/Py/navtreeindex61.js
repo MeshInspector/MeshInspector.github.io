@@ -1,7 +1,5 @@
 var NAVTREEINDEX61 =
 {
-"classmrmeshpy_1_1PointCloud.html#a23972a978f8a795836fd5e38807a05ff":[6,1,0,0,2,652,18],
-"classmrmeshpy_1_1PointCloud.html#a23972a978f8a795836fd5e38807a05ff":[6,1,1,0,1,652,18],
 "classmrmeshpy_1_1PointCloud.html#a2c97d52855050d84a8400ea50cf92ef3":[6,1,0,0,2,652,1],
 "classmrmeshpy_1_1PointCloud.html#a2c97d52855050d84a8400ea50cf92ef3":[6,1,1,0,1,652,1],
 "classmrmeshpy_1_1PointCloud.html#a2dc299344e09bed9a7da1f5b9b7767b2":[6,1,0,0,2,652,23],
@@ -249,5 +247,7 @@ var NAVTREEINDEX61 =
 "classmrmeshpy_1_1PointsLoad_1_1E57LoadSettings.html#ade7f792339b7a04ff3b3a69635145b47":[6,1,0,0,2,661,0,3],
 "classmrmeshpy_1_1PointsLoad_1_1E57LoadSettings.html#ade7f792339b7a04ff3b3a69635145b47":[6,1,1,0,1,661,0,3],
 "classmrmeshpy_1_1PointsLoad_1_1E57LoadSettings.html#aef0db68a018ebaa06131c52350b01e27":[6,1,0,0,2,661,0,0],
-"classmrmeshpy_1_1PointsLoad_1_1E57LoadSettings.html#aef0db68a018ebaa06131c52350b01e27":[6,1,1,0,1,661,0,0]
+"classmrmeshpy_1_1PointsLoad_1_1E57LoadSettings.html#aef0db68a018ebaa06131c52350b01e27":[6,1,1,0,1,661,0,0],
+"classmrmeshpy_1_1PointsLoad_1_1NamedCloud.html":[6,1,0,0,2,661,1],
+"classmrmeshpy_1_1PointsLoad_1_1NamedCloud.html":[6,1,1,0,1,661,1]
 };

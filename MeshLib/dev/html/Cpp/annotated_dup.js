@@ -101,6 +101,7 @@ var annotated_dup =
       [ "MeshSave", "namespaceMR_1_1MeshSave.html", [
         [ "CtmSaveOptions", "structMR_1_1MeshSave_1_1CtmSaveOptions.html", "structMR_1_1MeshSave_1_1CtmSaveOptions" ],
         [ "MeshSaver", "structMR_1_1MeshSave_1_1MeshSaver.html", "structMR_1_1MeshSave_1_1MeshSaver" ],
+        [ "MeshSaverCapabilities", "structMR_1_1MeshSave_1_1MeshSaverCapabilities.html", "structMR_1_1MeshSave_1_1MeshSaverCapabilities" ],
         [ "NamedXfMesh", "structMR_1_1MeshSave_1_1NamedXfMesh.html", "structMR_1_1MeshSave_1_1NamedXfMesh" ]
       ] ],
       [ "Meta", "namespaceMR_1_1Meta.html", [

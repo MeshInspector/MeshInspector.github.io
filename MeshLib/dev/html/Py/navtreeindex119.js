@@ -1,7 +1,5 @@
 var NAVTREEINDEX119 =
 {
-"classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ad7039f72985cce99f2fe4f64de506e4c":[6,1,0,0,2,818,13],
-"classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ad7039f72985cce99f2fe4f64de506e4c":[6,1,1,0,1,818,13],
 "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ae409c0b328db61754197b1a3bff6a10f":[6,1,0,0,2,818,11],
 "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ae409c0b328db61754197b1a3bff6a10f":[6,1,1,0,1,818,11],
 "classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane.html":[6,1,0,0,2,819],
@@ -249,5 +247,7 @@ var NAVTREEINDEX119 =
 "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vector3__float.html#a0850b064a2bc1fe1e9ffd3c9f45fc28c":[6,1,0,0,2,828,18],
 "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vector3__float.html#a0850b064a2bc1fe1e9ffd3c9f45fc28c":[6,1,1,0,1,828,18],
 "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vector3__float.html#a267f9576abba18afee43d9e51252ca32":[6,1,0,0,2,828,15],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vector3__float.html#a267f9576abba18afee43d9e51252ca32":[6,1,1,0,1,828,15]
+"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vector3__float.html#a267f9576abba18afee43d9e51252ca32":[6,1,1,0,1,828,15],
+"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vector3__float.html#a32ed539747212c797bb4f08bae35d5c3":[6,1,0,0,2,828,3],
+"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vector3__float.html#a32ed539747212c797bb4f08bae35d5c3":[6,1,1,0,1,828,3]
 };

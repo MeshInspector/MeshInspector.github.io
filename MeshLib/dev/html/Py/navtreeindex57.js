@@ -1,7 +1,5 @@
 var NAVTREEINDEX57 =
 {
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1LutType.html#a65e36349ce02b78bc38f77104a6109f4":[6,1,0,0,2,582,0,1,10],
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1LutType.html#a65e36349ce02b78bc38f77104a6109f4":[6,1,1,0,1,582,0,1,10],
 "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1LutType.html#a89dd7de0545a4815475781b04c142613":[6,1,0,0,2,582,0,1,9],
 "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1LutType.html#a89dd7de0545a4815475781b04c142613":[6,1,1,0,1,582,0,1,9],
 "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1LutType.html#a98efd4e491180b7a27318eb85fd8f98e":[6,1,0,0,2,582,0,1,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX57 =
 "classmrmeshpy_1_1OneMeshContour.html":[6,1,0,0,2,600],
 "classmrmeshpy_1_1OneMeshContour.html":[6,1,1,0,1,600],
 "classmrmeshpy_1_1OneMeshContour.html#af46734b926ff5bb7af91dad9a7846472":[6,1,0,0,2,600,1],
-"classmrmeshpy_1_1OneMeshContour.html#af46734b926ff5bb7af91dad9a7846472":[6,1,1,0,1,600,1]
+"classmrmeshpy_1_1OneMeshContour.html#af46734b926ff5bb7af91dad9a7846472":[6,1,1,0,1,600,1],
+"classmrmeshpy_1_1OneMeshContour.html#af74823f44272f9ac1b1af1c896786a30":[6,1,0,0,2,600,0],
+"classmrmeshpy_1_1OneMeshContour.html#af74823f44272f9ac1b1af1c896786a30":[6,1,1,0,1,600,0]
 };

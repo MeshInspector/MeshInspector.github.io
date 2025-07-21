@@ -1,7 +1,5 @@
 var NAVTREEINDEX77 =
 {
-"classmrmeshpy_1_1TextureBitSet.html#af44b693e531b0c5f121697aa0430fe81":[6,1,0,0,2,999,30],
-"classmrmeshpy_1_1TextureBitSet.html#af44b693e531b0c5f121697aa0430fe81":[6,1,1,0,1,999,30],
 "classmrmeshpy_1_1TextureBitSet.html#afdbc239023298d7e7cd7dd9300e80c70":[6,1,0,0,2,999,24],
 "classmrmeshpy_1_1TextureBitSet.html#afdbc239023298d7e7cd7dd9300e80c70":[6,1,1,0,1,999,24],
 "classmrmeshpy_1_1TextureId.html":[6,1,0,0,2,1000],
@@ -249,5 +247,7 @@ var NAVTREEINDEX77 =
 "classmrmeshpy_1_1TransformedMesh.html#abe240112388a396a0d94e43506ea7a44":[6,1,0,0,2,1007,3],
 "classmrmeshpy_1_1TransformedMesh.html#abe240112388a396a0d94e43506ea7a44":[6,1,1,0,1,1007,3],
 "classmrmeshpy_1_1TriIntersectResult.html":[6,1,0,0,2,1013],
-"classmrmeshpy_1_1TriIntersectResult.html":[6,1,1,0,1,1013]
+"classmrmeshpy_1_1TriIntersectResult.html":[6,1,1,0,1,1013],
+"classmrmeshpy_1_1TriIntersectResult.html#a3315156dccd90a3a615ba84ad303e3d7":[6,1,0,0,2,1013,3],
+"classmrmeshpy_1_1TriIntersectResult.html#a3315156dccd90a3a615ba84ad303e3d7":[6,1,1,0,1,1013,3]
 };

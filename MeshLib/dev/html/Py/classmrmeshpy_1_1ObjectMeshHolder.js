@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1ObjectMeshHolder =
 [
     [ "__init__", "classmrmeshpy_1_1ObjectMeshHolder.html#abd61dce95267032fba31a6b6b8398cef", null ],
+    [ "actualSerializeFormat", "classmrmeshpy_1_1ObjectMeshHolder.html#a21da96a6ae7153f7c35f8a82cf8e9fe1", null ],
     [ "addTexture", "classmrmeshpy_1_1ObjectMeshHolder.html#a2ad7896d2c1449486f6beea09535797d", null ],
     [ "applyScale", "classmrmeshpy_1_1ObjectMeshHolder.html#a92dc288e43e0f78c3a665ca38c0a22a8", null ],
     [ "avgEdgeLen", "classmrmeshpy_1_1ObjectMeshHolder.html#a24d4d2c8cb947d7018b1e6bec6adf403", null ],
@@ -50,7 +51,6 @@ var classmrmeshpy_1_1ObjectMeshHolder =
     [ "numSelectedEdges", "classmrmeshpy_1_1ObjectMeshHolder.html#ac226179a47dbb3f0e9ac072552cbcae4", null ],
     [ "numSelectedFaces", "classmrmeshpy_1_1ObjectMeshHolder.html#a6f9876472180438fcfbf7a59f61cc6e1", null ],
     [ "numUndirectedEdges", "classmrmeshpy_1_1ObjectMeshHolder.html#ace0eebcd3a4c4a44bfb6342004b1641e", null ],
-    [ "saveMeshFormat", "classmrmeshpy_1_1ObjectMeshHolder.html#aaf692b8748cdecff866a329448ef3799", null ],
     [ "selectedArea", "classmrmeshpy_1_1ObjectMeshHolder.html#ab58b403ef79b09798136fb04c5e7a99d", null ],
     [ "selectEdges", "classmrmeshpy_1_1ObjectMeshHolder.html#a47fa588b7d374f9bbbabae7ddab092ce", null ],
     [ "selectFaces", "classmrmeshpy_1_1ObjectMeshHolder.html#a904a8910a54963f4fb8485e1cafc6a6d", null ],
@@ -69,7 +69,6 @@ var classmrmeshpy_1_1ObjectMeshHolder =
     [ "setFlatShading", "classmrmeshpy_1_1ObjectMeshHolder.html#a9fbcd33ebcec842992fe69b97b11de34", null ],
     [ "setPointsColor", "classmrmeshpy_1_1ObjectMeshHolder.html#a6752575c2263425b2465e4713f469108", null ],
     [ "setPointSize", "classmrmeshpy_1_1ObjectMeshHolder.html#a01bc162c74484a6f6cd6a3eb8a0b2d12", null ],
-    [ "setSaveMeshFormat", "classmrmeshpy_1_1ObjectMeshHolder.html#aaf6d74189ffd2fe5ba1a4143b90a43be", null ],
     [ "setSelectedEdgesColor", "classmrmeshpy_1_1ObjectMeshHolder.html#a4cd79711487888289013becf0bbab0fe", null ],
     [ "setSelectedEdgesColorsForAllViewports", "classmrmeshpy_1_1ObjectMeshHolder.html#aaa208d9ad414b7a6290e9fafcf8d58e5", null ],
     [ "setSelectedFacesColor", "classmrmeshpy_1_1ObjectMeshHolder.html#a5b8a37162fe053533ee47e60686f5b49", null ],

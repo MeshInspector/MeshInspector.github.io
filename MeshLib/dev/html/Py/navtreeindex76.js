@@ -1,7 +1,5 @@
 var NAVTREEINDEX76 =
 {
-"classmrmeshpy_1_1SymbolMeshParams.html#a91b0a2901853859b9524fbe88fbe5761":[6,1,0,0,2,978,6],
-"classmrmeshpy_1_1SymbolMeshParams.html#a91b0a2901853859b9524fbe88fbe5761":[6,1,1,0,1,978,6],
 "classmrmeshpy_1_1SymbolMeshParams.html#a9cd81cfec2efff5594e0817209aff661":[6,1,0,0,2,978,9],
 "classmrmeshpy_1_1SymbolMeshParams.html#a9cd81cfec2efff5594e0817209aff661":[6,1,1,0,1,978,9],
 "classmrmeshpy_1_1SymbolMeshParams.html#aa2ebb54f704807dc7cfb3f584cf94fd0":[6,1,0,0,2,978,13],
@@ -249,5 +247,7 @@ var NAVTREEINDEX76 =
 "classmrmeshpy_1_1TextureBitSet.html#af0b6ac70b88b380f3f51a8a7f158da8a":[6,1,0,0,2,999,10],
 "classmrmeshpy_1_1TextureBitSet.html#af0b6ac70b88b380f3f51a8a7f158da8a":[6,1,1,0,1,999,10],
 "classmrmeshpy_1_1TextureBitSet.html#af2381fbf286b2b3a6f77dede3bf802f4":[6,1,0,0,2,999,40],
-"classmrmeshpy_1_1TextureBitSet.html#af2381fbf286b2b3a6f77dede3bf802f4":[6,1,1,0,1,999,40]
+"classmrmeshpy_1_1TextureBitSet.html#af2381fbf286b2b3a6f77dede3bf802f4":[6,1,1,0,1,999,40],
+"classmrmeshpy_1_1TextureBitSet.html#af44b693e531b0c5f121697aa0430fe81":[6,1,0,0,2,999,30],
+"classmrmeshpy_1_1TextureBitSet.html#af44b693e531b0c5f121697aa0430fe81":[6,1,1,0,1,999,30]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX90 =
 {
-"classmrmeshpy_1_1Vector__Id__EdgeTag__FaceId.html#a7be4577f0db7291ab215d4f445c66cf2":[6,1,0,0,2,1076,13],
-"classmrmeshpy_1_1Vector__Id__EdgeTag__FaceId.html#a7be4577f0db7291ab215d4f445c66cf2":[6,1,0,0,2,1076,14],
 "classmrmeshpy_1_1Vector__Id__EdgeTag__FaceId.html#a7be4577f0db7291ab215d4f445c66cf2":[6,1,1,0,1,1076,13],
 "classmrmeshpy_1_1Vector__Id__EdgeTag__FaceId.html#a7be4577f0db7291ab215d4f445c66cf2":[6,1,1,0,1,1076,14],
 "classmrmeshpy_1_1Vector__Id__EdgeTag__FaceId.html#a7d6d6fb32d1f4652cc9b97ce4b0d24ba":[6,1,0,0,2,1076,23],
@@ -249,5 +247,7 @@ var NAVTREEINDEX90 =
 "classmrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html#a6be2be02fe1b3baf1245ca5f65d049c2":[6,1,0,0,2,1079,15],
 "classmrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html#a6be2be02fe1b3baf1245ca5f65d049c2":[6,1,1,0,1,1079,15],
 "classmrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html#a73828f01b52e59a21e8d9e25796e48fd":[6,1,0,0,2,1079,21],
-"classmrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html#a73828f01b52e59a21e8d9e25796e48fd":[6,1,1,0,1,1079,21]
+"classmrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html#a73828f01b52e59a21e8d9e25796e48fd":[6,1,1,0,1,1079,21],
+"classmrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html#a768a287ed47a149f6120361dc499b00e":[6,1,0,0,2,1079,7],
+"classmrmeshpy_1_1Vector__Id__VoxelTag__FaceId.html#a768a287ed47a149f6120361dc499b00e":[6,1,1,0,1,1079,7]
 };

@@ -1,6 +1,7 @@
 var MRIOFormatsRegistry_8h =
 [
     [ "MR::FormatRegistry< Processor >", "classMR_1_1FormatRegistry.html", null ],
+    [ "MR::MeshSave::MeshSaverCapabilities", "structMR_1_1MeshSave_1_1MeshSaverCapabilities.html", "structMR_1_1MeshSave_1_1MeshSaverCapabilities" ],
     [ "MR::MeshSave::MeshSaver", "structMR_1_1MeshSave_1_1MeshSaver.html", "structMR_1_1MeshSave_1_1MeshSaver" ],
     [ "MR::LinesLoad::LinesLoader", "structMR_1_1LinesLoad_1_1LinesLoader.html", "structMR_1_1LinesLoad_1_1LinesLoader" ],
     [ "MR::LinesSave::LinesSaver", "structMR_1_1LinesSave_1_1LinesSaver.html", "structMR_1_1LinesSave_1_1LinesSaver" ],
@@ -20,8 +21,8 @@ var MRIOFormatsRegistry_8h =
     [ "MR_ADD_LINES_SAVER_WITH_PRIORITY", "MRIOFormatsRegistry_8h.html#a5dcbd5c8b06fdd1eefcf0154f8bb9129", null ],
     [ "MR_ADD_MESH_LOADER", "group__IOFormatsRegistryGroup.html#ga5ee8e917fb46e839dd5ff1a5cb49fdeb", null ],
     [ "MR_ADD_MESH_LOADER_WITH_PRIORITY", "group__IOFormatsRegistryGroup.html#gaacf2f9b26a2c29111f029dfed6320630", null ],
-    [ "MR_ADD_MESH_SAVER", "MRIOFormatsRegistry_8h.html#acbaa2ba6fd0f247d93c5c30d89690b4d", null ],
-    [ "MR_ADD_MESH_SAVER_WITH_PRIORITY", "MRIOFormatsRegistry_8h.html#a73f6e8b49bf4a369c74a84aa41cc744e", null ],
+    [ "MR_ADD_MESH_SAVER", "MRIOFormatsRegistry_8h.html#a4c9aac1e89ced8dee6ecf04400c1f071", null ],
+    [ "MR_ADD_MESH_SAVER_WITH_PRIORITY", "MRIOFormatsRegistry_8h.html#a59f6d9d89614f96f51ebf48987cfd8b6", null ],
     [ "MR_ADD_OBJECT_LOADER", "MRIOFormatsRegistry_8h.html#aa03737162290663af43fe4e5f16c213f", null ],
     [ "MR_ADD_OBJECT_SAVER", "MRIOFormatsRegistry_8h.html#a29b8cad8a954f362924dffd62b104195", null ],
     [ "MR_ADD_POINTS_LOADER", "MRIOFormatsRegistry_8h.html#adff7af79e8e1629fe97e7437d47aa578", null ],

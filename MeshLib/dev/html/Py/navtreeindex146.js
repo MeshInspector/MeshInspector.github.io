@@ -1,7 +1,5 @@
 var NAVTREEINDEX146 =
 {
-"classmrmeshpy_1_1std__vector__std__shared__ptr__Mesh.html":[6,1,0,0,2,920],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__Mesh.html":[6,1,1,0,1,920],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__Mesh.html#a052eada985e02c34debeef4a09e4642d":[6,1,0,0,2,920,17],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__Mesh.html#a052eada985e02c34debeef4a09e4642d":[6,1,1,0,1,920,17],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__Mesh.html#a05b6bc79c88bcb60344ce7f0dc1a2365":[6,1,0,0,2,920,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX146 =
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLines.html#af06710934c8bd749eba9b816bdddb21e":[6,1,0,0,2,924,12],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLines.html#af06710934c8bd749eba9b816bdddb21e":[6,1,1,0,1,924,12],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder.html":[6,1,0,0,2,925],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder.html":[6,1,1,0,1,925]
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder.html":[6,1,1,0,1,925],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder.html#a01e8e155584ec58e9e6ee63c726a7e76":[6,1,0,0,2,925,11],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder.html#a01e8e155584ec58e9e6ee63c726a7e76":[6,1,1,0,1,925,11]
 };
