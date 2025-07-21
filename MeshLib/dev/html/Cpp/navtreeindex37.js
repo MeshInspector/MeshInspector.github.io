@@ -1,5 +1,8 @@
 var NAVTREEINDEX37 =
 {
+"classMR_1_1PriorityQueue.html#a3b6a5fb6f7530ae66dfec44b04efaf99":[6,0,1,0,1,550,2],
+"classMR_1_1PriorityQueue.html#a3b6a5fb6f7530ae66dfec44b04efaf99":[6,0,2,0,1,534,2],
+"classMR_1_1PriorityQueue.html#a5f49205aba3f95b0774623effbc87e49":[6,0,1,0,1,550,13],
 "classMR_1_1PriorityQueue.html#a5f49205aba3f95b0774623effbc87e49":[6,0,2,0,1,534,13],
 "classMR_1_1PriorityQueue.html#a657bf77bb26190bcd1415b93138f77d9":[6,0,1,0,1,550,1],
 "classMR_1_1PriorityQueue.html#a657bf77bb26190bcd1415b93138f77d9":[6,0,2,0,1,534,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX37 =
 "classMR_1_1RectIndexer.html#ab4a6c53f72e0260996768505672d9052":[6,0,0,5,8,13],
 "classMR_1_1RectIndexer.html#abd5035619b34370c067840c03ffb5b82":[6,0,0,5,8,8],
 "classMR_1_1RectIndexer.html#ac517f36a12430a41779b1e7fd847684b":[6,0,0,5,8,5],
-"classMR_1_1RectIndexer.html#af3cae594fa09e2f9517846460b7ab08a":[6,0,0,5,8,14],
-"classMR_1_1RegisterRenderObjectConstructor.html":[6,0,1,0,1,571],
-"classMR_1_1RegisterRenderObjectConstructor.html":[6,0,2,0,1,555],
-"classMR_1_1RegisterRenderObjectConstructor.html#a68b36d5a17409d933e14092222e0ff3e":[6,0,1,0,1,571,0]
+"classMR_1_1RectIndexer.html#af3cae594fa09e2f9517846460b7ab08a":[6,0,0,5,8,14]
 };

@@ -2106,6 +2106,7 @@ var mrmeshpy_8pyi =
     [ "makeRigidXf", "mrmeshpy_8pyi.html#a8768cdee665dfbcf38c3d347c43f3c0e", null ],
     [ "makeSignedByWindingNumber", "mrmeshpy_8pyi.html#af0329d3bc325bb485379ae6502657fb9", null ],
     [ "makeSmoothBridge", "mrmeshpy_8pyi.html#a8670c98d7e1ba931778fcb55e7d4338e", null ],
+    [ "makeSolidOfRevolution", "mrmeshpy_8pyi.html#ad153696bf778f38e04311a9f17a7fba5", null ],
     [ "makeSphere", "mrmeshpy_8pyi.html#a87ab508170d1744b6f2cf448dfc9a2cb", null ],
     [ "makeSpline", "mrmeshpy_8pyi.html#abedcc8043ac2a3b3f8fc78f7ad5f7b8d", null ],
     [ "makeSpline", "mrmeshpy_8pyi.html#a973c862cf98df876fbba567860985e2f", null ],

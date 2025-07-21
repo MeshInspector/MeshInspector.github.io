@@ -2573,6 +2573,7 @@ var namespaceMR =
     [ "makeRigidXf", "namespaceMR.html#a433a8d6bdf429a6aeef4abc1a9f05798", null ],
     [ "makeSignedByWindingNumber", "namespaceMR.html#aeb145c323941c5fd06c513bc640d05b1", null ],
     [ "makeSmoothBridge", "group__FillHoleGroup.html#gae081fd1e2bfcbf6522b3c28a35ebced2", null ],
+    [ "makeSolidOfRevolution", "namespaceMR.html#ab271cfb919f6d894d5b1ab9ab2f383e9", null ],
     [ "makeSphere", "namespaceMR.html#a63679b306dbff600a8f7c5008a489d9d", null ],
     [ "makeSpline", "namespaceMR.html#a7fdb7eb094811ed5d74ac5dbb128319f", null ],
     [ "makeSpline", "namespaceMR.html#aafc7415ee574cd3909c1ba0489b08f15", null ],

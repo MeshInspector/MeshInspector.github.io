@@ -5574,6 +5574,8 @@ same leafs are skipped and different leafs area processed with <code>processLeaf
 <tr class="separator:a89b2da067b37f50a6ece3d8f15de383e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c3ab3aa00e01de7b40fee363ff0e3f3" id="r_a0c3ab3aa00e01de7b40fee363ff0e3f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c3ab3aa00e01de7b40fee363ff0e3f3">findSkyRays</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;terrain, const VertCoords &amp;samples, const VertBitSet &amp;validSamples, const std::vector&lt; <a class="el" href="structMR_1_1SkyPatch.html">SkyPatch</a> &gt; &amp;skyPatches, std::vector&lt; <a class="el" href="structMR_1_1MeshIntersectionResult.html">MeshIntersectionResult</a> &gt; *outIntersections=nullptr)</td></tr>
 <tr class="separator:a0c3ab3aa00e01de7b40fee363ff0e3f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab271cfb919f6d894d5b1ab9ab2f383e9" id="r_ab271cfb919f6d894d5b1ab9ab2f383e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab271cfb919f6d894d5b1ab9ab2f383e9">makeSolidOfRevolution</a> (const <a class="el" href="#a411f342f0faf2e8fd25230d9f676b5d9">Contour2f</a> &amp;profile, int resolution=16)</td></tr>
+<tr class="separator:ab271cfb919f6d894d5b1ab9ab2f383e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39de2d02d74ee4158df88993a656c0d0" id="r_a39de2d02d74ee4158df88993a656c0d0"><td class="memTemplParams" colspan="2">template&lt;typename C , typename D , D M&gt; </td></tr>
 <tr class="memitem:a39de2d02d74ee4158df88993a656c0d0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a39de2d02d74ee4158df88993a656c0d0">operator*</a> (const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; &amp;a, const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; &amp;b)</td></tr>
 <tr class="separator:a39de2d02d74ee4158df88993a656c0d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -27663,6 +27665,28 @@ template&lt;typename RenderObjType &gt; </div>
 </div><div class="memdoc">
 
 <p>set signs for unsigned distance field grid using generalized winding number computed at voxel grid point from refMesh </p>
+
+</div>
+</div>
+<a id="ab271cfb919f6d894d5b1ab9ab2f383e9" name="ab271cfb919f6d894d5b1ab9ab2f383e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab271cfb919f6d894d5b1ab9ab2f383e9">&#9670;&#160;</a></span>makeSolidOfRevolution()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a> MR::makeSolidOfRevolution </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a411f342f0faf2e8fd25230d9f676b5d9">Contour2f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>profile</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>resolution</em></span><span class="paramdefsep"> = </span><span class="paramdefval">16</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Makes a solid-of-revolution mesh. The resulting mesh is symmetrical about the z-axis. The profile points must be in the format { distance to the z-axis; z value }. </p>
 
 </div>
 </div>
