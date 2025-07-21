@@ -1,5 +1,7 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1MeshToVolumeParams.html#a7eb94a27012d5cf106c21b228b6c8c2a":[6,0,1,0,1,393,4],
+"structMR_1_1MeshToVolumeParams.html#a7eb94a27012d5cf106c21b228b6c8c2a":[6,0,2,0,1,377,4],
 "structMR_1_1MeshToVolumeParams.html#a9453e71b6c68cba5c643d8c233b4e12e":[6,0,1,0,1,393,3],
 "structMR_1_1MeshToVolumeParams.html#a9453e71b6c68cba5c643d8c233b4e12e":[6,0,2,0,1,377,3],
 "structMR_1_1MeshToVolumeParams.html#ad2911735fdf5e6da1f6bfb93f285f6a8":[6,0,1,0,1,393,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1MultiListener.html#af3312c12e653a48eaee4680364e72f27":[6,0,2,0,1,399,1],
 "structMR_1_1MultiMeshIntersectionResult.html":[6,0,0,1,21],
 "structMR_1_1MultiMeshIntersectionResult.html#af09308818e602f745c2bfb1144b73980":[6,0,0,1,21,0],
-"structMR_1_1MultiRayMeshIntersectResult.html":[6,0,0,1,20],
-"structMR_1_1MultiRayMeshIntersectResult.html#a71a0fa75e778ec8d7c6e2a3f6b0a8090":[6,0,0,1,20,0],
-"structMR_1_1MultiRayMeshIntersectResult.html#a7455a93722a7e3da39f0baacdfb67c00":[6,0,0,1,20,3]
+"structMR_1_1MultiRayMeshIntersectResult.html":[6,0,0,1,20]
 };

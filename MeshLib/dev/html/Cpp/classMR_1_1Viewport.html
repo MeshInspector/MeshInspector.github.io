@@ -280,6 +280,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae8d2d1ebf05bdfac6a830fc7ccb9c76c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92197d0812be326f98d5480f8235b4de" id="r_a92197d0812be326f98d5480f8235b4de"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::unordered_map&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt;, FaceBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92197d0812be326f98d5480f8235b4de">findVisibleFaces</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;includePixBs, int maxRenderResolutionSide=512) const</td></tr>
 <tr class="separator:a92197d0812be326f98d5480f8235b4de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97fad8eacc6d5437d8216e90a5dd23b2" id="r_a97fad8eacc6d5437d8216e90a5dd23b2"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97fad8eacc6d5437d8216e90a5dd23b2">findCameraLookingFaces</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const AffineXf3f &amp;meshToWorld) const</td></tr>
+<tr class="memdesc:a97fad8eacc6d5437d8216e90a5dd23b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all triangles of a mesh that having normals oriented toward the camera in this viewport  <br /></td></tr>
+<tr class="separator:a97fad8eacc6d5437d8216e90a5dd23b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a070e1760f853d8260fec359e0ae560a6" id="r_a070e1760f853d8260fec359e0ae560a6"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="namespaceMR.html#a823106cad6887745b09385757b15b82e">ConstObjAndPick</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a070e1760f853d8260fec359e0ae560a6">const_pick_render_object</a> () const</td></tr>
 <tr class="separator:a070e1760f853d8260fec359e0ae560a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fbdff73baac11261d9ca67ff15add59" id="r_a3fbdff73baac11261d9ca67ff15add59"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="namespaceMR.html#a823106cad6887745b09385757b15b82e">ConstObjAndPick</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fbdff73baac11261d9ca67ff15add59">const_pick_render_object</a> (const std::vector&lt; const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> * &gt; &amp;objects) const</td></tr>
@@ -1062,6 +1065,37 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Draw triangles immediately (flat shaded) </p>
+
+</div>
+</div>
+<a id="a97fad8eacc6d5437d8216e90a5dd23b2" name="a97fad8eacc6d5437d8216e90a5dd23b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97fad8eacc6d5437d8216e90a5dd23b2">&#9670;&#160;</a></span>findCameraLookingFaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API FaceBitSet MR::Viewport::findCameraLookingFaces </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>meshToWorld</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>finds all triangles of a mesh that having normals oriented toward the camera in this viewport </p>
 
 </div>
 </div>

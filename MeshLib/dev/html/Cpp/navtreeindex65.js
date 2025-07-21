@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"namespaceMR_1_1WeightedShell.html#a90e26c11723ff31873a2d5046d4edc5a":[6,0,1,0,1,42,8],
+"namespaceMR_1_1WeightedShell.html#ad2ba4e4f0e0175fc0608e172a0619984":[6,0,1,0,1,42,4],
 "namespaceMR_1_1detail.html":[6,0,1,0,1,3],
 "namespaceMR_1_1detail.html#a5620523d14d5ba70ac2f7841d93f6076":[6,0,1,0,1,3,6],
 "namespaceMR_1_1detail.html#a93c7b098b17358bdd4512a091bfcb6fa":[6,0,1,0,1,3,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "structMRGeneralOffsetParameters.html#ae8244d3aad0d35aa2842bd951b462595":[6,0,2,0,24,2],
 "structMRGridToMeshSettings.html":[6,0,2,0,25],
 "structMRGridToMeshSettings.html#a17ece63df1f3938108a7b08b5b26ab88":[6,0,2,0,25,3],
-"structMRGridToMeshSettings.html#a4c36e4cf9596765206137962c766ee16":[6,0,2,0,25,4],
-"structMRGridToMeshSettings.html#a74bb91e2da12140d389ee2e9a0b93329":[6,0,2,0,25,1],
-"structMRGridToMeshSettings.html#a964ad008d08c69083b2944629deb5c5f":[6,0,2,0,25,6]
+"structMRGridToMeshSettings.html#a4c36e4cf9596765206137962c766ee16":[6,0,2,0,25,4]
 };

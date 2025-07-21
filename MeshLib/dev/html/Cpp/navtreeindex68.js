@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1BindVertexAttribArraySettings.html#a58b9782177e88d4d24c156ba056867bb":[6,0,2,0,1,59,6],
+"structMR_1_1BindVertexAttribArraySettings.html#a65f898d899c6fff2f308bfd6fd24a129":[6,0,1,0,1,75,1],
 "structMR_1_1BindVertexAttribArraySettings.html#a65f898d899c6fff2f308bfd6fd24a129":[6,0,2,0,1,59,1],
 "structMR_1_1BindVertexAttribArraySettings.html#aa0c81d5bd817513cae1dca00c0f1d0e7":[6,0,1,0,1,75,2],
 "structMR_1_1BindVertexAttribArraySettings.html#aa0c81d5bd817513cae1dca00c0f1d0e7":[6,0,2,0,1,59,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1CompensateRadiusParams.html#adee28415a6ac7b943071cce3515545a2":[6,0,1,0,1,146,4],
 "structMR_1_1CompensateRadiusParams.html#adee28415a6ac7b943071cce3515545a2":[6,0,2,0,1,130,4],
 "structMR_1_1CompensateRadiusParams.html#ae42deb31a3f4aa352b4df19396131a28":[6,0,1,0,1,146,7],
-"structMR_1_1CompensateRadiusParams.html#ae42deb31a3f4aa352b4df19396131a28":[6,0,2,0,1,130,7],
-"structMR_1_1ComputeSteepestDescentPathSettings.html":[6,0,0,16,3,0],
-"structMR_1_1ComputeSteepestDescentPathSettings.html#a133dd657607eb8f8e2745935031c0ed0":[6,0,0,16,3,0,1]
+"structMR_1_1CompensateRadiusParams.html#ae42deb31a3f4aa352b4df19396131a28":[6,0,2,0,1,130,7]
 };
