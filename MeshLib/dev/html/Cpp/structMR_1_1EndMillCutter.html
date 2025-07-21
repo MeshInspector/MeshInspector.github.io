@@ -166,9 +166,14 @@ $(function(){initNavTree('structMR_1_1EndMillCutter.html',''); initResizable(tru
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ab507809dfb8f5d7c74c8629fbb94d518" id="r_ab507809dfb8f5d7c74c8629fbb94d518"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab507809dfb8f5d7c74c8629fbb94d518">Type</a> { <a class="el" href="#ab507809dfb8f5d7c74c8629fbb94d518a745e3db6a7ffd50e1a72b39482f0882d">Flat</a>
+<tr class="memitem:ab507809dfb8f5d7c74c8629fbb94d518" id="r_ab507809dfb8f5d7c74c8629fbb94d518"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab507809dfb8f5d7c74c8629fbb94d518">Type</a> { <br />
+&#160;&#160;<a class="el" href="#ab507809dfb8f5d7c74c8629fbb94d518a745e3db6a7ffd50e1a72b39482f0882d">Flat</a>
 , <a class="el" href="#ab507809dfb8f5d7c74c8629fbb94d518a353df421c4fc976e2637061d7a83f601">Ball</a>
-, <a class="el" href="#ab507809dfb8f5d7c74c8629fbb94d518ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a>
+, <a class="el" href="#ab507809dfb8f5d7c74c8629fbb94d518a7081aaaca6f0bb0d1f920ba52c6c287c">BullNose</a>
+, <a class="el" href="#ab507809dfb8f5d7c74c8629fbb94d518ae837b737dc29d88107296d9f4aca6b29">Chamfer</a>
+, <br />
+&#160;&#160;<a class="el" href="#ab507809dfb8f5d7c74c8629fbb94d518ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a>
+<br />
  }</td></tr>
 <tr class="memdesc:ab507809dfb8f5d7c74c8629fbb94d518"><td class="mdescLeft">&#160;</td><td class="mdescRight">cutter type  <a href="#ab507809dfb8f5d7c74c8629fbb94d518">More...</a><br /></td></tr>
 <tr class="separator:ab507809dfb8f5d7c74c8629fbb94d518"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,6 +182,15 @@ Public Types</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a345bf16216bfaccfd158af74e386acbc" id="r_a345bf16216bfaccfd158af74e386acbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ab507809dfb8f5d7c74c8629fbb94d518">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a345bf16216bfaccfd158af74e386acbc">type</a> = <a class="el" href="#ab507809dfb8f5d7c74c8629fbb94d518a745e3db6a7ffd50e1a72b39482f0882d">Type::Flat</a></td></tr>
 <tr class="separator:a345bf16216bfaccfd158af74e386acbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70c992b2d214834d246a23811425f9d8" id="r_a70c992b2d214834d246a23811425f9d8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70c992b2d214834d246a23811425f9d8">cornerRadius</a> = 0.f</td></tr>
+<tr class="memdesc:a70c992b2d214834d246a23811425f9d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">(bull nose) corner radius  <br /></td></tr>
+<tr class="separator:a70c992b2d214834d246a23811425f9d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81eafe021d71d7fb7b20c845dc847c94" id="r_a81eafe021d71d7fb7b20c845dc847c94"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81eafe021d71d7fb7b20c845dc847c94">cuttingAngle</a> = 0.f</td></tr>
+<tr class="memdesc:a81eafe021d71d7fb7b20c845dc847c94"><td class="mdescLeft">&#160;</td><td class="mdescRight">(chamfer) cutting angle  <br /></td></tr>
+<tr class="separator:a81eafe021d71d7fb7b20c845dc847c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac48d5c8fc78e3aaa89d3614f193fbfd7" id="r_ac48d5c8fc78e3aaa89d3614f193fbfd7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac48d5c8fc78e3aaa89d3614f193fbfd7">endDiameter</a> = 0.f</td></tr>
+<tr class="memdesc:ac48d5c8fc78e3aaa89d3614f193fbfd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">(chamfer) end diameter  <br /></td></tr>
+<tr class="separator:ac48d5c8fc78e3aaa89d3614f193fbfd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>end mill cutter specifications </p>
@@ -207,12 +221,64 @@ Public Attributes</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="ab507809dfb8f5d7c74c8629fbb94d518a353df421c4fc976e2637061d7a83f601" name="ab507809dfb8f5d7c74c8629fbb94d518a353df421c4fc976e2637061d7a83f601"></a>Ball&#160;</td><td class="fielddoc"><p>ball end mill </p>
 </td></tr>
+<tr><td class="fieldname"><a id="ab507809dfb8f5d7c74c8629fbb94d518a7081aaaca6f0bb0d1f920ba52c6c287c" name="ab507809dfb8f5d7c74c8629fbb94d518a7081aaaca6f0bb0d1f920ba52c6c287c"></a>BullNose&#160;</td><td class="fielddoc"><p>bull nose end mill </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ab507809dfb8f5d7c74c8629fbb94d518ae837b737dc29d88107296d9f4aca6b29" name="ab507809dfb8f5d7c74c8629fbb94d518ae837b737dc29d88107296d9f4aca6b29"></a>Chamfer&#160;</td><td class="fielddoc"><p>chamfer end mill </p>
+</td></tr>
 <tr><td class="fieldname"><a id="ab507809dfb8f5d7c74c8629fbb94d518ae93f994f01c537c4e2f7d8528c3eb5e9" name="ab507809dfb8f5d7c74c8629fbb94d518ae93f994f01c537c4e2f7d8528c3eb5e9"></a>Count&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a70c992b2d214834d246a23811425f9d8" name="a70c992b2d214834d246a23811425f9d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70c992b2d214834d246a23811425f9d8">&#9670;&#160;</a></span>cornerRadius</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::EndMillCutter::cornerRadius = 0.f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>(bull nose) corner radius </p>
+
+</div>
+</div>
+<a id="a81eafe021d71d7fb7b20c845dc847c94" name="a81eafe021d71d7fb7b20c845dc847c94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81eafe021d71d7fb7b20c845dc847c94">&#9670;&#160;</a></span>cuttingAngle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::EndMillCutter::cuttingAngle = 0.f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>(chamfer) cutting angle </p>
+
+</div>
+</div>
+<a id="ac48d5c8fc78e3aaa89d3614f193fbfd7" name="ac48d5c8fc78e3aaa89d3614f193fbfd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac48d5c8fc78e3aaa89d3614f193fbfd7">&#9670;&#160;</a></span>endDiameter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::EndMillCutter::endDiameter = 0.f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>(chamfer) end diameter </p>
+
+</div>
+</div>
 <a id="a345bf16216bfaccfd158af74e386acbc" name="a345bf16216bfaccfd158af74e386acbc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a345bf16216bfaccfd158af74e386acbc">&#9670;&#160;</a></span>type</h2>
 

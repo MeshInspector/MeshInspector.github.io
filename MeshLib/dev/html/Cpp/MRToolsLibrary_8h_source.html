@@ -221,10 +221,13 @@ $(function(){initNavTree('MRToolsLibrary_8h_source.html',''); initResizable(true
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="keywordtype">int</span> createToolType_ = 0;</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keywordtype">float</span> createToolLength_ = 8.f;</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordtype">float</span> createToolDiameter_ = 2.f;</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>};</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keywordtype">float</span> createToolCornerRadius_ = 0.5f;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keywordtype">float</span> createToolCuttingAngle_ = 90.f;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="keywordtype">float</span> createToolEndDiameter_ = 0.f;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>};</div>
 </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>}</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>}</div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1GcodeToolsLibrary_html"><div class="ttname"><a href="classMR_1_1GcodeToolsLibrary.html">MR::GcodeToolsLibrary</a></div><div class="ttdef"><b>Definition</b> MRToolsLibrary.h:15</div></div>
 <div class="ttc" id="aclassMR_1_1GcodeToolsLibrary_html_a491da975eada25f78297b3c3befecf79"><div class="ttname"><a href="classMR_1_1GcodeToolsLibrary.html#a491da975eada25f78297b3c3befecf79">MR::GcodeToolsLibrary::getToolObject</a></div><div class="ttdeci">MRVIEWER_API const std::shared_ptr&lt; ObjectMesh &gt; &amp; getToolObject()</div></div>
@@ -234,7 +237,7 @@ $(function(){initNavTree('MRToolsLibrary_8h_source.html',''); initResizable(true
 <div class="ttc" id="aclassMR_1_1GcodeToolsLibrary_html_ae33089c9019e6ce8f918a7291f9e4d89"><div class="ttname"><a href="classMR_1_1GcodeToolsLibrary.html#ae33089c9019e6ce8f918a7291f9e4d89">MR::GcodeToolsLibrary::getEndMillTool</a></div><div class="ttdeci">const std::shared_ptr&lt; EndMillTool &gt; &amp; getEndMillTool() const</div><div class="ttdef"><b>Definition</b> MRToolsLibrary.h:30</div></div>
 <div class="ttc" id="aclassMR_1_1GcodeToolsLibrary_html_af1bf4b4cc84a04a450ae7b393d05a99c"><div class="ttname"><a href="classMR_1_1GcodeToolsLibrary.html#af1bf4b4cc84a04a450ae7b393d05a99c">MR::GcodeToolsLibrary::drawCreateToolDialog</a></div><div class="ttdeci">MRVIEWER_API bool drawCreateToolDialog(float menuScaling)</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="astructMR_1_1EndMillTool_html"><div class="ttname"><a href="structMR_1_1EndMillTool.html">MR::EndMillTool</a></div><div class="ttdoc">end mill tool specifications</div><div class="ttdef"><b>Definition</b> MREndMill.h:32</div></div>
+<div class="ttc" id="astructMR_1_1EndMillTool_html"><div class="ttname"><a href="structMR_1_1EndMillTool.html">MR::EndMillTool</a></div><div class="ttdoc">end mill tool specifications</div><div class="ttdef"><b>Definition</b> MREndMill.h:39</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

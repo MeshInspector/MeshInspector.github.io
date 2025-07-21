@@ -1,5 +1,17 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1FindInnerShellSettings.html#a376bbe83d190953bcff30be0a55cac6c":[6,0,1,0,1,242,1],
+"structMR_1_1FindInnerShellSettings.html#a376bbe83d190953bcff30be0a55cac6c":[6,0,2,0,1,226,1],
+"structMR_1_1FindInnerShellSettings.html#a39404f52d441394b9b7ca203201d7899":[6,0,1,0,1,242,2],
+"structMR_1_1FindInnerShellSettings.html#a39404f52d441394b9b7ca203201d7899":[6,0,2,0,1,226,2],
+"structMR_1_1FindInnerShellSettings.html#a5e16efa54e3c7e27d31e800475109fcb":[6,0,1,0,1,242,4],
+"structMR_1_1FindInnerShellSettings.html#a5e16efa54e3c7e27d31e800475109fcb":[6,0,2,0,1,226,4],
+"structMR_1_1FindInnerShellSettings.html#ab289320eeea5440ea6355342f4b16099":[6,0,1,0,1,242,0],
+"structMR_1_1FindInnerShellSettings.html#ab289320eeea5440ea6355342f4b16099":[6,0,2,0,1,226,0],
+"structMR_1_1FindInnerShellSettings.html#ac15bd082d7f22aa7db37b1263fb2f8e4":[6,0,1,0,1,242,3],
+"structMR_1_1FindInnerShellSettings.html#ac15bd082d7f22aa7db37b1263fb2f8e4":[6,0,2,0,1,226,3],
+"structMR_1_1FindOutliersParams.html":[6,0,1,0,1,243],
+"structMR_1_1FindOutliersParams.html":[6,0,2,0,1,227],
 "structMR_1_1FindOutliersParams.html#a41cffc0d0bf42f1a2f3131c84385aac0":[6,0,1,0,1,243,3],
 "structMR_1_1FindOutliersParams.html#a41cffc0d0bf42f1a2f3131c84385aac0":[6,0,2,0,1,227,3],
 "structMR_1_1FindOutliersParams.html#a7f72b590f90df23de6d1e5a77a5c1fc5":[6,0,1,0,1,243,1],
@@ -237,17 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1GridToMeshSettings.html#acda3440aa9d507ae98fc2e068e7d41fd":[6,0,1,0,1,275,1],
 "structMR_1_1GridToMeshSettings.html#acda3440aa9d507ae98fc2e068e7d41fd":[6,0,2,0,1,259,1],
 "structMR_1_1GridToMeshSettings.html#acee0af0c67fecb819dabf8238de050fc":[6,0,1,0,1,275,6],
-"structMR_1_1GridToMeshSettings.html#acee0af0c67fecb819dabf8238de050fc":[6,0,2,0,1,259,6],
-"structMR_1_1GridToMeshSettings.html#ad826bf2632bc0f30ff1144fb199ad870":[6,0,1,0,1,275,2],
-"structMR_1_1GridToMeshSettings.html#ad826bf2632bc0f30ff1144fb199ad870":[6,0,2,0,1,259,2],
-"structMR_1_1Heap_1_1Element.html":[6,0,0,3,7,0],
-"structMR_1_1Heap_1_1Element.html#a7bd4aa28de0c5142c7149308ec9da563":[6,0,0,3,7,0,1],
-"structMR_1_1Heap_1_1Element.html#af5f2ab7653bc95405d4e20891982a46b":[6,0,0,3,7,0,0],
-"structMR_1_1HoleEdgePoint.html":[6,0,1,0,1,281],
-"structMR_1_1HoleEdgePoint.html":[6,0,2,0,1,265],
-"structMR_1_1HoleEdgePoint.html#a540414cc7fb82e34d5a10d971449fc9d":[6,0,1,0,1,281,1],
-"structMR_1_1HoleEdgePoint.html#a540414cc7fb82e34d5a10d971449fc9d":[6,0,2,0,1,265,1],
-"structMR_1_1HoleEdgePoint.html#ae793addf9016abcd83646bb9e2243142":[6,0,1,0,1,281,0],
-"structMR_1_1HoleEdgePoint.html#ae793addf9016abcd83646bb9e2243142":[6,0,2,0,1,265,0],
-"structMR_1_1HoleFillPlan.html":[6,0,0,9,3,3]
+"structMR_1_1GridToMeshSettings.html#acee0af0c67fecb819dabf8238de050fc":[6,0,2,0,1,259,6]
 };

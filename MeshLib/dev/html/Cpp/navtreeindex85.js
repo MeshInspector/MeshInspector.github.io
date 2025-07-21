@@ -1,5 +1,17 @@
 var NAVTREEINDEX85 =
 {
+"structMR_1_1RibbonNotification.html#a156a1963010372c4c838def5344897ab":[6,0,1,0,1,603,2],
+"structMR_1_1RibbonNotification.html#a156a1963010372c4c838def5344897ab":[6,0,2,0,1,587,2],
+"structMR_1_1RibbonNotification.html#a2074bc13c9424073e04d319984ae6d49":[6,0,1,0,1,603,6],
+"structMR_1_1RibbonNotification.html#a2074bc13c9424073e04d319984ae6d49":[6,0,2,0,1,587,6],
+"structMR_1_1RibbonNotification.html#a22ab6a5e3459fed757c4443f8d3ad51a":[6,0,1,0,1,603,0],
+"structMR_1_1RibbonNotification.html#a22ab6a5e3459fed757c4443f8d3ad51a":[6,0,2,0,1,587,0],
+"structMR_1_1RibbonNotification.html#a40618c97689369cde22e2db71719697e":[6,0,1,0,1,603,5],
+"structMR_1_1RibbonNotification.html#a40618c97689369cde22e2db71719697e":[6,0,2,0,1,587,5],
+"structMR_1_1RibbonNotification.html#a4da1179863d307c12ec913c673695c06":[6,0,1,0,1,603,7],
+"structMR_1_1RibbonNotification.html#a4da1179863d307c12ec913c673695c06":[6,0,2,0,1,587,7],
+"structMR_1_1RibbonNotification.html#a9a3ccb0e6e8a56c16b1f5b4bf1ee2490":[6,0,1,0,1,603,8],
+"structMR_1_1RibbonNotification.html#a9a3ccb0e6e8a56c16b1f5b4bf1ee2490":[6,0,2,0,1,587,8],
 "structMR_1_1RibbonNotification.html#a9f52a5c95f7b36adb01f422c470f7362":[6,0,1,0,1,603,4],
 "structMR_1_1RibbonNotification.html#a9f52a5c95f7b36adb01f422c470f7362":[6,0,2,0,1,587,4],
 "structMR_1_1RibbonNotification.html#aa700fd6a10257ff9d1efe1d00dcb64dc":[6,0,1,0,1,603,1],
@@ -237,17 +249,5 @@ var NAVTREEINDEX85 =
 "structMR_1_1SeparationPointStorage_1_1Block.html#a846d3bc158a03f5fd24580dc8b40e085":[6,0,1,0,1,653,0,5],
 "structMR_1_1SeparationPointStorage_1_1Block.html#a846d3bc158a03f5fd24580dc8b40e085":[6,0,2,0,1,637,0,5],
 "structMR_1_1SeparationPointStorage_1_1Block.html#ab2e39467c0dd89a73144f53515aaeedb":[6,0,1,0,1,653,0,3],
-"structMR_1_1SeparationPointStorage_1_1Block.html#ab2e39467c0dd89a73144f53515aaeedb":[6,0,2,0,1,637,0,3],
-"structMR_1_1SetNew.html":[6,0,0,4,37],
-"structMR_1_1ShaderWarning.html":[6,0,1,0,1,658],
-"structMR_1_1ShaderWarning.html":[6,0,2,0,1,642],
-"structMR_1_1ShaderWarning.html#a930eaa6dc15670480191448c07138e81":[6,0,1,0,1,658,0],
-"structMR_1_1ShaderWarning.html#a930eaa6dc15670480191448c07138e81":[6,0,2,0,1,642,0],
-"structMR_1_1ShaderWarning.html#abb95321aeb350840573cff7f04e36f33":[6,0,1,0,1,658,1],
-"structMR_1_1ShaderWarning.html#abb95321aeb350840573cff7f04e36f33":[6,0,2,0,1,642,1],
-"structMR_1_1SharpOffsetParameters.html":[6,0,1,0,1,662],
-"structMR_1_1SharpOffsetParameters.html":[6,0,2,0,1,646],
-"structMR_1_1SharpOffsetParameters.html#a431f430b0b5458fce3c73fddbb6428a4":[6,0,1,0,1,662,0],
-"structMR_1_1SharpOffsetParameters.html#a431f430b0b5458fce3c73fddbb6428a4":[6,0,2,0,1,646,0],
-"structMR_1_1SharpOffsetParameters.html#a482a50c8e7ad39898c7dafff5c92474e":[6,0,1,0,1,662,1]
+"structMR_1_1SeparationPointStorage_1_1Block.html#ab2e39467c0dd89a73144f53515aaeedb":[6,0,2,0,1,637,0,3]
 };

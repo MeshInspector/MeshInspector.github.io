@@ -1,5 +1,17 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1Features_1_1MeasureResult.html#a598c9f6b07a702e3e849bf9b0e6ec040":[6,0,1,0,1,6,2,5],
+"structMR_1_1Features_1_1MeasureResult.html#a598c9f6b07a702e3e849bf9b0e6ec040":[6,0,2,0,1,2,2,5],
+"structMR_1_1Features_1_1MeasureResult.html#a618a5c8cc475ae385a15f69aa6316d10":[6,0,1,0,1,6,2,7],
+"structMR_1_1Features_1_1MeasureResult.html#a618a5c8cc475ae385a15f69aa6316d10":[6,0,2,0,1,2,2,7],
+"structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7e":[6,0,1,0,1,6,2,3],
+"structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7e":[6,0,2,0,1,2,2,3],
+"structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7ea17870682e0e34794dc7dc2c13aa89a3f":[6,0,1,0,1,6,2,3,2],
+"structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7ea17870682e0e34794dc7dc2c13aa89a3f":[6,0,2,0,1,2,2,3,2],
+"structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7ea444bcb3a3fcf8389296c49467f27e1d6":[6,0,1,0,1,6,2,3,0],
+"structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7ea444bcb3a3fcf8389296c49467f27e1d6":[6,0,2,0,1,2,2,3,0],
+"structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7ea485094d05ff3ed356932b126a20864e2":[6,0,1,0,1,6,2,3,3],
+"structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7ea485094d05ff3ed356932b126a20864e2":[6,0,2,0,1,2,2,3,3],
 "structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7ea558e60239d9c9c3f63fef490b85009bb":[6,0,1,0,1,6,2,3,1],
 "structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7ea558e60239d9c9c3f63fef490b85009bb":[6,0,2,0,1,2,2,3,1],
 "structMR_1_1Features_1_1MeasureResult.html#ab9a02bda2fc92c73a0d7d637ba562a7eafd6f633ddb4b5a2220cba15cebe96b8c":[6,0,1,0,1,6,2,3,4],
@@ -237,17 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1FindDisorientationParams.html#a66e41167bc8d6713f7b3c8d46c29d247":[6,0,0,9,4,2,2],
 "structMR_1_1FindDisorientationParams.html#a8d3d371ac19975e796450c4a8bbb2d44":[6,0,0,9,4,2,3],
 "structMR_1_1FindInnerShellSettings.html":[6,0,1,0,1,242],
-"structMR_1_1FindInnerShellSettings.html":[6,0,2,0,1,226],
-"structMR_1_1FindInnerShellSettings.html#a376bbe83d190953bcff30be0a55cac6c":[6,0,1,0,1,242,1],
-"structMR_1_1FindInnerShellSettings.html#a376bbe83d190953bcff30be0a55cac6c":[6,0,2,0,1,226,1],
-"structMR_1_1FindInnerShellSettings.html#a39404f52d441394b9b7ca203201d7899":[6,0,1,0,1,242,2],
-"structMR_1_1FindInnerShellSettings.html#a39404f52d441394b9b7ca203201d7899":[6,0,2,0,1,226,2],
-"structMR_1_1FindInnerShellSettings.html#a5e16efa54e3c7e27d31e800475109fcb":[6,0,1,0,1,242,4],
-"structMR_1_1FindInnerShellSettings.html#a5e16efa54e3c7e27d31e800475109fcb":[6,0,2,0,1,226,4],
-"structMR_1_1FindInnerShellSettings.html#ab289320eeea5440ea6355342f4b16099":[6,0,1,0,1,242,0],
-"structMR_1_1FindInnerShellSettings.html#ab289320eeea5440ea6355342f4b16099":[6,0,2,0,1,226,0],
-"structMR_1_1FindInnerShellSettings.html#ac15bd082d7f22aa7db37b1263fb2f8e4":[6,0,1,0,1,242,3],
-"structMR_1_1FindInnerShellSettings.html#ac15bd082d7f22aa7db37b1263fb2f8e4":[6,0,2,0,1,226,3],
-"structMR_1_1FindOutliersParams.html":[6,0,1,0,1,243],
-"structMR_1_1FindOutliersParams.html":[6,0,2,0,1,227]
+"structMR_1_1FindInnerShellSettings.html":[6,0,2,0,1,226]
 };
