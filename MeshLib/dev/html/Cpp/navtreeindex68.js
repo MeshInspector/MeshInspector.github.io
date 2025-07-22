@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1BindVertexAttribArraySettings.html#a3ec552b76a650ac289114916c2714188":[6,0,1,0,1,75,3],
 "structMR_1_1BindVertexAttribArraySettings.html#a3ec552b76a650ac289114916c2714188":[6,0,2,0,1,59,3],
 "structMR_1_1BindVertexAttribArraySettings.html#a58b9782177e88d4d24c156ba056867bb":[6,0,1,0,1,75,6],
 "structMR_1_1BindVertexAttribArraySettings.html#a58b9782177e88d4d24c156ba056867bb":[6,0,2,0,1,59,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1CompensateRadiusParams.html#a79fd0b044bab7c845859903f9e5da95b":[6,0,2,0,1,130,3],
 "structMR_1_1CompensateRadiusParams.html#adb2072e359a12815d6285187b399591d":[6,0,1,0,1,146,0],
 "structMR_1_1CompensateRadiusParams.html#adb2072e359a12815d6285187b399591d":[6,0,2,0,1,130,0],
-"structMR_1_1CompensateRadiusParams.html#adee28415a6ac7b943071cce3515545a2":[6,0,1,0,1,146,4],
-"structMR_1_1CompensateRadiusParams.html#adee28415a6ac7b943071cce3515545a2":[6,0,2,0,1,130,4]
+"structMR_1_1CompensateRadiusParams.html#adee28415a6ac7b943071cce3515545a2":[6,0,1,0,1,146,4]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX36 =
 {
+"classMR_1_1PlaneWidget.html#a02b1ad4d4554be85b3e272be50cd7095":[6,0,2,0,1,481,3],
 "classMR_1_1PlaneWidget.html#a1734d155421e7bea066ad89085f451af":[6,0,1,0,1,497,8],
 "classMR_1_1PlaneWidget.html#a1734d155421e7bea066ad89085f451af":[6,0,2,0,1,481,8],
 "classMR_1_1PlaneWidget.html#a2d610de7f459407dbb91a6bab7e7e3ba":[6,0,1,0,1,497,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX36 =
 "classMR_1_1PriorityQueue.html#a10d6af2f304f8f8ce7d09de3b272a283":[6,0,2,0,1,534,7],
 "classMR_1_1PriorityQueue.html#a14e51732a3a52902181ca4b3d1f28374":[6,0,1,0,1,550,6],
 "classMR_1_1PriorityQueue.html#a14e51732a3a52902181ca4b3d1f28374":[6,0,2,0,1,534,6],
-"classMR_1_1PriorityQueue.html#a3b6a5fb6f7530ae66dfec44b04efaf99":[6,0,1,0,1,550,2],
-"classMR_1_1PriorityQueue.html#a3b6a5fb6f7530ae66dfec44b04efaf99":[6,0,2,0,1,534,2]
+"classMR_1_1PriorityQueue.html#a3b6a5fb6f7530ae66dfec44b04efaf99":[6,0,1,0,1,550,2]
 };

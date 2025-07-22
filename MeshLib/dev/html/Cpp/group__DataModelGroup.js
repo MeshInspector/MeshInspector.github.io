@@ -204,6 +204,7 @@ var group__DataModelGroup =
       [ "copyColors", "classMR_1_1ObjectLinesHolder.html#a8958b915eb5b7b9f6f0b7ffa704700f5", null ],
       [ "deserializeBaseFields_", "classMR_1_1ObjectLinesHolder.html#aace1c3bef514115c4645861934321253", null ],
       [ "deserializeFields_", "classMR_1_1ObjectLinesHolder.html#a91f1067311fb1cc387d342a67e4557cb", null ],
+      [ "deserializeModel_", "classMR_1_1ObjectLinesHolder.html#abbacb883915ae2b416b37e7ecfbeee12", null ],
       [ "getAllVisualizeProperties", "classMR_1_1ObjectLinesHolder.html#af36a700f7b56ba0159abf2c66b58d630", null ],
       [ "getLinesColorMap", "classMR_1_1ObjectLinesHolder.html#a3b4f5ecefe1873ce10840277c57f9e94", null ],
       [ "getLineWidth", "classMR_1_1ObjectLinesHolder.html#ad29f08547db22aca65fa19e23ac218b7", null ],

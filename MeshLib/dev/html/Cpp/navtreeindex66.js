@@ -1,5 +1,6 @@
 var NAVTREEINDEX66 =
 {
+"structMRGridToMeshSettings.html":[6,0,2,0,25],
 "structMRGridToMeshSettings.html#a17ece63df1f3938108a7b08b5b26ab88":[6,0,2,0,25,3],
 "structMRGridToMeshSettings.html#a4c36e4cf9596765206137962c766ee16":[6,0,2,0,25,4],
 "structMRGridToMeshSettings.html#a74bb91e2da12140d389ee2e9a0b93329":[6,0,2,0,25,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1AABBTreePoints_1_1Node.html#a2153d4fd7d12b27618511103c9080df3":[6,0,0,1,7,0,3],
 "structMR_1_1AABBTreePoints_1_1Node.html#a4706c948a08613c970dd47e89dfc42b8":[6,0,0,1,7,0,0],
 "structMR_1_1AABBTreePoints_1_1Node.html#a56b80dcc65ea72cecfafa260d4f8300a":[6,0,0,1,7,0,1],
-"structMR_1_1AABBTreePoints_1_1Node.html#aa7d207477de6241a5d47a8971c2944aa":[6,0,0,1,7,0,5],
-"structMR_1_1AABBTreePoints_1_1Node.html#af8f74a9f0dc8b291dca8ff290c8b45a1":[6,0,0,1,7,0,4]
+"structMR_1_1AABBTreePoints_1_1Node.html#aa7d207477de6241a5d47a8971c2944aa":[6,0,0,1,7,0,5]
 };

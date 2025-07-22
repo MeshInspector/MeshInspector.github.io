@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5a8e6a22666dd8243711d987a592738d22":[6,0,1,0,1,1047,0],
 "namespaceMR.html#af3bb6bedd734e8cd588628a9052cfbb5ad69186af02738a9b3ced1bc5b652ba55":[6,0,1,0,1,1047,3],
 "namespaceMR.html#af4556fd56cc32c8b7e8e343664cba8ad":[6,0,1,0,1,1193],
 "namespaceMR.html#af4a1dbdb9aedd7fadc599adb576b16da":[6,0,1,0,1,1882],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "namespaceMR_1_1Parallel.html#aad589ea7e78a0c2b2111bdc06e2e1c03":[6,0,1,0,1,23,4],
 "namespaceMR_1_1Parallel.html#af87e94d9960d05b0cb39eb6cf90bad47":[6,0,1,0,1,23,5],
 "namespaceMR_1_1PlanarTriangulation.html":[6,0,1,0,1,24],
-"namespaceMR_1_1PlanarTriangulation.html#a0515df1bf2b2920651b9617e6b1493f9":[6,0,1,0,1,24,6],
-"namespaceMR_1_1PlanarTriangulation.html#a0793fac040a2dcffcf616e963ebcfe7e":[6,0,1,0,1,24,12]
+"namespaceMR_1_1PlanarTriangulation.html#a0515df1bf2b2920651b9617e6b1493f9":[6,0,1,0,1,24,6]
 };

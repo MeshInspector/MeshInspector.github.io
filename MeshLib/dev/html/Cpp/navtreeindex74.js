@@ -1,5 +1,6 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1GridToMeshSettings.html#ad826bf2632bc0f30ff1144fb199ad870":[6,0,2,0,1,259,2],
 "structMR_1_1Heap_1_1Element.html":[6,0,0,3,7,0],
 "structMR_1_1Heap_1_1Element.html#a7bd4aa28de0c5142c7149308ec9da563":[6,0,0,3,7,0,1],
 "structMR_1_1Heap_1_1Element.html#af5f2ab7653bc95405d4e20891982a46b":[6,0,0,3,7,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html":[6,0,1,0,1,13,6],
 "structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html":[6,0,2,0,1,5,6],
 "structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html#a0a7ac346932a736977872ac332da5c6c":[6,0,1,0,1,13,6,5],
-"structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html#a0a7ac346932a736977872ac332da5c6c":[6,0,2,0,1,5,6,5],
-"structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html#a0e80e0ea2a367ff6821ecfe250411a29":[6,0,1,0,1,13,6,1]
+"structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html#a0a7ac346932a736977872ac332da5c6c":[6,0,2,0,1,5,6,5]
 };
