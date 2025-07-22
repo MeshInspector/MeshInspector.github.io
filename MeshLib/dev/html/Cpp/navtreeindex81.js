@@ -1,5 +1,7 @@
 var NAVTREEINDEX81 =
 {
+"structMR_1_1OffsetContoursParams.html#a11a811849fd3702f4abc2c898b1fe5dc":[6,0,1,0,1,467,8],
+"structMR_1_1OffsetContoursParams.html#a11a811849fd3702f4abc2c898b1fe5dc":[6,0,2,0,1,451,8],
 "structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8":[6,0,1,0,1,467,1],
 "structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8":[6,0,2,0,1,451,1],
 "structMR_1_1OffsetContoursParams.html#a1edd2d4e6c07ebdd654ef43eeb7d3da8ab7f41fc1412ad2ee75e9b2635d3b9d5c":[6,0,1,0,1,467,1,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX81 =
 "structMR_1_1PickPointManager_1_1WidgetHistoryAction.html":[6,0,1,0,1,493,2],
 "structMR_1_1PickPointManager_1_1WidgetHistoryAction.html":[6,0,2,0,1,477,2],
 "structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html":[6,0,1,0,1,24,0],
-"structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html":[6,0,2,0,1,14,0],
-"structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html#a6f9aeb8021200fb928ae34fe6ab4c932":[6,0,1,0,1,24,0,0],
-"structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html#a6f9aeb8021200fb928ae34fe6ab4c932":[6,0,2,0,1,14,0,0]
+"structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html":[6,0,2,0,1,14,0]
 };

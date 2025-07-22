@@ -1374,6 +1374,7 @@ var namespacemrmeshpy =
     [ "cutAlongEdgeLoop", "namespacemrmeshpy.html#a335d39bee58418fcd2782a4055ee58ff", null ],
     [ "cutMesh", "namespacemrmeshpy.html#af432134d93952bd53849cfd8a4aafd80", null ],
     [ "cutMeshByContour", "namespacemrmeshpy.html#a1fd6bb674a83e8589250dc5ea72035a8", null ],
+    [ "cutMeshByContours", "namespacemrmeshpy.html#a235940d97e917b31881a5ad3d29da56c", null ],
     [ "dblArea", "namespacemrmeshpy.html#af7e7240b762eb4b11abcd1995b107e5c", null ],
     [ "dblArea", "namespacemrmeshpy.html#aff290c9fe463c31de2a9aa20acf0fb63", null ],
     [ "deactivateFarPairs", "namespacemrmeshpy.html#ac6deef5f6c408f14756f837e25ffb5d5", null ],

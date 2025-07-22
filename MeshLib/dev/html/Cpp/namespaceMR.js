@@ -1837,6 +1837,7 @@ var namespaceMR =
     [ "cutAlongEdgeLoop", "namespaceMR.html#aac15fd2f716831caecb8b6a05b61b7ea", null ],
     [ "cutMesh", "group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc", null ],
     [ "cutMeshByContour", "namespaceMR.html#a634c3caa2efb7688c1bfa187112c6b99", null ],
+    [ "cutMeshByContours", "namespaceMR.html#a486d3531e070ce83fedba740ecd3650b", null ],
     [ "Cylinder3< float >", "namespaceMR.html#ab08e303630da101533700786067d562b", null ],
     [ "dblArea", "namespaceMR.html#abd3259955c972492f27f1ec056e2fd41", null ],
     [ "dblArea", "namespaceMR.html#a0dd50f59234a5a8e9ac7133f697d981e", null ],

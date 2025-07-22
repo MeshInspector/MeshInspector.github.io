@@ -135,6 +135,7 @@ var NAVTREEINDEX8 =
 "MRMesh_2MRColor_8h.html#af9a5c1118c2c4b0cda030dff8d11ce03":[6,0,3,0,0,1,4,60,5],
 "MRMesh_2MRColor_8h_source.html":[6,0,3,0,0,1,4,60],
 "MRMesh_2MRContoursCut_8h.html":[6,0,3,0,0,1,4,70],
+"MRMesh_2MRContoursCut_8h.html#a486d3531e070ce83fedba740ecd3650b":[6,0,3,0,0,1,4,70,4],
 "MRMesh_2MRContoursCut_8h.html#a634c3caa2efb7688c1bfa187112c6b99":[6,0,3,0,0,1,4,70,3],
 "MRMesh_2MRContoursCut_8h_source.html":[6,0,3,0,0,1,4,70],
 "MRMesh_2MRConvexHull_8h.html":[6,0,3,0,0,1,4,73],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "MRMesh_2MRMeshBuilder_8h.html#affd71ea7a77ed4c02be34778c0923804":[6,0,3,0,0,1,4,191,4],
 "MRMesh_2MRMeshBuilder_8h_source.html":[6,0,3,0,0,1,4,191],
 "MRMesh_2MRMeshCollidePrecise_8h.html":[6,0,3,0,0,1,4,194],
-"MRMesh_2MRMeshCollidePrecise_8h_source.html":[6,0,3,0,0,1,4,194],
-"MRMesh_2MRMeshCollide_8h.html":[6,0,3,0,0,1,4,193]
+"MRMesh_2MRMeshCollidePrecise_8h_source.html":[6,0,3,0,0,1,4,194]
 };

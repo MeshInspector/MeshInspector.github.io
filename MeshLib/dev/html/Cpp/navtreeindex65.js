@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"namespaceMR_1_1WeightedShell.html#a3e108c56779c35179e76f309f651b3ae":[6,0,1,0,1,42,5],
+"namespaceMR_1_1WeightedShell.html#a54580de8838b073a4531d9f3149ea22e":[6,0,1,0,1,42,7],
 "namespaceMR_1_1WeightedShell.html#a5f3f7e651a5e21cd4346de588b7641b1":[6,0,1,0,1,42,6],
 "namespaceMR_1_1WeightedShell.html#a7882f57d282bd3aa7b657061f8f9409b":[6,0,1,0,1,42,9],
 "namespaceMR_1_1WeightedShell.html#a8dc2c1b804b8a46b0a33345e1f1688f1":[6,0,1,0,1,42,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "structMRGeneralOffsetParameters.html":[6,0,2,0,24],
 "structMRGeneralOffsetParameters.html#a6454b2dc3be343dcde33f1b2dd858e82":[6,0,2,0,24,0],
 "structMRGeneralOffsetParameters.html#a97c106a0d08d33bd2ff6e5d627c4a3dc":[6,0,2,0,24,3],
-"structMRGeneralOffsetParameters.html#ad25e50ec04b42c4e5ad4082003a5c60f":[6,0,2,0,24,4],
-"structMRGeneralOffsetParameters.html#ad804797bf1bd45935796bb4ff70ea6b0":[6,0,2,0,24,1],
-"structMRGeneralOffsetParameters.html#ae8244d3aad0d35aa2842bd951b462595":[6,0,2,0,24,2]
+"structMRGeneralOffsetParameters.html#ad25e50ec04b42c4e5ad4082003a5c60f":[6,0,2,0,24,4]
 };
