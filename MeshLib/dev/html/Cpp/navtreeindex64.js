@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"namespaceMR_1_1Parallel.html#af87e94d9960d05b0cb39eb6cf90bad47":[6,0,1,0,1,23,5],
 "namespaceMR_1_1PlanarTriangulation.html":[6,0,1,0,1,24],
 "namespaceMR_1_1PlanarTriangulation.html#a0515df1bf2b2920651b9617e6b1493f9":[6,0,1,0,1,24,6],
 "namespaceMR_1_1PlanarTriangulation.html#a0793fac040a2dcffcf616e963ebcfe7e":[6,0,1,0,1,24,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "namespaceMR_1_1VoxelsSave.html#a8b7a3d30f9b81594b08a8a90828dd8e6":[6,0,1,0,1,41,10],
 "namespaceMR_1_1WeightedShell.html":[6,0,1,0,1,42],
 "namespaceMR_1_1WeightedShell.html#a01eafebe7cd6350d108fb538e558fb12":[6,0,1,0,1,42,13],
-"namespaceMR_1_1WeightedShell.html#a073bb16262b665c98e72cbc2da3afc40":[6,0,1,0,1,42,11],
-"namespaceMR_1_1WeightedShell.html#a33b0f3cc490481ebb0f62010cf20518e":[6,0,1,0,1,42,10]
+"namespaceMR_1_1WeightedShell.html#a073bb16262b665c98e72cbc2da3afc40":[6,0,1,0,1,42,11]
 };

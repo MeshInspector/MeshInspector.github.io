@@ -1,5 +1,6 @@
 var NAVTREEINDEX24 =
 {
+"classMR_1_1FewSmallest.html#a9f76f3baaed046ba4f1047a35cd61248":[6,0,1,0,1,232,5],
 "classMR_1_1FewSmallest.html#a9f76f3baaed046ba4f1047a35cd61248":[6,0,2,0,1,216,5],
 "classMR_1_1FewSmallest.html#aa7fcea11aded20f38afd49e536c21323":[6,0,1,0,1,232,8],
 "classMR_1_1FewSmallest.html#aa7fcea11aded20f38afd49e536c21323":[6,0,2,0,1,216,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX24 =
 "classMR_1_1GcodeToolsLibrary.html#ae33089c9019e6ce8f918a7291f9e4d89":[6,0,1,0,1,264,3],
 "classMR_1_1GcodeToolsLibrary.html#ae33089c9019e6ce8f918a7291f9e4d89":[6,0,2,0,1,248,3],
 "classMR_1_1GcodeToolsLibrary.html#af1bf4b4cc84a04a450ae7b393d05a99c":[6,0,1,0,1,264,1],
-"classMR_1_1GcodeToolsLibrary.html#af1bf4b4cc84a04a450ae7b393d05a99c":[6,0,2,0,1,248,1],
-"classMR_1_1GlBuffer.html":[6,0,1,0,1,267]
+"classMR_1_1GcodeToolsLibrary.html#af1bf4b4cc84a04a450ae7b393d05a99c":[6,0,2,0,1,248,1]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"MRTestC_2MRExpandShrink_8h.html#a6fe71176bc46c348ef2ff68a130e28a6":[6,0,3,0,0,1,9,5,1],
 "MRTestC_2MRExpandShrink_8h.html#a7024f5258d4288744e74b528847b7a6e":[6,0,3,0,0,1,9,5,0],
 "MRTestC_2MRExpandShrink_8h_source.html":[6,0,3,0,0,1,9,5],
 "MRTestC_2MRFixSelfIntersections_8h.html":[6,0,3,0,0,1,9,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "MRUIStyle_8h.html#a17f2b30eb00e5aa94812541ac268a30f":[6,0,3,0,0,1,10,133,73],
 "MRUIStyle_8h.html#a18b9183fbf887e8e6930c577d92fa409":[6,0,3,0,0,1,10,133,72],
 "MRUIStyle_8h.html#a1b2f7496c5cc2c04acdc85d6ad564a63":[6,0,3,0,0,1,10,133,46],
-"MRUIStyle_8h.html#a2e82aeb6c8dcd97dab6e1f0e68d4fed4":[6,0,3,0,0,1,10,133,78],
-"MRUIStyle_8h.html#a31bf75f2c49957b473bd51d2aeb25ec8":[6,0,3,0,0,1,10,133,58]
+"MRUIStyle_8h.html#a2e82aeb6c8dcd97dab6e1f0e68d4fed4":[6,0,3,0,0,1,10,133,78]
 };

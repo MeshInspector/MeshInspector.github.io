@@ -1,5 +1,6 @@
 var NAVTREEINDEX35 =
 {
+"classMR_1_1OpenDICOMsMenuItem.html#afff7b73e7857e5eff442b9c8fea806ad":[6,0,1,0,1,472,0],
 "classMR_1_1OpenDICOMsMenuItem.html#afff7b73e7857e5eff442b9c8fea806ad":[6,0,2,0,1,456,0],
 "classMR_1_1OpenDirectoryMenuItem.html":[6,0,1,0,1,473],
 "classMR_1_1OpenDirectoryMenuItem.html":[6,0,2,0,1,457],
@@ -248,6 +249,5 @@ var NAVTREEINDEX35 =
 "classMR_1_1PlaneObject.html#aed79ae4faaaf82fb9f53e874acea158f":[6,0,0,11,0,4,25],
 "classMR_1_1PlaneObject.html#afb6fc94d7cbe98896d3b6fea3c1f4ceb":[6,0,0,11,0,4,28],
 "classMR_1_1PlaneObject.html#afdd7cf68a88b16d914629c4ea468470c":[6,0,0,11,0,4,9],
-"classMR_1_1PlaneWidget.html":[6,0,1,0,1,497],
-"classMR_1_1PlaneWidget.html":[6,0,2,0,1,481]
+"classMR_1_1PlaneWidget.html":[6,0,1,0,1,497]
 };

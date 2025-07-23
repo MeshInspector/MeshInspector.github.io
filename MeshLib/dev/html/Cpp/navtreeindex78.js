@@ -1,5 +1,6 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1MeshBuilder_1_1MeshPiece.html":[6,0,2,0,1,8,2],
 "structMR_1_1MeshBuilder_1_1MeshPiece.html#a0e2772f29127c4ade3e9c174019fa545":[6,0,1,0,1,16,2,3],
 "structMR_1_1MeshBuilder_1_1MeshPiece.html#a0e2772f29127c4ade3e9c174019fa545":[6,0,2,0,1,8,2,3],
 "structMR_1_1MeshBuilder_1_1MeshPiece.html#a9a4c27d8994760be58bd44c477f0a1d9":[6,0,1,0,1,16,2,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1MeshToDistanceMapParams.html#acd9523a7ea030a77856bbadf789bd132":[6,0,0,5,3,1],
 "structMR_1_1MeshToDistanceMapParams.html#ace32ee073907bc00f51a76ba214f6d3c":[6,0,0,5,3,17],
 "structMR_1_1MeshToDistanceMapParams.html#acea3bbf8d8d0c8750d496ed6934725de":[6,0,0,5,3,0],
-"structMR_1_1MeshToDistanceMapParams.html#ad5c988e350636c3a7804f51132290869":[6,0,0,5,3,10],
-"structMR_1_1MeshToDistanceMapParams.html#adda331f5bf606eb9b53caf3c558a995e":[6,0,0,5,3,2]
+"structMR_1_1MeshToDistanceMapParams.html#ad5c988e350636c3a7804f51132290869":[6,0,0,5,3,10]
 };
