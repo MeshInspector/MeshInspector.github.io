@@ -1,7 +1,7 @@
 var classmrmeshpy_1_1PartMapping =
 [
     [ "__init__", "classmrmeshpy_1_1PartMapping.html#a616926f2bcd8beaaaba16966b42e54a2", null ],
-    [ "__init__", "classmrmeshpy_1_1PartMapping.html#a786eaafdce12d3c285bf70b4ff04ce9a", null ],
+    [ "__init__", "classmrmeshpy_1_1PartMapping.html#a111fe15355e183b686537eec9b6cb6a8", null ],
     [ "clear", "classmrmeshpy_1_1PartMapping.html#abfb145a1c318ea357fc6dcbe72c3a9e2", null ],
     [ "src2tgtFaces", "classmrmeshpy_1_1PartMapping.html#ab51198ae2919997dd7b50097ac400d01", null ],
     [ "src2tgtFaces", "classmrmeshpy_1_1PartMapping.html#a2d976b31634cd7218ef61770648552b8", null ],
