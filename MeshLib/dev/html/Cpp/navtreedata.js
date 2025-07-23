@@ -224,9 +224,9 @@ var NAVTREEINDEX =
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a2bf410c025634089f22b3341825cd20b",
 "structMR_1_1TouchEndListener.html#ad3eb350ad602d0a503d4b488f5adb314",
 "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a5415b188e466c2295bb082600f25f64b",
-"structMR_1_1UniformSamplingSettings.html#a5bc23c2e461b80a4516732d0e5add3a5",
-"structMR_1_1VectorTraits_3_01Vector2_3_01T_01_4_01_4.html",
-"structMR_1_1WatershedGraph_1_1BasinInfo.html#ac517049cbab38022a0ae418971403ec9"
+"structMR_1_1UniformSamplingSettings.html#a4952e332cfe108e00f967d412a6aba88",
+"structMR_1_1VectorTraits_3_01ImVec4_01_4.html#a7a34fb83d68aa2fcc53694b08e464479",
+"structMR_1_1WatershedGraph_1_1BasinInfo.html#ab2cb4ea433e1e7448b0b1d3bafa8c2f2"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

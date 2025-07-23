@@ -165,30 +165,40 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>BoundedValue&lt; std::string &gt;</b></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1UnderlyingValueTypeHelper.html">UnderlyingValueTypeHelper</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>UnderlyingValueTypeHelper&lt; std::string &gt;</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>UnderlyingValueTypeHelper&lt; T, std::enable_if_t&lt; std::is_floating_point_v&lt; T &gt; &gt; &gt;</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>UnderlyingValueTypeHelper&lt; T, std::enable_if_t&lt; std::is_integral_v&lt; T &gt; &amp;&amp;std::is_signed_v&lt; T &gt; &gt; &gt;</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>UnderlyingValueTypeHelper&lt; T, std::enable_if_t&lt; std::is_integral_v&lt; T &gt; &amp;&amp;std::is_unsigned_v&lt; T &gt; &gt; &gt;</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a53e30bb144cbf9450486830008c5c039" id="r_a53e30bb144cbf9450486830008c5c039"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a53e30bb144cbf9450486830008c5c039"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a53e30bb144cbf9450486830008c5c039">UnderlyingValueType</a> = std::conditional_t&lt;std::is_floating_point_v&lt;T&gt;, double, std::conditional_t&lt;std::is_signed_v&lt;T&gt;, std::int64_t, std::uint64_t&gt;&gt;</td></tr>
-<tr class="separator:a53e30bb144cbf9450486830008c5c039"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab897ec83d6544cb895ed73a8330cfe6e" id="r_ab897ec83d6544cb895ed73a8330cfe6e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ab897ec83d6544cb895ed73a8330cfe6e"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ab897ec83d6544cb895ed73a8330cfe6e">UnderlyingValueType</a> = typename <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1UnderlyingValueTypeHelper.html">UnderlyingValueTypeHelper</a>&lt;T&gt;::type</td></tr>
+<tr class="separator:ab897ec83d6544cb895ed73a8330cfe6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a014609569932f659d96ae34f34992039" id="r_a014609569932f659d96ae34f34992039"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a014609569932f659d96ae34f34992039"><td class="memTemplItemLeft" align="right" valign="top">MRVIEWER_API std::optional&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a014609569932f659d96ae34f34992039">createValueLow</a> (std::string_view name, std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; T &gt; &gt; value)</td></tr>
-<tr class="separator:a014609569932f659d96ae34f34992039"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c72ea3bde33ff00b464930de6e47c9e" id="r_a7c72ea3bde33ff00b464930de6e47c9e"><td class="memItemLeft" align="right" valign="top">template MRVIEWER_API std::optional&lt; std::int64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c72ea3bde33ff00b464930de6e47c9e">createValueLow</a> (std::string_view name, std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; std::int64_t &gt; &gt; value)</td></tr>
-<tr class="separator:a7c72ea3bde33ff00b464930de6e47c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91ccdff327bb3b328fdf4690f9c5cf5c" id="r_a91ccdff327bb3b328fdf4690f9c5cf5c"><td class="memItemLeft" align="right" valign="top">template MRVIEWER_API std::optional&lt; std::uint64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91ccdff327bb3b328fdf4690f9c5cf5c">createValueLow</a> (std::string_view name, std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; std::uint64_t &gt; &gt; value)</td></tr>
-<tr class="separator:a91ccdff327bb3b328fdf4690f9c5cf5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2105433a3afd2a49455937649c3cf400" id="r_a2105433a3afd2a49455937649c3cf400"><td class="memItemLeft" align="right" valign="top">template MRVIEWER_API std::optional&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2105433a3afd2a49455937649c3cf400">createValueLow</a> (std::string_view name, std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; double &gt; &gt; value)</td></tr>
-<tr class="separator:a2105433a3afd2a49455937649c3cf400"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d7a0f74caa23544dc148df46ff8a75e" id="r_a5d7a0f74caa23544dc148df46ff8a75e"><td class="memItemLeft" align="right" valign="top">template MRVIEWER_API std::optional&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d7a0f74caa23544dc148df46ff8a75e">createValueLow</a> (std::string_view name, std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; std::string &gt; &gt; value)</td></tr>
-<tr class="separator:a5d7a0f74caa23544dc148df46ff8a75e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a235ceb2b953c6ebec11b49f821fcb09c" id="r_a235ceb2b953c6ebec11b49f821fcb09c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a235ceb2b953c6ebec11b49f821fcb09c"><td class="memTemplItemLeft" align="right" valign="top">MRVIEWER_API std::optional&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a235ceb2b953c6ebec11b49f821fcb09c">createValueLow</a> (std::string_view name, std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; T &gt; &gt; value, bool consumeValueOverride=true)</td></tr>
+<tr class="separator:a235ceb2b953c6ebec11b49f821fcb09c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3aabe4b9d6de9b5caeebd0917d94607a" id="r_a3aabe4b9d6de9b5caeebd0917d94607a"><td class="memItemLeft" align="right" valign="top">template MRVIEWER_API std::optional&lt; std::int64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3aabe4b9d6de9b5caeebd0917d94607a">createValueLow</a> (std::string_view name, std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; std::int64_t &gt; &gt; value, bool consumeValueOverride)</td></tr>
+<tr class="separator:a3aabe4b9d6de9b5caeebd0917d94607a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac882563b64f6642213d1e878402bc2a4" id="r_ac882563b64f6642213d1e878402bc2a4"><td class="memItemLeft" align="right" valign="top">template MRVIEWER_API std::optional&lt; std::uint64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac882563b64f6642213d1e878402bc2a4">createValueLow</a> (std::string_view name, std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; std::uint64_t &gt; &gt; value, bool consumeValueOverride)</td></tr>
+<tr class="separator:ac882563b64f6642213d1e878402bc2a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2f7518d44c7eb65bc5d01a679aa92b1" id="r_ac2f7518d44c7eb65bc5d01a679aa92b1"><td class="memItemLeft" align="right" valign="top">template MRVIEWER_API std::optional&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2f7518d44c7eb65bc5d01a679aa92b1">createValueLow</a> (std::string_view name, std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; double &gt; &gt; value, bool consumeValueOverride)</td></tr>
+<tr class="separator:ac2f7518d44c7eb65bc5d01a679aa92b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea3a5234b7dda295afcf90ff4f467aae" id="r_aea3a5234b7dda295afcf90ff4f467aae"><td class="memItemLeft" align="right" valign="top">template MRVIEWER_API std::optional&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea3a5234b7dda295afcf90ff4f467aae">createValueLow</a> (std::string_view name, std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; std::string &gt; &gt; value, bool consumeValueOverride)</td></tr>
+<tr class="separator:aea3a5234b7dda295afcf90ff4f467aae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="a53e30bb144cbf9450486830008c5c039" name="a53e30bb144cbf9450486830008c5c039"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53e30bb144cbf9450486830008c5c039">&#9670;&#160;</a></span>UnderlyingValueType</h2>
+<a id="ab897ec83d6544cb895ed73a8330cfe6e" name="ab897ec83d6544cb895ed73a8330cfe6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab897ec83d6544cb895ed73a8330cfe6e">&#9670;&#160;</a></span>UnderlyingValueType</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -196,7 +206,7 @@ Functions</h2></td></tr>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a53e30bb144cbf9450486830008c5c039">MR::UI::TestEngine::detail::UnderlyingValueType</a> = std::conditional_t&lt;std::is_floating_point_v&lt;T&gt;, double, std::conditional_t&lt;std::is_signed_v&lt;T&gt;, std::int64_t, std::uint64_t&gt;&gt;</td>
+          <td class="memname">using <a class="el" href="#ab897ec83d6544cb895ed73a8330cfe6e">MR::UI::TestEngine::detail::UnderlyingValueType</a> = typename <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1UnderlyingValueTypeHelper.html">UnderlyingValueTypeHelper</a>&lt;T&gt;::type</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -204,8 +214,8 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a2105433a3afd2a49455937649c3cf400" name="a2105433a3afd2a49455937649c3cf400"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2105433a3afd2a49455937649c3cf400">&#9670;&#160;</a></span>createValueLow() <span class="overload">[1/5]</span></h2>
+<a id="ac2f7518d44c7eb65bc5d01a679aa92b1" name="ac2f7518d44c7eb65bc5d01a679aa92b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2f7518d44c7eb65bc5d01a679aa92b1">&#9670;&#160;</a></span>createValueLow() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -221,7 +231,12 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; double &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; double &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>consumeValueOverride</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -233,8 +248,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a7c72ea3bde33ff00b464930de6e47c9e" name="a7c72ea3bde33ff00b464930de6e47c9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c72ea3bde33ff00b464930de6e47c9e">&#9670;&#160;</a></span>createValueLow() <span class="overload">[2/5]</span></h2>
+<a id="a3aabe4b9d6de9b5caeebd0917d94607a" name="a3aabe4b9d6de9b5caeebd0917d94607a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3aabe4b9d6de9b5caeebd0917d94607a">&#9670;&#160;</a></span>createValueLow() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -250,7 +265,12 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; std::int64_t &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; std::int64_t &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>consumeValueOverride</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -262,8 +282,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a5d7a0f74caa23544dc148df46ff8a75e" name="a5d7a0f74caa23544dc148df46ff8a75e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d7a0f74caa23544dc148df46ff8a75e">&#9670;&#160;</a></span>createValueLow() <span class="overload">[3/5]</span></h2>
+<a id="aea3a5234b7dda295afcf90ff4f467aae" name="aea3a5234b7dda295afcf90ff4f467aae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea3a5234b7dda295afcf90ff4f467aae">&#9670;&#160;</a></span>createValueLow() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -279,7 +299,12 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; std::string &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; std::string &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>consumeValueOverride</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -291,8 +316,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a91ccdff327bb3b328fdf4690f9c5cf5c" name="a91ccdff327bb3b328fdf4690f9c5cf5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91ccdff327bb3b328fdf4690f9c5cf5c">&#9670;&#160;</a></span>createValueLow() <span class="overload">[4/5]</span></h2>
+<a id="ac882563b64f6642213d1e878402bc2a4" name="ac882563b64f6642213d1e878402bc2a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac882563b64f6642213d1e878402bc2a4">&#9670;&#160;</a></span>createValueLow() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -308,7 +333,12 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; std::uint64_t &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; std::uint64_t &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>consumeValueOverride</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -320,8 +350,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a014609569932f659d96ae34f34992039" name="a014609569932f659d96ae34f34992039"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a014609569932f659d96ae34f34992039">&#9670;&#160;</a></span>createValueLow() <span class="overload">[5/5]</span></h2>
+<a id="a235ceb2b953c6ebec11b49f821fcb09c" name="a235ceb2b953c6ebec11b49f821fcb09c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a235ceb2b953c6ebec11b49f821fcb09c">&#9670;&#160;</a></span>createValueLow() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -339,7 +369,12 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; T &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">std::optional&lt; <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html">BoundedValue</a>&lt; T &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>consumeValueOverride</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
         </tr>
       </table>
   </td>

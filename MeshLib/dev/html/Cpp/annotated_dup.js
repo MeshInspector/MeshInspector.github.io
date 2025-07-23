@@ -180,7 +180,8 @@ var annotated_dup =
       [ "UI", "namespaceMR_1_1UI.html", [
         [ "TestEngine", "namespaceMR_1_1UI_1_1TestEngine.html", [
           [ "detail", "namespaceMR_1_1UI_1_1TestEngine_1_1detail.html", [
-            [ "BoundedValue", "structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html", "structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue" ]
+            [ "BoundedValue", "structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html", "structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue" ],
+            [ "UnderlyingValueTypeHelper", "structMR_1_1UI_1_1TestEngine_1_1detail_1_1UnderlyingValueTypeHelper.html", null ]
           ] ],
           [ "ButtonEntry", "structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html", "structMR_1_1UI_1_1TestEngine_1_1ButtonEntry" ],
           [ "Entry", "structMR_1_1UI_1_1TestEngine_1_1Entry.html", "structMR_1_1UI_1_1TestEngine_1_1Entry" ],

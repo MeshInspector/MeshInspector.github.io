@@ -1263,6 +1263,7 @@ var hierarchy =
     [ "MR::Features::Traits::Unary< Primitives::ConeSegment >", "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html", null ],
     [ "MR::Features::Traits::Unary< Primitives::Plane >", "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4.html", null ],
     [ "MR::Features::Traits::Unary< Primitives::Sphere >", "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html", null ],
+    [ "MR::UI::TestEngine::detail::UnderlyingValueTypeHelper< T, typename >", "structMR_1_1UI_1_1TestEngine_1_1detail_1_1UnderlyingValueTypeHelper.html", null ],
     [ "MR::UndirectedEdgeIterator", "classMR_1_1UndirectedEdgeIterator.html", null ],
     [ "MR::UndirectedEdgeUndirectedEdge", "structMR_1_1UndirectedEdgeUndirectedEdge.html", null ],
     [ "MR::UnifiedPythonStream", "classMR_1_1UnifiedPythonStream.html", null ],
