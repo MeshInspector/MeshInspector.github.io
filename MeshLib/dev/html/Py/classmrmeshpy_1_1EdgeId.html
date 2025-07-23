@@ -1,0 +1,920 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: mrmeshpy.EdgeId Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmrmeshpy_1_1EdgeId.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="classmrmeshpy_1_1EdgeId-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">mrmeshpy.EdgeId Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for mrmeshpy.EdgeId:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="classmrmeshpy_1_1EdgeId.png" usemap="#mrmeshpy.EdgeId_map" alt=""/>
+  <map id="mrmeshpy.EdgeId_map" name="mrmeshpy.EdgeId_map">
+<area href="classmrmeshpy_1_1NoDefInit__EdgeId.html" alt="mrmeshpy.NoDefInit_EdgeId" shape="rect" coords="0,56,171,80"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a3c97305dd757c69ea42c32fa1bf479b6" id="r_a3c97305dd757c69ea42c32fa1bf479b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c97305dd757c69ea42c32fa1bf479b6">__add__</a> (self, int a)</td></tr>
+<tr class="separator:a3c97305dd757c69ea42c32fa1bf479b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c97305dd757c69ea42c32fa1bf479b6" id="r_a3c97305dd757c69ea42c32fa1bf479b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c97305dd757c69ea42c32fa1bf479b6">__add__</a> (self, int a)</td></tr>
+<tr class="separator:a3c97305dd757c69ea42c32fa1bf479b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c97305dd757c69ea42c32fa1bf479b6" id="r_a3c97305dd757c69ea42c32fa1bf479b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c97305dd757c69ea42c32fa1bf479b6">__add__</a> (self, int a)</td></tr>
+<tr class="separator:a3c97305dd757c69ea42c32fa1bf479b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2dd012420403e1c93adbdddc99c6918" id="r_aa2dd012420403e1c93adbdddc99c6918"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2dd012420403e1c93adbdddc99c6918">__bool__</a> (self)</td></tr>
+<tr class="separator:aa2dd012420403e1c93adbdddc99c6918"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f64d9d74a3fa06604f2e06930e650c2" id="r_a4f64d9d74a3fa06604f2e06930e650c2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f64d9d74a3fa06604f2e06930e650c2">__eq__</a> (self, <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> b)</td></tr>
+<tr class="separator:a4f64d9d74a3fa06604f2e06930e650c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5a60ffdc6b52544e1d3cd4583844670" id="r_ad5a60ffdc6b52544e1d3cd4583844670"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5a60ffdc6b52544e1d3cd4583844670">__iadd__</a> (self, int a)</td></tr>
+<tr class="separator:ad5a60ffdc6b52544e1d3cd4583844670"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e1e1ea61994c3d74ce8cb5c84a567a0" id="r_a1e1e1ea61994c3d74ce8cb5c84a567a0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e1e1ea61994c3d74ce8cb5c84a567a0">__init__</a> (self)</td></tr>
+<tr class="separator:a1e1e1ea61994c3d74ce8cb5c84a567a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad160a6613a8303b72a312e098da48b18" id="r_ad160a6613a8303b72a312e098da48b18"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad160a6613a8303b72a312e098da48b18">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a> u)</td></tr>
+<tr class="separator:ad160a6613a8303b72a312e098da48b18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a485049720234b56a5de136c049116cf8" id="r_a485049720234b56a5de136c049116cf8"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a485049720234b56a5de136c049116cf8">__init__</a> (self, int i)</td></tr>
+<tr class="separator:a485049720234b56a5de136c049116cf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a485049720234b56a5de136c049116cf8" id="r_a485049720234b56a5de136c049116cf8"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a485049720234b56a5de136c049116cf8">__init__</a> (self, int i)</td></tr>
+<tr class="separator:a485049720234b56a5de136c049116cf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a485049720234b56a5de136c049116cf8" id="r_a485049720234b56a5de136c049116cf8"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a485049720234b56a5de136c049116cf8">__init__</a> (self, int i)</td></tr>
+<tr class="separator:a485049720234b56a5de136c049116cf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e11ad12cc822cc236ce11bec24942d1" id="r_a3e11ad12cc822cc236ce11bec24942d1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e11ad12cc822cc236ce11bec24942d1">__int__</a> (self)</td></tr>
+<tr class="separator:a3e11ad12cc822cc236ce11bec24942d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9616ba66c28c039e77729cdcc9895f2f" id="r_a9616ba66c28c039e77729cdcc9895f2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9616ba66c28c039e77729cdcc9895f2f">__isub__</a> (self, int a)</td></tr>
+<tr class="separator:a9616ba66c28c039e77729cdcc9895f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ae53d1201935a5791b17cf33d085993" id="r_a0ae53d1201935a5791b17cf33d085993"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ae53d1201935a5791b17cf33d085993">__ne__</a> (self, <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> b)</td></tr>
+<tr class="separator:a0ae53d1201935a5791b17cf33d085993"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab59afad0d09e4a5738863555c3f2f93" id="r_aab59afad0d09e4a5738863555c3f2f93"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab59afad0d09e4a5738863555c3f2f93">__repr__</a> (self)</td></tr>
+<tr class="separator:aab59afad0d09e4a5738863555c3f2f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa094077356b9def818f721e4e404f05e" id="r_aa094077356b9def818f721e4e404f05e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa094077356b9def818f721e4e404f05e">even</a> (self)</td></tr>
+<tr class="separator:aa094077356b9def818f721e4e404f05e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a957e8280804b9f6067d4fedadf3410ba" id="r_a957e8280804b9f6067d4fedadf3410ba"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a957e8280804b9f6067d4fedadf3410ba">get</a> (self)</td></tr>
+<tr class="separator:a957e8280804b9f6067d4fedadf3410ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25bb177117db4cedf6398f7d41285f18" id="r_a25bb177117db4cedf6398f7d41285f18"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25bb177117db4cedf6398f7d41285f18">odd</a> (self)</td></tr>
+<tr class="separator:a25bb177117db4cedf6398f7d41285f18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6e7512de9bb321d63f50de9c855b2d5" id="r_ac6e7512de9bb321d63f50de9c855b2d5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6e7512de9bb321d63f50de9c855b2d5">operator</a> (self, <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> b)</td></tr>
+<tr class="separator:ac6e7512de9bb321d63f50de9c855b2d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9634f40099eb3381ced21e5fede8087" id="r_ae9634f40099eb3381ced21e5fede8087"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9634f40099eb3381ced21e5fede8087">operator</a> (self)</td></tr>
+<tr class="separator:ae9634f40099eb3381ced21e5fede8087"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88b42ecb87f2c21fd58f5c8f37d853ad" id="r_a88b42ecb87f2c21fd58f5c8f37d853ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88b42ecb87f2c21fd58f5c8f37d853ad">operatorminusminus</a> (self)</td></tr>
+<tr class="separator:a88b42ecb87f2c21fd58f5c8f37d853ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67f5c85aa2f37509925ded5c3da9cd80" id="r_a67f5c85aa2f37509925ded5c3da9cd80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67f5c85aa2f37509925ded5c3da9cd80">sym</a> (self)</td></tr>
+<tr class="separator:a67f5c85aa2f37509925ded5c3da9cd80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0899c9904176510da75f07c984762cc2" id="r_a0899c9904176510da75f07c984762cc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0899c9904176510da75f07c984762cc2">undirected</a> (self)</td></tr>
+<tr class="separator:a0899c9904176510da75f07c984762cc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa56d8f72d2e1ba3cf7d7b6542e0c3e1d" id="r_aa56d8f72d2e1ba3cf7d7b6542e0c3e1d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa56d8f72d2e1ba3cf7d7b6542e0c3e1d">valid</a> (self)</td></tr>
+<tr class="separator:aa56d8f72d2e1ba3cf7d7b6542e0c3e1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a1d8eb82d0526d8bf9f6056db33b34efe" id="r_a1d8eb82d0526d8bf9f6056db33b34efe"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d8eb82d0526d8bf9f6056db33b34efe">__init__</a> (*args, **kwargs)</td></tr>
+<tr class="separator:a1d8eb82d0526d8bf9f6056db33b34efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d8eb82d0526d8bf9f6056db33b34efe" id="r_a1d8eb82d0526d8bf9f6056db33b34efe"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d8eb82d0526d8bf9f6056db33b34efe">__init__</a> (*args, **kwargs)</td></tr>
+<tr class="separator:a1d8eb82d0526d8bf9f6056db33b34efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad05b8de169c80e41bb08fc41574bc2c7" id="r_ad05b8de169c80e41bb08fc41574bc2c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad05b8de169c80e41bb08fc41574bc2c7">operator</a> (*args, **kwargs)</td></tr>
+<tr class="separator:ad05b8de169c80e41bb08fc41574bc2c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad05b8de169c80e41bb08fc41574bc2c7" id="r_ad05b8de169c80e41bb08fc41574bc2c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad05b8de169c80e41bb08fc41574bc2c7">operator</a> (*args, **kwargs)</td></tr>
+<tr class="separator:ad05b8de169c80e41bb08fc41574bc2c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad05b8de169c80e41bb08fc41574bc2c7" id="r_ad05b8de169c80e41bb08fc41574bc2c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad05b8de169c80e41bb08fc41574bc2c7">operator</a> (*args, **kwargs)</td></tr>
+<tr class="separator:ad05b8de169c80e41bb08fc41574bc2c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d1523298932c1ff93c021186784ca1a" id="r_a5d1523298932c1ff93c021186784ca1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d1523298932c1ff93c021186784ca1a">operatorminusminus</a> (*args, **kwargs)</td></tr>
+<tr class="separator:a5d1523298932c1ff93c021186784ca1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Generated from:  MR::EdgeId
+Aliases:  Id_EdgeTag, Vector_Id_EdgeTag_VertId_reference, Vector_Id_EdgeTag_FaceId_reference, std_vector_Id_EdgeTag_value_type, Vector_Id_EdgeTag_VertId_value_type, Vector_Id_EdgeTag_UndirectedEdgeId_value_type, Vector_Id_EdgeTag_Id_EdgeTag_reference, Vector_Id_EdgeTag_Id_EdgeTag_value_type, Vector_Id_EdgeTag_FaceId_value_type, TypedBitSet_Id_EdgeTag_IndexType, std_vector_Id_EdgeTag_const_reference, Id_EdgeTag, std_vector_Id_EdgeTag_reference, Vector_Id_EdgeTag_VertId_const_reference, RingIterator_NextEdgeSameOrigin.value_type, RingIterator_NextEdgeSameLeft.value_type, Id_EdgeTag, Vector_Id_EdgeTag_UndirectedEdgeId_reference, Vector_Id_EdgeTag_FaceId_const_reference, Vector_Id_EdgeTag_Id_EdgeTag_const_reference, Vector_Id_EdgeTag_UndirectedEdgeId_const_reference, Id_EdgeTag
+
+Those are full specializations in `MRId.h`, so `MR_CANONICAL_TYPEDEFS` doesn't work on them.
+Have to add this too.
+</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a1d8eb82d0526d8bf9f6056db33b34efe" name="a1d8eb82d0526d8bf9f6056db33b34efe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d8eb82d0526d8bf9f6056db33b34efe">&#9670;&#160;</a></span>__init__() <span class="overload">[1/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.EdgeId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html#a7e269e3bdff0429bab738aa3fc030964">mrmeshpy.NoDefInit_EdgeId</a>, and <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html#ae4f3e463bba4a2c0e17357ee2197153a">mrmeshpy.NoDefInit_EdgeId</a>.</p>
+
+</div>
+</div>
+<a id="a1d8eb82d0526d8bf9f6056db33b34efe" name="a1d8eb82d0526d8bf9f6056db33b34efe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d8eb82d0526d8bf9f6056db33b34efe">&#9670;&#160;</a></span>__init__() <span class="overload">[2/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.EdgeId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html#a7e269e3bdff0429bab738aa3fc030964">mrmeshpy.NoDefInit_EdgeId</a>, and <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html#ae4f3e463bba4a2c0e17357ee2197153a">mrmeshpy.NoDefInit_EdgeId</a>.</p>
+
+</div>
+</div>
+<a id="a1e1e1ea61994c3d74ce8cb5c84a567a0" name="a1e1e1ea61994c3d74ce8cb5c84a567a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e1e1ea61994c3d74ce8cb5c84a567a0">&#9670;&#160;</a></span>__init__() <span class="overload">[3/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.EdgeId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html#a7e269e3bdff0429bab738aa3fc030964">mrmeshpy.NoDefInit_EdgeId</a>, and <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html#ae4f3e463bba4a2c0e17357ee2197153a">mrmeshpy.NoDefInit_EdgeId</a>.</p>
+
+</div>
+</div>
+<a id="ad160a6613a8303b72a312e098da48b18" name="ad160a6613a8303b72a312e098da48b18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad160a6613a8303b72a312e098da48b18">&#9670;&#160;</a></span>__init__() <span class="overload">[4/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.EdgeId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a></td>          <td class="paramname"><span class="paramname"><em>u</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html#a7e269e3bdff0429bab738aa3fc030964">mrmeshpy.NoDefInit_EdgeId</a>, and <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html#ae4f3e463bba4a2c0e17357ee2197153a">mrmeshpy.NoDefInit_EdgeId</a>.</p>
+
+</div>
+</div>
+<a id="a485049720234b56a5de136c049116cf8" name="a485049720234b56a5de136c049116cf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a485049720234b56a5de136c049116cf8">&#9670;&#160;</a></span>__init__() <span class="overload">[5/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.EdgeId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html#a7e269e3bdff0429bab738aa3fc030964">mrmeshpy.NoDefInit_EdgeId</a>, and <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html#ae4f3e463bba4a2c0e17357ee2197153a">mrmeshpy.NoDefInit_EdgeId</a>.</p>
+
+</div>
+</div>
+<a id="a485049720234b56a5de136c049116cf8" name="a485049720234b56a5de136c049116cf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a485049720234b56a5de136c049116cf8">&#9670;&#160;</a></span>__init__() <span class="overload">[6/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.EdgeId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html#a7e269e3bdff0429bab738aa3fc030964">mrmeshpy.NoDefInit_EdgeId</a>, and <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html#ae4f3e463bba4a2c0e17357ee2197153a">mrmeshpy.NoDefInit_EdgeId</a>.</p>
+
+</div>
+</div>
+<a id="a485049720234b56a5de136c049116cf8" name="a485049720234b56a5de136c049116cf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a485049720234b56a5de136c049116cf8">&#9670;&#160;</a></span>__init__() <span class="overload">[7/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.EdgeId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html#a7e269e3bdff0429bab738aa3fc030964">mrmeshpy.NoDefInit_EdgeId</a>, and <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html#ae4f3e463bba4a2c0e17357ee2197153a">mrmeshpy.NoDefInit_EdgeId</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a3c97305dd757c69ea42c32fa1bf479b6" name="a3c97305dd757c69ea42c32fa1bf479b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c97305dd757c69ea42c32fa1bf479b6">&#9670;&#160;</a></span>__add__() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> mrmeshpy.EdgeId.__add__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3c97305dd757c69ea42c32fa1bf479b6" name="a3c97305dd757c69ea42c32fa1bf479b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c97305dd757c69ea42c32fa1bf479b6">&#9670;&#160;</a></span>__add__() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> mrmeshpy.EdgeId.__add__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3c97305dd757c69ea42c32fa1bf479b6" name="a3c97305dd757c69ea42c32fa1bf479b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c97305dd757c69ea42c32fa1bf479b6">&#9670;&#160;</a></span>__add__() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> mrmeshpy.EdgeId.__add__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa2dd012420403e1c93adbdddc99c6918" name="aa2dd012420403e1c93adbdddc99c6918"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2dd012420403e1c93adbdddc99c6918">&#9670;&#160;</a></span>__bool__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.EdgeId.__bool__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4f64d9d74a3fa06604f2e06930e650c2" name="a4f64d9d74a3fa06604f2e06930e650c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f64d9d74a3fa06604f2e06930e650c2">&#9670;&#160;</a></span>__eq__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.EdgeId.__eq__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad5a60ffdc6b52544e1d3cd4583844670" name="ad5a60ffdc6b52544e1d3cd4583844670"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5a60ffdc6b52544e1d3cd4583844670">&#9670;&#160;</a></span>__iadd__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> mrmeshpy.EdgeId.__iadd__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3e11ad12cc822cc236ce11bec24942d1" name="a3e11ad12cc822cc236ce11bec24942d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e11ad12cc822cc236ce11bec24942d1">&#9670;&#160;</a></span>__int__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int mrmeshpy.EdgeId.__int__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9616ba66c28c039e77729cdcc9895f2f" name="a9616ba66c28c039e77729cdcc9895f2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9616ba66c28c039e77729cdcc9895f2f">&#9670;&#160;</a></span>__isub__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> mrmeshpy.EdgeId.__isub__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0ae53d1201935a5791b17cf33d085993" name="a0ae53d1201935a5791b17cf33d085993"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ae53d1201935a5791b17cf33d085993">&#9670;&#160;</a></span>__ne__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.EdgeId.__ne__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aab59afad0d09e4a5738863555c3f2f93" name="aab59afad0d09e4a5738863555c3f2f93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab59afad0d09e4a5738863555c3f2f93">&#9670;&#160;</a></span>__repr__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> str mrmeshpy.EdgeId.__repr__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html#a86f2b2dd93062a20d160ad32be317f64">mrmeshpy.NoDefInit_EdgeId</a>.</p>
+
+</div>
+</div>
+<a id="aa094077356b9def818f721e4e404f05e" name="aa094077356b9def818f721e4e404f05e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa094077356b9def818f721e4e404f05e">&#9670;&#160;</a></span>even()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.EdgeId.even </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">among each pair of sym-edges: one is always even and the other is odd
+</pre> 
+</div>
+</div>
+<a id="a957e8280804b9f6067d4fedadf3410ba" name="a957e8280804b9f6067d4fedadf3410ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a957e8280804b9f6067d4fedadf3410ba">&#9670;&#160;</a></span>get()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int mrmeshpy.EdgeId.get </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a25bb177117db4cedf6398f7d41285f18" name="a25bb177117db4cedf6398f7d41285f18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25bb177117db4cedf6398f7d41285f18">&#9670;&#160;</a></span>odd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.EdgeId.odd </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad05b8de169c80e41bb08fc41574bc2c7" name="ad05b8de169c80e41bb08fc41574bc2c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad05b8de169c80e41bb08fc41574bc2c7">&#9670;&#160;</a></span>operator() <span class="overload">[1/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> mrmeshpy.EdgeId.operator </td>
+          <td>(</td>
+          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html#abf63209c7124b1bfb43f479b7cc57668">mrmeshpy.NoDefInit_EdgeId</a>, and <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html#abf63209c7124b1bfb43f479b7cc57668">mrmeshpy.NoDefInit_EdgeId</a>.</p>
+
+</div>
+</div>
+<a id="ad05b8de169c80e41bb08fc41574bc2c7" name="ad05b8de169c80e41bb08fc41574bc2c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad05b8de169c80e41bb08fc41574bc2c7">&#9670;&#160;</a></span>operator() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> mrmeshpy.EdgeId.operator </td>
+          <td>(</td>
+          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html#abf63209c7124b1bfb43f479b7cc57668">mrmeshpy.NoDefInit_EdgeId</a>, and <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html#abf63209c7124b1bfb43f479b7cc57668">mrmeshpy.NoDefInit_EdgeId</a>.</p>
+
+</div>
+</div>
+<a id="ad05b8de169c80e41bb08fc41574bc2c7" name="ad05b8de169c80e41bb08fc41574bc2c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad05b8de169c80e41bb08fc41574bc2c7">&#9670;&#160;</a></span>operator() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> mrmeshpy.EdgeId.operator </td>
+          <td>(</td>
+          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html#abf63209c7124b1bfb43f479b7cc57668">mrmeshpy.NoDefInit_EdgeId</a>, and <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html#abf63209c7124b1bfb43f479b7cc57668">mrmeshpy.NoDefInit_EdgeId</a>.</p>
+
+</div>
+</div>
+<a id="ae9634f40099eb3381ced21e5fede8087" name="ae9634f40099eb3381ced21e5fede8087"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9634f40099eb3381ced21e5fede8087">&#9670;&#160;</a></span>operator() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> mrmeshpy.EdgeId.operator </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html#abf63209c7124b1bfb43f479b7cc57668">mrmeshpy.NoDefInit_EdgeId</a>, and <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html#abf63209c7124b1bfb43f479b7cc57668">mrmeshpy.NoDefInit_EdgeId</a>.</p>
+
+</div>
+</div>
+<a id="ac6e7512de9bb321d63f50de9c855b2d5" name="ac6e7512de9bb321d63f50de9c855b2d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6e7512de9bb321d63f50de9c855b2d5">&#9670;&#160;</a></span>operator() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.EdgeId.operator </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html#abf63209c7124b1bfb43f479b7cc57668">mrmeshpy.NoDefInit_EdgeId</a>, and <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html#abf63209c7124b1bfb43f479b7cc57668">mrmeshpy.NoDefInit_EdgeId</a>.</p>
+
+</div>
+</div>
+<a id="a5d1523298932c1ff93c021186784ca1a" name="a5d1523298932c1ff93c021186784ca1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d1523298932c1ff93c021186784ca1a">&#9670;&#160;</a></span>operatorminusminus() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> mrmeshpy.EdgeId.operatorminusminus </td>
+          <td>(</td>
+          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a88b42ecb87f2c21fd58f5c8f37d853ad" name="a88b42ecb87f2c21fd58f5c8f37d853ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88b42ecb87f2c21fd58f5c8f37d853ad">&#9670;&#160;</a></span>operatorminusminus() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> mrmeshpy.EdgeId.operatorminusminus </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a67f5c85aa2f37509925ded5c3da9cd80" name="a67f5c85aa2f37509925ded5c3da9cd80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67f5c85aa2f37509925ded5c3da9cd80">&#9670;&#160;</a></span>sym()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> mrmeshpy.EdgeId.sym </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns identifier of the edge with same ends but opposite orientation
+</pre> 
+</div>
+</div>
+<a id="a0899c9904176510da75f07c984762cc2" name="a0899c9904176510da75f07c984762cc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0899c9904176510da75f07c984762cc2">&#9670;&#160;</a></span>undirected()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a> mrmeshpy.EdgeId.undirected </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns unique identifier of the edge ignoring its direction
+</pre> 
+</div>
+</div>
+<a id="aa56d8f72d2e1ba3cf7d7b6542e0c3e1d" name="aa56d8f72d2e1ba3cf7d7b6542e0c3e1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa56d8f72d2e1ba3cf7d7b6542e0c3e1d">&#9670;&#160;</a></span>valid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.EdgeId.valid </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

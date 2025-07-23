@@ -462,7 +462,7 @@ var annotated_dup =
       [ "ICPPairData", "structMR_1_1ICPPairData.html", "structMR_1_1ICPPairData" ],
       [ "ICPProperties", "structMR_1_1ICPProperties.html", "structMR_1_1ICPProperties" ],
       [ "Id", "classMR_1_1Id.html", "classMR_1_1Id" ],
-      [ "Id< MR::EdgeTag >", "classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html", "classMR_1_1Id_3_01MR_1_1EdgeTag_01_4" ],
+      [ "Id< EdgeTag >", "classMR_1_1Id_3_01EdgeTag_01_4.html", "classMR_1_1Id_3_01EdgeTag_01_4" ],
       [ "Id< VoxelTag >", "classMR_1_1Id_3_01VoxelTag_01_4.html", "classMR_1_1Id_3_01VoxelTag_01_4" ],
       [ "IDragDropHandler", "classMR_1_1IDragDropHandler.html", "classMR_1_1IDragDropHandler" ],
       [ "IdRange", "structMR_1_1IdRange.html", "structMR_1_1IdRange" ],

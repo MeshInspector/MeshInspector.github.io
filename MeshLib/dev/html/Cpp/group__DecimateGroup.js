@@ -57,5 +57,5 @@ var group__DecimateGroup =
     [ "MR::decimateMesh", "group__DecimateGroup.html#ga16a994862b0ba8f6a68c61463be0ed4e", null ],
     [ "MR::decimatePolyline", "group__DecimateGroup.html#gaf0964e80dba508fbc0d34272d3192cb8", null ],
     [ "MR::getSubdividePart", "group__DecimateGroup.html#ga68a943035521cac62a80a1f864147c6e", null ],
-    [ "MR::resolveMeshDegenerations", "group__DecimateGroup.html#ga881bb2eecb81e65b51d1cb8a52340637", null ]
+    [ "MR::resolveMeshDegenerations", "group__DecimateGroup.html#ga6443215e3574c3d30449618cf493e5a6", null ]
 ];
