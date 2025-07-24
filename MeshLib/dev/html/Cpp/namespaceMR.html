@@ -3444,8 +3444,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ac19d6db4200945b6861959bd421a41e1" id="r_ac19d6db4200945b6861959bd421a41e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac19d6db4200945b6861959bd421a41e1">makeCube</a> (const Vector3f &amp;<a class="el" href="#a306ff1f62992b3eb33c446913b64188a">size</a>=Vector3f::diagonal(1.0f), const Vector3f &amp;base=Vector3f::diagonal(-0.5f))</td></tr>
 <tr class="separator:ac19d6db4200945b6861959bd421a41e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1571f99defeafc3a60cd29ea066e44f6" id="r_a1571f99defeafc3a60cd29ea066e44f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1571f99defeafc3a60cd29ea066e44f6">makeParallelepiped</a> (const Vector3f side[3], const Vector3f &amp;base)</td></tr>
+<tr class="memdesc:a1571f99defeafc3a60cd29ea066e44f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates parallelepiped mesh with given min-corner <code>base</code> and given directional vectors <code>size</code>  <br /></td></tr>
 <tr class="separator:a1571f99defeafc3a60cd29ea066e44f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34cf31e5bb655c7594410751730ae87e" id="r_a34cf31e5bb655c7594410751730ae87e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34cf31e5bb655c7594410751730ae87e">makeBoxMesh</a> (const Box3f &amp;box)</td></tr>
+<tr class="memdesc:a34cf31e5bb655c7594410751730ae87e"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates mesh visualizing a box  <br /></td></tr>
 <tr class="separator:a34cf31e5bb655c7594410751730ae87e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a614c1bac311ca816914abbd3a4602dc4" id="r_a614c1bac311ca816914abbd3a4602dc4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a614c1bac311ca816914abbd3a4602dc4">makeCylinder</a> (float radius=0.1f, float <a class="el" href="MRObjectDimensionsEnum_8h.html#af9d495c1655d813d553030485d00fea7">length</a>=1.0f, int resolution=16)</td></tr>
 <tr class="separator:a614c1bac311ca816914abbd3a4602dc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -26838,6 +26840,8 @@ template&lt;typename V , typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>creates mesh visualizing a box </p>
+
 </div>
 </div>
 <a id="a6442f7744bc0c8f190de09111e15d398" name="a6442f7744bc0c8f190de09111e15d398"></a>
@@ -27062,6 +27066,7 @@ template&lt;typename V , typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>creates box mesh with given min-corner (base) and given size in every dimension; with default parameters, creates unit cube mesh with the centroid in (0,0,0) </p>
 
 </div>
 </div>
@@ -27597,6 +27602,8 @@ template&lt;typename ... P&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>creates parallelepiped mesh with given min-corner <code>base</code> and given directional vectors <code>size</code> </p>
 
 </div>
 </div>
