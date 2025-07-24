@@ -1,6 +1,6 @@
 var MRIOParsing_8h =
 [
-    [ "getStreamSize", "MRIOParsing_8h.html#afddcd5cd9466d41302c0ec4d1ee83c96", null ],
+    [ "getStreamSize", "MRIOParsing_8h.html#a9be91ad29789728749e8cc2621a72e6f", null ],
     [ "parseAscCoordinate", "MRIOParsing_8h.html#afb031d90c2eaeddbeac77675cec10847", null ],
     [ "parseFirstNum", "MRIOParsing_8h.html#ac31683380e84bd274a20968c64c5f40a", null ],
     [ "parseObjCoordinate", "MRIOParsing_8h.html#ac7c4deb2569e6bc78bcb6210851b70a9", null ],
