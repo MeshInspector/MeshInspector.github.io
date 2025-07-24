@@ -1,5 +1,9 @@
 var NAVTREEINDEX66 =
 {
+"structMRFlaggedTri.html#a32417715b4210e0dedaa10e63f3a36c4":[6,0,2,0,23,0],
+"structMRGeneralOffsetParameters.html":[6,0,2,0,24],
+"structMRGeneralOffsetParameters.html#a6454b2dc3be343dcde33f1b2dd858e82":[6,0,2,0,24,0],
+"structMRGeneralOffsetParameters.html#a97c106a0d08d33bd2ff6e5d627c4a3dc":[6,0,2,0,24,3],
 "structMRGeneralOffsetParameters.html#ad25e50ec04b42c4e5ad4082003a5c60f":[6,0,2,0,24,4],
 "structMRGeneralOffsetParameters.html#ad804797bf1bd45935796bb4ff70ea6b0":[6,0,2,0,24,1],
 "structMRGeneralOffsetParameters.html#ae8244d3aad0d35aa2842bd951b462595":[6,0,2,0,24,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1AABBTreeNode.html#a50c87fc6c0f27587748dc7f642b5d8a6":[6,0,0,1,4,2],
 "structMR_1_1AABBTreeNode.html#a5c90c7ee746d8e3f67062655f733dea0":[6,0,0,1,4,5],
 "structMR_1_1AABBTreeNode.html#ac745781b04cbfa210bd5d3005b17e084":[6,0,0,1,4,4],
-"structMR_1_1AABBTreeNode.html#ad0fe7c78e4582c2e180ff4e052c83d0b":[6,0,0,1,4,3],
-"structMR_1_1AABBTreeNode.html#af92cbed18c9ddfbf28d0e86385fc6e01":[6,0,0,1,4,0],
-"structMR_1_1AABBTreePoints_1_1Node.html":[6,0,0,1,7,0],
-"structMR_1_1AABBTreePoints_1_1Node.html#a0951e423adb41a83132b36c18125f02b":[6,0,0,1,7,0,2],
-"structMR_1_1AABBTreePoints_1_1Node.html#a2153d4fd7d12b27618511103c9080df3":[6,0,0,1,7,0,3]
+"structMR_1_1AABBTreeNode.html#ad0fe7c78e4582c2e180ff4e052c83d0b":[6,0,0,1,4,3]
 };

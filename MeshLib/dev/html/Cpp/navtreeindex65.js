@@ -1,5 +1,9 @@
 var NAVTREEINDEX65 =
 {
+"namespaceMR_1_1VoxelsSave.html#a8b7a3d30f9b81594b08a8a90828dd8e6":[6,0,1,0,1,41,10],
+"namespaceMR_1_1WeightedShell.html":[6,0,1,0,1,42],
+"namespaceMR_1_1WeightedShell.html#a01eafebe7cd6350d108fb538e558fb12":[6,0,1,0,1,42,13],
+"namespaceMR_1_1WeightedShell.html#a073bb16262b665c98e72cbc2da3afc40":[6,0,1,0,1,42,11],
 "namespaceMR_1_1WeightedShell.html#a33b0f3cc490481ebb0f62010cf20518e":[6,0,1,0,1,42,10],
 "namespaceMR_1_1WeightedShell.html#a3e108c56779c35179e76f309f651b3ae":[6,0,1,0,1,42,5],
 "namespaceMR_1_1WeightedShell.html#a54580de8838b073a4531d9f3149ea22e":[6,0,1,0,1,42,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX65 =
 "structMRFixSelfIntersectionsSettings.html#a9eabd5534d3638bdf13a009200ffe2eb":[6,0,2,0,22,5],
 "structMRFixSelfIntersectionsSettings.html#adb399a8ab2d7e6e50f4a4f48334e7c62":[6,0,2,0,22,0],
 "structMRFlaggedTri.html":[6,0,2,0,23],
-"structMRFlaggedTri.html#a0a653630498562477d2d77fdc843e4bd":[6,0,2,0,23,1],
-"structMRFlaggedTri.html#a32417715b4210e0dedaa10e63f3a36c4":[6,0,2,0,23,0],
-"structMRGeneralOffsetParameters.html":[6,0,2,0,24],
-"structMRGeneralOffsetParameters.html#a6454b2dc3be343dcde33f1b2dd858e82":[6,0,2,0,24,0],
-"structMRGeneralOffsetParameters.html#a97c106a0d08d33bd2ff6e5d627c4a3dc":[6,0,2,0,24,3]
+"structMRFlaggedTri.html#a0a653630498562477d2d77fdc843e4bd":[6,0,2,0,23,1]
 };

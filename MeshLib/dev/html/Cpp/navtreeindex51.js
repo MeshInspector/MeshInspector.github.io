@@ -1,5 +1,9 @@
 var NAVTREEINDEX51 =
 {
+"classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5a28f16f91e9d9bf0f446669e4cdd98750":[6,0,0,17,2,1,0,2],
+"classMR_1_1VolumeSegmenter.html#a892a75dc2e76c1953d6968a1cdefe8b5ac24c0463f4a46b890b5cac084adf0d2f":[6,0,0,17,2,1,0,1],
+"classMR_1_1VolumeSegmenter.html#a8accea0d8e4c056fb387513d10d41640":[6,0,0,17,2,1,9],
+"classMR_1_1VolumeSegmenter.html#ab7609ff9b44fa7139370e8384ef35ced":[6,0,0,17,2,1,1],
 "classMR_1_1VolumeSegmenter.html#ad6047f29bf52a2e1859c00880382c6f0":[6,0,0,17,2,1,6],
 "classMR_1_1VolumeSegmenter.html#aeee33a2e1bd2471294daeaa604369631":[6,0,0,17,2,1,2],
 "classMR_1_1VoxelsVolumeAccessor.html":[6,0,1,0,1,799],
@@ -245,9 +249,5 @@ var NAVTREEINDEX51 =
 "dir_dde369ebb89469603743f5002eed69cd.html":[6,0,3,0,0],
 "dir_ef0277a89d5fb9bebf121b9e6c2cecc9.html":[6,0,3,0,0,1,8],
 "files.html":[6,0,3,0],
-"functions.html":[6,0,2,3,0],
-"functions.html":[6,0,2,3,0,0],
-"functions_a.html":[6,0,2,3,0,1],
-"functions_b.html":[6,0,2,3,0,2],
-"functions_c.html":[6,0,2,3,0,3]
+"functions.html":[6,0,2,3,0]
 };

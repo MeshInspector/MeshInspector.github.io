@@ -1,5 +1,9 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1DetectTunnelSettings.html#a27a0181891bd9064803eb7608e3f0e10":[6,0,0,16,4,0,0],
+"structMR_1_1DetectTunnelSettings.html#abce133e9001f28cbce044fc8c1206ace":[6,0,0,16,4,0,1],
+"structMR_1_1DetectTunnelSettings.html#ae823ab96c2d11f1cccba5d61003a1202":[6,0,0,16,4,0,3],
+"structMR_1_1Dipole.html":[6,0,1,0,1,182],
 "structMR_1_1Dipole.html":[6,0,2,0,1,166],
 "structMR_1_1Dipole.html#a778dc3bfc3f81905b9e4922c640bb584":[6,0,1,0,1,182,4],
 "structMR_1_1Dipole.html#a778dc3bfc3f81905b9e4922c640bb584":[6,0,2,0,1,166,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1DrawButtonParams.html#acf1bfc8da08f0a97639e95b6aeacdde1":[6,0,2,0,1,191,4],
 "structMR_1_1DrawButtonParams.html#ad592bb614e9ec6cf631c4eb003a17103":[6,0,1,0,1,207,2],
 "structMR_1_1DrawButtonParams.html#ad592bb614e9ec6cf631c4eb003a17103":[6,0,2,0,1,191,2],
-"structMR_1_1DrawButtonParams.html#ada71047555900f3fca184da6a1aaa1f8":[6,0,1,0,1,207,6],
-"structMR_1_1DrawButtonParams.html#ada71047555900f3fca184da6a1aaa1f8":[6,0,2,0,1,191,6],
-"structMR_1_1DrawButtonParams.html#ae484e8e2139ec5d170493607d8987a20":[6,0,1,0,1,207,3],
-"structMR_1_1DrawButtonParams.html#ae484e8e2139ec5d170493607d8987a20":[6,0,2,0,1,191,3],
-"structMR_1_1DrawButtonParams.html#afd107444ea803e1dded92f25f9366332":[6,0,1,0,1,207,8]
+"structMR_1_1DrawButtonParams.html#ada71047555900f3fca184da6a1aaa1f8":[6,0,1,0,1,207,6]
 };

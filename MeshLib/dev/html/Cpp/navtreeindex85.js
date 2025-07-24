@@ -1,5 +1,9 @@
 var NAVTREEINDEX85 =
 {
+"structMR_1_1RibbonMenu_1_1DialogItemPtr.html#aeb25a7d0ddadeeeda6f7ca36d711642b":[6,0,1,0,1,596,0,1],
+"structMR_1_1RibbonMenu_1_1DialogItemPtr.html#aeb25a7d0ddadeeeda6f7ca36d711642b":[6,0,2,0,1,580,0,1],
+"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html":[6,0,1,0,1,596,1],
+"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html":[6,0,2,0,1,580,1],
 "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a0b1bb44ee2f0cfdbab7b516b3ce2a6f8":[6,0,1,0,1,596,1,1],
 "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a0b1bb44ee2f0cfdbab7b516b3ce2a6f8":[6,0,2,0,1,580,1,1],
 "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a2c5115679d5b077be3479e377e7951b1":[6,0,1,0,1,596,1,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX85 =
 "structMR_1_1SelfIntersections_1_1Settings.html#aface1dd6cc60f50dd76186b73d130994":[6,0,1,0,1,35,0,3],
 "structMR_1_1SelfIntersections_1_1Settings.html#aface1dd6cc60f50dd76186b73d130994":[6,0,2,0,1,21,0,3],
 "structMR_1_1SeparationPointStorage_1_1Block.html":[6,0,1,0,1,653,0],
-"structMR_1_1SeparationPointStorage_1_1Block.html":[6,0,2,0,1,637,0],
-"structMR_1_1SeparationPointStorage_1_1Block.html#a171fe956486e01cdfdddedaedd905ca4":[6,0,1,0,1,653,0,4],
-"structMR_1_1SeparationPointStorage_1_1Block.html#a171fe956486e01cdfdddedaedd905ca4":[6,0,2,0,1,637,0,4],
-"structMR_1_1SeparationPointStorage_1_1Block.html#a2ef8d933c08326819afd1d2681a5446c":[6,0,1,0,1,653,0,0],
-"structMR_1_1SeparationPointStorage_1_1Block.html#a2ef8d933c08326819afd1d2681a5446c":[6,0,2,0,1,637,0,0]
+"structMR_1_1SeparationPointStorage_1_1Block.html":[6,0,2,0,1,637,0]
 };

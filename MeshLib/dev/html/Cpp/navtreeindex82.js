@@ -1,5 +1,9 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1PickPointManager_1_1Params.html#afe6cd509f46b4a6314633f8438729160":[6,0,2,0,1,477,1,3],
+"structMR_1_1PickPointManager_1_1WidgetHistoryAction.html":[6,0,1,0,1,493,2],
+"structMR_1_1PickPointManager_1_1WidgetHistoryAction.html":[6,0,2,0,1,477,2],
+"structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html":[6,0,1,0,1,24,0],
 "structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html":[6,0,2,0,1,14,0],
 "structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html#a6f9aeb8021200fb928ae34fe6ab4c932":[6,0,1,0,1,24,0,0],
 "structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html#a6f9aeb8021200fb928ae34fe6ab4c932":[6,0,2,0,1,14,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1PointsToMeshParameters.html#af3662f6cb85200f4c4cda226fbccd906":[6,0,2,0,1,504,2],
 "structMR_1_1Polyline.html":[6,0,0,14,0],
 "structMR_1_1Polyline.html#a0127bea8e352025d57d7b71fccf78b15":[6,0,0,14,0,18],
-"structMR_1_1Polyline.html#a036db71418e9c25f3d9fc51772ce4e6a":[6,0,0,14,0,34],
-"structMR_1_1Polyline.html#a09efa3e658e95b29f1dea8f362d18289":[6,0,0,14,0,19],
-"structMR_1_1Polyline.html#a17426532df4513648d6e3d0212e8f334":[6,0,0,14,0,33],
-"structMR_1_1Polyline.html#a21cfd60868c3fbabcfda71008f98cfa1":[6,0,0,14,0,4],
-"structMR_1_1Polyline.html#a29635bdcaade26236bf38e9044e1605a":[6,0,0,14,0,14]
+"structMR_1_1Polyline.html#a036db71418e9c25f3d9fc51772ce4e6a":[6,0,0,14,0,34]
 };

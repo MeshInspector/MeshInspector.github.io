@@ -74,6 +74,8 @@ var NAVTREEINDEX22 =
 "classMR_1_1Cuda_1_1Polyline2DataHolder.html":[6,0,2,0,1,0,3],
 "classMR_1_1Cuda_1_1Polyline2DataHolder.html#a1729fda1729e6bd5a1671328387fe837":[6,0,1,0,1,2,3,0],
 "classMR_1_1Cuda_1_1Polyline2DataHolder.html#a1729fda1729e6bd5a1671328387fe837":[6,0,2,0,1,0,3,0],
+"classMR_1_1Cuda_1_1Polyline2DataHolder.html#a846ac998311e26ed3cd24d1ef02bfe0e":[6,0,1,0,1,2,3,2],
+"classMR_1_1Cuda_1_1Polyline2DataHolder.html#a846ac998311e26ed3cd24d1ef02bfe0e":[6,0,2,0,1,0,3,2],
 "classMR_1_1Cuda_1_1Polyline2DataHolder.html#a873e86e29f26d7240ef0f5af3a33a09b":[6,0,1,0,1,2,3,1],
 "classMR_1_1Cuda_1_1Polyline2DataHolder.html#a873e86e29f26d7240ef0f5af3a33a09b":[6,0,2,0,1,0,3,1],
 "classMR_1_1Cuda_1_1Polyline3DataHolder.html":[6,0,1,0,1,2,4],
@@ -82,6 +84,8 @@ var NAVTREEINDEX22 =
 "classMR_1_1Cuda_1_1Polyline3DataHolder.html#a04f15619513a940e7cacfbe557fc1e33":[6,0,2,0,1,0,4,0],
 "classMR_1_1Cuda_1_1Polyline3DataHolder.html#adc41414a7dc000e8e67b69071b46b5be":[6,0,1,0,1,2,4,1],
 "classMR_1_1Cuda_1_1Polyline3DataHolder.html#adc41414a7dc000e8e67b69071b46b5be":[6,0,2,0,1,0,4,1],
+"classMR_1_1Cuda_1_1Polyline3DataHolder.html#aecfc59333194330bf7ae00e311c04315":[6,0,1,0,1,2,4,2],
+"classMR_1_1Cuda_1_1Polyline3DataHolder.html#aecfc59333194330bf7ae00e311c04315":[6,0,2,0,1,0,4,2],
 "classMR_1_1Cylinder3.html":[6,0,1,0,1,168],
 "classMR_1_1Cylinder3.html":[6,0,2,0,1,152],
 "classMR_1_1Cylinder3.html#a1badba33dd4c2e2d83af7d18fdb2e605":[6,0,1,0,1,168,9],
@@ -245,9 +249,5 @@ var NAVTREEINDEX22 =
 "classMR_1_1DistanceMap.html#a40ae747ad28a6f966d16e3359c140eb3":[6,0,0,5,0,5],
 "classMR_1_1DistanceMap.html#a4488979d529038d712bb847568b214d1":[6,0,0,5,0,0],
 "classMR_1_1DistanceMap.html#a44e3e39d8848d52746a65a044453a974":[6,0,0,5,0,17],
-"classMR_1_1DistanceMap.html#a491d7051e8163ff54790e25895c36105":[6,0,0,5,0,11],
-"classMR_1_1DistanceMap.html#a4daec07560aee52f20284d13d4c65844":[6,0,0,5,0,28],
-"classMR_1_1DistanceMap.html#a53691beaee2c175c2cf0440a27911d15":[6,0,0,5,0,26],
-"classMR_1_1DistanceMap.html#a55389356dd0df5de1c041e73baa076f7":[6,0,0,5,0,37],
-"classMR_1_1DistanceMap.html#a5ca222a772dcddb16e0ca704fdb91f4f":[6,0,0,5,0,1]
+"classMR_1_1DistanceMap.html#a491d7051e8163ff54790e25895c36105":[6,0,0,5,0,11]
 };
