@@ -1,5 +1,9 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1PickPointManager_1_1Params.html#af2fa5fa03ddcb2645c4f22130a4a50da":[6,0,2,0,1,477,1,0],
+"structMR_1_1PickPointManager_1_1Params.html#af54f28c00b155e235b24194892d305e2":[6,0,1,0,1,493,1,13],
+"structMR_1_1PickPointManager_1_1Params.html#af54f28c00b155e235b24194892d305e2":[6,0,2,0,1,477,1,13],
+"structMR_1_1PickPointManager_1_1Params.html#afe6cd509f46b4a6314633f8438729160":[6,0,1,0,1,493,1,3],
 "structMR_1_1PickPointManager_1_1Params.html#afe6cd509f46b4a6314633f8438729160":[6,0,2,0,1,477,1,3],
 "structMR_1_1PickPointManager_1_1WidgetHistoryAction.html":[6,0,1,0,1,493,2],
 "structMR_1_1PickPointManager_1_1WidgetHistoryAction.html":[6,0,2,0,1,477,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1PointsToMeshParameters.html#a8b138263fc573979abd2164776d90cf1":[6,0,2,0,1,504,1],
 "structMR_1_1PointsToMeshParameters.html#ad30c0a7b27c4a1b5818cb7fc981403c3":[6,0,1,0,1,520,5],
 "structMR_1_1PointsToMeshParameters.html#ad30c0a7b27c4a1b5818cb7fc981403c3":[6,0,2,0,1,504,5],
-"structMR_1_1PointsToMeshParameters.html#af3662f6cb85200f4c4cda226fbccd906":[6,0,1,0,1,520,2],
-"structMR_1_1PointsToMeshParameters.html#af3662f6cb85200f4c4cda226fbccd906":[6,0,2,0,1,504,2],
-"structMR_1_1Polyline.html":[6,0,0,14,0],
-"structMR_1_1Polyline.html#a0127bea8e352025d57d7b71fccf78b15":[6,0,0,14,0,18],
-"structMR_1_1Polyline.html#a036db71418e9c25f3d9fc51772ce4e6a":[6,0,0,14,0,34]
+"structMR_1_1PointsToMeshParameters.html#af3662f6cb85200f4c4cda226fbccd906":[6,0,1,0,1,520,2]
 };

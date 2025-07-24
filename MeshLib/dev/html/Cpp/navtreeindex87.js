@@ -1,5 +1,9 @@
 var NAVTREEINDEX87 =
 {
+"structMR_1_1SubdivideSettings.html#adf497f2181525852eaeee09ce71fb476":[6,0,0,9,7,0,3],
+"structMR_1_1SubdivideSettings.html#af4c50e1143edfb7886c734be3226ff9d":[6,0,0,9,7,0,9],
+"structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413":[6,0,0,9,7,0,11],
+"structMR_1_1SubdivideSettings.html#aff0af54aeab721522fe62a3eab94a74d":[6,0,0,9,7,0,5],
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html":[6,0,1,0,1,697,0],
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html":[6,0,2,0,1,681,0],
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a112aadc006f7ece0404c1cbe603783cd":[6,0,1,0,1,697,0,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX87 =
 "structMR_1_1ToolPathResult.html#a327bcaceb046cef6859ddc1293a47e35":[6,0,1,0,1,718,0],
 "structMR_1_1ToolPathResult.html#a327bcaceb046cef6859ddc1293a47e35":[6,0,2,0,1,702,0],
 "structMR_1_1ToolPathResult.html#a98b818ec1b422fbe35f5efd57ff37a44":[6,0,1,0,1,718,2],
-"structMR_1_1ToolPathResult.html#a98b818ec1b422fbe35f5efd57ff37a44":[6,0,2,0,1,702,2],
-"structMR_1_1ToolPathResult.html#ae495a5fc24540b7eaf1210872ac5fb3e":[6,0,1,0,1,718,1],
-"structMR_1_1ToolPathResult.html#ae495a5fc24540b7eaf1210872ac5fb3e":[6,0,2,0,1,702,1],
-"structMR_1_1TouchEndListener.html":[6,0,1,0,1,719],
-"structMR_1_1TouchEndListener.html":[6,0,2,0,1,703]
+"structMR_1_1ToolPathResult.html#a98b818ec1b422fbe35f5efd57ff37a44":[6,0,2,0,1,702,2]
 };

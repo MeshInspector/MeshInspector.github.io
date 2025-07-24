@@ -1,5 +1,7 @@
 var NAVTREEINDEX11 =
 {
+"MRObjectFactory_8h_source.html":[6,0,3,0,0,1,4,248],
+"MRObjectGcode_8h.html":[6,0,3,0,0,1,4,249],
 "MRObjectGcode_8h_source.html":[6,0,3,0,0,1,4,249],
 "MRObjectImGuiLabel_8h.html":[6,0,3,0,0,1,10,53],
 "MRObjectImGuiLabel_8h_source.html":[6,0,3,0,0,1,10,53],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "MRPointToPointAligningTransform_8h_source.html":[6,0,3,0,0,1,4,297],
 "MRPointsComponents_8h.html":[6,0,3,0,0,1,4,288],
 "MRPointsComponents_8h_source.html":[6,0,3,0,0,1,4,288],
-"MRPointsInBall_8h.html":[6,0,3,0,0,1,4,289],
-"MRPointsInBall_8h.html#a30cd2d38272cf5fb35c10a421b4d2045":[6,0,3,0,0,1,4,289,0],
-"MRPointsInBall_8h.html#a421af22aea174a88968edea770000bbc":[6,0,3,0,0,1,4,289,1]
+"MRPointsInBall_8h.html":[6,0,3,0,0,1,4,289]
 };

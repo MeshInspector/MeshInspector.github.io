@@ -1,5 +1,9 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1CompensateRadiusParams.html#a3becc371ebe70ab58e91982390945d41":[6,0,1,0,1,146,2],
+"structMR_1_1CompensateRadiusParams.html#a3becc371ebe70ab58e91982390945d41":[6,0,2,0,1,130,2],
+"structMR_1_1CompensateRadiusParams.html#a77908caf2d1de499c9dec6dbbbdc5737":[6,0,1,0,1,146,5],
+"structMR_1_1CompensateRadiusParams.html#a77908caf2d1de499c9dec6dbbbdc5737":[6,0,2,0,1,130,5],
 "structMR_1_1CompensateRadiusParams.html#a78eaf043f024883ea5ff487bc2d7ec50":[6,0,1,0,1,146,1],
 "structMR_1_1CompensateRadiusParams.html#a78eaf043f024883ea5ff487bc2d7ec50":[6,0,2,0,1,130,1],
 "structMR_1_1CompensateRadiusParams.html#a79fd0b044bab7c845859903f9e5da95b":[6,0,1,0,1,146,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1DenseBox.html#a941ca605a35dc828fc9b0e7c5358c7e9":[6,0,0,0,15,5],
 "structMR_1_1DenseBox.html#aac374ad90e2a96d261ba863c1d6f46e2":[6,0,0,0,15,4],
 "structMR_1_1DenseBox.html#ad18654ddb91781bc8e4d1417ce19a08e":[6,0,0,0,15,1],
-"structMR_1_1DenseBox.html#ad6e0ec24db49e4d651459703603a3e4d":[6,0,0,0,15,9],
-"structMR_1_1DenseBox.html#ae15fa3079fbe1aae94cb52176e59e802":[6,0,0,0,15,10],
-"structMR_1_1DenseBox.html#aee07541d158133fc4c85e7170de4d3e7":[6,0,0,0,15,3],
-"structMR_1_1DetectTunnelSettings.html":[6,0,0,16,4,0],
-"structMR_1_1DetectTunnelSettings.html#a2529d1b4547bb2eed9bb781f0c131829":[6,0,0,16,4,0,2]
+"structMR_1_1DenseBox.html#ad6e0ec24db49e4d651459703603a3e4d":[6,0,0,0,15,9]
 };

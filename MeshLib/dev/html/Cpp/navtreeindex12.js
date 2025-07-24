@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"MRPointsInBall_8h.html#a30cd2d38272cf5fb35c10a421b4d2045":[6,0,3,0,0,1,4,289,0],
+"MRPointsInBall_8h.html#a421af22aea174a88968edea770000bbc":[6,0,3,0,0,1,4,289,1],
 "MRPointsInBall_8h_source.html":[6,0,3,0,0,1,4,289],
 "MRPointsInBox_8h.html":[6,0,3,0,0,1,4,290],
 "MRPointsInBox_8h_source.html":[6,0,3,0,0,1,4,290],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "MRRenderMeasurementObjects_8h.html#af7bd0e42ef0d3a181e0af57d15d8bf0a":[6,0,3,0,0,1,10,76,3],
 "MRRenderMeasurementObjects_8h_source.html":[6,0,3,0,0,1,10,76],
 "MRRenderMeshObject_8h.html":[6,0,3,0,0,1,10,77],
-"MRRenderMeshObject_8h_source.html":[6,0,3,0,0,1,10,77],
-"MRRenderModelParameters_8h.html":[6,0,3,0,0,1,4,333],
-"MRRenderModelParameters_8h.html#a712ee084e6055ce8fadbbe8cf8b3f6ce":[6,0,3,0,0,1,4,333,0]
+"MRRenderMeshObject_8h_source.html":[6,0,3,0,0,1,10,77]
 };

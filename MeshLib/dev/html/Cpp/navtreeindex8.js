@@ -146,8 +146,10 @@ var NAVTREEINDEX8 =
 "MRMesh_2MRConvexHull_8h.html#add9e75db45f7b7d636d5f5f70d48c1a5":[6,0,3,0,0,1,4,73,3],
 "MRMesh_2MRConvexHull_8h_source.html":[6,0,3,0,0,1,4,73],
 "MRMesh_2MRCube_8h.html":[6,0,3,0,0,1,4,74],
-"MRMesh_2MRCube_8h.html#a1571f99defeafc3a60cd29ea066e44f6":[6,0,3,0,0,1,4,74,1],
-"MRMesh_2MRCube_8h.html#ac19d6db4200945b6861959bd421a41e1":[6,0,3,0,0,1,4,74,0],
+"MRMesh_2MRCube_8h.html#a1571f99defeafc3a60cd29ea066e44f6":[6,0,3,0,0,1,4,74,3],
+"MRMesh_2MRCube_8h.html#a34cf31e5bb655c7594410751730ae87e":[6,0,3,0,0,1,4,74,0],
+"MRMesh_2MRCube_8h.html#a7aafa7e9ee96cb3f5465ee3765aa9165":[6,0,3,0,0,1,4,74,2],
+"MRMesh_2MRCube_8h.html#ac19d6db4200945b6861959bd421a41e1":[6,0,3,0,0,1,4,74,1],
 "MRMesh_2MRCube_8h_source.html":[6,0,3,0,0,1,4,74],
 "MRMesh_2MRCylinder_8h.html":[6,0,3,0,0,1,4,75],
 "MRMesh_2MRCylinder_8h.html#a614c1bac311ca816914abbd3a4602dc4":[6,0,3,0,0,1,4,75,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX8 =
 "MRMesh_2MRMeshBuilder_8h.html#ac89608a8862a7f497172398df6ccaf30":[6,0,3,0,0,1,4,191,6],
 "MRMesh_2MRMeshBuilder_8h.html#ad94b16318381f04c306f214d07b59c3d":[6,0,3,0,0,1,4,191,9],
 "MRMesh_2MRMeshBuilder_8h.html#adbca7caa523fcdb27f944a48e8ed220a":[6,0,3,0,0,1,4,191,12],
-"MRMesh_2MRMeshBuilder_8h.html#affd71ea7a77ed4c02be34778c0923804":[6,0,3,0,0,1,4,191,4],
-"MRMesh_2MRMeshBuilder_8h_source.html":[6,0,3,0,0,1,4,191],
-"MRMesh_2MRMeshCollidePrecise_8h.html":[6,0,3,0,0,1,4,194]
+"MRMesh_2MRMeshBuilder_8h.html#affd71ea7a77ed4c02be34778c0923804":[6,0,3,0,0,1,4,191,4]
 };

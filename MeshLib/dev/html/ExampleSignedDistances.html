@@ -163,12 +163,12 @@ $(function(){initNavTree('ExampleSignedDistances.html',''); initResizable(true);
 <div class="line">mesh = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ac870d6fee4e3b3e3dcf73bc12a21d0f5">mrmeshpy.loadMesh</a>(<span class="stringliteral">&quot;mesh2.ctm&quot;</span>)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># get object of mrmeshpy.VertScalars - set of distances between points of target mesh and reference mesh</span></div>
-<div class="line">vert_distances = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a610f8f29b7d7653093534d8e4ad17283">mrmeshpy.findSignedDistances</a>(ref_mesh, mesh)</div>
+<div class="line">vert_distances = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ac6a21121b9c4d29b56c2f373b9746986">mrmeshpy.findSignedDistances</a>(ref_mesh, mesh)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># mrmeshpy.VertScalars is iterable so we can use min() or max() functions</span></div>
 <div class="line">print(<span class="stringliteral">&quot;Distance between reference mesh and the closest point of target mesh is &quot;</span> + str(min(vert_distances)))</div>
 <div class="line">print(<span class="stringliteral">&quot;Distance between reference mesh and the farthest point of target mesh is &quot;</span> + str(max(vert_distances)))</div>
-<div class="ttc" id="anamespacemrmeshpy_html_a610f8f29b7d7653093534d8e4ad17283"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a610f8f29b7d7653093534d8e4ad17283">mrmeshpy::findSignedDistances</a></div><div class="ttdeci">VertScalars findSignedDistances(Mesh refMesh, Mesh mesh, MeshProjectionParameters params='{}', IPointsToMeshProjector projector='{}')</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_ac6a21121b9c4d29b56c2f373b9746986"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ac6a21121b9c4d29b56c2f373b9746986">mrmeshpy::findSignedDistances</a></div><div class="ttdeci">VertScalars findSignedDistances(Mesh refMesh, VertCoords testPoints, VertBitSet validTestPoints='{}', MeshProjectionParameters params='{}', IPointsToMeshProjector projector='{}')</div></div>
 <div class="ttc" id="anamespacemrmeshpy_html_ac870d6fee4e3b3e3dcf73bc12a21d0f5"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ac870d6fee4e3b3e3dcf73bc12a21d0f5">mrmeshpy::loadMesh</a></div><div class="ttdeci">Mesh loadMesh(os.PathLike|str|bytes file, MeshLoadSettings settings='{}')</div></div>
 </div><!-- fragment --></li>
 </ul>
