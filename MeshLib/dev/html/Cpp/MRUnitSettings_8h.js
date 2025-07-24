@@ -1,6 +1,7 @@
 var MRUnitSettings_8h =
 [
     [ "getDegreesMode", "MRUnitSettings_8h.html#a18f2b660ede4fa66b9a12f1b358ae3b5", null ],
+    [ "getModelLengthUnit", "MRUnitSettings_8h.html#aec4e088dc329cbd35e4ad8d65ff24d64", null ],
     [ "getShowLeadingZero", "MRUnitSettings_8h.html#aa107ba449e9a30d426079db1abc6f9e8", null ],
     [ "getThousandsSeparator", "MRUnitSettings_8h.html#a0325434bfffb878393212fbdbca5aa8e", null ],
     [ "getUiAnglePrecision", "MRUnitSettings_8h.html#aefbc07263247d17b42b9b520c287901c", null ],
@@ -9,6 +10,7 @@ var MRUnitSettings_8h =
     [ "getUiRatioPrecision", "MRUnitSettings_8h.html#a0b189aa7e3720de95702885098bb3413", null ],
     [ "resetToDefaults", "MRUnitSettings_8h.html#ae406c519ab41f7cbc08d65a9c83d2bcf", null ],
     [ "setDegreesMode", "MRUnitSettings_8h.html#a095d298e864fff2df5d9ec05315d6d8b", null ],
+    [ "setModelLengthUnit", "MRUnitSettings_8h.html#acb863d88d6e4822b694a244f85d09b2e", null ],
     [ "setShowLeadingZero", "MRUnitSettings_8h.html#a2b2fc6815346b05ae633d230e475a414", null ],
     [ "setThousandsSeparator", "MRUnitSettings_8h.html#a035b6705c6bf6c337d949fd451ec8078", null ],
     [ "setUiAnglePrecision", "MRUnitSettings_8h.html#a17f256d60a5bca751f33412395fcfa86", null ],

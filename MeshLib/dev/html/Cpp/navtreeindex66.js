@@ -1,5 +1,9 @@
 var NAVTREEINDEX66 =
 {
+"structMRFixSelfIntersectionsSettings.html#a10d079012643bec4ff262ed7a0fb0e51":[6,0,2,0,22,2],
+"structMRFixSelfIntersectionsSettings.html#a3759204dcbe62c85df4b2ed358d868c2":[6,0,2,0,22,1],
+"structMRFixSelfIntersectionsSettings.html#a5f96d7bc0610d893310cc07949f55640":[6,0,2,0,22,4],
+"structMRFixSelfIntersectionsSettings.html#a72aaf76d217fda806ced95a09344bcd1":[6,0,2,0,22,3],
 "structMRFixSelfIntersectionsSettings.html#a9eabd5534d3638bdf13a009200ffe2eb":[6,0,2,0,22,5],
 "structMRFixSelfIntersectionsSettings.html#adb399a8ab2d7e6e50f4a4f48334e7c62":[6,0,2,0,22,0],
 "structMRFlaggedTri.html":[6,0,2,0,23],
@@ -245,9 +249,5 @@ var NAVTREEINDEX66 =
 "structMRVector3i.html#ab1a14f9aeee6b3d84ca6c4853100e6fd":[6,0,2,0,70,1],
 "structMRVector3i.html#acdce7eca65ea16ba75e1cecba23ebb60":[6,0,2,0,70,0],
 "structMRVertId.html":[6,0,2,0,71],
-"structMRVertId.html#a81465bbd9b0f213d4daad78a79e07c87":[6,0,2,0,71,0],
-"structMR_1_1AABBTreeNode.html":[6,0,0,1,4],
-"structMR_1_1AABBTreeNode.html#a0286485d67d37c6d4f76d7d1f43d13d0":[6,0,0,1,4,1],
-"structMR_1_1AABBTreeNode.html#a17304ef8e7e0d4062245a747fa45840e":[6,0,0,1,4,7],
-"structMR_1_1AABBTreeNode.html#a3cbbf05afde5b58b37ff42812595cef9":[6,0,0,1,4,6]
+"structMRVertId.html#a81465bbd9b0f213d4daad78a79e07c87":[6,0,2,0,71,0]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX65 =
 {
+"namespaceMR_1_1VoxelsLoad.html#acba52d9e4446ab4729498866d500d5c9":[6,0,1,0,1,40,23],
+"namespaceMR_1_1VoxelsLoad.html#ad79032cc6ef1a0e389097a70c1000de3":[6,0,1,0,1,40,31],
+"namespaceMR_1_1VoxelsLoad.html#adbcdf154c89bce3f54684092bcc3f76e":[6,0,1,0,1,40,24],
+"namespaceMR_1_1VoxelsLoad.html#adf1cf75d42be383bb66a5e1f952b2cd1":[6,0,1,0,1,40,30],
 "namespaceMR_1_1VoxelsSave.html":[6,0,1,0,1,41],
 "namespaceMR_1_1VoxelsSave.html#a06de9ebb71a997d3eec5251dc2a1c1e8":[6,0,1,0,1,41,11],
 "namespaceMR_1_1VoxelsSave.html#a0f83445b39c9bf24c4f50d6fe1f4cfe8":[6,0,1,0,1,41,12],
@@ -245,9 +249,5 @@ var NAVTREEINDEX65 =
 "structMRFixMeshDegeneraciesParams.html#aa6266c86363ad791c003dd8682501fe7":[6,0,2,0,21,4],
 "structMRFixMeshDegeneraciesParams.html#aab8419165d77fece4440efdd74f09b37":[6,0,2,0,21,1],
 "structMRFixMeshDegeneraciesParams.html#af09e4d46078be1c8804457082d26decc":[6,0,2,0,21,0],
-"structMRFixSelfIntersectionsSettings.html":[6,0,2,0,22],
-"structMRFixSelfIntersectionsSettings.html#a10d079012643bec4ff262ed7a0fb0e51":[6,0,2,0,22,2],
-"structMRFixSelfIntersectionsSettings.html#a3759204dcbe62c85df4b2ed358d868c2":[6,0,2,0,22,1],
-"structMRFixSelfIntersectionsSettings.html#a5f96d7bc0610d893310cc07949f55640":[6,0,2,0,22,4],
-"structMRFixSelfIntersectionsSettings.html#a72aaf76d217fda806ced95a09344bcd1":[6,0,2,0,22,3]
+"structMRFixSelfIntersectionsSettings.html":[6,0,2,0,22]
 };

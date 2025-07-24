@@ -140,6 +140,7 @@ var namespaceMR =
     [ "UI", "namespaceMR_1_1UI.html", "namespaceMR_1_1UI" ],
     [ "UnitSettings", "namespaceMR_1_1UnitSettings.html", [
       [ "getDegreesMode", "namespaceMR_1_1UnitSettings.html#a18f2b660ede4fa66b9a12f1b358ae3b5", null ],
+      [ "getModelLengthUnit", "namespaceMR_1_1UnitSettings.html#aec4e088dc329cbd35e4ad8d65ff24d64", null ],
       [ "getShowLeadingZero", "namespaceMR_1_1UnitSettings.html#aa107ba449e9a30d426079db1abc6f9e8", null ],
       [ "getThousandsSeparator", "namespaceMR_1_1UnitSettings.html#a0325434bfffb878393212fbdbca5aa8e", null ],
       [ "getUiAnglePrecision", "namespaceMR_1_1UnitSettings.html#aefbc07263247d17b42b9b520c287901c", null ],
@@ -148,6 +149,7 @@ var namespaceMR =
       [ "getUiRatioPrecision", "namespaceMR_1_1UnitSettings.html#a0b189aa7e3720de95702885098bb3413", null ],
       [ "resetToDefaults", "namespaceMR_1_1UnitSettings.html#ae406c519ab41f7cbc08d65a9c83d2bcf", null ],
       [ "setDegreesMode", "namespaceMR_1_1UnitSettings.html#a095d298e864fff2df5d9ec05315d6d8b", null ],
+      [ "setModelLengthUnit", "namespaceMR_1_1UnitSettings.html#acb863d88d6e4822b694a244f85d09b2e", null ],
       [ "setShowLeadingZero", "namespaceMR_1_1UnitSettings.html#a2b2fc6815346b05ae633d230e475a414", null ],
       [ "setThousandsSeparator", "namespaceMR_1_1UnitSettings.html#a035b6705c6bf6c337d949fd451ec8078", null ],
       [ "setUiAnglePrecision", "namespaceMR_1_1UnitSettings.html#a17f256d60a5bca751f33412395fcfa86", null ],

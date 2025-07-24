@@ -1,5 +1,7 @@
 var NAVTREEINDEX37 =
 {
+"classMR_1_1PrecipitationSimulator.html#a868e5e5616edae5787beab77d64681a4":[6,0,2,0,1,529,2],
+"classMR_1_1PriorityQueue.html":[6,0,1,0,1,550],
 "classMR_1_1PriorityQueue.html":[6,0,2,0,1,534],
 "classMR_1_1PriorityQueue.html#a0a493610b54c4c312a6522dfd1a22b8d":[6,0,1,0,1,550,9],
 "classMR_1_1PriorityQueue.html#a0a493610b54c4c312a6522dfd1a22b8d":[6,0,2,0,1,534,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX37 =
 "classMR_1_1RecentFilesStore.html#ab3bdf57745bbf11b5ac6fd1b27edcb68":[6,0,2,0,1,552,0],
 "classMR_1_1RectIndexer.html":[6,0,0,5,8],
 "classMR_1_1RectIndexer.html#a3405e1ad7d3f9cb6d72845e41f3232bc":[6,0,0,5,8,6],
-"classMR_1_1RectIndexer.html#a3ad518f3ebe31196088da356bd7646cb":[6,0,0,5,8,4],
-"classMR_1_1RectIndexer.html#a581238851bf8cb545d729d3957100372":[6,0,0,5,8,3],
-"classMR_1_1RectIndexer.html#a801b588e260d6fa3432f296855de6f29":[6,0,0,5,8,0]
+"classMR_1_1RectIndexer.html#a3ad518f3ebe31196088da356bd7646cb":[6,0,0,5,8,4]
 };
