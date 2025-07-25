@@ -1350,6 +1350,7 @@ var namespacemrmeshpy =
     [ "convertContourTo3f", "namespacemrmeshpy.html#a2d2cc109be378c2e8f1cff122040ddac", null ],
     [ "convertDistanceMapToImage", "namespacemrmeshpy.html#aa187bccd71fcd04f97a2a31517b0ae09", null ],
     [ "convertImageToDistanceMap", "namespacemrmeshpy.html#a57e0cd3b762b2bc5e7331bd78cd208d5", null ],
+    [ "convertIntFloatAllVerts", "namespacemrmeshpy.html#a6bcf3dee18020613bf5c7a0242c1ce17", null ],
     [ "convertMeshTriPointsSurfaceOffsetToMeshContours", "namespacemrmeshpy.html#ad05501f908db867005fa426577021fd1", null ],
     [ "convertMeshTriPointsSurfaceOffsetToMeshContours", "namespacemrmeshpy.html#af6e6cdb782d8cbee1b18af7e0f679133", null ],
     [ "convertMeshTriPointsToClosedContour", "namespacemrmeshpy.html#a3337bab0540aad906df3b6c4542e1b2f", null ],

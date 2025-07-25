@@ -4103,6 +4103,8 @@ Functions</h2></td></tr>
 <tr class="memitem:gabcddc5448fa2c146bca47925a093d3c2" id="r_gabcddc5448fa2c146bca47925a093d3c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1BooleanResultPoints.html">BooleanResultPoints</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#gabcddc5448fa2c146bca47925a093d3c2">getBooleanPoints</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshB, <a class="el" href="group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbd">BooleanOperation</a> operation, const AffineXf3f *rigidB2A=nullptr)</td></tr>
 <tr class="memdesc:gabcddc5448fa2c146bca47925a093d3c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the points of mesh boolean's result mesh.  <br /></td></tr>
 <tr class="separator:gabcddc5448fa2c146bca47925a093d3c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d91ff46fa87c38d967780fced1c5f70" id="r_a7d91ff46fa87c38d967780fced1c5f70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d91ff46fa87c38d967780fced1c5f70">convertIntFloatAllVerts</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a> &amp;conv)</td></tr>
+<tr class="separator:a7d91ff46fa87c38d967780fced1c5f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37a45fe3367e0420cb18c30593415498" id="r_a37a45fe3367e0420cb18c30593415498"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1TransformedMesh.html">TransformedMesh</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37a45fe3367e0420cb18c30593415498">operator+=</a> (<a class="el" href="structMR_1_1TransformedMesh.html">TransformedMesh</a> &amp;a, const <a class="el" href="structMR_1_1TransformedMesh.html">TransformedMesh</a> &amp;b)</td></tr>
 <tr class="memdesc:a37a45fe3367e0420cb18c30593415498"><td class="mdescLeft">&#160;</td><td class="mdescRight">union operation on two meshes  <br /></td></tr>
 <tr class="separator:a37a45fe3367e0420cb18c30593415498"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -14545,6 +14547,28 @@ template&lt;typename From &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d91ff46fa87c38d967780fced1c5f70" name="a7d91ff46fa87c38d967780fced1c5f70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d91ff46fa87c38d967780fced1c5f70">&#9670;&#160;</a></span>convertIntFloatAllVerts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::convertIntFloatAllVerts </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>conv</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>converts all vertices of the mesh first in integer-coordinates, and then back in float-coordinates; this is necessary to avoid small self-intersections near newly introduced vertices on cut-contours; this actually sligntly moves only small perentage of vertices near x=0 or y=0 or z=0 planes, where float-precision is higher than int-precision; newly introduced vertices on cut-contours are also converted, but we expected that they remain unchanged due to idempotent property of the conversion </p>
 
 </div>
 </div>

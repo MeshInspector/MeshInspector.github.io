@@ -1480,6 +1480,7 @@ var mrmeshpy_8pyi =
     [ "convertContourTo3f", "mrmeshpy_8pyi.html#a2d2cc109be378c2e8f1cff122040ddac", null ],
     [ "convertDistanceMapToImage", "mrmeshpy_8pyi.html#aa187bccd71fcd04f97a2a31517b0ae09", null ],
     [ "convertImageToDistanceMap", "mrmeshpy_8pyi.html#a57e0cd3b762b2bc5e7331bd78cd208d5", null ],
+    [ "convertIntFloatAllVerts", "mrmeshpy_8pyi.html#a6bcf3dee18020613bf5c7a0242c1ce17", null ],
     [ "convertMeshTriPointsSurfaceOffsetToMeshContours", "mrmeshpy_8pyi.html#ad05501f908db867005fa426577021fd1", null ],
     [ "convertMeshTriPointsSurfaceOffsetToMeshContours", "mrmeshpy_8pyi.html#af6e6cdb782d8cbee1b18af7e0f679133", null ],
     [ "convertMeshTriPointsToClosedContour", "mrmeshpy_8pyi.html#a3337bab0540aad906df3b6c4542e1b2f", null ],

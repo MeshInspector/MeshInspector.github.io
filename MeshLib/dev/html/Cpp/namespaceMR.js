@@ -1812,6 +1812,7 @@ var namespaceMR =
     [ "convertContourTo3f", "namespaceMR.html#aa4ceecc8e73e44a2e6581d55a462f1ea", null ],
     [ "convertDistanceMapToImage", "group__DistanceMapGroup.html#gadf85ea3c5943f6cd2cb8864c2991f6f2", null ],
     [ "convertImageToDistanceMap", "group__DistanceMapGroup.html#gabfddf0510446a24e68326d0574949301", null ],
+    [ "convertIntFloatAllVerts", "namespaceMR.html#a7d91ff46fa87c38d967780fced1c5f70", null ],
     [ "convertMeshTriPointsSurfaceOffsetToMeshContours", "group__BooleanGroup.html#ga6f7ebfbd5a56670b4a78787e6318ee7e", null ],
     [ "convertMeshTriPointsSurfaceOffsetToMeshContours", "group__BooleanGroup.html#gafe85b81b6d40ee16ccd3e12919143c43", null ],
     [ "convertMeshTriPointsToClosedContour", "group__BooleanGroup.html#ga698235aeb90b1a947f95fa76eeb78ff3", null ],

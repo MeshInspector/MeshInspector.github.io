@@ -1,5 +1,7 @@
 var NAVTREEINDEX92 =
 {
+"structMR_1_1WatershedGraph_1_1BasinInfo.html#a2e9b6e24cf6016e21030cbec21fb1240":[6,0,1,0,1,812,0,11],
+"structMR_1_1WatershedGraph_1_1BasinInfo.html#a2e9b6e24cf6016e21030cbec21fb1240":[6,0,2,0,1,796,0,11],
 "structMR_1_1WatershedGraph_1_1BasinInfo.html#a4ed853b22498692e3105c691d03fbd9e":[6,0,1,0,1,812,0,12],
 "structMR_1_1WatershedGraph_1_1BasinInfo.html#a4ed853b22498692e3105c691d03fbd9e":[6,0,2,0,1,796,0,12],
 "structMR_1_1WatershedGraph_1_1BasinInfo.html#a52315365a6d8090680080cd9e1d62360":[6,0,1,0,1,812,0,7],
