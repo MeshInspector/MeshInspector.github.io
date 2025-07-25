@@ -35,7 +35,6 @@ var namespaceMR_1_1UI =
     [ "buttonCommonSize", "namespaceMR_1_1UI.html#affdd9ce8585853bc545f4f60bda2611f", null ],
     [ "buttonEx", "namespaceMR_1_1UI.html#a8e2e5a94838570d15a333a1f11ebea6d", null ],
     [ "buttonEx", "namespaceMR_1_1UI.html#ad36410efe7dec5964b4857d7d6978975", null ],
-    [ "buttonIcon", "namespaceMR_1_1UI.html#a7618ad711338c485abe6cea17c1e304e", null ],
     [ "buttonIcon", "namespaceMR_1_1UI.html#a336fa6393e7abeefe2f5d4e8f29d75a6", null ],
     [ "buttonIconEx", "namespaceMR_1_1UI.html#ab53314e24f68de52f675b6881591b212", null ],
     [ "buttonIconFlatBG", "namespaceMR_1_1UI.html#a4e984c41bbd6d1102d9a05c16ad0ebb1", null ],

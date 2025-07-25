@@ -1,7 +1,5 @@
 var NAVTREEINDEX89 =
 {
-"structMR_1_1TriangulationHelpers_1_1Settings.html#a49d74151d155a2c96be9eb811e05757d":[6,0,1,0,1,37,1,2],
-"structMR_1_1TriangulationHelpers_1_1Settings.html#a49d74151d155a2c96be9eb811e05757d":[6,0,2,0,1,22,1,2],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#a6f5bf92c6fb3063c2d70ea917ba4a458":[6,0,1,0,1,37,1,1],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#a6f5bf92c6fb3063c2d70ea917ba4a458":[6,0,2,0,1,22,1,1],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#a97127b609f58b4ac11085781558f55f6":[6,0,1,0,1,37,1,8],
@@ -86,10 +84,8 @@ var NAVTREEINDEX89 =
 "structMR_1_1UI_1_1ButtonCustomizationParams.html#ace10f316495c9cf052464a0154fee1c5":[6,0,2,0,1,23,1,3],
 "structMR_1_1UI_1_1ButtonIconCustomizationParams.html":[6,0,1,0,1,38,3],
 "structMR_1_1UI_1_1ButtonIconCustomizationParams.html":[6,0,2,0,1,23,2],
-"structMR_1_1UI_1_1ButtonIconCustomizationParams.html#a163778ac68c60cee130c589f3b7a7fca":[6,0,1,0,1,38,3,1],
-"structMR_1_1UI_1_1ButtonIconCustomizationParams.html#a163778ac68c60cee130c589f3b7a7fca":[6,0,2,0,1,23,2,1],
-"structMR_1_1UI_1_1ButtonIconCustomizationParams.html#aa7755d0cc192563e2f8641d447160b10":[6,0,1,0,1,38,3,2],
-"structMR_1_1UI_1_1ButtonIconCustomizationParams.html#aa7755d0cc192563e2f8641d447160b10":[6,0,2,0,1,23,2,2],
+"structMR_1_1UI_1_1ButtonIconCustomizationParams.html#aa7755d0cc192563e2f8641d447160b10":[6,0,1,0,1,38,3,1],
+"structMR_1_1UI_1_1ButtonIconCustomizationParams.html#aa7755d0cc192563e2f8641d447160b10":[6,0,2,0,1,23,2,1],
 "structMR_1_1UI_1_1ButtonIconCustomizationParams.html#ae70b40fe67c4360ea6328d4d514217ea":[6,0,1,0,1,38,3,0],
 "structMR_1_1UI_1_1ButtonIconCustomizationParams.html#ae70b40fe67c4360ea6328d4d514217ea":[6,0,2,0,1,23,2,0],
 "structMR_1_1UI_1_1CachedTextSize.html":[6,0,1,0,1,38,4],
@@ -249,5 +245,9 @@ var NAVTREEINDEX89 =
 "structMR_1_1UiRenderParams.html#a5f69c0eb3c0590c0bd49dbcdddbc0eca":[6,0,1,0,1,748,2],
 "structMR_1_1UiRenderParams.html#a5f69c0eb3c0590c0bd49dbcdddbc0eca":[6,0,2,0,1,732,2],
 "structMR_1_1UiRenderParams.html#a7db0595bba979c4028be5875ef3e067d":[6,0,1,0,1,748,0],
-"structMR_1_1UiRenderParams.html#a7db0595bba979c4028be5875ef3e067d":[6,0,2,0,1,732,0]
+"structMR_1_1UiRenderParams.html#a7db0595bba979c4028be5875ef3e067d":[6,0,2,0,1,732,0],
+"structMR_1_1UiRenderParams.html#ae7aebd36b4266bd1203eaf71259d12bc":[6,0,1,0,1,748,1],
+"structMR_1_1UiRenderParams.html#ae7aebd36b4266bd1203eaf71259d12bc":[6,0,2,0,1,732,1],
+"structMR_1_1UndirectedEdgeUndirectedEdge.html":[6,0,0,1,13],
+"structMR_1_1UndirectedEdgeUndirectedEdge.html#a535f1290920a2d84945d8cc8989397c6":[6,0,0,1,13,4]
 };

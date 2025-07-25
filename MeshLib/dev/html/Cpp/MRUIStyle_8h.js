@@ -32,7 +32,6 @@ var MRUIStyle_8h =
     [ "buttonCommonSize", "MRUIStyle_8h.html#affdd9ce8585853bc545f4f60bda2611f", null ],
     [ "buttonEx", "MRUIStyle_8h.html#a8e2e5a94838570d15a333a1f11ebea6d", null ],
     [ "buttonEx", "MRUIStyle_8h.html#ad36410efe7dec5964b4857d7d6978975", null ],
-    [ "buttonIcon", "MRUIStyle_8h.html#a7618ad711338c485abe6cea17c1e304e", null ],
     [ "buttonIcon", "MRUIStyle_8h.html#a336fa6393e7abeefe2f5d4e8f29d75a6", null ],
     [ "buttonIconEx", "MRUIStyle_8h.html#ab53314e24f68de52f675b6881591b212", null ],
     [ "buttonIconFlatBG", "MRUIStyle_8h.html#a4e984c41bbd6d1102d9a05c16ad0ebb1", null ],
