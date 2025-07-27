@@ -1,6 +1,5 @@
 var NAVTREEINDEX23 =
 {
-"classMR_1_1DistanceMap.html#a40ae747ad28a6f966d16e3359c140eb3":[6,0,0,5,0,5],
 "classMR_1_1DistanceMap.html#a4488979d529038d712bb847568b214d1":[6,0,0,5,0,0],
 "classMR_1_1DistanceMap.html#a44e3e39d8848d52746a65a044453a974":[6,0,0,5,0,17],
 "classMR_1_1DistanceMap.html#a491d7051e8163ff54790e25895c36105":[6,0,0,5,0,11],
@@ -249,5 +248,6 @@ var NAVTREEINDEX23 =
 "classMR_1_1FewSmallest.html#a0efd17527f2b41be96da3c50f8837c38":[6,0,1,0,1,232,6],
 "classMR_1_1FewSmallest.html#a0efd17527f2b41be96da3c50f8837c38":[6,0,2,0,1,216,6],
 "classMR_1_1FewSmallest.html#a12a0523ff86e2ccc8757592895374893":[6,0,1,0,1,232,9],
-"classMR_1_1FewSmallest.html#a12a0523ff86e2ccc8757592895374893":[6,0,2,0,1,216,9]
+"classMR_1_1FewSmallest.html#a12a0523ff86e2ccc8757592895374893":[6,0,2,0,1,216,9],
+"classMR_1_1FewSmallest.html#a137b1fa934a6f5746491768b2b3aab36":[6,0,1,0,1,232,7]
 };

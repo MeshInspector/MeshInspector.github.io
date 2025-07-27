@@ -2179,7 +2179,6 @@ var namespacemrmeshpy =
     [ "resample", "namespacemrmeshpy.html#a0537d14124f882f7e4021943c044b62c", null ],
     [ "resampled", "namespacemrmeshpy.html#a82386154669766b8b56df2f905503ee4", null ],
     [ "resampled", "namespacemrmeshpy.html#afe0daa78c734f0f43a05c9fcf3b5f0c5", null ],
-    [ "resolveMeshDegenerations", "namespacemrmeshpy.html#a38bdfcfc415e83a4f1770a0e502e431f", null ],
     [ "resolveMeshDegenerations", "namespacemrmeshpy.html#a0bcd6b2097265d6ae819b2aff530645f", null ],
     [ "reverse", "namespacemrmeshpy.html#a293740588103c74ac8e6dfb1b6f73928", null ],
     [ "reverse", "namespacemrmeshpy.html#a7c507787163a2a66d8cb5ec40c939967", null ],

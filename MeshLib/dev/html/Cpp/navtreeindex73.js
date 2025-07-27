@@ -1,7 +1,5 @@
 var NAVTREEINDEX73 =
 {
-"structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301":[6,0,0,9,3,0,0],
-"structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301a1fbb1e3943c2c6c560247ac8f9289780":[6,0,0,9,3,0,0,1],
 "structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301a6adf97f83acf6453d4a6a4b1070f3754":[6,0,0,9,3,0,0,0],
 "structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301ac43e0fd449c758dab8f891d8e19eb1a9":[6,0,0,9,3,0,0,2],
 "structMR_1_1FindDisorientationParams.html":[6,0,0,9,4,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX73 =
 "structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685a19de5b94f7b83900d4b296d9fa491aec":[6,0,1,0,1,274,1,1],
 "structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685a19de5b94f7b83900d4b296d9fa491aec":[6,0,2,0,1,258,1,1],
 "structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685ab75fcdd2d72d9e000beab48622402d93":[6,0,1,0,1,274,1,0],
-"structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685ab75fcdd2d72d9e000beab48622402d93":[6,0,2,0,1,258,1,0]
+"structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685ab75fcdd2d72d9e000beab48622402d93":[6,0,2,0,1,258,1,0],
+"structMR_1_1GridToMeshSettings.html":[6,0,1,0,1,275],
+"structMR_1_1GridToMeshSettings.html":[6,0,2,0,1,259]
 };

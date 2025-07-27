@@ -2945,7 +2945,6 @@ var namespaceMR =
     [ "reserveKeyEvent", "namespaceMR.html#a9cab0079b5bdf8b5ebb5ba774cd76b62", null ],
     [ "resizeNoInit", "namespaceMR.html#aed67ff0988e591b0c1f763b786c3384d", null ],
     [ "resolveMeshDegenerations", "group__DecimateGroup.html#ga881bb2eecb81e65b51d1cb8a52340637", null ],
-    [ "resolveMeshDegenerations", "namespaceMR.html#ab62ca12bf096b6d51c71cf97ff6a88e0", null ],
     [ "reverse", "group__SurfacePathGroup.html#ga5ae89c778fe01228f20aa52aa2e160d0", null ],
     [ "reverse", "group__SurfacePathGroup.html#ga0f7d06cbd7188f3681347a12699a9cba", null ],
     [ "RigidScaleXf3< float >", "namespaceMR.html#abdd8336870c2a5643e70e2946261c057", null ],

@@ -1,7 +1,5 @@
 var NAVTREEINDEX69 =
 {
-"structMR_1_1CompensateRadiusParams.html":[6,0,1,0,1,146],
-"structMR_1_1CompensateRadiusParams.html":[6,0,2,0,1,130],
 "structMR_1_1CompensateRadiusParams.html#a05af941103d0a3f88ddcf7383bf82c67":[6,0,1,0,1,146,6],
 "structMR_1_1CompensateRadiusParams.html#a05af941103d0a3f88ddcf7383bf82c67":[6,0,2,0,1,130,6],
 "structMR_1_1CompensateRadiusParams.html#a3becc371ebe70ab58e91982390945d41":[6,0,1,0,1,146,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX69 =
 "structMR_1_1DenseBox.html#a1d968d6262ca4a19b4f5610ef49dfdee":[6,0,0,0,15,6],
 "structMR_1_1DenseBox.html#a38590d0d422769798b0be5129be63d55":[6,0,0,0,15,2],
 "structMR_1_1DenseBox.html#a7c79113a97744efd6bcbc544553fe582":[6,0,0,0,15,0],
-"structMR_1_1DenseBox.html#a7efc7b0a63b1e8c7737349454066d83f":[6,0,0,0,15,8]
+"structMR_1_1DenseBox.html#a7efc7b0a63b1e8c7737349454066d83f":[6,0,0,0,15,8],
+"structMR_1_1DenseBox.html#a941ca605a35dc828fc9b0e7c5358c7e9":[6,0,0,0,15,5],
+"structMR_1_1DenseBox.html#aac374ad90e2a96d261ba863c1d6f46e2":[6,0,0,0,15,4]
 };

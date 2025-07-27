@@ -1,6 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"MRTestC_2MRColor_8h.html#ac31b9045c8dae1b4d7fa3a1a8ae73c36":[6,0,3,0,0,1,9,4,3],
 "MRTestC_2MRColor_8h_source.html":[6,0,3,0,0,1,9,4],
 "MRTestC_2MRExpandShrink_8h.html":[6,0,3,0,0,1,9,5],
 "MRTestC_2MRExpandShrink_8h.html#a6fe71176bc46c348ef2ff68a130e28a6":[6,0,3,0,0,1,9,5,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX15 =
 "MRUIStyle_8h.html#a0e4fcd89c72f4be1967ab7ba90d92c1b":[6,0,3,0,0,1,10,133,60],
 "MRUIStyle_8h.html#a106b8bc31fb0bf822e4d25da72a41ead":[6,0,3,0,0,1,10,133,67],
 "MRUIStyle_8h.html#a1527cab8abd6795f21baa9abcfec2804":[6,0,3,0,0,1,10,133,41],
-"MRUIStyle_8h.html#a17f2b30eb00e5aa94812541ac268a30f":[6,0,3,0,0,1,10,133,72]
+"MRUIStyle_8h.html#a17f2b30eb00e5aa94812541ac268a30f":[6,0,3,0,0,1,10,133,72],
+"MRUIStyle_8h.html#a18b9183fbf887e8e6930c577d92fa409":[6,0,3,0,0,1,10,133,71]
 };

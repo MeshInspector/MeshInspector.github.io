@@ -188,7 +188,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga68a943035521cac62a80a1f864147c6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns given subdivision part of all valid faces; parallel threads shall be able to safely modify these bits because they do not share any block with other parts  <br /></td></tr>
 <tr class="separator:ga68a943035521cac62a80a1f864147c6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga881bb2eecb81e65b51d1cb8a52340637" id="r_ga881bb2eecb81e65b51d1cb8a52340637"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga881bb2eecb81e65b51d1cb8a52340637">MR::resolveMeshDegenerations</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1ResolveMeshDegenSettings.html">ResolveMeshDegenSettings</a> &amp;settings={})</td></tr>
-<tr class="memdesc:ga881bb2eecb81e65b51d1cb8a52340637"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves degenerate triangles in given mesh.  <br /></td></tr>
+<tr class="memdesc:ga881bb2eecb81e65b51d1cb8a52340637"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes degenerate triangles in a mesh by calling decimateMesh function with appropriate settings.  <br /></td></tr>
 <tr class="separator:ga881bb2eecb81e65b51d1cb8a52340637"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf0964e80dba508fbc0d34272d3192cb8" id="r_gaf0964e80dba508fbc0d34272d3192cb8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1DecimatePolylineResult.html">DecimatePolylineResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf0964e80dba508fbc0d34272d3192cb8">MR::decimatePolyline</a> (Polyline2 &amp;polyline, const <a class="el" href="namespaceMR.html#a6e7bbd2938192cd9a3d3616faa293ed9">DecimatePolylineSettings2</a> &amp;settings={})</td></tr>
 <tr class="memdesc:gaf0964e80dba508fbc0d34272d3192cb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collapse edges in the polyline according to the settings.  <br /></td></tr>
@@ -436,8 +436,8 @@ After</div></div>
       </table>
 </div><div class="memdoc">
 
-<p>Resolves degenerate triangles in given mesh. </p>
-<p>This function performs decimation, so it can affect topology</p>
+<p>Removes degenerate triangles in a mesh by calling decimateMesh function with appropriate settings. </p>
+<p>consider using <a class="el" href="group__MeshFixerGroup.html#gad11bed424b514b2e835eb9ba644dd4eb">fixMeshDegeneracies</a> for more complex cases</p>
 <dl class="section return"><dt>Returns</dt><dd>true if the mesh has been changed</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="#ga16a994862b0ba8f6a68c61463be0ed4e">decimateMesh</a> </dd></dl>
 

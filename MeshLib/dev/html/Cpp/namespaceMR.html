@@ -4173,10 +4173,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga68a943035521cac62a80a1f864147c6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns given subdivision part of all valid faces; parallel threads shall be able to safely modify these bits because they do not share any block with other parts  <br /></td></tr>
 <tr class="separator:ga68a943035521cac62a80a1f864147c6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga881bb2eecb81e65b51d1cb8a52340637" id="r_ga881bb2eecb81e65b51d1cb8a52340637"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DecimateGroup.html#ga881bb2eecb81e65b51d1cb8a52340637">resolveMeshDegenerations</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1ResolveMeshDegenSettings.html">ResolveMeshDegenSettings</a> &amp;settings={})</td></tr>
-<tr class="memdesc:ga881bb2eecb81e65b51d1cb8a52340637"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves degenerate triangles in given mesh.  <br /></td></tr>
+<tr class="memdesc:ga881bb2eecb81e65b51d1cb8a52340637"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes degenerate triangles in a mesh by calling decimateMesh function with appropriate settings.  <br /></td></tr>
 <tr class="separator:ga881bb2eecb81e65b51d1cb8a52340637"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab62ca12bf096b6d51c71cf97ff6a88e0" id="r_ab62ca12bf096b6d51c71cf97ff6a88e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab62ca12bf096b6d51c71cf97ff6a88e0">resolveMeshDegenerations</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, int maxIters, float maxDeviation=0, float maxAngleChange=PI_F/3, float criticalAspectRatio=10000)</td></tr>
-<tr class="separator:ab62ca12bf096b6d51c71cf97ff6a88e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08dd1bb898ae6ccea21b3ccb5feb209f" id="r_a08dd1bb898ae6ccea21b3ccb5feb209f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08dd1bb898ae6ccea21b3ccb5feb209f">remesh</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1RemeshSettings.html">RemeshSettings</a> &amp;settings)</td></tr>
 <tr class="separator:a08dd1bb898ae6ccea21b3ccb5feb209f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9d6f60ebc6c98c7e8ddfc4ad3b46bab" id="r_ad9d6f60ebc6c98c7e8ddfc4ad3b46bab"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
@@ -36118,42 +36116,6 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 <p>resizes the vector skipping initialization of its elements (more precisely initializing them using ( noInit ) constructor ); this is much faster than ordinary resize(), because the memory of vector's elements is not accessed and only one pointer inside vector is repeatedly increased; <a href="https://stackoverflow.com/a/74212402/7325599">https://stackoverflow.com/a/74212402/7325599</a> </p>
-
-</div>
-</div>
-<a id="ab62ca12bf096b6d51c71cf97ff6a88e0" name="ab62ca12bf096b6d51c71cf97ff6a88e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab62ca12bf096b6d51c71cf97ff6a88e0">&#9670;&#160;</a></span>resolveMeshDegenerations()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::resolveMeshDegenerations </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxIters</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxDeviation</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxAngleChange</em></span><span class="paramdefsep"> = </span><span class="paramdefval">PI_F/3</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>criticalAspectRatio</em></span><span class="paramdefsep"> = </span><span class="paramdefval">10000</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
