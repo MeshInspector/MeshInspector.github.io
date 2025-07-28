@@ -8,7 +8,7 @@ var MREdgeMetric_8h =
     [ "edgeCurvMetric", "MREdgeMetric_8h.html#ga003755490808d2d716aa0de3c8f733b5", null ],
     [ "edgeLengthMetric", "MREdgeMetric_8h.html#gab0c6bfd4f01e28a6c034a2195143e410", null ],
     [ "edgeLengthMetric", "MREdgeMetric_8h.html#gad2fc71f60ff8cacbc0318077e2e28051", null ],
-    [ "edgeTableMetric", "MREdgeMetric_8h.html#gaca57e01c0ade3ec65621f646bba9822c", null ],
+    [ "edgeTableMetric", "MREdgeMetric_8h.html#ga2182b04a7c6e0750621fd0d7de0685f2", null ],
     [ "edgeTableSymMetric", "MREdgeMetric_8h.html#ga04e5ae2dd9a34149d37b4c31364b4b68", null ],
     [ "identityMetric", "MREdgeMetric_8h.html#gadd9e6c77ae3fdf22797b82342a1ee1f3", null ]
 ];

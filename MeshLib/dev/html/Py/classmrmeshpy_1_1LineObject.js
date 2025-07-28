@@ -16,7 +16,6 @@ var classmrmeshpy_1_1LineObject =
     [ "setCenter", "classmrmeshpy_1_1LineObject.html#a3a38ce42412625b786e9fafb4a178ece", null ],
     [ "setDirection", "classmrmeshpy_1_1LineObject.html#a8059a8e72acb788caf25c94017941ff0", null ],
     [ "setLength", "classmrmeshpy_1_1LineObject.html#aa4c58b0d1bd94a71a9cf74befa3df488", null ],
-    [ "setSize", "classmrmeshpy_1_1LineObject.html#a7a84db5fd3b55a60d17eed3120d236d9", null ],
     [ "shallowClone", "classmrmeshpy_1_1LineObject.html#ae277cf72dcad1ae300fe560003afdf58", null ],
     [ "typeName", "classmrmeshpy_1_1LineObject.html#afa7d13e6a3c01fdbe0dd30dd27213202", null ]
 ];

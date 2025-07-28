@@ -1,8 +1,10 @@
 var classmrmeshpy_1_1Color =
 [
     [ "__init__", "classmrmeshpy_1_1Color.html#a5e86b0313ca5cca6c14620d9526f0f42", null ],
-    [ "__init__", "classmrmeshpy_1_1Color.html#a777a408e8347d5db4784e7f3f0c5e190", null ],
-    [ "__init__", "classmrmeshpy_1_1Color.html#a6e5b4539f0fed958d133fe9e2a1fe870", null ],
+    [ "__init__", "classmrmeshpy_1_1Color.html#ab1f03aa02f777b4eebe863e65ddd5b6d", null ],
+    [ "__init__", "classmrmeshpy_1_1Color.html#a8f4ade93b84b5507726f9260f901a044", null ],
+    [ "__init__", "classmrmeshpy_1_1Color.html#a42dda127ff1c6e861ce4c831a0fabc36", null ],
+    [ "__init__", "classmrmeshpy_1_1Color.html#a89c72f925c67d099769d7e87336da22d", null ],
     [ "__init__", "classmrmeshpy_1_1Color.html#aea93dc4b1b6a0df7a024e5bcdfa5cc1a", null ],
     [ "__init__", "classmrmeshpy_1_1Color.html#a0a4ffe227855c50dcf222a5d769eaa95", null ],
     [ "__add__", "classmrmeshpy_1_1Color.html#abe6f1d57bfc9763609bb097d29faa518", null ],
