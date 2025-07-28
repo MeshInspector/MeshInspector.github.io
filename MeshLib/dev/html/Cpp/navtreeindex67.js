@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"structMRVector3i.html#ab1a14f9aeee6b3d84ca6c4853100e6fd":[6,0,2,0,70,1],
+"structMRVector3i.html#acdce7eca65ea16ba75e1cecba23ebb60":[6,0,2,0,70,0],
 "structMRVertId.html":[6,0,2,0,71],
 "structMRVertId.html#a81465bbd9b0f213d4daad78a79e07c87":[6,0,2,0,71,0],
 "structMR_1_1AABBTreeNode.html":[6,0,0,1,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1BasicUiRenderTask.html#a381d7376f63599633389b7ff83ded538":[6,0,2,0,1,54,10],
 "structMR_1_1BasicUiRenderTask.html#a7a289817074d4a9c546aca337082d21b":[6,0,1,0,1,70,5],
 "structMR_1_1BasicUiRenderTask.html#a7a289817074d4a9c546aca337082d21b":[6,0,2,0,1,54,5],
-"structMR_1_1BasicUiRenderTask.html#aa45e39c8e875d9033360ff63d3f750f4":[6,0,1,0,1,70,2],
-"structMR_1_1BasicUiRenderTask.html#aa45e39c8e875d9033360ff63d3f750f4":[6,0,2,0,1,54,2],
-"structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3d":[6,0,1,0,1,70,1]
+"structMR_1_1BasicUiRenderTask.html#aa45e39c8e875d9033360ff63d3f750f4":[6,0,1,0,1,70,2]
 };

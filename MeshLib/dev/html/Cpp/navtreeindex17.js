@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"MRViewer_2MRVectorTraits_8h_source.html":[6,0,3,0,0,1,10,138],
 "MRViewer_2config_8h.html":[6,0,3,0,0,1,10,0],
 "MRViewer_2config_8h_source.html":[6,0,3,0,0,1,10,0],
 "MRViewer_8h.html":[6,0,3,0,0,1,10,139],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1AABBTreeBase.html#a380c83540a90e46211318ad9752c2fd2":[6,0,2,0,1,28,0],
 "classMR_1_1AABBTreeBase.html#a444c40a8f2e0206606d5abe15c0f506f":[6,0,1,0,1,44,16],
 "classMR_1_1AABBTreeBase.html#a444c40a8f2e0206606d5abe15c0f506f":[6,0,2,0,1,28,16],
-"classMR_1_1AABBTreeBase.html#a4a87e995071aa1a99752d3f3f32a72b3":[6,0,1,0,1,44,5],
-"classMR_1_1AABBTreeBase.html#a4a87e995071aa1a99752d3f3f32a72b3":[6,0,2,0,1,28,5]
+"classMR_1_1AABBTreeBase.html#a4a87e995071aa1a99752d3f3f32a72b3":[6,0,1,0,1,44,5]
 };

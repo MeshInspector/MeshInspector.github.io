@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"classMR_1_1BitSet.html#a737f8cc71944c7c750f8eeba4028ac17":[6,0,0,3,2,5],
 "classMR_1_1BitSet.html#a784dcb0f29bf20a645a4267b68d0d6ae":[6,0,0,3,2,23],
 "classMR_1_1BitSet.html#a8206c88320507bd96786d2e2318c2ffa":[6,0,0,3,2,26],
 "classMR_1_1BitSet.html#a84a9273303ae000bcf94b893a298eb95":[6,0,0,3,2,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1ChangeMeshFaceSelectionAction.html#a23a80d1bebee446d006fb1adf2ef2700":[6,0,0,4,27,6],
 "classMR_1_1ChangeMeshFaceSelectionAction.html#a405ed8f3e1f0ec969dffa0d31f26119b":[6,0,0,4,27,0],
 "classMR_1_1ChangeMeshFaceSelectionAction.html#a5bbadadc5288e79bcd993ee992afaf84":[6,0,0,4,27,3],
-"classMR_1_1ChangeMeshFaceSelectionAction.html#a628000e800befb0ec5c91ee98032c3d1":[6,0,0,4,27,5],
-"classMR_1_1ChangeMeshFaceSelectionAction.html#a8f903abfb85e2e7bad897c77d021e648":[6,0,0,4,27,1]
+"classMR_1_1ChangeMeshFaceSelectionAction.html#a628000e800befb0ec5c91ee98032c3d1":[6,0,0,4,27,5]
 };

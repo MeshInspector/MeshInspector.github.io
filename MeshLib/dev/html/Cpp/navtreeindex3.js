@@ -31,7 +31,8 @@ var NAVTREEINDEX3 =
 "MRFitData_8h.html#a286c087de610b6e6a6baaf3c7cff3f4b":[6,0,3,0,0,1,10,23,3],
 "MRFitData_8h.html#a286c087de610b6e6a6baaf3c7cff3f4ba59ebaac912e88dcadf4c1963af0724a1":[6,0,3,0,0,1,10,23,3,2],
 "MRFitData_8h.html#a286c087de610b6e6a6baaf3c7cff3f4ba5e6ec7d73c67853669ec7f19208bc4f3":[6,0,3,0,0,1,10,23,3,1],
-"MRFitData_8h.html#a286c087de610b6e6a6baaf3c7cff3f4bab217a711be13c7b44993261f88a6b070":[6,0,3,0,0,1,10,23,3,3],
+"MRFitData_8h.html#a286c087de610b6e6a6baaf3c7cff3f4ba7fc4b5594576e44c09309d16d6e44195":[6,0,3,0,0,1,10,23,3,3],
+"MRFitData_8h.html#a286c087de610b6e6a6baaf3c7cff3f4bab217a711be13c7b44993261f88a6b070":[6,0,3,0,0,1,10,23,3,4],
 "MRFitData_8h.html#a286c087de610b6e6a6baaf3c7cff3f4baec24d78ce33048dc73a2b6b1a0690192":[6,0,3,0,0,1,10,23,3,0],
 "MRFitData_8h_source.html":[6,0,3,0,0,1,10,23],
 "MRFixUndercuts_8h.html":[6,0,3,0,0,1,11,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "MRImGuiVectorOperators_8h.html#a0878630c44dad775e8cc9a8f29109e5b":[6,0,3,0,0,1,10,36,40],
 "MRImGuiVectorOperators_8h.html#a12ab63056037f694d9ccdffda8ddb013":[6,0,3,0,0,1,10,36,26],
 "MRImGuiVectorOperators_8h.html#a1b10073d5f904b51b53263f742597596":[6,0,3,0,0,1,10,36,28],
-"MRImGuiVectorOperators_8h.html#a1bb63ebefff7965e722fdab681030eda":[6,0,3,0,0,1,10,36,35],
-"MRImGuiVectorOperators_8h.html#a1ec7b8101f9329b606187e6018ad4728":[6,0,3,0,0,1,10,36,44]
+"MRImGuiVectorOperators_8h.html#a1bb63ebefff7965e722fdab681030eda":[6,0,3,0,0,1,10,36,35]
 };

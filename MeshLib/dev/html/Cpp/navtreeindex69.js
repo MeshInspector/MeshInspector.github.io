@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#a755dfde7b86dcd1f2da851590cf7d308":[6,0,1,0,1,142,0,0],
+"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#a755dfde7b86dcd1f2da851590cf7d308":[6,0,2,0,1,126,0,0],
 "structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#ac2d631a1f9c3262477e8f19fc818b39a":[6,0,1,0,1,142,0,1],
 "structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#ac2d631a1f9c3262477e8f19fc818b39a":[6,0,2,0,1,126,0,1],
 "structMR_1_1CompensateRadiusParams.html":[6,0,1,0,1,146],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1DenoiseViaNormalsSettings.html#aefcab784c5b10d3504130c0306359d5d":[6,0,1,0,1,178,5],
 "structMR_1_1DenoiseViaNormalsSettings.html#aefcab784c5b10d3504130c0306359d5d":[6,0,2,0,1,162,5],
 "structMR_1_1DenseBox.html":[6,0,0,0,15],
-"structMR_1_1DenseBox.html#a0ea02f370dc76e349984c62b5a3f6557":[6,0,0,0,15,7],
-"structMR_1_1DenseBox.html#a1d968d6262ca4a19b4f5610ef49dfdee":[6,0,0,0,15,6],
-"structMR_1_1DenseBox.html#a38590d0d422769798b0be5129be63d55":[6,0,0,0,15,2]
+"structMR_1_1DenseBox.html#a0ea02f370dc76e349984c62b5a3f6557":[6,0,0,0,15,7]
 };

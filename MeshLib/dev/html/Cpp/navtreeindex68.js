@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1BasicUiRenderTask.html#aa45e39c8e875d9033360ff63d3f750f4":[6,0,2,0,1,54,2],
+"structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3d":[6,0,1,0,1,70,1],
 "structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3d":[6,0,2,0,1,54,1],
 "structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3da3a576d0a62d9d598826a5dd9f7f6fec6":[6,0,1,0,1,70,1,1],
 "structMR_1_1BasicUiRenderTask.html#ab4d07ed1576fec164c6c0308c3cbbb3da3a576d0a62d9d598826a5dd9f7f6fec6":[6,0,2,0,1,54,1,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1Color.html#aec1e7daf3ecd5715157f118516cf17c7":[6,0,1,0,1,141,8],
 "structMR_1_1Color.html#aec1e7daf3ecd5715157f118516cf17c7":[6,0,2,0,1,125,8],
 "structMR_1_1ColorMapAggregator_1_1PartialColorMap.html":[6,0,1,0,1,142,0],
-"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html":[6,0,2,0,1,126,0],
-"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#a755dfde7b86dcd1f2da851590cf7d308":[6,0,1,0,1,142,0,0],
-"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html#a755dfde7b86dcd1f2da851590cf7d308":[6,0,2,0,1,126,0,0]
+"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html":[6,0,2,0,1,126,0]
 };

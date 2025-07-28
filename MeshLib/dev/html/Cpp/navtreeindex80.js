@@ -1,5 +1,7 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1MovementBuildBodyParams.html#adcac10de1f9f5decb27a76bc24ea210d":[6,0,2,0,1,394,1],
+"structMR_1_1MruFormatParameters.html":[6,0,1,0,1,414],
 "structMR_1_1MruFormatParameters.html":[6,0,2,0,1,398],
 "structMR_1_1MruFormatParameters.html#a0896b0c59237dfd0301dec798a268a29":[6,0,1,0,1,414,4],
 "structMR_1_1MruFormatParameters.html#a0896b0c59237dfd0301dec798a268a29":[6,0,2,0,1,398,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1OffsetContourIndex.html#aec9f5b82e1dfa088b1c90d534d047f67":[6,0,2,0,1,449,1],
 "structMR_1_1OffsetContoursOrigins.html":[6,0,1,0,1,466],
 "structMR_1_1OffsetContoursOrigins.html":[6,0,2,0,1,450],
-"structMR_1_1OffsetContoursOrigins.html#a1633716ab89e852055090daa8b6eb2ab":[6,0,1,0,1,466,4],
-"structMR_1_1OffsetContoursOrigins.html#a1633716ab89e852055090daa8b6eb2ab":[6,0,2,0,1,450,4],
-"structMR_1_1OffsetContoursOrigins.html#a4ffc0647f40dc8059aaceaa657ec9511":[6,0,1,0,1,466,5]
+"structMR_1_1OffsetContoursOrigins.html#a1633716ab89e852055090daa8b6eb2ab":[6,0,1,0,1,466,4]
 };
