@@ -168,6 +168,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a62e34964b014489a6f1d3f2e324759ff" id="r_a62e34964b014489a6f1d3f2e324759ff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62e34964b014489a6f1d3f2e324759ff">triangulateOnly</a> = false</td></tr>
 <tr class="memdesc:a62e34964b014489a6f1d3f2e324759ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">If false then additional vertices are created inside the patch for best mesh quality.  <br /></td></tr>
 <tr class="separator:a62e34964b014489a6f1d3f2e324759ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95c1f4256940d339c8ee702d270fff49" id="r_a95c1f4256940d339c8ee702d270fff49"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95c1f4256940d339c8ee702d270fff49">notFlippable</a> = nullptr</td></tr>
+<tr class="memdesc:a95c1f4256940d339c8ee702d270fff49"><td class="mdescLeft">&#160;</td><td class="mdescRight">in triangulateOnly = false mode, edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation  <br /></td></tr>
+<tr class="separator:a95c1f4256940d339c8ee702d270fff49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adebcc27b0bdbb4fa55baa8eae16a0dfb" id="r_adebcc27b0bdbb4fa55baa8eae16a0dfb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adebcc27b0bdbb4fa55baa8eae16a0dfb">maxEdgeLen</a> = 0</td></tr>
 <tr class="memdesc:adebcc27b0bdbb4fa55baa8eae16a0dfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value.  <br /></td></tr>
 <tr class="separator:adebcc27b0bdbb4fa55baa8eae16a0dfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -331,6 +334,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Additionally smooth 3 layers of vertices near hole boundary both inside and outside of the hole. </p>
+
+</div>
+</div>
+<a id="a95c1f4256940d339c8ee702d270fff49" name="a95c1f4256940d339c8ee702d270fff49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95c1f4256940d339c8ee702d270fff49">&#9670;&#160;</a></span>notFlippable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UndirectedEdgeBitSet* MR::FillHoleNicelySettings::notFlippable = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>in triangulateOnly = false mode, edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation </p>
 
 </div>
 </div>
