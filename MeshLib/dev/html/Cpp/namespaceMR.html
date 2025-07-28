@@ -6308,6 +6308,8 @@ same leafs are skipped and different leafs area processed with <code>processLeaf
 <tr class="separator:a6931409b16a2665d35204990c62611b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fee31db406cce1480e3c5c7a9ff7d0f" id="r_a8fee31db406cce1480e3c5c7a9ff7d0f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API Vector2i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fee31db406cce1480e3c5c7a9ff7d0f">calcTextureRes</a> (int bufferSize, int maxTextWidth)</td></tr>
 <tr class="separator:a8fee31db406cce1480e3c5c7a9ff7d0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1091e135e3f2541266bcb5427ba523f" id="r_ac1091e135e3f2541266bcb5427ba523f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1Image.html">Image</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1091e135e3f2541266bcb5427ba523f">renderImGuiToImage</a> (const Vector2i &amp;resolution, const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;backgroundColor, const std::function&lt; void(void)&gt; &amp;renderFunc)</td></tr>
+<tr class="separator:ac1091e135e3f2541266bcb5427ba523f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf818ad78dcf1287b09182b71c21927c" id="r_aaf818ad78dcf1287b09182b71c21927c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const Vector2f &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf818ad78dcf1287b09182b71c21927c">GetAvailableLineWidthRange</a> ()</td></tr>
 <tr class="separator:aaf818ad78dcf1287b09182b71c21927c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad38761a3c9798cc64354bfb245cce186" id="r_ad38761a3c9798cc64354bfb245cce186"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="structMR_1_1RibbonConfig.html">RibbonConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad38761a3c9798cc64354bfb245cce186">createRibbonConfigFromJson</a> (const Json::Value &amp;root)</td></tr>
@@ -35701,6 +35703,40 @@ template&lt;typename T , typename I &gt; </div>
       </table>
 </div><div class="memdoc">
 <p>Removes contours with zero area (do not remove if contour is handle on topology) edgesTopology - topology on which contours are represented with edges faceContours - lone contours represented by faces (all intersections are in same mesh A face) edgeContours - lone contours represented by edges (all intersections are in mesh B edges, edgesTopology: meshB.topology) </p>
+
+</div>
+</div>
+<a id="ac1091e135e3f2541266bcb5427ba523f" name="ac1091e135e3f2541266bcb5427ba523f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1091e135e3f2541266bcb5427ba523f">&#9670;&#160;</a></span>renderImGuiToImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API <a class="el" href="structMR_1_1Image.html">Image</a> MR::renderImGuiToImage </td>
+          <td>(</td>
+          <td class="paramtype">const Vector2i &amp;</td>          <td class="paramname"><span class="paramname"><em>resolution</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>backgroundColor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::function&lt; void(void)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>renderFunc</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Render <a class="el" href="namespaceImGui.html">ImGui</a> to an image using OpenGL texture. Uses a new <a class="el" href="namespaceImGui.html">ImGui</a> context with shared fonts and style, thus can be called during the <a class="el" href="namespaceMR_1_1UI.html">UI</a> rendering. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">resolution</td><td>- image resolution, also sets the <a class="el" href="namespaceImGui.html">ImGui</a>'s display size </td></tr>
+    <tr><td class="paramname">backgroundColor</td><td>- image background color </td></tr>
+    <tr><td class="paramname">renderFunc</td><td>- callback to execute <a class="el" href="namespaceImGui.html">ImGui</a> draw functions, called immediately after ImGui::NewFrame() and before ImGui::Render() </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

@@ -2930,6 +2930,7 @@ var namespaceMR =
     [ "removeLoneDegeneratedContours", "namespaceMR.html#afac751f311b648116a3a4afcd06a10c7", null ],
     [ "removeSpikes", "group__MeshRelaxGroup.html#gab2c357f2577a4c6f872ef3f36c09426d", null ],
     [ "removeSpikes", "group__MeshRelaxGroup.html#gaf3dd7b36bb56c94c95b1bea9f7546349", null ],
+    [ "renderImGuiToImage", "namespaceMR.html#ac1091e135e3f2541266bcb5427ba523f", null ],
     [ "replace", "namespaceMR.html#a2584c6bf8d14b42355582e7b634bb1ee", null ],
     [ "replaceInplace", "namespaceMR.html#afc584d61fd54ca2a86dec086736fdfd4", null ],
     [ "replaceProhibitedChars", "namespaceMR.html#a893bffc80e40fe77684c61377cd58705", null ],

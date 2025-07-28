@@ -1,5 +1,9 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1MruFormatParameters.html":[6,0,2,0,1,398],
+"structMR_1_1MruFormatParameters.html#a0896b0c59237dfd0301dec798a268a29":[6,0,1,0,1,414,4],
+"structMR_1_1MruFormatParameters.html#a0896b0c59237dfd0301dec798a268a29":[6,0,2,0,1,398,4],
+"structMR_1_1MruFormatParameters.html#a54e98c48affcdf0689a304151d417c25":[6,0,1,0,1,414,0],
 "structMR_1_1MruFormatParameters.html#a54e98c48affcdf0689a304151d417c25":[6,0,2,0,1,398,0],
 "structMR_1_1MruFormatParameters.html#a54e98c48affcdf0689a304151d417c25a31f480a71fd01b933a2d0e1e7482581f":[6,0,1,0,1,414,0,0],
 "structMR_1_1MruFormatParameters.html#a54e98c48affcdf0689a304151d417c25a31f480a71fd01b933a2d0e1e7482581f":[6,0,2,0,1,398,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1OffsetContoursOrigins.html":[6,0,2,0,1,450],
 "structMR_1_1OffsetContoursOrigins.html#a1633716ab89e852055090daa8b6eb2ab":[6,0,1,0,1,466,4],
 "structMR_1_1OffsetContoursOrigins.html#a1633716ab89e852055090daa8b6eb2ab":[6,0,2,0,1,450,4],
-"structMR_1_1OffsetContoursOrigins.html#a4ffc0647f40dc8059aaceaa657ec9511":[6,0,1,0,1,466,5],
-"structMR_1_1OffsetContoursOrigins.html#a4ffc0647f40dc8059aaceaa657ec9511":[6,0,2,0,1,450,5],
-"structMR_1_1OffsetContoursOrigins.html#a8e421292af478ab293a9e62952548df9":[6,0,1,0,1,466,6],
-"structMR_1_1OffsetContoursOrigins.html#a8e421292af478ab293a9e62952548df9":[6,0,2,0,1,450,6],
-"structMR_1_1OffsetContoursOrigins.html#aaf61c67899c9c542304ca52c98efd6aa":[6,0,1,0,1,466,1]
+"structMR_1_1OffsetContoursOrigins.html#a4ffc0647f40dc8059aaceaa657ec9511":[6,0,1,0,1,466,5]
 };
