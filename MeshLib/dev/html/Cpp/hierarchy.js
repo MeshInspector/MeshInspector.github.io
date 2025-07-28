@@ -412,6 +412,7 @@ var hierarchy =
     [ "MR::TouchpadController::Handler", "classMR_1_1TouchpadController_1_1Handler.html", null ],
     [ "MR::Heap< T, I, P >", "classMR_1_1Heap.html", null ],
     [ "MR::Histogram", "classMR_1_1Histogram.html", null ],
+    [ "MR::Palette::Histogram", "structMR_1_1Palette_1_1Histogram.html", null ],
     [ "ImGui::HistogramGridLine", "structImGui_1_1HistogramGridLine.html", null ],
     [ "MR::Historian< HistoryActionType >", "classMR_1_1Historian.html", null ],
     [ "MR::HistoryAction", "classMR_1_1HistoryAction.html", [
