@@ -1,7 +1,7 @@
 var classmrmeshpy_1_1EdgePoint =
 [
     [ "__init__", "classmrmeshpy_1_1EdgePoint.html#af4e6c119027c6ded91866e2151295121", null ],
-    [ "__init__", "classmrmeshpy_1_1EdgePoint.html#affc41c06a4389cfad7a6fbda16bfa8fc", null ],
+    [ "__init__", "classmrmeshpy_1_1EdgePoint.html#a3851c488bcb10e51daa8ab56e60ed504", null ],
     [ "__init__", "classmrmeshpy_1_1EdgePoint.html#acb378ce44ce1b12942730cc1a66d374d", null ],
     [ "__init__", "classmrmeshpy_1_1EdgePoint.html#a825a0681aa9f9020907f58916c3e1ba0", null ],
     [ "__bool__", "classmrmeshpy_1_1EdgePoint.html#a9290fc097d04e3a09cc58efd3f3d3499", null ],
