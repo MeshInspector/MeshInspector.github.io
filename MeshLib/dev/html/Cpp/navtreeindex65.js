@@ -1,5 +1,9 @@
 var NAVTREEINDEX65 =
 {
+"namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19":[6,0,1,0,1,40,6],
+"namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7":[6,0,1,0,1,40,6,0],
+"namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19af75f97f8f1058acd62c93bf29de9f49e":[6,0,1,0,1,40,6,1],
+"namespaceMR_1_1VoxelsLoad.html#a80f9d3c0df6c7033f2ea958de6f8a1d1":[6,0,1,0,1,40,29],
 "namespaceMR_1_1VoxelsLoad.html#a97daff0d663d2d21303f92b32c475f1d":[6,0,1,0,1,40,25],
 "namespaceMR_1_1VoxelsLoad.html#a9edb1f3f1374143d0d7b53bc7afefeb6":[6,0,1,0,1,40,26],
 "namespaceMR_1_1VoxelsLoad.html#ab74657867c56c855737e8a2dbc5eb1b1":[6,0,1,0,1,40,27],
@@ -245,9 +249,5 @@ var NAVTREEINDEX65 =
 "structMRFindProjectionParameters.html#a4ec582ee2a2711933884e6b771f2e681":[6,0,2,0,20,1],
 "structMRFindProjectionParameters.html#ac4fce539ae23cabef0a8cece3731cf74":[6,0,2,0,20,0],
 "structMRFixMeshDegeneraciesParams.html":[6,0,2,0,21],
-"structMRFixMeshDegeneraciesParams.html#a1ec8f555bb7f5bec08da56e0a13cadab":[6,0,2,0,21,2],
-"structMRFixMeshDegeneraciesParams.html#a25771fdf3ed98793f7b01ffd05d2823e":[6,0,2,0,21,5],
-"structMRFixMeshDegeneraciesParams.html#a43e9bfd950faa09ebd5ad405d4851678":[6,0,2,0,21,6],
-"structMRFixMeshDegeneraciesParams.html#a4f27ee78591d8af798d6f11a38bb7c8c":[6,0,2,0,21,7],
-"structMRFixMeshDegeneraciesParams.html#a6ae51556ecb7da197778471e3a10a0c2":[6,0,2,0,21,3]
+"structMRFixMeshDegeneraciesParams.html#a1ec8f555bb7f5bec08da56e0a13cadab":[6,0,2,0,21,2]
 };
