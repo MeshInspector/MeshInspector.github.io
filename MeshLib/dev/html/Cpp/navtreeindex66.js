@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"structMRFillHoleNicelyParams.html#a2a722efc00dac0877b5747157757e2ee":[6,0,2,0,18,1],
+"structMRFillHoleNicelyParams.html#a5d6022e8555ac06a276d3b6bd7fdc4f2":[6,0,2,0,18,3],
 "structMRFillHoleNicelyParams.html#a73e4fb69d3a0f04bf2cb22da7f329f99":[6,0,2,0,18,9],
 "structMRFillHoleNicelyParams.html#a8fc5148f53071f533138a7d74e8ea346":[6,0,2,0,18,5],
 "structMRFillHoleNicelyParams.html#a93e4f6683b8aa33e71db3c34b63668e9":[6,0,2,0,18,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "structMRTriangulationParameters.html#a76b2cebb3c62c3f2d15bde88f4ea25ed":[6,0,2,0,63,3],
 "structMRTriangulationParameters.html#a8f0f0757bc404b943df9ed727c9aae53":[6,0,2,0,63,2],
 "structMRTriangulationParameters.html#aabbfe3baa67992675fc7a023186160c3":[6,0,2,0,63,4],
-"structMRTriangulationParameters.html#ab85f0e5badf8970c30123cd74f679dd5":[6,0,2,0,63,6],
-"structMRTriangulationParameters.html#ad1d64fdef721fd0843a1ebdb1b96c472":[6,0,2,0,63,0],
-"structMRTriangulationParameters.html#adcecb6684fdeabcff491432e48f452a5":[6,0,2,0,63,1]
+"structMRTriangulationParameters.html#ab85f0e5badf8970c30123cd74f679dd5":[6,0,2,0,63,6]
 };

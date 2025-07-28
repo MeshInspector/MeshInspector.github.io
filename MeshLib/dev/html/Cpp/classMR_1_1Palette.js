@@ -5,6 +5,7 @@ var classMR_1_1Palette =
     [ "Parameters", "structMR_1_1Palette_1_1Parameters.html", "structMR_1_1Palette_1_1Parameters" ],
     [ "Palette", "classMR_1_1Palette.html#a16b8a71ea5f75f665b1fa1c24368dba3", null ],
     [ "draw", "classMR_1_1Palette.html#a0e327c983c4976ba67d475ce981b76c8", null ],
+    [ "draw", "classMR_1_1Palette.html#a41bdb34995dc77edd7d35db3036db6c4", null ],
     [ "enableDiscretizationPercentages", "classMR_1_1Palette.html#a70655aa3bd1218427ca2534cb2fc1ddc", null ],
     [ "getColor", "classMR_1_1Palette.html#a993b22e2c8c190cfe6473013283f6c04", null ],
     [ "getDefaultNumHistogramBuckets", "classMR_1_1Palette.html#a9118290947382258ebf670ae4ed5db23", null ],

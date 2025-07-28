@@ -194,6 +194,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1db62c44796f0e849665e352c9d02f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e327c983c4976ba67d475ce981b76c8" id="r_a0e327c983c4976ba67d475ce981b76c8"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e327c983c4976ba67d475ce981b76c8">draw</a> (const std::string &amp;windowName, const ImVec2 &amp;pose, const ImVec2 &amp;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>, bool onlyTopHalf=false)</td></tr>
 <tr class="separator:a0e327c983c4976ba67d475ce981b76c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41bdb34995dc77edd7d35db3036db6c4" id="r_a41bdb34995dc77edd7d35db3036db6c4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41bdb34995dc77edd7d35db3036db6c4">draw</a> (ImDrawList *drawList, float scaling, const ImVec2 &amp;pos, const ImVec2 &amp;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>, bool onlyTopHalf=false) const</td></tr>
+<tr class="separator:a41bdb34995dc77edd7d35db3036db6c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac45bdaf4d2808a25a9b6aa7739030f56" id="r_ac45bdaf4d2808a25a9b6aa7739030f56"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac45bdaf4d2808a25a9b6aa7739030f56">resetLabels</a> ()</td></tr>
 <tr class="separator:ac45bdaf4d2808a25a9b6aa7739030f56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50944144ea783bb242d09a0601738ace" id="r_a50944144ea783bb242d09a0601738ace"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50944144ea783bb242d09a0601738ace">setCustomLabels</a> (const std::vector&lt; <a class="el" href="structMR_1_1Palette_1_1Label.html">Label</a> &gt; &amp;labels)</td></tr>
@@ -324,7 +326,7 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a0e327c983c4976ba67d475ce981b76c8" name="a0e327c983c4976ba67d475ce981b76c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e327c983c4976ba67d475ce981b76c8">&#9670;&#160;</a></span>draw()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e327c983c4976ba67d475ce981b76c8">&#9670;&#160;</a></span>draw() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -352,6 +354,48 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Draws vertical legend with labels in <a class="el" href="namespaceImGui.html">ImGui</a> window with given name Discrete: bar consists of single colored rectangles for each initial color Linear (default): color is changing from one to another during initial color list </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">onlyTopHalf</td><td>if true, draws only top half of the palette and labels stretched to whole window </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a41bdb34995dc77edd7d35db3036db6c4" name="a41bdb34995dc77edd7d35db3036db6c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41bdb34995dc77edd7d35db3036db6c4">&#9670;&#160;</a></span>draw() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::Palette::draw </td>
+          <td>(</td>
+          <td class="paramtype">ImDrawList *</td>          <td class="paramname"><span class="paramname"><em>drawList</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>scaling</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ImVec2 &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ImVec2 &amp;</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>onlyTopHalf</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Draws vertical legend with labels in existing window or scene Discrete: bar consists of single colored rectangles for each initial color Linear (default): color is changing from one to another during initial color list </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">onlyTopHalf</td><td>if true, draws only top half of the palette and labels stretched to whole window </td></tr>
   </table>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX84 =
 {
+"structMR_1_1PreDrawListener.html#aaaad0be432409ee6a00436099613fe77":[6,0,1,0,1,549,2],
+"structMR_1_1PreDrawListener.html#aaaad0be432409ee6a00436099613fe77":[6,0,2,0,1,533,2],
 "structMR_1_1PrecipitationSimulator_1_1SimulationStep.html":[6,0,1,0,1,545,0],
 "structMR_1_1PrecipitationSimulator_1_1SimulationStep.html":[6,0,2,0,1,529,0],
 "structMR_1_1PrecipitationSimulator_1_1SimulationStep.html#a2898fdfcc0ded74f09a2807b6b6fef31":[6,0,1,0,1,545,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX84 =
 "structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html":[6,0,2,0,1,19,0,1],
 "structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html#aefbb8b64a400a9acc5e776111c7ae297":[6,0,1,0,1,32,0,1,0],
 "structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html#aefbb8b64a400a9acc5e776111c7ae297":[6,0,2,0,1,19,0,1,0],
-"structMR_1_1ResolveMeshDegenSettings.html":[6,0,1,0,1,590],
-"structMR_1_1ResolveMeshDegenSettings.html":[6,0,2,0,1,574],
-"structMR_1_1ResolveMeshDegenSettings.html#a109fa850f78fd8bce1db8edf8f434645":[6,0,1,0,1,590,1]
+"structMR_1_1ResolveMeshDegenSettings.html":[6,0,1,0,1,590]
 };
