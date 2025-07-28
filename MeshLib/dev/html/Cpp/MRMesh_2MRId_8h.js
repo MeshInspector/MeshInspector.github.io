@@ -2,7 +2,7 @@ var MRMesh_2MRId_8h =
 [
     [ "MR::Id< T >", "classMR_1_1Id.html", "classMR_1_1Id" ],
     [ "MR::NoInitId< T >", "classMR_1_1NoInitId.html", "classMR_1_1NoInitId" ],
-    [ "MR::Id< EdgeTag >", "classMR_1_1Id_3_01EdgeTag_01_4.html", "classMR_1_1Id_3_01EdgeTag_01_4" ],
+    [ "MR::Id< MR::EdgeTag >", "classMR_1_1Id_3_01MR_1_1EdgeTag_01_4.html", "classMR_1_1Id_3_01MR_1_1EdgeTag_01_4" ],
     [ "MR::Id< VoxelTag >", "classMR_1_1Id_3_01VoxelTag_01_4.html", "classMR_1_1Id_3_01VoxelTag_01_4" ],
     [ "operator\"\"_e", "MRMesh_2MRId_8h.html#aaabec0b590b199d56d36804df0255a3b", null ],
     [ "operator\"\"_f", "MRMesh_2MRId_8h.html#a1c14c4b422f53d6aed87261063ce34fb", null ],

@@ -226,6 +226,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a7e3907364fa72b216aa0a6a61ce5f4b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e3907364fa72b216aa0a6a61ce5f4b7" id="r_a7e3907364fa72b216aa0a6a61ce5f4b7"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e3907364fa72b216aa0a6a61ce5f4b7">__init__</a> (*args, **kwargs)</td></tr>
 <tr class="separator:a7e3907364fa72b216aa0a6a61ce5f4b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e3907364fa72b216aa0a6a61ce5f4b7" id="r_a7e3907364fa72b216aa0a6a61ce5f4b7"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e3907364fa72b216aa0a6a61ce5f4b7">__init__</a> (*args, **kwargs)</td></tr>
+<tr class="separator:a7e3907364fa72b216aa0a6a61ce5f4b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad05d03b73a7b013fe89e0c546e50d592" id="r_ad05d03b73a7b013fe89e0c546e50d592"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Box3i.html">Box3i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad05d03b73a7b013fe89e0c546e50d592">fromMinAndSize</a> (<a class="el" href="classmrmeshpy_1_1Vector3i.html">Vector3i</a> min, <a class="el" href="classmrmeshpy_1_1Vector3i.html">Vector3i</a> <a class="el" href="#a03ab28da60b126d5705d07c336c578e9">size</a>)</td></tr>
 <tr class="separator:ad05d03b73a7b013fe89e0c546e50d592"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4950d3ce97e42a048bff6171b234fe03" id="r_a4950d3ce97e42a048bff6171b234fe03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3b.html">Vector3b</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4950d3ce97e42a048bff6171b234fe03">getMaxBoxCorner</a> (<a class="el" href="classmrmeshpy_1_1Vector3i.html">Vector3i</a> n)</td></tr>
@@ -255,7 +257,7 @@ Static Protected Attributes</h2></td></tr>
 Box given by its min- and max- corners
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7e3907364fa72b216aa0a6a61ce5f4b7" name="a7e3907364fa72b216aa0a6a61ce5f4b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e3907364fa72b216aa0a6a61ce5f4b7">&#9670;&#160;</a></span>__init__() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e3907364fa72b216aa0a6a61ce5f4b7">&#9670;&#160;</a></span>__init__() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -284,7 +286,7 @@ Box given by its min- and max- corners
 </div>
 </div>
 <a id="a7e3907364fa72b216aa0a6a61ce5f4b7" name="a7e3907364fa72b216aa0a6a61ce5f4b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e3907364fa72b216aa0a6a61ce5f4b7">&#9670;&#160;</a></span>__init__() <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e3907364fa72b216aa0a6a61ce5f4b7">&#9670;&#160;</a></span>__init__() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -309,13 +311,41 @@ Box given by its min- and max- corners
   </tr>
 </table>
 </div><div class="memdoc">
-<pre class="fragment">If the compiler supports `requires`, use that instead of `std::enable_if` here.
-Not (only) because it looks cooler, but because of a bug in our binding generator that makes it choke on it: https://github.com/MeshInspector/mrbind/issues/19
+<pre class="fragment">skip initialization of min/max
 </pre> 
 </div>
 </div>
+<a id="a7e3907364fa72b216aa0a6a61ce5f4b7" name="a7e3907364fa72b216aa0a6a61ce5f4b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e3907364fa72b216aa0a6a61ce5f4b7">&#9670;&#160;</a></span>__init__() <span class="overload">[3/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.Box3i.__init__ </td>
+          <td>(</td>
+          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3f30f806874c3459fcd476f72dba3dee" name="a3f30f806874c3459fcd476f72dba3dee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f30f806874c3459fcd476f72dba3dee">&#9670;&#160;</a></span>__init__() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f30f806874c3459fcd476f72dba3dee">&#9670;&#160;</a></span>__init__() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -333,7 +363,7 @@ Not (only) because it looks cooler, but because of a bug in our binding generato
 </div>
 </div>
 <a id="aa69f4c0cb7b565dc14456c80e9e135ad" name="aa69f4c0cb7b565dc14456c80e9e135ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa69f4c0cb7b565dc14456c80e9e135ad">&#9670;&#160;</a></span>__init__() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa69f4c0cb7b565dc14456c80e9e135ad">&#9670;&#160;</a></span>__init__() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -359,7 +389,7 @@ Not (only) because it looks cooler, but because of a bug in our binding generato
 </div>
 </div>
 <a id="a8891a08b343fed6a36f02c3a9dc65a4a" name="a8891a08b343fed6a36f02c3a9dc65a4a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8891a08b343fed6a36f02c3a9dc65a4a">&#9670;&#160;</a></span>__init__() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8891a08b343fed6a36f02c3a9dc65a4a">&#9670;&#160;</a></span>__init__() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

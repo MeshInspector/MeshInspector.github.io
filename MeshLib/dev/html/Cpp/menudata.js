@@ -360,9 +360,7 @@ var menudata={children:[
 {text:"v",url:"functions_eval.html#index_v"},
 {text:"w",url:"functions_eval.html#index_w"}]},
 {text:"Related Symbols",url:"functions_rela.html",children:[
-{text:"b",url:"functions_rela.html#index_b"},
 {text:"c",url:"functions_rela.html#index_c"},
-{text:"e",url:"functions_rela.html#index_e"},
 {text:"g",url:"functions_rela.html#index_g"},
 {text:"m",url:"functions_rela.html#index_m"},
 {text:"o",url:"functions_rela.html#index_o"},
