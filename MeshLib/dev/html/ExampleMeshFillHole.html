@@ -202,13 +202,13 @@ $(function(){initNavTree('ExampleMeshFillHole.html',''); initResizable(true); })
 <div class="line">    params = <a class="code hl_classRef" href="./Py/classmrmeshpy_1_1FillHoleParams.html">mrmeshpy.FillHoleParams</a>()</div>
 <div class="line">    params.metric = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ac7db5f744bcb873863e73c286eccba13">mrmeshpy.getUniversalMetric</a>(mesh)</div>
 <div class="line">    <span class="comment">#  Fill hole represented by `e`</span></div>
-<div class="line">    <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a1fdb929e60b836ba3899190c49a83344">mrmeshpy.fillHole</a>(mesh, e, params)</div>
+<div class="line">    <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a64087caf827431a848b6943e3d1548d6">mrmeshpy.fillHole</a>(mesh, e, params)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Save result</span></div>
 <div class="line"><a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a0f6b2b16672621f1c75bbd082c1ca388">mrmeshpy.saveMesh</a>(mesh, <span class="stringliteral">&quot;filledMesh.stl&quot;</span>)</div>
 <div class="ttc" id="aclassmrmeshpy_1_1FillHoleParams_html"><div class="ttname"><a href="./Py/classmrmeshpy_1_1FillHoleParams.html">mrmeshpy::FillHoleParams</a></div></div>
 <div class="ttc" id="anamespacemrmeshpy_html_a0f6b2b16672621f1c75bbd082c1ca388"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a0f6b2b16672621f1c75bbd082c1ca388">mrmeshpy::saveMesh</a></div><div class="ttdeci">None saveMesh(Mesh mesh, os.PathLike|str|bytes file, SaveSettings settings='{}')</div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_a1fdb929e60b836ba3899190c49a83344"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a1fdb929e60b836ba3899190c49a83344">mrmeshpy::fillHole</a></div><div class="ttdeci">None fillHole(Mesh mesh, Id_EdgeTag a, FillHoleParams params='{}')</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_a64087caf827431a848b6943e3d1548d6"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a64087caf827431a848b6943e3d1548d6">mrmeshpy::fillHole</a></div><div class="ttdeci">None fillHole(Mesh mesh, EdgeId a, FillHoleParams params='{}')</div></div>
 <div class="ttc" id="anamespacemrmeshpy_html_ac7db5f744bcb873863e73c286eccba13"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ac7db5f744bcb873863e73c286eccba13">mrmeshpy::getUniversalMetric</a></div><div class="ttdeci">FillHoleMetric getUniversalMetric(Mesh mesh)</div></div>
 <div class="ttc" id="anamespacemrmeshpy_html_ac870d6fee4e3b3e3dcf73bc12a21d0f5"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ac870d6fee4e3b3e3dcf73bc12a21d0f5">mrmeshpy::loadMesh</a></div><div class="ttdeci">Mesh loadMesh(os.PathLike|str|bytes file, MeshLoadSettings settings='{}')</div></div>
 </div><!-- fragment --></li>
@@ -277,7 +277,7 @@ $(function(){initNavTree('ExampleMeshFillHole.html',''); initResizable(true); })
 <div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 0; i &lt; mrEdgePathSize( holes ); i++ )</div>
 <div class="line">    {</div>
 <div class="line">        <a class="code hl_structRef" href="./Cpp/structMREdgeId.html">MREdgeId</a> e = mrEdgePathData( holes )[i];</div>
-<div class="line">        <a class="code hl_structRef" href="./Cpp/structMRVector3f.html">MRVector3f</a> <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#a60be74630814c2cd85e524efe462b7f8">holeDirArea</a> = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMesh_8h.html#a2b4e8d0e742af7ef37b537d0f0ba8cb4">mrMeshHoleDirArea</a>( mesh, e );</div>
+<div class="line">        <a class="code hl_structRef" href="./Cpp/structMRVector3f.html">MRVector3f</a> <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ae53e446ff455ecd603569115d2e51d44">holeDirArea</a> = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMesh_8h.html#a2b4e8d0e742af7ef37b537d0f0ba8cb4">mrMeshHoleDirArea</a>( mesh, e );</div>
 <div class="line">        <span class="keywordflow">if</span> ( mrVector3Length( &amp;holeDirArea ) &gt;= MIN_HOLE_AREA )</div>
 <div class="line">        {</div>
 <div class="line">            <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMeshFillHole_8h.html#a62a9b8cdd8c95f17540656917d3cf7f6">mrFillHole</a>( mesh, e, &amp;params );</div>
@@ -328,7 +328,7 @@ $(function(){initNavTree('ExampleMeshFillHole.html',''); initResizable(true); })
 <div class="ttc" id="aMRMeshC_2MRSaveSettings_8h_html_a756130ec0ffb3b0c1dde997339d1d39e"><div class="ttname"><a href="./Cpp/MRMeshC_2MRSaveSettings_8h.html#a756130ec0ffb3b0c1dde997339d1d39e">mrSaveSettingsNew</a></div><div class="ttdeci">MRMESHC_API MRSaveSettings mrSaveSettingsNew(void)</div></div>
 <div class="ttc" id="aMRMeshC_2MRString_8h_html_a6c06174923fa27502a2633fd5791047d"><div class="ttname"><a href="./Cpp/MRMeshC_2MRString_8h.html#a6c06174923fa27502a2633fd5791047d">mrStringFree</a></div><div class="ttdeci">MRMESHC_API void mrStringFree(MRString *str)</div></div>
 <div class="ttc" id="aMRMeshC_2MRString_8h_html_a76ec6c7635ff332a9e166e4e5d3ba3c6"><div class="ttname"><a href="./Cpp/MRMeshC_2MRString_8h.html#a76ec6c7635ff332a9e166e4e5d3ba3c6">mrStringData</a></div><div class="ttdeci">MR_EXTERN_C_BEGIN MRMESHC_API const char * mrStringData(const MRString *str)</div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_a60be74630814c2cd85e524efe462b7f8"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a60be74630814c2cd85e524efe462b7f8">mrmeshpy::holeDirArea</a></div><div class="ttdeci">Vector3d holeDirArea(MeshTopology topology, VertCoords points, Id_EdgeTag e)</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_ae53e446ff455ecd603569115d2e51d44"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ae53e446ff455ecd603569115d2e51d44">mrmeshpy::holeDirArea</a></div><div class="ttdeci">Vector3d holeDirArea(MeshTopology topology, VertCoords points, EdgeId e)</div></div>
 <div class="ttc" id="astructMREdgeId_html"><div class="ttname"><a href="./Cpp/structMREdgeId.html">MREdgeId</a></div></div>
 <div class="ttc" id="astructMRFillHoleMetric_html"><div class="ttname"><a href="./Cpp/structMRFillHoleMetric.html">MRFillHoleMetric</a></div></div>
 <div class="ttc" id="astructMRFillHoleParams_html"><div class="ttname"><a href="./Cpp/structMRFillHoleParams.html">MRFillHoleParams</a></div></div>

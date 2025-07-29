@@ -15,7 +15,6 @@ var classmrmeshpy_1_1ICP =
     [ "getParams", "classmrmeshpy_1_1ICP.html#a277d781cbf6564b7391a9f999d13589d", null ],
     [ "getRef2FltPairs", "classmrmeshpy_1_1ICP.html#a9417ab6b0f89eb260cb193ff61fcceb2", null ],
     [ "getStatusInfo", "classmrmeshpy_1_1ICP.html#a4b3d3a4629f37f9e36c389b8743ede91", null ],
-    [ "recomputeBitSet", "classmrmeshpy_1_1ICP.html#a74375e8e7df8a04f6c92a79211d09fb4", null ],
     [ "sampleFltPoints", "classmrmeshpy_1_1ICP.html#ae74966352e9497f6602c550641ea1567", null ],
     [ "samplePoints", "classmrmeshpy_1_1ICP.html#a104163f5c7cf2235a5e74b7adc1de60a", null ],
     [ "sampleRefPoints", "classmrmeshpy_1_1ICP.html#aeb7770adee0665ba02b26deca3fb6b66", null ],
