@@ -158,8 +158,7 @@ $(function(){initNavTree('MRMeshThickness_8h.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">MRMeshThickness.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;MRPch/MRBindingMacros.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRMesh_2MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="MRMesh_2MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMesh_2MRMeshProject_8h_source.html">MRMeshProject.h</a>&quot;</code><br />
 <code>#include &lt;cfloat&gt;</code><br />
 <code>#include &lt;optional&gt;</code><br />
@@ -188,8 +187,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a72fc5e2c323877bad4144cd852748496" id="r_a72fc5e2c323877bad4144cd852748496"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; VertScalars &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a72fc5e2c323877bad4144cd852748496">MR::computeRayThicknessAtVertices</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
 <tr class="memdesc:a72fc5e2c323877bad4144cd852748496"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the distance from each vertex along minus normal to the nearest mesh intersection (or FLT_MAX if no intersection found)  <br /></td></tr>
 <tr class="separator:a72fc5e2c323877bad4144cd852748496"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86a7a7e15f6ca97ab7fc48a6b80ccfc3" id="r_a86a7a7e15f6ca97ab7fc48a6b80ccfc3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="group__AABBTreeGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a86a7a7e15f6ca97ab7fc48a6b80ccfc3">MR::computeThicknessAtVertices</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
-<tr class="separator:a86a7a7e15f6ca97ab7fc48a6b80ccfc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60ac6a54dbd6834e6e53a2b1eefbd033" id="r_a60ac6a54dbd6834e6e53a2b1eefbd033"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a60ac6a54dbd6834e6e53a2b1eefbd033">MR::computeThicknessAtVertices</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="separator:a60ac6a54dbd6834e6e53a2b1eefbd033"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b7d6d6c842d2b1470c87e1a28ee7b07" id="r_a7b7d6d6c842d2b1470c87e1a28ee7b07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshIntersectionResult.html">MeshIntersectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a7b7d6d6c842d2b1470c87e1a28ee7b07">MR::rayInsideIntersect</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshPoint.html">MeshPoint</a> &amp;m, float rayEnd=FLT_MAX)</td></tr>
 <tr class="memdesc:a7b7d6d6c842d2b1470c87e1a28ee7b07"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the nearest intersection between the mesh and the ray from given point along minus normal (inside the mesh)  <br /></td></tr>
 <tr class="separator:a7b7d6d6c842d2b1470c87e1a28ee7b07"><td class="memSeparator" colspan="2">&#160;</td></tr>
