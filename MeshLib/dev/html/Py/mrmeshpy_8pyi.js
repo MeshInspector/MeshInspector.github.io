@@ -1259,6 +1259,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.std_vector_std_pair_Vector3_float_Vector3_float", "classmrmeshpy_1_1std__vector__std__pair__Vector3__float__Vector3__float.html", "classmrmeshpy_1_1std__vector__std__pair__Vector3__float__Vector3__float" ],
     [ "mrmeshpy.std_vector_std_pair_double_int", "classmrmeshpy_1_1std__vector__std__pair__double__int.html", "classmrmeshpy_1_1std__vector__std__pair__double__int" ],
     [ "mrmeshpy.std_vector_std_pair_double_std_string", "classmrmeshpy_1_1std__vector__std__pair__double__std__string.html", "classmrmeshpy_1_1std__vector__std__pair__double__std__string" ],
+    [ "mrmeshpy.std_vector_std_pair_std_string_float", "classmrmeshpy_1_1std__vector__std__pair__std__string__float.html", "classmrmeshpy_1_1std__vector__std__pair__std__string__float" ],
     [ "mrmeshpy.std_vector_std_pair_unsigned_long_unsigned_long", "classmrmeshpy_1_1std__vector__std__pair__unsigned__long__unsigned__long.html", "classmrmeshpy_1_1std__vector__std__pair__unsigned__long__unsigned__long" ],
     [ "mrmeshpy.std_vector_std_shared_ptr_BasicUiRenderTask", "classmrmeshpy_1_1std__vector__std__shared__ptr__BasicUiRenderTask.html", "classmrmeshpy_1_1std__vector__std__shared__ptr__BasicUiRenderTask" ],
     [ "mrmeshpy.std_vector_std_shared_ptr_HistoryAction", "classmrmeshpy_1_1std__vector__std__shared__ptr__HistoryAction.html", "classmrmeshpy_1_1std__vector__std__shared__ptr__HistoryAction" ],

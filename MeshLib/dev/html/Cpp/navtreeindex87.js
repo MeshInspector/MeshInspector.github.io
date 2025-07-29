@@ -1,5 +1,9 @@
 var NAVTREEINDEX87 =
 {
+"structMR_1_1SpacingSettings.html#a612a52253b770197ad7b0ddea8224c14":[6,0,1,0,1,683,5],
+"structMR_1_1SpacingSettings.html#a612a52253b770197ad7b0ddea8224c14":[6,0,2,0,1,667,5],
+"structMR_1_1SpacingSettings.html#a65572ad8925a4fe549d886d23dc4b2e5":[6,0,1,0,1,683,1],
+"structMR_1_1SpacingSettings.html#a65572ad8925a4fe549d886d23dc4b2e5":[6,0,2,0,1,667,1],
 "structMR_1_1SpacingSettings.html#ac011fc95d61ece99cc3358e1236104d9":[6,0,1,0,1,683,4],
 "structMR_1_1SpacingSettings.html#ac011fc95d61ece99cc3358e1236104d9":[6,0,2,0,1,667,4],
 "structMR_1_1SpacingSettings.html#ad568a8496f9ca1e1732124e9fa159cd5":[6,0,1,0,1,683,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX87 =
 "structMR_1_1ThreadRootTimeRecord.html#afcc5ed565036ccc1c8fb6062fe2b4405":[6,0,0,3,14,4],
 "structMR_1_1TiffParameters.html":[6,0,1,0,1,713],
 "structMR_1_1TiffParameters.html":[6,0,2,0,1,697],
-"structMR_1_1TiffParameters.html#a0f390427adc09ea9947004b14be21cf0":[6,0,1,0,1,713,4],
-"structMR_1_1TiffParameters.html#a0f390427adc09ea9947004b14be21cf0":[6,0,2,0,1,697,4],
-"structMR_1_1TiffParameters.html#a67cf9b6f020900773f185c934f3ade7c":[6,0,1,0,1,713,0],
-"structMR_1_1TiffParameters.html#a67cf9b6f020900773f185c934f3ade7c":[6,0,2,0,1,697,0],
-"structMR_1_1TiffParameters.html#a7e4daa97486cdcdbe24a7e3a607ae1ab":[6,0,1,0,1,713,2]
+"structMR_1_1TiffParameters.html#a0f390427adc09ea9947004b14be21cf0":[6,0,1,0,1,713,4]
 };

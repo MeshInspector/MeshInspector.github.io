@@ -1106,6 +1106,7 @@ var hierarchy =
     [ "mrmeshpy.std_vector_std_pair_double_std_string", "classmrmeshpy_1_1std__vector__std__pair__double__std__string.html", null ],
     [ "mrmeshpy.std_vector_std_pair_Id_EdgeTag_Id_EdgeTag", "classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag.html", null ],
     [ "mrmeshpy.std_vector_std_pair_Id_VertTag_Id_VertTag", "classmrmeshpy_1_1std__vector__std__pair__Id__VertTag__Id__VertTag.html", null ],
+    [ "mrmeshpy.std_vector_std_pair_std_string_float", "classmrmeshpy_1_1std__vector__std__pair__std__string__float.html", null ],
     [ "mrmeshpy.std_vector_std_pair_unsigned_long_unsigned_long", "classmrmeshpy_1_1std__vector__std__pair__unsigned__long__unsigned__long.html", null ],
     [ "mrmeshpy.std_vector_std_pair_Vector3_float_Vector3_float", "classmrmeshpy_1_1std__vector__std__pair__Vector3__float__Vector3__float.html", null ],
     [ "mrmeshpy.std_vector_std_shared_ptr_BasicUiRenderTask", "classmrmeshpy_1_1std__vector__std__shared__ptr__BasicUiRenderTask.html", null ],

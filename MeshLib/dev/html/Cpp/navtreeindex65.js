@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"namespaceMR_1_1UnitSettings.html#a18f2b660ede4fa66b9a12f1b358ae3b5":[6,0,1,0,1,39,0],
+"namespaceMR_1_1UnitSettings.html#a2b2fc6815346b05ae633d230e475a414":[6,0,1,0,1,39,11],
 "namespaceMR_1_1UnitSettings.html#a2fa49ac2e3a36c4f6472b6b5ea7793cc":[6,0,1,0,1,39,16],
 "namespaceMR_1_1UnitSettings.html#a3828878d9371fdeec0058499a90a773c":[6,0,1,0,1,39,6],
 "namespaceMR_1_1UnitSettings.html#a6c2457148f4800dfc82a654d0d9f3592":[6,0,1,0,1,39,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "structMRFaceId.html":[6,0,2,0,16],
 "structMRFaceId.html#a204eb026775902b1b2437f81f085f6f9":[6,0,2,0,16,0],
 "structMRFillHoleMetric.html":[6,0,2,0,17],
-"structMRFillHoleNicelyParams.html":[6,0,2,0,18],
-"structMRFillHoleNicelyParams.html#a0e8d72a772875d6f09126098f2cd3e00":[6,0,2,0,18,8],
-"structMRFillHoleNicelyParams.html#a22d1689535c4fb329d317ae2895d24fc":[6,0,2,0,18,4]
+"structMRFillHoleNicelyParams.html":[6,0,2,0,18]
 };

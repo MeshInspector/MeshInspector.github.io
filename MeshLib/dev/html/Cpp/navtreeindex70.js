@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2":[6,0,2,0,1,160,0],
+"structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0":[6,0,1,0,1,176,2],
 "structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0":[6,0,2,0,1,160,2],
 "structMR_1_1DenoiseViaNormalsSettings.html":[6,0,1,0,1,178],
 "structMR_1_1DenoiseViaNormalsSettings.html":[6,0,2,0,1,162],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1DragOverListener.html#a96026484054dfeb0d7f893a24afce478":[6,0,1,0,1,205,0],
 "structMR_1_1DragOverListener.html#a96026484054dfeb0d7f893a24afce478":[6,0,2,0,1,189,0],
 "structMR_1_1DragOverListener.html#a98e3455e802d1cdfb96e0e86f2aca1d4":[6,0,1,0,1,205,1],
-"structMR_1_1DragOverListener.html#a98e3455e802d1cdfb96e0e86f2aca1d4":[6,0,2,0,1,189,1],
-"structMR_1_1DragOverListener.html#ab96d070253ee14052fef6fed55f03993":[6,0,1,0,1,205,2],
-"structMR_1_1DragOverListener.html#ab96d070253ee14052fef6fed55f03993":[6,0,2,0,1,189,2]
+"structMR_1_1DragOverListener.html#a98e3455e802d1cdfb96e0e86f2aca1d4":[6,0,2,0,1,189,1]
 };

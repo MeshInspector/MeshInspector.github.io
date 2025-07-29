@@ -4,6 +4,7 @@ var classmrmeshpy_1_1Pdf =
     [ "__bool__", "classmrmeshpy_1_1Pdf.html#a40a6eea69478be94bcdf0f8e35f09172", null ],
     [ "__repr__", "classmrmeshpy_1_1Pdf.html#ad3a53512d47466724d34d6a124805d61", null ],
     [ "addImageFromFile", "classmrmeshpy_1_1Pdf.html#a9af86ee73695990a563b839d0470ad38", null ],
+    [ "addTable", "classmrmeshpy_1_1Pdf.html#ae991a90a1adc58ad36df8c9d51d6d469", null ],
     [ "addText", "classmrmeshpy_1_1Pdf.html#a305ba9004bc385fc5d8e5c9cd8761773", null ],
     [ "close", "classmrmeshpy_1_1Pdf.html#aca37943d85c3d50d7d03c16f2601578e", null ],
     [ "getCursorPosX", "classmrmeshpy_1_1Pdf.html#a51465290b9fc58b363ca969c939ca83a", null ],

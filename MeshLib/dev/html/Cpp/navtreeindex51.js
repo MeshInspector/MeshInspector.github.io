@@ -1,5 +1,7 @@
 var NAVTREEINDEX51 =
 {
+"classMR_1_1VisualObject.html#ab054b578e5da7a7822d693ec0f61b1e7":[6,0,0,11,2,5,86],
+"classMR_1_1VisualObject.html#ab494630abaaab85d3b4c16929c7e6e83":[6,0,0,11,2,5,91],
 "classMR_1_1VisualObject.html#ab5a7a842052c24ab9b286eafae1bfb8d":[6,0,0,11,2,5,9],
 "classMR_1_1VisualObject.html#ab87c9fab3f92c38aba589584b5466a98":[6,0,0,11,2,5,77],
 "classMR_1_1VisualObject.html#abc385dbd4feb205cf762f43d1f25c2f0":[6,0,0,11,2,5,55],
@@ -247,7 +249,5 @@ var NAVTREEINDEX51 =
 "conceptMR_1_1HasGetNormalMethod.html":[6,0,1,0,1,819],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1Scalar.html":[6,0,1,0,1,12,0,8],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1ValidOperands.html":[6,0,1,0,1,12,0,12],
-"conceptMR_1_1ImGuiMath_1_1detail_1_1Vector.html":[6,0,1,0,1,12,0,9],
-"conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalar.html":[6,0,1,0,1,12,0,10],
-"conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalarMaybeCvref.html":[6,0,1,0,1,12,0,11]
+"conceptMR_1_1ImGuiMath_1_1detail_1_1Vector.html":[6,0,1,0,1,12,0,9]
 };
