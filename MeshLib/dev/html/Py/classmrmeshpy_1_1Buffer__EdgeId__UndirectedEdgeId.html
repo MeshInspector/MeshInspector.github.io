@@ -1,0 +1,541 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: mrmeshpy.Buffer_EdgeId_UndirectedEdgeId Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmrmeshpy_1_1Buffer__EdgeId__UndirectedEdgeId.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classmrmeshpy_1_1Buffer__EdgeId__UndirectedEdgeId-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">mrmeshpy.Buffer_EdgeId_UndirectedEdgeId Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a18847f1a16a5554679dd7de47090daf7" id="r_a18847f1a16a5554679dd7de47090daf7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html">NoDefInit_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18847f1a16a5554679dd7de47090daf7">__getitem__</a> (self, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a> i)</td></tr>
+<tr class="separator:a18847f1a16a5554679dd7de47090daf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18847f1a16a5554679dd7de47090daf7" id="r_a18847f1a16a5554679dd7de47090daf7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html">NoDefInit_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18847f1a16a5554679dd7de47090daf7">__getitem__</a> (self, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a> i)</td></tr>
+<tr class="separator:a18847f1a16a5554679dd7de47090daf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a138410abaeeeba848721c5062597464e" id="r_a138410abaeeeba848721c5062597464e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a138410abaeeeba848721c5062597464e">__init__</a> (self)</td></tr>
+<tr class="separator:a138410abaeeeba848721c5062597464e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07cf1dace1c0ec960c06a9a43d66808f" id="r_a07cf1dace1c0ec960c06a9a43d66808f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07cf1dace1c0ec960c06a9a43d66808f">__init__</a> (self, int <a class="el" href="#ad3c619d74614c1f4632d75d57b274688">size</a>)</td></tr>
+<tr class="separator:a07cf1dace1c0ec960c06a9a43d66808f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e316bd7459cb409f8a1d263acebe2da" id="r_a0e316bd7459cb409f8a1d263acebe2da"><td class="memItemLeft" align="right" valign="top">typing.Iterator[<a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html">NoDefInit_EdgeId</a>]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e316bd7459cb409f8a1d263acebe2da">__iter__</a> (self)</td></tr>
+<tr class="separator:a0e316bd7459cb409f8a1d263acebe2da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a221d866a7ecac15c9e9cd18cdd74cbfc" id="r_a221d866a7ecac15c9e9cd18cdd74cbfc"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a221d866a7ecac15c9e9cd18cdd74cbfc">__setitem__</a> (self, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a> arg0, <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html">NoDefInit_EdgeId</a> arg1)</td></tr>
+<tr class="separator:a221d866a7ecac15c9e9cd18cdd74cbfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc462a57fb9e101fda8af1f723f7ecae" id="r_adc462a57fb9e101fda8af1f723f7ecae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc462a57fb9e101fda8af1f723f7ecae">backId</a> (self)</td></tr>
+<tr class="separator:adc462a57fb9e101fda8af1f723f7ecae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9fd025730637592ff87a58dc3e72d1c" id="r_aa9fd025730637592ff87a58dc3e72d1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9fd025730637592ff87a58dc3e72d1c">beginId</a> (self)</td></tr>
+<tr class="separator:aa9fd025730637592ff87a58dc3e72d1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27bf6cd24f4540e3ba301bbf564389ab" id="r_a27bf6cd24f4540e3ba301bbf564389ab"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27bf6cd24f4540e3ba301bbf564389ab">capacity</a> (self)</td></tr>
+<tr class="separator:a27bf6cd24f4540e3ba301bbf564389ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60d782ab7ab10c1c70e88e245b5f481c" id="r_a60d782ab7ab10c1c70e88e245b5f481c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60d782ab7ab10c1c70e88e245b5f481c">clear</a> (self)</td></tr>
+<tr class="separator:a60d782ab7ab10c1c70e88e245b5f481c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bcf453d4e381a49ef4fa16873f9102d" id="r_a9bcf453d4e381a49ef4fa16873f9102d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html">NoDefInit_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bcf453d4e381a49ef4fa16873f9102d">data</a> (self)</td></tr>
+<tr class="separator:a9bcf453d4e381a49ef4fa16873f9102d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bcf453d4e381a49ef4fa16873f9102d" id="r_a9bcf453d4e381a49ef4fa16873f9102d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html">NoDefInit_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bcf453d4e381a49ef4fa16873f9102d">data</a> (self)</td></tr>
+<tr class="separator:a9bcf453d4e381a49ef4fa16873f9102d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa90a92fbb7390855bea0192485bdfb26" id="r_aa90a92fbb7390855bea0192485bdfb26"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa90a92fbb7390855bea0192485bdfb26">empty</a> (self)</td></tr>
+<tr class="separator:aa90a92fbb7390855bea0192485bdfb26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eb6566613e36b0c398a71ab1c1a4d62" id="r_a2eb6566613e36b0c398a71ab1c1a4d62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2eb6566613e36b0c398a71ab1c1a4d62">endId</a> (self)</td></tr>
+<tr class="separator:a2eb6566613e36b0c398a71ab1c1a4d62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56101c55e1c84f78f6b560aef8d6a81d" id="r_a56101c55e1c84f78f6b560aef8d6a81d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56101c55e1c84f78f6b560aef8d6a81d">heapBytes</a> (self)</td></tr>
+<tr class="separator:a56101c55e1c84f78f6b560aef8d6a81d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af51746e184edb85967d5d5b0e8add927" id="r_af51746e184edb85967d5d5b0e8add927"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af51746e184edb85967d5d5b0e8add927">resize</a> (self, int newSize)</td></tr>
+<tr class="separator:af51746e184edb85967d5d5b0e8add927"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3c619d74614c1f4632d75d57b274688" id="r_ad3c619d74614c1f4632d75d57b274688"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3c619d74614c1f4632d75d57b274688">size</a> (self)</td></tr>
+<tr class="separator:ad3c619d74614c1f4632d75d57b274688"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Generated from:  MR::Buffer&lt;MR::EdgeId, MR::UndirectedEdgeId&gt;
+
+
+ \\brief std::vector&lt;V&gt;-like container that is
+  1) resized without initialization of its elements,
+  2) much simplified: no push_back and many other methods
+ \\tparam V type of stored elements
+ \\tparam I type of index (shall be convertible to size_t)
+ \\ingroup BasicGroup</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a138410abaeeeba848721c5062597464e" name="a138410abaeeeba848721c5062597464e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a138410abaeeeba848721c5062597464e">&#9670;&#160;</a></span>__init__() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.Buffer_EdgeId_UndirectedEdgeId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a07cf1dace1c0ec960c06a9a43d66808f" name="a07cf1dace1c0ec960c06a9a43d66808f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07cf1dace1c0ec960c06a9a43d66808f">&#9670;&#160;</a></span>__init__() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.Buffer_EdgeId_UndirectedEdgeId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a18847f1a16a5554679dd7de47090daf7" name="a18847f1a16a5554679dd7de47090daf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18847f1a16a5554679dd7de47090daf7">&#9670;&#160;</a></span>__getitem__() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html">NoDefInit_EdgeId</a> mrmeshpy.Buffer_EdgeId_UndirectedEdgeId.__getitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a18847f1a16a5554679dd7de47090daf7" name="a18847f1a16a5554679dd7de47090daf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18847f1a16a5554679dd7de47090daf7">&#9670;&#160;</a></span>__getitem__() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html">NoDefInit_EdgeId</a> mrmeshpy.Buffer_EdgeId_UndirectedEdgeId.__getitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0e316bd7459cb409f8a1d263acebe2da" name="a0e316bd7459cb409f8a1d263acebe2da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e316bd7459cb409f8a1d263acebe2da">&#9670;&#160;</a></span>__iter__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> typing.Iterator[<a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html">NoDefInit_EdgeId</a>] mrmeshpy.Buffer_EdgeId_UndirectedEdgeId.__iter__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a221d866a7ecac15c9e9cd18cdd74cbfc" name="a221d866a7ecac15c9e9cd18cdd74cbfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a221d866a7ecac15c9e9cd18cdd74cbfc">&#9670;&#160;</a></span>__setitem__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.Buffer_EdgeId_UndirectedEdgeId.__setitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html">NoDefInit_EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adc462a57fb9e101fda8af1f723f7ecae" name="adc462a57fb9e101fda8af1f723f7ecae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc462a57fb9e101fda8af1f723f7ecae">&#9670;&#160;</a></span>backId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a> mrmeshpy.Buffer_EdgeId_UndirectedEdgeId.backId </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the identifier of the back() element
+</pre> 
+</div>
+</div>
+<a id="aa9fd025730637592ff87a58dc3e72d1c" name="aa9fd025730637592ff87a58dc3e72d1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9fd025730637592ff87a58dc3e72d1c">&#9670;&#160;</a></span>beginId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a> mrmeshpy.Buffer_EdgeId_UndirectedEdgeId.beginId </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the identifier of the first element
+</pre> 
+</div>
+</div>
+<a id="a27bf6cd24f4540e3ba301bbf564389ab" name="a27bf6cd24f4540e3ba301bbf564389ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27bf6cd24f4540e3ba301bbf564389ab">&#9670;&#160;</a></span>capacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int mrmeshpy.Buffer_EdgeId_UndirectedEdgeId.capacity </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a60d782ab7ab10c1c70e88e245b5f481c" name="a60d782ab7ab10c1c70e88e245b5f481c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60d782ab7ab10c1c70e88e245b5f481c">&#9670;&#160;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.Buffer_EdgeId_UndirectedEdgeId.clear </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9bcf453d4e381a49ef4fa16873f9102d" name="a9bcf453d4e381a49ef4fa16873f9102d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bcf453d4e381a49ef4fa16873f9102d">&#9670;&#160;</a></span>data() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html">NoDefInit_EdgeId</a> mrmeshpy.Buffer_EdgeId_UndirectedEdgeId.data </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9bcf453d4e381a49ef4fa16873f9102d" name="a9bcf453d4e381a49ef4fa16873f9102d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bcf453d4e381a49ef4fa16873f9102d">&#9670;&#160;</a></span>data() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1NoDefInit__EdgeId.html">NoDefInit_EdgeId</a> mrmeshpy.Buffer_EdgeId_UndirectedEdgeId.data </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa90a92fbb7390855bea0192485bdfb26" name="aa90a92fbb7390855bea0192485bdfb26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa90a92fbb7390855bea0192485bdfb26">&#9670;&#160;</a></span>empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.Buffer_EdgeId_UndirectedEdgeId.empty </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2eb6566613e36b0c398a71ab1c1a4d62" name="a2eb6566613e36b0c398a71ab1c1a4d62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2eb6566613e36b0c398a71ab1c1a4d62">&#9670;&#160;</a></span>endId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a> mrmeshpy.Buffer_EdgeId_UndirectedEdgeId.endId </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns backId() + 1
+</pre> 
+</div>
+</div>
+<a id="a56101c55e1c84f78f6b560aef8d6a81d" name="a56101c55e1c84f78f6b560aef8d6a81d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56101c55e1c84f78f6b560aef8d6a81d">&#9670;&#160;</a></span>heapBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int mrmeshpy.Buffer_EdgeId_UndirectedEdgeId.heapBytes </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the amount of memory this object occupies on heap
+</pre> 
+</div>
+</div>
+<a id="af51746e184edb85967d5d5b0e8add927" name="af51746e184edb85967d5d5b0e8add927"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af51746e184edb85967d5d5b0e8add927">&#9670;&#160;</a></span>resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.Buffer_EdgeId_UndirectedEdgeId.resize </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad3c619d74614c1f4632d75d57b274688" name="ad3c619d74614c1f4632d75d57b274688"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3c619d74614c1f4632d75d57b274688">&#9670;&#160;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int mrmeshpy.Buffer_EdgeId_UndirectedEdgeId.size </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmrmeshpy_1_1Buffer__EdgeId__UndirectedEdgeId.html">Buffer_EdgeId_UndirectedEdgeId</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>
