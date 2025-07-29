@@ -23,7 +23,7 @@ var classMR_1_1LineObject =
     [ "setCenter", "classMR_1_1LineObject.html#a8db8f4d06107ab314870e5c4fc834194", null ],
     [ "setDirection", "classMR_1_1LineObject.html#aab53b8f1e75c9e9b8e49b7d861027270", null ],
     [ "setLength", "classMR_1_1LineObject.html#ac826a27fae7b5a19a5a8d549b3028342", null ],
-    [ "setSize", "classMR_1_1LineObject.html#abb13f864c5016a0f163251711945c242", null ],
+    [ "setSize", "classMR_1_1LineObject.html#a463d3b38a83cee2c72a654635bd9bb7e", null ],
     [ "setupRenderObject_", "classMR_1_1LineObject.html#a9016e7839ab6798de2cded20b3a79fb4", null ],
     [ "shallowClone", "classMR_1_1LineObject.html#a1ee596ccd488d1e2f49a4d690b9b6a32", null ],
     [ "swapBase_", "classMR_1_1LineObject.html#adec17436488d24c31d8bcfeb2e4d1118", null ],
