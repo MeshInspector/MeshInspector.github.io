@@ -2,8 +2,10 @@ var structMR_1_1Color =
 [
     [ "Color", "structMR_1_1Color.html#a361e3d7af72254b02de4d5bdf7f08b60", null ],
     [ "Color", "structMR_1_1Color.html#ade02ccd5f38dd6cf3dbadde1ab4a860f", null ],
-    [ "Color", "structMR_1_1Color.html#aaf2db44de4c5f5acbf14a93864096197", null ],
-    [ "Color", "structMR_1_1Color.html#a697e26b32f883f75d3775f1af77dbdb6", null ],
+    [ "Color", "structMR_1_1Color.html#a55f851e585f9e9137306856b29866631", null ],
+    [ "Color", "structMR_1_1Color.html#af2931e15274d970116abc0ded3b1a63d", null ],
+    [ "Color", "structMR_1_1Color.html#ae3c0f9cd94d092309159eff33f604df2", null ],
+    [ "Color", "structMR_1_1Color.html#a87cd07021fafe2e28e4734086bec5506", null ],
     [ "Color", "structMR_1_1Color.html#a2879fe1d429706d60bf61dba5073b28d", null ],
     [ "Color", "structMR_1_1Color.html#aeb10dfddd28274eab02133fe4bfb2f61", null ],
     [ "getUInt32", "structMR_1_1Color.html#a97a5b103a46bec5a9f09026fb693bb67", null ],
