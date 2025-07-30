@@ -5,8 +5,7 @@ var group__AligningTransformGroup =
         [ "rot", "structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#ad0025a9806d714127a0820f48a343136", null ],
         [ "shift", "structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#a7145307fcfb6ab1a4ad9426e6d2ac36b", null ]
       ] ],
-      [ "MultiwayAligningTransform", "classMR_1_1MultiwayAligningTransform.html#a41247022db4941f568025a641398d0b8", null ],
-      [ "MultiwayAligningTransform", "classMR_1_1MultiwayAligningTransform.html#a6d91b7804a0259ee9b021e2b87898f83", null ],
+      [ "MultiwayAligningTransform", "classMR_1_1MultiwayAligningTransform.html#a369ea758ed0c5083163a69cd75a1d526", null ],
       [ "MultiwayAligningTransform", "classMR_1_1MultiwayAligningTransform.html#ae9a3702a5e0dc2a2a5f9665fd886be0a", null ],
       [ "~MultiwayAligningTransform", "classMR_1_1MultiwayAligningTransform.html#a75f76046bba7a35ce1c2396c72b47aa8", null ],
       [ "add", "classMR_1_1MultiwayAligningTransform.html#a339777c7114ede92149acc8c703508d0", null ],

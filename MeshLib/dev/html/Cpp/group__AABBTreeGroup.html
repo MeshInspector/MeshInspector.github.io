@@ -273,8 +273,6 @@ Typedefs</h2></td></tr>
 <tr class="separator:ga8ba650839d7806773bb542b986ac4283"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac20cf6ba073a7db1e2df313fb87d9517" id="r_gac20cf6ba073a7db1e2df313fb87d9517"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac20cf6ba073a7db1e2df313fb87d9517">MR::MeshIntersectionCallback</a> = std::function&lt;bool(const <a class="el" href="structMR_1_1MeshIntersectionResult.html">MeshIntersectionResult</a> &amp;)&gt;</td></tr>
 <tr class="separator:gac20cf6ba073a7db1e2df313fb87d9517"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac8d05498d66775361b0d0d2996604348" id="r_gac8d05498d66775361b0d0d2996604348"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR::MR_BIND_IGNORE</a> = std::array&lt;Vector3f, 3&gt;</td></tr>
-<tr class="separator:gac8d05498d66775361b0d0d2996604348"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4349e23b1c03bbeb120c81f3cbb8b615" id="r_ga4349e23b1c03bbeb120c81f3cbb8b615"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4349e23b1c03bbeb120c81f3cbb8b615">MR::FoundBoxedTriCallback</a> = std::function&lt;<a class="el" href="namespaceMR.html#ae9fc4543eb3302ae33b7843707485149">Processing</a>( FaceId found, Ball3f &amp; ball )&gt;</td></tr>
 <tr class="separator:ga4349e23b1c03bbeb120c81f3cbb8b615"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3fa10deed3f5f765a28d62f2a9667c0f" id="r_ga3fa10deed3f5f765a28d62f2a9667c0f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3fa10deed3f5f765a28d62f2a9667c0f">MR::FoundTriCallback</a> = std::function&lt;<a class="el" href="namespaceMR.html#ae9fc4543eb3302ae33b7843707485149">Processing</a>( const <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp; found, Ball3f &amp; ball )&gt;</td></tr>
@@ -429,16 +427,16 @@ Functions</h2></td></tr>
 <tr class="separator:ga44d0cb5151cae38d27130277c50301bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4f02307f8c1e25c4c6af4fa18f8f2335" id="r_ga4f02307f8c1e25c4c6af4fa18f8f2335"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4f02307f8c1e25c4c6af4fa18f8f2335">MR::findPointsInBall</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, const Ball3f &amp;ball, const <a class="el" href="namespaceMR.html#a421af22aea174a88968edea770000bbc">OnPointInBallFound</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
 <tr class="separator:ga4f02307f8c1e25c4c6af4fa18f8f2335"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaccce2768abbaa7beeaa5c4df67b9ab69" id="r_gaccce2768abbaa7beeaa5c4df67b9ab69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaccce2768abbaa7beeaa5c4df67b9ab69">MR::findPointsInBall</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, const Ball3f &amp;ball, const <a class="el" href="namespaceMR.html#a30cd2d38272cf5fb35c10a421b4d2045">FoundPointCallback</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
-<tr class="separator:gaccce2768abbaa7beeaa5c4df67b9ab69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa0179ee38f25ea85a546273ad8523cc1" id="r_gaa0179ee38f25ea85a546273ad8523cc1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa0179ee38f25ea85a546273ad8523cc1">MR::findPointsInBall</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, const Ball3f &amp;ball, const <a class="el" href="namespaceMR.html#a30cd2d38272cf5fb35c10a421b4d2045">FoundPointCallback</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
+<tr class="separator:gaa0179ee38f25ea85a546273ad8523cc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf974a12892d479ea53f98fa7555dbcc5" id="r_gaf974a12892d479ea53f98fa7555dbcc5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf974a12892d479ea53f98fa7555dbcc5">MR::findPointsInBall</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const Ball3f &amp;ball, const <a class="el" href="namespaceMR.html#a421af22aea174a88968edea770000bbc">OnPointInBallFound</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
 <tr class="separator:gaf974a12892d479ea53f98fa7555dbcc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga88ebd671d617fbbd4f4e5dd2688c50a8" id="r_ga88ebd671d617fbbd4f4e5dd2688c50a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga88ebd671d617fbbd4f4e5dd2688c50a8">MR::findPointsInBall</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const Ball3f &amp;ball, const <a class="el" href="namespaceMR.html#a30cd2d38272cf5fb35c10a421b4d2045">FoundPointCallback</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
-<tr class="separator:ga88ebd671d617fbbd4f4e5dd2688c50a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaba782034adb2e6c3a4151210538caf0c" id="r_gaba782034adb2e6c3a4151210538caf0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaba782034adb2e6c3a4151210538caf0c">MR::findPointsInBall</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const Ball3f &amp;ball, const <a class="el" href="namespaceMR.html#a30cd2d38272cf5fb35c10a421b4d2045">FoundPointCallback</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
+<tr class="separator:gaba782034adb2e6c3a4151210538caf0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1e0c1140b01d4055efb5e997a66e3678" id="r_ga1e0c1140b01d4055efb5e997a66e3678"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1e0c1140b01d4055efb5e997a66e3678">MR::findPointsInBall</a> (const <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;tree, Ball3f ball, const <a class="el" href="namespaceMR.html#a421af22aea174a88968edea770000bbc">OnPointInBallFound</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
 <tr class="separator:ga1e0c1140b01d4055efb5e997a66e3678"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5380a1e3c97c1ac33673199c3c83dd25" id="r_ga5380a1e3c97c1ac33673199c3c83dd25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5380a1e3c97c1ac33673199c3c83dd25">MR::findPointsInBall</a> (const <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;tree, const Ball3f &amp;ball, const <a class="el" href="namespaceMR.html#a30cd2d38272cf5fb35c10a421b4d2045">FoundPointCallback</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
-<tr class="separator:ga5380a1e3c97c1ac33673199c3c83dd25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa2d40a2f2b6c7ed32c4e278704bbd55a" id="r_gaa2d40a2f2b6c7ed32c4e278704bbd55a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa2d40a2f2b6c7ed32c4e278704bbd55a">MR::findPointsInBall</a> (const <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;tree, const Ball3f &amp;ball, const <a class="el" href="namespaceMR.html#a30cd2d38272cf5fb35c10a421b4d2045">FoundPointCallback</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
+<tr class="separator:gaa2d40a2f2b6c7ed32c4e278704bbd55a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5fa4e215cb2613c2e801735695f22dd9" id="r_ga5fa4e215cb2613c2e801735695f22dd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5fa4e215cb2613c2e801735695f22dd9">MR::findPointsInBox</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, const Box3f &amp;box, const <a class="el" href="namespaceMR.html#a30cd2d38272cf5fb35c10a421b4d2045">FoundPointCallback</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
 <tr class="separator:ga5fa4e215cb2613c2e801735695f22dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1ebc24e7d3fa59c325ec9fed80e3f7c1" id="r_ga1ebc24e7d3fa59c325ec9fed80e3f7c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1ebc24e7d3fa59c325ec9fed80e3f7c1">MR::findPointsInBox</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const Box3f &amp;box, const <a class="el" href="namespaceMR.html#a30cd2d38272cf5fb35c10a421b4d2045">FoundPointCallback</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
@@ -460,13 +458,13 @@ Functions</h2></td></tr>
 <tr class="memitem:ga994aaba24d39e18802b546f4fdab10cc" id="r_ga994aaba24d39e18802b546f4fdab10cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#ad75ce80ca78d38bd524b9c4ccd7a520d">VertPair</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga994aaba24d39e18802b546f4fdab10cc">MR::findTwoClosestPoints</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pc, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
 <tr class="memdesc:ga994aaba24d39e18802b546f4fdab10cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds two closest points (first id &lt; second id) in whole point cloud  <br /></td></tr>
 <tr class="separator:ga994aaba24d39e18802b546f4fdab10cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga15a3e18d2098f8ff33e67776a221e6fb" id="r_ga15a3e18d2098f8ff33e67776a221e6fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1EdgePointPair.html">EdgePointPair</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga15a3e18d2098f8ff33e67776a221e6fb">MR::findCollidingEdgePairs</a> (const Polyline2 &amp;a, const Polyline2 &amp;b, const AffineXf2f *rigidB2A=nullptr, bool firstIntersectionOnly=false)</td></tr>
+<tr class="memitem:ga15a3e18d2098f8ff33e67776a221e6fb" id="r_ga15a3e18d2098f8ff33e67776a221e6fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1EdgePointPair.html">EdgePointPair</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga15a3e18d2098f8ff33e67776a221e6fb">MR::findCollidingEdgePairs</a> (const Polyline2 &amp;a, const Polyline2 &amp;b, const <a class="el" href="namespaceMR.html#a800c9816563b894edca43508f9f6b56e">AffineXf2f</a> *rigidB2A=nullptr, bool firstIntersectionOnly=false)</td></tr>
 <tr class="memdesc:ga15a3e18d2098f8ff33e67776a221e6fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all pairs of colliding edges from two 2d polylines  <br /></td></tr>
 <tr class="separator:ga15a3e18d2098f8ff33e67776a221e6fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga44c8af10ceaf3059a77647d7b6f2ca8b" id="r_ga44c8af10ceaf3059a77647d7b6f2ca8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1UndirectedEdgeUndirectedEdge.html">UndirectedEdgeUndirectedEdge</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga44c8af10ceaf3059a77647d7b6f2ca8b">MR::findCollidingEdges</a> (const Polyline2 &amp;a, const Polyline2 &amp;b, const AffineXf2f *rigidB2A=nullptr, bool firstIntersectionOnly=false)</td></tr>
+<tr class="memitem:ga44c8af10ceaf3059a77647d7b6f2ca8b" id="r_ga44c8af10ceaf3059a77647d7b6f2ca8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1UndirectedEdgeUndirectedEdge.html">UndirectedEdgeUndirectedEdge</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga44c8af10ceaf3059a77647d7b6f2ca8b">MR::findCollidingEdges</a> (const Polyline2 &amp;a, const Polyline2 &amp;b, const <a class="el" href="namespaceMR.html#a800c9816563b894edca43508f9f6b56e">AffineXf2f</a> *rigidB2A=nullptr, bool firstIntersectionOnly=false)</td></tr>
 <tr class="memdesc:ga44c8af10ceaf3059a77647d7b6f2ca8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all pairs of colliding edges from two 2d polylines  <br /></td></tr>
 <tr class="separator:ga44c8af10ceaf3059a77647d7b6f2ca8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0f3404724c88f935957c8c3c8962ea3a" id="r_ga0f3404724c88f935957c8c3c8962ea3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::pair&lt; UndirectedEdgeBitSet, UndirectedEdgeBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0f3404724c88f935957c8c3c8962ea3a">MR::findCollidingEdgesBitsets</a> (const Polyline2 &amp;a, const Polyline2 &amp;b, const AffineXf2f *rigidB2A=nullptr)</td></tr>
+<tr class="memitem:ga0f3404724c88f935957c8c3c8962ea3a" id="r_ga0f3404724c88f935957c8c3c8962ea3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::pair&lt; UndirectedEdgeBitSet, UndirectedEdgeBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0f3404724c88f935957c8c3c8962ea3a">MR::findCollidingEdgesBitsets</a> (const Polyline2 &amp;a, const Polyline2 &amp;b, const <a class="el" href="namespaceMR.html#a800c9816563b894edca43508f9f6b56e">AffineXf2f</a> *rigidB2A=nullptr)</td></tr>
 <tr class="memdesc:ga0f3404724c88f935957c8c3c8962ea3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds bitset per polyline with colliding edges  <br /></td></tr>
 <tr class="separator:ga0f3404724c88f935957c8c3c8962ea3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4fca223a68dac564f66af0224c0ec3ec" id="r_ga4fca223a68dac564f66af0224c0ec3ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; <a class="el" href="structMR_1_1EdgePointPair.html">EdgePointPair</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4fca223a68dac564f66af0224c0ec3ec">MR::findSelfCollidingEdgePairs</a> (const Polyline2 &amp;polyline)</td></tr>
@@ -478,13 +476,13 @@ Functions</h2></td></tr>
 <tr class="memitem:ga8658f18b6b0489c1dafa4903c64c0165" id="r_ga8658f18b6b0489c1dafa4903c64c0165"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> UndirectedEdgeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8658f18b6b0489c1dafa4903c64c0165">MR::findSelfCollidingEdgesBS</a> (const Polyline2 &amp;polyline)</td></tr>
 <tr class="memdesc:ga8658f18b6b0489c1dafa4903c64c0165"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the union of all self-intersecting edges  <br /></td></tr>
 <tr class="separator:ga8658f18b6b0489c1dafa4903c64c0165"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa8d770560279dcdaa48764810b77c30d" id="r_gaa8d770560279dcdaa48764810b77c30d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa8d770560279dcdaa48764810b77c30d">MR::isInside</a> (const Polyline2 &amp;a, const Polyline2 &amp;b, const AffineXf2f *rigidB2A=nullptr)</td></tr>
+<tr class="memitem:gaa8d770560279dcdaa48764810b77c30d" id="r_gaa8d770560279dcdaa48764810b77c30d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa8d770560279dcdaa48764810b77c30d">MR::isInside</a> (const Polyline2 &amp;a, const Polyline2 &amp;b, const <a class="el" href="namespaceMR.html#a800c9816563b894edca43508f9f6b56e">AffineXf2f</a> *rigidB2A=nullptr)</td></tr>
 <tr class="memdesc:gaa8d770560279dcdaa48764810b77c30d"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks that arbitrary 2d polyline A is inside of closed 2d polyline B  <br /></td></tr>
 <tr class="separator:gaa8d770560279dcdaa48764810b77c30d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2aba3040bbdbbafb7d8e38803b955524" id="r_ga2aba3040bbdbbafb7d8e38803b955524"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2aba3040bbdbbafb7d8e38803b955524">MR::isPointInsidePolyline</a> (const Polyline2 &amp;polyline, const Vector2f &amp;point)</td></tr>
 <tr class="memdesc:ga2aba3040bbdbbafb7d8e38803b955524"><td class="mdescLeft">&#160;</td><td class="mdescRight">detect if given point is inside polyline, by counting ray intersections  <br /></td></tr>
 <tr class="separator:ga2aba3040bbdbbafb7d8e38803b955524"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7f7211a85409018fd8ee71495646faa3" id="r_ga7f7211a85409018fd8ee71495646faa3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> PolylineProjectionResult2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7f7211a85409018fd8ee71495646faa3">MR::findProjectionOnPolyline2</a> (const Vector2f &amp;pt, const Polyline2 &amp;polyline, float upDistLimitSq=FLT_MAX, AffineXf2f *xf=nullptr, float loDistLimitSq=0)</td></tr>
+<tr class="memitem:ga7f7211a85409018fd8ee71495646faa3" id="r_ga7f7211a85409018fd8ee71495646faa3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> PolylineProjectionResult2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7f7211a85409018fd8ee71495646faa3">MR::findProjectionOnPolyline2</a> (const Vector2f &amp;pt, const Polyline2 &amp;polyline, float upDistLimitSq=FLT_MAX, <a class="el" href="namespaceMR.html#a800c9816563b894edca43508f9f6b56e">AffineXf2f</a> *xf=nullptr, float loDistLimitSq=0)</td></tr>
 <tr class="memdesc:ga7f7211a85409018fd8ee71495646faa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on polyline to given point  <br /></td></tr>
 <tr class="separator:ga7f7211a85409018fd8ee71495646faa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5e71a300face382a26ba8596d9b19820" id="r_ga5e71a300face382a26ba8596d9b19820"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> PolylineProjectionResult3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5e71a300face382a26ba8596d9b19820">MR::findProjectionOnPolyline</a> (const Vector3f &amp;pt, const Polyline3 &amp;polyline, float upDistLimitSq=FLT_MAX, AffineXf3f *xf=nullptr, float loDistLimitSq=0)</td></tr>
@@ -496,13 +494,13 @@ Functions</h2></td></tr>
 <tr class="memitem:gaa484a0628a7ac3858cd590589687141c" id="r_gaa484a0628a7ac3858cd590589687141c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> PolylineProjectionResult3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa484a0628a7ac3858cd590589687141c">MR::findProjectionOnPolyline</a> (const Line3f &amp;ln, const Polyline3 &amp;polyline, float upDistLimitSq=FLT_MAX, AffineXf3f *xf=nullptr, float loDistLimitSq=0)</td></tr>
 <tr class="memdesc:gaa484a0628a7ac3858cd590589687141c"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on polyline to given straight line  <br /></td></tr>
 <tr class="separator:gaa484a0628a7ac3858cd590589687141c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf2ef419d4414bb6d0efa0c918b21bddf" id="r_gaf2ef419d4414bb6d0efa0c918b21bddf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#acdd7942df456145c6efbf9d6524f3f88">Polyline2ProjectionWithOffsetResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf2ef419d4414bb6d0efa0c918b21bddf">MR::findProjectionOnPolyline2WithOffset</a> (const Vector2f &amp;pt, const Polyline2 &amp;polyline, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, UndirectedEdgeId &gt; &amp;offsetPerEdge, float upDistLimit=FLT_MAX, AffineXf2f *xf=nullptr, float loDistLimit=0)</td></tr>
+<tr class="memitem:gaf2ef419d4414bb6d0efa0c918b21bddf" id="r_gaf2ef419d4414bb6d0efa0c918b21bddf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#acdd7942df456145c6efbf9d6524f3f88">Polyline2ProjectionWithOffsetResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf2ef419d4414bb6d0efa0c918b21bddf">MR::findProjectionOnPolyline2WithOffset</a> (const Vector2f &amp;pt, const Polyline2 &amp;polyline, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, UndirectedEdgeId &gt; &amp;offsetPerEdge, float upDistLimit=FLT_MAX, <a class="el" href="namespaceMR.html#a800c9816563b894edca43508f9f6b56e">AffineXf2f</a> *xf=nullptr, float loDistLimit=0)</td></tr>
 <tr class="memdesc:gaf2ef419d4414bb6d0efa0c918b21bddf"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on polyline to given point, respecting each edge offset  <br /></td></tr>
 <tr class="separator:gaf2ef419d4414bb6d0efa0c918b21bddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga834d7e50b54b1b8c511990fc9d14c09c" id="r_ga834d7e50b54b1b8c511990fc9d14c09c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> PolylineProjectionWithOffsetResult3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga834d7e50b54b1b8c511990fc9d14c09c">MR::findProjectionOnPolylineWithOffset</a> (const Vector3f &amp;pt, const Polyline3 &amp;polyline, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, UndirectedEdgeId &gt; &amp;offsetPerEdge, float upDistLimit=FLT_MAX, AffineXf3f *xf=nullptr, float loDistLimit=0)</td></tr>
 <tr class="memdesc:ga834d7e50b54b1b8c511990fc9d14c09c"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on polyline to given point, respecting each edge offset  <br /></td></tr>
 <tr class="separator:ga834d7e50b54b1b8c511990fc9d14c09c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5ce436376c8036ec99459d3ccea88788" id="r_ga5ce436376c8036ec99459d3ccea88788"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5ce436376c8036ec99459d3ccea88788">MR::findEdgesInBall</a> (const Polyline2 &amp;polyline, const Vector2f &amp;center, float radius, const <a class="el" href="#ga5e0d9af4be57927671a26f2c4588a515">FoundEdgeCallback2</a> &amp;foundCallback, AffineXf2f *xf=nullptr)</td></tr>
+<tr class="memitem:ga5ce436376c8036ec99459d3ccea88788" id="r_ga5ce436376c8036ec99459d3ccea88788"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5ce436376c8036ec99459d3ccea88788">MR::findEdgesInBall</a> (const Polyline2 &amp;polyline, const Vector2f &amp;center, float radius, const <a class="el" href="#ga5e0d9af4be57927671a26f2c4588a515">FoundEdgeCallback2</a> &amp;foundCallback, <a class="el" href="namespaceMR.html#a800c9816563b894edca43508f9f6b56e">AffineXf2f</a> *xf=nullptr)</td></tr>
 <tr class="memdesc:ga5ce436376c8036ec99459d3ccea88788"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds all edges of given polyline that cross or touch given ball (center, radius)  <br /></td></tr>
 <tr class="separator:ga5ce436376c8036ec99459d3ccea88788"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga799578a1ff64417ca5aa5c72fa15bb2f" id="r_ga799578a1ff64417ca5aa5c72fa15bb2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga799578a1ff64417ca5aa5c72fa15bb2f">MR::findEdgesInBall</a> (const Polyline3 &amp;polyline, const Vector3f &amp;center, float radius, const <a class="el" href="#ga865abfe228b7d60d582d2c6ce24ffb19">FoundEdgeCallback3</a> &amp;foundCallback, AffineXf3f *xf=nullptr)</td></tr>
@@ -734,20 +732,6 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
-<a id="gac8d05498d66775361b0d0d2996604348" name="gac8d05498d66775361b0d0d2996604348"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac8d05498d66775361b0d0d2996604348">&#9670;&#160;</a></span>MR_BIND_IGNORE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="structMR_1_1PositionedText.html">PositionedText</a> <a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR::MR_BIND_IGNORE</a> = std::array&lt;Vector3f, 3&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ga457b7bb3a129cf50a82586b670a93148" name="ga457b7bb3a129cf50a82586b670a93148"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga457b7bb3a129cf50a82586b670a93148">&#9670;&#160;</a></span>PreciseCollisionResult</h2>
 
@@ -898,7 +882,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const AffineXf2f *</td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a800c9816563b894edca43508f9f6b56e">AffineXf2f</a> *</td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -938,7 +922,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const AffineXf2f *</td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a800c9816563b894edca43508f9f6b56e">AffineXf2f</a> *</td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -978,7 +962,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const AffineXf2f *</td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a800c9816563b894edca43508f9f6b56e">AffineXf2f</a> *</td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1527,7 +1511,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">AffineXf2f *</td>          <td class="paramname"><span class="paramname"><em>xf</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a800c9816563b894edca43508f9f6b56e">AffineXf2f</a> *</td>          <td class="paramname"><span class="paramname"><em>xf</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1955,14 +1939,14 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ga5380a1e3c97c1ac33673199c3c83dd25" name="ga5380a1e3c97c1ac33673199c3c83dd25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5380a1e3c97c1ac33673199c3c83dd25">&#9670;&#160;</a></span>findPointsInBall() <span class="overload">[2/6]</span></h2>
+<a id="gaa2d40a2f2b6c7ed32c4e278704bbd55a" name="gaa2d40a2f2b6c7ed32c4e278704bbd55a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa2d40a2f2b6c7ed32c4e278704bbd55a">&#9670;&#160;</a></span>findPointsInBall() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void MR::findPointsInBall </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::findPointsInBall </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tree</em></span>, </td>
         </tr>
@@ -1993,14 +1977,14 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ga88ebd671d617fbbd4f4e5dd2688c50a8" name="ga88ebd671d617fbbd4f4e5dd2688c50a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga88ebd671d617fbbd4f4e5dd2688c50a8">&#9670;&#160;</a></span>findPointsInBall() <span class="overload">[3/6]</span></h2>
+<a id="gaba782034adb2e6c3a4151210538caf0c" name="gaba782034adb2e6c3a4151210538caf0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaba782034adb2e6c3a4151210538caf0c">&#9670;&#160;</a></span>findPointsInBall() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void MR::findPointsInBall </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::findPointsInBall </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -2069,14 +2053,14 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="gaccce2768abbaa7beeaa5c4df67b9ab69" name="gaccce2768abbaa7beeaa5c4df67b9ab69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaccce2768abbaa7beeaa5c4df67b9ab69">&#9670;&#160;</a></span>findPointsInBall() <span class="overload">[5/6]</span></h2>
+<a id="gaa0179ee38f25ea85a546273ad8523cc1" name="gaa0179ee38f25ea85a546273ad8523cc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa0179ee38f25ea85a546273ad8523cc1">&#9670;&#160;</a></span>findPointsInBall() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void MR::findPointsInBall </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::findPointsInBall </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pointCloud</em></span>, </td>
         </tr>
@@ -2663,7 +2647,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">AffineXf2f *</td>          <td class="paramname"><span class="paramname"><em>xf</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a800c9816563b894edca43508f9f6b56e">AffineXf2f</a> *</td>          <td class="paramname"><span class="paramname"><em>xf</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2714,7 +2698,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">AffineXf2f *</td>          <td class="paramname"><span class="paramname"><em>xf</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+          <td class="paramtype"><a class="el" href="namespaceMR.html#a800c9816563b894edca43508f9f6b56e">AffineXf2f</a> *</td>          <td class="paramname"><span class="paramname"><em>xf</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3485,7 +3469,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const AffineXf2f *</td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a800c9816563b894edca43508f9f6b56e">AffineXf2f</a> *</td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -194,6 +194,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1db62c44796f0e849665e352c9d02f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e327c983c4976ba67d475ce981b76c8" id="r_a0e327c983c4976ba67d475ce981b76c8"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e327c983c4976ba67d475ce981b76c8">draw</a> (const std::string &amp;windowName, const ImVec2 &amp;pose, const ImVec2 &amp;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>, bool onlyTopHalf=false)</td></tr>
 <tr class="separator:a0e327c983c4976ba67d475ce981b76c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a342d665441236e2eced9976b08c7e025" id="r_a342d665441236e2eced9976b08c7e025"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a342d665441236e2eced9976b08c7e025">draw</a> (ImDrawList *drawList, float scaling, const ImVec2 &amp;pos, const ImVec2 &amp;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>, const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;labelBgColor, bool onlyTopHalf=false) const</td></tr>
+<tr class="separator:a342d665441236e2eced9976b08c7e025"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41bdb34995dc77edd7d35db3036db6c4" id="r_a41bdb34995dc77edd7d35db3036db6c4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41bdb34995dc77edd7d35db3036db6c4">draw</a> (ImDrawList *drawList, float scaling, const ImVec2 &amp;pos, const ImVec2 &amp;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>, bool onlyTopHalf=false) const</td></tr>
 <tr class="separator:a41bdb34995dc77edd7d35db3036db6c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac45bdaf4d2808a25a9b6aa7739030f56" id="r_ac45bdaf4d2808a25a9b6aa7739030f56"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac45bdaf4d2808a25a9b6aa7739030f56">resetLabels</a> ()</td></tr>
@@ -326,7 +328,7 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a0e327c983c4976ba67d475ce981b76c8" name="a0e327c983c4976ba67d475ce981b76c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e327c983c4976ba67d475ce981b76c8">&#9670;&#160;</a></span>draw() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e327c983c4976ba67d475ce981b76c8">&#9670;&#160;</a></span>draw() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -363,7 +365,7 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a41bdb34995dc77edd7d35db3036db6c4" name="a41bdb34995dc77edd7d35db3036db6c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41bdb34995dc77edd7d35db3036db6c4">&#9670;&#160;</a></span>draw() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a41bdb34995dc77edd7d35db3036db6c4">&#9670;&#160;</a></span>draw() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -395,9 +397,51 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a342d665441236e2eced9976b08c7e025" name="a342d665441236e2eced9976b08c7e025"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a342d665441236e2eced9976b08c7e025">&#9670;&#160;</a></span>draw() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::Palette::draw </td>
+          <td>(</td>
+          <td class="paramtype">ImDrawList *</td>          <td class="paramname"><span class="paramname"><em>drawList</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>scaling</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ImVec2 &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ImVec2 &amp;</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>labelBgColor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>onlyTopHalf</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 <p>Draws vertical legend with labels in existing window or scene Discrete: bar consists of single colored rectangles for each initial color Linear (default): color is changing from one to another during initial color list </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">onlyTopHalf</td><td>if true, draws only top half of the palette and labels stretched to whole window </td></tr>
+    <tr><td class="paramname">labelBgColor</td><td>label background color </td></tr>
   </table>
   </dd>
 </dl>
