@@ -1,5 +1,11 @@
 var NAVTREEINDEX96 =
 {
+"classmrmeshpy_1_1Vector__VoxelId__VoxelId.html#a63771f5af0584eda24e37fe7296979ae":[6,1,0,0,2,1106,16],
+"classmrmeshpy_1_1Vector__VoxelId__VoxelId.html#a63771f5af0584eda24e37fe7296979ae":[6,1,1,0,1,1106,16],
+"classmrmeshpy_1_1Vector__VoxelId__VoxelId.html#a764a63a329d41d2de42a8eda48e5da7a":[6,1,0,0,2,1106,23],
+"classmrmeshpy_1_1Vector__VoxelId__VoxelId.html#a764a63a329d41d2de42a8eda48e5da7a":[6,1,1,0,1,1106,23],
+"classmrmeshpy_1_1Vector__VoxelId__VoxelId.html#a7d0124a979c6316bebcd51d724e3206a":[6,1,0,0,2,1106,7],
+"classmrmeshpy_1_1Vector__VoxelId__VoxelId.html#a7d0124a979c6316bebcd51d724e3206a":[6,1,1,0,1,1106,7],
 "classmrmeshpy_1_1Vector__VoxelId__VoxelId.html#a7dbc69df7804131c0bed5b9c38fa3dc6":[6,1,0,0,2,1106,38],
 "classmrmeshpy_1_1Vector__VoxelId__VoxelId.html#a7dbc69df7804131c0bed5b9c38fa3dc6":[6,1,1,0,1,1106,38],
 "classmrmeshpy_1_1Vector__VoxelId__VoxelId.html#a7f19ee0d0f1cc61441a3140e13414c6f":[6,1,0,0,2,1106,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX96 =
 "classmrmeshpy_1_1Vector__char__VertId.html#a73f04a38326b6de832ba2b238fc38338":[6,1,0,0,2,1068,37],
 "classmrmeshpy_1_1Vector__char__VertId.html#a73f04a38326b6de832ba2b238fc38338":[6,1,1,0,1,1068,37],
 "classmrmeshpy_1_1Vector__char__VertId.html#a7472537b082621e33f7abbb205993a25":[6,1,0,0,2,1068,18],
-"classmrmeshpy_1_1Vector__char__VertId.html#a7472537b082621e33f7abbb205993a25":[6,1,1,0,1,1068,18],
-"classmrmeshpy_1_1Vector__char__VertId.html#a7b651eef16b0b78e77ba4a0e7b7f1048":[6,1,0,0,2,1068,33],
-"classmrmeshpy_1_1Vector__char__VertId.html#a7b651eef16b0b78e77ba4a0e7b7f1048":[6,1,1,0,1,1068,33],
-"classmrmeshpy_1_1Vector__char__VertId.html#a8f6b3661f244172fdcb0ec8480752c25":[6,1,0,0,2,1068,38],
-"classmrmeshpy_1_1Vector__char__VertId.html#a8f6b3661f244172fdcb0ec8480752c25":[6,1,1,0,1,1068,38],
-"classmrmeshpy_1_1Vector__char__VertId.html#a94ae5447c2148a831ffbba2f391ab032":[6,1,0,0,2,1068,28],
-"classmrmeshpy_1_1Vector__char__VertId.html#a94ae5447c2148a831ffbba2f391ab032":[6,1,0,0,2,1068,29]
+"classmrmeshpy_1_1Vector__char__VertId.html#a7472537b082621e33f7abbb205993a25":[6,1,1,0,1,1068,18]
 };

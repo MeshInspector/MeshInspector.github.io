@@ -1,5 +1,11 @@
 var NAVTREEINDEX79 =
 {
+"classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html#a91c2025880e8e2cfb8f2d7c789a7d581":[6,1,0,0,2,1012,1,0],
+"classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html#a91c2025880e8e2cfb8f2d7c789a7d581":[6,1,1,0,1,1012,1,0],
+"classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html#a9af5a4afdf86d7e4a9993901b718d76d":[6,1,0,0,2,1012,1,9],
+"classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html#a9af5a4afdf86d7e4a9993901b718d76d":[6,1,1,0,1,1012,1,9],
+"classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html#a9e0da8f046a72ce456482387733bbd53":[6,1,0,0,2,1012,1,4],
+"classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html#a9e0da8f046a72ce456482387733bbd53":[6,1,1,0,1,1012,1,4],
 "classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html#aab262268989312a31f5bf3d9be641cec":[6,1,0,0,2,1012,1,13],
 "classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html#aab262268989312a31f5bf3d9be641cec":[6,1,1,0,1,1012,1,13],
 "classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html#aaf0eff7a38506a10ad57cce34606bf66":[6,1,0,0,2,1012,1,15],
@@ -243,11 +249,5 @@ var NAVTREEINDEX79 =
 "classmrmeshpy_1_1UiRenderParams.html#ab809c594264d137bcba4abd9f7bd3eb0":[6,1,0,0,2,1023,3],
 "classmrmeshpy_1_1UiRenderParams.html#ab809c594264d137bcba4abd9f7bd3eb0":[6,1,1,0,1,1023,3],
 "classmrmeshpy_1_1UndirEdgeColorMapAggregator.html":[6,1,0,0,2,1033],
-"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html":[6,1,1,0,1,1033],
-"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a11a111d5abd6028753f16889e7346da3":[6,1,0,0,2,1033,1],
-"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a11a111d5abd6028753f16889e7346da3":[6,1,1,0,1,1033,1],
-"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a2e53facaad326f62580359028ca25090":[6,1,0,0,2,1033,4],
-"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a2e53facaad326f62580359028ca25090":[6,1,1,0,1,1033,4],
-"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a32c05e578341193d082bc6d92872c6b7":[6,1,0,0,2,1033,2],
-"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a32c05e578341193d082bc6d92872c6b7":[6,1,1,0,1,1033,2]
+"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html":[6,1,1,0,1,1033]
 };

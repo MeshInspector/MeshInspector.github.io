@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"namespaceMR_1_1ProgressBar.html#af847e27a1f34b2b07a29272ef2fb9e88":[6,0,1,0,1,30,2],
+"namespaceMR_1_1RenderDimensions.html":[6,0,1,0,1,31],
 "namespaceMR_1_1RenderFeatures.html":[6,0,1,0,1,32],
 "namespaceMR_1_1RenderFeatures_1_1detail.html":[6,0,1,0,1,32,0],
 "namespaceMR_1_1RenderWrapObject.html":[6,0,1,0,1,33],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "namespacemembers_s.html":[6,0,1,1,0,16],
 "namespacemembers_t.html":[6,0,1,1,0,17],
 "namespacemembers_type.html":[6,0,1,1,3],
-"namespacemembers_type.html":[6,0,1,1,3,0],
-"namespacemembers_type_b.html":[6,0,1,1,3,1],
-"namespacemembers_type_c.html":[6,0,1,1,3,2]
+"namespacemembers_type.html":[6,0,1,1,3,0]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX80 =
 {
+"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a11a111d5abd6028753f16889e7346da3":[6,1,0,0,2,1033,1],
+"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a11a111d5abd6028753f16889e7346da3":[6,1,1,0,1,1033,1],
+"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a2e53facaad326f62580359028ca25090":[6,1,0,0,2,1033,4],
+"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a2e53facaad326f62580359028ca25090":[6,1,1,0,1,1033,4],
+"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a32c05e578341193d082bc6d92872c6b7":[6,1,0,0,2,1033,2],
+"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a32c05e578341193d082bc6d92872c6b7":[6,1,1,0,1,1033,2],
 "classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a3d64125ff2732a5da0eb7ddbb4fb32fa":[6,1,0,0,2,1033,7],
 "classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a3d64125ff2732a5da0eb7ddbb4fb32fa":[6,1,1,0,1,1033,7],
 "classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a48842fd53348173cc287f1d8eae69dfd":[6,1,0,0,2,1033,10],
@@ -243,11 +249,5 @@ var NAVTREEINDEX80 =
 "classmrmeshpy_1_1UndirectedEdgeColors.html#aa58b08efdae5c80ce1e18e21219cf6d4":[6,1,0,0,2,1027,8],
 "classmrmeshpy_1_1UndirectedEdgeColors.html#aa58b08efdae5c80ce1e18e21219cf6d4":[6,1,1,0,1,1027,8],
 "classmrmeshpy_1_1UndirectedEdgeColors.html#aae0f9b22049384f758ba2d3b79e3a805":[6,1,0,0,2,1027,39],
-"classmrmeshpy_1_1UndirectedEdgeColors.html#aae0f9b22049384f758ba2d3b79e3a805":[6,1,1,0,1,1027,39],
-"classmrmeshpy_1_1UndirectedEdgeColors.html#aae9a02f8e526ef2a1241dbb2c2a2b963":[6,1,0,0,2,1027,23],
-"classmrmeshpy_1_1UndirectedEdgeColors.html#aae9a02f8e526ef2a1241dbb2c2a2b963":[6,1,1,0,1,1027,23],
-"classmrmeshpy_1_1UndirectedEdgeColors.html#ac52a20d6e9d022c70e3ea29223992146":[6,1,0,0,2,1027,18],
-"classmrmeshpy_1_1UndirectedEdgeColors.html#ac52a20d6e9d022c70e3ea29223992146":[6,1,1,0,1,1027,18],
-"classmrmeshpy_1_1UndirectedEdgeColors.html#ac5a7d15d94c41791d11397395325029e":[6,1,0,0,2,1027,11],
-"classmrmeshpy_1_1UndirectedEdgeColors.html#ac5a7d15d94c41791d11397395325029e":[6,1,1,0,1,1027,11]
+"classmrmeshpy_1_1UndirectedEdgeColors.html#aae0f9b22049384f758ba2d3b79e3a805":[6,1,1,0,1,1027,39]
 };

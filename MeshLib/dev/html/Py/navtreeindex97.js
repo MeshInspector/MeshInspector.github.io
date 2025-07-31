@@ -1,5 +1,11 @@
 var NAVTREEINDEX97 =
 {
+"classmrmeshpy_1_1Vector__char__VertId.html#a7b651eef16b0b78e77ba4a0e7b7f1048":[6,1,0,0,2,1068,33],
+"classmrmeshpy_1_1Vector__char__VertId.html#a7b651eef16b0b78e77ba4a0e7b7f1048":[6,1,1,0,1,1068,33],
+"classmrmeshpy_1_1Vector__char__VertId.html#a8f6b3661f244172fdcb0ec8480752c25":[6,1,0,0,2,1068,38],
+"classmrmeshpy_1_1Vector__char__VertId.html#a8f6b3661f244172fdcb0ec8480752c25":[6,1,1,0,1,1068,38],
+"classmrmeshpy_1_1Vector__char__VertId.html#a94ae5447c2148a831ffbba2f391ab032":[6,1,0,0,2,1068,28],
+"classmrmeshpy_1_1Vector__char__VertId.html#a94ae5447c2148a831ffbba2f391ab032":[6,1,0,0,2,1068,29],
 "classmrmeshpy_1_1Vector__char__VertId.html#a94ae5447c2148a831ffbba2f391ab032":[6,1,1,0,1,1068,28],
 "classmrmeshpy_1_1Vector__char__VertId.html#a94ae5447c2148a831ffbba2f391ab032":[6,1,1,0,1,1068,29],
 "classmrmeshpy_1_1Vector__char__VertId.html#aa1b09dcf869a450ef6e0a58fecaee23f":[6,1,0,0,2,1068,13],
@@ -243,11 +249,5 @@ var NAVTREEINDEX97 =
 "classmrmeshpy_1_1Vector__int__FaceId.html#a9e11f521a345691f9aa1bf6d4c6106d6":[6,1,0,0,2,1080,17],
 "classmrmeshpy_1_1Vector__int__FaceId.html#a9e11f521a345691f9aa1bf6d4c6106d6":[6,1,1,0,1,1080,17],
 "classmrmeshpy_1_1Vector__int__FaceId.html#aa07496b46aac2b28504e4981e433d9a3":[6,1,0,0,2,1080,35],
-"classmrmeshpy_1_1Vector__int__FaceId.html#aa07496b46aac2b28504e4981e433d9a3":[6,1,1,0,1,1080,35],
-"classmrmeshpy_1_1Vector__int__FaceId.html#aa9596b667eaebaecdd31f12148ec7948":[6,1,0,0,2,1080,27],
-"classmrmeshpy_1_1Vector__int__FaceId.html#aa9596b667eaebaecdd31f12148ec7948":[6,1,1,0,1,1080,27],
-"classmrmeshpy_1_1Vector__int__FaceId.html#aafd3cb5608cdd54e18886cdde0577ccf":[6,1,0,0,2,1080,3],
-"classmrmeshpy_1_1Vector__int__FaceId.html#aafd3cb5608cdd54e18886cdde0577ccf":[6,1,1,0,1,1080,3],
-"classmrmeshpy_1_1Vector__int__FaceId.html#ab2792a3cdc1e971663900440dd6c1c10":[6,1,0,0,2,1080,9],
-"classmrmeshpy_1_1Vector__int__FaceId.html#ab2792a3cdc1e971663900440dd6c1c10":[6,1,1,0,1,1080,9]
+"classmrmeshpy_1_1Vector__int__FaceId.html#aa07496b46aac2b28504e4981e433d9a3":[6,1,1,0,1,1080,35]
 };

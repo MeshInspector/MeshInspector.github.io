@@ -1,5 +1,11 @@
 var NAVTREEINDEX153 =
 {
+"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#a9b8be6d6292bd1c4626e6be783035e69":[6,1,0,0,2,948,21],
+"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#a9b8be6d6292bd1c4626e6be783035e69":[6,1,1,0,1,948,21],
+"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#aa243c86038a64fc5a2109c5f2d0493e1":[6,1,0,0,2,948,6],
+"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#aa243c86038a64fc5a2109c5f2d0493e1":[6,1,1,0,1,948,6],
+"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#abf64787164ee9994502781ae8aa9d568":[6,1,0,0,2,948,9],
+"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#abf64787164ee9994502781ae8aa9d568":[6,1,1,0,1,948,9],
 "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#adfb4c86e8903a686a3431bacb41c7099":[6,1,0,0,2,948,19],
 "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#adfb4c86e8903a686a3431bacb41c7099":[6,1,1,0,1,948,19],
 "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#aed6b29a29e99777d077492be77397a59":[6,1,0,0,2,948,18],
@@ -243,11 +249,5 @@ var NAVTREEINDEX153 =
 "classmrviewerpy_1_1MouseButton.html#a5526bd5099583207a25be1ddaf78a908":[6,1,0,0,3,1,9],
 "classmrviewerpy_1_1MouseButton.html#a5526bd5099583207a25be1ddaf78a908":[6,1,1,0,2,1,9],
 "classmrviewerpy_1_1MouseButton.html#a57d1a0543cf4ee0c0bbbb970260ffb50":[6,1,0,0,3,1,1],
-"classmrviewerpy_1_1MouseButton.html#a57d1a0543cf4ee0c0bbbb970260ffb50":[6,1,1,0,2,1,1],
-"classmrviewerpy_1_1MouseButton.html#a581099cb087a341271271a7d45da906a":[6,1,0,0,3,1,10],
-"classmrviewerpy_1_1MouseButton.html#a581099cb087a341271271a7d45da906a":[6,1,1,0,2,1,10],
-"classmrviewerpy_1_1MouseButton.html#a6904b07f845560235908972cb578cb5b":[6,1,0,0,3,1,5],
-"classmrviewerpy_1_1MouseButton.html#a6904b07f845560235908972cb578cb5b":[6,1,1,0,2,1,5],
-"classmrviewerpy_1_1MouseButton.html#a874503ed08071caca66d920841839e6e":[6,1,0,0,3,1,0],
-"classmrviewerpy_1_1MouseButton.html#a874503ed08071caca66d920841839e6e":[6,1,1,0,2,1,0]
+"classmrviewerpy_1_1MouseButton.html#a57d1a0543cf4ee0c0bbbb970260ffb50":[6,1,1,0,2,1,1]
 };
