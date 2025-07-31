@@ -1,0 +1,941 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C++ Docs: MR::Id&lt; EdgeTag &gt; Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C++ Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classMR_1_1Id_3_01EdgeTag_01_4.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classMR_1_1Id_3_01EdgeTag_01_4-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">MR::Id&lt; EdgeTag &gt; Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="MRMesh_2MRId_8h_source.html">MRId.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a509c057fae5c553d16a4e96dd80cbed8" id="r_a509c057fae5c553d16a4e96dd80cbed8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a509c057fae5c553d16a4e96dd80cbed8">ValueType</a> = int</td></tr>
+<tr class="separator:a509c057fae5c553d16a4e96dd80cbed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ac0140b6e8a97bcc17487801e892a6003" id="r_ac0140b6e8a97bcc17487801e892a6003"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0140b6e8a97bcc17487801e892a6003">Id</a> () noexcept</td></tr>
+<tr class="separator:ac0140b6e8a97bcc17487801e892a6003"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77df19a8a2e03823ee055e0db7fbe356" id="r_a77df19a8a2e03823ee055e0db7fbe356"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77df19a8a2e03823ee055e0db7fbe356">Id</a> (<a class="el" href="structMR_1_1NoInit.html">NoInit</a>) noexcept</td></tr>
+<tr class="separator:a77df19a8a2e03823ee055e0db7fbe356"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a840cf2a8cf28a0165be6397be158f260" id="r_a840cf2a8cf28a0165be6397be158f260"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a840cf2a8cf28a0165be6397be158f260">Id</a> (UndirectedEdgeId u) noexcept</td></tr>
+<tr class="separator:a840cf2a8cf28a0165be6397be158f260"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ecd864ebabe41d630495953386477a0" id="r_a9ecd864ebabe41d630495953386477a0"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ecd864ebabe41d630495953386477a0">Id</a> (<a class="el" href="#a509c057fae5c553d16a4e96dd80cbed8">ValueType</a> i) noexcept</td></tr>
+<tr class="separator:a9ecd864ebabe41d630495953386477a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5356dd4d6dde8ef2c1d226fdbef9cee" id="r_ac5356dd4d6dde8ef2c1d226fdbef9cee"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5356dd4d6dde8ef2c1d226fdbef9cee">Id</a> (unsigned int i) noexcept</td></tr>
+<tr class="separator:ac5356dd4d6dde8ef2c1d226fdbef9cee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf4b4e956fdabe2163fa73c7badbca33" id="r_abf4b4e956fdabe2163fa73c7badbca33"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf4b4e956fdabe2163fa73c7badbca33">Id</a> (size_t i) noexcept</td></tr>
+<tr class="separator:abf4b4e956fdabe2163fa73c7badbca33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cc7f74c2b79e63aa44cdb7db510ae42" id="r_a8cc7f74c2b79e63aa44cdb7db510ae42"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cc7f74c2b79e63aa44cdb7db510ae42">operator ValueType</a> () const</td></tr>
+<tr class="separator:a8cc7f74c2b79e63aa44cdb7db510ae42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43ac9ad72d19e4b6f5675b8b96c652a0" id="r_a43ac9ad72d19e4b6f5675b8b96c652a0"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43ac9ad72d19e4b6f5675b8b96c652a0">valid</a> () const</td></tr>
+<tr class="separator:a43ac9ad72d19e4b6f5675b8b96c652a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13312efb8f446fa9444259e04b4cffed" id="r_a13312efb8f446fa9444259e04b4cffed"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13312efb8f446fa9444259e04b4cffed">operator bool</a> () const</td></tr>
+<tr class="separator:a13312efb8f446fa9444259e04b4cffed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1f14bb94fff614d875bbb57566a723d" id="r_ad1f14bb94fff614d875bbb57566a723d"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="#a509c057fae5c553d16a4e96dd80cbed8">ValueType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1f14bb94fff614d875bbb57566a723d">get</a> () noexcept</td></tr>
+<tr class="separator:ad1f14bb94fff614d875bbb57566a723d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c6be27b7a94189ed4c2a57703d12aaf" id="r_a5c6be27b7a94189ed4c2a57703d12aaf"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c6be27b7a94189ed4c2a57703d12aaf">sym</a> () const</td></tr>
+<tr class="separator:a5c6be27b7a94189ed4c2a57703d12aaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb7992572d96f0023ada021c504bd740" id="r_adb7992572d96f0023ada021c504bd740"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb7992572d96f0023ada021c504bd740">even</a> () const</td></tr>
+<tr class="separator:adb7992572d96f0023ada021c504bd740"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03f26c6b5582be6b7d5bf3f6cbad03fe" id="r_a03f26c6b5582be6b7d5bf3f6cbad03fe"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03f26c6b5582be6b7d5bf3f6cbad03fe">odd</a> () const</td></tr>
+<tr class="separator:a03f26c6b5582be6b7d5bf3f6cbad03fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af896dd5985669fa799c9a67731de9f4a" id="r_af896dd5985669fa799c9a67731de9f4a"><td class="memItemLeft" align="right" valign="top">constexpr UndirectedEdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af896dd5985669fa799c9a67731de9f4a">undirected</a> () const</td></tr>
+<tr class="separator:af896dd5985669fa799c9a67731de9f4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f7a223ecb166a3824a973d1110973c0" id="r_a3f7a223ecb166a3824a973d1110973c0"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f7a223ecb166a3824a973d1110973c0">operator UndirectedEdgeId</a> () const</td></tr>
+<tr class="separator:a3f7a223ecb166a3824a973d1110973c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71461e35e7e20a3b626172c335f26d1c" id="r_a71461e35e7e20a3b626172c335f26d1c"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71461e35e7e20a3b626172c335f26d1c">operator==</a> (<a class="el" href="classMR_1_1Id.html">Id</a> b) const</td></tr>
+<tr class="separator:a71461e35e7e20a3b626172c335f26d1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80a085a4a6880d693cf33a92b683e701" id="r_a80a085a4a6880d693cf33a92b683e701"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80a085a4a6880d693cf33a92b683e701">operator!=</a> (<a class="el" href="classMR_1_1Id.html">Id</a> b) const</td></tr>
+<tr class="separator:a80a085a4a6880d693cf33a92b683e701"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd42b3dbd3597aa66ab534d948f4ea0a" id="r_abd42b3dbd3597aa66ab534d948f4ea0a"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd42b3dbd3597aa66ab534d948f4ea0a">operator&lt;</a> (<a class="el" href="classMR_1_1Id.html">Id</a> b) const</td></tr>
+<tr class="separator:abd42b3dbd3597aa66ab534d948f4ea0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c0ffa168bd2e0628fd177f7d0282dd1" id="r_a1c0ffa168bd2e0628fd177f7d0282dd1"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
+<tr class="memitem:a1c0ffa168bd2e0628fd177f7d0282dd1"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a1c0ffa168bd2e0628fd177f7d0282dd1">operator==</a> (<a class="el" href="classMR_1_1Id.html">Id</a>&lt; U &gt; b) const =delete</td></tr>
+<tr class="separator:a1c0ffa168bd2e0628fd177f7d0282dd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0b2924c1a39cdbd51b9e6ba15071b96" id="r_ab0b2924c1a39cdbd51b9e6ba15071b96"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
+<tr class="memitem:ab0b2924c1a39cdbd51b9e6ba15071b96"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ab0b2924c1a39cdbd51b9e6ba15071b96">operator!=</a> (<a class="el" href="classMR_1_1Id.html">Id</a>&lt; U &gt; b) const =delete</td></tr>
+<tr class="separator:ab0b2924c1a39cdbd51b9e6ba15071b96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a195838433072ab04864a419ca78e4759" id="r_a195838433072ab04864a419ca78e4759"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
+<tr class="memitem:a195838433072ab04864a419ca78e4759"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a195838433072ab04864a419ca78e4759">operator&lt;</a> (<a class="el" href="classMR_1_1Id.html">Id</a>&lt; U &gt; b) const =delete</td></tr>
+<tr class="separator:a195838433072ab04864a419ca78e4759"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1376d0927886735bd5653f5cedc93ca3" id="r_a1376d0927886735bd5653f5cedc93ca3"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1376d0927886735bd5653f5cedc93ca3">operator--</a> ()</td></tr>
+<tr class="separator:a1376d0927886735bd5653f5cedc93ca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89bead284bc8be429fec5a0a89956ffd" id="r_a89bead284bc8be429fec5a0a89956ffd"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89bead284bc8be429fec5a0a89956ffd">operator++</a> ()</td></tr>
+<tr class="separator:a89bead284bc8be429fec5a0a89956ffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3deafe993dc4fbdebf1a90a3c34a52c6" id="r_a3deafe993dc4fbdebf1a90a3c34a52c6"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3deafe993dc4fbdebf1a90a3c34a52c6">operator--</a> (int)</td></tr>
+<tr class="separator:a3deafe993dc4fbdebf1a90a3c34a52c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c442b69f926a20fdcbc22d94bc6fb5a" id="r_a6c442b69f926a20fdcbc22d94bc6fb5a"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c442b69f926a20fdcbc22d94bc6fb5a">operator++</a> (int)</td></tr>
+<tr class="separator:a6c442b69f926a20fdcbc22d94bc6fb5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a065314585ee8844ced1f5f546fe545d1" id="r_a065314585ee8844ced1f5f546fe545d1"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a065314585ee8844ced1f5f546fe545d1">operator-=</a> (<a class="el" href="#a509c057fae5c553d16a4e96dd80cbed8">ValueType</a> a)</td></tr>
+<tr class="separator:a065314585ee8844ced1f5f546fe545d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a337b0c21aac551ab640f040502beb1e2" id="r_a337b0c21aac551ab640f040502beb1e2"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a337b0c21aac551ab640f040502beb1e2">operator+=</a> (<a class="el" href="#a509c057fae5c553d16a4e96dd80cbed8">ValueType</a> a)</td></tr>
+<tr class="separator:a337b0c21aac551ab640f040502beb1e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a509c057fae5c553d16a4e96dd80cbed8" name="a509c057fae5c553d16a4e96dd80cbed8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a509c057fae5c553d16a4e96dd80cbed8">&#9670;&#160;</a></span>ValueType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;::ValueType = int</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ac0140b6e8a97bcc17487801e892a6003" name="ac0140b6e8a97bcc17487801e892a6003"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0140b6e8a97bcc17487801e892a6003">&#9670;&#160;</a></span>Id() <span class="overload">[1/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;::Id </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a77df19a8a2e03823ee055e0db7fbe356" name="a77df19a8a2e03823ee055e0db7fbe356"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77df19a8a2e03823ee055e0db7fbe356">&#9670;&#160;</a></span>Id() <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;::Id </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1NoInit.html">NoInit</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a840cf2a8cf28a0165be6397be158f260" name="a840cf2a8cf28a0165be6397be158f260"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a840cf2a8cf28a0165be6397be158f260">&#9670;&#160;</a></span>Id() <span class="overload">[3/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;::Id </td>
+          <td>(</td>
+          <td class="paramtype">UndirectedEdgeId&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>u</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9ecd864ebabe41d630495953386477a0" name="a9ecd864ebabe41d630495953386477a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ecd864ebabe41d630495953386477a0">&#9670;&#160;</a></span>Id() <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;::Id </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a509c057fae5c553d16a4e96dd80cbed8">ValueType</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac5356dd4d6dde8ef2c1d226fdbef9cee" name="ac5356dd4d6dde8ef2c1d226fdbef9cee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5356dd4d6dde8ef2c1d226fdbef9cee">&#9670;&#160;</a></span>Id() <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;::Id </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abf4b4e956fdabe2163fa73c7badbca33" name="abf4b4e956fdabe2163fa73c7badbca33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf4b4e956fdabe2163fa73c7badbca33">&#9670;&#160;</a></span>Id() <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;::Id </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="adb7992572d96f0023ada021c504bd740" name="adb7992572d96f0023ada021c504bd740"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb7992572d96f0023ada021c504bd740">&#9670;&#160;</a></span>even()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;::even </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad1f14bb94fff614d875bbb57566a723d" name="ad1f14bb94fff614d875bbb57566a723d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1f14bb94fff614d875bbb57566a723d">&#9670;&#160;</a></span>get()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a509c057fae5c553d16a4e96dd80cbed8">ValueType</a> &amp; <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;::get </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a03f26c6b5582be6b7d5bf3f6cbad03fe" name="a03f26c6b5582be6b7d5bf3f6cbad03fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03f26c6b5582be6b7d5bf3f6cbad03fe">&#9670;&#160;</a></span>odd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;::odd </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a13312efb8f446fa9444259e04b4cffed" name="a13312efb8f446fa9444259e04b4cffed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13312efb8f446fa9444259e04b4cffed">&#9670;&#160;</a></span>operator bool()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;::operator bool </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3f7a223ecb166a3824a973d1110973c0" name="a3f7a223ecb166a3824a973d1110973c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f7a223ecb166a3824a973d1110973c0">&#9670;&#160;</a></span>operator UndirectedEdgeId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;::operator UndirectedEdgeId </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8cc7f74c2b79e63aa44cdb7db510ae42" name="a8cc7f74c2b79e63aa44cdb7db510ae42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cc7f74c2b79e63aa44cdb7db510ae42">&#9670;&#160;</a></span>operator ValueType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;::operator <a class="el" href="#a509c057fae5c553d16a4e96dd80cbed8">ValueType</a> </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a80a085a4a6880d693cf33a92b683e701" name="a80a085a4a6880d693cf33a92b683e701"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80a085a4a6880d693cf33a92b683e701">&#9670;&#160;</a></span>operator!=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;::operator!= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Id.html">Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab0b2924c1a39cdbd51b9e6ba15071b96" name="ab0b2924c1a39cdbd51b9e6ba15071b96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0b2924c1a39cdbd51b9e6ba15071b96">&#9670;&#160;</a></span>operator!=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;::operator!= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Id.html">Id</a>&lt; U &gt;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a89bead284bc8be429fec5a0a89956ffd" name="a89bead284bc8be429fec5a0a89956ffd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89bead284bc8be429fec5a0a89956ffd">&#9670;&#160;</a></span>operator++() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Id.html">Id</a> &amp; <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;::operator++ </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6c442b69f926a20fdcbc22d94bc6fb5a" name="a6c442b69f926a20fdcbc22d94bc6fb5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c442b69f926a20fdcbc22d94bc6fb5a">&#9670;&#160;</a></span>operator++() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Id.html">Id</a> <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;::operator++ </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a337b0c21aac551ab640f040502beb1e2" name="a337b0c21aac551ab640f040502beb1e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a337b0c21aac551ab640f040502beb1e2">&#9670;&#160;</a></span>operator+=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Id.html">Id</a> &amp; <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;::operator+= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a509c057fae5c553d16a4e96dd80cbed8">ValueType</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1376d0927886735bd5653f5cedc93ca3" name="a1376d0927886735bd5653f5cedc93ca3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1376d0927886735bd5653f5cedc93ca3">&#9670;&#160;</a></span>operator--() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Id.html">Id</a> &amp; <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;::operator-- </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3deafe993dc4fbdebf1a90a3c34a52c6" name="a3deafe993dc4fbdebf1a90a3c34a52c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3deafe993dc4fbdebf1a90a3c34a52c6">&#9670;&#160;</a></span>operator--() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Id.html">Id</a> <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;::operator-- </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a065314585ee8844ced1f5f546fe545d1" name="a065314585ee8844ced1f5f546fe545d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a065314585ee8844ced1f5f546fe545d1">&#9670;&#160;</a></span>operator-=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Id.html">Id</a> &amp; <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;::operator-= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a509c057fae5c553d16a4e96dd80cbed8">ValueType</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abd42b3dbd3597aa66ab534d948f4ea0a" name="abd42b3dbd3597aa66ab534d948f4ea0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd42b3dbd3597aa66ab534d948f4ea0a">&#9670;&#160;</a></span>operator&lt;() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;::operator&lt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Id.html">Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a195838433072ab04864a419ca78e4759" name="a195838433072ab04864a419ca78e4759"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a195838433072ab04864a419ca78e4759">&#9670;&#160;</a></span>operator&lt;() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;::operator&lt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Id.html">Id</a>&lt; U &gt;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a71461e35e7e20a3b626172c335f26d1c" name="a71461e35e7e20a3b626172c335f26d1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71461e35e7e20a3b626172c335f26d1c">&#9670;&#160;</a></span>operator==() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;::operator== </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Id.html">Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1c0ffa168bd2e0628fd177f7d0282dd1" name="a1c0ffa168bd2e0628fd177f7d0282dd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c0ffa168bd2e0628fd177f7d0282dd1">&#9670;&#160;</a></span>operator==() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;::operator== </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Id.html">Id</a>&lt; U &gt;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5c6be27b7a94189ed4c2a57703d12aaf" name="a5c6be27b7a94189ed4c2a57703d12aaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c6be27b7a94189ed4c2a57703d12aaf">&#9670;&#160;</a></span>sym()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Id.html">Id</a> <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;::sym </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af896dd5985669fa799c9a67731de9f4a" name="af896dd5985669fa799c9a67731de9f4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af896dd5985669fa799c9a67731de9f4a">&#9670;&#160;</a></span>undirected()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UndirectedEdgeId <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;::undirected </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a43ac9ad72d19e4b6f5675b8b96c652a0" name="a43ac9ad72d19e4b6f5675b8b96c652a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43ac9ad72d19e4b6f5675b8b96c652a0">&#9670;&#160;</a></span>valid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; <a class="el" href="namespaceMR.html#ac8c2508941fcd4ad714cdf50c45aa41c">EdgeTag</a> &gt;::valid </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="MRMesh_2MRId_8h_source.html">MRMesh/MRId.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1Id_3_01EdgeTag_01_4.html">Id&lt; EdgeTag &gt;</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

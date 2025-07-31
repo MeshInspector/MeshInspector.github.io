@@ -2,7 +2,7 @@ var classmrmeshpy_1_1MarchingCubesParams =
 [
     [ "CachingMode", "classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode.html", "classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode" ],
     [ "__init__", "classmrmeshpy_1_1MarchingCubesParams.html#a29f645abe1e48176cfd632fabfd87d6f", null ],
-    [ "__init__", "classmrmeshpy_1_1MarchingCubesParams.html#a8f5abdca461405e6b3ad4c1dfdfdf647", null ],
+    [ "__init__", "classmrmeshpy_1_1MarchingCubesParams.html#a7c4b4e414a90f30eb3a217c71eaf2e6d", null ],
     [ "cb", "classmrmeshpy_1_1MarchingCubesParams.html#abf031994e716f7cba7b4bc95237f1b79", null ],
     [ "cb", "classmrmeshpy_1_1MarchingCubesParams.html#aa997d3531ae47abb913148ab95673b4b", null ],
     [ "freeVolume", "classmrmeshpy_1_1MarchingCubesParams.html#aa85f251db92682e64b10eeafeb29c929", null ],
@@ -15,8 +15,8 @@ var classmrmeshpy_1_1MarchingCubesParams =
     [ "maxVertices", "classmrmeshpy_1_1MarchingCubesParams.html#aeb388b8df7bb7a63947019358147ad64", null ],
     [ "origin", "classmrmeshpy_1_1MarchingCubesParams.html#aaff6331309bce897c73607c5c6d1a84b", null ],
     [ "origin", "classmrmeshpy_1_1MarchingCubesParams.html#aeab6863db1f7ab6de3eb6e06dd0528b1", null ],
-    [ "outVoxelPerFaceMap", "classmrmeshpy_1_1MarchingCubesParams.html#aca2ff509003995e65aeeb774f2a39a1e", null ],
-    [ "outVoxelPerFaceMap", "classmrmeshpy_1_1MarchingCubesParams.html#a19903dd41fa35da0a487cf646add3089", null ],
+    [ "outVoxelPerFaceMap", "classmrmeshpy_1_1MarchingCubesParams.html#a28a9c63bc577a088d24901a4d4401b53", null ],
+    [ "outVoxelPerFaceMap", "classmrmeshpy_1_1MarchingCubesParams.html#a52d2596b8b64cce09f77bd03b69692c7", null ],
     [ "positioner", "classmrmeshpy_1_1MarchingCubesParams.html#a55b38b35d06dd72780bbdcaade336f78", null ],
     [ "positioner", "classmrmeshpy_1_1MarchingCubesParams.html#aa5425a267110e1fe5752f81fc05cd801", null ]
 ];
