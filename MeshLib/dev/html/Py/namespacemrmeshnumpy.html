@@ -175,6 +175,10 @@ Functions</h2></td></tr>
 <tr class="separator:ab5ffb171635288c7762548db55cdd9b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c6a7732d2ef76e8fbcb88033a0b80ec" id="r_a6c6a7732d2ef76e8fbcb88033a0b80ec"><td class="memItemLeft" align="right" valign="top">numpy.ndarray[numpy.int32]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c6a7732d2ef76e8fbcb88033a0b80ec">getNumpyFaces</a> (meshlib.mrmeshpy.MeshTopology topology)</td></tr>
 <tr class="separator:a6c6a7732d2ef76e8fbcb88033a0b80ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a112c46ee48d636b11e53698db53119e3" id="r_a112c46ee48d636b11e53698db53119e3"><td class="memItemLeft" align="right" valign="top">numpy.ndarray[numpy.float64]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a112c46ee48d636b11e53698db53119e3">getNumpyGaussianCurvature</a> (meshlib.mrmeshpy.Mesh mesh)</td></tr>
+<tr class="separator:a112c46ee48d636b11e53698db53119e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fb0ed1e250c69e589c8cc7f710a82e7" id="r_a0fb0ed1e250c69e589c8cc7f710a82e7"><td class="memItemLeft" align="right" valign="top">numpy.ndarray[numpy.float64]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fb0ed1e250c69e589c8cc7f710a82e7">getNumpyMeanCurvature</a> (meshlib.mrmeshpy.Mesh mesh)</td></tr>
+<tr class="separator:a0fb0ed1e250c69e589c8cc7f710a82e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1246f4777bd0e0fa1f5a7f7ed9ae4fd6" id="r_a1246f4777bd0e0fa1f5a7f7ed9ae4fd6"><td class="memItemLeft" align="right" valign="top">numpy.ndarray[numpy.float64]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1246f4777bd0e0fa1f5a7f7ed9ae4fd6">getNumpyVerts</a> (meshlib.mrmeshpy.Mesh mesh)</td></tr>
 <tr class="separator:a1246f4777bd0e0fa1f5a7f7ed9ae4fd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77b8867a49668ef48883a85a9113df81" id="r_a77b8867a49668ef48883a85a9113df81"><td class="memItemLeft" align="right" valign="top">meshlib.mrmeshpy.Mesh&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77b8867a49668ef48883a85a9113df81">meshFromFacesVerts</a> (typing_extensions.Buffer faces, typing_extensions.Buffer verts, meshlib.mrmeshpy.MeshBuilder.BuildSettings settings=..., bool duplicateNonManifoldVertices=True)</td></tr>
@@ -303,7 +307,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">retunrs numpy array with curvature for each valid vertex of given mesh
+<pre class="fragment">retunrs numpy array with discrete mean curvature for each vertex of a mesh
 </pre> 
 </div>
 </div>
@@ -321,7 +325,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">returns numpy array shapes [num verts,3] which represents gradient of mean curvature of mesh valid points
+<pre class="fragment">returns numpy array shapes [num verts,3] which represents gradient of mean curvature of mesh points
 </pre> 
 </div>
 </div>
@@ -340,6 +344,42 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <pre class="fragment">returns numpy array shapes [num faces,3] which represents vertices of mesh valid faces 
+</pre> 
+</div>
+</div>
+<a id="a112c46ee48d636b11e53698db53119e3" name="a112c46ee48d636b11e53698db53119e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a112c46ee48d636b11e53698db53119e3">&#9670;&#160;</a></span>getNumpyGaussianCurvature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> numpy.ndarray[numpy.float64] mrmeshnumpy.getNumpyGaussianCurvature </td>
+          <td>(</td>
+          <td class="paramtype">meshlib.mrmeshpy.Mesh</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">retunrs numpy array with discrete Gaussian curvature for each vertex of a mesh
+</pre> 
+</div>
+</div>
+<a id="a0fb0ed1e250c69e589c8cc7f710a82e7" name="a0fb0ed1e250c69e589c8cc7f710a82e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fb0ed1e250c69e589c8cc7f710a82e7">&#9670;&#160;</a></span>getNumpyMeanCurvature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> numpy.ndarray[numpy.float64] mrmeshnumpy.getNumpyMeanCurvature </td>
+          <td>(</td>
+          <td class="paramtype">meshlib.mrmeshpy.Mesh</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">retunrs numpy array with discrete mean curvature for each vertex of a mesh
 </pre> 
 </div>
 </div>
