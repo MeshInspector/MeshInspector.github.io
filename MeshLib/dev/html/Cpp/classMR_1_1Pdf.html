@@ -166,6 +166,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Pdf_1_1ImageParams.html">ImageParams</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters to adding image from file.  <a href="structMR_1_1Pdf_1_1ImageParams.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Pdf_1_1PaletteRowStats.html">PaletteRowStats</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -183,6 +185,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a291a56e9861b5beebfbdc37e96ed0a18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abeba0e412b8eb52c6291c259c2433368" id="r_abeba0e412b8eb52c6291c259c2433368"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abeba0e412b8eb52c6291c259c2433368">addTable</a> (const std::vector&lt; std::pair&lt; std::string, float &gt; &gt; &amp;table)</td></tr>
 <tr class="separator:abeba0e412b8eb52c6291c259c2433368"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77343f24e2ba4af1f5eb5d348ffd9f89" id="r_a77343f24e2ba4af1f5eb5d348ffd9f89"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77343f24e2ba4af1f5eb5d348ffd9f89">addPaletteStatsTable</a> (const std::vector&lt; <a class="el" href="structMR_1_1Pdf_1_1PaletteRowStats.html">PaletteRowStats</a> &gt; &amp;paletteStats)</td></tr>
+<tr class="separator:a77343f24e2ba4af1f5eb5d348ffd9f89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4039adc925552c73016c055ff4af499a" id="r_a4039adc925552c73016c055ff4af499a"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4039adc925552c73016c055ff4af499a">addImageFromFile</a> (const std::filesystem::path &amp;imagePath, const <a class="el" href="structMR_1_1Pdf_1_1ImageParams.html">ImageParams</a> &amp;params)</td></tr>
 <tr class="memdesc:a4039adc925552c73016c055ff4af499a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add image from file in current cursor position. If image bigger than page size, autoscale image to page size. Move cursor.  <br /></td></tr>
 <tr class="separator:a4039adc925552c73016c055ff4af499a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -299,6 +303,23 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Add image from file in current cursor position. If image bigger than page size, autoscale image to page size. Move cursor. </p>
+
+</div>
+</div>
+<a id="a77343f24e2ba4af1f5eb5d348ffd9f89" name="a77343f24e2ba4af1f5eb5d348ffd9f89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77343f24e2ba4af1f5eb5d348ffd9f89">&#9670;&#160;</a></span>addPaletteStatsTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRIOEXTRAS_API void MR::Pdf::addPaletteStatsTable </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="structMR_1_1Pdf_1_1PaletteRowStats.html">PaletteRowStats</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>paletteStats</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

@@ -196,6 +196,7 @@
 <a href="MRImage_8h_source.html"/>
 <a href="MRImageLoad_8h_source.html"/>
 <a href="MRImageSave_8h_source.html"/>
+<a href="MRImageTransform_8h_source.html"/>
 <a href="MRImproveSampling_8h_source.html"/>
 <a href="MRInnerShell_8h_source.html"/>
 <a href="MRInplaceStack_8h_source.html"/>
@@ -992,6 +993,7 @@
 <a href="MRImage_8h.html"/>
 <a href="MRImageLoad_8h.html"/>
 <a href="MRImageSave_8h.html"/>
+<a href="MRImageTransform_8h.html"/>
 <a href="MRImproveSampling_8h.html"/>
 <a href="MRInnerShell_8h.html"/>
 <a href="MRInplaceStack_8h.html"/>
@@ -2790,6 +2792,8 @@
 <a href="classMR_1_1Pdf-members.html"/>
 <a href="structMR_1_1Pdf_1_1ImageParams.html"/>
 <a href="structMR_1_1Pdf_1_1ImageParams-members.html"/>
+<a href="structMR_1_1Pdf_1_1PaletteRowStats.html"/>
+<a href="structMR_1_1Pdf_1_1PaletteRowStats-members.html"/>
 <a href="structMR_1_1PdfParameters.html"/>
 <a href="structMR_1_1PdfParameters-members.html"/>
 <a href="classMR_1_1PickPointManager.html"/>
@@ -3594,6 +3598,7 @@
 <a href="namespaceMR_1_1GcodeLoad.html"/>
 <a href="namespaceMR_1_1ImageLoad.html"/>
 <a href="namespaceMR_1_1ImageSave.html"/>
+<a href="namespaceMR_1_1ImageTransform.html"/>
 <a href="namespaceMR_1_1ImGuiMath.html"/>
 <a href="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html"/>
 <a href="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper-members.html"/>
@@ -5178,6 +5183,8 @@
 <a href="MRImageSave_8h.html"/>
 <a href="MRImageSave_8h.html#ga0657c5aa66364149969648ed210c529a"/>
 <a href="MRImageSave_8h.html#gaf5aa523593e91cde08bf181b7aa9b2b3"/>
+<a href="MRImageTransform_8h.html"/>
+<a href="MRImageTransform_8h.html#a6ad75371c87cc667908650a89456bd2a"/>
 <a href="MRImage_8h.html"/>
 <a href="MRImproveSampling_8h.html"/>
 <a href="MRImproveSampling_8h.html#gad56601e20058641f49fa277149d87e08"/>
@@ -11888,8 +11895,8 @@
 <a href="classMR_1_1Palette.html#a226cbd1fa34656e41eb50cb0ee6d4e4a"/>
 <a href="classMR_1_1Palette.html#a342d665441236e2eced9976b08c7e025"/>
 <a href="classMR_1_1Palette.html#a3cad2a58f4942e33d68b162a1f7fd2d5"/>
+<a href="classMR_1_1Palette.html#a412094b2e3a9fc3225144e5e925c5af4"/>
 <a href="classMR_1_1Palette.html#a41bdb34995dc77edd7d35db3036db6c4"/>
-<a href="classMR_1_1Palette.html#a44501a9627b9d595ecf6516ccff98ab4"/>
 <a href="classMR_1_1Palette.html#a4d11ef17d4e0570ebe96390df4509bd2"/>
 <a href="classMR_1_1Palette.html#a4e8533e0a7c440a59618e0d78262570e"/>
 <a href="classMR_1_1Palette.html#a50926dd1bf08562983f3b26d745c961b"/>
@@ -11907,17 +11914,18 @@
 <a href="classMR_1_1Palette.html#a993b22e2c8c190cfe6473013283f6c04"/>
 <a href="classMR_1_1Palette.html#aa4516e9a134ac39f12c28ba08bc1b7e8"/>
 <a href="classMR_1_1Palette.html#aaa660bef4a51b8a0247fa7eafccfcfba"/>
-<a href="classMR_1_1Palette.html#aad7c50d4e3172b575b2d3b58df596e27"/>
 <a href="classMR_1_1Palette.html#ab242ee951ea58ca0e4a9312253bf3184"/>
 <a href="classMR_1_1Palette.html#ac191d1777b98af54fc7464239e57bd1a"/>
 <a href="classMR_1_1Palette.html#ac45bdaf4d2808a25a9b6aa7739030f56"/>
 <a href="classMR_1_1Palette.html#ac4e7906af8dbc34bddc17c0e1e7878a9"/>
+<a href="classMR_1_1Palette.html#ac55d20405c9488ab29ab5eac4140208e"/>
 <a href="classMR_1_1Palette.html#ac69f97944a537d356ce690f83e509f65"/>
 <a href="classMR_1_1Palette.html#acc92fd7c8a6d16880c0bfcd6e76ab536"/>
 <a href="classMR_1_1Palette.html#adccdea8021d31637354ec45f848bb7a3"/>
 <a href="classMR_1_1Palette.html#ade857d7d072e37d2311598da53b2ae73"/>
 <a href="classMR_1_1Palette.html#ae4429356ab627f21dea626ec383a24fa"/>
 <a href="classMR_1_1Palette.html#ae63655ed30c3149a56edf240748a9f4e"/>
+<a href="classMR_1_1Palette.html#aeb6af41eb56a4e97b810798d655510dc"/>
 <a href="classMR_1_1Palette.html#aee6fa3cea3a5b3449207a8a888addd49"/>
 <a href="classMR_1_1PalettePresets.html"/>
 <a href="classMR_1_1PalettePresets.html#a02b40d3f15eb662ef912dad09bbb89d9"/>
@@ -11955,6 +11963,7 @@
 <a href="classMR_1_1Pdf.html#a2d50ce4fd99aacbb45dbd1c55bcaef48"/>
 <a href="classMR_1_1Pdf.html#a4039adc925552c73016c055ff4af499a"/>
 <a href="classMR_1_1Pdf.html#a6b4f163cd54edddf7ed416f248944a41"/>
+<a href="classMR_1_1Pdf.html#a77343f24e2ba4af1f5eb5d348ffd9f89"/>
 <a href="classMR_1_1Pdf.html#a7d54d322194dad2bad57577d5cba8ccf"/>
 <a href="classMR_1_1Pdf.html#aa3cb6deed67a1139acbf144d182ba210"/>
 <a href="classMR_1_1Pdf.html#abeba0e412b8eb52c6291c259c2433368"/>
@@ -17336,6 +17345,8 @@
 <a href="namespaceMR_1_1ImageSave.html#aeb905574d875f0b68775a0027b6570d1"/>
 <a href="namespaceMR_1_1ImageSave.html#af787ba09d658e9fdb5560be6d9d7f2eb"/>
 <a href="namespaceMR_1_1ImageSave.html#afe29a7fce91016abdf6ec236cbcf3d39"/>
+<a href="namespaceMR_1_1ImageTransform.html"/>
+<a href="namespaceMR_1_1ImageTransform.html#a6ad75371c87cc667908650a89456bd2a"/>
 <a href="namespaceMR_1_1LinesLoad.html"/>
 <a href="namespaceMR_1_1LinesLoad.html#a8ba03f82b986b90262ac83290496a441"/>
 <a href="namespaceMR_1_1LinesLoad.html#a90da90447771026ea69eb4b7e8a2c5af"/>
@@ -20439,6 +20450,11 @@
 <a href="structMR_1_1Pdf_1_1ImageParams.html#a014a28da293c9397a11d389e7e6659f0"/>
 <a href="structMR_1_1Pdf_1_1ImageParams.html#a5fa291c3e88b0bf52170920882cf86af"/>
 <a href="structMR_1_1Pdf_1_1ImageParams.html#a7989a43bca51c55d5781de9715239128"/>
+<a href="structMR_1_1Pdf_1_1PaletteRowStats.html"/>
+<a href="structMR_1_1Pdf_1_1PaletteRowStats.html#a06cbe19e05a2c7b2fb23dc160f2ab510"/>
+<a href="structMR_1_1Pdf_1_1PaletteRowStats.html#a26b71623786defb48ca842a2c3e7ac63"/>
+<a href="structMR_1_1Pdf_1_1PaletteRowStats.html#ad16f18f7413f0487a950bb1e6569f3b1"/>
+<a href="structMR_1_1Pdf_1_1PaletteRowStats.html#aec6ce7577cd6d9f231958302aef384c7"/>
 <a href="structMR_1_1PickPointManager_1_1ObjectState.html"/>
 <a href="structMR_1_1PickPointManager_1_1ObjectState.html#a75ec25d887eb5b52814323a6d4f0b012"/>
 <a href="structMR_1_1PickPointManager_1_1ObjectState.html#af4c22ebf57c9cc7c0fe199923143bb51"/>

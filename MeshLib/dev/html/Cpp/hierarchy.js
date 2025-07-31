@@ -963,6 +963,7 @@ var hierarchy =
     [ "MR::PackMapping", "structMR_1_1PackMapping.html", null ],
     [ "MR::Palette", "classMR_1_1Palette.html", null ],
     [ "MR::PalettePresets", "classMR_1_1PalettePresets.html", null ],
+    [ "MR::Pdf::PaletteRowStats", "structMR_1_1Pdf_1_1PaletteRowStats.html", null ],
     [ "MR::Parabola< T >", "structMR_1_1Parabola.html", null ],
     [ "MR::ParallelProgressReporter", "classMR_1_1ParallelProgressReporter.html", null ],
     [ "MR::MarkedVoxelSlice::Parameters", "structMR_1_1MarkedVoxelSlice_1_1Parameters.html", null ],

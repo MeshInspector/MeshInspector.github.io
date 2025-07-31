@@ -1,10 +1,12 @@
 var classMR_1_1Pdf =
 [
     [ "ImageParams", "structMR_1_1Pdf_1_1ImageParams.html", "structMR_1_1Pdf_1_1ImageParams" ],
+    [ "PaletteRowStats", "structMR_1_1Pdf_1_1PaletteRowStats.html", "structMR_1_1Pdf_1_1PaletteRowStats" ],
     [ "Pdf", "classMR_1_1Pdf.html#aa3cb6deed67a1139acbf144d182ba210", null ],
     [ "Pdf", "classMR_1_1Pdf.html#aee0d3ee8980ff7e8cfd1d6e28aee30a0", null ],
     [ "~Pdf", "classMR_1_1Pdf.html#ae6fd1a7d1d29456ea75c56e4266869b6", null ],
     [ "addImageFromFile", "classMR_1_1Pdf.html#a4039adc925552c73016c055ff4af499a", null ],
+    [ "addPaletteStatsTable", "classMR_1_1Pdf.html#a77343f24e2ba4af1f5eb5d348ffd9f89", null ],
     [ "addTable", "classMR_1_1Pdf.html#abeba0e412b8eb52c6291c259c2433368", null ],
     [ "addText", "classMR_1_1Pdf.html#a291a56e9861b5beebfbdc37e96ed0a18", null ],
     [ "close", "classMR_1_1Pdf.html#ac3425b5b1e4a31aa0bb470b4a86d6af9", null ],

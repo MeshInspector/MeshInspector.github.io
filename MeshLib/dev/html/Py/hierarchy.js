@@ -485,6 +485,7 @@ var hierarchy =
     [ "mrmeshpy.ImageLoad", "classmrmeshpy_1_1ImageLoad.html", null ],
     [ "mrmeshpy.Pdf.ImageParams", "classmrmeshpy_1_1Pdf_1_1ImageParams.html", null ],
     [ "mrmeshpy.ImageSave", "classmrmeshpy_1_1ImageSave.html", null ],
+    [ "mrmeshpy.ImageTransform", "classmrmeshpy_1_1ImageTransform.html", null ],
     [ "mrmeshpy.FixUndercuts.ImproveDirectionParameters", "classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters.html", [
       [ "mrmeshpy.FixUndercuts.DistMapImproveDirectionParameters", "classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html", null ]
     ] ],
@@ -770,6 +771,7 @@ var hierarchy =
     [ "mrmeshpy.OutputFlows", "classmrmeshpy_1_1OutputFlows.html", null ],
     [ "mrmeshpy.WatershedGraph.OverflowPoint", "classmrmeshpy_1_1WatershedGraph_1_1OverflowPoint.html", null ],
     [ "mrmeshpy.PackMapping", "classmrmeshpy_1_1PackMapping.html", null ],
+    [ "mrmeshpy.Pdf.PaletteRowStats", "classmrmeshpy_1_1Pdf_1_1PaletteRowStats.html", null ],
     [ "mrmeshpy.Parabolad", "classmrmeshpy_1_1Parabolad.html", null ],
     [ "mrmeshpy.Parabolaf", "classmrmeshpy_1_1Parabolaf.html", null ],
     [ "mrmeshpy.Parallel", "classmrmeshpy_1_1Parallel.html", null ],
@@ -1083,6 +1085,7 @@ var hierarchy =
     [ "mrmeshpy.std_vector_OffsetContoursOrigins", "classmrmeshpy_1_1std__vector__OffsetContoursOrigins.html", null ],
     [ "mrmeshpy.std_vector_OneMeshContour", "classmrmeshpy_1_1std__vector__OneMeshContour.html", null ],
     [ "mrmeshpy.std_vector_OneMeshIntersection", "classmrmeshpy_1_1std__vector__OneMeshIntersection.html", null ],
+    [ "mrmeshpy.std_vector_Pdf_PaletteRowStats", "classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats.html", null ],
     [ "mrmeshpy.std_vector_PlanarTriangulation_IntersectionInfo", "classmrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html", null ],
     [ "mrmeshpy.std_vector_PointCloud", "classmrmeshpy_1_1std__vector__PointCloud.html", null ],
     [ "mrmeshpy.std_vector_PointPair", "classmrmeshpy_1_1std__vector__PointPair.html", null ],

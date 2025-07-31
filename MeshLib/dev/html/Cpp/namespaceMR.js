@@ -67,6 +67,9 @@ var namespaceMR =
       [ "toPng", "namespaceMR_1_1ImageSave.html#aeb905574d875f0b68775a0027b6570d1", null ],
       [ "toTiff", "namespaceMR_1_1ImageSave.html#afe29a7fce91016abdf6ec236cbcf3d39", null ]
     ] ],
+    [ "ImageTransform", "namespaceMR_1_1ImageTransform.html", [
+      [ "rotateClockwise90", "namespaceMR_1_1ImageTransform.html#a6ad75371c87cc667908650a89456bd2a", null ]
+    ] ],
     [ "ImGuiMath", "namespaceMR_1_1ImGuiMath.html", "namespaceMR_1_1ImGuiMath" ],
     [ "ImGuiMeasurementIndicators", "namespaceMR_1_1ImGuiMeasurementIndicators.html", "namespaceMR_1_1ImGuiMeasurementIndicators" ],
     [ "LinesLoad", "namespaceMR_1_1LinesLoad.html", "namespaceMR_1_1LinesLoad" ],

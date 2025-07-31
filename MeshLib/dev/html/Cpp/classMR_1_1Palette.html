@@ -236,11 +236,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0f6bd2b1af38efa4b6e8ef7206071a6f" id="r_a0f6bd2b1af38efa4b6e8ef7206071a6f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f6bd2b1af38efa4b6e8ef7206071a6f">getRangeSq</a> () const</td></tr>
 <tr class="memdesc:a0f6bd2b1af38efa4b6e8ef7206071a6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns minimum squared value, not smaller than all squared values of palette's range  <br /></td></tr>
 <tr class="separator:a0f6bd2b1af38efa4b6e8ef7206071a6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44501a9627b9d595ecf6516ccff98ab4" id="r_a44501a9627b9d595ecf6516ccff98ab4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44501a9627b9d595ecf6516ccff98ab4">getStringValue</a> (float value)</td></tr>
-<tr class="separator:a44501a9627b9d595ecf6516ccff98ab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb6af41eb56a4e97b810798d655510dc" id="r_aeb6af41eb56a4e97b810798d655510dc"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb6af41eb56a4e97b810798d655510dc">getStringValue</a> (float value) const</td></tr>
+<tr class="memdesc:aeb6af41eb56a4e97b810798d655510dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns formated string for this value of palette  <br /></td></tr>
+<tr class="separator:aeb6af41eb56a4e97b810798d655510dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10a9188c6a6137b814291dc2e1d2073a" id="r_a10a9188c6a6137b814291dc2e1d2073a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10a9188c6a6137b814291dc2e1d2073a">getMaxLabelCount</a> ()</td></tr>
+<tr class="memdesc:a10a9188c6a6137b814291dc2e1d2073a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns maximal label count  <br /></td></tr>
 <tr class="separator:a10a9188c6a6137b814291dc2e1d2073a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72d1c43c3aad43836eb3c088ae61e428" id="r_a72d1c43c3aad43836eb3c088ae61e428"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72d1c43c3aad43836eb3c088ae61e428">setMaxLabelCount</a> (int val)</td></tr>
+<tr class="memdesc:a72d1c43c3aad43836eb3c088ae61e428"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets maximal label count  <br /></td></tr>
 <tr class="separator:a72d1c43c3aad43836eb3c088ae61e428"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55fe096aec459b2721c9b619f977f4b2" id="r_a55fe096aec459b2721c9b619f977f4b2"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55fe096aec459b2721c9b619f977f4b2">setLegendLimits</a> (const <a class="el" href="namespaceMR.html#a2bd3b23d498c69cd04c544b6c7068f3a">MinMaxf</a> &amp;limits)</td></tr>
 <tr class="memdesc:a55fe096aec459b2721c9b619f977f4b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">set legend limits. if min &gt; max - limits are disabled  <br /></td></tr>
@@ -259,10 +262,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a70655aa3bd1218427ca2534cb2fc1ddc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a226cbd1fa34656e41eb50cb0ee6d4e4a" id="r_a226cbd1fa34656e41eb50cb0ee6d4e4a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a226cbd1fa34656e41eb50cb0ee6d4e4a">updateStats</a> (const VertScalars &amp;values, const VertBitSet &amp;region, const VertPredicate &amp;vertPredicate)</td></tr>
 <tr class="separator:a226cbd1fa34656e41eb50cb0ee6d4e4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a412094b2e3a9fc3225144e5e925c5af4" id="r_a412094b2e3a9fc3225144e5e925c5af4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::vector&lt; <a class="el" href="structMR_1_1Palette_1_1Label.html">Label</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a412094b2e3a9fc3225144e5e925c5af4">createUniformLabels</a> () const</td></tr>
+<tr class="separator:a412094b2e3a9fc3225144e5e925c5af4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac191d1777b98af54fc7464239e57bd1a" id="r_ac191d1777b98af54fc7464239e57bd1a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1Palette_1_1Histogram.html">Histogram</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac191d1777b98af54fc7464239e57bd1a">getHistogramValues</a> ()</td></tr>
 <tr class="separator:ac191d1777b98af54fc7464239e57bd1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad7c50d4e3172b575b2d3b58df596e27" id="r_aad7c50d4e3172b575b2d3b58df596e27"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1Palette_1_1Histogram.html">Histogram</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad7c50d4e3172b575b2d3b58df596e27">getDiscrHistogramValues</a> ()</td></tr>
-<tr class="separator:aad7c50d4e3172b575b2d3b58df596e27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac55d20405c9488ab29ab5eac4140208e" id="r_ac55d20405c9488ab29ab5eac4140208e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1Palette_1_1Histogram.html">Histogram</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac55d20405c9488ab29ab5eac4140208e">getDiscrHistogramValues</a> () const</td></tr>
+<tr class="separator:ac55d20405c9488ab29ab5eac4140208e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -324,6 +329,25 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a412094b2e3a9fc3225144e5e925c5af4" name="a412094b2e3a9fc3225144e5e925c5af4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a412094b2e3a9fc3225144e5e925c5af4">&#9670;&#160;</a></span>createUniformLabels()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API std::vector&lt; <a class="el" href="structMR_1_1Palette_1_1Label.html">Label</a> &gt; MR::Palette::createUniformLabels </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Create uniform labels</p>
+<p>creates labels for each color boundary (for a discrete palette) </p>
 
 </div>
 </div>
@@ -521,8 +545,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aad7c50d4e3172b575b2d3b58df596e27" name="aad7c50d4e3172b575b2d3b58df596e27"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad7c50d4e3172b575b2d3b58df596e27">&#9670;&#160;</a></span>getDiscrHistogramValues()</h2>
+<a id="ac55d20405c9488ab29ab5eac4140208e" name="ac55d20405c9488ab29ab5eac4140208e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac55d20405c9488ab29ab5eac4140208e">&#9670;&#160;</a></span>getDiscrHistogramValues()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -534,7 +558,7 @@ Static Public Attributes</h2></td></tr>
           <td class="memname">const <a class="el" href="structMR_1_1Palette_1_1Histogram.html">Histogram</a> &amp; MR::Palette::getDiscrHistogramValues </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -612,6 +636,8 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>returns maximal label count </p>
 
 </div>
 </div>
@@ -763,8 +789,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a44501a9627b9d595ecf6516ccff98ab4" name="a44501a9627b9d595ecf6516ccff98ab4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44501a9627b9d595ecf6516ccff98ab4">&#9670;&#160;</a></span>getStringValue()</h2>
+<a id="aeb6af41eb56a4e97b810798d655510dc" name="aeb6af41eb56a4e97b810798d655510dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb6af41eb56a4e97b810798d655510dc">&#9670;&#160;</a></span>getStringValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -773,10 +799,12 @@ Static Public Attributes</h2></td></tr>
           <td class="memname">MRVIEWER_API std::string MR::Palette::getStringValue </td>
           <td>(</td>
           <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>returns formated string for this value of palette </p>
 
 </div>
 </div>
@@ -1229,6 +1257,8 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>sets maximal label count </p>
 
 </div>
 </div>
