@@ -5,6 +5,7 @@ var structMR_1_1PointCloud =
     [ "addPoint", "structMR_1_1PointCloud.html#ada79e353b7a72ed40a42bc08b60cc225", null ],
     [ "calcNumValidPoints", "structMR_1_1PointCloud.html#a4e713072e68a27b247042676b693bb26", null ],
     [ "computeBoundingBox", "structMR_1_1PointCloud.html#ac3b1015ea089d93658ff4783c2282c8e", null ],
+    [ "computeBoundingBox", "structMR_1_1PointCloud.html#aa0daa10e890c517ea30f6ad9fc8cf4bd", null ],
     [ "findCenterFromBBox", "structMR_1_1PointCloud.html#af4769b0bcb9a9bd664aa03c8e23c0ca0", null ],
     [ "findCenterFromPoints", "structMR_1_1PointCloud.html#af2811d551e2205169b30d34edd323c26", null ],
     [ "flipOrientation", "structMR_1_1PointCloud.html#a2d87e2ca54a218f3beda5e403db122be", null ],

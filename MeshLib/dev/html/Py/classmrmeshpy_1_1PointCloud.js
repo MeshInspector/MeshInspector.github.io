@@ -6,6 +6,7 @@ var classmrmeshpy_1_1PointCloud =
     [ "addPoint", "classmrmeshpy_1_1PointCloud.html#aa878b459bd7d49cee2241f959fd097b9", null ],
     [ "calcNumValidPoints", "classmrmeshpy_1_1PointCloud.html#a9b8a38f17ed5a58b8cfb0517e8ecae4d", null ],
     [ "computeBoundingBox", "classmrmeshpy_1_1PointCloud.html#ab19d39d0e1c178b3c4ef540b9a1ba065", null ],
+    [ "computeBoundingBox", "classmrmeshpy_1_1PointCloud.html#a8115f7b60fa86f55541a95e1ff9807f4", null ],
     [ "findCenterFromBBox", "classmrmeshpy_1_1PointCloud.html#a8c18479617ee5940f39f8d9b3d08ac29", null ],
     [ "findCenterFromPoints", "classmrmeshpy_1_1PointCloud.html#a17a1809f318bc64f9fe02d2b36993d9f", null ],
     [ "flipOrientation", "classmrmeshpy_1_1PointCloud.html#a0d80cfeb466c392db56bff91557533b3", null ],

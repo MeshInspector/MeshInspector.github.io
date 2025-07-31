@@ -11,6 +11,5 @@ var classMR_1_1SetBitIteratorT =
     [ "bitset", "classMR_1_1SetBitIteratorT.html#a4462188d7adb7134739834723a0e405e", null ],
     [ "operator*", "classMR_1_1SetBitIteratorT.html#aa231d32ed4abe7e732adfff36d5e267b", null ],
     [ "operator++", "classMR_1_1SetBitIteratorT.html#aad821003890f84db390e9a4011c8d37d", null ],
-    [ "operator++", "classMR_1_1SetBitIteratorT.html#a18f2206478b0e1495f2ebbd017d41ff2", null ],
-    [ "operator==", "classMR_1_1SetBitIteratorT.html#afae6d6e117aafc177ad2feb727a277ea", null ]
+    [ "operator++", "classMR_1_1SetBitIteratorT.html#a18f2206478b0e1495f2ebbd017d41ff2", null ]
 ];

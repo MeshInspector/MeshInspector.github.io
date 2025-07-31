@@ -1,8 +1,7 @@
 var classmrmeshpy_1_1MultiwayAligningTransform =
 [
     [ "Stabilizer", "classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer.html", "classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer" ],
-    [ "__init__", "classmrmeshpy_1_1MultiwayAligningTransform.html#a2db343f946a5b354781a0f30a6581534", null ],
-    [ "__init__", "classmrmeshpy_1_1MultiwayAligningTransform.html#a8c6e4084649c4b0472c23f43666a6c88", null ],
+    [ "__init__", "classmrmeshpy_1_1MultiwayAligningTransform.html#a7abb0595f6ef10afe2999c9f87595f67", null ],
     [ "add", "classmrmeshpy_1_1MultiwayAligningTransform.html#ab224475675855739431f7747ca691553", null ],
     [ "add", "classmrmeshpy_1_1MultiwayAligningTransform.html#a69a6c2e01e612aac5dde805871616e7d", null ],
     [ "add", "classmrmeshpy_1_1MultiwayAligningTransform.html#a05b5f27e3d0e4cba6f6a0bf1e5e6b035", null ],

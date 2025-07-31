@@ -163,6 +163,7 @@ $(function(){initNavTree('MRBestFit_8h.html',''); initResizable(true); });
 <code>#include &quot;<a class="el" href="MRLine3_8h_source.html">MRLine3.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRPolyline_8h_source.html">MRPolyline.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRAffineXf3_8h_source.html">MRAffineXf3.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRPointCloudPart_8h_source.html">MRPointCloudPart.h</a>&quot;</code><br />
 <code>#include &lt;array&gt;</code><br />
 </div>
 <p><a href="MRBestFit_8h_source.html">Go to the source code of this file.</a></p>
@@ -195,9 +196,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga6ea5e287b2854466c0edc8429e4f3728" id="r_ga6ea5e287b2854466c0edc8429e4f3728"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BestFitGroup.html#ga6ea5e287b2854466c0edc8429e4f3728">MR::accumulateLineCenters</a> (<a class="el" href="classMR_1_1PointAccumulator.html">PointAccumulator</a> &amp;accum, const Polyline3 &amp;pl, const AffineXf3f *xf=nullptr)</td></tr>
 <tr class="memdesc:ga6ea5e287b2854466c0edc8429e4f3728"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds in existing <a class="el" href="classMR_1_1PointAccumulator.html" title="Class to accumulate points and make best line / plane approximation.">PointAccumulator</a> all line centers with the weight equal to the length line.  <br /></td></tr>
 <tr class="separator:ga6ea5e287b2854466c0edc8429e4f3728"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa782086a9c5b4c3f2fc9a0c19bb2a4c7" id="r_gaa782086a9c5b4c3f2fc9a0c19bb2a4c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BestFitGroup.html#gaa782086a9c5b4c3f2fc9a0c19bb2a4c7">MR::accumulatePoints</a> (<a class="el" href="classMR_1_1PointAccumulator.html">PointAccumulator</a> &amp;accum, const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pc, const AffineXf3f *xf=nullptr)</td></tr>
-<tr class="memdesc:gaa782086a9c5b4c3f2fc9a0c19bb2a4c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds in existing <a class="el" href="classMR_1_1PointAccumulator.html" title="Class to accumulate points and make best line / plane approximation.">PointAccumulator</a> all points from the cloud with weight 1.  <br /></td></tr>
-<tr class="separator:gaa782086a9c5b4c3f2fc9a0c19bb2a4c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae9b7d5125bd93295ef7d082687d116b4" id="r_gae9b7d5125bd93295ef7d082687d116b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BestFitGroup.html#gae9b7d5125bd93295ef7d082687d116b4">MR::accumulatePoints</a> (<a class="el" href="classMR_1_1PointAccumulator.html">PointAccumulator</a> &amp;accum, const <a class="el" href="structMR_1_1PointCloudPart.html">PointCloudPart</a> &amp;pcp, const AffineXf3f *xf=nullptr)</td></tr>
+<tr class="memdesc:gae9b7d5125bd93295ef7d082687d116b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds in existing <a class="el" href="classMR_1_1PointAccumulator.html" title="Class to accumulate points and make best line / plane approximation.">PointAccumulator</a> all points from the cloud (region) with weight 1.  <br /></td></tr>
+<tr class="separator:gae9b7d5125bd93295ef7d082687d116b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
