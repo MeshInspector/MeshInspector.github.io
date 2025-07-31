@@ -1,7 +1,7 @@
 var classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax =
 [
-    [ "__init__", "classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax.html#a6ed3bf72eb5d74df03f5a2f89eefe746", null ],
     [ "__init__", "classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax.html#a380ae038e29f3e7a6724f6172945b0bd", null ],
+    [ "__init__", "classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax.html#a6ed3bf72eb5d74df03f5a2f89eefe746", null ],
     [ "getOffsetVector", "classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax.html#a06a13987d12d724fc669f8778c6e423f", null ],
     [ "getPoints", "classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax.html#aef0be3993012a3da9f25e1247bfcfe12", null ],
     [ "getValue", "classmrmeshpy_1_1MeshOnVoxelsT__Mesh__SimpleVolumeMinMax.html#ac7139fba9c0a66484cce451d5cfaf198", null ],
