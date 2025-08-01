@@ -307,7 +307,8 @@ Aliases:  Vector_float_Id_VoxelTag, Vector_float_Id_VoxelTag, Vector_float_Id_Vo
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates empty vector
+</pre> 
 </div>
 </div>
 <a id="aa485b434b6ba52775e05839474da7508" name="aa485b434b6ba52775e05839474da7508"></a>
@@ -328,7 +329,8 @@ Aliases:  Vector_float_Id_VoxelTag, Vector_float_Id_VoxelTag, Vector_float_Id_Vo
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates a vector with \\p size elements with default value
+</pre> 
 </div>
 </div>
 <a id="ac1fc2980b4c90c787a495e6ccb5e1150" name="ac1fc2980b4c90c787a495e6ccb5e1150"></a>
@@ -354,7 +356,8 @@ Aliases:  Vector_float_Id_VoxelTag, Vector_float_Id_VoxelTag, Vector_float_Id_Vo
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates a vector with \\p size elements with the given value
+</pre> 
 </div>
 </div>
 <a id="a708bf3200b39ae6393ec7de9de0d86b6" name="a708bf3200b39ae6393ec7de9de0d86b6"></a>
@@ -375,7 +378,8 @@ Aliases:  Vector_float_Id_VoxelTag, Vector_float_Id_VoxelTag, Vector_float_Id_Vo
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">moves data from the given std::vector&lt;T&gt;
+</pre> 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -551,7 +555,8 @@ Aliases:  Vector_float_Id_VoxelTag, Vector_float_Id_VoxelTag, Vector_float_Id_Vo
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">sets the element #i to the given value, adjusting the size of the vector to include new element
+</pre> 
 </div>
 </div>
 <a id="a9ff08c36dc98dcd700586095c6eee73a" name="a9ff08c36dc98dcd700586095c6eee73a"></a>
@@ -582,7 +587,8 @@ Aliases:  Vector_float_Id_VoxelTag, Vector_float_Id_VoxelTag, Vector_float_Id_Vo
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">sets elements [pos, pos+len) to given value, adjusting the size of the vector to include new elements
+<pre class="fragment">sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements;
+the elements in between old size and \\p pos are also set to \\p val (for faster implementation)
 </pre> 
 </div>
 </div>
@@ -1058,7 +1064,7 @@ Aliases:  Vector_float_Id_VoxelTag, Vector_float_Id_VoxelTag, Vector_float_Id_Vo
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">doubles reserved memory until resize(newSize) can be done without reallocation
+<pre class="fragment">doubles reserved memory until resize(newSize, value) can be done without reallocation
 </pre> 
 </div>
 </div>

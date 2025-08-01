@@ -312,7 +312,8 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates empty vector
+</pre> 
 </div>
 </div>
 <a id="a72d7ae9dacba867c6ce487109097ec05" name="a72d7ae9dacba867c6ce487109097ec05"></a>
@@ -333,7 +334,8 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates a vector with \\p size elements with default value
+</pre> 
 </div>
 </div>
 <a id="a370cc45d0cfc5824545a57415f11b0f5" name="a370cc45d0cfc5824545a57415f11b0f5"></a>
@@ -359,7 +361,8 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates a vector with \\p size elements with the given value
+</pre> 
 </div>
 </div>
 <a id="a726628ee6f7b697bea85d3fb88084d7a" name="a726628ee6f7b697bea85d3fb88084d7a"></a>
@@ -380,7 +383,8 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">moves data from the given std::vector&lt;T&gt;
+</pre> 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -514,7 +518,8 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">sets the element #i to the given value, adjusting the size of the vector to include new element
+</pre> 
 </div>
 </div>
 <a id="a16a9c518dd34f61835ca488f8ff0bd3d" name="a16a9c518dd34f61835ca488f8ff0bd3d"></a>
@@ -545,7 +550,8 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">sets elements [pos, pos+len) to given value, adjusting the size of the vector to include new elements
+<pre class="fragment">sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements;
+the elements in between old size and \\p pos are also set to \\p val (for faster implementation)
 </pre> 
 </div>
 </div>
@@ -1021,7 +1027,7 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">doubles reserved memory until resize(newSize) can be done without reallocation
+<pre class="fragment">doubles reserved memory until resize(newSize, value) can be done without reallocation
 </pre> 
 </div>
 </div>

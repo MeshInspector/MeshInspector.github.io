@@ -181,12 +181,16 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0c68875da8e1de13eb3033e6dcb33bf3" id="r_a0c68875da8e1de13eb3033e6dcb33bf3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c68875da8e1de13eb3033e6dcb33bf3">Vector</a> ()=default</td></tr>
+<tr class="memdesc:a0c68875da8e1de13eb3033e6dcb33bf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates empty vector  <br /></td></tr>
 <tr class="separator:a0c68875da8e1de13eb3033e6dcb33bf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82b8f4fd65647fe41d621389b1935c6a" id="r_a82b8f4fd65647fe41d621389b1935c6a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82b8f4fd65647fe41d621389b1935c6a">Vector</a> (size_t <a class="el" href="#a2816ffd002bac70ab04d1bd18e2c5cfd">size</a>)</td></tr>
+<tr class="memdesc:a82b8f4fd65647fe41d621389b1935c6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code>size</code> elements with default value  <br /></td></tr>
 <tr class="separator:a82b8f4fd65647fe41d621389b1935c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac68e153a1cf7d72f90f9af6be0555d6e" id="r_ac68e153a1cf7d72f90f9af6be0555d6e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac68e153a1cf7d72f90f9af6be0555d6e">Vector</a> (size_t <a class="el" href="#a2816ffd002bac70ab04d1bd18e2c5cfd">size</a>, const T &amp;val)</td></tr>
+<tr class="memdesc:ac68e153a1cf7d72f90f9af6be0555d6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code>size</code> elements with the given value  <br /></td></tr>
 <tr class="separator:ac68e153a1cf7d72f90f9af6be0555d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68a6c5f7f0cebdd11e11ced071dad1bd" id="r_a68a6c5f7f0cebdd11e11ced071dad1bd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68a6c5f7f0cebdd11e11ced071dad1bd">Vector</a> (std::vector&lt; T &gt; &amp;&amp;vec)</td></tr>
+<tr class="memdesc:a68a6c5f7f0cebdd11e11ced071dad1bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt;  <br /></td></tr>
 <tr class="separator:a68a6c5f7f0cebdd11e11ced071dad1bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a677df0d98b9a3abfc0733796f1c56c7d" id="r_a677df0d98b9a3abfc0733796f1c56c7d"><td class="memTemplParams" colspan="2">template&lt;class InputIt &gt; </td></tr>
 <tr class="memitem:a677df0d98b9a3abfc0733796f1c56c7d"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a677df0d98b9a3abfc0733796f1c56c7d">Vector</a> (InputIt first, InputIt last)</td></tr>
@@ -221,12 +225,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a3464de487f7675ec46a9dbde42f9350c"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize) can be done without reallocation  <br /></td></tr>
 <tr class="separator:a3464de487f7675ec46a9dbde42f9350c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad801c686b116f50bcacd26b96b12774" id="r_aad801c686b116f50bcacd26b96b12774"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad801c686b116f50bcacd26b96b12774">resizeWithReserve</a> (size_t newSize, const T &amp;value)</td></tr>
-<tr class="memdesc:aad801c686b116f50bcacd26b96b12774"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize) can be done without reallocation  <br /></td></tr>
+<tr class="memdesc:aad801c686b116f50bcacd26b96b12774"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize, value) can be done without reallocation  <br /></td></tr>
 <tr class="separator:aad801c686b116f50bcacd26b96b12774"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a437a50cfbe5ad619bc23e94b1a6664ea" id="r_a437a50cfbe5ad619bc23e94b1a6664ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a437a50cfbe5ad619bc23e94b1a6664ea">autoResizeSet</a> (<a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> pos, size_t len, T val)</td></tr>
-<tr class="memdesc:a437a50cfbe5ad619bc23e94b1a6664ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets elements [pos, pos+len) to given value, adjusting the size of the vector to include new elements  <br /></td></tr>
 <tr class="separator:a437a50cfbe5ad619bc23e94b1a6664ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23ebf45bd6eb2c59e3f8ac7c4aa70dad" id="r_a23ebf45bd6eb2c59e3f8ac7c4aa70dad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23ebf45bd6eb2c59e3f8ac7c4aa70dad">autoResizeSet</a> (<a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> i, T val)</td></tr>
+<tr class="memdesc:a23ebf45bd6eb2c59e3f8ac7c4aa70dad"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the element #i to the given value, adjusting the size of the vector to include new element  <br /></td></tr>
 <tr class="separator:a23ebf45bd6eb2c59e3f8ac7c4aa70dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad299fc3dd6b4e453a459e88fe9aadd31" id="r_ad299fc3dd6b4e453a459e88fe9aadd31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad299fc3dd6b4e453a459e88fe9aadd31">autoResizeAt</a> (<a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> i)</td></tr>
 <tr class="memdesc:ad299fc3dd6b4e453a459e88fe9aadd31"><td class="mdescLeft">&#160;</td><td class="mdescRight">this accessor automatically adjusts the size of the vector  <br /></td></tr>
@@ -390,6 +394,8 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 </table>
 </div><div class="memdoc">
 
+<p>creates empty vector </p>
+
 </div>
 </div>
 <a id="a82b8f4fd65647fe41d621389b1935c6a" name="a82b8f4fd65647fe41d621389b1935c6a"></a>
@@ -416,6 +422,8 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>creates a vector with <code>size</code> elements with default value </p>
 
 </div>
 </div>
@@ -448,6 +456,8 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 </table>
 </div><div class="memdoc">
 
+<p>creates a vector with <code>size</code> elements with the given value </p>
+
 </div>
 </div>
 <a id="a68a6c5f7f0cebdd11e11ced071dad1bd" name="a68a6c5f7f0cebdd11e11ced071dad1bd"></a>
@@ -474,6 +484,8 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>moves data from the given std::vector&lt;T&gt; </p>
 
 </div>
 </div>
@@ -596,6 +608,8 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 </table>
 </div><div class="memdoc">
 
+<p>sets the element #i to the given value, adjusting the size of the vector to include new element </p>
+
 </div>
 </div>
 <a id="a437a50cfbe5ad619bc23e94b1a6664ea" name="a437a50cfbe5ad619bc23e94b1a6664ea"></a>
@@ -631,8 +645,7 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>sets elements [pos, pos+len) to given value, adjusting the size of the vector to include new elements </p>
+<p>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <code>pos</code> are also set to <code>val</code> (for faster implementation) </p>
 
 </div>
 </div>
@@ -1383,7 +1396,7 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 </table>
 </div><div class="memdoc">
 
-<p>doubles reserved memory until resize(newSize) can be done without reallocation </p>
+<p>doubles reserved memory until resize(newSize, value) can be done without reallocation </p>
 
 </div>
 </div>

@@ -313,7 +313,8 @@ Aliases:  std_vector_Vector_ICPGroupPairs_Id_ICPElemtTag_const_reference, std_ve
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates empty vector
+</pre> 
 </div>
 </div>
 <a id="ac497c6fabe9aca833226b949beb6d2aa" name="ac497c6fabe9aca833226b949beb6d2aa"></a>
@@ -334,7 +335,8 @@ Aliases:  std_vector_Vector_ICPGroupPairs_Id_ICPElemtTag_const_reference, std_ve
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates a vector with \\p size elements with default value
+</pre> 
 </div>
 </div>
 <a id="a3c9a02f7e3a7d2aed859be059411edec" name="a3c9a02f7e3a7d2aed859be059411edec"></a>
@@ -360,7 +362,8 @@ Aliases:  std_vector_Vector_ICPGroupPairs_Id_ICPElemtTag_const_reference, std_ve
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates a vector with \\p size elements with the given value
+</pre> 
 </div>
 </div>
 <a id="a98f1c032424b1afc102edb0e13c25a8b" name="a98f1c032424b1afc102edb0e13c25a8b"></a>
@@ -381,7 +384,8 @@ Aliases:  std_vector_Vector_ICPGroupPairs_Id_ICPElemtTag_const_reference, std_ve
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">moves data from the given std::vector&lt;T&gt;
+</pre> 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -515,7 +519,8 @@ Aliases:  std_vector_Vector_ICPGroupPairs_Id_ICPElemtTag_const_reference, std_ve
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">sets the element #i to the given value, adjusting the size of the vector to include new element
+</pre> 
 </div>
 </div>
 <a id="ac486a2c5bb4b8ef684c2603548d7ad41" name="ac486a2c5bb4b8ef684c2603548d7ad41"></a>
@@ -546,7 +551,8 @@ Aliases:  std_vector_Vector_ICPGroupPairs_Id_ICPElemtTag_const_reference, std_ve
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">sets elements [pos, pos+len) to given value, adjusting the size of the vector to include new elements
+<pre class="fragment">sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements;
+the elements in between old size and \\p pos are also set to \\p val (for faster implementation)
 </pre> 
 </div>
 </div>
@@ -1022,7 +1028,7 @@ Aliases:  std_vector_Vector_ICPGroupPairs_Id_ICPElemtTag_const_reference, std_ve
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">doubles reserved memory until resize(newSize) can be done without reallocation
+<pre class="fragment">doubles reserved memory until resize(newSize, value) can be done without reallocation
 </pre> 
 </div>
 </div>

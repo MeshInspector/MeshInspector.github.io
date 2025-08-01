@@ -317,7 +317,8 @@ Aliases:  Graph.NeighboursPerVertex
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates empty vector
+</pre> 
 </div>
 </div>
 <a id="ae8cbe4bf93d72b7c0f27ce1e619148d8" name="ae8cbe4bf93d72b7c0f27ce1e619148d8"></a>
@@ -338,7 +339,8 @@ Aliases:  Graph.NeighboursPerVertex
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates a vector with \\p size elements with default value
+</pre> 
 </div>
 </div>
 <a id="af1b656c4367ba886d5ab4186112ae2b5" name="af1b656c4367ba886d5ab4186112ae2b5"></a>
@@ -364,7 +366,8 @@ Aliases:  Graph.NeighboursPerVertex
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates a vector with \\p size elements with the given value
+</pre> 
 </div>
 </div>
 <a id="aef34e4dc5a311f3c2e3e01e93da4cb57" name="aef34e4dc5a311f3c2e3e01e93da4cb57"></a>
@@ -385,7 +388,8 @@ Aliases:  Graph.NeighboursPerVertex
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">moves data from the given std::vector&lt;T&gt;
+</pre> 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -561,7 +565,8 @@ Aliases:  Graph.NeighboursPerVertex
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">sets the element #i to the given value, adjusting the size of the vector to include new element
+</pre> 
 </div>
 </div>
 <a id="ae9cd92d5af7ee744bbd366dad731bc5b" name="ae9cd92d5af7ee744bbd366dad731bc5b"></a>
@@ -592,7 +597,8 @@ Aliases:  Graph.NeighboursPerVertex
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">sets elements [pos, pos+len) to given value, adjusting the size of the vector to include new elements
+<pre class="fragment">sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements;
+the elements in between old size and \\p pos are also set to \\p val (for faster implementation)
 </pre> 
 </div>
 </div>
@@ -1068,7 +1074,7 @@ Aliases:  Graph.NeighboursPerVertex
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">doubles reserved memory until resize(newSize) can be done without reallocation
+<pre class="fragment">doubles reserved memory until resize(newSize, value) can be done without reallocation
 </pre> 
 </div>
 </div>

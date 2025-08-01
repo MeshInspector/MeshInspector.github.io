@@ -313,7 +313,8 @@ Aliases:  AABBTreeBase_AABBTreeTraits_FaceTag_Box3f.NodeVec
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates empty vector
+</pre> 
 </div>
 </div>
 <a id="af177402979c9167a24fc715136845cde" name="af177402979c9167a24fc715136845cde"></a>
@@ -334,7 +335,8 @@ Aliases:  AABBTreeBase_AABBTreeTraits_FaceTag_Box3f.NodeVec
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates a vector with \\p size elements with default value
+</pre> 
 </div>
 </div>
 <a id="a55d3c095897b73cff6c1cbf89c083813" name="a55d3c095897b73cff6c1cbf89c083813"></a>
@@ -360,7 +362,8 @@ Aliases:  AABBTreeBase_AABBTreeTraits_FaceTag_Box3f.NodeVec
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates a vector with \\p size elements with the given value
+</pre> 
 </div>
 </div>
 <a id="a10fe802a156121dc4a15a255bb7f14a8" name="a10fe802a156121dc4a15a255bb7f14a8"></a>
@@ -381,7 +384,8 @@ Aliases:  AABBTreeBase_AABBTreeTraits_FaceTag_Box3f.NodeVec
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">moves data from the given std::vector&lt;T&gt;
+</pre> 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -515,7 +519,8 @@ Aliases:  AABBTreeBase_AABBTreeTraits_FaceTag_Box3f.NodeVec
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">sets the element #i to the given value, adjusting the size of the vector to include new element
+</pre> 
 </div>
 </div>
 <a id="a0cca83bd6e2878b73d5600d06474dc75" name="a0cca83bd6e2878b73d5600d06474dc75"></a>
@@ -546,7 +551,8 @@ Aliases:  AABBTreeBase_AABBTreeTraits_FaceTag_Box3f.NodeVec
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">sets elements [pos, pos+len) to given value, adjusting the size of the vector to include new elements
+<pre class="fragment">sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements;
+the elements in between old size and \\p pos are also set to \\p val (for faster implementation)
 </pre> 
 </div>
 </div>
@@ -1022,7 +1028,7 @@ Aliases:  AABBTreeBase_AABBTreeTraits_FaceTag_Box3f.NodeVec
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">doubles reserved memory until resize(newSize) can be done without reallocation
+<pre class="fragment">doubles reserved memory until resize(newSize, value) can be done without reallocation
 </pre> 
 </div>
 </div>

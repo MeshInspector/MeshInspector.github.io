@@ -313,7 +313,8 @@ Aliases:  MapOrHashMap_FaceId_FaceId.Dense
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates empty vector
+</pre> 
 </div>
 </div>
 <a id="a935ef8998d96624cfcf5aa480459098f" name="a935ef8998d96624cfcf5aa480459098f"></a>
@@ -334,7 +335,8 @@ Aliases:  MapOrHashMap_FaceId_FaceId.Dense
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates a vector with \\p size elements with default value
+</pre> 
 </div>
 </div>
 <a id="ae5fc72234504bc46ed274c9f8c87110c" name="ae5fc72234504bc46ed274c9f8c87110c"></a>
@@ -360,7 +362,8 @@ Aliases:  MapOrHashMap_FaceId_FaceId.Dense
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates a vector with \\p size elements with the given value
+</pre> 
 </div>
 </div>
 <a id="adf9586e914fa8497b8e4b91b1a45fa81" name="adf9586e914fa8497b8e4b91b1a45fa81"></a>
@@ -381,7 +384,8 @@ Aliases:  MapOrHashMap_FaceId_FaceId.Dense
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">moves data from the given std::vector&lt;T&gt;
+</pre> 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -557,7 +561,8 @@ Aliases:  MapOrHashMap_FaceId_FaceId.Dense
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">sets the element #i to the given value, adjusting the size of the vector to include new element
+</pre> 
 </div>
 </div>
 <a id="a698ac051699d157b9ee0c7af8b836955" name="a698ac051699d157b9ee0c7af8b836955"></a>
@@ -588,7 +593,8 @@ Aliases:  MapOrHashMap_FaceId_FaceId.Dense
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">sets elements [pos, pos+len) to given value, adjusting the size of the vector to include new elements
+<pre class="fragment">sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements;
+the elements in between old size and \\p pos are also set to \\p val (for faster implementation)
 </pre> 
 </div>
 </div>
@@ -1086,7 +1092,7 @@ Aliases:  MapOrHashMap_FaceId_FaceId.Dense
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">doubles reserved memory until resize(newSize) can be done without reallocation
+<pre class="fragment">doubles reserved memory until resize(newSize, value) can be done without reallocation
 </pre> 
 </div>
 </div>

@@ -313,7 +313,8 @@ Aliases:  AABBTreePoints.NodeVec
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates empty vector
+</pre> 
 </div>
 </div>
 <a id="a0639c00196a7f6b2a474dd5889e6f0d1" name="a0639c00196a7f6b2a474dd5889e6f0d1"></a>
@@ -334,7 +335,8 @@ Aliases:  AABBTreePoints.NodeVec
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates a vector with \\p size elements with default value
+</pre> 
 </div>
 </div>
 <a id="a9a3279455eb4968c92a802a7ba842d04" name="a9a3279455eb4968c92a802a7ba842d04"></a>
@@ -360,7 +362,8 @@ Aliases:  AABBTreePoints.NodeVec
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates a vector with \\p size elements with the given value
+</pre> 
 </div>
 </div>
 <a id="a66b3559e5b1cf81fcb268de98bec81f1" name="a66b3559e5b1cf81fcb268de98bec81f1"></a>
@@ -381,7 +384,8 @@ Aliases:  AABBTreePoints.NodeVec
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">moves data from the given std::vector&lt;T&gt;
+</pre> 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -515,7 +519,8 @@ Aliases:  AABBTreePoints.NodeVec
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">sets the element #i to the given value, adjusting the size of the vector to include new element
+</pre> 
 </div>
 </div>
 <a id="a7e6ddc3fa2fb1658e1ed4027023058e7" name="a7e6ddc3fa2fb1658e1ed4027023058e7"></a>
@@ -546,7 +551,8 @@ Aliases:  AABBTreePoints.NodeVec
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">sets elements [pos, pos+len) to given value, adjusting the size of the vector to include new elements
+<pre class="fragment">sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements;
+the elements in between old size and \\p pos are also set to \\p val (for faster implementation)
 </pre> 
 </div>
 </div>
@@ -1022,7 +1028,7 @@ Aliases:  AABBTreePoints.NodeVec
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">doubles reserved memory until resize(newSize) can be done without reallocation
+<pre class="fragment">doubles reserved memory until resize(newSize, value) can be done without reallocation
 </pre> 
 </div>
 </div>

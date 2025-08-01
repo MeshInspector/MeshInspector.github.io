@@ -319,7 +319,8 @@ Aliases:  Vector_TypedBitSet_Id_ICPElemtTag_IndexType_TypedBitSet_Id_ICPElemtTag
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates empty vector
+</pre> 
 </div>
 </div>
 <a id="a0d1c1a8a7004e61a05b51b0fd16079d3" name="a0d1c1a8a7004e61a05b51b0fd16079d3"></a>
@@ -340,7 +341,8 @@ Aliases:  Vector_TypedBitSet_Id_ICPElemtTag_IndexType_TypedBitSet_Id_ICPElemtTag
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates a vector with \\p size elements with default value
+</pre> 
 </div>
 </div>
 <a id="af6f1840b9348c98263b29782a3963859" name="af6f1840b9348c98263b29782a3963859"></a>
@@ -366,7 +368,8 @@ Aliases:  Vector_TypedBitSet_Id_ICPElemtTag_IndexType_TypedBitSet_Id_ICPElemtTag
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates a vector with \\p size elements with the given value
+</pre> 
 </div>
 </div>
 <a id="aa8bd9083b31204dcf44e6fc2df268ad0" name="aa8bd9083b31204dcf44e6fc2df268ad0"></a>
@@ -387,7 +390,8 @@ Aliases:  Vector_TypedBitSet_Id_ICPElemtTag_IndexType_TypedBitSet_Id_ICPElemtTag
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">moves data from the given std::vector&lt;T&gt;
+</pre> 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -563,7 +567,8 @@ Aliases:  Vector_TypedBitSet_Id_ICPElemtTag_IndexType_TypedBitSet_Id_ICPElemtTag
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">sets the element #i to the given value, adjusting the size of the vector to include new element
+</pre> 
 </div>
 </div>
 <a id="aedc08ac082eb19c0897a1b415bb9b335" name="aedc08ac082eb19c0897a1b415bb9b335"></a>
@@ -594,7 +599,8 @@ Aliases:  Vector_TypedBitSet_Id_ICPElemtTag_IndexType_TypedBitSet_Id_ICPElemtTag
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">sets elements [pos, pos+len) to given value, adjusting the size of the vector to include new elements
+<pre class="fragment">sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements;
+the elements in between old size and \\p pos are also set to \\p val (for faster implementation)
 </pre> 
 </div>
 </div>
@@ -1092,7 +1098,7 @@ Aliases:  Vector_TypedBitSet_Id_ICPElemtTag_IndexType_TypedBitSet_Id_ICPElemtTag
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">doubles reserved memory until resize(newSize) can be done without reallocation
+<pre class="fragment">doubles reserved memory until resize(newSize, value) can be done without reallocation
 </pre> 
 </div>
 </div>

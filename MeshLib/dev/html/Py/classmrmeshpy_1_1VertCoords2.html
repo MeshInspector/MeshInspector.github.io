@@ -309,7 +309,8 @@ Aliases:  VertUVCoords
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates empty vector
+</pre> 
 </div>
 </div>
 <a id="a0a112e3d9191911ec5c906d07241eb55" name="a0a112e3d9191911ec5c906d07241eb55"></a>
@@ -330,7 +331,8 @@ Aliases:  VertUVCoords
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates a vector with \\p size elements with default value
+</pre> 
 </div>
 </div>
 <a id="a328d947c45d4270a2d0ba37ac4d584b7" name="a328d947c45d4270a2d0ba37ac4d584b7"></a>
@@ -356,7 +358,8 @@ Aliases:  VertUVCoords
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates a vector with \\p size elements with the given value
+</pre> 
 </div>
 </div>
 <a id="a99ace2aaf9d64d99f7a6118c47dbdd98" name="a99ace2aaf9d64d99f7a6118c47dbdd98"></a>
@@ -377,7 +380,8 @@ Aliases:  VertUVCoords
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">moves data from the given std::vector&lt;T&gt;
+</pre> 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -553,7 +557,8 @@ Aliases:  VertUVCoords
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">sets the element #i to the given value, adjusting the size of the vector to include new element
+</pre> 
 </div>
 </div>
 <a id="aa2e72023dd161cecdab435766f2c77a5" name="aa2e72023dd161cecdab435766f2c77a5"></a>
@@ -584,7 +589,8 @@ Aliases:  VertUVCoords
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">sets elements [pos, pos+len) to given value, adjusting the size of the vector to include new elements
+<pre class="fragment">sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements;
+the elements in between old size and \\p pos are also set to \\p val (for faster implementation)
 </pre> 
 </div>
 </div>
@@ -1082,7 +1088,7 @@ Aliases:  VertUVCoords
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">doubles reserved memory until resize(newSize) can be done without reallocation
+<pre class="fragment">doubles reserved memory until resize(newSize, value) can be done without reallocation
 </pre> 
 </div>
 </div>
