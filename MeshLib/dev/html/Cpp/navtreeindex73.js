@@ -1,5 +1,6 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#aac200a7d9f4713275d0ceb4ed127773b":[6,0,2,0,1,2,2,2,2],
 "structMR_1_1Features_1_1MeasureResult_1_1Distance.html#abc2ecf316c1affc7c259c7b438753dbb":[6,0,1,0,1,6,2,2,3],
 "structMR_1_1Features_1_1MeasureResult_1_1Distance.html#abc2ecf316c1affc7c259c7b438753dbb":[6,0,2,0,1,2,2,2,3],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html":[6,0,1,0,1,6,0,0],
@@ -182,8 +183,9 @@ var NAVTREEINDEX73 =
 "structMR_1_1FillHoleParams.html#a2908ad53506526829bedf3831a1de80a":[6,0,0,9,3,0,5],
 "structMR_1_1FillHoleParams.html#a2fd7e4eb05eb26aa28ba98a886d22ce9":[6,0,0,9,3,0,2],
 "structMR_1_1FillHoleParams.html#a48c94df0c8cc044564e0e69c8f692c5a":[6,0,0,9,3,0,1],
-"structMR_1_1FillHoleParams.html#a61b0c71def508e84cfa3359e34b6029e":[6,0,0,9,3,0,6],
+"structMR_1_1FillHoleParams.html#a61b0c71def508e84cfa3359e34b6029e":[6,0,0,9,3,0,7],
 "structMR_1_1FillHoleParams.html#a6ab1c2d2eb0cbb97455c747713f2371d":[6,0,0,9,3,0,3],
+"structMR_1_1FillHoleParams.html#abf9a5efac84779d01fd72d9f3d75dbc5":[6,0,0,9,3,0,6],
 "structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301":[6,0,0,9,3,0,0],
 "structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301a1fbb1e3943c2c6c560247ac8f9289780":[6,0,0,9,3,0,0,1],
 "structMR_1_1FillHoleParams.html#afe7c6c69a5bf27699758e71d19c43301a6adf97f83acf6453d4a6a4b1070f3754":[6,0,0,9,3,0,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1FindProjectionOnPointsSettings.html#a3f9c60f79369db701c3869e757686217":[6,0,0,1,29,4],
 "structMR_1_1FindProjectionOnPointsSettings.html#a41d849f8892e4ddc754d38672dde5152":[6,0,0,1,29,2],
 "structMR_1_1FindProjectionOnPointsSettings.html#a51086d69676631deb69313f75b2d8379":[6,0,0,1,29,3],
-"structMR_1_1FindProjectionOnPointsSettings.html#aa4d8d3a3b0dac4b24f0e182945040220":[6,0,0,1,29,0],
-"structMR_1_1FindProjectionOnPointsSettings.html#ad8f6c40c1465fcd41082510e2022e694":[6,0,0,1,29,5],
-"structMR_1_1FitBoxParams.html":[6,0,1,0,1,248]
+"structMR_1_1FindProjectionOnPointsSettings.html#aa4d8d3a3b0dac4b24f0e182945040220":[6,0,0,1,29,0]
 };

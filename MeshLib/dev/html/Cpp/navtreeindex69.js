@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1BooleanResultMapper.html#a00bac3eecd35b44f05f28f7cb1f3c0d9":[6,0,0,8,0,2],
 "structMR_1_1BooleanResultMapper.html#a3a2abc280314da83919063aff2e0490f":[6,0,0,8,0,9],
 "structMR_1_1BooleanResultMapper.html#a730a4aa776837ed09143d106e54c085b":[6,0,0,8,0,6],
 "structMR_1_1BooleanResultMapper.html#a90a7bf08cca602701e835565e3d516e7":[6,0,0,8,0,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1ConstantCuspParams.html":[6,0,2,0,1,139],
 "structMR_1_1ConstantCuspParams.html#ae516e612489724b0fd33771eac4c5843":[6,0,1,0,1,156,0],
 "structMR_1_1ConstantCuspParams.html#ae516e612489724b0fd33771eac4c5843":[6,0,2,0,1,139,0],
-"structMR_1_1ContourToDistanceMapParams.html":[6,0,0,5,4],
-"structMR_1_1ContourToDistanceMapParams.html#a2259024cb221dfbdaa806a2a0a213bbc":[6,0,0,5,4,1]
+"structMR_1_1ContourToDistanceMapParams.html":[6,0,0,5,4]
 };

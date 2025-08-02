@@ -11,6 +11,7 @@ var group__FillHoleGroup =
       [ "metric", "structMR_1_1FillHoleParams.html#a6ab1c2d2eb0cbb97455c747713f2371d", null ],
       [ "outNewFaces", "structMR_1_1FillHoleParams.html#a1789bd574d007a370fe6164d4f5ca7c4", null ],
       [ "Simple", "structMR_1_1FillHoleParams.html#a2908ad53506526829bedf3831a1de80a", null ],
+      [ "smoothBd", "structMR_1_1FillHoleParams.html#abf9a5efac84779d01fd72d9f3d75dbc5", null ],
       [ "stopBeforeBadTriangulation", "structMR_1_1FillHoleParams.html#a61b0c71def508e84cfa3359e34b6029e", null ]
     ] ],
     [ "MR::StitchHolesParams", "structMR_1_1StitchHolesParams.html", [

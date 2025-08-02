@@ -177,6 +177,8 @@ Public Types</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a6ab1c2d2eb0cbb97455c747713f2371d" id="r_a6ab1c2d2eb0cbb97455c747713f2371d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1FillHoleMetric.html">FillHoleMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ab1c2d2eb0cbb97455c747713f2371d">metric</a></td></tr>
 <tr class="separator:a6ab1c2d2eb0cbb97455c747713f2371d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf9a5efac84779d01fd72d9f3d75dbc5" id="r_abf9a5efac84779d01fd72d9f3d75dbc5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf9a5efac84779d01fd72d9f3d75dbc5">smoothBd</a> { true }</td></tr>
+<tr class="separator:abf9a5efac84779d01fd72d9f3d75dbc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1789bd574d007a370fe6164d4f5ca7c4" id="r_a1789bd574d007a370fe6164d4f5ca7c4"><td class="memItemLeft" align="right" valign="top">FaceBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1789bd574d007a370fe6164d4f5ca7c4">outNewFaces</a> { nullptr }</td></tr>
 <tr class="memdesc:a1789bd574d007a370fe6164d4f5ca7c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">If not nullptr accumulate new faces.  <br /></td></tr>
 <tr class="separator:a1789bd574d007a370fe6164d4f5ca7c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -301,6 +303,21 @@ default for <a class="el" href="group__FillHoleGroup.html#gac972786878ec37756f5a
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="abf9a5efac84779d01fd72d9f3d75dbc5" name="abf9a5efac84779d01fd72d9f3d75dbc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf9a5efac84779d01fd72d9f3d75dbc5">&#9670;&#160;</a></span>smoothBd</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::FillHoleParams::smoothBd { true }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If true, hole filling will minimize the sum of metrics including boundary edges, where one triangle was present before hole filling, and another is added during hole filling. This makes boundary edges same smooth as inner edges of the patch. If false, edge metric will not be applied to boundary edges, and the patch tends to make a sharper turn there. </p>
 
 </div>
 </div>

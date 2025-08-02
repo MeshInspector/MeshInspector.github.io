@@ -1,5 +1,9 @@
 var NAVTREEINDEX153 =
 {
+"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#a92edf43590b6f522aae1e267e6a2a27e":[6,1,0,0,2,948,12],
+"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#a92edf43590b6f522aae1e267e6a2a27e":[6,1,1,0,1,948,12],
+"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#a975e4d46666bedcff4041d7e10ad8b00":[6,1,0,0,2,948,17],
+"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#a975e4d46666bedcff4041d7e10ad8b00":[6,1,1,0,1,948,17],
 "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#a9b8be6d6292bd1c4626e6be783035e69":[6,1,0,0,2,948,21],
 "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#a9b8be6d6292bd1c4626e6be783035e69":[6,1,1,0,1,948,21],
 "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__std__s56d6f8e58059433d9dee55c1cf8be7cd.html#aa243c86038a64fc5a2109c5f2d0493e1":[6,1,0,0,2,948,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX153 =
 "classmrviewerpy_1_1MouseButton.html#a1d4510c10a24c423d2762d2aff22ea05":[6,1,0,0,3,1,7],
 "classmrviewerpy_1_1MouseButton.html#a1d4510c10a24c423d2762d2aff22ea05":[6,1,1,0,2,1,7],
 "classmrviewerpy_1_1MouseButton.html#a38af1345f9392c6aa6c4b195f2e9b138":[6,1,0,0,3,1,2],
-"classmrviewerpy_1_1MouseButton.html#a38af1345f9392c6aa6c4b195f2e9b138":[6,1,1,0,2,1,2],
-"classmrviewerpy_1_1MouseButton.html#a5526bd5099583207a25be1ddaf78a908":[6,1,0,0,3,1,9],
-"classmrviewerpy_1_1MouseButton.html#a5526bd5099583207a25be1ddaf78a908":[6,1,1,0,2,1,9],
-"classmrviewerpy_1_1MouseButton.html#a57d1a0543cf4ee0c0bbbb970260ffb50":[6,1,0,0,3,1,1],
-"classmrviewerpy_1_1MouseButton.html#a57d1a0543cf4ee0c0bbbb970260ffb50":[6,1,1,0,2,1,1]
+"classmrviewerpy_1_1MouseButton.html#a38af1345f9392c6aa6c4b195f2e9b138":[6,1,1,0,2,1,2]
 };
