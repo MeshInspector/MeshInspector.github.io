@@ -1098,7 +1098,7 @@ Simple metric minimizing edge length </p>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This metric minimizes the maximal dihedral angle between the faces in the triangulation and on its boundary, and it avoids creating too degenerate triangles; for planar holes it is the same as getCircumscribedMetric </p>
+<p>This metric consists of two parts 1) for each triangle: it is the circumcircle diameter, this avoids the appearance of degenerate triangles; 2) for each edge: square root of double total area of triangles to its left and right times the factor depending extensionally on absolute dihedral angle between left and right triangles, this makes visually triangulated surface as smooth as possible. For planar holes it is the same as getCircumscribedMetric. </p>
 
 </div>
 </div>
