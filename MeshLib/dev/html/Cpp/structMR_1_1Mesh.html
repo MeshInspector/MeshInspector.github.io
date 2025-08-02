@@ -436,7 +436,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abd6e569587fbe83e40119a29f7ea276f" id="r_abd6e569587fbe83e40119a29f7ea276f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PackMapping.html">PackMapping</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd6e569587fbe83e40119a29f7ea276f">packOptimally</a> (bool preserveAABBTree, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb)</td></tr>
 <tr class="separator:abd6e569587fbe83e40119a29f7ea276f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21bb3faf52ec585da5606ce879ab3c4b" id="r_a21bb3faf52ec585da5606ce879ab3c4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21bb3faf52ec585da5606ce879ab3c4b">deleteFaces</a> (const FaceBitSet &amp;fs, const UndirectedEdgeBitSet *keepEdges=nullptr)</td></tr>
-<tr class="memdesc:a21bb3faf52ec585da5606ce879ab3c4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes multiple given faces, also deletes adjacent edges and vertices if they were not shared by remaining faces ant not in  <br /></td></tr>
+<tr class="memdesc:a21bb3faf52ec585da5606ce879ab3c4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes multiple given faces, also deletes adjacent edges and vertices if they were not shared by remaining faces and not in  <br /></td></tr>
 <tr class="separator:a21bb3faf52ec585da5606ce879ab3c4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a726a27c8dbdef71902d1031424bea5cf" id="r_a726a27c8dbdef71902d1031424bea5cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a726a27c8dbdef71902d1031424bea5cf">projectPoint</a> (const Vector3f &amp;point, <a class="el" href="structMR_1_1PointOnFace.html">PointOnFace</a> &amp;res, float maxDistSq=FLT_MAX, const FaceBitSet *region=nullptr, const AffineXf3f *xf=nullptr) const</td></tr>
 <tr class="separator:a726a27c8dbdef71902d1031424bea5cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1230,7 +1230,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>deletes multiple given faces, also deletes adjacent edges and vertices if they were not shared by remaining faces ant not in </p>
+<p>deletes multiple given faces, also deletes adjacent edges and vertices if they were not shared by remaining faces and not in </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">keepFaces</td><td></td></tr>
