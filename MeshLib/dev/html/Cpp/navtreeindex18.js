@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"MRVoxelsConversionsByParts_8h.html#a9145e1b055b88e54edf784e6f3b050fc":[6,0,3,0,0,1,12,37,1],
 "MRVoxelsConversionsByParts_8h.html#ae2ab4a032a665ccb4ca24d60577679ef":[6,0,3,0,0,1,12,37,0],
 "MRVoxelsConversionsByParts_8h.html#ae7cf10a1862176d00de13d2fa27371b9":[6,0,3,0,0,1,12,37,2],
 "MRVoxelsConversionsByParts_8h_source.html":[6,0,3,0,0,1,12,37],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1AlphaSortGL.html#aab9cdfaf33634bcf9bae0eec5a82ebb9":[6,0,2,0,1,38,6],
 "classMR_1_1AlphaSortGL.html#aba382f76f34a17ef1f0536debd4b6683":[6,0,1,0,1,55,5],
 "classMR_1_1AlphaSortGL.html#aba382f76f34a17ef1f0536debd4b6683":[6,0,2,0,1,38,5],
-"classMR_1_1AlphaSortGL.html#ac0008d001179507a880971efa7b03847":[6,0,1,0,1,55,4],
-"classMR_1_1AlphaSortGL.html#ac0008d001179507a880971efa7b03847":[6,0,2,0,1,38,4]
+"classMR_1_1AlphaSortGL.html#ac0008d001179507a880971efa7b03847":[6,0,1,0,1,55,4]
 };

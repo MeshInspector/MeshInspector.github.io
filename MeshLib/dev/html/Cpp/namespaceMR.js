@@ -1060,7 +1060,7 @@ var namespaceMR =
     [ "MinMaxd", "namespaceMR.html#a8a502bbb7355b197a80a998945d1a885", null ],
     [ "MinMaxf", "namespaceMR.html#a2bd3b23d498c69cd04c544b6c7068f3a", null ],
     [ "MinMaxi", "namespaceMR.html#a8ed498ef177b78a0ca416fade3be9909", null ],
-    [ "MR_BIND_IGNORE", "group__AABBTreeGroup.html#gac8d05498d66775361b0d0d2996604348", null ],
+    [ "MR_BIND_IGNORE", "namespaceMR.html#ac8d05498d66775361b0d0d2996604348", null ],
     [ "MultiObjsSamples", "namespaceMR.html#aad6ac9cd0268793575ae31767169ad0e", null ],
     [ "MultipleEdge", "group__MeshFixerGroup.html#gac8fc9cf58c37989c9d8ff982e8e378dc", null ],
     [ "NotificationTagMask", "namespaceMR.html#a6c80d0a515c43e830301ff170377a44e", null ],

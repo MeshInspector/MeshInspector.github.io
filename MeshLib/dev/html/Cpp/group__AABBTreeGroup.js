@@ -289,7 +289,6 @@ var group__AABBTreeGroup =
     [ "MR::LineTreeTraits2", "group__AABBTreeGroup.html#ga346d2e7774495e3e4ca05a2325f11aaf", null ],
     [ "MR::LineTreeTraits3", "group__AABBTreeGroup.html#gacf6e57b5e87718397acc1762969ad77a", null ],
     [ "MR::MeshIntersectionCallback", "group__AABBTreeGroup.html#gac20cf6ba073a7db1e2df313fb87d9517", null ],
-    [ "MR::MR_BIND_IGNORE", "group__AABBTreeGroup.html#gac8d05498d66775361b0d0d2996604348", null ],
     [ "MR::PreciseCollisionResult", "group__AABBTreeGroup.html#ga457b7bb3a129cf50a82586b670a93148", null ],
     [ "MR::TriangleCallback", "group__AABBTreeGroup.html#ga285ea5cd9fb638c90fec0099f526c057", null ],
     [ "MR::ProcessOneResult", "group__AABBTreeGroup.html#ga3dd2fd9fcc06b6502d22a9ea3eb63e47", [

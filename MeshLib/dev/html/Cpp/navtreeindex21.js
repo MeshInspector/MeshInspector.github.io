@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"classMR_1_1ChangePointCloudPointsAction.html#ad8d1da6c3caadd31cd4053fa2924e372":[6,0,0,4,17,3],
 "classMR_1_1ChangePointPointSelectionAction.html":[6,0,0,4,30],
 "classMR_1_1ChangePointPointSelectionAction.html#a3d3f98681572b719c29e2acd8ef99619":[6,0,0,4,30,5],
 "classMR_1_1ChangePointPointSelectionAction.html#a455a37f2beea261ea75c996d374fc0d9":[6,0,0,4,30,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0aad7101ceb05b131ad92ee95d98c68c35":[6,0,2,0,1,127,1,40],
 "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ab73410dff2c1861ebb8980d455bc29ac":[6,0,1,0,1,144,1,5],
 "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ab73410dff2c1861ebb8980d455bc29ac":[6,0,2,0,1,127,1,5],
-"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ab7645d391763ab26ea48e51c80c3837e":[6,0,1,0,1,144,1,35],
-"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ab7645d391763ab26ea48e51c80c3837e":[6,0,2,0,1,127,1,35]
+"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0ab7645d391763ab26ea48e51c80c3837e":[6,0,1,0,1,144,1,35]
 };

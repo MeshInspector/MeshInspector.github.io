@@ -1,5 +1,6 @@
 var NAVTREEINDEX38 =
 {
+"classMR_1_1QuadricApprox.html#a342756aa48e8673901de34a1d494a186":[6,0,0,0,14,1],
 "classMR_1_1QuadricApprox.html#ae270ffda4cb41173e3c68cdc4f52ad51":[6,0,0,0,14,0],
 "classMR_1_1RadiusMeasurementObject.html":[6,0,1,0,1,561],
 "classMR_1_1RadiusMeasurementObject.html":[6,0,2,0,1,544],
@@ -248,6 +249,5 @@ var NAVTREEINDEX38 =
 "classMR_1_1RenderDimensions_1_1RadiusTask.html":[6,0,1,0,1,31,5],
 "classMR_1_1RenderDimensions_1_1RadiusTask.html":[6,0,2,0,1,17,5],
 "classMR_1_1RenderDimensions_1_1RadiusTask.html#a30249fdc01e8ba2c00b5d79d76a11d65":[6,0,1,0,1,31,5,1],
-"classMR_1_1RenderDimensions_1_1RadiusTask.html#a30249fdc01e8ba2c00b5d79d76a11d65":[6,0,2,0,1,17,5,1],
-"classMR_1_1RenderDimensions_1_1RadiusTask.html#a427bb02d4a2886310fa5784e637f8ba6":[6,0,1,0,1,31,5,2]
+"classMR_1_1RenderDimensions_1_1RadiusTask.html#a30249fdc01e8ba2c00b5d79d76a11d65":[6,0,2,0,1,17,5,1]
 };

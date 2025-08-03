@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1CNCMachineSettings.html#ac6d8378bba6ed1303ede82290d59c97d":[6,0,1,0,1,141,0],
 "classMR_1_1CNCMachineSettings.html#ac6d8378bba6ed1303ede82290d59c97d":[6,0,2,0,1,124,0],
 "classMR_1_1CNCMachineSettings.html#acc7183caf6c3269e59180f362ef83258":[6,0,1,0,1,141,15],
 "classMR_1_1CNCMachineSettings.html#acc7183caf6c3269e59180f362ef83258":[6,0,2,0,1,124,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1ChangePointCloudPointsAction.html#a9e9d9d96a33fdd65bdd65f038977fb3a":[6,0,0,4,17,2],
 "classMR_1_1ChangePointCloudPointsAction.html#ab09d7c2288e5c1fa211d28437420fe23":[6,0,0,4,17,0],
 "classMR_1_1ChangePointCloudPointsAction.html#ab798c8b335a0610698bfa5fdc04b7ac9":[6,0,0,4,17,5],
-"classMR_1_1ChangePointCloudPointsAction.html#ac066d3dab32b1ce9ab3d604be8a48afb":[6,0,0,4,17,4],
-"classMR_1_1ChangePointCloudPointsAction.html#ad8d1da6c3caadd31cd4053fa2924e372":[6,0,0,4,17,3]
+"classMR_1_1ChangePointCloudPointsAction.html#ac066d3dab32b1ce9ab3d604be8a48afb":[6,0,0,4,17,4]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"MRUVSphere_8h_source.html":[6,0,3,0,0,1,4,397],
 "MRUnifiedPythonStream_8h.html":[6,0,3,0,0,1,7,2],
 "MRUnifiedPythonStream_8h_source.html":[6,0,3,0,0,1,7,2],
 "MRUnionFindParallel_8h.html":[6,0,3,0,0,1,4,391],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "MRVoxelsApplyTransform_8h.html#a61aa1dd48053861144e41cb0184b0ab8":[6,0,3,0,0,1,12,36,2],
 "MRVoxelsApplyTransform_8h.html#ac14a641817ef5f1b6be67b3a90a3cb68":[6,0,3,0,0,1,12,36,1],
 "MRVoxelsApplyTransform_8h_source.html":[6,0,3,0,0,1,12,36],
-"MRVoxelsConversionsByParts_8h.html":[6,0,3,0,0,1,12,37],
-"MRVoxelsConversionsByParts_8h.html#a9145e1b055b88e54edf784e6f3b050fc":[6,0,3,0,0,1,12,37,1]
+"MRVoxelsConversionsByParts_8h.html":[6,0,3,0,0,1,12,37]
 };

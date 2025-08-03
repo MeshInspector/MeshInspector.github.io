@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"classMR_1_1AlphaSortGL.html#ac0008d001179507a880971efa7b03847":[6,0,2,0,1,38,4],
 "classMR_1_1AncillaryImGuiLabel.html":[6,0,1,0,1,56],
 "classMR_1_1AncillaryImGuiLabel.html":[6,0,2,0,1,39],
 "classMR_1_1AncillaryImGuiLabel.html#a1158ea26daf5004c4d2540df1b304635":[6,0,1,0,1,56,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79aa7fc56270e7a70fa81a5935b72eacbe29":[6,0,1,0,1,141,2,0],
 "classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79aa7fc56270e7a70fa81a5935b72eacbe29":[6,0,2,0,1,124,2,0],
 "classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79aa9d5ed678fe57bcca610140957afab571":[6,0,1,0,1,141,2,1],
-"classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79aa9d5ed678fe57bcca610140957afab571":[6,0,2,0,1,124,2,1],
-"classMR_1_1CNCMachineSettings.html#ac6d8378bba6ed1303ede82290d59c97d":[6,0,1,0,1,141,0]
+"classMR_1_1CNCMachineSettings.html#ac2d45830eaf9a922d7a6977cab60b79aa9d5ed678fe57bcca610140957afab571":[6,0,2,0,1,124,2,1]
 };

@@ -246,7 +246,7 @@ var searchData=
   ['mousemovesignal_28',['MouseMoveSignal',['../../Cpp/classMR_1_1Viewer.html#a12789e9a254227b600592bce4d442758',1,'MR::Viewer']]],
   ['mousescrollsignal_29',['MouseScrollSignal',['../../Cpp/classMR_1_1Viewer.html#aec690d0dd00cd849a736c3436ed2e546',1,'MR::Viewer']]],
   ['mouseupdownsignal_30',['MouseUpDownSignal',['../../Cpp/classMR_1_1Viewer.html#a1aecfd029115f7b6327183d3d313297a',1,'MR::Viewer']]],
-  ['mr_5fbind_5fignore_31',['MR_BIND_IGNORE',['../../Cpp/group__AABBTreeGroup.html#gac8d05498d66775361b0d0d2996604348',1,'MR::MR_BIND_IGNORE'],['../../Cpp/group__AABBTreeGroup.html#gac8d05498d66775361b0d0d2996604348',1,'MR::MR_BIND_IGNORE']]],
+  ['mr_5fbind_5fignore_31',['MR_BIND_IGNORE',['../../Cpp/namespaceMR.html#ac8d05498d66775361b0d0d2996604348',1,'MR']]],
   ['multilistenerbase_32',['MultiListenerBase',['../../Cpp/classMR_1_1StateListenerPlugin.html#a700dee77fa82afbe743aa424eb782e2d',1,'MR::StateListenerPlugin']]],
   ['multiobjssamples_33',['MultiObjsSamples',['../../Cpp/namespaceMR.html#aad6ac9cd0268793575ae31767169ad0e',1,'MR']]],
   ['multipleedge_34',['MultipleEdge',['../../Cpp/group__MeshFixerGroup.html#gac8fc9cf58c37989c9d8ff982e8e378dc',1,'MR::MultipleEdge'],['../../Cpp/group__MeshFixerGroup.html#gac8fc9cf58c37989c9d8ff982e8e378dc',1,'MR::MultipleEdge']]],
