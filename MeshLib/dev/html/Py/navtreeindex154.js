@@ -1,5 +1,7 @@
 var NAVTREEINDEX154 =
 {
+"classmrviewerpy_1_1MouseButton.html#a38af1345f9392c6aa6c4b195f2e9b138":[6,1,0,0,3,1,2],
+"classmrviewerpy_1_1MouseButton.html#a38af1345f9392c6aa6c4b195f2e9b138":[6,1,1,0,2,1,2],
 "classmrviewerpy_1_1MouseButton.html#a5526bd5099583207a25be1ddaf78a908":[6,1,0,0,3,1,9],
 "classmrviewerpy_1_1MouseButton.html#a5526bd5099583207a25be1ddaf78a908":[6,1,1,0,2,1,9],
 "classmrviewerpy_1_1MouseButton.html#a57d1a0543cf4ee0c0bbbb970260ffb50":[6,1,0,0,3,1,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX154 =
 "functions_func_m.html":[6,1,1,3,1,12],
 "functions_func_n.html":[6,1,1,3,1,13],
 "functions_func_o.html":[6,1,1,3,1,14],
-"functions_func_p.html":[6,1,1,3,1,15],
-"functions_func_q.html":[6,1,1,3,1,16],
-"functions_func_r.html":[6,1,1,3,1,17]
+"functions_func_p.html":[6,1,1,3,1,15]
 };

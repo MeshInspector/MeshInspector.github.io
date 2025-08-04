@@ -139,6 +139,23 @@ var namespaceMR =
     ] ],
     [ "SelfIntersections", "namespaceMR_1_1SelfIntersections.html", "namespaceMR_1_1SelfIntersections" ],
     [ "StyleConsts", "namespaceMR_1_1StyleConsts.html", "namespaceMR_1_1StyleConsts" ],
+    [ "TPMS", "namespaceMR_1_1TPMS.html", [
+      [ "Type", "namespaceMR_1_1TPMS.html#a7f52cff025a2d5a90a587e79b2d54fd6", [
+        [ "SchwartzP", "namespaceMR_1_1TPMS.html#a7f52cff025a2d5a90a587e79b2d54fd6ac5a9b2c32efbe37da8a1e10009be8b77", null ],
+        [ "DoubleSchwartzP", "namespaceMR_1_1TPMS.html#a7f52cff025a2d5a90a587e79b2d54fd6a176c45a898d7d2902128d73b789e3a1a", null ],
+        [ "Gyroid", "namespaceMR_1_1TPMS.html#a7f52cff025a2d5a90a587e79b2d54fd6a8286f0e22fe27ea039d6ad34bcca79f2", null ],
+        [ "DoubleGyroid", "namespaceMR_1_1TPMS.html#a7f52cff025a2d5a90a587e79b2d54fd6a5ac1f3e35d09d52b4e556936581cef44", null ],
+        [ "Count", "namespaceMR_1_1TPMS.html#a7f52cff025a2d5a90a587e79b2d54fd6ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+      ] ],
+      [ "build", "namespaceMR_1_1TPMS.html#a1cc6400872bb5bb0cfa19bc6ad6ff63a", null ],
+      [ "buildVolume", "namespaceMR_1_1TPMS.html#a4afea78518d43b5e7e4a10af164039f9", null ],
+      [ "estimateDensity", "namespaceMR_1_1TPMS.html#a01135db1c1d19d595f32c0eaa33042ef", null ],
+      [ "estimateIso", "namespaceMR_1_1TPMS.html#a70cd74b3671fb50d35daf4539f51f1c1", null ],
+      [ "fill", "namespaceMR_1_1TPMS.html#af47fb4311bccbc35779a4c9b23bb8baa", null ],
+      [ "getNumberOfVoxels", "namespaceMR_1_1TPMS.html#a77521675bbf890f6d37fb6f4f756e5f6", null ],
+      [ "getNumberOfVoxels", "namespaceMR_1_1TPMS.html#a199948678d35feacb5648b36e257d55c", null ],
+      [ "getTypeNames", "namespaceMR_1_1TPMS.html#a6a8e9579f3d57a625a6dc67812354b41", null ]
+    ] ],
     [ "TriangulationHelpers", "namespaceMR_1_1TriangulationHelpers.html", "namespaceMR_1_1TriangulationHelpers" ],
     [ "UI", "namespaceMR_1_1UI.html", "namespaceMR_1_1UI" ],
     [ "UnitSettings", "namespaceMR_1_1UnitSettings.html", [
@@ -1596,12 +1613,6 @@ var namespaceMR =
       [ "milliseconds", "namespaceMR.html#af380c745631672883c31b1875697b2e5ac50c3b1ca82ba7b7ab55afdf66a2f6c9", null ],
       [ "_count", "namespaceMR.html#af380c745631672883c31b1875697b2e5ad69186af02738a9b3ced1bc5b652ba55", null ]
     ] ],
-    [ "TPMSType", "namespaceMR.html#a822f069b4555784aef09aed36b42a71f", [
-      [ "SchwartzP", "namespaceMR.html#a822f069b4555784aef09aed36b42a71fac5a9b2c32efbe37da8a1e10009be8b77", null ],
-      [ "DoubleSchwartzP", "namespaceMR.html#a822f069b4555784aef09aed36b42a71fa176c45a898d7d2902128d73b789e3a1a", null ],
-      [ "Gyroid", "namespaceMR.html#a822f069b4555784aef09aed36b42a71fa8286f0e22fe27ea039d6ad34bcca79f2", null ],
-      [ "DoubleGyroid", "namespaceMR.html#a822f069b4555784aef09aed36b42a71fa5ac1f3e35d09d52b4e556936581cef44", null ]
-    ] ],
     [ "UseAABBTree", "namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeff", [
       [ "No", "namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeffabafd7322c6e97d25b6299b5d6fe8920b", null ],
       [ "Yes", "namespaceMR.html#afb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435", null ],
@@ -1706,8 +1717,6 @@ var namespaceMR =
     [ "buildSmallestMetricPath", "group__VoxelPathGroup.html#gad1772070c201609ff1aac3958e6b9005", null ],
     [ "buildSmallestMetricPathBiDir", "group__SurfacePathGroup.html#gaf64ac38f04f25f28a4a46ae2fc06ff8a", null ],
     [ "buildSmallestMetricPathBiDir", "group__SurfacePathGroup.html#ga31d65cbf03d734606eecb79ae37c605c", null ],
-    [ "buildTPMS", "namespaceMR.html#ada437f5ab97d510beaea1555400b74d1", null ],
-    [ "buildTPMSVolume", "namespaceMR.html#af8af3727676af4be8f3292e7f776751f", null ],
     [ "bytesString", "namespaceMR.html#a3dac1179ee1b7a147e78045a27c4e13d", null ],
     [ "calcAvgColors", "namespaceMR.html#a1746d757b12ddb4f1527a3c3b361ec4c", null ],
     [ "calcCombinedFillMetric", "group__FillHoleGroup.html#ga42f6ba6ec6bdfa6f27d1045e79b9346e", null ],
@@ -2055,7 +2064,6 @@ var namespaceMR =
     [ "fillHoles", "group__FillHoleGroup.html#ga826414470e5289e2dfba2496f06d98ae", null ],
     [ "fillHoleTrivially", "group__FillHoleGroup.html#ga0241a36cc2b1016fd0cf66e9ae71f722", null ],
     [ "fillPlanarHole", "namespaceMR.html#aa46523a0e53c329900fc28bdd021efb9", null ],
-    [ "fillWithTPMS", "namespaceMR.html#a5333afd17d036169463e63e4bff58009", null ],
     [ "filterCreaseEdges", "namespaceMR.html#af323676e5a2bf779fb0700037ad648da", null ],
     [ "filterHistoryActionsVector", "namespaceMR.html#abde0e5a6e5cf5e3e9648a38740dd9804", null ],
     [ "FilterHistoryByCondition", "namespaceMR.html#af5e79c83f968cdf915fac0d9a5136768", null ],
@@ -2354,8 +2362,6 @@ var namespaceMR =
     [ "getNeighborFaces", "namespaceMR.html#aebdf2a05f88c6e14134e0029a8aa0cda", null ],
     [ "getNObjectsLine", "namespaceMR.html#a1aa52aa577955c12272d65be2a25bf5e", null ],
     [ "getNumActivePairs", "namespaceMR.html#a5f3e72229b19af1e43886673711093af", null ],
-    [ "getNumberOfVoxelsForTPMS", "namespaceMR.html#a5ebf3466293dbaf0f93374315ba210ed", null ],
-    [ "getNumberOfVoxelsForTPMS", "namespaceMR.html#a2af9f84a017e4ff34980eeca395aadc2", null ],
     [ "getNumNodes", "group__AABBTreeGroup.html#ga3c1bb6417aaa769fa4156f2edac91749", null ],
     [ "getNumNodesPoints", "group__AABBTreeGroup.html#ga47032a5f420080191bd8d3600c3c24ef", null ],
     [ "getNumSamples", "namespaceMR.html#a6bc994c1ebf7a119332f7d7a212cdd5e", null ],
@@ -2394,7 +2400,6 @@ var namespaceMR =
     [ "getTopmostVisibleObjects", "namespaceMR.html#a1bbf155b27ef19dd7f54b2e9a534f397", null ],
     [ "getTopmostVisibleObjects", "namespaceMR.html#a7afd4c6187926b10b71f8631961165a0", null ],
     [ "getTouchPlanes", "group__BoxGroup.html#gab7e63d12c29922a0bc2a53683789c03f", null ],
-    [ "getTPMSTypeNames", "namespaceMR.html#aa0a6a1636e536dd5e20f5016c5ac154b", null ],
     [ "getTriPoints", "namespaceMR.html#a8597debb336c94ce7e51ca1626e71ef4", null ],
     [ "getTriPoints", "namespaceMR.html#a4f1ba2ac64996a6cd34ae45a5c002194", null ],
     [ "getTriPoints", "namespaceMR.html#aed8a7d1a457c358ffca3bc1dcc668810", null ],

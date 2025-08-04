@@ -1,5 +1,7 @@
 var NAVTREEINDEX107 =
 {
+"classmrmeshpy_1_1VoxelsLoad_1_1RawParameters.html#aef19154693429e646b23a1e6b00937a7":[6,1,0,0,2,1143,6,0],
+"classmrmeshpy_1_1VoxelsLoad_1_1RawParameters.html#aef19154693429e646b23a1e6b00937a7":[6,1,1,0,1,1143,6,0],
 "classmrmeshpy_1_1VoxelsSave.html":[6,1,0,0,2,1144],
 "classmrmeshpy_1_1VoxelsSave.html":[6,1,1,0,1,1144],
 "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html":[6,1,0,0,2,1144,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX107 =
 "classmrmeshpy_1_1WeightedShell_1_1ParametersMetric.html":[6,1,0,0,2,1160,2],
 "classmrmeshpy_1_1WeightedShell_1_1ParametersMetric.html":[6,1,1,0,1,1160,2],
 "classmrmeshpy_1_1WeightedShell_1_1ParametersMetric.html#a409e50b6c208423278ab6eb69161bd05":[6,1,0,0,2,1160,2,0],
-"classmrmeshpy_1_1WeightedShell_1_1ParametersMetric.html#a409e50b6c208423278ab6eb69161bd05":[6,1,1,0,1,1160,2,0],
-"classmrmeshpy_1_1WeightedShell_1_1ParametersMetric.html#a9494d12dad2448e597d41bbbb4c1dd73":[6,1,0,0,2,1160,2,2],
-"classmrmeshpy_1_1WeightedShell_1_1ParametersMetric.html#a9494d12dad2448e597d41bbbb4c1dd73":[6,1,1,0,1,1160,2,2]
+"classmrmeshpy_1_1WeightedShell_1_1ParametersMetric.html#a409e50b6c208423278ab6eb69161bd05":[6,1,1,0,1,1160,2,0]
 };

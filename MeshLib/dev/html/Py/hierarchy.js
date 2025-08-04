@@ -1202,7 +1202,7 @@ var hierarchy =
       [ "mrmeshpy.ConstantCuspParams", "classmrmeshpy_1_1ConstantCuspParams.html", null ]
     ] ],
     [ "mrmeshpy.ToolPathResult", "classmrmeshpy_1_1ToolPathResult.html", null ],
-    [ "mrmeshpy.TPMSType", "classmrmeshpy_1_1TPMSType.html", null ],
+    [ "mrmeshpy.TPMS", "classmrmeshpy_1_1TPMS.html", null ],
     [ "mrmeshpy.Features.Traits", "classmrmeshpy_1_1Features_1_1Traits.html", null ],
     [ "mrmeshpy.TransformedMesh", "classmrmeshpy_1_1TransformedMesh.html", null ],
     [ "mrmeshpy.TransformVdbVolumeResult", "classmrmeshpy_1_1TransformVdbVolumeResult.html", null ],
@@ -1227,6 +1227,7 @@ var hierarchy =
     [ "mrmeshpy.MeshToVolumeParams.Type", "classmrmeshpy_1_1MeshToVolumeParams_1_1Type.html", null ],
     [ "mrmeshpy.OffsetContoursParams.Type", "classmrmeshpy_1_1OffsetContoursParams_1_1Type.html", null ],
     [ "mrmeshpy.SceneColors.Type", "classmrmeshpy_1_1SceneColors_1_1Type.html", null ],
+    [ "mrmeshpy.TPMS.Type", "classmrmeshpy_1_1TPMS_1_1Type.html", null ],
     [ "mrviewerpy.UiEntry", "classmrviewerpy_1_1UiEntry.html", null ],
     [ "mrviewerpy.UiEntryType", "classmrviewerpy_1_1UiEntryType.html", null ],
     [ "mrmeshpy.UiRenderManager", "classmrmeshpy_1_1UiRenderManager.html", null ],

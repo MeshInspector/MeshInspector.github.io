@@ -1,5 +1,8 @@
 var NAVTREEINDEX13 =
 {
+"MRRenderNameObject_8h_source.html":[6,0,3,0,0,1,11,79],
+"MRRenderPointsObject_8h.html":[6,0,3,0,0,1,11,80],
+"MRRenderPointsObject_8h_source.html":[6,0,3,0,0,1,11,80],
 "MRRenderToImage_8h.html":[6,0,3,0,0,1,11,81],
 "MRRenderToImage_8h.html#aa596e8841735879b219d5a5cd082244e":[6,0,3,0,0,1,11,81,0],
 "MRRenderToImage_8h_source.html":[6,0,3,0,0,1,11,81],
@@ -246,8 +249,5 @@ var NAVTREEINDEX13 =
 "MRShadowsGL_8h_source.html":[6,0,3,0,0,1,11,109],
 "MRSharedThreadSafeOwner_8h.html":[6,0,3,0,0,1,4,349],
 "MRSharedThreadSafeOwner_8h_source.html":[6,0,3,0,0,1,4,349],
-"MRSharpenMarchingCubesMesh_8h.html":[6,0,3,0,0,1,4,350],
-"MRSharpenMarchingCubesMesh_8h.html#ae0adbc499dc9ddb3d23854c708bccc3f":[6,0,3,0,0,1,4,350,1],
-"MRSharpenMarchingCubesMesh_8h_source.html":[6,0,3,0,0,1,4,350],
-"MRShortcutManager_8h.html":[6,0,3,0,0,1,11,110]
+"MRSharpenMarchingCubesMesh_8h.html":[6,0,3,0,0,1,4,350]
 };

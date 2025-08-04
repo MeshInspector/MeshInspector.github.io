@@ -1,5 +1,8 @@
 var NAVTREEINDEX14 =
 {
+"MRSharpenMarchingCubesMesh_8h.html#ae0adbc499dc9ddb3d23854c708bccc3f":[6,0,3,0,0,1,4,350,1],
+"MRSharpenMarchingCubesMesh_8h_source.html":[6,0,3,0,0,1,4,350],
+"MRShortcutManager_8h.html":[6,0,3,0,0,1,11,110],
 "MRShortcutManager_8h.html#abeff4ec21e8ee2ea544cdb4ce4d55d6b":[6,0,3,0,0,1,11,110,3],
 "MRShortcutManager_8h.html#abeff4ec21e8ee2ea544cdb4ce4d55d6ba4059b0251f66a18cb56f544728796875":[6,0,3,0,0,1,11,110,3,0],
 "MRShortcutManager_8h.html#abeff4ec21e8ee2ea544cdb4ce4d55d6ba4351cfebe4b61d8aa5efa1d020710005":[6,0,3,0,0,1,11,110,3,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX14 =
 "MRTestC2_2MRExpandShrink_8h.html#a6fe71176bc46c348ef2ff68a130e28a6":[6,0,3,0,0,1,10,5,1],
 "MRTestC2_2MRExpandShrink_8h.html#a7024f5258d4288744e74b528847b7a6e":[6,0,3,0,0,1,10,5,0],
 "MRTestC2_2MRExpandShrink_8h_source.html":[6,0,3,0,0,1,10,5],
-"MRTestC2_2MRFixSelfIntersections_8h.html":[6,0,3,0,0,1,10,6],
-"MRTestC2_2MRFixSelfIntersections_8h.html#adfe33d8ad7ee0d0670f1da8e8149ccd5":[6,0,3,0,0,1,10,6,0],
-"MRTestC2_2MRFixSelfIntersections_8h_source.html":[6,0,3,0,0,1,10,6],
-"MRTestC2_2MRMatrix3_8h.html":[6,0,3,0,0,1,10,7]
+"MRTestC2_2MRFixSelfIntersections_8h.html":[6,0,3,0,0,1,10,6]
 };

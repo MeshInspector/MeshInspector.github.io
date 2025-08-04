@@ -1,5 +1,7 @@
 var NAVTREEINDEX119 =
 {
+"classmrmeshpy_1_1std__variant__Polynomial__double__0ul__Polynomial__double__1ul__Polynomial__dou2f412bbc4e3a625bf6802bb4d4c6097b.html#ac673e50c4d84b55e1fc73a162827f362":[6,1,0,0,2,818,15],
+"classmrmeshpy_1_1std__variant__Polynomial__double__0ul__Polynomial__double__1ul__Polynomial__dou2f412bbc4e3a625bf6802bb4d4c6097b.html#ac673e50c4d84b55e1fc73a162827f362":[6,1,1,0,1,818,15],
 "classmrmeshpy_1_1std__variant__Polynomial__double__0ul__Polynomial__double__1ul__Polynomial__dou2f412bbc4e3a625bf6802bb4d4c6097b.html#acdda7663e7c2355888ebb60dc9d451b4":[6,1,0,0,2,818,1],
 "classmrmeshpy_1_1std__variant__Polynomial__double__0ul__Polynomial__double__1ul__Polynomial__dou2f412bbc4e3a625bf6802bb4d4c6097b.html#acdda7663e7c2355888ebb60dc9d451b4":[6,1,1,0,1,818,1],
 "classmrmeshpy_1_1std__variant__Polynomial__double__0ul__Polynomial__double__1ul__Polynomial__dou2f412bbc4e3a625bf6802bb4d4c6097b.html#ad76ea734c84b311ab296a75afd43e3cc":[6,1,0,0,2,818,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX119 =
 "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vector2__float.html#a0cd68d2266433f7a68af6ddcd10169b1":[6,1,0,0,2,828,5],
 "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vector2__float.html#a0cd68d2266433f7a68af6ddcd10169b1":[6,1,1,0,1,828,5],
 "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vector2__float.html#a26e68da2cef19422eedafb11d7d1a2b2":[6,1,0,0,2,828,13],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vector2__float.html#a26e68da2cef19422eedafb11d7d1a2b2":[6,1,1,0,1,828,13],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vector2__float.html#a33162cc9a89ded7e85a21dc01497f189":[6,1,0,0,2,828,6],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vector2__float.html#a33162cc9a89ded7e85a21dc01497f189":[6,1,1,0,1,828,6]
+"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vector2__float.html#a26e68da2cef19422eedafb11d7d1a2b2":[6,1,1,0,1,828,13]
 };
