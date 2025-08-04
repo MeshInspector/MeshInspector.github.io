@@ -427,6 +427,7 @@ var annotated_dup =
       [ "FixCreasesParams", "structMR_1_1FixCreasesParams.html", "structMR_1_1FixCreasesParams" ],
       [ "FixMeshDegeneraciesParams", "structMR_1_1FixMeshDegeneraciesParams.html", "structMR_1_1FixMeshDegeneraciesParams" ],
       [ "FlatTree", "structMR_1_1FlatTree.html", "structMR_1_1FlatTree" ],
+      [ "FloatGrid", "classMR_1_1FloatGrid.html", "classMR_1_1FloatGrid" ],
       [ "FlowAggregator", "classMR_1_1FlowAggregator.html", "classMR_1_1FlowAggregator" ],
       [ "FlowOrigin", "structMR_1_1FlowOrigin.html", "structMR_1_1FlowOrigin" ],
       [ "FormatRegistry", "classMR_1_1FormatRegistry.html", null ],

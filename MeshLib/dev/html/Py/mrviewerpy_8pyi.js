@@ -29,7 +29,7 @@ var mrviewerpy_8pyi =
     [ "getSelectedPointCloudPoints", "mrviewerpy_8pyi.html#a39ae0ee82a58ac7cf59e4b6c234f2182", null ],
     [ "getSelectedPointClouds", "mrviewerpy_8pyi.html#aa9ea18de0bf005c7c49b407cdf6215e2", null ],
     [ "getSelectedPolylines", "mrviewerpy_8pyi.html#a6e1523262cde30ddff0938cd65944f15", null ],
-    [ "getSelectedVoxels", "mrviewerpy_8pyi.html#a7691bb318496be6f84ab4089a4728975", null ],
+    [ "getSelectedVoxels", "mrviewerpy_8pyi.html#ad7bc18abea8c7800b8ee09cdfbe75075", null ],
     [ "launch", "mrviewerpy_8pyi.html#a82dc2137c01c694015b04820623346d4", null ],
     [ "modifySelectedMesh", "mrviewerpy_8pyi.html#a5f9f0ec39ac8505d43e588a49ac7f067", null ],
     [ "runFromGUIThread", "mrviewerpy_8pyi.html#a904c3c0401d0fd8be3c5ec9595495d0b", null ],

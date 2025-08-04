@@ -385,6 +385,7 @@ var hierarchy =
     [ "MR::FixUndercuts::FixParams", "structMR_1_1FixUndercuts_1_1FixParams.html", null ],
     [ "MR::VarEdgeTri::FlaggedTri", "structMR_1_1VarEdgeTri_1_1FlaggedTri.html", null ],
     [ "MR::FlatTree", "structMR_1_1FlatTree.html", null ],
+    [ "MR::FloatGrid", "classMR_1_1FloatGrid.html", null ],
     [ "openvdb::FloatGrid", null, [
       [ "MR::OpenVdbFloatGrid", "structMR_1_1OpenVdbFloatGrid.html", null ]
     ] ],

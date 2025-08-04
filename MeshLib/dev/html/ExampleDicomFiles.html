@@ -162,7 +162,7 @@ $(function(){initNavTree('ExampleDicomFiles.html',''); initResizable(true); });
 <div class="line"><span class="comment"># Folder can contain subfolders - each will be loaded separately</span></div>
 <div class="line">dicom_folder = <span class="stringliteral">&#39;path/to/folder&#39;</span></div>
 <div class="line"><span class="comment"># Load dicom objects from folder and its subfolders</span></div>
-<div class="line">dicoms = <a class="code hl_functionRef" href="./Py/classmrmeshpy_1_1VoxelsLoad.html#acff5645fff746542dd437580fc1e5ba5">mrmeshpy.VoxelsLoad.loadDicomsFolderTreeAsVdb</a>(dicom_folder)</div>
+<div class="line">dicoms = <a class="code hl_functionRef" href="./Py/classmrmeshpy_1_1VoxelsLoad.html#ab660a4c3a4a4553d99365b4053b4b5c9">mrmeshpy.VoxelsLoad.loadDicomsFolderTreeAsVdb</a>(dicom_folder)</div>
 <div class="line"><span class="comment"># Result contains list of multiple objects, each object is a separate dicom volume, that correspond to each folder</span></div>
 <div class="line"><span class="comment"># Getting the first one here</span></div>
 <div class="line">dicom = dicoms[0]</div>
@@ -173,7 +173,7 @@ $(function(){initNavTree('ExampleDicomFiles.html',''); initResizable(true); });
 <div class="line"><span class="keywordflow">else</span>:</div>
 <div class="line">    <span class="comment"># print error if loading process failed</span></div>
 <div class="line">    print(dicom.error())</div>
-<div class="ttc" id="aclassmrmeshpy_1_1VoxelsLoad_html_acff5645fff746542dd437580fc1e5ba5"><div class="ttname"><a href="./Py/classmrmeshpy_1_1VoxelsLoad.html#acff5645fff746542dd437580fc1e5ba5">mrmeshpy::VoxelsLoad::loadDicomsFolderTreeAsVdb</a></div><div class="ttdeci">std_vector_tl_expected_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid_std_string loadDicomsFolderTreeAsVdb(os.PathLike|str|bytes path, int maxNumThreads=4, func_bool_from_float cb='{}')</div></div>
+<div class="ttc" id="aclassmrmeshpy_1_1VoxelsLoad_html_ab660a4c3a4a4553d99365b4053b4b5c9"><div class="ttname"><a href="./Py/classmrmeshpy_1_1VoxelsLoad.html#ab660a4c3a4a4553d99365b4053b4b5c9">mrmeshpy::VoxelsLoad::loadDicomsFolderTreeAsVdb</a></div><div class="ttdeci">std_vector_tl_expected_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_FloatGrid_std_string loadDicomsFolderTreeAsVdb(os.PathLike|str|bytes path, int maxNumThreads=4, func_bool_from_float cb='{}')</div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->

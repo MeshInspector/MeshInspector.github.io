@@ -70,6 +70,17 @@ var group__BasicStructuresGroup =
         [ "Flat", "classMR_1_1SceneSettings.html#a308e72dcfc90ae1a9370ca7c7bc3290ca745e3db6a7ffd50e1a72b39482f0882d", null ]
       ] ]
     ] ],
+    [ "MR::FloatGrid", "classMR_1_1FloatGrid.html", [
+      [ "FloatGrid", "classMR_1_1FloatGrid.html#ad7614c2c6c361b7de54e6b4f36b10f40", null ],
+      [ "FloatGrid", "classMR_1_1FloatGrid.html#acb513b32df646142474fac7a91ffd442", null ],
+      [ "get", "classMR_1_1FloatGrid.html#aee4b8a5066709b06d3f00038f22253fe", null ],
+      [ "operator bool", "classMR_1_1FloatGrid.html#aaa076c4d8c658769c89b78fcb7f4ec10", null ],
+      [ "operator*", "classMR_1_1FloatGrid.html#aa05a3eb00a5aa39594fef0ff19773034", null ],
+      [ "operator->", "classMR_1_1FloatGrid.html#a5cad3b44aaafdb7694c854056f42f486", null ],
+      [ "reset", "classMR_1_1FloatGrid.html#a4245c1e58d5a40d85bcfe90b3dc68fd2", null ],
+      [ "swap", "classMR_1_1FloatGrid.html#a253b72f1e0f6df406df512ee0886b1ab", null ],
+      [ "toVdb", "classMR_1_1FloatGrid.html#a48d8eeff117d61bbfdedc5db8f17ff74", null ]
+    ] ],
     [ "MR::OpenVdbFloatGrid", "structMR_1_1OpenVdbFloatGrid.html", [
       [ "OpenVdbFloatGrid", "structMR_1_1OpenVdbFloatGrid.html#a15a4c9bbd3ab390705854e71ea808687", null ],
       [ "OpenVdbFloatGrid", "structMR_1_1OpenVdbFloatGrid.html#a0773dceddd3bc098112050126cf99f3c", null ],
@@ -96,5 +107,6 @@ var group__BasicStructuresGroup =
     [ "MR::setValue", "group__BasicStructuresGroup.html#gac5781724903abd08d021ac04b898a862", null ],
     [ "MR::toVdb", "group__BasicStructuresGroup.html#gab75a6a1d7c95c635ac4101c7a3d25eab", null ],
     [ "MR::toVdbBox", "group__BasicStructuresGroup.html#gafaceca609bb25c112d03e61621d7df0c", null ],
-    [ "MR::toVdbBox", "group__BasicStructuresGroup.html#ga4638fcf62c2a9d1394b8d69425b9f993", null ]
+    [ "MR::toVdbBox", "group__BasicStructuresGroup.html#ga4638fcf62c2a9d1394b8d69425b9f993", null ],
+    [ "MR::OpenVdbFloatGrid", "group__BasicStructuresGroup.html#gaaa4989f3d8e88d20b6cbebc9f51db434", null ]
 ];
