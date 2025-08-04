@@ -3,7 +3,7 @@
 # Remove temporary files
 rm html_header.html html_footer.html html_stylesheet.css
 
-MODULES=`cat scripts/Modules.txt`
+MODULES=(Main Cpp Py C)
 for MODULE in ${MODULES[*]}
 do
     # Restore Doxyfile 

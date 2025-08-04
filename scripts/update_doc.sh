@@ -19,7 +19,7 @@ mkdir -p ${TARGET_DIR}/html
 #clear output directory
 rm -rf ${TARGET_DIR}/html/*
 
-MODULES=`cat scripts/Modules.txt`
+MODULES=(Main Cpp Py C)
 #generate tag files
 for MODULE in ${MODULES[*]}
 do
@@ -38,7 +38,7 @@ doxygen ./DoxyfilePy 1 >> log.txt
 sed -e "s|TAGFILES\s*=.*|TAGFILES = MeshLib/MeshLibMain.tag=../ MeshLib/MeshLibPy.tag=../Py MeshLib/MeshLibC.tag=../C|" -i DoxyfileCpp
 doxygen ./DoxyfileCpp 1 >> log.txt
 sed -e "s|TAGFILES\s*=.*|TAGFILES = MeshLib/MeshLibMain.tag=../ MeshLib/MeshLibCpp.tag=../Cpp MeshLib/MeshLibPy.tag=../Py|" -i DoxyfileC
-doxygen ./DoxyfileCpp 1 >> log.txt
+doxygen ./DoxyfileC 1 >> log.txt
 
 ./scripts/update_search.sh "$TARGET_DIR"
 ./scripts/restore_files.sh

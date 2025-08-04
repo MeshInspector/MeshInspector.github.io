@@ -43,7 +43,7 @@ if [ ! -f ../MeshLib/scripts/doxygen/generate_doxygen_layout.sh ]; then
     exit 1
 fi
 
-MODULES=`cat scripts/Modules.txt`
+MODULES=(Main Cpp Py C)
 for MODULE in ${MODULES[*]}
 do
     ../MeshLib/scripts/doxygen/generate_doxygen_layout.sh $MODULE
