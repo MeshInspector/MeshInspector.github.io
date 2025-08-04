@@ -1,0 +1,431 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRSphere.h Source File</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRSphere_8h_source.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">MRSphere.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="MRSphere_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="MRVector2_8h.html">MRCMesh/MRVector2.h</a>&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;<a class="code" href="MRVector3_8h.html">MRCMesh/MRVector3.h</a>&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;MRCMisc/exports.h&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">typedef</span> <span class="keyword">struct </span>MR_Sphere2f MR_Sphere2f;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">typedef</span> <span class="keyword">struct </span>MR_Sphere2d MR_Sphere2d;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> <a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a>;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keyword">typedef</span> <span class="keyword">struct </span>MR_Sphere3d MR_Sphere3d;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a27c3cfcd06ec3d28c35c84bcb800b66f">   34</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector2f.html">MR_Vector2f</a> *<a class="code hl_function" href="MRSphere_8h.html#a27c3cfcd06ec3d28c35c84bcb800b66f">MR_Sphere2f_Get_center</a>(<span class="keyword">const</span> MR_Sphere2f *_this);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a96673cd28c62edd4ae37b3cd6830e4a0">   38</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRSphere_8h.html#a96673cd28c62edd4ae37b3cd6830e4a0">MR_Sphere2f_Set_center</a>(MR_Sphere2f *_this, <a class="code hl_struct" href="structMR__Vector2f.html">MR_Vector2f</a> value);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#ad1334e68b84ea3b7cdfda37215f5205f">   43</a></span>MRC_API <a class="code hl_struct" href="structMR__Vector2f.html">MR_Vector2f</a> *<a class="code hl_function" href="MRSphere_8h.html#ad1334e68b84ea3b7cdfda37215f5205f">MR_Sphere2f_GetMutable_center</a>(MR_Sphere2f *_this);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#af37bb9792bd226d414a9b6a8f01cf599">   48</a></span>MRC_API <span class="keyword">const</span> <span class="keywordtype">float</span> *<a class="code hl_function" href="MRSphere_8h.html#af37bb9792bd226d414a9b6a8f01cf599">MR_Sphere2f_Get_radius</a>(<span class="keyword">const</span> MR_Sphere2f *_this);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a967e13ebe4fbc2af3bf10f046f450690">   52</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRSphere_8h.html#a967e13ebe4fbc2af3bf10f046f450690">MR_Sphere2f_Set_radius</a>(MR_Sphere2f *_this, <span class="keywordtype">float</span> value);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#af7b21d861fda34f1e1ca29906593c97d">   57</a></span>MRC_API <span class="keywordtype">float</span> *<a class="code hl_function" href="MRSphere_8h.html#af7b21d861fda34f1e1ca29906593c97d">MR_Sphere2f_GetMutable_radius</a>(MR_Sphere2f *_this);</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a3f5d21a14e90d4edc865ae8b74c5083e">   61</a></span>MRC_API MR_Sphere2f *<a class="code hl_function" href="MRSphere_8h.html#a3f5d21a14e90d4edc865ae8b74c5083e">MR_Sphere2f_DefaultConstruct</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#ae71ea9935f208fbb9763f17fec8349c6">   66</a></span>MRC_API MR_Sphere2f *<a class="code hl_function" href="MRSphere_8h.html#ae71ea9935f208fbb9763f17fec8349c6">MR_Sphere2f_DefaultConstructArray</a>(<span class="keywordtype">size_t</span> num_elems);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#ad3bda75639c9689b0cc57abe6fd914ca">   69</a></span>MRC_API <span class="keyword">const</span> MR_Sphere2f *<a class="code hl_function" href="MRSphere_8h.html#ad3bda75639c9689b0cc57abe6fd914ca">MR_Sphere2f_OffsetPtr</a>(<span class="keyword">const</span> MR_Sphere2f *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a6b18633427e21665291ea1cbfeacbf8b">   72</a></span>MRC_API MR_Sphere2f *<a class="code hl_function" href="MRSphere_8h.html#a6b18633427e21665291ea1cbfeacbf8b">MR_Sphere2f_OffsetMutablePtr</a>(MR_Sphere2f *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a92e63cf0e4b297aa3b121ed652ffe3cd">   77</a></span>MRC_API MR_Sphere2f *<a class="code hl_function" href="MRSphere_8h.html#a92e63cf0e4b297aa3b121ed652ffe3cd">MR_Sphere2f_ConstructFromAnother</a>(<span class="keyword">const</span> MR_Sphere2f *_other);</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#acffed90399e515831b36ab822f49069a">   82</a></span>MRC_API MR_Sphere2f *<a class="code hl_function" href="MRSphere_8h.html#acffed90399e515831b36ab822f49069a">MR_Sphere2f_Construct</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector2f.html">MR_Vector2f</a> *c, <span class="keywordtype">float</span> r);</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a886cd3f3bea7f452b16813f55a286fda">   85</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRSphere_8h.html#a886cd3f3bea7f452b16813f55a286fda">MR_Sphere2f_Destroy</a>(<span class="keyword">const</span> MR_Sphere2f *_this);</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a50f999800c60f27145cfdaa262f129d6">   88</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRSphere_8h.html#a50f999800c60f27145cfdaa262f129d6">MR_Sphere2f_DestroyArray</a>(<span class="keyword">const</span> MR_Sphere2f *_this);</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a194aa13d6f9e839bdf547e2850ceda88">   94</a></span>MRC_API MR_Sphere2f *<a class="code hl_function" href="MRSphere_8h.html#a194aa13d6f9e839bdf547e2850ceda88">MR_Sphere2f_AssignFromAnother</a>(MR_Sphere2f *_this, <span class="keyword">const</span> MR_Sphere2f *_other);</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a0ddbb46f7369af4cf1ebace67f68ab8d">  100</a></span>MRC_API <a class="code hl_struct" href="structMR__Vector2f.html">MR_Vector2f</a> <a class="code hl_function" href="MRSphere_8h.html#a0ddbb46f7369af4cf1ebace67f68ab8d">MR_Sphere2f_project</a>(<span class="keyword">const</span> MR_Sphere2f *_this, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector2f.html">MR_Vector2f</a> *x);</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a4522a111f303d1de1c59596f4a09ba1f">  107</a></span>MRC_API <span class="keywordtype">float</span> <a class="code hl_function" href="MRSphere_8h.html#a4522a111f303d1de1c59596f4a09ba1f">MR_Sphere2f_distance</a>(<span class="keyword">const</span> MR_Sphere2f *_this, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector2f.html">MR_Vector2f</a> *x);</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#aa823fe6dc816e7f6d4be0ab1eadda5fb">  113</a></span>MRC_API <span class="keywordtype">float</span> <a class="code hl_function" href="MRSphere_8h.html#aa823fe6dc816e7f6d4be0ab1eadda5fb">MR_Sphere2f_distanceSq</a>(<span class="keyword">const</span> MR_Sphere2f *_this, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector2f.html">MR_Vector2f</a> *x);</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#af4de6f2b48673abd233119b6b4779aea">  118</a></span>MRC_API <span class="keywordtype">bool</span> <a class="code hl_function" href="MRSphere_8h.html#af4de6f2b48673abd233119b6b4779aea">MR_equal_MR_Sphere2f</a>(<span class="keyword">const</span> MR_Sphere2f *a, <span class="keyword">const</span> MR_Sphere2f *b);</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span> </div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a35f43ccba7bceb48cb5c1844726415a1">  123</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector2d.html">MR_Vector2d</a> *<a class="code hl_function" href="MRSphere_8h.html#a35f43ccba7bceb48cb5c1844726415a1">MR_Sphere2d_Get_center</a>(<span class="keyword">const</span> MR_Sphere2d *_this);</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span> </div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a0c4967e6c98af13b593ea7f331e15f4d">  127</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRSphere_8h.html#a0c4967e6c98af13b593ea7f331e15f4d">MR_Sphere2d_Set_center</a>(MR_Sphere2d *_this, <a class="code hl_struct" href="structMR__Vector2d.html">MR_Vector2d</a> value);</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span> </div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a2dece494f795d5c9edcf3595b9b1421a">  132</a></span>MRC_API <a class="code hl_struct" href="structMR__Vector2d.html">MR_Vector2d</a> *<a class="code hl_function" href="MRSphere_8h.html#a2dece494f795d5c9edcf3595b9b1421a">MR_Sphere2d_GetMutable_center</a>(MR_Sphere2d *_this);</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span> </div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#afa83efb7f32bcea00452b56c62b44272">  137</a></span>MRC_API <span class="keyword">const</span> <span class="keywordtype">double</span> *<a class="code hl_function" href="MRSphere_8h.html#afa83efb7f32bcea00452b56c62b44272">MR_Sphere2d_Get_radius</a>(<span class="keyword">const</span> MR_Sphere2d *_this);</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span> </div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#ac5049f5b153f2d67b92904f3b44c2728">  141</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRSphere_8h.html#ac5049f5b153f2d67b92904f3b44c2728">MR_Sphere2d_Set_radius</a>(MR_Sphere2d *_this, <span class="keywordtype">double</span> value);</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span> </div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a0ad379184f698c2a0bb2c2a360683a63">  146</a></span>MRC_API <span class="keywordtype">double</span> *<a class="code hl_function" href="MRSphere_8h.html#a0ad379184f698c2a0bb2c2a360683a63">MR_Sphere2d_GetMutable_radius</a>(MR_Sphere2d *_this);</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span> </div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#aa5739f817213bdde8ed914a8dd6be8ae">  150</a></span>MRC_API MR_Sphere2d *<a class="code hl_function" href="MRSphere_8h.html#aa5739f817213bdde8ed914a8dd6be8ae">MR_Sphere2d_DefaultConstruct</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span> </div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a8a4f977d7826a4bca954ace0e9a4b645">  155</a></span>MRC_API MR_Sphere2d *<a class="code hl_function" href="MRSphere_8h.html#a8a4f977d7826a4bca954ace0e9a4b645">MR_Sphere2d_DefaultConstructArray</a>(<span class="keywordtype">size_t</span> num_elems);</div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span> </div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a38bc61a659b0f2c53820bcc358b40df6">  158</a></span>MRC_API <span class="keyword">const</span> MR_Sphere2d *<a class="code hl_function" href="MRSphere_8h.html#a38bc61a659b0f2c53820bcc358b40df6">MR_Sphere2d_OffsetPtr</a>(<span class="keyword">const</span> MR_Sphere2d *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span> </div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a6f677b830a2b3ee2f16c9c5c60a8f4db">  161</a></span>MRC_API MR_Sphere2d *<a class="code hl_function" href="MRSphere_8h.html#a6f677b830a2b3ee2f16c9c5c60a8f4db">MR_Sphere2d_OffsetMutablePtr</a>(MR_Sphere2d *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span> </div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a2b1f998e60f93c710d6f03fbea570d7e">  166</a></span>MRC_API MR_Sphere2d *<a class="code hl_function" href="MRSphere_8h.html#a2b1f998e60f93c710d6f03fbea570d7e">MR_Sphere2d_ConstructFromAnother</a>(<span class="keyword">const</span> MR_Sphere2d *_other);</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span> </div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a782916f8477d479d6034d1c0aa962154">  171</a></span>MRC_API MR_Sphere2d *<a class="code hl_function" href="MRSphere_8h.html#a782916f8477d479d6034d1c0aa962154">MR_Sphere2d_Construct</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector2d.html">MR_Vector2d</a> *c, <span class="keywordtype">double</span> r);</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span> </div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#af3406ef5b6c9c1ca03e673fa5bee1cd1">  174</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRSphere_8h.html#af3406ef5b6c9c1ca03e673fa5bee1cd1">MR_Sphere2d_Destroy</a>(<span class="keyword">const</span> MR_Sphere2d *_this);</div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span> </div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a3e4a181e14857d73d2d27b7ead90a0d2">  177</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRSphere_8h.html#a3e4a181e14857d73d2d27b7ead90a0d2">MR_Sphere2d_DestroyArray</a>(<span class="keyword">const</span> MR_Sphere2d *_this);</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span> </div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a673905b3b1ccc364c9df6eec13192167">  183</a></span>MRC_API MR_Sphere2d *<a class="code hl_function" href="MRSphere_8h.html#a673905b3b1ccc364c9df6eec13192167">MR_Sphere2d_AssignFromAnother</a>(MR_Sphere2d *_this, <span class="keyword">const</span> MR_Sphere2d *_other);</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span> </div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#adf82ee55d5adcabfc547045ad89e138b">  189</a></span>MRC_API <a class="code hl_struct" href="structMR__Vector2d.html">MR_Vector2d</a> <a class="code hl_function" href="MRSphere_8h.html#adf82ee55d5adcabfc547045ad89e138b">MR_Sphere2d_project</a>(<span class="keyword">const</span> MR_Sphere2d *_this, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector2d.html">MR_Vector2d</a> *x);</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span> </div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a0f406d6191528f71c5d4ebe0fc84b1a6">  196</a></span>MRC_API <span class="keywordtype">double</span> <a class="code hl_function" href="MRSphere_8h.html#a0f406d6191528f71c5d4ebe0fc84b1a6">MR_Sphere2d_distance</a>(<span class="keyword">const</span> MR_Sphere2d *_this, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector2d.html">MR_Vector2d</a> *x);</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span> </div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a5fee0626620d2e5fb69d435223df1d38">  202</a></span>MRC_API <span class="keywordtype">double</span> <a class="code hl_function" href="MRSphere_8h.html#a5fee0626620d2e5fb69d435223df1d38">MR_Sphere2d_distanceSq</a>(<span class="keyword">const</span> MR_Sphere2d *_this, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector2d.html">MR_Vector2d</a> *x);</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span> </div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a5b24e79d3a98f964ceeaf9d35d86a55f">  207</a></span>MRC_API <span class="keywordtype">bool</span> <a class="code hl_function" href="MRSphere_8h.html#a5b24e79d3a98f964ceeaf9d35d86a55f">MR_equal_MR_Sphere2d</a>(<span class="keyword">const</span> MR_Sphere2d *a, <span class="keyword">const</span> MR_Sphere2d *b);</div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span> </div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a55de4e38e39d72519dc564e00a5efb2d">  212</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *<a class="code hl_function" href="MRSphere_8h.html#a55de4e38e39d72519dc564e00a5efb2d">MR_Sphere3f_Get_center</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *_this);</div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span> </div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a3c15adaa8119896a1104ef6e9115600f">  216</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRSphere_8h.html#a3c15adaa8119896a1104ef6e9115600f">MR_Sphere3f_Set_center</a>(<a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *_this, <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> value);</div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span> </div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a1466dabed5ade87d7bd81fe6f2b4c6cd">  221</a></span>MRC_API <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *<a class="code hl_function" href="MRSphere_8h.html#a1466dabed5ade87d7bd81fe6f2b4c6cd">MR_Sphere3f_GetMutable_center</a>(<a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *_this);</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span> </div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#ae0662beaac18403c97991e705d9927bf">  226</a></span>MRC_API <span class="keyword">const</span> <span class="keywordtype">float</span> *<a class="code hl_function" href="MRSphere_8h.html#ae0662beaac18403c97991e705d9927bf">MR_Sphere3f_Get_radius</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *_this);</div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span> </div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#af82c24625eaed2c33e2c752afdd72c88">  230</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRSphere_8h.html#af82c24625eaed2c33e2c752afdd72c88">MR_Sphere3f_Set_radius</a>(<a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *_this, <span class="keywordtype">float</span> value);</div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span> </div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a224cc9e36f41403a6e27ed78acd78602">  235</a></span>MRC_API <span class="keywordtype">float</span> *<a class="code hl_function" href="MRSphere_8h.html#a224cc9e36f41403a6e27ed78acd78602">MR_Sphere3f_GetMutable_radius</a>(<a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *_this);</div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span> </div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#ae929f1478cc6061d85615ce788720463">  239</a></span>MRC_API <a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *<a class="code hl_function" href="MRSphere_8h.html#ae929f1478cc6061d85615ce788720463">MR_Sphere3f_DefaultConstruct</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span> </div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a92a664ce02cf7b3a3ad563fae0b46536">  244</a></span>MRC_API <a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *<a class="code hl_function" href="MRSphere_8h.html#a92a664ce02cf7b3a3ad563fae0b46536">MR_Sphere3f_DefaultConstructArray</a>(<span class="keywordtype">size_t</span> num_elems);</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span> </div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a62bc3cb756201ab828a3e4157c4136bc">  247</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *<a class="code hl_function" href="MRSphere_8h.html#a62bc3cb756201ab828a3e4157c4136bc">MR_Sphere3f_OffsetPtr</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span> </div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a0bdf796ceebc2209fc5d564ae9ae07b8">  250</a></span>MRC_API <a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *<a class="code hl_function" href="MRSphere_8h.html#a0bdf796ceebc2209fc5d564ae9ae07b8">MR_Sphere3f_OffsetMutablePtr</a>(<a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span> </div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a78a55afed48f7780f0fc6994e0fe2da6">  255</a></span>MRC_API <a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *<a class="code hl_function" href="MRSphere_8h.html#a78a55afed48f7780f0fc6994e0fe2da6">MR_Sphere3f_ConstructFromAnother</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *_other);</div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span> </div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a707d6f5e09e8af6ead7349e882cfd80d">  260</a></span>MRC_API <a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *<a class="code hl_function" href="MRSphere_8h.html#a707d6f5e09e8af6ead7349e882cfd80d">MR_Sphere3f_Construct</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *c, <span class="keywordtype">float</span> r);</div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span> </div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a6c17ab624b17c546c31506baf85e415b">  265</a></span>MRC_API <a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *<a class="code hl_function" href="MRSphere_8h.html#a6c17ab624b17c546c31506baf85e415b">MR_Sphere3f_Construct_MR_Vector3f</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *l);</div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span> </div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a531019833f9e35834e4daccb1992a626">  268</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRSphere_8h.html#a531019833f9e35834e4daccb1992a626">MR_Sphere3f_Destroy</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *_this);</div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span> </div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a0d83ab8ecacaa7b5535cd26e496844d4">  271</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRSphere_8h.html#a0d83ab8ecacaa7b5535cd26e496844d4">MR_Sphere3f_DestroyArray</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *_this);</div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span> </div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a3a0b8bade9ae149fe79c7f99ef6d9bd1">  277</a></span>MRC_API <a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *<a class="code hl_function" href="MRSphere_8h.html#a3a0b8bade9ae149fe79c7f99ef6d9bd1">MR_Sphere3f_AssignFromAnother</a>(<a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *_this, <span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *_other);</div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span> </div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#acb21878fc10ab441d45be76a5833d560">  283</a></span>MRC_API <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> <a class="code hl_function" href="MRSphere_8h.html#acb21878fc10ab441d45be76a5833d560">MR_Sphere3f_project</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *_this, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *x);</div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span> </div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#ac178cf831cd4c3d0dfb6fa2932efb885">  290</a></span>MRC_API <span class="keywordtype">float</span> <a class="code hl_function" href="MRSphere_8h.html#ac178cf831cd4c3d0dfb6fa2932efb885">MR_Sphere3f_distance</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *_this, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *x);</div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span> </div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a6d626f20dcf8f82e2abd0a6a05119c7e">  296</a></span>MRC_API <span class="keywordtype">float</span> <a class="code hl_function" href="MRSphere_8h.html#a6d626f20dcf8f82e2abd0a6a05119c7e">MR_Sphere3f_distanceSq</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *_this, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *x);</div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span> </div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a4d2ee62af82a947dbd9e3bbbbf3abed8">  301</a></span>MRC_API <span class="keywordtype">bool</span> <a class="code hl_function" href="MRSphere_8h.html#a4d2ee62af82a947dbd9e3bbbbf3abed8">MR_equal_MR_Sphere3f</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *a, <span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *b);</div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span> </div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a91c55b5511647472d284472fc4721a22">  306</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> *<a class="code hl_function" href="MRSphere_8h.html#a91c55b5511647472d284472fc4721a22">MR_Sphere3d_Get_center</a>(<span class="keyword">const</span> MR_Sphere3d *_this);</div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span> </div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a84c1389a57cb05ba4dec647a19d579b0">  310</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRSphere_8h.html#a84c1389a57cb05ba4dec647a19d579b0">MR_Sphere3d_Set_center</a>(MR_Sphere3d *_this, <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> value);</div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span> </div>
+<div class="line"><a id="l00315" name="l00315"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a939051b95f1ce7c759e9eaf1013030dd">  315</a></span>MRC_API <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> *<a class="code hl_function" href="MRSphere_8h.html#a939051b95f1ce7c759e9eaf1013030dd">MR_Sphere3d_GetMutable_center</a>(MR_Sphere3d *_this);</div>
+<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span> </div>
+<div class="line"><a id="l00320" name="l00320"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a31b6270a177b61403def1f9f23ce98c9">  320</a></span>MRC_API <span class="keyword">const</span> <span class="keywordtype">double</span> *<a class="code hl_function" href="MRSphere_8h.html#a31b6270a177b61403def1f9f23ce98c9">MR_Sphere3d_Get_radius</a>(<span class="keyword">const</span> MR_Sphere3d *_this);</div>
+<div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span> </div>
+<div class="line"><a id="l00324" name="l00324"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#afcfd538ce35ca9571d98b1a5ab9245ff">  324</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRSphere_8h.html#afcfd538ce35ca9571d98b1a5ab9245ff">MR_Sphere3d_Set_radius</a>(MR_Sphere3d *_this, <span class="keywordtype">double</span> value);</div>
+<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span> </div>
+<div class="line"><a id="l00329" name="l00329"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a9ae0d6a5aa542f6b4eae9950bd04f372">  329</a></span>MRC_API <span class="keywordtype">double</span> *<a class="code hl_function" href="MRSphere_8h.html#a9ae0d6a5aa542f6b4eae9950bd04f372">MR_Sphere3d_GetMutable_radius</a>(MR_Sphere3d *_this);</div>
+<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span> </div>
+<div class="line"><a id="l00333" name="l00333"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#aa1442c8d840e90daf26fd6c81f8fbf91">  333</a></span>MRC_API MR_Sphere3d *<a class="code hl_function" href="MRSphere_8h.html#aa1442c8d840e90daf26fd6c81f8fbf91">MR_Sphere3d_DefaultConstruct</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span> </div>
+<div class="line"><a id="l00338" name="l00338"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#ab7dd2af6c4ebcae951a53da44c176bd4">  338</a></span>MRC_API MR_Sphere3d *<a class="code hl_function" href="MRSphere_8h.html#ab7dd2af6c4ebcae951a53da44c176bd4">MR_Sphere3d_DefaultConstructArray</a>(<span class="keywordtype">size_t</span> num_elems);</div>
+<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span> </div>
+<div class="line"><a id="l00341" name="l00341"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a63d93d57b175d1c954cb7eff07eb864e">  341</a></span>MRC_API <span class="keyword">const</span> MR_Sphere3d *<a class="code hl_function" href="MRSphere_8h.html#a63d93d57b175d1c954cb7eff07eb864e">MR_Sphere3d_OffsetPtr</a>(<span class="keyword">const</span> MR_Sphere3d *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span> </div>
+<div class="line"><a id="l00344" name="l00344"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a1712873731eb2754a8a52466edd6533b">  344</a></span>MRC_API MR_Sphere3d *<a class="code hl_function" href="MRSphere_8h.html#a1712873731eb2754a8a52466edd6533b">MR_Sphere3d_OffsetMutablePtr</a>(MR_Sphere3d *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span> </div>
+<div class="line"><a id="l00349" name="l00349"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a3caf8d7304d393b6aca644e65442315d">  349</a></span>MRC_API MR_Sphere3d *<a class="code hl_function" href="MRSphere_8h.html#a3caf8d7304d393b6aca644e65442315d">MR_Sphere3d_ConstructFromAnother</a>(<span class="keyword">const</span> MR_Sphere3d *_other);</div>
+<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span> </div>
+<div class="line"><a id="l00354" name="l00354"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a71af106d23bb2b5bac805e9d095abc49">  354</a></span>MRC_API MR_Sphere3d *<a class="code hl_function" href="MRSphere_8h.html#a71af106d23bb2b5bac805e9d095abc49">MR_Sphere3d_Construct</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> *c, <span class="keywordtype">double</span> r);</div>
+<div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span> </div>
+<div class="line"><a id="l00357" name="l00357"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#aca92ddd67430b7c85b12c63b90fa8bb3">  357</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRSphere_8h.html#aca92ddd67430b7c85b12c63b90fa8bb3">MR_Sphere3d_Destroy</a>(<span class="keyword">const</span> MR_Sphere3d *_this);</div>
+<div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span> </div>
+<div class="line"><a id="l00360" name="l00360"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a4924c32d0e44122616d4fbea614b1644">  360</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRSphere_8h.html#a4924c32d0e44122616d4fbea614b1644">MR_Sphere3d_DestroyArray</a>(<span class="keyword">const</span> MR_Sphere3d *_this);</div>
+<div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span> </div>
+<div class="line"><a id="l00366" name="l00366"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a4c211d622de915c4f151a5704d3d0eda">  366</a></span>MRC_API MR_Sphere3d *<a class="code hl_function" href="MRSphere_8h.html#a4c211d622de915c4f151a5704d3d0eda">MR_Sphere3d_AssignFromAnother</a>(MR_Sphere3d *_this, <span class="keyword">const</span> MR_Sphere3d *_other);</div>
+<div class="line"><a id="l00367" name="l00367"></a><span class="lineno">  367</span> </div>
+<div class="line"><a id="l00372" name="l00372"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a8c29e4987b4f7ad68bc3354d4c4b4ada">  372</a></span>MRC_API <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> <a class="code hl_function" href="MRSphere_8h.html#a8c29e4987b4f7ad68bc3354d4c4b4ada">MR_Sphere3d_project</a>(<span class="keyword">const</span> MR_Sphere3d *_this, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> *x);</div>
+<div class="line"><a id="l00373" name="l00373"></a><span class="lineno">  373</span> </div>
+<div class="line"><a id="l00379" name="l00379"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#a7917863d172f5d3ecce94bebe339be48">  379</a></span>MRC_API <span class="keywordtype">double</span> <a class="code hl_function" href="MRSphere_8h.html#a7917863d172f5d3ecce94bebe339be48">MR_Sphere3d_distance</a>(<span class="keyword">const</span> MR_Sphere3d *_this, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> *x);</div>
+<div class="line"><a id="l00380" name="l00380"></a><span class="lineno">  380</span> </div>
+<div class="line"><a id="l00385" name="l00385"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#accaf5c181895d77c4e1a63b44d66fbf9">  385</a></span>MRC_API <span class="keywordtype">double</span> <a class="code hl_function" href="MRSphere_8h.html#accaf5c181895d77c4e1a63b44d66fbf9">MR_Sphere3d_distanceSq</a>(<span class="keyword">const</span> MR_Sphere3d *_this, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> *x);</div>
+<div class="line"><a id="l00386" name="l00386"></a><span class="lineno">  386</span> </div>
+<div class="line"><a id="l00390" name="l00390"></a><span class="lineno"><a class="line" href="MRSphere_8h.html#aedf63ef9a2eab35e45aba71a95120bec">  390</a></span>MRC_API <span class="keywordtype">bool</span> <a class="code hl_function" href="MRSphere_8h.html#aedf63ef9a2eab35e45aba71a95120bec">MR_equal_MR_Sphere3d</a>(<span class="keyword">const</span> MR_Sphere3d *a, <span class="keyword">const</span> MR_Sphere3d *b);</div>
+<div class="line"><a id="l00391" name="l00391"></a><span class="lineno">  391</span> </div>
+<div class="line"><a id="l00392" name="l00392"></a><span class="lineno">  392</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00393" name="l00393"></a><span class="lineno">  393</span>} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a id="l00394" name="l00394"></a><span class="lineno">  394</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aMRFeatures_8h_html_aab1b39c2998e4a21d6d10c8e06ff9013"><div class="ttname"><a href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a></div><div class="ttdeci">struct MR_Sphere3f MR_Sphere3f</div><div class="ttdef"><b>Definition</b> MRFeatures.h:21</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a0ad379184f698c2a0bb2c2a360683a63"><div class="ttname"><a href="MRSphere_8h.html#a0ad379184f698c2a0bb2c2a360683a63">MR_Sphere2d_GetMutable_radius</a></div><div class="ttdeci">MRC_API double * MR_Sphere2d_GetMutable_radius(MR_Sphere2d *_this)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a0bdf796ceebc2209fc5d564ae9ae07b8"><div class="ttname"><a href="MRSphere_8h.html#a0bdf796ceebc2209fc5d564ae9ae07b8">MR_Sphere3f_OffsetMutablePtr</a></div><div class="ttdeci">MRC_API MR_Sphere3f * MR_Sphere3f_OffsetMutablePtr(MR_Sphere3f *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a0c4967e6c98af13b593ea7f331e15f4d"><div class="ttname"><a href="MRSphere_8h.html#a0c4967e6c98af13b593ea7f331e15f4d">MR_Sphere2d_Set_center</a></div><div class="ttdeci">MRC_API void MR_Sphere2d_Set_center(MR_Sphere2d *_this, MR_Vector2d value)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a0d83ab8ecacaa7b5535cd26e496844d4"><div class="ttname"><a href="MRSphere_8h.html#a0d83ab8ecacaa7b5535cd26e496844d4">MR_Sphere3f_DestroyArray</a></div><div class="ttdeci">MRC_API void MR_Sphere3f_DestroyArray(const MR_Sphere3f *_this)</div><div class="ttdoc">Destroys a heap-allocated array of MR_Sphere3f. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a0ddbb46f7369af4cf1ebace67f68ab8d"><div class="ttname"><a href="MRSphere_8h.html#a0ddbb46f7369af4cf1ebace67f68ab8d">MR_Sphere2f_project</a></div><div class="ttdeci">MRC_API MR_Vector2f MR_Sphere2f_project(const MR_Sphere2f *_this, const MR_Vector2f *x)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a0f406d6191528f71c5d4ebe0fc84b1a6"><div class="ttname"><a href="MRSphere_8h.html#a0f406d6191528f71c5d4ebe0fc84b1a6">MR_Sphere2d_distance</a></div><div class="ttdeci">MRC_API double MR_Sphere2d_distance(const MR_Sphere2d *_this, const MR_Vector2d *x)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a1466dabed5ade87d7bd81fe6f2b4c6cd"><div class="ttname"><a href="MRSphere_8h.html#a1466dabed5ade87d7bd81fe6f2b4c6cd">MR_Sphere3f_GetMutable_center</a></div><div class="ttdeci">MRC_API MR_Vector3f * MR_Sphere3f_GetMutable_center(MR_Sphere3f *_this)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a1712873731eb2754a8a52466edd6533b"><div class="ttname"><a href="MRSphere_8h.html#a1712873731eb2754a8a52466edd6533b">MR_Sphere3d_OffsetMutablePtr</a></div><div class="ttdeci">MRC_API MR_Sphere3d * MR_Sphere3d_OffsetMutablePtr(MR_Sphere3d *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a194aa13d6f9e839bdf547e2850ceda88"><div class="ttname"><a href="MRSphere_8h.html#a194aa13d6f9e839bdf547e2850ceda88">MR_Sphere2f_AssignFromAnother</a></div><div class="ttdeci">MRC_API MR_Sphere2f * MR_Sphere2f_AssignFromAnother(MR_Sphere2f *_this, const MR_Sphere2f *_other)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a224cc9e36f41403a6e27ed78acd78602"><div class="ttname"><a href="MRSphere_8h.html#a224cc9e36f41403a6e27ed78acd78602">MR_Sphere3f_GetMutable_radius</a></div><div class="ttdeci">MRC_API float * MR_Sphere3f_GetMutable_radius(MR_Sphere3f *_this)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a27c3cfcd06ec3d28c35c84bcb800b66f"><div class="ttname"><a href="MRSphere_8h.html#a27c3cfcd06ec3d28c35c84bcb800b66f">MR_Sphere2f_Get_center</a></div><div class="ttdeci">MRC_API const MR_Vector2f * MR_Sphere2f_Get_center(const MR_Sphere2f *_this)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a2b1f998e60f93c710d6f03fbea570d7e"><div class="ttname"><a href="MRSphere_8h.html#a2b1f998e60f93c710d6f03fbea570d7e">MR_Sphere2d_ConstructFromAnother</a></div><div class="ttdeci">MRC_API MR_Sphere2d * MR_Sphere2d_ConstructFromAnother(const MR_Sphere2d *_other)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a2dece494f795d5c9edcf3595b9b1421a"><div class="ttname"><a href="MRSphere_8h.html#a2dece494f795d5c9edcf3595b9b1421a">MR_Sphere2d_GetMutable_center</a></div><div class="ttdeci">MRC_API MR_Vector2d * MR_Sphere2d_GetMutable_center(MR_Sphere2d *_this)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a31b6270a177b61403def1f9f23ce98c9"><div class="ttname"><a href="MRSphere_8h.html#a31b6270a177b61403def1f9f23ce98c9">MR_Sphere3d_Get_radius</a></div><div class="ttdeci">MRC_API const double * MR_Sphere3d_Get_radius(const MR_Sphere3d *_this)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a35f43ccba7bceb48cb5c1844726415a1"><div class="ttname"><a href="MRSphere_8h.html#a35f43ccba7bceb48cb5c1844726415a1">MR_Sphere2d_Get_center</a></div><div class="ttdeci">MRC_API const MR_Vector2d * MR_Sphere2d_Get_center(const MR_Sphere2d *_this)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a38bc61a659b0f2c53820bcc358b40df6"><div class="ttname"><a href="MRSphere_8h.html#a38bc61a659b0f2c53820bcc358b40df6">MR_Sphere2d_OffsetPtr</a></div><div class="ttdeci">MRC_API const MR_Sphere2d * MR_Sphere2d_OffsetPtr(const MR_Sphere2d *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a3a0b8bade9ae149fe79c7f99ef6d9bd1"><div class="ttname"><a href="MRSphere_8h.html#a3a0b8bade9ae149fe79c7f99ef6d9bd1">MR_Sphere3f_AssignFromAnother</a></div><div class="ttdeci">MRC_API MR_Sphere3f * MR_Sphere3f_AssignFromAnother(MR_Sphere3f *_this, const MR_Sphere3f *_other)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a3c15adaa8119896a1104ef6e9115600f"><div class="ttname"><a href="MRSphere_8h.html#a3c15adaa8119896a1104ef6e9115600f">MR_Sphere3f_Set_center</a></div><div class="ttdeci">MRC_API void MR_Sphere3f_Set_center(MR_Sphere3f *_this, MR_Vector3f value)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a3caf8d7304d393b6aca644e65442315d"><div class="ttname"><a href="MRSphere_8h.html#a3caf8d7304d393b6aca644e65442315d">MR_Sphere3d_ConstructFromAnother</a></div><div class="ttdeci">MRC_API MR_Sphere3d * MR_Sphere3d_ConstructFromAnother(const MR_Sphere3d *_other)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a3e4a181e14857d73d2d27b7ead90a0d2"><div class="ttname"><a href="MRSphere_8h.html#a3e4a181e14857d73d2d27b7ead90a0d2">MR_Sphere2d_DestroyArray</a></div><div class="ttdeci">MRC_API void MR_Sphere2d_DestroyArray(const MR_Sphere2d *_this)</div><div class="ttdoc">Destroys a heap-allocated array of MR_Sphere2d. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a3f5d21a14e90d4edc865ae8b74c5083e"><div class="ttname"><a href="MRSphere_8h.html#a3f5d21a14e90d4edc865ae8b74c5083e">MR_Sphere2f_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_Sphere2f * MR_Sphere2f_DefaultConstruct(void)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a4522a111f303d1de1c59596f4a09ba1f"><div class="ttname"><a href="MRSphere_8h.html#a4522a111f303d1de1c59596f4a09ba1f">MR_Sphere2f_distance</a></div><div class="ttdeci">MRC_API float MR_Sphere2f_distance(const MR_Sphere2f *_this, const MR_Vector2f *x)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a4924c32d0e44122616d4fbea614b1644"><div class="ttname"><a href="MRSphere_8h.html#a4924c32d0e44122616d4fbea614b1644">MR_Sphere3d_DestroyArray</a></div><div class="ttdeci">MRC_API void MR_Sphere3d_DestroyArray(const MR_Sphere3d *_this)</div><div class="ttdoc">Destroys a heap-allocated array of MR_Sphere3d. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a4c211d622de915c4f151a5704d3d0eda"><div class="ttname"><a href="MRSphere_8h.html#a4c211d622de915c4f151a5704d3d0eda">MR_Sphere3d_AssignFromAnother</a></div><div class="ttdeci">MRC_API MR_Sphere3d * MR_Sphere3d_AssignFromAnother(MR_Sphere3d *_this, const MR_Sphere3d *_other)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a4d2ee62af82a947dbd9e3bbbbf3abed8"><div class="ttname"><a href="MRSphere_8h.html#a4d2ee62af82a947dbd9e3bbbbf3abed8">MR_equal_MR_Sphere3f</a></div><div class="ttdeci">MRC_API bool MR_equal_MR_Sphere3f(const MR_Sphere3f *a, const MR_Sphere3f *b)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a50f999800c60f27145cfdaa262f129d6"><div class="ttname"><a href="MRSphere_8h.html#a50f999800c60f27145cfdaa262f129d6">MR_Sphere2f_DestroyArray</a></div><div class="ttdeci">MRC_API void MR_Sphere2f_DestroyArray(const MR_Sphere2f *_this)</div><div class="ttdoc">Destroys a heap-allocated array of MR_Sphere2f. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a531019833f9e35834e4daccb1992a626"><div class="ttname"><a href="MRSphere_8h.html#a531019833f9e35834e4daccb1992a626">MR_Sphere3f_Destroy</a></div><div class="ttdeci">MRC_API void MR_Sphere3f_Destroy(const MR_Sphere3f *_this)</div><div class="ttdoc">Destroys a heap-allocated instance of MR_Sphere3f. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a55de4e38e39d72519dc564e00a5efb2d"><div class="ttname"><a href="MRSphere_8h.html#a55de4e38e39d72519dc564e00a5efb2d">MR_Sphere3f_Get_center</a></div><div class="ttdeci">MRC_API const MR_Vector3f * MR_Sphere3f_Get_center(const MR_Sphere3f *_this)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a5b24e79d3a98f964ceeaf9d35d86a55f"><div class="ttname"><a href="MRSphere_8h.html#a5b24e79d3a98f964ceeaf9d35d86a55f">MR_equal_MR_Sphere2d</a></div><div class="ttdeci">MRC_API bool MR_equal_MR_Sphere2d(const MR_Sphere2d *a, const MR_Sphere2d *b)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a5fee0626620d2e5fb69d435223df1d38"><div class="ttname"><a href="MRSphere_8h.html#a5fee0626620d2e5fb69d435223df1d38">MR_Sphere2d_distanceSq</a></div><div class="ttdeci">MRC_API double MR_Sphere2d_distanceSq(const MR_Sphere2d *_this, const MR_Vector2d *x)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a62bc3cb756201ab828a3e4157c4136bc"><div class="ttname"><a href="MRSphere_8h.html#a62bc3cb756201ab828a3e4157c4136bc">MR_Sphere3f_OffsetPtr</a></div><div class="ttdeci">MRC_API const MR_Sphere3f * MR_Sphere3f_OffsetPtr(const MR_Sphere3f *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a63d93d57b175d1c954cb7eff07eb864e"><div class="ttname"><a href="MRSphere_8h.html#a63d93d57b175d1c954cb7eff07eb864e">MR_Sphere3d_OffsetPtr</a></div><div class="ttdeci">MRC_API const MR_Sphere3d * MR_Sphere3d_OffsetPtr(const MR_Sphere3d *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a673905b3b1ccc364c9df6eec13192167"><div class="ttname"><a href="MRSphere_8h.html#a673905b3b1ccc364c9df6eec13192167">MR_Sphere2d_AssignFromAnother</a></div><div class="ttdeci">MRC_API MR_Sphere2d * MR_Sphere2d_AssignFromAnother(MR_Sphere2d *_this, const MR_Sphere2d *_other)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a6b18633427e21665291ea1cbfeacbf8b"><div class="ttname"><a href="MRSphere_8h.html#a6b18633427e21665291ea1cbfeacbf8b">MR_Sphere2f_OffsetMutablePtr</a></div><div class="ttdeci">MRC_API MR_Sphere2f * MR_Sphere2f_OffsetMutablePtr(MR_Sphere2f *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a6c17ab624b17c546c31506baf85e415b"><div class="ttname"><a href="MRSphere_8h.html#a6c17ab624b17c546c31506baf85e415b">MR_Sphere3f_Construct_MR_Vector3f</a></div><div class="ttdeci">MRC_API MR_Sphere3f * MR_Sphere3f_Construct_MR_Vector3f(const MR_Sphere3f *l)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a6d626f20dcf8f82e2abd0a6a05119c7e"><div class="ttname"><a href="MRSphere_8h.html#a6d626f20dcf8f82e2abd0a6a05119c7e">MR_Sphere3f_distanceSq</a></div><div class="ttdeci">MRC_API float MR_Sphere3f_distanceSq(const MR_Sphere3f *_this, const MR_Vector3f *x)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a6f677b830a2b3ee2f16c9c5c60a8f4db"><div class="ttname"><a href="MRSphere_8h.html#a6f677b830a2b3ee2f16c9c5c60a8f4db">MR_Sphere2d_OffsetMutablePtr</a></div><div class="ttdeci">MRC_API MR_Sphere2d * MR_Sphere2d_OffsetMutablePtr(MR_Sphere2d *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a707d6f5e09e8af6ead7349e882cfd80d"><div class="ttname"><a href="MRSphere_8h.html#a707d6f5e09e8af6ead7349e882cfd80d">MR_Sphere3f_Construct</a></div><div class="ttdeci">MRC_API MR_Sphere3f * MR_Sphere3f_Construct(const MR_Vector3f *c, float r)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a71af106d23bb2b5bac805e9d095abc49"><div class="ttname"><a href="MRSphere_8h.html#a71af106d23bb2b5bac805e9d095abc49">MR_Sphere3d_Construct</a></div><div class="ttdeci">MRC_API MR_Sphere3d * MR_Sphere3d_Construct(const MR_Vector3d *c, double r)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a782916f8477d479d6034d1c0aa962154"><div class="ttname"><a href="MRSphere_8h.html#a782916f8477d479d6034d1c0aa962154">MR_Sphere2d_Construct</a></div><div class="ttdeci">MRC_API MR_Sphere2d * MR_Sphere2d_Construct(const MR_Vector2d *c, double r)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a78a55afed48f7780f0fc6994e0fe2da6"><div class="ttname"><a href="MRSphere_8h.html#a78a55afed48f7780f0fc6994e0fe2da6">MR_Sphere3f_ConstructFromAnother</a></div><div class="ttdeci">MRC_API MR_Sphere3f * MR_Sphere3f_ConstructFromAnother(const MR_Sphere3f *_other)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a7917863d172f5d3ecce94bebe339be48"><div class="ttname"><a href="MRSphere_8h.html#a7917863d172f5d3ecce94bebe339be48">MR_Sphere3d_distance</a></div><div class="ttdeci">MRC_API double MR_Sphere3d_distance(const MR_Sphere3d *_this, const MR_Vector3d *x)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a84c1389a57cb05ba4dec647a19d579b0"><div class="ttname"><a href="MRSphere_8h.html#a84c1389a57cb05ba4dec647a19d579b0">MR_Sphere3d_Set_center</a></div><div class="ttdeci">MRC_API void MR_Sphere3d_Set_center(MR_Sphere3d *_this, MR_Vector3d value)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a886cd3f3bea7f452b16813f55a286fda"><div class="ttname"><a href="MRSphere_8h.html#a886cd3f3bea7f452b16813f55a286fda">MR_Sphere2f_Destroy</a></div><div class="ttdeci">MRC_API void MR_Sphere2f_Destroy(const MR_Sphere2f *_this)</div><div class="ttdoc">Destroys a heap-allocated instance of MR_Sphere2f. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a8a4f977d7826a4bca954ace0e9a4b645"><div class="ttname"><a href="MRSphere_8h.html#a8a4f977d7826a4bca954ace0e9a4b645">MR_Sphere2d_DefaultConstructArray</a></div><div class="ttdeci">MRC_API MR_Sphere2d * MR_Sphere2d_DefaultConstructArray(size_t num_elems)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a8c29e4987b4f7ad68bc3354d4c4b4ada"><div class="ttname"><a href="MRSphere_8h.html#a8c29e4987b4f7ad68bc3354d4c4b4ada">MR_Sphere3d_project</a></div><div class="ttdeci">MRC_API MR_Vector3d MR_Sphere3d_project(const MR_Sphere3d *_this, const MR_Vector3d *x)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a91c55b5511647472d284472fc4721a22"><div class="ttname"><a href="MRSphere_8h.html#a91c55b5511647472d284472fc4721a22">MR_Sphere3d_Get_center</a></div><div class="ttdeci">MRC_API const MR_Vector3d * MR_Sphere3d_Get_center(const MR_Sphere3d *_this)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a92a664ce02cf7b3a3ad563fae0b46536"><div class="ttname"><a href="MRSphere_8h.html#a92a664ce02cf7b3a3ad563fae0b46536">MR_Sphere3f_DefaultConstructArray</a></div><div class="ttdeci">MRC_API MR_Sphere3f * MR_Sphere3f_DefaultConstructArray(size_t num_elems)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a92e63cf0e4b297aa3b121ed652ffe3cd"><div class="ttname"><a href="MRSphere_8h.html#a92e63cf0e4b297aa3b121ed652ffe3cd">MR_Sphere2f_ConstructFromAnother</a></div><div class="ttdeci">MRC_API MR_Sphere2f * MR_Sphere2f_ConstructFromAnother(const MR_Sphere2f *_other)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a939051b95f1ce7c759e9eaf1013030dd"><div class="ttname"><a href="MRSphere_8h.html#a939051b95f1ce7c759e9eaf1013030dd">MR_Sphere3d_GetMutable_center</a></div><div class="ttdeci">MRC_API MR_Vector3d * MR_Sphere3d_GetMutable_center(MR_Sphere3d *_this)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a96673cd28c62edd4ae37b3cd6830e4a0"><div class="ttname"><a href="MRSphere_8h.html#a96673cd28c62edd4ae37b3cd6830e4a0">MR_Sphere2f_Set_center</a></div><div class="ttdeci">MRC_API void MR_Sphere2f_Set_center(MR_Sphere2f *_this, MR_Vector2f value)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a967e13ebe4fbc2af3bf10f046f450690"><div class="ttname"><a href="MRSphere_8h.html#a967e13ebe4fbc2af3bf10f046f450690">MR_Sphere2f_Set_radius</a></div><div class="ttdeci">MRC_API void MR_Sphere2f_Set_radius(MR_Sphere2f *_this, float value)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_a9ae0d6a5aa542f6b4eae9950bd04f372"><div class="ttname"><a href="MRSphere_8h.html#a9ae0d6a5aa542f6b4eae9950bd04f372">MR_Sphere3d_GetMutable_radius</a></div><div class="ttdeci">MRC_API double * MR_Sphere3d_GetMutable_radius(MR_Sphere3d *_this)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_aa1442c8d840e90daf26fd6c81f8fbf91"><div class="ttname"><a href="MRSphere_8h.html#aa1442c8d840e90daf26fd6c81f8fbf91">MR_Sphere3d_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_Sphere3d * MR_Sphere3d_DefaultConstruct(void)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_aa5739f817213bdde8ed914a8dd6be8ae"><div class="ttname"><a href="MRSphere_8h.html#aa5739f817213bdde8ed914a8dd6be8ae">MR_Sphere2d_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_Sphere2d * MR_Sphere2d_DefaultConstruct(void)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_aa823fe6dc816e7f6d4be0ab1eadda5fb"><div class="ttname"><a href="MRSphere_8h.html#aa823fe6dc816e7f6d4be0ab1eadda5fb">MR_Sphere2f_distanceSq</a></div><div class="ttdeci">MRC_API float MR_Sphere2f_distanceSq(const MR_Sphere2f *_this, const MR_Vector2f *x)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_ab7dd2af6c4ebcae951a53da44c176bd4"><div class="ttname"><a href="MRSphere_8h.html#ab7dd2af6c4ebcae951a53da44c176bd4">MR_Sphere3d_DefaultConstructArray</a></div><div class="ttdeci">MRC_API MR_Sphere3d * MR_Sphere3d_DefaultConstructArray(size_t num_elems)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_ac178cf831cd4c3d0dfb6fa2932efb885"><div class="ttname"><a href="MRSphere_8h.html#ac178cf831cd4c3d0dfb6fa2932efb885">MR_Sphere3f_distance</a></div><div class="ttdeci">MRC_API float MR_Sphere3f_distance(const MR_Sphere3f *_this, const MR_Vector3f *x)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_ac5049f5b153f2d67b92904f3b44c2728"><div class="ttname"><a href="MRSphere_8h.html#ac5049f5b153f2d67b92904f3b44c2728">MR_Sphere2d_Set_radius</a></div><div class="ttdeci">MRC_API void MR_Sphere2d_Set_radius(MR_Sphere2d *_this, double value)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_aca92ddd67430b7c85b12c63b90fa8bb3"><div class="ttname"><a href="MRSphere_8h.html#aca92ddd67430b7c85b12c63b90fa8bb3">MR_Sphere3d_Destroy</a></div><div class="ttdeci">MRC_API void MR_Sphere3d_Destroy(const MR_Sphere3d *_this)</div><div class="ttdoc">Destroys a heap-allocated instance of MR_Sphere3d. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRSphere_8h_html_acb21878fc10ab441d45be76a5833d560"><div class="ttname"><a href="MRSphere_8h.html#acb21878fc10ab441d45be76a5833d560">MR_Sphere3f_project</a></div><div class="ttdeci">MRC_API MR_Vector3f MR_Sphere3f_project(const MR_Sphere3f *_this, const MR_Vector3f *x)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_accaf5c181895d77c4e1a63b44d66fbf9"><div class="ttname"><a href="MRSphere_8h.html#accaf5c181895d77c4e1a63b44d66fbf9">MR_Sphere3d_distanceSq</a></div><div class="ttdeci">MRC_API double MR_Sphere3d_distanceSq(const MR_Sphere3d *_this, const MR_Vector3d *x)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_acffed90399e515831b36ab822f49069a"><div class="ttname"><a href="MRSphere_8h.html#acffed90399e515831b36ab822f49069a">MR_Sphere2f_Construct</a></div><div class="ttdeci">MRC_API MR_Sphere2f * MR_Sphere2f_Construct(const MR_Vector2f *c, float r)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_ad1334e68b84ea3b7cdfda37215f5205f"><div class="ttname"><a href="MRSphere_8h.html#ad1334e68b84ea3b7cdfda37215f5205f">MR_Sphere2f_GetMutable_center</a></div><div class="ttdeci">MRC_API MR_Vector2f * MR_Sphere2f_GetMutable_center(MR_Sphere2f *_this)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_ad3bda75639c9689b0cc57abe6fd914ca"><div class="ttname"><a href="MRSphere_8h.html#ad3bda75639c9689b0cc57abe6fd914ca">MR_Sphere2f_OffsetPtr</a></div><div class="ttdeci">MRC_API const MR_Sphere2f * MR_Sphere2f_OffsetPtr(const MR_Sphere2f *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRSphere_8h_html_adf82ee55d5adcabfc547045ad89e138b"><div class="ttname"><a href="MRSphere_8h.html#adf82ee55d5adcabfc547045ad89e138b">MR_Sphere2d_project</a></div><div class="ttdeci">MRC_API MR_Vector2d MR_Sphere2d_project(const MR_Sphere2d *_this, const MR_Vector2d *x)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_ae0662beaac18403c97991e705d9927bf"><div class="ttname"><a href="MRSphere_8h.html#ae0662beaac18403c97991e705d9927bf">MR_Sphere3f_Get_radius</a></div><div class="ttdeci">MRC_API const float * MR_Sphere3f_Get_radius(const MR_Sphere3f *_this)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_ae71ea9935f208fbb9763f17fec8349c6"><div class="ttname"><a href="MRSphere_8h.html#ae71ea9935f208fbb9763f17fec8349c6">MR_Sphere2f_DefaultConstructArray</a></div><div class="ttdeci">MRC_API MR_Sphere2f * MR_Sphere2f_DefaultConstructArray(size_t num_elems)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_ae929f1478cc6061d85615ce788720463"><div class="ttname"><a href="MRSphere_8h.html#ae929f1478cc6061d85615ce788720463">MR_Sphere3f_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_Sphere3f * MR_Sphere3f_DefaultConstruct(void)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_aedf63ef9a2eab35e45aba71a95120bec"><div class="ttname"><a href="MRSphere_8h.html#aedf63ef9a2eab35e45aba71a95120bec">MR_equal_MR_Sphere3d</a></div><div class="ttdeci">MRC_API bool MR_equal_MR_Sphere3d(const MR_Sphere3d *a, const MR_Sphere3d *b)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_af3406ef5b6c9c1ca03e673fa5bee1cd1"><div class="ttname"><a href="MRSphere_8h.html#af3406ef5b6c9c1ca03e673fa5bee1cd1">MR_Sphere2d_Destroy</a></div><div class="ttdeci">MRC_API void MR_Sphere2d_Destroy(const MR_Sphere2d *_this)</div><div class="ttdoc">Destroys a heap-allocated instance of MR_Sphere2d. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRSphere_8h_html_af37bb9792bd226d414a9b6a8f01cf599"><div class="ttname"><a href="MRSphere_8h.html#af37bb9792bd226d414a9b6a8f01cf599">MR_Sphere2f_Get_radius</a></div><div class="ttdeci">MRC_API const float * MR_Sphere2f_Get_radius(const MR_Sphere2f *_this)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_af4de6f2b48673abd233119b6b4779aea"><div class="ttname"><a href="MRSphere_8h.html#af4de6f2b48673abd233119b6b4779aea">MR_equal_MR_Sphere2f</a></div><div class="ttdeci">MRC_API bool MR_equal_MR_Sphere2f(const MR_Sphere2f *a, const MR_Sphere2f *b)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_af7b21d861fda34f1e1ca29906593c97d"><div class="ttname"><a href="MRSphere_8h.html#af7b21d861fda34f1e1ca29906593c97d">MR_Sphere2f_GetMutable_radius</a></div><div class="ttdeci">MRC_API float * MR_Sphere2f_GetMutable_radius(MR_Sphere2f *_this)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_af82c24625eaed2c33e2c752afdd72c88"><div class="ttname"><a href="MRSphere_8h.html#af82c24625eaed2c33e2c752afdd72c88">MR_Sphere3f_Set_radius</a></div><div class="ttdeci">MRC_API void MR_Sphere3f_Set_radius(MR_Sphere3f *_this, float value)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_afa83efb7f32bcea00452b56c62b44272"><div class="ttname"><a href="MRSphere_8h.html#afa83efb7f32bcea00452b56c62b44272">MR_Sphere2d_Get_radius</a></div><div class="ttdeci">MRC_API const double * MR_Sphere2d_Get_radius(const MR_Sphere2d *_this)</div></div>
+<div class="ttc" id="aMRSphere_8h_html_afcfd538ce35ca9571d98b1a5ab9245ff"><div class="ttname"><a href="MRSphere_8h.html#afcfd538ce35ca9571d98b1a5ab9245ff">MR_Sphere3d_Set_radius</a></div><div class="ttdeci">MRC_API void MR_Sphere3d_Set_radius(MR_Sphere3d *_this, double value)</div></div>
+<div class="ttc" id="aMRVector2_8h_html"><div class="ttname"><a href="MRVector2_8h.html">MRVector2.h</a></div></div>
+<div class="ttc" id="aMRVector3_8h_html"><div class="ttname"><a href="MRVector3_8h.html">MRVector3.h</a></div></div>
+<div class="ttc" id="astructMR__Vector2d_html"><div class="ttname"><a href="structMR__Vector2d.html">MR_Vector2d</a></div><div class="ttdef"><b>Definition</b> MRVector2.h:57</div></div>
+<div class="ttc" id="astructMR__Vector2f_html"><div class="ttname"><a href="structMR__Vector2f.html">MR_Vector2f</a></div><div class="ttdef"><b>Definition</b> MRVector2.h:48</div></div>
+<div class="ttc" id="astructMR__Vector3d_html"><div class="ttname"><a href="structMR__Vector3d.html">MR_Vector3d</a></div><div class="ttdef"><b>Definition</b> MRVector3.h:65</div></div>
+<div class="ttc" id="astructMR__Vector3f_html"><div class="ttname"><a href="structMR__Vector3f.html">MR_Vector3f</a></div><div class="ttdef"><b>Definition</b> MRVector3.h:55</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_8b489c7b5d1a72d35ec87e32cc37b940.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRSphere_8h.html">MRSphere.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

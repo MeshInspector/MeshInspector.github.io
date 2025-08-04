@@ -1,0 +1,309 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.HistoryAction Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1HistoryAction.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1HistoryAction-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.HistoryAction Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for meshlib.mrmeshpy.HistoryAction:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="classmeshlib_1_1mrmeshpy_1_1HistoryAction.png" usemap="#meshlib.mrmeshpy.HistoryAction_map" alt=""/>
+  <map id="meshlib.mrmeshpy.HistoryAction_map" name="meshlib.mrmeshpy.HistoryAction_map">
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangVoxelSelectionAction.html" alt="meshlib.mrmeshpy.ChangVoxelSelectionAction" shape="rect" coords="331,56,652,80"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangeActiveBoxAction.html" alt="meshlib.mrmeshpy.ChangeActiveBoxAction" shape="rect" coords="331,112,652,136"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangeColoringType.html" alt="meshlib.mrmeshpy.ChangeColoringType" shape="rect" coords="331,168,652,192"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangeDualMarchingCubesAction.html" alt="meshlib.mrmeshpy.ChangeDualMarchingCubesAction" shape="rect" coords="331,224,652,248"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangeFacesColorMapAction.html" alt="meshlib.mrmeshpy.ChangeFacesColorMapAction" shape="rect" coords="331,280,652,304"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangeGridAction.html" alt="meshlib.mrmeshpy.ChangeGridAction" shape="rect" coords="331,336,652,360"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangeIsoAction.html" alt="meshlib.mrmeshpy.ChangeIsoAction" shape="rect" coords="331,392,652,416"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangeLabelAction.html" alt="meshlib.mrmeshpy.ChangeLabelAction" shape="rect" coords="331,448,652,472"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangeLinesColorMapAction.html" alt="meshlib.mrmeshpy.ChangeLinesColorMapAction" shape="rect" coords="331,504,652,528"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshAction.html" alt="meshlib.mrmeshpy.ChangeMeshAction" shape="rect" coords="331,560,652,584"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshCreasesAction.html" alt="meshlib.mrmeshpy.ChangeMeshCreasesAction" shape="rect" coords="331,616,652,640"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshEdgeSelectionAction.html" alt="meshlib.mrmeshpy.ChangeMeshEdgeSelectionAction" shape="rect" coords="331,672,652,696"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshFaceSelectionAction.html" alt="meshlib.mrmeshpy.ChangeMeshFaceSelectionAction" shape="rect" coords="331,728,652,752"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshPointsAction.html" alt="meshlib.mrmeshpy.ChangeMeshPointsAction" shape="rect" coords="331,784,652,808"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshTexturePerFaceAction.html" alt="meshlib.mrmeshpy.ChangeMeshTexturePerFaceAction" shape="rect" coords="331,840,652,864"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshTopologyAction.html" alt="meshlib.mrmeshpy.ChangeMeshTopologyAction" shape="rect" coords="331,896,652,920"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshUVCoordsAction.html" alt="meshlib.mrmeshpy.ChangeMeshUVCoordsAction" shape="rect" coords="331,952,652,976"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangeNameAction.html" alt="meshlib.mrmeshpy.ChangeNameAction" shape="rect" coords="331,1008,652,1032"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangeObjectAction.html" alt="meshlib.mrmeshpy.ChangeObjectAction" shape="rect" coords="331,1064,652,1088"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangeObjectColorAction.html" alt="meshlib.mrmeshpy.ChangeObjectColorAction" shape="rect" coords="331,1120,652,1144"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangeObjectSelectedAction.html" alt="meshlib.mrmeshpy.ChangeObjectSelectedAction" shape="rect" coords="331,1176,652,1200"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangeObjectVisibilityAction.html" alt="meshlib.mrmeshpy.ChangeObjectVisibilityAction" shape="rect" coords="331,1232,652,1256"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangePointCloudAction.html" alt="meshlib.mrmeshpy.ChangePointCloudAction" shape="rect" coords="331,1288,652,1312"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangePointCloudNormalsAction.html" alt="meshlib.mrmeshpy.ChangePointCloudNormalsAction" shape="rect" coords="331,1344,652,1368"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangePointCloudPointsAction.html" alt="meshlib.mrmeshpy.ChangePointCloudPointsAction" shape="rect" coords="331,1400,652,1424"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangePointPointSelectionAction.html" alt="meshlib.mrmeshpy.ChangePointPointSelectionAction" shape="rect" coords="331,1456,652,1480"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangePolylineAction.html" alt="meshlib.mrmeshpy.ChangePolylineAction" shape="rect" coords="331,1512,652,1536"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangePolylinePointsAction.html" alt="meshlib.mrmeshpy.ChangePolylinePointsAction" shape="rect" coords="331,1568,652,1592"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangePolylineTopologyAction.html" alt="meshlib.mrmeshpy.ChangePolylineTopologyAction" shape="rect" coords="331,1624,652,1648"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangeSceneAction.html" alt="meshlib.mrmeshpy.ChangeSceneAction" shape="rect" coords="331,1680,652,1704"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangeSceneObjectsOrder.html" alt="meshlib.mrmeshpy.ChangeSceneObjectsOrder" shape="rect" coords="331,1736,652,1760"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangeSurfaceAction.html" alt="meshlib.mrmeshpy.ChangeSurfaceAction" shape="rect" coords="331,1792,652,1816"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangeTextureAction.html" alt="meshlib.mrmeshpy.ChangeTextureAction" shape="rect" coords="331,1848,652,1872"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangeVertsColorMapAction.html" alt="meshlib.mrmeshpy.ChangeVertsColorMapAction" shape="rect" coords="331,1904,652,1928"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangeVisualizePropertyAction.html" alt="meshlib.mrmeshpy.ChangeVisualizePropertyAction" shape="rect" coords="331,1960,652,1984"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ChangeXfAction.html" alt="meshlib.mrmeshpy.ChangeXfAction" shape="rect" coords="331,2016,652,2040"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1CombinedHistoryAction.html" alt="meshlib.mrmeshpy.CombinedHistoryAction" shape="rect" coords="331,2072,652,2096"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1PartialChangeMeshAction.html" alt="meshlib.mrmeshpy.PartialChangeMeshAction" shape="rect" coords="331,2128,652,2152"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1PartialChangeMeshPointsAction.html" alt="meshlib.mrmeshpy.PartialChangeMeshPointsAction" shape="rect" coords="331,2184,652,2208"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1PartialChangeMeshTopologyAction.html" alt="meshlib.mrmeshpy.PartialChangeMeshTopologyAction" shape="rect" coords="331,2240,652,2264"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1HistoryAction_1_1Type.html">Type</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a43231ef5756700a2551cf274edad8494" id="r_a43231ef5756700a2551cf274edad8494"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43231ef5756700a2551cf274edad8494">action</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1HistoryAction_1_1Type.html">HistoryAction.Type</a> actionType)</td></tr>
+<tr class="separator:a43231ef5756700a2551cf274edad8494"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6e41a82ec5f941dc51c660b21238b1c" id="r_ac6e41a82ec5f941dc51c660b21238b1c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6e41a82ec5f941dc51c660b21238b1c">heapBytes</a> (self)</td></tr>
+<tr class="separator:ac6e41a82ec5f941dc51c660b21238b1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada66ef9ffc8db347673b41c6207d375a" id="r_ada66ef9ffc8db347673b41c6207d375a"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada66ef9ffc8db347673b41c6207d375a">name</a> (self)</td></tr>
+<tr class="separator:ada66ef9ffc8db347673b41c6207d375a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Generated from:  MR::HistoryAction
+
+Abstract class for history actions
+\\ingroup HistoryGroup
+</pre> </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a43231ef5756700a2551cf274edad8494" name="a43231ef5756700a2551cf274edad8494"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43231ef5756700a2551cf274edad8494">&#9670;&#160;</a></span>action()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.HistoryAction.action </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1HistoryAction_1_1Type.html">HistoryAction.Type</a></td>          <td class="paramname"><span class="paramname"><em>actionType</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">This function is called on history action (undo, redo, etc.)
+</pre> 
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeActiveBoxAction.html#a81f7a49146e8c5dde35456796af250e7">meshlib.mrmeshpy.ChangeActiveBoxAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeColoringType.html#aaabfedc95f1fefbb41f1bcfcddfa549d">meshlib.mrmeshpy.ChangeColoringType</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeDualMarchingCubesAction.html#abd592f1459b23bc7a4c5b62851938b16">meshlib.mrmeshpy.ChangeDualMarchingCubesAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeFacesColorMapAction.html#afc3bbdf3fd09ca78d16d1de0fc7cf538">meshlib.mrmeshpy.ChangeFacesColorMapAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeGridAction.html#aa4750c79b217a439eff9c4b81bdf92b4">meshlib.mrmeshpy.ChangeGridAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeIsoAction.html#ab7b4a098f8d69a136f8394aa44ad49a2">meshlib.mrmeshpy.ChangeIsoAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeLabelAction.html#aeccd6b7dcc8efeb35c285b94da6d0fd9">meshlib.mrmeshpy.ChangeLabelAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeLinesColorMapAction.html#a2bf676c7f92d391ca4d4e4b3c2268119">meshlib.mrmeshpy.ChangeLinesColorMapAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshAction.html#a5c5e3487d671fc82f64c0ba2558c249b">meshlib.mrmeshpy.ChangeMeshAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshCreasesAction.html#a53b06948037ef1069ecdd7a7303d35c9">meshlib.mrmeshpy.ChangeMeshCreasesAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshEdgeSelectionAction.html#a3d830e91d4512471052fb477a7f91eac">meshlib.mrmeshpy.ChangeMeshEdgeSelectionAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshFaceSelectionAction.html#a0c2516d810b0e095c43c73efba01fd64">meshlib.mrmeshpy.ChangeMeshFaceSelectionAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshPointsAction.html#ad3736f9275ea2882a592047da5c213b9">meshlib.mrmeshpy.ChangeMeshPointsAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshTexturePerFaceAction.html#a469146fdf764f6241e26ae0e85ebaa2a">meshlib.mrmeshpy.ChangeMeshTexturePerFaceAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshTopologyAction.html#a058b69a4e7581859146c0491a6e0ce9c">meshlib.mrmeshpy.ChangeMeshTopologyAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshUVCoordsAction.html#a2a5e280b5c4412d4e2a7a28e93188883">meshlib.mrmeshpy.ChangeMeshUVCoordsAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeNameAction.html#a09921e27d44b14d4b7016c5fe09fb438">meshlib.mrmeshpy.ChangeNameAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeObjectAction.html#aac6b55d4370403bc00a24b517cf63a5c">meshlib.mrmeshpy.ChangeObjectAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeObjectColorAction.html#a2fdf614e96619f080100400a6cfcde9a">meshlib.mrmeshpy.ChangeObjectColorAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeObjectSelectedAction.html#aac211c55777ed5c8c150deed57f5fa1f">meshlib.mrmeshpy.ChangeObjectSelectedAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeObjectVisibilityAction.html#a32d019d8ff46c67826b18142d35356b6">meshlib.mrmeshpy.ChangeObjectVisibilityAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangePointCloudAction.html#ab2d020eba44e08ca2b9ee113a7205cb1">meshlib.mrmeshpy.ChangePointCloudAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangePointCloudNormalsAction.html#aa9b6cdfd12c94411ac48fc54269640b9">meshlib.mrmeshpy.ChangePointCloudNormalsAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangePointCloudPointsAction.html#a00cc7acabe64e6d9eaac32414b527455">meshlib.mrmeshpy.ChangePointCloudPointsAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangePointPointSelectionAction.html#ab8af8130c4d8e9cd408ae1136445afb4">meshlib.mrmeshpy.ChangePointPointSelectionAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangePolylineAction.html#a086bd6ea8496590f4a23c3d2c179c337">meshlib.mrmeshpy.ChangePolylineAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangePolylinePointsAction.html#a7942dca2577acbb94bed05a66380a666">meshlib.mrmeshpy.ChangePolylinePointsAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangePolylineTopologyAction.html#a7d82c8f5bac6589151be4061610a76fb">meshlib.mrmeshpy.ChangePolylineTopologyAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeSceneAction.html#a5fcf44d30c0cd4b3ef3a48a0f0ea02e0">meshlib.mrmeshpy.ChangeSceneAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeSceneObjectsOrder.html#ac8673327f4fd7926bc1d8d123e36233b">meshlib.mrmeshpy.ChangeSceneObjectsOrder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeSurfaceAction.html#a751ab2485eb6b75d0242a5f5e4102eb1">meshlib.mrmeshpy.ChangeSurfaceAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeTextureAction.html#a1c70092d85f4bb193694549d9d614231">meshlib.mrmeshpy.ChangeTextureAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeVertsColorMapAction.html#a06e5afd801c076c7cad36504a33ff73e">meshlib.mrmeshpy.ChangeVertsColorMapAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeVisualizePropertyAction.html#aa7f0c31611f9c189a242cf5a319808ab">meshlib.mrmeshpy.ChangeVisualizePropertyAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeXfAction.html#a1ac8193431535cc9d1d95e1ff9da3f54">meshlib.mrmeshpy.ChangeXfAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangVoxelSelectionAction.html#ac7fafca3b4939439685739f9a6223ff7">meshlib.mrmeshpy.ChangVoxelSelectionAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1CombinedHistoryAction.html#aac1b70036d5a22e0f04947af178adbce">meshlib.mrmeshpy.CombinedHistoryAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PartialChangeMeshAction.html#a8ca9326ae3a6cc9a3258186733222ca0">meshlib.mrmeshpy.PartialChangeMeshAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PartialChangeMeshPointsAction.html#ab39a2f2de81f5c3faf40d1cf35479a5e">meshlib.mrmeshpy.PartialChangeMeshPointsAction</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PartialChangeMeshTopologyAction.html#a8b65888da89b1b17859038ba244bd1e0">meshlib.mrmeshpy.PartialChangeMeshTopologyAction</a>.</p>
+
+</div>
+</div>
+<a id="ac6e41a82ec5f941dc51c660b21238b1c" name="ac6e41a82ec5f941dc51c660b21238b1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6e41a82ec5f941dc51c660b21238b1c">&#9670;&#160;</a></span>heapBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.HistoryAction.heapBytes </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the amount of memory this object occupies on heap
+</pre> 
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeActiveBoxAction.html#afbf27ac014b26843445f18dfbbf81a5c">meshlib.mrmeshpy.ChangeActiveBoxAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeColoringType.html#a99d7ba86c961dc3c4969925bb6eaa524">meshlib.mrmeshpy.ChangeColoringType</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeDualMarchingCubesAction.html#ad0a2b303b9b9bb21a3f6f6dd29aaaf6f">meshlib.mrmeshpy.ChangeDualMarchingCubesAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeFacesColorMapAction.html#a043a147c3f796cb6077605aa671646f2">meshlib.mrmeshpy.ChangeFacesColorMapAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeGridAction.html#abbd0d6590b2da1a7e5993049a6ef873c">meshlib.mrmeshpy.ChangeGridAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeIsoAction.html#abbb7c9377f00e03850accc3487370ca2">meshlib.mrmeshpy.ChangeIsoAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeLabelAction.html#ab59a7048f566bed7778119599e7e5990">meshlib.mrmeshpy.ChangeLabelAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeLinesColorMapAction.html#a26ab992b2e79c8af3dd831e03a61daac">meshlib.mrmeshpy.ChangeLinesColorMapAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshAction.html#a21b51b5f5e0ae8d0b190ee7d4fcd79f3">meshlib.mrmeshpy.ChangeMeshAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshCreasesAction.html#a20bff2b8a03b553431cac11933bccd3b">meshlib.mrmeshpy.ChangeMeshCreasesAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshEdgeSelectionAction.html#a738067cbd6aa85d221aaf4d89a85ddd0">meshlib.mrmeshpy.ChangeMeshEdgeSelectionAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshFaceSelectionAction.html#abed2a15ca58abb6da03917c09cae9586">meshlib.mrmeshpy.ChangeMeshFaceSelectionAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshPointsAction.html#aa6169d83847a4ad3bbac40d19edb2b28">meshlib.mrmeshpy.ChangeMeshPointsAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshTexturePerFaceAction.html#a519b5965a40844842c74e5de6eb2cdcc">meshlib.mrmeshpy.ChangeMeshTexturePerFaceAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshTopologyAction.html#a9cecdbc49c91227b63aa2b5dbb50e881">meshlib.mrmeshpy.ChangeMeshTopologyAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshUVCoordsAction.html#aaf892f91acb8e8f84db614d3c9d12846">meshlib.mrmeshpy.ChangeMeshUVCoordsAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeNameAction.html#af3d9483f60bf4fa4fedd69f78dfaddb5">meshlib.mrmeshpy.ChangeNameAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeObjectAction.html#a35429c0be9ea7c2cf44038a9087f7c03">meshlib.mrmeshpy.ChangeObjectAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeObjectColorAction.html#a0246908479c11c7014d78045869b5bcd">meshlib.mrmeshpy.ChangeObjectColorAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeObjectSelectedAction.html#aa5312638a94361846005dbcdc633d13c">meshlib.mrmeshpy.ChangeObjectSelectedAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeObjectVisibilityAction.html#ad72bf5c779c21c91be5162837b3a7365">meshlib.mrmeshpy.ChangeObjectVisibilityAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangePointCloudAction.html#a36db7264371490054644eeaaea500811">meshlib.mrmeshpy.ChangePointCloudAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangePointCloudNormalsAction.html#a5d1fc941d0c1e465414eae92409a35b0">meshlib.mrmeshpy.ChangePointCloudNormalsAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangePointCloudPointsAction.html#ac743d5b8e09fa25b633e49cd2046075a">meshlib.mrmeshpy.ChangePointCloudPointsAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangePointPointSelectionAction.html#afd77fdfdb2ad5e5bea129c9b25942bc3">meshlib.mrmeshpy.ChangePointPointSelectionAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangePolylineAction.html#ae1e8a995edffa58f7f7764a1579133bf">meshlib.mrmeshpy.ChangePolylineAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangePolylinePointsAction.html#a54f4f3b0622b6f701b28119df074dec0">meshlib.mrmeshpy.ChangePolylinePointsAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangePolylineTopologyAction.html#aac83b4199e636bd87eec1284ea356795">meshlib.mrmeshpy.ChangePolylineTopologyAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeSceneAction.html#af120634eff8a6c32b3db2276297bc9f2">meshlib.mrmeshpy.ChangeSceneAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeSceneObjectsOrder.html#a7e7388e23e3edbc9c9a4ba0f80ba4567">meshlib.mrmeshpy.ChangeSceneObjectsOrder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeSurfaceAction.html#af6fc2d72925e5acbd0aa82e47c04357b">meshlib.mrmeshpy.ChangeSurfaceAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeTextureAction.html#aea1273ebf6882237a502294a445f44ab">meshlib.mrmeshpy.ChangeTextureAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeVertsColorMapAction.html#aaf1f3b650d753714652e1d234baeaf24">meshlib.mrmeshpy.ChangeVertsColorMapAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeVisualizePropertyAction.html#a982da8ed22199913bbad6f1c4d6d47b5">meshlib.mrmeshpy.ChangeVisualizePropertyAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeXfAction.html#ad2f75e082747b4c450c14023d8b23001">meshlib.mrmeshpy.ChangeXfAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangVoxelSelectionAction.html#ab5ce9c75763012d744eded034f738cb0">meshlib.mrmeshpy.ChangVoxelSelectionAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1CombinedHistoryAction.html#a3703ef8fb9b4bef0b2300c40b592303d">meshlib.mrmeshpy.CombinedHistoryAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PartialChangeMeshAction.html#a74e1ab0339232cbb0df320eb601e3ce9">meshlib.mrmeshpy.PartialChangeMeshAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PartialChangeMeshPointsAction.html#af6559738479702089c0d92299a9f3d40">meshlib.mrmeshpy.PartialChangeMeshPointsAction</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PartialChangeMeshTopologyAction.html#a3ca4792b07c01ace31895964726eb7ae">meshlib.mrmeshpy.PartialChangeMeshTopologyAction</a>.</p>
+
+</div>
+</div>
+<a id="ada66ef9ffc8db347673b41c6207d375a" name="ada66ef9ffc8db347673b41c6207d375a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada66ef9ffc8db347673b41c6207d375a">&#9670;&#160;</a></span>name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> str meshlib.mrmeshpy.HistoryAction.name </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeActiveBoxAction.html#a2188a6c0b7850c21c63793c49821513b">meshlib.mrmeshpy.ChangeActiveBoxAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeColoringType.html#aa4edcfbe12441dc7cb35ee1710962941">meshlib.mrmeshpy.ChangeColoringType</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeDualMarchingCubesAction.html#a4eb5d1bce5463a88e1aa831b24cc8b52">meshlib.mrmeshpy.ChangeDualMarchingCubesAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeFacesColorMapAction.html#a4dc2566834443817be967ca2d6a628a2">meshlib.mrmeshpy.ChangeFacesColorMapAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeGridAction.html#a8d82e23bab16dbec3c22b2babeb52846">meshlib.mrmeshpy.ChangeGridAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeIsoAction.html#a6caf0591e177481975dd9eb54ed99c0c">meshlib.mrmeshpy.ChangeIsoAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeLabelAction.html#a4147a67d9897d8749415a851210cd187">meshlib.mrmeshpy.ChangeLabelAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeLinesColorMapAction.html#a49ac34074095b85d9a6b5b33bb731db7">meshlib.mrmeshpy.ChangeLinesColorMapAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshAction.html#a9b4df62334c46a1fa8e267c3d038a636">meshlib.mrmeshpy.ChangeMeshAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshCreasesAction.html#a3645b17931906124f074ae8ad3068488">meshlib.mrmeshpy.ChangeMeshCreasesAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshEdgeSelectionAction.html#a444e09fd4d3b90a3c61e7a2b94e37037">meshlib.mrmeshpy.ChangeMeshEdgeSelectionAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshFaceSelectionAction.html#a1ebf998175a73721a68a109171931066">meshlib.mrmeshpy.ChangeMeshFaceSelectionAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshPointsAction.html#a9624878e059915850b89862a34c605bc">meshlib.mrmeshpy.ChangeMeshPointsAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshTexturePerFaceAction.html#acf70b85957d3dcab72f830f9d4acfb17">meshlib.mrmeshpy.ChangeMeshTexturePerFaceAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshTopologyAction.html#a801c7c1f22336ee79bc9d83ba46f25b4">meshlib.mrmeshpy.ChangeMeshTopologyAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeMeshUVCoordsAction.html#abf35117e6a3498d2ee8a456527ef6996">meshlib.mrmeshpy.ChangeMeshUVCoordsAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeNameAction.html#aa0ee9e23f5586f7d8d55d7d8c34611dc">meshlib.mrmeshpy.ChangeNameAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeObjectAction.html#a490ef4b9b6286f2d0ca757b02310a3d8">meshlib.mrmeshpy.ChangeObjectAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeObjectColorAction.html#a68b989595c241ac9f83e8bf906598fcb">meshlib.mrmeshpy.ChangeObjectColorAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeObjectSelectedAction.html#ab50fe5c7262990b27b34acf4ff22b745">meshlib.mrmeshpy.ChangeObjectSelectedAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeObjectVisibilityAction.html#a80b4eefadf7161b5143911ea7638acf6">meshlib.mrmeshpy.ChangeObjectVisibilityAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangePointCloudAction.html#a7f24a56afeb0b9f58806e21f71e913d9">meshlib.mrmeshpy.ChangePointCloudAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangePointCloudNormalsAction.html#a3b239c311a9c7cc800eb269f23a42476">meshlib.mrmeshpy.ChangePointCloudNormalsAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangePointCloudPointsAction.html#a791deb355a9b15ccfe0d792580ecb49a">meshlib.mrmeshpy.ChangePointCloudPointsAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangePointPointSelectionAction.html#a966e7a73b3943a7d6f8bfa24900d3103">meshlib.mrmeshpy.ChangePointPointSelectionAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangePolylineAction.html#a88089a54aaba7df8bd085f732b51bbb6">meshlib.mrmeshpy.ChangePolylineAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangePolylinePointsAction.html#ad818e0e48c0eff857e9e2b6971f1ce67">meshlib.mrmeshpy.ChangePolylinePointsAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangePolylineTopologyAction.html#a2ff0a3369cc2bd6d14f57390f814b3de">meshlib.mrmeshpy.ChangePolylineTopologyAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeSceneAction.html#adfc63d1db2dfbba0d35cecc74ed516de">meshlib.mrmeshpy.ChangeSceneAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeSceneObjectsOrder.html#a029e2a90e441b457603d9b6b34aebfff">meshlib.mrmeshpy.ChangeSceneObjectsOrder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeSurfaceAction.html#a1577c1facab59567e4ccacf1cced4a44">meshlib.mrmeshpy.ChangeSurfaceAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeTextureAction.html#ad198b4d3ac0822ecc81d0d9a88df6c9d">meshlib.mrmeshpy.ChangeTextureAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeVertsColorMapAction.html#a8b4874c88d5c5367a6f32ca79c8254cf">meshlib.mrmeshpy.ChangeVertsColorMapAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeVisualizePropertyAction.html#aebe957987a60930786ab298eb35cdbee">meshlib.mrmeshpy.ChangeVisualizePropertyAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangeXfAction.html#a7d51736b0eb885964b85ae46930a9909">meshlib.mrmeshpy.ChangeXfAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ChangVoxelSelectionAction.html#aba091b463a9964cc4471f363c6f2e896">meshlib.mrmeshpy.ChangVoxelSelectionAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1CombinedHistoryAction.html#a02a8984a63488022164e83aff8399b0b">meshlib.mrmeshpy.CombinedHistoryAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PartialChangeMeshAction.html#ae748db696f765813395a06aca3e262bc">meshlib.mrmeshpy.PartialChangeMeshAction</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PartialChangeMeshPointsAction.html#af358c00e6e935c980d220c3349d38978">meshlib.mrmeshpy.PartialChangeMeshPointsAction</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PartialChangeMeshTopologyAction.html#a83da51159c39d34e5648a8f71c2be033">meshlib.mrmeshpy.PartialChangeMeshTopologyAction</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1HistoryAction.html">HistoryAction</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

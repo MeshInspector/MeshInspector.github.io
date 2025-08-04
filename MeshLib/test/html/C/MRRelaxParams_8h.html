@@ -1,0 +1,1042 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRRelaxParams.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRRelaxParams_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRRelaxParams.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
+</div>
+<p><a href="MRRelaxParams_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a0961ed14052ec630a4f9e367afe11da3" id="r_a0961ed14052ec630a4f9e367afe11da3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a></td></tr>
+<tr class="separator:a0961ed14052ec630a4f9e367afe11da3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cb564fdc55d5745d0ef594a88b81646" id="r_a1cb564fdc55d5745d0ef594a88b81646"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a></td></tr>
+<tr class="separator:a1cb564fdc55d5745d0ef594a88b81646"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc5d88756b2c801276a68f81a54a22dc" id="r_adc5d88756b2c801276a68f81a54a22dc"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a></td></tr>
+<tr class="separator:adc5d88756b2c801276a68f81a54a22dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a576d261d78807ab4a67d7c0977066804" id="r_a576d261d78807ab4a67d7c0977066804"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="group__PointCloudGroup.html#ga576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a></td></tr>
+<tr class="separator:a576d261d78807ab4a67d7c0977066804"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a957799ae79eb3501ff98b4a3c3781bc0" id="r_a957799ae79eb3501ff98b4a3c3781bc0"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="group__PointCloudGroup.html#ga957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a></td></tr>
+<tr class="separator:a957799ae79eb3501ff98b4a3c3781bc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3df50e76b078a1626dd994e1df803764" id="r_a3df50e76b078a1626dd994e1df803764"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a></td></tr>
+<tr class="separator:a3df50e76b078a1626dd994e1df803764"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbad516b8cbb2b5069857163ee94db3f" id="r_acbad516b8cbb2b5069857163ee94db3f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a></td></tr>
+<tr class="separator:acbad516b8cbb2b5069857163ee94db3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9afe6f617031f8762108430bbdebd3f" id="r_ad9afe6f617031f8762108430bbdebd3f"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9afe6f617031f8762108430bbdebd3f">MR_RelaxApproxType</a></td></tr>
+<tr class="separator:ad9afe6f617031f8762108430bbdebd3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:aa156d1cebb38c8a65846c4d9c006012a" id="r_aa156d1cebb38c8a65846c4d9c006012a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#aa156d1cebb38c8a65846c4d9c006012aa0e5c1dd8eaff3292c00303440503c71a">MR_RelaxApproxType_Planar</a> = 0
+, <a class="el" href="#aa156d1cebb38c8a65846c4d9c006012aa597bee20b1dba23ef679b01a3e00a379">MR_RelaxApproxType_Quadric</a> = 1
+ }</td></tr>
+<tr class="separator:aa156d1cebb38c8a65846c4d9c006012a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a4d81850f53f19a0f17371b86d6c3eee7" id="r_a4d81850f53f19a0f17371b86d6c3eee7"><td class="memItemLeft" align="right" valign="top">MRC_API const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d81850f53f19a0f17371b86d6c3eee7">MR_RelaxParams_Get_iterations</a> (const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *_this)</td></tr>
+<tr class="separator:a4d81850f53f19a0f17371b86d6c3eee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d4edc7f49b219c7d9aa32404b8fb4e2" id="r_a7d4edc7f49b219c7d9aa32404b8fb4e2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d4edc7f49b219c7d9aa32404b8fb4e2">MR_RelaxParams_Set_iterations</a> (<a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *_this, int32_t value)</td></tr>
+<tr class="separator:a7d4edc7f49b219c7d9aa32404b8fb4e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab056d2c7ffa5d64bc7367c7641f85578" id="r_ab056d2c7ffa5d64bc7367c7641f85578"><td class="memItemLeft" align="right" valign="top">MRC_API int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab056d2c7ffa5d64bc7367c7641f85578">MR_RelaxParams_GetMutable_iterations</a> (<a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *_this)</td></tr>
+<tr class="separator:ab056d2c7ffa5d64bc7367c7641f85578"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f8ee19f99322450b383b09ae2185978" id="r_a5f8ee19f99322450b383b09ae2185978"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f8ee19f99322450b383b09ae2185978">MR_RelaxParams_Get_region</a> (const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *_this)</td></tr>
+<tr class="separator:a5f8ee19f99322450b383b09ae2185978"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a758bc619e407735c4b809cb43b201353" id="r_a758bc619e407735c4b809cb43b201353"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a758bc619e407735c4b809cb43b201353">MR_RelaxParams_Set_region</a> (<a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *_this, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *value)</td></tr>
+<tr class="separator:a758bc619e407735c4b809cb43b201353"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52484e6ec5df2545e76c5d5408885fe8" id="r_a52484e6ec5df2545e76c5d5408885fe8"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52484e6ec5df2545e76c5d5408885fe8">MR_RelaxParams_GetMutable_region</a> (<a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *_this)</td></tr>
+<tr class="separator:a52484e6ec5df2545e76c5d5408885fe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a528ce75912bdbadeffb77d9af99c06b4" id="r_a528ce75912bdbadeffb77d9af99c06b4"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a528ce75912bdbadeffb77d9af99c06b4">MR_RelaxParams_Get_force</a> (const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *_this)</td></tr>
+<tr class="separator:a528ce75912bdbadeffb77d9af99c06b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a58a8d2b7506c56070261f7b6b81217" id="r_a4a58a8d2b7506c56070261f7b6b81217"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a58a8d2b7506c56070261f7b6b81217">MR_RelaxParams_Set_force</a> (<a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *_this, float value)</td></tr>
+<tr class="separator:a4a58a8d2b7506c56070261f7b6b81217"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7f4c026e2869fed95cb8aff08ee6459" id="r_ae7f4c026e2869fed95cb8aff08ee6459"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7f4c026e2869fed95cb8aff08ee6459">MR_RelaxParams_GetMutable_force</a> (<a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *_this)</td></tr>
+<tr class="separator:ae7f4c026e2869fed95cb8aff08ee6459"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b56c5eb4a44eb66e2a8cbb299a13dec" id="r_a5b56c5eb4a44eb66e2a8cbb299a13dec"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b56c5eb4a44eb66e2a8cbb299a13dec">MR_RelaxParams_Get_limitNearInitial</a> (const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *_this)</td></tr>
+<tr class="separator:a5b56c5eb4a44eb66e2a8cbb299a13dec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a33cc6b85e6e6b98c14c10ad3f8e0ac" id="r_a8a33cc6b85e6e6b98c14c10ad3f8e0ac"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a33cc6b85e6e6b98c14c10ad3f8e0ac">MR_RelaxParams_Set_limitNearInitial</a> (<a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *_this, bool value)</td></tr>
+<tr class="separator:a8a33cc6b85e6e6b98c14c10ad3f8e0ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30dba1537cc2bb61a72a24abcd6acbb0" id="r_a30dba1537cc2bb61a72a24abcd6acbb0"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30dba1537cc2bb61a72a24abcd6acbb0">MR_RelaxParams_GetMutable_limitNearInitial</a> (<a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *_this)</td></tr>
+<tr class="separator:a30dba1537cc2bb61a72a24abcd6acbb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad911b4204b6bd435b4d7735cee98badc" id="r_ad911b4204b6bd435b4d7735cee98badc"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad911b4204b6bd435b4d7735cee98badc">MR_RelaxParams_Get_maxInitialDist</a> (const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *_this)</td></tr>
+<tr class="separator:ad911b4204b6bd435b4d7735cee98badc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a055e7dac1a2d14cf6899c633cd55b757" id="r_a055e7dac1a2d14cf6899c633cd55b757"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a055e7dac1a2d14cf6899c633cd55b757">MR_RelaxParams_Set_maxInitialDist</a> (<a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *_this, float value)</td></tr>
+<tr class="separator:a055e7dac1a2d14cf6899c633cd55b757"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac55bbbd1bae1d22f45122a0ff2fa6edc" id="r_ac55bbbd1bae1d22f45122a0ff2fa6edc"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac55bbbd1bae1d22f45122a0ff2fa6edc">MR_RelaxParams_GetMutable_maxInitialDist</a> (<a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *_this)</td></tr>
+<tr class="separator:ac55bbbd1bae1d22f45122a0ff2fa6edc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab696473c52e65af43994300f543d90e" id="r_aab696473c52e65af43994300f543d90e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab696473c52e65af43994300f543d90e">MR_RelaxParams_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:aab696473c52e65af43994300f543d90e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa389f984e7fa6f1327c875d59ac97885" id="r_aa389f984e7fa6f1327c875d59ac97885"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa389f984e7fa6f1327c875d59ac97885">MR_RelaxParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:aa389f984e7fa6f1327c875d59ac97885"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3289571f730d394247ce3921121c9474" id="r_a3289571f730d394247ce3921121c9474"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3289571f730d394247ce3921121c9474">MR_RelaxParams_OffsetPtr</a> (const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a3289571f730d394247ce3921121c9474"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a3289571f730d394247ce3921121c9474"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1db5147a8df01cac34ac5bc1273fed9" id="r_aa1db5147a8df01cac34ac5bc1273fed9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1db5147a8df01cac34ac5bc1273fed9">MR_RelaxParams_OffsetMutablePtr</a> (<a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:aa1db5147a8df01cac34ac5bc1273fed9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:aa1db5147a8df01cac34ac5bc1273fed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafc497fa96c64c1d3e1461da0886e431" id="r_aafc497fa96c64c1d3e1461da0886e431"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafc497fa96c64c1d3e1461da0886e431">MR_RelaxParams_StaticDowncastTo_MR_MeshApproxRelaxParams</a> (const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *object)</td></tr>
+<tr class="separator:aafc497fa96c64c1d3e1461da0886e431"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06775175bfbc3163ea5b82a266ae3ad2" id="r_a06775175bfbc3163ea5b82a266ae3ad2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06775175bfbc3163ea5b82a266ae3ad2">MR_RelaxParams_MutableStaticDowncastTo_MR_MeshApproxRelaxParams</a> (<a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *object)</td></tr>
+<tr class="separator:a06775175bfbc3163ea5b82a266ae3ad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c66f0fc2784c9418a48726da804a3e7" id="r_a3c66f0fc2784c9418a48726da804a3e7"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c66f0fc2784c9418a48726da804a3e7">MR_RelaxParams_StaticDowncastTo_MR_MeshEqualizeTriAreasParams</a> (const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *object)</td></tr>
+<tr class="separator:a3c66f0fc2784c9418a48726da804a3e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e705f73342893e5d62d8db4f06b9b0a" id="r_a2e705f73342893e5d62d8db4f06b9b0a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e705f73342893e5d62d8db4f06b9b0a">MR_RelaxParams_MutableStaticDowncastTo_MR_MeshEqualizeTriAreasParams</a> (<a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *object)</td></tr>
+<tr class="separator:a2e705f73342893e5d62d8db4f06b9b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acebd9e34be36ad6b63b83169ab1f915e" id="r_acebd9e34be36ad6b63b83169ab1f915e"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acebd9e34be36ad6b63b83169ab1f915e">MR_RelaxParams_StaticDowncastTo_MR_MeshRelaxParams</a> (const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *object)</td></tr>
+<tr class="separator:acebd9e34be36ad6b63b83169ab1f915e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d5ae77b99ca4e78d2df0bb728064864" id="r_a7d5ae77b99ca4e78d2df0bb728064864"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d5ae77b99ca4e78d2df0bb728064864">MR_RelaxParams_MutableStaticDowncastTo_MR_MeshRelaxParams</a> (<a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *object)</td></tr>
+<tr class="separator:a7d5ae77b99ca4e78d2df0bb728064864"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d361f29ef6199cac680b7560f87c121" id="r_a7d361f29ef6199cac680b7560f87c121"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="group__PointCloudGroup.html#ga576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d361f29ef6199cac680b7560f87c121">MR_RelaxParams_StaticDowncastTo_MR_PointCloudApproxRelaxParams</a> (const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *object)</td></tr>
+<tr class="separator:a7d361f29ef6199cac680b7560f87c121"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6d9636bd0ae01ba7bb0cd30fe1000d6" id="r_ad6d9636bd0ae01ba7bb0cd30fe1000d6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__PointCloudGroup.html#ga576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6d9636bd0ae01ba7bb0cd30fe1000d6">MR_RelaxParams_MutableStaticDowncastTo_MR_PointCloudApproxRelaxParams</a> (<a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *object)</td></tr>
+<tr class="separator:ad6d9636bd0ae01ba7bb0cd30fe1000d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6a647fd7d7b1a9e251dc1a1dc6d0c49" id="r_af6a647fd7d7b1a9e251dc1a1dc6d0c49"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="group__PointCloudGroup.html#ga957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6a647fd7d7b1a9e251dc1a1dc6d0c49">MR_RelaxParams_StaticDowncastTo_MR_PointCloudRelaxParams</a> (const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *object)</td></tr>
+<tr class="separator:af6a647fd7d7b1a9e251dc1a1dc6d0c49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fea7300d8580f60a4ea6d5d4b99f1a8" id="r_a0fea7300d8580f60a4ea6d5d4b99f1a8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__PointCloudGroup.html#ga957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fea7300d8580f60a4ea6d5d4b99f1a8">MR_RelaxParams_MutableStaticDowncastTo_MR_PointCloudRelaxParams</a> (<a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *object)</td></tr>
+<tr class="separator:a0fea7300d8580f60a4ea6d5d4b99f1a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c97fb0b688c74f9948bf1b7d9308248" id="r_a0c97fb0b688c74f9948bf1b7d9308248"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c97fb0b688c74f9948bf1b7d9308248">MR_RelaxParams_ConstructFromAnother</a> (const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *_other)</td></tr>
+<tr class="separator:a0c97fb0b688c74f9948bf1b7d9308248"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8c51028890270f45d512100b5bae863" id="r_af8c51028890270f45d512100b5bae863"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8c51028890270f45d512100b5bae863">MR_RelaxParams_Destroy</a> (const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *_this)</td></tr>
+<tr class="memdesc:af8c51028890270f45d512100b5bae863"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_RelaxParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:af8c51028890270f45d512100b5bae863"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adba5432e899b4b0a166a4ccd9afee4e9" id="r_adba5432e899b4b0a166a4ccd9afee4e9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adba5432e899b4b0a166a4ccd9afee4e9">MR_RelaxParams_DestroyArray</a> (const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *_this)</td></tr>
+<tr class="memdesc:adba5432e899b4b0a166a4ccd9afee4e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_RelaxParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:adba5432e899b4b0a166a4ccd9afee4e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cc82208d6d92f901f5e99a2b156b218" id="r_a6cc82208d6d92f901f5e99a2b156b218"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cc82208d6d92f901f5e99a2b156b218">MR_RelaxParams_AssignFromAnother</a> (<a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *_this, const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *_other)</td></tr>
+<tr class="separator:a6cc82208d6d92f901f5e99a2b156b218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a0961ed14052ec630a4f9e367afe11da3" name="a0961ed14052ec630a4f9e367afe11da3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0961ed14052ec630a4f9e367afe11da3">&#9670;&#160;</a></span>MR_MeshApproxRelaxParams</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> <a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1cb564fdc55d5745d0ef594a88b81646" name="a1cb564fdc55d5745d0ef594a88b81646"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cb564fdc55d5745d0ef594a88b81646">&#9670;&#160;</a></span>MR_MeshEqualizeTriAreasParams</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> <a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adc5d88756b2c801276a68f81a54a22dc" name="adc5d88756b2c801276a68f81a54a22dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc5d88756b2c801276a68f81a54a22dc">&#9670;&#160;</a></span>MR_MeshRelaxParams</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a576d261d78807ab4a67d7c0977066804" name="a576d261d78807ab4a67d7c0977066804"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a576d261d78807ab4a67d7c0977066804">&#9670;&#160;</a></span>MR_PointCloudApproxRelaxParams</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="group__PointCloudGroup.html#ga576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> <a class="el" href="group__PointCloudGroup.html#ga576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a957799ae79eb3501ff98b4a3c3781bc0" name="a957799ae79eb3501ff98b4a3c3781bc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a957799ae79eb3501ff98b4a3c3781bc0">&#9670;&#160;</a></span>MR_PointCloudRelaxParams</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="group__PointCloudGroup.html#ga957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> <a class="el" href="group__PointCloudGroup.html#ga957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad9afe6f617031f8762108430bbdebd3f" name="ad9afe6f617031f8762108430bbdebd3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9afe6f617031f8762108430bbdebd3f">&#9670;&#160;</a></span>MR_RelaxApproxType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int32_t <a class="el" href="#ad9afe6f617031f8762108430bbdebd3f">MR_RelaxApproxType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acbad516b8cbb2b5069857163ee94db3f" name="acbad516b8cbb2b5069857163ee94db3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbad516b8cbb2b5069857163ee94db3f">&#9670;&#160;</a></span>MR_RelaxParams</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code>. Classes derived from this: Directly: (non-virtually) <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudRelaxParams.html">MR::PointCloudRelaxParams</a></code> Indirectly: (non-virtually) <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code> <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudApproxRelaxParams.html">MR::PointCloudApproxRelaxParams</a></code> </p>
+
+</div>
+</div>
+<a id="a3df50e76b078a1626dd994e1df803764" name="a3df50e76b078a1626dd994e1df803764"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3df50e76b078a1626dd994e1df803764">&#9670;&#160;</a></span>MR_VertBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="aa156d1cebb38c8a65846c4d9c006012a" name="aa156d1cebb38c8a65846c4d9c006012a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa156d1cebb38c8a65846c4d9c006012a">&#9670;&#160;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa156d1cebb38c8a65846c4d9c006012aa0e5c1dd8eaff3292c00303440503c71a" name="aa156d1cebb38c8a65846c4d9c006012aa0e5c1dd8eaff3292c00303440503c71a"></a>MR_RelaxApproxType_Planar&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa156d1cebb38c8a65846c4d9c006012aa597bee20b1dba23ef679b01a3e00a379" name="aa156d1cebb38c8a65846c4d9c006012aa597bee20b1dba23ef679b01a3e00a379"></a>MR_RelaxApproxType_Quadric&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a6cc82208d6d92f901f5e99a2b156b218" name="a6cc82208d6d92f901f5e99a2b156b218"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cc82208d6d92f901f5e99a2b156b218">&#9670;&#160;</a></span>MR_RelaxParams_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> * MR_RelaxParams_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a0c97fb0b688c74f9948bf1b7d9308248" name="a0c97fb0b688c74f9948bf1b7d9308248"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c97fb0b688c74f9948bf1b7d9308248">&#9670;&#160;</a></span>MR_RelaxParams_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> * MR_RelaxParams_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af8c51028890270f45d512100b5bae863" title="Destroys a heap-allocated instance of MR_RelaxParams. Does nothing if the pointer is null.">MR_RelaxParams_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aab696473c52e65af43994300f543d90e" name="aab696473c52e65af43994300f543d90e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab696473c52e65af43994300f543d90e">&#9670;&#160;</a></span>MR_RelaxParams_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> * MR_RelaxParams_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af8c51028890270f45d512100b5bae863" title="Destroys a heap-allocated instance of MR_RelaxParams. Does nothing if the pointer is null.">MR_RelaxParams_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aa389f984e7fa6f1327c875d59ac97885" name="aa389f984e7fa6f1327c875d59ac97885"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa389f984e7fa6f1327c875d59ac97885">&#9670;&#160;</a></span>MR_RelaxParams_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> * MR_RelaxParams_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#adba5432e899b4b0a166a4ccd9afee4e9" title="Destroys a heap-allocated array of MR_RelaxParams. Does nothing if the pointer is null.">MR_RelaxParams_DestroyArray()</a></code>. Use <code><a class="el" href="#aa1db5147a8df01cac34ac5bc1273fed9" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_RelaxParams_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a3289571f730d394247ce3921121c9474" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_RelaxParams_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="af8c51028890270f45d512100b5bae863" name="af8c51028890270f45d512100b5bae863"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8c51028890270f45d512100b5bae863">&#9670;&#160;</a></span>MR_RelaxParams_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RelaxParams_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_RelaxParams</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="adba5432e899b4b0a166a4ccd9afee4e9" name="adba5432e899b4b0a166a4ccd9afee4e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adba5432e899b4b0a166a4ccd9afee4e9">&#9670;&#160;</a></span>MR_RelaxParams_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RelaxParams_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_RelaxParams</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a528ce75912bdbadeffb77d9af99c06b4" name="a528ce75912bdbadeffb77d9af99c06b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a528ce75912bdbadeffb77d9af99c06b4">&#9670;&#160;</a></span>MR_RelaxParams_Get_force()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const float * MR_RelaxParams_Get_force </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>speed of relaxing, typical values (0.0, 0.5] Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> named <code>force</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a4d81850f53f19a0f17371b86d6c3eee7" name="a4d81850f53f19a0f17371b86d6c3eee7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d81850f53f19a0f17371b86d6c3eee7">&#9670;&#160;</a></span>MR_RelaxParams_Get_iterations()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const int32_t * MR_RelaxParams_Get_iterations </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>number of iterations Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> named <code>iterations</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a5b56c5eb4a44eb66e2a8cbb299a13dec" name="a5b56c5eb4a44eb66e2a8cbb299a13dec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b56c5eb4a44eb66e2a8cbb299a13dec">&#9670;&#160;</a></span>MR_RelaxParams_Get_limitNearInitial()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const bool * MR_RelaxParams_Get_limitNearInitial </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if true then maximal displacement of each point during denoising will be limited Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> named <code>limitNearInitial</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ad911b4204b6bd435b4d7735cee98badc" name="ad911b4204b6bd435b4d7735cee98badc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad911b4204b6bd435b4d7735cee98badc">&#9670;&#160;</a></span>MR_RelaxParams_Get_maxInitialDist()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const float * MR_RelaxParams_Get_maxInitialDist </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> named <code>maxInitialDist</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a5f8ee19f99322450b383b09ae2185978" name="a5f8ee19f99322450b383b09ae2185978"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f8ee19f99322450b383b09ae2185978">&#9670;&#160;</a></span>MR_RelaxParams_Get_region()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const  * MR_RelaxParams_Get_region </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>region to relax Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ae7f4c026e2869fed95cb8aff08ee6459" name="ae7f4c026e2869fed95cb8aff08ee6459"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7f4c026e2869fed95cb8aff08ee6459">&#9670;&#160;</a></span>MR_RelaxParams_GetMutable_force()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float * MR_RelaxParams_GetMutable_force </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>speed of relaxing, typical values (0.0, 0.5] Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> named <code>force</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ab056d2c7ffa5d64bc7367c7641f85578" name="ab056d2c7ffa5d64bc7367c7641f85578"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab056d2c7ffa5d64bc7367c7641f85578">&#9670;&#160;</a></span>MR_RelaxParams_GetMutable_iterations()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API int32_t * MR_RelaxParams_GetMutable_iterations </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>number of iterations Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> named <code>iterations</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a30dba1537cc2bb61a72a24abcd6acbb0" name="a30dba1537cc2bb61a72a24abcd6acbb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30dba1537cc2bb61a72a24abcd6acbb0">&#9670;&#160;</a></span>MR_RelaxParams_GetMutable_limitNearInitial()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool * MR_RelaxParams_GetMutable_limitNearInitial </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if true then maximal displacement of each point during denoising will be limited Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> named <code>limitNearInitial</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ac55bbbd1bae1d22f45122a0ff2fa6edc" name="ac55bbbd1bae1d22f45122a0ff2fa6edc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac55bbbd1bae1d22f45122a0ff2fa6edc">&#9670;&#160;</a></span>MR_RelaxParams_GetMutable_maxInitialDist()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float * MR_RelaxParams_GetMutable_maxInitialDist </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> named <code>maxInitialDist</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a52484e6ec5df2545e76c5d5408885fe8" name="a52484e6ec5df2545e76c5d5408885fe8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52484e6ec5df2545e76c5d5408885fe8">&#9670;&#160;</a></span>MR_RelaxParams_GetMutable_region()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> ** MR_RelaxParams_GetMutable_region </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>region to relax Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a06775175bfbc3163ea5b82a266ae3ad2" name="a06775175bfbc3163ea5b82a266ae3ad2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06775175bfbc3163ea5b82a266ae3ad2">&#9670;&#160;</a></span>MR_RelaxParams_MutableStaticDowncastTo_MR_MeshApproxRelaxParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> * MR_RelaxParams_MutableStaticDowncastTo_MR_MeshApproxRelaxParams </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> to a derived class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. </p>
+
+</div>
+</div>
+<a id="a2e705f73342893e5d62d8db4f06b9b0a" name="a2e705f73342893e5d62d8db4f06b9b0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e705f73342893e5d62d8db4f06b9b0a">&#9670;&#160;</a></span>MR_RelaxParams_MutableStaticDowncastTo_MR_MeshEqualizeTriAreasParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> * MR_RelaxParams_MutableStaticDowncastTo_MR_MeshEqualizeTriAreasParams </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> to a derived class <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. </p>
+
+</div>
+</div>
+<a id="a7d5ae77b99ca4e78d2df0bb728064864" name="a7d5ae77b99ca4e78d2df0bb728064864"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d5ae77b99ca4e78d2df0bb728064864">&#9670;&#160;</a></span>MR_RelaxParams_MutableStaticDowncastTo_MR_MeshRelaxParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> * MR_RelaxParams_MutableStaticDowncastTo_MR_MeshRelaxParams </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> to a derived class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. </p>
+
+</div>
+</div>
+<a id="ad6d9636bd0ae01ba7bb0cd30fe1000d6" name="ad6d9636bd0ae01ba7bb0cd30fe1000d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6d9636bd0ae01ba7bb0cd30fe1000d6">&#9670;&#160;</a></span>MR_RelaxParams_MutableStaticDowncastTo_MR_PointCloudApproxRelaxParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="group__PointCloudGroup.html#ga576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> * MR_RelaxParams_MutableStaticDowncastTo_MR_PointCloudApproxRelaxParams </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> to a derived class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudApproxRelaxParams.html">MR::PointCloudApproxRelaxParams</a></code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. </p>
+
+</div>
+</div>
+<a id="a0fea7300d8580f60a4ea6d5d4b99f1a8" name="a0fea7300d8580f60a4ea6d5d4b99f1a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fea7300d8580f60a4ea6d5d4b99f1a8">&#9670;&#160;</a></span>MR_RelaxParams_MutableStaticDowncastTo_MR_PointCloudRelaxParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="group__PointCloudGroup.html#ga957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> * MR_RelaxParams_MutableStaticDowncastTo_MR_PointCloudRelaxParams </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> to a derived class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudRelaxParams.html">MR::PointCloudRelaxParams</a></code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. </p>
+
+</div>
+</div>
+<a id="aa1db5147a8df01cac34ac5bc1273fed9" name="aa1db5147a8df01cac34ac5bc1273fed9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1db5147a8df01cac34ac5bc1273fed9">&#9670;&#160;</a></span>MR_RelaxParams_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> * MR_RelaxParams_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a3289571f730d394247ce3921121c9474" name="a3289571f730d394247ce3921121c9474"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3289571f730d394247ce3921121c9474">&#9670;&#160;</a></span>MR_RelaxParams_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> * MR_RelaxParams_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a4a58a8d2b7506c56070261f7b6b81217" name="a4a58a8d2b7506c56070261f7b6b81217"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a58a8d2b7506c56070261f7b6b81217">&#9670;&#160;</a></span>MR_RelaxParams_Set_force()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RelaxParams_Set_force </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>speed of relaxing, typical values (0.0, 0.5] Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> named <code>force</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a7d4edc7f49b219c7d9aa32404b8fb4e2" name="a7d4edc7f49b219c7d9aa32404b8fb4e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d4edc7f49b219c7d9aa32404b8fb4e2">&#9670;&#160;</a></span>MR_RelaxParams_Set_iterations()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RelaxParams_Set_iterations </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>number of iterations Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> named <code>iterations</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a8a33cc6b85e6e6b98c14c10ad3f8e0ac" name="a8a33cc6b85e6e6b98c14c10ad3f8e0ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a33cc6b85e6e6b98c14c10ad3f8e0ac">&#9670;&#160;</a></span>MR_RelaxParams_Set_limitNearInitial()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RelaxParams_Set_limitNearInitial </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if true then maximal displacement of each point during denoising will be limited Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> named <code>limitNearInitial</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a055e7dac1a2d14cf6899c633cd55b757" name="a055e7dac1a2d14cf6899c633cd55b757"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a055e7dac1a2d14cf6899c633cd55b757">&#9670;&#160;</a></span>MR_RelaxParams_Set_maxInitialDist()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RelaxParams_Set_maxInitialDist </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> named <code>maxInitialDist</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a758bc619e407735c4b809cb43b201353" name="a758bc619e407735c4b809cb43b201353"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a758bc619e407735c4b809cb43b201353">&#9670;&#160;</a></span>MR_RelaxParams_Set_region()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RelaxParams_Set_region </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>region to relax Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aafc497fa96c64c1d3e1461da0886e431" name="aafc497fa96c64c1d3e1461da0886e431"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafc497fa96c64c1d3e1461da0886e431">&#9670;&#160;</a></span>MR_RelaxParams_StaticDowncastTo_MR_MeshApproxRelaxParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> * MR_RelaxParams_StaticDowncastTo_MR_MeshApproxRelaxParams </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> to a derived class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="a3c66f0fc2784c9418a48726da804a3e7" name="a3c66f0fc2784c9418a48726da804a3e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c66f0fc2784c9418a48726da804a3e7">&#9670;&#160;</a></span>MR_RelaxParams_StaticDowncastTo_MR_MeshEqualizeTriAreasParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> * MR_RelaxParams_StaticDowncastTo_MR_MeshEqualizeTriAreasParams </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> to a derived class <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="acebd9e34be36ad6b63b83169ab1f915e" name="acebd9e34be36ad6b63b83169ab1f915e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acebd9e34be36ad6b63b83169ab1f915e">&#9670;&#160;</a></span>MR_RelaxParams_StaticDowncastTo_MR_MeshRelaxParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> * MR_RelaxParams_StaticDowncastTo_MR_MeshRelaxParams </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> to a derived class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="a7d361f29ef6199cac680b7560f87c121" name="a7d361f29ef6199cac680b7560f87c121"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d361f29ef6199cac680b7560f87c121">&#9670;&#160;</a></span>MR_RelaxParams_StaticDowncastTo_MR_PointCloudApproxRelaxParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="group__PointCloudGroup.html#ga576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> * MR_RelaxParams_StaticDowncastTo_MR_PointCloudApproxRelaxParams </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> to a derived class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudApproxRelaxParams.html">MR::PointCloudApproxRelaxParams</a></code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="af6a647fd7d7b1a9e251dc1a1dc6d0c49" name="af6a647fd7d7b1a9e251dc1a1dc6d0c49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6a647fd7d7b1a9e251dc1a1dc6d0c49">&#9670;&#160;</a></span>MR_RelaxParams_StaticDowncastTo_MR_PointCloudRelaxParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="group__PointCloudGroup.html#ga957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> * MR_RelaxParams_StaticDowncastTo_MR_PointCloudRelaxParams </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> to a derived class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudRelaxParams.html">MR::PointCloudRelaxParams</a></code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_8b489c7b5d1a72d35ec87e32cc37b940.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRRelaxParams_8h.html">MRRelaxParams.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,1848 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: std_vector_MR_Color.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('std__vector__MR__Color_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">std_vector_MR_Color.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MRColor_8h_source.html">MRCMesh/MRColor.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="std__vector__MR__Color_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a7608dfb93ec2fd0c55d4213b65d70f51" id="r_a7608dfb93ec2fd0c55d4213b65d70f51"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a></td></tr>
+<tr class="separator:a7608dfb93ec2fd0c55d4213b65d70f51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15c255b39b10b0484a60f24062cc2a95" id="r_a15c255b39b10b0484a60f24062cc2a95"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a></td></tr>
+<tr class="separator:a15c255b39b10b0484a60f24062cc2a95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cc26919854da272bfe5a0b6f578235d" id="r_a1cc26919854da272bfe5a0b6f578235d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a></td></tr>
+<tr class="separator:a1cc26919854da272bfe5a0b6f578235d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a58f9b53bf9c22c2987a972c9a6f81f33" id="r_a58f9b53bf9c22c2987a972c9a6f81f33"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58f9b53bf9c22c2987a972c9a6f81f33">MR_std_vector_MR_Color_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a58f9b53bf9c22c2987a972c9a6f81f33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c32655efe4fad548c3aa8954dd73b9d" id="r_a9c32655efe4fad548c3aa8954dd73b9d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c32655efe4fad548c3aa8954dd73b9d">MR_std_vector_MR_Color_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a9c32655efe4fad548c3aa8954dd73b9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a9f8d8447c6775d4e38c7c7db4d7fb1" id="r_a3a9f8d8447c6775d4e38c7c7db4d7fb1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a9f8d8447c6775d4e38c7c7db4d7fb1">MR_std_vector_MR_Color_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *other)</td></tr>
+<tr class="separator:a3a9f8d8447c6775d4e38c7c7db4d7fb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d6a0f44e3ea8259a1e08987deb6c625" id="r_a8d6a0f44e3ea8259a1e08987deb6c625"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d6a0f44e3ea8259a1e08987deb6c625">MR_std_vector_MR_Color_AssignFromAnother</a> (<a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *other)</td></tr>
+<tr class="separator:a8d6a0f44e3ea8259a1e08987deb6c625"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8be6efc08af6001caa79d4a037f39f4" id="r_ae8be6efc08af6001caa79d4a037f39f4"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8be6efc08af6001caa79d4a037f39f4">MR_std_vector_MR_Color_Destroy</a> (const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this)</td></tr>
+<tr class="memdesc:ae8be6efc08af6001caa79d4a037f39f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_Color</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ae8be6efc08af6001caa79d4a037f39f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21476af504fe1ed36c3d5c75777338e5" id="r_a21476af504fe1ed36c3d5c75777338e5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21476af504fe1ed36c3d5c75777338e5">MR_std_vector_MR_Color_DestroyArray</a> (const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this)</td></tr>
+<tr class="memdesc:a21476af504fe1ed36c3d5c75777338e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_Color</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a21476af504fe1ed36c3d5c75777338e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b8313d2dd47f8456d08e6d5f8f4d4e2" id="r_a1b8313d2dd47f8456d08e6d5f8f4d4e2"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b8313d2dd47f8456d08e6d5f8f4d4e2">MR_std_vector_MR_Color_OffsetPtr</a> (const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a1b8313d2dd47f8456d08e6d5f8f4d4e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a1b8313d2dd47f8456d08e6d5f8f4d4e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5f777dffdf808966792505e260a2f54" id="r_ac5f777dffdf808966792505e260a2f54"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5f777dffdf808966792505e260a2f54">MR_std_vector_MR_Color_OffsetMutablePtr</a> (<a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ac5f777dffdf808966792505e260a2f54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ac5f777dffdf808966792505e260a2f54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39f0cced1ac14212a3a3637e03ce9ec1" id="r_a39f0cced1ac14212a3a3637e03ce9ec1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39f0cced1ac14212a3a3637e03ce9ec1">MR_std_vector_MR_Color_ConstructFromRange</a> (const <a class="el" href="structMR__Color.html">MR_Color</a> *ptr, size_t <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>)</td></tr>
+<tr class="separator:a39f0cced1ac14212a3a3637e03ce9ec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1aca1b91ce032705f1b44c3bd2e5c987" id="r_a1aca1b91ce032705f1b44c3bd2e5c987"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1aca1b91ce032705f1b44c3bd2e5c987">MR_std_vector_MR_Color_AssignFromRange</a> (<a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this, const <a class="el" href="structMR__Color.html">MR_Color</a> *ptr, size_t <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>)</td></tr>
+<tr class="separator:a1aca1b91ce032705f1b44c3bd2e5c987"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c8b5b58d9d7e42c17c8b71a2147437e" id="r_a3c8b5b58d9d7e42c17c8b71a2147437e"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c8b5b58d9d7e42c17c8b71a2147437e">MR_std_vector_MR_Color_Size</a> (const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this)</td></tr>
+<tr class="separator:a3c8b5b58d9d7e42c17c8b71a2147437e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a140f59dac7626b7317f3d6db82e33a4d" id="r_a140f59dac7626b7317f3d6db82e33a4d"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a140f59dac7626b7317f3d6db82e33a4d">MR_std_vector_MR_Color_IsEmpty</a> (const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this)</td></tr>
+<tr class="separator:a140f59dac7626b7317f3d6db82e33a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaaf9943d5a8ad1d2df7abe3cb1b87ec" id="r_abaaf9943d5a8ad1d2df7abe3cb1b87ec"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abaaf9943d5a8ad1d2df7abe3cb1b87ec">MR_std_vector_MR_Color_Resize</a> (<a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this, size_t new_size)</td></tr>
+<tr class="separator:abaaf9943d5a8ad1d2df7abe3cb1b87ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4ea247c99440e3edd811d7c49d9913f" id="r_af4ea247c99440e3edd811d7c49d9913f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4ea247c99440e3edd811d7c49d9913f">MR_std_vector_MR_Color_ResizeWithDefaultValue</a> (<a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this, size_t new_size, const <a class="el" href="structMR__Color.html">MR_Color</a> *value)</td></tr>
+<tr class="separator:af4ea247c99440e3edd811d7c49d9913f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7888786628ef0f82f5e93e540bb26acb" id="r_a7888786628ef0f82f5e93e540bb26acb"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7888786628ef0f82f5e93e540bb26acb">MR_std_vector_MR_Color_Clear</a> (<a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this)</td></tr>
+<tr class="separator:a7888786628ef0f82f5e93e540bb26acb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac3ad042b386fccc6f1a2c2c5dfbc8a7" id="r_aac3ad042b386fccc6f1a2c2c5dfbc8a7"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac3ad042b386fccc6f1a2c2c5dfbc8a7">MR_std_vector_MR_Color_Capacity</a> (const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this)</td></tr>
+<tr class="separator:aac3ad042b386fccc6f1a2c2c5dfbc8a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6810e525a0e9eb15913ba4a285b9a530" id="r_a6810e525a0e9eb15913ba4a285b9a530"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6810e525a0e9eb15913ba4a285b9a530">MR_std_vector_MR_Color_Reserve</a> (<a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this, size_t new_capacity)</td></tr>
+<tr class="separator:a6810e525a0e9eb15913ba4a285b9a530"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8ed1a7682a8002c02cfb383daec3f43" id="r_af8ed1a7682a8002c02cfb383daec3f43"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8ed1a7682a8002c02cfb383daec3f43">MR_std_vector_MR_Color_ShrinkToFit</a> (<a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this)</td></tr>
+<tr class="separator:af8ed1a7682a8002c02cfb383daec3f43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d93a735dde26dfaa53f0a3dee2df8d6" id="r_a7d93a735dde26dfaa53f0a3dee2df8d6"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Color.html">MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d93a735dde26dfaa53f0a3dee2df8d6">MR_std_vector_MR_Color_At</a> (const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this, size_t i)</td></tr>
+<tr class="separator:a7d93a735dde26dfaa53f0a3dee2df8d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8eac7217739c6201ffd5fa29d28f74b1" id="r_a8eac7217739c6201ffd5fa29d28f74b1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8eac7217739c6201ffd5fa29d28f74b1">MR_std_vector_MR_Color_MutableAt</a> (<a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this, size_t i)</td></tr>
+<tr class="separator:a8eac7217739c6201ffd5fa29d28f74b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1081eb67fa043ccf4d7f81e1cc7de96" id="r_ab1081eb67fa043ccf4d7f81e1cc7de96"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Color.html">MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1081eb67fa043ccf4d7f81e1cc7de96">MR_std_vector_MR_Color_Front</a> (const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this)</td></tr>
+<tr class="separator:ab1081eb67fa043ccf4d7f81e1cc7de96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c7af2d649483e15e9f652e30f575ab9" id="r_a8c7af2d649483e15e9f652e30f575ab9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c7af2d649483e15e9f652e30f575ab9">MR_std_vector_MR_Color_MutableFront</a> (<a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this)</td></tr>
+<tr class="separator:a8c7af2d649483e15e9f652e30f575ab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a879849ef52ef2bf460127b94e04b359d" id="r_a879849ef52ef2bf460127b94e04b359d"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Color.html">MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a879849ef52ef2bf460127b94e04b359d">MR_std_vector_MR_Color_Back</a> (const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this)</td></tr>
+<tr class="separator:a879849ef52ef2bf460127b94e04b359d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3964a0b081365e199c529c2577bf6a5e" id="r_a3964a0b081365e199c529c2577bf6a5e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3964a0b081365e199c529c2577bf6a5e">MR_std_vector_MR_Color_MutableBack</a> (<a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this)</td></tr>
+<tr class="separator:a3964a0b081365e199c529c2577bf6a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28f84e2054a8312d1f593875b17ea362" id="r_a28f84e2054a8312d1f593875b17ea362"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Color.html">MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28f84e2054a8312d1f593875b17ea362">MR_std_vector_MR_Color_Data</a> (const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this)</td></tr>
+<tr class="separator:a28f84e2054a8312d1f593875b17ea362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7f39fd0de843cc85ff02afe9438f06b" id="r_ad7f39fd0de843cc85ff02afe9438f06b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7f39fd0de843cc85ff02afe9438f06b">MR_std_vector_MR_Color_MutableData</a> (<a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this)</td></tr>
+<tr class="separator:ad7f39fd0de843cc85ff02afe9438f06b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1380cc0d32b7cabd633fd263c224a2f" id="r_ae1380cc0d32b7cabd633fd263c224a2f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1380cc0d32b7cabd633fd263c224a2f">MR_std_vector_MR_Color_PushBack</a> (<a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this, <a class="el" href="structMR__Color.html">MR_Color</a> new_elem)</td></tr>
+<tr class="separator:ae1380cc0d32b7cabd633fd263c224a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a879079687bc97fd8c25bb35a889ad80c" id="r_a879079687bc97fd8c25bb35a889ad80c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a879079687bc97fd8c25bb35a889ad80c">MR_std_vector_MR_Color_PopBack</a> (<a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this)</td></tr>
+<tr class="separator:a879079687bc97fd8c25bb35a889ad80c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93dc167030fcd6fc42dbc60e4b4da778" id="r_a93dc167030fcd6fc42dbc60e4b4da778"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93dc167030fcd6fc42dbc60e4b4da778">MR_std_vector_MR_Color_Insert</a> (<a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this, size_t position, <a class="el" href="structMR__Color.html">MR_Color</a> new_elem)</td></tr>
+<tr class="separator:a93dc167030fcd6fc42dbc60e4b4da778"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90483056cba4a4376d32f662cca024aa" id="r_a90483056cba4a4376d32f662cca024aa"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90483056cba4a4376d32f662cca024aa">MR_std_vector_MR_Color_Erase</a> (<a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this, size_t position)</td></tr>
+<tr class="separator:a90483056cba4a4376d32f662cca024aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95bdf2a6947dd000f14020ec56e09916" id="r_a95bdf2a6947dd000f14020ec56e09916"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95bdf2a6947dd000f14020ec56e09916">MR_std_vector_MR_Color_InsertAtMutableIter</a> (<a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this, const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *position, <a class="el" href="structMR__Color.html">MR_Color</a> new_elem)</td></tr>
+<tr class="separator:a95bdf2a6947dd000f14020ec56e09916"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a106a1bb1580a2883bad477fd95b95c" id="r_a6a106a1bb1580a2883bad477fd95b95c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a106a1bb1580a2883bad477fd95b95c">MR_std_vector_MR_Color_EraseAtMutableIter</a> (<a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this, const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *position)</td></tr>
+<tr class="separator:a6a106a1bb1580a2883bad477fd95b95c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae0576e184868d008c8e193c276eccce" id="r_aae0576e184868d008c8e193c276eccce"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae0576e184868d008c8e193c276eccce">MR_std_vector_MR_Color_InsertAtIter</a> (<a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this, const <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *position, <a class="el" href="structMR__Color.html">MR_Color</a> new_elem)</td></tr>
+<tr class="separator:aae0576e184868d008c8e193c276eccce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32d6f7f977a4bc46b32014776fd95534" id="r_a32d6f7f977a4bc46b32014776fd95534"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32d6f7f977a4bc46b32014776fd95534">MR_std_vector_MR_Color_EraseAtIter</a> (<a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this, const <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *position)</td></tr>
+<tr class="separator:a32d6f7f977a4bc46b32014776fd95534"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abba3840a2e90969f96282a779fd6557d" id="r_abba3840a2e90969f96282a779fd6557d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abba3840a2e90969f96282a779fd6557d">MR_std_vector_MR_Color_Begin</a> (const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this)</td></tr>
+<tr class="separator:abba3840a2e90969f96282a779fd6557d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab88ef742239cb1a510e87da91b6ae67f" id="r_ab88ef742239cb1a510e87da91b6ae67f"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab88ef742239cb1a510e87da91b6ae67f">MR_std_vector_MR_Color_IsBegin</a> (const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this, const <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *iter)</td></tr>
+<tr class="separator:ab88ef742239cb1a510e87da91b6ae67f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81346647285fc66f83258455e40c9378" id="r_a81346647285fc66f83258455e40c9378"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81346647285fc66f83258455e40c9378">MR_std_vector_MR_Color_MutableBegin</a> (<a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this)</td></tr>
+<tr class="separator:a81346647285fc66f83258455e40c9378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdf5661cd61cfcf5e6cd320f49673fbf" id="r_afdf5661cd61cfcf5e6cd320f49673fbf"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afdf5661cd61cfcf5e6cd320f49673fbf">MR_std_vector_MR_Color_IsMutableBegin</a> (<a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this, const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *iter)</td></tr>
+<tr class="separator:afdf5661cd61cfcf5e6cd320f49673fbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed6e8caa5a3ffb816d60b9e30a151c7e" id="r_aed6e8caa5a3ffb816d60b9e30a151c7e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed6e8caa5a3ffb816d60b9e30a151c7e">MR_std_vector_MR_Color_End</a> (const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this)</td></tr>
+<tr class="separator:aed6e8caa5a3ffb816d60b9e30a151c7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f13efb655b25e16fe2817f7c8995654" id="r_a1f13efb655b25e16fe2817f7c8995654"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f13efb655b25e16fe2817f7c8995654">MR_std_vector_MR_Color_IsEnd</a> (const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this, const <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *iter)</td></tr>
+<tr class="separator:a1f13efb655b25e16fe2817f7c8995654"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a2e52c2c8653e62c7ae8d06c8ea2d6d" id="r_a5a2e52c2c8653e62c7ae8d06c8ea2d6d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a2e52c2c8653e62c7ae8d06c8ea2d6d">MR_std_vector_MR_Color_MutableEnd</a> (<a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this)</td></tr>
+<tr class="separator:a5a2e52c2c8653e62c7ae8d06c8ea2d6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad79ca97afb64b9945741aad0f7730fdd" id="r_ad79ca97afb64b9945741aad0f7730fdd"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad79ca97afb64b9945741aad0f7730fdd">MR_std_vector_MR_Color_IsMutableEnd</a> (<a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this, const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *iter)</td></tr>
+<tr class="separator:ad79ca97afb64b9945741aad0f7730fdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3586644ef0c24609f6de844aa1d72a51" id="r_a3586644ef0c24609f6de844aa1d72a51"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3586644ef0c24609f6de844aa1d72a51">MR_std_vector_MR_Color_ToIndex</a> (const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this, const <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *iter)</td></tr>
+<tr class="separator:a3586644ef0c24609f6de844aa1d72a51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a648f9a32fd22e88ffb069e267bccf582" id="r_a648f9a32fd22e88ffb069e267bccf582"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a648f9a32fd22e88ffb069e267bccf582">MR_std_vector_MR_Color_MutableToIndex</a> (const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *_this, const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *iter)</td></tr>
+<tr class="separator:a648f9a32fd22e88ffb069e267bccf582"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d70794a4d49ae790cc666edebf163e9" id="r_a0d70794a4d49ae790cc666edebf163e9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d70794a4d49ae790cc666edebf163e9">MR_std_vector_MR_Color_const_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a0d70794a4d49ae790cc666edebf163e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae45bd78fdc1d4a4f2c906557da12a0d6" id="r_ae45bd78fdc1d4a4f2c906557da12a0d6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae45bd78fdc1d4a4f2c906557da12a0d6">MR_std_vector_MR_Color_const_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ae45bd78fdc1d4a4f2c906557da12a0d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70ea75437db2155e94d7af830719949b" id="r_a70ea75437db2155e94d7af830719949b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70ea75437db2155e94d7af830719949b">MR_std_vector_MR_Color_const_iterator_ConstructFromAnother</a> (const <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *other)</td></tr>
+<tr class="separator:a70ea75437db2155e94d7af830719949b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5d785dc1fdd14aa7e88a136a813924f" id="r_ad5d785dc1fdd14aa7e88a136a813924f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5d785dc1fdd14aa7e88a136a813924f">MR_std_vector_MR_Color_const_iterator_AssignFromAnother</a> (<a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *_this, const <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *other)</td></tr>
+<tr class="separator:ad5d785dc1fdd14aa7e88a136a813924f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6982878cf42cf5633ea1942f3258ee2f" id="r_a6982878cf42cf5633ea1942f3258ee2f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6982878cf42cf5633ea1942f3258ee2f">MR_std_vector_MR_Color_const_iterator_Destroy</a> (const <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a6982878cf42cf5633ea1942f3258ee2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_Color_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a6982878cf42cf5633ea1942f3258ee2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81c0c2f22380254cfdf825204cf23e20" id="r_a81c0c2f22380254cfdf825204cf23e20"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81c0c2f22380254cfdf825204cf23e20">MR_std_vector_MR_Color_const_iterator_DestroyArray</a> (const <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a81c0c2f22380254cfdf825204cf23e20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_Color_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a81c0c2f22380254cfdf825204cf23e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a9915986fb598fab744ae04675db012" id="r_a2a9915986fb598fab744ae04675db012"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a9915986fb598fab744ae04675db012">MR_std_vector_MR_Color_const_iterator_OffsetPtr</a> (const <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a2a9915986fb598fab744ae04675db012"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a2a9915986fb598fab744ae04675db012"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d4725c9c742c396e4799719c5b28503" id="r_a3d4725c9c742c396e4799719c5b28503"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d4725c9c742c396e4799719c5b28503">MR_std_vector_MR_Color_const_iterator_OffsetMutablePtr</a> (<a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a3d4725c9c742c396e4799719c5b28503"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a3d4725c9c742c396e4799719c5b28503"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b5242386bb7eb47e83a46db6e4f7ddf" id="r_a1b5242386bb7eb47e83a46db6e4f7ddf"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b5242386bb7eb47e83a46db6e4f7ddf">MR_std_vector_MR_Color_const_iterator_FromMutable</a> (const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *iter)</td></tr>
+<tr class="separator:a1b5242386bb7eb47e83a46db6e4f7ddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42151604a54888265a752c36874c067d" id="r_a42151604a54888265a752c36874c067d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42151604a54888265a752c36874c067d">MR_std_vector_MR_Color_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a42151604a54888265a752c36874c067d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f2001dfa469b94e69515d747d5ad8c6" id="r_a3f2001dfa469b94e69515d747d5ad8c6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f2001dfa469b94e69515d747d5ad8c6">MR_std_vector_MR_Color_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a3f2001dfa469b94e69515d747d5ad8c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4044fb4419adcedb52e8b5c7d53fe14d" id="r_a4044fb4419adcedb52e8b5c7d53fe14d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4044fb4419adcedb52e8b5c7d53fe14d">MR_std_vector_MR_Color_iterator_ConstructFromAnother</a> (const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *other)</td></tr>
+<tr class="separator:a4044fb4419adcedb52e8b5c7d53fe14d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a334b7ff28bb2459b028e3636699b451e" id="r_a334b7ff28bb2459b028e3636699b451e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a334b7ff28bb2459b028e3636699b451e">MR_std_vector_MR_Color_iterator_AssignFromAnother</a> (<a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *_this, const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *other)</td></tr>
+<tr class="separator:a334b7ff28bb2459b028e3636699b451e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c3a8726199ddb63ed25194c12abf147" id="r_a1c3a8726199ddb63ed25194c12abf147"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c3a8726199ddb63ed25194c12abf147">MR_std_vector_MR_Color_iterator_Destroy</a> (const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a1c3a8726199ddb63ed25194c12abf147"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_Color_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a1c3a8726199ddb63ed25194c12abf147"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7815cb5faf66ab782346f7c113a0827" id="r_af7815cb5faf66ab782346f7c113a0827"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7815cb5faf66ab782346f7c113a0827">MR_std_vector_MR_Color_iterator_DestroyArray</a> (const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *_this)</td></tr>
+<tr class="memdesc:af7815cb5faf66ab782346f7c113a0827"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_Color_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:af7815cb5faf66ab782346f7c113a0827"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8aa96c74f12a9ccb8284b1c79870a44c" id="r_a8aa96c74f12a9ccb8284b1c79870a44c"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8aa96c74f12a9ccb8284b1c79870a44c">MR_std_vector_MR_Color_iterator_OffsetPtr</a> (const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a8aa96c74f12a9ccb8284b1c79870a44c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a8aa96c74f12a9ccb8284b1c79870a44c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1da8ae2aa2e49c7e5f5909c36e16de0b" id="r_a1da8ae2aa2e49c7e5f5909c36e16de0b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1da8ae2aa2e49c7e5f5909c36e16de0b">MR_std_vector_MR_Color_iterator_OffsetMutablePtr</a> (<a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a1da8ae2aa2e49c7e5f5909c36e16de0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a1da8ae2aa2e49c7e5f5909c36e16de0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87e518802b3e4a4a2f3402222f0b72ac" id="r_a87e518802b3e4a4a2f3402222f0b72ac"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Color.html">MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87e518802b3e4a4a2f3402222f0b72ac">MR_std_vector_MR_Color_const_iterator_Deref</a> (const <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *_this)</td></tr>
+<tr class="separator:a87e518802b3e4a4a2f3402222f0b72ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adae02fe872bcfe0e88d29c79c3f9a130" id="r_adae02fe872bcfe0e88d29c79c3f9a130"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adae02fe872bcfe0e88d29c79c3f9a130">MR_std_vector_MR_Color_const_iterator_Incr</a> (<a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *_this)</td></tr>
+<tr class="separator:adae02fe872bcfe0e88d29c79c3f9a130"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c341d4abaeb34e6e17ccacf9e9330ff" id="r_a1c341d4abaeb34e6e17ccacf9e9330ff"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c341d4abaeb34e6e17ccacf9e9330ff">MR_std_vector_MR_Color_const_iterator_Decr</a> (<a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *_this)</td></tr>
+<tr class="separator:a1c341d4abaeb34e6e17ccacf9e9330ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fd0ff3b425d4feff3bd9aae6ce87578" id="r_a6fd0ff3b425d4feff3bd9aae6ce87578"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fd0ff3b425d4feff3bd9aae6ce87578">MR_std_vector_MR_Color_const_iterator_OffsetBy</a> (<a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *_this, ptrdiff_t delta)</td></tr>
+<tr class="separator:a6fd0ff3b425d4feff3bd9aae6ce87578"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0f7038eba914afecdb2f51eb71f9fb8" id="r_ad0f7038eba914afecdb2f51eb71f9fb8"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0f7038eba914afecdb2f51eb71f9fb8">MR_std_vector_MR_Color_const_iterator_Distance</a> (const <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *a, const <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *b)</td></tr>
+<tr class="separator:ad0f7038eba914afecdb2f51eb71f9fb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2862dedf6ad611a54bc369b0bfdbcf7" id="r_af2862dedf6ad611a54bc369b0bfdbcf7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2862dedf6ad611a54bc369b0bfdbcf7">MR_std_vector_MR_Color_iterator_Deref</a> (const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *_this)</td></tr>
+<tr class="separator:af2862dedf6ad611a54bc369b0bfdbcf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abee2f68b2d0ba3808d53e0df0c06547a" id="r_abee2f68b2d0ba3808d53e0df0c06547a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abee2f68b2d0ba3808d53e0df0c06547a">MR_std_vector_MR_Color_iterator_Incr</a> (<a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *_this)</td></tr>
+<tr class="separator:abee2f68b2d0ba3808d53e0df0c06547a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67e11775ed837a0135764524804e1348" id="r_a67e11775ed837a0135764524804e1348"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67e11775ed837a0135764524804e1348">MR_std_vector_MR_Color_iterator_Decr</a> (<a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *_this)</td></tr>
+<tr class="separator:a67e11775ed837a0135764524804e1348"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa80fd498eecb5adf8800aa0b648b7b1a" id="r_aa80fd498eecb5adf8800aa0b648b7b1a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa80fd498eecb5adf8800aa0b648b7b1a">MR_std_vector_MR_Color_iterator_OffsetBy</a> (<a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *_this, ptrdiff_t delta)</td></tr>
+<tr class="separator:aa80fd498eecb5adf8800aa0b648b7b1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a3fd4ce1873e8fa84fc9b899ea37e1d" id="r_a6a3fd4ce1873e8fa84fc9b899ea37e1d"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a3fd4ce1873e8fa84fc9b899ea37e1d">MR_std_vector_MR_Color_iterator_Distance</a> (const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *a, const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *b)</td></tr>
+<tr class="separator:a6a3fd4ce1873e8fa84fc9b899ea37e1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a7608dfb93ec2fd0c55d4213b65d70f51" name="a7608dfb93ec2fd0c55d4213b65d70f51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7608dfb93ec2fd0c55d4213b65d70f51">&#9670;&#160;</a></span>MR_std_vector_MR_Color</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from C++ container <code>std::vector&lt;<a class="elRef" href="../Cpp/structMR_1_1Color.html">MR::Color</a>&gt;</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a15c255b39b10b0484a60f24062cc2a95" name="a15c255b39b10b0484a60f24062cc2a95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15c255b39b10b0484a60f24062cc2a95">&#9670;&#160;</a></span>MR_std_vector_MR_Color_const_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Read-only iterator for <code>MR_std_vector_MR_Color</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a1cc26919854da272bfe5a0b6f578235d" name="a1cc26919854da272bfe5a0b6f578235d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cc26919854da272bfe5a0b6f578235d">&#9670;&#160;</a></span>MR_std_vector_MR_Color_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Mutable iterator for <code>MR_std_vector_MR_Color</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a8d6a0f44e3ea8259a1e08987deb6c625" name="a8d6a0f44e3ea8259a1e08987deb6c625"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d6a0f44e3ea8259a1e08987deb6c625">&#9670;&#160;</a></span>MR_std_vector_MR_Color_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a1aca1b91ce032705f1b44c3bd2e5c987" name="a1aca1b91ce032705f1b44c3bd2e5c987"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1aca1b91ce032705f1b44c3bd2e5c987">&#9670;&#160;</a></span>MR_std_vector_MR_Color_AssignFromRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_AssignFromRange </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Color.html">MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assign from a range of elements, overwriting previous contents. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a7d93a735dde26dfaa53f0a3dee2df8d6" name="a7d93a735dde26dfaa53f0a3dee2df8d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d93a735dde26dfaa53f0a3dee2df8d6">&#9670;&#160;</a></span>MR_std_vector_MR_Color_At()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__Color.html">MR_Color</a> * MR_std_vector_MR_Color_At </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, read-only. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a879849ef52ef2bf460127b94e04b359d" name="a879849ef52ef2bf460127b94e04b359d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a879849ef52ef2bf460127b94e04b359d">&#9670;&#160;</a></span>MR_std_vector_MR_Color_Back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__Color.html">MR_Color</a> * MR_std_vector_MR_Color_Back </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The last element or null if empty, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="abba3840a2e90969f96282a779fd6557d" name="abba3840a2e90969f96282a779fd6557d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abba3840a2e90969f96282a779fd6557d">&#9670;&#160;</a></span>MR_std_vector_MR_Color_Begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> * MR_std_vector_MR_Color_Begin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6982878cf42cf5633ea1942f3258ee2f" title="Destroys a heap-allocated instance of MR_std_vector_MR_Color_const_iterator. Does nothing if the poin...">MR_std_vector_MR_Color_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aac3ad042b386fccc6f1a2c2c5dfbc8a7" name="aac3ad042b386fccc6f1a2c2c5dfbc8a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac3ad042b386fccc6f1a2c2c5dfbc8a7">&#9670;&#160;</a></span>MR_std_vector_MR_Color_Capacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_vector_MR_Color_Capacity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The memory capacity, measued in the number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a7888786628ef0f82f5e93e540bb26acb" name="a7888786628ef0f82f5e93e540bb26acb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7888786628ef0f82f5e93e540bb26acb">&#9670;&#160;</a></span>MR_std_vector_MR_Color_Clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_Clear </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes all elements from the container. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad5d785dc1fdd14aa7e88a136a813924f" name="ad5d785dc1fdd14aa7e88a136a813924f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5d785dc1fdd14aa7e88a136a813924f">&#9670;&#160;</a></span>MR_std_vector_MR_Color_const_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_const_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a70ea75437db2155e94d7af830719949b" name="a70ea75437db2155e94d7af830719949b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70ea75437db2155e94d7af830719949b">&#9670;&#160;</a></span>MR_std_vector_MR_Color_const_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> * MR_std_vector_MR_Color_const_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6982878cf42cf5633ea1942f3258ee2f" title="Destroys a heap-allocated instance of MR_std_vector_MR_Color_const_iterator. Does nothing if the poin...">MR_std_vector_MR_Color_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a1c341d4abaeb34e6e17ccacf9e9330ff" name="a1c341d4abaeb34e6e17ccacf9e9330ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c341d4abaeb34e6e17ccacf9e9330ff">&#9670;&#160;</a></span>MR_std_vector_MR_Color_const_iterator_Decr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_const_iterator_Decr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decrements a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a0d70794a4d49ae790cc666edebf163e9" name="a0d70794a4d49ae790cc666edebf163e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d70794a4d49ae790cc666edebf163e9">&#9670;&#160;</a></span>MR_std_vector_MR_Color_const_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> * MR_std_vector_MR_Color_const_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6982878cf42cf5633ea1942f3258ee2f" title="Destroys a heap-allocated instance of MR_std_vector_MR_Color_const_iterator. Does nothing if the poin...">MR_std_vector_MR_Color_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae45bd78fdc1d4a4f2c906557da12a0d6" name="ae45bd78fdc1d4a4f2c906557da12a0d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae45bd78fdc1d4a4f2c906557da12a0d6">&#9670;&#160;</a></span>MR_std_vector_MR_Color_const_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> * MR_std_vector_MR_Color_const_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a81c0c2f22380254cfdf825204cf23e20" title="Destroys a heap-allocated array of MR_std_vector_MR_Color_const_iterator. Does nothing if the pointer...">MR_std_vector_MR_Color_const_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#a3d4725c9c742c396e4799719c5b28503" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_Color_const_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a2a9915986fb598fab744ae04675db012" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_Color_const_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a87e518802b3e4a4a2f3402222f0b72ac" name="a87e518802b3e4a4a2f3402222f0b72ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87e518802b3e4a4a2f3402222f0b72ac">&#9670;&#160;</a></span>MR_std_vector_MR_Color_const_iterator_Deref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__Color.html">MR_Color</a> * MR_std_vector_MR_Color_const_iterator_Deref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a const iterator. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a6982878cf42cf5633ea1942f3258ee2f" name="a6982878cf42cf5633ea1942f3258ee2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6982878cf42cf5633ea1942f3258ee2f">&#9670;&#160;</a></span>MR_std_vector_MR_Color_const_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_const_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_Color_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a81c0c2f22380254cfdf825204cf23e20" name="a81c0c2f22380254cfdf825204cf23e20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81c0c2f22380254cfdf825204cf23e20">&#9670;&#160;</a></span>MR_std_vector_MR_Color_const_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_const_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_Color_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ad0f7038eba914afecdb2f51eb71f9fb8" name="ad0f7038eba914afecdb2f51eb71f9fb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0f7038eba914afecdb2f51eb71f9fb8">&#9670;&#160;</a></span>MR_std_vector_MR_Color_const_iterator_Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_Color_const_iterator_Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the signed difference between two const iterators. Completes in constant time. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a1b5242386bb7eb47e83a46db6e4f7ddf" name="a1b5242386bb7eb47e83a46db6e4f7ddf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b5242386bb7eb47e83a46db6e4f7ddf">&#9670;&#160;</a></span>MR_std_vector_MR_Color_const_iterator_FromMutable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> * MR_std_vector_MR_Color_const_iterator_FromMutable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Makes a const iterator from a mutable one. Parameter <code>iter</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6982878cf42cf5633ea1942f3258ee2f" title="Destroys a heap-allocated instance of MR_std_vector_MR_Color_const_iterator. Does nothing if the poin...">MR_std_vector_MR_Color_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="adae02fe872bcfe0e88d29c79c3f9a130" name="adae02fe872bcfe0e88d29c79c3f9a130"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adae02fe872bcfe0e88d29c79c3f9a130">&#9670;&#160;</a></span>MR_std_vector_MR_Color_const_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_const_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6fd0ff3b425d4feff3bd9aae6ce87578" name="a6fd0ff3b425d4feff3bd9aae6ce87578"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fd0ff3b425d4feff3bd9aae6ce87578">&#9670;&#160;</a></span>MR_std_vector_MR_Color_const_iterator_OffsetBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_const_iterator_OffsetBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3d4725c9c742c396e4799719c5b28503" name="a3d4725c9c742c396e4799719c5b28503"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d4725c9c742c396e4799719c5b28503">&#9670;&#160;</a></span>MR_std_vector_MR_Color_const_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> * MR_std_vector_MR_Color_const_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a2a9915986fb598fab744ae04675db012" name="a2a9915986fb598fab744ae04675db012"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a9915986fb598fab744ae04675db012">&#9670;&#160;</a></span>MR_std_vector_MR_Color_const_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> * MR_std_vector_MR_Color_const_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a3a9f8d8447c6775d4e38c7c7db4d7fb1" name="a3a9f8d8447c6775d4e38c7c7db4d7fb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a9f8d8447c6775d4e38c7c7db4d7fb1">&#9670;&#160;</a></span>MR_std_vector_MR_Color_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> * MR_std_vector_MR_Color_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae8be6efc08af6001caa79d4a037f39f4" title="Destroys a heap-allocated instance of MR_std_vector_MR_Color. Does nothing if the pointer is null.">MR_std_vector_MR_Color_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a39f0cced1ac14212a3a3637e03ce9ec1" name="a39f0cced1ac14212a3a3637e03ce9ec1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39f0cced1ac14212a3a3637e03ce9ec1">&#9670;&#160;</a></span>MR_std_vector_MR_Color_ConstructFromRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> * MR_std_vector_MR_Color_ConstructFromRange </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR__Color.html">MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Construct from a range of elements. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae8be6efc08af6001caa79d4a037f39f4" title="Destroys a heap-allocated instance of MR_std_vector_MR_Color. Does nothing if the pointer is null.">MR_std_vector_MR_Color_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a28f84e2054a8312d1f593875b17ea362" name="a28f84e2054a8312d1f593875b17ea362"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28f84e2054a8312d1f593875b17ea362">&#9670;&#160;</a></span>MR_std_vector_MR_Color_Data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__Color.html">MR_Color</a> * MR_std_vector_MR_Color_Data </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to the continuous storage that holds all elements, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a58f9b53bf9c22c2987a972c9a6f81f33" name="a58f9b53bf9c22c2987a972c9a6f81f33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58f9b53bf9c22c2987a972c9a6f81f33">&#9670;&#160;</a></span>MR_std_vector_MR_Color_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> * MR_std_vector_MR_Color_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae8be6efc08af6001caa79d4a037f39f4" title="Destroys a heap-allocated instance of MR_std_vector_MR_Color. Does nothing if the pointer is null.">MR_std_vector_MR_Color_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a9c32655efe4fad548c3aa8954dd73b9d" name="a9c32655efe4fad548c3aa8954dd73b9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c32655efe4fad548c3aa8954dd73b9d">&#9670;&#160;</a></span>MR_std_vector_MR_Color_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> * MR_std_vector_MR_Color_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a21476af504fe1ed36c3d5c75777338e5" title="Destroys a heap-allocated array of MR_std_vector_MR_Color. Does nothing if the pointer is null.">MR_std_vector_MR_Color_DestroyArray()</a></code>. Use <code><a class="el" href="#ac5f777dffdf808966792505e260a2f54" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_Color_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a1b8313d2dd47f8456d08e6d5f8f4d4e2" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_Color_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ae8be6efc08af6001caa79d4a037f39f4" name="ae8be6efc08af6001caa79d4a037f39f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8be6efc08af6001caa79d4a037f39f4">&#9670;&#160;</a></span>MR_std_vector_MR_Color_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_Color</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a21476af504fe1ed36c3d5c75777338e5" name="a21476af504fe1ed36c3d5c75777338e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21476af504fe1ed36c3d5c75777338e5">&#9670;&#160;</a></span>MR_std_vector_MR_Color_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_Color</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aed6e8caa5a3ffb816d60b9e30a151c7e" name="aed6e8caa5a3ffb816d60b9e30a151c7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed6e8caa5a3ffb816d60b9e30a151c7e">&#9670;&#160;</a></span>MR_std_vector_MR_Color_End()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> * MR_std_vector_MR_Color_End </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6982878cf42cf5633ea1942f3258ee2f" title="Destroys a heap-allocated instance of MR_std_vector_MR_Color_const_iterator. Does nothing if the poin...">MR_std_vector_MR_Color_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a90483056cba4a4376d32f662cca024aa" name="a90483056cba4a4376d32f662cca024aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90483056cba4a4376d32f662cca024aa">&#9670;&#160;</a></span>MR_std_vector_MR_Color_Erase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_Erase </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a32d6f7f977a4bc46b32014776fd95534" name="a32d6f7f977a4bc46b32014776fd95534"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32d6f7f977a4bc46b32014776fd95534">&#9670;&#160;</a></span>MR_std_vector_MR_Color_EraseAtIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_EraseAtIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. This version takes the position in form of a const iterator, that's the only difference. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6a106a1bb1580a2883bad477fd95b95c" name="a6a106a1bb1580a2883bad477fd95b95c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a106a1bb1580a2883bad477fd95b95c">&#9670;&#160;</a></span>MR_std_vector_MR_Color_EraseAtMutableIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_EraseAtMutableIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ab1081eb67fa043ccf4d7f81e1cc7de96" name="ab1081eb67fa043ccf4d7f81e1cc7de96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1081eb67fa043ccf4d7f81e1cc7de96">&#9670;&#160;</a></span>MR_std_vector_MR_Color_Front()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__Color.html">MR_Color</a> * MR_std_vector_MR_Color_Front </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The first element or null if empty, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a93dc167030fcd6fc42dbc60e4b4da778" name="a93dc167030fcd6fc42dbc60e4b4da778"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93dc167030fcd6fc42dbc60e4b4da778">&#9670;&#160;</a></span>MR_std_vector_MR_Color_Insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_Insert </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Color.html">MR_Color</a></td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aae0576e184868d008c8e193c276eccce" name="aae0576e184868d008c8e193c276eccce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae0576e184868d008c8e193c276eccce">&#9670;&#160;</a></span>MR_std_vector_MR_Color_InsertAtIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_InsertAtIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Color.html">MR_Color</a></td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that's the only difference. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a95bdf2a6947dd000f14020ec56e09916" name="a95bdf2a6947dd000f14020ec56e09916"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95bdf2a6947dd000f14020ec56e09916">&#9670;&#160;</a></span>MR_std_vector_MR_Color_InsertAtMutableIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_InsertAtMutableIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Color.html">MR_Color</a></td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ab88ef742239cb1a510e87da91b6ae67f" name="ab88ef742239cb1a510e87da91b6ae67f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab88ef742239cb1a510e87da91b6ae67f">&#9670;&#160;</a></span>MR_std_vector_MR_Color_IsBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_Color_IsBegin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a140f59dac7626b7317f3d6db82e33a4d" name="a140f59dac7626b7317f3d6db82e33a4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a140f59dac7626b7317f3d6db82e33a4d">&#9670;&#160;</a></span>MR_std_vector_MR_Color_IsEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_Color_IsEmpty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns true if the size is zero. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a1f13efb655b25e16fe2817f7c8995654" name="a1f13efb655b25e16fe2817f7c8995654"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f13efb655b25e16fe2817f7c8995654">&#9670;&#160;</a></span>MR_std_vector_MR_Color_IsEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_Color_IsEnd </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="afdf5661cd61cfcf5e6cd320f49673fbf" name="afdf5661cd61cfcf5e6cd320f49673fbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdf5661cd61cfcf5e6cd320f49673fbf">&#9670;&#160;</a></span>MR_std_vector_MR_Color_IsMutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_Color_IsMutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad79ca97afb64b9945741aad0f7730fdd" name="ad79ca97afb64b9945741aad0f7730fdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad79ca97afb64b9945741aad0f7730fdd">&#9670;&#160;</a></span>MR_std_vector_MR_Color_IsMutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_Color_IsMutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a334b7ff28bb2459b028e3636699b451e" name="a334b7ff28bb2459b028e3636699b451e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a334b7ff28bb2459b028e3636699b451e">&#9670;&#160;</a></span>MR_std_vector_MR_Color_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a4044fb4419adcedb52e8b5c7d53fe14d" name="a4044fb4419adcedb52e8b5c7d53fe14d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4044fb4419adcedb52e8b5c7d53fe14d">&#9670;&#160;</a></span>MR_std_vector_MR_Color_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> * MR_std_vector_MR_Color_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1c3a8726199ddb63ed25194c12abf147" title="Destroys a heap-allocated instance of MR_std_vector_MR_Color_iterator. Does nothing if the pointer is...">MR_std_vector_MR_Color_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a67e11775ed837a0135764524804e1348" name="a67e11775ed837a0135764524804e1348"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67e11775ed837a0135764524804e1348">&#9670;&#160;</a></span>MR_std_vector_MR_Color_iterator_Decr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_iterator_Decr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decrements a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a42151604a54888265a752c36874c067d" name="a42151604a54888265a752c36874c067d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42151604a54888265a752c36874c067d">&#9670;&#160;</a></span>MR_std_vector_MR_Color_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> * MR_std_vector_MR_Color_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1c3a8726199ddb63ed25194c12abf147" title="Destroys a heap-allocated instance of MR_std_vector_MR_Color_iterator. Does nothing if the pointer is...">MR_std_vector_MR_Color_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a3f2001dfa469b94e69515d747d5ad8c6" name="a3f2001dfa469b94e69515d747d5ad8c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f2001dfa469b94e69515d747d5ad8c6">&#9670;&#160;</a></span>MR_std_vector_MR_Color_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> * MR_std_vector_MR_Color_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#af7815cb5faf66ab782346f7c113a0827" title="Destroys a heap-allocated array of MR_std_vector_MR_Color_iterator. Does nothing if the pointer is nu...">MR_std_vector_MR_Color_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#a1da8ae2aa2e49c7e5f5909c36e16de0b" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_Color_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a8aa96c74f12a9ccb8284b1c79870a44c" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_Color_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="af2862dedf6ad611a54bc369b0bfdbcf7" name="af2862dedf6ad611a54bc369b0bfdbcf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2862dedf6ad611a54bc369b0bfdbcf7">&#9670;&#160;</a></span>MR_std_vector_MR_Color_iterator_Deref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> * MR_std_vector_MR_Color_iterator_Deref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a mutable iterator. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a1c3a8726199ddb63ed25194c12abf147" name="a1c3a8726199ddb63ed25194c12abf147"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c3a8726199ddb63ed25194c12abf147">&#9670;&#160;</a></span>MR_std_vector_MR_Color_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_Color_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="af7815cb5faf66ab782346f7c113a0827" name="af7815cb5faf66ab782346f7c113a0827"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7815cb5faf66ab782346f7c113a0827">&#9670;&#160;</a></span>MR_std_vector_MR_Color_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_Color_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a6a3fd4ce1873e8fa84fc9b899ea37e1d" name="a6a3fd4ce1873e8fa84fc9b899ea37e1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a3fd4ce1873e8fa84fc9b899ea37e1d">&#9670;&#160;</a></span>MR_std_vector_MR_Color_iterator_Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_Color_iterator_Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. </p>
+
+</div>
+</div>
+<a id="abee2f68b2d0ba3808d53e0df0c06547a" name="abee2f68b2d0ba3808d53e0df0c06547a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abee2f68b2d0ba3808d53e0df0c06547a">&#9670;&#160;</a></span>MR_std_vector_MR_Color_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa80fd498eecb5adf8800aa0b648b7b1a" name="aa80fd498eecb5adf8800aa0b648b7b1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa80fd498eecb5adf8800aa0b648b7b1a">&#9670;&#160;</a></span>MR_std_vector_MR_Color_iterator_OffsetBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_iterator_OffsetBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a1da8ae2aa2e49c7e5f5909c36e16de0b" name="a1da8ae2aa2e49c7e5f5909c36e16de0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1da8ae2aa2e49c7e5f5909c36e16de0b">&#9670;&#160;</a></span>MR_std_vector_MR_Color_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> * MR_std_vector_MR_Color_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a8aa96c74f12a9ccb8284b1c79870a44c" name="a8aa96c74f12a9ccb8284b1c79870a44c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8aa96c74f12a9ccb8284b1c79870a44c">&#9670;&#160;</a></span>MR_std_vector_MR_Color_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> * MR_std_vector_MR_Color_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a8eac7217739c6201ffd5fa29d28f74b1" name="a8eac7217739c6201ffd5fa29d28f74b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8eac7217739c6201ffd5fa29d28f74b1">&#9670;&#160;</a></span>MR_std_vector_MR_Color_MutableAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> * MR_std_vector_MR_Color_MutableAt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, mutable. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a3964a0b081365e199c529c2577bf6a5e" name="a3964a0b081365e199c529c2577bf6a5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3964a0b081365e199c529c2577bf6a5e">&#9670;&#160;</a></span>MR_std_vector_MR_Color_MutableBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> * MR_std_vector_MR_Color_MutableBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The last element or null if empty, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a81346647285fc66f83258455e40c9378" name="a81346647285fc66f83258455e40c9378"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81346647285fc66f83258455e40c9378">&#9670;&#160;</a></span>MR_std_vector_MR_Color_MutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> * MR_std_vector_MR_Color_MutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1c3a8726199ddb63ed25194c12abf147" title="Destroys a heap-allocated instance of MR_std_vector_MR_Color_iterator. Does nothing if the pointer is...">MR_std_vector_MR_Color_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ad7f39fd0de843cc85ff02afe9438f06b" name="ad7f39fd0de843cc85ff02afe9438f06b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7f39fd0de843cc85ff02afe9438f06b">&#9670;&#160;</a></span>MR_std_vector_MR_Color_MutableData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> * MR_std_vector_MR_Color_MutableData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to the continuous storage that holds all elements, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a5a2e52c2c8653e62c7ae8d06c8ea2d6d" name="a5a2e52c2c8653e62c7ae8d06c8ea2d6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a2e52c2c8653e62c7ae8d06c8ea2d6d">&#9670;&#160;</a></span>MR_std_vector_MR_Color_MutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> * MR_std_vector_MR_Color_MutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1c3a8726199ddb63ed25194c12abf147" title="Destroys a heap-allocated instance of MR_std_vector_MR_Color_iterator. Does nothing if the pointer is...">MR_std_vector_MR_Color_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a8c7af2d649483e15e9f652e30f575ab9" name="a8c7af2d649483e15e9f652e30f575ab9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c7af2d649483e15e9f652e30f575ab9">&#9670;&#160;</a></span>MR_std_vector_MR_Color_MutableFront()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> * MR_std_vector_MR_Color_MutableFront </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The first element or null if empty, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a648f9a32fd22e88ffb069e267bccf582" name="a648f9a32fd22e88ffb069e267bccf582"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a648f9a32fd22e88ffb069e267bccf582">&#9670;&#160;</a></span>MR_std_vector_MR_Color_MutableToIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_Color_MutableToIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a1cc26919854da272bfe5a0b6f578235d">MR_std_vector_MR_Color_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convert a mutable iterator to an index. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac5f777dffdf808966792505e260a2f54" name="ac5f777dffdf808966792505e260a2f54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5f777dffdf808966792505e260a2f54">&#9670;&#160;</a></span>MR_std_vector_MR_Color_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> * MR_std_vector_MR_Color_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a1b8313d2dd47f8456d08e6d5f8f4d4e2" name="a1b8313d2dd47f8456d08e6d5f8f4d4e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b8313d2dd47f8456d08e6d5f8f4d4e2">&#9670;&#160;</a></span>MR_std_vector_MR_Color_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> * MR_std_vector_MR_Color_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a879079687bc97fd8c25bb35a889ad80c" name="a879079687bc97fd8c25bb35a889ad80c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a879079687bc97fd8c25bb35a889ad80c">&#9670;&#160;</a></span>MR_std_vector_MR_Color_PopBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_PopBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes one element from the end. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae1380cc0d32b7cabd633fd263c224a2f" name="ae1380cc0d32b7cabd633fd263c224a2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1380cc0d32b7cabd633fd263c224a2f">&#9670;&#160;</a></span>MR_std_vector_MR_Color_PushBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_PushBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Color.html">MR_Color</a></td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element at the end. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6810e525a0e9eb15913ba4a285b9a530" name="a6810e525a0e9eb15913ba4a285b9a530"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6810e525a0e9eb15913ba4a285b9a530">&#9670;&#160;</a></span>MR_std_vector_MR_Color_Reserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_Reserve </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_capacity</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="abaaf9943d5a8ad1d2df7abe3cb1b87ec" name="abaaf9943d5a8ad1d2df7abe3cb1b87ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abaaf9943d5a8ad1d2df7abe3cb1b87ec">&#9670;&#160;</a></span>MR_std_vector_MR_Color_Resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_Resize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the container. The new elements if any are zeroed. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="af4ea247c99440e3edd811d7c49d9913f" name="af4ea247c99440e3edd811d7c49d9913f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4ea247c99440e3edd811d7c49d9913f">&#9670;&#160;</a></span>MR_std_vector_MR_Color_ResizeWithDefaultValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_ResizeWithDefaultValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Color.html">MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the container. The new elements if any are set to the specified value. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. </p>
+
+</div>
+</div>
+<a id="af8ed1a7682a8002c02cfb383daec3f43" name="af8ed1a7682a8002c02cfb383daec3f43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8ed1a7682a8002c02cfb383daec3f43">&#9670;&#160;</a></span>MR_std_vector_MR_Color_ShrinkToFit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Color_ShrinkToFit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Shrinks the capacity to match the size. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3c8b5b58d9d7e42c17c8b71a2147437e" name="a3c8b5b58d9d7e42c17c8b71a2147437e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c8b5b58d9d7e42c17c8b71a2147437e">&#9670;&#160;</a></span>MR_std_vector_MR_Color_Size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_vector_MR_Color_Size </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3586644ef0c24609f6de844aa1d72a51" name="a3586644ef0c24609f6de844aa1d72a51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3586644ef0c24609f6de844aa1d72a51">&#9670;&#160;</a></span>MR_std_vector_MR_Color_ToIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_Color_ToIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a15c255b39b10b0484a60f24062cc2a95">MR_std_vector_MR_Color_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convert a const iterator to an index. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_a57e8462869cab4a5203dede5869920d.html">MRCMisc</a></li><li class="navelem"><a class="el" href="std__vector__MR__Color_8h.html">std_vector_MR_Color.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

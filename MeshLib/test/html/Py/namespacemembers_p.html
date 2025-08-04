@@ -1,0 +1,245 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: Modules Members</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('namespacemembers_p.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="contents">
+<div class="textblock">Here is a list of all namespace members with links to the namespace documentation for each member:</div>
+
+<h3><a id="index_p" name="index_p"></a>- p -</h3><ul>
+<li>pack()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a723b781589012a59e771881b2aaff9e7">meshlib.mrmeshpy</a></li>
+<li>Parabola_double&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a913116690a23ebc6db2fc0d588bceb91">meshlib.mrmeshpy</a></li>
+<li>Parabola_float&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a1963008aaaae5d4b4ca6691569344f3e">meshlib.mrmeshpy</a></li>
+<li>parseFirstNum()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ac6e62120e2869ad1e2d91c22b00f25e2">meshlib.mrmeshpy</a></li>
+<li>parsePolygon()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a007bda94b1d4b6e74f083fda6531216c">meshlib.mrmeshpy</a></li>
+<li>partialOffsetMesh()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a9bf922273be27dbdf63a5935656eac70">meshlib.mrmeshpy</a></li>
+<li>pathFromUtf8()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#aad1d7e621a9cb09bf63736ffa2a6c07c">meshlib.mrmeshpy</a></li>
+<li>phmap_flat_hash_map_FaceId_FaceId&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a656e88d6350ef35ba6743102fe6bba68">meshlib.mrmeshpy</a></li>
+<li>phmap_flat_hash_map_GraphEdgeId_GraphEdgeId&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a7345ac6c8dc9365903266df1ffe6c77b">meshlib.mrmeshpy</a></li>
+<li>phmap_flat_hash_map_GraphVertId_GraphVertId&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a7cc4e913744853925751b8fa6cb42591">meshlib.mrmeshpy</a></li>
+<li>phmap_flat_hash_map_int_Box3i_phmap_Hash_int32_t&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a975d382e2e54b3b850d2d616807c6109">meshlib.mrmeshpy</a></li>
+<li>phmap_flat_hash_map_NodeId_NodeId&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a2b77116f7facaa6236ae8736a55ea171">meshlib.mrmeshpy</a></li>
+<li>phmap_flat_hash_map_ObjId_ObjId&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a04593374bbdf6dc330391b2e36232754">meshlib.mrmeshpy</a></li>
+<li>phmap_flat_hash_map_PixelId_PixelId&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a9a5116d2450f4c1823bf62e2e35b865c">meshlib.mrmeshpy</a></li>
+<li>phmap_flat_hash_map_RegionId_RegionId&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ab36218239135304214ae2db03df9003e">meshlib.mrmeshpy</a></li>
+<li>phmap_flat_hash_map_TextureId_TextureId&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#acaacade5a1fd11090d6e5c79f85c660e">meshlib.mrmeshpy</a></li>
+<li>phmap_flat_hash_map_UndirectedEdgeId_Id_EdgeTag&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a32425ff878e260e26420fa0a37997f64">meshlib.mrmeshpy</a></li>
+<li>phmap_flat_hash_map_UndirectedEdgeId_int&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#adb8ff8bb7b7891d52997566578c0b87d">meshlib.mrmeshpy</a></li>
+<li>phmap_flat_hash_map_UndirectedEdgeId_UndirectedEdgeId&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ac93a85808ad13815dfdc4ba62293313d">meshlib.mrmeshpy</a></li>
+<li>phmap_flat_hash_map_unsigned_long_std_array_VertId_3_phmap_Hash_uint64_t&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#af255f56e7232d66bdb98f72ccc3b8cab">meshlib.mrmeshpy</a></li>
+<li>phmap_flat_hash_map_VertId_float&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#acfc4625d00579ccd2e33f92a60813d42">meshlib.mrmeshpy</a></li>
+<li>phmap_flat_hash_map_VertId_FlowAggregator_Flows&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a17f26d154ee640b23ba7e6f0d1be31cd">meshlib.mrmeshpy</a></li>
+<li>phmap_flat_hash_map_VertId_VertId&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ade122c2a0b04451f65e8a47240f4c5bb">meshlib.mrmeshpy</a></li>
+<li>phmap_flat_hash_map_VertId_VertPathInfo&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a60b4ec7a596befc8793931a8e9c21133">meshlib.mrmeshpy</a></li>
+<li>PickedPoint&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ab0b94b3e36f783ec72fde5546d794360">meshlib.mrmeshpy</a></li>
+<li>pickedPointToVector3()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ae962a6f532abf2ebfafe4ac430fed571">meshlib.mrmeshpy</a></li>
+<li>Plane3_double&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a459136e294da77c40dd400399c7a0f6e">meshlib.mrmeshpy</a></li>
+<li>Plane3_float&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a1f59b3362f15e4ce0bde99c9afe6155a">meshlib.mrmeshpy</a></li>
+<li>PlaneSection&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#aa642c55937b1b2d5d45cd26cc58d9819">meshlib.mrmeshpy</a></li>
+<li>PlaneSections&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a60d10c8857860d314cfb571d5107c4bd">meshlib.mrmeshpy</a></li>
+<li>planeSectionsToContours2f()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a6b624038bbb330875139109eea4388bf">meshlib.mrmeshpy</a></li>
+<li>planeSectionToContour2f()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a9a0c9e623e76dcc0501b04d2b8e2b353">meshlib.mrmeshpy</a></li>
+<li>pointCloudFromPoints()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshnumpy.html#ad6d1b975db23f15fa66d9a11faa9fde1">meshlib.mrmeshnumpy</a></li>
+<li>pointGridSampling()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a34d4180c71a869cfb7eeeb7d45cacf32">meshlib.mrmeshpy</a></li>
+<li>pointIterativeSampling()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a190c121d62500818e869c49ef984f71a">meshlib.mrmeshpy</a></li>
+<li>pointOnObjectToPickedPoint()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a4693bbe1b3b09ca54089d33fe2c17d76">meshlib.mrmeshpy</a></li>
+<li>pointsToDistanceFunctionVolume()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a4ac4f128d0b0d67a9bab3911e5f7cd65">meshlib.mrmeshpy</a></li>
+<li>pointsToDistanceVolume()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrcudapy.html#a558ae4d962bb35a0c1e928db4c8abc9a">meshlib.mrcudapy</a>, <a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a8054b427f12c96ac8ee9ff49de871e76">meshlib.mrmeshpy</a></li>
+<li>pointsToMeshFusion()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a7a458b9654579ecb1d83a0807ffabfef">meshlib.mrmeshpy</a></li>
+<li>pointUniformSampling()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#aa9673431d9e548ce03831e0e36706efc">meshlib.mrmeshpy</a></li>
+<li>polyline2FromPoints()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshnumpy.html#ac2808392e1ff1233472c261ecd40b3a0">meshlib.mrmeshnumpy</a></li>
+<li>Polyline_Vector2f&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a2ce660f2d5b1764e85ca8071bb605221">meshlib.mrmeshpy</a></li>
+<li>Polyline_Vector3f&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ab5ac8400a6ab3c9ad7ad5ffb1d329d38">meshlib.mrmeshpy</a></li>
+<li>polylineOffset()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a5470ef0af08cd4c7094384db979f85b9">meshlib.mrmeshpy</a></li>
+<li>PolylineProjectionResult_Vector2f&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#aa467a3f80fc3c9a3de771a74aebc7b51">meshlib.mrmeshpy</a></li>
+<li>PolylineProjectionResult_Vector3f&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a12f3029ccbcc6d37f290a5efdf7855ff">meshlib.mrmeshpy</a></li>
+<li>PolylineProjectionWithOffsetResult_Vector2f&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ac3e5f8fc7d932186d9fb844d2a27e3d5">meshlib.mrmeshpy</a></li>
+<li>PolylineProjectionWithOffsetResult_Vector3f&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a60b622fce8026b12d55a930f667aef48">meshlib.mrmeshpy</a></li>
+<li>Polynomial_double_0UL_0_0_0UL_minus_1&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a9963ffb6a5fc8373a68262760dc7a5f4">meshlib.mrmeshpy</a></li>
+<li>Polynomial_double_1UL_0_0_1UL_minus_1&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ad9f9f46bd1ea1bcec13f1ca66354ad51">meshlib.mrmeshpy</a></li>
+<li>Polynomial_double_2UL_0_0_2UL_minus_1&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a83c219e1f8677d3a4e1df6169ff044b1">meshlib.mrmeshpy</a></li>
+<li>Polynomial_double_3UL_0_0_3UL_minus_1&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#aed157d9b5ee826d523018160e04e6e8e">meshlib.mrmeshpy</a></li>
+<li>Polynomial_double_4UL_0_0_4UL_minus_1&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a3cc1134595bd42b59780775ba5045e12">meshlib.mrmeshpy</a></li>
+<li>Polynomial_double_5UL_0_0_5UL_minus_1&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a32bdd383ee919c0bf91353d0ebe66a24">meshlib.mrmeshpy</a></li>
+<li>Polynomial_double_6UL_0_0_6UL_minus_1&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ad5fa8b94e0813ea3e4b3104d518cfa27">meshlib.mrmeshpy</a></li>
+<li>Polynomial_float_0UL_0_0_0UL_minus_1&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a4245bbc5676aa79c4f45697278fb7625">meshlib.mrmeshpy</a></li>
+<li>Polynomial_float_1UL_0_0_1UL_minus_1&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a3b364f15591d2a56e7e8f16288166b1e">meshlib.mrmeshpy</a></li>
+<li>Polynomial_float_2UL_0_0_2UL_minus_1&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a204a1131d655423480f937bde8ace4a7">meshlib.mrmeshpy</a></li>
+<li>Polynomial_float_3UL_0_0_3UL_minus_1&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a97754d1735c137dc0931bf6222012fbe">meshlib.mrmeshpy</a></li>
+<li>Polynomial_float_4UL_0_0_4UL_minus_1&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#aa5ea271ff900fa51817d5dafcdd37885">meshlib.mrmeshpy</a></li>
+<li>Polynomial_float_5UL_0_0_5UL_minus_1&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a5058930ee9e69b4e1122327bef07a03c">meshlib.mrmeshpy</a></li>
+<li>Polynomial_float_6UL_0_0_6UL_minus_1&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#adc5944b931fcb1429ba1e10c329f32b8">meshlib.mrmeshpy</a></li>
+<li>PolynomialWrapperd&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#addc4f684fdbcd16245ce79460c45ab56">meshlib.mrmeshpy</a></li>
+<li>PolynomialWrapperf&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a89b05859814c7124030755ee18247e6c">meshlib.mrmeshpy</a></li>
+<li>Polynomialx_double&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a236c010b7b9687a158463d8b1e2fb24f">meshlib.mrmeshpy</a></li>
+<li>Polynomialx_float&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a3c1bb653fec8944c1fa6de51886e6f83">meshlib.mrmeshpy</a></li>
+<li>positionVertsSmoothly()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a1639fe59866bee0569e5f8229c8e6ba8">meshlib.mrmeshpy</a></li>
+<li>positionVertsSmoothlySharpBd()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#abfd38db59f12c0f27a72368db49ed422">meshlib.mrmeshpy</a></li>
+<li>positionVertsWithSpacing()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a233c42bad788d29e21710e78c74bf590">meshlib.mrmeshpy</a></li>
+<li>printCurrentTimerBranch()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a889a2a0892e61d04d5b3507d2a300a17">meshlib.mrmeshpy</a></li>
+<li>printStacktraceOnCrash()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a02114e65960a4b87fd0ecf62f9a238cf">meshlib.mrmeshpy</a></li>
+<li>printTimingTree()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#af5ab5645db4d50866cde068e8ac42575">meshlib.mrmeshpy</a></li>
+<li>printTimingTreeAtEnd()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ab1f86119a8a9f95234d95f0349493a5b">meshlib.mrmeshpy</a></li>
+<li>processCloseTriangles()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a18526b5e7ac85e673cf23083b7f5f3ad">meshlib.mrmeshpy</a></li>
+<li>projectAllMeshVertices()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a9a65ecc2debdb6e36bc0d3e3ba5bcc23">meshlib.mrmeshpy</a></li>
+<li>projectOnAll()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ac8ad822fac761c71ee7100376a724106">meshlib.mrmeshpy</a></li>
+<li>putScanFileNameInZ()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a5cb30fa7012e20b80419a8bb3df07ffe">meshlib.mrmeshpy</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

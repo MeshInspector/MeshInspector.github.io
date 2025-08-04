@@ -1,0 +1,226 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRPointCloudMakeNormals.h Source File</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRPointCloudMakeNormals_8h_source.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">MRPointCloudMakeNormals.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="MRPointCloudMakeNormals_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="MREnums_8h.html">MRCMesh/MREnums.h</a>&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;MRCMisc/exports.h&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="MRPointCloudMakeNormals_8h.html#af3305840a3b0b98761ca0684499fe801">   13</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRLocalTriangulations_8h.html#af3305840a3b0b98761ca0684499fe801">MR_AllLocalTriangulations</a> <a class="code hl_typedef" href="MRLocalTriangulations_8h.html#af3305840a3b0b98761ca0684499fe801">MR_AllLocalTriangulations</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRLocalTriangulations.h&gt;`.</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="MRPointCloudMakeNormals_8h.html#ab9532c7498f492993c731c877ba0332b">   14</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span>MR_Buffer_MR_VertId MR_Buffer_MR_VertId; <span class="comment">// Defined in `#include &lt;MRCMesh/MRBuffer.h&gt;`.</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="MRPointCloudMakeNormals_8h.html#aa319738c95f0bbde075b7ef777cf2665">   15</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> <a class="code hl_typedef" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRPointCloud.h&gt;`.</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="MRPointCloudMakeNormals_8h.html#a249fd9254c0c3395567807936ad32641">   16</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> <a class="code hl_typedef" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRVector.h&gt;`.</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="MRPointCloudMakeNormals_8h.html#adb03ce28cacfff1e499d75d512dc4a84">   17</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> <a class="code hl_typedef" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_function_bool_from_float.h&gt;`.</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="MRPointCloudMakeNormals_8h.html#aa15c8fc617d3f9c35203c043e5c8a078">   18</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRPointCloudMakeNormals_8h.html#aa15c8fc617d3f9c35203c043e5c8a078">MR_std_optional_MR_VertCoords</a> <a class="code hl_typedef" href="MRPointCloudMakeNormals_8h.html#aa15c8fc617d3f9c35203c043e5c8a078">MR_std_optional_MR_VertCoords</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_optional_MR_VertCoords.h&gt;`.</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="group__PointCloudGroup.html#ga27f61d56563234036fdbc292028e5ded">   31</a></span>MRC_API <a class="code hl_typedef" href="MRPointCloudMakeNormals_8h.html#aa15c8fc617d3f9c35203c043e5c8a078">MR_std_optional_MR_VertCoords</a> *<a class="code hl_function" href="group__PointCloudGroup.html#ga27f61d56563234036fdbc292028e5ded">MR_makeUnorientedNormals_4_float</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, <span class="keywordtype">float</span> radius, <span class="keyword">const</span> <a class="code hl_typedef" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress, <span class="keyword">const</span> <a class="code hl_typedef" href="MREnums_8h.html#a133ca2b85f9ada88a11dd383aabafce2">MR_OrientNormals</a> *orient);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="group__PointCloudGroup.html#ga1ed2352488ecf1ff132a5f1cfdcdf41b">   44</a></span>MRC_API <a class="code hl_typedef" href="MRPointCloudMakeNormals_8h.html#aa15c8fc617d3f9c35203c043e5c8a078">MR_std_optional_MR_VertCoords</a> *<a class="code hl_function" href="group__PointCloudGroup.html#ga1ed2352488ecf1ff132a5f1cfdcdf41b">MR_makeUnorientedNormals_4_MR_AllLocalTriangulations</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, <span class="keyword">const</span> <a class="code hl_typedef" href="MRLocalTriangulations_8h.html#af3305840a3b0b98761ca0684499fe801">MR_AllLocalTriangulations</a> *triangs, <span class="keyword">const</span> <a class="code hl_typedef" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress, <span class="keyword">const</span> <a class="code hl_typedef" href="MREnums_8h.html#a133ca2b85f9ada88a11dd383aabafce2">MR_OrientNormals</a> *orient);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="group__PointCloudGroup.html#ga0092e8df2b8cae6f51fb82984e46fb36">   57</a></span>MRC_API <a class="code hl_typedef" href="MRPointCloudMakeNormals_8h.html#aa15c8fc617d3f9c35203c043e5c8a078">MR_std_optional_MR_VertCoords</a> *<a class="code hl_function" href="group__PointCloudGroup.html#ga0092e8df2b8cae6f51fb82984e46fb36">MR_makeUnorientedNormals_5</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, <span class="keyword">const</span> MR_Buffer_MR_VertId *closeVerts, int32_t numNei, <span class="keyword">const</span> <a class="code hl_typedef" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress, <span class="keyword">const</span> <a class="code hl_typedef" href="MREnums_8h.html#a133ca2b85f9ada88a11dd383aabafce2">MR_OrientNormals</a> *orient);</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="group__PointCloudGroup.html#ga5a13f367562612b96e1812a44f8611b5">   67</a></span>MRC_API <span class="keywordtype">bool</span> <a class="code hl_function" href="group__PointCloudGroup.html#ga5a13f367562612b96e1812a44f8611b5">MR_orientNormals_4_float</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, <a class="code hl_typedef" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *normals, <span class="keywordtype">float</span> radius, <span class="keyword">const</span> <a class="code hl_typedef" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="group__PointCloudGroup.html#ga6cc0394a0a39ded9b80960ae36ecfc5e">   81</a></span>MRC_API <span class="keywordtype">bool</span> <a class="code hl_function" href="group__PointCloudGroup.html#ga6cc0394a0a39ded9b80960ae36ecfc5e">MR_orientNormals_4_MR_AllLocalTriangulations</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, <a class="code hl_typedef" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *normals, <span class="keyword">const</span> <a class="code hl_typedef" href="MRLocalTriangulations_8h.html#af3305840a3b0b98761ca0684499fe801">MR_AllLocalTriangulations</a> *triangs, <span class="keyword">const</span> <a class="code hl_typedef" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress);</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="group__PointCloudGroup.html#ga7f5505713caf6aa6a1044f2c2e2c89c2">   92</a></span>MRC_API <span class="keywordtype">bool</span> <a class="code hl_function" href="group__PointCloudGroup.html#ga7f5505713caf6aa6a1044f2c2e2c89c2">MR_orientNormals_5</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, <a class="code hl_typedef" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *normals, <span class="keyword">const</span> MR_Buffer_MR_VertId *closeVerts, int32_t numNei, <span class="keyword">const</span> <a class="code hl_typedef" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress);</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="group__PointCloudGroup.html#gaf985fc6b33ff6efd4bf53fe4e2a211fa">  102</a></span>MRC_API <a class="code hl_typedef" href="MRPointCloudMakeNormals_8h.html#aa15c8fc617d3f9c35203c043e5c8a078">MR_std_optional_MR_VertCoords</a> *<a class="code hl_function" href="group__PointCloudGroup.html#gaf985fc6b33ff6efd4bf53fe4e2a211fa">MR_makeOrientedNormals_float</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, <span class="keywordtype">float</span> radius, <span class="keyword">const</span> <a class="code hl_typedef" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress);</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno"><a class="line" href="group__PointCloudGroup.html#gae777ba80ae7a9c1bb2b72387ffcfa13a">  113</a></span>MRC_API <a class="code hl_typedef" href="MRPointCloudMakeNormals_8h.html#aa15c8fc617d3f9c35203c043e5c8a078">MR_std_optional_MR_VertCoords</a> *<a class="code hl_function" href="group__PointCloudGroup.html#gae777ba80ae7a9c1bb2b72387ffcfa13a">MR_makeOrientedNormals_MR_AllLocalTriangulations</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, <a class="code hl_typedef" href="MRLocalTriangulations_8h.html#af3305840a3b0b98761ca0684499fe801">MR_AllLocalTriangulations</a> *triangs, <span class="keyword">const</span> <a class="code hl_typedef" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress);</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span><span class="comment">//[[deprecated( &quot;use makeOrientedNormals(...) instead&quot; )]]</span></div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno"><a class="line" href="group__PointCloudGroup.html#gae98664b57ab2c0e64704c74c3df3d144">  123</a></span>MRC_API <a class="code hl_typedef" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *<a class="code hl_function" href="group__PointCloudGroup.html#gae98664b57ab2c0e64704c74c3df3d144">MR_makeNormals</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, <span class="keyword">const</span> int32_t *avgNeighborhoodSize);</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span> </div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aMR3mf_8h_html_adb03ce28cacfff1e499d75d512dc4a84"><div class="ttname"><a href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></div><div class="ttdeci">struct MR_std_function_bool_from_float MR_std_function_bool_from_float</div><div class="ttdef"><b>Definition</b> MR3mf.h:10</div></div>
+<div class="ttc" id="aMRAABBTreePoints_8h_html_a249fd9254c0c3395567807936ad32641"><div class="ttname"><a href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a></div><div class="ttdeci">struct MR_VertCoords MR_VertCoords</div><div class="ttdef"><b>Definition</b> MRAABBTreePoints.h:22</div></div>
+<div class="ttc" id="aMRCtm_8h_html_aa319738c95f0bbde075b7ef777cf2665"><div class="ttname"><a href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a></div><div class="ttdeci">struct MR_PointCloud MR_PointCloud</div><div class="ttdef"><b>Definition</b> MRCtm.h:15</div></div>
+<div class="ttc" id="aMREnums_8h_html"><div class="ttname"><a href="MREnums_8h.html">MREnums.h</a></div></div>
+<div class="ttc" id="aMREnums_8h_html_a133ca2b85f9ada88a11dd383aabafce2"><div class="ttname"><a href="MREnums_8h.html#a133ca2b85f9ada88a11dd383aabafce2">MR_OrientNormals</a></div><div class="ttdeci">int32_t MR_OrientNormals</div><div class="ttdoc">the method how to choose between two opposite normal orientations</div><div class="ttdef"><b>Definition</b> MREnums.h:42</div></div>
+<div class="ttc" id="aMRLocalTriangulations_8h_html_af3305840a3b0b98761ca0684499fe801"><div class="ttname"><a href="MRLocalTriangulations_8h.html#af3305840a3b0b98761ca0684499fe801">MR_AllLocalTriangulations</a></div><div class="ttdeci">struct MR_AllLocalTriangulations MR_AllLocalTriangulations</div><div class="ttdef"><b>Definition</b> MRLocalTriangulations.h:53</div></div>
+<div class="ttc" id="aMRPointCloudMakeNormals_8h_html_aa15c8fc617d3f9c35203c043e5c8a078"><div class="ttname"><a href="MRPointCloudMakeNormals_8h.html#aa15c8fc617d3f9c35203c043e5c8a078">MR_std_optional_MR_VertCoords</a></div><div class="ttdeci">struct MR_std_optional_MR_VertCoords MR_std_optional_MR_VertCoords</div><div class="ttdef"><b>Definition</b> MRPointCloudMakeNormals.h:18</div></div>
+<div class="ttc" id="agroup__PointCloudGroup_html_ga0092e8df2b8cae6f51fb82984e46fb36"><div class="ttname"><a href="group__PointCloudGroup.html#ga0092e8df2b8cae6f51fb82984e46fb36">MR_makeUnorientedNormals_5</a></div><div class="ttdeci">MRC_API MR_std_optional_MR_VertCoords * MR_makeUnorientedNormals_5(const MR_PointCloud *pointCloud, const MR_Buffer_MR_VertId *closeVerts, int32_t numNei, const MR_std_function_bool_from_float *progress, const MR_OrientNormals *orient)</div><div class="ttdoc">Makes normals for valid points of given point cloud by directing them along the normal of best plane ...</div></div>
+<div class="ttc" id="agroup__PointCloudGroup_html_ga1ed2352488ecf1ff132a5f1cfdcdf41b"><div class="ttname"><a href="group__PointCloudGroup.html#ga1ed2352488ecf1ff132a5f1cfdcdf41b">MR_makeUnorientedNormals_4_MR_AllLocalTriangulations</a></div><div class="ttdeci">MRC_API MR_std_optional_MR_VertCoords * MR_makeUnorientedNormals_4_MR_AllLocalTriangulations(const MR_PointCloud *pointCloud, const MR_AllLocalTriangulations *triangs, const MR_std_function_bool_from_float *progress, const MR_OrientNormals *orient)</div><div class="ttdoc">Makes normals for valid points of given point cloud by averaging neighbor triangle normals weighted b...</div></div>
+<div class="ttc" id="agroup__PointCloudGroup_html_ga27f61d56563234036fdbc292028e5ded"><div class="ttname"><a href="group__PointCloudGroup.html#ga27f61d56563234036fdbc292028e5ded">MR_makeUnorientedNormals_4_float</a></div><div class="ttdeci">MRC_API MR_std_optional_MR_VertCoords * MR_makeUnorientedNormals_4_float(const MR_PointCloud *pointCloud, float radius, const MR_std_function_bool_from_float *progress, const MR_OrientNormals *orient)</div><div class="ttdoc">Makes normals for valid points of given point cloud by directing them along the normal of best plane ...</div></div>
+<div class="ttc" id="agroup__PointCloudGroup_html_ga5a13f367562612b96e1812a44f8611b5"><div class="ttname"><a href="group__PointCloudGroup.html#ga5a13f367562612b96e1812a44f8611b5">MR_orientNormals_4_float</a></div><div class="ttdeci">MRC_API bool MR_orientNormals_4_float(const MR_PointCloud *pointCloud, MR_VertCoords *normals, float radius, const MR_std_function_bool_from_float *progress)</div><div class="ttdoc">Select orientation of given normals to make directions of close points consistent;.</div></div>
+<div class="ttc" id="agroup__PointCloudGroup_html_ga6cc0394a0a39ded9b80960ae36ecfc5e"><div class="ttname"><a href="group__PointCloudGroup.html#ga6cc0394a0a39ded9b80960ae36ecfc5e">MR_orientNormals_4_MR_AllLocalTriangulations</a></div><div class="ttdeci">MRC_API bool MR_orientNormals_4_MR_AllLocalTriangulations(const MR_PointCloud *pointCloud, MR_VertCoords *normals, const MR_AllLocalTriangulations *triangs, const MR_std_function_bool_from_float *progress)</div><div class="ttdoc">Select orientation of given normals to make directions of close points consistent;.</div></div>
+<div class="ttc" id="agroup__PointCloudGroup_html_ga7f5505713caf6aa6a1044f2c2e2c89c2"><div class="ttname"><a href="group__PointCloudGroup.html#ga7f5505713caf6aa6a1044f2c2e2c89c2">MR_orientNormals_5</a></div><div class="ttdeci">MRC_API bool MR_orientNormals_5(const MR_PointCloud *pointCloud, MR_VertCoords *normals, const MR_Buffer_MR_VertId *closeVerts, int32_t numNei, const MR_std_function_bool_from_float *progress)</div><div class="ttdoc">Select orientation of given normals to make directions of close points consistent;.</div></div>
+<div class="ttc" id="agroup__PointCloudGroup_html_gae777ba80ae7a9c1bb2b72387ffcfa13a"><div class="ttname"><a href="group__PointCloudGroup.html#gae777ba80ae7a9c1bb2b72387ffcfa13a">MR_makeOrientedNormals_MR_AllLocalTriangulations</a></div><div class="ttdeci">MRC_API MR_std_optional_MR_VertCoords * MR_makeOrientedNormals_MR_AllLocalTriangulations(const MR_PointCloud *pointCloud, MR_AllLocalTriangulations *triangs, const MR_std_function_bool_from_float *progress)</div><div class="ttdoc">Makes normals for valid points of given point cloud; directions of close points are selected to be co...</div></div>
+<div class="ttc" id="agroup__PointCloudGroup_html_gae98664b57ab2c0e64704c74c3df3d144"><div class="ttname"><a href="group__PointCloudGroup.html#gae98664b57ab2c0e64704c74c3df3d144">MR_makeNormals</a></div><div class="ttdeci">MRC_API MR_VertCoords * MR_makeNormals(const MR_PointCloud *pointCloud, const int32_t *avgNeighborhoodSize)</div><div class="ttdoc">Makes consistent normals for valid points of given point cloud.</div></div>
+<div class="ttc" id="agroup__PointCloudGroup_html_gaf985fc6b33ff6efd4bf53fe4e2a211fa"><div class="ttname"><a href="group__PointCloudGroup.html#gaf985fc6b33ff6efd4bf53fe4e2a211fa">MR_makeOrientedNormals_float</a></div><div class="ttdeci">MRC_API MR_std_optional_MR_VertCoords * MR_makeOrientedNormals_float(const MR_PointCloud *pointCloud, float radius, const MR_std_function_bool_from_float *progress)</div><div class="ttdoc">Makes normals for valid points of given point cloud; directions of close points are selected to be co...</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_8b489c7b5d1a72d35ec87e32cc37b940.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRPointCloudMakeNormals_8h.html">MRPointCloudMakeNormals.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

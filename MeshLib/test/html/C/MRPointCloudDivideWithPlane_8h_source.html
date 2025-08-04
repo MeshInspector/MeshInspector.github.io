@@ -1,0 +1,254 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRPointCloudDivideWithPlane.h Source File</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRPointCloudDivideWithPlane_8h_source.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">MRPointCloudDivideWithPlane.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="MRPointCloudDivideWithPlane_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;MRCMisc/exports.h&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="MRPointCloudDivideWithPlane_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">   11</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> <a class="code hl_typedef" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRPlane3.h&gt;`.</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="MRPointCloudDivideWithPlane_8h.html#aa319738c95f0bbde075b7ef777cf2665">   12</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> <a class="code hl_typedef" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRPointCloud.h&gt;`.</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="MRPointCloudDivideWithPlane_8h.html#a3df50e76b078a1626dd994e1df803764">   13</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> <a class="code hl_typedef" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRBitSet.h&gt;`.</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="MRPointCloudDivideWithPlane_8h.html#a0c1baad62a31685b2dfb5955f3fb8230">   14</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRBitSet_8h.html#a0c1baad62a31685b2dfb5955f3fb8230">MR_VertMap</a> <a class="code hl_typedef" href="MRBitSet_8h.html#a0c1baad62a31685b2dfb5955f3fb8230">MR_VertMap</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRVector.h&gt;`.</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43">   18</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43">MR_DividePointCloudOptionalOutput</a> <a class="code hl_typedef" href="MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43">MR_DividePointCloudOptionalOutput</a>;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="MRPointCloudDivideWithPlane_8h.html#afc230a69179f7251dcc7df3cde2e43fe">   27</a></span>MRC_API <a class="code hl_typedef" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *<a class="code hl_function" href="MRPointCloudDivideWithPlane_8h.html#afc230a69179f7251dcc7df3cde2e43fe">MR_findHalfSpacePoints</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pc, <span class="keyword">const</span> <a class="code hl_typedef" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *plane);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="MRPointCloudDivideWithPlane_8h.html#a87550b90819fe18bb4398ba7bcb93de8">   33</a></span>MRC_API <a class="code hl_typedef" href="MRBitSet_8h.html#a0c1baad62a31685b2dfb5955f3fb8230">MR_VertMap</a> *<span class="keyword">const</span> *<a class="code hl_function" href="MRPointCloudDivideWithPlane_8h.html#a87550b90819fe18bb4398ba7bcb93de8">MR_DividePointCloudOptionalOutput_Get_outVmap</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43">MR_DividePointCloudOptionalOutput</a> *_this);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="MRPointCloudDivideWithPlane_8h.html#aad2a43cc6609ab8d4066b1facfe79a35">   38</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRPointCloudDivideWithPlane_8h.html#aad2a43cc6609ab8d4066b1facfe79a35">MR_DividePointCloudOptionalOutput_Set_outVmap</a>(<a class="code hl_typedef" href="MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43">MR_DividePointCloudOptionalOutput</a> *_this, <a class="code hl_typedef" href="MRBitSet_8h.html#a0c1baad62a31685b2dfb5955f3fb8230">MR_VertMap</a> *value);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="MRPointCloudDivideWithPlane_8h.html#a49211536f8a79618752533796fc80901">   44</a></span>MRC_API <a class="code hl_typedef" href="MRBitSet_8h.html#a0c1baad62a31685b2dfb5955f3fb8230">MR_VertMap</a> **<a class="code hl_function" href="MRPointCloudDivideWithPlane_8h.html#a49211536f8a79618752533796fc80901">MR_DividePointCloudOptionalOutput_GetMutable_outVmap</a>(<a class="code hl_typedef" href="MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43">MR_DividePointCloudOptionalOutput</a> *_this);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="MRPointCloudDivideWithPlane_8h.html#a66ab65eb4e3c0eddb7ac318475829ed9">   50</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *<span class="keyword">const</span> *<a class="code hl_function" href="MRPointCloudDivideWithPlane_8h.html#a66ab65eb4e3c0eddb7ac318475829ed9">MR_DividePointCloudOptionalOutput_Get_otherPart</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43">MR_DividePointCloudOptionalOutput</a> *_this);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="MRPointCloudDivideWithPlane_8h.html#a24d34e5b39f74feb3f750bd4af1e34e9">   55</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRPointCloudDivideWithPlane_8h.html#a24d34e5b39f74feb3f750bd4af1e34e9">MR_DividePointCloudOptionalOutput_Set_otherPart</a>(<a class="code hl_typedef" href="MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43">MR_DividePointCloudOptionalOutput</a> *_this, <a class="code hl_typedef" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *value);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="MRPointCloudDivideWithPlane_8h.html#a86a4f8ea581560c3d89286b546767584">   61</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> **<a class="code hl_function" href="MRPointCloudDivideWithPlane_8h.html#a86a4f8ea581560c3d89286b546767584">MR_DividePointCloudOptionalOutput_GetMutable_otherPart</a>(<a class="code hl_typedef" href="MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43">MR_DividePointCloudOptionalOutput</a> *_this);</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="MRPointCloudDivideWithPlane_8h.html#a4aa998cca2c1ab77f281b09a92ea5d36">   67</a></span>MRC_API <a class="code hl_typedef" href="MRBitSet_8h.html#a0c1baad62a31685b2dfb5955f3fb8230">MR_VertMap</a> *<span class="keyword">const</span> *<a class="code hl_function" href="MRPointCloudDivideWithPlane_8h.html#a4aa998cca2c1ab77f281b09a92ea5d36">MR_DividePointCloudOptionalOutput_Get_otherOutVmap</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43">MR_DividePointCloudOptionalOutput</a> *_this);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="MRPointCloudDivideWithPlane_8h.html#afb90cd51da7139261e560fc3ef08e8bd">   72</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRPointCloudDivideWithPlane_8h.html#afb90cd51da7139261e560fc3ef08e8bd">MR_DividePointCloudOptionalOutput_Set_otherOutVmap</a>(<a class="code hl_typedef" href="MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43">MR_DividePointCloudOptionalOutput</a> *_this, <a class="code hl_typedef" href="MRBitSet_8h.html#a0c1baad62a31685b2dfb5955f3fb8230">MR_VertMap</a> *value);</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="MRPointCloudDivideWithPlane_8h.html#a9746c40f7c7f654f3e42e82c7f585e38">   78</a></span>MRC_API <a class="code hl_typedef" href="MRBitSet_8h.html#a0c1baad62a31685b2dfb5955f3fb8230">MR_VertMap</a> **<a class="code hl_function" href="MRPointCloudDivideWithPlane_8h.html#a9746c40f7c7f654f3e42e82c7f585e38">MR_DividePointCloudOptionalOutput_GetMutable_otherOutVmap</a>(<a class="code hl_typedef" href="MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43">MR_DividePointCloudOptionalOutput</a> *_this);</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="MRPointCloudDivideWithPlane_8h.html#a311c83d628c1a2fc3a6a360c5193b7e8">   82</a></span>MRC_API <a class="code hl_typedef" href="MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43">MR_DividePointCloudOptionalOutput</a> *<a class="code hl_function" href="MRPointCloudDivideWithPlane_8h.html#a311c83d628c1a2fc3a6a360c5193b7e8">MR_DividePointCloudOptionalOutput_DefaultConstruct</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno"><a class="line" href="MRPointCloudDivideWithPlane_8h.html#a1b3a6191fcfcb4ef4538e14f7a19c757">   87</a></span>MRC_API <a class="code hl_typedef" href="MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43">MR_DividePointCloudOptionalOutput</a> *<a class="code hl_function" href="MRPointCloudDivideWithPlane_8h.html#a1b3a6191fcfcb4ef4538e14f7a19c757">MR_DividePointCloudOptionalOutput_DefaultConstructArray</a>(<span class="keywordtype">size_t</span> num_elems);</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno"><a class="line" href="MRPointCloudDivideWithPlane_8h.html#ada78f6792cab8e4b27f0cc8e473a6851">   91</a></span>MRC_API <a class="code hl_typedef" href="MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43">MR_DividePointCloudOptionalOutput</a> *<a class="code hl_function" href="MRPointCloudDivideWithPlane_8h.html#ada78f6792cab8e4b27f0cc8e473a6851">MR_DividePointCloudOptionalOutput_ConstructFrom</a>(<a class="code hl_typedef" href="MRBitSet_8h.html#a0c1baad62a31685b2dfb5955f3fb8230">MR_VertMap</a> *outVmap, <a class="code hl_typedef" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *otherPart, <a class="code hl_typedef" href="MRBitSet_8h.html#a0c1baad62a31685b2dfb5955f3fb8230">MR_VertMap</a> *otherOutVmap);</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="MRPointCloudDivideWithPlane_8h.html#ac2a85235dac6e532c0c0143a464dc4dc">   94</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43">MR_DividePointCloudOptionalOutput</a> *<a class="code hl_function" href="MRPointCloudDivideWithPlane_8h.html#ac2a85235dac6e532c0c0143a464dc4dc">MR_DividePointCloudOptionalOutput_OffsetPtr</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43">MR_DividePointCloudOptionalOutput</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="MRPointCloudDivideWithPlane_8h.html#afe9b7d1e7c1c0f8760c8ca4b186fba24">   97</a></span>MRC_API <a class="code hl_typedef" href="MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43">MR_DividePointCloudOptionalOutput</a> *<a class="code hl_function" href="MRPointCloudDivideWithPlane_8h.html#afe9b7d1e7c1c0f8760c8ca4b186fba24">MR_DividePointCloudOptionalOutput_OffsetMutablePtr</a>(<a class="code hl_typedef" href="MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43">MR_DividePointCloudOptionalOutput</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="MRPointCloudDivideWithPlane_8h.html#a0c3447da794b15be7a189c8c4bbab486">  102</a></span>MRC_API <a class="code hl_typedef" href="MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43">MR_DividePointCloudOptionalOutput</a> *<a class="code hl_function" href="MRPointCloudDivideWithPlane_8h.html#a0c3447da794b15be7a189c8c4bbab486">MR_DividePointCloudOptionalOutput_ConstructFromAnother</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43">MR_DividePointCloudOptionalOutput</a> *_other);</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="MRPointCloudDivideWithPlane_8h.html#a77f45354e4d3ed29662de955fa25104d">  105</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRPointCloudDivideWithPlane_8h.html#a77f45354e4d3ed29662de955fa25104d">MR_DividePointCloudOptionalOutput_Destroy</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43">MR_DividePointCloudOptionalOutput</a> *_this);</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="MRPointCloudDivideWithPlane_8h.html#a0f7527194c64ee234a6401e1cbe52115">  108</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRPointCloudDivideWithPlane_8h.html#a0f7527194c64ee234a6401e1cbe52115">MR_DividePointCloudOptionalOutput_DestroyArray</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43">MR_DividePointCloudOptionalOutput</a> *_this);</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno"><a class="line" href="MRPointCloudDivideWithPlane_8h.html#a8c7a1d1b7cc332eeeb184456d9c49c4e">  114</a></span>MRC_API <a class="code hl_typedef" href="MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43">MR_DividePointCloudOptionalOutput</a> *<a class="code hl_function" href="MRPointCloudDivideWithPlane_8h.html#a8c7a1d1b7cc332eeeb184456d9c49c4e">MR_DividePointCloudOptionalOutput_AssignFromAnother</a>(<a class="code hl_typedef" href="MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43">MR_DividePointCloudOptionalOutput</a> *_this, <span class="keyword">const</span> <a class="code hl_typedef" href="MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43">MR_DividePointCloudOptionalOutput</a> *_other);</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno"><a class="line" href="MRPointCloudDivideWithPlane_8h.html#afb4666a02cb50a0dc71479d823772243">  126</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *<a class="code hl_function" href="MRPointCloudDivideWithPlane_8h.html#afb4666a02cb50a0dc71479d823772243">MR_divideWithPlane</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *points, <span class="keyword">const</span> <a class="code hl_typedef" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *plane, <span class="keyword">const</span> <a class="code hl_typedef" href="MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43">MR_DividePointCloudOptionalOutput</a> *optOut);</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aMRAABBTree_8h_html_a3df50e76b078a1626dd994e1df803764"><div class="ttname"><a href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a></div><div class="ttdeci">struct MR_VertBitSet MR_VertBitSet</div><div class="ttdef"><b>Definition</b> MRAABBTree.h:15</div></div>
+<div class="ttc" id="aMRBestFit_8h_html_aa7548d3448b3b7da1ea96433fe902e9a"><div class="ttname"><a href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a></div><div class="ttdeci">struct MR_Plane3f MR_Plane3f</div><div class="ttdef"><b>Definition</b> MRBestFit.h:23</div></div>
+<div class="ttc" id="aMRBitSet_8h_html_a0c1baad62a31685b2dfb5955f3fb8230"><div class="ttname"><a href="MRBitSet_8h.html#a0c1baad62a31685b2dfb5955f3fb8230">MR_VertMap</a></div><div class="ttdeci">struct MR_VertMap MR_VertMap</div><div class="ttdef"><b>Definition</b> MRBitSet.h:41</div></div>
+<div class="ttc" id="aMRCtm_8h_html_aa319738c95f0bbde075b7ef777cf2665"><div class="ttname"><a href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a></div><div class="ttdeci">struct MR_PointCloud MR_PointCloud</div><div class="ttdef"><b>Definition</b> MRCtm.h:15</div></div>
+<div class="ttc" id="aMRPointCloudDivideWithPlane_8h_html_a0c3447da794b15be7a189c8c4bbab486"><div class="ttname"><a href="MRPointCloudDivideWithPlane_8h.html#a0c3447da794b15be7a189c8c4bbab486">MR_DividePointCloudOptionalOutput_ConstructFromAnother</a></div><div class="ttdeci">MRC_API MR_DividePointCloudOptionalOutput * MR_DividePointCloudOptionalOutput_ConstructFromAnother(const MR_DividePointCloudOptionalOutput *_other)</div></div>
+<div class="ttc" id="aMRPointCloudDivideWithPlane_8h_html_a0f7527194c64ee234a6401e1cbe52115"><div class="ttname"><a href="MRPointCloudDivideWithPlane_8h.html#a0f7527194c64ee234a6401e1cbe52115">MR_DividePointCloudOptionalOutput_DestroyArray</a></div><div class="ttdeci">MRC_API void MR_DividePointCloudOptionalOutput_DestroyArray(const MR_DividePointCloudOptionalOutput *_this)</div><div class="ttdoc">Destroys a heap-allocated array of MR_DividePointCloudOptionalOutput. Does nothing if the pointer is ...</div></div>
+<div class="ttc" id="aMRPointCloudDivideWithPlane_8h_html_a1b3a6191fcfcb4ef4538e14f7a19c757"><div class="ttname"><a href="MRPointCloudDivideWithPlane_8h.html#a1b3a6191fcfcb4ef4538e14f7a19c757">MR_DividePointCloudOptionalOutput_DefaultConstructArray</a></div><div class="ttdeci">MRC_API MR_DividePointCloudOptionalOutput * MR_DividePointCloudOptionalOutput_DefaultConstructArray(size_t num_elems)</div></div>
+<div class="ttc" id="aMRPointCloudDivideWithPlane_8h_html_a24d34e5b39f74feb3f750bd4af1e34e9"><div class="ttname"><a href="MRPointCloudDivideWithPlane_8h.html#a24d34e5b39f74feb3f750bd4af1e34e9">MR_DividePointCloudOptionalOutput_Set_otherPart</a></div><div class="ttdeci">MRC_API void MR_DividePointCloudOptionalOutput_Set_otherPart(MR_DividePointCloudOptionalOutput *_this, MR_PointCloud *value)</div></div>
+<div class="ttc" id="aMRPointCloudDivideWithPlane_8h_html_a311c83d628c1a2fc3a6a360c5193b7e8"><div class="ttname"><a href="MRPointCloudDivideWithPlane_8h.html#a311c83d628c1a2fc3a6a360c5193b7e8">MR_DividePointCloudOptionalOutput_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_DividePointCloudOptionalOutput * MR_DividePointCloudOptionalOutput_DefaultConstruct(void)</div></div>
+<div class="ttc" id="aMRPointCloudDivideWithPlane_8h_html_a49211536f8a79618752533796fc80901"><div class="ttname"><a href="MRPointCloudDivideWithPlane_8h.html#a49211536f8a79618752533796fc80901">MR_DividePointCloudOptionalOutput_GetMutable_outVmap</a></div><div class="ttdeci">MRC_API MR_VertMap ** MR_DividePointCloudOptionalOutput_GetMutable_outVmap(MR_DividePointCloudOptionalOutput *_this)</div></div>
+<div class="ttc" id="aMRPointCloudDivideWithPlane_8h_html_a4aa998cca2c1ab77f281b09a92ea5d36"><div class="ttname"><a href="MRPointCloudDivideWithPlane_8h.html#a4aa998cca2c1ab77f281b09a92ea5d36">MR_DividePointCloudOptionalOutput_Get_otherOutVmap</a></div><div class="ttdeci">MRC_API MR_VertMap *const * MR_DividePointCloudOptionalOutput_Get_otherOutVmap(const MR_DividePointCloudOptionalOutput *_this)</div></div>
+<div class="ttc" id="aMRPointCloudDivideWithPlane_8h_html_a66ab65eb4e3c0eddb7ac318475829ed9"><div class="ttname"><a href="MRPointCloudDivideWithPlane_8h.html#a66ab65eb4e3c0eddb7ac318475829ed9">MR_DividePointCloudOptionalOutput_Get_otherPart</a></div><div class="ttdeci">MRC_API MR_PointCloud *const * MR_DividePointCloudOptionalOutput_Get_otherPart(const MR_DividePointCloudOptionalOutput *_this)</div></div>
+<div class="ttc" id="aMRPointCloudDivideWithPlane_8h_html_a77f45354e4d3ed29662de955fa25104d"><div class="ttname"><a href="MRPointCloudDivideWithPlane_8h.html#a77f45354e4d3ed29662de955fa25104d">MR_DividePointCloudOptionalOutput_Destroy</a></div><div class="ttdeci">MRC_API void MR_DividePointCloudOptionalOutput_Destroy(const MR_DividePointCloudOptionalOutput *_this)</div><div class="ttdoc">Destroys a heap-allocated instance of MR_DividePointCloudOptionalOutput. Does nothing if the pointer ...</div></div>
+<div class="ttc" id="aMRPointCloudDivideWithPlane_8h_html_a86a4f8ea581560c3d89286b546767584"><div class="ttname"><a href="MRPointCloudDivideWithPlane_8h.html#a86a4f8ea581560c3d89286b546767584">MR_DividePointCloudOptionalOutput_GetMutable_otherPart</a></div><div class="ttdeci">MRC_API MR_PointCloud ** MR_DividePointCloudOptionalOutput_GetMutable_otherPart(MR_DividePointCloudOptionalOutput *_this)</div></div>
+<div class="ttc" id="aMRPointCloudDivideWithPlane_8h_html_a87550b90819fe18bb4398ba7bcb93de8"><div class="ttname"><a href="MRPointCloudDivideWithPlane_8h.html#a87550b90819fe18bb4398ba7bcb93de8">MR_DividePointCloudOptionalOutput_Get_outVmap</a></div><div class="ttdeci">MRC_API MR_VertMap *const * MR_DividePointCloudOptionalOutput_Get_outVmap(const MR_DividePointCloudOptionalOutput *_this)</div></div>
+<div class="ttc" id="aMRPointCloudDivideWithPlane_8h_html_a8c7a1d1b7cc332eeeb184456d9c49c4e"><div class="ttname"><a href="MRPointCloudDivideWithPlane_8h.html#a8c7a1d1b7cc332eeeb184456d9c49c4e">MR_DividePointCloudOptionalOutput_AssignFromAnother</a></div><div class="ttdeci">MRC_API MR_DividePointCloudOptionalOutput * MR_DividePointCloudOptionalOutput_AssignFromAnother(MR_DividePointCloudOptionalOutput *_this, const MR_DividePointCloudOptionalOutput *_other)</div></div>
+<div class="ttc" id="aMRPointCloudDivideWithPlane_8h_html_a9746c40f7c7f654f3e42e82c7f585e38"><div class="ttname"><a href="MRPointCloudDivideWithPlane_8h.html#a9746c40f7c7f654f3e42e82c7f585e38">MR_DividePointCloudOptionalOutput_GetMutable_otherOutVmap</a></div><div class="ttdeci">MRC_API MR_VertMap ** MR_DividePointCloudOptionalOutput_GetMutable_otherOutVmap(MR_DividePointCloudOptionalOutput *_this)</div></div>
+<div class="ttc" id="aMRPointCloudDivideWithPlane_8h_html_aad2a43cc6609ab8d4066b1facfe79a35"><div class="ttname"><a href="MRPointCloudDivideWithPlane_8h.html#aad2a43cc6609ab8d4066b1facfe79a35">MR_DividePointCloudOptionalOutput_Set_outVmap</a></div><div class="ttdeci">MRC_API void MR_DividePointCloudOptionalOutput_Set_outVmap(MR_DividePointCloudOptionalOutput *_this, MR_VertMap *value)</div></div>
+<div class="ttc" id="aMRPointCloudDivideWithPlane_8h_html_ab0d92f1cdb13a1672ea66177f4074a43"><div class="ttname"><a href="MRPointCloudDivideWithPlane_8h.html#ab0d92f1cdb13a1672ea66177f4074a43">MR_DividePointCloudOptionalOutput</a></div><div class="ttdeci">struct MR_DividePointCloudOptionalOutput MR_DividePointCloudOptionalOutput</div><div class="ttdoc">Generated from class MR::DividePointCloudOptionalOutput.</div><div class="ttdef"><b>Definition</b> MRPointCloudDivideWithPlane.h:18</div></div>
+<div class="ttc" id="aMRPointCloudDivideWithPlane_8h_html_ac2a85235dac6e532c0c0143a464dc4dc"><div class="ttname"><a href="MRPointCloudDivideWithPlane_8h.html#ac2a85235dac6e532c0c0143a464dc4dc">MR_DividePointCloudOptionalOutput_OffsetPtr</a></div><div class="ttdeci">MRC_API const MR_DividePointCloudOptionalOutput * MR_DividePointCloudOptionalOutput_OffsetPtr(const MR_DividePointCloudOptionalOutput *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRPointCloudDivideWithPlane_8h_html_ada78f6792cab8e4b27f0cc8e473a6851"><div class="ttname"><a href="MRPointCloudDivideWithPlane_8h.html#ada78f6792cab8e4b27f0cc8e473a6851">MR_DividePointCloudOptionalOutput_ConstructFrom</a></div><div class="ttdeci">MRC_API MR_DividePointCloudOptionalOutput * MR_DividePointCloudOptionalOutput_ConstructFrom(MR_VertMap *outVmap, MR_PointCloud *otherPart, MR_VertMap *otherOutVmap)</div></div>
+<div class="ttc" id="aMRPointCloudDivideWithPlane_8h_html_afb4666a02cb50a0dc71479d823772243"><div class="ttname"><a href="MRPointCloudDivideWithPlane_8h.html#afb4666a02cb50a0dc71479d823772243">MR_divideWithPlane</a></div><div class="ttdeci">MRC_API MR_PointCloud * MR_divideWithPlane(const MR_PointCloud *points, const MR_Plane3f *plane, const MR_DividePointCloudOptionalOutput *optOut)</div></div>
+<div class="ttc" id="aMRPointCloudDivideWithPlane_8h_html_afb90cd51da7139261e560fc3ef08e8bd"><div class="ttname"><a href="MRPointCloudDivideWithPlane_8h.html#afb90cd51da7139261e560fc3ef08e8bd">MR_DividePointCloudOptionalOutput_Set_otherOutVmap</a></div><div class="ttdeci">MRC_API void MR_DividePointCloudOptionalOutput_Set_otherOutVmap(MR_DividePointCloudOptionalOutput *_this, MR_VertMap *value)</div></div>
+<div class="ttc" id="aMRPointCloudDivideWithPlane_8h_html_afc230a69179f7251dcc7df3cde2e43fe"><div class="ttname"><a href="MRPointCloudDivideWithPlane_8h.html#afc230a69179f7251dcc7df3cde2e43fe">MR_findHalfSpacePoints</a></div><div class="ttdeci">MRC_API MR_VertBitSet * MR_findHalfSpacePoints(const MR_PointCloud *pc, const MR_Plane3f *plane)</div></div>
+<div class="ttc" id="aMRPointCloudDivideWithPlane_8h_html_afe9b7d1e7c1c0f8760c8ca4b186fba24"><div class="ttname"><a href="MRPointCloudDivideWithPlane_8h.html#afe9b7d1e7c1c0f8760c8ca4b186fba24">MR_DividePointCloudOptionalOutput_OffsetMutablePtr</a></div><div class="ttdeci">MRC_API MR_DividePointCloudOptionalOutput * MR_DividePointCloudOptionalOutput_OffsetMutablePtr(MR_DividePointCloudOptionalOutput *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_8b489c7b5d1a72d35ec87e32cc37b940.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRPointCloudDivideWithPlane_8h.html">MRPointCloudDivideWithPlane.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,1274 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: phmap_flat_hash_map_MR_VertId_MR_VertId.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('phmap__flat__hash__map__MR__VertId__MR__VertId_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">phmap_flat_hash_map_MR_VertId_MR_VertId.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="phmap__flat__hash__map__MR__VertId__MR__VertId_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:afbb808142b78943a45d860ed6aba54e5" id="r_afbb808142b78943a45d860ed6aba54e5"><td class="memItemLeft" align="right" valign="top">typedef struct MR_VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbb808142b78943a45d860ed6aba54e5">MR_VertId</a></td></tr>
+<tr class="separator:afbb808142b78943a45d860ed6aba54e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b90f49d08ad220afcccf3e064a60cdd" id="r_a4b90f49d08ad220afcccf3e064a60cdd"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a></td></tr>
+<tr class="separator:a4b90f49d08ad220afcccf3e064a60cdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67e4be410a6aa5a6452623d704a85df2" id="r_a67e4be410a6aa5a6452623d704a85df2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a></td></tr>
+<tr class="separator:a67e4be410a6aa5a6452623d704a85df2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6d6d091f5e6187bc36d8f0bae22da89" id="r_ac6d6d091f5e6187bc36d8f0bae22da89"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a></td></tr>
+<tr class="separator:ac6d6d091f5e6187bc36d8f0bae22da89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a4fb30117814a229cf60334a5ff416724" id="r_a4fb30117814a229cf60334a5ff416724"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fb30117814a229cf60334a5ff416724">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a4fb30117814a229cf60334a5ff416724"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a971b7e7fae32a908b6a0e6462ba2b0ee" id="r_a971b7e7fae32a908b6a0e6462ba2b0ee"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a971b7e7fae32a908b6a0e6462ba2b0ee">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a971b7e7fae32a908b6a0e6462ba2b0ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bbe35796b0e3d428f4466e6fab76e0c" id="r_a7bbe35796b0e3d428f4466e6fab76e0c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bbe35796b0e3d428f4466e6fab76e0c">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *other)</td></tr>
+<tr class="separator:a7bbe35796b0e3d428f4466e6fab76e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56d8c2bf7ccf6745b858ccfebf5bdabe" id="r_a56d8c2bf7ccf6745b858ccfebf5bdabe"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56d8c2bf7ccf6745b858ccfebf5bdabe">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_AssignFromAnother</a> (<a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *other)</td></tr>
+<tr class="separator:a56d8c2bf7ccf6745b858ccfebf5bdabe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a661aa892993d083c261210e170f1032d" id="r_a661aa892993d083c261210e170f1032d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a661aa892993d083c261210e170f1032d">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_Destroy</a> (const <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *_this)</td></tr>
+<tr class="memdesc:a661aa892993d083c261210e170f1032d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_phmap_flat_hash_map_MR_VertId_MR_VertId</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a661aa892993d083c261210e170f1032d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f4db1659481c5879cd1e25830644266" id="r_a4f4db1659481c5879cd1e25830644266"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f4db1659481c5879cd1e25830644266">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_DestroyArray</a> (const <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *_this)</td></tr>
+<tr class="memdesc:a4f4db1659481c5879cd1e25830644266"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_phmap_flat_hash_map_MR_VertId_MR_VertId</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a4f4db1659481c5879cd1e25830644266"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5c061ddadfbab50e4f575a43a3cf884" id="r_af5c061ddadfbab50e4f575a43a3cf884"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5c061ddadfbab50e4f575a43a3cf884">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_OffsetPtr</a> (const <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:af5c061ddadfbab50e4f575a43a3cf884"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:af5c061ddadfbab50e4f575a43a3cf884"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3705eef0f7fa049d79989d01afe997d" id="r_af3705eef0f7fa049d79989d01afe997d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3705eef0f7fa049d79989d01afe997d">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_OffsetMutablePtr</a> (<a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:af3705eef0f7fa049d79989d01afe997d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:af3705eef0f7fa049d79989d01afe997d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e725feea75e9d20dcc22b61330f0e03" id="r_a6e725feea75e9d20dcc22b61330f0e03"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e725feea75e9d20dcc22b61330f0e03">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_Size</a> (const <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *_this)</td></tr>
+<tr class="separator:a6e725feea75e9d20dcc22b61330f0e03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b88ced5647dc4126e50f0791aabe70d" id="r_a4b88ced5647dc4126e50f0791aabe70d"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b88ced5647dc4126e50f0791aabe70d">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_IsEmpty</a> (const <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *_this)</td></tr>
+<tr class="separator:a4b88ced5647dc4126e50f0791aabe70d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e3f0154f8e842d584b110d44a581e4f" id="r_a5e3f0154f8e842d584b110d44a581e4f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e3f0154f8e842d584b110d44a581e4f">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_Clear</a> (<a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *_this)</td></tr>
+<tr class="separator:a5e3f0154f8e842d584b110d44a581e4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c572a368ad316b198fbf0814b4e7ef6" id="r_a7c572a368ad316b198fbf0814b4e7ef6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c572a368ad316b198fbf0814b4e7ef6">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_FindOrConstructElem</a> (<a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *_this, const <a class="el" href="structMR__VertId.html">MR_VertId</a> *key)</td></tr>
+<tr class="separator:a7c572a368ad316b198fbf0814b4e7ef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47c3ee37d670b0d6865027e836d93a61" id="r_a47c3ee37d670b0d6865027e836d93a61"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47c3ee37d670b0d6865027e836d93a61">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_Contains</a> (const <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *_this, const <a class="el" href="structMR__VertId.html">MR_VertId</a> *key)</td></tr>
+<tr class="separator:a47c3ee37d670b0d6865027e836d93a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e9484e8206042cb819d62112e6483d7" id="r_a5e9484e8206042cb819d62112e6483d7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e9484e8206042cb819d62112e6483d7">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_Find</a> (const <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *_this, const <a class="el" href="structMR__VertId.html">MR_VertId</a> *key)</td></tr>
+<tr class="separator:a5e9484e8206042cb819d62112e6483d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5fbd4c8d681f136dde1e9df464f5ef2" id="r_ac5fbd4c8d681f136dde1e9df464f5ef2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5fbd4c8d681f136dde1e9df464f5ef2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_FindMutable</a> (<a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *_this, const <a class="el" href="structMR__VertId.html">MR_VertId</a> *key)</td></tr>
+<tr class="separator:ac5fbd4c8d681f136dde1e9df464f5ef2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a9d00ea55fa1afa9550f959a42eaac4" id="r_a5a9d00ea55fa1afa9550f959a42eaac4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a9d00ea55fa1afa9550f959a42eaac4">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_Begin</a> (const <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *_this)</td></tr>
+<tr class="separator:a5a9d00ea55fa1afa9550f959a42eaac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0d48f8c202d79fcbd4f3c23b34e5f06" id="r_aa0d48f8c202d79fcbd4f3c23b34e5f06"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0d48f8c202d79fcbd4f3c23b34e5f06">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_IsBegin</a> (const <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *_this, const <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *iter)</td></tr>
+<tr class="separator:aa0d48f8c202d79fcbd4f3c23b34e5f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadb171bab490ed3871b8e9efd477917e" id="r_aadb171bab490ed3871b8e9efd477917e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadb171bab490ed3871b8e9efd477917e">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_MutableBegin</a> (<a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *_this)</td></tr>
+<tr class="separator:aadb171bab490ed3871b8e9efd477917e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae73954535a8fc39930c009bf14f5c4b1" id="r_ae73954535a8fc39930c009bf14f5c4b1"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae73954535a8fc39930c009bf14f5c4b1">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_IsMutableBegin</a> (<a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *_this, const <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *iter)</td></tr>
+<tr class="separator:ae73954535a8fc39930c009bf14f5c4b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0fcb410386a6e29cdfe22db038b1961" id="r_ab0fcb410386a6e29cdfe22db038b1961"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0fcb410386a6e29cdfe22db038b1961">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_End</a> (const <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *_this)</td></tr>
+<tr class="separator:ab0fcb410386a6e29cdfe22db038b1961"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4528834adaca6062afe7408288e6ce6" id="r_aa4528834adaca6062afe7408288e6ce6"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4528834adaca6062afe7408288e6ce6">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_IsEnd</a> (const <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *_this, const <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *iter)</td></tr>
+<tr class="separator:aa4528834adaca6062afe7408288e6ce6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac55a3bc49979c7836eadd5af4f57940a" id="r_ac55a3bc49979c7836eadd5af4f57940a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac55a3bc49979c7836eadd5af4f57940a">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_MutableEnd</a> (<a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *_this)</td></tr>
+<tr class="separator:ac55a3bc49979c7836eadd5af4f57940a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3591b469c727fd87fd5f8ca038c40633" id="r_a3591b469c727fd87fd5f8ca038c40633"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3591b469c727fd87fd5f8ca038c40633">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_IsMutableEnd</a> (<a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *_this, const <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *iter)</td></tr>
+<tr class="separator:a3591b469c727fd87fd5f8ca038c40633"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a812d22690808f74b0f6af6eb380394d3" id="r_a812d22690808f74b0f6af6eb380394d3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a812d22690808f74b0f6af6eb380394d3">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a812d22690808f74b0f6af6eb380394d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a32ed0ee6e5b2ba11c625c329eaf14b" id="r_a9a32ed0ee6e5b2ba11c625c329eaf14b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a32ed0ee6e5b2ba11c625c329eaf14b">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a9a32ed0ee6e5b2ba11c625c329eaf14b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65e48061a16ef08666fd32e20ad72e84" id="r_a65e48061a16ef08666fd32e20ad72e84"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65e48061a16ef08666fd32e20ad72e84">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_ConstructFromAnother</a> (const <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *other)</td></tr>
+<tr class="separator:a65e48061a16ef08666fd32e20ad72e84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a330c480360f796f1e30e85387378aaa2" id="r_a330c480360f796f1e30e85387378aaa2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a330c480360f796f1e30e85387378aaa2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_AssignFromAnother</a> (<a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *_this, const <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *other)</td></tr>
+<tr class="separator:a330c480360f796f1e30e85387378aaa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cccd0eacd599c14dbb131e8f0116b08" id="r_a4cccd0eacd599c14dbb131e8f0116b08"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cccd0eacd599c14dbb131e8f0116b08">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_Destroy</a> (const <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a4cccd0eacd599c14dbb131e8f0116b08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a4cccd0eacd599c14dbb131e8f0116b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75918089722e00a2740b25d09936705c" id="r_a75918089722e00a2740b25d09936705c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75918089722e00a2740b25d09936705c">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_DestroyArray</a> (const <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a75918089722e00a2740b25d09936705c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a75918089722e00a2740b25d09936705c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a557bb4cec02189f0166d2ac5edcb5440" id="r_a557bb4cec02189f0166d2ac5edcb5440"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a557bb4cec02189f0166d2ac5edcb5440">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_OffsetPtr</a> (const <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a557bb4cec02189f0166d2ac5edcb5440"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a557bb4cec02189f0166d2ac5edcb5440"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d424dc671de82f0a5447e4982a0df35" id="r_a2d424dc671de82f0a5447e4982a0df35"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d424dc671de82f0a5447e4982a0df35">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_OffsetMutablePtr</a> (<a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a2d424dc671de82f0a5447e4982a0df35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a2d424dc671de82f0a5447e4982a0df35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a308f99aed852322bfc32503b8c9caf4c" id="r_a308f99aed852322bfc32503b8c9caf4c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a308f99aed852322bfc32503b8c9caf4c">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_FromMutable</a> (const <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *iter)</td></tr>
+<tr class="separator:a308f99aed852322bfc32503b8c9caf4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25b5601f6bf32a2a421e2a01c45ce736" id="r_a25b5601f6bf32a2a421e2a01c45ce736"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25b5601f6bf32a2a421e2a01c45ce736">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a25b5601f6bf32a2a421e2a01c45ce736"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66c3537a04c58b62ec5488ef64554146" id="r_a66c3537a04c58b62ec5488ef64554146"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66c3537a04c58b62ec5488ef64554146">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a66c3537a04c58b62ec5488ef64554146"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f7d31b9d1c393f6cfaa810655a94691" id="r_a0f7d31b9d1c393f6cfaa810655a94691"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f7d31b9d1c393f6cfaa810655a94691">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_ConstructFromAnother</a> (const <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *other)</td></tr>
+<tr class="separator:a0f7d31b9d1c393f6cfaa810655a94691"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a698d54a541e68312abd05d110bbab1ac" id="r_a698d54a541e68312abd05d110bbab1ac"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a698d54a541e68312abd05d110bbab1ac">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_AssignFromAnother</a> (<a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *_this, const <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *other)</td></tr>
+<tr class="separator:a698d54a541e68312abd05d110bbab1ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2ac9a799290388b3ae438d43c1af3da" id="r_af2ac9a799290388b3ae438d43c1af3da"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2ac9a799290388b3ae438d43c1af3da">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_Destroy</a> (const <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *_this)</td></tr>
+<tr class="memdesc:af2ac9a799290388b3ae438d43c1af3da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:af2ac9a799290388b3ae438d43c1af3da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae404d43442fd24dfc94906272ab328ff" id="r_ae404d43442fd24dfc94906272ab328ff"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae404d43442fd24dfc94906272ab328ff">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_DestroyArray</a> (const <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *_this)</td></tr>
+<tr class="memdesc:ae404d43442fd24dfc94906272ab328ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ae404d43442fd24dfc94906272ab328ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a874ec96e3baca810bcd3f0e948fe8b62" id="r_a874ec96e3baca810bcd3f0e948fe8b62"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a874ec96e3baca810bcd3f0e948fe8b62">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_OffsetPtr</a> (const <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a874ec96e3baca810bcd3f0e948fe8b62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a874ec96e3baca810bcd3f0e948fe8b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaff0d79350d7dc9862389bdac336f6b9" id="r_aaff0d79350d7dc9862389bdac336f6b9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaff0d79350d7dc9862389bdac336f6b9">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_OffsetMutablePtr</a> (<a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:aaff0d79350d7dc9862389bdac336f6b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:aaff0d79350d7dc9862389bdac336f6b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06d1bae6198dcbcd0d6af69628d7d164" id="r_a06d1bae6198dcbcd0d6af69628d7d164"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__VertId.html">MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06d1bae6198dcbcd0d6af69628d7d164">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_DerefKey</a> (const <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *_this)</td></tr>
+<tr class="separator:a06d1bae6198dcbcd0d6af69628d7d164"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bb841b2e01a7149ce4045e2aca10a3a" id="r_a7bb841b2e01a7149ce4045e2aca10a3a"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__VertId.html">MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bb841b2e01a7149ce4045e2aca10a3a">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_DerefValue</a> (const <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *_this)</td></tr>
+<tr class="separator:a7bb841b2e01a7149ce4045e2aca10a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acba3c7728c1925aa9dcb27a4f3b80157" id="r_acba3c7728c1925aa9dcb27a4f3b80157"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acba3c7728c1925aa9dcb27a4f3b80157">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_Incr</a> (<a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *_this)</td></tr>
+<tr class="separator:acba3c7728c1925aa9dcb27a4f3b80157"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa810aaab7a483ad6473362a21694bbc6" id="r_aa810aaab7a483ad6473362a21694bbc6"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__VertId.html">MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa810aaab7a483ad6473362a21694bbc6">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_DerefKey</a> (const <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *_this)</td></tr>
+<tr class="separator:aa810aaab7a483ad6473362a21694bbc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0c6721c9d3c24596b636250d3cfd733" id="r_aa0c6721c9d3c24596b636250d3cfd733"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0c6721c9d3c24596b636250d3cfd733">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_DerefValue</a> (const <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *_this)</td></tr>
+<tr class="separator:aa0c6721c9d3c24596b636250d3cfd733"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a219808212877abe006a19035308d397c" id="r_a219808212877abe006a19035308d397c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a219808212877abe006a19035308d397c">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_Incr</a> (<a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *_this)</td></tr>
+<tr class="separator:a219808212877abe006a19035308d397c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a4b90f49d08ad220afcccf3e064a60cdd" name="a4b90f49d08ad220afcccf3e064a60cdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b90f49d08ad220afcccf3e064a60cdd">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from C++ container <code>phmap::flat_hash_map&lt;MR::VertId, MR::VertId&gt;</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a67e4be410a6aa5a6452623d704a85df2" name="a67e4be410a6aa5a6452623d704a85df2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67e4be410a6aa5a6452623d704a85df2">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Read-only iterator for <code>MR_phmap_flat_hash_map_MR_VertId_MR_VertId</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="ac6d6d091f5e6187bc36d8f0bae22da89" name="ac6d6d091f5e6187bc36d8f0bae22da89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6d6d091f5e6187bc36d8f0bae22da89">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Mutable iterator for <code>MR_phmap_flat_hash_map_MR_VertId_MR_VertId</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="afbb808142b78943a45d860ed6aba54e5" name="afbb808142b78943a45d860ed6aba54e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbb808142b78943a45d860ed6aba54e5">&#9670;&#160;</a></span>MR_VertId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct MR_VertId MR_VertId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a56d8c2bf7ccf6745b858ccfebf5bdabe" name="a56d8c2bf7ccf6745b858ccfebf5bdabe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56d8c2bf7ccf6745b858ccfebf5bdabe">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_VertId_MR_VertId_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a5a9d00ea55fa1afa9550f959a42eaac4" name="a5a9d00ea55fa1afa9550f959a42eaac4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a9d00ea55fa1afa9550f959a42eaac4">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_Begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> * MR_phmap_flat_hash_map_MR_VertId_MR_VertId_Begin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4cccd0eacd599c14dbb131e8f0116b08" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator....">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5e3f0154f8e842d584b110d44a581e4f" name="a5e3f0154f8e842d584b110d44a581e4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e3f0154f8e842d584b110d44a581e4f">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_Clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_VertId_MR_VertId_Clear </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes all elements from the container. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a330c480360f796f1e30e85387378aaa2" name="a330c480360f796f1e30e85387378aaa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a330c480360f796f1e30e85387378aaa2">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a65e48061a16ef08666fd32e20ad72e84" name="a65e48061a16ef08666fd32e20ad72e84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65e48061a16ef08666fd32e20ad72e84">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> * MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4cccd0eacd599c14dbb131e8f0116b08" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator....">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a812d22690808f74b0f6af6eb380394d3" name="a812d22690808f74b0f6af6eb380394d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a812d22690808f74b0f6af6eb380394d3">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> * MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4cccd0eacd599c14dbb131e8f0116b08" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator....">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a9a32ed0ee6e5b2ba11c625c329eaf14b" name="a9a32ed0ee6e5b2ba11c625c329eaf14b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a32ed0ee6e5b2ba11c625c329eaf14b">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> * MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a75918089722e00a2740b25d09936705c" title="Destroys a heap-allocated array of MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator....">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#a2d424dc671de82f0a5447e4982a0df35" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a557bb4cec02189f0166d2ac5edcb5440" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a06d1bae6198dcbcd0d6af69628d7d164" name="a06d1bae6198dcbcd0d6af69628d7d164"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06d1bae6198dcbcd0d6af69628d7d164">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_DerefKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__VertId.html">MR_VertId</a> * MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_DerefKey </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a const iterator, returning the key. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a7bb841b2e01a7149ce4045e2aca10a3a" name="a7bb841b2e01a7149ce4045e2aca10a3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bb841b2e01a7149ce4045e2aca10a3a">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_DerefValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__VertId.html">MR_VertId</a> * MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_DerefValue </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a const iterator, returning the mapped value. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a4cccd0eacd599c14dbb131e8f0116b08" name="a4cccd0eacd599c14dbb131e8f0116b08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cccd0eacd599c14dbb131e8f0116b08">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a75918089722e00a2740b25d09936705c" name="a75918089722e00a2740b25d09936705c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75918089722e00a2740b25d09936705c">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a308f99aed852322bfc32503b8c9caf4c" name="a308f99aed852322bfc32503b8c9caf4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a308f99aed852322bfc32503b8c9caf4c">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_FromMutable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> * MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_FromMutable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Makes a const iterator from a mutable one. Parameter <code>iter</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4cccd0eacd599c14dbb131e8f0116b08" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator....">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="acba3c7728c1925aa9dcb27a4f3b80157" name="acba3c7728c1925aa9dcb27a4f3b80157"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acba3c7728c1925aa9dcb27a4f3b80157">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a2d424dc671de82f0a5447e4982a0df35" name="a2d424dc671de82f0a5447e4982a0df35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d424dc671de82f0a5447e4982a0df35">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> * MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a557bb4cec02189f0166d2ac5edcb5440" name="a557bb4cec02189f0166d2ac5edcb5440"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a557bb4cec02189f0166d2ac5edcb5440">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> * MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a7bbe35796b0e3d428f4466e6fab76e0c" name="a7bbe35796b0e3d428f4466e6fab76e0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bbe35796b0e3d428f4466e6fab76e0c">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> * MR_phmap_flat_hash_map_MR_VertId_MR_VertId_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a661aa892993d083c261210e170f1032d" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VertId_MR_VertId. Does nothing if the...">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a47c3ee37d670b0d6865027e836d93a61" name="a47c3ee37d670b0d6865027e836d93a61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47c3ee37d670b0d6865027e836d93a61">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_Contains()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_phmap_flat_hash_map_MR_VertId_MR_VertId_Contains </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__VertId.html">MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>key</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Checks if the contain contains this key. Parameter <code>_this</code> can not be null. Parameter <code>key</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a4fb30117814a229cf60334a5ff416724" name="a4fb30117814a229cf60334a5ff416724"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fb30117814a229cf60334a5ff416724">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> * MR_phmap_flat_hash_map_MR_VertId_MR_VertId_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a661aa892993d083c261210e170f1032d" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VertId_MR_VertId. Does nothing if the...">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a971b7e7fae32a908b6a0e6462ba2b0ee" name="a971b7e7fae32a908b6a0e6462ba2b0ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a971b7e7fae32a908b6a0e6462ba2b0ee">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> * MR_phmap_flat_hash_map_MR_VertId_MR_VertId_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a4f4db1659481c5879cd1e25830644266" title="Destroys a heap-allocated array of MR_phmap_flat_hash_map_MR_VertId_MR_VertId. Does nothing if the po...">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_DestroyArray()</a></code>. Use <code><a class="el" href="#af3705eef0f7fa049d79989d01afe997d" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_OffsetMutablePtr()</a></code> and <code><a class="el" href="#af5c061ddadfbab50e4f575a43a3cf884" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a661aa892993d083c261210e170f1032d" name="a661aa892993d083c261210e170f1032d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a661aa892993d083c261210e170f1032d">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_VertId_MR_VertId_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_phmap_flat_hash_map_MR_VertId_MR_VertId</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a4f4db1659481c5879cd1e25830644266" name="a4f4db1659481c5879cd1e25830644266"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f4db1659481c5879cd1e25830644266">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_VertId_MR_VertId_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_phmap_flat_hash_map_MR_VertId_MR_VertId</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ab0fcb410386a6e29cdfe22db038b1961" name="ab0fcb410386a6e29cdfe22db038b1961"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0fcb410386a6e29cdfe22db038b1961">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_End()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> * MR_phmap_flat_hash_map_MR_VertId_MR_VertId_End </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4cccd0eacd599c14dbb131e8f0116b08" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator....">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5e9484e8206042cb819d62112e6483d7" name="a5e9484e8206042cb819d62112e6483d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e9484e8206042cb819d62112e6483d7">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_Find()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> * MR_phmap_flat_hash_map_MR_VertId_MR_VertId_Find </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__VertId.html">MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>key</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Finds the element by key, or returns the end iterator if no such key. Returns a read-only iterator. Parameter <code>_this</code> can not be null. Parameter <code>key</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4cccd0eacd599c14dbb131e8f0116b08" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator....">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ac5fbd4c8d681f136dde1e9df464f5ef2" name="ac5fbd4c8d681f136dde1e9df464f5ef2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5fbd4c8d681f136dde1e9df464f5ef2">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_FindMutable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> * MR_phmap_flat_hash_map_MR_VertId_MR_VertId_FindMutable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__VertId.html">MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>key</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Finds the element by key, or returns the end iterator if no such key. Returns a mutable iterator. Parameter <code>_this</code> can not be null. Parameter <code>key</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af2ac9a799290388b3ae438d43c1af3da" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator....">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a7c572a368ad316b198fbf0814b4e7ef6" name="a7c572a368ad316b198fbf0814b4e7ef6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c572a368ad316b198fbf0814b4e7ef6">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_FindOrConstructElem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> * MR_phmap_flat_hash_map_MR_VertId_MR_VertId_FindOrConstructElem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__VertId.html">MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>key</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the element with the specific key. If it doesn't exist, creates it first. Acts like map's <code>operator[]</code> in C++. Parameter <code>_this</code> can not be null. Parameter <code>key</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aa0d48f8c202d79fcbd4f3c23b34e5f06" name="aa0d48f8c202d79fcbd4f3c23b34e5f06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0d48f8c202d79fcbd4f3c23b34e5f06">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_IsBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_phmap_flat_hash_map_MR_VertId_MR_VertId_IsBegin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a4b88ced5647dc4126e50f0791aabe70d" name="a4b88ced5647dc4126e50f0791aabe70d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b88ced5647dc4126e50f0791aabe70d">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_IsEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_phmap_flat_hash_map_MR_VertId_MR_VertId_IsEmpty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns true if the size is zero. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa4528834adaca6062afe7408288e6ce6" name="aa4528834adaca6062afe7408288e6ce6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4528834adaca6062afe7408288e6ce6">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_IsEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_phmap_flat_hash_map_MR_VertId_MR_VertId_IsEnd </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a67e4be410a6aa5a6452623d704a85df2">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae73954535a8fc39930c009bf14f5c4b1" name="ae73954535a8fc39930c009bf14f5c4b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae73954535a8fc39930c009bf14f5c4b1">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_IsMutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_phmap_flat_hash_map_MR_VertId_MR_VertId_IsMutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3591b469c727fd87fd5f8ca038c40633" name="a3591b469c727fd87fd5f8ca038c40633"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3591b469c727fd87fd5f8ca038c40633">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_IsMutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_phmap_flat_hash_map_MR_VertId_MR_VertId_IsMutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a698d54a541e68312abd05d110bbab1ac" name="a698d54a541e68312abd05d110bbab1ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a698d54a541e68312abd05d110bbab1ac">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a0f7d31b9d1c393f6cfaa810655a94691" name="a0f7d31b9d1c393f6cfaa810655a94691"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f7d31b9d1c393f6cfaa810655a94691">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> * MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af2ac9a799290388b3ae438d43c1af3da" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator....">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a25b5601f6bf32a2a421e2a01c45ce736" name="a25b5601f6bf32a2a421e2a01c45ce736"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25b5601f6bf32a2a421e2a01c45ce736">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> * MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af2ac9a799290388b3ae438d43c1af3da" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator....">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a66c3537a04c58b62ec5488ef64554146" name="a66c3537a04c58b62ec5488ef64554146"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66c3537a04c58b62ec5488ef64554146">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> * MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#ae404d43442fd24dfc94906272ab328ff" title="Destroys a heap-allocated array of MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator....">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#aaff0d79350d7dc9862389bdac336f6b9" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a874ec96e3baca810bcd3f0e948fe8b62" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="aa810aaab7a483ad6473362a21694bbc6" name="aa810aaab7a483ad6473362a21694bbc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa810aaab7a483ad6473362a21694bbc6">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_DerefKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__VertId.html">MR_VertId</a> * MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_DerefKey </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a mutable iterator, returning the key. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aa0c6721c9d3c24596b636250d3cfd733" name="aa0c6721c9d3c24596b636250d3cfd733"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0c6721c9d3c24596b636250d3cfd733">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_DerefValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> * MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_DerefValue </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a mutable iterator, returning the mapped value. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="af2ac9a799290388b3ae438d43c1af3da" name="af2ac9a799290388b3ae438d43c1af3da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2ac9a799290388b3ae438d43c1af3da">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ae404d43442fd24dfc94906272ab328ff" name="ae404d43442fd24dfc94906272ab328ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae404d43442fd24dfc94906272ab328ff">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a219808212877abe006a19035308d397c" name="a219808212877abe006a19035308d397c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a219808212877abe006a19035308d397c">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aaff0d79350d7dc9862389bdac336f6b9" name="aaff0d79350d7dc9862389bdac336f6b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaff0d79350d7dc9862389bdac336f6b9">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> * MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a874ec96e3baca810bcd3f0e948fe8b62" name="a874ec96e3baca810bcd3f0e948fe8b62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a874ec96e3baca810bcd3f0e948fe8b62">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> * MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="aadb171bab490ed3871b8e9efd477917e" name="aadb171bab490ed3871b8e9efd477917e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadb171bab490ed3871b8e9efd477917e">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_MutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> * MR_phmap_flat_hash_map_MR_VertId_MR_VertId_MutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af2ac9a799290388b3ae438d43c1af3da" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator....">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ac55a3bc49979c7836eadd5af4f57940a" name="ac55a3bc49979c7836eadd5af4f57940a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac55a3bc49979c7836eadd5af4f57940a">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_MutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac6d6d091f5e6187bc36d8f0bae22da89">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator</a> * MR_phmap_flat_hash_map_MR_VertId_MR_VertId_MutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af2ac9a799290388b3ae438d43c1af3da" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator....">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="af3705eef0f7fa049d79989d01afe997d" name="af3705eef0f7fa049d79989d01afe997d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3705eef0f7fa049d79989d01afe997d">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> * MR_phmap_flat_hash_map_MR_VertId_MR_VertId_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="af5c061ddadfbab50e4f575a43a3cf884" name="af5c061ddadfbab50e4f575a43a3cf884"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5c061ddadfbab50e4f575a43a3cf884">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> * MR_phmap_flat_hash_map_MR_VertId_MR_VertId_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a6e725feea75e9d20dcc22b61330f0e03" name="a6e725feea75e9d20dcc22b61330f0e03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e725feea75e9d20dcc22b61330f0e03">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_MR_VertId_Size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_phmap_flat_hash_map_MR_VertId_MR_VertId_Size </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_a57e8462869cab4a5203dede5869920d.html">MRCMisc</a></li><li class="navelem"><a class="el" href="phmap__flat__hash__map__MR__VertId__MR__VertId_8h.html">phmap_flat_hash_map_MR_VertId_MR_VertId.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

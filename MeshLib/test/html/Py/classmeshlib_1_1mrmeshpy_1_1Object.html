@@ -1,0 +1,1666 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.Object Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1Object.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1Object-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.Object Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for meshlib.mrmeshpy.Object:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="classmeshlib_1_1mrmeshpy_1_1Object.png" usemap="#meshlib.mrmeshpy.Object_map" alt=""/>
+  <map id="meshlib.mrmeshpy.Object_map" name="meshlib.mrmeshpy.Object_map">
+<area href="classmeshlib_1_1mrmeshpy_1_1ObjectChildrenHolder.html" alt="meshlib.mrmeshpy.ObjectChildrenHolder" shape="rect" coords="1862,0,2916,24"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1SceneRootObject.html" alt="meshlib.mrmeshpy.SceneRootObject" shape="rect" coords="0,112,1054,136"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1VisualObject.html" alt="meshlib.mrmeshpy.VisualObject" shape="rect" coords="3724,112,4778,136"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1FeatureObject.html" alt="meshlib.mrmeshpy.FeatureObject" shape="rect" coords="0,168,1054,192"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1MeasurementObject.html" alt="meshlib.mrmeshpy.MeasurementObject" shape="rect" coords="2128,168,3182,192"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ObjectLabel.html" alt="meshlib.mrmeshpy.ObjectLabel" shape="rect" coords="3192,168,4246,192"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ObjectLinesHolder.html" alt="meshlib.mrmeshpy.ObjectLinesHolder" shape="rect" coords="4256,168,5310,192"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ObjectMeshHolder.html" alt="meshlib.mrmeshpy.ObjectMeshHolder" shape="rect" coords="6384,168,7438,192"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ObjectPointsHolder.html" alt="meshlib.mrmeshpy.ObjectPointsHolder" shape="rect" coords="8512,168,9566,192"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter.html" alt="meshlib.mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter" shape="rect" coords="1064,224,2118,248"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType_3aa51114262f62ddb943ce3298821643.html" alt="meshlib.mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter_DimensionsVisualizePropertyType_angle_DimensionsVisualizePropertyType_length" shape="rect" coords="1064,280,2118,304"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType_00b6ca04eb51ce866cda243e970e3ac4.html" alt="meshlib.mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter_DimensionsVisualizePropertyType_length" shape="rect" coords="1064,336,2118,360"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1LineObject.html" alt="meshlib.mrmeshpy.LineObject" shape="rect" coords="1064,392,2118,416"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1PlaneObject.html" alt="meshlib.mrmeshpy.PlaneObject" shape="rect" coords="1064,448,2118,472"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1PointObject.html" alt="meshlib.mrmeshpy.PointObject" shape="rect" coords="1064,504,2118,528"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1AngleMeasurementObject.html" alt="meshlib.mrmeshpy.AngleMeasurementObject" shape="rect" coords="3192,224,4246,248"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1DistanceMeasurementObject.html" alt="meshlib.mrmeshpy.DistanceMeasurementObject" shape="rect" coords="3192,280,4246,304"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1RadiusMeasurementObject.html" alt="meshlib.mrmeshpy.RadiusMeasurementObject" shape="rect" coords="3192,336,4246,360"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ObjectGcode.html" alt="meshlib.mrmeshpy.ObjectGcode" shape="rect" coords="5320,224,6374,248"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ObjectLines.html" alt="meshlib.mrmeshpy.ObjectLines" shape="rect" coords="5320,280,6374,304"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ObjectDistanceMap.html" alt="meshlib.mrmeshpy.ObjectDistanceMap" shape="rect" coords="7448,224,8502,248"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ObjectMesh.html" alt="meshlib.mrmeshpy.ObjectMesh" shape="rect" coords="7448,280,8502,304"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ObjectVoxels.html" alt="meshlib.mrmeshpy.ObjectVoxels" shape="rect" coords="7448,336,8502,360"/>
+<area href="classmeshlib_1_1mrmeshpy_1_1ObjectPoints.html" alt="meshlib.mrmeshpy.ObjectPoints" shape="rect" coords="8512,224,9566,248"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aa4b80395c5149bde185a58eaea40f006" id="r_aa4b80395c5149bde185a58eaea40f006"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4b80395c5149bde185a58eaea40f006">__init__</a> (self)</td></tr>
+<tr class="separator:aa4b80395c5149bde185a58eaea40f006"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a941ddbfeb486561a4051bb84f023b872" id="r_a941ddbfeb486561a4051bb84f023b872"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a941ddbfeb486561a4051bb84f023b872">addChild</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a> child, bool recognizedChild=True)</td></tr>
+<tr class="separator:a941ddbfeb486561a4051bb84f023b872"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a687539234c32ddf5ebe25e7e67e58c" id="r_a6a687539234c32ddf5ebe25e7e67e58c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a687539234c32ddf5ebe25e7e67e58c">addChildBefore</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a> newChild, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a> existingChild)</td></tr>
+<tr class="separator:a6a687539234c32ddf5ebe25e7e67e58c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99c092e1e216006efb2190a41ba43ec2" id="r_a99c092e1e216006efb2190a41ba43ec2"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99c092e1e216006efb2190a41ba43ec2">applyScale</a> (self, float scaleFactor)</td></tr>
+<tr class="separator:a99c092e1e216006efb2190a41ba43ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad211ca33b05ef1fbf4fa84295484f4e7" id="r_ad211ca33b05ef1fbf4fa84295484f4e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VisualObject.html">VisualObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad211ca33b05ef1fbf4fa84295484f4e7">asType_VisualObject</a> (self)</td></tr>
+<tr class="separator:ad211ca33b05ef1fbf4fa84295484f4e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad211ca33b05ef1fbf4fa84295484f4e7" id="r_ad211ca33b05ef1fbf4fa84295484f4e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VisualObject.html">VisualObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad211ca33b05ef1fbf4fa84295484f4e7">asType_VisualObject</a> (self)</td></tr>
+<tr class="separator:ad211ca33b05ef1fbf4fa84295484f4e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a416ae04fc36fd29cf14b6fa294de331f" id="r_a416ae04fc36fd29cf14b6fa294de331f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__std__shared__ptr__Object.html">std_vector_std_shared_ptr_Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a416ae04fc36fd29cf14b6fa294de331f">children</a> (self)</td></tr>
+<tr class="separator:a416ae04fc36fd29cf14b6fa294de331f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a05f9f4f94f72ff3a9fc9ada0f714e3" id="r_a0a05f9f4f94f72ff3a9fc9ada0f714e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__std__shared__ptr__Object__const.html">std_vector_std_shared_ptr_Object_const</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a05f9f4f94f72ff3a9fc9ada0f714e3">children</a> (self)</td></tr>
+<tr class="separator:a0a05f9f4f94f72ff3a9fc9ada0f714e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3920eaca1855fb41f60495841e88bff2" id="r_a3920eaca1855fb41f60495841e88bff2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3920eaca1855fb41f60495841e88bff2">clone</a> (self)</td></tr>
+<tr class="separator:a3920eaca1855fb41f60495841e88bff2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a31c6094614cdf371b0266e4258ed7f" id="r_a2a31c6094614cdf371b0266e4258ed7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a31c6094614cdf371b0266e4258ed7f">cloneTree</a> (self)</td></tr>
+<tr class="separator:a2a31c6094614cdf371b0266e4258ed7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad70615966ca6937d7077e6e57b2f4da4" id="r_ad70615966ca6937d7077e6e57b2f4da4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad70615966ca6937d7077e6e57b2f4da4">detachFromParent</a> (self)</td></tr>
+<tr class="separator:ad70615966ca6937d7077e6e57b2f4da4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f357d0852afe6e4c224f76119833df7" id="r_a2f357d0852afe6e4c224f76119833df7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f357d0852afe6e4c224f76119833df7">find</a> (self, str <a class="el" href="#a39f9238fd93167febc7bf019e7ba5eee">name</a>)</td></tr>
+<tr class="separator:a2f357d0852afe6e4c224f76119833df7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f357d0852afe6e4c224f76119833df7" id="r_a2f357d0852afe6e4c224f76119833df7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f357d0852afe6e4c224f76119833df7">find</a> (self, str <a class="el" href="#a39f9238fd93167febc7bf019e7ba5eee">name</a>)</td></tr>
+<tr class="separator:a2f357d0852afe6e4c224f76119833df7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e352e6dd59980a9837126635cf12451" id="r_a8e352e6dd59980a9837126635cf12451"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e352e6dd59980a9837126635cf12451">findCommonAncestor</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a> other)</td></tr>
+<tr class="separator:a8e352e6dd59980a9837126635cf12451"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e352e6dd59980a9837126635cf12451" id="r_a8e352e6dd59980a9837126635cf12451"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e352e6dd59980a9837126635cf12451">findCommonAncestor</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a> other)</td></tr>
+<tr class="separator:a8e352e6dd59980a9837126635cf12451"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af98dcb4b81fd5679155534fc1496834c" id="r_af98dcb4b81fd5679155534fc1496834c"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af98dcb4b81fd5679155534fc1496834c">getClassName</a> (self)</td></tr>
+<tr class="separator:af98dcb4b81fd5679155534fc1496834c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb6f05ec0fa417ed2bd0513df6fb65d9" id="r_adb6f05ec0fa417ed2bd0513df6fb65d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__std__string.html">std_vector_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb6f05ec0fa417ed2bd0513df6fb65d9">getInfoLines</a> (self)</td></tr>
+<tr class="separator:adb6f05ec0fa417ed2bd0513df6fb65d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aa94945dd40a8e74ac406b0f3192837" id="r_a0aa94945dd40a8e74ac406b0f3192837"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0aa94945dd40a8e74ac406b0f3192837">globalVisibility</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportMask.html">ViewportMask</a> viewportMask='<a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportMask.html#aac6fbb0ab7e31b36651c0a648967c3ca">ViewportMask::any</a>()')</td></tr>
+<tr class="separator:a0aa94945dd40a8e74ac406b0f3192837"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92d1fcd8c7dc67a3b5d682cbc3bab8c6" id="r_a92d1fcd8c7dc67a3b5d682cbc3bab8c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportMask.html">ViewportMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92d1fcd8c7dc67a3b5d682cbc3bab8c6">globalVisibilityMask</a> (self)</td></tr>
+<tr class="separator:a92d1fcd8c7dc67a3b5d682cbc3bab8c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa376d92300f9d2461d228092aa5fc790" id="r_aa376d92300f9d2461d228092aa5fc790"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa376d92300f9d2461d228092aa5fc790">hasModel</a> (self)</td></tr>
+<tr class="separator:aa376d92300f9d2461d228092aa5fc790"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8c5c4e48c3cef39010c0e8ff72cb100" id="r_ad8c5c4e48c3cef39010c0e8ff72cb100"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8c5c4e48c3cef39010c0e8ff72cb100">hasVisualRepresentation</a> (self)</td></tr>
+<tr class="separator:ad8c5c4e48c3cef39010c0e8ff72cb100"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c776dc39b46b4dc32f087b58c24e6cf" id="r_a5c776dc39b46b4dc32f087b58c24e6cf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c776dc39b46b4dc32f087b58c24e6cf">heapBytes</a> (self)</td></tr>
+<tr class="separator:a5c776dc39b46b4dc32f087b58c24e6cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d546567096a395a013509ccddcd2aae" id="r_a7d546567096a395a013509ccddcd2aae"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d546567096a395a013509ccddcd2aae">isAncestor</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a> ancestor)</td></tr>
+<tr class="separator:a7d546567096a395a013509ccddcd2aae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a920556d59f5b0f4b909de8e98b2bf7c9" id="r_a920556d59f5b0f4b909de8e98b2bf7c9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a920556d59f5b0f4b909de8e98b2bf7c9">isAncillary</a> (self)</td></tr>
+<tr class="separator:a920556d59f5b0f4b909de8e98b2bf7c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff34758af6e0cefdb2a85d1269878e77" id="r_aff34758af6e0cefdb2a85d1269878e77"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff34758af6e0cefdb2a85d1269878e77">isLocked</a> (self)</td></tr>
+<tr class="separator:aff34758af6e0cefdb2a85d1269878e77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c194e544e7d628fcc2605fd663ffe5a" id="r_a3c194e544e7d628fcc2605fd663ffe5a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c194e544e7d628fcc2605fd663ffe5a">isParentLocked</a> (self)</td></tr>
+<tr class="separator:a3c194e544e7d628fcc2605fd663ffe5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92124deed9db92f48f2dc27ccf7ff93e" id="r_a92124deed9db92f48f2dc27ccf7ff93e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92124deed9db92f48f2dc27ccf7ff93e">isSelected</a> (self)</td></tr>
+<tr class="separator:a92124deed9db92f48f2dc27ccf7ff93e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab205fe50db86c13b68338ec70c2679c1" id="r_ab205fe50db86c13b68338ec70c2679c1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab205fe50db86c13b68338ec70c2679c1">isVisible</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportMask.html">ViewportMask</a> viewportMask='<a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportMask.html#aac6fbb0ab7e31b36651c0a648967c3ca">ViewportMask::any</a>()')</td></tr>
+<tr class="separator:ab205fe50db86c13b68338ec70c2679c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39f9238fd93167febc7bf019e7ba5eee" id="r_a39f9238fd93167febc7bf019e7ba5eee"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39f9238fd93167febc7bf019e7ba5eee">name</a> (self)</td></tr>
+<tr class="separator:a39f9238fd93167febc7bf019e7ba5eee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05a7a6484bd76a3a197e5984737ebe58" id="r_a05a7a6484bd76a3a197e5984737ebe58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05a7a6484bd76a3a197e5984737ebe58">parent</a> (self)</td></tr>
+<tr class="separator:a05a7a6484bd76a3a197e5984737ebe58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05a7a6484bd76a3a197e5984737ebe58" id="r_a05a7a6484bd76a3a197e5984737ebe58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05a7a6484bd76a3a197e5984737ebe58">parent</a> (self)</td></tr>
+<tr class="separator:a05a7a6484bd76a3a197e5984737ebe58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22c61bf51bab58cbe42a1c493757de06" id="r_a22c61bf51bab58cbe42a1c493757de06"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22c61bf51bab58cbe42a1c493757de06">removeAllChildren</a> (self)</td></tr>
+<tr class="separator:a22c61bf51bab58cbe42a1c493757de06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad075a4c0800916ef9f60409f1dd235bb" id="r_ad075a4c0800916ef9f60409f1dd235bb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad075a4c0800916ef9f60409f1dd235bb">removeChild</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a> child)</td></tr>
+<tr class="separator:ad075a4c0800916ef9f60409f1dd235bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad075a4c0800916ef9f60409f1dd235bb" id="r_ad075a4c0800916ef9f60409f1dd235bb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad075a4c0800916ef9f60409f1dd235bb">removeChild</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a> child)</td></tr>
+<tr class="separator:ad075a4c0800916ef9f60409f1dd235bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2dc3d8b85d0b1492eb6e1e4073422aa" id="r_af2dc3d8b85d0b1492eb6e1e4073422aa"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2dc3d8b85d0b1492eb6e1e4073422aa">resetRedrawFlag</a> (self)</td></tr>
+<tr class="separator:af2dc3d8b85d0b1492eb6e1e4073422aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68e4a9c56d220bb797e61c7f4e5aadb3" id="r_a68e4a9c56d220bb797e61c7f4e5aadb3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68e4a9c56d220bb797e61c7f4e5aadb3">resetXf</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportId.html">ViewportId</a> id='<a class="elRef" href="../Cpp/classMR_1_1ViewportId.html">MR::ViewportId</a>{}')</td></tr>
+<tr class="separator:a68e4a9c56d220bb797e61c7f4e5aadb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6669737401a7ebd1f3c13dcd94c7a86c" id="r_a6669737401a7ebd1f3c13dcd94c7a86c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6669737401a7ebd1f3c13dcd94c7a86c">select</a> (self, bool on)</td></tr>
+<tr class="separator:a6669737401a7ebd1f3c13dcd94c7a86c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8254c000e7ead00a2c7ce58e550f0aab" id="r_a8254c000e7ead00a2c7ce58e550f0aab"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8254c000e7ead00a2c7ce58e550f0aab">setAncillary</a> (self, bool ancillary)</td></tr>
+<tr class="separator:a8254c000e7ead00a2c7ce58e550f0aab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0d04f3bd8fb58d77d6a452909d3a9be" id="r_ab0d04f3bd8fb58d77d6a452909d3a9be"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0d04f3bd8fb58d77d6a452909d3a9be">setGlobalVisibility</a> (self, bool on, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportMask.html">ViewportMask</a> viewportMask='<a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportMask.html#aac6fbb0ab7e31b36651c0a648967c3ca">ViewportMask::any</a>()')</td></tr>
+<tr class="separator:ab0d04f3bd8fb58d77d6a452909d3a9be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5438100665f7fcb06c3353dbf918e7ed" id="r_a5438100665f7fcb06c3353dbf918e7ed"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5438100665f7fcb06c3353dbf918e7ed">setLocked</a> (self, bool on)</td></tr>
+<tr class="separator:a5438100665f7fcb06c3353dbf918e7ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6f24a5b0c492a3daccee68fea67060d" id="r_aa6f24a5b0c492a3daccee68fea67060d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6f24a5b0c492a3daccee68fea67060d">setName</a> (self, str <a class="el" href="#a39f9238fd93167febc7bf019e7ba5eee">name</a>)</td></tr>
+<tr class="separator:aa6f24a5b0c492a3daccee68fea67060d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a106f82ba3171dfcc734a850d46075dd5" id="r_a106f82ba3171dfcc734a850d46075dd5"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a106f82ba3171dfcc734a850d46075dd5">setParentLocked</a> (self, bool lock)</td></tr>
+<tr class="separator:a106f82ba3171dfcc734a850d46075dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a473a9b648861285749b42076a7e76456" id="r_a473a9b648861285749b42076a7e76456"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a473a9b648861285749b42076a7e76456">setVisibilityMask</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportMask.html">ViewportMask</a> viewportMask)</td></tr>
+<tr class="separator:a473a9b648861285749b42076a7e76456"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a786f32f81f1739f86353a7b4ac50e55a" id="r_a786f32f81f1739f86353a7b4ac50e55a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a786f32f81f1739f86353a7b4ac50e55a">setVisible</a> (self, bool on, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportMask.html">ViewportMask</a> viewportMask='<a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportMask.html#a9f6f650099effcfc20df2fd731588fd5">ViewportMask::all</a>()')</td></tr>
+<tr class="separator:a786f32f81f1739f86353a7b4ac50e55a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa017ffc88b404e35c7a15750c7d610bf" id="r_aa017ffc88b404e35c7a15750c7d610bf"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa017ffc88b404e35c7a15750c7d610bf">setWorldXf</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> <a class="el" href="#ad4efb9e9493ddf4327f48807dd3aa98f">xf</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportId.html">ViewportId</a> id='<a class="elRef" href="../Cpp/classMR_1_1ViewportId.html">MR::ViewportId</a>{}')</td></tr>
+<tr class="separator:aa017ffc88b404e35c7a15750c7d610bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac57b3e6306aca103afcd1c96799f4b4f" id="r_ac57b3e6306aca103afcd1c96799f4b4f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac57b3e6306aca103afcd1c96799f4b4f">setXf</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> <a class="el" href="#ad4efb9e9493ddf4327f48807dd3aa98f">xf</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportId.html">ViewportId</a> id='<a class="elRef" href="../Cpp/classMR_1_1ViewportId.html">MR::ViewportId</a>{}')</td></tr>
+<tr class="separator:ac57b3e6306aca103afcd1c96799f4b4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a069ce35adbb4fbb05b92b628a9db208a" id="r_a069ce35adbb4fbb05b92b628a9db208a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a069ce35adbb4fbb05b92b628a9db208a">setXfsForAllViewports</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportProperty__AffineXf3f.html">ViewportProperty_AffineXf3f</a> <a class="el" href="#ad4efb9e9493ddf4327f48807dd3aa98f">xf</a>)</td></tr>
+<tr class="separator:a069ce35adbb4fbb05b92b628a9db208a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f80c8531f7ddc2113c222c2b55fe424" id="r_a1f80c8531f7ddc2113c222c2b55fe424"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f80c8531f7ddc2113c222c2b55fe424">shallowClone</a> (self)</td></tr>
+<tr class="separator:a1f80c8531f7ddc2113c222c2b55fe424"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2b59c216808d2175b2823d4fbc221a0" id="r_ab2b59c216808d2175b2823d4fbc221a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2b59c216808d2175b2823d4fbc221a0">shallowCloneTree</a> (self)</td></tr>
+<tr class="separator:ab2b59c216808d2175b2823d4fbc221a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd6da2e8ebf62d73cdf45c81356113d5" id="r_acd6da2e8ebf62d73cdf45c81356113d5"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd6da2e8ebf62d73cdf45c81356113d5">sortChildren</a> (self)</td></tr>
+<tr class="separator:acd6da2e8ebf62d73cdf45c81356113d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcae8426307a63f948fe677b250c629c" id="r_afcae8426307a63f948fe677b250c629c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcae8426307a63f948fe677b250c629c">swap</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a> other)</td></tr>
+<tr class="separator:afcae8426307a63f948fe677b250c629c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa43192c916f7870360e3f26f8e81a003" id="r_aa43192c916f7870360e3f26f8e81a003"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa43192c916f7870360e3f26f8e81a003">typeName</a> (self)</td></tr>
+<tr class="separator:aa43192c916f7870360e3f26f8e81a003"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3cf363b86fd3f71bfdc69497d1ae944" id="r_aa3cf363b86fd3f71bfdc69497d1ae944"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportMask.html">ViewportMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3cf363b86fd3f71bfdc69497d1ae944">visibilityMask</a> (self)</td></tr>
+<tr class="separator:aa3cf363b86fd3f71bfdc69497d1ae944"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0f5d2dbbed1d0405d0fe606068bba99" id="r_aa0f5d2dbbed1d0405d0fe606068bba99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AffineXf3f.html">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0f5d2dbbed1d0405d0fe606068bba99">worldXf</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportId.html">ViewportId</a> id='<a class="elRef" href="../Cpp/classMR_1_1ViewportId.html">MR::ViewportId</a>{}', <a class="el" href="classmeshlib_1_1mrmeshpy_1_1bool__output.html">bool_output</a> isDef=None)</td></tr>
+<tr class="separator:aa0f5d2dbbed1d0405d0fe606068bba99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4efb9e9493ddf4327f48807dd3aa98f" id="r_ad4efb9e9493ddf4327f48807dd3aa98f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AffineXf3f.html">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4efb9e9493ddf4327f48807dd3aa98f">xf</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportId.html">ViewportId</a> id='<a class="elRef" href="../Cpp/classMR_1_1ViewportId.html">MR::ViewportId</a>{}', <a class="el" href="classmeshlib_1_1mrmeshpy_1_1bool__output.html">bool_output</a> isDef=None)</td></tr>
+<tr class="separator:ad4efb9e9493ddf4327f48807dd3aa98f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc1b95bb5de02a42b45b0fafaf6d2bc6" id="r_afc1b95bb5de02a42b45b0fafaf6d2bc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportProperty__AffineXf3f.html">ViewportProperty_AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc1b95bb5de02a42b45b0fafaf6d2bc6">xfsForAllViewports</a> (self)</td></tr>
+<tr class="separator:afc1b95bb5de02a42b45b0fafaf6d2bc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classmeshlib_1_1mrmeshpy_1_1ObjectChildrenHolder"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmeshlib_1_1mrmeshpy_1_1ObjectChildrenHolder')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectChildrenHolder.html">meshlib.mrmeshpy.ObjectChildrenHolder</a></td></tr>
+<tr class="memitem:acfaef4c739cc4d7c2ec7d783b6608281 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1ObjectChildrenHolder" id="r_acfaef4c739cc4d7c2ec7d783b6608281"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectChildrenHolder.html#acfaef4c739cc4d7c2ec7d783b6608281">getSharedPtr</a> (self)</td></tr>
+<tr class="separator:acfaef4c739cc4d7c2ec7d783b6608281 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1ObjectChildrenHolder"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a226a8b8b498154d5ad9a312d3cf63a7b" id="r_a226a8b8b498154d5ad9a312d3cf63a7b"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a226a8b8b498154d5ad9a312d3cf63a7b">TypeName</a> ()</td></tr>
+<tr class="separator:a226a8b8b498154d5ad9a312d3cf63a7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abea8c05aa2135fb966c9b89a7f55ceef" id="r_abea8c05aa2135fb966c9b89a7f55ceef"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abea8c05aa2135fb966c9b89a7f55ceef">getRedrawFlag</a> (*args, **kwargs)</td></tr>
+<tr class="separator:abea8c05aa2135fb966c9b89a7f55ceef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4e3239e925a8c115495a2ef1f623ae5" id="r_aa4e3239e925a8c115495a2ef1f623ae5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Box3f.html">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4e3239e925a8c115495a2ef1f623ae5">getWorldBox</a> (*args, **kwargs)</td></tr>
+<tr class="separator:aa4e3239e925a8c115495a2ef1f623ae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25bd5572fc9be37fc3ab7cbe8e20fe5a" id="r_a25bd5572fc9be37fc3ab7cbe8e20fe5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Box3f.html">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25bd5572fc9be37fc3ab7cbe8e20fe5a">getWorldTreeBox</a> (*args, **kwargs)</td></tr>
+<tr class="separator:a25bd5572fc9be37fc3ab7cbe8e20fe5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_static_methods_classmeshlib_1_1mrmeshpy_1_1ObjectChildrenHolder"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_static_methods_classmeshlib_1_1mrmeshpy_1_1ObjectChildrenHolder')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectChildrenHolder.html">meshlib.mrmeshpy.ObjectChildrenHolder</a></td></tr>
+<tr class="memitem:a572e279f4c06786116068a845a1c103d inherit pro_static_methods_classmeshlib_1_1mrmeshpy_1_1ObjectChildrenHolder" id="r_a572e279f4c06786116068a845a1c103d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectChildrenHolder.html">ObjectChildrenHolder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectChildrenHolder.html#a572e279f4c06786116068a845a1c103d">_Equal</a> (*args, **kwargs)</td></tr>
+<tr class="separator:a572e279f4c06786116068a845a1c103d inherit pro_static_methods_classmeshlib_1_1mrmeshpy_1_1ObjectChildrenHolder"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a572e279f4c06786116068a845a1c103d inherit pro_static_methods_classmeshlib_1_1mrmeshpy_1_1ObjectChildrenHolder" id="r_a572e279f4c06786116068a845a1c103d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectChildrenHolder.html">ObjectChildrenHolder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectChildrenHolder.html#a572e279f4c06786116068a845a1c103d">_Equal</a> (*args, **kwargs)</td></tr>
+<tr class="separator:a572e279f4c06786116068a845a1c103d inherit pro_static_methods_classmeshlib_1_1mrmeshpy_1_1ObjectChildrenHolder"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Generated from:  MR::Object
+Aliases:  ChangeObjectVisibilityAction.Obj, ObjectPtr, ChangeObjectSelectedAction.Obj
+
+named object in the data model
+</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aa4b80395c5149bde185a58eaea40f006" name="aa4b80395c5149bde185a58eaea40f006"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4b80395c5149bde185a58eaea40f006">&#9670;&#160;</a></span>__init__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Object.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectChildrenHolder.html#a10e4d7ea9b911db6a90276578bca5c4e">meshlib.mrmeshpy.ObjectChildrenHolder</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AngleMeasurementObject.html#ab198078e331a0acaecd014659c38e6f7">meshlib.mrmeshpy.AngleMeasurementObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1CircleObject.html#ad96a2e4d9d73de76ef8c16e3a6bbeaac">meshlib.mrmeshpy.CircleObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1CircleObject.html#a063e66ca7601cf2f9da6c3213d88c4aa">meshlib.mrmeshpy.CircleObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ConeObject.html#ae63d96b447b7fef9e690933ec32fd2b5">meshlib.mrmeshpy.ConeObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ConeObject.html#a8e0d50ee2388be693aef5217dece0f2d">meshlib.mrmeshpy.ConeObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1CylinderObject.html#ae7f6ace39514fe7362ca2be031dec073">meshlib.mrmeshpy.CylinderObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1CylinderObject.html#ae96c0ee58292f6ce5aa43ba5a28b1f77">meshlib.mrmeshpy.CylinderObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1DistanceMeasurementObject.html#a5caca7b07a7c738af08a207e3dbeb062">meshlib.mrmeshpy.DistanceMeasurementObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1LineObject.html#af4a4f5eb4395235c8c4542aedb3b004c">meshlib.mrmeshpy.LineObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1LineObject.html#a0b0da42e4bd9fb026ecc99e70d03144f">meshlib.mrmeshpy.LineObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeasurementObject.html#af32875ff5ea0a599d98e8c06a7b39eaa">meshlib.mrmeshpy.MeasurementObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectDistanceMap.html#a2edb63d47b59cc65fdc9483c87aa3601">meshlib.mrmeshpy.ObjectDistanceMap</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectGcode.html#aecc2f378f491e1d39ed5cf4fb6e8bfb8">meshlib.mrmeshpy.ObjectGcode</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectLabel.html#a9a9b9cf2e5b918830d4674a501d2c868">meshlib.mrmeshpy.ObjectLabel</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectLines.html#acc5e3e12985294452019f056ce7cd526">meshlib.mrmeshpy.ObjectLines</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectLinesHolder.html#aa70ca2c2282528c989d68ef11513c0c0">meshlib.mrmeshpy.ObjectLinesHolder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectMesh.html#a85f1c10d346b7b04ec2170d3b7591efa">meshlib.mrmeshpy.ObjectMesh</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectMeshHolder.html#a92d96dbc35bab0b3230f80de09c1400b">meshlib.mrmeshpy.ObjectMeshHolder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectPoints.html#aa8f01d6695b31319bc0aba0d10a914be">meshlib.mrmeshpy.ObjectPoints</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectPoints.html#a3164bd4f4448e371babec6f2951db033">meshlib.mrmeshpy.ObjectPoints</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectPointsHolder.html#abce889b2aa92e5e62110cd1e8c6baf62">meshlib.mrmeshpy.ObjectPointsHolder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectVoxels.html#af8c25d22519c87613dbed2ba675691fc">meshlib.mrmeshpy.ObjectVoxels</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PlaneObject.html#a6f778656ff507e64a0cafd1fb0d8249c">meshlib.mrmeshpy.PlaneObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PlaneObject.html#ac36b4a79d9cb5432dad76581f073eea7">meshlib.mrmeshpy.PlaneObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PointObject.html#a8d8b581ed1c5a21566c1c64fbb523e22">meshlib.mrmeshpy.PointObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PointObject.html#ab4f7fbb2393c480b05c7437614f2ef0c">meshlib.mrmeshpy.PointObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RadiusMeasurementObject.html#abfd7f50bf4d0133e2008194f9c2f6a91">meshlib.mrmeshpy.RadiusMeasurementObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1SceneRootObject.html#a78c5ef3f88e14359fff93dfb994cf1a8">meshlib.mrmeshpy.SceneRootObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1SphereObject.html#a1ff5f192ad1bffcdf23b51390d1c8584">meshlib.mrmeshpy.SphereObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1SphereObject.html#a27968444621bec79bc274d4aa9d46937">meshlib.mrmeshpy.SphereObject</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VisualObject.html#a3ff0bc725316c11978014ef4a750ce52">meshlib.mrmeshpy.VisualObject</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a941ddbfeb486561a4051bb84f023b872" name="a941ddbfeb486561a4051bb84f023b872"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a941ddbfeb486561a4051bb84f023b872">&#9670;&#160;</a></span>addChild()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.Object.addChild </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a></td>          <td class="paramname"><span class="paramname"><em>child</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>recognizedChild</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">adds given object at the end of children (recognized or not);
+returns false if it was already child of this, of if given pointer is empty;
+child object will always report this as parent after the call;
+\\param recognizedChild if set to false then child object will be excluded from children() and it will be stored by weak_ptr
+</pre> 
+</div>
+</div>
+<a id="a6a687539234c32ddf5ebe25e7e67e58c" name="a6a687539234c32ddf5ebe25e7e67e58c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a687539234c32ddf5ebe25e7e67e58c">&#9670;&#160;</a></span>addChildBefore()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.Object.addChildBefore </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a></td>          <td class="paramname"><span class="paramname"><em>newChild</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a></td>          <td class="paramname"><span class="paramname"><em>existingChild</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">adds given object in the recognized children before existingChild;
+if newChild was already among this children then moves it just before existingChild keeping the order of other children intact;
+returns false if newChild is nullptr, or existingChild is not a child of this
+</pre> 
+</div>
+</div>
+<a id="a99c092e1e216006efb2190a41ba43ec2" name="a99c092e1e216006efb2190a41ba43ec2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99c092e1e216006efb2190a41ba43ec2">&#9670;&#160;</a></span>applyScale()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Object.applyScale </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>scaleFactor</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">scale object size (all point positions)
+</pre> 
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectDistanceMap.html#a35c23f9f0d3214691aef2e7b42a7ff9d">meshlib.mrmeshpy.ObjectDistanceMap</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectLabel.html#a867eb44182cd3f11f2c4a5ddbe0d9a34">meshlib.mrmeshpy.ObjectLabel</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectLinesHolder.html#a3bbe09b31ee2096779a69d5a06ec4e40">meshlib.mrmeshpy.ObjectLinesHolder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectMeshHolder.html#a2b2f6093670df3c6f0df0ec43c9711d0">meshlib.mrmeshpy.ObjectMeshHolder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectPointsHolder.html#a1732c14afe80724127d4adbb00efeac0">meshlib.mrmeshpy.ObjectPointsHolder</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectVoxels.html#a02fd2618cae9327c1cceb80fb5f1fbad">meshlib.mrmeshpy.ObjectVoxels</a>.</p>
+
+</div>
+</div>
+<a id="ad211ca33b05ef1fbf4fa84295484f4e7" name="ad211ca33b05ef1fbf4fa84295484f4e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad211ca33b05ef1fbf4fa84295484f4e7">&#9670;&#160;</a></span>asType_VisualObject() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VisualObject.html">VisualObject</a> meshlib.mrmeshpy.Object.asType_VisualObject </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad211ca33b05ef1fbf4fa84295484f4e7" name="ad211ca33b05ef1fbf4fa84295484f4e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad211ca33b05ef1fbf4fa84295484f4e7">&#9670;&#160;</a></span>asType_VisualObject() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VisualObject.html">VisualObject</a> meshlib.mrmeshpy.Object.asType_VisualObject </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a416ae04fc36fd29cf14b6fa294de331f" name="a416ae04fc36fd29cf14b6fa294de331f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a416ae04fc36fd29cf14b6fa294de331f">&#9670;&#160;</a></span>children() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__std__shared__ptr__Object.html">std_vector_std_shared_ptr_Object</a> meshlib.mrmeshpy.Object.children </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">an object can hold other sub-objects
+</pre> 
+</div>
+</div>
+<a id="a0a05f9f4f94f72ff3a9fc9ada0f714e3" name="a0a05f9f4f94f72ff3a9fc9ada0f714e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a05f9f4f94f72ff3a9fc9ada0f714e3">&#9670;&#160;</a></span>children() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__std__shared__ptr__Object__const.html">std_vector_std_shared_ptr_Object_const</a> meshlib.mrmeshpy.Object.children </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3920eaca1855fb41f60495841e88bff2" name="a3920eaca1855fb41f60495841e88bff2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3920eaca1855fb41f60495841e88bff2">&#9670;&#160;</a></span>clone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a> meshlib.mrmeshpy.Object.clone </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">clones current object only, without parent and/or children
+</pre> 
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AngleMeasurementObject.html#a9bb2508a7c8a936f68f3b83d9ea44886">meshlib.mrmeshpy.AngleMeasurementObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1CircleObject.html#a3df15761f46e67215738595b6390d352">meshlib.mrmeshpy.CircleObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ConeObject.html#ab29bb85498a44f2a5fdd570346c6e398">meshlib.mrmeshpy.ConeObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1CylinderObject.html#a3393fed704ccf2526370ada38f657664">meshlib.mrmeshpy.CylinderObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1DistanceMeasurementObject.html#a1e6f97506e90ce343c53b79c18f5ed53">meshlib.mrmeshpy.DistanceMeasurementObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1LineObject.html#a2a04571fc1d6f4ea2ff23d6d4bf0ffbd">meshlib.mrmeshpy.LineObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectDistanceMap.html#a8e68fa86a2999377143c132879184f71">meshlib.mrmeshpy.ObjectDistanceMap</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectGcode.html#a281d45fad6ccb5b52f99b6a904af91b1">meshlib.mrmeshpy.ObjectGcode</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectLabel.html#a960a36c6cbcbb5e05b671caaff7d0ab1">meshlib.mrmeshpy.ObjectLabel</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectLines.html#a01b1275375fe98e4753d51a97dbf1dd3">meshlib.mrmeshpy.ObjectLines</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectLinesHolder.html#adbcbd3e6fd9daf9712800c5ea6ee9c4c">meshlib.mrmeshpy.ObjectLinesHolder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectMesh.html#a1f64f5b2228dbb22173c74569b6e2ffa">meshlib.mrmeshpy.ObjectMesh</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectMeshHolder.html#a6b810b113cf639cab6300ce44d3b2917">meshlib.mrmeshpy.ObjectMeshHolder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectPoints.html#a23c494ff38991722664bacd2fa9d00c5">meshlib.mrmeshpy.ObjectPoints</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectPointsHolder.html#a66b005fa0c110dafdcd4c4176abcedf7">meshlib.mrmeshpy.ObjectPointsHolder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectVoxels.html#a9daad5b5e158d71559fb1a57d8f504b7">meshlib.mrmeshpy.ObjectVoxels</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PlaneObject.html#a432f5fef9dc5e17ef0abf65831a14f47">meshlib.mrmeshpy.PlaneObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PointObject.html#a1d45bdcc3f1f6a21a87ba81b0098be36">meshlib.mrmeshpy.PointObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RadiusMeasurementObject.html#aacf8bc093d9053c9109f4875b92b43ae">meshlib.mrmeshpy.RadiusMeasurementObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1SceneRootObject.html#abea376eccb5160cfb3b6e4b250b8f703">meshlib.mrmeshpy.SceneRootObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1SphereObject.html#a4d0cbdaa185572bede31a3ae6c50b2fc">meshlib.mrmeshpy.SphereObject</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VisualObject.html#abc6f9ccf3649fbe91a9b3f890dab9674">meshlib.mrmeshpy.VisualObject</a>.</p>
+
+</div>
+</div>
+<a id="a2a31c6094614cdf371b0266e4258ed7f" name="a2a31c6094614cdf371b0266e4258ed7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a31c6094614cdf371b0266e4258ed7f">&#9670;&#160;</a></span>cloneTree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a> meshlib.mrmeshpy.Object.cloneTree </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">clones all tree of this object (except ancillary and unrecognized children)
+</pre> 
+</div>
+</div>
+<a id="ad70615966ca6937d7077e6e57b2f4da4" name="ad70615966ca6937d7077e6e57b2f4da4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad70615966ca6937d7077e6e57b2f4da4">&#9670;&#160;</a></span>detachFromParent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.Object.detachFromParent </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">removes this from its parent children list
+returns false if it was already orphan
+</pre> 
+</div>
+</div>
+<a id="a2f357d0852afe6e4c224f76119833df7" name="a2f357d0852afe6e4c224f76119833df7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f357d0852afe6e4c224f76119833df7">&#9670;&#160;</a></span>find() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a> meshlib.mrmeshpy.Object.find </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">str</td>          <td class="paramname"><span class="paramname"><em>name</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">finds a direct child by name
+</pre> 
+</div>
+</div>
+<a id="a2f357d0852afe6e4c224f76119833df7" name="a2f357d0852afe6e4c224f76119833df7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f357d0852afe6e4c224f76119833df7">&#9670;&#160;</a></span>find() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a> meshlib.mrmeshpy.Object.find </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">str</td>          <td class="paramname"><span class="paramname"><em>name</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8e352e6dd59980a9837126635cf12451" name="a8e352e6dd59980a9837126635cf12451"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e352e6dd59980a9837126635cf12451">&#9670;&#160;</a></span>findCommonAncestor() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a> meshlib.mrmeshpy.Object.findCommonAncestor </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Find a common ancestor between this object and the other one.
+Returns null on failure (which is impossible if both are children of the scene root).
+Will return `this` if `other` matches `this`.
+</pre> 
+</div>
+</div>
+<a id="a8e352e6dd59980a9837126635cf12451" name="a8e352e6dd59980a9837126635cf12451"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e352e6dd59980a9837126635cf12451">&#9670;&#160;</a></span>findCommonAncestor() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a> meshlib.mrmeshpy.Object.findCommonAncestor </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af98dcb4b81fd5679155534fc1496834c" name="af98dcb4b81fd5679155534fc1496834c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af98dcb4b81fd5679155534fc1496834c">&#9670;&#160;</a></span>getClassName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> str meshlib.mrmeshpy.Object.getClassName </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">return human readable name of subclass
+</pre> 
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AngleMeasurementObject.html#af42342d0eac0676b71edb5adb9b871be">meshlib.mrmeshpy.AngleMeasurementObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1CircleObject.html#a0597523eb8aa3df151fbaea483105384">meshlib.mrmeshpy.CircleObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ConeObject.html#ab3821456712b47eb658b8a7dbd1ef417">meshlib.mrmeshpy.ConeObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1CylinderObject.html#afd3482406991e792d1aa9dde8371eebe">meshlib.mrmeshpy.CylinderObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1DistanceMeasurementObject.html#ac8a305a8388599d3514ea0bb15c088d1">meshlib.mrmeshpy.DistanceMeasurementObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1LineObject.html#a96195f0e66268a67ec1c379cf71d8cbb">meshlib.mrmeshpy.LineObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectDistanceMap.html#a935dae94c154eb03aa04918822444d74">meshlib.mrmeshpy.ObjectDistanceMap</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectGcode.html#addd06a6bdd6499024453268125d92db2">meshlib.mrmeshpy.ObjectGcode</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectLines.html#a8ffc49ffd8ba2533c6fa99ae13dc29bc">meshlib.mrmeshpy.ObjectLines</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectMesh.html#a355390da140c1d1ec57e0550d8be4976">meshlib.mrmeshpy.ObjectMesh</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectPoints.html#a02858514d344c5a7c1d40beff470daad">meshlib.mrmeshpy.ObjectPoints</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectVoxels.html#a0449b2db4344f00c668a8a9ec88a0b14">meshlib.mrmeshpy.ObjectVoxels</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PlaneObject.html#a5dc9fb035042148cd9d42121d526f61e">meshlib.mrmeshpy.PlaneObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PointObject.html#a31186c582713a13289b6cccf243fe502">meshlib.mrmeshpy.PointObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RadiusMeasurementObject.html#a6b9f14bcd686fc57664e9a1ddbc850b1">meshlib.mrmeshpy.RadiusMeasurementObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1SphereObject.html#a5f181233199f0c64d70002fda9bea612">meshlib.mrmeshpy.SphereObject</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VisualObject.html#a77d5375cb5486c0ac5966ca17b315af5">meshlib.mrmeshpy.VisualObject</a>.</p>
+
+</div>
+</div>
+<a id="adb6f05ec0fa417ed2bd0513df6fb65d9" name="adb6f05ec0fa417ed2bd0513df6fb65d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb6f05ec0fa417ed2bd0513df6fb65d9">&#9670;&#160;</a></span>getInfoLines()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__std__string.html">std_vector_std_string</a> meshlib.mrmeshpy.Object.getInfoLines </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">return several info lines that can better describe object in the UI
+</pre> 
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AngleMeasurementObject.html#af769aea48d96d588fbca0ae5e50141e1">meshlib.mrmeshpy.AngleMeasurementObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1DistanceMeasurementObject.html#a6ee51659d199d8faad078efaba10cf84">meshlib.mrmeshpy.DistanceMeasurementObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectDistanceMap.html#a6f383de7f17519a1ee1b06ac5260d4b3">meshlib.mrmeshpy.ObjectDistanceMap</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectGcode.html#acad78788103ee316167a40b4e383f051">meshlib.mrmeshpy.ObjectGcode</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectLines.html#a2095ed2ddce70d8ca3839978f96bff74">meshlib.mrmeshpy.ObjectLines</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectMesh.html#a14b379abb8a0badbdd3087c86749bb8d">meshlib.mrmeshpy.ObjectMesh</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectPoints.html#a0eda8dc4f9ae10d8c4c4e76c147fe8d6">meshlib.mrmeshpy.ObjectPoints</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectVoxels.html#ab55c0bd04cdbce2e45370e30327b81a8">meshlib.mrmeshpy.ObjectVoxels</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RadiusMeasurementObject.html#a498dfb0ff0f1785484f864faca675297">meshlib.mrmeshpy.RadiusMeasurementObject</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VisualObject.html#aa43821e205d18365999372eea012ee1b">meshlib.mrmeshpy.VisualObject</a>.</p>
+
+</div>
+</div>
+<a id="abea8c05aa2135fb966c9b89a7f55ceef" name="abea8c05aa2135fb966c9b89a7f55ceef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abea8c05aa2135fb966c9b89a7f55ceef">&#9670;&#160;</a></span>getRedrawFlag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.Object.getRedrawFlag </td>
+          <td>(</td>
+          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">this method virtual because others data model types could have dirty flags or something
+</pre> 
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectMeshHolder.html#a4d8135916e9e18b24f10e8eef5224330">meshlib.mrmeshpy.ObjectMeshHolder</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VisualObject.html#ae16a7077a8d19b1818bf5f3880df74fa">meshlib.mrmeshpy.VisualObject</a>.</p>
+
+</div>
+</div>
+<a id="aa4e3239e925a8c115495a2ef1f623ae5" name="aa4e3239e925a8c115495a2ef1f623ae5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4e3239e925a8c115495a2ef1f623ae5">&#9670;&#160;</a></span>getWorldBox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Box3f.html">Box3f</a> meshlib.mrmeshpy.Object.getWorldBox </td>
+          <td>(</td>
+          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">returns bounding box of this object in world coordinates for default or specific viewport
+</pre> 
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectLabel.html#a73dc6c412068c44546cfc27e3b3a9a99">meshlib.mrmeshpy.ObjectLabel</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectLinesHolder.html#a2607f71f1710cbe8195775e2e97f3610">meshlib.mrmeshpy.ObjectLinesHolder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectMeshHolder.html#ab2e6c20d755fde482647d734d2275f69">meshlib.mrmeshpy.ObjectMeshHolder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectPointsHolder.html#aea7549a243c236e2c16f51e41eeed836">meshlib.mrmeshpy.ObjectPointsHolder</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VisualObject.html#abf02d2132044c32dbf4993d56ce50946">meshlib.mrmeshpy.VisualObject</a>.</p>
+
+</div>
+</div>
+<a id="a25bd5572fc9be37fc3ab7cbe8e20fe5a" name="a25bd5572fc9be37fc3ab7cbe8e20fe5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25bd5572fc9be37fc3ab7cbe8e20fe5a">&#9670;&#160;</a></span>getWorldTreeBox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Box3f.html">Box3f</a> meshlib.mrmeshpy.Object.getWorldTreeBox </td>
+          <td>(</td>
+          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">empty box
+returns bounding box of this object and all children visible in given (or default) viewport in world coordinates
+</pre> 
+</div>
+</div>
+<a id="a0aa94945dd40a8e74ac406b0f3192837" name="a0aa94945dd40a8e74ac406b0f3192837"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0aa94945dd40a8e74ac406b0f3192837">&#9670;&#160;</a></span>globalVisibility()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.Object.globalVisibility </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportMask.html">ViewportMask</a> </td>          <td class="paramname"><span class="paramname"><em>viewportMask</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportMask.html#aac6fbb0ab7e31b36651c0a648967c3ca">ViewportMask::any</a>()'</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns true if this object is visible together with all its parents in any of given viewports
+</pre> 
+</div>
+</div>
+<a id="a92d1fcd8c7dc67a3b5d682cbc3bab8c6" name="a92d1fcd8c7dc67a3b5d682cbc3bab8c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92d1fcd8c7dc67a3b5d682cbc3bab8c6">&#9670;&#160;</a></span>globalVisibilityMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportMask.html">ViewportMask</a> meshlib.mrmeshpy.Object.globalVisibilityMask </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns all viewports where this object is visible together with all its parents
+</pre> 
+</div>
+</div>
+<a id="aa376d92300f9d2461d228092aa5fc790" name="aa376d92300f9d2461d228092aa5fc790"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa376d92300f9d2461d228092aa5fc790">&#9670;&#160;</a></span>hasModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.Object.hasModel </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">does the object have any model available (but possibly empty),
+e.g. ObjectMesh has valid mesh() or ObjectPoints has valid pointCloud()
+</pre> 
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectDistanceMap.html#a49d3c8f9fb9bb232595532e79d09947b">meshlib.mrmeshpy.ObjectDistanceMap</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectLinesHolder.html#a06d534c966afece5a86962dd8eb630e7">meshlib.mrmeshpy.ObjectLinesHolder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectMeshHolder.html#a886d824afe505d19d8c5bf1a762f5fd6">meshlib.mrmeshpy.ObjectMeshHolder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectPointsHolder.html#a4b32dd8a2be2c48f0f5d19f1f4d88416">meshlib.mrmeshpy.ObjectPointsHolder</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectVoxels.html#ac5ed38b91a80e49de96f17a3672f0c84">meshlib.mrmeshpy.ObjectVoxels</a>.</p>
+
+</div>
+</div>
+<a id="ad8c5c4e48c3cef39010c0e8ff72cb100" name="ad8c5c4e48c3cef39010c0e8ff72cb100"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8c5c4e48c3cef39010c0e8ff72cb100">&#9670;&#160;</a></span>hasVisualRepresentation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.Object.hasVisualRepresentation </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">does the object have any visual representation (visible points, triangles, edges, etc.), no considering child objects
+</pre> 
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectLabel.html#ae741442c1a10556fa578cc3d0e55ccee">meshlib.mrmeshpy.ObjectLabel</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectLinesHolder.html#a563f184ea9a73bc37af872abddba5567">meshlib.mrmeshpy.ObjectLinesHolder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectMeshHolder.html#a9767b313c3cffc556343879138810be6">meshlib.mrmeshpy.ObjectMeshHolder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectPointsHolder.html#a2f770497dae1e719635daa1556debf87">meshlib.mrmeshpy.ObjectPointsHolder</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectVoxels.html#acab3586018b018d8ee5e602510637cb4">meshlib.mrmeshpy.ObjectVoxels</a>.</p>
+
+</div>
+</div>
+<a id="a5c776dc39b46b4dc32f087b58c24e6cf" name="a5c776dc39b46b4dc32f087b58c24e6cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c776dc39b46b4dc32f087b58c24e6cf">&#9670;&#160;</a></span>heapBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.Object.heapBytes </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the amount of memory this object occupies on heap
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectChildrenHolder.html#af9bd8848916e837668174a18ee84e191">meshlib.mrmeshpy.ObjectChildrenHolder</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectDistanceMap.html#a68bf000d3204d72512b9a4aabffd94ce">meshlib.mrmeshpy.ObjectDistanceMap</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectGcode.html#af214e51f703c369142cc9637dba647f2">meshlib.mrmeshpy.ObjectGcode</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectLabel.html#aac96a5b3b1c6a0c4472f338391bcfbdb">meshlib.mrmeshpy.ObjectLabel</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectLinesHolder.html#aa7b299bed99abf54eca112de5a6a812b">meshlib.mrmeshpy.ObjectLinesHolder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectMeshHolder.html#ad3104c13d0cbf08681af6c0b114ef290">meshlib.mrmeshpy.ObjectMeshHolder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectPointsHolder.html#aafde512f52118282dddc7fc4f45bd48c">meshlib.mrmeshpy.ObjectPointsHolder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectVoxels.html#aed1d84d1bfeb103486c9633f0949c8b8">meshlib.mrmeshpy.ObjectVoxels</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VisualObject.html#ad07a99a0241bb7d55b359ec0b28f7976">meshlib.mrmeshpy.VisualObject</a>.</p>
+
+</div>
+</div>
+<a id="a7d546567096a395a013509ccddcd2aae" name="a7d546567096a395a013509ccddcd2aae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d546567096a395a013509ccddcd2aae">&#9670;&#160;</a></span>isAncestor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.Object.isAncestor </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a></td>          <td class="paramname"><span class="paramname"><em>ancestor</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">return true if given object is ancestor of this one, false otherwise
+</pre> 
+</div>
+</div>
+<a id="a920556d59f5b0f4b909de8e98b2bf7c9" name="a920556d59f5b0f4b909de8e98b2bf7c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a920556d59f5b0f4b909de8e98b2bf7c9">&#9670;&#160;</a></span>isAncillary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.Object.isAncillary </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aff34758af6e0cefdb2a85d1269878e77" name="aff34758af6e0cefdb2a85d1269878e77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff34758af6e0cefdb2a85d1269878e77">&#9670;&#160;</a></span>isLocked()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.Object.isLocked </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">object properties lock for UI
+</pre> 
+</div>
+</div>
+<a id="a3c194e544e7d628fcc2605fd663ffe5a" name="a3c194e544e7d628fcc2605fd663ffe5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c194e544e7d628fcc2605fd663ffe5a">&#9670;&#160;</a></span>isParentLocked()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.Object.isParentLocked </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">If true, the scene tree GUI doesn't allow you to drag'n'drop this object into a different parent.
+Defaults to false.
+</pre> 
+</div>
+</div>
+<a id="a92124deed9db92f48f2dc27ccf7ff93e" name="a92124deed9db92f48f2dc27ccf7ff93e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92124deed9db92f48f2dc27ccf7ff93e">&#9670;&#160;</a></span>isSelected()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.Object.isSelected </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab205fe50db86c13b68338ec70c2679c1" name="ab205fe50db86c13b68338ec70c2679c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab205fe50db86c13b68338ec70c2679c1">&#9670;&#160;</a></span>isVisible()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.Object.isVisible </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportMask.html">ViewportMask</a> </td>          <td class="paramname"><span class="paramname"><em>viewportMask</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportMask.html#aac6fbb0ab7e31b36651c0a648967c3ca">ViewportMask::any</a>()'</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">checks whether the object is visible in any of the viewports specified by the mask (by default in any viewport)
+</pre> 
+</div>
+</div>
+<a id="a39f9238fd93167febc7bf019e7ba5eee" name="a39f9238fd93167febc7bf019e7ba5eee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39f9238fd93167febc7bf019e7ba5eee">&#9670;&#160;</a></span>name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> str meshlib.mrmeshpy.Object.name </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a05a7a6484bd76a3a197e5984737ebe58" name="a05a7a6484bd76a3a197e5984737ebe58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05a7a6484bd76a3a197e5984737ebe58">&#9670;&#160;</a></span>parent() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a> meshlib.mrmeshpy.Object.parent </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns parent object in the tree
+</pre> 
+</div>
+</div>
+<a id="a05a7a6484bd76a3a197e5984737ebe58" name="a05a7a6484bd76a3a197e5984737ebe58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05a7a6484bd76a3a197e5984737ebe58">&#9670;&#160;</a></span>parent() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a> meshlib.mrmeshpy.Object.parent </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a22c61bf51bab58cbe42a1c493757de06" name="a22c61bf51bab58cbe42a1c493757de06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22c61bf51bab58cbe42a1c493757de06">&#9670;&#160;</a></span>removeAllChildren()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Object.removeAllChildren </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">detaches all recognized children from this, keeping all unrecognized ones
+</pre> 
+</div>
+</div>
+<a id="ad075a4c0800916ef9f60409f1dd235bb" name="ad075a4c0800916ef9f60409f1dd235bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad075a4c0800916ef9f60409f1dd235bb">&#9670;&#160;</a></span>removeChild() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.Object.removeChild </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a></td>          <td class="paramname"><span class="paramname"><em>child</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns false if it was not child of this
+</pre> 
+</div>
+</div>
+<a id="ad075a4c0800916ef9f60409f1dd235bb" name="ad075a4c0800916ef9f60409f1dd235bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad075a4c0800916ef9f60409f1dd235bb">&#9670;&#160;</a></span>removeChild() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.Object.removeChild </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a></td>          <td class="paramname"><span class="paramname"><em>child</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af2dc3d8b85d0b1492eb6e1e4073422aa" name="af2dc3d8b85d0b1492eb6e1e4073422aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2dc3d8b85d0b1492eb6e1e4073422aa">&#9670;&#160;</a></span>resetRedrawFlag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Object.resetRedrawFlag </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a68e4a9c56d220bb797e61c7f4e5aadb3" name="a68e4a9c56d220bb797e61c7f4e5aadb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68e4a9c56d220bb797e61c7f4e5aadb3">&#9670;&#160;</a></span>resetXf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Object.resetXf </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportId.html">ViewportId</a> </td>          <td class="paramname"><span class="paramname"><em>id</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/classMR_1_1ViewportId.html">MR::ViewportId</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">forgets specific transform in given viewport (or forgets all specific transforms for {} input)
+</pre> 
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FeatureObject.html#a80b0cfb959019afe5dfb610e77ebb05e">meshlib.mrmeshpy.FeatureObject</a>.</p>
+
+</div>
+</div>
+<a id="a6669737401a7ebd1f3c13dcd94c7a86c" name="a6669737401a7ebd1f3c13dcd94c7a86c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6669737401a7ebd1f3c13dcd94c7a86c">&#9670;&#160;</a></span>select()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.Object.select </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>on</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">selects the object, returns true if value changed, otherwise returns false
+</pre> 
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectGcode.html#a0219d477b88ebbc07035237750916fd8">meshlib.mrmeshpy.ObjectGcode</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1SceneRootObject.html#a87d3adc82854a76fcfc614dbb278df12">meshlib.mrmeshpy.SceneRootObject</a>.</p>
+
+</div>
+</div>
+<a id="a8254c000e7ead00a2c7ce58e550f0aab" name="a8254c000e7ead00a2c7ce58e550f0aab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8254c000e7ead00a2c7ce58e550f0aab">&#9670;&#160;</a></span>setAncillary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Object.setAncillary </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>ancillary</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">ancillary object is an object hidden (in scene menu) from a regular user
+such objects cannot be selected, and if it has been selected, it is unselected when turn ancillary
+</pre> 
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1SceneRootObject.html#a95f62cb66e73b6395f14d9454def34e7">meshlib.mrmeshpy.SceneRootObject</a>.</p>
+
+</div>
+</div>
+<a id="ab0d04f3bd8fb58d77d6a452909d3a9be" name="ab0d04f3bd8fb58d77d6a452909d3a9be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0d04f3bd8fb58d77d6a452909d3a9be">&#9670;&#160;</a></span>setGlobalVisibility()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Object.setGlobalVisibility </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>on</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportMask.html">ViewportMask</a> </td>          <td class="paramname"><span class="paramname"><em>viewportMask</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportMask.html#aac6fbb0ab7e31b36651c0a648967c3ca">ViewportMask::any</a>()'</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">if true sets all predecessors visible, otherwise sets this object invisible
+</pre> 
+</div>
+</div>
+<a id="a5438100665f7fcb06c3353dbf918e7ed" name="a5438100665f7fcb06c3353dbf918e7ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5438100665f7fcb06c3353dbf918e7ed">&#9670;&#160;</a></span>setLocked()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Object.setLocked </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>on</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa6f24a5b0c492a3daccee68fea67060d" name="aa6f24a5b0c492a3daccee68fea67060d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6f24a5b0c492a3daccee68fea67060d">&#9670;&#160;</a></span>setName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Object.setName </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">str</td>          <td class="paramname"><span class="paramname"><em>name</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1SceneRootObject.html#a48217cc37aab938a2b2951c8175246e5">meshlib.mrmeshpy.SceneRootObject</a>.</p>
+
+</div>
+</div>
+<a id="a106f82ba3171dfcc734a850d46075dd5" name="a106f82ba3171dfcc734a850d46075dd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a106f82ba3171dfcc734a850d46075dd5">&#9670;&#160;</a></span>setParentLocked()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Object.setParentLocked </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>lock</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a473a9b648861285749b42076a7e76456" name="a473a9b648861285749b42076a7e76456"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a473a9b648861285749b42076a7e76456">&#9670;&#160;</a></span>setVisibilityMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Object.setVisibilityMask </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportMask.html">ViewportMask</a></td>          <td class="paramname"><span class="paramname"><em>viewportMask</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">specifies object visibility as bitmask of viewports
+</pre> 
+</div>
+</div>
+<a id="a786f32f81f1739f86353a7b4ac50e55a" name="a786f32f81f1739f86353a7b4ac50e55a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a786f32f81f1739f86353a7b4ac50e55a">&#9670;&#160;</a></span>setVisible()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Object.setVisible </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>on</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportMask.html">ViewportMask</a> </td>          <td class="paramname"><span class="paramname"><em>viewportMask</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportMask.html#a9f6f650099effcfc20df2fd731588fd5">ViewportMask::all</a>()'</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sets the object visible in the viewports specified by the mask (by default in all viewports)
+</pre> 
+</div>
+</div>
+<a id="aa017ffc88b404e35c7a15750c7d610bf" name="aa017ffc88b404e35c7a15750c7d610bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa017ffc88b404e35c7a15750c7d610bf">&#9670;&#160;</a></span>setWorldXf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Object.setWorldXf </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AffineXf3f.html">AffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>xf</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportId.html">ViewportId</a> </td>          <td class="paramname"><span class="paramname"><em>id</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/classMR_1_1ViewportId.html">MR::ViewportId</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac57b3e6306aca103afcd1c96799f4b4f" name="ac57b3e6306aca103afcd1c96799f4b4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac57b3e6306aca103afcd1c96799f4b4f">&#9670;&#160;</a></span>setXf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Object.setXf </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AffineXf3f.html">AffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>xf</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportId.html">ViewportId</a> </td>          <td class="paramname"><span class="paramname"><em>id</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/classMR_1_1ViewportId.html">MR::ViewportId</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FeatureObject.html#a8587989582bbdff49914740cbe7d78b0">meshlib.mrmeshpy.FeatureObject</a>.</p>
+
+</div>
+</div>
+<a id="a069ce35adbb4fbb05b92b628a9db208a" name="a069ce35adbb4fbb05b92b628a9db208a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a069ce35adbb4fbb05b92b628a9db208a">&#9670;&#160;</a></span>setXfsForAllViewports()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Object.setXfsForAllViewports </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportProperty__AffineXf3f.html">ViewportProperty_AffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>xf</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">modifies xfs for all viewports at once
+</pre> 
+</div>
+</div>
+<a id="a1f80c8531f7ddc2113c222c2b55fe424" name="a1f80c8531f7ddc2113c222c2b55fe424"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f80c8531f7ddc2113c222c2b55fe424">&#9670;&#160;</a></span>shallowClone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a> meshlib.mrmeshpy.Object.shallowClone </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">clones current object only, without parent and/or children
+clones only pointers to mesh, points or voxels
+</pre> 
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AngleMeasurementObject.html#a91fc6e7bb4ce08d538d226e303982aa0">meshlib.mrmeshpy.AngleMeasurementObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1CircleObject.html#ad9042bea8891994784ed4db4cfaef187">meshlib.mrmeshpy.CircleObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ConeObject.html#ab65859db1711ccae37d72d305fdb6b98">meshlib.mrmeshpy.ConeObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1CylinderObject.html#aa4746b2635f38063031789f7124bb929">meshlib.mrmeshpy.CylinderObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1DistanceMeasurementObject.html#a3f6523f37e6a53b4763c94185c6c96cf">meshlib.mrmeshpy.DistanceMeasurementObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1LineObject.html#a82a4f0d9bcfa9672a8e386a4842bcad5">meshlib.mrmeshpy.LineObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectDistanceMap.html#a124d22fc663adb3b42864e1b885ff1fd">meshlib.mrmeshpy.ObjectDistanceMap</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectGcode.html#ad4870e8a7d8b9134f9c197ec1202c1d6">meshlib.mrmeshpy.ObjectGcode</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectLabel.html#a8637e7beec0e189f5f4721a958e7b64b">meshlib.mrmeshpy.ObjectLabel</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectLines.html#a6e24a6b14ac881091cc53fb878c6d713">meshlib.mrmeshpy.ObjectLines</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectLinesHolder.html#abae138bb4f1bf39329fe7e00211b44f7">meshlib.mrmeshpy.ObjectLinesHolder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectMesh.html#a6f1e19d8550d026d6f93dabd117fd9eb">meshlib.mrmeshpy.ObjectMesh</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectMeshHolder.html#abfcb1dbe297decc6392f3bb9754af1c9">meshlib.mrmeshpy.ObjectMeshHolder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectPoints.html#afed19bc6cf80c80bae78f8b3242264a3">meshlib.mrmeshpy.ObjectPoints</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectPointsHolder.html#a35c83250f40f236b117ba576f5dd46a7">meshlib.mrmeshpy.ObjectPointsHolder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectVoxels.html#aac8e5d35dbb73c526f2806b2dd00ee3e">meshlib.mrmeshpy.ObjectVoxels</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PlaneObject.html#a6b059a7f49f6ca03e9d62a3a79468cbe">meshlib.mrmeshpy.PlaneObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PointObject.html#a79b2a1cb32e0093feee61757a501b9f4">meshlib.mrmeshpy.PointObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RadiusMeasurementObject.html#a10f127ccc8f4b07cc5458200c06f943d">meshlib.mrmeshpy.RadiusMeasurementObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1SphereObject.html#a7212cd29c6c6e4c3a83308443cdba05b">meshlib.mrmeshpy.SphereObject</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VisualObject.html#a8e91fe6c0014b37651299dd6e788120e">meshlib.mrmeshpy.VisualObject</a>.</p>
+
+</div>
+</div>
+<a id="ab2b59c216808d2175b2823d4fbc221a0" name="ab2b59c216808d2175b2823d4fbc221a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2b59c216808d2175b2823d4fbc221a0">&#9670;&#160;</a></span>shallowCloneTree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a> meshlib.mrmeshpy.Object.shallowCloneTree </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">clones all tree of this object (except ancillary and unrecognied children)
+clones only pointers to mesh, points or voxels
+</pre> 
+</div>
+</div>
+<a id="acd6da2e8ebf62d73cdf45c81356113d5" name="acd6da2e8ebf62d73cdf45c81356113d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd6da2e8ebf62d73cdf45c81356113d5">&#9670;&#160;</a></span>sortChildren()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Object.sortChildren </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sort recognized children by name
+</pre> 
+</div>
+</div>
+<a id="afcae8426307a63f948fe677b250c629c" name="afcae8426307a63f948fe677b250c629c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcae8426307a63f948fe677b250c629c">&#9670;&#160;</a></span>swap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Object.swap </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">swaps this object with other
+note: do not swap object signals, so listeners will get notifications from swapped object
+requires implementation of `swapBase_` and `swapSignals_` (if type has signals)
+</pre> 
+</div>
+</div>
+<a id="a226a8b8b498154d5ad9a312d3cf63a7b" name="a226a8b8b498154d5ad9a312d3cf63a7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a226a8b8b498154d5ad9a312d3cf63a7b">&#9670;&#160;</a></span>TypeName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> str meshlib.mrmeshpy.Object.TypeName </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">return name of subtype for serialization purposes
+</pre> 
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AngleMeasurementObject.html#a23fb71b8fa21275e778c1234957ba06f">meshlib.mrmeshpy.AngleMeasurementObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1CircleObject.html#a9e9de8a437b412267d96452c9299ef00">meshlib.mrmeshpy.CircleObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ConeObject.html#acec40f8c2b52cbe776ac7c7aad7109bb">meshlib.mrmeshpy.ConeObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1CylinderObject.html#a43b81eb31d9bb9c897f5a39be4e9a8ba">meshlib.mrmeshpy.CylinderObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1DistanceMeasurementObject.html#a6a78ee6f66e6e583c64be7a9371f471d">meshlib.mrmeshpy.DistanceMeasurementObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1LineObject.html#a6174a41b2b23a11387e653c5916e53ec">meshlib.mrmeshpy.LineObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectDistanceMap.html#a33f8fe91bb8527e695ec7a5f646ffaa2">meshlib.mrmeshpy.ObjectDistanceMap</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectGcode.html#aabeae066c7832bc5b5d2d1c1faf98e78">meshlib.mrmeshpy.ObjectGcode</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectLabel.html#a59437b3270bf9cf0bc6eb73ecf21f5c3">meshlib.mrmeshpy.ObjectLabel</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectLines.html#a7a0d421559e2b011ed07bca89e59453a">meshlib.mrmeshpy.ObjectLines</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectLinesHolder.html#ad3fa2b78b5bd8602472f7973ebf026c5">meshlib.mrmeshpy.ObjectLinesHolder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectMesh.html#a5ddaa04d82f477120aef48a0c630b60e">meshlib.mrmeshpy.ObjectMesh</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectMeshHolder.html#a3a6c0a98e3ecc09447ae861c57244609">meshlib.mrmeshpy.ObjectMeshHolder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectPoints.html#a7d4decf003d4caf911dc3ee2e5a93925">meshlib.mrmeshpy.ObjectPoints</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectPointsHolder.html#a2faed2495648f736a47d9cf4a8cb2802">meshlib.mrmeshpy.ObjectPointsHolder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectVoxels.html#abfa985b9ad33707f61a0d232ccef9ba4">meshlib.mrmeshpy.ObjectVoxels</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PlaneObject.html#ad4ff7471664790b9922237e554bf1df5">meshlib.mrmeshpy.PlaneObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PointObject.html#a4f325a756ee9fc35814dac7f7c24ba50">meshlib.mrmeshpy.PointObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RadiusMeasurementObject.html#aca0451337379d9d6206fc296a882b8c9">meshlib.mrmeshpy.RadiusMeasurementObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1SceneRootObject.html#aa2a24a56f0359b9e3d6feff023ff65cb">meshlib.mrmeshpy.SceneRootObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1SphereObject.html#a13834306f39242ec839f67fa12cb9e80">meshlib.mrmeshpy.SphereObject</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VisualObject.html#a4508987724e0313fe1d397040078e471">meshlib.mrmeshpy.VisualObject</a>.</p>
+
+</div>
+</div>
+<a id="aa43192c916f7870360e3f26f8e81a003" name="aa43192c916f7870360e3f26f8e81a003"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa43192c916f7870360e3f26f8e81a003">&#9670;&#160;</a></span>typeName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> str meshlib.mrmeshpy.Object.typeName </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AngleMeasurementObject.html#aa3ba0747107be41d77de7bc9839c92c2">meshlib.mrmeshpy.AngleMeasurementObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1CircleObject.html#a48db3be5fb28ec4b43c365cb25412f62">meshlib.mrmeshpy.CircleObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ConeObject.html#ad41af82c8251833a7f631dfc2c3e8b7c">meshlib.mrmeshpy.ConeObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1CylinderObject.html#a84efc1dafe32c3e637b9f5f024778298">meshlib.mrmeshpy.CylinderObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1DistanceMeasurementObject.html#a5f78abb28948371dd6bf8cbe4c4cab3f">meshlib.mrmeshpy.DistanceMeasurementObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1LineObject.html#abdac785574aa708cf573c69c00ab720d">meshlib.mrmeshpy.LineObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectDistanceMap.html#a46e152fafb1f12c11081325655dd1802">meshlib.mrmeshpy.ObjectDistanceMap</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectGcode.html#a9020d0b9d6df05387c92ee9936f54f6c">meshlib.mrmeshpy.ObjectGcode</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectLabel.html#a6c1faf48b297eb1d1bbf59aeb160d41e">meshlib.mrmeshpy.ObjectLabel</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectLines.html#ab1e58118ad45a238dd47a12f40f51b03">meshlib.mrmeshpy.ObjectLines</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectLinesHolder.html#a61291f1455c764926b1322114418c6e7">meshlib.mrmeshpy.ObjectLinesHolder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectMesh.html#a3a00f78ea4f565b50d2a98affa6aa351">meshlib.mrmeshpy.ObjectMesh</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectMeshHolder.html#aa9a984f932031bc7d6364d84b85a71d0">meshlib.mrmeshpy.ObjectMeshHolder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectPoints.html#aa4c9b2c8f132a8c606b3070e74ce9426">meshlib.mrmeshpy.ObjectPoints</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectPointsHolder.html#aaf1263ec81ea08f52cfcd9102791ea90">meshlib.mrmeshpy.ObjectPointsHolder</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ObjectVoxels.html#af19f655247516b1232a7b00665e5da27">meshlib.mrmeshpy.ObjectVoxels</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PlaneObject.html#a805e324152c03d7e7fa5cada4c0ae076">meshlib.mrmeshpy.PlaneObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PointObject.html#a397dec6293014fa30c0ed83e4504912e">meshlib.mrmeshpy.PointObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RadiusMeasurementObject.html#a59d8daff81eef44f87f8922d2f543cef">meshlib.mrmeshpy.RadiusMeasurementObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1SceneRootObject.html#ab441f3f96e1fe801704577fc61fce90b">meshlib.mrmeshpy.SceneRootObject</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1SphereObject.html#a2c7a1f13d89ae4160af270036a1c187e">meshlib.mrmeshpy.SphereObject</a>, and <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VisualObject.html#aba9f5cef0c4f39eaba9a5fb55c023698">meshlib.mrmeshpy.VisualObject</a>.</p>
+
+</div>
+</div>
+<a id="aa3cf363b86fd3f71bfdc69497d1ae944" name="aa3cf363b86fd3f71bfdc69497d1ae944"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3cf363b86fd3f71bfdc69497d1ae944">&#9670;&#160;</a></span>visibilityMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportMask.html">ViewportMask</a> meshlib.mrmeshpy.Object.visibilityMask </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">gets object visibility as bitmask of viewports
+</pre> 
+</div>
+</div>
+<a id="aa0f5d2dbbed1d0405d0fe606068bba99" name="aa0f5d2dbbed1d0405d0fe606068bba99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0f5d2dbbed1d0405d0fe606068bba99">&#9670;&#160;</a></span>worldXf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> meshlib.mrmeshpy.Object.worldXf </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportId.html">ViewportId</a> </td>          <td class="paramname"><span class="paramname"><em>id</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/classMR_1_1ViewportId.html">MR::ViewportId</a>{}'</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1bool__output.html">bool_output</a> </td>          <td class="paramname"><span class="paramname"><em>isDef</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">this space to world space transformation for default or specific viewport
+\\param isDef receives true if the object has default transformation in this viewport (same as worldXf() returns)
+</pre> 
+</div>
+</div>
+<a id="ad4efb9e9493ddf4327f48807dd3aa98f" name="ad4efb9e9493ddf4327f48807dd3aa98f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4efb9e9493ddf4327f48807dd3aa98f">&#9670;&#160;</a></span>xf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> meshlib.mrmeshpy.Object.xf </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportId.html">ViewportId</a> </td>          <td class="paramname"><span class="paramname"><em>id</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/classMR_1_1ViewportId.html">MR::ViewportId</a>{}'</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1bool__output.html">bool_output</a> </td>          <td class="paramname"><span class="paramname"><em>isDef</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">this space to parent space transformation (to world space if no parent) for default or given viewport
+\\param isDef receives true if the object has default transformation in this viewport (same as xf() returns)
+</pre> 
+</div>
+</div>
+<a id="afc1b95bb5de02a42b45b0fafaf6d2bc6" name="afc1b95bb5de02a42b45b0fafaf6d2bc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc1b95bb5de02a42b45b0fafaf6d2bc6">&#9670;&#160;</a></span>xfsForAllViewports()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ViewportProperty__AffineXf3f.html">ViewportProperty_AffineXf3f</a> meshlib.mrmeshpy.Object.xfsForAllViewports </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns xfs for all viewports, combined into a single object
+</pre> 
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

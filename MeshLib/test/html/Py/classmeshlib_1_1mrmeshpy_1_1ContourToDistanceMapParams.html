@@ -1,0 +1,650 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.ContourToDistanceMapParams Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1ContourToDistanceMapParams.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1ContourToDistanceMapParams-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.ContourToDistanceMapParams Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a0812b5f56914f13cbb037f41ff519802" id="r_a0812b5f56914f13cbb037f41ff519802"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0812b5f56914f13cbb037f41ff519802">__init__</a> (self)</td></tr>
+<tr class="separator:a0812b5f56914f13cbb037f41ff519802"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c8704a7e67044df8dc58a26831e7544" id="r_a3c8704a7e67044df8dc58a26831e7544"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c8704a7e67044df8dc58a26831e7544">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector2i.html">Vector2i</a> <a class="el" href="#a4a323e2c5f10cea950ff2fdb5d818686">resolution</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector2f.html">Vector2f</a> oriPoint, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector2f.html">Vector2f</a> areaSize, bool <a class="el" href="#a3100fb3ecc7e21b09ccef048275556cd">withSign</a>=False)</td></tr>
+<tr class="separator:a3c8704a7e67044df8dc58a26831e7544"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e032ad4ea22506a64a248d63adc6c51" id="r_a0e032ad4ea22506a64a248d63adc6c51"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e032ad4ea22506a64a248d63adc6c51">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector2i.html">Vector2i</a> <a class="el" href="#a4a323e2c5f10cea950ff2fdb5d818686">resolution</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Box2f.html">Box2f</a> box, bool <a class="el" href="#a3100fb3ecc7e21b09ccef048275556cd">withSign</a>=False)</td></tr>
+<tr class="separator:a0e032ad4ea22506a64a248d63adc6c51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedf4bd1f376f0159aaf469e7498c51a7" id="r_aedf4bd1f376f0159aaf469e7498c51a7"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedf4bd1f376f0159aaf469e7498c51a7">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector2i.html">Vector2i</a> <a class="el" href="#a4a323e2c5f10cea950ff2fdb5d818686">resolution</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__std__vector__Vector2__float.html">std_vector_std_vector_Vector2_float</a> contours, float offset, bool <a class="el" href="#a3100fb3ecc7e21b09ccef048275556cd">withSign</a>=False)</td></tr>
+<tr class="separator:aedf4bd1f376f0159aaf469e7498c51a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a789998e41bb0519b5b7192fdde008916" id="r_a789998e41bb0519b5b7192fdde008916"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a789998e41bb0519b5b7192fdde008916">__init__</a> (self, float <a class="el" href="#ac32fd495a86b56851c1b54a9d445ea3e">pixelSize</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__std__vector__Vector2__float.html">std_vector_std_vector_Vector2_float</a> contours, float offset, bool <a class="el" href="#a3100fb3ecc7e21b09ccef048275556cd">withSign</a>=False)</td></tr>
+<tr class="separator:a789998e41bb0519b5b7192fdde008916"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf0c606a468888dd57de574ca0a8319a" id="r_aaf0c606a468888dd57de574ca0a8319a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf0c606a468888dd57de574ca0a8319a">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1DistanceMapToWorld.html">DistanceMapToWorld</a> <a class="el" href="#ad882c385f719bb44deaaf3d928bbec20">toWorld</a>)</td></tr>
+<tr class="separator:aaf0c606a468888dd57de574ca0a8319a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a896a0e50f5249603bafe44f394687dcd" id="r_a896a0e50f5249603bafe44f394687dcd"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a896a0e50f5249603bafe44f394687dcd">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1ContourToDistanceMapParams.html">ContourToDistanceMapParams</a> arg0)</td></tr>
+<tr class="separator:a896a0e50f5249603bafe44f394687dcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad882c385f719bb44deaaf3d928bbec20" id="r_ad882c385f719bb44deaaf3d928bbec20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector2f.html">Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad882c385f719bb44deaaf3d928bbec20">toWorld</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector2f.html">Vector2f</a> point)</td></tr>
+<tr class="separator:ad882c385f719bb44deaaf3d928bbec20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22573de3f9ae6720c30294309833ea64" id="r_a22573de3f9ae6720c30294309833ea64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AffineXf3f.html">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22573de3f9ae6720c30294309833ea64">xf</a> (self)</td></tr>
+<tr class="separator:a22573de3f9ae6720c30294309833ea64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad34e2aaf787ea14b47cce5c312a162b0" id="r_ad34e2aaf787ea14b47cce5c312a162b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector2f.html">Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad34e2aaf787ea14b47cce5c312a162b0">orgPoint</a> (self)</td></tr>
+<tr class="separator:ad34e2aaf787ea14b47cce5c312a162b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae11211cb5fa51733e4c563f561fdf420" id="r_ae11211cb5fa51733e4c563f561fdf420"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae11211cb5fa51733e4c563f561fdf420">orgPoint</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector2f.html">Vector2f</a> arg1)</td></tr>
+<tr class="separator:ae11211cb5fa51733e4c563f561fdf420"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac32fd495a86b56851c1b54a9d445ea3e" id="r_ac32fd495a86b56851c1b54a9d445ea3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector2f.html">Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac32fd495a86b56851c1b54a9d445ea3e">pixelSize</a> (self)</td></tr>
+<tr class="separator:ac32fd495a86b56851c1b54a9d445ea3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f7b6c0bfc7f2160d722559d24e75381" id="r_a1f7b6c0bfc7f2160d722559d24e75381"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f7b6c0bfc7f2160d722559d24e75381">pixelSize</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector2f.html">Vector2f</a> arg1)</td></tr>
+<tr class="separator:a1f7b6c0bfc7f2160d722559d24e75381"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a323e2c5f10cea950ff2fdb5d818686" id="r_a4a323e2c5f10cea950ff2fdb5d818686"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector2i.html">Vector2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a323e2c5f10cea950ff2fdb5d818686">resolution</a> (self)</td></tr>
+<tr class="separator:a4a323e2c5f10cea950ff2fdb5d818686"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5bfc8ae04b45e69597df131a258ce96" id="r_ae5bfc8ae04b45e69597df131a258ce96"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5bfc8ae04b45e69597df131a258ce96">resolution</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector2i.html">Vector2i</a> arg1)</td></tr>
+<tr class="separator:ae5bfc8ae04b45e69597df131a258ce96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3100fb3ecc7e21b09ccef048275556cd" id="r_a3100fb3ecc7e21b09ccef048275556cd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3100fb3ecc7e21b09ccef048275556cd">withSign</a> (self)</td></tr>
+<tr class="separator:a3100fb3ecc7e21b09ccef048275556cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e10da513cc5a0f8a42913a17f9ada61" id="r_a6e10da513cc5a0f8a42913a17f9ada61"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e10da513cc5a0f8a42913a17f9ada61">withSign</a> (self, bool arg1)</td></tr>
+<tr class="separator:a6e10da513cc5a0f8a42913a17f9ada61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:adaa8894684f973ed60fc50e5a2ab359b" id="r_adaa8894684f973ed60fc50e5a2ab359b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AffineXf3f.html">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adaa8894684f973ed60fc50e5a2ab359b">_convert_to_AffineXf3f</a> (self)</td></tr>
+<tr class="separator:adaa8894684f973ed60fc50e5a2ab359b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Generated from:  MR::ContourToDistanceMapParams
+
+Structure with parameters to generate DistanceMap by Contours
+</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a0812b5f56914f13cbb037f41ff519802" name="a0812b5f56914f13cbb037f41ff519802"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0812b5f56914f13cbb037f41ff519802">&#9670;&#160;</a></span>__init__() <span class="overload">[1/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.ContourToDistanceMapParams.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Default ctor, make sure to fill all fields manually
+</pre> 
+</div>
+</div>
+<a id="a3c8704a7e67044df8dc58a26831e7544" name="a3c8704a7e67044df8dc58a26831e7544"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c8704a7e67044df8dc58a26831e7544">&#9670;&#160;</a></span>__init__() <span class="overload">[2/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.ContourToDistanceMapParams.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector2i.html">Vector2i</a></td>          <td class="paramname"><span class="paramname"><em>resolution</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector2f.html">Vector2f</a></td>          <td class="paramname"><span class="paramname"><em>oriPoint</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector2f.html">Vector2f</a></td>          <td class="paramname"><span class="paramname"><em>areaSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>withSign</em></span><span class="paramdefsep"> = </span><span class="paramdefval">False</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Ctor, calculating pixelSize by areaSize &amp; dmapSize
+</pre> 
+</div>
+</div>
+<a id="a0e032ad4ea22506a64a248d63adc6c51" name="a0e032ad4ea22506a64a248d63adc6c51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e032ad4ea22506a64a248d63adc6c51">&#9670;&#160;</a></span>__init__() <span class="overload">[3/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.ContourToDistanceMapParams.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector2i.html">Vector2i</a></td>          <td class="paramname"><span class="paramname"><em>resolution</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Box2f.html">Box2f</a></td>          <td class="paramname"><span class="paramname"><em>box</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>withSign</em></span><span class="paramdefsep"> = </span><span class="paramdefval">False</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Ctor, calculating pixelSize &amp; oriPoint by box parameters
+</pre> 
+</div>
+</div>
+<a id="aedf4bd1f376f0159aaf469e7498c51a7" name="aedf4bd1f376f0159aaf469e7498c51a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedf4bd1f376f0159aaf469e7498c51a7">&#9670;&#160;</a></span>__init__() <span class="overload">[4/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.ContourToDistanceMapParams.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector2i.html">Vector2i</a></td>          <td class="paramname"><span class="paramname"><em>resolution</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__std__vector__Vector2__float.html">std_vector_std_vector_Vector2_float</a></td>          <td class="paramname"><span class="paramname"><em>contours</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>offset</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>withSign</em></span><span class="paramdefsep"> = </span><span class="paramdefval">False</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Ctor, calculating pixelSize &amp; oriPoint by contours box + offset
+</pre> 
+</div>
+</div>
+<a id="a789998e41bb0519b5b7192fdde008916" name="a789998e41bb0519b5b7192fdde008916"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a789998e41bb0519b5b7192fdde008916">&#9670;&#160;</a></span>__init__() <span class="overload">[5/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.ContourToDistanceMapParams.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>pixelSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__std__vector__Vector2__float.html">std_vector_std_vector_Vector2_float</a></td>          <td class="paramname"><span class="paramname"><em>contours</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>offset</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>withSign</em></span><span class="paramdefsep"> = </span><span class="paramdefval">False</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Ctor, calculating resolution &amp; oriPoint by contours box + offset
+</pre> 
+</div>
+</div>
+<a id="aaf0c606a468888dd57de574ca0a8319a" name="aaf0c606a468888dd57de574ca0a8319a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf0c606a468888dd57de574ca0a8319a">&#9670;&#160;</a></span>__init__() <span class="overload">[6/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.ContourToDistanceMapParams.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1DistanceMapToWorld.html">DistanceMapToWorld</a></td>          <td class="paramname"><span class="paramname"><em>toWorld</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a896a0e50f5249603bafe44f394687dcd" name="a896a0e50f5249603bafe44f394687dcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a896a0e50f5249603bafe44f394687dcd">&#9670;&#160;</a></span>__init__() <span class="overload">[7/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.ContourToDistanceMapParams.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1ContourToDistanceMapParams.html">ContourToDistanceMapParams</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit copy constructor.
+</pre> 
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="adaa8894684f973ed60fc50e5a2ab359b" name="adaa8894684f973ed60fc50e5a2ab359b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adaa8894684f973ed60fc50e5a2ab359b">&#9670;&#160;</a></span>_convert_to_AffineXf3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> meshlib.mrmeshpy.ContourToDistanceMapParams._convert_to_AffineXf3f </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">converts in transformation
+</pre> 
+</div>
+</div>
+<a id="ad34e2aaf787ea14b47cce5c312a162b0" name="ad34e2aaf787ea14b47cce5c312a162b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad34e2aaf787ea14b47cce5c312a162b0">&#9670;&#160;</a></span>orgPoint() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector2f.html">Vector2f</a> meshlib.mrmeshpy.ContourToDistanceMapParams.orgPoint </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">coordinates of origin area corner
+</pre> 
+</div>
+</div>
+<a id="ae11211cb5fa51733e4c563f561fdf420" name="ae11211cb5fa51733e4c563f561fdf420"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae11211cb5fa51733e4c563f561fdf420">&#9670;&#160;</a></span>orgPoint() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.ContourToDistanceMapParams.orgPoint </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector2f.html">Vector2f</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac32fd495a86b56851c1b54a9d445ea3e" name="ac32fd495a86b56851c1b54a9d445ea3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac32fd495a86b56851c1b54a9d445ea3e">&#9670;&#160;</a></span>pixelSize() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector2f.html">Vector2f</a> meshlib.mrmeshpy.ContourToDistanceMapParams.pixelSize </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">pixel size
+</pre> 
+</div>
+</div>
+<a id="a1f7b6c0bfc7f2160d722559d24e75381" name="a1f7b6c0bfc7f2160d722559d24e75381"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f7b6c0bfc7f2160d722559d24e75381">&#9670;&#160;</a></span>pixelSize() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.ContourToDistanceMapParams.pixelSize </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector2f.html">Vector2f</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4a323e2c5f10cea950ff2fdb5d818686" name="a4a323e2c5f10cea950ff2fdb5d818686"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a323e2c5f10cea950ff2fdb5d818686">&#9670;&#160;</a></span>resolution() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector2i.html">Vector2i</a> meshlib.mrmeshpy.ContourToDistanceMapParams.resolution </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">distance map size
+</pre> 
+</div>
+</div>
+<a id="ae5bfc8ae04b45e69597df131a258ce96" name="ae5bfc8ae04b45e69597df131a258ce96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5bfc8ae04b45e69597df131a258ce96">&#9670;&#160;</a></span>resolution() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.ContourToDistanceMapParams.resolution </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector2i.html">Vector2i</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad882c385f719bb44deaaf3d928bbec20" name="ad882c385f719bb44deaaf3d928bbec20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad882c385f719bb44deaaf3d928bbec20">&#9670;&#160;</a></span>toWorld()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector2f.html">Vector2f</a> meshlib.mrmeshpy.ContourToDistanceMapParams.toWorld </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector2f.html">Vector2f</a></td>          <td class="paramname"><span class="paramname"><em>point</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">get world 2d coordinate (respects origin point and pixel size)
+point - coordinate on distance map
+</pre> 
+</div>
+</div>
+<a id="a3100fb3ecc7e21b09ccef048275556cd" name="a3100fb3ecc7e21b09ccef048275556cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3100fb3ecc7e21b09ccef048275556cd">&#9670;&#160;</a></span>withSign() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.ContourToDistanceMapParams.withSign </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">allows calculate negative values of distance (inside closed and correctly oriented (CW) contours)
+</pre> 
+</div>
+</div>
+<a id="a6e10da513cc5a0f8a42913a17f9ada61" name="a6e10da513cc5a0f8a42913a17f9ada61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e10da513cc5a0f8a42913a17f9ada61">&#9670;&#160;</a></span>withSign() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.ContourToDistanceMapParams.withSign </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a22573de3f9ae6720c30294309833ea64" name="a22573de3f9ae6720c30294309833ea64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22573de3f9ae6720c30294309833ea64">&#9670;&#160;</a></span>xf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> meshlib.mrmeshpy.ContourToDistanceMapParams.xf </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1ContourToDistanceMapParams.html">ContourToDistanceMapParams</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

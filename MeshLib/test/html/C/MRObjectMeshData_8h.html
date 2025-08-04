@@ -1,0 +1,1168 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRObjectMeshData.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRObjectMeshData_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRObjectMeshData.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="MRObjectMeshData_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:aba7bc6ac732c34fd4721c543fa3445ea" id="r_aba7bc6ac732c34fd4721c543fa3445ea"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a></td></tr>
+<tr class="separator:aba7bc6ac732c34fd4721c543fa3445ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88c7503c40b624a577fda0eab1faa5fa" id="r_a88c7503c40b624a577fda0eab1faa5fa"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a></td></tr>
+<tr class="separator:a88c7503c40b624a577fda0eab1faa5fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a248aef9b7513a21932ba1dfcfbd3410d" id="r_a248aef9b7513a21932ba1dfcfbd3410d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRChangeMeshAction_8h.html#a248aef9b7513a21932ba1dfcfbd3410d">MR_TexturePerFace</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a248aef9b7513a21932ba1dfcfbd3410d">MR_TexturePerFace</a></td></tr>
+<tr class="separator:a248aef9b7513a21932ba1dfcfbd3410d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7f59a6736b29701d7e619412b6e2890" id="r_ac7f59a6736b29701d7e619412b6e2890"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a></td></tr>
+<tr class="separator:ac7f59a6736b29701d7e619412b6e2890"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20dc7d636220f61a60c7ae92b8caa768" id="r_a20dc7d636220f61a60c7ae92b8caa768"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a></td></tr>
+<tr class="separator:a20dc7d636220f61a60c7ae92b8caa768"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae385080e7b7a68ff32f8d03ae2d70a7a" id="r_ae385080e7b7a68ff32f8d03ae2d70a7a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a></td></tr>
+<tr class="separator:ae385080e7b7a68ff32f8d03ae2d70a7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a078d52fb855baae04a6dcdd71e46fbed" id="r_a078d52fb855baae04a6dcdd71e46fbed"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a></td></tr>
+<tr class="separator:a078d52fb855baae04a6dcdd71e46fbed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ee8e1ef0afd5da11563b6ecbb94f63e" id="r_a6ee8e1ef0afd5da11563b6ecbb94f63e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a></td></tr>
+<tr class="separator:a6ee8e1ef0afd5da11563b6ecbb94f63e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:aacbe9511880950886600df4d1256e748" id="r_aacbe9511880950886600df4d1256e748"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacbe9511880950886600df4d1256e748">MR_ObjectMeshData_Get_mesh</a> (const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this)</td></tr>
+<tr class="separator:aacbe9511880950886600df4d1256e748"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a115923465861a5f01a8f7e538034e8ce" id="r_a115923465861a5f01a8f7e538034e8ce"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a115923465861a5f01a8f7e538034e8ce">MR_ObjectMeshData_Set_mesh</a> (<a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a> *value)</td></tr>
+<tr class="separator:a115923465861a5f01a8f7e538034e8ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af41d2117753e4643f2bb0f3f5b6a617e" id="r_af41d2117753e4643f2bb0f3f5b6a617e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af41d2117753e4643f2bb0f3f5b6a617e">MR_ObjectMeshData_GetMutable_mesh</a> (<a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this)</td></tr>
+<tr class="separator:af41d2117753e4643f2bb0f3f5b6a617e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1b71a2b6b750d238d91bdd0e9ee7ae8" id="r_ac1b71a2b6b750d238d91bdd0e9ee7ae8"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1b71a2b6b750d238d91bdd0e9ee7ae8">MR_ObjectMeshData_Get_selectedFaces</a> (const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this)</td></tr>
+<tr class="separator:ac1b71a2b6b750d238d91bdd0e9ee7ae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a254a2bbf125d02b5a42a902a4bb9a0e2" id="r_a254a2bbf125d02b5a42a902a4bb9a0e2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a254a2bbf125d02b5a42a902a4bb9a0e2">MR_ObjectMeshData_Set_selectedFaces</a> (<a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *value)</td></tr>
+<tr class="separator:a254a2bbf125d02b5a42a902a4bb9a0e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0965d0bb841b7634cad25ced15afae1c" id="r_a0965d0bb841b7634cad25ced15afae1c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0965d0bb841b7634cad25ced15afae1c">MR_ObjectMeshData_GetMutable_selectedFaces</a> (<a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this)</td></tr>
+<tr class="separator:a0965d0bb841b7634cad25ced15afae1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a4054c407bb49cfe60b7275a82e3b0e" id="r_a2a4054c407bb49cfe60b7275a82e3b0e"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a4054c407bb49cfe60b7275a82e3b0e">MR_ObjectMeshData_Get_selectedEdges</a> (const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this)</td></tr>
+<tr class="separator:a2a4054c407bb49cfe60b7275a82e3b0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a118f67e13908eff48cb5885821fcfbb2" id="r_a118f67e13908eff48cb5885821fcfbb2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a118f67e13908eff48cb5885821fcfbb2">MR_ObjectMeshData_Set_selectedEdges</a> (<a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *value)</td></tr>
+<tr class="separator:a118f67e13908eff48cb5885821fcfbb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add31d6df96d0bf3d8175ff78e0effc41" id="r_add31d6df96d0bf3d8175ff78e0effc41"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add31d6df96d0bf3d8175ff78e0effc41">MR_ObjectMeshData_GetMutable_selectedEdges</a> (<a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this)</td></tr>
+<tr class="separator:add31d6df96d0bf3d8175ff78e0effc41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22af9d6d5404b4ffe27fd1e35e550fd2" id="r_a22af9d6d5404b4ffe27fd1e35e550fd2"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22af9d6d5404b4ffe27fd1e35e550fd2">MR_ObjectMeshData_Get_creases</a> (const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this)</td></tr>
+<tr class="separator:a22af9d6d5404b4ffe27fd1e35e550fd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47dddbe3d1dd954f762ced6dcf54d99e" id="r_a47dddbe3d1dd954f762ced6dcf54d99e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47dddbe3d1dd954f762ced6dcf54d99e">MR_ObjectMeshData_Set_creases</a> (<a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *value)</td></tr>
+<tr class="separator:a47dddbe3d1dd954f762ced6dcf54d99e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a143c9760a5a755bd7706a57cb22da4ac" id="r_a143c9760a5a755bd7706a57cb22da4ac"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a143c9760a5a755bd7706a57cb22da4ac">MR_ObjectMeshData_GetMutable_creases</a> (<a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this)</td></tr>
+<tr class="separator:a143c9760a5a755bd7706a57cb22da4ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82de868fd848dd15bf79c56e6a6aad08" id="r_a82de868fd848dd15bf79c56e6a6aad08"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82de868fd848dd15bf79c56e6a6aad08">MR_ObjectMeshData_Get_vertColors</a> (const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this)</td></tr>
+<tr class="separator:a82de868fd848dd15bf79c56e6a6aad08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafac710217323d779e78d70b60cf2216" id="r_aafac710217323d779e78d70b60cf2216"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafac710217323d779e78d70b60cf2216">MR_ObjectMeshData_Set_vertColors</a> (<a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *value)</td></tr>
+<tr class="separator:aafac710217323d779e78d70b60cf2216"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc9af71d4b80e979d8b7ac36c933d2fa" id="r_abc9af71d4b80e979d8b7ac36c933d2fa"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc9af71d4b80e979d8b7ac36c933d2fa">MR_ObjectMeshData_GetMutable_vertColors</a> (<a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this)</td></tr>
+<tr class="separator:abc9af71d4b80e979d8b7ac36c933d2fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a377e7661d673e147d38e206ba39644a5" id="r_a377e7661d673e147d38e206ba39644a5"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a377e7661d673e147d38e206ba39644a5">MR_ObjectMeshData_Get_faceColors</a> (const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this)</td></tr>
+<tr class="separator:a377e7661d673e147d38e206ba39644a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade0b37f1e516bbd5829946d966e8a660" id="r_ade0b37f1e516bbd5829946d966e8a660"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade0b37f1e516bbd5829946d966e8a660">MR_ObjectMeshData_Set_faceColors</a> (<a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> *value)</td></tr>
+<tr class="separator:ade0b37f1e516bbd5829946d966e8a660"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d7d14c34bfcd8f78ca0c6d3826a5df7" id="r_a7d7d14c34bfcd8f78ca0c6d3826a5df7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d7d14c34bfcd8f78ca0c6d3826a5df7">MR_ObjectMeshData_GetMutable_faceColors</a> (<a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this)</td></tr>
+<tr class="separator:a7d7d14c34bfcd8f78ca0c6d3826a5df7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b3fc4000fc3ecb42e1f1e2db169ce71" id="r_a1b3fc4000fc3ecb42e1f1e2db169ce71"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b3fc4000fc3ecb42e1f1e2db169ce71">MR_ObjectMeshData_Get_uvCoordinates</a> (const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this)</td></tr>
+<tr class="separator:a1b3fc4000fc3ecb42e1f1e2db169ce71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49f763747499bc9b7f88ef752a859754" id="r_a49f763747499bc9b7f88ef752a859754"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49f763747499bc9b7f88ef752a859754">MR_ObjectMeshData_Set_uvCoordinates</a> (<a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *value)</td></tr>
+<tr class="separator:a49f763747499bc9b7f88ef752a859754"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a526a51481b1b94480c666c018e654107" id="r_a526a51481b1b94480c666c018e654107"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a526a51481b1b94480c666c018e654107">MR_ObjectMeshData_GetMutable_uvCoordinates</a> (<a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this)</td></tr>
+<tr class="separator:a526a51481b1b94480c666c018e654107"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec1606063792eec01ebef292be1b44cb" id="r_aec1606063792eec01ebef292be1b44cb"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRChangeMeshAction_8h.html#a248aef9b7513a21932ba1dfcfbd3410d">MR_TexturePerFace</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec1606063792eec01ebef292be1b44cb">MR_ObjectMeshData_Get_texturePerFace</a> (const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this)</td></tr>
+<tr class="separator:aec1606063792eec01ebef292be1b44cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38e7ab472224f66f51c86252c019741d" id="r_a38e7ab472224f66f51c86252c019741d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38e7ab472224f66f51c86252c019741d">MR_ObjectMeshData_Set_texturePerFace</a> (<a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRChangeMeshAction_8h.html#a248aef9b7513a21932ba1dfcfbd3410d">MR_TexturePerFace</a> *value)</td></tr>
+<tr class="separator:a38e7ab472224f66f51c86252c019741d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7758bb5f40af3dc1a44561b616e5b15" id="r_ac7758bb5f40af3dc1a44561b616e5b15"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRChangeMeshAction_8h.html#a248aef9b7513a21932ba1dfcfbd3410d">MR_TexturePerFace</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7758bb5f40af3dc1a44561b616e5b15">MR_ObjectMeshData_GetMutable_texturePerFace</a> (<a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this)</td></tr>
+<tr class="separator:ac7758bb5f40af3dc1a44561b616e5b15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93b944969d88a16f285f0b8d0e54fb50" id="r_a93b944969d88a16f285f0b8d0e54fb50"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93b944969d88a16f285f0b8d0e54fb50">MR_ObjectMeshData_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a93b944969d88a16f285f0b8d0e54fb50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ad7d554f79bb534a0acb55fd35cd38d" id="r_a5ad7d554f79bb534a0acb55fd35cd38d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ad7d554f79bb534a0acb55fd35cd38d">MR_ObjectMeshData_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a5ad7d554f79bb534a0acb55fd35cd38d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcf75877e2e33e4b70223d3d348a6cd5" id="r_adcf75877e2e33e4b70223d3d348a6cd5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcf75877e2e33e4b70223d3d348a6cd5">MR_ObjectMeshData_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> mesh_pass_by, <a class="el" href="MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a> *mesh, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> selectedFaces_pass_by, <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *selectedFaces, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> selectedEdges_pass_by, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *selectedEdges, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> creases_pass_by, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *creases, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> vertColors_pass_by, <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *vertColors, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> faceColors_pass_by, <a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> *faceColors, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> uvCoordinates_pass_by, <a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *uvCoordinates, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> texturePerFace_pass_by, <a class="el" href="MRChangeMeshAction_8h.html#a248aef9b7513a21932ba1dfcfbd3410d">MR_TexturePerFace</a> *texturePerFace)</td></tr>
+<tr class="separator:adcf75877e2e33e4b70223d3d348a6cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05b6c935bac635548cf59740d73065bf" id="r_a05b6c935bac635548cf59740d73065bf"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05b6c935bac635548cf59740d73065bf">MR_ObjectMeshData_OffsetPtr</a> (const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a05b6c935bac635548cf59740d73065bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a05b6c935bac635548cf59740d73065bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e74f647e9821045fd47d6e98c9fd97f" id="r_a2e74f647e9821045fd47d6e98c9fd97f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e74f647e9821045fd47d6e98c9fd97f">MR_ObjectMeshData_OffsetMutablePtr</a> (<a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a2e74f647e9821045fd47d6e98c9fd97f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a2e74f647e9821045fd47d6e98c9fd97f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6899765563d48e65519013f75f94b64" id="r_af6899765563d48e65519013f75f94b64"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6899765563d48e65519013f75f94b64">MR_ObjectMeshData_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_other)</td></tr>
+<tr class="separator:af6899765563d48e65519013f75f94b64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4523b0dda565e986784306c96bfb6b27" id="r_a4523b0dda565e986784306c96bfb6b27"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4523b0dda565e986784306c96bfb6b27">MR_ObjectMeshData_Destroy</a> (const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this)</td></tr>
+<tr class="memdesc:a4523b0dda565e986784306c96bfb6b27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_ObjectMeshData</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a4523b0dda565e986784306c96bfb6b27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa413cd52b23f9ff1237e806f6492fc54" id="r_aa413cd52b23f9ff1237e806f6492fc54"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa413cd52b23f9ff1237e806f6492fc54">MR_ObjectMeshData_DestroyArray</a> (const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this)</td></tr>
+<tr class="memdesc:aa413cd52b23f9ff1237e806f6492fc54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_ObjectMeshData</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:aa413cd52b23f9ff1237e806f6492fc54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05a5a4c9ffc455dd423d8b7d5439e9e7" id="r_a05a5a4c9ffc455dd423d8b7d5439e9e7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05a5a4c9ffc455dd423d8b7d5439e9e7">MR_ObjectMeshData_AssignFromAnother</a> (<a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_other)</td></tr>
+<tr class="separator:a05a5a4c9ffc455dd423d8b7d5439e9e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98b5cfed72c9bb32efde09cadca82749" id="r_a98b5cfed72c9bb32efde09cadca82749"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98b5cfed72c9bb32efde09cadca82749">MR_ObjectMeshData_heapBytes</a> (const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this)</td></tr>
+<tr class="separator:a98b5cfed72c9bb32efde09cadca82749"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="aba7bc6ac732c34fd4721c543fa3445ea" name="aba7bc6ac732c34fd4721c543fa3445ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba7bc6ac732c34fd4721c543fa3445ea">&#9670;&#160;</a></span>MR_FaceBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a88c7503c40b624a577fda0eab1faa5fa" name="a88c7503c40b624a577fda0eab1faa5fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88c7503c40b624a577fda0eab1faa5fa">&#9670;&#160;</a></span>MR_FaceColors</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> <a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6ee8e1ef0afd5da11563b6ecbb94f63e" name="a6ee8e1ef0afd5da11563b6ecbb94f63e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ee8e1ef0afd5da11563b6ecbb94f63e">&#9670;&#160;</a></span>MR_ObjectMeshData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>mesh and its per-element attributes for ObjectMeshHolder Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code>. </p>
+
+</div>
+</div>
+<a id="a078d52fb855baae04a6dcdd71e46fbed" name="a078d52fb855baae04a6dcdd71e46fbed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a078d52fb855baae04a6dcdd71e46fbed">&#9670;&#160;</a></span>MR_std_shared_ptr_MR_Mesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a> <a class="el" href="MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a248aef9b7513a21932ba1dfcfbd3410d" name="a248aef9b7513a21932ba1dfcfbd3410d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a248aef9b7513a21932ba1dfcfbd3410d">&#9670;&#160;</a></span>MR_TexturePerFace</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRChangeMeshAction_8h.html#a248aef9b7513a21932ba1dfcfbd3410d">MR_TexturePerFace</a> <a class="el" href="MRChangeMeshAction_8h.html#a248aef9b7513a21932ba1dfcfbd3410d">MR_TexturePerFace</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7f59a6736b29701d7e619412b6e2890" name="ac7f59a6736b29701d7e619412b6e2890"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7f59a6736b29701d7e619412b6e2890">&#9670;&#160;</a></span>MR_UndirectedEdgeBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a20dc7d636220f61a60c7ae92b8caa768" name="a20dc7d636220f61a60c7ae92b8caa768"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20dc7d636220f61a60c7ae92b8caa768">&#9670;&#160;</a></span>MR_VertColors</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae385080e7b7a68ff32f8d03ae2d70a7a" name="ae385080e7b7a68ff32f8d03ae2d70a7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae385080e7b7a68ff32f8d03ae2d70a7a">&#9670;&#160;</a></span>MR_VertCoords2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> <a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a05a5a4c9ffc455dd423d8b7d5439e9e7" name="a05a5a4c9ffc455dd423d8b7d5439e9e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05a5a4c9ffc455dd423d8b7d5439e9e7">&#9670;&#160;</a></span>MR_ObjectMeshData_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> * MR_ObjectMeshData_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="adcf75877e2e33e4b70223d3d348a6cd5" name="adcf75877e2e33e4b70223d3d348a6cd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcf75877e2e33e4b70223d3d348a6cd5">&#9670;&#160;</a></span>MR_ObjectMeshData_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> * MR_ObjectMeshData_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>mesh_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>selectedFaces_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>selectedFaces</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>selectedEdges_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>selectedEdges</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>creases_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>creases</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>vertColors_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *</td>          <td class="paramname"><span class="paramname"><em>vertColors</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>faceColors_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> *</td>          <td class="paramname"><span class="paramname"><em>faceColors</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>uvCoordinates_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *</td>          <td class="paramname"><span class="paramname"><em>uvCoordinates</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>texturePerFace_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshAction_8h.html#a248aef9b7513a21932ba1dfcfbd3410d">MR_TexturePerFace</a> *</td>          <td class="paramname"><span class="paramname"><em>texturePerFace</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4523b0dda565e986784306c96bfb6b27" title="Destroys a heap-allocated instance of MR_ObjectMeshData. Does nothing if the pointer is null.">MR_ObjectMeshData_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="af6899765563d48e65519013f75f94b64" name="af6899765563d48e65519013f75f94b64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6899765563d48e65519013f75f94b64">&#9670;&#160;</a></span>MR_ObjectMeshData_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> * MR_ObjectMeshData_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4523b0dda565e986784306c96bfb6b27" title="Destroys a heap-allocated instance of MR_ObjectMeshData. Does nothing if the pointer is null.">MR_ObjectMeshData_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a93b944969d88a16f285f0b8d0e54fb50" name="a93b944969d88a16f285f0b8d0e54fb50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93b944969d88a16f285f0b8d0e54fb50">&#9670;&#160;</a></span>MR_ObjectMeshData_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> * MR_ObjectMeshData_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4523b0dda565e986784306c96bfb6b27" title="Destroys a heap-allocated instance of MR_ObjectMeshData. Does nothing if the pointer is null.">MR_ObjectMeshData_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5ad7d554f79bb534a0acb55fd35cd38d" name="a5ad7d554f79bb534a0acb55fd35cd38d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ad7d554f79bb534a0acb55fd35cd38d">&#9670;&#160;</a></span>MR_ObjectMeshData_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> * MR_ObjectMeshData_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#aa413cd52b23f9ff1237e806f6492fc54" title="Destroys a heap-allocated array of MR_ObjectMeshData. Does nothing if the pointer is null.">MR_ObjectMeshData_DestroyArray()</a></code>. Use <code><a class="el" href="#a2e74f647e9821045fd47d6e98c9fd97f" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_ObjectMeshData_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a05b6c935bac635548cf59740d73065bf" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_ObjectMeshData_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a4523b0dda565e986784306c96bfb6b27" name="a4523b0dda565e986784306c96bfb6b27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4523b0dda565e986784306c96bfb6b27">&#9670;&#160;</a></span>MR_ObjectMeshData_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ObjectMeshData_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_ObjectMeshData</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aa413cd52b23f9ff1237e806f6492fc54" name="aa413cd52b23f9ff1237e806f6492fc54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa413cd52b23f9ff1237e806f6492fc54">&#9670;&#160;</a></span>MR_ObjectMeshData_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ObjectMeshData_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_ObjectMeshData</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a22af9d6d5404b4ffe27fd1e35e550fd2" name="a22af9d6d5404b4ffe27fd1e35e550fd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22af9d6d5404b4ffe27fd1e35e550fd2">&#9670;&#160;</a></span>MR_ObjectMeshData_Get_creases()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_ObjectMeshData_Get_creases </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> named <code>creases</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a377e7661d673e147d38e206ba39644a5" name="a377e7661d673e147d38e206ba39644a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a377e7661d673e147d38e206ba39644a5">&#9670;&#160;</a></span>MR_ObjectMeshData_Get_faceColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> * MR_ObjectMeshData_Get_faceColors </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> named <code>faceColors</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aacbe9511880950886600df4d1256e748" name="aacbe9511880950886600df4d1256e748"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacbe9511880950886600df4d1256e748">&#9670;&#160;</a></span>MR_ObjectMeshData_Get_mesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a> * MR_ObjectMeshData_Get_mesh </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> named <code>mesh</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a2a4054c407bb49cfe60b7275a82e3b0e" name="a2a4054c407bb49cfe60b7275a82e3b0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a4054c407bb49cfe60b7275a82e3b0e">&#9670;&#160;</a></span>MR_ObjectMeshData_Get_selectedEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_ObjectMeshData_Get_selectedEdges </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> named <code>selectedEdges</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ac1b71a2b6b750d238d91bdd0e9ee7ae8" name="ac1b71a2b6b750d238d91bdd0e9ee7ae8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1b71a2b6b750d238d91bdd0e9ee7ae8">&#9670;&#160;</a></span>MR_ObjectMeshData_Get_selectedFaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> * MR_ObjectMeshData_Get_selectedFaces </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> named <code>selectedFaces</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aec1606063792eec01ebef292be1b44cb" name="aec1606063792eec01ebef292be1b44cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec1606063792eec01ebef292be1b44cb">&#9670;&#160;</a></span>MR_ObjectMeshData_Get_texturePerFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRChangeMeshAction_8h.html#a248aef9b7513a21932ba1dfcfbd3410d">MR_TexturePerFace</a> * MR_ObjectMeshData_Get_texturePerFace </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> named <code>texturePerFace</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a1b3fc4000fc3ecb42e1f1e2db169ce71" name="a1b3fc4000fc3ecb42e1f1e2db169ce71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b3fc4000fc3ecb42e1f1e2db169ce71">&#9670;&#160;</a></span>MR_ObjectMeshData_Get_uvCoordinates()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> * MR_ObjectMeshData_Get_uvCoordinates </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>vertices coordinates in texture Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> named <code>uvCoordinates</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a82de868fd848dd15bf79c56e6a6aad08" name="a82de868fd848dd15bf79c56e6a6aad08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82de868fd848dd15bf79c56e6a6aad08">&#9670;&#160;</a></span>MR_ObjectMeshData_Get_vertColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> * MR_ObjectMeshData_Get_vertColors </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> named <code>vertColors</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a143c9760a5a755bd7706a57cb22da4ac" name="a143c9760a5a755bd7706a57cb22da4ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a143c9760a5a755bd7706a57cb22da4ac">&#9670;&#160;</a></span>MR_ObjectMeshData_GetMutable_creases()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_ObjectMeshData_GetMutable_creases </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> named <code>creases</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a7d7d14c34bfcd8f78ca0c6d3826a5df7" name="a7d7d14c34bfcd8f78ca0c6d3826a5df7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d7d14c34bfcd8f78ca0c6d3826a5df7">&#9670;&#160;</a></span>MR_ObjectMeshData_GetMutable_faceColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> * MR_ObjectMeshData_GetMutable_faceColors </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> named <code>faceColors</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. vertices coordinates in texture Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> named <code>uvCoordinates</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="af41d2117753e4643f2bb0f3f5b6a617e" name="af41d2117753e4643f2bb0f3f5b6a617e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af41d2117753e4643f2bb0f3f5b6a617e">&#9670;&#160;</a></span>MR_ObjectMeshData_GetMutable_mesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a> * MR_ObjectMeshData_GetMutable_mesh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> named <code>mesh</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="add31d6df96d0bf3d8175ff78e0effc41" name="add31d6df96d0bf3d8175ff78e0effc41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add31d6df96d0bf3d8175ff78e0effc41">&#9670;&#160;</a></span>MR_ObjectMeshData_GetMutable_selectedEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_ObjectMeshData_GetMutable_selectedEdges </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> named <code>selectedEdges</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a0965d0bb841b7634cad25ced15afae1c" name="a0965d0bb841b7634cad25ced15afae1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0965d0bb841b7634cad25ced15afae1c">&#9670;&#160;</a></span>MR_ObjectMeshData_GetMutable_selectedFaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> * MR_ObjectMeshData_GetMutable_selectedFaces </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> named <code>selectedFaces</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ac7758bb5f40af3dc1a44561b616e5b15" name="ac7758bb5f40af3dc1a44561b616e5b15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7758bb5f40af3dc1a44561b616e5b15">&#9670;&#160;</a></span>MR_ObjectMeshData_GetMutable_texturePerFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRChangeMeshAction_8h.html#a248aef9b7513a21932ba1dfcfbd3410d">MR_TexturePerFace</a> * MR_ObjectMeshData_GetMutable_texturePerFace </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> named <code>texturePerFace</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a526a51481b1b94480c666c018e654107" name="a526a51481b1b94480c666c018e654107"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a526a51481b1b94480c666c018e654107">&#9670;&#160;</a></span>MR_ObjectMeshData_GetMutable_uvCoordinates()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> * MR_ObjectMeshData_GetMutable_uvCoordinates </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abc9af71d4b80e979d8b7ac36c933d2fa" name="abc9af71d4b80e979d8b7ac36c933d2fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc9af71d4b80e979d8b7ac36c933d2fa">&#9670;&#160;</a></span>MR_ObjectMeshData_GetMutable_vertColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> * MR_ObjectMeshData_GetMutable_vertColors </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> named <code>vertColors</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a98b5cfed72c9bb32efde09cadca82749" name="a98b5cfed72c9bb32efde09cadca82749"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98b5cfed72c9bb32efde09cadca82749">&#9670;&#160;</a></span>MR_ObjectMeshData_heapBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_ObjectMeshData_heapBytes </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the amount of memory this object occupies on heap Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> named <code>heapBytes</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a2e74f647e9821045fd47d6e98c9fd97f" name="a2e74f647e9821045fd47d6e98c9fd97f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e74f647e9821045fd47d6e98c9fd97f">&#9670;&#160;</a></span>MR_ObjectMeshData_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> * MR_ObjectMeshData_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a05b6c935bac635548cf59740d73065bf" name="a05b6c935bac635548cf59740d73065bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05b6c935bac635548cf59740d73065bf">&#9670;&#160;</a></span>MR_ObjectMeshData_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> * MR_ObjectMeshData_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a47dddbe3d1dd954f762ced6dcf54d99e" name="a47dddbe3d1dd954f762ced6dcf54d99e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47dddbe3d1dd954f762ced6dcf54d99e">&#9670;&#160;</a></span>MR_ObjectMeshData_Set_creases()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ObjectMeshData_Set_creases </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> named <code>creases</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ade0b37f1e516bbd5829946d966e8a660" name="ade0b37f1e516bbd5829946d966e8a660"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade0b37f1e516bbd5829946d966e8a660">&#9670;&#160;</a></span>MR_ObjectMeshData_Set_faceColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ObjectMeshData_Set_faceColors </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> named <code>faceColors</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a115923465861a5f01a8f7e538034e8ce" name="a115923465861a5f01a8f7e538034e8ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a115923465861a5f01a8f7e538034e8ce">&#9670;&#160;</a></span>MR_ObjectMeshData_Set_mesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ObjectMeshData_Set_mesh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> named <code>mesh</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a118f67e13908eff48cb5885821fcfbb2" name="a118f67e13908eff48cb5885821fcfbb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a118f67e13908eff48cb5885821fcfbb2">&#9670;&#160;</a></span>MR_ObjectMeshData_Set_selectedEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ObjectMeshData_Set_selectedEdges </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> named <code>selectedEdges</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a254a2bbf125d02b5a42a902a4bb9a0e2" name="a254a2bbf125d02b5a42a902a4bb9a0e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a254a2bbf125d02b5a42a902a4bb9a0e2">&#9670;&#160;</a></span>MR_ObjectMeshData_Set_selectedFaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ObjectMeshData_Set_selectedFaces </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> named <code>selectedFaces</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a38e7ab472224f66f51c86252c019741d" name="a38e7ab472224f66f51c86252c019741d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38e7ab472224f66f51c86252c019741d">&#9670;&#160;</a></span>MR_ObjectMeshData_Set_texturePerFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ObjectMeshData_Set_texturePerFace </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshAction_8h.html#a248aef9b7513a21932ba1dfcfbd3410d">MR_TexturePerFace</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> named <code>texturePerFace</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a49f763747499bc9b7f88ef752a859754" name="a49f763747499bc9b7f88ef752a859754"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49f763747499bc9b7f88ef752a859754">&#9670;&#160;</a></span>MR_ObjectMeshData_Set_uvCoordinates()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ObjectMeshData_Set_uvCoordinates </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>vertices coordinates in texture Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> named <code>uvCoordinates</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aafac710217323d779e78d70b60cf2216" name="aafac710217323d779e78d70b60cf2216"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafac710217323d779e78d70b60cf2216">&#9670;&#160;</a></span>MR_ObjectMeshData_Set_vertColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ObjectMeshData_Set_vertColors </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> named <code>vertColors</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_8b489c7b5d1a72d35ec87e32cc37b940.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRObjectMeshData_8h.html">MRObjectMeshData.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

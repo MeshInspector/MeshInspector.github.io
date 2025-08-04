@@ -1,0 +1,1176 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRPlane3.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRPlane3_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRPlane3.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="MRPlane3_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:aa7548d3448b3b7da1ea96433fe902e9a" id="r_aa7548d3448b3b7da1ea96433fe902e9a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a></td></tr>
+<tr class="separator:aa7548d3448b3b7da1ea96433fe902e9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47c990e52774bc8bd9e02d71ca3a353b" id="r_a47c990e52774bc8bd9e02d71ca3a353b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a></td></tr>
+<tr class="separator:a47c990e52774bc8bd9e02d71ca3a353b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a122763771c89e236bde3fb50cd6002d2" id="r_a122763771c89e236bde3fb50cd6002d2"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a122763771c89e236bde3fb50cd6002d2">MR_Plane3f_Get_n</a> (const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *_this)</td></tr>
+<tr class="separator:a122763771c89e236bde3fb50cd6002d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca3dd1d71a77b47af1b41fb051154d9e" id="r_aca3dd1d71a77b47af1b41fb051154d9e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca3dd1d71a77b47af1b41fb051154d9e">MR_Plane3f_Set_n</a> (<a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *_this, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
+<tr class="separator:aca3dd1d71a77b47af1b41fb051154d9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbf6704d511f4e8672f5c27f122614d6" id="r_afbf6704d511f4e8672f5c27f122614d6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbf6704d511f4e8672f5c27f122614d6">MR_Plane3f_GetMutable_n</a> (<a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *_this)</td></tr>
+<tr class="separator:afbf6704d511f4e8672f5c27f122614d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a39adcb0d90b9858a1464c854567784" id="r_a9a39adcb0d90b9858a1464c854567784"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a39adcb0d90b9858a1464c854567784">MR_Plane3f_Get_d</a> (const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *_this)</td></tr>
+<tr class="separator:a9a39adcb0d90b9858a1464c854567784"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebf371e9cf3ac5d10432968c68318502" id="r_aebf371e9cf3ac5d10432968c68318502"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebf371e9cf3ac5d10432968c68318502">MR_Plane3f_Set_d</a> (<a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *_this, float value)</td></tr>
+<tr class="separator:aebf371e9cf3ac5d10432968c68318502"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac59a39bbec281021ab7e63927e499dae" id="r_ac59a39bbec281021ab7e63927e499dae"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac59a39bbec281021ab7e63927e499dae">MR_Plane3f_GetMutable_d</a> (<a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *_this)</td></tr>
+<tr class="separator:ac59a39bbec281021ab7e63927e499dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8efb53a603d6e77e6fe7ed7b564f828b" id="r_a8efb53a603d6e77e6fe7ed7b564f828b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8efb53a603d6e77e6fe7ed7b564f828b">MR_Plane3f_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a8efb53a603d6e77e6fe7ed7b564f828b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13963b7bfc0e9c2e81e6acdd4f02e934" id="r_a13963b7bfc0e9c2e81e6acdd4f02e934"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13963b7bfc0e9c2e81e6acdd4f02e934">MR_Plane3f_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a13963b7bfc0e9c2e81e6acdd4f02e934"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1ed23d018647653b6b5f9756cb3e879" id="r_ad1ed23d018647653b6b5f9756cb3e879"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1ed23d018647653b6b5f9756cb3e879">MR_Plane3f_OffsetPtr</a> (const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ad1ed23d018647653b6b5f9756cb3e879"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ad1ed23d018647653b6b5f9756cb3e879"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac168b327ddfa8bfe685e313cb633fe10" id="r_ac168b327ddfa8bfe685e313cb633fe10"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac168b327ddfa8bfe685e313cb633fe10">MR_Plane3f_OffsetMutablePtr</a> (<a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ac168b327ddfa8bfe685e313cb633fe10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ac168b327ddfa8bfe685e313cb633fe10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31af7e2904042e205333fdd23e9c91f4" id="r_a31af7e2904042e205333fdd23e9c91f4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31af7e2904042e205333fdd23e9c91f4">MR_Plane3f_ConstructFromAnother</a> (const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *_other)</td></tr>
+<tr class="separator:a31af7e2904042e205333fdd23e9c91f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad5763d77bd350ba7555d9c63f15845c" id="r_aad5763d77bd350ba7555d9c63f15845c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad5763d77bd350ba7555d9c63f15845c">MR_Plane3f_Construct</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *n, float d)</td></tr>
+<tr class="separator:aad5763d77bd350ba7555d9c63f15845c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6d4bcca5ba5787986cd6d976807eb2e" id="r_ab6d4bcca5ba5787986cd6d976807eb2e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6d4bcca5ba5787986cd6d976807eb2e">MR_Plane3f_Construct_double</a> (const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *p)</td></tr>
+<tr class="separator:ab6d4bcca5ba5787986cd6d976807eb2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af735f78e6c600417b336ea83e3494bd5" id="r_af735f78e6c600417b336ea83e3494bd5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af735f78e6c600417b336ea83e3494bd5">MR_Plane3f_Construct_float</a> (const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *p)</td></tr>
+<tr class="separator:af735f78e6c600417b336ea83e3494bd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1701182101bdd22fc8fd948e68361a2" id="r_aa1701182101bdd22fc8fd948e68361a2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1701182101bdd22fc8fd948e68361a2">MR_Plane3f_Destroy</a> (const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *_this)</td></tr>
+<tr class="memdesc:aa1701182101bdd22fc8fd948e68361a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_Plane3f</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:aa1701182101bdd22fc8fd948e68361a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1491fd497fd582570952c59b98741078" id="r_a1491fd497fd582570952c59b98741078"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1491fd497fd582570952c59b98741078">MR_Plane3f_DestroyArray</a> (const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *_this)</td></tr>
+<tr class="memdesc:a1491fd497fd582570952c59b98741078"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_Plane3f</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a1491fd497fd582570952c59b98741078"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accb58b54961ab128f9a11249dfd7fe66" id="r_accb58b54961ab128f9a11249dfd7fe66"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accb58b54961ab128f9a11249dfd7fe66">MR_Plane3f_AssignFromAnother</a> (<a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *_this, const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *_other)</td></tr>
+<tr class="separator:accb58b54961ab128f9a11249dfd7fe66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6e5feb62358a92b93d0f057523c61ae" id="r_ad6e5feb62358a92b93d0f057523c61ae"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6e5feb62358a92b93d0f057523c61ae">MR_Plane3f_fromDirAndPt</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *n, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *p)</td></tr>
+<tr class="separator:ad6e5feb62358a92b93d0f057523c61ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2a71ecc2ff6f9fcd0cacb70ea6f13a4" id="r_ac2a71ecc2ff6f9fcd0cacb70ea6f13a4"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2a71ecc2ff6f9fcd0cacb70ea6f13a4">MR_Plane3f_distance</a> (const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *_this, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *x)</td></tr>
+<tr class="separator:ac2a71ecc2ff6f9fcd0cacb70ea6f13a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af20a73df7c02ef3c38aebd6d345b4c39" id="r_af20a73df7c02ef3c38aebd6d345b4c39"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af20a73df7c02ef3c38aebd6d345b4c39">MR_neg_MR_Plane3f</a> (const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *_this)</td></tr>
+<tr class="separator:af20a73df7c02ef3c38aebd6d345b4c39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a118c8760034ea30bebb058b1d1e94ee9" id="r_a118c8760034ea30bebb058b1d1e94ee9"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a118c8760034ea30bebb058b1d1e94ee9">MR_pos_MR_Plane3f</a> (const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *_this)</td></tr>
+<tr class="separator:a118c8760034ea30bebb058b1d1e94ee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a262f998fbab2de5ef151a3cd07584629" id="r_a262f998fbab2de5ef151a3cd07584629"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a262f998fbab2de5ef151a3cd07584629">MR_Plane3f_normalized</a> (const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *_this)</td></tr>
+<tr class="separator:a262f998fbab2de5ef151a3cd07584629"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12963c09e6453c44c77f13b7aff8c4aa" id="r_a12963c09e6453c44c77f13b7aff8c4aa"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12963c09e6453c44c77f13b7aff8c4aa">MR_Plane3f_project</a> (const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *_this, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *p)</td></tr>
+<tr class="separator:a12963c09e6453c44c77f13b7aff8c4aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54d5d8c2f0f71bfa69c9152b4a26474f" id="r_a54d5d8c2f0f71bfa69c9152b4a26474f"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54d5d8c2f0f71bfa69c9152b4a26474f">MR_Plane3d_Get_n</a> (const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *_this)</td></tr>
+<tr class="separator:a54d5d8c2f0f71bfa69c9152b4a26474f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f42f6177176cec8d669f97c9ff4d3c6" id="r_a0f42f6177176cec8d669f97c9ff4d3c6"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f42f6177176cec8d669f97c9ff4d3c6">MR_Plane3d_Set_n</a> (<a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *_this, <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> value)</td></tr>
+<tr class="separator:a0f42f6177176cec8d669f97c9ff4d3c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dcb48805f79bb679e9887ca2dec211e" id="r_a7dcb48805f79bb679e9887ca2dec211e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7dcb48805f79bb679e9887ca2dec211e">MR_Plane3d_GetMutable_n</a> (<a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *_this)</td></tr>
+<tr class="separator:a7dcb48805f79bb679e9887ca2dec211e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53eb5f7f3b73e616ac015f22209af39c" id="r_a53eb5f7f3b73e616ac015f22209af39c"><td class="memItemLeft" align="right" valign="top">MRC_API const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53eb5f7f3b73e616ac015f22209af39c">MR_Plane3d_Get_d</a> (const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *_this)</td></tr>
+<tr class="separator:a53eb5f7f3b73e616ac015f22209af39c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37ef19af566f0d096e1c55872a135d7f" id="r_a37ef19af566f0d096e1c55872a135d7f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37ef19af566f0d096e1c55872a135d7f">MR_Plane3d_Set_d</a> (<a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *_this, double value)</td></tr>
+<tr class="separator:a37ef19af566f0d096e1c55872a135d7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaf2b095ca1916d6c03d65673c430457" id="r_aaaf2b095ca1916d6c03d65673c430457"><td class="memItemLeft" align="right" valign="top">MRC_API double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaaf2b095ca1916d6c03d65673c430457">MR_Plane3d_GetMutable_d</a> (<a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *_this)</td></tr>
+<tr class="separator:aaaf2b095ca1916d6c03d65673c430457"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20142fd373bcc033f5aa20b2a323071c" id="r_a20142fd373bcc033f5aa20b2a323071c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20142fd373bcc033f5aa20b2a323071c">MR_Plane3d_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a20142fd373bcc033f5aa20b2a323071c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a990a2e6e25a90ae359ddcac961c0c52b" id="r_a990a2e6e25a90ae359ddcac961c0c52b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a990a2e6e25a90ae359ddcac961c0c52b">MR_Plane3d_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a990a2e6e25a90ae359ddcac961c0c52b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5d850d69e7f6de94147a3382c59d1d8" id="r_aa5d850d69e7f6de94147a3382c59d1d8"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5d850d69e7f6de94147a3382c59d1d8">MR_Plane3d_OffsetPtr</a> (const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:aa5d850d69e7f6de94147a3382c59d1d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:aa5d850d69e7f6de94147a3382c59d1d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae16d313867cff59cd757f6c2de56966f" id="r_ae16d313867cff59cd757f6c2de56966f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae16d313867cff59cd757f6c2de56966f">MR_Plane3d_OffsetMutablePtr</a> (<a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ae16d313867cff59cd757f6c2de56966f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ae16d313867cff59cd757f6c2de56966f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11fb948e08da0f7422209b1ca248efe8" id="r_a11fb948e08da0f7422209b1ca248efe8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11fb948e08da0f7422209b1ca248efe8">MR_Plane3d_ConstructFromAnother</a> (const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *_other)</td></tr>
+<tr class="separator:a11fb948e08da0f7422209b1ca248efe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab69f40b787a42b6779979cde29fa87c6" id="r_ab69f40b787a42b6779979cde29fa87c6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab69f40b787a42b6779979cde29fa87c6">MR_Plane3d_Construct</a> (const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *n, double d)</td></tr>
+<tr class="separator:ab69f40b787a42b6779979cde29fa87c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d71761b4ac5ea2de74b6145b6f73b38" id="r_a8d71761b4ac5ea2de74b6145b6f73b38"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d71761b4ac5ea2de74b6145b6f73b38">MR_Plane3d_Construct_float</a> (const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *p)</td></tr>
+<tr class="separator:a8d71761b4ac5ea2de74b6145b6f73b38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6316d222da55e4b13b46a10efeea14a3" id="r_a6316d222da55e4b13b46a10efeea14a3"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6316d222da55e4b13b46a10efeea14a3">MR_Plane3d_Destroy</a> (const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *_this)</td></tr>
+<tr class="memdesc:a6316d222da55e4b13b46a10efeea14a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_Plane3d</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a6316d222da55e4b13b46a10efeea14a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a786cd5cd072e3c7b8b5d36a77affa68b" id="r_a786cd5cd072e3c7b8b5d36a77affa68b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a786cd5cd072e3c7b8b5d36a77affa68b">MR_Plane3d_DestroyArray</a> (const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *_this)</td></tr>
+<tr class="memdesc:a786cd5cd072e3c7b8b5d36a77affa68b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_Plane3d</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a786cd5cd072e3c7b8b5d36a77affa68b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a817a8e3ab69835026b97a7241170903f" id="r_a817a8e3ab69835026b97a7241170903f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a817a8e3ab69835026b97a7241170903f">MR_Plane3d_AssignFromAnother</a> (<a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *_this, const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *_other)</td></tr>
+<tr class="separator:a817a8e3ab69835026b97a7241170903f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ecb7b6232d59fee69258d4d80107ba7" id="r_a3ecb7b6232d59fee69258d4d80107ba7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ecb7b6232d59fee69258d4d80107ba7">MR_Plane3d_fromDirAndPt</a> (const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *n, const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *p)</td></tr>
+<tr class="separator:a3ecb7b6232d59fee69258d4d80107ba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afca9cc2d06ab857d0bae08606f9ba481" id="r_afca9cc2d06ab857d0bae08606f9ba481"><td class="memItemLeft" align="right" valign="top">MRC_API double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afca9cc2d06ab857d0bae08606f9ba481">MR_Plane3d_distance</a> (const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *_this, const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *x)</td></tr>
+<tr class="separator:afca9cc2d06ab857d0bae08606f9ba481"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23a39c97fb89286ee4e334b32a2b166f" id="r_a23a39c97fb89286ee4e334b32a2b166f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23a39c97fb89286ee4e334b32a2b166f">MR_neg_MR_Plane3d</a> (const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *_this)</td></tr>
+<tr class="separator:a23a39c97fb89286ee4e334b32a2b166f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03772356aa3a28c173be49ed2509fb5a" id="r_a03772356aa3a28c173be49ed2509fb5a"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03772356aa3a28c173be49ed2509fb5a">MR_pos_MR_Plane3d</a> (const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *_this)</td></tr>
+<tr class="separator:a03772356aa3a28c173be49ed2509fb5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3cd55121123d687e578d46a2bae1b59" id="r_aa3cd55121123d687e578d46a2bae1b59"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3cd55121123d687e578d46a2bae1b59">MR_Plane3d_normalized</a> (const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *_this)</td></tr>
+<tr class="separator:aa3cd55121123d687e578d46a2bae1b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1282c6e6ee613ca4fa7532287c7f4415" id="r_a1282c6e6ee613ca4fa7532287c7f4415"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1282c6e6ee613ca4fa7532287c7f4415">MR_Plane3d_project</a> (const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *_this, const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *p)</td></tr>
+<tr class="separator:a1282c6e6ee613ca4fa7532287c7f4415"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a23a39c97fb89286ee4e334b32a2b166f" name="a23a39c97fb89286ee4e334b32a2b166f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23a39c97fb89286ee4e334b32a2b166f">&#9670;&#160;</a></span>MR_neg_MR_Plane3d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> * MR_neg_MR_Plane3d </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns same plane represented with flipped direction of n-vector Generated from a method of class <code>MR::Plane3d</code> named <code>operator-</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6316d222da55e4b13b46a10efeea14a3" title="Destroys a heap-allocated instance of MR_Plane3d. Does nothing if the pointer is null.">MR_Plane3d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="af20a73df7c02ef3c38aebd6d345b4c39" name="af20a73df7c02ef3c38aebd6d345b4c39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af20a73df7c02ef3c38aebd6d345b4c39">&#9670;&#160;</a></span>MR_neg_MR_Plane3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> * MR_neg_MR_Plane3f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns same plane represented with flipped direction of n-vector Generated from a method of class <code>MR::Plane3f</code> named <code>operator-</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aa1701182101bdd22fc8fd948e68361a2" title="Destroys a heap-allocated instance of MR_Plane3f. Does nothing if the pointer is null.">MR_Plane3f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a817a8e3ab69835026b97a7241170903f" name="a817a8e3ab69835026b97a7241170903f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a817a8e3ab69835026b97a7241170903f">&#9670;&#160;</a></span>MR_Plane3d_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> * MR_Plane3d_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code>MR::Plane3d</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ab69f40b787a42b6779979cde29fa87c6" name="ab69f40b787a42b6779979cde29fa87c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab69f40b787a42b6779979cde29fa87c6">&#9670;&#160;</a></span>MR_Plane3d_Construct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> * MR_Plane3d_Construct </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>d</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code>MR::Plane3d</code>. Parameter <code>n</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6316d222da55e4b13b46a10efeea14a3" title="Destroys a heap-allocated instance of MR_Plane3d. Does nothing if the pointer is null.">MR_Plane3d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a8d71761b4ac5ea2de74b6145b6f73b38" name="a8d71761b4ac5ea2de74b6145b6f73b38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d71761b4ac5ea2de74b6145b6f73b38">&#9670;&#160;</a></span>MR_Plane3d_Construct_float()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> * MR_Plane3d_Construct_float </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *</td>          <td class="paramname"><span class="paramname"><em>p</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code>MR::Plane3d</code>. Parameter <code>p</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6316d222da55e4b13b46a10efeea14a3" title="Destroys a heap-allocated instance of MR_Plane3d. Does nothing if the pointer is null.">MR_Plane3d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a11fb948e08da0f7422209b1ca248efe8" name="a11fb948e08da0f7422209b1ca248efe8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11fb948e08da0f7422209b1ca248efe8">&#9670;&#160;</a></span>MR_Plane3d_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> * MR_Plane3d_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code>MR::Plane3d</code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6316d222da55e4b13b46a10efeea14a3" title="Destroys a heap-allocated instance of MR_Plane3d. Does nothing if the pointer is null.">MR_Plane3d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a20142fd373bcc033f5aa20b2a323071c" name="a20142fd373bcc033f5aa20b2a323071c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20142fd373bcc033f5aa20b2a323071c">&#9670;&#160;</a></span>MR_Plane3d_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> * MR_Plane3d_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6316d222da55e4b13b46a10efeea14a3" title="Destroys a heap-allocated instance of MR_Plane3d. Does nothing if the pointer is null.">MR_Plane3d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a990a2e6e25a90ae359ddcac961c0c52b" name="a990a2e6e25a90ae359ddcac961c0c52b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a990a2e6e25a90ae359ddcac961c0c52b">&#9670;&#160;</a></span>MR_Plane3d_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> * MR_Plane3d_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a786cd5cd072e3c7b8b5d36a77affa68b" title="Destroys a heap-allocated array of MR_Plane3d. Does nothing if the pointer is null.">MR_Plane3d_DestroyArray()</a></code>. Use <code><a class="el" href="#ae16d313867cff59cd757f6c2de56966f" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_Plane3d_OffsetMutablePtr()</a></code> and <code><a class="el" href="#aa5d850d69e7f6de94147a3382c59d1d8" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_Plane3d_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a6316d222da55e4b13b46a10efeea14a3" name="a6316d222da55e4b13b46a10efeea14a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6316d222da55e4b13b46a10efeea14a3">&#9670;&#160;</a></span>MR_Plane3d_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Plane3d_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_Plane3d</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a786cd5cd072e3c7b8b5d36a77affa68b" name="a786cd5cd072e3c7b8b5d36a77affa68b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a786cd5cd072e3c7b8b5d36a77affa68b">&#9670;&#160;</a></span>MR_Plane3d_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Plane3d_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_Plane3d</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="afca9cc2d06ab857d0bae08606f9ba481" name="afca9cc2d06ab857d0bae08606f9ba481"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afca9cc2d06ab857d0bae08606f9ba481">&#9670;&#160;</a></span>MR_Plane3d_distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API double MR_Plane3d_distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>x</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns distance from given point to this plane (if n is a unit vector) Generated from a method of class <code>MR::Plane3d</code> named <code>distance</code>. Parameter <code>_this</code> can not be null. Parameter <code>x</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3ecb7b6232d59fee69258d4d80107ba7" name="a3ecb7b6232d59fee69258d4d80107ba7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ecb7b6232d59fee69258d4d80107ba7">&#9670;&#160;</a></span>MR_Plane3d_fromDirAndPt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> * MR_Plane3d_fromDirAndPt </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>p</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code>MR::Plane3d</code> named <code>fromDirAndPt</code>. Parameter <code>n</code> can not be null. Parameter <code>p</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6316d222da55e4b13b46a10efeea14a3" title="Destroys a heap-allocated instance of MR_Plane3d. Does nothing if the pointer is null.">MR_Plane3d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a53eb5f7f3b73e616ac015f22209af39c" name="a53eb5f7f3b73e616ac015f22209af39c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53eb5f7f3b73e616ac015f22209af39c">&#9670;&#160;</a></span>MR_Plane3d_Get_d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const double * MR_Plane3d_Get_d </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code>MR::Plane3d</code> named <code>d</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a54d5d8c2f0f71bfa69c9152b4a26474f" name="a54d5d8c2f0f71bfa69c9152b4a26474f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54d5d8c2f0f71bfa69c9152b4a26474f">&#9670;&#160;</a></span>MR_Plane3d_Get_n()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> * MR_Plane3d_Get_n </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code>MR::Plane3d</code> named <code>n</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aaaf2b095ca1916d6c03d65673c430457" name="aaaf2b095ca1916d6c03d65673c430457"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaf2b095ca1916d6c03d65673c430457">&#9670;&#160;</a></span>MR_Plane3d_GetMutable_d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API double * MR_Plane3d_GetMutable_d </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code>MR::Plane3d</code> named <code>d</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a7dcb48805f79bb679e9887ca2dec211e" name="a7dcb48805f79bb679e9887ca2dec211e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dcb48805f79bb679e9887ca2dec211e">&#9670;&#160;</a></span>MR_Plane3d_GetMutable_n()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> * MR_Plane3d_GetMutable_n </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code>MR::Plane3d</code> named <code>n</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aa3cd55121123d687e578d46a2bae1b59" name="aa3cd55121123d687e578d46a2bae1b59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3cd55121123d687e578d46a2bae1b59">&#9670;&#160;</a></span>MR_Plane3d_normalized()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> * MR_Plane3d_normalized </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns same plane represented with unit n-vector Generated from a method of class <code>MR::Plane3d</code> named <code>normalized</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6316d222da55e4b13b46a10efeea14a3" title="Destroys a heap-allocated instance of MR_Plane3d. Does nothing if the pointer is null.">MR_Plane3d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae16d313867cff59cd757f6c2de56966f" name="ae16d313867cff59cd757f6c2de56966f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae16d313867cff59cd757f6c2de56966f">&#9670;&#160;</a></span>MR_Plane3d_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> * MR_Plane3d_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="aa5d850d69e7f6de94147a3382c59d1d8" name="aa5d850d69e7f6de94147a3382c59d1d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5d850d69e7f6de94147a3382c59d1d8">&#9670;&#160;</a></span>MR_Plane3d_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> * MR_Plane3d_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a1282c6e6ee613ca4fa7532287c7f4415" name="a1282c6e6ee613ca4fa7532287c7f4415"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1282c6e6ee613ca4fa7532287c7f4415">&#9670;&#160;</a></span>MR_Plane3d_project()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> MR_Plane3d_project </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>p</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds the closest point on plane Generated from a method of class <code>MR::Plane3d</code> named <code>project</code>. Parameter <code>_this</code> can not be null. Parameter <code>p</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a37ef19af566f0d096e1c55872a135d7f" name="a37ef19af566f0d096e1c55872a135d7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37ef19af566f0d096e1c55872a135d7f">&#9670;&#160;</a></span>MR_Plane3d_Set_d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Plane3d_Set_d </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code>MR::Plane3d</code> named <code>d</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a0f42f6177176cec8d669f97c9ff4d3c6" name="a0f42f6177176cec8d669f97c9ff4d3c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f42f6177176cec8d669f97c9ff4d3c6">&#9670;&#160;</a></span>MR_Plane3d_Set_n()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Plane3d_Set_n </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3d.html">MR_Vector3d</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code>MR::Plane3d</code> named <code>n</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="accb58b54961ab128f9a11249dfd7fe66" name="accb58b54961ab128f9a11249dfd7fe66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accb58b54961ab128f9a11249dfd7fe66">&#9670;&#160;</a></span>MR_Plane3f_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> * MR_Plane3f_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code>MR::Plane3f</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aad5763d77bd350ba7555d9c63f15845c" name="aad5763d77bd350ba7555d9c63f15845c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad5763d77bd350ba7555d9c63f15845c">&#9670;&#160;</a></span>MR_Plane3f_Construct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> * MR_Plane3f_Construct </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>d</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code>MR::Plane3f</code>. Parameter <code>n</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aa1701182101bdd22fc8fd948e68361a2" title="Destroys a heap-allocated instance of MR_Plane3f. Does nothing if the pointer is null.">MR_Plane3f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab6d4bcca5ba5787986cd6d976807eb2e" name="ab6d4bcca5ba5787986cd6d976807eb2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6d4bcca5ba5787986cd6d976807eb2e">&#9670;&#160;</a></span>MR_Plane3f_Construct_double()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> * MR_Plane3f_Construct_double </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *</td>          <td class="paramname"><span class="paramname"><em>p</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code>MR::Plane3f</code>. Parameter <code>p</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aa1701182101bdd22fc8fd948e68361a2" title="Destroys a heap-allocated instance of MR_Plane3f. Does nothing if the pointer is null.">MR_Plane3f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="af735f78e6c600417b336ea83e3494bd5" name="af735f78e6c600417b336ea83e3494bd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af735f78e6c600417b336ea83e3494bd5">&#9670;&#160;</a></span>MR_Plane3f_Construct_float()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> * MR_Plane3f_Construct_float </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *</td>          <td class="paramname"><span class="paramname"><em>p</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code>MR::Plane3f</code>. Parameter <code>p</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aa1701182101bdd22fc8fd948e68361a2" title="Destroys a heap-allocated instance of MR_Plane3f. Does nothing if the pointer is null.">MR_Plane3f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a31af7e2904042e205333fdd23e9c91f4" name="a31af7e2904042e205333fdd23e9c91f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31af7e2904042e205333fdd23e9c91f4">&#9670;&#160;</a></span>MR_Plane3f_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> * MR_Plane3f_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code>MR::Plane3f</code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aa1701182101bdd22fc8fd948e68361a2" title="Destroys a heap-allocated instance of MR_Plane3f. Does nothing if the pointer is null.">MR_Plane3f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a8efb53a603d6e77e6fe7ed7b564f828b" name="a8efb53a603d6e77e6fe7ed7b564f828b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8efb53a603d6e77e6fe7ed7b564f828b">&#9670;&#160;</a></span>MR_Plane3f_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> * MR_Plane3f_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aa1701182101bdd22fc8fd948e68361a2" title="Destroys a heap-allocated instance of MR_Plane3f. Does nothing if the pointer is null.">MR_Plane3f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a13963b7bfc0e9c2e81e6acdd4f02e934" name="a13963b7bfc0e9c2e81e6acdd4f02e934"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13963b7bfc0e9c2e81e6acdd4f02e934">&#9670;&#160;</a></span>MR_Plane3f_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> * MR_Plane3f_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a1491fd497fd582570952c59b98741078" title="Destroys a heap-allocated array of MR_Plane3f. Does nothing if the pointer is null.">MR_Plane3f_DestroyArray()</a></code>. Use <code><a class="el" href="#ac168b327ddfa8bfe685e313cb633fe10" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_Plane3f_OffsetMutablePtr()</a></code> and <code><a class="el" href="#ad1ed23d018647653b6b5f9756cb3e879" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_Plane3f_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="aa1701182101bdd22fc8fd948e68361a2" name="aa1701182101bdd22fc8fd948e68361a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1701182101bdd22fc8fd948e68361a2">&#9670;&#160;</a></span>MR_Plane3f_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Plane3f_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_Plane3f</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a1491fd497fd582570952c59b98741078" name="a1491fd497fd582570952c59b98741078"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1491fd497fd582570952c59b98741078">&#9670;&#160;</a></span>MR_Plane3f_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Plane3f_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_Plane3f</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ac2a71ecc2ff6f9fcd0cacb70ea6f13a4" name="ac2a71ecc2ff6f9fcd0cacb70ea6f13a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2a71ecc2ff6f9fcd0cacb70ea6f13a4">&#9670;&#160;</a></span>MR_Plane3f_distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float MR_Plane3f_distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>x</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns distance from given point to this plane (if n is a unit vector) Generated from a method of class <code>MR::Plane3f</code> named <code>distance</code>. Parameter <code>_this</code> can not be null. Parameter <code>x</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad6e5feb62358a92b93d0f057523c61ae" name="ad6e5feb62358a92b93d0f057523c61ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6e5feb62358a92b93d0f057523c61ae">&#9670;&#160;</a></span>MR_Plane3f_fromDirAndPt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> * MR_Plane3f_fromDirAndPt </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>p</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code>MR::Plane3f</code> named <code>fromDirAndPt</code>. Parameter <code>n</code> can not be null. Parameter <code>p</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aa1701182101bdd22fc8fd948e68361a2" title="Destroys a heap-allocated instance of MR_Plane3f. Does nothing if the pointer is null.">MR_Plane3f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a9a39adcb0d90b9858a1464c854567784" name="a9a39adcb0d90b9858a1464c854567784"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a39adcb0d90b9858a1464c854567784">&#9670;&#160;</a></span>MR_Plane3f_Get_d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const float * MR_Plane3f_Get_d </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code>MR::Plane3f</code> named <code>d</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a122763771c89e236bde3fb50cd6002d2" name="a122763771c89e236bde3fb50cd6002d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a122763771c89e236bde3fb50cd6002d2">&#9670;&#160;</a></span>MR_Plane3f_Get_n()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_Plane3f_Get_n </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code>MR::Plane3f</code> named <code>n</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ac59a39bbec281021ab7e63927e499dae" name="ac59a39bbec281021ab7e63927e499dae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac59a39bbec281021ab7e63927e499dae">&#9670;&#160;</a></span>MR_Plane3f_GetMutable_d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float * MR_Plane3f_GetMutable_d </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code>MR::Plane3f</code> named <code>d</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="afbf6704d511f4e8672f5c27f122614d6" name="afbf6704d511f4e8672f5c27f122614d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbf6704d511f4e8672f5c27f122614d6">&#9670;&#160;</a></span>MR_Plane3f_GetMutable_n()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_Plane3f_GetMutable_n </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code>MR::Plane3f</code> named <code>n</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a262f998fbab2de5ef151a3cd07584629" name="a262f998fbab2de5ef151a3cd07584629"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a262f998fbab2de5ef151a3cd07584629">&#9670;&#160;</a></span>MR_Plane3f_normalized()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> * MR_Plane3f_normalized </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns same plane represented with unit n-vector Generated from a method of class <code>MR::Plane3f</code> named <code>normalized</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aa1701182101bdd22fc8fd948e68361a2" title="Destroys a heap-allocated instance of MR_Plane3f. Does nothing if the pointer is null.">MR_Plane3f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ac168b327ddfa8bfe685e313cb633fe10" name="ac168b327ddfa8bfe685e313cb633fe10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac168b327ddfa8bfe685e313cb633fe10">&#9670;&#160;</a></span>MR_Plane3f_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> * MR_Plane3f_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ad1ed23d018647653b6b5f9756cb3e879" name="ad1ed23d018647653b6b5f9756cb3e879"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1ed23d018647653b6b5f9756cb3e879">&#9670;&#160;</a></span>MR_Plane3f_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> * MR_Plane3f_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a12963c09e6453c44c77f13b7aff8c4aa" name="a12963c09e6453c44c77f13b7aff8c4aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12963c09e6453c44c77f13b7aff8c4aa">&#9670;&#160;</a></span>MR_Plane3f_project()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_Plane3f_project </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>p</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds the closest point on plane Generated from a method of class <code>MR::Plane3f</code> named <code>project</code>. Parameter <code>_this</code> can not be null. Parameter <code>p</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aebf371e9cf3ac5d10432968c68318502" name="aebf371e9cf3ac5d10432968c68318502"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebf371e9cf3ac5d10432968c68318502">&#9670;&#160;</a></span>MR_Plane3f_Set_d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Plane3f_Set_d </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code>MR::Plane3f</code> named <code>d</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aca3dd1d71a77b47af1b41fb051154d9e" name="aca3dd1d71a77b47af1b41fb051154d9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca3dd1d71a77b47af1b41fb051154d9e">&#9670;&#160;</a></span>MR_Plane3f_Set_n()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Plane3f_Set_n </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3f.html">MR_Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code>MR::Plane3f</code> named <code>n</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a03772356aa3a28c173be49ed2509fb5a" name="a03772356aa3a28c173be49ed2509fb5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03772356aa3a28c173be49ed2509fb5a">&#9670;&#160;</a></span>MR_pos_MR_Plane3d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> * MR_pos_MR_Plane3d </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#a47c990e52774bc8bd9e02d71ca3a353b">MR_Plane3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns same representation Generated from a method of class <code>MR::Plane3d</code> named <code>operator+</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a118c8760034ea30bebb058b1d1e94ee9" name="a118c8760034ea30bebb058b1d1e94ee9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a118c8760034ea30bebb058b1d1e94ee9">&#9670;&#160;</a></span>MR_pos_MR_Plane3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> * MR_pos_MR_Plane3f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns same representation Generated from a method of class <code>MR::Plane3f</code> named <code>operator+</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_8b489c7b5d1a72d35ec87e32cc37b940.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRPlane3_8h.html">MRPlane3.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

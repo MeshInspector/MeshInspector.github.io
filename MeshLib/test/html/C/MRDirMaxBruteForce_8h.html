@@ -1,0 +1,726 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRDirMaxBruteForce.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRDirMaxBruteForce_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRDirMaxBruteForce.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+</div>
+<p><a href="MRDirMaxBruteForce_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:af1ba30a3fa8a895c1f72e182f3e73e17" id="r_af1ba30a3fa8a895c1f72e182f3e73e17"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a></td></tr>
+<tr class="separator:af1ba30a3fa8a895c1f72e182f3e73e17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1278957cdc2df07940e90426e9a58809" id="r_a1278957cdc2df07940e90426e9a58809"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRDirMax_8h.html#a1278957cdc2df07940e90426e9a58809">MR_MeshVertPart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1278957cdc2df07940e90426e9a58809">MR_MeshVertPart</a></td></tr>
+<tr class="separator:a1278957cdc2df07940e90426e9a58809"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17053ed9ad2431bc5c202e9135ddb2c6" id="r_a17053ed9ad2431bc5c202e9135ddb2c6"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a17053ed9ad2431bc5c202e9135ddb2c6">MR_MinMaxArg_float_MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17053ed9ad2431bc5c202e9135ddb2c6">MR_MinMaxArg_float_MR_VertId</a></td></tr>
+<tr class="separator:a17053ed9ad2431bc5c202e9135ddb2c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa319738c95f0bbde075b7ef777cf2665" id="r_aa319738c95f0bbde075b7ef777cf2665"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a></td></tr>
+<tr class="separator:aa319738c95f0bbde075b7ef777cf2665"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac19d267fe4a2399b21a578c74213dfd2" id="r_ac19d267fe4a2399b21a578c74213dfd2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a></td></tr>
+<tr class="separator:ac19d267fe4a2399b21a578c74213dfd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6075b2f3b7dec92f779f4f58c28f7e1b" id="r_a6075b2f3b7dec92f779f4f58c28f7e1b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a></td></tr>
+<tr class="separator:a6075b2f3b7dec92f779f4f58c28f7e1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72ab0be0b71b29e9f310e7526a8cc57b" id="r_a72ab0be0b71b29e9f310e7526a8cc57b"><td class="memItemLeft" align="right" valign="top">typedef struct MR_Vector2f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72ab0be0b71b29e9f310e7526a8cc57b">MR_Vector2f</a></td></tr>
+<tr class="separator:a72ab0be0b71b29e9f310e7526a8cc57b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bf133eda1ec95be202b77c33412bc8e" id="r_a6bf133eda1ec95be202b77c33412bc8e"><td class="memItemLeft" align="right" valign="top">typedef struct MR_Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bf133eda1ec95be202b77c33412bc8e">MR_Vector3f</a></td></tr>
+<tr class="separator:a6bf133eda1ec95be202b77c33412bc8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3df50e76b078a1626dd994e1df803764" id="r_a3df50e76b078a1626dd994e1df803764"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a></td></tr>
+<tr class="separator:a3df50e76b078a1626dd994e1df803764"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a249fd9254c0c3395567807936ad32641" id="r_a249fd9254c0c3395567807936ad32641"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a></td></tr>
+<tr class="separator:a249fd9254c0c3395567807936ad32641"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae385080e7b7a68ff32f8d03ae2d70a7a" id="r_ae385080e7b7a68ff32f8d03ae2d70a7a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a></td></tr>
+<tr class="separator:ae385080e7b7a68ff32f8d03ae2d70a7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a0e473319d9baec41494847a7ffa4b10c" id="r_a0e473319d9baec41494847a7ffa4b10c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e473319d9baec41494847a7ffa4b10c">MR_findDirMaxBruteForce_3_const_MR_Vector3f_ref_MR_VertCoords</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *dir, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region)</td></tr>
+<tr class="separator:a0e473319d9baec41494847a7ffa4b10c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aade9d855d88b9cfe618a8fc5b0a5cf93" id="r_aade9d855d88b9cfe618a8fc5b0a5cf93"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aade9d855d88b9cfe618a8fc5b0a5cf93">MR_findDirMaxBruteForce_3_const_MR_Vector2f_ref</a> (const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *dir, const <a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *points, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region)</td></tr>
+<tr class="separator:aade9d855d88b9cfe618a8fc5b0a5cf93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4d8a492596afad45e21b9a9a54adb0f" id="r_aa4d8a492596afad45e21b9a9a54adb0f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4d8a492596afad45e21b9a9a54adb0f">MR_findDirMaxBruteForce_3_const_MR_Vector3f_ref_MR_PointCloud</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *dir, const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region)</td></tr>
+<tr class="separator:aa4d8a492596afad45e21b9a9a54adb0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab8edf2867f650886a6f67fc3dd820cb" id="r_aab8edf2867f650886a6f67fc3dd820cb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab8edf2867f650886a6f67fc3dd820cb">MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_Polyline3</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *dir, const <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *polyline)</td></tr>
+<tr class="separator:aab8edf2867f650886a6f67fc3dd820cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9198aa6b2c495f70e74aba326fdeb0d7" id="r_a9198aa6b2c495f70e74aba326fdeb0d7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9198aa6b2c495f70e74aba326fdeb0d7">MR_findDirMaxBruteForce_2_const_MR_Vector2f_ref</a> (const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *dir, const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *polyline)</td></tr>
+<tr class="separator:a9198aa6b2c495f70e74aba326fdeb0d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62970c4a679da81e3fa97f24daeaca1f" id="r_a62970c4a679da81e3fa97f24daeaca1f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62970c4a679da81e3fa97f24daeaca1f">MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshPart</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *dir, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp)</td></tr>
+<tr class="separator:a62970c4a679da81e3fa97f24daeaca1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dcd5381876b749046b4bfd60b4d767c" id="r_a8dcd5381876b749046b4bfd60b4d767c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8dcd5381876b749046b4bfd60b4d767c">MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshVertPart</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *dir, const <a class="el" href="MRDirMax_8h.html#a1278957cdc2df07940e90426e9a58809">MR_MeshVertPart</a> *mp)</td></tr>
+<tr class="separator:a8dcd5381876b749046b4bfd60b4d767c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66f17a8aa0b2e55f66ee2fbaea673859" id="r_a66f17a8aa0b2e55f66ee2fbaea673859"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a17053ed9ad2431bc5c202e9135ddb2c6">MR_MinMaxArg_float_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66f17a8aa0b2e55f66ee2fbaea673859">MR_findDirMinMaxBruteForce_3_const_MR_Vector3f_ref_MR_VertCoords</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *dir, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region)</td></tr>
+<tr class="separator:a66f17a8aa0b2e55f66ee2fbaea673859"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ef6c262f6f4f73a18919a31c6c4b3d2" id="r_a5ef6c262f6f4f73a18919a31c6c4b3d2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a17053ed9ad2431bc5c202e9135ddb2c6">MR_MinMaxArg_float_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ef6c262f6f4f73a18919a31c6c4b3d2">MR_findDirMinMaxBruteForce_3_const_MR_Vector2f_ref</a> (const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *dir, const <a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *points, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region)</td></tr>
+<tr class="separator:a5ef6c262f6f4f73a18919a31c6c4b3d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fcf323791a7b348906a0051e95e50ee" id="r_a5fcf323791a7b348906a0051e95e50ee"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a17053ed9ad2431bc5c202e9135ddb2c6">MR_MinMaxArg_float_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fcf323791a7b348906a0051e95e50ee">MR_findDirMinMaxBruteForce_3_const_MR_Vector3f_ref_MR_PointCloud</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *dir, const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region)</td></tr>
+<tr class="separator:a5fcf323791a7b348906a0051e95e50ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cda86cd830ccd00eea6443059a4eed3" id="r_a6cda86cd830ccd00eea6443059a4eed3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a17053ed9ad2431bc5c202e9135ddb2c6">MR_MinMaxArg_float_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cda86cd830ccd00eea6443059a4eed3">MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_Polyline3</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *dir, const <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *polyline)</td></tr>
+<tr class="separator:a6cda86cd830ccd00eea6443059a4eed3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4c1cd37a1a7c580eca77b355a54a371" id="r_ac4c1cd37a1a7c580eca77b355a54a371"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a17053ed9ad2431bc5c202e9135ddb2c6">MR_MinMaxArg_float_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4c1cd37a1a7c580eca77b355a54a371">MR_findDirMinMaxBruteForce_2_const_MR_Vector2f_ref</a> (const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *dir, const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *polyline)</td></tr>
+<tr class="separator:ac4c1cd37a1a7c580eca77b355a54a371"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b40b7640da6ee9dbff7b5bbd8469c36" id="r_a8b40b7640da6ee9dbff7b5bbd8469c36"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a17053ed9ad2431bc5c202e9135ddb2c6">MR_MinMaxArg_float_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b40b7640da6ee9dbff7b5bbd8469c36">MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshPart</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *dir, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp)</td></tr>
+<tr class="separator:a8b40b7640da6ee9dbff7b5bbd8469c36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad249213eb36ebcfade3d0970df57aa00" id="r_ad249213eb36ebcfade3d0970df57aa00"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a17053ed9ad2431bc5c202e9135ddb2c6">MR_MinMaxArg_float_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad249213eb36ebcfade3d0970df57aa00">MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshVertPart</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *dir, const <a class="el" href="MRDirMax_8h.html#a1278957cdc2df07940e90426e9a58809">MR_MeshVertPart</a> *mp)</td></tr>
+<tr class="separator:ad249213eb36ebcfade3d0970df57aa00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="af1ba30a3fa8a895c1f72e182f3e73e17" name="af1ba30a3fa8a895c1f72e182f3e73e17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1ba30a3fa8a895c1f72e182f3e73e17">&#9670;&#160;</a></span>MR_MeshPart</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1278957cdc2df07940e90426e9a58809" name="a1278957cdc2df07940e90426e9a58809"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1278957cdc2df07940e90426e9a58809">&#9670;&#160;</a></span>MR_MeshVertPart</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRDirMax_8h.html#a1278957cdc2df07940e90426e9a58809">MR_MeshVertPart</a> <a class="el" href="MRDirMax_8h.html#a1278957cdc2df07940e90426e9a58809">MR_MeshVertPart</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a17053ed9ad2431bc5c202e9135ddb2c6" name="a17053ed9ad2431bc5c202e9135ddb2c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17053ed9ad2431bc5c202e9135ddb2c6">&#9670;&#160;</a></span>MR_MinMaxArg_float_MR_VertId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a17053ed9ad2431bc5c202e9135ddb2c6">MR_MinMaxArg_float_MR_VertId</a> <a class="el" href="#a17053ed9ad2431bc5c202e9135ddb2c6">MR_MinMaxArg_float_MR_VertId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa319738c95f0bbde075b7ef777cf2665" name="aa319738c95f0bbde075b7ef777cf2665"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa319738c95f0bbde075b7ef777cf2665">&#9670;&#160;</a></span>MR_PointCloud</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac19d267fe4a2399b21a578c74213dfd2" name="ac19d267fe4a2399b21a578c74213dfd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac19d267fe4a2399b21a578c74213dfd2">&#9670;&#160;</a></span>MR_Polyline2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6075b2f3b7dec92f779f4f58c28f7e1b" name="a6075b2f3b7dec92f779f4f58c28f7e1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6075b2f3b7dec92f779f4f58c28f7e1b">&#9670;&#160;</a></span>MR_Polyline3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a72ab0be0b71b29e9f310e7526a8cc57b" name="a72ab0be0b71b29e9f310e7526a8cc57b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72ab0be0b71b29e9f310e7526a8cc57b">&#9670;&#160;</a></span>MR_Vector2f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct MR_Vector2f MR_Vector2f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6bf133eda1ec95be202b77c33412bc8e" name="a6bf133eda1ec95be202b77c33412bc8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bf133eda1ec95be202b77c33412bc8e">&#9670;&#160;</a></span>MR_Vector3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct MR_Vector3f MR_Vector3f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3df50e76b078a1626dd994e1df803764" name="a3df50e76b078a1626dd994e1df803764"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3df50e76b078a1626dd994e1df803764">&#9670;&#160;</a></span>MR_VertBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a249fd9254c0c3395567807936ad32641" name="a249fd9254c0c3395567807936ad32641"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a249fd9254c0c3395567807936ad32641">&#9670;&#160;</a></span>MR_VertCoords</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae385080e7b7a68ff32f8d03ae2d70a7a" name="ae385080e7b7a68ff32f8d03ae2d70a7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae385080e7b7a68ff32f8d03ae2d70a7a">&#9670;&#160;</a></span>MR_VertCoords2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> <a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a9198aa6b2c495f70e74aba326fdeb0d7" name="a9198aa6b2c495f70e74aba326fdeb0d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9198aa6b2c495f70e74aba326fdeb0d7">&#9670;&#160;</a></span>MR_findDirMaxBruteForce_2_const_MR_Vector2f_ref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> MR_findDirMaxBruteForce_2_const_MR_Vector2f_ref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds the vertex in the polyline having the largest projection on given direction by traversing all valid vertices Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a2b7b575fdbb2b2e8f9ea6ab14093a27c">MR::findDirMaxBruteForce</a></code>. Parameter <code>dir</code> can not be null. Parameter <code>polyline</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a62970c4a679da81e3fa97f24daeaca1f" name="a62970c4a679da81e3fa97f24daeaca1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62970c4a679da81e3fa97f24daeaca1f">&#9670;&#160;</a></span>MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshPart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshPart </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds the vertex in the mesh part having the largest projection on given direction by traversing all (region) faces Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a2b7b575fdbb2b2e8f9ea6ab14093a27c">MR::findDirMaxBruteForce</a></code>. Parameter <code>dir</code> can not be null. Parameter <code>mp</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a8dcd5381876b749046b4bfd60b4d767c" name="a8dcd5381876b749046b4bfd60b4d767c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dcd5381876b749046b4bfd60b4d767c">&#9670;&#160;</a></span>MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshVertPart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshVertPart </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRDirMax_8h.html#a1278957cdc2df07940e90426e9a58809">MR_MeshVertPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds the vertex in the mesh part having the largest projection on given direction by traversing all (region) vertices Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a2b7b575fdbb2b2e8f9ea6ab14093a27c">MR::findDirMaxBruteForce</a></code>. Parameter <code>dir</code> can not be null. Parameter <code>mp</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aab8edf2867f650886a6f67fc3dd820cb" name="aab8edf2867f650886a6f67fc3dd820cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab8edf2867f650886a6f67fc3dd820cb">&#9670;&#160;</a></span>MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_Polyline3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_Polyline3 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds the vertex in the polyline having the largest projection on given direction by traversing all valid vertices Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a2b7b575fdbb2b2e8f9ea6ab14093a27c">MR::findDirMaxBruteForce</a></code>. Parameter <code>dir</code> can not be null. Parameter <code>polyline</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aade9d855d88b9cfe618a8fc5b0a5cf93" name="aade9d855d88b9cfe618a8fc5b0a5cf93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aade9d855d88b9cfe618a8fc5b0a5cf93">&#9670;&#160;</a></span>MR_findDirMaxBruteForce_3_const_MR_Vector2f_ref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> MR_findDirMaxBruteForce_3_const_MR_Vector2f_ref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds the point having the largest projection on given direction by traversing all region points Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a2b7b575fdbb2b2e8f9ea6ab14093a27c">MR::findDirMaxBruteForce</a></code>. Parameter <code>dir</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+
+</div>
+</div>
+<a id="aa4d8a492596afad45e21b9a9a54adb0f" name="aa4d8a492596afad45e21b9a9a54adb0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4d8a492596afad45e21b9a9a54adb0f">&#9670;&#160;</a></span>MR_findDirMaxBruteForce_3_const_MR_Vector3f_ref_MR_PointCloud()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> MR_findDirMaxBruteForce_3_const_MR_Vector3f_ref_MR_PointCloud </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds the point in the cloud having the largest projection on given direction by traversing all valid points Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a2b7b575fdbb2b2e8f9ea6ab14093a27c">MR::findDirMaxBruteForce</a></code>. Parameter <code>dir</code> can not be null. Parameter <code>cloud</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+
+</div>
+</div>
+<a id="a0e473319d9baec41494847a7ffa4b10c" name="a0e473319d9baec41494847a7ffa4b10c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e473319d9baec41494847a7ffa4b10c">&#9670;&#160;</a></span>MR_findDirMaxBruteForce_3_const_MR_Vector3f_ref_MR_VertCoords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> MR_findDirMaxBruteForce_3_const_MR_Vector3f_ref_MR_VertCoords </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds the point having the largest projection on given direction by traversing all region points Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a2b7b575fdbb2b2e8f9ea6ab14093a27c">MR::findDirMaxBruteForce</a></code>. Parameter <code>dir</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+
+</div>
+</div>
+<a id="ac4c1cd37a1a7c580eca77b355a54a371" name="ac4c1cd37a1a7c580eca77b355a54a371"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4c1cd37a1a7c580eca77b355a54a371">&#9670;&#160;</a></span>MR_findDirMinMaxBruteForce_2_const_MR_Vector2f_ref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a17053ed9ad2431bc5c202e9135ddb2c6">MR_MinMaxArg_float_MR_VertId</a> * MR_findDirMinMaxBruteForce_2_const_MR_Vector2f_ref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds the vertex in the polyline having the smallest and the largest projections on given direction by traversing all valid vertices Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a8aaf0d283ab2e93a0cd6c758696cba71">MR::findDirMinMaxBruteForce</a></code>. Parameter <code>dir</code> can not be null. Parameter <code>polyline</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRMinMaxArg_8h.html#a0bd8b3a261a5dfec35cb397f78ff0197" title="Destroys a heap-allocated instance of MR_MinMaxArg_float_MR_VertId. Does nothing if the pointer is nu...">MR_MinMaxArg_float_MR_VertId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a8b40b7640da6ee9dbff7b5bbd8469c36" name="a8b40b7640da6ee9dbff7b5bbd8469c36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b40b7640da6ee9dbff7b5bbd8469c36">&#9670;&#160;</a></span>MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshPart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a17053ed9ad2431bc5c202e9135ddb2c6">MR_MinMaxArg_float_MR_VertId</a> * MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshPart </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds the vertices in the mesh part having the smallest and the largest projections on given direction by traversing all (region) faces Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a8aaf0d283ab2e93a0cd6c758696cba71">MR::findDirMinMaxBruteForce</a></code>. Parameter <code>dir</code> can not be null. Parameter <code>mp</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRMinMaxArg_8h.html#a0bd8b3a261a5dfec35cb397f78ff0197" title="Destroys a heap-allocated instance of MR_MinMaxArg_float_MR_VertId. Does nothing if the pointer is nu...">MR_MinMaxArg_float_MR_VertId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ad249213eb36ebcfade3d0970df57aa00" name="ad249213eb36ebcfade3d0970df57aa00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad249213eb36ebcfade3d0970df57aa00">&#9670;&#160;</a></span>MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshVertPart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a17053ed9ad2431bc5c202e9135ddb2c6">MR_MinMaxArg_float_MR_VertId</a> * MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshVertPart </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRDirMax_8h.html#a1278957cdc2df07940e90426e9a58809">MR_MeshVertPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds the vertices in the mesh part having the smallest and the largest projections on given direction by traversing all (region) vertices Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a8aaf0d283ab2e93a0cd6c758696cba71">MR::findDirMinMaxBruteForce</a></code>. Parameter <code>dir</code> can not be null. Parameter <code>mp</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRMinMaxArg_8h.html#a0bd8b3a261a5dfec35cb397f78ff0197" title="Destroys a heap-allocated instance of MR_MinMaxArg_float_MR_VertId. Does nothing if the pointer is nu...">MR_MinMaxArg_float_MR_VertId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a6cda86cd830ccd00eea6443059a4eed3" name="a6cda86cd830ccd00eea6443059a4eed3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cda86cd830ccd00eea6443059a4eed3">&#9670;&#160;</a></span>MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_Polyline3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a17053ed9ad2431bc5c202e9135ddb2c6">MR_MinMaxArg_float_MR_VertId</a> * MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_Polyline3 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds the vertex in the polyline having the smallest and the largest projections on given direction by traversing all valid vertices Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a8aaf0d283ab2e93a0cd6c758696cba71">MR::findDirMinMaxBruteForce</a></code>. Parameter <code>dir</code> can not be null. Parameter <code>polyline</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRMinMaxArg_8h.html#a0bd8b3a261a5dfec35cb397f78ff0197" title="Destroys a heap-allocated instance of MR_MinMaxArg_float_MR_VertId. Does nothing if the pointer is nu...">MR_MinMaxArg_float_MR_VertId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5ef6c262f6f4f73a18919a31c6c4b3d2" name="a5ef6c262f6f4f73a18919a31c6c4b3d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ef6c262f6f4f73a18919a31c6c4b3d2">&#9670;&#160;</a></span>MR_findDirMinMaxBruteForce_3_const_MR_Vector2f_ref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a17053ed9ad2431bc5c202e9135ddb2c6">MR_MinMaxArg_float_MR_VertId</a> * MR_findDirMinMaxBruteForce_3_const_MR_Vector2f_ref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds the points having the smallest and the largest projections on given direction by traversing all region points Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a8aaf0d283ab2e93a0cd6c758696cba71">MR::findDirMinMaxBruteForce</a></code>. Parameter <code>dir</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRMinMaxArg_8h.html#a0bd8b3a261a5dfec35cb397f78ff0197" title="Destroys a heap-allocated instance of MR_MinMaxArg_float_MR_VertId. Does nothing if the pointer is nu...">MR_MinMaxArg_float_MR_VertId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5fcf323791a7b348906a0051e95e50ee" name="a5fcf323791a7b348906a0051e95e50ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fcf323791a7b348906a0051e95e50ee">&#9670;&#160;</a></span>MR_findDirMinMaxBruteForce_3_const_MR_Vector3f_ref_MR_PointCloud()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a17053ed9ad2431bc5c202e9135ddb2c6">MR_MinMaxArg_float_MR_VertId</a> * MR_findDirMinMaxBruteForce_3_const_MR_Vector3f_ref_MR_PointCloud </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds the points in the cloud having the smallest and the largest projections on given direction by traversing all valid points Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a8aaf0d283ab2e93a0cd6c758696cba71">MR::findDirMinMaxBruteForce</a></code>. Parameter <code>dir</code> can not be null. Parameter <code>cloud</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRMinMaxArg_8h.html#a0bd8b3a261a5dfec35cb397f78ff0197" title="Destroys a heap-allocated instance of MR_MinMaxArg_float_MR_VertId. Does nothing if the pointer is nu...">MR_MinMaxArg_float_MR_VertId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a66f17a8aa0b2e55f66ee2fbaea673859" name="a66f17a8aa0b2e55f66ee2fbaea673859"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66f17a8aa0b2e55f66ee2fbaea673859">&#9670;&#160;</a></span>MR_findDirMinMaxBruteForce_3_const_MR_Vector3f_ref_MR_VertCoords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a17053ed9ad2431bc5c202e9135ddb2c6">MR_MinMaxArg_float_MR_VertId</a> * MR_findDirMinMaxBruteForce_3_const_MR_Vector3f_ref_MR_VertCoords </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds the points having the smallest and the largest projections on given direction by traversing all region points Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a8aaf0d283ab2e93a0cd6c758696cba71">MR::findDirMinMaxBruteForce</a></code>. Parameter <code>dir</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRMinMaxArg_8h.html#a0bd8b3a261a5dfec35cb397f78ff0197" title="Destroys a heap-allocated instance of MR_MinMaxArg_float_MR_VertId. Does nothing if the pointer is nu...">MR_MinMaxArg_float_MR_VertId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_8b489c7b5d1a72d35ec87e32cc37b940.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRDirMaxBruteForce_8h.html">MRDirMaxBruteForce.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

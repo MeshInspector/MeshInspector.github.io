@@ -1,0 +1,1805 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRContoursCut.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRContoursCut_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRContoursCut.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
+</div>
+<p><a href="MRContoursCut_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a88a1df6fb138786a55241b1d77a4b0cc" id="r_a88a1df6fb138786a55241b1d77a4b0cc"><td class="memItemLeft" align="right" valign="top">typedef struct MR_AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88a1df6fb138786a55241b1d77a4b0cc">MR_AffineXf3f</a></td></tr>
+<tr class="separator:a88a1df6fb138786a55241b1d77a4b0cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba7bc6ac732c34fd4721c543fa3445ea" id="r_aba7bc6ac732c34fd4721c543fa3445ea"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a></td></tr>
+<tr class="separator:aba7bc6ac732c34fd4721c543fa3445ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab809347fd151b45341bc9e7828673eb5" id="r_ab809347fd151b45341bc9e7828673eb5"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBitSet_8h.html#ab809347fd151b45341bc9e7828673eb5">MR_FaceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab809347fd151b45341bc9e7828673eb5">MR_FaceMap</a></td></tr>
+<tr class="separator:ab809347fd151b45341bc9e7828673eb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31b172f68efca6438544d56eb86d6f40" id="r_a31b172f68efca6438544d56eb86d6f40"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td></tr>
+<tr class="separator:a31b172f68efca6438544d56eb86d6f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8148a83a9f1530146fb64e96c19511b8" id="r_a8148a83a9f1530146fb64e96c19511b8"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a></td></tr>
+<tr class="separator:a8148a83a9f1530146fb64e96c19511b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf340aafe859554b2c4dd858ad318988" id="r_abf340aafe859554b2c4dd858ad318988"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#abf340aafe859554b2c4dd858ad318988">MR_SortIntersectionsData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf340aafe859554b2c4dd858ad318988">MR_SortIntersectionsData</a></td></tr>
+<tr class="separator:abf340aafe859554b2c4dd858ad318988"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7f59a6736b29701d7e619412b6e2890" id="r_ac7f59a6736b29701d7e619412b6e2890"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a></td></tr>
+<tr class="separator:ac7f59a6736b29701d7e619412b6e2890"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6aeecd4fac2aea90513510421de3f37b" id="r_a6aeecd4fac2aea90513510421de3f37b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a></td></tr>
+<tr class="separator:a6aeecd4fac2aea90513510421de3f37b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4be6517a31b66da090092aa8bb37c304" id="r_a4be6517a31b66da090092aa8bb37c304"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a4be6517a31b66da090092aa8bb37c304">MR_expected_std_vector_MR_OneMeshContour_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4be6517a31b66da090092aa8bb37c304">MR_expected_std_vector_MR_OneMeshContour_std_string</a></td></tr>
+<tr class="separator:a4be6517a31b66da090092aa8bb37c304"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a527e30eede22a5ec4932109f1442583e" id="r_a527e30eede22a5ec4932109f1442583e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a527e30eede22a5ec4932109f1442583e">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_int32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a527e30eede22a5ec4932109f1442583e">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_int32_t</a></td></tr>
+<tr class="separator:a527e30eede22a5ec4932109f1442583e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6377e4343d87a90ac0bb8191522a2c9c" id="r_a6377e4343d87a90ac0bb8191522a2c9c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a6377e4343d87a90ac0bb8191522a2c9c">MR_std_function_float_from_int32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6377e4343d87a90ac0bb8191522a2c9c">MR_std_function_float_from_int32_t</a></td></tr>
+<tr class="separator:a6377e4343d87a90ac0bb8191522a2c9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a087d1afcc55aadc6e828d844329c9727" id="r_a087d1afcc55aadc6e828d844329c9727"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a></td></tr>
+<tr class="separator:a087d1afcc55aadc6e828d844329c9727"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a071da9f0f67109f51758510529ba0b5b" id="r_a071da9f0f67109f51758510529ba0b5b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a071da9f0f67109f51758510529ba0b5b">MR_std_vector_MR_OneMeshContour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a071da9f0f67109f51758510529ba0b5b">MR_std_vector_MR_OneMeshContour</a></td></tr>
+<tr class="separator:a071da9f0f67109f51758510529ba0b5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefed148a09a0ae55edbd22814638b462" id="r_aefed148a09a0ae55edbd22814638b462"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a></td></tr>
+<tr class="separator:aefed148a09a0ae55edbd22814638b462"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5de264b6065dbf84f6b3fa0f6530592" id="r_ab5de264b6065dbf84f6b3fa0f6530592"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a></td></tr>
+<tr class="separator:ab5de264b6065dbf84f6b3fa0f6530592"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79b88ecd897f6c27c8428cecc4a91f30" id="r_a79b88ecd897f6c27c8428cecc4a91f30"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a></td></tr>
+<tr class="separator:a79b88ecd897f6c27c8428cecc4a91f30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69fca42fce5993f181e99f89af5fa322" id="r_a69fca42fce5993f181e99f89af5fa322"><td class="memItemLeft" align="right" valign="top">typedef struct MR_NewEdgesMap&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__BooleanGroup.html#a69fca42fce5993f181e99f89af5fa322">MR_NewEdgesMap</a></td></tr>
+<tr class="separator:a69fca42fce5993f181e99f89af5fa322"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a646e06afd435d75b5a8c8d01602aa5eb" id="r_a646e06afd435d75b5a8c8d01602aa5eb"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a></td></tr>
+<tr class="memdesc:a646e06afd435d75b5a8c8d01602aa5eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshParameters.html">MR::CutMeshParameters</a></code>.  <br /></td></tr>
+<tr class="separator:a646e06afd435d75b5a8c8d01602aa5eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad346e7f3672251bda9975e7688e6fdd8" id="r_ad346e7f3672251bda9975e7688e6fdd8"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad346e7f3672251bda9975e7688e6fdd8">MR_CutMeshParameters_ForceFill</a></td></tr>
+<tr class="separator:ad346e7f3672251bda9975e7688e6fdd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ef5cd763a69b557722dd0e3f63df036" id="r_a1ef5cd763a69b557722dd0e3f63df036"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a></td></tr>
+<tr class="memdesc:a1ef5cd763a69b557722dd0e3f63df036"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshResult.html">MR::CutMeshResult</a></code>.  <br /></td></tr>
+<tr class="separator:a1ef5cd763a69b557722dd0e3f63df036"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ac36f475ca5b446f4fde4c9b90bec77c8" id="r_ac36f475ca5b446f4fde4c9b90bec77c8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#ac36f475ca5b446f4fde4c9b90bec77c8afa6fde0595c530e4d65c99b2297f1de9">MR_CutMeshParameters_ForceFill_None</a> = 0
+, <a class="el" href="#ac36f475ca5b446f4fde4c9b90bec77c8ab034421e29b0df398b20c55cf22e0a2b">MR_CutMeshParameters_ForceFill_Good</a> = 1
+, <a class="el" href="#ac36f475ca5b446f4fde4c9b90bec77c8a75d3acb4c28b6624872c1f30ef2aa1f9">MR_CutMeshParameters_ForceFill_All</a> = 2
+ }</td></tr>
+<tr class="separator:ac36f475ca5b446f4fde4c9b90bec77c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a46f92461182970808870cc1495da5cf5" id="r_a46f92461182970808870cc1495da5cf5"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46f92461182970808870cc1495da5cf5">MR_NewEdgesMap_Get_splitEdges</a> (const MR_NewEdgesMap *_this)</td></tr>
+<tr class="separator:a46f92461182970808870cc1495da5cf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a400a0892dcba681cf7884b4f40e7f2f4" id="r_a400a0892dcba681cf7884b4f40e7f2f4"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a400a0892dcba681cf7884b4f40e7f2f4">MR_NewEdgesMap_Set_splitEdges</a> (MR_NewEdgesMap *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *value)</td></tr>
+<tr class="separator:a400a0892dcba681cf7884b4f40e7f2f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a119d83a4829bf8f4730158f632826946" id="r_a119d83a4829bf8f4730158f632826946"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a119d83a4829bf8f4730158f632826946">MR_NewEdgesMap_GetMutable_splitEdges</a> (MR_NewEdgesMap *_this)</td></tr>
+<tr class="separator:a119d83a4829bf8f4730158f632826946"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dae64dde4f950aab176e758af308875" id="r_a9dae64dde4f950aab176e758af308875"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a527e30eede22a5ec4932109f1442583e">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_int32_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9dae64dde4f950aab176e758af308875">MR_NewEdgesMap_Get_map</a> (const MR_NewEdgesMap *_this)</td></tr>
+<tr class="separator:a9dae64dde4f950aab176e758af308875"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f9633412eadcee6f2bf1c88b0b2b832" id="r_a7f9633412eadcee6f2bf1c88b0b2b832"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f9633412eadcee6f2bf1c88b0b2b832">MR_NewEdgesMap_Set_map</a> (MR_NewEdgesMap *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#a527e30eede22a5ec4932109f1442583e">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_int32_t</a> *value)</td></tr>
+<tr class="separator:a7f9633412eadcee6f2bf1c88b0b2b832"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f68d2ca996b2801fdd3e16db5e92f23" id="r_a9f68d2ca996b2801fdd3e16db5e92f23"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a527e30eede22a5ec4932109f1442583e">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_int32_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f68d2ca996b2801fdd3e16db5e92f23">MR_NewEdgesMap_GetMutable_map</a> (MR_NewEdgesMap *_this)</td></tr>
+<tr class="separator:a9f68d2ca996b2801fdd3e16db5e92f23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5a357ce190b56f54b28f70be60bb19b" id="r_ad5a357ce190b56f54b28f70be60bb19b"><td class="memItemLeft" align="right" valign="top">MRC_API MR_NewEdgesMap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5a357ce190b56f54b28f70be60bb19b">MR_NewEdgesMap_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ad5a357ce190b56f54b28f70be60bb19b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b3a476ee7b12c0e5d36ee6ed64ec70f" id="r_a2b3a476ee7b12c0e5d36ee6ed64ec70f"><td class="memItemLeft" align="right" valign="top">MRC_API MR_NewEdgesMap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b3a476ee7b12c0e5d36ee6ed64ec70f">MR_NewEdgesMap_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a2b3a476ee7b12c0e5d36ee6ed64ec70f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae66194de53a70769daa10b5054b0b7b9" id="r_ae66194de53a70769daa10b5054b0b7b9"><td class="memItemLeft" align="right" valign="top">MRC_API MR_NewEdgesMap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae66194de53a70769daa10b5054b0b7b9">MR_NewEdgesMap_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> splitEdges_pass_by, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *splitEdges, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> map_pass_by, <a class="el" href="#a527e30eede22a5ec4932109f1442583e">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_int32_t</a> *map)</td></tr>
+<tr class="separator:ae66194de53a70769daa10b5054b0b7b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a970e3c1cc36ce5a9d5e517bb82b95ee4" id="r_a970e3c1cc36ce5a9d5e517bb82b95ee4"><td class="memItemLeft" align="right" valign="top">MRC_API const MR_NewEdgesMap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a970e3c1cc36ce5a9d5e517bb82b95ee4">MR_NewEdgesMap_OffsetPtr</a> (const MR_NewEdgesMap *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a970e3c1cc36ce5a9d5e517bb82b95ee4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a970e3c1cc36ce5a9d5e517bb82b95ee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fa13e35e1a15805e3b2199ef79fe9bc" id="r_a5fa13e35e1a15805e3b2199ef79fe9bc"><td class="memItemLeft" align="right" valign="top">MRC_API MR_NewEdgesMap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fa13e35e1a15805e3b2199ef79fe9bc">MR_NewEdgesMap_OffsetMutablePtr</a> (MR_NewEdgesMap *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a5fa13e35e1a15805e3b2199ef79fe9bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a5fa13e35e1a15805e3b2199ef79fe9bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a3a7a6572b02760994dab066d08d298" id="r_a8a3a7a6572b02760994dab066d08d298"><td class="memItemLeft" align="right" valign="top">MRC_API MR_NewEdgesMap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a3a7a6572b02760994dab066d08d298">MR_NewEdgesMap_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, MR_NewEdgesMap *_other)</td></tr>
+<tr class="separator:a8a3a7a6572b02760994dab066d08d298"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac343bd334dd81f98b90c662741233bbe" id="r_ac343bd334dd81f98b90c662741233bbe"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac343bd334dd81f98b90c662741233bbe">MR_NewEdgesMap_Destroy</a> (const MR_NewEdgesMap *_this)</td></tr>
+<tr class="memdesc:ac343bd334dd81f98b90c662741233bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_NewEdgesMap</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ac343bd334dd81f98b90c662741233bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace5263ab69125745ee8ed65e73ec6da1" id="r_ace5263ab69125745ee8ed65e73ec6da1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace5263ab69125745ee8ed65e73ec6da1">MR_NewEdgesMap_DestroyArray</a> (const MR_NewEdgesMap *_this)</td></tr>
+<tr class="memdesc:ace5263ab69125745ee8ed65e73ec6da1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_NewEdgesMap</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ace5263ab69125745ee8ed65e73ec6da1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7c7703fdaf32577d297497abf287d11" id="r_aa7c7703fdaf32577d297497abf287d11"><td class="memItemLeft" align="right" valign="top">MRC_API MR_NewEdgesMap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7c7703fdaf32577d297497abf287d11">MR_NewEdgesMap_AssignFromAnother</a> (MR_NewEdgesMap *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, MR_NewEdgesMap *_other)</td></tr>
+<tr class="separator:aa7c7703fdaf32577d297497abf287d11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a991150c43d8dcaf1031edae4a4426fca" id="r_a991150c43d8dcaf1031edae4a4426fca"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#abf340aafe859554b2c4dd858ad318988">MR_SortIntersectionsData</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a991150c43d8dcaf1031edae4a4426fca">MR_CutMeshParameters_Get_sortData</a> (const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_this)</td></tr>
+<tr class="separator:a991150c43d8dcaf1031edae4a4426fca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd888c0f363603fc2f18e077727f6554" id="r_afd888c0f363603fc2f18e077727f6554"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd888c0f363603fc2f18e077727f6554">MR_CutMeshParameters_Set_sortData</a> (<a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_this, const <a class="el" href="#abf340aafe859554b2c4dd858ad318988">MR_SortIntersectionsData</a> *value)</td></tr>
+<tr class="separator:afd888c0f363603fc2f18e077727f6554"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7654670fc61d93aee4bcc55f0857cc50" id="r_a7654670fc61d93aee4bcc55f0857cc50"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#abf340aafe859554b2c4dd858ad318988">MR_SortIntersectionsData</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7654670fc61d93aee4bcc55f0857cc50">MR_CutMeshParameters_GetMutable_sortData</a> (<a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_this)</td></tr>
+<tr class="separator:a7654670fc61d93aee4bcc55f0857cc50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af299a02287ae1d3d6eac8c6a82c8885e" id="r_af299a02287ae1d3d6eac8c6a82c8885e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBitSet_8h.html#ab809347fd151b45341bc9e7828673eb5">MR_FaceMap</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af299a02287ae1d3d6eac8c6a82c8885e">MR_CutMeshParameters_Get_new2OldMap</a> (const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_this)</td></tr>
+<tr class="separator:af299a02287ae1d3d6eac8c6a82c8885e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae993bb20982c4333963cb2c6349944d6" id="r_ae993bb20982c4333963cb2c6349944d6"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae993bb20982c4333963cb2c6349944d6">MR_CutMeshParameters_Set_new2OldMap</a> (<a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_this, <a class="el" href="MRBitSet_8h.html#ab809347fd151b45341bc9e7828673eb5">MR_FaceMap</a> *value)</td></tr>
+<tr class="separator:ae993bb20982c4333963cb2c6349944d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a219406fe2ac46cadd3b6c85fd39104cc" id="r_a219406fe2ac46cadd3b6c85fd39104cc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBitSet_8h.html#ab809347fd151b45341bc9e7828673eb5">MR_FaceMap</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a219406fe2ac46cadd3b6c85fd39104cc">MR_CutMeshParameters_GetMutable_new2OldMap</a> (<a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_this)</td></tr>
+<tr class="separator:a219406fe2ac46cadd3b6c85fd39104cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84e8ca262d5fa647b0c0f2258d14840b" id="r_a84e8ca262d5fa647b0c0f2258d14840b"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ad346e7f3672251bda9975e7688e6fdd8">MR_CutMeshParameters_ForceFill</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84e8ca262d5fa647b0c0f2258d14840b">MR_CutMeshParameters_Get_forceFillMode</a> (const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_this)</td></tr>
+<tr class="separator:a84e8ca262d5fa647b0c0f2258d14840b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4d83d85df3deae9d86a31df8fde85a7" id="r_ad4d83d85df3deae9d86a31df8fde85a7"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4d83d85df3deae9d86a31df8fde85a7">MR_CutMeshParameters_Set_forceFillMode</a> (<a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_this, <a class="el" href="#ad346e7f3672251bda9975e7688e6fdd8">MR_CutMeshParameters_ForceFill</a> value)</td></tr>
+<tr class="separator:ad4d83d85df3deae9d86a31df8fde85a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb3266a5dec2567607979d561c7ea076" id="r_adb3266a5dec2567607979d561c7ea076"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad346e7f3672251bda9975e7688e6fdd8">MR_CutMeshParameters_ForceFill</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb3266a5dec2567607979d561c7ea076">MR_CutMeshParameters_GetMutable_forceFillMode</a> (<a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_this)</td></tr>
+<tr class="separator:adb3266a5dec2567607979d561c7ea076"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3324d1131b125816c5b91496d42782c3" id="r_a3324d1131b125816c5b91496d42782c3"><td class="memItemLeft" align="right" valign="top">MRC_API MR_NewEdgesMap *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3324d1131b125816c5b91496d42782c3">MR_CutMeshParameters_Get_new2oldEdgesMap</a> (const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_this)</td></tr>
+<tr class="separator:a3324d1131b125816c5b91496d42782c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86037f5aeae4b25cd203be86f60300fb" id="r_a86037f5aeae4b25cd203be86f60300fb"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86037f5aeae4b25cd203be86f60300fb">MR_CutMeshParameters_Set_new2oldEdgesMap</a> (<a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_this, MR_NewEdgesMap *value)</td></tr>
+<tr class="separator:a86037f5aeae4b25cd203be86f60300fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a276430846cddbf81c1f12cdaf9a867ee" id="r_a276430846cddbf81c1f12cdaf9a867ee"><td class="memItemLeft" align="right" valign="top">MRC_API MR_NewEdgesMap **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a276430846cddbf81c1f12cdaf9a867ee">MR_CutMeshParameters_GetMutable_new2oldEdgesMap</a> (<a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_this)</td></tr>
+<tr class="separator:a276430846cddbf81c1f12cdaf9a867ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fbb9f74a2e0d04787e5fa2a86864b78" id="r_a3fbb9f74a2e0d04787e5fa2a86864b78"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fbb9f74a2e0d04787e5fa2a86864b78">MR_CutMeshParameters_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a3fbb9f74a2e0d04787e5fa2a86864b78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af15aa4a81442ef4e55993c06195a02d4" id="r_af15aa4a81442ef4e55993c06195a02d4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af15aa4a81442ef4e55993c06195a02d4">MR_CutMeshParameters_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:af15aa4a81442ef4e55993c06195a02d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68acdde187b8e1731df1cbca7ee9a51e" id="r_a68acdde187b8e1731df1cbca7ee9a51e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68acdde187b8e1731df1cbca7ee9a51e">MR_CutMeshParameters_ConstructFrom</a> (const <a class="el" href="#abf340aafe859554b2c4dd858ad318988">MR_SortIntersectionsData</a> *sortData, <a class="el" href="MRBitSet_8h.html#ab809347fd151b45341bc9e7828673eb5">MR_FaceMap</a> *new2OldMap, <a class="el" href="#ad346e7f3672251bda9975e7688e6fdd8">MR_CutMeshParameters_ForceFill</a> forceFillMode, MR_NewEdgesMap *new2oldEdgesMap)</td></tr>
+<tr class="separator:a68acdde187b8e1731df1cbca7ee9a51e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a298a580f98953164bff4b280d31537" id="r_a5a298a580f98953164bff4b280d31537"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a298a580f98953164bff4b280d31537">MR_CutMeshParameters_OffsetPtr</a> (const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a5a298a580f98953164bff4b280d31537"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a5a298a580f98953164bff4b280d31537"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b0b54e1ecb0887db3bdcc2a9402ac2c" id="r_a8b0b54e1ecb0887db3bdcc2a9402ac2c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b0b54e1ecb0887db3bdcc2a9402ac2c">MR_CutMeshParameters_OffsetMutablePtr</a> (<a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a8b0b54e1ecb0887db3bdcc2a9402ac2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a8b0b54e1ecb0887db3bdcc2a9402ac2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a4f6c3d559831f591c2f9ae8948954b" id="r_a3a4f6c3d559831f591c2f9ae8948954b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a4f6c3d559831f591c2f9ae8948954b">MR_CutMeshParameters_ConstructFromAnother</a> (const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_other)</td></tr>
+<tr class="separator:a3a4f6c3d559831f591c2f9ae8948954b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3e074f8cc325d2492acc9bec0a386f9" id="r_ad3e074f8cc325d2492acc9bec0a386f9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3e074f8cc325d2492acc9bec0a386f9">MR_CutMeshParameters_Destroy</a> (const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_this)</td></tr>
+<tr class="memdesc:ad3e074f8cc325d2492acc9bec0a386f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_CutMeshParameters</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ad3e074f8cc325d2492acc9bec0a386f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a317adbedfe5c2c59b3c14629c9d0083b" id="r_a317adbedfe5c2c59b3c14629c9d0083b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a317adbedfe5c2c59b3c14629c9d0083b">MR_CutMeshParameters_DestroyArray</a> (const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_this)</td></tr>
+<tr class="memdesc:a317adbedfe5c2c59b3c14629c9d0083b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_CutMeshParameters</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a317adbedfe5c2c59b3c14629c9d0083b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbf41e7f745b23abe2df7f20313b359c" id="r_acbf41e7f745b23abe2df7f20313b359c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbf41e7f745b23abe2df7f20313b359c">MR_CutMeshParameters_AssignFromAnother</a> (<a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_this, const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_other)</td></tr>
+<tr class="separator:acbf41e7f745b23abe2df7f20313b359c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac617dc3c2a4257ba9f6bc9570abd6258" id="r_ac617dc3c2a4257ba9f6bc9570abd6258"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac617dc3c2a4257ba9f6bc9570abd6258">MR_CutMeshResult_Get_resultCut</a> (const <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *_this)</td></tr>
+<tr class="separator:ac617dc3c2a4257ba9f6bc9570abd6258"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d06895261b7f8dc90ca1ecafa29308e" id="r_a2d06895261b7f8dc90ca1ecafa29308e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d06895261b7f8dc90ca1ecafa29308e">MR_CutMeshResult_Set_resultCut</a> (<a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *value)</td></tr>
+<tr class="separator:a2d06895261b7f8dc90ca1ecafa29308e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae81cb1075980a572596620dc66c12705" id="r_ae81cb1075980a572596620dc66c12705"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae81cb1075980a572596620dc66c12705">MR_CutMeshResult_GetMutable_resultCut</a> (<a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *_this)</td></tr>
+<tr class="separator:ae81cb1075980a572596620dc66c12705"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6123d875aaeb75e2004553b828580ac5" id="r_a6123d875aaeb75e2004553b828580ac5"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6123d875aaeb75e2004553b828580ac5">MR_CutMeshResult_Get_fbsWithContourIntersections</a> (const <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *_this)</td></tr>
+<tr class="separator:a6123d875aaeb75e2004553b828580ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57ab336b31ff562ddf3ff683df79af46" id="r_a57ab336b31ff562ddf3ff683df79af46"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57ab336b31ff562ddf3ff683df79af46">MR_CutMeshResult_Set_fbsWithContourIntersections</a> (<a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *value)</td></tr>
+<tr class="separator:a57ab336b31ff562ddf3ff683df79af46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10058eeebd6bba23777db7967de77fc5" id="r_a10058eeebd6bba23777db7967de77fc5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10058eeebd6bba23777db7967de77fc5">MR_CutMeshResult_GetMutable_fbsWithContourIntersections</a> (<a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *_this)</td></tr>
+<tr class="separator:a10058eeebd6bba23777db7967de77fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae92da8eecf9572da5aae19674a01b9c0" id="r_ae92da8eecf9572da5aae19674a01b9c0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae92da8eecf9572da5aae19674a01b9c0">MR_CutMeshResult_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ae92da8eecf9572da5aae19674a01b9c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abac348ee054409cc2a5cc60cab00c59f" id="r_abac348ee054409cc2a5cc60cab00c59f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abac348ee054409cc2a5cc60cab00c59f">MR_CutMeshResult_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:abac348ee054409cc2a5cc60cab00c59f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52b38e565fdf07b6d55ecdbd6a3aa557" id="r_a52b38e565fdf07b6d55ecdbd6a3aa557"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52b38e565fdf07b6d55ecdbd6a3aa557">MR_CutMeshResult_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> resultCut_pass_by, <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *resultCut, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> fbsWithContourIntersections_pass_by, <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *fbsWithContourIntersections)</td></tr>
+<tr class="separator:a52b38e565fdf07b6d55ecdbd6a3aa557"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a20d53975e308f66a05b1e33af60d8b" id="r_a6a20d53975e308f66a05b1e33af60d8b"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a20d53975e308f66a05b1e33af60d8b">MR_CutMeshResult_OffsetPtr</a> (const <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a6a20d53975e308f66a05b1e33af60d8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a6a20d53975e308f66a05b1e33af60d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a641f926dd5e5a8c7f37facad75e2d5ad" id="r_a641f926dd5e5a8c7f37facad75e2d5ad"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a641f926dd5e5a8c7f37facad75e2d5ad">MR_CutMeshResult_OffsetMutablePtr</a> (<a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a641f926dd5e5a8c7f37facad75e2d5ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a641f926dd5e5a8c7f37facad75e2d5ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c8b611314479ae3833e5c5ab867d20f" id="r_a1c8b611314479ae3833e5c5ab867d20f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c8b611314479ae3833e5c5ab867d20f">MR_CutMeshResult_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *_other)</td></tr>
+<tr class="separator:a1c8b611314479ae3833e5c5ab867d20f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f22861356c77dbfd0cdfdee67c3d793" id="r_a0f22861356c77dbfd0cdfdee67c3d793"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f22861356c77dbfd0cdfdee67c3d793">MR_CutMeshResult_Destroy</a> (const <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *_this)</td></tr>
+<tr class="memdesc:a0f22861356c77dbfd0cdfdee67c3d793"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_CutMeshResult</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a0f22861356c77dbfd0cdfdee67c3d793"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa827db0bc94be132c2fd915176eb3e15" id="r_aa827db0bc94be132c2fd915176eb3e15"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa827db0bc94be132c2fd915176eb3e15">MR_CutMeshResult_DestroyArray</a> (const <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *_this)</td></tr>
+<tr class="memdesc:aa827db0bc94be132c2fd915176eb3e15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_CutMeshResult</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:aa827db0bc94be132c2fd915176eb3e15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1f68db687fe5290a885837982f58057" id="r_ab1f68db687fe5290a885837982f58057"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1f68db687fe5290a885837982f58057">MR_CutMeshResult_AssignFromAnother</a> (<a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *_other)</td></tr>
+<tr class="separator:ab1f68db687fe5290a885837982f58057"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a137196b8b10dcd022a5bb6a85b3a8d4d" id="r_a137196b8b10dcd022a5bb6a85b3a8d4d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__BooleanGroup.html#a137196b8b10dcd022a5bb6a85b3a8d4d">MR_cutMesh</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#a071da9f0f67109f51758510529ba0b5b">MR_std_vector_MR_OneMeshContour</a> *contours, const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *params)</td></tr>
+<tr class="memdesc:a137196b8b10dcd022a5bb6a85b3a8d4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cuts mesh by given contours.  <br /></td></tr>
+<tr class="separator:a137196b8b10dcd022a5bb6a85b3a8d4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29da5ce9fe890cb1510675a23751afd4" id="r_a29da5ce9fe890cb1510675a23751afd4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29da5ce9fe890cb1510675a23751afd4">MR_cutMeshByContour</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *contour, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf)</td></tr>
+<tr class="separator:a29da5ce9fe890cb1510675a23751afd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40cf1dd6bf4954cd7f8d4ef605210688" id="r_a40cf1dd6bf4954cd7f8d4ef605210688"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40cf1dd6bf4954cd7f8d4ef605210688">MR_cutMeshByContours</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *contours, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf)</td></tr>
+<tr class="separator:a40cf1dd6bf4954cd7f8d4ef605210688"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1211d658133a8cec342d464c04f3afd2" id="r_a1211d658133a8cec342d464c04f3afd2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4be6517a31b66da090092aa8bb37c304">MR_expected_std_vector_MR_OneMeshContour_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__BooleanGroup.html#a1211d658133a8cec342d464c04f3afd2">MR_convertMeshTriPointsSurfaceOffsetToMeshContours_float</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a> *surfaceLine, float offset, const <a class="el" href="#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *searchSettings)</td></tr>
+<tr class="memdesc:a1211d658133a8cec342d464c04f3afd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour.  <br /></td></tr>
+<tr class="separator:a1211d658133a8cec342d464c04f3afd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c3f58ad8475917acf9fd337e536258d" id="r_a2c3f58ad8475917acf9fd337e536258d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4be6517a31b66da090092aa8bb37c304">MR_expected_std_vector_MR_OneMeshContour_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__BooleanGroup.html#a2c3f58ad8475917acf9fd337e536258d">MR_convertMeshTriPointsSurfaceOffsetToMeshContours_std_function_float_func_from_int32_t</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a> *surfaceLine, const <a class="el" href="#a6377e4343d87a90ac0bb8191522a2c9c">MR_std_function_float_from_int32_t</a> *offsetAtPoint, const <a class="el" href="#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *searchSettings)</td></tr>
+<tr class="memdesc:a2c3f58ad8475917acf9fd337e536258d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour.  <br /></td></tr>
+<tr class="separator:a2c3f58ad8475917acf9fd337e536258d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a88a1df6fb138786a55241b1d77a4b0cc" name="a88a1df6fb138786a55241b1d77a4b0cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88a1df6fb138786a55241b1d77a4b0cc">&#9670;&#160;</a></span>MR_AffineXf3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct MR_AffineXf3f MR_AffineXf3f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a646e06afd435d75b5a8c8d01602aa5eb" name="a646e06afd435d75b5a8c8d01602aa5eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a646e06afd435d75b5a8c8d01602aa5eb">&#9670;&#160;</a></span>MR_CutMeshParameters</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshParameters.html">MR::CutMeshParameters</a></code>. </p>
+
+</div>
+</div>
+<a id="ad346e7f3672251bda9975e7688e6fdd8" name="ad346e7f3672251bda9975e7688e6fdd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad346e7f3672251bda9975e7688e6fdd8">&#9670;&#160;</a></span>MR_CutMeshParameters_ForceFill</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int32_t <a class="el" href="#ad346e7f3672251bda9975e7688e6fdd8">MR_CutMeshParameters_ForceFill</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This enum defines the <a class="elRef" href="../Cpp/group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc">MR::cutMesh</a> behaviour in case of bad faces acure basicaly <a class="elRef" href="../Cpp/group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc">MR::cutMesh</a> removes all faces which contours pass through, adds new edges to topology and fills all removed parts</p>
+<dl class="section note"><dt>Note</dt><dd>Bad faces here mean faces where contours have intersections and cannot be cut and filled in an good way </dd></dl>
+
+</div>
+</div>
+<a id="a1ef5cd763a69b557722dd0e3f63df036" name="a1ef5cd763a69b557722dd0e3f63df036"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ef5cd763a69b557722dd0e3f63df036">&#9670;&#160;</a></span>MR_CutMeshResult</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshResult.html">MR::CutMeshResult</a></code>. </p>
+
+</div>
+</div>
+<a id="a6aeecd4fac2aea90513510421de3f37b" name="a6aeecd4fac2aea90513510421de3f37b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6aeecd4fac2aea90513510421de3f37b">&#9670;&#160;</a></span>MR_expected_MR_FaceBitSet_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a> <a class="el" href="#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4be6517a31b66da090092aa8bb37c304" name="a4be6517a31b66da090092aa8bb37c304"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4be6517a31b66da090092aa8bb37c304">&#9670;&#160;</a></span>MR_expected_std_vector_MR_OneMeshContour_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a4be6517a31b66da090092aa8bb37c304">MR_expected_std_vector_MR_OneMeshContour_std_string</a> <a class="el" href="#a4be6517a31b66da090092aa8bb37c304">MR_expected_std_vector_MR_OneMeshContour_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba7bc6ac732c34fd4721c543fa3445ea" name="aba7bc6ac732c34fd4721c543fa3445ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba7bc6ac732c34fd4721c543fa3445ea">&#9670;&#160;</a></span>MR_FaceBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab809347fd151b45341bc9e7828673eb5" name="ab809347fd151b45341bc9e7828673eb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab809347fd151b45341bc9e7828673eb5">&#9670;&#160;</a></span>MR_FaceMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBitSet_8h.html#ab809347fd151b45341bc9e7828673eb5">MR_FaceMap</a> <a class="el" href="MRBitSet_8h.html#ab809347fd151b45341bc9e7828673eb5">MR_FaceMap</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a31b172f68efca6438544d56eb86d6f40" name="a31b172f68efca6438544d56eb86d6f40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31b172f68efca6438544d56eb86d6f40">&#9670;&#160;</a></span>MR_Mesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a527e30eede22a5ec4932109f1442583e" name="a527e30eede22a5ec4932109f1442583e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a527e30eede22a5ec4932109f1442583e">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_int32_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a527e30eede22a5ec4932109f1442583e">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_int32_t</a> <a class="el" href="#a527e30eede22a5ec4932109f1442583e">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_int32_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8148a83a9f1530146fb64e96c19511b8" name="a8148a83a9f1530146fb64e96c19511b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8148a83a9f1530146fb64e96c19511b8">&#9670;&#160;</a></span>MR_SearchPathSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> <a class="el" href="#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abf340aafe859554b2c4dd858ad318988" name="abf340aafe859554b2c4dd858ad318988"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf340aafe859554b2c4dd858ad318988">&#9670;&#160;</a></span>MR_SortIntersectionsData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#abf340aafe859554b2c4dd858ad318988">MR_SortIntersectionsData</a> <a class="el" href="#abf340aafe859554b2c4dd858ad318988">MR_SortIntersectionsData</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6377e4343d87a90ac0bb8191522a2c9c" name="a6377e4343d87a90ac0bb8191522a2c9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6377e4343d87a90ac0bb8191522a2c9c">&#9670;&#160;</a></span>MR_std_function_float_from_int32_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a6377e4343d87a90ac0bb8191522a2c9c">MR_std_function_float_from_int32_t</a> <a class="el" href="#a6377e4343d87a90ac0bb8191522a2c9c">MR_std_function_float_from_int32_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a087d1afcc55aadc6e828d844329c9727" name="a087d1afcc55aadc6e828d844329c9727"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a087d1afcc55aadc6e828d844329c9727">&#9670;&#160;</a></span>MR_std_vector_MR_MeshTriPoint</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a> <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a071da9f0f67109f51758510529ba0b5b" name="a071da9f0f67109f51758510529ba0b5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a071da9f0f67109f51758510529ba0b5b">&#9670;&#160;</a></span>MR_std_vector_MR_OneMeshContour</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a071da9f0f67109f51758510529ba0b5b">MR_std_vector_MR_OneMeshContour</a> <a class="el" href="#a071da9f0f67109f51758510529ba0b5b">MR_std_vector_MR_OneMeshContour</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aefed148a09a0ae55edbd22814638b462" name="aefed148a09a0ae55edbd22814638b462"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefed148a09a0ae55edbd22814638b462">&#9670;&#160;</a></span>MR_std_vector_MR_Vector3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab5de264b6065dbf84f6b3fa0f6530592" name="ab5de264b6065dbf84f6b3fa0f6530592"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5de264b6065dbf84f6b3fa0f6530592">&#9670;&#160;</a></span>MR_std_vector_std_vector_MR_EdgeId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a79b88ecd897f6c27c8428cecc4a91f30" name="a79b88ecd897f6c27c8428cecc4a91f30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79b88ecd897f6c27c8428cecc4a91f30">&#9670;&#160;</a></span>MR_std_vector_std_vector_MR_Vector3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7f59a6736b29701d7e619412b6e2890" name="ac7f59a6736b29701d7e619412b6e2890"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7f59a6736b29701d7e619412b6e2890">&#9670;&#160;</a></span>MR_UndirectedEdgeBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ac36f475ca5b446f4fde4c9b90bec77c8" name="ac36f475ca5b446f4fde4c9b90bec77c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac36f475ca5b446f4fde4c9b90bec77c8">&#9670;&#160;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac36f475ca5b446f4fde4c9b90bec77c8afa6fde0595c530e4d65c99b2297f1de9" name="ac36f475ca5b446f4fde4c9b90bec77c8afa6fde0595c530e4d65c99b2297f1de9"></a>MR_CutMeshParameters_ForceFill_None&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac36f475ca5b446f4fde4c9b90bec77c8ab034421e29b0df398b20c55cf22e0a2b" name="ac36f475ca5b446f4fde4c9b90bec77c8ab034421e29b0df398b20c55cf22e0a2b"></a>MR_CutMeshParameters_ForceFill_Good&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac36f475ca5b446f4fde4c9b90bec77c8a75d3acb4c28b6624872c1f30ef2aa1f9" name="ac36f475ca5b446f4fde4c9b90bec77c8a75d3acb4c28b6624872c1f30ef2aa1f9"></a>MR_CutMeshParameters_ForceFill_All&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a29da5ce9fe890cb1510675a23751afd4" name="a29da5ce9fe890cb1510675a23751afd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29da5ce9fe890cb1510675a23751afd4">&#9670;&#160;</a></span>MR_cutMeshByContour()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a> * MR_cutMeshByContour </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>contour</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>xf</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Cuts <code>mesh</code> by <code>contour</code> by projecting all the points </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xf</td><td>transformation from the CSYS of <code>contour</code> to the CSYS of <code>mesh</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd><code>mesh</code> is modified, see cutMesh for info </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Faces to the left of the polyline Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a634c3caa2efb7688c1bfa187112c6b99">MR::cutMeshByContour</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>contour</code> can not be null. Parameter <code>xf</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__FaceBitSet__std__string_8h.html#a49f25f78be01bd3b7e077cd474bb21d5" title="Destroys a heap-allocated instance of MR_expected_MR_FaceBitSet_std_string. Does nothing if the point...">MR_expected_MR_FaceBitSet_std_string_Destroy()</a></code> to free it when you're done using it. </dd></dl>
+
+</div>
+</div>
+<a id="a40cf1dd6bf4954cd7f8d4ef605210688" name="a40cf1dd6bf4954cd7f8d4ef605210688"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40cf1dd6bf4954cd7f8d4ef605210688">&#9670;&#160;</a></span>MR_cutMeshByContours()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a> * MR_cutMeshByContours </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>contours</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>xf</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Cuts <code>mesh</code> by <code>contours</code> by projecting all the points </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xf</td><td>transformation from the CSYS of <code>contour</code> to the CSYS of <code>mesh</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd><code>mesh</code> is modified, see cutMesh for info </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Faces to the left of the polyline Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a486d3531e070ce83fedba740ecd3650b">MR::cutMeshByContours</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>contours</code> can not be null. Parameter <code>xf</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__FaceBitSet__std__string_8h.html#a49f25f78be01bd3b7e077cd474bb21d5" title="Destroys a heap-allocated instance of MR_expected_MR_FaceBitSet_std_string. Does nothing if the point...">MR_expected_MR_FaceBitSet_std_string_Destroy()</a></code> to free it when you're done using it. </dd></dl>
+
+</div>
+</div>
+<a id="acbf41e7f745b23abe2df7f20313b359c" name="acbf41e7f745b23abe2df7f20313b359c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbf41e7f745b23abe2df7f20313b359c">&#9670;&#160;</a></span>MR_CutMeshParameters_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> * MR_CutMeshParameters_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshParameters.html">MR::CutMeshParameters</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a68acdde187b8e1731df1cbca7ee9a51e" name="a68acdde187b8e1731df1cbca7ee9a51e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68acdde187b8e1731df1cbca7ee9a51e">&#9670;&#160;</a></span>MR_CutMeshParameters_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> * MR_CutMeshParameters_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#abf340aafe859554b2c4dd858ad318988">MR_SortIntersectionsData</a> *</td>          <td class="paramname"><span class="paramname"><em>sortData</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#ab809347fd151b45341bc9e7828673eb5">MR_FaceMap</a> *</td>          <td class="paramname"><span class="paramname"><em>new2OldMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ad346e7f3672251bda9975e7688e6fdd8">MR_CutMeshParameters_ForceFill</a></td>          <td class="paramname"><span class="paramname"><em>forceFillMode</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR_NewEdgesMap *</td>          <td class="paramname"><span class="paramname"><em>new2oldEdgesMap</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshParameters.html">MR::CutMeshParameters</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad3e074f8cc325d2492acc9bec0a386f9" title="Destroys a heap-allocated instance of MR_CutMeshParameters. Does nothing if the pointer is null.">MR_CutMeshParameters_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a3a4f6c3d559831f591c2f9ae8948954b" name="a3a4f6c3d559831f591c2f9ae8948954b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a4f6c3d559831f591c2f9ae8948954b">&#9670;&#160;</a></span>MR_CutMeshParameters_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> * MR_CutMeshParameters_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshParameters.html">MR::CutMeshParameters</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad3e074f8cc325d2492acc9bec0a386f9" title="Destroys a heap-allocated instance of MR_CutMeshParameters. Does nothing if the pointer is null.">MR_CutMeshParameters_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a3fbb9f74a2e0d04787e5fa2a86864b78" name="a3fbb9f74a2e0d04787e5fa2a86864b78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fbb9f74a2e0d04787e5fa2a86864b78">&#9670;&#160;</a></span>MR_CutMeshParameters_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> * MR_CutMeshParameters_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad3e074f8cc325d2492acc9bec0a386f9" title="Destroys a heap-allocated instance of MR_CutMeshParameters. Does nothing if the pointer is null.">MR_CutMeshParameters_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="af15aa4a81442ef4e55993c06195a02d4" name="af15aa4a81442ef4e55993c06195a02d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af15aa4a81442ef4e55993c06195a02d4">&#9670;&#160;</a></span>MR_CutMeshParameters_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> * MR_CutMeshParameters_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a317adbedfe5c2c59b3c14629c9d0083b" title="Destroys a heap-allocated array of MR_CutMeshParameters. Does nothing if the pointer is null.">MR_CutMeshParameters_DestroyArray()</a></code>. Use <code><a class="el" href="#a8b0b54e1ecb0887db3bdcc2a9402ac2c" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_CutMeshParameters_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a5a298a580f98953164bff4b280d31537" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_CutMeshParameters_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ad3e074f8cc325d2492acc9bec0a386f9" name="ad3e074f8cc325d2492acc9bec0a386f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3e074f8cc325d2492acc9bec0a386f9">&#9670;&#160;</a></span>MR_CutMeshParameters_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CutMeshParameters_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_CutMeshParameters</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a317adbedfe5c2c59b3c14629c9d0083b" name="a317adbedfe5c2c59b3c14629c9d0083b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a317adbedfe5c2c59b3c14629c9d0083b">&#9670;&#160;</a></span>MR_CutMeshParameters_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CutMeshParameters_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_CutMeshParameters</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a84e8ca262d5fa647b0c0f2258d14840b" name="a84e8ca262d5fa647b0c0f2258d14840b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84e8ca262d5fa647b0c0f2258d14840b">&#9670;&#160;</a></span>MR_CutMeshParameters_Get_forceFillMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ad346e7f3672251bda9975e7688e6fdd8">MR_CutMeshParameters_ForceFill</a> * MR_CutMeshParameters_Get_forceFillMode </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshParameters.html">MR::CutMeshParameters</a></code> named <code>forceFillMode</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a3324d1131b125816c5b91496d42782c3" name="a3324d1131b125816c5b91496d42782c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3324d1131b125816c5b91496d42782c3">&#9670;&#160;</a></span>MR_CutMeshParameters_Get_new2oldEdgesMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API MR_NewEdgesMap *const  * MR_CutMeshParameters_Get_new2oldEdgesMap </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Optional output map for each new edge introduced after cut maps edge from old topology or old face Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshParameters.html">MR::CutMeshParameters</a></code> named <code>new2oldEdgesMap</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="af299a02287ae1d3d6eac8c6a82c8885e" name="af299a02287ae1d3d6eac8c6a82c8885e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af299a02287ae1d3d6eac8c6a82c8885e">&#9670;&#160;</a></span>MR_CutMeshParameters_Get_new2OldMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBitSet_8h.html#ab809347fd151b45341bc9e7828673eb5">MR_FaceMap</a> *const  * MR_CutMeshParameters_Get_new2OldMap </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This is optional output - map from newly generated faces to old faces (N-1) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshParameters.html">MR::CutMeshParameters</a></code> named <code>new2OldMap</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a991150c43d8dcaf1031edae4a4426fca" name="a991150c43d8dcaf1031edae4a4426fca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a991150c43d8dcaf1031edae4a4426fca">&#9670;&#160;</a></span>MR_CutMeshParameters_Get_sortData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#abf340aafe859554b2c4dd858ad318988">MR_SortIntersectionsData</a> *const  * MR_CutMeshParameters_Get_sortData </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This is optional input for better contours resolving<br  />
+it provides additional info from other mesh used in boolean operation, useful to solve some degeneration </p><dl class="section note"><dt>Note</dt><dd>Most likely you don't need this in case you call <a class="elRef" href="../Cpp/group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc">MR::cutMesh</a> manualy, use case of it is <a class="elRef" href="../Cpp/group__BooleanGroup.html#ga5dc229b89588f1a3416aca4910e460d9">MR::boolean</a> Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshParameters.html">MR::CutMeshParameters</a></code> named <code>sortData</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </dd></dl>
+
+</div>
+</div>
+<a id="adb3266a5dec2567607979d561c7ea076" name="adb3266a5dec2567607979d561c7ea076"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb3266a5dec2567607979d561c7ea076">&#9670;&#160;</a></span>MR_CutMeshParameters_GetMutable_forceFillMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad346e7f3672251bda9975e7688e6fdd8">MR_CutMeshParameters_ForceFill</a> * MR_CutMeshParameters_GetMutable_forceFillMode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshParameters.html">MR::CutMeshParameters</a></code> named <code>forceFillMode</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a276430846cddbf81c1f12cdaf9a867ee" name="a276430846cddbf81c1f12cdaf9a867ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a276430846cddbf81c1f12cdaf9a867ee">&#9670;&#160;</a></span>MR_CutMeshParameters_GetMutable_new2oldEdgesMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API MR_NewEdgesMap ** MR_CutMeshParameters_GetMutable_new2oldEdgesMap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Optional output map for each new edge introduced after cut maps edge from old topology or old face Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshParameters.html">MR::CutMeshParameters</a></code> named <code>new2oldEdgesMap</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a219406fe2ac46cadd3b6c85fd39104cc" name="a219406fe2ac46cadd3b6c85fd39104cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a219406fe2ac46cadd3b6c85fd39104cc">&#9670;&#160;</a></span>MR_CutMeshParameters_GetMutable_new2OldMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBitSet_8h.html#ab809347fd151b45341bc9e7828673eb5">MR_FaceMap</a> ** MR_CutMeshParameters_GetMutable_new2OldMap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This is optional output - map from newly generated faces to old faces (N-1) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshParameters.html">MR::CutMeshParameters</a></code> named <code>new2OldMap</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a7654670fc61d93aee4bcc55f0857cc50" name="a7654670fc61d93aee4bcc55f0857cc50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7654670fc61d93aee4bcc55f0857cc50">&#9670;&#160;</a></span>MR_CutMeshParameters_GetMutable_sortData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#abf340aafe859554b2c4dd858ad318988">MR_SortIntersectionsData</a> ** MR_CutMeshParameters_GetMutable_sortData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This is optional input for better contours resolving<br  />
+it provides additional info from other mesh used in boolean operation, useful to solve some degeneration </p><dl class="section note"><dt>Note</dt><dd>Most likely you don't need this in case you call <a class="elRef" href="../Cpp/group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc">MR::cutMesh</a> manualy, use case of it is <a class="elRef" href="../Cpp/group__BooleanGroup.html#ga5dc229b89588f1a3416aca4910e460d9">MR::boolean</a> Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshParameters.html">MR::CutMeshParameters</a></code> named <code>sortData</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </dd></dl>
+
+</div>
+</div>
+<a id="a8b0b54e1ecb0887db3bdcc2a9402ac2c" name="a8b0b54e1ecb0887db3bdcc2a9402ac2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b0b54e1ecb0887db3bdcc2a9402ac2c">&#9670;&#160;</a></span>MR_CutMeshParameters_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> * MR_CutMeshParameters_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a5a298a580f98953164bff4b280d31537" name="a5a298a580f98953164bff4b280d31537"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a298a580f98953164bff4b280d31537">&#9670;&#160;</a></span>MR_CutMeshParameters_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> * MR_CutMeshParameters_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ad4d83d85df3deae9d86a31df8fde85a7" name="ad4d83d85df3deae9d86a31df8fde85a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4d83d85df3deae9d86a31df8fde85a7">&#9670;&#160;</a></span>MR_CutMeshParameters_Set_forceFillMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CutMeshParameters_Set_forceFillMode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ad346e7f3672251bda9975e7688e6fdd8">MR_CutMeshParameters_ForceFill</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshParameters.html">MR::CutMeshParameters</a></code> named <code>forceFillMode</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a86037f5aeae4b25cd203be86f60300fb" name="a86037f5aeae4b25cd203be86f60300fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86037f5aeae4b25cd203be86f60300fb">&#9670;&#160;</a></span>MR_CutMeshParameters_Set_new2oldEdgesMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CutMeshParameters_Set_new2oldEdgesMap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR_NewEdgesMap *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Optional output map for each new edge introduced after cut maps edge from old topology or old face Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshParameters.html">MR::CutMeshParameters</a></code> named <code>new2oldEdgesMap</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae993bb20982c4333963cb2c6349944d6" name="ae993bb20982c4333963cb2c6349944d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae993bb20982c4333963cb2c6349944d6">&#9670;&#160;</a></span>MR_CutMeshParameters_Set_new2OldMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CutMeshParameters_Set_new2OldMap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#ab809347fd151b45341bc9e7828673eb5">MR_FaceMap</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This is optional output - map from newly generated faces to old faces (N-1) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshParameters.html">MR::CutMeshParameters</a></code> named <code>new2OldMap</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="afd888c0f363603fc2f18e077727f6554" name="afd888c0f363603fc2f18e077727f6554"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd888c0f363603fc2f18e077727f6554">&#9670;&#160;</a></span>MR_CutMeshParameters_Set_sortData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CutMeshParameters_Set_sortData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#abf340aafe859554b2c4dd858ad318988">MR_SortIntersectionsData</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This is optional input for better contours resolving<br  />
+it provides additional info from other mesh used in boolean operation, useful to solve some degeneration </p><dl class="section note"><dt>Note</dt><dd>Most likely you don't need this in case you call <a class="elRef" href="../Cpp/group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc">MR::cutMesh</a> manualy, use case of it is <a class="elRef" href="../Cpp/group__BooleanGroup.html#ga5dc229b89588f1a3416aca4910e460d9">MR::boolean</a> Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshParameters.html">MR::CutMeshParameters</a></code> named <code>sortData</code>. Parameter <code>_this</code> can not be null. </dd></dl>
+
+</div>
+</div>
+<a id="ab1f68db687fe5290a885837982f58057" name="ab1f68db687fe5290a885837982f58057"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1f68db687fe5290a885837982f58057">&#9670;&#160;</a></span>MR_CutMeshResult_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> * MR_CutMeshResult_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshResult.html">MR::CutMeshResult</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a52b38e565fdf07b6d55ecdbd6a3aa557" name="a52b38e565fdf07b6d55ecdbd6a3aa557"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52b38e565fdf07b6d55ecdbd6a3aa557">&#9670;&#160;</a></span>MR_CutMeshResult_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> * MR_CutMeshResult_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>resultCut_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>resultCut</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>fbsWithContourIntersections_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>fbsWithContourIntersections</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshResult.html">MR::CutMeshResult</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0f22861356c77dbfd0cdfdee67c3d793" title="Destroys a heap-allocated instance of MR_CutMeshResult. Does nothing if the pointer is null.">MR_CutMeshResult_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a1c8b611314479ae3833e5c5ab867d20f" name="a1c8b611314479ae3833e5c5ab867d20f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c8b611314479ae3833e5c5ab867d20f">&#9670;&#160;</a></span>MR_CutMeshResult_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> * MR_CutMeshResult_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshResult.html">MR::CutMeshResult</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0f22861356c77dbfd0cdfdee67c3d793" title="Destroys a heap-allocated instance of MR_CutMeshResult. Does nothing if the pointer is null.">MR_CutMeshResult_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae92da8eecf9572da5aae19674a01b9c0" name="ae92da8eecf9572da5aae19674a01b9c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae92da8eecf9572da5aae19674a01b9c0">&#9670;&#160;</a></span>MR_CutMeshResult_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> * MR_CutMeshResult_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0f22861356c77dbfd0cdfdee67c3d793" title="Destroys a heap-allocated instance of MR_CutMeshResult. Does nothing if the pointer is null.">MR_CutMeshResult_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="abac348ee054409cc2a5cc60cab00c59f" name="abac348ee054409cc2a5cc60cab00c59f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abac348ee054409cc2a5cc60cab00c59f">&#9670;&#160;</a></span>MR_CutMeshResult_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> * MR_CutMeshResult_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#aa827db0bc94be132c2fd915176eb3e15" title="Destroys a heap-allocated array of MR_CutMeshResult. Does nothing if the pointer is null.">MR_CutMeshResult_DestroyArray()</a></code>. Use <code><a class="el" href="#a641f926dd5e5a8c7f37facad75e2d5ad" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_CutMeshResult_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a6a20d53975e308f66a05b1e33af60d8b" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_CutMeshResult_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a0f22861356c77dbfd0cdfdee67c3d793" name="a0f22861356c77dbfd0cdfdee67c3d793"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f22861356c77dbfd0cdfdee67c3d793">&#9670;&#160;</a></span>MR_CutMeshResult_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CutMeshResult_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_CutMeshResult</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aa827db0bc94be132c2fd915176eb3e15" name="aa827db0bc94be132c2fd915176eb3e15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa827db0bc94be132c2fd915176eb3e15">&#9670;&#160;</a></span>MR_CutMeshResult_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CutMeshResult_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_CutMeshResult</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a6123d875aaeb75e2004553b828580ac5" name="a6123d875aaeb75e2004553b828580ac5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6123d875aaeb75e2004553b828580ac5">&#9670;&#160;</a></span>MR_CutMeshResult_Get_fbsWithContourIntersections()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> * MR_CutMeshResult_Get_fbsWithContourIntersections </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Bitset of bad triangles - triangles where input contours have intersections and cannot be cut and filled in a good way </p><dl class="section see"><dt>See also</dt><dd><a class="elRef" href="../Cpp/structMR_1_1CutMeshParameters.html">MR::CutMeshParameters</a> Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshResult.html">MR::CutMeshResult</a></code> named <code>fbsWithContourIntersections</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </dd></dl>
+
+</div>
+</div>
+<a id="ac617dc3c2a4257ba9f6bc9570abd6258" name="ac617dc3c2a4257ba9f6bc9570abd6258"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac617dc3c2a4257ba9f6bc9570abd6258">&#9670;&#160;</a></span>MR_CutMeshResult_Get_resultCut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> * MR_CutMeshResult_Get_resultCut </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Paths of new edges on mesh, they represent same contours as input, but already cut Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshResult.html">MR::CutMeshResult</a></code> named <code>resultCut</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a10058eeebd6bba23777db7967de77fc5" name="a10058eeebd6bba23777db7967de77fc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10058eeebd6bba23777db7967de77fc5">&#9670;&#160;</a></span>MR_CutMeshResult_GetMutable_fbsWithContourIntersections()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> * MR_CutMeshResult_GetMutable_fbsWithContourIntersections </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Bitset of bad triangles - triangles where input contours have intersections and cannot be cut and filled in a good way </p><dl class="section see"><dt>See also</dt><dd><a class="elRef" href="../Cpp/structMR_1_1CutMeshParameters.html">MR::CutMeshParameters</a> Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshResult.html">MR::CutMeshResult</a></code> named <code>fbsWithContourIntersections</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </dd></dl>
+
+</div>
+</div>
+<a id="ae81cb1075980a572596620dc66c12705" name="ae81cb1075980a572596620dc66c12705"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae81cb1075980a572596620dc66c12705">&#9670;&#160;</a></span>MR_CutMeshResult_GetMutable_resultCut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> * MR_CutMeshResult_GetMutable_resultCut </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Paths of new edges on mesh, they represent same contours as input, but already cut Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshResult.html">MR::CutMeshResult</a></code> named <code>resultCut</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a641f926dd5e5a8c7f37facad75e2d5ad" name="a641f926dd5e5a8c7f37facad75e2d5ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a641f926dd5e5a8c7f37facad75e2d5ad">&#9670;&#160;</a></span>MR_CutMeshResult_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> * MR_CutMeshResult_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a6a20d53975e308f66a05b1e33af60d8b" name="a6a20d53975e308f66a05b1e33af60d8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a20d53975e308f66a05b1e33af60d8b">&#9670;&#160;</a></span>MR_CutMeshResult_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> * MR_CutMeshResult_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a57ab336b31ff562ddf3ff683df79af46" name="a57ab336b31ff562ddf3ff683df79af46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57ab336b31ff562ddf3ff683df79af46">&#9670;&#160;</a></span>MR_CutMeshResult_Set_fbsWithContourIntersections()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CutMeshResult_Set_fbsWithContourIntersections </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Bitset of bad triangles - triangles where input contours have intersections and cannot be cut and filled in a good way </p><dl class="section see"><dt>See also</dt><dd><a class="elRef" href="../Cpp/structMR_1_1CutMeshParameters.html">MR::CutMeshParameters</a> Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshResult.html">MR::CutMeshResult</a></code> named <code>fbsWithContourIntersections</code>. Parameter <code>_this</code> can not be null. </dd></dl>
+
+</div>
+</div>
+<a id="a2d06895261b7f8dc90ca1ecafa29308e" name="a2d06895261b7f8dc90ca1ecafa29308e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d06895261b7f8dc90ca1ecafa29308e">&#9670;&#160;</a></span>MR_CutMeshResult_Set_resultCut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CutMeshResult_Set_resultCut </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Paths of new edges on mesh, they represent same contours as input, but already cut Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshResult.html">MR::CutMeshResult</a></code> named <code>resultCut</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa7c7703fdaf32577d297497abf287d11" name="aa7c7703fdaf32577d297497abf287d11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7c7703fdaf32577d297497abf287d11">&#9670;&#160;</a></span>MR_NewEdgesMap_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API MR_NewEdgesMap * MR_NewEdgesMap_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">MR_NewEdgesMap *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR_NewEdgesMap *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1NewEdgesMap.html">MR::NewEdgesMap</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ae66194de53a70769daa10b5054b0b7b9" name="ae66194de53a70769daa10b5054b0b7b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae66194de53a70769daa10b5054b0b7b9">&#9670;&#160;</a></span>MR_NewEdgesMap_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API MR_NewEdgesMap * MR_NewEdgesMap_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>splitEdges_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>splitEdges</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>map_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a527e30eede22a5ec4932109f1442583e">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_int32_t</a> *</td>          <td class="paramname"><span class="paramname"><em>map</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1NewEdgesMap.html">MR::NewEdgesMap</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac343bd334dd81f98b90c662741233bbe" title="Destroys a heap-allocated instance of MR_NewEdgesMap. Does nothing if the pointer is null.">MR_NewEdgesMap_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a8a3a7a6572b02760994dab066d08d298" name="a8a3a7a6572b02760994dab066d08d298"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a3a7a6572b02760994dab066d08d298">&#9670;&#160;</a></span>MR_NewEdgesMap_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API MR_NewEdgesMap * MR_NewEdgesMap_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR_NewEdgesMap *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1NewEdgesMap.html">MR::NewEdgesMap</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac343bd334dd81f98b90c662741233bbe" title="Destroys a heap-allocated instance of MR_NewEdgesMap. Does nothing if the pointer is null.">MR_NewEdgesMap_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ad5a357ce190b56f54b28f70be60bb19b" name="ad5a357ce190b56f54b28f70be60bb19b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5a357ce190b56f54b28f70be60bb19b">&#9670;&#160;</a></span>MR_NewEdgesMap_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API MR_NewEdgesMap * MR_NewEdgesMap_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac343bd334dd81f98b90c662741233bbe" title="Destroys a heap-allocated instance of MR_NewEdgesMap. Does nothing if the pointer is null.">MR_NewEdgesMap_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a2b3a476ee7b12c0e5d36ee6ed64ec70f" name="a2b3a476ee7b12c0e5d36ee6ed64ec70f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b3a476ee7b12c0e5d36ee6ed64ec70f">&#9670;&#160;</a></span>MR_NewEdgesMap_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API MR_NewEdgesMap * MR_NewEdgesMap_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#ace5263ab69125745ee8ed65e73ec6da1" title="Destroys a heap-allocated array of MR_NewEdgesMap. Does nothing if the pointer is null.">MR_NewEdgesMap_DestroyArray()</a></code>. Use <code><a class="el" href="#a5fa13e35e1a15805e3b2199ef79fe9bc" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_NewEdgesMap_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a970e3c1cc36ce5a9d5e517bb82b95ee4" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_NewEdgesMap_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ac343bd334dd81f98b90c662741233bbe" name="ac343bd334dd81f98b90c662741233bbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac343bd334dd81f98b90c662741233bbe">&#9670;&#160;</a></span>MR_NewEdgesMap_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_NewEdgesMap_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const MR_NewEdgesMap *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_NewEdgesMap</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ace5263ab69125745ee8ed65e73ec6da1" name="ace5263ab69125745ee8ed65e73ec6da1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace5263ab69125745ee8ed65e73ec6da1">&#9670;&#160;</a></span>MR_NewEdgesMap_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_NewEdgesMap_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const MR_NewEdgesMap *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_NewEdgesMap</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a9dae64dde4f950aab176e758af308875" name="a9dae64dde4f950aab176e758af308875"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dae64dde4f950aab176e758af308875">&#9670;&#160;</a></span>MR_NewEdgesMap_Get_map()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a527e30eede22a5ec4932109f1442583e">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_int32_t</a> * MR_NewEdgesMap_Get_map </td>
+          <td>(</td>
+          <td class="paramtype">const MR_NewEdgesMap *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>maps every edge appeared during subdivision to an original edge before mesh subdivision; for splitEdges[key]=true, the value is arbitrary oriented original edge, for which key-edge is its part; for splitEdges[key]=false, the value is an original triangle Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1NewEdgesMap.html">MR::NewEdgesMap</a></code> named <code>map</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a46f92461182970808870cc1495da5cf5" name="a46f92461182970808870cc1495da5cf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46f92461182970808870cc1495da5cf5">&#9670;&#160;</a></span>MR_NewEdgesMap_Get_splitEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_NewEdgesMap_Get_splitEdges </td>
+          <td>(</td>
+          <td class="paramtype">const MR_NewEdgesMap *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>true here means that a subdivided edge is a part of some original edge edge before mesh subdivision; false here is both for unmodified edges and for new edges introduced within original triangles Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1NewEdgesMap.html">MR::NewEdgesMap</a></code> named <code>splitEdges</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a9f68d2ca996b2801fdd3e16db5e92f23" name="a9f68d2ca996b2801fdd3e16db5e92f23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f68d2ca996b2801fdd3e16db5e92f23">&#9670;&#160;</a></span>MR_NewEdgesMap_GetMutable_map()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a527e30eede22a5ec4932109f1442583e">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_int32_t</a> * MR_NewEdgesMap_GetMutable_map </td>
+          <td>(</td>
+          <td class="paramtype">MR_NewEdgesMap *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>maps every edge appeared during subdivision to an original edge before mesh subdivision; for splitEdges[key]=true, the value is arbitrary oriented original edge, for which key-edge is its part; for splitEdges[key]=false, the value is an original triangle Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1NewEdgesMap.html">MR::NewEdgesMap</a></code> named <code>map</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a119d83a4829bf8f4730158f632826946" name="a119d83a4829bf8f4730158f632826946"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a119d83a4829bf8f4730158f632826946">&#9670;&#160;</a></span>MR_NewEdgesMap_GetMutable_splitEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_NewEdgesMap_GetMutable_splitEdges </td>
+          <td>(</td>
+          <td class="paramtype">MR_NewEdgesMap *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>true here means that a subdivided edge is a part of some original edge edge before mesh subdivision; false here is both for unmodified edges and for new edges introduced within original triangles Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1NewEdgesMap.html">MR::NewEdgesMap</a></code> named <code>splitEdges</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a5fa13e35e1a15805e3b2199ef79fe9bc" name="a5fa13e35e1a15805e3b2199ef79fe9bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fa13e35e1a15805e3b2199ef79fe9bc">&#9670;&#160;</a></span>MR_NewEdgesMap_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API MR_NewEdgesMap * MR_NewEdgesMap_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype">MR_NewEdgesMap *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a970e3c1cc36ce5a9d5e517bb82b95ee4" name="a970e3c1cc36ce5a9d5e517bb82b95ee4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a970e3c1cc36ce5a9d5e517bb82b95ee4">&#9670;&#160;</a></span>MR_NewEdgesMap_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const MR_NewEdgesMap * MR_NewEdgesMap_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const MR_NewEdgesMap *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a7f9633412eadcee6f2bf1c88b0b2b832" name="a7f9633412eadcee6f2bf1c88b0b2b832"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f9633412eadcee6f2bf1c88b0b2b832">&#9670;&#160;</a></span>MR_NewEdgesMap_Set_map()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_NewEdgesMap_Set_map </td>
+          <td>(</td>
+          <td class="paramtype">MR_NewEdgesMap *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a527e30eede22a5ec4932109f1442583e">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_int32_t</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>maps every edge appeared during subdivision to an original edge before mesh subdivision; for splitEdges[key]=true, the value is arbitrary oriented original edge, for which key-edge is its part; for splitEdges[key]=false, the value is an original triangle Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1NewEdgesMap.html">MR::NewEdgesMap</a></code> named <code>map</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a400a0892dcba681cf7884b4f40e7f2f4" name="a400a0892dcba681cf7884b4f40e7f2f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a400a0892dcba681cf7884b4f40e7f2f4">&#9670;&#160;</a></span>MR_NewEdgesMap_Set_splitEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_NewEdgesMap_Set_splitEdges </td>
+          <td>(</td>
+          <td class="paramtype">MR_NewEdgesMap *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>true here means that a subdivided edge is a part of some original edge edge before mesh subdivision; false here is both for unmodified edges and for new edges introduced within original triangles Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1NewEdgesMap.html">MR::NewEdgesMap</a></code> named <code>splitEdges</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_8b489c7b5d1a72d35ec87e32cc37b940.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRContoursCut_8h.html">MRContoursCut.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

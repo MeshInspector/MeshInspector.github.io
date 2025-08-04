@@ -1,0 +1,1079 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRMeshMetrics.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRMeshMetrics_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRMeshMetrics.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="MRMeshMetrics_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:aba7bc6ac732c34fd4721c543fa3445ea" id="r_aba7bc6ac732c34fd4721c543fa3445ea"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a></td></tr>
+<tr class="separator:aba7bc6ac732c34fd4721c543fa3445ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31b172f68efca6438544d56eb86d6f40" id="r_a31b172f68efca6438544d56eb86d6f40"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td></tr>
+<tr class="separator:a31b172f68efca6438544d56eb86d6f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7548d3448b3b7da1ea96433fe902e9a" id="r_aa7548d3448b3b7da1ea96433fe902e9a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a></td></tr>
+<tr class="separator:aa7548d3448b3b7da1ea96433fe902e9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bf133eda1ec95be202b77c33412bc8e" id="r_a6bf133eda1ec95be202b77c33412bc8e"><td class="memItemLeft" align="right" valign="top">typedef struct MR_Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bf133eda1ec95be202b77c33412bc8e">MR_Vector3f</a></td></tr>
+<tr class="separator:a6bf133eda1ec95be202b77c33412bc8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87eeba6b560f3de5ecc94f45d2a1c544" id="r_a87eeba6b560f3de5ecc94f45d2a1c544"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a87eeba6b560f3de5ecc94f45d2a1c544">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87eeba6b560f3de5ecc94f45d2a1c544">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</a></td></tr>
+<tr class="separator:a87eeba6b560f3de5ecc94f45d2a1c544"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a7e17005e1f25c015aa2982a2d269fd" id="r_a2a7e17005e1f25c015aa2982a2d269fd"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a2a7e17005e1f25c015aa2982a2d269fd">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a7e17005e1f25c015aa2982a2d269fd">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId</a></td></tr>
+<tr class="separator:a2a7e17005e1f25c015aa2982a2d269fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a141615b33916c2ac26def367006324c9" id="r_a141615b33916c2ac26def367006324c9"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a141615b33916c2ac26def367006324c9">MR_std_function_double_from_double_double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a141615b33916c2ac26def367006324c9">MR_std_function_double_from_double_double</a></td></tr>
+<tr class="separator:a141615b33916c2ac26def367006324c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ada8b7c6797cc0bd90970cb9b243afa" id="r_a6ada8b7c6797cc0bd90970cb9b243afa"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a></td></tr>
+<tr class="memdesc:a6ada8b7c6797cc0bd90970cb9b243afa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleMetric.html">MR::FillHoleMetric</a></code>.  <br /></td></tr>
+<tr class="separator:a6ada8b7c6797cc0bd90970cb9b243afa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a4cad29150e907c7f3c126e12082bafa4" id="r_a4cad29150e907c7f3c126e12082bafa4"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a87eeba6b560f3de5ecc94f45d2a1c544">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cad29150e907c7f3c126e12082bafa4">MR_FillHoleMetric_Get_triangleMetric</a> (const <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *_this)</td></tr>
+<tr class="separator:a4cad29150e907c7f3c126e12082bafa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9cf9ea32ba1011c50b106a409147f27" id="r_ac9cf9ea32ba1011c50b106a409147f27"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9cf9ea32ba1011c50b106a409147f27">MR_FillHoleMetric_Set_triangleMetric</a> (<a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#a87eeba6b560f3de5ecc94f45d2a1c544">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</a> *value)</td></tr>
+<tr class="separator:ac9cf9ea32ba1011c50b106a409147f27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fe67e9cfbb2c6bfa7d2260baa132b48" id="r_a0fe67e9cfbb2c6bfa7d2260baa132b48"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a87eeba6b560f3de5ecc94f45d2a1c544">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fe67e9cfbb2c6bfa7d2260baa132b48">MR_FillHoleMetric_GetMutable_triangleMetric</a> (<a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *_this)</td></tr>
+<tr class="separator:a0fe67e9cfbb2c6bfa7d2260baa132b48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd1eb6744b5303d9f51cd858f3fdc85e" id="r_abd1eb6744b5303d9f51cd858f3fdc85e"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a2a7e17005e1f25c015aa2982a2d269fd">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd1eb6744b5303d9f51cd858f3fdc85e">MR_FillHoleMetric_Get_edgeMetric</a> (const <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *_this)</td></tr>
+<tr class="separator:abd1eb6744b5303d9f51cd858f3fdc85e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbae1e0b178e7bbcf5d536de0dbc2b66" id="r_afbae1e0b178e7bbcf5d536de0dbc2b66"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbae1e0b178e7bbcf5d536de0dbc2b66">MR_FillHoleMetric_Set_edgeMetric</a> (<a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#a2a7e17005e1f25c015aa2982a2d269fd">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId</a> *value)</td></tr>
+<tr class="separator:afbae1e0b178e7bbcf5d536de0dbc2b66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a247e78d3d1409f98e70a213295ad7369" id="r_a247e78d3d1409f98e70a213295ad7369"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a2a7e17005e1f25c015aa2982a2d269fd">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a247e78d3d1409f98e70a213295ad7369">MR_FillHoleMetric_GetMutable_edgeMetric</a> (<a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *_this)</td></tr>
+<tr class="separator:a247e78d3d1409f98e70a213295ad7369"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae81990365d353dfa21b128574fcc74dd" id="r_ae81990365d353dfa21b128574fcc74dd"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a141615b33916c2ac26def367006324c9">MR_std_function_double_from_double_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae81990365d353dfa21b128574fcc74dd">MR_FillHoleMetric_Get_combineMetric</a> (const <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *_this)</td></tr>
+<tr class="separator:ae81990365d353dfa21b128574fcc74dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa2f28198abc94ed4feca25d2cb76026" id="r_aaa2f28198abc94ed4feca25d2cb76026"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa2f28198abc94ed4feca25d2cb76026">MR_FillHoleMetric_Set_combineMetric</a> (<a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#a141615b33916c2ac26def367006324c9">MR_std_function_double_from_double_double</a> *value)</td></tr>
+<tr class="separator:aaa2f28198abc94ed4feca25d2cb76026"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb96f036128ae6d21ff09044374b0000" id="r_aeb96f036128ae6d21ff09044374b0000"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a141615b33916c2ac26def367006324c9">MR_std_function_double_from_double_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb96f036128ae6d21ff09044374b0000">MR_FillHoleMetric_GetMutable_combineMetric</a> (<a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *_this)</td></tr>
+<tr class="separator:aeb96f036128ae6d21ff09044374b0000"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bc9541c5eb7a42e9ec24b01323bd074" id="r_a2bc9541c5eb7a42e9ec24b01323bd074"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2bc9541c5eb7a42e9ec24b01323bd074">MR_FillHoleMetric_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a2bc9541c5eb7a42e9ec24b01323bd074"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e3eabc84e6ba7fb1b0cd7fca4af15ec" id="r_a2e3eabc84e6ba7fb1b0cd7fca4af15ec"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e3eabc84e6ba7fb1b0cd7fca4af15ec">MR_FillHoleMetric_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a2e3eabc84e6ba7fb1b0cd7fca4af15ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7186a6c24450edafe0858f814e2cac54" id="r_a7186a6c24450edafe0858f814e2cac54"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7186a6c24450edafe0858f814e2cac54">MR_FillHoleMetric_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> triangleMetric_pass_by, <a class="el" href="#a87eeba6b560f3de5ecc94f45d2a1c544">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</a> *triangleMetric, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> edgeMetric_pass_by, <a class="el" href="#a2a7e17005e1f25c015aa2982a2d269fd">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId</a> *edgeMetric, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> combineMetric_pass_by, <a class="el" href="#a141615b33916c2ac26def367006324c9">MR_std_function_double_from_double_double</a> *combineMetric)</td></tr>
+<tr class="separator:a7186a6c24450edafe0858f814e2cac54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c52693db7fce614c8f22c0ac52c6860" id="r_a8c52693db7fce614c8f22c0ac52c6860"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c52693db7fce614c8f22c0ac52c6860">MR_FillHoleMetric_OffsetPtr</a> (const <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a8c52693db7fce614c8f22c0ac52c6860"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a8c52693db7fce614c8f22c0ac52c6860"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4b9581c7b636fd68221234613ae39e6" id="r_ad4b9581c7b636fd68221234613ae39e6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4b9581c7b636fd68221234613ae39e6">MR_FillHoleMetric_OffsetMutablePtr</a> (<a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ad4b9581c7b636fd68221234613ae39e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ad4b9581c7b636fd68221234613ae39e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84c44bec98e2831e912f87be37392a9b" id="r_a84c44bec98e2831e912f87be37392a9b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84c44bec98e2831e912f87be37392a9b">MR_FillHoleMetric_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *_other)</td></tr>
+<tr class="separator:a84c44bec98e2831e912f87be37392a9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade64d89e14732245a119db72f913913d" id="r_ade64d89e14732245a119db72f913913d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade64d89e14732245a119db72f913913d">MR_FillHoleMetric_Destroy</a> (const <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *_this)</td></tr>
+<tr class="memdesc:ade64d89e14732245a119db72f913913d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_FillHoleMetric</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ade64d89e14732245a119db72f913913d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac20a33ca1a42cbb5f2b96ac0fac68c21" id="r_ac20a33ca1a42cbb5f2b96ac0fac68c21"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac20a33ca1a42cbb5f2b96ac0fac68c21">MR_FillHoleMetric_DestroyArray</a> (const <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *_this)</td></tr>
+<tr class="memdesc:ac20a33ca1a42cbb5f2b96ac0fac68c21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_FillHoleMetric</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ac20a33ca1a42cbb5f2b96ac0fac68c21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b3959d486119a751602be97fee149df" id="r_a6b3959d486119a751602be97fee149df"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b3959d486119a751602be97fee149df">MR_FillHoleMetric_AssignFromAnother</a> (<a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *_other)</td></tr>
+<tr class="separator:a6b3959d486119a751602be97fee149df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b71317d0a1586b2e8f003adb2e7f078" id="r_a7b71317d0a1586b2e8f003adb2e7f078"><td class="memItemLeft" align="right" valign="top">MRC_API double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b71317d0a1586b2e8f003adb2e7f078">MR_calcCombinedFillMetric</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *filledRegion, const <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *metric)</td></tr>
+<tr class="separator:a7b71317d0a1586b2e8f003adb2e7f078"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a158c91c4a9b7800ea95b6705c2f347b7" id="r_a158c91c4a9b7800ea95b6705c2f347b7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a158c91c4a9b7800ea95b6705c2f347b7">MR_getCircumscribedMetric</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh)</td></tr>
+<tr class="separator:a158c91c4a9b7800ea95b6705c2f347b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab71c036a267af3a7e898c3c21148026c" id="r_ab71c036a267af3a7e898c3c21148026c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab71c036a267af3a7e898c3c21148026c">MR_getPlaneFillMetric</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> e)</td></tr>
+<tr class="separator:ab71c036a267af3a7e898c3c21148026c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adaae815ac44bf8dce1f9aad9c4a26dcd" id="r_adaae815ac44bf8dce1f9aad9c4a26dcd"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adaae815ac44bf8dce1f9aad9c4a26dcd">MR_getPlaneNormalizedFillMetric</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> e)</td></tr>
+<tr class="separator:adaae815ac44bf8dce1f9aad9c4a26dcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefc62aea7e5a1b086fb753fbe48331f3" id="r_aefc62aea7e5a1b086fb753fbe48331f3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefc62aea7e5a1b086fb753fbe48331f3">MR_getComplexStitchMetric</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh)</td></tr>
+<tr class="separator:aefc62aea7e5a1b086fb753fbe48331f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5de00984b816a5b8b8de40ed707286fd" id="r_a5de00984b816a5b8b8de40ed707286fd"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5de00984b816a5b8b8de40ed707286fd">MR_getEdgeLengthFillMetric</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh)</td></tr>
+<tr class="separator:a5de00984b816a5b8b8de40ed707286fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af591af0c2046f584d4c811ef697e02ac" id="r_af591af0c2046f584d4c811ef697e02ac"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af591af0c2046f584d4c811ef697e02ac">MR_getEdgeLengthStitchMetric</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh)</td></tr>
+<tr class="separator:af591af0c2046f584d4c811ef697e02ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a979abf093be13d558b0b52a9da4782" id="r_a3a979abf093be13d558b0b52a9da4782"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a979abf093be13d558b0b52a9da4782">MR_getVerticalStitchMetric</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *upDir)</td></tr>
+<tr class="separator:a3a979abf093be13d558b0b52a9da4782"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2bd61ec3e5e7cbbb3eb21e2d9261f1c" id="r_aa2bd61ec3e5e7cbbb3eb21e2d9261f1c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2bd61ec3e5e7cbbb3eb21e2d9261f1c">MR_getComplexFillMetric</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> e)</td></tr>
+<tr class="separator:aa2bd61ec3e5e7cbbb3eb21e2d9261f1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01dafe635ce14b8635a07ee9bb631039" id="r_a01dafe635ce14b8635a07ee9bb631039"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01dafe635ce14b8635a07ee9bb631039">MR_getParallelPlaneFillMetric</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> e, const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *plane)</td></tr>
+<tr class="separator:a01dafe635ce14b8635a07ee9bb631039"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4056afa79de9414e524f4e5d55ab53a2" id="r_a4056afa79de9414e524f4e5d55ab53a2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4056afa79de9414e524f4e5d55ab53a2">MR_getMaxDihedralAngleMetric</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh)</td></tr>
+<tr class="separator:a4056afa79de9414e524f4e5d55ab53a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34e8e448e50bdff6125aafa6259af546" id="r_a34e8e448e50bdff6125aafa6259af546"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34e8e448e50bdff6125aafa6259af546">MR_getUniversalMetric</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh)</td></tr>
+<tr class="separator:a34e8e448e50bdff6125aafa6259af546"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6aa4fe43c494a434394c749d73d3d092" id="r_a6aa4fe43c494a434394c749d73d3d092"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6aa4fe43c494a434394c749d73d3d092">MR_getMinTriAngleMetric</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh)</td></tr>
+<tr class="separator:a6aa4fe43c494a434394c749d73d3d092"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80e75edc0a953ff704c014233f482d81" id="r_a80e75edc0a953ff704c014233f482d81"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80e75edc0a953ff704c014233f482d81">MR_getMinAreaMetric</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh)</td></tr>
+<tr class="separator:a80e75edc0a953ff704c014233f482d81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="aba7bc6ac732c34fd4721c543fa3445ea" name="aba7bc6ac732c34fd4721c543fa3445ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba7bc6ac732c34fd4721c543fa3445ea">&#9670;&#160;</a></span>MR_FaceBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6ada8b7c6797cc0bd90970cb9b243afa" name="a6ada8b7c6797cc0bd90970cb9b243afa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ada8b7c6797cc0bd90970cb9b243afa">&#9670;&#160;</a></span>MR_FillHoleMetric</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleMetric.html">MR::FillHoleMetric</a></code>. </p>
+
+</div>
+</div>
+<a id="a31b172f68efca6438544d56eb86d6f40" name="a31b172f68efca6438544d56eb86d6f40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31b172f68efca6438544d56eb86d6f40">&#9670;&#160;</a></span>MR_Mesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa7548d3448b3b7da1ea96433fe902e9a" name="aa7548d3448b3b7da1ea96433fe902e9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7548d3448b3b7da1ea96433fe902e9a">&#9670;&#160;</a></span>MR_Plane3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a141615b33916c2ac26def367006324c9" name="a141615b33916c2ac26def367006324c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a141615b33916c2ac26def367006324c9">&#9670;&#160;</a></span>MR_std_function_double_from_double_double</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a141615b33916c2ac26def367006324c9">MR_std_function_double_from_double_double</a> <a class="el" href="#a141615b33916c2ac26def367006324c9">MR_std_function_double_from_double_double</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87eeba6b560f3de5ecc94f45d2a1c544" name="a87eeba6b560f3de5ecc94f45d2a1c544"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87eeba6b560f3de5ecc94f45d2a1c544">&#9670;&#160;</a></span>MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a87eeba6b560f3de5ecc94f45d2a1c544">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</a> <a class="el" href="#a87eeba6b560f3de5ecc94f45d2a1c544">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2a7e17005e1f25c015aa2982a2d269fd" name="a2a7e17005e1f25c015aa2982a2d269fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a7e17005e1f25c015aa2982a2d269fd">&#9670;&#160;</a></span>MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a2a7e17005e1f25c015aa2982a2d269fd">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId</a> <a class="el" href="#a2a7e17005e1f25c015aa2982a2d269fd">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6bf133eda1ec95be202b77c33412bc8e" name="a6bf133eda1ec95be202b77c33412bc8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bf133eda1ec95be202b77c33412bc8e">&#9670;&#160;</a></span>MR_Vector3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct MR_Vector3f MR_Vector3f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a7b71317d0a1586b2e8f003adb2e7f078" name="a7b71317d0a1586b2e8f003adb2e7f078"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b71317d0a1586b2e8f003adb2e7f078">&#9670;&#160;</a></span>MR_calcCombinedFillMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API double MR_calcCombinedFillMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>filledRegion</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *</td>          <td class="paramname"><span class="paramname"><em>metric</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes combined metric after filling a hole Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga42f6ba6ec6bdfa6f27d1045e79b9346e">MR::calcCombinedFillMetric</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>filledRegion</code> can not be null. Parameter <code>metric</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6b3959d486119a751602be97fee149df" name="a6b3959d486119a751602be97fee149df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b3959d486119a751602be97fee149df">&#9670;&#160;</a></span>MR_FillHoleMetric_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> * MR_FillHoleMetric_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleMetric.html">MR::FillHoleMetric</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a7186a6c24450edafe0858f814e2cac54" name="a7186a6c24450edafe0858f814e2cac54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7186a6c24450edafe0858f814e2cac54">&#9670;&#160;</a></span>MR_FillHoleMetric_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> * MR_FillHoleMetric_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>triangleMetric_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a87eeba6b560f3de5ecc94f45d2a1c544">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>triangleMetric</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>edgeMetric_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a2a7e17005e1f25c015aa2982a2d269fd">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>edgeMetric</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>combineMetric_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a141615b33916c2ac26def367006324c9">MR_std_function_double_from_double_double</a> *</td>          <td class="paramname"><span class="paramname"><em>combineMetric</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleMetric.html">MR::FillHoleMetric</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a84c44bec98e2831e912f87be37392a9b" name="a84c44bec98e2831e912f87be37392a9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84c44bec98e2831e912f87be37392a9b">&#9670;&#160;</a></span>MR_FillHoleMetric_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> * MR_FillHoleMetric_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleMetric.html">MR::FillHoleMetric</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a2bc9541c5eb7a42e9ec24b01323bd074" name="a2bc9541c5eb7a42e9ec24b01323bd074"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bc9541c5eb7a42e9ec24b01323bd074">&#9670;&#160;</a></span>MR_FillHoleMetric_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> * MR_FillHoleMetric_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a2e3eabc84e6ba7fb1b0cd7fca4af15ec" name="a2e3eabc84e6ba7fb1b0cd7fca4af15ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e3eabc84e6ba7fb1b0cd7fca4af15ec">&#9670;&#160;</a></span>MR_FillHoleMetric_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> * MR_FillHoleMetric_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#ac20a33ca1a42cbb5f2b96ac0fac68c21" title="Destroys a heap-allocated array of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_DestroyArray()</a></code>. Use <code><a class="el" href="#ad4b9581c7b636fd68221234613ae39e6" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_FillHoleMetric_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a8c52693db7fce614c8f22c0ac52c6860" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_FillHoleMetric_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ade64d89e14732245a119db72f913913d" name="ade64d89e14732245a119db72f913913d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade64d89e14732245a119db72f913913d">&#9670;&#160;</a></span>MR_FillHoleMetric_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FillHoleMetric_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_FillHoleMetric</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ac20a33ca1a42cbb5f2b96ac0fac68c21" name="ac20a33ca1a42cbb5f2b96ac0fac68c21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac20a33ca1a42cbb5f2b96ac0fac68c21">&#9670;&#160;</a></span>MR_FillHoleMetric_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FillHoleMetric_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_FillHoleMetric</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ae81990365d353dfa21b128574fcc74dd" name="ae81990365d353dfa21b128574fcc74dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae81990365d353dfa21b128574fcc74dd">&#9670;&#160;</a></span>MR_FillHoleMetric_Get_combineMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a141615b33916c2ac26def367006324c9">MR_std_function_double_from_double_double</a> * MR_FillHoleMetric_Get_combineMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>is called to combine metrics from different candidates, if it is not set it just summarizes input Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleMetric.html">MR::FillHoleMetric</a></code> named <code>combineMetric</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="abd1eb6744b5303d9f51cd858f3fdc85e" name="abd1eb6744b5303d9f51cd858f3fdc85e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd1eb6744b5303d9f51cd858f3fdc85e">&#9670;&#160;</a></span>MR_FillHoleMetric_Get_edgeMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a2a7e17005e1f25c015aa2982a2d269fd">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId</a> * MR_FillHoleMetric_Get_edgeMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>is called for each edge, if it is set Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleMetric.html">MR::FillHoleMetric</a></code> named <code>edgeMetric</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a4cad29150e907c7f3c126e12082bafa4" name="a4cad29150e907c7f3c126e12082bafa4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cad29150e907c7f3c126e12082bafa4">&#9670;&#160;</a></span>MR_FillHoleMetric_Get_triangleMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a87eeba6b560f3de5ecc94f45d2a1c544">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</a> * MR_FillHoleMetric_Get_triangleMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>is called for each triangle, if it is set Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleMetric.html">MR::FillHoleMetric</a></code> named <code>triangleMetric</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aeb96f036128ae6d21ff09044374b0000" name="aeb96f036128ae6d21ff09044374b0000"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb96f036128ae6d21ff09044374b0000">&#9670;&#160;</a></span>MR_FillHoleMetric_GetMutable_combineMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a141615b33916c2ac26def367006324c9">MR_std_function_double_from_double_double</a> * MR_FillHoleMetric_GetMutable_combineMetric </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>is called to combine metrics from different candidates, if it is not set it just summarizes input Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleMetric.html">MR::FillHoleMetric</a></code> named <code>combineMetric</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a247e78d3d1409f98e70a213295ad7369" name="a247e78d3d1409f98e70a213295ad7369"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a247e78d3d1409f98e70a213295ad7369">&#9670;&#160;</a></span>MR_FillHoleMetric_GetMutable_edgeMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a2a7e17005e1f25c015aa2982a2d269fd">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId</a> * MR_FillHoleMetric_GetMutable_edgeMetric </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>is called for each edge, if it is set Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleMetric.html">MR::FillHoleMetric</a></code> named <code>edgeMetric</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a0fe67e9cfbb2c6bfa7d2260baa132b48" name="a0fe67e9cfbb2c6bfa7d2260baa132b48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fe67e9cfbb2c6bfa7d2260baa132b48">&#9670;&#160;</a></span>MR_FillHoleMetric_GetMutable_triangleMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a87eeba6b560f3de5ecc94f45d2a1c544">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</a> * MR_FillHoleMetric_GetMutable_triangleMetric </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>is called for each triangle, if it is set Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleMetric.html">MR::FillHoleMetric</a></code> named <code>triangleMetric</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ad4b9581c7b636fd68221234613ae39e6" name="ad4b9581c7b636fd68221234613ae39e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4b9581c7b636fd68221234613ae39e6">&#9670;&#160;</a></span>MR_FillHoleMetric_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> * MR_FillHoleMetric_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a8c52693db7fce614c8f22c0ac52c6860" name="a8c52693db7fce614c8f22c0ac52c6860"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c52693db7fce614c8f22c0ac52c6860">&#9670;&#160;</a></span>MR_FillHoleMetric_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> * MR_FillHoleMetric_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="aaa2f28198abc94ed4feca25d2cb76026" name="aaa2f28198abc94ed4feca25d2cb76026"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa2f28198abc94ed4feca25d2cb76026">&#9670;&#160;</a></span>MR_FillHoleMetric_Set_combineMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FillHoleMetric_Set_combineMetric </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a141615b33916c2ac26def367006324c9">MR_std_function_double_from_double_double</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>is called to combine metrics from different candidates, if it is not set it just summarizes input Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleMetric.html">MR::FillHoleMetric</a></code> named <code>combineMetric</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="afbae1e0b178e7bbcf5d536de0dbc2b66" name="afbae1e0b178e7bbcf5d536de0dbc2b66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbae1e0b178e7bbcf5d536de0dbc2b66">&#9670;&#160;</a></span>MR_FillHoleMetric_Set_edgeMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FillHoleMetric_Set_edgeMetric </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a2a7e17005e1f25c015aa2982a2d269fd">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>is called for each edge, if it is set Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleMetric.html">MR::FillHoleMetric</a></code> named <code>edgeMetric</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac9cf9ea32ba1011c50b106a409147f27" name="ac9cf9ea32ba1011c50b106a409147f27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9cf9ea32ba1011c50b106a409147f27">&#9670;&#160;</a></span>MR_FillHoleMetric_Set_triangleMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FillHoleMetric_Set_triangleMetric </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a87eeba6b560f3de5ecc94f45d2a1c544">MR_std_function_double_from_MR_VertId_MR_VertId_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>is called for each triangle, if it is set Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleMetric.html">MR::FillHoleMetric</a></code> named <code>triangleMetric</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a158c91c4a9b7800ea95b6705c2f347b7" name="a158c91c4a9b7800ea95b6705c2f347b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a158c91c4a9b7800ea95b6705c2f347b7">&#9670;&#160;</a></span>MR_getCircumscribedMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> * MR_getCircumscribedMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This metric minimizes the sum of circumcircle radii for all triangles in the triangulation. It is rather fast to calculate, and it results in typically good triangulations. Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga1f8991ed600a3fc8cec5258a75d5edb5">MR::getCircumscribedMetric</a></code>. Parameter <code>mesh</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aa2bd61ec3e5e7cbbb3eb21e2d9261f1c" name="aa2bd61ec3e5e7cbbb3eb21e2d9261f1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2bd61ec3e5e7cbbb3eb21e2d9261f1c">&#9670;&#160;</a></span>MR_getComplexFillMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> * MR_getComplexFillMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__EdgeId.html">MR_EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This metric minimizes the sum of triangleMetric for all triangles in the triangulation plus the sum edgeMetric for all edges inside and on the boundary of the triangulation.<br  />
+Where<br  />
+triangleMetric is proportional to weighted triangle area and triangle aspect ratio<br  />
+edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos( x ) ) ) ^ 4. Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#gaa01960d0a269898638030197df262046">MR::getComplexFillMetric</a></code>. Parameter <code>mesh</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aefc62aea7e5a1b086fb753fbe48331f3" name="aefc62aea7e5a1b086fb753fbe48331f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefc62aea7e5a1b086fb753fbe48331f3">&#9670;&#160;</a></span>MR_getComplexStitchMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> * MR_getComplexStitchMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This metric minimizes the sum of triangleMetric for all triangles in the triangulation plus the sum edgeMetric for all edges inside and on the boundary of the triangulation.<br  />
+Where<br  />
+triangleMetric is proportional to triangle aspect ratio<br  />
+edgeMetric is proportional to ( 1 - dihedralAngleCos ) Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga254a08307d5300b9bc3843d7c8acf653">MR::getComplexStitchMetric</a></code>. Parameter <code>mesh</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5de00984b816a5b8b8de40ed707286fd" name="a5de00984b816a5b8b8de40ed707286fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5de00984b816a5b8b8de40ed707286fd">&#9670;&#160;</a></span>MR_getEdgeLengthFillMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> * MR_getEdgeLengthFillMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Simple metric minimizing the sum of all edge lengths Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga2bc1cb5bc1aba5dea400fb1ea6cc8a63">MR::getEdgeLengthFillMetric</a></code>. Parameter <code>mesh</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="af591af0c2046f584d4c811ef697e02ac" name="af591af0c2046f584d4c811ef697e02ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af591af0c2046f584d4c811ef697e02ac">&#9670;&#160;</a></span>MR_getEdgeLengthStitchMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> * MR_getEdgeLengthStitchMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Forbids connecting vertices from the same hole <br  />
+Simple metric minimizing edge length Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga21177488c5c69bed8eba38677306be0b">MR::getEdgeLengthStitchMetric</a></code>. Parameter <code>mesh</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a4056afa79de9414e524f4e5d55ab53a2" name="a4056afa79de9414e524f4e5d55ab53a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4056afa79de9414e524f4e5d55ab53a2">&#9670;&#160;</a></span>MR_getMaxDihedralAngleMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> * MR_getMaxDihedralAngleMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This metric minimizes the maximal dihedral angle between the faces in the triangulation and on its boundary Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#gab35620a56c8b1a4eb772c84e4dd9907b">MR::getMaxDihedralAngleMetric</a></code>. Parameter <code>mesh</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a80e75edc0a953ff704c014233f482d81" name="a80e75edc0a953ff704c014233f482d81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80e75edc0a953ff704c014233f482d81">&#9670;&#160;</a></span>MR_getMinAreaMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> * MR_getMinAreaMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This metric is for triangulation construction with minimal summed area of triangles. Warning: this metric can produce degenerated triangles Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac98959b47ab6fdfe548671b1416e6043">MR::getMinAreaMetric</a></code>. Parameter <code>mesh</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a6aa4fe43c494a434394c749d73d3d092" name="a6aa4fe43c494a434394c749d73d3d092"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6aa4fe43c494a434394c749d73d3d092">&#9670;&#160;</a></span>MR_getMinTriAngleMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> * MR_getMinTriAngleMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This metric maximizes the minimal angle among all faces in the triangulation Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga338fbef1b80c5730fcdc31a93c980781">MR::getMinTriAngleMetric</a></code>. Parameter <code>mesh</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a01dafe635ce14b8635a07ee9bb631039" name="a01dafe635ce14b8635a07ee9bb631039"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01dafe635ce14b8635a07ee9bb631039">&#9670;&#160;</a></span>MR_getParallelPlaneFillMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> * MR_getParallelPlaneFillMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__EdgeId.html">MR_EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *</td>          <td class="paramname"><span class="paramname"><em>plane</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This metric minimizes summary projection of new edges to plane normal, (try do produce edges parallel to plane) Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga9a4b77571e011a0b74c0a419e76ef332">MR::getParallelPlaneFillMetric</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>plane</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab71c036a267af3a7e898c3c21148026c" name="ab71c036a267af3a7e898c3c21148026c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab71c036a267af3a7e898c3c21148026c">&#9670;&#160;</a></span>MR_getPlaneFillMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> * MR_getPlaneFillMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__EdgeId.html">MR_EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Same as getCircumscribedFillMetric, but with extra penalty for the triangles having normals looking in the opposite side of plane containing left of (e). Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#gaa490c6225ad37e5491af1ed61365e774">MR::getPlaneFillMetric</a></code>. Parameter <code>mesh</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="adaae815ac44bf8dce1f9aad9c4a26dcd" name="adaae815ac44bf8dce1f9aad9c4a26dcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adaae815ac44bf8dce1f9aad9c4a26dcd">&#9670;&#160;</a></span>MR_getPlaneNormalizedFillMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> * MR_getPlaneNormalizedFillMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__EdgeId.html">MR_EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Similar to getPlaneFillMetric with extra penalty for the triangles having normals looking in the opposite side of plane containing left of (e), but the metric minimizes the sum of circumcircle radius times aspect ratio for all triangles in the triangulation. Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga57ca3e797d9308a5db4461b06d773c01">MR::getPlaneNormalizedFillMetric</a></code>. Parameter <code>mesh</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a34e8e448e50bdff6125aafa6259af546" name="a34e8e448e50bdff6125aafa6259af546"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34e8e448e50bdff6125aafa6259af546">&#9670;&#160;</a></span>MR_getUniversalMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> * MR_getUniversalMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This metric consists of two parts 1) for each triangle: it is the circumcircle diameter, this avoids the appearance of degenerate triangles; 2) for each edge: square root of double total area of triangles to its left and right times the factor depending extensionally on absolute dihedral angle between left and right triangles, this makes visually triangulated surface as smooth as possible. For planar holes it is the same as getCircumscribedMetric. Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga16a9d70b647d9b9f745ab650b21a975e">MR::getUniversalMetric</a></code>. Parameter <code>mesh</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a3a979abf093be13d558b0b52a9da4782" name="a3a979abf093be13d558b0b52a9da4782"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a979abf093be13d558b0b52a9da4782">&#9670;&#160;</a></span>MR_getVerticalStitchMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> * MR_getVerticalStitchMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>upDir</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Forbids connecting vertices from the same hole <br  />
+All new faces should be parallel to given direction Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#gaf5fc59fe1db6fed34f037ff6dad6bc44">MR::getVerticalStitchMetric</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>upDir</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_8b489c7b5d1a72d35ec87e32cc37b940.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRMeshMetrics_8h.html">MRMeshMetrics.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

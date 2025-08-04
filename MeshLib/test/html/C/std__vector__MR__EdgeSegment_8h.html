@@ -1,0 +1,1770 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: std_vector_MR_EdgeSegment.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('std__vector__MR__EdgeSegment_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">std_vector_MR_EdgeSegment.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="std__vector__MR__EdgeSegment_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a0c021c1ff5455ddaf134f46731ff4583" id="r_a0c021c1ff5455ddaf134f46731ff4583"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a></td></tr>
+<tr class="separator:a0c021c1ff5455ddaf134f46731ff4583"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb3511282eb9035483db67576efb0f01" id="r_afb3511282eb9035483db67576efb0f01"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a></td></tr>
+<tr class="separator:afb3511282eb9035483db67576efb0f01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae1cb64706ce283a57f30a01cb3f6463" id="r_aae1cb64706ce283a57f30a01cb3f6463"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a></td></tr>
+<tr class="separator:aae1cb64706ce283a57f30a01cb3f6463"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2469134f2e9b34351eac7d4f68c9efcb" id="r_a2469134f2e9b34351eac7d4f68c9efcb"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a></td></tr>
+<tr class="separator:a2469134f2e9b34351eac7d4f68c9efcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:aedbd621545c9629df8f12252dff9afda" id="r_aedbd621545c9629df8f12252dff9afda"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedbd621545c9629df8f12252dff9afda">MR_std_vector_MR_EdgeSegment_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:aedbd621545c9629df8f12252dff9afda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a304a74a6686ff86f9c0b2269e31113d1" id="r_a304a74a6686ff86f9c0b2269e31113d1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a304a74a6686ff86f9c0b2269e31113d1">MR_std_vector_MR_EdgeSegment_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a304a74a6686ff86f9c0b2269e31113d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab668b48cf13e88268a0e5939bea2e3e5" id="r_ab668b48cf13e88268a0e5939bea2e3e5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab668b48cf13e88268a0e5939bea2e3e5">MR_std_vector_MR_EdgeSegment_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *other)</td></tr>
+<tr class="separator:ab668b48cf13e88268a0e5939bea2e3e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99050ad7094b30cd7d7954831ced86f1" id="r_a99050ad7094b30cd7d7954831ced86f1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99050ad7094b30cd7d7954831ced86f1">MR_std_vector_MR_EdgeSegment_AssignFromAnother</a> (<a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *other)</td></tr>
+<tr class="separator:a99050ad7094b30cd7d7954831ced86f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f0f894a51c71b0ce572b4b70cafc6f4" id="r_a3f0f894a51c71b0ce572b4b70cafc6f4"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f0f894a51c71b0ce572b4b70cafc6f4">MR_std_vector_MR_EdgeSegment_Destroy</a> (const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this)</td></tr>
+<tr class="memdesc:a3f0f894a51c71b0ce572b4b70cafc6f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_EdgeSegment</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a3f0f894a51c71b0ce572b4b70cafc6f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28b3abc73d1e7a07af8330521f9d13ca" id="r_a28b3abc73d1e7a07af8330521f9d13ca"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28b3abc73d1e7a07af8330521f9d13ca">MR_std_vector_MR_EdgeSegment_DestroyArray</a> (const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this)</td></tr>
+<tr class="memdesc:a28b3abc73d1e7a07af8330521f9d13ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_EdgeSegment</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a28b3abc73d1e7a07af8330521f9d13ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa425a4c2c54b199678750cbf7081e7c4" id="r_aa425a4c2c54b199678750cbf7081e7c4"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa425a4c2c54b199678750cbf7081e7c4">MR_std_vector_MR_EdgeSegment_OffsetPtr</a> (const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:aa425a4c2c54b199678750cbf7081e7c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:aa425a4c2c54b199678750cbf7081e7c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a914765ddb27698d603f0ba39bf2ba609" id="r_a914765ddb27698d603f0ba39bf2ba609"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a914765ddb27698d603f0ba39bf2ba609">MR_std_vector_MR_EdgeSegment_OffsetMutablePtr</a> (<a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a914765ddb27698d603f0ba39bf2ba609"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a914765ddb27698d603f0ba39bf2ba609"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e87c83fa72efa1da565dddf168515a7" id="r_a7e87c83fa72efa1da565dddf168515a7"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e87c83fa72efa1da565dddf168515a7">MR_std_vector_MR_EdgeSegment_Size</a> (const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this)</td></tr>
+<tr class="separator:a7e87c83fa72efa1da565dddf168515a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad11d0a9d13524f8f5ea0302a4f7bc6d8" id="r_ad11d0a9d13524f8f5ea0302a4f7bc6d8"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad11d0a9d13524f8f5ea0302a4f7bc6d8">MR_std_vector_MR_EdgeSegment_IsEmpty</a> (const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this)</td></tr>
+<tr class="separator:ad11d0a9d13524f8f5ea0302a4f7bc6d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44757b520fafd4ad6fcc9cd246130469" id="r_a44757b520fafd4ad6fcc9cd246130469"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44757b520fafd4ad6fcc9cd246130469">MR_std_vector_MR_EdgeSegment_Resize</a> (<a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this, size_t new_size)</td></tr>
+<tr class="separator:a44757b520fafd4ad6fcc9cd246130469"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ea36da5fabb457b961fc1a975a2eea2" id="r_a2ea36da5fabb457b961fc1a975a2eea2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ea36da5fabb457b961fc1a975a2eea2">MR_std_vector_MR_EdgeSegment_ResizeWithDefaultValue</a> (<a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this, size_t new_size, const <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a> *value)</td></tr>
+<tr class="separator:a2ea36da5fabb457b961fc1a975a2eea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06b77a9480dc7d28994fd95331e2c14c" id="r_a06b77a9480dc7d28994fd95331e2c14c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06b77a9480dc7d28994fd95331e2c14c">MR_std_vector_MR_EdgeSegment_Clear</a> (<a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this)</td></tr>
+<tr class="separator:a06b77a9480dc7d28994fd95331e2c14c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3c6c8a6a62b8df491b644b13db212e5" id="r_ab3c6c8a6a62b8df491b644b13db212e5"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3c6c8a6a62b8df491b644b13db212e5">MR_std_vector_MR_EdgeSegment_Capacity</a> (const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this)</td></tr>
+<tr class="separator:ab3c6c8a6a62b8df491b644b13db212e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5c3d48516a68976b4eb5d0512d46ac2" id="r_ac5c3d48516a68976b4eb5d0512d46ac2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5c3d48516a68976b4eb5d0512d46ac2">MR_std_vector_MR_EdgeSegment_Reserve</a> (<a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this, size_t new_capacity)</td></tr>
+<tr class="separator:ac5c3d48516a68976b4eb5d0512d46ac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11afcb6e6f413eec5b6f33d50a56985a" id="r_a11afcb6e6f413eec5b6f33d50a56985a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11afcb6e6f413eec5b6f33d50a56985a">MR_std_vector_MR_EdgeSegment_ShrinkToFit</a> (<a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this)</td></tr>
+<tr class="separator:a11afcb6e6f413eec5b6f33d50a56985a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc0ea73fa32d419bf18a772f6c0edda8" id="r_abc0ea73fa32d419bf18a772f6c0edda8"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc0ea73fa32d419bf18a772f6c0edda8">MR_std_vector_MR_EdgeSegment_At</a> (const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this, size_t i)</td></tr>
+<tr class="separator:abc0ea73fa32d419bf18a772f6c0edda8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e54a96ccc230462281ce464bfb765b3" id="r_a5e54a96ccc230462281ce464bfb765b3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e54a96ccc230462281ce464bfb765b3">MR_std_vector_MR_EdgeSegment_MutableAt</a> (<a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this, size_t i)</td></tr>
+<tr class="separator:a5e54a96ccc230462281ce464bfb765b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99c7cf2403ded7951943944bb80bd7e9" id="r_a99c7cf2403ded7951943944bb80bd7e9"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99c7cf2403ded7951943944bb80bd7e9">MR_std_vector_MR_EdgeSegment_Front</a> (const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this)</td></tr>
+<tr class="separator:a99c7cf2403ded7951943944bb80bd7e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52377163a159716059725cd5d09607fc" id="r_a52377163a159716059725cd5d09607fc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52377163a159716059725cd5d09607fc">MR_std_vector_MR_EdgeSegment_MutableFront</a> (<a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this)</td></tr>
+<tr class="separator:a52377163a159716059725cd5d09607fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a375df913164bcc727eacc931d18e37c0" id="r_a375df913164bcc727eacc931d18e37c0"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a375df913164bcc727eacc931d18e37c0">MR_std_vector_MR_EdgeSegment_Back</a> (const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this)</td></tr>
+<tr class="separator:a375df913164bcc727eacc931d18e37c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a968f5716399dbc5cbf4a7254a87d0d" id="r_a3a968f5716399dbc5cbf4a7254a87d0d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a968f5716399dbc5cbf4a7254a87d0d">MR_std_vector_MR_EdgeSegment_MutableBack</a> (<a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this)</td></tr>
+<tr class="separator:a3a968f5716399dbc5cbf4a7254a87d0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a142989a46a9ac601ba9a6cce6dc40231" id="r_a142989a46a9ac601ba9a6cce6dc40231"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a142989a46a9ac601ba9a6cce6dc40231">MR_std_vector_MR_EdgeSegment_PushBack</a> (<a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this, const <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a> *new_elem)</td></tr>
+<tr class="separator:a142989a46a9ac601ba9a6cce6dc40231"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac10bd9dbf52afd1a6a91e81e2b971040" id="r_ac10bd9dbf52afd1a6a91e81e2b971040"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac10bd9dbf52afd1a6a91e81e2b971040">MR_std_vector_MR_EdgeSegment_PopBack</a> (<a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this)</td></tr>
+<tr class="separator:ac10bd9dbf52afd1a6a91e81e2b971040"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16f1793e9608fbad0a34e34bbeffd5fe" id="r_a16f1793e9608fbad0a34e34bbeffd5fe"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16f1793e9608fbad0a34e34bbeffd5fe">MR_std_vector_MR_EdgeSegment_Insert</a> (<a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this, size_t position, const <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a> *new_elem)</td></tr>
+<tr class="separator:a16f1793e9608fbad0a34e34bbeffd5fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45dc0e01747eeeb424d26068f27f24b8" id="r_a45dc0e01747eeeb424d26068f27f24b8"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45dc0e01747eeeb424d26068f27f24b8">MR_std_vector_MR_EdgeSegment_Erase</a> (<a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this, size_t position)</td></tr>
+<tr class="separator:a45dc0e01747eeeb424d26068f27f24b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5aaa6fc8aa298730effbfcbe1d7374d2" id="r_a5aaa6fc8aa298730effbfcbe1d7374d2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5aaa6fc8aa298730effbfcbe1d7374d2">MR_std_vector_MR_EdgeSegment_InsertAtMutableIter</a> (<a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this, const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *position, const <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a> *new_elem)</td></tr>
+<tr class="separator:a5aaa6fc8aa298730effbfcbe1d7374d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e9c68c09ca9be0282fdf5efd620328c" id="r_a9e9c68c09ca9be0282fdf5efd620328c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e9c68c09ca9be0282fdf5efd620328c">MR_std_vector_MR_EdgeSegment_EraseAtMutableIter</a> (<a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this, const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *position)</td></tr>
+<tr class="separator:a9e9c68c09ca9be0282fdf5efd620328c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4d5d92ae9400bcc88a637596f3ab5fc" id="r_ad4d5d92ae9400bcc88a637596f3ab5fc"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4d5d92ae9400bcc88a637596f3ab5fc">MR_std_vector_MR_EdgeSegment_InsertAtIter</a> (<a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this, const <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *position, const <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a> *new_elem)</td></tr>
+<tr class="separator:ad4d5d92ae9400bcc88a637596f3ab5fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0ee5cf73a2c952a6a11e09c29c4bb3a" id="r_ad0ee5cf73a2c952a6a11e09c29c4bb3a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0ee5cf73a2c952a6a11e09c29c4bb3a">MR_std_vector_MR_EdgeSegment_EraseAtIter</a> (<a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this, const <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *position)</td></tr>
+<tr class="separator:ad0ee5cf73a2c952a6a11e09c29c4bb3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b698f11e315dcb118d7735f4811397e" id="r_a2b698f11e315dcb118d7735f4811397e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b698f11e315dcb118d7735f4811397e">MR_std_vector_MR_EdgeSegment_Begin</a> (const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this)</td></tr>
+<tr class="separator:a2b698f11e315dcb118d7735f4811397e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a330cd80fbe9138a0aaeb2c8bd5e49e87" id="r_a330cd80fbe9138a0aaeb2c8bd5e49e87"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a330cd80fbe9138a0aaeb2c8bd5e49e87">MR_std_vector_MR_EdgeSegment_IsBegin</a> (const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this, const <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *iter)</td></tr>
+<tr class="separator:a330cd80fbe9138a0aaeb2c8bd5e49e87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a819f47d8b9914bc56073408339bb3622" id="r_a819f47d8b9914bc56073408339bb3622"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a819f47d8b9914bc56073408339bb3622">MR_std_vector_MR_EdgeSegment_MutableBegin</a> (<a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this)</td></tr>
+<tr class="separator:a819f47d8b9914bc56073408339bb3622"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5fc9a2f800854ada1eb9441fd1b598d" id="r_ae5fc9a2f800854ada1eb9441fd1b598d"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5fc9a2f800854ada1eb9441fd1b598d">MR_std_vector_MR_EdgeSegment_IsMutableBegin</a> (<a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this, const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *iter)</td></tr>
+<tr class="separator:ae5fc9a2f800854ada1eb9441fd1b598d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa86a5ed7e795fb9b368c5a0a2884c048" id="r_aa86a5ed7e795fb9b368c5a0a2884c048"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa86a5ed7e795fb9b368c5a0a2884c048">MR_std_vector_MR_EdgeSegment_End</a> (const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this)</td></tr>
+<tr class="separator:aa86a5ed7e795fb9b368c5a0a2884c048"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59e06205d37fac362a552558de321e21" id="r_a59e06205d37fac362a552558de321e21"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59e06205d37fac362a552558de321e21">MR_std_vector_MR_EdgeSegment_IsEnd</a> (const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this, const <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *iter)</td></tr>
+<tr class="separator:a59e06205d37fac362a552558de321e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaef027f98d1cab3a01c9f4707329ee2b" id="r_aaef027f98d1cab3a01c9f4707329ee2b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaef027f98d1cab3a01c9f4707329ee2b">MR_std_vector_MR_EdgeSegment_MutableEnd</a> (<a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this)</td></tr>
+<tr class="separator:aaef027f98d1cab3a01c9f4707329ee2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a078f8deac71a990897ae5805e0c37336" id="r_a078f8deac71a990897ae5805e0c37336"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a078f8deac71a990897ae5805e0c37336">MR_std_vector_MR_EdgeSegment_IsMutableEnd</a> (<a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this, const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *iter)</td></tr>
+<tr class="separator:a078f8deac71a990897ae5805e0c37336"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac26c5dae7ba0761129cf613ecf26470" id="r_aac26c5dae7ba0761129cf613ecf26470"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac26c5dae7ba0761129cf613ecf26470">MR_std_vector_MR_EdgeSegment_ToIndex</a> (const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this, const <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *iter)</td></tr>
+<tr class="separator:aac26c5dae7ba0761129cf613ecf26470"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f1f088bc18c43ea01ec7de96a553a98" id="r_a5f1f088bc18c43ea01ec7de96a553a98"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f1f088bc18c43ea01ec7de96a553a98">MR_std_vector_MR_EdgeSegment_MutableToIndex</a> (const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *_this, const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *iter)</td></tr>
+<tr class="separator:a5f1f088bc18c43ea01ec7de96a553a98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d7f1f213f5334ef1f9ddb97d58e1c0f" id="r_a2d7f1f213f5334ef1f9ddb97d58e1c0f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d7f1f213f5334ef1f9ddb97d58e1c0f">MR_std_vector_MR_EdgeSegment_const_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a2d7f1f213f5334ef1f9ddb97d58e1c0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3346e4d784f29c816c82addad8420bc" id="r_ae3346e4d784f29c816c82addad8420bc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3346e4d784f29c816c82addad8420bc">MR_std_vector_MR_EdgeSegment_const_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ae3346e4d784f29c816c82addad8420bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7e546bec8a53547338f38e3e997fd40" id="r_ad7e546bec8a53547338f38e3e997fd40"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7e546bec8a53547338f38e3e997fd40">MR_std_vector_MR_EdgeSegment_const_iterator_ConstructFromAnother</a> (const <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *other)</td></tr>
+<tr class="separator:ad7e546bec8a53547338f38e3e997fd40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c1700248c4b55d2582137e16e3e84c8" id="r_a0c1700248c4b55d2582137e16e3e84c8"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c1700248c4b55d2582137e16e3e84c8">MR_std_vector_MR_EdgeSegment_const_iterator_AssignFromAnother</a> (<a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *_this, const <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *other)</td></tr>
+<tr class="separator:a0c1700248c4b55d2582137e16e3e84c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6354d07a1e91079483904fad7cd85804" id="r_a6354d07a1e91079483904fad7cd85804"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6354d07a1e91079483904fad7cd85804">MR_std_vector_MR_EdgeSegment_const_iterator_Destroy</a> (const <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a6354d07a1e91079483904fad7cd85804"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_EdgeSegment_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a6354d07a1e91079483904fad7cd85804"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84c494b218edf537101b42445673fea2" id="r_a84c494b218edf537101b42445673fea2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84c494b218edf537101b42445673fea2">MR_std_vector_MR_EdgeSegment_const_iterator_DestroyArray</a> (const <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a84c494b218edf537101b42445673fea2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_EdgeSegment_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a84c494b218edf537101b42445673fea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f81d461b55ac20c11047ae8a5bf5dbc" id="r_a1f81d461b55ac20c11047ae8a5bf5dbc"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f81d461b55ac20c11047ae8a5bf5dbc">MR_std_vector_MR_EdgeSegment_const_iterator_OffsetPtr</a> (const <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a1f81d461b55ac20c11047ae8a5bf5dbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a1f81d461b55ac20c11047ae8a5bf5dbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50d54722da81698a66cb346bee62d43b" id="r_a50d54722da81698a66cb346bee62d43b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50d54722da81698a66cb346bee62d43b">MR_std_vector_MR_EdgeSegment_const_iterator_OffsetMutablePtr</a> (<a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a50d54722da81698a66cb346bee62d43b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a50d54722da81698a66cb346bee62d43b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a910bccfdf87202335b72559c2eaf2f28" id="r_a910bccfdf87202335b72559c2eaf2f28"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a910bccfdf87202335b72559c2eaf2f28">MR_std_vector_MR_EdgeSegment_const_iterator_FromMutable</a> (const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *iter)</td></tr>
+<tr class="separator:a910bccfdf87202335b72559c2eaf2f28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac322e1d8cd62af85bd384d9332fb3da6" id="r_ac322e1d8cd62af85bd384d9332fb3da6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac322e1d8cd62af85bd384d9332fb3da6">MR_std_vector_MR_EdgeSegment_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ac322e1d8cd62af85bd384d9332fb3da6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88f094d41b1a3bdf7f65ea7e9b659efc" id="r_a88f094d41b1a3bdf7f65ea7e9b659efc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88f094d41b1a3bdf7f65ea7e9b659efc">MR_std_vector_MR_EdgeSegment_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a88f094d41b1a3bdf7f65ea7e9b659efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38407ada752ba992151b3d13113875f6" id="r_a38407ada752ba992151b3d13113875f6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38407ada752ba992151b3d13113875f6">MR_std_vector_MR_EdgeSegment_iterator_ConstructFromAnother</a> (const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *other)</td></tr>
+<tr class="separator:a38407ada752ba992151b3d13113875f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae980ecf6da61640c112574aac285ba28" id="r_ae980ecf6da61640c112574aac285ba28"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae980ecf6da61640c112574aac285ba28">MR_std_vector_MR_EdgeSegment_iterator_AssignFromAnother</a> (<a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *_this, const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *other)</td></tr>
+<tr class="separator:ae980ecf6da61640c112574aac285ba28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1edd3cc2a04d4441cb69da498406a246" id="r_a1edd3cc2a04d4441cb69da498406a246"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1edd3cc2a04d4441cb69da498406a246">MR_std_vector_MR_EdgeSegment_iterator_Destroy</a> (const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a1edd3cc2a04d4441cb69da498406a246"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_EdgeSegment_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a1edd3cc2a04d4441cb69da498406a246"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ca030b4d986dcfe62e9bbe009f2b8cb" id="r_a6ca030b4d986dcfe62e9bbe009f2b8cb"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ca030b4d986dcfe62e9bbe009f2b8cb">MR_std_vector_MR_EdgeSegment_iterator_DestroyArray</a> (const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a6ca030b4d986dcfe62e9bbe009f2b8cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_EdgeSegment_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a6ca030b4d986dcfe62e9bbe009f2b8cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c64127a51f0f0521ea0b8cb52e56134" id="r_a5c64127a51f0f0521ea0b8cb52e56134"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c64127a51f0f0521ea0b8cb52e56134">MR_std_vector_MR_EdgeSegment_iterator_OffsetPtr</a> (const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a5c64127a51f0f0521ea0b8cb52e56134"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a5c64127a51f0f0521ea0b8cb52e56134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4daef9c89bf619dad20089ad320863d" id="r_aa4daef9c89bf619dad20089ad320863d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4daef9c89bf619dad20089ad320863d">MR_std_vector_MR_EdgeSegment_iterator_OffsetMutablePtr</a> (<a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:aa4daef9c89bf619dad20089ad320863d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:aa4daef9c89bf619dad20089ad320863d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eff841cb9660aa3c0ae32a531835eda" id="r_a3eff841cb9660aa3c0ae32a531835eda"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3eff841cb9660aa3c0ae32a531835eda">MR_std_vector_MR_EdgeSegment_const_iterator_Deref</a> (const <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *_this)</td></tr>
+<tr class="separator:a3eff841cb9660aa3c0ae32a531835eda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a5e70b1d2e2e26bbadf7a27f73d71ab" id="r_a8a5e70b1d2e2e26bbadf7a27f73d71ab"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a5e70b1d2e2e26bbadf7a27f73d71ab">MR_std_vector_MR_EdgeSegment_const_iterator_Incr</a> (<a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *_this)</td></tr>
+<tr class="separator:a8a5e70b1d2e2e26bbadf7a27f73d71ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac463b3b49f3c8f88d345c0bddd801b30" id="r_ac463b3b49f3c8f88d345c0bddd801b30"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac463b3b49f3c8f88d345c0bddd801b30">MR_std_vector_MR_EdgeSegment_const_iterator_Decr</a> (<a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *_this)</td></tr>
+<tr class="separator:ac463b3b49f3c8f88d345c0bddd801b30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ab8c68f94355ffeebd38fbdc03f21e8" id="r_a5ab8c68f94355ffeebd38fbdc03f21e8"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ab8c68f94355ffeebd38fbdc03f21e8">MR_std_vector_MR_EdgeSegment_const_iterator_OffsetBy</a> (<a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *_this, ptrdiff_t delta)</td></tr>
+<tr class="separator:a5ab8c68f94355ffeebd38fbdc03f21e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a314c234bf9662efd2baead94b6b94d0b" id="r_a314c234bf9662efd2baead94b6b94d0b"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a314c234bf9662efd2baead94b6b94d0b">MR_std_vector_MR_EdgeSegment_const_iterator_Distance</a> (const <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *a, const <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *b)</td></tr>
+<tr class="separator:a314c234bf9662efd2baead94b6b94d0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c4799b14f31e3b8c45ac7e5da4c9c4c" id="r_a0c4799b14f31e3b8c45ac7e5da4c9c4c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c4799b14f31e3b8c45ac7e5da4c9c4c">MR_std_vector_MR_EdgeSegment_iterator_Deref</a> (const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *_this)</td></tr>
+<tr class="separator:a0c4799b14f31e3b8c45ac7e5da4c9c4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15f2d22c3a9d5c8b99b1520ef83ce17e" id="r_a15f2d22c3a9d5c8b99b1520ef83ce17e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15f2d22c3a9d5c8b99b1520ef83ce17e">MR_std_vector_MR_EdgeSegment_iterator_Incr</a> (<a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *_this)</td></tr>
+<tr class="separator:a15f2d22c3a9d5c8b99b1520ef83ce17e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18e79d3efd2f13e5fe8821001e4d58ad" id="r_a18e79d3efd2f13e5fe8821001e4d58ad"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18e79d3efd2f13e5fe8821001e4d58ad">MR_std_vector_MR_EdgeSegment_iterator_Decr</a> (<a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *_this)</td></tr>
+<tr class="separator:a18e79d3efd2f13e5fe8821001e4d58ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a8edcae97a4617ddb4ac2f78f5c0018" id="r_a3a8edcae97a4617ddb4ac2f78f5c0018"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a8edcae97a4617ddb4ac2f78f5c0018">MR_std_vector_MR_EdgeSegment_iterator_OffsetBy</a> (<a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *_this, ptrdiff_t delta)</td></tr>
+<tr class="separator:a3a8edcae97a4617ddb4ac2f78f5c0018"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1d6b36420cd4ca8b998b2b12105dbf7" id="r_ae1d6b36420cd4ca8b998b2b12105dbf7"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1d6b36420cd4ca8b998b2b12105dbf7">MR_std_vector_MR_EdgeSegment_iterator_Distance</a> (const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *a, const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *b)</td></tr>
+<tr class="separator:ae1d6b36420cd4ca8b998b2b12105dbf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a0c021c1ff5455ddaf134f46731ff4583" name="a0c021c1ff5455ddaf134f46731ff4583"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c021c1ff5455ddaf134f46731ff4583">&#9670;&#160;</a></span>MR_EdgeSegment</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a> <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb3511282eb9035483db67576efb0f01" name="afb3511282eb9035483db67576efb0f01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb3511282eb9035483db67576efb0f01">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from C++ container <code>std::vector&lt;<a class="elRef" href="../Cpp/structMR_1_1EdgeSegment.html">MR::EdgeSegment</a>&gt;</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="aae1cb64706ce283a57f30a01cb3f6463" name="aae1cb64706ce283a57f30a01cb3f6463"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae1cb64706ce283a57f30a01cb3f6463">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_const_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Read-only iterator for <code>MR_std_vector_MR_EdgeSegment</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a2469134f2e9b34351eac7d4f68c9efcb" name="a2469134f2e9b34351eac7d4f68c9efcb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2469134f2e9b34351eac7d4f68c9efcb">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Mutable iterator for <code>MR_std_vector_MR_EdgeSegment</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a99050ad7094b30cd7d7954831ced86f1" name="a99050ad7094b30cd7d7954831ced86f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99050ad7094b30cd7d7954831ced86f1">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_EdgeSegment_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="abc0ea73fa32d419bf18a772f6c0edda8" name="abc0ea73fa32d419bf18a772f6c0edda8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc0ea73fa32d419bf18a772f6c0edda8">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_At()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a> * MR_std_vector_MR_EdgeSegment_At </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, read-only. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a375df913164bcc727eacc931d18e37c0" name="a375df913164bcc727eacc931d18e37c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a375df913164bcc727eacc931d18e37c0">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_Back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a> * MR_std_vector_MR_EdgeSegment_Back </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The last element or null if empty, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a2b698f11e315dcb118d7735f4811397e" name="a2b698f11e315dcb118d7735f4811397e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b698f11e315dcb118d7735f4811397e">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_Begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> * MR_std_vector_MR_EdgeSegment_Begin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6354d07a1e91079483904fad7cd85804" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeSegment_const_iterator....">MR_std_vector_MR_EdgeSegment_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab3c6c8a6a62b8df491b644b13db212e5" name="ab3c6c8a6a62b8df491b644b13db212e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3c6c8a6a62b8df491b644b13db212e5">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_Capacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_vector_MR_EdgeSegment_Capacity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The memory capacity, measued in the number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a06b77a9480dc7d28994fd95331e2c14c" name="a06b77a9480dc7d28994fd95331e2c14c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06b77a9480dc7d28994fd95331e2c14c">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_Clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_EdgeSegment_Clear </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes all elements from the container. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a0c1700248c4b55d2582137e16e3e84c8" name="a0c1700248c4b55d2582137e16e3e84c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c1700248c4b55d2582137e16e3e84c8">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_const_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_EdgeSegment_const_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad7e546bec8a53547338f38e3e997fd40" name="ad7e546bec8a53547338f38e3e997fd40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7e546bec8a53547338f38e3e997fd40">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_const_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> * MR_std_vector_MR_EdgeSegment_const_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6354d07a1e91079483904fad7cd85804" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeSegment_const_iterator....">MR_std_vector_MR_EdgeSegment_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ac463b3b49f3c8f88d345c0bddd801b30" name="ac463b3b49f3c8f88d345c0bddd801b30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac463b3b49f3c8f88d345c0bddd801b30">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_const_iterator_Decr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_EdgeSegment_const_iterator_Decr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decrements a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a2d7f1f213f5334ef1f9ddb97d58e1c0f" name="a2d7f1f213f5334ef1f9ddb97d58e1c0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d7f1f213f5334ef1f9ddb97d58e1c0f">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_const_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> * MR_std_vector_MR_EdgeSegment_const_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6354d07a1e91079483904fad7cd85804" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeSegment_const_iterator....">MR_std_vector_MR_EdgeSegment_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae3346e4d784f29c816c82addad8420bc" name="ae3346e4d784f29c816c82addad8420bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3346e4d784f29c816c82addad8420bc">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_const_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> * MR_std_vector_MR_EdgeSegment_const_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a84c494b218edf537101b42445673fea2" title="Destroys a heap-allocated array of MR_std_vector_MR_EdgeSegment_const_iterator. Does nothing if the p...">MR_std_vector_MR_EdgeSegment_const_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#a50d54722da81698a66cb346bee62d43b" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_EdgeSegment_const_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a1f81d461b55ac20c11047ae8a5bf5dbc" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_EdgeSegment_const_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a3eff841cb9660aa3c0ae32a531835eda" name="a3eff841cb9660aa3c0ae32a531835eda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3eff841cb9660aa3c0ae32a531835eda">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_const_iterator_Deref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a> * MR_std_vector_MR_EdgeSegment_const_iterator_Deref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a const iterator. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a6354d07a1e91079483904fad7cd85804" name="a6354d07a1e91079483904fad7cd85804"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6354d07a1e91079483904fad7cd85804">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_const_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_EdgeSegment_const_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_EdgeSegment_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a84c494b218edf537101b42445673fea2" name="a84c494b218edf537101b42445673fea2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84c494b218edf537101b42445673fea2">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_const_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_EdgeSegment_const_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_EdgeSegment_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a314c234bf9662efd2baead94b6b94d0b" name="a314c234bf9662efd2baead94b6b94d0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a314c234bf9662efd2baead94b6b94d0b">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_const_iterator_Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_EdgeSegment_const_iterator_Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the signed difference between two const iterators. Completes in constant time. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a910bccfdf87202335b72559c2eaf2f28" name="a910bccfdf87202335b72559c2eaf2f28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a910bccfdf87202335b72559c2eaf2f28">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_const_iterator_FromMutable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> * MR_std_vector_MR_EdgeSegment_const_iterator_FromMutable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Makes a const iterator from a mutable one. Parameter <code>iter</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6354d07a1e91079483904fad7cd85804" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeSegment_const_iterator....">MR_std_vector_MR_EdgeSegment_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a8a5e70b1d2e2e26bbadf7a27f73d71ab" name="a8a5e70b1d2e2e26bbadf7a27f73d71ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a5e70b1d2e2e26bbadf7a27f73d71ab">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_const_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_EdgeSegment_const_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a5ab8c68f94355ffeebd38fbdc03f21e8" name="a5ab8c68f94355ffeebd38fbdc03f21e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ab8c68f94355ffeebd38fbdc03f21e8">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_const_iterator_OffsetBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_EdgeSegment_const_iterator_OffsetBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a50d54722da81698a66cb346bee62d43b" name="a50d54722da81698a66cb346bee62d43b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50d54722da81698a66cb346bee62d43b">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_const_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> * MR_std_vector_MR_EdgeSegment_const_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a1f81d461b55ac20c11047ae8a5bf5dbc" name="a1f81d461b55ac20c11047ae8a5bf5dbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f81d461b55ac20c11047ae8a5bf5dbc">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_const_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> * MR_std_vector_MR_EdgeSegment_const_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ab668b48cf13e88268a0e5939bea2e3e5" name="ab668b48cf13e88268a0e5939bea2e3e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab668b48cf13e88268a0e5939bea2e3e5">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> * MR_std_vector_MR_EdgeSegment_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a3f0f894a51c71b0ce572b4b70cafc6f4" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeSegment. Does nothing if the pointer is nu...">MR_std_vector_MR_EdgeSegment_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aedbd621545c9629df8f12252dff9afda" name="aedbd621545c9629df8f12252dff9afda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedbd621545c9629df8f12252dff9afda">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> * MR_std_vector_MR_EdgeSegment_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a3f0f894a51c71b0ce572b4b70cafc6f4" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeSegment. Does nothing if the pointer is nu...">MR_std_vector_MR_EdgeSegment_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a304a74a6686ff86f9c0b2269e31113d1" name="a304a74a6686ff86f9c0b2269e31113d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a304a74a6686ff86f9c0b2269e31113d1">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> * MR_std_vector_MR_EdgeSegment_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a28b3abc73d1e7a07af8330521f9d13ca" title="Destroys a heap-allocated array of MR_std_vector_MR_EdgeSegment. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeSegment_DestroyArray()</a></code>. Use <code><a class="el" href="#a914765ddb27698d603f0ba39bf2ba609" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_EdgeSegment_OffsetMutablePtr()</a></code> and <code><a class="el" href="#aa425a4c2c54b199678750cbf7081e7c4" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_EdgeSegment_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a3f0f894a51c71b0ce572b4b70cafc6f4" name="a3f0f894a51c71b0ce572b4b70cafc6f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f0f894a51c71b0ce572b4b70cafc6f4">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_EdgeSegment_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_EdgeSegment</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a28b3abc73d1e7a07af8330521f9d13ca" name="a28b3abc73d1e7a07af8330521f9d13ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28b3abc73d1e7a07af8330521f9d13ca">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_EdgeSegment_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_EdgeSegment</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aa86a5ed7e795fb9b368c5a0a2884c048" name="aa86a5ed7e795fb9b368c5a0a2884c048"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa86a5ed7e795fb9b368c5a0a2884c048">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_End()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> * MR_std_vector_MR_EdgeSegment_End </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6354d07a1e91079483904fad7cd85804" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeSegment_const_iterator....">MR_std_vector_MR_EdgeSegment_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a45dc0e01747eeeb424d26068f27f24b8" name="a45dc0e01747eeeb424d26068f27f24b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45dc0e01747eeeb424d26068f27f24b8">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_Erase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_EdgeSegment_Erase </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad0ee5cf73a2c952a6a11e09c29c4bb3a" name="ad0ee5cf73a2c952a6a11e09c29c4bb3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0ee5cf73a2c952a6a11e09c29c4bb3a">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_EraseAtIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_EdgeSegment_EraseAtIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. This version takes the position in form of a const iterator, that's the only difference. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a9e9c68c09ca9be0282fdf5efd620328c" name="a9e9c68c09ca9be0282fdf5efd620328c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e9c68c09ca9be0282fdf5efd620328c">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_EraseAtMutableIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_EdgeSegment_EraseAtMutableIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a99c7cf2403ded7951943944bb80bd7e9" name="a99c7cf2403ded7951943944bb80bd7e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99c7cf2403ded7951943944bb80bd7e9">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_Front()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a> * MR_std_vector_MR_EdgeSegment_Front </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The first element or null if empty, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a16f1793e9608fbad0a34e34bbeffd5fe" name="a16f1793e9608fbad0a34e34bbeffd5fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16f1793e9608fbad0a34e34bbeffd5fe">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_Insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_EdgeSegment_Insert </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. Parameter <code>_this</code> can not be null. Parameter <code>new_elem</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad4d5d92ae9400bcc88a637596f3ab5fc" name="ad4d5d92ae9400bcc88a637596f3ab5fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4d5d92ae9400bcc88a637596f3ab5fc">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_InsertAtIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_EdgeSegment_InsertAtIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that's the only difference. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. Parameter <code>new_elem</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a5aaa6fc8aa298730effbfcbe1d7374d2" name="a5aaa6fc8aa298730effbfcbe1d7374d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5aaa6fc8aa298730effbfcbe1d7374d2">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_InsertAtMutableIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_EdgeSegment_InsertAtMutableIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. Parameter <code>new_elem</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a330cd80fbe9138a0aaeb2c8bd5e49e87" name="a330cd80fbe9138a0aaeb2c8bd5e49e87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a330cd80fbe9138a0aaeb2c8bd5e49e87">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_IsBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_EdgeSegment_IsBegin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad11d0a9d13524f8f5ea0302a4f7bc6d8" name="ad11d0a9d13524f8f5ea0302a4f7bc6d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad11d0a9d13524f8f5ea0302a4f7bc6d8">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_IsEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_EdgeSegment_IsEmpty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns true if the size is zero. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a59e06205d37fac362a552558de321e21" name="a59e06205d37fac362a552558de321e21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59e06205d37fac362a552558de321e21">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_IsEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_EdgeSegment_IsEnd </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae5fc9a2f800854ada1eb9441fd1b598d" name="ae5fc9a2f800854ada1eb9441fd1b598d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5fc9a2f800854ada1eb9441fd1b598d">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_IsMutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_EdgeSegment_IsMutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a078f8deac71a990897ae5805e0c37336" name="a078f8deac71a990897ae5805e0c37336"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a078f8deac71a990897ae5805e0c37336">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_IsMutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_EdgeSegment_IsMutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae980ecf6da61640c112574aac285ba28" name="ae980ecf6da61640c112574aac285ba28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae980ecf6da61640c112574aac285ba28">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_EdgeSegment_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a38407ada752ba992151b3d13113875f6" name="a38407ada752ba992151b3d13113875f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38407ada752ba992151b3d13113875f6">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> * MR_std_vector_MR_EdgeSegment_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1edd3cc2a04d4441cb69da498406a246" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeSegment_iterator. Does nothing if the poin...">MR_std_vector_MR_EdgeSegment_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a18e79d3efd2f13e5fe8821001e4d58ad" name="a18e79d3efd2f13e5fe8821001e4d58ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18e79d3efd2f13e5fe8821001e4d58ad">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_iterator_Decr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_EdgeSegment_iterator_Decr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decrements a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac322e1d8cd62af85bd384d9332fb3da6" name="ac322e1d8cd62af85bd384d9332fb3da6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac322e1d8cd62af85bd384d9332fb3da6">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> * MR_std_vector_MR_EdgeSegment_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1edd3cc2a04d4441cb69da498406a246" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeSegment_iterator. Does nothing if the poin...">MR_std_vector_MR_EdgeSegment_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a88f094d41b1a3bdf7f65ea7e9b659efc" name="a88f094d41b1a3bdf7f65ea7e9b659efc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88f094d41b1a3bdf7f65ea7e9b659efc">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> * MR_std_vector_MR_EdgeSegment_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a6ca030b4d986dcfe62e9bbe009f2b8cb" title="Destroys a heap-allocated array of MR_std_vector_MR_EdgeSegment_iterator. Does nothing if the pointer...">MR_std_vector_MR_EdgeSegment_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#aa4daef9c89bf619dad20089ad320863d" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_EdgeSegment_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a5c64127a51f0f0521ea0b8cb52e56134" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_EdgeSegment_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a0c4799b14f31e3b8c45ac7e5da4c9c4c" name="a0c4799b14f31e3b8c45ac7e5da4c9c4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c4799b14f31e3b8c45ac7e5da4c9c4c">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_iterator_Deref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a> * MR_std_vector_MR_EdgeSegment_iterator_Deref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a mutable iterator. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a1edd3cc2a04d4441cb69da498406a246" name="a1edd3cc2a04d4441cb69da498406a246"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1edd3cc2a04d4441cb69da498406a246">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_EdgeSegment_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_EdgeSegment_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a6ca030b4d986dcfe62e9bbe009f2b8cb" name="a6ca030b4d986dcfe62e9bbe009f2b8cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ca030b4d986dcfe62e9bbe009f2b8cb">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_EdgeSegment_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_EdgeSegment_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ae1d6b36420cd4ca8b998b2b12105dbf7" name="ae1d6b36420cd4ca8b998b2b12105dbf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1d6b36420cd4ca8b998b2b12105dbf7">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_iterator_Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_EdgeSegment_iterator_Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a15f2d22c3a9d5c8b99b1520ef83ce17e" name="a15f2d22c3a9d5c8b99b1520ef83ce17e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15f2d22c3a9d5c8b99b1520ef83ce17e">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_EdgeSegment_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3a8edcae97a4617ddb4ac2f78f5c0018" name="a3a8edcae97a4617ddb4ac2f78f5c0018"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a8edcae97a4617ddb4ac2f78f5c0018">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_iterator_OffsetBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_EdgeSegment_iterator_OffsetBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa4daef9c89bf619dad20089ad320863d" name="aa4daef9c89bf619dad20089ad320863d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4daef9c89bf619dad20089ad320863d">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> * MR_std_vector_MR_EdgeSegment_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a5c64127a51f0f0521ea0b8cb52e56134" name="a5c64127a51f0f0521ea0b8cb52e56134"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c64127a51f0f0521ea0b8cb52e56134">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> * MR_std_vector_MR_EdgeSegment_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a5e54a96ccc230462281ce464bfb765b3" name="a5e54a96ccc230462281ce464bfb765b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e54a96ccc230462281ce464bfb765b3">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_MutableAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a> * MR_std_vector_MR_EdgeSegment_MutableAt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, mutable. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a3a968f5716399dbc5cbf4a7254a87d0d" name="a3a968f5716399dbc5cbf4a7254a87d0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a968f5716399dbc5cbf4a7254a87d0d">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_MutableBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a> * MR_std_vector_MR_EdgeSegment_MutableBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The last element or null if empty, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a819f47d8b9914bc56073408339bb3622" name="a819f47d8b9914bc56073408339bb3622"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a819f47d8b9914bc56073408339bb3622">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_MutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> * MR_std_vector_MR_EdgeSegment_MutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1edd3cc2a04d4441cb69da498406a246" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeSegment_iterator. Does nothing if the poin...">MR_std_vector_MR_EdgeSegment_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aaef027f98d1cab3a01c9f4707329ee2b" name="aaef027f98d1cab3a01c9f4707329ee2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaef027f98d1cab3a01c9f4707329ee2b">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_MutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> * MR_std_vector_MR_EdgeSegment_MutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1edd3cc2a04d4441cb69da498406a246" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeSegment_iterator. Does nothing if the poin...">MR_std_vector_MR_EdgeSegment_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a52377163a159716059725cd5d09607fc" name="a52377163a159716059725cd5d09607fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52377163a159716059725cd5d09607fc">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_MutableFront()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a> * MR_std_vector_MR_EdgeSegment_MutableFront </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The first element or null if empty, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a5f1f088bc18c43ea01ec7de96a553a98" name="a5f1f088bc18c43ea01ec7de96a553a98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f1f088bc18c43ea01ec7de96a553a98">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_MutableToIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_EdgeSegment_MutableToIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a2469134f2e9b34351eac7d4f68c9efcb">MR_std_vector_MR_EdgeSegment_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convert a mutable iterator to an index. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a914765ddb27698d603f0ba39bf2ba609" name="a914765ddb27698d603f0ba39bf2ba609"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a914765ddb27698d603f0ba39bf2ba609">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> * MR_std_vector_MR_EdgeSegment_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="aa425a4c2c54b199678750cbf7081e7c4" name="aa425a4c2c54b199678750cbf7081e7c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa425a4c2c54b199678750cbf7081e7c4">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> * MR_std_vector_MR_EdgeSegment_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ac10bd9dbf52afd1a6a91e81e2b971040" name="ac10bd9dbf52afd1a6a91e81e2b971040"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac10bd9dbf52afd1a6a91e81e2b971040">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_PopBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_EdgeSegment_PopBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes one element from the end. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a142989a46a9ac601ba9a6cce6dc40231" name="a142989a46a9ac601ba9a6cce6dc40231"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a142989a46a9ac601ba9a6cce6dc40231">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_PushBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_EdgeSegment_PushBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element at the end. Parameter <code>_this</code> can not be null. Parameter <code>new_elem</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac5c3d48516a68976b4eb5d0512d46ac2" name="ac5c3d48516a68976b4eb5d0512d46ac2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5c3d48516a68976b4eb5d0512d46ac2">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_Reserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_EdgeSegment_Reserve </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_capacity</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a44757b520fafd4ad6fcc9cd246130469" name="a44757b520fafd4ad6fcc9cd246130469"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44757b520fafd4ad6fcc9cd246130469">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_Resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_EdgeSegment_Resize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the container. The new elements if any are zeroed. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a2ea36da5fabb457b961fc1a975a2eea2" name="a2ea36da5fabb457b961fc1a975a2eea2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ea36da5fabb457b961fc1a975a2eea2">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_ResizeWithDefaultValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_EdgeSegment_ResizeWithDefaultValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MREdgePoint_8h.html#a0c021c1ff5455ddaf134f46731ff4583">MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the container. The new elements if any are set to the specified value. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a11afcb6e6f413eec5b6f33d50a56985a" name="a11afcb6e6f413eec5b6f33d50a56985a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11afcb6e6f413eec5b6f33d50a56985a">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_ShrinkToFit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_EdgeSegment_ShrinkToFit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Shrinks the capacity to match the size. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a7e87c83fa72efa1da565dddf168515a7" name="a7e87c83fa72efa1da565dddf168515a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e87c83fa72efa1da565dddf168515a7">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_Size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_vector_MR_EdgeSegment_Size </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aac26c5dae7ba0761129cf613ecf26470" name="aac26c5dae7ba0761129cf613ecf26470"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac26c5dae7ba0761129cf613ecf26470">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeSegment_ToIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_EdgeSegment_ToIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRPolylineTrimWithPlane_8h.html#afb3511282eb9035483db67576efb0f01">MR_std_vector_MR_EdgeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aae1cb64706ce283a57f30a01cb3f6463">MR_std_vector_MR_EdgeSegment_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convert a const iterator to an index. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_a57e8462869cab4a5203dede5869920d.html">MRCMisc</a></li><li class="navelem"><a class="el" href="std__vector__MR__EdgeSegment_8h.html">std_vector_MR_EdgeSegment.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

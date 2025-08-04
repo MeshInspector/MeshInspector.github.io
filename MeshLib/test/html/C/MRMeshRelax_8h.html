@@ -1,0 +1,475 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRMeshRelax.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRMeshRelax_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRMeshRelax.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="MRRelaxParams_8h_source.html">MRCMesh/MRRelaxParams.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
+</div>
+<p><a href="MRMeshRelax_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:aba7bc6ac732c34fd4721c543fa3445ea" id="r_aba7bc6ac732c34fd4721c543fa3445ea"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a></td></tr>
+<tr class="separator:aba7bc6ac732c34fd4721c543fa3445ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31b172f68efca6438544d56eb86d6f40" id="r_a31b172f68efca6438544d56eb86d6f40"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td></tr>
+<tr class="separator:a31b172f68efca6438544d56eb86d6f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad396cf7d4433c5ba7924776f5b379c9b" id="r_ad396cf7d4433c5ba7924776f5b379c9b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a></td></tr>
+<tr class="separator:ad396cf7d4433c5ba7924776f5b379c9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbad516b8cbb2b5069857163ee94db3f" id="r_acbad516b8cbb2b5069857163ee94db3f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a></td></tr>
+<tr class="separator:acbad516b8cbb2b5069857163ee94db3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3df50e76b078a1626dd994e1df803764" id="r_a3df50e76b078a1626dd994e1df803764"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a></td></tr>
+<tr class="separator:a3df50e76b078a1626dd994e1df803764"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a249fd9254c0c3395567807936ad32641" id="r_a249fd9254c0c3395567807936ad32641"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a></td></tr>
+<tr class="separator:a249fd9254c0c3395567807936ad32641"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e4bb5e8943c9b1f5d438198404d0bd4" id="r_a6e4bb5e8943c9b1f5d438198404d0bd4"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a></td></tr>
+<tr class="separator:a6e4bb5e8943c9b1f5d438198404d0bd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb03ce28cacfff1e499d75d512dc4a84" id="r_adb03ce28cacfff1e499d75d512dc4a84"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></td></tr>
+<tr class="separator:adb03ce28cacfff1e499d75d512dc4a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadc5d88756b2c801276a68f81a54a22dc" id="r_gadc5d88756b2c801276a68f81a54a22dc"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a></td></tr>
+<tr class="separator:gadc5d88756b2c801276a68f81a54a22dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1cb564fdc55d5745d0ef594a88b81646" id="r_ga1cb564fdc55d5745d0ef594a88b81646"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a></td></tr>
+<tr class="separator:ga1cb564fdc55d5745d0ef594a88b81646"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0961ed14052ec630a4f9e367afe11da3" id="r_ga0961ed14052ec630a4f9e367afe11da3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a></td></tr>
+<tr class="separator:ga0961ed14052ec630a4f9e367afe11da3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:gafaffe933c0e9a1ca2136eac2e5d63321" id="r_gafaffe933c0e9a1ca2136eac2e5d63321"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#gafaffe933c0e9a1ca2136eac2e5d63321">MR_MeshRelaxParams_Get_hardSmoothTetrahedrons</a> (const <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *_this)</td></tr>
+<tr class="separator:gafaffe933c0e9a1ca2136eac2e5d63321"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae21a931b8822dca7008f3ec277cd7e78" id="r_gae21a931b8822dca7008f3ec277cd7e78"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#gae21a931b8822dca7008f3ec277cd7e78">MR_MeshRelaxParams_Set_hardSmoothTetrahedrons</a> (<a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *_this, bool value)</td></tr>
+<tr class="separator:gae21a931b8822dca7008f3ec277cd7e78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeecce37afb3d8b2cd3eac7aaeb98c3b0" id="r_gaeecce37afb3d8b2cd3eac7aaeb98c3b0"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#gaeecce37afb3d8b2cd3eac7aaeb98c3b0">MR_MeshRelaxParams_GetMutable_hardSmoothTetrahedrons</a> (<a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *_this)</td></tr>
+<tr class="separator:gaeecce37afb3d8b2cd3eac7aaeb98c3b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac3fc8a04578f99204edaedabd2d8b932" id="r_gac3fc8a04578f99204edaedabd2d8b932"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#gac3fc8a04578f99204edaedabd2d8b932">MR_MeshRelaxParams_Get_weights</a> (const <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *_this)</td></tr>
+<tr class="separator:gac3fc8a04578f99204edaedabd2d8b932"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga69a3b3ff651c6b41ba0ad4ebd7c53a5b" id="r_ga69a3b3ff651c6b41ba0ad4ebd7c53a5b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga69a3b3ff651c6b41ba0ad4ebd7c53a5b">MR_MeshRelaxParams_Set_weights</a> (<a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *_this, const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *value)</td></tr>
+<tr class="separator:ga69a3b3ff651c6b41ba0ad4ebd7c53a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab40856f6de11208020780a3f01a6a0ee" id="r_gab40856f6de11208020780a3f01a6a0ee"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#gab40856f6de11208020780a3f01a6a0ee">MR_MeshRelaxParams_GetMutable_weights</a> (<a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *_this)</td></tr>
+<tr class="separator:gab40856f6de11208020780a3f01a6a0ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga252f16473bc0df2b01c61c71f66ae242" id="r_ga252f16473bc0df2b01c61c71f66ae242"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga252f16473bc0df2b01c61c71f66ae242">MR_MeshRelaxParams_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ga252f16473bc0df2b01c61c71f66ae242"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9b1e559502b8cd22018fa40ce956ac64" id="r_ga9b1e559502b8cd22018fa40ce956ac64"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga9b1e559502b8cd22018fa40ce956ac64">MR_MeshRelaxParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ga9b1e559502b8cd22018fa40ce956ac64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga16f5bae96290c09d3276b93c155a53eb" id="r_ga16f5bae96290c09d3276b93c155a53eb"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga16f5bae96290c09d3276b93c155a53eb">MR_MeshRelaxParams_OffsetPtr</a> (const <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ga16f5bae96290c09d3276b93c155a53eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ga16f5bae96290c09d3276b93c155a53eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac7b6f4b6bc16e8e17bea9dcd712c6e79" id="r_gac7b6f4b6bc16e8e17bea9dcd712c6e79"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#gac7b6f4b6bc16e8e17bea9dcd712c6e79">MR_MeshRelaxParams_OffsetMutablePtr</a> (<a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:gac7b6f4b6bc16e8e17bea9dcd712c6e79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:gac7b6f4b6bc16e8e17bea9dcd712c6e79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac793d98743396d87956b1ea11b3a50a4" id="r_gac793d98743396d87956b1ea11b3a50a4"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#gac793d98743396d87956b1ea11b3a50a4">MR_MeshRelaxParams_UpcastTo_MR_RelaxParams</a> (const <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *object)</td></tr>
+<tr class="separator:gac793d98743396d87956b1ea11b3a50a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafc0cb42f8cfd69bdc2bd704d2ff56449" id="r_gafc0cb42f8cfd69bdc2bd704d2ff56449"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#gafc0cb42f8cfd69bdc2bd704d2ff56449">MR_MeshRelaxParams_MutableUpcastTo_MR_RelaxParams</a> (<a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *object)</td></tr>
+<tr class="memdesc:gafc0cb42f8cfd69bdc2bd704d2ff56449"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code>.  <br /></td></tr>
+<tr class="separator:gafc0cb42f8cfd69bdc2bd704d2ff56449"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf0f112530844fb17f3d010532f1a961b" id="r_gaf0f112530844fb17f3d010532f1a961b"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#gaf0f112530844fb17f3d010532f1a961b">MR_MeshRelaxParams_StaticDowncastTo_MR_MeshApproxRelaxParams</a> (const <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *object)</td></tr>
+<tr class="separator:gaf0f112530844fb17f3d010532f1a961b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaea8a9d61fba5f32a05bb84a9f8d4d44b" id="r_gaea8a9d61fba5f32a05bb84a9f8d4d44b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#gaea8a9d61fba5f32a05bb84a9f8d4d44b">MR_MeshRelaxParams_MutableStaticDowncastTo_MR_MeshApproxRelaxParams</a> (<a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *object)</td></tr>
+<tr class="separator:gaea8a9d61fba5f32a05bb84a9f8d4d44b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga04f8c6a642b2013b4e32a913abe80d88" id="r_ga04f8c6a642b2013b4e32a913abe80d88"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga04f8c6a642b2013b4e32a913abe80d88">MR_MeshRelaxParams_StaticDowncastTo_MR_MeshEqualizeTriAreasParams</a> (const <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *object)</td></tr>
+<tr class="separator:ga04f8c6a642b2013b4e32a913abe80d88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga43f0aab2c45d5d10cba2bacc31f0f033" id="r_ga43f0aab2c45d5d10cba2bacc31f0f033"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga43f0aab2c45d5d10cba2bacc31f0f033">MR_MeshRelaxParams_MutableStaticDowncastTo_MR_MeshEqualizeTriAreasParams</a> (<a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *object)</td></tr>
+<tr class="separator:ga43f0aab2c45d5d10cba2bacc31f0f033"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0408ab97ff6794f12c89ce536f4e5f38" id="r_ga0408ab97ff6794f12c89ce536f4e5f38"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga0408ab97ff6794f12c89ce536f4e5f38">MR_MeshRelaxParams_ConstructFromAnother</a> (const <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *_other)</td></tr>
+<tr class="separator:ga0408ab97ff6794f12c89ce536f4e5f38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga881bf3c84f8d5d6f01dec1bd031e7193" id="r_ga881bf3c84f8d5d6f01dec1bd031e7193"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga881bf3c84f8d5d6f01dec1bd031e7193">MR_MeshRelaxParams_Destroy</a> (const <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *_this)</td></tr>
+<tr class="memdesc:ga881bf3c84f8d5d6f01dec1bd031e7193"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_MeshRelaxParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ga881bf3c84f8d5d6f01dec1bd031e7193"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7f4526a1c4846778e1ebbdbdbb372017" id="r_ga7f4526a1c4846778e1ebbdbdbb372017"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga7f4526a1c4846778e1ebbdbdbb372017">MR_MeshRelaxParams_DestroyArray</a> (const <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *_this)</td></tr>
+<tr class="memdesc:ga7f4526a1c4846778e1ebbdbdbb372017"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_MeshRelaxParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ga7f4526a1c4846778e1ebbdbdbb372017"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaebf4f43110998843601c9a1cf228c0ab" id="r_gaebf4f43110998843601c9a1cf228c0ab"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#gaebf4f43110998843601c9a1cf228c0ab">MR_MeshRelaxParams_AssignFromAnother</a> (<a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *_this, const <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *_other)</td></tr>
+<tr class="separator:gaebf4f43110998843601c9a1cf228c0ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaba0482369c7294d5b6ef4b17880d9829" id="r_gaba0482369c7294d5b6ef4b17880d9829"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#gaba0482369c7294d5b6ef4b17880d9829">MR_relax_3_MR_Mesh</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:gaba0482369c7294d5b6ef4b17880d9829"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3373a4af747672e144be76544686eb6c" id="r_ga3373a4af747672e144be76544686eb6c"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga3373a4af747672e144be76544686eb6c">MR_relax_4</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ga3373a4af747672e144be76544686eb6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga55d78f4ddc69242a1f36051662c14d8f" id="r_ga55d78f4ddc69242a1f36051662c14d8f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga55d78f4ddc69242a1f36051662c14d8f">MR_vertexPosEqualNeiAreas_3</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="structMR__VertId.html">MR_VertId</a> v, bool noShrinkage)</td></tr>
+<tr class="separator:ga55d78f4ddc69242a1f36051662c14d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga35fe524c7cba39df29e3abfcc4726008" id="r_ga35fe524c7cba39df29e3abfcc4726008"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga35fe524c7cba39df29e3abfcc4726008">MR_vertexPosEqualNeiAreas_4</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, <a class="el" href="structMR__VertId.html">MR_VertId</a> v, bool noShrinkage)</td></tr>
+<tr class="separator:ga35fe524c7cba39df29e3abfcc4726008"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5d76fa3feadb9c8d295fd4eaf3911686" id="r_ga5d76fa3feadb9c8d295fd4eaf3911686"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga5d76fa3feadb9c8d295fd4eaf3911686">MR_MeshEqualizeTriAreasParams_Get_noShrinkage</a> (const <a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *_this)</td></tr>
+<tr class="separator:ga5d76fa3feadb9c8d295fd4eaf3911686"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga63a0f379fa38bfbb9fed7bc7143831ba" id="r_ga63a0f379fa38bfbb9fed7bc7143831ba"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga63a0f379fa38bfbb9fed7bc7143831ba">MR_MeshEqualizeTriAreasParams_Set_noShrinkage</a> (<a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *_this, bool value)</td></tr>
+<tr class="separator:ga63a0f379fa38bfbb9fed7bc7143831ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga96e0bac6feb94b6535a83b5a7a593eb8" id="r_ga96e0bac6feb94b6535a83b5a7a593eb8"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga96e0bac6feb94b6535a83b5a7a593eb8">MR_MeshEqualizeTriAreasParams_GetMutable_noShrinkage</a> (<a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *_this)</td></tr>
+<tr class="separator:ga96e0bac6feb94b6535a83b5a7a593eb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga58427002d404ab50f86a1dd61d07debb" id="r_ga58427002d404ab50f86a1dd61d07debb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga58427002d404ab50f86a1dd61d07debb">MR_MeshEqualizeTriAreasParams_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ga58427002d404ab50f86a1dd61d07debb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga688f1ac30c8ef059ea0e32cc3e7a1afa" id="r_ga688f1ac30c8ef059ea0e32cc3e7a1afa"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga688f1ac30c8ef059ea0e32cc3e7a1afa">MR_MeshEqualizeTriAreasParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ga688f1ac30c8ef059ea0e32cc3e7a1afa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0267cdcbf98aadeb6ee04f9b17127911" id="r_ga0267cdcbf98aadeb6ee04f9b17127911"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga0267cdcbf98aadeb6ee04f9b17127911">MR_MeshEqualizeTriAreasParams_OffsetPtr</a> (const <a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ga0267cdcbf98aadeb6ee04f9b17127911"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ga0267cdcbf98aadeb6ee04f9b17127911"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga72b7f0501ec1a954875ed73957cba289" id="r_ga72b7f0501ec1a954875ed73957cba289"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga72b7f0501ec1a954875ed73957cba289">MR_MeshEqualizeTriAreasParams_OffsetMutablePtr</a> (<a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ga72b7f0501ec1a954875ed73957cba289"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ga72b7f0501ec1a954875ed73957cba289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf8eb49a2b0228d3579a0032b6d224991" id="r_gaf8eb49a2b0228d3579a0032b6d224991"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#gaf8eb49a2b0228d3579a0032b6d224991">MR_MeshEqualizeTriAreasParams_UpcastTo_MR_MeshRelaxParams</a> (const <a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *object)</td></tr>
+<tr class="separator:gaf8eb49a2b0228d3579a0032b6d224991"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa2dc517901e97fb3f880ac0e0e06a6d8" id="r_gaa2dc517901e97fb3f880ac0e0e06a6d8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#gaa2dc517901e97fb3f880ac0e0e06a6d8">MR_MeshEqualizeTriAreasParams_MutableUpcastTo_MR_MeshRelaxParams</a> (<a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *object)</td></tr>
+<tr class="memdesc:gaa2dc517901e97fb3f880ac0e0e06a6d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code>.  <br /></td></tr>
+<tr class="separator:gaa2dc517901e97fb3f880ac0e0e06a6d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga50fa164ff70d4dc6d13f04428a9ee737" id="r_ga50fa164ff70d4dc6d13f04428a9ee737"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga50fa164ff70d4dc6d13f04428a9ee737">MR_MeshEqualizeTriAreasParams_UpcastTo_MR_RelaxParams</a> (const <a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *object)</td></tr>
+<tr class="separator:ga50fa164ff70d4dc6d13f04428a9ee737"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadb53a0af0b7583820aa1de584d0d8aa7" id="r_gadb53a0af0b7583820aa1de584d0d8aa7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#gadb53a0af0b7583820aa1de584d0d8aa7">MR_MeshEqualizeTriAreasParams_MutableUpcastTo_MR_RelaxParams</a> (<a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *object)</td></tr>
+<tr class="memdesc:gadb53a0af0b7583820aa1de584d0d8aa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code>.  <br /></td></tr>
+<tr class="separator:gadb53a0af0b7583820aa1de584d0d8aa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga408f5405f2dd134a989fbd19cc611352" id="r_ga408f5405f2dd134a989fbd19cc611352"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga408f5405f2dd134a989fbd19cc611352">MR_MeshEqualizeTriAreasParams_ConstructFromAnother</a> (const <a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *_other)</td></tr>
+<tr class="separator:ga408f5405f2dd134a989fbd19cc611352"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1375f118c328d24b6eb6858cb309f336" id="r_ga1375f118c328d24b6eb6858cb309f336"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga1375f118c328d24b6eb6858cb309f336">MR_MeshEqualizeTriAreasParams_Destroy</a> (const <a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *_this)</td></tr>
+<tr class="memdesc:ga1375f118c328d24b6eb6858cb309f336"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_MeshEqualizeTriAreasParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ga1375f118c328d24b6eb6858cb309f336"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad865afad8150a1dbbdc93364e0489060" id="r_gad865afad8150a1dbbdc93364e0489060"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#gad865afad8150a1dbbdc93364e0489060">MR_MeshEqualizeTriAreasParams_DestroyArray</a> (const <a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *_this)</td></tr>
+<tr class="memdesc:gad865afad8150a1dbbdc93364e0489060"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_MeshEqualizeTriAreasParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:gad865afad8150a1dbbdc93364e0489060"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5163c5cc2784821fdeba8ab77730deeb" id="r_ga5163c5cc2784821fdeba8ab77730deeb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga5163c5cc2784821fdeba8ab77730deeb">MR_MeshEqualizeTriAreasParams_AssignFromAnother</a> (<a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *_this, const <a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *_other)</td></tr>
+<tr class="separator:ga5163c5cc2784821fdeba8ab77730deeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga978407207d021e5d2ce7cc273435e6e1" id="r_ga978407207d021e5d2ce7cc273435e6e1"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga978407207d021e5d2ce7cc273435e6e1">MR_equalizeTriAreas_3</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ga978407207d021e5d2ce7cc273435e6e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9530aa26f267fea6ad4ff6f86bcab3da" id="r_ga9530aa26f267fea6ad4ff6f86bcab3da"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga9530aa26f267fea6ad4ff6f86bcab3da">MR_equalizeTriAreas_4</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="group__MeshRelaxGroup.html#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ga9530aa26f267fea6ad4ff6f86bcab3da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4f2f83618127cc7b70a4239177b828b1" id="r_ga4f2f83618127cc7b70a4239177b828b1"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga4f2f83618127cc7b70a4239177b828b1">MR_relaxKeepVolume_3_MR_Mesh</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ga4f2f83618127cc7b70a4239177b828b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9ad472c26700843c6b825e2391437e8f" id="r_ga9ad472c26700843c6b825e2391437e8f"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga9ad472c26700843c6b825e2391437e8f">MR_relaxKeepVolume_4</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ga9ad472c26700843c6b825e2391437e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga56d35b5ee983152029543c7bce08c6e6" id="r_ga56d35b5ee983152029543c7bce08c6e6"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga56d35b5ee983152029543c7bce08c6e6">MR_MeshApproxRelaxParams_Get_surfaceDilateRadius</a> (const <a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *_this)</td></tr>
+<tr class="separator:ga56d35b5ee983152029543c7bce08c6e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5972213063cbcd42a1c8019848ee913d" id="r_ga5972213063cbcd42a1c8019848ee913d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga5972213063cbcd42a1c8019848ee913d">MR_MeshApproxRelaxParams_Set_surfaceDilateRadius</a> (<a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *_this, float value)</td></tr>
+<tr class="separator:ga5972213063cbcd42a1c8019848ee913d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga920f2bfaf0186e0197729b1f18ff2b7e" id="r_ga920f2bfaf0186e0197729b1f18ff2b7e"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga920f2bfaf0186e0197729b1f18ff2b7e">MR_MeshApproxRelaxParams_GetMutable_surfaceDilateRadius</a> (<a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *_this)</td></tr>
+<tr class="separator:ga920f2bfaf0186e0197729b1f18ff2b7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga78acbcb41b6a77c616bba906dad70007" id="r_ga78acbcb41b6a77c616bba906dad70007"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRRelaxParams_8h.html#ad9afe6f617031f8762108430bbdebd3f">MR_RelaxApproxType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga78acbcb41b6a77c616bba906dad70007">MR_MeshApproxRelaxParams_Get_type</a> (const <a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *_this)</td></tr>
+<tr class="separator:ga78acbcb41b6a77c616bba906dad70007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga88b77a7b9c9faae4c9fc4d0c3a57af23" id="r_ga88b77a7b9c9faae4c9fc4d0c3a57af23"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga88b77a7b9c9faae4c9fc4d0c3a57af23">MR_MeshApproxRelaxParams_Set_type</a> (<a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *_this, <a class="el" href="MRRelaxParams_8h.html#ad9afe6f617031f8762108430bbdebd3f">MR_RelaxApproxType</a> value)</td></tr>
+<tr class="separator:ga88b77a7b9c9faae4c9fc4d0c3a57af23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaad9bef93915cdd77f93d855839089214" id="r_gaad9bef93915cdd77f93d855839089214"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRRelaxParams_8h.html#ad9afe6f617031f8762108430bbdebd3f">MR_RelaxApproxType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#gaad9bef93915cdd77f93d855839089214">MR_MeshApproxRelaxParams_GetMutable_type</a> (<a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *_this)</td></tr>
+<tr class="separator:gaad9bef93915cdd77f93d855839089214"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa54b6ae78b8f286e7bf9c7b7d3385cb2" id="r_gaa54b6ae78b8f286e7bf9c7b7d3385cb2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#gaa54b6ae78b8f286e7bf9c7b7d3385cb2">MR_MeshApproxRelaxParams_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:gaa54b6ae78b8f286e7bf9c7b7d3385cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1adfc3365f7c0cfdd46a875f2175a3de" id="r_ga1adfc3365f7c0cfdd46a875f2175a3de"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga1adfc3365f7c0cfdd46a875f2175a3de">MR_MeshApproxRelaxParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ga1adfc3365f7c0cfdd46a875f2175a3de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8860221e6021dc5e73577c7fd1a4ae6c" id="r_ga8860221e6021dc5e73577c7fd1a4ae6c"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga8860221e6021dc5e73577c7fd1a4ae6c">MR_MeshApproxRelaxParams_OffsetPtr</a> (const <a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ga8860221e6021dc5e73577c7fd1a4ae6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ga8860221e6021dc5e73577c7fd1a4ae6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadf4a867c6ac2bd075b0e361597c7a58f" id="r_gadf4a867c6ac2bd075b0e361597c7a58f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#gadf4a867c6ac2bd075b0e361597c7a58f">MR_MeshApproxRelaxParams_OffsetMutablePtr</a> (<a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:gadf4a867c6ac2bd075b0e361597c7a58f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:gadf4a867c6ac2bd075b0e361597c7a58f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga11cb7121fc71f390f29c05f59227b6e2" id="r_ga11cb7121fc71f390f29c05f59227b6e2"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga11cb7121fc71f390f29c05f59227b6e2">MR_MeshApproxRelaxParams_UpcastTo_MR_MeshRelaxParams</a> (const <a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *object)</td></tr>
+<tr class="separator:ga11cb7121fc71f390f29c05f59227b6e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad068757b35d05dc83c7e9dfb6603bb02" id="r_gad068757b35d05dc83c7e9dfb6603bb02"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__MeshRelaxGroup.html#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#gad068757b35d05dc83c7e9dfb6603bb02">MR_MeshApproxRelaxParams_MutableUpcastTo_MR_MeshRelaxParams</a> (<a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *object)</td></tr>
+<tr class="memdesc:gad068757b35d05dc83c7e9dfb6603bb02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code>.  <br /></td></tr>
+<tr class="separator:gad068757b35d05dc83c7e9dfb6603bb02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab2e5ffff1ec762fe0271586504859349" id="r_gab2e5ffff1ec762fe0271586504859349"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#gab2e5ffff1ec762fe0271586504859349">MR_MeshApproxRelaxParams_UpcastTo_MR_RelaxParams</a> (const <a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *object)</td></tr>
+<tr class="separator:gab2e5ffff1ec762fe0271586504859349"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabe1f8abddcf2bac71f6ba5f8c1365c5a" id="r_gabe1f8abddcf2bac71f6ba5f8c1365c5a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#gabe1f8abddcf2bac71f6ba5f8c1365c5a">MR_MeshApproxRelaxParams_MutableUpcastTo_MR_RelaxParams</a> (<a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *object)</td></tr>
+<tr class="memdesc:gabe1f8abddcf2bac71f6ba5f8c1365c5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code>.  <br /></td></tr>
+<tr class="separator:gabe1f8abddcf2bac71f6ba5f8c1365c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga61f9371a05be5ea22cbe66f5a19cc8f9" id="r_ga61f9371a05be5ea22cbe66f5a19cc8f9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga61f9371a05be5ea22cbe66f5a19cc8f9">MR_MeshApproxRelaxParams_ConstructFromAnother</a> (const <a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *_other)</td></tr>
+<tr class="separator:ga61f9371a05be5ea22cbe66f5a19cc8f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga44a3b31eeca231382bc06cbf636d3c30" id="r_ga44a3b31eeca231382bc06cbf636d3c30"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga44a3b31eeca231382bc06cbf636d3c30">MR_MeshApproxRelaxParams_Destroy</a> (const <a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *_this)</td></tr>
+<tr class="memdesc:ga44a3b31eeca231382bc06cbf636d3c30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_MeshApproxRelaxParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ga44a3b31eeca231382bc06cbf636d3c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7c6b41334a0847745ce49ff097222aa0" id="r_ga7c6b41334a0847745ce49ff097222aa0"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga7c6b41334a0847745ce49ff097222aa0">MR_MeshApproxRelaxParams_DestroyArray</a> (const <a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *_this)</td></tr>
+<tr class="memdesc:ga7c6b41334a0847745ce49ff097222aa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_MeshApproxRelaxParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ga7c6b41334a0847745ce49ff097222aa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf1d59d1af57c390426e574038550b690" id="r_gaf1d59d1af57c390426e574038550b690"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#gaf1d59d1af57c390426e574038550b690">MR_MeshApproxRelaxParams_AssignFromAnother</a> (<a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *_this, const <a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *_other)</td></tr>
+<tr class="separator:gaf1d59d1af57c390426e574038550b690"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0c03e2b69580d90eeae5a9509f06dadb" id="r_ga0c03e2b69580d90eeae5a9509f06dadb"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga0c03e2b69580d90eeae5a9509f06dadb">MR_relaxApprox_3_MR_Mesh</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ga0c03e2b69580d90eeae5a9509f06dadb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga822e40cb631af953d8a354832ebe046c" id="r_ga822e40cb631af953d8a354832ebe046c"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga822e40cb631af953d8a354832ebe046c">MR_relaxApprox_4</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="group__MeshRelaxGroup.html#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ga822e40cb631af953d8a354832ebe046c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga95614f42d7bb9efe56a4d810b412e1fd" id="r_ga95614f42d7bb9efe56a4d810b412e1fd"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga95614f42d7bb9efe56a4d810b412e1fd">MR_removeSpikes_4</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, int32_t maxIterations, float minSumAngle, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region)</td></tr>
+<tr class="separator:ga95614f42d7bb9efe56a4d810b412e1fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad55464653566ed7389071738ad5d21c5" id="r_gad55464653566ed7389071738ad5d21c5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#gad55464653566ed7389071738ad5d21c5">MR_removeSpikes_5</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, int32_t maxIterations, float minSumAngle, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region)</td></tr>
+<tr class="separator:gad55464653566ed7389071738ad5d21c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabcd02e5fd1ad781ca6dc0fb18068ac4e" id="r_gabcd02e5fd1ad781ca6dc0fb18068ac4e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#gabcd02e5fd1ad781ca6dc0fb18068ac4e">MR_smoothRegionBoundary</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *regionFaces, const int32_t *numIters)</td></tr>
+<tr class="separator:gabcd02e5fd1ad781ca6dc0fb18068ac4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4437d25e27133b742ae0f2a735fab89c" id="r_ga4437d25e27133b742ae0f2a735fab89c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga4437d25e27133b742ae0f2a735fab89c">MR_hardSmoothTetrahedrons_2</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region)</td></tr>
+<tr class="separator:ga4437d25e27133b742ae0f2a735fab89c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7fff5129cabb80b083d03f37d63f000d" id="r_ga7fff5129cabb80b083d03f37d63f000d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshRelaxGroup.html#ga7fff5129cabb80b083d03f37d63f000d">MR_hardSmoothTetrahedrons_3</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region)</td></tr>
+<tr class="separator:ga7fff5129cabb80b083d03f37d63f000d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="aba7bc6ac732c34fd4721c543fa3445ea" name="aba7bc6ac732c34fd4721c543fa3445ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba7bc6ac732c34fd4721c543fa3445ea">&#9670;&#160;</a></span>MR_FaceBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a31b172f68efca6438544d56eb86d6f40" name="a31b172f68efca6438544d56eb86d6f40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31b172f68efca6438544d56eb86d6f40">&#9670;&#160;</a></span>MR_Mesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad396cf7d4433c5ba7924776f5b379c9b" name="ad396cf7d4433c5ba7924776f5b379c9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad396cf7d4433c5ba7924776f5b379c9b">&#9670;&#160;</a></span>MR_MeshTopology</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acbad516b8cbb2b5069857163ee94db3f" name="acbad516b8cbb2b5069857163ee94db3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbad516b8cbb2b5069857163ee94db3f">&#9670;&#160;</a></span>MR_RelaxParams</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> <a class="el" href="#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adb03ce28cacfff1e499d75d512dc4a84" name="adb03ce28cacfff1e499d75d512dc4a84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb03ce28cacfff1e499d75d512dc4a84">&#9670;&#160;</a></span>MR_std_function_bool_from_float</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3df50e76b078a1626dd994e1df803764" name="a3df50e76b078a1626dd994e1df803764"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3df50e76b078a1626dd994e1df803764">&#9670;&#160;</a></span>MR_VertBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a249fd9254c0c3395567807936ad32641" name="a249fd9254c0c3395567807936ad32641"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a249fd9254c0c3395567807936ad32641">&#9670;&#160;</a></span>MR_VertCoords</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e4bb5e8943c9b1f5d438198404d0bd4" name="a6e4bb5e8943c9b1f5d438198404d0bd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e4bb5e8943c9b1f5d438198404d0bd4">&#9670;&#160;</a></span>MR_VertScalars</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_8b489c7b5d1a72d35ec87e32cc37b940.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRMeshRelax_8h.html">MRMeshRelax.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

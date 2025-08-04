@@ -1,0 +1,1746 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: std_vector_MR_UnorientedTriangle.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('std__vector__MR__UnorientedTriangle_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">std_vector_MR_UnorientedTriangle.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="std__vector__MR__UnorientedTriangle_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a64d49e7ba2575275fe304bab6f095f9d" id="r_a64d49e7ba2575275fe304bab6f095f9d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a></td></tr>
+<tr class="separator:a64d49e7ba2575275fe304bab6f095f9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a728f3170bb6a26bea6a2e4df3bfc0153" id="r_a728f3170bb6a26bea6a2e4df3bfc0153"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a></td></tr>
+<tr class="separator:a728f3170bb6a26bea6a2e4df3bfc0153"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70ca29c456e34317ed2e07f5333ee9b3" id="r_a70ca29c456e34317ed2e07f5333ee9b3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a></td></tr>
+<tr class="separator:a70ca29c456e34317ed2e07f5333ee9b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaef77876fb43588afd954bbfe0a8e561" id="r_aaef77876fb43588afd954bbfe0a8e561"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a></td></tr>
+<tr class="separator:aaef77876fb43588afd954bbfe0a8e561"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a11ba696f66e306da5f97dc7a0f144aa5" id="r_a11ba696f66e306da5f97dc7a0f144aa5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11ba696f66e306da5f97dc7a0f144aa5">MR_std_vector_MR_UnorientedTriangle_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a11ba696f66e306da5f97dc7a0f144aa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab65a99eae448652d53dcec2482c9083" id="r_aab65a99eae448652d53dcec2482c9083"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab65a99eae448652d53dcec2482c9083">MR_std_vector_MR_UnorientedTriangle_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:aab65a99eae448652d53dcec2482c9083"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefd54e614fbbe3d72d1bcbd99c856f29" id="r_aefd54e614fbbe3d72d1bcbd99c856f29"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefd54e614fbbe3d72d1bcbd99c856f29">MR_std_vector_MR_UnorientedTriangle_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *other)</td></tr>
+<tr class="separator:aefd54e614fbbe3d72d1bcbd99c856f29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac51f5356003efb07b5f8dbec297bc740" id="r_ac51f5356003efb07b5f8dbec297bc740"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac51f5356003efb07b5f8dbec297bc740">MR_std_vector_MR_UnorientedTriangle_AssignFromAnother</a> (<a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *other)</td></tr>
+<tr class="separator:ac51f5356003efb07b5f8dbec297bc740"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a710f9e6597c4453e50cbf05dbeda0cdd" id="r_a710f9e6597c4453e50cbf05dbeda0cdd"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a710f9e6597c4453e50cbf05dbeda0cdd">MR_std_vector_MR_UnorientedTriangle_Destroy</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this)</td></tr>
+<tr class="memdesc:a710f9e6597c4453e50cbf05dbeda0cdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_UnorientedTriangle</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a710f9e6597c4453e50cbf05dbeda0cdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f6189155b4d4fbfb36d0db101389dc3" id="r_a8f6189155b4d4fbfb36d0db101389dc3"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f6189155b4d4fbfb36d0db101389dc3">MR_std_vector_MR_UnorientedTriangle_DestroyArray</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this)</td></tr>
+<tr class="memdesc:a8f6189155b4d4fbfb36d0db101389dc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_UnorientedTriangle</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a8f6189155b4d4fbfb36d0db101389dc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20c85c89ce61fa1d3a4343fe8d00f978" id="r_a20c85c89ce61fa1d3a4343fe8d00f978"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20c85c89ce61fa1d3a4343fe8d00f978">MR_std_vector_MR_UnorientedTriangle_OffsetPtr</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a20c85c89ce61fa1d3a4343fe8d00f978"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a20c85c89ce61fa1d3a4343fe8d00f978"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fc2e2c61ea316bc59f04a99d462c599" id="r_a1fc2e2c61ea316bc59f04a99d462c599"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fc2e2c61ea316bc59f04a99d462c599">MR_std_vector_MR_UnorientedTriangle_OffsetMutablePtr</a> (<a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a1fc2e2c61ea316bc59f04a99d462c599"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a1fc2e2c61ea316bc59f04a99d462c599"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a443c520d8f76f963d2669ec58df12f3d" id="r_a443c520d8f76f963d2669ec58df12f3d"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a443c520d8f76f963d2669ec58df12f3d">MR_std_vector_MR_UnorientedTriangle_Size</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this)</td></tr>
+<tr class="separator:a443c520d8f76f963d2669ec58df12f3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5e1d1faa0df293558345c1b11eaff42" id="r_ae5e1d1faa0df293558345c1b11eaff42"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5e1d1faa0df293558345c1b11eaff42">MR_std_vector_MR_UnorientedTriangle_IsEmpty</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this)</td></tr>
+<tr class="separator:ae5e1d1faa0df293558345c1b11eaff42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b370f1d3070c04844bb78fb863b172a" id="r_a0b370f1d3070c04844bb78fb863b172a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b370f1d3070c04844bb78fb863b172a">MR_std_vector_MR_UnorientedTriangle_ResizeWithDefaultValue</a> (<a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this, size_t new_size, const <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a> *value)</td></tr>
+<tr class="separator:a0b370f1d3070c04844bb78fb863b172a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f6cf08345ffff51c9d3aaf1219bda9f" id="r_a7f6cf08345ffff51c9d3aaf1219bda9f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f6cf08345ffff51c9d3aaf1219bda9f">MR_std_vector_MR_UnorientedTriangle_Clear</a> (<a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this)</td></tr>
+<tr class="separator:a7f6cf08345ffff51c9d3aaf1219bda9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf848b2996cd2bec8e062766af8414f5" id="r_acf848b2996cd2bec8e062766af8414f5"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf848b2996cd2bec8e062766af8414f5">MR_std_vector_MR_UnorientedTriangle_Capacity</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this)</td></tr>
+<tr class="separator:acf848b2996cd2bec8e062766af8414f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae270caea7db9a89d6b59bf575d6481b3" id="r_ae270caea7db9a89d6b59bf575d6481b3"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae270caea7db9a89d6b59bf575d6481b3">MR_std_vector_MR_UnorientedTriangle_Reserve</a> (<a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this, size_t new_capacity)</td></tr>
+<tr class="separator:ae270caea7db9a89d6b59bf575d6481b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afef78fd1cf304543d958c53d42ac9047" id="r_afef78fd1cf304543d958c53d42ac9047"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afef78fd1cf304543d958c53d42ac9047">MR_std_vector_MR_UnorientedTriangle_ShrinkToFit</a> (<a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this)</td></tr>
+<tr class="separator:afef78fd1cf304543d958c53d42ac9047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad971a86acc1a381eb16b1300d5caadcd" id="r_ad971a86acc1a381eb16b1300d5caadcd"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad971a86acc1a381eb16b1300d5caadcd">MR_std_vector_MR_UnorientedTriangle_At</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this, size_t i)</td></tr>
+<tr class="separator:ad971a86acc1a381eb16b1300d5caadcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07e239fe72e8a6464b06dac136954e5b" id="r_a07e239fe72e8a6464b06dac136954e5b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07e239fe72e8a6464b06dac136954e5b">MR_std_vector_MR_UnorientedTriangle_MutableAt</a> (<a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this, size_t i)</td></tr>
+<tr class="separator:a07e239fe72e8a6464b06dac136954e5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62bdf709ec1cbc9308ba050e2c0ac39c" id="r_a62bdf709ec1cbc9308ba050e2c0ac39c"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62bdf709ec1cbc9308ba050e2c0ac39c">MR_std_vector_MR_UnorientedTriangle_Front</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this)</td></tr>
+<tr class="separator:a62bdf709ec1cbc9308ba050e2c0ac39c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4283a83b87d68e6e3f60a0ddf0dc7607" id="r_a4283a83b87d68e6e3f60a0ddf0dc7607"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4283a83b87d68e6e3f60a0ddf0dc7607">MR_std_vector_MR_UnorientedTriangle_MutableFront</a> (<a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this)</td></tr>
+<tr class="separator:a4283a83b87d68e6e3f60a0ddf0dc7607"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7f9fed1de884389696b0b15f6f9cd19" id="r_ad7f9fed1de884389696b0b15f6f9cd19"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7f9fed1de884389696b0b15f6f9cd19">MR_std_vector_MR_UnorientedTriangle_Back</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this)</td></tr>
+<tr class="separator:ad7f9fed1de884389696b0b15f6f9cd19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae71a85286d8e15bfe336dce7a03cc799" id="r_ae71a85286d8e15bfe336dce7a03cc799"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae71a85286d8e15bfe336dce7a03cc799">MR_std_vector_MR_UnorientedTriangle_MutableBack</a> (<a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this)</td></tr>
+<tr class="separator:ae71a85286d8e15bfe336dce7a03cc799"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1efc34c754a7fc49365b409738eb982e" id="r_a1efc34c754a7fc49365b409738eb982e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1efc34c754a7fc49365b409738eb982e">MR_std_vector_MR_UnorientedTriangle_PushBack</a> (<a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this, const <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a> *new_elem)</td></tr>
+<tr class="separator:a1efc34c754a7fc49365b409738eb982e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bb60d341f12311a71ed06aacad5b627" id="r_a6bb60d341f12311a71ed06aacad5b627"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bb60d341f12311a71ed06aacad5b627">MR_std_vector_MR_UnorientedTriangle_PopBack</a> (<a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this)</td></tr>
+<tr class="separator:a6bb60d341f12311a71ed06aacad5b627"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76db65c369a7890fb67f0e705eeafad0" id="r_a76db65c369a7890fb67f0e705eeafad0"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76db65c369a7890fb67f0e705eeafad0">MR_std_vector_MR_UnorientedTriangle_Insert</a> (<a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this, size_t position, const <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a> *new_elem)</td></tr>
+<tr class="separator:a76db65c369a7890fb67f0e705eeafad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b0ad9e60851b514d25e2b333a067b9a" id="r_a3b0ad9e60851b514d25e2b333a067b9a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b0ad9e60851b514d25e2b333a067b9a">MR_std_vector_MR_UnorientedTriangle_Erase</a> (<a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this, size_t position)</td></tr>
+<tr class="separator:a3b0ad9e60851b514d25e2b333a067b9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a0c54bbcd712265c95a248a7e2a624d" id="r_a9a0c54bbcd712265c95a248a7e2a624d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a0c54bbcd712265c95a248a7e2a624d">MR_std_vector_MR_UnorientedTriangle_InsertAtMutableIter</a> (<a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this, const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *position, const <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a> *new_elem)</td></tr>
+<tr class="separator:a9a0c54bbcd712265c95a248a7e2a624d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7df07e4f59d5007b7ac7df238cb3987" id="r_af7df07e4f59d5007b7ac7df238cb3987"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7df07e4f59d5007b7ac7df238cb3987">MR_std_vector_MR_UnorientedTriangle_EraseAtMutableIter</a> (<a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this, const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *position)</td></tr>
+<tr class="separator:af7df07e4f59d5007b7ac7df238cb3987"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9a779b7e21409b8c064fea09f313212" id="r_ae9a779b7e21409b8c064fea09f313212"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9a779b7e21409b8c064fea09f313212">MR_std_vector_MR_UnorientedTriangle_InsertAtIter</a> (<a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this, const <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *position, const <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a> *new_elem)</td></tr>
+<tr class="separator:ae9a779b7e21409b8c064fea09f313212"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a0a6c143ac2f621baf601b034039ec1" id="r_a8a0a6c143ac2f621baf601b034039ec1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a0a6c143ac2f621baf601b034039ec1">MR_std_vector_MR_UnorientedTriangle_EraseAtIter</a> (<a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this, const <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *position)</td></tr>
+<tr class="separator:a8a0a6c143ac2f621baf601b034039ec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4a77632bd8c85b377d1f7945c33cea8" id="r_ad4a77632bd8c85b377d1f7945c33cea8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4a77632bd8c85b377d1f7945c33cea8">MR_std_vector_MR_UnorientedTriangle_Begin</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this)</td></tr>
+<tr class="separator:ad4a77632bd8c85b377d1f7945c33cea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeff16030314379de24c18c7ba72fe00c" id="r_aeff16030314379de24c18c7ba72fe00c"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeff16030314379de24c18c7ba72fe00c">MR_std_vector_MR_UnorientedTriangle_IsBegin</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this, const <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *iter)</td></tr>
+<tr class="separator:aeff16030314379de24c18c7ba72fe00c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a5f4cf7ccb37680e1d88e8fbc4577ec" id="r_a4a5f4cf7ccb37680e1d88e8fbc4577ec"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a5f4cf7ccb37680e1d88e8fbc4577ec">MR_std_vector_MR_UnorientedTriangle_MutableBegin</a> (<a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this)</td></tr>
+<tr class="separator:a4a5f4cf7ccb37680e1d88e8fbc4577ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8477b00c29d3667351d9843fed1b8fc2" id="r_a8477b00c29d3667351d9843fed1b8fc2"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8477b00c29d3667351d9843fed1b8fc2">MR_std_vector_MR_UnorientedTriangle_IsMutableBegin</a> (<a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this, const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *iter)</td></tr>
+<tr class="separator:a8477b00c29d3667351d9843fed1b8fc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15f5d4522d43b5cca3e628189893f08a" id="r_a15f5d4522d43b5cca3e628189893f08a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15f5d4522d43b5cca3e628189893f08a">MR_std_vector_MR_UnorientedTriangle_End</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this)</td></tr>
+<tr class="separator:a15f5d4522d43b5cca3e628189893f08a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94f1e2ef477ffd871695150d88b6de0e" id="r_a94f1e2ef477ffd871695150d88b6de0e"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94f1e2ef477ffd871695150d88b6de0e">MR_std_vector_MR_UnorientedTriangle_IsEnd</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this, const <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *iter)</td></tr>
+<tr class="separator:a94f1e2ef477ffd871695150d88b6de0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7605a1bc7ddc2e05eca2b5b8ee66268a" id="r_a7605a1bc7ddc2e05eca2b5b8ee66268a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7605a1bc7ddc2e05eca2b5b8ee66268a">MR_std_vector_MR_UnorientedTriangle_MutableEnd</a> (<a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this)</td></tr>
+<tr class="separator:a7605a1bc7ddc2e05eca2b5b8ee66268a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a97832476860eb72a69369fff38dd7f" id="r_a8a97832476860eb72a69369fff38dd7f"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a97832476860eb72a69369fff38dd7f">MR_std_vector_MR_UnorientedTriangle_IsMutableEnd</a> (<a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this, const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *iter)</td></tr>
+<tr class="separator:a8a97832476860eb72a69369fff38dd7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14ca9dfb859e4508eb82c9c65554d2f8" id="r_a14ca9dfb859e4508eb82c9c65554d2f8"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14ca9dfb859e4508eb82c9c65554d2f8">MR_std_vector_MR_UnorientedTriangle_ToIndex</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this, const <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *iter)</td></tr>
+<tr class="separator:a14ca9dfb859e4508eb82c9c65554d2f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0cf7d6a66ed3471dc619697fe0d855a" id="r_ae0cf7d6a66ed3471dc619697fe0d855a"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0cf7d6a66ed3471dc619697fe0d855a">MR_std_vector_MR_UnorientedTriangle_MutableToIndex</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *_this, const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *iter)</td></tr>
+<tr class="separator:ae0cf7d6a66ed3471dc619697fe0d855a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a633a0c2d2ecead283ff543677cfec010" id="r_a633a0c2d2ecead283ff543677cfec010"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a633a0c2d2ecead283ff543677cfec010">MR_std_vector_MR_UnorientedTriangle_const_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a633a0c2d2ecead283ff543677cfec010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a662bcd7de9a6bfe1ee2f6bba3619bfb3" id="r_a662bcd7de9a6bfe1ee2f6bba3619bfb3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a662bcd7de9a6bfe1ee2f6bba3619bfb3">MR_std_vector_MR_UnorientedTriangle_const_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a662bcd7de9a6bfe1ee2f6bba3619bfb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ee066843ac11c00f15dddc38510d8b7" id="r_a7ee066843ac11c00f15dddc38510d8b7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ee066843ac11c00f15dddc38510d8b7">MR_std_vector_MR_UnorientedTriangle_const_iterator_ConstructFromAnother</a> (const <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *other)</td></tr>
+<tr class="separator:a7ee066843ac11c00f15dddc38510d8b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb74c168286440813600e1f52d554a33" id="r_acb74c168286440813600e1f52d554a33"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb74c168286440813600e1f52d554a33">MR_std_vector_MR_UnorientedTriangle_const_iterator_AssignFromAnother</a> (<a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *_this, const <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *other)</td></tr>
+<tr class="separator:acb74c168286440813600e1f52d554a33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8ccdc811b538a737d397719521c59ec" id="r_ad8ccdc811b538a737d397719521c59ec"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8ccdc811b538a737d397719521c59ec">MR_std_vector_MR_UnorientedTriangle_const_iterator_Destroy</a> (const <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:ad8ccdc811b538a737d397719521c59ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_UnorientedTriangle_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ad8ccdc811b538a737d397719521c59ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d01b9d06c484a89318069c8eb084fd8" id="r_a6d01b9d06c484a89318069c8eb084fd8"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d01b9d06c484a89318069c8eb084fd8">MR_std_vector_MR_UnorientedTriangle_const_iterator_DestroyArray</a> (const <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a6d01b9d06c484a89318069c8eb084fd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_UnorientedTriangle_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a6d01b9d06c484a89318069c8eb084fd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35adea2a53a6bdfba64b1a0706dd819a" id="r_a35adea2a53a6bdfba64b1a0706dd819a"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35adea2a53a6bdfba64b1a0706dd819a">MR_std_vector_MR_UnorientedTriangle_const_iterator_OffsetPtr</a> (const <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a35adea2a53a6bdfba64b1a0706dd819a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a35adea2a53a6bdfba64b1a0706dd819a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab84f06b5fca741e82fc9a89dfff77198" id="r_ab84f06b5fca741e82fc9a89dfff77198"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab84f06b5fca741e82fc9a89dfff77198">MR_std_vector_MR_UnorientedTriangle_const_iterator_OffsetMutablePtr</a> (<a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ab84f06b5fca741e82fc9a89dfff77198"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ab84f06b5fca741e82fc9a89dfff77198"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a174c5e2c9217c2139be302174cb75738" id="r_a174c5e2c9217c2139be302174cb75738"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a174c5e2c9217c2139be302174cb75738">MR_std_vector_MR_UnorientedTriangle_const_iterator_FromMutable</a> (const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *iter)</td></tr>
+<tr class="separator:a174c5e2c9217c2139be302174cb75738"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf7e06083013f9f5e9fbb433845b5112" id="r_adf7e06083013f9f5e9fbb433845b5112"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf7e06083013f9f5e9fbb433845b5112">MR_std_vector_MR_UnorientedTriangle_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:adf7e06083013f9f5e9fbb433845b5112"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb6a3fecea3fcc7c18ef3bf7e63c86ef" id="r_aeb6a3fecea3fcc7c18ef3bf7e63c86ef"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb6a3fecea3fcc7c18ef3bf7e63c86ef">MR_std_vector_MR_UnorientedTriangle_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:aeb6a3fecea3fcc7c18ef3bf7e63c86ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5123aafdf46b5ea371c1b1d06552eee" id="r_af5123aafdf46b5ea371c1b1d06552eee"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5123aafdf46b5ea371c1b1d06552eee">MR_std_vector_MR_UnorientedTriangle_iterator_ConstructFromAnother</a> (const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *other)</td></tr>
+<tr class="separator:af5123aafdf46b5ea371c1b1d06552eee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add8e3277941710175c8af91fa3c7f961" id="r_add8e3277941710175c8af91fa3c7f961"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add8e3277941710175c8af91fa3c7f961">MR_std_vector_MR_UnorientedTriangle_iterator_AssignFromAnother</a> (<a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *_this, const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *other)</td></tr>
+<tr class="separator:add8e3277941710175c8af91fa3c7f961"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec42a3f19dcbceba24034b9c7b785f79" id="r_aec42a3f19dcbceba24034b9c7b785f79"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec42a3f19dcbceba24034b9c7b785f79">MR_std_vector_MR_UnorientedTriangle_iterator_Destroy</a> (const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *_this)</td></tr>
+<tr class="memdesc:aec42a3f19dcbceba24034b9c7b785f79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_UnorientedTriangle_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:aec42a3f19dcbceba24034b9c7b785f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1acc3d888676182c78e13aa088fcf400" id="r_a1acc3d888676182c78e13aa088fcf400"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1acc3d888676182c78e13aa088fcf400">MR_std_vector_MR_UnorientedTriangle_iterator_DestroyArray</a> (const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a1acc3d888676182c78e13aa088fcf400"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_UnorientedTriangle_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a1acc3d888676182c78e13aa088fcf400"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ae4d32c945051a88985989d387a3b39" id="r_a1ae4d32c945051a88985989d387a3b39"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ae4d32c945051a88985989d387a3b39">MR_std_vector_MR_UnorientedTriangle_iterator_OffsetPtr</a> (const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a1ae4d32c945051a88985989d387a3b39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a1ae4d32c945051a88985989d387a3b39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba247cf21ef5093bd5806fa5ede150c5" id="r_aba247cf21ef5093bd5806fa5ede150c5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba247cf21ef5093bd5806fa5ede150c5">MR_std_vector_MR_UnorientedTriangle_iterator_OffsetMutablePtr</a> (<a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:aba247cf21ef5093bd5806fa5ede150c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:aba247cf21ef5093bd5806fa5ede150c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9099c2deee5635a72d0e15056e6fee34" id="r_a9099c2deee5635a72d0e15056e6fee34"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9099c2deee5635a72d0e15056e6fee34">MR_std_vector_MR_UnorientedTriangle_const_iterator_Deref</a> (const <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *_this)</td></tr>
+<tr class="separator:a9099c2deee5635a72d0e15056e6fee34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb16f565ae1dfeb02b608801f5f85a08" id="r_adb16f565ae1dfeb02b608801f5f85a08"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb16f565ae1dfeb02b608801f5f85a08">MR_std_vector_MR_UnorientedTriangle_const_iterator_Incr</a> (<a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *_this)</td></tr>
+<tr class="separator:adb16f565ae1dfeb02b608801f5f85a08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab6896da991e8ad42396c0636a46025c" id="r_aab6896da991e8ad42396c0636a46025c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab6896da991e8ad42396c0636a46025c">MR_std_vector_MR_UnorientedTriangle_const_iterator_Decr</a> (<a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *_this)</td></tr>
+<tr class="separator:aab6896da991e8ad42396c0636a46025c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b3bba53163b86d065b76769d4bc28f7" id="r_a1b3bba53163b86d065b76769d4bc28f7"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b3bba53163b86d065b76769d4bc28f7">MR_std_vector_MR_UnorientedTriangle_const_iterator_OffsetBy</a> (<a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *_this, ptrdiff_t delta)</td></tr>
+<tr class="separator:a1b3bba53163b86d065b76769d4bc28f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10ae83b92f00c4086e57f2e9d06d1a63" id="r_a10ae83b92f00c4086e57f2e9d06d1a63"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10ae83b92f00c4086e57f2e9d06d1a63">MR_std_vector_MR_UnorientedTriangle_const_iterator_Distance</a> (const <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *a, const <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *b)</td></tr>
+<tr class="separator:a10ae83b92f00c4086e57f2e9d06d1a63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01498adc9abd17264420c264beea0ba1" id="r_a01498adc9abd17264420c264beea0ba1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01498adc9abd17264420c264beea0ba1">MR_std_vector_MR_UnorientedTriangle_iterator_Deref</a> (const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *_this)</td></tr>
+<tr class="separator:a01498adc9abd17264420c264beea0ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a272148f26d3478a7c5735e1bde6dafca" id="r_a272148f26d3478a7c5735e1bde6dafca"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a272148f26d3478a7c5735e1bde6dafca">MR_std_vector_MR_UnorientedTriangle_iterator_Incr</a> (<a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *_this)</td></tr>
+<tr class="separator:a272148f26d3478a7c5735e1bde6dafca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74c6d36c2f098e21c631bcff158b76d7" id="r_a74c6d36c2f098e21c631bcff158b76d7"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74c6d36c2f098e21c631bcff158b76d7">MR_std_vector_MR_UnorientedTriangle_iterator_Decr</a> (<a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *_this)</td></tr>
+<tr class="separator:a74c6d36c2f098e21c631bcff158b76d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a1d30fb174545c08b6217271e0dc870" id="r_a7a1d30fb174545c08b6217271e0dc870"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a1d30fb174545c08b6217271e0dc870">MR_std_vector_MR_UnorientedTriangle_iterator_OffsetBy</a> (<a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *_this, ptrdiff_t delta)</td></tr>
+<tr class="separator:a7a1d30fb174545c08b6217271e0dc870"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71fec27b06a8ea76d81ffe889a563d24" id="r_a71fec27b06a8ea76d81ffe889a563d24"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71fec27b06a8ea76d81ffe889a563d24">MR_std_vector_MR_UnorientedTriangle_iterator_Distance</a> (const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *a, const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *b)</td></tr>
+<tr class="separator:a71fec27b06a8ea76d81ffe889a563d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a728f3170bb6a26bea6a2e4df3bfc0153" name="a728f3170bb6a26bea6a2e4df3bfc0153"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a728f3170bb6a26bea6a2e4df3bfc0153">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from C++ container <code>std::vector&lt;<a class="elRef" href="../Cpp/structMR_1_1UnorientedTriangle.html">MR::UnorientedTriangle</a>&gt;</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a70ca29c456e34317ed2e07f5333ee9b3" name="a70ca29c456e34317ed2e07f5333ee9b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70ca29c456e34317ed2e07f5333ee9b3">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_const_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Read-only iterator for <code>MR_std_vector_MR_UnorientedTriangle</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="aaef77876fb43588afd954bbfe0a8e561" name="aaef77876fb43588afd954bbfe0a8e561"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaef77876fb43588afd954bbfe0a8e561">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Mutable iterator for <code>MR_std_vector_MR_UnorientedTriangle</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a64d49e7ba2575275fe304bab6f095f9d" name="a64d49e7ba2575275fe304bab6f095f9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64d49e7ba2575275fe304bab6f095f9d">&#9670;&#160;</a></span>MR_UnorientedTriangle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a> <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ac51f5356003efb07b5f8dbec297bc740" name="ac51f5356003efb07b5f8dbec297bc740"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac51f5356003efb07b5f8dbec297bc740">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UnorientedTriangle_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad971a86acc1a381eb16b1300d5caadcd" name="ad971a86acc1a381eb16b1300d5caadcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad971a86acc1a381eb16b1300d5caadcd">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_At()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a> * MR_std_vector_MR_UnorientedTriangle_At </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, read-only. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ad7f9fed1de884389696b0b15f6f9cd19" name="ad7f9fed1de884389696b0b15f6f9cd19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7f9fed1de884389696b0b15f6f9cd19">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_Back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a> * MR_std_vector_MR_UnorientedTriangle_Back </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The last element or null if empty, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad4a77632bd8c85b377d1f7945c33cea8" name="ad4a77632bd8c85b377d1f7945c33cea8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4a77632bd8c85b377d1f7945c33cea8">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_Begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> * MR_std_vector_MR_UnorientedTriangle_Begin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad8ccdc811b538a737d397719521c59ec" title="Destroys a heap-allocated instance of MR_std_vector_MR_UnorientedTriangle_const_iterator....">MR_std_vector_MR_UnorientedTriangle_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="acf848b2996cd2bec8e062766af8414f5" name="acf848b2996cd2bec8e062766af8414f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf848b2996cd2bec8e062766af8414f5">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_Capacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_vector_MR_UnorientedTriangle_Capacity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The memory capacity, measued in the number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a7f6cf08345ffff51c9d3aaf1219bda9f" name="a7f6cf08345ffff51c9d3aaf1219bda9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f6cf08345ffff51c9d3aaf1219bda9f">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_Clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UnorientedTriangle_Clear </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes all elements from the container. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="acb74c168286440813600e1f52d554a33" name="acb74c168286440813600e1f52d554a33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb74c168286440813600e1f52d554a33">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_const_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UnorientedTriangle_const_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a7ee066843ac11c00f15dddc38510d8b7" name="a7ee066843ac11c00f15dddc38510d8b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ee066843ac11c00f15dddc38510d8b7">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_const_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> * MR_std_vector_MR_UnorientedTriangle_const_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad8ccdc811b538a737d397719521c59ec" title="Destroys a heap-allocated instance of MR_std_vector_MR_UnorientedTriangle_const_iterator....">MR_std_vector_MR_UnorientedTriangle_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aab6896da991e8ad42396c0636a46025c" name="aab6896da991e8ad42396c0636a46025c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab6896da991e8ad42396c0636a46025c">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_const_iterator_Decr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UnorientedTriangle_const_iterator_Decr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decrements a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a633a0c2d2ecead283ff543677cfec010" name="a633a0c2d2ecead283ff543677cfec010"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a633a0c2d2ecead283ff543677cfec010">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_const_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> * MR_std_vector_MR_UnorientedTriangle_const_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad8ccdc811b538a737d397719521c59ec" title="Destroys a heap-allocated instance of MR_std_vector_MR_UnorientedTriangle_const_iterator....">MR_std_vector_MR_UnorientedTriangle_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a662bcd7de9a6bfe1ee2f6bba3619bfb3" name="a662bcd7de9a6bfe1ee2f6bba3619bfb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a662bcd7de9a6bfe1ee2f6bba3619bfb3">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_const_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> * MR_std_vector_MR_UnorientedTriangle_const_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a6d01b9d06c484a89318069c8eb084fd8" title="Destroys a heap-allocated array of MR_std_vector_MR_UnorientedTriangle_const_iterator....">MR_std_vector_MR_UnorientedTriangle_const_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#ab84f06b5fca741e82fc9a89dfff77198" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_UnorientedTriangle_const_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a35adea2a53a6bdfba64b1a0706dd819a" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_UnorientedTriangle_const_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a9099c2deee5635a72d0e15056e6fee34" name="a9099c2deee5635a72d0e15056e6fee34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9099c2deee5635a72d0e15056e6fee34">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_const_iterator_Deref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a> * MR_std_vector_MR_UnorientedTriangle_const_iterator_Deref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a const iterator. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ad8ccdc811b538a737d397719521c59ec" name="ad8ccdc811b538a737d397719521c59ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8ccdc811b538a737d397719521c59ec">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_const_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UnorientedTriangle_const_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_UnorientedTriangle_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a6d01b9d06c484a89318069c8eb084fd8" name="a6d01b9d06c484a89318069c8eb084fd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d01b9d06c484a89318069c8eb084fd8">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_const_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UnorientedTriangle_const_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_UnorientedTriangle_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a10ae83b92f00c4086e57f2e9d06d1a63" name="a10ae83b92f00c4086e57f2e9d06d1a63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10ae83b92f00c4086e57f2e9d06d1a63">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_const_iterator_Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_UnorientedTriangle_const_iterator_Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the signed difference between two const iterators. Completes in constant time. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a174c5e2c9217c2139be302174cb75738" name="a174c5e2c9217c2139be302174cb75738"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a174c5e2c9217c2139be302174cb75738">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_const_iterator_FromMutable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> * MR_std_vector_MR_UnorientedTriangle_const_iterator_FromMutable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Makes a const iterator from a mutable one. Parameter <code>iter</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad8ccdc811b538a737d397719521c59ec" title="Destroys a heap-allocated instance of MR_std_vector_MR_UnorientedTriangle_const_iterator....">MR_std_vector_MR_UnorientedTriangle_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="adb16f565ae1dfeb02b608801f5f85a08" name="adb16f565ae1dfeb02b608801f5f85a08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb16f565ae1dfeb02b608801f5f85a08">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_const_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UnorientedTriangle_const_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a1b3bba53163b86d065b76769d4bc28f7" name="a1b3bba53163b86d065b76769d4bc28f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b3bba53163b86d065b76769d4bc28f7">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_const_iterator_OffsetBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UnorientedTriangle_const_iterator_OffsetBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ab84f06b5fca741e82fc9a89dfff77198" name="ab84f06b5fca741e82fc9a89dfff77198"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab84f06b5fca741e82fc9a89dfff77198">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_const_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> * MR_std_vector_MR_UnorientedTriangle_const_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a35adea2a53a6bdfba64b1a0706dd819a" name="a35adea2a53a6bdfba64b1a0706dd819a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35adea2a53a6bdfba64b1a0706dd819a">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_const_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> * MR_std_vector_MR_UnorientedTriangle_const_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="aefd54e614fbbe3d72d1bcbd99c856f29" name="aefd54e614fbbe3d72d1bcbd99c856f29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefd54e614fbbe3d72d1bcbd99c856f29">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> * MR_std_vector_MR_UnorientedTriangle_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a710f9e6597c4453e50cbf05dbeda0cdd" title="Destroys a heap-allocated instance of MR_std_vector_MR_UnorientedTriangle. Does nothing if the pointe...">MR_std_vector_MR_UnorientedTriangle_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a11ba696f66e306da5f97dc7a0f144aa5" name="a11ba696f66e306da5f97dc7a0f144aa5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11ba696f66e306da5f97dc7a0f144aa5">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> * MR_std_vector_MR_UnorientedTriangle_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a710f9e6597c4453e50cbf05dbeda0cdd" title="Destroys a heap-allocated instance of MR_std_vector_MR_UnorientedTriangle. Does nothing if the pointe...">MR_std_vector_MR_UnorientedTriangle_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aab65a99eae448652d53dcec2482c9083" name="aab65a99eae448652d53dcec2482c9083"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab65a99eae448652d53dcec2482c9083">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> * MR_std_vector_MR_UnorientedTriangle_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a8f6189155b4d4fbfb36d0db101389dc3" title="Destroys a heap-allocated array of MR_std_vector_MR_UnorientedTriangle. Does nothing if the pointer i...">MR_std_vector_MR_UnorientedTriangle_DestroyArray()</a></code>. Use <code><a class="el" href="#a1fc2e2c61ea316bc59f04a99d462c599" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_UnorientedTriangle_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a20c85c89ce61fa1d3a4343fe8d00f978" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_UnorientedTriangle_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a710f9e6597c4453e50cbf05dbeda0cdd" name="a710f9e6597c4453e50cbf05dbeda0cdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a710f9e6597c4453e50cbf05dbeda0cdd">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UnorientedTriangle_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_UnorientedTriangle</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a8f6189155b4d4fbfb36d0db101389dc3" name="a8f6189155b4d4fbfb36d0db101389dc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f6189155b4d4fbfb36d0db101389dc3">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UnorientedTriangle_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_UnorientedTriangle</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a15f5d4522d43b5cca3e628189893f08a" name="a15f5d4522d43b5cca3e628189893f08a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15f5d4522d43b5cca3e628189893f08a">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_End()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> * MR_std_vector_MR_UnorientedTriangle_End </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad8ccdc811b538a737d397719521c59ec" title="Destroys a heap-allocated instance of MR_std_vector_MR_UnorientedTriangle_const_iterator....">MR_std_vector_MR_UnorientedTriangle_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a3b0ad9e60851b514d25e2b333a067b9a" name="a3b0ad9e60851b514d25e2b333a067b9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b0ad9e60851b514d25e2b333a067b9a">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_Erase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UnorientedTriangle_Erase </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a8a0a6c143ac2f621baf601b034039ec1" name="a8a0a6c143ac2f621baf601b034039ec1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a0a6c143ac2f621baf601b034039ec1">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_EraseAtIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UnorientedTriangle_EraseAtIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. This version takes the position in form of a const iterator, that's the only difference. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="af7df07e4f59d5007b7ac7df238cb3987" name="af7df07e4f59d5007b7ac7df238cb3987"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7df07e4f59d5007b7ac7df238cb3987">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_EraseAtMutableIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UnorientedTriangle_EraseAtMutableIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a62bdf709ec1cbc9308ba050e2c0ac39c" name="a62bdf709ec1cbc9308ba050e2c0ac39c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62bdf709ec1cbc9308ba050e2c0ac39c">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_Front()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a> * MR_std_vector_MR_UnorientedTriangle_Front </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The first element or null if empty, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a76db65c369a7890fb67f0e705eeafad0" name="a76db65c369a7890fb67f0e705eeafad0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76db65c369a7890fb67f0e705eeafad0">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_Insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UnorientedTriangle_Insert </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. Parameter <code>_this</code> can not be null. Parameter <code>new_elem</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae9a779b7e21409b8c064fea09f313212" name="ae9a779b7e21409b8c064fea09f313212"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9a779b7e21409b8c064fea09f313212">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_InsertAtIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UnorientedTriangle_InsertAtIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that's the only difference. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. Parameter <code>new_elem</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a9a0c54bbcd712265c95a248a7e2a624d" name="a9a0c54bbcd712265c95a248a7e2a624d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a0c54bbcd712265c95a248a7e2a624d">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_InsertAtMutableIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UnorientedTriangle_InsertAtMutableIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. Parameter <code>new_elem</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aeff16030314379de24c18c7ba72fe00c" name="aeff16030314379de24c18c7ba72fe00c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeff16030314379de24c18c7ba72fe00c">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_IsBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_UnorientedTriangle_IsBegin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae5e1d1faa0df293558345c1b11eaff42" name="ae5e1d1faa0df293558345c1b11eaff42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5e1d1faa0df293558345c1b11eaff42">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_IsEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_UnorientedTriangle_IsEmpty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns true if the size is zero. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a94f1e2ef477ffd871695150d88b6de0e" name="a94f1e2ef477ffd871695150d88b6de0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94f1e2ef477ffd871695150d88b6de0e">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_IsEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_UnorientedTriangle_IsEnd </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a8477b00c29d3667351d9843fed1b8fc2" name="a8477b00c29d3667351d9843fed1b8fc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8477b00c29d3667351d9843fed1b8fc2">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_IsMutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_UnorientedTriangle_IsMutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a8a97832476860eb72a69369fff38dd7f" name="a8a97832476860eb72a69369fff38dd7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a97832476860eb72a69369fff38dd7f">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_IsMutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_UnorientedTriangle_IsMutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="add8e3277941710175c8af91fa3c7f961" name="add8e3277941710175c8af91fa3c7f961"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add8e3277941710175c8af91fa3c7f961">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UnorientedTriangle_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="af5123aafdf46b5ea371c1b1d06552eee" name="af5123aafdf46b5ea371c1b1d06552eee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5123aafdf46b5ea371c1b1d06552eee">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> * MR_std_vector_MR_UnorientedTriangle_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aec42a3f19dcbceba24034b9c7b785f79" title="Destroys a heap-allocated instance of MR_std_vector_MR_UnorientedTriangle_iterator....">MR_std_vector_MR_UnorientedTriangle_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a74c6d36c2f098e21c631bcff158b76d7" name="a74c6d36c2f098e21c631bcff158b76d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74c6d36c2f098e21c631bcff158b76d7">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_iterator_Decr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UnorientedTriangle_iterator_Decr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decrements a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="adf7e06083013f9f5e9fbb433845b5112" name="adf7e06083013f9f5e9fbb433845b5112"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf7e06083013f9f5e9fbb433845b5112">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> * MR_std_vector_MR_UnorientedTriangle_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aec42a3f19dcbceba24034b9c7b785f79" title="Destroys a heap-allocated instance of MR_std_vector_MR_UnorientedTriangle_iterator....">MR_std_vector_MR_UnorientedTriangle_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aeb6a3fecea3fcc7c18ef3bf7e63c86ef" name="aeb6a3fecea3fcc7c18ef3bf7e63c86ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb6a3fecea3fcc7c18ef3bf7e63c86ef">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> * MR_std_vector_MR_UnorientedTriangle_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a1acc3d888676182c78e13aa088fcf400" title="Destroys a heap-allocated array of MR_std_vector_MR_UnorientedTriangle_iterator. Does nothing if the ...">MR_std_vector_MR_UnorientedTriangle_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#aba247cf21ef5093bd5806fa5ede150c5" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_UnorientedTriangle_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a1ae4d32c945051a88985989d387a3b39" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_UnorientedTriangle_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a01498adc9abd17264420c264beea0ba1" name="a01498adc9abd17264420c264beea0ba1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01498adc9abd17264420c264beea0ba1">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_iterator_Deref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a> * MR_std_vector_MR_UnorientedTriangle_iterator_Deref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a mutable iterator. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aec42a3f19dcbceba24034b9c7b785f79" name="aec42a3f19dcbceba24034b9c7b785f79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec42a3f19dcbceba24034b9c7b785f79">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UnorientedTriangle_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_UnorientedTriangle_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a1acc3d888676182c78e13aa088fcf400" name="a1acc3d888676182c78e13aa088fcf400"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1acc3d888676182c78e13aa088fcf400">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UnorientedTriangle_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_UnorientedTriangle_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a71fec27b06a8ea76d81ffe889a563d24" name="a71fec27b06a8ea76d81ffe889a563d24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71fec27b06a8ea76d81ffe889a563d24">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_iterator_Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_UnorientedTriangle_iterator_Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a272148f26d3478a7c5735e1bde6dafca" name="a272148f26d3478a7c5735e1bde6dafca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a272148f26d3478a7c5735e1bde6dafca">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UnorientedTriangle_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a7a1d30fb174545c08b6217271e0dc870" name="a7a1d30fb174545c08b6217271e0dc870"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a1d30fb174545c08b6217271e0dc870">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_iterator_OffsetBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UnorientedTriangle_iterator_OffsetBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aba247cf21ef5093bd5806fa5ede150c5" name="aba247cf21ef5093bd5806fa5ede150c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba247cf21ef5093bd5806fa5ede150c5">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> * MR_std_vector_MR_UnorientedTriangle_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a1ae4d32c945051a88985989d387a3b39" name="a1ae4d32c945051a88985989d387a3b39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ae4d32c945051a88985989d387a3b39">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> * MR_std_vector_MR_UnorientedTriangle_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a07e239fe72e8a6464b06dac136954e5b" name="a07e239fe72e8a6464b06dac136954e5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07e239fe72e8a6464b06dac136954e5b">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_MutableAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a> * MR_std_vector_MR_UnorientedTriangle_MutableAt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, mutable. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ae71a85286d8e15bfe336dce7a03cc799" name="ae71a85286d8e15bfe336dce7a03cc799"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae71a85286d8e15bfe336dce7a03cc799">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_MutableBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a> * MR_std_vector_MR_UnorientedTriangle_MutableBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The last element or null if empty, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a4a5f4cf7ccb37680e1d88e8fbc4577ec" name="a4a5f4cf7ccb37680e1d88e8fbc4577ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a5f4cf7ccb37680e1d88e8fbc4577ec">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_MutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> * MR_std_vector_MR_UnorientedTriangle_MutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aec42a3f19dcbceba24034b9c7b785f79" title="Destroys a heap-allocated instance of MR_std_vector_MR_UnorientedTriangle_iterator....">MR_std_vector_MR_UnorientedTriangle_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a7605a1bc7ddc2e05eca2b5b8ee66268a" name="a7605a1bc7ddc2e05eca2b5b8ee66268a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7605a1bc7ddc2e05eca2b5b8ee66268a">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_MutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> * MR_std_vector_MR_UnorientedTriangle_MutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aec42a3f19dcbceba24034b9c7b785f79" title="Destroys a heap-allocated instance of MR_std_vector_MR_UnorientedTriangle_iterator....">MR_std_vector_MR_UnorientedTriangle_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a4283a83b87d68e6e3f60a0ddf0dc7607" name="a4283a83b87d68e6e3f60a0ddf0dc7607"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4283a83b87d68e6e3f60a0ddf0dc7607">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_MutableFront()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a> * MR_std_vector_MR_UnorientedTriangle_MutableFront </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The first element or null if empty, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae0cf7d6a66ed3471dc619697fe0d855a" name="ae0cf7d6a66ed3471dc619697fe0d855a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0cf7d6a66ed3471dc619697fe0d855a">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_MutableToIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_UnorientedTriangle_MutableToIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aaef77876fb43588afd954bbfe0a8e561">MR_std_vector_MR_UnorientedTriangle_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convert a mutable iterator to an index. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a1fc2e2c61ea316bc59f04a99d462c599" name="a1fc2e2c61ea316bc59f04a99d462c599"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fc2e2c61ea316bc59f04a99d462c599">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> * MR_std_vector_MR_UnorientedTriangle_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a20c85c89ce61fa1d3a4343fe8d00f978" name="a20c85c89ce61fa1d3a4343fe8d00f978"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20c85c89ce61fa1d3a4343fe8d00f978">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> * MR_std_vector_MR_UnorientedTriangle_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a6bb60d341f12311a71ed06aacad5b627" name="a6bb60d341f12311a71ed06aacad5b627"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bb60d341f12311a71ed06aacad5b627">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_PopBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UnorientedTriangle_PopBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes one element from the end. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a1efc34c754a7fc49365b409738eb982e" name="a1efc34c754a7fc49365b409738eb982e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1efc34c754a7fc49365b409738eb982e">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_PushBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UnorientedTriangle_PushBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element at the end. Parameter <code>_this</code> can not be null. Parameter <code>new_elem</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae270caea7db9a89d6b59bf575d6481b3" name="ae270caea7db9a89d6b59bf575d6481b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae270caea7db9a89d6b59bf575d6481b3">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_Reserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UnorientedTriangle_Reserve </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_capacity</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a0b370f1d3070c04844bb78fb863b172a" name="a0b370f1d3070c04844bb78fb863b172a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b370f1d3070c04844bb78fb863b172a">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_ResizeWithDefaultValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UnorientedTriangle_ResizeWithDefaultValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d">MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the container. The new elements if any are set to the specified value. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. </p>
+
+</div>
+</div>
+<a id="afef78fd1cf304543d958c53d42ac9047" name="afef78fd1cf304543d958c53d42ac9047"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afef78fd1cf304543d958c53d42ac9047">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_ShrinkToFit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UnorientedTriangle_ShrinkToFit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Shrinks the capacity to match the size. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a443c520d8f76f963d2669ec58df12f3d" name="a443c520d8f76f963d2669ec58df12f3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a443c520d8f76f963d2669ec58df12f3d">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_Size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_vector_MR_UnorientedTriangle_Size </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a14ca9dfb859e4508eb82c9c65554d2f8" name="a14ca9dfb859e4508eb82c9c65554d2f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14ca9dfb859e4508eb82c9c65554d2f8">&#9670;&#160;</a></span>MR_std_vector_MR_UnorientedTriangle_ToIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_UnorientedTriangle_ToIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a728f3170bb6a26bea6a2e4df3bfc0153">MR_std_vector_MR_UnorientedTriangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a70ca29c456e34317ed2e07f5333ee9b3">MR_std_vector_MR_UnorientedTriangle_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convert a const iterator to an index. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_a57e8462869cab4a5203dede5869920d.html">MRCMisc</a></li><li class="navelem"><a class="el" href="std__vector__MR__UnorientedTriangle_8h.html">std_vector_MR_UnorientedTriangle.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

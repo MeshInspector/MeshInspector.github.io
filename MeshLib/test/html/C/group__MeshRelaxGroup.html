@@ -1,0 +1,1887 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: Mesh Relax</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('group__MeshRelaxGroup.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">Mesh Relax<div class="ingroups"><a class="elRef" href="../Cpp/group__MeshAlgorithmGroup.html">Mesh Algorithm</a></div></div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:gadc5d88756b2c801276a68f81a54a22dc" id="r_gadc5d88756b2c801276a68f81a54a22dc"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a></td></tr>
+<tr class="separator:gadc5d88756b2c801276a68f81a54a22dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1cb564fdc55d5745d0ef594a88b81646" id="r_ga1cb564fdc55d5745d0ef594a88b81646"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a></td></tr>
+<tr class="separator:ga1cb564fdc55d5745d0ef594a88b81646"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0961ed14052ec630a4f9e367afe11da3" id="r_ga0961ed14052ec630a4f9e367afe11da3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a></td></tr>
+<tr class="separator:ga0961ed14052ec630a4f9e367afe11da3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:gaf1790e242d0c45c246335b07bfb7c5af" id="r_gaf1790e242d0c45c246335b07bfb7c5af"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaf1790e242d0c45c246335b07bfb7c5af">MR::relax</a> (<a class="elRef" href="../Cpp/structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MeshRelaxParams</a> &amp;params={}, const <a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="separator:gaf1790e242d0c45c246335b07bfb7c5af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab9e8104718c5b38b7f6c20a652942410" id="r_gab9e8104718c5b38b7f6c20a652942410"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gab9e8104718c5b38b7f6c20a652942410">MR::relax</a> (const <a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertCoords &amp;points, const <a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MeshRelaxParams</a> &amp;params={}, const <a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="separator:gab9e8104718c5b38b7f6c20a652942410"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaba816e24c8bb07c99f1d084e59d0ec48" id="r_gaba816e24c8bb07c99f1d084e59d0ec48"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaba816e24c8bb07c99f1d084e59d0ec48">MR::vertexPosEqualNeiAreas</a> (const <a class="elRef" href="../Cpp/structMR_1_1Mesh.html">Mesh</a> &amp;mesh, VertId v, bool noShrinkage)</td></tr>
+<tr class="separator:gaba816e24c8bb07c99f1d084e59d0ec48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga183937de64babe0d41509706eb2be41d" id="r_ga183937de64babe0d41509706eb2be41d"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#ga183937de64babe0d41509706eb2be41d">MR::vertexPosEqualNeiAreas</a> (const <a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertCoords &amp;points, VertId v, bool noShrinkage)</td></tr>
+<tr class="separator:ga183937de64babe0d41509706eb2be41d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaae1979d9e4a28ec7ad4642bbb77e477f" id="r_gaae1979d9e4a28ec7ad4642bbb77e477f"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaae1979d9e4a28ec7ad4642bbb77e477f">MR::equalizeTriAreas</a> (<a class="elRef" href="../Cpp/structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MeshEqualizeTriAreasParams</a> &amp;params={}, const <a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="separator:gaae1979d9e4a28ec7ad4642bbb77e477f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4d18f403309407bc884de403549fd99f" id="r_ga4d18f403309407bc884de403549fd99f"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#ga4d18f403309407bc884de403549fd99f">MR::equalizeTriAreas</a> (const <a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertCoords &amp;points, const <a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MeshEqualizeTriAreasParams</a> &amp;params={}, const <a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="separator:ga4d18f403309407bc884de403549fd99f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gade2c4c373a0a3c4e594f194dc55a92b8" id="r_gade2c4c373a0a3c4e594f194dc55a92b8"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gade2c4c373a0a3c4e594f194dc55a92b8">MR::relaxKeepVolume</a> (<a class="elRef" href="../Cpp/structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MeshRelaxParams</a> &amp;params={}, const <a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="separator:gade2c4c373a0a3c4e594f194dc55a92b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab4933a7a1fd47670308213d4069e4316" id="r_gab4933a7a1fd47670308213d4069e4316"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gab4933a7a1fd47670308213d4069e4316">MR::relaxKeepVolume</a> (const <a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertCoords &amp;points, const <a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MeshRelaxParams</a> &amp;params={}, const <a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="separator:gab4933a7a1fd47670308213d4069e4316"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga20d24c1c616896c5b7cf17b6dc1ad1dc" id="r_ga20d24c1c616896c5b7cf17b6dc1ad1dc"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#ga20d24c1c616896c5b7cf17b6dc1ad1dc">MR::relaxApprox</a> (<a class="elRef" href="../Cpp/structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MeshApproxRelaxParams</a> &amp;params={}, const <a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="separator:ga20d24c1c616896c5b7cf17b6dc1ad1dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6e76217244fff2be67a0f598cd0fecf8" id="r_ga6e76217244fff2be67a0f598cd0fecf8"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#ga6e76217244fff2be67a0f598cd0fecf8">MR::relaxApprox</a> (const <a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertCoords &amp;points, const <a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MeshApproxRelaxParams</a> &amp;params={}, const <a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="separator:ga6e76217244fff2be67a0f598cd0fecf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf3dd7b36bb56c94c95b1bea9f7546349" id="r_gaf3dd7b36bb56c94c95b1bea9f7546349"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaf3dd7b36bb56c94c95b1bea9f7546349">MR::removeSpikes</a> (<a class="elRef" href="../Cpp/structMR_1_1Mesh.html">Mesh</a> &amp;mesh, int maxIterations, float minSumAngle, const VertBitSet *region=nullptr)</td></tr>
+<tr class="separator:gaf3dd7b36bb56c94c95b1bea9f7546349"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab2c357f2577a4c6f872ef3f36c09426d" id="r_gab2c357f2577a4c6f872ef3f36c09426d"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gab2c357f2577a4c6f872ef3f36c09426d">MR::removeSpikes</a> (const <a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertCoords &amp;points, int maxIterations, float minSumAngle, const VertBitSet *region=nullptr)</td></tr>
+<tr class="separator:gab2c357f2577a4c6f872ef3f36c09426d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8befca5bcec5f332e23a665e97e9ecbf" id="r_ga8befca5bcec5f332e23a665e97e9ecbf"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#ga8befca5bcec5f332e23a665e97e9ecbf">MR::smoothRegionBoundary</a> (<a class="elRef" href="../Cpp/structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const FaceBitSet &amp;regionFaces, int numIters=4)</td></tr>
+<tr class="separator:ga8befca5bcec5f332e23a665e97e9ecbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga287157ee21ca3461b897a4f9e982739b" id="r_ga287157ee21ca3461b897a4f9e982739b"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#ga287157ee21ca3461b897a4f9e982739b">MR::hardSmoothTetrahedrons</a> (<a class="elRef" href="../Cpp/structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertBitSet *region=nullptr)</td></tr>
+<tr class="separator:ga287157ee21ca3461b897a4f9e982739b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeb54f6e7ad3bb704eb561e63bc53a9af" id="r_gaeb54f6e7ad3bb704eb561e63bc53a9af"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaeb54f6e7ad3bb704eb561e63bc53a9af">MR::hardSmoothTetrahedrons</a> (const <a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertCoords &amp;points, const VertBitSet *region=nullptr)</td></tr>
+<tr class="separator:gaeb54f6e7ad3bb704eb561e63bc53a9af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafaffe933c0e9a1ca2136eac2e5d63321" id="r_gafaffe933c0e9a1ca2136eac2e5d63321"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafaffe933c0e9a1ca2136eac2e5d63321">MR_MeshRelaxParams_Get_hardSmoothTetrahedrons</a> (const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *_this)</td></tr>
+<tr class="separator:gafaffe933c0e9a1ca2136eac2e5d63321"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae21a931b8822dca7008f3ec277cd7e78" id="r_gae21a931b8822dca7008f3ec277cd7e78"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae21a931b8822dca7008f3ec277cd7e78">MR_MeshRelaxParams_Set_hardSmoothTetrahedrons</a> (<a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *_this, bool value)</td></tr>
+<tr class="separator:gae21a931b8822dca7008f3ec277cd7e78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeecce37afb3d8b2cd3eac7aaeb98c3b0" id="r_gaeecce37afb3d8b2cd3eac7aaeb98c3b0"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeecce37afb3d8b2cd3eac7aaeb98c3b0">MR_MeshRelaxParams_GetMutable_hardSmoothTetrahedrons</a> (<a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *_this)</td></tr>
+<tr class="separator:gaeecce37afb3d8b2cd3eac7aaeb98c3b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac3fc8a04578f99204edaedabd2d8b932" id="r_gac3fc8a04578f99204edaedabd2d8b932"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac3fc8a04578f99204edaedabd2d8b932">MR_MeshRelaxParams_Get_weights</a> (const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *_this)</td></tr>
+<tr class="separator:gac3fc8a04578f99204edaedabd2d8b932"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga69a3b3ff651c6b41ba0ad4ebd7c53a5b" id="r_ga69a3b3ff651c6b41ba0ad4ebd7c53a5b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga69a3b3ff651c6b41ba0ad4ebd7c53a5b">MR_MeshRelaxParams_Set_weights</a> (<a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *_this, const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *value)</td></tr>
+<tr class="separator:ga69a3b3ff651c6b41ba0ad4ebd7c53a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab40856f6de11208020780a3f01a6a0ee" id="r_gab40856f6de11208020780a3f01a6a0ee"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab40856f6de11208020780a3f01a6a0ee">MR_MeshRelaxParams_GetMutable_weights</a> (<a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *_this)</td></tr>
+<tr class="separator:gab40856f6de11208020780a3f01a6a0ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga252f16473bc0df2b01c61c71f66ae242" id="r_ga252f16473bc0df2b01c61c71f66ae242"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga252f16473bc0df2b01c61c71f66ae242">MR_MeshRelaxParams_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ga252f16473bc0df2b01c61c71f66ae242"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9b1e559502b8cd22018fa40ce956ac64" id="r_ga9b1e559502b8cd22018fa40ce956ac64"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9b1e559502b8cd22018fa40ce956ac64">MR_MeshRelaxParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ga9b1e559502b8cd22018fa40ce956ac64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga16f5bae96290c09d3276b93c155a53eb" id="r_ga16f5bae96290c09d3276b93c155a53eb"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga16f5bae96290c09d3276b93c155a53eb">MR_MeshRelaxParams_OffsetPtr</a> (const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ga16f5bae96290c09d3276b93c155a53eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ga16f5bae96290c09d3276b93c155a53eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac7b6f4b6bc16e8e17bea9dcd712c6e79" id="r_gac7b6f4b6bc16e8e17bea9dcd712c6e79"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac7b6f4b6bc16e8e17bea9dcd712c6e79">MR_MeshRelaxParams_OffsetMutablePtr</a> (<a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:gac7b6f4b6bc16e8e17bea9dcd712c6e79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:gac7b6f4b6bc16e8e17bea9dcd712c6e79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac793d98743396d87956b1ea11b3a50a4" id="r_gac793d98743396d87956b1ea11b3a50a4"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac793d98743396d87956b1ea11b3a50a4">MR_MeshRelaxParams_UpcastTo_MR_RelaxParams</a> (const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *object)</td></tr>
+<tr class="separator:gac793d98743396d87956b1ea11b3a50a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafc0cb42f8cfd69bdc2bd704d2ff56449" id="r_gafc0cb42f8cfd69bdc2bd704d2ff56449"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafc0cb42f8cfd69bdc2bd704d2ff56449">MR_MeshRelaxParams_MutableUpcastTo_MR_RelaxParams</a> (<a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *object)</td></tr>
+<tr class="memdesc:gafc0cb42f8cfd69bdc2bd704d2ff56449"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code>.  <br /></td></tr>
+<tr class="separator:gafc0cb42f8cfd69bdc2bd704d2ff56449"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf0f112530844fb17f3d010532f1a961b" id="r_gaf0f112530844fb17f3d010532f1a961b"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf0f112530844fb17f3d010532f1a961b">MR_MeshRelaxParams_StaticDowncastTo_MR_MeshApproxRelaxParams</a> (const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *object)</td></tr>
+<tr class="separator:gaf0f112530844fb17f3d010532f1a961b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaea8a9d61fba5f32a05bb84a9f8d4d44b" id="r_gaea8a9d61fba5f32a05bb84a9f8d4d44b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaea8a9d61fba5f32a05bb84a9f8d4d44b">MR_MeshRelaxParams_MutableStaticDowncastTo_MR_MeshApproxRelaxParams</a> (<a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *object)</td></tr>
+<tr class="separator:gaea8a9d61fba5f32a05bb84a9f8d4d44b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga04f8c6a642b2013b4e32a913abe80d88" id="r_ga04f8c6a642b2013b4e32a913abe80d88"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga04f8c6a642b2013b4e32a913abe80d88">MR_MeshRelaxParams_StaticDowncastTo_MR_MeshEqualizeTriAreasParams</a> (const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *object)</td></tr>
+<tr class="separator:ga04f8c6a642b2013b4e32a913abe80d88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga43f0aab2c45d5d10cba2bacc31f0f033" id="r_ga43f0aab2c45d5d10cba2bacc31f0f033"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga43f0aab2c45d5d10cba2bacc31f0f033">MR_MeshRelaxParams_MutableStaticDowncastTo_MR_MeshEqualizeTriAreasParams</a> (<a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *object)</td></tr>
+<tr class="separator:ga43f0aab2c45d5d10cba2bacc31f0f033"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0408ab97ff6794f12c89ce536f4e5f38" id="r_ga0408ab97ff6794f12c89ce536f4e5f38"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0408ab97ff6794f12c89ce536f4e5f38">MR_MeshRelaxParams_ConstructFromAnother</a> (const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *_other)</td></tr>
+<tr class="separator:ga0408ab97ff6794f12c89ce536f4e5f38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga881bf3c84f8d5d6f01dec1bd031e7193" id="r_ga881bf3c84f8d5d6f01dec1bd031e7193"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga881bf3c84f8d5d6f01dec1bd031e7193">MR_MeshRelaxParams_Destroy</a> (const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *_this)</td></tr>
+<tr class="memdesc:ga881bf3c84f8d5d6f01dec1bd031e7193"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_MeshRelaxParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ga881bf3c84f8d5d6f01dec1bd031e7193"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7f4526a1c4846778e1ebbdbdbb372017" id="r_ga7f4526a1c4846778e1ebbdbdbb372017"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7f4526a1c4846778e1ebbdbdbb372017">MR_MeshRelaxParams_DestroyArray</a> (const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *_this)</td></tr>
+<tr class="memdesc:ga7f4526a1c4846778e1ebbdbdbb372017"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_MeshRelaxParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ga7f4526a1c4846778e1ebbdbdbb372017"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaebf4f43110998843601c9a1cf228c0ab" id="r_gaebf4f43110998843601c9a1cf228c0ab"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaebf4f43110998843601c9a1cf228c0ab">MR_MeshRelaxParams_AssignFromAnother</a> (<a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *_this, const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *_other)</td></tr>
+<tr class="separator:gaebf4f43110998843601c9a1cf228c0ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaba0482369c7294d5b6ef4b17880d9829" id="r_gaba0482369c7294d5b6ef4b17880d9829"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaba0482369c7294d5b6ef4b17880d9829">MR_relax_3_MR_Mesh</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:gaba0482369c7294d5b6ef4b17880d9829"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3373a4af747672e144be76544686eb6c" id="r_ga3373a4af747672e144be76544686eb6c"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3373a4af747672e144be76544686eb6c">MR_relax_4</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ga3373a4af747672e144be76544686eb6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga55d78f4ddc69242a1f36051662c14d8f" id="r_ga55d78f4ddc69242a1f36051662c14d8f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga55d78f4ddc69242a1f36051662c14d8f">MR_vertexPosEqualNeiAreas_3</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="structMR__VertId.html">MR_VertId</a> v, bool noShrinkage)</td></tr>
+<tr class="separator:ga55d78f4ddc69242a1f36051662c14d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga35fe524c7cba39df29e3abfcc4726008" id="r_ga35fe524c7cba39df29e3abfcc4726008"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga35fe524c7cba39df29e3abfcc4726008">MR_vertexPosEqualNeiAreas_4</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, <a class="el" href="structMR__VertId.html">MR_VertId</a> v, bool noShrinkage)</td></tr>
+<tr class="separator:ga35fe524c7cba39df29e3abfcc4726008"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5d76fa3feadb9c8d295fd4eaf3911686" id="r_ga5d76fa3feadb9c8d295fd4eaf3911686"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5d76fa3feadb9c8d295fd4eaf3911686">MR_MeshEqualizeTriAreasParams_Get_noShrinkage</a> (const <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *_this)</td></tr>
+<tr class="separator:ga5d76fa3feadb9c8d295fd4eaf3911686"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga63a0f379fa38bfbb9fed7bc7143831ba" id="r_ga63a0f379fa38bfbb9fed7bc7143831ba"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga63a0f379fa38bfbb9fed7bc7143831ba">MR_MeshEqualizeTriAreasParams_Set_noShrinkage</a> (<a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *_this, bool value)</td></tr>
+<tr class="separator:ga63a0f379fa38bfbb9fed7bc7143831ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga96e0bac6feb94b6535a83b5a7a593eb8" id="r_ga96e0bac6feb94b6535a83b5a7a593eb8"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga96e0bac6feb94b6535a83b5a7a593eb8">MR_MeshEqualizeTriAreasParams_GetMutable_noShrinkage</a> (<a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *_this)</td></tr>
+<tr class="separator:ga96e0bac6feb94b6535a83b5a7a593eb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga58427002d404ab50f86a1dd61d07debb" id="r_ga58427002d404ab50f86a1dd61d07debb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga58427002d404ab50f86a1dd61d07debb">MR_MeshEqualizeTriAreasParams_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ga58427002d404ab50f86a1dd61d07debb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga688f1ac30c8ef059ea0e32cc3e7a1afa" id="r_ga688f1ac30c8ef059ea0e32cc3e7a1afa"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga688f1ac30c8ef059ea0e32cc3e7a1afa">MR_MeshEqualizeTriAreasParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ga688f1ac30c8ef059ea0e32cc3e7a1afa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0267cdcbf98aadeb6ee04f9b17127911" id="r_ga0267cdcbf98aadeb6ee04f9b17127911"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0267cdcbf98aadeb6ee04f9b17127911">MR_MeshEqualizeTriAreasParams_OffsetPtr</a> (const <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ga0267cdcbf98aadeb6ee04f9b17127911"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ga0267cdcbf98aadeb6ee04f9b17127911"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga72b7f0501ec1a954875ed73957cba289" id="r_ga72b7f0501ec1a954875ed73957cba289"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga72b7f0501ec1a954875ed73957cba289">MR_MeshEqualizeTriAreasParams_OffsetMutablePtr</a> (<a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ga72b7f0501ec1a954875ed73957cba289"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ga72b7f0501ec1a954875ed73957cba289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf8eb49a2b0228d3579a0032b6d224991" id="r_gaf8eb49a2b0228d3579a0032b6d224991"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf8eb49a2b0228d3579a0032b6d224991">MR_MeshEqualizeTriAreasParams_UpcastTo_MR_MeshRelaxParams</a> (const <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *object)</td></tr>
+<tr class="separator:gaf8eb49a2b0228d3579a0032b6d224991"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa2dc517901e97fb3f880ac0e0e06a6d8" id="r_gaa2dc517901e97fb3f880ac0e0e06a6d8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa2dc517901e97fb3f880ac0e0e06a6d8">MR_MeshEqualizeTriAreasParams_MutableUpcastTo_MR_MeshRelaxParams</a> (<a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *object)</td></tr>
+<tr class="memdesc:gaa2dc517901e97fb3f880ac0e0e06a6d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code>.  <br /></td></tr>
+<tr class="separator:gaa2dc517901e97fb3f880ac0e0e06a6d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga50fa164ff70d4dc6d13f04428a9ee737" id="r_ga50fa164ff70d4dc6d13f04428a9ee737"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga50fa164ff70d4dc6d13f04428a9ee737">MR_MeshEqualizeTriAreasParams_UpcastTo_MR_RelaxParams</a> (const <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *object)</td></tr>
+<tr class="separator:ga50fa164ff70d4dc6d13f04428a9ee737"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadb53a0af0b7583820aa1de584d0d8aa7" id="r_gadb53a0af0b7583820aa1de584d0d8aa7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadb53a0af0b7583820aa1de584d0d8aa7">MR_MeshEqualizeTriAreasParams_MutableUpcastTo_MR_RelaxParams</a> (<a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *object)</td></tr>
+<tr class="memdesc:gadb53a0af0b7583820aa1de584d0d8aa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code>.  <br /></td></tr>
+<tr class="separator:gadb53a0af0b7583820aa1de584d0d8aa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga408f5405f2dd134a989fbd19cc611352" id="r_ga408f5405f2dd134a989fbd19cc611352"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga408f5405f2dd134a989fbd19cc611352">MR_MeshEqualizeTriAreasParams_ConstructFromAnother</a> (const <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *_other)</td></tr>
+<tr class="separator:ga408f5405f2dd134a989fbd19cc611352"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1375f118c328d24b6eb6858cb309f336" id="r_ga1375f118c328d24b6eb6858cb309f336"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1375f118c328d24b6eb6858cb309f336">MR_MeshEqualizeTriAreasParams_Destroy</a> (const <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *_this)</td></tr>
+<tr class="memdesc:ga1375f118c328d24b6eb6858cb309f336"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_MeshEqualizeTriAreasParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ga1375f118c328d24b6eb6858cb309f336"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad865afad8150a1dbbdc93364e0489060" id="r_gad865afad8150a1dbbdc93364e0489060"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad865afad8150a1dbbdc93364e0489060">MR_MeshEqualizeTriAreasParams_DestroyArray</a> (const <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *_this)</td></tr>
+<tr class="memdesc:gad865afad8150a1dbbdc93364e0489060"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_MeshEqualizeTriAreasParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:gad865afad8150a1dbbdc93364e0489060"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5163c5cc2784821fdeba8ab77730deeb" id="r_ga5163c5cc2784821fdeba8ab77730deeb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5163c5cc2784821fdeba8ab77730deeb">MR_MeshEqualizeTriAreasParams_AssignFromAnother</a> (<a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *_this, const <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *_other)</td></tr>
+<tr class="separator:ga5163c5cc2784821fdeba8ab77730deeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga978407207d021e5d2ce7cc273435e6e1" id="r_ga978407207d021e5d2ce7cc273435e6e1"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga978407207d021e5d2ce7cc273435e6e1">MR_equalizeTriAreas_3</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ga978407207d021e5d2ce7cc273435e6e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9530aa26f267fea6ad4ff6f86bcab3da" id="r_ga9530aa26f267fea6ad4ff6f86bcab3da"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9530aa26f267fea6ad4ff6f86bcab3da">MR_equalizeTriAreas_4</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ga9530aa26f267fea6ad4ff6f86bcab3da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4f2f83618127cc7b70a4239177b828b1" id="r_ga4f2f83618127cc7b70a4239177b828b1"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4f2f83618127cc7b70a4239177b828b1">MR_relaxKeepVolume_3_MR_Mesh</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ga4f2f83618127cc7b70a4239177b828b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9ad472c26700843c6b825e2391437e8f" id="r_ga9ad472c26700843c6b825e2391437e8f"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9ad472c26700843c6b825e2391437e8f">MR_relaxKeepVolume_4</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ga9ad472c26700843c6b825e2391437e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga56d35b5ee983152029543c7bce08c6e6" id="r_ga56d35b5ee983152029543c7bce08c6e6"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga56d35b5ee983152029543c7bce08c6e6">MR_MeshApproxRelaxParams_Get_surfaceDilateRadius</a> (const <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *_this)</td></tr>
+<tr class="separator:ga56d35b5ee983152029543c7bce08c6e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5972213063cbcd42a1c8019848ee913d" id="r_ga5972213063cbcd42a1c8019848ee913d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5972213063cbcd42a1c8019848ee913d">MR_MeshApproxRelaxParams_Set_surfaceDilateRadius</a> (<a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *_this, float value)</td></tr>
+<tr class="separator:ga5972213063cbcd42a1c8019848ee913d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga920f2bfaf0186e0197729b1f18ff2b7e" id="r_ga920f2bfaf0186e0197729b1f18ff2b7e"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga920f2bfaf0186e0197729b1f18ff2b7e">MR_MeshApproxRelaxParams_GetMutable_surfaceDilateRadius</a> (<a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *_this)</td></tr>
+<tr class="separator:ga920f2bfaf0186e0197729b1f18ff2b7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga78acbcb41b6a77c616bba906dad70007" id="r_ga78acbcb41b6a77c616bba906dad70007"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRRelaxParams_8h.html#ad9afe6f617031f8762108430bbdebd3f">MR_RelaxApproxType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga78acbcb41b6a77c616bba906dad70007">MR_MeshApproxRelaxParams_Get_type</a> (const <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *_this)</td></tr>
+<tr class="separator:ga78acbcb41b6a77c616bba906dad70007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga88b77a7b9c9faae4c9fc4d0c3a57af23" id="r_ga88b77a7b9c9faae4c9fc4d0c3a57af23"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga88b77a7b9c9faae4c9fc4d0c3a57af23">MR_MeshApproxRelaxParams_Set_type</a> (<a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *_this, <a class="el" href="MRRelaxParams_8h.html#ad9afe6f617031f8762108430bbdebd3f">MR_RelaxApproxType</a> value)</td></tr>
+<tr class="separator:ga88b77a7b9c9faae4c9fc4d0c3a57af23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaad9bef93915cdd77f93d855839089214" id="r_gaad9bef93915cdd77f93d855839089214"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRRelaxParams_8h.html#ad9afe6f617031f8762108430bbdebd3f">MR_RelaxApproxType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaad9bef93915cdd77f93d855839089214">MR_MeshApproxRelaxParams_GetMutable_type</a> (<a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *_this)</td></tr>
+<tr class="separator:gaad9bef93915cdd77f93d855839089214"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa54b6ae78b8f286e7bf9c7b7d3385cb2" id="r_gaa54b6ae78b8f286e7bf9c7b7d3385cb2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa54b6ae78b8f286e7bf9c7b7d3385cb2">MR_MeshApproxRelaxParams_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:gaa54b6ae78b8f286e7bf9c7b7d3385cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1adfc3365f7c0cfdd46a875f2175a3de" id="r_ga1adfc3365f7c0cfdd46a875f2175a3de"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1adfc3365f7c0cfdd46a875f2175a3de">MR_MeshApproxRelaxParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ga1adfc3365f7c0cfdd46a875f2175a3de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8860221e6021dc5e73577c7fd1a4ae6c" id="r_ga8860221e6021dc5e73577c7fd1a4ae6c"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8860221e6021dc5e73577c7fd1a4ae6c">MR_MeshApproxRelaxParams_OffsetPtr</a> (const <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ga8860221e6021dc5e73577c7fd1a4ae6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ga8860221e6021dc5e73577c7fd1a4ae6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadf4a867c6ac2bd075b0e361597c7a58f" id="r_gadf4a867c6ac2bd075b0e361597c7a58f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadf4a867c6ac2bd075b0e361597c7a58f">MR_MeshApproxRelaxParams_OffsetMutablePtr</a> (<a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:gadf4a867c6ac2bd075b0e361597c7a58f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:gadf4a867c6ac2bd075b0e361597c7a58f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga11cb7121fc71f390f29c05f59227b6e2" id="r_ga11cb7121fc71f390f29c05f59227b6e2"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga11cb7121fc71f390f29c05f59227b6e2">MR_MeshApproxRelaxParams_UpcastTo_MR_MeshRelaxParams</a> (const <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *object)</td></tr>
+<tr class="separator:ga11cb7121fc71f390f29c05f59227b6e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad068757b35d05dc83c7e9dfb6603bb02" id="r_gad068757b35d05dc83c7e9dfb6603bb02"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad068757b35d05dc83c7e9dfb6603bb02">MR_MeshApproxRelaxParams_MutableUpcastTo_MR_MeshRelaxParams</a> (<a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *object)</td></tr>
+<tr class="memdesc:gad068757b35d05dc83c7e9dfb6603bb02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code>.  <br /></td></tr>
+<tr class="separator:gad068757b35d05dc83c7e9dfb6603bb02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab2e5ffff1ec762fe0271586504859349" id="r_gab2e5ffff1ec762fe0271586504859349"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab2e5ffff1ec762fe0271586504859349">MR_MeshApproxRelaxParams_UpcastTo_MR_RelaxParams</a> (const <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *object)</td></tr>
+<tr class="separator:gab2e5ffff1ec762fe0271586504859349"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabe1f8abddcf2bac71f6ba5f8c1365c5a" id="r_gabe1f8abddcf2bac71f6ba5f8c1365c5a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabe1f8abddcf2bac71f6ba5f8c1365c5a">MR_MeshApproxRelaxParams_MutableUpcastTo_MR_RelaxParams</a> (<a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *object)</td></tr>
+<tr class="memdesc:gabe1f8abddcf2bac71f6ba5f8c1365c5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code>.  <br /></td></tr>
+<tr class="separator:gabe1f8abddcf2bac71f6ba5f8c1365c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga61f9371a05be5ea22cbe66f5a19cc8f9" id="r_ga61f9371a05be5ea22cbe66f5a19cc8f9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga61f9371a05be5ea22cbe66f5a19cc8f9">MR_MeshApproxRelaxParams_ConstructFromAnother</a> (const <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *_other)</td></tr>
+<tr class="separator:ga61f9371a05be5ea22cbe66f5a19cc8f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga44a3b31eeca231382bc06cbf636d3c30" id="r_ga44a3b31eeca231382bc06cbf636d3c30"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga44a3b31eeca231382bc06cbf636d3c30">MR_MeshApproxRelaxParams_Destroy</a> (const <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *_this)</td></tr>
+<tr class="memdesc:ga44a3b31eeca231382bc06cbf636d3c30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_MeshApproxRelaxParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ga44a3b31eeca231382bc06cbf636d3c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7c6b41334a0847745ce49ff097222aa0" id="r_ga7c6b41334a0847745ce49ff097222aa0"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7c6b41334a0847745ce49ff097222aa0">MR_MeshApproxRelaxParams_DestroyArray</a> (const <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *_this)</td></tr>
+<tr class="memdesc:ga7c6b41334a0847745ce49ff097222aa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_MeshApproxRelaxParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ga7c6b41334a0847745ce49ff097222aa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf1d59d1af57c390426e574038550b690" id="r_gaf1d59d1af57c390426e574038550b690"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf1d59d1af57c390426e574038550b690">MR_MeshApproxRelaxParams_AssignFromAnother</a> (<a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *_this, const <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *_other)</td></tr>
+<tr class="separator:gaf1d59d1af57c390426e574038550b690"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0c03e2b69580d90eeae5a9509f06dadb" id="r_ga0c03e2b69580d90eeae5a9509f06dadb"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0c03e2b69580d90eeae5a9509f06dadb">MR_relaxApprox_3_MR_Mesh</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ga0c03e2b69580d90eeae5a9509f06dadb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga822e40cb631af953d8a354832ebe046c" id="r_ga822e40cb631af953d8a354832ebe046c"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga822e40cb631af953d8a354832ebe046c">MR_relaxApprox_4</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ga822e40cb631af953d8a354832ebe046c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga95614f42d7bb9efe56a4d810b412e1fd" id="r_ga95614f42d7bb9efe56a4d810b412e1fd"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga95614f42d7bb9efe56a4d810b412e1fd">MR_removeSpikes_4</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, int32_t maxIterations, float minSumAngle, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region)</td></tr>
+<tr class="separator:ga95614f42d7bb9efe56a4d810b412e1fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad55464653566ed7389071738ad5d21c5" id="r_gad55464653566ed7389071738ad5d21c5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad55464653566ed7389071738ad5d21c5">MR_removeSpikes_5</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, int32_t maxIterations, float minSumAngle, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region)</td></tr>
+<tr class="separator:gad55464653566ed7389071738ad5d21c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabcd02e5fd1ad781ca6dc0fb18068ac4e" id="r_gabcd02e5fd1ad781ca6dc0fb18068ac4e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabcd02e5fd1ad781ca6dc0fb18068ac4e">MR_smoothRegionBoundary</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *regionFaces, const int32_t *numIters)</td></tr>
+<tr class="separator:gabcd02e5fd1ad781ca6dc0fb18068ac4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4437d25e27133b742ae0f2a735fab89c" id="r_ga4437d25e27133b742ae0f2a735fab89c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4437d25e27133b742ae0f2a735fab89c">MR_hardSmoothTetrahedrons_2</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region)</td></tr>
+<tr class="separator:ga4437d25e27133b742ae0f2a735fab89c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7fff5129cabb80b083d03f37d63f000d" id="r_ga7fff5129cabb80b083d03f37d63f000d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7fff5129cabb80b083d03f37d63f000d">MR_hardSmoothTetrahedrons_3</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region)</td></tr>
+<tr class="separator:ga7fff5129cabb80b083d03f37d63f000d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code>. Inherits from: Directly: (non-virtually) <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> Classes derived from this: Directly: (non-virtually) <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code> </p>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="ga0961ed14052ec630a4f9e367afe11da3" name="ga0961ed14052ec630a4f9e367afe11da3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0961ed14052ec630a4f9e367afe11da3">&#9670;&#160;</a></span>MR_MeshApproxRelaxParams</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code>. Inherits from: Directly: (non-virtually) <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> Indirectly: (non-virtually) <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> </p>
+
+</div>
+</div>
+<a id="ga1cb564fdc55d5745d0ef594a88b81646" name="ga1cb564fdc55d5745d0ef594a88b81646"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1cb564fdc55d5745d0ef594a88b81646">&#9670;&#160;</a></span>MR_MeshEqualizeTriAreasParams</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code>. Inherits from: Directly: (non-virtually) <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> Indirectly: (non-virtually) <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> </p>
+
+</div>
+</div>
+<a id="gadc5d88756b2c801276a68f81a54a22dc" name="gadc5d88756b2c801276a68f81a54a22dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadc5d88756b2c801276a68f81a54a22dc">&#9670;&#160;</a></span>MR_MeshRelaxParams</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ga978407207d021e5d2ce7cc273435e6e1" name="ga978407207d021e5d2ce7cc273435e6e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga978407207d021e5d2ce7cc273435e6e1">&#9670;&#160;</a></span>MR_equalizeTriAreas_3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_equalizeTriAreas_3 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>applies given number of iterations with movement toward vertexPosEqualNeiAreas() to the whole mesh ( or some region if it is specified ) </p><dl class="section return"><dt>Returns</dt><dd>true if the operation completed successfully, and false if it was interrupted by the progress callback. Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaae1979d9e4a28ec7ad4642bbb77e477f">MR::equalizeTriAreas</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </dd></dl>
+
+</div>
+</div>
+<a id="ga9530aa26f267fea6ad4ff6f86bcab3da" name="ga9530aa26f267fea6ad4ff6f86bcab3da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9530aa26f267fea6ad4ff6f86bcab3da">&#9670;&#160;</a></span>MR_equalizeTriAreas_4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_equalizeTriAreas_4 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaae1979d9e4a28ec7ad4642bbb77e477f">MR::equalizeTriAreas</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+
+</div>
+</div>
+<a id="ga4437d25e27133b742ae0f2a735fab89c" name="ga4437d25e27133b742ae0f2a735fab89c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4437d25e27133b742ae0f2a735fab89c">&#9670;&#160;</a></span>MR_hardSmoothTetrahedrons_2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_hardSmoothTetrahedrons_2 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>move all region vertices with exactly three neighbor vertices in the center of the neighbors Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#ga287157ee21ca3461b897a4f9e982739b">MR::hardSmoothTetrahedrons</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+
+</div>
+</div>
+<a id="ga7fff5129cabb80b083d03f37d63f000d" name="ga7fff5129cabb80b083d03f37d63f000d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7fff5129cabb80b083d03f37d63f000d">&#9670;&#160;</a></span>MR_hardSmoothTetrahedrons_3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_hardSmoothTetrahedrons_3 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#ga287157ee21ca3461b897a4f9e982739b">MR::hardSmoothTetrahedrons</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+
+</div>
+</div>
+<a id="gaf1d59d1af57c390426e574038550b690" name="gaf1d59d1af57c390426e574038550b690"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf1d59d1af57c390426e574038550b690">&#9670;&#160;</a></span>MR_MeshApproxRelaxParams_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> * MR_MeshApproxRelaxParams_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ga61f9371a05be5ea22cbe66f5a19cc8f9" name="ga61f9371a05be5ea22cbe66f5a19cc8f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga61f9371a05be5ea22cbe66f5a19cc8f9">&#9670;&#160;</a></span>MR_MeshApproxRelaxParams_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> * MR_MeshApproxRelaxParams_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ga44a3b31eeca231382bc06cbf636d3c30" title="Destroys a heap-allocated instance of MR_MeshApproxRelaxParams. Does nothing if the pointer is null.">MR_MeshApproxRelaxParams_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="gaa54b6ae78b8f286e7bf9c7b7d3385cb2" name="gaa54b6ae78b8f286e7bf9c7b7d3385cb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa54b6ae78b8f286e7bf9c7b7d3385cb2">&#9670;&#160;</a></span>MR_MeshApproxRelaxParams_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> * MR_MeshApproxRelaxParams_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ga44a3b31eeca231382bc06cbf636d3c30" title="Destroys a heap-allocated instance of MR_MeshApproxRelaxParams. Does nothing if the pointer is null.">MR_MeshApproxRelaxParams_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ga1adfc3365f7c0cfdd46a875f2175a3de" name="ga1adfc3365f7c0cfdd46a875f2175a3de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1adfc3365f7c0cfdd46a875f2175a3de">&#9670;&#160;</a></span>MR_MeshApproxRelaxParams_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> * MR_MeshApproxRelaxParams_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#ga7c6b41334a0847745ce49ff097222aa0" title="Destroys a heap-allocated array of MR_MeshApproxRelaxParams. Does nothing if the pointer is null.">MR_MeshApproxRelaxParams_DestroyArray()</a></code>. Use <code><a class="el" href="#gadf4a867c6ac2bd075b0e361597c7a58f" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_MeshApproxRelaxParams_OffsetMutablePtr()</a></code> and <code><a class="el" href="#ga8860221e6021dc5e73577c7fd1a4ae6c" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_MeshApproxRelaxParams_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ga44a3b31eeca231382bc06cbf636d3c30" name="ga44a3b31eeca231382bc06cbf636d3c30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga44a3b31eeca231382bc06cbf636d3c30">&#9670;&#160;</a></span>MR_MeshApproxRelaxParams_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshApproxRelaxParams_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_MeshApproxRelaxParams</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ga7c6b41334a0847745ce49ff097222aa0" name="ga7c6b41334a0847745ce49ff097222aa0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7c6b41334a0847745ce49ff097222aa0">&#9670;&#160;</a></span>MR_MeshApproxRelaxParams_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshApproxRelaxParams_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_MeshApproxRelaxParams</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ga56d35b5ee983152029543c7bce08c6e6" name="ga56d35b5ee983152029543c7bce08c6e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga56d35b5ee983152029543c7bce08c6e6">&#9670;&#160;</a></span>MR_MeshApproxRelaxParams_Get_surfaceDilateRadius()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const float * MR_MeshApproxRelaxParams_Get_surfaceDilateRadius </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>radius to find neighbors by surface 0.0f - default = 1e-3 * sqrt(surface area) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> named <code>surfaceDilateRadius</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ga78acbcb41b6a77c616bba906dad70007" name="ga78acbcb41b6a77c616bba906dad70007"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga78acbcb41b6a77c616bba906dad70007">&#9670;&#160;</a></span>MR_MeshApproxRelaxParams_Get_type()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRRelaxParams_8h.html#ad9afe6f617031f8762108430bbdebd3f">MR_RelaxApproxType</a> * MR_MeshApproxRelaxParams_Get_type </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> named <code>type</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ga920f2bfaf0186e0197729b1f18ff2b7e" name="ga920f2bfaf0186e0197729b1f18ff2b7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga920f2bfaf0186e0197729b1f18ff2b7e">&#9670;&#160;</a></span>MR_MeshApproxRelaxParams_GetMutable_surfaceDilateRadius()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float * MR_MeshApproxRelaxParams_GetMutable_surfaceDilateRadius </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>radius to find neighbors by surface 0.0f - default = 1e-3 * sqrt(surface area) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> named <code>surfaceDilateRadius</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="gaad9bef93915cdd77f93d855839089214" name="gaad9bef93915cdd77f93d855839089214"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaad9bef93915cdd77f93d855839089214">&#9670;&#160;</a></span>MR_MeshApproxRelaxParams_GetMutable_type()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRRelaxParams_8h.html#ad9afe6f617031f8762108430bbdebd3f">MR_RelaxApproxType</a> * MR_MeshApproxRelaxParams_GetMutable_type </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> named <code>type</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="gad068757b35d05dc83c7e9dfb6603bb02" name="gad068757b35d05dc83c7e9dfb6603bb02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad068757b35d05dc83c7e9dfb6603bb02">&#9670;&#160;</a></span>MR_MeshApproxRelaxParams_MutableUpcastTo_MR_MeshRelaxParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> * MR_MeshApproxRelaxParams_MutableUpcastTo_MR_MeshRelaxParams </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code>. </p>
+
+</div>
+</div>
+<a id="gabe1f8abddcf2bac71f6ba5f8c1365c5a" name="gabe1f8abddcf2bac71f6ba5f8c1365c5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabe1f8abddcf2bac71f6ba5f8c1365c5a">&#9670;&#160;</a></span>MR_MeshApproxRelaxParams_MutableUpcastTo_MR_RelaxParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> * MR_MeshApproxRelaxParams_MutableUpcastTo_MR_RelaxParams </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code>. </p>
+
+</div>
+</div>
+<a id="gadf4a867c6ac2bd075b0e361597c7a58f" name="gadf4a867c6ac2bd075b0e361597c7a58f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadf4a867c6ac2bd075b0e361597c7a58f">&#9670;&#160;</a></span>MR_MeshApproxRelaxParams_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> * MR_MeshApproxRelaxParams_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ga8860221e6021dc5e73577c7fd1a4ae6c" name="ga8860221e6021dc5e73577c7fd1a4ae6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8860221e6021dc5e73577c7fd1a4ae6c">&#9670;&#160;</a></span>MR_MeshApproxRelaxParams_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> * MR_MeshApproxRelaxParams_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ga5972213063cbcd42a1c8019848ee913d" name="ga5972213063cbcd42a1c8019848ee913d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5972213063cbcd42a1c8019848ee913d">&#9670;&#160;</a></span>MR_MeshApproxRelaxParams_Set_surfaceDilateRadius()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshApproxRelaxParams_Set_surfaceDilateRadius </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>radius to find neighbors by surface 0.0f - default = 1e-3 * sqrt(surface area) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> named <code>surfaceDilateRadius</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ga88b77a7b9c9faae4c9fc4d0c3a57af23" name="ga88b77a7b9c9faae4c9fc4d0c3a57af23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga88b77a7b9c9faae4c9fc4d0c3a57af23">&#9670;&#160;</a></span>MR_MeshApproxRelaxParams_Set_type()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshApproxRelaxParams_Set_type </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRRelaxParams_8h.html#ad9afe6f617031f8762108430bbdebd3f">MR_RelaxApproxType</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> named <code>type</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ga11cb7121fc71f390f29c05f59227b6e2" name="ga11cb7121fc71f390f29c05f59227b6e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga11cb7121fc71f390f29c05f59227b6e2">&#9670;&#160;</a></span>MR_MeshApproxRelaxParams_UpcastTo_MR_MeshRelaxParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> * MR_MeshApproxRelaxParams_UpcastTo_MR_MeshRelaxParams </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code>. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="gab2e5ffff1ec762fe0271586504859349" name="gab2e5ffff1ec762fe0271586504859349"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab2e5ffff1ec762fe0271586504859349">&#9670;&#160;</a></span>MR_MeshApproxRelaxParams_UpcastTo_MR_RelaxParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> * MR_MeshApproxRelaxParams_UpcastTo_MR_RelaxParams </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code>. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="ga5163c5cc2784821fdeba8ab77730deeb" name="ga5163c5cc2784821fdeba8ab77730deeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5163c5cc2784821fdeba8ab77730deeb">&#9670;&#160;</a></span>MR_MeshEqualizeTriAreasParams_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> * MR_MeshEqualizeTriAreasParams_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ga408f5405f2dd134a989fbd19cc611352" name="ga408f5405f2dd134a989fbd19cc611352"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga408f5405f2dd134a989fbd19cc611352">&#9670;&#160;</a></span>MR_MeshEqualizeTriAreasParams_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> * MR_MeshEqualizeTriAreasParams_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ga1375f118c328d24b6eb6858cb309f336" title="Destroys a heap-allocated instance of MR_MeshEqualizeTriAreasParams. Does nothing if the pointer is n...">MR_MeshEqualizeTriAreasParams_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ga58427002d404ab50f86a1dd61d07debb" name="ga58427002d404ab50f86a1dd61d07debb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga58427002d404ab50f86a1dd61d07debb">&#9670;&#160;</a></span>MR_MeshEqualizeTriAreasParams_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> * MR_MeshEqualizeTriAreasParams_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ga1375f118c328d24b6eb6858cb309f336" title="Destroys a heap-allocated instance of MR_MeshEqualizeTriAreasParams. Does nothing if the pointer is n...">MR_MeshEqualizeTriAreasParams_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ga688f1ac30c8ef059ea0e32cc3e7a1afa" name="ga688f1ac30c8ef059ea0e32cc3e7a1afa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga688f1ac30c8ef059ea0e32cc3e7a1afa">&#9670;&#160;</a></span>MR_MeshEqualizeTriAreasParams_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> * MR_MeshEqualizeTriAreasParams_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#gad865afad8150a1dbbdc93364e0489060" title="Destroys a heap-allocated array of MR_MeshEqualizeTriAreasParams. Does nothing if the pointer is null...">MR_MeshEqualizeTriAreasParams_DestroyArray()</a></code>. Use <code><a class="el" href="#ga72b7f0501ec1a954875ed73957cba289" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_MeshEqualizeTriAreasParams_OffsetMutablePtr()</a></code> and <code><a class="el" href="#ga0267cdcbf98aadeb6ee04f9b17127911" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_MeshEqualizeTriAreasParams_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ga1375f118c328d24b6eb6858cb309f336" name="ga1375f118c328d24b6eb6858cb309f336"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1375f118c328d24b6eb6858cb309f336">&#9670;&#160;</a></span>MR_MeshEqualizeTriAreasParams_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshEqualizeTriAreasParams_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_MeshEqualizeTriAreasParams</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="gad865afad8150a1dbbdc93364e0489060" name="gad865afad8150a1dbbdc93364e0489060"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad865afad8150a1dbbdc93364e0489060">&#9670;&#160;</a></span>MR_MeshEqualizeTriAreasParams_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshEqualizeTriAreasParams_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_MeshEqualizeTriAreasParams</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ga5d76fa3feadb9c8d295fd4eaf3911686" name="ga5d76fa3feadb9c8d295fd4eaf3911686"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5d76fa3feadb9c8d295fd4eaf3911686">&#9670;&#160;</a></span>MR_MeshEqualizeTriAreasParams_Get_noShrinkage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const bool * MR_MeshEqualizeTriAreasParams_Get_noShrinkage </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if true prevents the surface from shrinkage after many iterations; technically it is done by solving the same task in the plane orthogonal to normal direction Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code> named <code>noShrinkage</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ga96e0bac6feb94b6535a83b5a7a593eb8" name="ga96e0bac6feb94b6535a83b5a7a593eb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga96e0bac6feb94b6535a83b5a7a593eb8">&#9670;&#160;</a></span>MR_MeshEqualizeTriAreasParams_GetMutable_noShrinkage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool * MR_MeshEqualizeTriAreasParams_GetMutable_noShrinkage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if true prevents the surface from shrinkage after many iterations; technically it is done by solving the same task in the plane orthogonal to normal direction Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code> named <code>noShrinkage</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="gaa2dc517901e97fb3f880ac0e0e06a6d8" name="gaa2dc517901e97fb3f880ac0e0e06a6d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa2dc517901e97fb3f880ac0e0e06a6d8">&#9670;&#160;</a></span>MR_MeshEqualizeTriAreasParams_MutableUpcastTo_MR_MeshRelaxParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> * MR_MeshEqualizeTriAreasParams_MutableUpcastTo_MR_MeshRelaxParams </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code>. </p>
+
+</div>
+</div>
+<a id="gadb53a0af0b7583820aa1de584d0d8aa7" name="gadb53a0af0b7583820aa1de584d0d8aa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadb53a0af0b7583820aa1de584d0d8aa7">&#9670;&#160;</a></span>MR_MeshEqualizeTriAreasParams_MutableUpcastTo_MR_RelaxParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> * MR_MeshEqualizeTriAreasParams_MutableUpcastTo_MR_RelaxParams </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code>. </p>
+
+</div>
+</div>
+<a id="ga72b7f0501ec1a954875ed73957cba289" name="ga72b7f0501ec1a954875ed73957cba289"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga72b7f0501ec1a954875ed73957cba289">&#9670;&#160;</a></span>MR_MeshEqualizeTriAreasParams_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> * MR_MeshEqualizeTriAreasParams_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ga0267cdcbf98aadeb6ee04f9b17127911" name="ga0267cdcbf98aadeb6ee04f9b17127911"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0267cdcbf98aadeb6ee04f9b17127911">&#9670;&#160;</a></span>MR_MeshEqualizeTriAreasParams_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> * MR_MeshEqualizeTriAreasParams_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ga63a0f379fa38bfbb9fed7bc7143831ba" name="ga63a0f379fa38bfbb9fed7bc7143831ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga63a0f379fa38bfbb9fed7bc7143831ba">&#9670;&#160;</a></span>MR_MeshEqualizeTriAreasParams_Set_noShrinkage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshEqualizeTriAreasParams_Set_noShrinkage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if true prevents the surface from shrinkage after many iterations; technically it is done by solving the same task in the plane orthogonal to normal direction Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code> named <code>noShrinkage</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="gaf8eb49a2b0228d3579a0032b6d224991" name="gaf8eb49a2b0228d3579a0032b6d224991"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf8eb49a2b0228d3579a0032b6d224991">&#9670;&#160;</a></span>MR_MeshEqualizeTriAreasParams_UpcastTo_MR_MeshRelaxParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> * MR_MeshEqualizeTriAreasParams_UpcastTo_MR_MeshRelaxParams </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code>. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="ga50fa164ff70d4dc6d13f04428a9ee737" name="ga50fa164ff70d4dc6d13f04428a9ee737"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga50fa164ff70d4dc6d13f04428a9ee737">&#9670;&#160;</a></span>MR_MeshEqualizeTriAreasParams_UpcastTo_MR_RelaxParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> * MR_MeshEqualizeTriAreasParams_UpcastTo_MR_RelaxParams </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code>. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="gaebf4f43110998843601c9a1cf228c0ab" name="gaebf4f43110998843601c9a1cf228c0ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaebf4f43110998843601c9a1cf228c0ab">&#9670;&#160;</a></span>MR_MeshRelaxParams_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> * MR_MeshRelaxParams_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ga0408ab97ff6794f12c89ce536f4e5f38" name="ga0408ab97ff6794f12c89ce536f4e5f38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0408ab97ff6794f12c89ce536f4e5f38">&#9670;&#160;</a></span>MR_MeshRelaxParams_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> * MR_MeshRelaxParams_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ga881bf3c84f8d5d6f01dec1bd031e7193" title="Destroys a heap-allocated instance of MR_MeshRelaxParams. Does nothing if the pointer is null.">MR_MeshRelaxParams_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ga252f16473bc0df2b01c61c71f66ae242" name="ga252f16473bc0df2b01c61c71f66ae242"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga252f16473bc0df2b01c61c71f66ae242">&#9670;&#160;</a></span>MR_MeshRelaxParams_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> * MR_MeshRelaxParams_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ga881bf3c84f8d5d6f01dec1bd031e7193" title="Destroys a heap-allocated instance of MR_MeshRelaxParams. Does nothing if the pointer is null.">MR_MeshRelaxParams_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ga9b1e559502b8cd22018fa40ce956ac64" name="ga9b1e559502b8cd22018fa40ce956ac64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9b1e559502b8cd22018fa40ce956ac64">&#9670;&#160;</a></span>MR_MeshRelaxParams_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> * MR_MeshRelaxParams_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#ga7f4526a1c4846778e1ebbdbdbb372017" title="Destroys a heap-allocated array of MR_MeshRelaxParams. Does nothing if the pointer is null.">MR_MeshRelaxParams_DestroyArray()</a></code>. Use <code><a class="el" href="#gac7b6f4b6bc16e8e17bea9dcd712c6e79" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_MeshRelaxParams_OffsetMutablePtr()</a></code> and <code><a class="el" href="#ga16f5bae96290c09d3276b93c155a53eb" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_MeshRelaxParams_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ga881bf3c84f8d5d6f01dec1bd031e7193" name="ga881bf3c84f8d5d6f01dec1bd031e7193"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga881bf3c84f8d5d6f01dec1bd031e7193">&#9670;&#160;</a></span>MR_MeshRelaxParams_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshRelaxParams_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_MeshRelaxParams</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ga7f4526a1c4846778e1ebbdbdbb372017" name="ga7f4526a1c4846778e1ebbdbdbb372017"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7f4526a1c4846778e1ebbdbdbb372017">&#9670;&#160;</a></span>MR_MeshRelaxParams_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshRelaxParams_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_MeshRelaxParams</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="gafaffe933c0e9a1ca2136eac2e5d63321" name="gafaffe933c0e9a1ca2136eac2e5d63321"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafaffe933c0e9a1ca2136eac2e5d63321">&#9670;&#160;</a></span>MR_MeshRelaxParams_Get_hardSmoothTetrahedrons()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const bool * MR_MeshRelaxParams_Get_hardSmoothTetrahedrons </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>move all region vertices with exactly three neighbor vertices in the center of the neighbors Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> named <code>hardSmoothTetrahedrons</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="gac3fc8a04578f99204edaedabd2d8b932" name="gac3fc8a04578f99204edaedabd2d8b932"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac3fc8a04578f99204edaedabd2d8b932">&#9670;&#160;</a></span>MR_MeshRelaxParams_Get_weights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *const  * MR_MeshRelaxParams_Get_weights </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>weight for each vertex. By default, all the vertices have equal weights. Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> named <code>weights</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="gaeecce37afb3d8b2cd3eac7aaeb98c3b0" name="gaeecce37afb3d8b2cd3eac7aaeb98c3b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeecce37afb3d8b2cd3eac7aaeb98c3b0">&#9670;&#160;</a></span>MR_MeshRelaxParams_GetMutable_hardSmoothTetrahedrons()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool * MR_MeshRelaxParams_GetMutable_hardSmoothTetrahedrons </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>move all region vertices with exactly three neighbor vertices in the center of the neighbors Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> named <code>hardSmoothTetrahedrons</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="gab40856f6de11208020780a3f01a6a0ee" name="gab40856f6de11208020780a3f01a6a0ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab40856f6de11208020780a3f01a6a0ee">&#9670;&#160;</a></span>MR_MeshRelaxParams_GetMutable_weights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> ** MR_MeshRelaxParams_GetMutable_weights </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>weight for each vertex. By default, all the vertices have equal weights. Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> named <code>weights</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="gaea8a9d61fba5f32a05bb84a9f8d4d44b" name="gaea8a9d61fba5f32a05bb84a9f8d4d44b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaea8a9d61fba5f32a05bb84a9f8d4d44b">&#9670;&#160;</a></span>MR_MeshRelaxParams_MutableStaticDowncastTo_MR_MeshApproxRelaxParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> * MR_MeshRelaxParams_MutableStaticDowncastTo_MR_MeshApproxRelaxParams </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> to a derived class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. </p>
+
+</div>
+</div>
+<a id="ga43f0aab2c45d5d10cba2bacc31f0f033" name="ga43f0aab2c45d5d10cba2bacc31f0f033"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga43f0aab2c45d5d10cba2bacc31f0f033">&#9670;&#160;</a></span>MR_MeshRelaxParams_MutableStaticDowncastTo_MR_MeshEqualizeTriAreasParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> * MR_MeshRelaxParams_MutableStaticDowncastTo_MR_MeshEqualizeTriAreasParams </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> to a derived class <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. </p>
+
+</div>
+</div>
+<a id="gafc0cb42f8cfd69bdc2bd704d2ff56449" name="gafc0cb42f8cfd69bdc2bd704d2ff56449"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafc0cb42f8cfd69bdc2bd704d2ff56449">&#9670;&#160;</a></span>MR_MeshRelaxParams_MutableUpcastTo_MR_RelaxParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> * MR_MeshRelaxParams_MutableUpcastTo_MR_RelaxParams </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code>. </p>
+
+</div>
+</div>
+<a id="gac7b6f4b6bc16e8e17bea9dcd712c6e79" name="gac7b6f4b6bc16e8e17bea9dcd712c6e79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac7b6f4b6bc16e8e17bea9dcd712c6e79">&#9670;&#160;</a></span>MR_MeshRelaxParams_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> * MR_MeshRelaxParams_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ga16f5bae96290c09d3276b93c155a53eb" name="ga16f5bae96290c09d3276b93c155a53eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga16f5bae96290c09d3276b93c155a53eb">&#9670;&#160;</a></span>MR_MeshRelaxParams_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> * MR_MeshRelaxParams_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="gae21a931b8822dca7008f3ec277cd7e78" name="gae21a931b8822dca7008f3ec277cd7e78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae21a931b8822dca7008f3ec277cd7e78">&#9670;&#160;</a></span>MR_MeshRelaxParams_Set_hardSmoothTetrahedrons()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshRelaxParams_Set_hardSmoothTetrahedrons </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>move all region vertices with exactly three neighbor vertices in the center of the neighbors Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> named <code>hardSmoothTetrahedrons</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ga69a3b3ff651c6b41ba0ad4ebd7c53a5b" name="ga69a3b3ff651c6b41ba0ad4ebd7c53a5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga69a3b3ff651c6b41ba0ad4ebd7c53a5b">&#9670;&#160;</a></span>MR_MeshRelaxParams_Set_weights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshRelaxParams_Set_weights </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>weight for each vertex. By default, all the vertices have equal weights. Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> named <code>weights</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="gaf0f112530844fb17f3d010532f1a961b" name="gaf0f112530844fb17f3d010532f1a961b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf0f112530844fb17f3d010532f1a961b">&#9670;&#160;</a></span>MR_MeshRelaxParams_StaticDowncastTo_MR_MeshApproxRelaxParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> * MR_MeshRelaxParams_StaticDowncastTo_MR_MeshApproxRelaxParams </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> to a derived class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="ga04f8c6a642b2013b4e32a913abe80d88" name="ga04f8c6a642b2013b4e32a913abe80d88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga04f8c6a642b2013b4e32a913abe80d88">&#9670;&#160;</a></span>MR_MeshRelaxParams_StaticDowncastTo_MR_MeshEqualizeTriAreasParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ga1cb564fdc55d5745d0ef594a88b81646">MR_MeshEqualizeTriAreasParams</a> * MR_MeshRelaxParams_StaticDowncastTo_MR_MeshEqualizeTriAreasParams </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> to a derived class <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="gac793d98743396d87956b1ea11b3a50a4" name="gac793d98743396d87956b1ea11b3a50a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac793d98743396d87956b1ea11b3a50a4">&#9670;&#160;</a></span>MR_MeshRelaxParams_UpcastTo_MR_RelaxParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> * MR_MeshRelaxParams_UpcastTo_MR_RelaxParams </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code>. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="gaba0482369c7294d5b6ef4b17880d9829" name="gaba0482369c7294d5b6ef4b17880d9829"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaba0482369c7294d5b6ef4b17880d9829">&#9670;&#160;</a></span>MR_relax_3_MR_Mesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_relax_3_MR_Mesh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>applies given number of relaxation iterations to the whole mesh ( or some region if it is specified ) </p><dl class="section return"><dt>Returns</dt><dd>true if was finished successfully, false if was interrupted by progress callback Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaf1790e242d0c45c246335b07bfb7c5af">MR::relax</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </dd></dl>
+
+</div>
+</div>
+<a id="ga3373a4af747672e144be76544686eb6c" name="ga3373a4af747672e144be76544686eb6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3373a4af747672e144be76544686eb6c">&#9670;&#160;</a></span>MR_relax_4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_relax_4 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaf1790e242d0c45c246335b07bfb7c5af">MR::relax</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+
+</div>
+</div>
+<a id="ga0c03e2b69580d90eeae5a9509f06dadb" name="ga0c03e2b69580d90eeae5a9509f06dadb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0c03e2b69580d90eeae5a9509f06dadb">&#9670;&#160;</a></span>MR_relaxApprox_3_MR_Mesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_relaxApprox_3_MR_Mesh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>applies given number of relaxation iterations to the whole mesh ( or some region if it is specified ) approx neighborhoods </p><dl class="section return"><dt>Returns</dt><dd>true if the operation completed successfully, and false if it was interrupted by the progress callback. Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#ga20d24c1c616896c5b7cf17b6dc1ad1dc">MR::relaxApprox</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </dd></dl>
+
+</div>
+</div>
+<a id="ga822e40cb631af953d8a354832ebe046c" name="ga822e40cb631af953d8a354832ebe046c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga822e40cb631af953d8a354832ebe046c">&#9670;&#160;</a></span>MR_relaxApprox_4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_relaxApprox_4 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ga0961ed14052ec630a4f9e367afe11da3">MR_MeshApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#ga20d24c1c616896c5b7cf17b6dc1ad1dc">MR::relaxApprox</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+
+</div>
+</div>
+<a id="ga4f2f83618127cc7b70a4239177b828b1" name="ga4f2f83618127cc7b70a4239177b828b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4f2f83618127cc7b70a4239177b828b1">&#9670;&#160;</a></span>MR_relaxKeepVolume_3_MR_Mesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_relaxKeepVolume_3_MR_Mesh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>applies given number of relaxation iterations to the whole mesh ( or some region if it is specified ) <br  />
+do not really keeps volume but tries hard </p><dl class="section return"><dt>Returns</dt><dd>true if the operation completed successfully, and false if it was interrupted by the progress callback. Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gade2c4c373a0a3c4e594f194dc55a92b8">MR::relaxKeepVolume</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </dd></dl>
+
+</div>
+</div>
+<a id="ga9ad472c26700843c6b825e2391437e8f" name="ga9ad472c26700843c6b825e2391437e8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9ad472c26700843c6b825e2391437e8f">&#9670;&#160;</a></span>MR_relaxKeepVolume_4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_relaxKeepVolume_4 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#gadc5d88756b2c801276a68f81a54a22dc">MR_MeshRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gade2c4c373a0a3c4e594f194dc55a92b8">MR::relaxKeepVolume</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+
+</div>
+</div>
+<a id="ga95614f42d7bb9efe56a4d810b412e1fd" name="ga95614f42d7bb9efe56a4d810b412e1fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga95614f42d7bb9efe56a4d810b412e1fd">&#9670;&#160;</a></span>MR_removeSpikes_4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_removeSpikes_4 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>maxIterations</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minSumAngle</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>applies at most given number of relaxation iterations the spikes detected by given threshold Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaf3dd7b36bb56c94c95b1bea9f7546349">MR::removeSpikes</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+
+</div>
+</div>
+<a id="gad55464653566ed7389071738ad5d21c5" name="gad55464653566ed7389071738ad5d21c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad55464653566ed7389071738ad5d21c5">&#9670;&#160;</a></span>MR_removeSpikes_5()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_removeSpikes_5 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>maxIterations</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minSumAngle</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaf3dd7b36bb56c94c95b1bea9f7546349">MR::removeSpikes</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+
+</div>
+</div>
+<a id="gabcd02e5fd1ad781ca6dc0fb18068ac4e" name="gabcd02e5fd1ad781ca6dc0fb18068ac4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabcd02e5fd1ad781ca6dc0fb18068ac4e">&#9670;&#160;</a></span>MR_smoothRegionBoundary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_smoothRegionBoundary </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>regionFaces</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t *</td>          <td class="paramname"><span class="paramname"><em>numIters</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>given a region of faces on the mesh, moves boundary vertices of the region to make the region contour much smoother with minor optimization of mesh topology near region boundary; </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">numIters</td><td>&gt;= 1 how many times to run the algorithm to achieve a better quality, solution is typically oscillates back and forth so even number of iterations is recommended Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#ga8befca5bcec5f332e23a665e97e9ecbf">MR::smoothRegionBoundary</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>regionFaces</code> can not be null. Parameter <code>numIters</code> has a default argument: <code>4</code>, pass a null pointer to use it. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga55d78f4ddc69242a1f36051662c14d8f" name="ga55d78f4ddc69242a1f36051662c14d8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga55d78f4ddc69242a1f36051662c14d8f">&#9670;&#160;</a></span>MR_vertexPosEqualNeiAreas_3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_vertexPosEqualNeiAreas_3 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__VertId.html">MR_VertId</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>noShrinkage</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes position of a vertex, when all neighbor triangles have almost equal areas, more precisely it minimizes sum_i (area_i)^2 by adjusting the position of this vertex only Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaba816e24c8bb07c99f1d084e59d0ec48">MR::vertexPosEqualNeiAreas</a></code>. Parameter <code>mesh</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ga35fe524c7cba39df29e3abfcc4726008" name="ga35fe524c7cba39df29e3abfcc4726008"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga35fe524c7cba39df29e3abfcc4726008">&#9670;&#160;</a></span>MR_vertexPosEqualNeiAreas_4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_vertexPosEqualNeiAreas_4 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__VertId.html">MR_VertId</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>noShrinkage</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaba816e24c8bb07c99f1d084e59d0ec48">MR::vertexPosEqualNeiAreas</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

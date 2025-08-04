@@ -1,0 +1,1198 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRVoxelsConversionsByParts.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRVoxelsConversionsByParts_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRVoxelsConversionsByParts.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="MRVoxelsConversionsByParts_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ac262f87c0239d73aafc464289f6eb02e" id="r_ac262f87c0239d73aafc464289f6eb02e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRMesh_8h.html#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a></td></tr>
+<tr class="separator:ac262f87c0239d73aafc464289f6eb02e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a627d491d276d54a9eef9d074a1a08a99" id="r_a627d491d276d54a9eef9d074a1a08a99"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="std__function__void__from__MR__Mesh__ref_8h.html#a627d491d276d54a9eef9d074a1a08a99">MR_std_function_void_from_MR_Mesh_ref</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a627d491d276d54a9eef9d074a1a08a99">MR_std_function_void_from_MR_Mesh_ref</a></td></tr>
+<tr class="separator:a627d491d276d54a9eef9d074a1a08a99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a842bc31e7d75a88d0b83a0aa19c6b27f" id="r_a842bc31e7d75a88d0b83a0aa19c6b27f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="std__function__void__from__MR__Mesh__ref__const__MR__PartMapping__ref_8h.html#a842bc31e7d75a88d0b83a0aa19c6b27f">MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a842bc31e7d75a88d0b83a0aa19c6b27f">MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref</a></td></tr>
+<tr class="separator:a842bc31e7d75a88d0b83a0aa19c6b27f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3955429925136008c4cf12497066877" id="r_ab3955429925136008c4cf12497066877"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="std__function__void__from__MR__Mesh__ref__float__float_8h.html#ab3955429925136008c4cf12497066877">MR_std_function_void_from_MR_Mesh_ref_float_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3955429925136008c4cf12497066877">MR_std_function_void_from_MR_Mesh_ref_float_float</a></td></tr>
+<tr class="separator:ab3955429925136008c4cf12497066877"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc3cb5528ab92ee2723356ec1c0582c4" id="r_acc3cb5528ab92ee2723356ec1c0582c4"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a></td></tr>
+<tr class="memdesc:acc3cb5528ab92ee2723356ec1c0582c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MergeVolumePartSettings.html">MR::MergeVolumePartSettings</a></code>.  <br /></td></tr>
+<tr class="separator:acc3cb5528ab92ee2723356ec1c0582c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74fea0531c2b15694d05f7dbda765bf0" id="r_a74fea0531c2b15694d05f7dbda765bf0"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a></td></tr>
+<tr class="memdesc:a74fea0531c2b15694d05f7dbda765bf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1VolumeToMeshByPartsSettings.html">MR::VolumeToMeshByPartsSettings</a></code>.  <br /></td></tr>
+<tr class="separator:a74fea0531c2b15694d05f7dbda765bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a154b6e12b1351c75ee9d5c88d013a6a4" id="r_a154b6e12b1351c75ee9d5c88d013a6a4"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="std__function__void__from__MR__Mesh__ref__float__float_8h.html#ab3955429925136008c4cf12497066877">MR_std_function_void_from_MR_Mesh_ref_float_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a154b6e12b1351c75ee9d5c88d013a6a4">MR_MergeVolumePartSettings_Get_preCut</a> (const <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *_this)</td></tr>
+<tr class="separator:a154b6e12b1351c75ee9d5c88d013a6a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a3a9e3bf2f4f9da33056ec034e19e22" id="r_a9a3a9e3bf2f4f9da33056ec034e19e22"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a3a9e3bf2f4f9da33056ec034e19e22">MR_MergeVolumePartSettings_Set_preCut</a> (<a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="std__function__void__from__MR__Mesh__ref__float__float_8h.html#ab3955429925136008c4cf12497066877">MR_std_function_void_from_MR_Mesh_ref_float_float</a> *value)</td></tr>
+<tr class="separator:a9a3a9e3bf2f4f9da33056ec034e19e22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d7858b5bb7d722105c8a46c15c64fa8" id="r_a8d7858b5bb7d722105c8a46c15c64fa8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="std__function__void__from__MR__Mesh__ref__float__float_8h.html#ab3955429925136008c4cf12497066877">MR_std_function_void_from_MR_Mesh_ref_float_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d7858b5bb7d722105c8a46c15c64fa8">MR_MergeVolumePartSettings_GetMutable_preCut</a> (<a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *_this)</td></tr>
+<tr class="separator:a8d7858b5bb7d722105c8a46c15c64fa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abce80ce871fc3c5b982321adfda94bd0" id="r_abce80ce871fc3c5b982321adfda94bd0"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="std__function__void__from__MR__Mesh__ref_8h.html#a627d491d276d54a9eef9d074a1a08a99">MR_std_function_void_from_MR_Mesh_ref</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abce80ce871fc3c5b982321adfda94bd0">MR_MergeVolumePartSettings_Get_postCut</a> (const <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *_this)</td></tr>
+<tr class="separator:abce80ce871fc3c5b982321adfda94bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac57154fae4546a32d325d08eecb1fab9" id="r_ac57154fae4546a32d325d08eecb1fab9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac57154fae4546a32d325d08eecb1fab9">MR_MergeVolumePartSettings_Set_postCut</a> (<a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="std__function__void__from__MR__Mesh__ref_8h.html#a627d491d276d54a9eef9d074a1a08a99">MR_std_function_void_from_MR_Mesh_ref</a> *value)</td></tr>
+<tr class="separator:ac57154fae4546a32d325d08eecb1fab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a7d631b0914417c4c9464fb24b1e44b" id="r_a8a7d631b0914417c4c9464fb24b1e44b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="std__function__void__from__MR__Mesh__ref_8h.html#a627d491d276d54a9eef9d074a1a08a99">MR_std_function_void_from_MR_Mesh_ref</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a7d631b0914417c4c9464fb24b1e44b">MR_MergeVolumePartSettings_GetMutable_postCut</a> (<a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *_this)</td></tr>
+<tr class="separator:a8a7d631b0914417c4c9464fb24b1e44b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5619e0016fabd1d61681124381ddb477" id="r_a5619e0016fabd1d61681124381ddb477"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="std__function__void__from__MR__Mesh__ref__const__MR__PartMapping__ref_8h.html#a842bc31e7d75a88d0b83a0aa19c6b27f">MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5619e0016fabd1d61681124381ddb477">MR_MergeVolumePartSettings_Get_postMerge</a> (const <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *_this)</td></tr>
+<tr class="separator:a5619e0016fabd1d61681124381ddb477"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2a8c103f46d7923d968ec8e48f2f642" id="r_af2a8c103f46d7923d968ec8e48f2f642"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2a8c103f46d7923d968ec8e48f2f642">MR_MergeVolumePartSettings_Set_postMerge</a> (<a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="std__function__void__from__MR__Mesh__ref__const__MR__PartMapping__ref_8h.html#a842bc31e7d75a88d0b83a0aa19c6b27f">MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref</a> *value)</td></tr>
+<tr class="separator:af2a8c103f46d7923d968ec8e48f2f642"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20184a773b9a2b239f9ddf10c72dc47f" id="r_a20184a773b9a2b239f9ddf10c72dc47f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="std__function__void__from__MR__Mesh__ref__const__MR__PartMapping__ref_8h.html#a842bc31e7d75a88d0b83a0aa19c6b27f">MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20184a773b9a2b239f9ddf10c72dc47f">MR_MergeVolumePartSettings_GetMutable_postMerge</a> (<a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *_this)</td></tr>
+<tr class="separator:a20184a773b9a2b239f9ddf10c72dc47f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a3341a7092f75cf3905f2394e095bfe" id="r_a3a3341a7092f75cf3905f2394e095bfe"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRMesh_8h.html#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a3341a7092f75cf3905f2394e095bfe">MR_MergeVolumePartSettings_Get_mapping</a> (const <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *_this)</td></tr>
+<tr class="separator:a3a3341a7092f75cf3905f2394e095bfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3ee9281a1adf767a30dc10fc5727d96" id="r_ab3ee9281a1adf767a30dc10fc5727d96"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3ee9281a1adf767a30dc10fc5727d96">MR_MergeVolumePartSettings_Set_mapping</a> (<a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *_this, const <a class="el" href="MRMesh_8h.html#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a> *value)</td></tr>
+<tr class="separator:ab3ee9281a1adf767a30dc10fc5727d96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbe3b1c6e61bf584979740f24fa4a11b" id="r_abbe3b1c6e61bf584979740f24fa4a11b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMesh_8h.html#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbe3b1c6e61bf584979740f24fa4a11b">MR_MergeVolumePartSettings_GetMutable_mapping</a> (<a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *_this)</td></tr>
+<tr class="separator:abbe3b1c6e61bf584979740f24fa4a11b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a464cd92fd34c53d7d550adbf78bc688c" id="r_a464cd92fd34c53d7d550adbf78bc688c"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a464cd92fd34c53d7d550adbf78bc688c">MR_MergeVolumePartSettings_Get_origin</a> (const <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *_this)</td></tr>
+<tr class="separator:a464cd92fd34c53d7d550adbf78bc688c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7545b9a3d90935f2d12ce5cd799f4b2c" id="r_a7545b9a3d90935f2d12ce5cd799f4b2c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7545b9a3d90935f2d12ce5cd799f4b2c">MR_MergeVolumePartSettings_Set_origin</a> (<a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *_this, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
+<tr class="separator:a7545b9a3d90935f2d12ce5cd799f4b2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27bd788ea302fb4312c9365a28751193" id="r_a27bd788ea302fb4312c9365a28751193"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27bd788ea302fb4312c9365a28751193">MR_MergeVolumePartSettings_GetMutable_origin</a> (<a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *_this)</td></tr>
+<tr class="separator:a27bd788ea302fb4312c9365a28751193"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a178737b3411a84cac7b9e7c3cfbff52c" id="r_a178737b3411a84cac7b9e7c3cfbff52c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a178737b3411a84cac7b9e7c3cfbff52c">MR_MergeVolumePartSettings_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a178737b3411a84cac7b9e7c3cfbff52c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff7b2a0ca3ef374fe49b66d02b82bd3f" id="r_aff7b2a0ca3ef374fe49b66d02b82bd3f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff7b2a0ca3ef374fe49b66d02b82bd3f">MR_MergeVolumePartSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:aff7b2a0ca3ef374fe49b66d02b82bd3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96b22d3d52b1378f994b44a9914b9da0" id="r_a96b22d3d52b1378f994b44a9914b9da0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96b22d3d52b1378f994b44a9914b9da0">MR_MergeVolumePartSettings_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> preCut_pass_by, <a class="el" href="std__function__void__from__MR__Mesh__ref__float__float_8h.html#ab3955429925136008c4cf12497066877">MR_std_function_void_from_MR_Mesh_ref_float_float</a> *preCut, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> postCut_pass_by, <a class="el" href="std__function__void__from__MR__Mesh__ref_8h.html#a627d491d276d54a9eef9d074a1a08a99">MR_std_function_void_from_MR_Mesh_ref</a> *postCut, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> postMerge_pass_by, <a class="el" href="std__function__void__from__MR__Mesh__ref__const__MR__PartMapping__ref_8h.html#a842bc31e7d75a88d0b83a0aa19c6b27f">MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref</a> *postMerge, const <a class="el" href="MRMesh_8h.html#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a> *mapping, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> origin)</td></tr>
+<tr class="separator:a96b22d3d52b1378f994b44a9914b9da0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8d3f6a665d156a04cfc2a59b15e4b44" id="r_ae8d3f6a665d156a04cfc2a59b15e4b44"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8d3f6a665d156a04cfc2a59b15e4b44">MR_MergeVolumePartSettings_OffsetPtr</a> (const <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ae8d3f6a665d156a04cfc2a59b15e4b44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ae8d3f6a665d156a04cfc2a59b15e4b44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a853fcae38602df00bba9ba4f65d60489" id="r_a853fcae38602df00bba9ba4f65d60489"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a853fcae38602df00bba9ba4f65d60489">MR_MergeVolumePartSettings_OffsetMutablePtr</a> (<a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a853fcae38602df00bba9ba4f65d60489"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a853fcae38602df00bba9ba4f65d60489"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a63cf9fae5631d989514bea8df3b1cc" id="r_a8a63cf9fae5631d989514bea8df3b1cc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a63cf9fae5631d989514bea8df3b1cc">MR_MergeVolumePartSettings_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *_other)</td></tr>
+<tr class="separator:a8a63cf9fae5631d989514bea8df3b1cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7126fc34e4cec40699c9fff0dc7aa9d2" id="r_a7126fc34e4cec40699c9fff0dc7aa9d2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7126fc34e4cec40699c9fff0dc7aa9d2">MR_MergeVolumePartSettings_Destroy</a> (const <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *_this)</td></tr>
+<tr class="memdesc:a7126fc34e4cec40699c9fff0dc7aa9d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_MergeVolumePartSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a7126fc34e4cec40699c9fff0dc7aa9d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f60d331ef42aa07473f2e199535ef21" id="r_a4f60d331ef42aa07473f2e199535ef21"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f60d331ef42aa07473f2e199535ef21">MR_MergeVolumePartSettings_DestroyArray</a> (const <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *_this)</td></tr>
+<tr class="memdesc:a4f60d331ef42aa07473f2e199535ef21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_MergeVolumePartSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a4f60d331ef42aa07473f2e199535ef21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a96d9a441de0161f38b7041a4515fd3" id="r_a0a96d9a441de0161f38b7041a4515fd3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a96d9a441de0161f38b7041a4515fd3">MR_MergeVolumePartSettings_AssignFromAnother</a> (<a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *_other)</td></tr>
+<tr class="separator:a0a96d9a441de0161f38b7041a4515fd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3206d1e8b1274fb26a7b3f95ec02679b" id="r_a3206d1e8b1274fb26a7b3f95ec02679b"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3206d1e8b1274fb26a7b3f95ec02679b">MR_VolumeToMeshByPartsSettings_Get_maxVolumePartMemoryUsage</a> (const <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *_this)</td></tr>
+<tr class="separator:a3206d1e8b1274fb26a7b3f95ec02679b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04380d4fcd144405555ff507670b17c5" id="r_a04380d4fcd144405555ff507670b17c5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04380d4fcd144405555ff507670b17c5">MR_VolumeToMeshByPartsSettings_Set_maxVolumePartMemoryUsage</a> (<a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> value)</td></tr>
+<tr class="separator:a04380d4fcd144405555ff507670b17c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdf5af483c849be4fa6e6eda8b23d2eb" id="r_abdf5af483c849be4fa6e6eda8b23d2eb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdf5af483c849be4fa6e6eda8b23d2eb">MR_VolumeToMeshByPartsSettings_GetMutable_maxVolumePartMemoryUsage</a> (<a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *_this)</td></tr>
+<tr class="separator:abdf5af483c849be4fa6e6eda8b23d2eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a994fd117a0060e9feab41a07d6de2eab" id="r_a994fd117a0060e9feab41a07d6de2eab"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a994fd117a0060e9feab41a07d6de2eab">MR_VolumeToMeshByPartsSettings_Get_stripeOverlap</a> (const <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *_this)</td></tr>
+<tr class="separator:a994fd117a0060e9feab41a07d6de2eab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1faebdec734124afc7ef61c005709f73" id="r_a1faebdec734124afc7ef61c005709f73"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1faebdec734124afc7ef61c005709f73">MR_VolumeToMeshByPartsSettings_Set_stripeOverlap</a> (<a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> value)</td></tr>
+<tr class="separator:a1faebdec734124afc7ef61c005709f73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b18473ba4ade764f682aa596ea2d1c9" id="r_a6b18473ba4ade764f682aa596ea2d1c9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b18473ba4ade764f682aa596ea2d1c9">MR_VolumeToMeshByPartsSettings_GetMutable_stripeOverlap</a> (<a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *_this)</td></tr>
+<tr class="separator:a6b18473ba4ade764f682aa596ea2d1c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af771c41dc2fd0a62791153065997b7b7" id="r_af771c41dc2fd0a62791153065997b7b7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af771c41dc2fd0a62791153065997b7b7">MR_VolumeToMeshByPartsSettings_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:af771c41dc2fd0a62791153065997b7b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbad9b2127e512a75290334b1ac69b3b" id="r_afbad9b2127e512a75290334b1ac69b3b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbad9b2127e512a75290334b1ac69b3b">MR_VolumeToMeshByPartsSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:afbad9b2127e512a75290334b1ac69b3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3119ff4ee552665be31c97411325daef" id="r_a3119ff4ee552665be31c97411325daef"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3119ff4ee552665be31c97411325daef">MR_VolumeToMeshByPartsSettings_ConstructFrom</a> (<a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> maxVolumePartMemoryUsage, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> stripeOverlap)</td></tr>
+<tr class="separator:a3119ff4ee552665be31c97411325daef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affdfcee46a0e467331dd35b09f904d89" id="r_affdfcee46a0e467331dd35b09f904d89"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affdfcee46a0e467331dd35b09f904d89">MR_VolumeToMeshByPartsSettings_OffsetPtr</a> (const <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:affdfcee46a0e467331dd35b09f904d89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:affdfcee46a0e467331dd35b09f904d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a85f9a23bd15ff2d5b37b25be7f06e9" id="r_a7a85f9a23bd15ff2d5b37b25be7f06e9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a85f9a23bd15ff2d5b37b25be7f06e9">MR_VolumeToMeshByPartsSettings_OffsetMutablePtr</a> (<a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a7a85f9a23bd15ff2d5b37b25be7f06e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a7a85f9a23bd15ff2d5b37b25be7f06e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a290a1e853d0cbb424d096eb43e4529d4" id="r_a290a1e853d0cbb424d096eb43e4529d4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a290a1e853d0cbb424d096eb43e4529d4">MR_VolumeToMeshByPartsSettings_ConstructFromAnother</a> (const <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *_other)</td></tr>
+<tr class="separator:a290a1e853d0cbb424d096eb43e4529d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5957544935a5611880b90acc611b8c68" id="r_a5957544935a5611880b90acc611b8c68"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5957544935a5611880b90acc611b8c68">MR_VolumeToMeshByPartsSettings_Destroy</a> (const <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *_this)</td></tr>
+<tr class="memdesc:a5957544935a5611880b90acc611b8c68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_VolumeToMeshByPartsSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a5957544935a5611880b90acc611b8c68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1682a6e4f5935673bbfdb05819aef9c7" id="r_a1682a6e4f5935673bbfdb05819aef9c7"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1682a6e4f5935673bbfdb05819aef9c7">MR_VolumeToMeshByPartsSettings_DestroyArray</a> (const <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *_this)</td></tr>
+<tr class="memdesc:a1682a6e4f5935673bbfdb05819aef9c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_VolumeToMeshByPartsSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a1682a6e4f5935673bbfdb05819aef9c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa0e593a7e8f879b17b5d2ef3d9c305d" id="r_aaa0e593a7e8f879b17b5d2ef3d9c305d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa0e593a7e8f879b17b5d2ef3d9c305d">MR_VolumeToMeshByPartsSettings_AssignFromAnother</a> (<a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *_this, const <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *_other)</td></tr>
+<tr class="separator:aaa0e593a7e8f879b17b5d2ef3d9c305d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="acc3cb5528ab92ee2723356ec1c0582c4" name="acc3cb5528ab92ee2723356ec1c0582c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc3cb5528ab92ee2723356ec1c0582c4">&#9670;&#160;</a></span>MR_MergeVolumePartSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MergeVolumePartSettings.html">MR::MergeVolumePartSettings</a></code>. </p>
+
+</div>
+</div>
+<a id="ac262f87c0239d73aafc464289f6eb02e" name="ac262f87c0239d73aafc464289f6eb02e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac262f87c0239d73aafc464289f6eb02e">&#9670;&#160;</a></span>MR_PartMapping</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRMesh_8h.html#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a> <a class="el" href="MRMesh_8h.html#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a627d491d276d54a9eef9d074a1a08a99" name="a627d491d276d54a9eef9d074a1a08a99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a627d491d276d54a9eef9d074a1a08a99">&#9670;&#160;</a></span>MR_std_function_void_from_MR_Mesh_ref</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="std__function__void__from__MR__Mesh__ref_8h.html#a627d491d276d54a9eef9d074a1a08a99">MR_std_function_void_from_MR_Mesh_ref</a> <a class="el" href="std__function__void__from__MR__Mesh__ref_8h.html#a627d491d276d54a9eef9d074a1a08a99">MR_std_function_void_from_MR_Mesh_ref</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a842bc31e7d75a88d0b83a0aa19c6b27f" name="a842bc31e7d75a88d0b83a0aa19c6b27f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a842bc31e7d75a88d0b83a0aa19c6b27f">&#9670;&#160;</a></span>MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="std__function__void__from__MR__Mesh__ref__const__MR__PartMapping__ref_8h.html#a842bc31e7d75a88d0b83a0aa19c6b27f">MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref</a> <a class="el" href="std__function__void__from__MR__Mesh__ref__const__MR__PartMapping__ref_8h.html#a842bc31e7d75a88d0b83a0aa19c6b27f">MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab3955429925136008c4cf12497066877" name="ab3955429925136008c4cf12497066877"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3955429925136008c4cf12497066877">&#9670;&#160;</a></span>MR_std_function_void_from_MR_Mesh_ref_float_float</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="std__function__void__from__MR__Mesh__ref__float__float_8h.html#ab3955429925136008c4cf12497066877">MR_std_function_void_from_MR_Mesh_ref_float_float</a> <a class="el" href="std__function__void__from__MR__Mesh__ref__float__float_8h.html#ab3955429925136008c4cf12497066877">MR_std_function_void_from_MR_Mesh_ref_float_float</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a74fea0531c2b15694d05f7dbda765bf0" name="a74fea0531c2b15694d05f7dbda765bf0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74fea0531c2b15694d05f7dbda765bf0">&#9670;&#160;</a></span>MR_VolumeToMeshByPartsSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1VolumeToMeshByPartsSettings.html">MR::VolumeToMeshByPartsSettings</a></code>. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a0a96d9a441de0161f38b7041a4515fd3" name="a0a96d9a441de0161f38b7041a4515fd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a96d9a441de0161f38b7041a4515fd3">&#9670;&#160;</a></span>MR_MergeVolumePartSettings_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> * MR_MergeVolumePartSettings_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MergeVolumePartSettings.html">MR::MergeVolumePartSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a96b22d3d52b1378f994b44a9914b9da0" name="a96b22d3d52b1378f994b44a9914b9da0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96b22d3d52b1378f994b44a9914b9da0">&#9670;&#160;</a></span>MR_MergeVolumePartSettings_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> * MR_MergeVolumePartSettings_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>preCut_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="std__function__void__from__MR__Mesh__ref__float__float_8h.html#ab3955429925136008c4cf12497066877">MR_std_function_void_from_MR_Mesh_ref_float_float</a> *</td>          <td class="paramname"><span class="paramname"><em>preCut</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>postCut_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="std__function__void__from__MR__Mesh__ref_8h.html#a627d491d276d54a9eef9d074a1a08a99">MR_std_function_void_from_MR_Mesh_ref</a> *</td>          <td class="paramname"><span class="paramname"><em>postCut</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>postMerge_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="std__function__void__from__MR__Mesh__ref__const__MR__PartMapping__ref_8h.html#a842bc31e7d75a88d0b83a0aa19c6b27f">MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref</a> *</td>          <td class="paramname"><span class="paramname"><em>postMerge</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRMesh_8h.html#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a> *</td>          <td class="paramname"><span class="paramname"><em>mapping</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3f.html">MR_Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>origin</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1MergeVolumePartSettings.html">MR::MergeVolumePartSettings</a></code> elementwise. Parameter <code>mapping</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a7126fc34e4cec40699c9fff0dc7aa9d2" title="Destroys a heap-allocated instance of MR_MergeVolumePartSettings. Does nothing if the pointer is null...">MR_MergeVolumePartSettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a8a63cf9fae5631d989514bea8df3b1cc" name="a8a63cf9fae5631d989514bea8df3b1cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a63cf9fae5631d989514bea8df3b1cc">&#9670;&#160;</a></span>MR_MergeVolumePartSettings_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> * MR_MergeVolumePartSettings_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MergeVolumePartSettings.html">MR::MergeVolumePartSettings</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a7126fc34e4cec40699c9fff0dc7aa9d2" title="Destroys a heap-allocated instance of MR_MergeVolumePartSettings. Does nothing if the pointer is null...">MR_MergeVolumePartSettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a178737b3411a84cac7b9e7c3cfbff52c" name="a178737b3411a84cac7b9e7c3cfbff52c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a178737b3411a84cac7b9e7c3cfbff52c">&#9670;&#160;</a></span>MR_MergeVolumePartSettings_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> * MR_MergeVolumePartSettings_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a7126fc34e4cec40699c9fff0dc7aa9d2" title="Destroys a heap-allocated instance of MR_MergeVolumePartSettings. Does nothing if the pointer is null...">MR_MergeVolumePartSettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aff7b2a0ca3ef374fe49b66d02b82bd3f" name="aff7b2a0ca3ef374fe49b66d02b82bd3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff7b2a0ca3ef374fe49b66d02b82bd3f">&#9670;&#160;</a></span>MR_MergeVolumePartSettings_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> * MR_MergeVolumePartSettings_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a4f60d331ef42aa07473f2e199535ef21" title="Destroys a heap-allocated array of MR_MergeVolumePartSettings. Does nothing if the pointer is null.">MR_MergeVolumePartSettings_DestroyArray()</a></code>. Use <code><a class="el" href="#a853fcae38602df00bba9ba4f65d60489" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_MergeVolumePartSettings_OffsetMutablePtr()</a></code> and <code><a class="el" href="#ae8d3f6a665d156a04cfc2a59b15e4b44" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_MergeVolumePartSettings_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a7126fc34e4cec40699c9fff0dc7aa9d2" name="a7126fc34e4cec40699c9fff0dc7aa9d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7126fc34e4cec40699c9fff0dc7aa9d2">&#9670;&#160;</a></span>MR_MergeVolumePartSettings_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MergeVolumePartSettings_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_MergeVolumePartSettings</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a4f60d331ef42aa07473f2e199535ef21" name="a4f60d331ef42aa07473f2e199535ef21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f60d331ef42aa07473f2e199535ef21">&#9670;&#160;</a></span>MR_MergeVolumePartSettings_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MergeVolumePartSettings_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_MergeVolumePartSettings</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a3a3341a7092f75cf3905f2394e095bfe" name="a3a3341a7092f75cf3905f2394e095bfe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a3341a7092f75cf3905f2394e095bfe">&#9670;&#160;</a></span>MR_MergeVolumePartSettings_Get_mapping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRMesh_8h.html#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a> * MR_MergeVolumePartSettings_Get_mapping </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>mapping with initialized maps required for the <code>postMerge</code> callback Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MergeVolumePartSettings.html">MR::MergeVolumePartSettings</a></code> named <code>mapping</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a464cd92fd34c53d7d550adbf78bc688c" name="a464cd92fd34c53d7d550adbf78bc688c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a464cd92fd34c53d7d550adbf78bc688c">&#9670;&#160;</a></span>MR_MergeVolumePartSettings_Get_origin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_MergeVolumePartSettings_Get_origin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>origin (position of the (0;0;0) voxel) of the voxel volume part, usually specified for SimpleVolume Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MergeVolumePartSettings.html">MR::MergeVolumePartSettings</a></code> named <code>origin</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="abce80ce871fc3c5b982321adfda94bd0" name="abce80ce871fc3c5b982321adfda94bd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abce80ce871fc3c5b982321adfda94bd0">&#9670;&#160;</a></span>MR_MergeVolumePartSettings_Get_postCut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="std__function__void__from__MR__Mesh__ref_8h.html#a627d491d276d54a9eef9d074a1a08a99">MR_std_function_void_from_MR_Mesh_ref</a> * MR_MergeVolumePartSettings_Get_postCut </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MergeVolumePartSettings.html">MR::MergeVolumePartSettings</a></code> named <code>postCut</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a5619e0016fabd1d61681124381ddb477" name="a5619e0016fabd1d61681124381ddb477"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5619e0016fabd1d61681124381ddb477">&#9670;&#160;</a></span>MR_MergeVolumePartSettings_Get_postMerge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="std__function__void__from__MR__Mesh__ref__const__MR__PartMapping__ref_8h.html#a842bc31e7d75a88d0b83a0aa19c6b27f">MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref</a> * MR_MergeVolumePartSettings_Get_postMerge </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MergeVolumePartSettings.html">MR::MergeVolumePartSettings</a></code> named <code>postMerge</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a154b6e12b1351c75ee9d5c88d013a6a4" name="a154b6e12b1351c75ee9d5c88d013a6a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a154b6e12b1351c75ee9d5c88d013a6a4">&#9670;&#160;</a></span>MR_MergeVolumePartSettings_Get_preCut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="std__function__void__from__MR__Mesh__ref__float__float_8h.html#ab3955429925136008c4cf12497066877">MR_std_function_void_from_MR_Mesh_ref_float_float</a> * MR_MergeVolumePartSettings_Get_preCut </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MergeVolumePartSettings.html">MR::MergeVolumePartSettings</a></code> named <code>preCut</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="abbe3b1c6e61bf584979740f24fa4a11b" name="abbe3b1c6e61bf584979740f24fa4a11b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbe3b1c6e61bf584979740f24fa4a11b">&#9670;&#160;</a></span>MR_MergeVolumePartSettings_GetMutable_mapping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMesh_8h.html#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a> * MR_MergeVolumePartSettings_GetMutable_mapping </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>mapping with initialized maps required for the <code>postMerge</code> callback Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MergeVolumePartSettings.html">MR::MergeVolumePartSettings</a></code> named <code>mapping</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a27bd788ea302fb4312c9365a28751193" name="a27bd788ea302fb4312c9365a28751193"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27bd788ea302fb4312c9365a28751193">&#9670;&#160;</a></span>MR_MergeVolumePartSettings_GetMutable_origin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_MergeVolumePartSettings_GetMutable_origin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>origin (position of the (0;0;0) voxel) of the voxel volume part, usually specified for SimpleVolume Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MergeVolumePartSettings.html">MR::MergeVolumePartSettings</a></code> named <code>origin</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a8a7d631b0914417c4c9464fb24b1e44b" name="a8a7d631b0914417c4c9464fb24b1e44b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a7d631b0914417c4c9464fb24b1e44b">&#9670;&#160;</a></span>MR_MergeVolumePartSettings_GetMutable_postCut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="std__function__void__from__MR__Mesh__ref_8h.html#a627d491d276d54a9eef9d074a1a08a99">MR_std_function_void_from_MR_Mesh_ref</a> * MR_MergeVolumePartSettings_GetMutable_postCut </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MergeVolumePartSettings.html">MR::MergeVolumePartSettings</a></code> named <code>postCut</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a20184a773b9a2b239f9ddf10c72dc47f" name="a20184a773b9a2b239f9ddf10c72dc47f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20184a773b9a2b239f9ddf10c72dc47f">&#9670;&#160;</a></span>MR_MergeVolumePartSettings_GetMutable_postMerge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="std__function__void__from__MR__Mesh__ref__const__MR__PartMapping__ref_8h.html#a842bc31e7d75a88d0b83a0aa19c6b27f">MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref</a> * MR_MergeVolumePartSettings_GetMutable_postMerge </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MergeVolumePartSettings.html">MR::MergeVolumePartSettings</a></code> named <code>postMerge</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a8d7858b5bb7d722105c8a46c15c64fa8" name="a8d7858b5bb7d722105c8a46c15c64fa8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d7858b5bb7d722105c8a46c15c64fa8">&#9670;&#160;</a></span>MR_MergeVolumePartSettings_GetMutable_preCut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="std__function__void__from__MR__Mesh__ref__float__float_8h.html#ab3955429925136008c4cf12497066877">MR_std_function_void_from_MR_Mesh_ref_float_float</a> * MR_MergeVolumePartSettings_GetMutable_preCut </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MergeVolumePartSettings.html">MR::MergeVolumePartSettings</a></code> named <code>preCut</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a853fcae38602df00bba9ba4f65d60489" name="a853fcae38602df00bba9ba4f65d60489"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a853fcae38602df00bba9ba4f65d60489">&#9670;&#160;</a></span>MR_MergeVolumePartSettings_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> * MR_MergeVolumePartSettings_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ae8d3f6a665d156a04cfc2a59b15e4b44" name="ae8d3f6a665d156a04cfc2a59b15e4b44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8d3f6a665d156a04cfc2a59b15e4b44">&#9670;&#160;</a></span>MR_MergeVolumePartSettings_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> * MR_MergeVolumePartSettings_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ab3ee9281a1adf767a30dc10fc5727d96" name="ab3ee9281a1adf767a30dc10fc5727d96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3ee9281a1adf767a30dc10fc5727d96">&#9670;&#160;</a></span>MR_MergeVolumePartSettings_Set_mapping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MergeVolumePartSettings_Set_mapping </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRMesh_8h.html#ac262f87c0239d73aafc464289f6eb02e">MR_PartMapping</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>mapping with initialized maps required for the <code>postMerge</code> callback Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MergeVolumePartSettings.html">MR::MergeVolumePartSettings</a></code> named <code>mapping</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a7545b9a3d90935f2d12ce5cd799f4b2c" name="a7545b9a3d90935f2d12ce5cd799f4b2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7545b9a3d90935f2d12ce5cd799f4b2c">&#9670;&#160;</a></span>MR_MergeVolumePartSettings_Set_origin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MergeVolumePartSettings_Set_origin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3f.html">MR_Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>origin (position of the (0;0;0) voxel) of the voxel volume part, usually specified for SimpleVolume Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MergeVolumePartSettings.html">MR::MergeVolumePartSettings</a></code> named <code>origin</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac57154fae4546a32d325d08eecb1fab9" name="ac57154fae4546a32d325d08eecb1fab9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac57154fae4546a32d325d08eecb1fab9">&#9670;&#160;</a></span>MR_MergeVolumePartSettings_Set_postCut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MergeVolumePartSettings_Set_postCut </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="std__function__void__from__MR__Mesh__ref_8h.html#a627d491d276d54a9eef9d074a1a08a99">MR_std_function_void_from_MR_Mesh_ref</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MergeVolumePartSettings.html">MR::MergeVolumePartSettings</a></code> named <code>postCut</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="af2a8c103f46d7923d968ec8e48f2f642" name="af2a8c103f46d7923d968ec8e48f2f642"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2a8c103f46d7923d968ec8e48f2f642">&#9670;&#160;</a></span>MR_MergeVolumePartSettings_Set_postMerge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MergeVolumePartSettings_Set_postMerge </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="std__function__void__from__MR__Mesh__ref__const__MR__PartMapping__ref_8h.html#a842bc31e7d75a88d0b83a0aa19c6b27f">MR_std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MergeVolumePartSettings.html">MR::MergeVolumePartSettings</a></code> named <code>postMerge</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a9a3a9e3bf2f4f9da33056ec034e19e22" name="a9a3a9e3bf2f4f9da33056ec034e19e22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a3a9e3bf2f4f9da33056ec034e19e22">&#9670;&#160;</a></span>MR_MergeVolumePartSettings_Set_preCut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MergeVolumePartSettings_Set_preCut </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#acc3cb5528ab92ee2723356ec1c0582c4">MR_MergeVolumePartSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="std__function__void__from__MR__Mesh__ref__float__float_8h.html#ab3955429925136008c4cf12497066877">MR_std_function_void_from_MR_Mesh_ref_float_float</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MergeVolumePartSettings.html">MR::MergeVolumePartSettings</a></code> named <code>preCut</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aaa0e593a7e8f879b17b5d2ef3d9c305d" name="aaa0e593a7e8f879b17b5d2ef3d9c305d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa0e593a7e8f879b17b5d2ef3d9c305d">&#9670;&#160;</a></span>MR_VolumeToMeshByPartsSettings_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> * MR_VolumeToMeshByPartsSettings_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1VolumeToMeshByPartsSettings.html">MR::VolumeToMeshByPartsSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a3119ff4ee552665be31c97411325daef" name="a3119ff4ee552665be31c97411325daef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3119ff4ee552665be31c97411325daef">&#9670;&#160;</a></span>MR_VolumeToMeshByPartsSettings_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> * MR_VolumeToMeshByPartsSettings_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>maxVolumePartMemoryUsage</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>stripeOverlap</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1VolumeToMeshByPartsSettings.html">MR::VolumeToMeshByPartsSettings</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5957544935a5611880b90acc611b8c68" title="Destroys a heap-allocated instance of MR_VolumeToMeshByPartsSettings. Does nothing if the pointer is ...">MR_VolumeToMeshByPartsSettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a290a1e853d0cbb424d096eb43e4529d4" name="a290a1e853d0cbb424d096eb43e4529d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a290a1e853d0cbb424d096eb43e4529d4">&#9670;&#160;</a></span>MR_VolumeToMeshByPartsSettings_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> * MR_VolumeToMeshByPartsSettings_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1VolumeToMeshByPartsSettings.html">MR::VolumeToMeshByPartsSettings</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5957544935a5611880b90acc611b8c68" title="Destroys a heap-allocated instance of MR_VolumeToMeshByPartsSettings. Does nothing if the pointer is ...">MR_VolumeToMeshByPartsSettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="af771c41dc2fd0a62791153065997b7b7" name="af771c41dc2fd0a62791153065997b7b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af771c41dc2fd0a62791153065997b7b7">&#9670;&#160;</a></span>MR_VolumeToMeshByPartsSettings_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> * MR_VolumeToMeshByPartsSettings_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5957544935a5611880b90acc611b8c68" title="Destroys a heap-allocated instance of MR_VolumeToMeshByPartsSettings. Does nothing if the pointer is ...">MR_VolumeToMeshByPartsSettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="afbad9b2127e512a75290334b1ac69b3b" name="afbad9b2127e512a75290334b1ac69b3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbad9b2127e512a75290334b1ac69b3b">&#9670;&#160;</a></span>MR_VolumeToMeshByPartsSettings_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> * MR_VolumeToMeshByPartsSettings_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a1682a6e4f5935673bbfdb05819aef9c7" title="Destroys a heap-allocated array of MR_VolumeToMeshByPartsSettings. Does nothing if the pointer is nul...">MR_VolumeToMeshByPartsSettings_DestroyArray()</a></code>. Use <code><a class="el" href="#a7a85f9a23bd15ff2d5b37b25be7f06e9" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_VolumeToMeshByPartsSettings_OffsetMutablePtr()</a></code> and <code><a class="el" href="#affdfcee46a0e467331dd35b09f904d89" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_VolumeToMeshByPartsSettings_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a5957544935a5611880b90acc611b8c68" name="a5957544935a5611880b90acc611b8c68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5957544935a5611880b90acc611b8c68">&#9670;&#160;</a></span>MR_VolumeToMeshByPartsSettings_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_VolumeToMeshByPartsSettings_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_VolumeToMeshByPartsSettings</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a1682a6e4f5935673bbfdb05819aef9c7" name="a1682a6e4f5935673bbfdb05819aef9c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1682a6e4f5935673bbfdb05819aef9c7">&#9670;&#160;</a></span>MR_VolumeToMeshByPartsSettings_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_VolumeToMeshByPartsSettings_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_VolumeToMeshByPartsSettings</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a3206d1e8b1274fb26a7b3f95ec02679b" name="a3206d1e8b1274fb26a7b3f95ec02679b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3206d1e8b1274fb26a7b3f95ec02679b">&#9670;&#160;</a></span>MR_VolumeToMeshByPartsSettings_Get_maxVolumePartMemoryUsage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> * MR_VolumeToMeshByPartsSettings_Get_maxVolumePartMemoryUsage </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VolumeToMeshByPartsSettings.html">MR::VolumeToMeshByPartsSettings</a></code> named <code>maxVolumePartMemoryUsage</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a994fd117a0060e9feab41a07d6de2eab" name="a994fd117a0060e9feab41a07d6de2eab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a994fd117a0060e9feab41a07d6de2eab">&#9670;&#160;</a></span>MR_VolumeToMeshByPartsSettings_Get_stripeOverlap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> * MR_VolumeToMeshByPartsSettings_Get_stripeOverlap </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>overlap in voxels between two parts Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VolumeToMeshByPartsSettings.html">MR::VolumeToMeshByPartsSettings</a></code> named <code>stripeOverlap</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="abdf5af483c849be4fa6e6eda8b23d2eb" name="abdf5af483c849be4fa6e6eda8b23d2eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdf5af483c849be4fa6e6eda8b23d2eb">&#9670;&#160;</a></span>MR_VolumeToMeshByPartsSettings_GetMutable_maxVolumePartMemoryUsage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> * MR_VolumeToMeshByPartsSettings_GetMutable_maxVolumePartMemoryUsage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VolumeToMeshByPartsSettings.html">MR::VolumeToMeshByPartsSettings</a></code> named <code>maxVolumePartMemoryUsage</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a6b18473ba4ade764f682aa596ea2d1c9" name="a6b18473ba4ade764f682aa596ea2d1c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b18473ba4ade764f682aa596ea2d1c9">&#9670;&#160;</a></span>MR_VolumeToMeshByPartsSettings_GetMutable_stripeOverlap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> * MR_VolumeToMeshByPartsSettings_GetMutable_stripeOverlap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>overlap in voxels between two parts Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VolumeToMeshByPartsSettings.html">MR::VolumeToMeshByPartsSettings</a></code> named <code>stripeOverlap</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a7a85f9a23bd15ff2d5b37b25be7f06e9" name="a7a85f9a23bd15ff2d5b37b25be7f06e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a85f9a23bd15ff2d5b37b25be7f06e9">&#9670;&#160;</a></span>MR_VolumeToMeshByPartsSettings_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> * MR_VolumeToMeshByPartsSettings_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="affdfcee46a0e467331dd35b09f904d89" name="affdfcee46a0e467331dd35b09f904d89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affdfcee46a0e467331dd35b09f904d89">&#9670;&#160;</a></span>MR_VolumeToMeshByPartsSettings_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> * MR_VolumeToMeshByPartsSettings_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a04380d4fcd144405555ff507670b17c5" name="a04380d4fcd144405555ff507670b17c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04380d4fcd144405555ff507670b17c5">&#9670;&#160;</a></span>MR_VolumeToMeshByPartsSettings_Set_maxVolumePartMemoryUsage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_VolumeToMeshByPartsSettings_Set_maxVolumePartMemoryUsage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VolumeToMeshByPartsSettings.html">MR::VolumeToMeshByPartsSettings</a></code> named <code>maxVolumePartMemoryUsage</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a1faebdec734124afc7ef61c005709f73" name="a1faebdec734124afc7ef61c005709f73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1faebdec734124afc7ef61c005709f73">&#9670;&#160;</a></span>MR_VolumeToMeshByPartsSettings_Set_stripeOverlap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_VolumeToMeshByPartsSettings_Set_stripeOverlap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a74fea0531c2b15694d05f7dbda765bf0">MR_VolumeToMeshByPartsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>overlap in voxels between two parts Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VolumeToMeshByPartsSettings.html">MR::VolumeToMeshByPartsSettings</a></code> named <code>stripeOverlap</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_fa06e586131068ce9f0aae282763f308.html">MRCVoxels</a></li><li class="navelem"><a class="el" href="MRVoxelsConversionsByParts_8h.html">MRVoxelsConversionsByParts.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

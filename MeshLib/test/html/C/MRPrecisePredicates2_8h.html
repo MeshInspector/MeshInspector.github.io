@@ -1,0 +1,442 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRPrecisePredicates2.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRPrecisePredicates2_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a>  </div>
+  <div class="headertitle"><div class="title">MRPrecisePredicates2.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="MRVector2_8h_source.html">MRCMesh/MRVector2.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
+</div>
+<p><a href="MRPrecisePredicates2_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a0e684b542df281a6666153bf1619db3d" id="r_a0e684b542df281a6666153bf1619db3d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a0e684b542df281a6666153bf1619db3d">MR_std_array_MR_PreciseVertCoords2_3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e684b542df281a6666153bf1619db3d">MR_std_array_MR_PreciseVertCoords2_3</a></td></tr>
+<tr class="separator:a0e684b542df281a6666153bf1619db3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a920bc185898f6b065bfcbacfce0245fb" id="r_a920bc185898f6b065bfcbacfce0245fb"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a920bc185898f6b065bfcbacfce0245fb">MR_std_array_MR_PreciseVertCoords2_4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a920bc185898f6b065bfcbacfce0245fb">MR_std_array_MR_PreciseVertCoords2_4</a></td></tr>
+<tr class="separator:a920bc185898f6b065bfcbacfce0245fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c2b13479ae5b53dde72a33126c51725" id="r_a7c2b13479ae5b53dde72a33126c51725"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a7c2b13479ae5b53dde72a33126c51725">MR_std_array_MR_PreciseVertCoords2_6</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c2b13479ae5b53dde72a33126c51725">MR_std_array_MR_PreciseVertCoords2_6</a></td></tr>
+<tr class="separator:a7c2b13479ae5b53dde72a33126c51725"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d43ba2c246515df230aacd60e964729" id="r_a7d43ba2c246515df230aacd60e964729"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a7d43ba2c246515df230aacd60e964729">MR_std_function_MR_Vector2f_from_const_MR_Vector2i_ref</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d43ba2c246515df230aacd60e964729">MR_std_function_MR_Vector2f_from_const_MR_Vector2i_ref</a></td></tr>
+<tr class="separator:a7d43ba2c246515df230aacd60e964729"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c5a467b31e338f553885db4082fb2eb" id="r_a8c5a467b31e338f553885db4082fb2eb"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a8c5a467b31e338f553885db4082fb2eb">MR_std_function_MR_Vector2i_from_const_MR_Vector2f_ref</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c5a467b31e338f553885db4082fb2eb">MR_std_function_MR_Vector2i_from_const_MR_Vector2f_ref</a></td></tr>
+<tr class="separator:a8c5a467b31e338f553885db4082fb2eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96f222289284f81c9dc9a06a0fede308" id="r_a96f222289284f81c9dc9a06a0fede308"><td class="memItemLeft" align="right" valign="top">typedef struct MR_PreciseVertCoord&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a96f222289284f81c9dc9a06a0fede308">MR_PreciseVertCoord</a></td></tr>
+<tr class="separator:a96f222289284f81c9dc9a06a0fede308"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f08740567645d626828a48dafb9f103" id="r_a7f08740567645d626828a48dafb9f103"><td class="memItemLeft" align="right" valign="top">typedef struct MR_PreciseVertCoords2&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a7f08740567645d626828a48dafb9f103">MR_PreciseVertCoords2</a></td></tr>
+<tr class="memdesc:a7f08740567645d626828a48dafb9f103"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PreciseVertCoords2.html">MR::PreciseVertCoords2</a></code>.  <br /></td></tr>
+<tr class="separator:a7f08740567645d626828a48dafb9f103"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa14a93fd28ed5a76cd067e26194b2c5e" id="r_aa14a93fd28ed5a76cd067e26194b2c5e"><td class="memItemLeft" align="right" valign="top">typedef struct MR_SegmentSegmentIntersectResult&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#aa14a93fd28ed5a76cd067e26194b2c5e">MR_SegmentSegmentIntersectResult</a></td></tr>
+<tr class="memdesc:aa14a93fd28ed5a76cd067e26194b2c5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1SegmentSegmentIntersectResult.html">MR::SegmentSegmentIntersectResult</a></code>.  <br /></td></tr>
+<tr class="separator:aa14a93fd28ed5a76cd067e26194b2c5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba207e8e2df9b894c2e8e525351c3e57" id="r_aba207e8e2df9b894c2e8e525351c3e57"><td class="memItemLeft" align="right" valign="top">typedef struct MR_CoordinateConverters2&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#aba207e8e2df9b894c2e8e525351c3e57">MR_CoordinateConverters2</a></td></tr>
+<tr class="separator:aba207e8e2df9b894c2e8e525351c3e57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a836facf277fe1a7f0266f08a0109a57e" id="r_a836facf277fe1a7f0266f08a0109a57e"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__VertId.html">MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a836facf277fe1a7f0266f08a0109a57e">MR_PreciseVertCoord_Get_id</a> (const MR_PreciseVertCoord *_this)</td></tr>
+<tr class="separator:a836facf277fe1a7f0266f08a0109a57e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab06a44f9269edb6c17c4f3c07c03d28a" id="r_ab06a44f9269edb6c17c4f3c07c03d28a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#ab06a44f9269edb6c17c4f3c07c03d28a">MR_PreciseVertCoord_Set_id</a> (MR_PreciseVertCoord *_this, <a class="el" href="structMR__VertId.html">MR_VertId</a> value)</td></tr>
+<tr class="separator:ab06a44f9269edb6c17c4f3c07c03d28a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48af1f7455ba4abb540fe934e5c7b30a" id="r_a48af1f7455ba4abb540fe934e5c7b30a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a48af1f7455ba4abb540fe934e5c7b30a">MR_PreciseVertCoord_GetMutable_id</a> (MR_PreciseVertCoord *_this)</td></tr>
+<tr class="separator:a48af1f7455ba4abb540fe934e5c7b30a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94c3315099d343ebc0795fdd408ff729" id="r_a94c3315099d343ebc0795fdd408ff729"><td class="memItemLeft" align="right" valign="top">MRC_API const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a94c3315099d343ebc0795fdd408ff729">MR_PreciseVertCoord_Get_pt</a> (const MR_PreciseVertCoord *_this)</td></tr>
+<tr class="separator:a94c3315099d343ebc0795fdd408ff729"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19212ce554ad920461202696fec73754" id="r_a19212ce554ad920461202696fec73754"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a19212ce554ad920461202696fec73754">MR_PreciseVertCoord_Set_pt</a> (MR_PreciseVertCoord *_this, int32_t value)</td></tr>
+<tr class="separator:a19212ce554ad920461202696fec73754"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c07ee344f9d2f85c65de6f3ecf8ae92" id="r_a4c07ee344f9d2f85c65de6f3ecf8ae92"><td class="memItemLeft" align="right" valign="top">MRC_API int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a4c07ee344f9d2f85c65de6f3ecf8ae92">MR_PreciseVertCoord_GetMutable_pt</a> (MR_PreciseVertCoord *_this)</td></tr>
+<tr class="separator:a4c07ee344f9d2f85c65de6f3ecf8ae92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa962615b2d8079107e9934286d16a084" id="r_aa962615b2d8079107e9934286d16a084"><td class="memItemLeft" align="right" valign="top">MRC_API MR_PreciseVertCoord *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#aa962615b2d8079107e9934286d16a084">MR_PreciseVertCoord_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:aa962615b2d8079107e9934286d16a084"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a180f1ef1696ebaef3ab4890e8d3387b4" id="r_a180f1ef1696ebaef3ab4890e8d3387b4"><td class="memItemLeft" align="right" valign="top">MRC_API MR_PreciseVertCoord *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a180f1ef1696ebaef3ab4890e8d3387b4">MR_PreciseVertCoord_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a180f1ef1696ebaef3ab4890e8d3387b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3392b47b7e6f7784e65242d0dfdb695a" id="r_a3392b47b7e6f7784e65242d0dfdb695a"><td class="memItemLeft" align="right" valign="top">MRC_API MR_PreciseVertCoord *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a3392b47b7e6f7784e65242d0dfdb695a">MR_PreciseVertCoord_ConstructFrom</a> (<a class="el" href="structMR__VertId.html">MR_VertId</a> id, int32_t pt)</td></tr>
+<tr class="separator:a3392b47b7e6f7784e65242d0dfdb695a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a248fba85808e6a21365a385c28f5470e" id="r_a248fba85808e6a21365a385c28f5470e"><td class="memItemLeft" align="right" valign="top">MRC_API const MR_PreciseVertCoord *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a248fba85808e6a21365a385c28f5470e">MR_PreciseVertCoord_OffsetPtr</a> (const MR_PreciseVertCoord *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a248fba85808e6a21365a385c28f5470e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a248fba85808e6a21365a385c28f5470e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2ced0e9a86dd038ed61a408dcc2547c" id="r_ae2ced0e9a86dd038ed61a408dcc2547c"><td class="memItemLeft" align="right" valign="top">MRC_API MR_PreciseVertCoord *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#ae2ced0e9a86dd038ed61a408dcc2547c">MR_PreciseVertCoord_OffsetMutablePtr</a> (MR_PreciseVertCoord *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ae2ced0e9a86dd038ed61a408dcc2547c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ae2ced0e9a86dd038ed61a408dcc2547c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d5f5d32765d233a6e0fbe249fa91c2f" id="r_a8d5f5d32765d233a6e0fbe249fa91c2f"><td class="memItemLeft" align="right" valign="top">MRC_API MR_PreciseVertCoord *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a8d5f5d32765d233a6e0fbe249fa91c2f">MR_PreciseVertCoord_ConstructFromAnother</a> (const MR_PreciseVertCoord *_other)</td></tr>
+<tr class="separator:a8d5f5d32765d233a6e0fbe249fa91c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43cc9a35d407c509a4e338d22bff19be" id="r_a43cc9a35d407c509a4e338d22bff19be"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a43cc9a35d407c509a4e338d22bff19be">MR_PreciseVertCoord_Destroy</a> (const MR_PreciseVertCoord *_this)</td></tr>
+<tr class="memdesc:a43cc9a35d407c509a4e338d22bff19be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_PreciseVertCoord</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a43cc9a35d407c509a4e338d22bff19be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a368cc5d598e5bd4240ab784547adad2d" id="r_a368cc5d598e5bd4240ab784547adad2d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a368cc5d598e5bd4240ab784547adad2d">MR_PreciseVertCoord_DestroyArray</a> (const MR_PreciseVertCoord *_this)</td></tr>
+<tr class="memdesc:a368cc5d598e5bd4240ab784547adad2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_PreciseVertCoord</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a368cc5d598e5bd4240ab784547adad2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a912314df1ee7102b93047421be7ccd29" id="r_a912314df1ee7102b93047421be7ccd29"><td class="memItemLeft" align="right" valign="top">MRC_API MR_PreciseVertCoord *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a912314df1ee7102b93047421be7ccd29">MR_PreciseVertCoord_AssignFromAnother</a> (MR_PreciseVertCoord *_this, const MR_PreciseVertCoord *_other)</td></tr>
+<tr class="separator:a912314df1ee7102b93047421be7ccd29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fb8166b202665fc2edbc665ac84cff9" id="r_a0fb8166b202665fc2edbc665ac84cff9"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a0fb8166b202665fc2edbc665ac84cff9">MR_smaller</a> (const MR_PreciseVertCoord *l, const MR_PreciseVertCoord *r)</td></tr>
+<tr class="separator:a0fb8166b202665fc2edbc665ac84cff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a327c58f5673799a3023018c10c69bff3" id="r_a327c58f5673799a3023018c10c69bff3"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a327c58f5673799a3023018c10c69bff3">MR_ccw_2</a> (const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *a, const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *b)</td></tr>
+<tr class="separator:a327c58f5673799a3023018c10c69bff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8d6af3ff90982374a97f40550e54c40" id="r_ab8d6af3ff90982374a97f40550e54c40"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#ab8d6af3ff90982374a97f40550e54c40">MR_ccw_3</a> (const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *a, const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *b, const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *c)</td></tr>
+<tr class="separator:ab8d6af3ff90982374a97f40550e54c40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a887d2c8dcbda2b6db8d6edfecc5c9a91" id="r_a887d2c8dcbda2b6db8d6edfecc5c9a91"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__VertId.html">MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a887d2c8dcbda2b6db8d6edfecc5c9a91">MR_PreciseVertCoords2_Get_id</a> (const MR_PreciseVertCoords2 *_this)</td></tr>
+<tr class="separator:a887d2c8dcbda2b6db8d6edfecc5c9a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55c8970213e845850da04b7cfbc388ff" id="r_a55c8970213e845850da04b7cfbc388ff"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a55c8970213e845850da04b7cfbc388ff">MR_PreciseVertCoords2_Set_id</a> (MR_PreciseVertCoords2 *_this, <a class="el" href="structMR__VertId.html">MR_VertId</a> value)</td></tr>
+<tr class="separator:a55c8970213e845850da04b7cfbc388ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a890d55fba9e6b0719e8681c6dfb4d4dc" id="r_a890d55fba9e6b0719e8681c6dfb4d4dc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a890d55fba9e6b0719e8681c6dfb4d4dc">MR_PreciseVertCoords2_GetMutable_id</a> (MR_PreciseVertCoords2 *_this)</td></tr>
+<tr class="separator:a890d55fba9e6b0719e8681c6dfb4d4dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa50bf79fc2ff1e53eec0258b348b8edb" id="r_aa50bf79fc2ff1e53eec0258b348b8edb"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#aa50bf79fc2ff1e53eec0258b348b8edb">MR_PreciseVertCoords2_Get_pt</a> (const MR_PreciseVertCoords2 *_this)</td></tr>
+<tr class="separator:aa50bf79fc2ff1e53eec0258b348b8edb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a373e3b1d41c8ab027d966d99c669f0a4" id="r_a373e3b1d41c8ab027d966d99c669f0a4"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a373e3b1d41c8ab027d966d99c669f0a4">MR_PreciseVertCoords2_Set_pt</a> (MR_PreciseVertCoords2 *_this, <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> value)</td></tr>
+<tr class="separator:a373e3b1d41c8ab027d966d99c669f0a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72244459e0f08e7009f78d833e1ca6ea" id="r_a72244459e0f08e7009f78d833e1ca6ea"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a72244459e0f08e7009f78d833e1ca6ea">MR_PreciseVertCoords2_GetMutable_pt</a> (MR_PreciseVertCoords2 *_this)</td></tr>
+<tr class="separator:a72244459e0f08e7009f78d833e1ca6ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08f03f723526ce0d167a00ce503f32fd" id="r_a08f03f723526ce0d167a00ce503f32fd"><td class="memItemLeft" align="right" valign="top">MRC_API MR_PreciseVertCoords2 *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a08f03f723526ce0d167a00ce503f32fd">MR_PreciseVertCoords2_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a08f03f723526ce0d167a00ce503f32fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad04819661f2ef5d57d252286e0765860" id="r_ad04819661f2ef5d57d252286e0765860"><td class="memItemLeft" align="right" valign="top">MRC_API MR_PreciseVertCoords2 *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#ad04819661f2ef5d57d252286e0765860">MR_PreciseVertCoords2_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ad04819661f2ef5d57d252286e0765860"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad63c778afe08c94fb6c57d18a96ac383" id="r_ad63c778afe08c94fb6c57d18a96ac383"><td class="memItemLeft" align="right" valign="top">MRC_API MR_PreciseVertCoords2 *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#ad63c778afe08c94fb6c57d18a96ac383">MR_PreciseVertCoords2_ConstructFrom</a> (<a class="el" href="structMR__VertId.html">MR_VertId</a> id, <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> pt)</td></tr>
+<tr class="separator:ad63c778afe08c94fb6c57d18a96ac383"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a932433b4e9b36359705519bfd4043905" id="r_a932433b4e9b36359705519bfd4043905"><td class="memItemLeft" align="right" valign="top">MRC_API const MR_PreciseVertCoords2 *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a932433b4e9b36359705519bfd4043905">MR_PreciseVertCoords2_OffsetPtr</a> (const MR_PreciseVertCoords2 *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a932433b4e9b36359705519bfd4043905"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a932433b4e9b36359705519bfd4043905"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d6f9c20d7a037b03bde8acad81d16b3" id="r_a0d6f9c20d7a037b03bde8acad81d16b3"><td class="memItemLeft" align="right" valign="top">MRC_API MR_PreciseVertCoords2 *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a0d6f9c20d7a037b03bde8acad81d16b3">MR_PreciseVertCoords2_OffsetMutablePtr</a> (MR_PreciseVertCoords2 *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a0d6f9c20d7a037b03bde8acad81d16b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a0d6f9c20d7a037b03bde8acad81d16b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab968bde484929129a2ef1a3c8a4866c2" id="r_ab968bde484929129a2ef1a3c8a4866c2"><td class="memItemLeft" align="right" valign="top">MRC_API MR_PreciseVertCoords2 *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#ab968bde484929129a2ef1a3c8a4866c2">MR_PreciseVertCoords2_ConstructFromAnother</a> (const MR_PreciseVertCoords2 *_other)</td></tr>
+<tr class="separator:ab968bde484929129a2ef1a3c8a4866c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1f96de2aeec4f7f78759cce0f0e1ed4" id="r_ae1f96de2aeec4f7f78759cce0f0e1ed4"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#ae1f96de2aeec4f7f78759cce0f0e1ed4">MR_PreciseVertCoords2_Destroy</a> (const MR_PreciseVertCoords2 *_this)</td></tr>
+<tr class="memdesc:ae1f96de2aeec4f7f78759cce0f0e1ed4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_PreciseVertCoords2</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ae1f96de2aeec4f7f78759cce0f0e1ed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d88cd71bcac7964a212d80cf98f16b5" id="r_a9d88cd71bcac7964a212d80cf98f16b5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a9d88cd71bcac7964a212d80cf98f16b5">MR_PreciseVertCoords2_DestroyArray</a> (const MR_PreciseVertCoords2 *_this)</td></tr>
+<tr class="memdesc:a9d88cd71bcac7964a212d80cf98f16b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_PreciseVertCoords2</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a9d88cd71bcac7964a212d80cf98f16b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa79072328e5f0fe23f54387a07ea0f2f" id="r_aa79072328e5f0fe23f54387a07ea0f2f"><td class="memItemLeft" align="right" valign="top">MRC_API MR_PreciseVertCoords2 *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#aa79072328e5f0fe23f54387a07ea0f2f">MR_PreciseVertCoords2_AssignFromAnother</a> (MR_PreciseVertCoords2 *_this, const MR_PreciseVertCoords2 *_other)</td></tr>
+<tr class="separator:aa79072328e5f0fe23f54387a07ea0f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68c7a7426f35371def9887b78a5fc177" id="r_a68c7a7426f35371def9887b78a5fc177"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a68c7a7426f35371def9887b78a5fc177">MR_ccw_1_std_array_MR_PreciseVertCoords2_3</a> (const <a class="el" href="#a0e684b542df281a6666153bf1619db3d">MR_std_array_MR_PreciseVertCoords2_3</a> *vs)</td></tr>
+<tr class="separator:a68c7a7426f35371def9887b78a5fc177"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5f34a9a015dab9e749d6edb5a591191" id="r_ab5f34a9a015dab9e749d6edb5a591191"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#ab5f34a9a015dab9e749d6edb5a591191">MR_ccw_1_const_MR_PreciseVertCoords2_ptr</a> (const MR_PreciseVertCoords2 *vs)</td></tr>
+<tr class="memdesc:ab5f34a9a015dab9e749d6edb5a591191"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a04b9e51953d898cf85e76c05d426366a">MR::ccw</a></code>.  <br /></td></tr>
+<tr class="separator:ab5f34a9a015dab9e749d6edb5a591191"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cd1c085979249907322965c67615be4" id="r_a8cd1c085979249907322965c67615be4"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a8cd1c085979249907322965c67615be4">MR_smaller2</a> (const <a class="el" href="#a920bc185898f6b065bfcbacfce0245fb">MR_std_array_MR_PreciseVertCoords2_4</a> *vs)</td></tr>
+<tr class="separator:a8cd1c085979249907322965c67615be4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15cac3428d4f738156a8815ac4e65038" id="r_a15cac3428d4f738156a8815ac4e65038"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a15cac3428d4f738156a8815ac4e65038">MR_orientParaboloid3d_3</a> (const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *a, const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *b, const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *c)</td></tr>
+<tr class="separator:a15cac3428d4f738156a8815ac4e65038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a789f6aee89fb59dbf146a61e53fec11a" id="r_a789f6aee89fb59dbf146a61e53fec11a"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a789f6aee89fb59dbf146a61e53fec11a">MR_orientParaboloid3d_4</a> (const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *a, const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *b, const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *c, const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *d)</td></tr>
+<tr class="separator:a789f6aee89fb59dbf146a61e53fec11a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51d8f2586cf66b0b0603103f2a93d140" id="r_a51d8f2586cf66b0b0603103f2a93d140"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a51d8f2586cf66b0b0603103f2a93d140">MR_inCircle_std_array_MR_PreciseVertCoords2_4</a> (const <a class="el" href="#a920bc185898f6b065bfcbacfce0245fb">MR_std_array_MR_PreciseVertCoords2_4</a> *vs)</td></tr>
+<tr class="separator:a51d8f2586cf66b0b0603103f2a93d140"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad044103a27c3760d4c54cbb6ce278e87" id="r_ad044103a27c3760d4c54cbb6ce278e87"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#ad044103a27c3760d4c54cbb6ce278e87">MR_inCircle_const_MR_PreciseVertCoords2_ptr</a> (const MR_PreciseVertCoords2 *vs)</td></tr>
+<tr class="memdesc:ad044103a27c3760d4c54cbb6ce278e87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a084e4f0b1325cc3f6db691c8f4a79afb">MR::inCircle</a></code>.  <br /></td></tr>
+<tr class="separator:ad044103a27c3760d4c54cbb6ce278e87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9c6ef83141d4f039529b9ba4dea944e" id="r_ac9c6ef83141d4f039529b9ba4dea944e"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#ac9c6ef83141d4f039529b9ba4dea944e">MR_SegmentSegmentIntersectResult_Get_doIntersect</a> (const MR_SegmentSegmentIntersectResult *_this)</td></tr>
+<tr class="separator:ac9c6ef83141d4f039529b9ba4dea944e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc590f8e9ac75a55cc583a9bc13bcd52" id="r_adc590f8e9ac75a55cc583a9bc13bcd52"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#adc590f8e9ac75a55cc583a9bc13bcd52">MR_SegmentSegmentIntersectResult_Set_doIntersect</a> (MR_SegmentSegmentIntersectResult *_this, bool value)</td></tr>
+<tr class="separator:adc590f8e9ac75a55cc583a9bc13bcd52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad83f4bd93cc9a0a0e8cb56635740c910" id="r_ad83f4bd93cc9a0a0e8cb56635740c910"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#ad83f4bd93cc9a0a0e8cb56635740c910">MR_SegmentSegmentIntersectResult_GetMutable_doIntersect</a> (MR_SegmentSegmentIntersectResult *_this)</td></tr>
+<tr class="separator:ad83f4bd93cc9a0a0e8cb56635740c910"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc56d459d3bbc4aecba79f0c2e227761" id="r_acc56d459d3bbc4aecba79f0c2e227761"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#acc56d459d3bbc4aecba79f0c2e227761">MR_SegmentSegmentIntersectResult_Get_cIsLeftFromAB</a> (const MR_SegmentSegmentIntersectResult *_this)</td></tr>
+<tr class="separator:acc56d459d3bbc4aecba79f0c2e227761"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb51644e156eca864d96efbcd5f46aac" id="r_abb51644e156eca864d96efbcd5f46aac"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#abb51644e156eca864d96efbcd5f46aac">MR_SegmentSegmentIntersectResult_Set_cIsLeftFromAB</a> (MR_SegmentSegmentIntersectResult *_this, bool value)</td></tr>
+<tr class="separator:abb51644e156eca864d96efbcd5f46aac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79c5d4e07840c852c519400c2d6f88e0" id="r_a79c5d4e07840c852c519400c2d6f88e0"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a79c5d4e07840c852c519400c2d6f88e0">MR_SegmentSegmentIntersectResult_GetMutable_cIsLeftFromAB</a> (MR_SegmentSegmentIntersectResult *_this)</td></tr>
+<tr class="separator:a79c5d4e07840c852c519400c2d6f88e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad41c5cdf7ceec874d09771c352d00dc1" id="r_ad41c5cdf7ceec874d09771c352d00dc1"><td class="memItemLeft" align="right" valign="top">MRC_API MR_SegmentSegmentIntersectResult *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#ad41c5cdf7ceec874d09771c352d00dc1">MR_SegmentSegmentIntersectResult_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ad41c5cdf7ceec874d09771c352d00dc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74abcd1e419580ad960e9f702cdb4864" id="r_a74abcd1e419580ad960e9f702cdb4864"><td class="memItemLeft" align="right" valign="top">MRC_API MR_SegmentSegmentIntersectResult *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a74abcd1e419580ad960e9f702cdb4864">MR_SegmentSegmentIntersectResult_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a74abcd1e419580ad960e9f702cdb4864"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb2ce4ce8d6aac7e96ddb3bb0d2cfcf7" id="r_aeb2ce4ce8d6aac7e96ddb3bb0d2cfcf7"><td class="memItemLeft" align="right" valign="top">MRC_API MR_SegmentSegmentIntersectResult *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#aeb2ce4ce8d6aac7e96ddb3bb0d2cfcf7">MR_SegmentSegmentIntersectResult_ConstructFrom</a> (bool doIntersect, bool cIsLeftFromAB)</td></tr>
+<tr class="separator:aeb2ce4ce8d6aac7e96ddb3bb0d2cfcf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c7179a124edec09a61f5c97ff122af5" id="r_a9c7179a124edec09a61f5c97ff122af5"><td class="memItemLeft" align="right" valign="top">MRC_API const MR_SegmentSegmentIntersectResult *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a9c7179a124edec09a61f5c97ff122af5">MR_SegmentSegmentIntersectResult_OffsetPtr</a> (const MR_SegmentSegmentIntersectResult *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a9c7179a124edec09a61f5c97ff122af5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a9c7179a124edec09a61f5c97ff122af5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8efabfec832f58e4b7f26c95a1c95ff9" id="r_a8efabfec832f58e4b7f26c95a1c95ff9"><td class="memItemLeft" align="right" valign="top">MRC_API MR_SegmentSegmentIntersectResult *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a8efabfec832f58e4b7f26c95a1c95ff9">MR_SegmentSegmentIntersectResult_OffsetMutablePtr</a> (MR_SegmentSegmentIntersectResult *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a8efabfec832f58e4b7f26c95a1c95ff9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a8efabfec832f58e4b7f26c95a1c95ff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b10e0e50b8ba857c830bb2a88f767b0" id="r_a9b10e0e50b8ba857c830bb2a88f767b0"><td class="memItemLeft" align="right" valign="top">MRC_API MR_SegmentSegmentIntersectResult *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a9b10e0e50b8ba857c830bb2a88f767b0">MR_SegmentSegmentIntersectResult_ConstructFromAnother</a> (const MR_SegmentSegmentIntersectResult *_other)</td></tr>
+<tr class="separator:a9b10e0e50b8ba857c830bb2a88f767b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4879318f91545796af20560d91d923e" id="r_ac4879318f91545796af20560d91d923e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#ac4879318f91545796af20560d91d923e">MR_SegmentSegmentIntersectResult_Destroy</a> (const MR_SegmentSegmentIntersectResult *_this)</td></tr>
+<tr class="memdesc:ac4879318f91545796af20560d91d923e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_SegmentSegmentIntersectResult</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ac4879318f91545796af20560d91d923e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a377279c4ef041177da5004b9b1dd313e" id="r_a377279c4ef041177da5004b9b1dd313e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a377279c4ef041177da5004b9b1dd313e">MR_SegmentSegmentIntersectResult_DestroyArray</a> (const MR_SegmentSegmentIntersectResult *_this)</td></tr>
+<tr class="memdesc:a377279c4ef041177da5004b9b1dd313e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_SegmentSegmentIntersectResult</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a377279c4ef041177da5004b9b1dd313e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b39cb3bb5be585ea59db57e35111780" id="r_a3b39cb3bb5be585ea59db57e35111780"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a3b39cb3bb5be585ea59db57e35111780">MR_SegmentSegmentIntersectResult_ConvertTo_bool</a> (const MR_SegmentSegmentIntersectResult *_this)</td></tr>
+<tr class="separator:a3b39cb3bb5be585ea59db57e35111780"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6abea27c9b8fa4e876e9fae7fdb31e07" id="r_a6abea27c9b8fa4e876e9fae7fdb31e07"><td class="memItemLeft" align="right" valign="top">MRC_API MR_SegmentSegmentIntersectResult *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a6abea27c9b8fa4e876e9fae7fdb31e07">MR_SegmentSegmentIntersectResult_AssignFromAnother</a> (MR_SegmentSegmentIntersectResult *_this, const MR_SegmentSegmentIntersectResult *_other)</td></tr>
+<tr class="separator:a6abea27c9b8fa4e876e9fae7fdb31e07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92c2983236dc68e0b1284bc280cf8cc1" id="r_a92c2983236dc68e0b1284bc280cf8cc1"><td class="memItemLeft" align="right" valign="top">MRC_API MR_SegmentSegmentIntersectResult *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a92c2983236dc68e0b1284bc280cf8cc1">MR_doSegmentSegmentIntersect</a> (const <a class="el" href="#a920bc185898f6b065bfcbacfce0245fb">MR_std_array_MR_PreciseVertCoords2_4</a> *vs)</td></tr>
+<tr class="separator:a92c2983236dc68e0b1284bc280cf8cc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44317bed58772bd9a84bd9b55de8c5e9" id="r_a44317bed58772bd9a84bd9b55de8c5e9"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a8c5a467b31e338f553885db4082fb2eb">MR_std_function_MR_Vector2i_from_const_MR_Vector2f_ref</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a44317bed58772bd9a84bd9b55de8c5e9">MR_CoordinateConverters2_Get_toInt</a> (const MR_CoordinateConverters2 *_this)</td></tr>
+<tr class="separator:a44317bed58772bd9a84bd9b55de8c5e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f46a0f82e95c48750f055da2d9d74d2" id="r_a4f46a0f82e95c48750f055da2d9d74d2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a4f46a0f82e95c48750f055da2d9d74d2">MR_CoordinateConverters2_Set_toInt</a> (MR_CoordinateConverters2 *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#a8c5a467b31e338f553885db4082fb2eb">MR_std_function_MR_Vector2i_from_const_MR_Vector2f_ref</a> *value)</td></tr>
+<tr class="separator:a4f46a0f82e95c48750f055da2d9d74d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80faa736be3150d03c915a98f6a2c6ac" id="r_a80faa736be3150d03c915a98f6a2c6ac"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a8c5a467b31e338f553885db4082fb2eb">MR_std_function_MR_Vector2i_from_const_MR_Vector2f_ref</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a80faa736be3150d03c915a98f6a2c6ac">MR_CoordinateConverters2_GetMutable_toInt</a> (MR_CoordinateConverters2 *_this)</td></tr>
+<tr class="separator:a80faa736be3150d03c915a98f6a2c6ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e1f22c568393c876156913e0e398bc7" id="r_a5e1f22c568393c876156913e0e398bc7"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a7d43ba2c246515df230aacd60e964729">MR_std_function_MR_Vector2f_from_const_MR_Vector2i_ref</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a5e1f22c568393c876156913e0e398bc7">MR_CoordinateConverters2_Get_toFloat</a> (const MR_CoordinateConverters2 *_this)</td></tr>
+<tr class="separator:a5e1f22c568393c876156913e0e398bc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fcd190ddd04a8d1efa6e3f86e7b59fd" id="r_a9fcd190ddd04a8d1efa6e3f86e7b59fd"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a9fcd190ddd04a8d1efa6e3f86e7b59fd">MR_CoordinateConverters2_Set_toFloat</a> (MR_CoordinateConverters2 *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#a7d43ba2c246515df230aacd60e964729">MR_std_function_MR_Vector2f_from_const_MR_Vector2i_ref</a> *value)</td></tr>
+<tr class="separator:a9fcd190ddd04a8d1efa6e3f86e7b59fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a300595db3ab6e4d46ca13032bc3ca027" id="r_a300595db3ab6e4d46ca13032bc3ca027"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7d43ba2c246515df230aacd60e964729">MR_std_function_MR_Vector2f_from_const_MR_Vector2i_ref</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a300595db3ab6e4d46ca13032bc3ca027">MR_CoordinateConverters2_GetMutable_toFloat</a> (MR_CoordinateConverters2 *_this)</td></tr>
+<tr class="separator:a300595db3ab6e4d46ca13032bc3ca027"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88b825ace4e727d99a151e9285fe4742" id="r_a88b825ace4e727d99a151e9285fe4742"><td class="memItemLeft" align="right" valign="top">MRC_API MR_CoordinateConverters2 *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a88b825ace4e727d99a151e9285fe4742">MR_CoordinateConverters2_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a88b825ace4e727d99a151e9285fe4742"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60d19e80cd60e41326cc6eeda5f396d4" id="r_a60d19e80cd60e41326cc6eeda5f396d4"><td class="memItemLeft" align="right" valign="top">MRC_API MR_CoordinateConverters2 *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a60d19e80cd60e41326cc6eeda5f396d4">MR_CoordinateConverters2_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a60d19e80cd60e41326cc6eeda5f396d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0058d66773036cb37b1825c67470ee1" id="r_ac0058d66773036cb37b1825c67470ee1"><td class="memItemLeft" align="right" valign="top">MRC_API MR_CoordinateConverters2 *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#ac0058d66773036cb37b1825c67470ee1">MR_CoordinateConverters2_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> toInt_pass_by, <a class="el" href="#a8c5a467b31e338f553885db4082fb2eb">MR_std_function_MR_Vector2i_from_const_MR_Vector2f_ref</a> *toInt, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> toFloat_pass_by, <a class="el" href="#a7d43ba2c246515df230aacd60e964729">MR_std_function_MR_Vector2f_from_const_MR_Vector2i_ref</a> *toFloat)</td></tr>
+<tr class="separator:ac0058d66773036cb37b1825c67470ee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aceddb20cf11b61d97d5ca5a77d8bd051" id="r_aceddb20cf11b61d97d5ca5a77d8bd051"><td class="memItemLeft" align="right" valign="top">MRC_API const MR_CoordinateConverters2 *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#aceddb20cf11b61d97d5ca5a77d8bd051">MR_CoordinateConverters2_OffsetPtr</a> (const MR_CoordinateConverters2 *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:aceddb20cf11b61d97d5ca5a77d8bd051"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:aceddb20cf11b61d97d5ca5a77d8bd051"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1af09975a99577ca0e6c7faa731f0c63" id="r_a1af09975a99577ca0e6c7faa731f0c63"><td class="memItemLeft" align="right" valign="top">MRC_API MR_CoordinateConverters2 *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a1af09975a99577ca0e6c7faa731f0c63">MR_CoordinateConverters2_OffsetMutablePtr</a> (MR_CoordinateConverters2 *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a1af09975a99577ca0e6c7faa731f0c63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a1af09975a99577ca0e6c7faa731f0c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8a9328ceaac62a6f3523f5756a66caf" id="r_aa8a9328ceaac62a6f3523f5756a66caf"><td class="memItemLeft" align="right" valign="top">MRC_API MR_CoordinateConverters2 *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#aa8a9328ceaac62a6f3523f5756a66caf">MR_CoordinateConverters2_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, MR_CoordinateConverters2 *_other)</td></tr>
+<tr class="separator:aa8a9328ceaac62a6f3523f5756a66caf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a305bbbb97671321a8409ff7624896144" id="r_a305bbbb97671321a8409ff7624896144"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a305bbbb97671321a8409ff7624896144">MR_CoordinateConverters2_Destroy</a> (const MR_CoordinateConverters2 *_this)</td></tr>
+<tr class="memdesc:a305bbbb97671321a8409ff7624896144"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_CoordinateConverters2</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a305bbbb97671321a8409ff7624896144"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a830fb81002fe3935c0c2748caf54f689" id="r_a830fb81002fe3935c0c2748caf54f689"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a830fb81002fe3935c0c2748caf54f689">MR_CoordinateConverters2_DestroyArray</a> (const MR_CoordinateConverters2 *_this)</td></tr>
+<tr class="memdesc:a830fb81002fe3935c0c2748caf54f689"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_CoordinateConverters2</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a830fb81002fe3935c0c2748caf54f689"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37656167872aec2b5107bb0d0556a9f2" id="r_a37656167872aec2b5107bb0d0556a9f2"><td class="memItemLeft" align="right" valign="top">MRC_API MR_CoordinateConverters2 *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a37656167872aec2b5107bb0d0556a9f2">MR_CoordinateConverters2_AssignFromAnother</a> (MR_CoordinateConverters2 *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, MR_CoordinateConverters2 *_other)</td></tr>
+<tr class="separator:a37656167872aec2b5107bb0d0556a9f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a40d0c48faea9f89774b44cecc8fd35" id="r_a3a40d0c48faea9f89774b44cecc8fd35"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a3a40d0c48faea9f89774b44cecc8fd35">MR_segmentIntersectionOrder_std_array_MR_PreciseVertCoords2_6</a> (const <a class="el" href="#a7c2b13479ae5b53dde72a33126c51725">MR_std_array_MR_PreciseVertCoords2_6</a> *vs)</td></tr>
+<tr class="separator:a3a40d0c48faea9f89774b44cecc8fd35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2eb79545a6d5eda704625198cce3861" id="r_ae2eb79545a6d5eda704625198cce3861"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#ae2eb79545a6d5eda704625198cce3861">MR_findSegmentSegmentIntersectionPrecise_4</a> (const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *a, const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *b, const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *c, const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *d)</td></tr>
+<tr class="separator:ae2eb79545a6d5eda704625198cce3861"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a878a2db00266f18b7b718667440828" id="r_a0a878a2db00266f18b7b718667440828"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a0a878a2db00266f18b7b718667440828">MR_findSegmentSegmentIntersectionPrecise_5</a> (const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *a, const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *b, const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *c, const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *d, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> converters_pass_by, MR_CoordinateConverters2 *converters)</td></tr>
+<tr class="separator:a0a878a2db00266f18b7b718667440828"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a0e684b542df281a6666153bf1619db3d" name="a0e684b542df281a6666153bf1619db3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e684b542df281a6666153bf1619db3d">&#9670;&#160;</a></span>MR_std_array_MR_PreciseVertCoords2_3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a0e684b542df281a6666153bf1619db3d">MR_std_array_MR_PreciseVertCoords2_3</a> <a class="el" href="#a0e684b542df281a6666153bf1619db3d">MR_std_array_MR_PreciseVertCoords2_3</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a920bc185898f6b065bfcbacfce0245fb" name="a920bc185898f6b065bfcbacfce0245fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a920bc185898f6b065bfcbacfce0245fb">&#9670;&#160;</a></span>MR_std_array_MR_PreciseVertCoords2_4</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a920bc185898f6b065bfcbacfce0245fb">MR_std_array_MR_PreciseVertCoords2_4</a> <a class="el" href="#a920bc185898f6b065bfcbacfce0245fb">MR_std_array_MR_PreciseVertCoords2_4</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7c2b13479ae5b53dde72a33126c51725" name="a7c2b13479ae5b53dde72a33126c51725"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c2b13479ae5b53dde72a33126c51725">&#9670;&#160;</a></span>MR_std_array_MR_PreciseVertCoords2_6</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a7c2b13479ae5b53dde72a33126c51725">MR_std_array_MR_PreciseVertCoords2_6</a> <a class="el" href="#a7c2b13479ae5b53dde72a33126c51725">MR_std_array_MR_PreciseVertCoords2_6</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d43ba2c246515df230aacd60e964729" name="a7d43ba2c246515df230aacd60e964729"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d43ba2c246515df230aacd60e964729">&#9670;&#160;</a></span>MR_std_function_MR_Vector2f_from_const_MR_Vector2i_ref</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a7d43ba2c246515df230aacd60e964729">MR_std_function_MR_Vector2f_from_const_MR_Vector2i_ref</a> <a class="el" href="#a7d43ba2c246515df230aacd60e964729">MR_std_function_MR_Vector2f_from_const_MR_Vector2i_ref</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8c5a467b31e338f553885db4082fb2eb" name="a8c5a467b31e338f553885db4082fb2eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c5a467b31e338f553885db4082fb2eb">&#9670;&#160;</a></span>MR_std_function_MR_Vector2i_from_const_MR_Vector2f_ref</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a8c5a467b31e338f553885db4082fb2eb">MR_std_function_MR_Vector2i_from_const_MR_Vector2f_ref</a> <a class="el" href="#a8c5a467b31e338f553885db4082fb2eb">MR_std_function_MR_Vector2i_from_const_MR_Vector2f_ref</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_8b489c7b5d1a72d35ec87e32cc37b940.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRPrecisePredicates2_8h.html">MRPrecisePredicates2.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

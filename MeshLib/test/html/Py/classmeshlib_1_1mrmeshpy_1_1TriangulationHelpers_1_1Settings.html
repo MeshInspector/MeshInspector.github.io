@@ -1,0 +1,727 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.TriangulationHelpers.Settings Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1TriangulationHelpers_1_1Settings.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1TriangulationHelpers_1_1Settings-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.TriangulationHelpers.Settings Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a80a7b1205741ef2a4bb77320ff74a3bc" id="r_a80a7b1205741ef2a4bb77320ff74a3bc"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80a7b1205741ef2a4bb77320ff74a3bc">__init__</a> (self)</td></tr>
+<tr class="separator:a80a7b1205741ef2a4bb77320ff74a3bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a963018f037471ca06280ae1ad11303ac" id="r_a963018f037471ca06280ae1ad11303ac"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a963018f037471ca06280ae1ad11303ac">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TriangulationHelpers_1_1Settings.html">TriangulationHelpers.Settings</a> arg0)</td></tr>
+<tr class="separator:a963018f037471ca06280ae1ad11303ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84d9d4081c6b2f761ad51e7366bf9744" id="r_a84d9d4081c6b2f761ad51e7366bf9744"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84d9d4081c6b2f761ad51e7366bf9744">__init__</a> (self, float <a class="el" href="#a0f0f28c2015c011c08bd4e97091a3a31">radius</a>, int <a class="el" href="#a18a4cc1dad14b3828721efc35eb234ea">numNeis</a>, float <a class="el" href="#a39e36381580a9ddd273887b757564b07">critAngle</a>, float <a class="el" href="#a7647cd12cb5be3b4d5958bba09b7007b">boundaryAngle</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertCoords.html">VertCoords</a> <a class="el" href="#aa6600c3847df4c81b6e5f1a3eb9d9883">trustedNormals</a>, bool <a class="el" href="#ac69e2d2ff2830e06f3f34bf64ae2d86f">automaticRadiusIncrease</a>, int <a class="el" href="#a489bd70f78fd7801c518fc435549792c">maxRemoves</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Id__VertTag.html">std_vector_Id_VertTag</a> <a class="el" href="#ae9af460347636addb918557b1f45fa53">allNeighbors</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1float__output.html">float_output</a> <a class="el" href="#a84f5fc6a813d2046005c18f6555e86a9">actualRadius</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PointCloud.html">PointCloud</a> <a class="el" href="#a73ad59b2f64a7c8b36b0b7d2f03a7210">searchNeighbors</a>)</td></tr>
+<tr class="separator:a84d9d4081c6b2f761ad51e7366bf9744"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84f5fc6a813d2046005c18f6555e86a9" id="r_a84f5fc6a813d2046005c18f6555e86a9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84f5fc6a813d2046005c18f6555e86a9">actualRadius</a> (self)</td></tr>
+<tr class="separator:a84f5fc6a813d2046005c18f6555e86a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86d0f6fce7e283f6bbacb4f89e76591c" id="r_a86d0f6fce7e283f6bbacb4f89e76591c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86d0f6fce7e283f6bbacb4f89e76591c">actualRadius</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1float__output.html">float_output</a> arg1)</td></tr>
+<tr class="separator:a86d0f6fce7e283f6bbacb4f89e76591c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9af460347636addb918557b1f45fa53" id="r_ae9af460347636addb918557b1f45fa53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Id__VertTag.html">std_vector_Id_VertTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9af460347636addb918557b1f45fa53">allNeighbors</a> (self)</td></tr>
+<tr class="separator:ae9af460347636addb918557b1f45fa53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae084bc1646a4c40b3f07efc46d964503" id="r_ae084bc1646a4c40b3f07efc46d964503"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae084bc1646a4c40b3f07efc46d964503">allNeighbors</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Id__VertTag.html">std_vector_Id_VertTag</a> arg1)</td></tr>
+<tr class="separator:ae084bc1646a4c40b3f07efc46d964503"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac69e2d2ff2830e06f3f34bf64ae2d86f" id="r_ac69e2d2ff2830e06f3f34bf64ae2d86f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac69e2d2ff2830e06f3f34bf64ae2d86f">automaticRadiusIncrease</a> (self)</td></tr>
+<tr class="separator:ac69e2d2ff2830e06f3f34bf64ae2d86f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab243dc1f275b55d5ff4deb021e30b8b3" id="r_ab243dc1f275b55d5ff4deb021e30b8b3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab243dc1f275b55d5ff4deb021e30b8b3">automaticRadiusIncrease</a> (self, bool arg1)</td></tr>
+<tr class="separator:ab243dc1f275b55d5ff4deb021e30b8b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7647cd12cb5be3b4d5958bba09b7007b" id="r_a7647cd12cb5be3b4d5958bba09b7007b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7647cd12cb5be3b4d5958bba09b7007b">boundaryAngle</a> (self)</td></tr>
+<tr class="separator:a7647cd12cb5be3b4d5958bba09b7007b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a141861c04409139007e260ef438133c0" id="r_a141861c04409139007e260ef438133c0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a141861c04409139007e260ef438133c0">boundaryAngle</a> (self, float arg1)</td></tr>
+<tr class="separator:a141861c04409139007e260ef438133c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39e36381580a9ddd273887b757564b07" id="r_a39e36381580a9ddd273887b757564b07"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39e36381580a9ddd273887b757564b07">critAngle</a> (self)</td></tr>
+<tr class="separator:a39e36381580a9ddd273887b757564b07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c1fd7a8ca969288144eeb41ecefc204" id="r_a1c1fd7a8ca969288144eeb41ecefc204"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c1fd7a8ca969288144eeb41ecefc204">critAngle</a> (self, float arg1)</td></tr>
+<tr class="separator:a1c1fd7a8ca969288144eeb41ecefc204"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a489bd70f78fd7801c518fc435549792c" id="r_a489bd70f78fd7801c518fc435549792c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a489bd70f78fd7801c518fc435549792c">maxRemoves</a> (self)</td></tr>
+<tr class="separator:a489bd70f78fd7801c518fc435549792c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2029506fa6d01e8079b826498c7e3f85" id="r_a2029506fa6d01e8079b826498c7e3f85"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2029506fa6d01e8079b826498c7e3f85">maxRemoves</a> (self, int arg1)</td></tr>
+<tr class="separator:a2029506fa6d01e8079b826498c7e3f85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18a4cc1dad14b3828721efc35eb234ea" id="r_a18a4cc1dad14b3828721efc35eb234ea"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18a4cc1dad14b3828721efc35eb234ea">numNeis</a> (self)</td></tr>
+<tr class="separator:a18a4cc1dad14b3828721efc35eb234ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a786644b25df13bb661da2f62339d4cc6" id="r_a786644b25df13bb661da2f62339d4cc6"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a786644b25df13bb661da2f62339d4cc6">numNeis</a> (self, int arg1)</td></tr>
+<tr class="separator:a786644b25df13bb661da2f62339d4cc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f0f28c2015c011c08bd4e97091a3a31" id="r_a0f0f28c2015c011c08bd4e97091a3a31"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f0f28c2015c011c08bd4e97091a3a31">radius</a> (self)</td></tr>
+<tr class="separator:a0f0f28c2015c011c08bd4e97091a3a31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acff7e314fb6791e794f02de0b78f86ec" id="r_acff7e314fb6791e794f02de0b78f86ec"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acff7e314fb6791e794f02de0b78f86ec">radius</a> (self, float arg1)</td></tr>
+<tr class="separator:acff7e314fb6791e794f02de0b78f86ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73ad59b2f64a7c8b36b0b7d2f03a7210" id="r_a73ad59b2f64a7c8b36b0b7d2f03a7210"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1PointCloud.html">PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73ad59b2f64a7c8b36b0b7d2f03a7210">searchNeighbors</a> (self)</td></tr>
+<tr class="separator:a73ad59b2f64a7c8b36b0b7d2f03a7210"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a433af7717f1357de0e7337b1ddd36147" id="r_a433af7717f1357de0e7337b1ddd36147"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a433af7717f1357de0e7337b1ddd36147">searchNeighbors</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PointCloud.html">PointCloud</a> arg1)</td></tr>
+<tr class="separator:a433af7717f1357de0e7337b1ddd36147"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6600c3847df4c81b6e5f1a3eb9d9883" id="r_aa6600c3847df4c81b6e5f1a3eb9d9883"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertCoords.html">VertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6600c3847df4c81b6e5f1a3eb9d9883">trustedNormals</a> (self)</td></tr>
+<tr class="separator:aa6600c3847df4c81b6e5f1a3eb9d9883"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebeadb11e5fc6ba038edf3ed2a49cb20" id="r_aebeadb11e5fc6ba038edf3ed2a49cb20"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebeadb11e5fc6ba038edf3ed2a49cb20">trustedNormals</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertCoords.html">VertCoords</a> arg1)</td></tr>
+<tr class="separator:aebeadb11e5fc6ba038edf3ed2a49cb20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Generated from:  MR::TriangulationHelpers::Settings
+</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a80a7b1205741ef2a4bb77320ff74a3bc" name="a80a7b1205741ef2a4bb77320ff74a3bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80a7b1205741ef2a4bb77320ff74a3bc">&#9670;&#160;</a></span>__init__() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.TriangulationHelpers.Settings.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit default constructor.
+</pre> 
+</div>
+</div>
+<a id="a963018f037471ca06280ae1ad11303ac" name="a963018f037471ca06280ae1ad11303ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a963018f037471ca06280ae1ad11303ac">&#9670;&#160;</a></span>__init__() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.TriangulationHelpers.Settings.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TriangulationHelpers_1_1Settings.html">TriangulationHelpers.Settings</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit copy constructor.
+</pre> 
+</div>
+</div>
+<a id="a84d9d4081c6b2f761ad51e7366bf9744" name="a84d9d4081c6b2f761ad51e7366bf9744"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84d9d4081c6b2f761ad51e7366bf9744">&#9670;&#160;</a></span>__init__() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.TriangulationHelpers.Settings.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>numNeis</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>critAngle</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>boundaryAngle</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertCoords.html">VertCoords</a></td>          <td class="paramname"><span class="paramname"><em>trustedNormals</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>automaticRadiusIncrease</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxRemoves</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Id__VertTag.html">std_vector_Id_VertTag</a></td>          <td class="paramname"><span class="paramname"><em>allNeighbors</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1float__output.html">float_output</a></td>          <td class="paramname"><span class="paramname"><em>actualRadius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1PointCloud.html">PointCloud</a></td>          <td class="paramname"><span class="paramname"><em>searchNeighbors</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit aggregate constructor.
+</pre> 
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a84f5fc6a813d2046005c18f6555e86a9" name="a84f5fc6a813d2046005c18f6555e86a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84f5fc6a813d2046005c18f6555e86a9">&#9670;&#160;</a></span>actualRadius() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float meshlib.mrmeshpy.TriangulationHelpers.Settings.actualRadius </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">optional output: actual radius of neighbor search (after increase if any)
+</pre> 
+</div>
+</div>
+<a id="a86d0f6fce7e283f6bbacb4f89e76591c" name="a86d0f6fce7e283f6bbacb4f89e76591c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86d0f6fce7e283f6bbacb4f89e76591c">&#9670;&#160;</a></span>actualRadius() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.TriangulationHelpers.Settings.actualRadius </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1float__output.html">float_output</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae9af460347636addb918557b1f45fa53" name="ae9af460347636addb918557b1f45fa53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9af460347636addb918557b1f45fa53">&#9670;&#160;</a></span>allNeighbors() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Id__VertTag.html">std_vector_Id_VertTag</a> meshlib.mrmeshpy.TriangulationHelpers.Settings.allNeighbors </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">optional output of considered neighbor points after filtering but before triangulation/optimization
+</pre> 
+</div>
+</div>
+<a id="ae084bc1646a4c40b3f07efc46d964503" name="ae084bc1646a4c40b3f07efc46d964503"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae084bc1646a4c40b3f07efc46d964503">&#9670;&#160;</a></span>allNeighbors() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.TriangulationHelpers.Settings.allNeighbors </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Id__VertTag.html">std_vector_Id_VertTag</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac69e2d2ff2830e06f3f34bf64ae2d86f" name="ac69e2d2ff2830e06f3f34bf64ae2d86f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac69e2d2ff2830e06f3f34bf64ae2d86f">&#9670;&#160;</a></span>automaticRadiusIncrease() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.TriangulationHelpers.Settings.automaticRadiusIncrease </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">automatic increase of the radius if points outside can make triangles from original radius not-Delone
+</pre> 
+</div>
+</div>
+<a id="ab243dc1f275b55d5ff4deb021e30b8b3" name="ab243dc1f275b55d5ff4deb021e30b8b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab243dc1f275b55d5ff4deb021e30b8b3">&#9670;&#160;</a></span>automaticRadiusIncrease() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.TriangulationHelpers.Settings.automaticRadiusIncrease </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7647cd12cb5be3b4d5958bba09b7007b" name="a7647cd12cb5be3b4d5958bba09b7007b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7647cd12cb5be3b4d5958bba09b7007b">&#9670;&#160;</a></span>boundaryAngle() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float meshlib.mrmeshpy.TriangulationHelpers.Settings.boundaryAngle </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">the vertex is considered as boundary if its neighbor ring has angle more than this value
+</pre> 
+</div>
+</div>
+<a id="a141861c04409139007e260ef438133c0" name="a141861c04409139007e260ef438133c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a141861c04409139007e260ef438133c0">&#9670;&#160;</a></span>boundaryAngle() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.TriangulationHelpers.Settings.boundaryAngle </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a39e36381580a9ddd273887b757564b07" name="a39e36381580a9ddd273887b757564b07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39e36381580a9ddd273887b757564b07">&#9670;&#160;</a></span>critAngle() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float meshlib.mrmeshpy.TriangulationHelpers.Settings.critAngle </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">max allowed angle for triangles in fan
+</pre> 
+</div>
+</div>
+<a id="a1c1fd7a8ca969288144eeb41ecefc204" name="a1c1fd7a8ca969288144eeb41ecefc204"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c1fd7a8ca969288144eeb41ecefc204">&#9670;&#160;</a></span>critAngle() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.TriangulationHelpers.Settings.critAngle </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a489bd70f78fd7801c518fc435549792c" name="a489bd70f78fd7801c518fc435549792c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a489bd70f78fd7801c518fc435549792c">&#9670;&#160;</a></span>maxRemoves() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.TriangulationHelpers.Settings.maxRemoves </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">the maximum number of optimization steps (removals) in local triangulation
+</pre> 
+</div>
+</div>
+<a id="a2029506fa6d01e8079b826498c7e3f85" name="a2029506fa6d01e8079b826498c7e3f85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2029506fa6d01e8079b826498c7e3f85">&#9670;&#160;</a></span>maxRemoves() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.TriangulationHelpers.Settings.maxRemoves </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a18a4cc1dad14b3828721efc35eb234ea" name="a18a4cc1dad14b3828721efc35eb234ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18a4cc1dad14b3828721efc35eb234ea">&#9670;&#160;</a></span>numNeis() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.TriangulationHelpers.Settings.numNeis </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">initially selects given number of nearest neighbours;
+if numNeis is positive then radius must be zero
+</pre> 
+</div>
+</div>
+<a id="a786644b25df13bb661da2f62339d4cc6" name="a786644b25df13bb661da2f62339d4cc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a786644b25df13bb661da2f62339d4cc6">&#9670;&#160;</a></span>numNeis() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.TriangulationHelpers.Settings.numNeis </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0f0f28c2015c011c08bd4e97091a3a31" name="a0f0f28c2015c011c08bd4e97091a3a31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f0f28c2015c011c08bd4e97091a3a31">&#9670;&#160;</a></span>radius() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float meshlib.mrmeshpy.TriangulationHelpers.Settings.radius </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">initial radius of search for neighbours, it can be increased automatically;
+if radius is positive then numNeis must be zero
+</pre> 
+</div>
+</div>
+<a id="acff7e314fb6791e794f02de0b78f86ec" name="acff7e314fb6791e794f02de0b78f86ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acff7e314fb6791e794f02de0b78f86ec">&#9670;&#160;</a></span>radius() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.TriangulationHelpers.Settings.radius </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a73ad59b2f64a7c8b36b0b7d2f03a7210" name="a73ad59b2f64a7c8b36b0b7d2f03a7210"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73ad59b2f64a7c8b36b0b7d2f03a7210">&#9670;&#160;</a></span>searchNeighbors() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PointCloud.html">PointCloud</a> meshlib.mrmeshpy.TriangulationHelpers.Settings.searchNeighbors </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">optional: if provided this cloud will be used for searching of neighbors (so it must have same validPoints)
+</pre> 
+</div>
+</div>
+<a id="a433af7717f1357de0e7337b1ddd36147" name="a433af7717f1357de0e7337b1ddd36147"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a433af7717f1357de0e7337b1ddd36147">&#9670;&#160;</a></span>searchNeighbors() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.TriangulationHelpers.Settings.searchNeighbors </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1PointCloud.html">PointCloud</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa6600c3847df4c81b6e5f1a3eb9d9883" name="aa6600c3847df4c81b6e5f1a3eb9d9883"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6600c3847df4c81b6e5f1a3eb9d9883">&#9670;&#160;</a></span>trustedNormals() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertCoords.html">VertCoords</a> meshlib.mrmeshpy.TriangulationHelpers.Settings.trustedNormals </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">if oriented normals are known, they will be used for neighbor points selection
+</pre> 
+</div>
+</div>
+<a id="aebeadb11e5fc6ba038edf3ed2a49cb20" name="aebeadb11e5fc6ba038edf3ed2a49cb20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebeadb11e5fc6ba038edf3ed2a49cb20">&#9670;&#160;</a></span>trustedNormals() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.TriangulationHelpers.Settings.trustedNormals </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertCoords.html">VertCoords</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TriangulationHelpers.html">TriangulationHelpers</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TriangulationHelpers_1_1Settings.html">Settings</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

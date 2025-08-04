@@ -1,0 +1,1790 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('std__vector__tl__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="std__vector__tl__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a9417e4ef9013bb36974268b4abf7d54a" id="r_a9417e4ef9013bb36974268b4abf7d54a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a></td></tr>
+<tr class="separator:a9417e4ef9013bb36974268b4abf7d54a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07f2986aef7e8276c4c12c36563dfabc" id="r_a07f2986aef7e8276c4c12c36563dfabc"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a></td></tr>
+<tr class="separator:a07f2986aef7e8276c4c12c36563dfabc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f3b2778b65bf82ee1cd07b3ed8e6a51" id="r_a3f3b2778b65bf82ee1cd07b3ed8e6a51"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a></td></tr>
+<tr class="separator:a3f3b2778b65bf82ee1cd07b3ed8e6a51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa043414e862f372bddcd170f2a79a1ff" id="r_aa043414e862f372bddcd170f2a79a1ff"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a></td></tr>
+<tr class="separator:aa043414e862f372bddcd170f2a79a1ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a3778a5b2dc9f970b1d94dfcad42e6346" id="r_a3778a5b2dc9f970b1d94dfcad42e6346"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3778a5b2dc9f970b1d94dfcad42e6346">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a3778a5b2dc9f970b1d94dfcad42e6346"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4433815b34da913cfbbee08dcf62bd8d" id="r_a4433815b34da913cfbbee08dcf62bd8d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4433815b34da913cfbbee08dcf62bd8d">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a4433815b34da913cfbbee08dcf62bd8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af39b44c98752f502d7138bee95a78a2a" id="r_af39b44c98752f502d7138bee95a78a2a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af39b44c98752f502d7138bee95a78a2a">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *other)</td></tr>
+<tr class="separator:af39b44c98752f502d7138bee95a78a2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab47fcc42877ba672c35fe04d5911e479" id="r_ab47fcc42877ba672c35fe04d5911e479"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab47fcc42877ba672c35fe04d5911e479">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_AssignFromAnother</a> (<a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *other)</td></tr>
+<tr class="separator:ab47fcc42877ba672c35fe04d5911e479"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9340d458dbde9b1711be1b2c1d27d21" id="r_ad9340d458dbde9b1711be1b2c1d27d21"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9340d458dbde9b1711be1b2c1d27d21">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Destroy</a> (const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this)</td></tr>
+<tr class="memdesc:ad9340d458dbde9b1711be1b2c1d27d21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ad9340d458dbde9b1711be1b2c1d27d21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9831099d19e3f907e85c2506faf027b8" id="r_a9831099d19e3f907e85c2506faf027b8"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9831099d19e3f907e85c2506faf027b8">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_DestroyArray</a> (const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this)</td></tr>
+<tr class="memdesc:a9831099d19e3f907e85c2506faf027b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a9831099d19e3f907e85c2506faf027b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae676eb45ca99f7a95ecc8c5fea0fca1c" id="r_ae676eb45ca99f7a95ecc8c5fea0fca1c"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae676eb45ca99f7a95ecc8c5fea0fca1c">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_OffsetPtr</a> (const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ae676eb45ca99f7a95ecc8c5fea0fca1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ae676eb45ca99f7a95ecc8c5fea0fca1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaba28574b878e2bd3bbc3962f2fd1e17" id="r_aaba28574b878e2bd3bbc3962f2fd1e17"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaba28574b878e2bd3bbc3962f2fd1e17">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_OffsetMutablePtr</a> (<a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:aaba28574b878e2bd3bbc3962f2fd1e17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:aaba28574b878e2bd3bbc3962f2fd1e17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6aa3fdbdb26ded32588e72c48eba133b" id="r_a6aa3fdbdb26ded32588e72c48eba133b"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6aa3fdbdb26ded32588e72c48eba133b">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Size</a> (const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this)</td></tr>
+<tr class="separator:a6aa3fdbdb26ded32588e72c48eba133b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacd6695aed3607bac5bd1748c1ebe50b" id="r_aacd6695aed3607bac5bd1748c1ebe50b"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacd6695aed3607bac5bd1748c1ebe50b">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_IsEmpty</a> (const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this)</td></tr>
+<tr class="separator:aacd6695aed3607bac5bd1748c1ebe50b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a840fb92e46317ac22e326980d768c1f6" id="r_a840fb92e46317ac22e326980d768c1f6"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a840fb92e46317ac22e326980d768c1f6">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Resize</a> (<a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this, size_t new_size)</td></tr>
+<tr class="separator:a840fb92e46317ac22e326980d768c1f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c5be131c6f6b93fabbd0b576ea98e8a" id="r_a7c5be131c6f6b93fabbd0b576ea98e8a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c5be131c6f6b93fabbd0b576ea98e8a">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_ResizeWithDefaultValue</a> (<a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this, size_t new_size, const <a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *value)</td></tr>
+<tr class="separator:a7c5be131c6f6b93fabbd0b576ea98e8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb7fe76e067764a28bcc36c25e63d37d" id="r_aeb7fe76e067764a28bcc36c25e63d37d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb7fe76e067764a28bcc36c25e63d37d">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Clear</a> (<a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this)</td></tr>
+<tr class="separator:aeb7fe76e067764a28bcc36c25e63d37d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2775669143110e2ad1adee50c0d511d" id="r_ab2775669143110e2ad1adee50c0d511d"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2775669143110e2ad1adee50c0d511d">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Capacity</a> (const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this)</td></tr>
+<tr class="separator:ab2775669143110e2ad1adee50c0d511d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42b56ad0679717c9f2189a7cc0459ce0" id="r_a42b56ad0679717c9f2189a7cc0459ce0"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42b56ad0679717c9f2189a7cc0459ce0">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Reserve</a> (<a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this, size_t new_capacity)</td></tr>
+<tr class="separator:a42b56ad0679717c9f2189a7cc0459ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6481594f12c994fbd761b67a5592d1e4" id="r_a6481594f12c994fbd761b67a5592d1e4"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6481594f12c994fbd761b67a5592d1e4">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_ShrinkToFit</a> (<a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this)</td></tr>
+<tr class="separator:a6481594f12c994fbd761b67a5592d1e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf5577d52add556b6b7bf6129acafa65" id="r_abf5577d52add556b6b7bf6129acafa65"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf5577d52add556b6b7bf6129acafa65">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_At</a> (const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this, size_t i)</td></tr>
+<tr class="separator:abf5577d52add556b6b7bf6129acafa65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0bcd805edc95030fe87c29bbb7e6f74" id="r_ad0bcd805edc95030fe87c29bbb7e6f74"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0bcd805edc95030fe87c29bbb7e6f74">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_MutableAt</a> (<a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this, size_t i)</td></tr>
+<tr class="separator:ad0bcd805edc95030fe87c29bbb7e6f74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f54f4f180445eb22ffa0187e5effb5e" id="r_a2f54f4f180445eb22ffa0187e5effb5e"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f54f4f180445eb22ffa0187e5effb5e">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Front</a> (const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this)</td></tr>
+<tr class="separator:a2f54f4f180445eb22ffa0187e5effb5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afde382c15fe5a1f67d349872812b19b9" id="r_afde382c15fe5a1f67d349872812b19b9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afde382c15fe5a1f67d349872812b19b9">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_MutableFront</a> (<a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this)</td></tr>
+<tr class="separator:afde382c15fe5a1f67d349872812b19b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d38654110a999146f57df32b8728bb2" id="r_a1d38654110a999146f57df32b8728bb2"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d38654110a999146f57df32b8728bb2">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Back</a> (const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this)</td></tr>
+<tr class="separator:a1d38654110a999146f57df32b8728bb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27fd8b7dbff236063384972a435b7a6c" id="r_a27fd8b7dbff236063384972a435b7a6c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27fd8b7dbff236063384972a435b7a6c">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_MutableBack</a> (<a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this)</td></tr>
+<tr class="separator:a27fd8b7dbff236063384972a435b7a6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d2d8a5ab5af75c2bb528f59f5c1842c" id="r_a2d2d8a5ab5af75c2bb528f59f5c1842c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d2d8a5ab5af75c2bb528f59f5c1842c">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_PushBack</a> (<a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> new_elem_pass_by, <a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *new_elem)</td></tr>
+<tr class="separator:a2d2d8a5ab5af75c2bb528f59f5c1842c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d23425c112c40e3923571aa858e3bdd" id="r_a4d23425c112c40e3923571aa858e3bdd"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d23425c112c40e3923571aa858e3bdd">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_PopBack</a> (<a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this)</td></tr>
+<tr class="separator:a4d23425c112c40e3923571aa858e3bdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2e978447846e4ecd917381abc3f7b11" id="r_aa2e978447846e4ecd917381abc3f7b11"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2e978447846e4ecd917381abc3f7b11">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Insert</a> (<a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this, size_t position, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> new_elem_pass_by, <a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *new_elem)</td></tr>
+<tr class="separator:aa2e978447846e4ecd917381abc3f7b11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e80d670c336cafaf7eb3e3ea90dae76" id="r_a4e80d670c336cafaf7eb3e3ea90dae76"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e80d670c336cafaf7eb3e3ea90dae76">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Erase</a> (<a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this, size_t position)</td></tr>
+<tr class="separator:a4e80d670c336cafaf7eb3e3ea90dae76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a209c830123115bbd8e02f6de836a9562" id="r_a209c830123115bbd8e02f6de836a9562"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a209c830123115bbd8e02f6de836a9562">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_InsertAtMutableIter</a> (<a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this, const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *position, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> new_elem_pass_by, <a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *new_elem)</td></tr>
+<tr class="separator:a209c830123115bbd8e02f6de836a9562"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a9ce4b1d81469fbf809fa178a542a45" id="r_a7a9ce4b1d81469fbf809fa178a542a45"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a9ce4b1d81469fbf809fa178a542a45">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_EraseAtMutableIter</a> (<a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this, const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *position)</td></tr>
+<tr class="separator:a7a9ce4b1d81469fbf809fa178a542a45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a781146c43e4b295c1abc730094583894" id="r_a781146c43e4b295c1abc730094583894"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a781146c43e4b295c1abc730094583894">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_InsertAtIter</a> (<a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this, const <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *position, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> new_elem_pass_by, <a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *new_elem)</td></tr>
+<tr class="separator:a781146c43e4b295c1abc730094583894"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3bb02feb403b615f01f0bffb9c62a3d" id="r_aa3bb02feb403b615f01f0bffb9c62a3d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3bb02feb403b615f01f0bffb9c62a3d">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_EraseAtIter</a> (<a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this, const <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *position)</td></tr>
+<tr class="separator:aa3bb02feb403b615f01f0bffb9c62a3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46e83c3ee10b82c38838f51c84b05f78" id="r_a46e83c3ee10b82c38838f51c84b05f78"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46e83c3ee10b82c38838f51c84b05f78">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Begin</a> (const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this)</td></tr>
+<tr class="separator:a46e83c3ee10b82c38838f51c84b05f78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7870e2f4fc84a0994498a6e40d97a7af" id="r_a7870e2f4fc84a0994498a6e40d97a7af"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7870e2f4fc84a0994498a6e40d97a7af">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_IsBegin</a> (const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this, const <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *iter)</td></tr>
+<tr class="separator:a7870e2f4fc84a0994498a6e40d97a7af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a055aa01c4d44eab12647199c7d5530b6" id="r_a055aa01c4d44eab12647199c7d5530b6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a055aa01c4d44eab12647199c7d5530b6">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_MutableBegin</a> (<a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this)</td></tr>
+<tr class="separator:a055aa01c4d44eab12647199c7d5530b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e3b860aa3a242d87ab2076894ae962f" id="r_a0e3b860aa3a242d87ab2076894ae962f"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e3b860aa3a242d87ab2076894ae962f">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_IsMutableBegin</a> (<a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this, const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *iter)</td></tr>
+<tr class="separator:a0e3b860aa3a242d87ab2076894ae962f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac075f9313295d02ebede078392248ffe" id="r_ac075f9313295d02ebede078392248ffe"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac075f9313295d02ebede078392248ffe">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_End</a> (const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this)</td></tr>
+<tr class="separator:ac075f9313295d02ebede078392248ffe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acae440dd92353c7f0b4d95623eb238b8" id="r_acae440dd92353c7f0b4d95623eb238b8"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acae440dd92353c7f0b4d95623eb238b8">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_IsEnd</a> (const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this, const <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *iter)</td></tr>
+<tr class="separator:acae440dd92353c7f0b4d95623eb238b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac30db16ba5f0f830119da97ae5cc016a" id="r_ac30db16ba5f0f830119da97ae5cc016a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac30db16ba5f0f830119da97ae5cc016a">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_MutableEnd</a> (<a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this)</td></tr>
+<tr class="separator:ac30db16ba5f0f830119da97ae5cc016a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cdc47b4eef26a89b9fdb301f9cbebd2" id="r_a3cdc47b4eef26a89b9fdb301f9cbebd2"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cdc47b4eef26a89b9fdb301f9cbebd2">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_IsMutableEnd</a> (<a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this, const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *iter)</td></tr>
+<tr class="separator:a3cdc47b4eef26a89b9fdb301f9cbebd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac01f1859ca523e136e6ab7362cfa72ca" id="r_ac01f1859ca523e136e6ab7362cfa72ca"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac01f1859ca523e136e6ab7362cfa72ca">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_ToIndex</a> (const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this, const <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *iter)</td></tr>
+<tr class="separator:ac01f1859ca523e136e6ab7362cfa72ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a475709a7b4dd13e7f50a611f38136e" id="r_a2a475709a7b4dd13e7f50a611f38136e"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a475709a7b4dd13e7f50a611f38136e">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_MutableToIndex</a> (const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *_this, const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *iter)</td></tr>
+<tr class="separator:a2a475709a7b4dd13e7f50a611f38136e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d0c4840c2e707306f019a6e35828a70" id="r_a0d0c4840c2e707306f019a6e35828a70"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d0c4840c2e707306f019a6e35828a70">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a0d0c4840c2e707306f019a6e35828a70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bebd2c5db2079dc06b9e95df638d8d3" id="r_a7bebd2c5db2079dc06b9e95df638d8d3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bebd2c5db2079dc06b9e95df638d8d3">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a7bebd2c5db2079dc06b9e95df638d8d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a396478c13283b293a6ab7016e63e0897" id="r_a396478c13283b293a6ab7016e63e0897"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a396478c13283b293a6ab7016e63e0897">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_ConstructFromAnother</a> (const <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *other)</td></tr>
+<tr class="separator:a396478c13283b293a6ab7016e63e0897"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaca72edbcf06809e1b41cf294f74b41d" id="r_aaca72edbcf06809e1b41cf294f74b41d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaca72edbcf06809e1b41cf294f74b41d">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_AssignFromAnother</a> (<a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *_this, const <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *other)</td></tr>
+<tr class="separator:aaca72edbcf06809e1b41cf294f74b41d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b24cad9ede297535cf2ebca1f5193fb" id="r_a4b24cad9ede297535cf2ebca1f5193fb"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b24cad9ede297535cf2ebca1f5193fb">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_Destroy</a> (const <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a4b24cad9ede297535cf2ebca1f5193fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a4b24cad9ede297535cf2ebca1f5193fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae56cf4d3934c31dd836c9527be81eeeb" id="r_ae56cf4d3934c31dd836c9527be81eeeb"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae56cf4d3934c31dd836c9527be81eeeb">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_DestroyArray</a> (const <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:ae56cf4d3934c31dd836c9527be81eeeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ae56cf4d3934c31dd836c9527be81eeeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7982df0b3eb0335470a4bd151e39b9df" id="r_a7982df0b3eb0335470a4bd151e39b9df"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7982df0b3eb0335470a4bd151e39b9df">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_OffsetPtr</a> (const <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a7982df0b3eb0335470a4bd151e39b9df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a7982df0b3eb0335470a4bd151e39b9df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3edaa223bd6533a9cf9cc4f3eb9d85be" id="r_a3edaa223bd6533a9cf9cc4f3eb9d85be"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3edaa223bd6533a9cf9cc4f3eb9d85be">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_OffsetMutablePtr</a> (<a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a3edaa223bd6533a9cf9cc4f3eb9d85be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a3edaa223bd6533a9cf9cc4f3eb9d85be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8df393d91804e12fe87e6e97c20f2fb" id="r_ac8df393d91804e12fe87e6e97c20f2fb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8df393d91804e12fe87e6e97c20f2fb">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_FromMutable</a> (const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *iter)</td></tr>
+<tr class="separator:ac8df393d91804e12fe87e6e97c20f2fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab94de3b3d4716cd4a57603acbe6f9239" id="r_ab94de3b3d4716cd4a57603acbe6f9239"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab94de3b3d4716cd4a57603acbe6f9239">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ab94de3b3d4716cd4a57603acbe6f9239"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e3426f0aac1263bfb4823bd50adc5a8" id="r_a4e3426f0aac1263bfb4823bd50adc5a8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e3426f0aac1263bfb4823bd50adc5a8">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a4e3426f0aac1263bfb4823bd50adc5a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a3d999457f5c8a47ed02e4a9d301201" id="r_a3a3d999457f5c8a47ed02e4a9d301201"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a3d999457f5c8a47ed02e4a9d301201">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_ConstructFromAnother</a> (const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *other)</td></tr>
+<tr class="separator:a3a3d999457f5c8a47ed02e4a9d301201"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accd2c9d12ad135b2ae885c7a7f43ff69" id="r_accd2c9d12ad135b2ae885c7a7f43ff69"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accd2c9d12ad135b2ae885c7a7f43ff69">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_AssignFromAnother</a> (<a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *_this, const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *other)</td></tr>
+<tr class="separator:accd2c9d12ad135b2ae885c7a7f43ff69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adddb795c787fab6e57929357d8fc2cdd" id="r_adddb795c787fab6e57929357d8fc2cdd"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adddb795c787fab6e57929357d8fc2cdd">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_Destroy</a> (const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *_this)</td></tr>
+<tr class="memdesc:adddb795c787fab6e57929357d8fc2cdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:adddb795c787fab6e57929357d8fc2cdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43bfa5edea84d10d420b06dcf85662cf" id="r_a43bfa5edea84d10d420b06dcf85662cf"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43bfa5edea84d10d420b06dcf85662cf">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_DestroyArray</a> (const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a43bfa5edea84d10d420b06dcf85662cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a43bfa5edea84d10d420b06dcf85662cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6f46b0bf4e10da56f083eda565678d6" id="r_aa6f46b0bf4e10da56f083eda565678d6"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6f46b0bf4e10da56f083eda565678d6">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_OffsetPtr</a> (const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:aa6f46b0bf4e10da56f083eda565678d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:aa6f46b0bf4e10da56f083eda565678d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afac3f7e324711c2af43ab81a937d541f" id="r_afac3f7e324711c2af43ab81a937d541f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afac3f7e324711c2af43ab81a937d541f">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_OffsetMutablePtr</a> (<a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:afac3f7e324711c2af43ab81a937d541f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:afac3f7e324711c2af43ab81a937d541f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70bb8759052045ff94b9417d1bc1280f" id="r_a70bb8759052045ff94b9417d1bc1280f"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70bb8759052045ff94b9417d1bc1280f">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_Deref</a> (const <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *_this)</td></tr>
+<tr class="separator:a70bb8759052045ff94b9417d1bc1280f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae281cab44d936b9bbf29021295326b25" id="r_ae281cab44d936b9bbf29021295326b25"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae281cab44d936b9bbf29021295326b25">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_Incr</a> (<a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *_this)</td></tr>
+<tr class="separator:ae281cab44d936b9bbf29021295326b25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2ac4bbf3c2cf9abfd8bb1010a41ceea" id="r_ac2ac4bbf3c2cf9abfd8bb1010a41ceea"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2ac4bbf3c2cf9abfd8bb1010a41ceea">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_Decr</a> (<a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *_this)</td></tr>
+<tr class="separator:ac2ac4bbf3c2cf9abfd8bb1010a41ceea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add7a495a96305fec0e285fdec94dbf82" id="r_add7a495a96305fec0e285fdec94dbf82"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add7a495a96305fec0e285fdec94dbf82">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_OffsetBy</a> (<a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *_this, ptrdiff_t delta)</td></tr>
+<tr class="separator:add7a495a96305fec0e285fdec94dbf82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ca83efbd4173ea9beb106442241cd4c" id="r_a5ca83efbd4173ea9beb106442241cd4c"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ca83efbd4173ea9beb106442241cd4c">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_Distance</a> (const <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *a, const <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *b)</td></tr>
+<tr class="separator:a5ca83efbd4173ea9beb106442241cd4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae352aa3d572639a8b292a125b8dca32" id="r_aae352aa3d572639a8b292a125b8dca32"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae352aa3d572639a8b292a125b8dca32">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_Deref</a> (const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *_this)</td></tr>
+<tr class="separator:aae352aa3d572639a8b292a125b8dca32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47b1f2ba5d4bb87ed1a98ebf269b2e68" id="r_a47b1f2ba5d4bb87ed1a98ebf269b2e68"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47b1f2ba5d4bb87ed1a98ebf269b2e68">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_Incr</a> (<a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *_this)</td></tr>
+<tr class="separator:a47b1f2ba5d4bb87ed1a98ebf269b2e68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbca286b3374c7ee88b47184221077af" id="r_afbca286b3374c7ee88b47184221077af"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbca286b3374c7ee88b47184221077af">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_Decr</a> (<a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *_this)</td></tr>
+<tr class="separator:afbca286b3374c7ee88b47184221077af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0e57608c08c86ad3000ce20fe2fb818" id="r_af0e57608c08c86ad3000ce20fe2fb818"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0e57608c08c86ad3000ce20fe2fb818">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_OffsetBy</a> (<a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *_this, ptrdiff_t delta)</td></tr>
+<tr class="separator:af0e57608c08c86ad3000ce20fe2fb818"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9362fe9b7efc7bfeb68df4a2b30e0125" id="r_a9362fe9b7efc7bfeb68df4a2b30e0125"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9362fe9b7efc7bfeb68df4a2b30e0125">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_Distance</a> (const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *a, const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *b)</td></tr>
+<tr class="separator:a9362fe9b7efc7bfeb68df4a2b30e0125"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a9417e4ef9013bb36974268b4abf7d54a" name="a9417e4ef9013bb36974268b4abf7d54a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9417e4ef9013bb36974268b4abf7d54a">&#9670;&#160;</a></span>MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> <a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a07f2986aef7e8276c4c12c36563dfabc" name="a07f2986aef7e8276c4c12c36563dfabc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07f2986aef7e8276c4c12c36563dfabc">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from C++ container <code>std::vector&lt;tl::expected&lt;MR::VoxelsLoad::DicomVolumeAsVdb, std::string&gt;&gt;</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a3f3b2778b65bf82ee1cd07b3ed8e6a51" name="a3f3b2778b65bf82ee1cd07b3ed8e6a51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Read-only iterator for <code>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="aa043414e862f372bddcd170f2a79a1ff" name="aa043414e862f372bddcd170f2a79a1ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa043414e862f372bddcd170f2a79a1ff">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Mutable iterator for <code>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ab47fcc42877ba672c35fe04d5911e479" name="ab47fcc42877ba672c35fe04d5911e479"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab47fcc42877ba672c35fe04d5911e479">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="abf5577d52add556b6b7bf6129acafa65" name="abf5577d52add556b6b7bf6129acafa65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf5577d52add556b6b7bf6129acafa65">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_At()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> * MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_At </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, read-only. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a1d38654110a999146f57df32b8728bb2" name="a1d38654110a999146f57df32b8728bb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d38654110a999146f57df32b8728bb2">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> * MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Back </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The last element or null if empty, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a46e83c3ee10b82c38838f51c84b05f78" name="a46e83c3ee10b82c38838f51c84b05f78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46e83c3ee10b82c38838f51c84b05f78">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> * MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Begin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4b24cad9ede297535cf2ebca1f5193fb" title="Destroys a heap-allocated instance of MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_st...">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab2775669143110e2ad1adee50c0d511d" name="ab2775669143110e2ad1adee50c0d511d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2775669143110e2ad1adee50c0d511d">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Capacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Capacity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The memory capacity, measued in the number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aeb7fe76e067764a28bcc36c25e63d37d" name="aeb7fe76e067764a28bcc36c25e63d37d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb7fe76e067764a28bcc36c25e63d37d">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Clear </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes all elements from the container. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aaca72edbcf06809e1b41cf294f74b41d" name="aaca72edbcf06809e1b41cf294f74b41d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaca72edbcf06809e1b41cf294f74b41d">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a396478c13283b293a6ab7016e63e0897" name="a396478c13283b293a6ab7016e63e0897"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a396478c13283b293a6ab7016e63e0897">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> * MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4b24cad9ede297535cf2ebca1f5193fb" title="Destroys a heap-allocated instance of MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_st...">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ac2ac4bbf3c2cf9abfd8bb1010a41ceea" name="ac2ac4bbf3c2cf9abfd8bb1010a41ceea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2ac4bbf3c2cf9abfd8bb1010a41ceea">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_Decr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_Decr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decrements a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a0d0c4840c2e707306f019a6e35828a70" name="a0d0c4840c2e707306f019a6e35828a70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d0c4840c2e707306f019a6e35828a70">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> * MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4b24cad9ede297535cf2ebca1f5193fb" title="Destroys a heap-allocated instance of MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_st...">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a7bebd2c5db2079dc06b9e95df638d8d3" name="a7bebd2c5db2079dc06b9e95df638d8d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bebd2c5db2079dc06b9e95df638d8d3">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> * MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#ae56cf4d3934c31dd836c9527be81eeeb" title="Destroys a heap-allocated array of MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_strin...">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#a3edaa223bd6533a9cf9cc4f3eb9d85be" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a7982df0b3eb0335470a4bd151e39b9df" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a70bb8759052045ff94b9417d1bc1280f" name="a70bb8759052045ff94b9417d1bc1280f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70bb8759052045ff94b9417d1bc1280f">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_Deref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> * MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_Deref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a const iterator. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a4b24cad9ede297535cf2ebca1f5193fb" name="a4b24cad9ede297535cf2ebca1f5193fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b24cad9ede297535cf2ebca1f5193fb">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ae56cf4d3934c31dd836c9527be81eeeb" name="ae56cf4d3934c31dd836c9527be81eeeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae56cf4d3934c31dd836c9527be81eeeb">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a5ca83efbd4173ea9beb106442241cd4c" name="a5ca83efbd4173ea9beb106442241cd4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ca83efbd4173ea9beb106442241cd4c">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the signed difference between two const iterators. Completes in constant time. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac8df393d91804e12fe87e6e97c20f2fb" name="ac8df393d91804e12fe87e6e97c20f2fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8df393d91804e12fe87e6e97c20f2fb">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_FromMutable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> * MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_FromMutable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Makes a const iterator from a mutable one. Parameter <code>iter</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4b24cad9ede297535cf2ebca1f5193fb" title="Destroys a heap-allocated instance of MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_st...">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae281cab44d936b9bbf29021295326b25" name="ae281cab44d936b9bbf29021295326b25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae281cab44d936b9bbf29021295326b25">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="add7a495a96305fec0e285fdec94dbf82" name="add7a495a96305fec0e285fdec94dbf82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add7a495a96305fec0e285fdec94dbf82">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_OffsetBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_OffsetBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3edaa223bd6533a9cf9cc4f3eb9d85be" name="a3edaa223bd6533a9cf9cc4f3eb9d85be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3edaa223bd6533a9cf9cc4f3eb9d85be">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> * MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a7982df0b3eb0335470a4bd151e39b9df" name="a7982df0b3eb0335470a4bd151e39b9df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7982df0b3eb0335470a4bd151e39b9df">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> * MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="af39b44c98752f502d7138bee95a78a2a" name="af39b44c98752f502d7138bee95a78a2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af39b44c98752f502d7138bee95a78a2a">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> * MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad9340d458dbde9b1711be1b2c1d27d21" title="Destroys a heap-allocated instance of MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_st...">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a3778a5b2dc9f970b1d94dfcad42e6346" name="a3778a5b2dc9f970b1d94dfcad42e6346"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3778a5b2dc9f970b1d94dfcad42e6346">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> * MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad9340d458dbde9b1711be1b2c1d27d21" title="Destroys a heap-allocated instance of MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_st...">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a4433815b34da913cfbbee08dcf62bd8d" name="a4433815b34da913cfbbee08dcf62bd8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4433815b34da913cfbbee08dcf62bd8d">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> * MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a9831099d19e3f907e85c2506faf027b8" title="Destroys a heap-allocated array of MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_strin...">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_DestroyArray()</a></code>. Use <code><a class="el" href="#aaba28574b878e2bd3bbc3962f2fd1e17" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_OffsetMutablePtr()</a></code> and <code><a class="el" href="#ae676eb45ca99f7a95ecc8c5fea0fca1c" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ad9340d458dbde9b1711be1b2c1d27d21" name="ad9340d458dbde9b1711be1b2c1d27d21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9340d458dbde9b1711be1b2c1d27d21">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a9831099d19e3f907e85c2506faf027b8" name="a9831099d19e3f907e85c2506faf027b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9831099d19e3f907e85c2506faf027b8">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ac075f9313295d02ebede078392248ffe" name="ac075f9313295d02ebede078392248ffe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac075f9313295d02ebede078392248ffe">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_End()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> * MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_End </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4b24cad9ede297535cf2ebca1f5193fb" title="Destroys a heap-allocated instance of MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_st...">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a4e80d670c336cafaf7eb3e3ea90dae76" name="a4e80d670c336cafaf7eb3e3ea90dae76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e80d670c336cafaf7eb3e3ea90dae76">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Erase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Erase </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa3bb02feb403b615f01f0bffb9c62a3d" name="aa3bb02feb403b615f01f0bffb9c62a3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3bb02feb403b615f01f0bffb9c62a3d">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_EraseAtIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_EraseAtIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. This version takes the position in form of a const iterator, that's the only difference. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a7a9ce4b1d81469fbf809fa178a542a45" name="a7a9ce4b1d81469fbf809fa178a542a45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a9ce4b1d81469fbf809fa178a542a45">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_EraseAtMutableIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_EraseAtMutableIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a2f54f4f180445eb22ffa0187e5effb5e" name="a2f54f4f180445eb22ffa0187e5effb5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f54f4f180445eb22ffa0187e5effb5e">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Front()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> * MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Front </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The first element or null if empty, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa2e978447846e4ecd917381abc3f7b11" name="aa2e978447846e4ecd917381abc3f7b11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2e978447846e4ecd917381abc3f7b11">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Insert </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>new_elem_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a781146c43e4b295c1abc730094583894" name="a781146c43e4b295c1abc730094583894"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a781146c43e4b295c1abc730094583894">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_InsertAtIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_InsertAtIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>new_elem_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that's the only difference. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a209c830123115bbd8e02f6de836a9562" name="a209c830123115bbd8e02f6de836a9562"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a209c830123115bbd8e02f6de836a9562">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_InsertAtMutableIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_InsertAtMutableIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>new_elem_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a7870e2f4fc84a0994498a6e40d97a7af" name="a7870e2f4fc84a0994498a6e40d97a7af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7870e2f4fc84a0994498a6e40d97a7af">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_IsBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_IsBegin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aacd6695aed3607bac5bd1748c1ebe50b" name="aacd6695aed3607bac5bd1748c1ebe50b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacd6695aed3607bac5bd1748c1ebe50b">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_IsEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_IsEmpty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns true if the size is zero. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="acae440dd92353c7f0b4d95623eb238b8" name="acae440dd92353c7f0b4d95623eb238b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acae440dd92353c7f0b4d95623eb238b8">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_IsEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_IsEnd </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a0e3b860aa3a242d87ab2076894ae962f" name="a0e3b860aa3a242d87ab2076894ae962f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e3b860aa3a242d87ab2076894ae962f">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_IsMutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_IsMutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3cdc47b4eef26a89b9fdb301f9cbebd2" name="a3cdc47b4eef26a89b9fdb301f9cbebd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cdc47b4eef26a89b9fdb301f9cbebd2">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_IsMutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_IsMutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="accd2c9d12ad135b2ae885c7a7f43ff69" name="accd2c9d12ad135b2ae885c7a7f43ff69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accd2c9d12ad135b2ae885c7a7f43ff69">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3a3d999457f5c8a47ed02e4a9d301201" name="a3a3d999457f5c8a47ed02e4a9d301201"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a3d999457f5c8a47ed02e4a9d301201">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> * MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adddb795c787fab6e57929357d8fc2cdd" title="Destroys a heap-allocated instance of MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_st...">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="afbca286b3374c7ee88b47184221077af" name="afbca286b3374c7ee88b47184221077af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbca286b3374c7ee88b47184221077af">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_Decr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_Decr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decrements a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ab94de3b3d4716cd4a57603acbe6f9239" name="ab94de3b3d4716cd4a57603acbe6f9239"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab94de3b3d4716cd4a57603acbe6f9239">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> * MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adddb795c787fab6e57929357d8fc2cdd" title="Destroys a heap-allocated instance of MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_st...">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a4e3426f0aac1263bfb4823bd50adc5a8" name="a4e3426f0aac1263bfb4823bd50adc5a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e3426f0aac1263bfb4823bd50adc5a8">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> * MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a43bfa5edea84d10d420b06dcf85662cf" title="Destroys a heap-allocated array of MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_strin...">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#afac3f7e324711c2af43ab81a937d541f" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#aa6f46b0bf4e10da56f083eda565678d6" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="aae352aa3d572639a8b292a125b8dca32" name="aae352aa3d572639a8b292a125b8dca32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae352aa3d572639a8b292a125b8dca32">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_Deref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> * MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_Deref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a mutable iterator. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="adddb795c787fab6e57929357d8fc2cdd" name="adddb795c787fab6e57929357d8fc2cdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adddb795c787fab6e57929357d8fc2cdd">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a43bfa5edea84d10d420b06dcf85662cf" name="a43bfa5edea84d10d420b06dcf85662cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43bfa5edea84d10d420b06dcf85662cf">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a9362fe9b7efc7bfeb68df4a2b30e0125" name="a9362fe9b7efc7bfeb68df4a2b30e0125"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9362fe9b7efc7bfeb68df4a2b30e0125">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a47b1f2ba5d4bb87ed1a98ebf269b2e68" name="a47b1f2ba5d4bb87ed1a98ebf269b2e68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47b1f2ba5d4bb87ed1a98ebf269b2e68">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="af0e57608c08c86ad3000ce20fe2fb818" name="af0e57608c08c86ad3000ce20fe2fb818"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0e57608c08c86ad3000ce20fe2fb818">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_OffsetBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_OffsetBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="afac3f7e324711c2af43ab81a937d541f" name="afac3f7e324711c2af43ab81a937d541f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afac3f7e324711c2af43ab81a937d541f">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> * MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="aa6f46b0bf4e10da56f083eda565678d6" name="aa6f46b0bf4e10da56f083eda565678d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6f46b0bf4e10da56f083eda565678d6">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> * MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ad0bcd805edc95030fe87c29bbb7e6f74" name="ad0bcd805edc95030fe87c29bbb7e6f74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0bcd805edc95030fe87c29bbb7e6f74">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_MutableAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> * MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_MutableAt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, mutable. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a27fd8b7dbff236063384972a435b7a6c" name="a27fd8b7dbff236063384972a435b7a6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27fd8b7dbff236063384972a435b7a6c">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_MutableBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> * MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_MutableBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The last element or null if empty, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a055aa01c4d44eab12647199c7d5530b6" name="a055aa01c4d44eab12647199c7d5530b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a055aa01c4d44eab12647199c7d5530b6">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_MutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> * MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_MutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adddb795c787fab6e57929357d8fc2cdd" title="Destroys a heap-allocated instance of MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_st...">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ac30db16ba5f0f830119da97ae5cc016a" name="ac30db16ba5f0f830119da97ae5cc016a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac30db16ba5f0f830119da97ae5cc016a">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_MutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> * MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_MutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adddb795c787fab6e57929357d8fc2cdd" title="Destroys a heap-allocated instance of MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_st...">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="afde382c15fe5a1f67d349872812b19b9" name="afde382c15fe5a1f67d349872812b19b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afde382c15fe5a1f67d349872812b19b9">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_MutableFront()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> * MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_MutableFront </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The first element or null if empty, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a2a475709a7b4dd13e7f50a611f38136e" name="a2a475709a7b4dd13e7f50a611f38136e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a475709a7b4dd13e7f50a611f38136e">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_MutableToIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_MutableToIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aa043414e862f372bddcd170f2a79a1ff">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convert a mutable iterator to an index. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aaba28574b878e2bd3bbc3962f2fd1e17" name="aaba28574b878e2bd3bbc3962f2fd1e17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaba28574b878e2bd3bbc3962f2fd1e17">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> * MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ae676eb45ca99f7a95ecc8c5fea0fca1c" name="ae676eb45ca99f7a95ecc8c5fea0fca1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae676eb45ca99f7a95ecc8c5fea0fca1c">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> * MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a4d23425c112c40e3923571aa858e3bdd" name="a4d23425c112c40e3923571aa858e3bdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d23425c112c40e3923571aa858e3bdd">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_PopBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_PopBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes one element from the end. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a2d2d8a5ab5af75c2bb528f59f5c1842c" name="a2d2d8a5ab5af75c2bb528f59f5c1842c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d2d8a5ab5af75c2bb528f59f5c1842c">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_PushBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_PushBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>new_elem_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element at the end. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a42b56ad0679717c9f2189a7cc0459ce0" name="a42b56ad0679717c9f2189a7cc0459ce0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42b56ad0679717c9f2189a7cc0459ce0">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Reserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Reserve </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_capacity</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a840fb92e46317ac22e326980d768c1f6" name="a840fb92e46317ac22e326980d768c1f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a840fb92e46317ac22e326980d768c1f6">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Resize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the container. The new elements if any are zeroed. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a7c5be131c6f6b93fabbd0b576ea98e8a" name="a7c5be131c6f6b93fabbd0b576ea98e8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c5be131c6f6b93fabbd0b576ea98e8a">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_ResizeWithDefaultValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_ResizeWithDefaultValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html#a9417e4ef9013bb36974268b4abf7d54a">MR_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the container. The new elements if any are set to the specified value. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6481594f12c994fbd761b67a5592d1e4" name="a6481594f12c994fbd761b67a5592d1e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6481594f12c994fbd761b67a5592d1e4">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_ShrinkToFit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_ShrinkToFit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Shrinks the capacity to match the size. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6aa3fdbdb26ded32588e72c48eba133b" name="a6aa3fdbdb26ded32588e72c48eba133b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6aa3fdbdb26ded32588e72c48eba133b">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_Size </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac01f1859ca523e136e6ab7362cfa72ca" name="ac01f1859ca523e136e6ab7362cfa72ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac01f1859ca523e136e6ab7362cfa72ca">&#9670;&#160;</a></span>MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_ToIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_ToIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a07f2986aef7e8276c4c12c36563dfabc">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a3f3b2778b65bf82ee1cd07b3ed8e6a51">MR_std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convert a const iterator to an index. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_a57e8462869cab4a5203dede5869920d.html">MRCMisc</a></li><li class="navelem"><a class="el" href="std__vector__tl__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html">std_vector_tl_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

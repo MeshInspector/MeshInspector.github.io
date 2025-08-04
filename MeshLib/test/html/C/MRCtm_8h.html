@@ -1,0 +1,1632 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRCtm.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRCtm_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRCtm.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
+</div>
+<p><a href="MRCtm_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a31b172f68efca6438544d56eb86d6f40" id="r_a31b172f68efca6438544d56eb86d6f40"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td></tr>
+<tr class="separator:a31b172f68efca6438544d56eb86d6f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a616a0b042e712074c2ed4013f47fa0af" id="r_a616a0b042e712074c2ed4013f47fa0af"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a></td></tr>
+<tr class="separator:a616a0b042e712074c2ed4013f47fa0af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa319738c95f0bbde075b7ef777cf2665" id="r_aa319738c95f0bbde075b7ef777cf2665"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a></td></tr>
+<tr class="separator:aa319738c95f0bbde075b7ef777cf2665"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67029d3455a5c9aa45725d3c35e1e4df" id="r_a67029d3455a5c9aa45725d3c35e1e4df"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a67029d3455a5c9aa45725d3c35e1e4df">MR_PointsLoadSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67029d3455a5c9aa45725d3c35e1e4df">MR_PointsLoadSettings</a></td></tr>
+<tr class="separator:a67029d3455a5c9aa45725d3c35e1e4df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66434f88501a5c24a45cf39f9dbcadbb" id="r_a66434f88501a5c24a45cf39f9dbcadbb"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a></td></tr>
+<tr class="separator:a66434f88501a5c24a45cf39f9dbcadbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d97154d4aed695055160a4688c04a3d" id="r_a0d97154d4aed695055160a4688c04a3d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a></td></tr>
+<tr class="separator:a0d97154d4aed695055160a4688c04a3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dbbf904c32d71d8c8ec8da2165b4a12" id="r_a9dbbf904c32d71d8c8ec8da2165b4a12"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a9dbbf904c32d71d8c8ec8da2165b4a12">MR_expected_MR_PointCloud_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9dbbf904c32d71d8c8ec8da2165b4a12">MR_expected_MR_PointCloud_std_string</a></td></tr>
+<tr class="separator:a9dbbf904c32d71d8c8ec8da2165b4a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a077b8debfae88f9cf2267ad2db95c006" id="r_a077b8debfae88f9cf2267ad2db95c006"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a></td></tr>
+<tr class="separator:a077b8debfae88f9cf2267ad2db95c006"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef22a11476e76208a3f9a5cf2eba4c98" id="r_aef22a11476e76208a3f9a5cf2eba4c98"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a></td></tr>
+<tr class="separator:aef22a11476e76208a3f9a5cf2eba4c98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a933fad1748853c0c595a157b9f6527c6" id="r_a933fad1748853c0c595a157b9f6527c6"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a></td></tr>
+<tr class="separator:a933fad1748853c0c595a157b9f6527c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea4e2600dc2dc28784083571fad7d964" id="r_aea4e2600dc2dc28784083571fad7d964"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a></td></tr>
+<tr class="separator:aea4e2600dc2dc28784083571fad7d964"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a872d97d49815b31f8c532615cc5c1e51" id="r_a872d97d49815b31f8c532615cc5c1e51"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a872d97d49815b31f8c532615cc5c1e51">MR_MeshSave_CtmSaveOptions_MeshCompression</a></td></tr>
+<tr class="separator:a872d97d49815b31f8c532615cc5c1e51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae978f40ff51260a61a48889fa82116d9" id="r_ae978f40ff51260a61a48889fa82116d9"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a></td></tr>
+<tr class="separator:ae978f40ff51260a61a48889fa82116d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a06fc87d81c62e9abb8790b6e5713c55b" id="r_a06fc87d81c62e9abb8790b6e5713c55b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a06fc87d81c62e9abb8790b6e5713c55ba79fb2eaf5921b39485bde0b59fcd0843">MR_MeshSave_CtmSaveOptions_MeshCompression_None</a> = 0
+, <a class="el" href="#a06fc87d81c62e9abb8790b6e5713c55bac0d78ba3e22174b08ce594bd751f65cb">MR_MeshSave_CtmSaveOptions_MeshCompression_Lossless</a> = 1
+, <a class="el" href="#a06fc87d81c62e9abb8790b6e5713c55ba77400368e922da564ed9f007b1928829">MR_MeshSave_CtmSaveOptions_MeshCompression_Lossy</a> = 2
+ }</td></tr>
+<tr class="separator:a06fc87d81c62e9abb8790b6e5713c55b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:aa8f31be2306049e85cdd8b67746acf8e" id="r_aa8f31be2306049e85cdd8b67746acf8e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8f31be2306049e85cdd8b67746acf8e">MR_MeshLoad_fromCtm_std_filesystem_path</a> (const char *file, const char *file_end, const <a class="el" href="#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings)</td></tr>
+<tr class="separator:aa8f31be2306049e85cdd8b67746acf8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a330dac3c2a56185046b2ad22da43f54e" id="r_a330dac3c2a56185046b2ad22da43f54e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a330dac3c2a56185046b2ad22da43f54e">MR_MeshLoad_fromCtm_std_istream</a> (<a class="el" href="#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, const <a class="el" href="#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings)</td></tr>
+<tr class="separator:a330dac3c2a56185046b2ad22da43f54e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa99c48a63ffa56da3d4e568eae796870" id="r_aa99c48a63ffa56da3d4e568eae796870"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a872d97d49815b31f8c532615cc5c1e51">MR_MeshSave_CtmSaveOptions_MeshCompression</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa99c48a63ffa56da3d4e568eae796870">MR_MeshSave_CtmSaveOptions_Get_meshCompression</a> (const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:aa99c48a63ffa56da3d4e568eae796870"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc9cba613695e824d2d52bce900bc248" id="r_adc9cba613695e824d2d52bce900bc248"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc9cba613695e824d2d52bce900bc248">MR_MeshSave_CtmSaveOptions_Set_meshCompression</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this, <a class="el" href="#a872d97d49815b31f8c532615cc5c1e51">MR_MeshSave_CtmSaveOptions_MeshCompression</a> value)</td></tr>
+<tr class="separator:adc9cba613695e824d2d52bce900bc248"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a135291565896938bb52dd4c60b7e4f1d" id="r_a135291565896938bb52dd4c60b7e4f1d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a872d97d49815b31f8c532615cc5c1e51">MR_MeshSave_CtmSaveOptions_MeshCompression</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a135291565896938bb52dd4c60b7e4f1d">MR_MeshSave_CtmSaveOptions_GetMutable_meshCompression</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:a135291565896938bb52dd4c60b7e4f1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40fcc5aba2897f1f48e75f548218cb9f" id="r_a40fcc5aba2897f1f48e75f548218cb9f"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40fcc5aba2897f1f48e75f548218cb9f">MR_MeshSave_CtmSaveOptions_Get_vertexPrecision</a> (const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:a40fcc5aba2897f1f48e75f548218cb9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96b486bac1e9f1ca0f74b6bc48b58deb" id="r_a96b486bac1e9f1ca0f74b6bc48b58deb"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96b486bac1e9f1ca0f74b6bc48b58deb">MR_MeshSave_CtmSaveOptions_Set_vertexPrecision</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this, float value)</td></tr>
+<tr class="separator:a96b486bac1e9f1ca0f74b6bc48b58deb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a575ee5105e9163764de2f7c15f82b1cd" id="r_a575ee5105e9163764de2f7c15f82b1cd"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a575ee5105e9163764de2f7c15f82b1cd">MR_MeshSave_CtmSaveOptions_GetMutable_vertexPrecision</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:a575ee5105e9163764de2f7c15f82b1cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5d3a72e44ad10efb5488a3f26e6828c" id="r_af5d3a72e44ad10efb5488a3f26e6828c"><td class="memItemLeft" align="right" valign="top">MRC_API const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5d3a72e44ad10efb5488a3f26e6828c">MR_MeshSave_CtmSaveOptions_Get_compressionLevel</a> (const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:af5d3a72e44ad10efb5488a3f26e6828c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98f7d92e176f4fcd4f833f0ca9a6752d" id="r_a98f7d92e176f4fcd4f833f0ca9a6752d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98f7d92e176f4fcd4f833f0ca9a6752d">MR_MeshSave_CtmSaveOptions_Set_compressionLevel</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this, int32_t value)</td></tr>
+<tr class="separator:a98f7d92e176f4fcd4f833f0ca9a6752d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59d9581374f0165f7c993e2c670db149" id="r_a59d9581374f0165f7c993e2c670db149"><td class="memItemLeft" align="right" valign="top">MRC_API int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59d9581374f0165f7c993e2c670db149">MR_MeshSave_CtmSaveOptions_GetMutable_compressionLevel</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:a59d9581374f0165f7c993e2c670db149"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51d1d903cd76c13e01515b47d7cc4d42" id="r_a51d1d903cd76c13e01515b47d7cc4d42"><td class="memItemLeft" align="right" valign="top">MRC_API const char *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51d1d903cd76c13e01515b47d7cc4d42">MR_MeshSave_CtmSaveOptions_Get_comment</a> (const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:a51d1d903cd76c13e01515b47d7cc4d42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a328de40ade9c51b5463834ff610ec5cb" id="r_a328de40ade9c51b5463834ff610ec5cb"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a328de40ade9c51b5463834ff610ec5cb">MR_MeshSave_CtmSaveOptions_Set_comment</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this, const char *value)</td></tr>
+<tr class="separator:a328de40ade9c51b5463834ff610ec5cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5db8a36cd772739d7bd79da698e3ea0a" id="r_a5db8a36cd772739d7bd79da698e3ea0a"><td class="memItemLeft" align="right" valign="top">MRC_API const char **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5db8a36cd772739d7bd79da698e3ea0a">MR_MeshSave_CtmSaveOptions_GetMutable_comment</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="separator:a5db8a36cd772739d7bd79da698e3ea0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bde6322690624b5ef273701a59c66c6" id="r_a5bde6322690624b5ef273701a59c66c6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5bde6322690624b5ef273701a59c66c6">MR_MeshSave_CtmSaveOptions_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a5bde6322690624b5ef273701a59c66c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d5633d56231b26f58e8909f0cdf3091" id="r_a5d5633d56231b26f58e8909f0cdf3091"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d5633d56231b26f58e8909f0cdf3091">MR_MeshSave_CtmSaveOptions_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a5d5633d56231b26f58e8909f0cdf3091"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f8b671feba7f6e593220fca1083b962" id="r_a8f8b671feba7f6e593220fca1083b962"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f8b671feba7f6e593220fca1083b962">MR_MeshSave_CtmSaveOptions_OffsetPtr</a> (const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a8f8b671feba7f6e593220fca1083b962"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a8f8b671feba7f6e593220fca1083b962"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af91f6477ec22ac582ff99b2407aae3ba" id="r_af91f6477ec22ac582ff99b2407aae3ba"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af91f6477ec22ac582ff99b2407aae3ba">MR_MeshSave_CtmSaveOptions_OffsetMutablePtr</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:af91f6477ec22ac582ff99b2407aae3ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:af91f6477ec22ac582ff99b2407aae3ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e47cc5f1d043ced4d4c5f9fa8d62924" id="r_a4e47cc5f1d043ced4d4c5f9fa8d62924"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e47cc5f1d043ced4d4c5f9fa8d62924">MR_MeshSave_CtmSaveOptions_UpcastTo_MR_SaveSettings</a> (const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *object)</td></tr>
+<tr class="separator:a4e47cc5f1d043ced4d4c5f9fa8d62924"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e9b418dcd61b7998481c160b2b57282" id="r_a7e9b418dcd61b7998481c160b2b57282"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e9b418dcd61b7998481c160b2b57282">MR_MeshSave_CtmSaveOptions_MutableUpcastTo_MR_SaveSettings</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *object)</td></tr>
+<tr class="memdesc:a7e9b418dcd61b7998481c160b2b57282"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html">MR::SaveSettings</a></code>.  <br /></td></tr>
+<tr class="separator:a7e9b418dcd61b7998481c160b2b57282"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5620600a136c83ec4c049fe288ce80af" id="r_a5620600a136c83ec4c049fe288ce80af"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5620600a136c83ec4c049fe288ce80af">MR_MeshSave_CtmSaveOptions_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_other)</td></tr>
+<tr class="separator:a5620600a136c83ec4c049fe288ce80af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01e02a3fe06e017c92cb3f62490c65b4" id="r_a01e02a3fe06e017c92cb3f62490c65b4"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01e02a3fe06e017c92cb3f62490c65b4">MR_MeshSave_CtmSaveOptions_Destroy</a> (const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="memdesc:a01e02a3fe06e017c92cb3f62490c65b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_MeshSave_CtmSaveOptions</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a01e02a3fe06e017c92cb3f62490c65b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b884f0036fecc89793bd6438e6e830e" id="r_a6b884f0036fecc89793bd6438e6e830e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b884f0036fecc89793bd6438e6e830e">MR_MeshSave_CtmSaveOptions_DestroyArray</a> (const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this)</td></tr>
+<tr class="memdesc:a6b884f0036fecc89793bd6438e6e830e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_MeshSave_CtmSaveOptions</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a6b884f0036fecc89793bd6438e6e830e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5414d9332ed0d51d847bc2aabb6345f6" id="r_a5414d9332ed0d51d847bc2aabb6345f6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5414d9332ed0d51d847bc2aabb6345f6">MR_MeshSave_CtmSaveOptions_AssignFromAnother</a> (<a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *_other)</td></tr>
+<tr class="separator:a5414d9332ed0d51d847bc2aabb6345f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9786cea0d6201c716d6fbdd87273365" id="r_af9786cea0d6201c716d6fbdd87273365"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9786cea0d6201c716d6fbdd87273365">MR_MeshSave_toCtm_const_std_filesystem_path_ref_MR_MeshSave_CtmSaveOptions</a> (const <a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const char *file, const char *file_end, const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *options)</td></tr>
+<tr class="separator:af9786cea0d6201c716d6fbdd87273365"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6792f6e284df5dba8bbc2c50736a896c" id="r_a6792f6e284df5dba8bbc2c50736a896c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6792f6e284df5dba8bbc2c50736a896c">MR_MeshSave_toCtm_std_ostream_ref_MR_MeshSave_CtmSaveOptions</a> (const <a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *out, const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *options)</td></tr>
+<tr class="separator:a6792f6e284df5dba8bbc2c50736a896c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3589b811a42127e6bb92b2e44805be6f" id="r_a3589b811a42127e6bb92b2e44805be6f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3589b811a42127e6bb92b2e44805be6f">MR_MeshSave_toCtm_const_std_filesystem_path_ref_MR_SaveSettings</a> (const <a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const char *file, const char *file_end, const <a class="el" href="#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *settings)</td></tr>
+<tr class="separator:a3589b811a42127e6bb92b2e44805be6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bbf35d640cb03cf353a5801d48c6cdb" id="r_a5bbf35d640cb03cf353a5801d48c6cdb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5bbf35d640cb03cf353a5801d48c6cdb">MR_MeshSave_toCtm_std_ostream_ref_MR_SaveSettings</a> (const <a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *out, const <a class="el" href="#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *settings)</td></tr>
+<tr class="separator:a5bbf35d640cb03cf353a5801d48c6cdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a034fe6d8e4bdbf04a6113b5f151d9a1c" id="r_a034fe6d8e4bdbf04a6113b5f151d9a1c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a9dbbf904c32d71d8c8ec8da2165b4a12">MR_expected_MR_PointCloud_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a034fe6d8e4bdbf04a6113b5f151d9a1c">MR_PointsLoad_fromCtm_std_filesystem_path</a> (const char *file, const char *file_end, const <a class="el" href="#a67029d3455a5c9aa45725d3c35e1e4df">MR_PointsLoadSettings</a> *settings)</td></tr>
+<tr class="separator:a034fe6d8e4bdbf04a6113b5f151d9a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c0953a7bfb95421f04ba76be330791f" id="r_a9c0953a7bfb95421f04ba76be330791f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a9dbbf904c32d71d8c8ec8da2165b4a12">MR_expected_MR_PointCloud_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c0953a7bfb95421f04ba76be330791f">MR_PointsLoad_fromCtm_std_istream</a> (<a class="el" href="#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, const <a class="el" href="#a67029d3455a5c9aa45725d3c35e1e4df">MR_PointsLoadSettings</a> *settings)</td></tr>
+<tr class="separator:a9c0953a7bfb95421f04ba76be330791f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accdd7e5f5d6eafd54077ea291f336d53" id="r_accdd7e5f5d6eafd54077ea291f336d53"><td class="memItemLeft" align="right" valign="top">MRC_API const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accdd7e5f5d6eafd54077ea291f336d53">MR_PointsSave_CtmSavePointsOptions_Get_compressionLevel</a> (const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="separator:accdd7e5f5d6eafd54077ea291f336d53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c560b5b30bbf0fbd081f887aa93f365" id="r_a9c560b5b30bbf0fbd081f887aa93f365"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c560b5b30bbf0fbd081f887aa93f365">MR_PointsSave_CtmSavePointsOptions_Set_compressionLevel</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this, int32_t value)</td></tr>
+<tr class="separator:a9c560b5b30bbf0fbd081f887aa93f365"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49b4542d26d238cb6096266507c14997" id="r_a49b4542d26d238cb6096266507c14997"><td class="memItemLeft" align="right" valign="top">MRC_API int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49b4542d26d238cb6096266507c14997">MR_PointsSave_CtmSavePointsOptions_GetMutable_compressionLevel</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="separator:a49b4542d26d238cb6096266507c14997"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c64fb47876e8536c66ffdd9ea99feeb" id="r_a3c64fb47876e8536c66ffdd9ea99feeb"><td class="memItemLeft" align="right" valign="top">MRC_API const char *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c64fb47876e8536c66ffdd9ea99feeb">MR_PointsSave_CtmSavePointsOptions_Get_comment</a> (const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="separator:a3c64fb47876e8536c66ffdd9ea99feeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a958dbb23137a73b8073f9c1b21c181d9" id="r_a958dbb23137a73b8073f9c1b21c181d9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a958dbb23137a73b8073f9c1b21c181d9">MR_PointsSave_CtmSavePointsOptions_Set_comment</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this, const char *value)</td></tr>
+<tr class="separator:a958dbb23137a73b8073f9c1b21c181d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a1459374918a00ebe31ee0304bb5128" id="r_a6a1459374918a00ebe31ee0304bb5128"><td class="memItemLeft" align="right" valign="top">MRC_API const char **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a1459374918a00ebe31ee0304bb5128">MR_PointsSave_CtmSavePointsOptions_GetMutable_comment</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="separator:a6a1459374918a00ebe31ee0304bb5128"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf89514f8b0a0ee45ff47a4153a75e05" id="r_acf89514f8b0a0ee45ff47a4153a75e05"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf89514f8b0a0ee45ff47a4153a75e05">MR_PointsSave_CtmSavePointsOptions_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:acf89514f8b0a0ee45ff47a4153a75e05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ff203eb8ac6ba249233fd506119237f" id="r_a6ff203eb8ac6ba249233fd506119237f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ff203eb8ac6ba249233fd506119237f">MR_PointsSave_CtmSavePointsOptions_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a6ff203eb8ac6ba249233fd506119237f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab492f7ff1aa492718a87eefa5dfde89a" id="r_ab492f7ff1aa492718a87eefa5dfde89a"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab492f7ff1aa492718a87eefa5dfde89a">MR_PointsSave_CtmSavePointsOptions_OffsetPtr</a> (const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ab492f7ff1aa492718a87eefa5dfde89a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ab492f7ff1aa492718a87eefa5dfde89a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcbcbb94efbd58ec420f2e5d9601357d" id="r_adcbcbb94efbd58ec420f2e5d9601357d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcbcbb94efbd58ec420f2e5d9601357d">MR_PointsSave_CtmSavePointsOptions_OffsetMutablePtr</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:adcbcbb94efbd58ec420f2e5d9601357d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:adcbcbb94efbd58ec420f2e5d9601357d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae527fafb5a35506aef82b8525527ad4e" id="r_ae527fafb5a35506aef82b8525527ad4e"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae527fafb5a35506aef82b8525527ad4e">MR_PointsSave_CtmSavePointsOptions_UpcastTo_MR_SaveSettings</a> (const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *object)</td></tr>
+<tr class="separator:ae527fafb5a35506aef82b8525527ad4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a168033e69e53baca2e4eea4462d33864" id="r_a168033e69e53baca2e4eea4462d33864"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a168033e69e53baca2e4eea4462d33864">MR_PointsSave_CtmSavePointsOptions_MutableUpcastTo_MR_SaveSettings</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *object)</td></tr>
+<tr class="memdesc:a168033e69e53baca2e4eea4462d33864"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html">MR::SaveSettings</a></code>.  <br /></td></tr>
+<tr class="separator:a168033e69e53baca2e4eea4462d33864"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1ef319bd87133bfc200d7dd5ddffec4" id="r_ae1ef319bd87133bfc200d7dd5ddffec4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1ef319bd87133bfc200d7dd5ddffec4">MR_PointsSave_CtmSavePointsOptions_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_other)</td></tr>
+<tr class="separator:ae1ef319bd87133bfc200d7dd5ddffec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76919b968ef58ebff44e142820b39216" id="r_a76919b968ef58ebff44e142820b39216"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76919b968ef58ebff44e142820b39216">MR_PointsSave_CtmSavePointsOptions_Destroy</a> (const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="memdesc:a76919b968ef58ebff44e142820b39216"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_PointsSave_CtmSavePointsOptions</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a76919b968ef58ebff44e142820b39216"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a627d8c921f63ee765c91d6691df6a7ee" id="r_a627d8c921f63ee765c91d6691df6a7ee"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a627d8c921f63ee765c91d6691df6a7ee">MR_PointsSave_CtmSavePointsOptions_DestroyArray</a> (const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this)</td></tr>
+<tr class="memdesc:a627d8c921f63ee765c91d6691df6a7ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_PointsSave_CtmSavePointsOptions</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a627d8c921f63ee765c91d6691df6a7ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a652818a2b3c9bd65ac20b8354091bc" id="r_a4a652818a2b3c9bd65ac20b8354091bc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a652818a2b3c9bd65ac20b8354091bc">MR_PointsSave_CtmSavePointsOptions_AssignFromAnother</a> (<a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *_other)</td></tr>
+<tr class="separator:a4a652818a2b3c9bd65ac20b8354091bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d282665ef482fcd38da59de9955f873" id="r_a9d282665ef482fcd38da59de9955f873"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d282665ef482fcd38da59de9955f873">MR_PointsSave_toCtm_const_std_filesystem_path_ref_MR_PointsSave_CtmSavePointsOptions</a> (const <a class="el" href="#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *points, const char *file, const char *file_end, const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *options)</td></tr>
+<tr class="separator:a9d282665ef482fcd38da59de9955f873"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a926c6c881eed4b22fff33a79f27373ac" id="r_a926c6c881eed4b22fff33a79f27373ac"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a926c6c881eed4b22fff33a79f27373ac">MR_PointsSave_toCtm_std_ostream_ref_MR_PointsSave_CtmSavePointsOptions</a> (const <a class="el" href="#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *points, <a class="el" href="#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *out, const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *options)</td></tr>
+<tr class="separator:a926c6c881eed4b22fff33a79f27373ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae359919c5fa299cb1f28f273e0606018" id="r_ae359919c5fa299cb1f28f273e0606018"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae359919c5fa299cb1f28f273e0606018">MR_PointsSave_toCtm_const_std_filesystem_path_ref_MR_SaveSettings</a> (const <a class="el" href="#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *points, const char *file, const char *file_end, const <a class="el" href="#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *settings)</td></tr>
+<tr class="separator:ae359919c5fa299cb1f28f273e0606018"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad6e794d22dda575e41e83f552bc50ef" id="r_aad6e794d22dda575e41e83f552bc50ef"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad6e794d22dda575e41e83f552bc50ef">MR_PointsSave_toCtm_std_ostream_ref_MR_SaveSettings</a> (const <a class="el" href="#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *points, <a class="el" href="#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *out, const <a class="el" href="#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *settings)</td></tr>
+<tr class="separator:aad6e794d22dda575e41e83f552bc50ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a0d97154d4aed695055160a4688c04a3d" name="a0d97154d4aed695055160a4688c04a3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d97154d4aed695055160a4688c04a3d">&#9670;&#160;</a></span>MR_expected_MR_Mesh_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> <a class="el" href="#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9dbbf904c32d71d8c8ec8da2165b4a12" name="a9dbbf904c32d71d8c8ec8da2165b4a12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dbbf904c32d71d8c8ec8da2165b4a12">&#9670;&#160;</a></span>MR_expected_MR_PointCloud_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a9dbbf904c32d71d8c8ec8da2165b4a12">MR_expected_MR_PointCloud_std_string</a> <a class="el" href="#a9dbbf904c32d71d8c8ec8da2165b4a12">MR_expected_MR_PointCloud_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a077b8debfae88f9cf2267ad2db95c006" name="a077b8debfae88f9cf2267ad2db95c006"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a077b8debfae88f9cf2267ad2db95c006">&#9670;&#160;</a></span>MR_expected_void_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> <a class="el" href="#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a31b172f68efca6438544d56eb86d6f40" name="a31b172f68efca6438544d56eb86d6f40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31b172f68efca6438544d56eb86d6f40">&#9670;&#160;</a></span>MR_Mesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> <a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a616a0b042e712074c2ed4013f47fa0af" name="a616a0b042e712074c2ed4013f47fa0af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a616a0b042e712074c2ed4013f47fa0af">&#9670;&#160;</a></span>MR_MeshLoadSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> <a class="el" href="#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aea4e2600dc2dc28784083571fad7d964" name="aea4e2600dc2dc28784083571fad7d964"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea4e2600dc2dc28784083571fad7d964">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code>. Inherits from: Directly: (non-virtually) <code><a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html">MR::SaveSettings</a></code> </p>
+
+</div>
+</div>
+<a id="a872d97d49815b31f8c532615cc5c1e51" name="a872d97d49815b31f8c532615cc5c1e51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a872d97d49815b31f8c532615cc5c1e51">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_MeshCompression</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int32_t <a class="el" href="#a872d97d49815b31f8c532615cc5c1e51">MR_MeshSave_CtmSaveOptions_MeshCompression</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa319738c95f0bbde075b7ef777cf2665" name="aa319738c95f0bbde075b7ef777cf2665"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa319738c95f0bbde075b7ef777cf2665">&#9670;&#160;</a></span>MR_PointCloud</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> <a class="el" href="#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a67029d3455a5c9aa45725d3c35e1e4df" name="a67029d3455a5c9aa45725d3c35e1e4df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67029d3455a5c9aa45725d3c35e1e4df">&#9670;&#160;</a></span>MR_PointsLoadSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a67029d3455a5c9aa45725d3c35e1e4df">MR_PointsLoadSettings</a> <a class="el" href="#a67029d3455a5c9aa45725d3c35e1e4df">MR_PointsLoadSettings</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae978f40ff51260a61a48889fa82116d9" name="ae978f40ff51260a61a48889fa82116d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae978f40ff51260a61a48889fa82116d9">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code>. Inherits from: Directly: (non-virtually) <code><a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html">MR::SaveSettings</a></code> </p>
+
+</div>
+</div>
+<a id="a66434f88501a5c24a45cf39f9dbcadbb" name="a66434f88501a5c24a45cf39f9dbcadbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66434f88501a5c24a45cf39f9dbcadbb">&#9670;&#160;</a></span>MR_SaveSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> <a class="el" href="#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aef22a11476e76208a3f9a5cf2eba4c98" name="aef22a11476e76208a3f9a5cf2eba4c98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef22a11476e76208a3f9a5cf2eba4c98">&#9670;&#160;</a></span>MR_std_istream</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> <a class="el" href="#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a933fad1748853c0c595a157b9f6527c6" name="a933fad1748853c0c595a157b9f6527c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a933fad1748853c0c595a157b9f6527c6">&#9670;&#160;</a></span>MR_std_ostream</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> <a class="el" href="#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a06fc87d81c62e9abb8790b6e5713c55b" name="a06fc87d81c62e9abb8790b6e5713c55b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06fc87d81c62e9abb8790b6e5713c55b">&#9670;&#160;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a06fc87d81c62e9abb8790b6e5713c55ba79fb2eaf5921b39485bde0b59fcd0843" name="a06fc87d81c62e9abb8790b6e5713c55ba79fb2eaf5921b39485bde0b59fcd0843"></a>MR_MeshSave_CtmSaveOptions_MeshCompression_None&#160;</td><td class="fielddoc"><p>no compression at all, fast but not effective </p>
+<p>compression without any loss in vertex coordinates </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a06fc87d81c62e9abb8790b6e5713c55bac0d78ba3e22174b08ce594bd751f65cb" name="a06fc87d81c62e9abb8790b6e5713c55bac0d78ba3e22174b08ce594bd751f65cb"></a>MR_MeshSave_CtmSaveOptions_MeshCompression_Lossless&#160;</td><td class="fielddoc"><p>compression with loss in vertex coordinates </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a06fc87d81c62e9abb8790b6e5713c55ba77400368e922da564ed9f007b1928829" name="a06fc87d81c62e9abb8790b6e5713c55ba77400368e922da564ed9f007b1928829"></a>MR_MeshSave_CtmSaveOptions_MeshCompression_Lossy&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="aa8f31be2306049e85cdd8b67746acf8e" name="aa8f31be2306049e85cdd8b67746acf8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8f31be2306049e85cdd8b67746acf8e">&#9670;&#160;</a></span>MR_MeshLoad_fromCtm_std_filesystem_path()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_MeshLoad_fromCtm_std_filesystem_path </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>loads from .ctm file Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1MeshLoad.html#ab8244b145886f1cf25efcd9d04e05901">MR::MeshLoad::fromCtm</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a330dac3c2a56185046b2ad22da43f54e" name="a330dac3c2a56185046b2ad22da43f54e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a330dac3c2a56185046b2ad22da43f54e">&#9670;&#160;</a></span>MR_MeshLoad_fromCtm_std_istream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_MeshLoad_fromCtm_std_istream </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1MeshLoad.html#ab8244b145886f1cf25efcd9d04e05901">MR::MeshLoad::fromCtm</a></code>. Parameter <code>in</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5414d9332ed0d51d847bc2aabb6345f6" name="a5414d9332ed0d51d847bc2aabb6345f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5414d9332ed0d51d847bc2aabb6345f6">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> * MR_MeshSave_CtmSaveOptions_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a5620600a136c83ec4c049fe288ce80af" name="a5620600a136c83ec4c049fe288ce80af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5620600a136c83ec4c049fe288ce80af">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> * MR_MeshSave_CtmSaveOptions_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a01e02a3fe06e017c92cb3f62490c65b4" title="Destroys a heap-allocated instance of MR_MeshSave_CtmSaveOptions. Does nothing if the pointer is null...">MR_MeshSave_CtmSaveOptions_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5bde6322690624b5ef273701a59c66c6" name="a5bde6322690624b5ef273701a59c66c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bde6322690624b5ef273701a59c66c6">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> * MR_MeshSave_CtmSaveOptions_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a01e02a3fe06e017c92cb3f62490c65b4" title="Destroys a heap-allocated instance of MR_MeshSave_CtmSaveOptions. Does nothing if the pointer is null...">MR_MeshSave_CtmSaveOptions_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5d5633d56231b26f58e8909f0cdf3091" name="a5d5633d56231b26f58e8909f0cdf3091"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d5633d56231b26f58e8909f0cdf3091">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> * MR_MeshSave_CtmSaveOptions_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a6b884f0036fecc89793bd6438e6e830e" title="Destroys a heap-allocated array of MR_MeshSave_CtmSaveOptions. Does nothing if the pointer is null.">MR_MeshSave_CtmSaveOptions_DestroyArray()</a></code>. Use <code><a class="el" href="#af91f6477ec22ac582ff99b2407aae3ba" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_MeshSave_CtmSaveOptions_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a8f8b671feba7f6e593220fca1083b962" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_MeshSave_CtmSaveOptions_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a01e02a3fe06e017c92cb3f62490c65b4" name="a01e02a3fe06e017c92cb3f62490c65b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01e02a3fe06e017c92cb3f62490c65b4">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshSave_CtmSaveOptions_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_MeshSave_CtmSaveOptions</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a6b884f0036fecc89793bd6438e6e830e" name="a6b884f0036fecc89793bd6438e6e830e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b884f0036fecc89793bd6438e6e830e">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshSave_CtmSaveOptions_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_MeshSave_CtmSaveOptions</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a51d1d903cd76c13e01515b47d7cc4d42" name="a51d1d903cd76c13e01515b47d7cc4d42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51d1d903cd76c13e01515b47d7cc4d42">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Get_comment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const char *const  * MR_MeshSave_CtmSaveOptions_Get_comment </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>comment saved in the file Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>comment</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="af5d3a72e44ad10efb5488a3f26e6828c" name="af5d3a72e44ad10efb5488a3f26e6828c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5d3a72e44ad10efb5488a3f26e6828c">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Get_compressionLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const int32_t * MR_MeshSave_CtmSaveOptions_Get_compressionLevel </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>LZMA compression: 0 - minimal compression, but fast; 9 - maximal compression, but slow Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>compressionLevel</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aa99c48a63ffa56da3d4e568eae796870" name="aa99c48a63ffa56da3d4e568eae796870"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa99c48a63ffa56da3d4e568eae796870">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Get_meshCompression()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a872d97d49815b31f8c532615cc5c1e51">MR_MeshSave_CtmSaveOptions_MeshCompression</a> * MR_MeshSave_CtmSaveOptions_Get_meshCompression </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>meshCompression</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a40fcc5aba2897f1f48e75f548218cb9f" name="a40fcc5aba2897f1f48e75f548218cb9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40fcc5aba2897f1f48e75f548218cb9f">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Get_vertexPrecision()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const float * MR_MeshSave_CtmSaveOptions_Get_vertexPrecision </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>vertexPrecision</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a5db8a36cd772739d7bd79da698e3ea0a" name="a5db8a36cd772739d7bd79da698e3ea0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5db8a36cd772739d7bd79da698e3ea0a">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_GetMutable_comment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const char ** MR_MeshSave_CtmSaveOptions_GetMutable_comment </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>comment saved in the file Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>comment</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a59d9581374f0165f7c993e2c670db149" name="a59d9581374f0165f7c993e2c670db149"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59d9581374f0165f7c993e2c670db149">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_GetMutable_compressionLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API int32_t * MR_MeshSave_CtmSaveOptions_GetMutable_compressionLevel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>LZMA compression: 0 - minimal compression, but fast; 9 - maximal compression, but slow Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>compressionLevel</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a135291565896938bb52dd4c60b7e4f1d" name="a135291565896938bb52dd4c60b7e4f1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a135291565896938bb52dd4c60b7e4f1d">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_GetMutable_meshCompression()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a872d97d49815b31f8c532615cc5c1e51">MR_MeshSave_CtmSaveOptions_MeshCompression</a> * MR_MeshSave_CtmSaveOptions_GetMutable_meshCompression </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>meshCompression</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a575ee5105e9163764de2f7c15f82b1cd" name="a575ee5105e9163764de2f7c15f82b1cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a575ee5105e9163764de2f7c15f82b1cd">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_GetMutable_vertexPrecision()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float * MR_MeshSave_CtmSaveOptions_GetMutable_vertexPrecision </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>vertexPrecision</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a7e9b418dcd61b7998481c160b2b57282" name="a7e9b418dcd61b7998481c160b2b57282"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e9b418dcd61b7998481c160b2b57282">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_MutableUpcastTo_MR_SaveSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> * MR_MeshSave_CtmSaveOptions_MutableUpcastTo_MR_SaveSettings </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html">MR::SaveSettings</a></code>. </p>
+
+</div>
+</div>
+<a id="af91f6477ec22ac582ff99b2407aae3ba" name="af91f6477ec22ac582ff99b2407aae3ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af91f6477ec22ac582ff99b2407aae3ba">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> * MR_MeshSave_CtmSaveOptions_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a8f8b671feba7f6e593220fca1083b962" name="a8f8b671feba7f6e593220fca1083b962"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f8b671feba7f6e593220fca1083b962">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> * MR_MeshSave_CtmSaveOptions_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a328de40ade9c51b5463834ff610ec5cb" name="a328de40ade9c51b5463834ff610ec5cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a328de40ade9c51b5463834ff610ec5cb">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Set_comment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshSave_CtmSaveOptions_Set_comment </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>comment saved in the file Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>comment</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a98f7d92e176f4fcd4f833f0ca9a6752d" name="a98f7d92e176f4fcd4f833f0ca9a6752d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98f7d92e176f4fcd4f833f0ca9a6752d">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Set_compressionLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshSave_CtmSaveOptions_Set_compressionLevel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>LZMA compression: 0 - minimal compression, but fast; 9 - maximal compression, but slow Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>compressionLevel</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="adc9cba613695e824d2d52bce900bc248" name="adc9cba613695e824d2d52bce900bc248"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc9cba613695e824d2d52bce900bc248">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Set_meshCompression()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshSave_CtmSaveOptions_Set_meshCompression </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a872d97d49815b31f8c532615cc5c1e51">MR_MeshSave_CtmSaveOptions_MeshCompression</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>meshCompression</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a96b486bac1e9f1ca0f74b6bc48b58deb" name="a96b486bac1e9f1ca0f74b6bc48b58deb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96b486bac1e9f1ca0f74b6bc48b58deb">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_Set_vertexPrecision()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshSave_CtmSaveOptions_Set_vertexPrecision </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> named <code>vertexPrecision</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a4e47cc5f1d043ced4d4c5f9fa8d62924" name="a4e47cc5f1d043ced4d4c5f9fa8d62924"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e47cc5f1d043ced4d4c5f9fa8d62924">&#9670;&#160;</a></span>MR_MeshSave_CtmSaveOptions_UpcastTo_MR_SaveSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> * MR_MeshSave_CtmSaveOptions_UpcastTo_MR_SaveSettings </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html">MR::SaveSettings</a></code>. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="af9786cea0d6201c716d6fbdd87273365" name="af9786cea0d6201c716d6fbdd87273365"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9786cea0d6201c716d6fbdd87273365">&#9670;&#160;</a></span>MR_MeshSave_toCtm_const_std_filesystem_path_ref_MR_MeshSave_CtmSaveOptions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_MeshSave_toCtm_const_std_filesystem_path_ref_MR_MeshSave_CtmSaveOptions </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>options</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>saves in .ctm file Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1MeshSave.html#a22395c6fe76cfa33bd45c5498865c20e">MR::MeshSave::toCtm</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>options</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a3589b811a42127e6bb92b2e44805be6f" name="a3589b811a42127e6bb92b2e44805be6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3589b811a42127e6bb92b2e44805be6f">&#9670;&#160;</a></span>MR_MeshSave_toCtm_const_std_filesystem_path_ref_MR_SaveSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_MeshSave_toCtm_const_std_filesystem_path_ref_MR_SaveSettings </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1MeshSave.html#a22395c6fe76cfa33bd45c5498865c20e">MR::MeshSave::toCtm</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a6792f6e284df5dba8bbc2c50736a896c" name="a6792f6e284df5dba8bbc2c50736a896c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6792f6e284df5dba8bbc2c50736a896c">&#9670;&#160;</a></span>MR_MeshSave_toCtm_std_ostream_ref_MR_MeshSave_CtmSaveOptions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_MeshSave_toCtm_std_ostream_ref_MR_MeshSave_CtmSaveOptions </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *</td>          <td class="paramname"><span class="paramname"><em>out</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aea4e2600dc2dc28784083571fad7d964">MR_MeshSave_CtmSaveOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>options</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1MeshSave.html#a22395c6fe76cfa33bd45c5498865c20e">MR::MeshSave::toCtm</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>out</code> can not be null. Parameter <code>options</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5bbf35d640cb03cf353a5801d48c6cdb" name="a5bbf35d640cb03cf353a5801d48c6cdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bbf35d640cb03cf353a5801d48c6cdb">&#9670;&#160;</a></span>MR_MeshSave_toCtm_std_ostream_ref_MR_SaveSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_MeshSave_toCtm_std_ostream_ref_MR_SaveSettings </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *</td>          <td class="paramname"><span class="paramname"><em>out</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1MeshSave.html#a22395c6fe76cfa33bd45c5498865c20e">MR::MeshSave::toCtm</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>out</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a034fe6d8e4bdbf04a6113b5f151d9a1c" name="a034fe6d8e4bdbf04a6113b5f151d9a1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a034fe6d8e4bdbf04a6113b5f151d9a1c">&#9670;&#160;</a></span>MR_PointsLoad_fromCtm_std_filesystem_path()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a9dbbf904c32d71d8c8ec8da2165b4a12">MR_expected_MR_PointCloud_std_string</a> * MR_PointsLoad_fromCtm_std_filesystem_path </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a67029d3455a5c9aa45725d3c35e1e4df">MR_PointsLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>loads from .ctm file Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#a9b59aa67ceb07a2c286623b602b0df14">MR::PointsLoad::fromCtm</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__PointCloud__std__string_8h.html#a8654ce01cf68830f66fb0f132ea8ca5f" title="Destroys a heap-allocated instance of MR_expected_MR_PointCloud_std_string. Does nothing if the point...">MR_expected_MR_PointCloud_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a9c0953a7bfb95421f04ba76be330791f" name="a9c0953a7bfb95421f04ba76be330791f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c0953a7bfb95421f04ba76be330791f">&#9670;&#160;</a></span>MR_PointsLoad_fromCtm_std_istream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a9dbbf904c32d71d8c8ec8da2165b4a12">MR_expected_MR_PointCloud_std_string</a> * MR_PointsLoad_fromCtm_std_istream </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a67029d3455a5c9aa45725d3c35e1e4df">MR_PointsLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsLoad.html#a9b59aa67ceb07a2c286623b602b0df14">MR::PointsLoad::fromCtm</a></code>. Parameter <code>in</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__PointCloud__std__string_8h.html#a8654ce01cf68830f66fb0f132ea8ca5f" title="Destroys a heap-allocated instance of MR_expected_MR_PointCloud_std_string. Does nothing if the point...">MR_expected_MR_PointCloud_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a4a652818a2b3c9bd65ac20b8354091bc" name="a4a652818a2b3c9bd65ac20b8354091bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a652818a2b3c9bd65ac20b8354091bc">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> * MR_PointsSave_CtmSavePointsOptions_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ae1ef319bd87133bfc200d7dd5ddffec4" name="ae1ef319bd87133bfc200d7dd5ddffec4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1ef319bd87133bfc200d7dd5ddffec4">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> * MR_PointsSave_CtmSavePointsOptions_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a76919b968ef58ebff44e142820b39216" title="Destroys a heap-allocated instance of MR_PointsSave_CtmSavePointsOptions. Does nothing if the pointer...">MR_PointsSave_CtmSavePointsOptions_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="acf89514f8b0a0ee45ff47a4153a75e05" name="acf89514f8b0a0ee45ff47a4153a75e05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf89514f8b0a0ee45ff47a4153a75e05">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> * MR_PointsSave_CtmSavePointsOptions_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a76919b968ef58ebff44e142820b39216" title="Destroys a heap-allocated instance of MR_PointsSave_CtmSavePointsOptions. Does nothing if the pointer...">MR_PointsSave_CtmSavePointsOptions_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a6ff203eb8ac6ba249233fd506119237f" name="a6ff203eb8ac6ba249233fd506119237f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ff203eb8ac6ba249233fd506119237f">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> * MR_PointsSave_CtmSavePointsOptions_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a627d8c921f63ee765c91d6691df6a7ee" title="Destroys a heap-allocated array of MR_PointsSave_CtmSavePointsOptions. Does nothing if the pointer is...">MR_PointsSave_CtmSavePointsOptions_DestroyArray()</a></code>. Use <code><a class="el" href="#adcbcbb94efbd58ec420f2e5d9601357d" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_PointsSave_CtmSavePointsOptions_OffsetMutablePtr()</a></code> and <code><a class="el" href="#ab492f7ff1aa492718a87eefa5dfde89a" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_PointsSave_CtmSavePointsOptions_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a76919b968ef58ebff44e142820b39216" name="a76919b968ef58ebff44e142820b39216"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76919b968ef58ebff44e142820b39216">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_PointsSave_CtmSavePointsOptions_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_PointsSave_CtmSavePointsOptions</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a627d8c921f63ee765c91d6691df6a7ee" name="a627d8c921f63ee765c91d6691df6a7ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a627d8c921f63ee765c91d6691df6a7ee">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_PointsSave_CtmSavePointsOptions_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_PointsSave_CtmSavePointsOptions</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a3c64fb47876e8536c66ffdd9ea99feeb" name="a3c64fb47876e8536c66ffdd9ea99feeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c64fb47876e8536c66ffdd9ea99feeb">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Get_comment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const char *const  * MR_PointsSave_CtmSavePointsOptions_Get_comment </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>comment saved in the file Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>comment</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="accdd7e5f5d6eafd54077ea291f336d53" name="accdd7e5f5d6eafd54077ea291f336d53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accdd7e5f5d6eafd54077ea291f336d53">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Get_compressionLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const int32_t * MR_PointsSave_CtmSavePointsOptions_Get_compressionLevel </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>0 - minimal compression, but fast; 9 - maximal compression, but slow Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>compressionLevel</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a6a1459374918a00ebe31ee0304bb5128" name="a6a1459374918a00ebe31ee0304bb5128"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a1459374918a00ebe31ee0304bb5128">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_GetMutable_comment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const char ** MR_PointsSave_CtmSavePointsOptions_GetMutable_comment </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>comment saved in the file Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>comment</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a49b4542d26d238cb6096266507c14997" name="a49b4542d26d238cb6096266507c14997"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49b4542d26d238cb6096266507c14997">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_GetMutable_compressionLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API int32_t * MR_PointsSave_CtmSavePointsOptions_GetMutable_compressionLevel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>0 - minimal compression, but fast; 9 - maximal compression, but slow Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>compressionLevel</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a168033e69e53baca2e4eea4462d33864" name="a168033e69e53baca2e4eea4462d33864"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a168033e69e53baca2e4eea4462d33864">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_MutableUpcastTo_MR_SaveSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> * MR_PointsSave_CtmSavePointsOptions_MutableUpcastTo_MR_SaveSettings </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html">MR::SaveSettings</a></code>. </p>
+
+</div>
+</div>
+<a id="adcbcbb94efbd58ec420f2e5d9601357d" name="adcbcbb94efbd58ec420f2e5d9601357d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcbcbb94efbd58ec420f2e5d9601357d">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> * MR_PointsSave_CtmSavePointsOptions_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ab492f7ff1aa492718a87eefa5dfde89a" name="ab492f7ff1aa492718a87eefa5dfde89a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab492f7ff1aa492718a87eefa5dfde89a">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> * MR_PointsSave_CtmSavePointsOptions_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a958dbb23137a73b8073f9c1b21c181d9" name="a958dbb23137a73b8073f9c1b21c181d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a958dbb23137a73b8073f9c1b21c181d9">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Set_comment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_PointsSave_CtmSavePointsOptions_Set_comment </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>comment saved in the file Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>comment</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a9c560b5b30bbf0fbd081f887aa93f365" name="a9c560b5b30bbf0fbd081f887aa93f365"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c560b5b30bbf0fbd081f887aa93f365">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_Set_compressionLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_PointsSave_CtmSavePointsOptions_Set_compressionLevel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>0 - minimal compression, but fast; 9 - maximal compression, but slow Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> named <code>compressionLevel</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae527fafb5a35506aef82b8525527ad4e" name="ae527fafb5a35506aef82b8525527ad4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae527fafb5a35506aef82b8525527ad4e">&#9670;&#160;</a></span>MR_PointsSave_CtmSavePointsOptions_UpcastTo_MR_SaveSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> * MR_PointsSave_CtmSavePointsOptions_UpcastTo_MR_SaveSettings </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html">MR::SaveSettings</a></code>. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="a9d282665ef482fcd38da59de9955f873" name="a9d282665ef482fcd38da59de9955f873"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d282665ef482fcd38da59de9955f873">&#9670;&#160;</a></span>MR_PointsSave_toCtm_const_std_filesystem_path_ref_MR_PointsSave_CtmSavePointsOptions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_PointsSave_toCtm_const_std_filesystem_path_ref_MR_PointsSave_CtmSavePointsOptions </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>options</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>saves in .ctm file Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsSave.html#aa04e7f02c224a36b21fe5634798e0ec0">MR::PointsSave::toCtm</a></code>. Parameter <code>points</code> can not be null. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>options</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae359919c5fa299cb1f28f273e0606018" name="ae359919c5fa299cb1f28f273e0606018"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae359919c5fa299cb1f28f273e0606018">&#9670;&#160;</a></span>MR_PointsSave_toCtm_const_std_filesystem_path_ref_MR_SaveSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_PointsSave_toCtm_const_std_filesystem_path_ref_MR_SaveSettings </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsSave.html#aa04e7f02c224a36b21fe5634798e0ec0">MR::PointsSave::toCtm</a></code>. Parameter <code>points</code> can not be null. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a926c6c881eed4b22fff33a79f27373ac" name="a926c6c881eed4b22fff33a79f27373ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a926c6c881eed4b22fff33a79f27373ac">&#9670;&#160;</a></span>MR_PointsSave_toCtm_std_ostream_ref_MR_PointsSave_CtmSavePointsOptions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_PointsSave_toCtm_std_ostream_ref_MR_PointsSave_CtmSavePointsOptions </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *</td>          <td class="paramname"><span class="paramname"><em>out</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ae978f40ff51260a61a48889fa82116d9">MR_PointsSave_CtmSavePointsOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>options</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsSave.html#aa04e7f02c224a36b21fe5634798e0ec0">MR::PointsSave::toCtm</a></code>. Parameter <code>points</code> can not be null. Parameter <code>out</code> can not be null. Parameter <code>options</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aad6e794d22dda575e41e83f552bc50ef" name="aad6e794d22dda575e41e83f552bc50ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad6e794d22dda575e41e83f552bc50ef">&#9670;&#160;</a></span>MR_PointsSave_toCtm_std_ostream_ref_MR_SaveSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_PointsSave_toCtm_std_ostream_ref_MR_SaveSettings </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *</td>          <td class="paramname"><span class="paramname"><em>out</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PointsSave.html#aa04e7f02c224a36b21fe5634798e0ec0">MR::PointsSave::toCtm</a></code>. Parameter <code>points</code> can not be null. Parameter <code>out</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_274d2882a935dca8757ae801fd4fa1d8.html">MRCIOExtras</a></li><li class="navelem"><a class="el" href="MRCtm_8h.html">MRCtm.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

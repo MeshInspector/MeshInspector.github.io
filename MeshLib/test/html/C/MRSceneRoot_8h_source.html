@@ -1,0 +1,311 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRSceneRoot.h Source File</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRSceneRoot_8h_source.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">MRSceneRoot.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="MRSceneRoot_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="common_8h.html">MRCMisc/common.h</a>&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;MRCMisc/exports.h&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#accce9c9179cadabc541edda0fc7a2571">   13</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> <a class="code hl_typedef" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRObject.h&gt;`.</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">   14</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> <a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRObject.h&gt;`.</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">   15</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> <a class="code hl_typedef" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_filesystem_path.h&gt;`.</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">   16</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> <a class="code hl_typedef" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_shared_ptr_MR_Object.h&gt;`.</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#a455fb1e45d1e455a5436d36279622bb2">   17</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRSceneLoad_8h.html#a455fb1e45d1e455a5436d36279622bb2">MR_std_shared_ptr_MR_SceneRootObject</a> <a class="code hl_typedef" href="MRSceneLoad_8h.html#a455fb1e45d1e455a5436d36279622bb2">MR_std_shared_ptr_MR_SceneRootObject</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_shared_ptr_MR_SceneRootObject.h&gt;`.</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#a331e2aeba64435c9d33bfce1ba5741de">   18</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRSceneRoot_8h.html#a331e2aeba64435c9d33bfce1ba5741de">MR_std_shared_ptr_const_MR_SceneRootObject</a> <a class="code hl_typedef" href="MRSceneRoot_8h.html#a331e2aeba64435c9d33bfce1ba5741de">MR_std_shared_ptr_const_MR_SceneRootObject</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_shared_ptr_const_MR_SceneRootObject.h&gt;`.</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#a69dc6868c10c92fb8b8a255b0130d289">   19</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_string.h&gt;`.</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#a885f919fff839030c6725c849e0db23a">   29</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a> <a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a>;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">typedef</span> <span class="keyword">struct </span>MR_SceneRoot MR_SceneRoot;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#a881f702590d2b633de1ede775e216346">   38</a></span>MRC_API <a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a> *<a class="code hl_function" href="MRSceneRoot_8h.html#a881f702590d2b633de1ede775e216346">MR_SceneRootObject_DefaultConstruct</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#a5859e84688bdf60c5bed52fd4f63c32f">   43</a></span>MRC_API <a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a> *<a class="code hl_function" href="MRSceneRoot_8h.html#a5859e84688bdf60c5bed52fd4f63c32f">MR_SceneRootObject_DefaultConstructArray</a>(<span class="keywordtype">size_t</span> num_elems);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#a248951b3223039f04d6c63363ad72bdb">   46</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a> *<a class="code hl_function" href="MRSceneRoot_8h.html#a248951b3223039f04d6c63363ad72bdb">MR_SceneRootObject_OffsetPtr</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#ac9324d2bd41a25ffafffa04e4981e1a1">   49</a></span>MRC_API <a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a> *<a class="code hl_function" href="MRSceneRoot_8h.html#ac9324d2bd41a25ffafffa04e4981e1a1">MR_SceneRootObject_OffsetMutablePtr</a>(<a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#ae9cb5811a3218c16fe935117cd68ceab">   53</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *<a class="code hl_function" href="MRSceneRoot_8h.html#ae9cb5811a3218c16fe935117cd68ceab">MR_SceneRootObject_UpcastTo_MR_Object</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#a927580cff8bf45f62d15a9ddf599a406">   56</a></span>MRC_API <a class="code hl_typedef" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *<a class="code hl_function" href="MRSceneRoot_8h.html#a927580cff8bf45f62d15a9ddf599a406">MR_SceneRootObject_MutableUpcastTo_MR_Object</a>(<a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#a0629a04a4a6b7b33b0344336a49ffc03">   60</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> *<a class="code hl_function" href="MRSceneRoot_8h.html#a0629a04a4a6b7b33b0344336a49ffc03">MR_SceneRootObject_UpcastTo_MR_ObjectChildrenHolder</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#a6b7400a2250767b1e0babb900ae97080">   63</a></span>MRC_API <a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> *<a class="code hl_function" href="MRSceneRoot_8h.html#a6b7400a2250767b1e0babb900ae97080">MR_SceneRootObject_MutableUpcastTo_MR_ObjectChildrenHolder</a>(<a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#ab09df5b7d6706524e779413ca9feafd5">   67</a></span>MRC_API <a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a> *<a class="code hl_function" href="MRSceneRoot_8h.html#ab09df5b7d6706524e779413ca9feafd5">MR_SceneRootObject_ConstructFromAnother</a>(<a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a> *_other);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#a2484d5e9a1691629ed283930e8332e1e">   70</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRSceneRoot_8h.html#a2484d5e9a1691629ed283930e8332e1e">MR_SceneRootObject_Destroy</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a> *_this);</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#aabb996104a9decfc75cebf285bd9f05a">   73</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRSceneRoot_8h.html#aabb996104a9decfc75cebf285bd9f05a">MR_SceneRootObject_DestroyArray</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a> *_this);</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#aca2babcc48c961d5175b504e6d20c159">   78</a></span>MRC_API <a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a> *<a class="code hl_function" href="MRSceneRoot_8h.html#aca2babcc48c961d5175b504e6d20c159">MR_SceneRootObject_AssignFromAnother</a>(<a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a> *_this, <a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a> *_other);</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#a112a0502a5997f2947a6ba4ac7002c35">   81</a></span>MRC_API <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_function" href="MRSceneRoot_8h.html#a112a0502a5997f2947a6ba4ac7002c35">MR_SceneRootObject_TypeName</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#a307d5767a504102966075040c993d226">   84</a></span>MRC_API <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_function" href="MRSceneRoot_8h.html#a307d5767a504102966075040c993d226">MR_SceneRootObject_RootName</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#aded8363b501fc32be05d7ed5f4ee9239">   89</a></span>MRC_API <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="code hl_function" href="MRSceneRoot_8h.html#aded8363b501fc32be05d7ed5f4ee9239">MR_SceneRootObject_getClassName</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a> *_this);</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#a60603c074e43fd632ae91e20fb6c231c">   94</a></span>MRC_API <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="code hl_function" href="MRSceneRoot_8h.html#a60603c074e43fd632ae91e20fb6c231c">MR_SceneRootObject_getClassNameInPlural</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a> *_this);</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#ae690e76f78919b3edfb4b57514acb44e">   98</a></span>MRC_API <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_function" href="MRSceneRoot_8h.html#ae690e76f78919b3edfb4b57514acb44e">MR_SceneRootObject_typeName</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a> *_this);</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#a32279e233d8007eef94111287c5767ad">  102</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRSceneRoot_8h.html#a32279e233d8007eef94111287c5767ad">MR_SceneRootObject_setAncillary</a>(<a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a> *_this, <span class="keywordtype">bool</span> _1);</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#a84f886c3fe962d4ca204cfd28caf29e3">  106</a></span>MRC_API <span class="keywordtype">bool</span> <a class="code hl_function" href="MRSceneRoot_8h.html#a84f886c3fe962d4ca204cfd28caf29e3">MR_SceneRootObject_select</a>(<a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a> *_this, <span class="keywordtype">bool</span> _1);</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#ac8510d76a2b38ebadad1ae588b4a6e61">  112</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRSceneRoot_8h.html#ac8510d76a2b38ebadad1ae588b4a6e61">MR_SceneRootObject_setName</a>(<a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a> *_this, <span class="keyword">const</span> <span class="keywordtype">char</span> *_1, <span class="keyword">const</span> <span class="keywordtype">char</span> *_1_end);</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#aa7fbaf527d9ba53b3258fff71d4e47ed">  117</a></span>MRC_API <a class="code hl_typedef" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *<a class="code hl_function" href="MRSceneRoot_8h.html#aa7fbaf527d9ba53b3258fff71d4e47ed">MR_SceneRootObject_clone</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a> *_this);</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#a771df96f595492ec18d214432350247e">  123</a></span>MRC_API <a class="code hl_typedef" href="MRSceneLoad_8h.html#a455fb1e45d1e455a5436d36279622bb2">MR_std_shared_ptr_MR_SceneRootObject</a> *<a class="code hl_function" href="MRSceneRoot_8h.html#a771df96f595492ec18d214432350247e">MR_SceneRootObject_cloneRoot</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a> *_this);</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span> </div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#a1dce2ea8a00445cedebe98f820587ce2">  129</a></span>MRC_API <a class="code hl_typedef" href="MRSceneLoad_8h.html#a455fb1e45d1e455a5436d36279622bb2">MR_std_shared_ptr_MR_SceneRootObject</a> *<a class="code hl_function" href="MRSceneRoot_8h.html#a1dce2ea8a00445cedebe98f820587ce2">MR_createRootFormObject</a>(<a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> obj_pass_by, <a class="code hl_typedef" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *obj);</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#a5fa0ff63164a8f0d93029b0a100461a2">  133</a></span>MRC_API MR_SceneRoot *<a class="code hl_function" href="MRSceneRoot_8h.html#a5fa0ff63164a8f0d93029b0a100461a2">MR_SceneRoot_ConstructFromAnother</a>(<a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, MR_SceneRoot *_other);</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#ac04b888fb856ca0bc44e3b0f4062fcc4">  136</a></span>MRC_API <span class="keyword">const</span> MR_SceneRoot *<a class="code hl_function" href="MRSceneRoot_8h.html#ac04b888fb856ca0bc44e3b0f4062fcc4">MR_SceneRoot_OffsetPtr</a>(<span class="keyword">const</span> MR_SceneRoot *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span> </div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#aa0f28a0a55cab3329aa279eef8bf2e70">  139</a></span>MRC_API MR_SceneRoot *<a class="code hl_function" href="MRSceneRoot_8h.html#aa0f28a0a55cab3329aa279eef8bf2e70">MR_SceneRoot_OffsetMutablePtr</a>(MR_SceneRoot *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span> </div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#ac8707be247c8df0e3534d0c4f13966aa">  142</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRSceneRoot_8h.html#ac8707be247c8df0e3534d0c4f13966aa">MR_SceneRoot_Destroy</a>(<span class="keyword">const</span> MR_SceneRoot *_this);</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span> </div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#a7a8d4a2bd70193946b0c24b5fbdac14a">  145</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRSceneRoot_8h.html#a7a8d4a2bd70193946b0c24b5fbdac14a">MR_SceneRoot_DestroyArray</a>(<span class="keyword">const</span> MR_SceneRoot *_this);</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span> </div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#ae960e4bb9ef13a9032b94bec852deaf9">  150</a></span>MRC_API MR_SceneRoot *<a class="code hl_function" href="MRSceneRoot_8h.html#ae960e4bb9ef13a9032b94bec852deaf9">MR_SceneRoot_AssignFromAnother</a>(MR_SceneRoot *_this, <a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, MR_SceneRoot *_other);</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span> </div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#a07564c84f4cd0c720974245b6bccdcc7">  154</a></span>MRC_API <a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a> *<a class="code hl_function" href="MRSceneRoot_8h.html#a07564c84f4cd0c720974245b6bccdcc7">MR_SceneRoot_get</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span> </div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#a6c98cbc77e98e5ff580c58a3247a092b">  158</a></span>MRC_API <a class="code hl_typedef" href="MRSceneLoad_8h.html#a455fb1e45d1e455a5436d36279622bb2">MR_std_shared_ptr_MR_SceneRootObject</a> *<a class="code hl_function" href="MRSceneRoot_8h.html#a6c98cbc77e98e5ff580c58a3247a092b">MR_SceneRoot_getSharedPtr</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span> </div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#ac8446385e6100873728c6083addfd7fb">  162</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRSceneRoot_8h.html#ac8446385e6100873728c6083addfd7fb">MR_SceneRoot_setScenePath</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *scenePath, <span class="keyword">const</span> <span class="keywordtype">char</span> *scenePath_end);</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span> </div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#a74b89e4f3d6105d41d525186f083dc12">  166</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a> *<a class="code hl_function" href="MRSceneRoot_8h.html#a74b89e4f3d6105d41d525186f083dc12">MR_SceneRoot_constGet</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span> </div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#a2068d4cd7c9b2641a7b945eee92b2a9e">  170</a></span>MRC_API <a class="code hl_typedef" href="MRSceneRoot_8h.html#a331e2aeba64435c9d33bfce1ba5741de">MR_std_shared_ptr_const_MR_SceneRootObject</a> *<a class="code hl_function" href="MRSceneRoot_8h.html#a2068d4cd7c9b2641a7b945eee92b2a9e">MR_SceneRoot_constGetSharedPtr</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span> </div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno"><a class="line" href="MRSceneRoot_8h.html#a6c51be6c38804779ff77bca30c3316c4">  174</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *<a class="code hl_function" href="MRSceneRoot_8h.html#a6c51be6c38804779ff77bca30c3316c4">MR_SceneRoot_getScenePath</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span> </div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aMRAddVisualPropertiesMixin_8h_html_aecafdb5edbdb31eb13fbab762e3c39bc"><div class="ttname"><a href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a></div><div class="ttdeci">struct MR_ObjectChildrenHolder MR_ObjectChildrenHolder</div><div class="ttdef"><b>Definition</b> MRAddVisualPropertiesMixin.h:18</div></div>
+<div class="ttc" id="aMRAngleMeasurementObject_8h_html_a9e9b9c2b8a1a0540b204b1b7e6e792f4"><div class="ttname"><a href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a></div><div class="ttdeci">struct MR_std_shared_ptr_MR_Object MR_std_shared_ptr_MR_Object</div><div class="ttdef"><b>Definition</b> MRAngleMeasurementObject.h:18</div></div>
+<div class="ttc" id="aMRE57_8h_html_a69dc6868c10c92fb8b8a255b0130d289"><div class="ttname"><a href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></div><div class="ttdeci">struct MR_std_string MR_std_string</div><div class="ttdef"><b>Definition</b> MRE57.h:22</div></div>
+<div class="ttc" id="aMRGltf_8h_html_accce9c9179cadabc541edda0fc7a2571"><div class="ttname"><a href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a></div><div class="ttdeci">struct MR_Object MR_Object</div><div class="ttdef"><b>Definition</b> MRGltf.h:10</div></div>
+<div class="ttc" id="aMRObject_8h_html_a885f919fff839030c6725c849e0db23a"><div class="ttname"><a href="MRObject_8h.html#a885f919fff839030c6725c849e0db23a">MR_SceneRootObject</a></div><div class="ttdeci">struct MR_SceneRootObject MR_SceneRootObject</div><div class="ttdef"><b>Definition</b> MRObject.h:40</div></div>
+<div class="ttc" id="aMRSceneLoad_8h_html_a455fb1e45d1e455a5436d36279622bb2"><div class="ttname"><a href="MRSceneLoad_8h.html#a455fb1e45d1e455a5436d36279622bb2">MR_std_shared_ptr_MR_SceneRootObject</a></div><div class="ttdeci">struct MR_std_shared_ptr_MR_SceneRootObject MR_std_shared_ptr_MR_SceneRootObject</div><div class="ttdef"><b>Definition</b> MRSceneLoad.h:15</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_a006d61fd2048bba5b5622d42cbe72526"><div class="ttname"><a href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a></div><div class="ttdeci">struct MR_std_filesystem_path MR_std_filesystem_path</div><div class="ttdef"><b>Definition</b> MRSceneRoot.h:15</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_a0629a04a4a6b7b33b0344336a49ffc03"><div class="ttname"><a href="MRSceneRoot_8h.html#a0629a04a4a6b7b33b0344336a49ffc03">MR_SceneRootObject_UpcastTo_MR_ObjectChildrenHolder</a></div><div class="ttdeci">MRC_API const MR_ObjectChildrenHolder * MR_SceneRootObject_UpcastTo_MR_ObjectChildrenHolder(const MR_SceneRootObject *object)</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_a07564c84f4cd0c720974245b6bccdcc7"><div class="ttname"><a href="MRSceneRoot_8h.html#a07564c84f4cd0c720974245b6bccdcc7">MR_SceneRoot_get</a></div><div class="ttdeci">MRC_API MR_SceneRootObject * MR_SceneRoot_get(void)</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_a112a0502a5997f2947a6ba4ac7002c35"><div class="ttname"><a href="MRSceneRoot_8h.html#a112a0502a5997f2947a6ba4ac7002c35">MR_SceneRootObject_TypeName</a></div><div class="ttdeci">MRC_API const char * MR_SceneRootObject_TypeName(void)</div><div class="ttdoc">Generated from a method of class MR::SceneRootObject named TypeName.</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_a1dce2ea8a00445cedebe98f820587ce2"><div class="ttname"><a href="MRSceneRoot_8h.html#a1dce2ea8a00445cedebe98f820587ce2">MR_createRootFormObject</a></div><div class="ttdeci">MRC_API MR_std_shared_ptr_MR_SceneRootObject * MR_createRootFormObject(MR_PassBy obj_pass_by, MR_std_shared_ptr_MR_Object *obj)</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_a2068d4cd7c9b2641a7b945eee92b2a9e"><div class="ttname"><a href="MRSceneRoot_8h.html#a2068d4cd7c9b2641a7b945eee92b2a9e">MR_SceneRoot_constGetSharedPtr</a></div><div class="ttdeci">MRC_API MR_std_shared_ptr_const_MR_SceneRootObject * MR_SceneRoot_constGetSharedPtr(void)</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_a2484d5e9a1691629ed283930e8332e1e"><div class="ttname"><a href="MRSceneRoot_8h.html#a2484d5e9a1691629ed283930e8332e1e">MR_SceneRootObject_Destroy</a></div><div class="ttdeci">MRC_API void MR_SceneRootObject_Destroy(const MR_SceneRootObject *_this)</div><div class="ttdoc">Destroys a heap-allocated instance of MR_SceneRootObject. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_a248951b3223039f04d6c63363ad72bdb"><div class="ttname"><a href="MRSceneRoot_8h.html#a248951b3223039f04d6c63363ad72bdb">MR_SceneRootObject_OffsetPtr</a></div><div class="ttdeci">MRC_API const MR_SceneRootObject * MR_SceneRootObject_OffsetPtr(const MR_SceneRootObject *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_a307d5767a504102966075040c993d226"><div class="ttname"><a href="MRSceneRoot_8h.html#a307d5767a504102966075040c993d226">MR_SceneRootObject_RootName</a></div><div class="ttdeci">MRC_API const char * MR_SceneRootObject_RootName(void)</div><div class="ttdoc">Generated from a method of class MR::SceneRootObject named RootName.</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_a32279e233d8007eef94111287c5767ad"><div class="ttname"><a href="MRSceneRoot_8h.html#a32279e233d8007eef94111287c5767ad">MR_SceneRootObject_setAncillary</a></div><div class="ttdeci">MRC_API void MR_SceneRootObject_setAncillary(MR_SceneRootObject *_this, bool _1)</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_a331e2aeba64435c9d33bfce1ba5741de"><div class="ttname"><a href="MRSceneRoot_8h.html#a331e2aeba64435c9d33bfce1ba5741de">MR_std_shared_ptr_const_MR_SceneRootObject</a></div><div class="ttdeci">struct MR_std_shared_ptr_const_MR_SceneRootObject MR_std_shared_ptr_const_MR_SceneRootObject</div><div class="ttdef"><b>Definition</b> MRSceneRoot.h:18</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_a5859e84688bdf60c5bed52fd4f63c32f"><div class="ttname"><a href="MRSceneRoot_8h.html#a5859e84688bdf60c5bed52fd4f63c32f">MR_SceneRootObject_DefaultConstructArray</a></div><div class="ttdeci">MRC_API MR_SceneRootObject * MR_SceneRootObject_DefaultConstructArray(size_t num_elems)</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_a5fa0ff63164a8f0d93029b0a100461a2"><div class="ttname"><a href="MRSceneRoot_8h.html#a5fa0ff63164a8f0d93029b0a100461a2">MR_SceneRoot_ConstructFromAnother</a></div><div class="ttdeci">MRC_API MR_SceneRoot * MR_SceneRoot_ConstructFromAnother(MR_PassBy _other_pass_by, MR_SceneRoot *_other)</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_a60603c074e43fd632ae91e20fb6c231c"><div class="ttname"><a href="MRSceneRoot_8h.html#a60603c074e43fd632ae91e20fb6c231c">MR_SceneRootObject_getClassNameInPlural</a></div><div class="ttdeci">MRC_API MR_std_string * MR_SceneRootObject_getClassNameInPlural(const MR_SceneRootObject *_this)</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_a6b7400a2250767b1e0babb900ae97080"><div class="ttname"><a href="MRSceneRoot_8h.html#a6b7400a2250767b1e0babb900ae97080">MR_SceneRootObject_MutableUpcastTo_MR_ObjectChildrenHolder</a></div><div class="ttdeci">MRC_API MR_ObjectChildrenHolder * MR_SceneRootObject_MutableUpcastTo_MR_ObjectChildrenHolder(MR_SceneRootObject *object)</div><div class="ttdoc">Upcasts an instance of MR::SceneRootObject to its base class MR::ObjectChildrenHolder.</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_a6c51be6c38804779ff77bca30c3316c4"><div class="ttname"><a href="MRSceneRoot_8h.html#a6c51be6c38804779ff77bca30c3316c4">MR_SceneRoot_getScenePath</a></div><div class="ttdeci">MRC_API const MR_std_filesystem_path * MR_SceneRoot_getScenePath(void)</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_a6c98cbc77e98e5ff580c58a3247a092b"><div class="ttname"><a href="MRSceneRoot_8h.html#a6c98cbc77e98e5ff580c58a3247a092b">MR_SceneRoot_getSharedPtr</a></div><div class="ttdeci">MRC_API MR_std_shared_ptr_MR_SceneRootObject * MR_SceneRoot_getSharedPtr(void)</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_a74b89e4f3d6105d41d525186f083dc12"><div class="ttname"><a href="MRSceneRoot_8h.html#a74b89e4f3d6105d41d525186f083dc12">MR_SceneRoot_constGet</a></div><div class="ttdeci">MRC_API const MR_SceneRootObject * MR_SceneRoot_constGet(void)</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_a771df96f595492ec18d214432350247e"><div class="ttname"><a href="MRSceneRoot_8h.html#a771df96f595492ec18d214432350247e">MR_SceneRootObject_cloneRoot</a></div><div class="ttdeci">MRC_API MR_std_shared_ptr_MR_SceneRootObject * MR_SceneRootObject_cloneRoot(const MR_SceneRootObject *_this)</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_a7a8d4a2bd70193946b0c24b5fbdac14a"><div class="ttname"><a href="MRSceneRoot_8h.html#a7a8d4a2bd70193946b0c24b5fbdac14a">MR_SceneRoot_DestroyArray</a></div><div class="ttdeci">MRC_API void MR_SceneRoot_DestroyArray(const MR_SceneRoot *_this)</div><div class="ttdoc">Destroys a heap-allocated array of MR_SceneRoot. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_a84f886c3fe962d4ca204cfd28caf29e3"><div class="ttname"><a href="MRSceneRoot_8h.html#a84f886c3fe962d4ca204cfd28caf29e3">MR_SceneRootObject_select</a></div><div class="ttdeci">MRC_API bool MR_SceneRootObject_select(MR_SceneRootObject *_this, bool _1)</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_a881f702590d2b633de1ede775e216346"><div class="ttname"><a href="MRSceneRoot_8h.html#a881f702590d2b633de1ede775e216346">MR_SceneRootObject_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_SceneRootObject * MR_SceneRootObject_DefaultConstruct(void)</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_a927580cff8bf45f62d15a9ddf599a406"><div class="ttname"><a href="MRSceneRoot_8h.html#a927580cff8bf45f62d15a9ddf599a406">MR_SceneRootObject_MutableUpcastTo_MR_Object</a></div><div class="ttdeci">MRC_API MR_Object * MR_SceneRootObject_MutableUpcastTo_MR_Object(MR_SceneRootObject *object)</div><div class="ttdoc">Upcasts an instance of MR::SceneRootObject to its base class MR::Object.</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_aa0f28a0a55cab3329aa279eef8bf2e70"><div class="ttname"><a href="MRSceneRoot_8h.html#aa0f28a0a55cab3329aa279eef8bf2e70">MR_SceneRoot_OffsetMutablePtr</a></div><div class="ttdeci">MRC_API MR_SceneRoot * MR_SceneRoot_OffsetMutablePtr(MR_SceneRoot *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_aa7fbaf527d9ba53b3258fff71d4e47ed"><div class="ttname"><a href="MRSceneRoot_8h.html#aa7fbaf527d9ba53b3258fff71d4e47ed">MR_SceneRootObject_clone</a></div><div class="ttdeci">MRC_API MR_std_shared_ptr_MR_Object * MR_SceneRootObject_clone(const MR_SceneRootObject *_this)</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_aabb996104a9decfc75cebf285bd9f05a"><div class="ttname"><a href="MRSceneRoot_8h.html#aabb996104a9decfc75cebf285bd9f05a">MR_SceneRootObject_DestroyArray</a></div><div class="ttdeci">MRC_API void MR_SceneRootObject_DestroyArray(const MR_SceneRootObject *_this)</div><div class="ttdoc">Destroys a heap-allocated array of MR_SceneRootObject. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_ab09df5b7d6706524e779413ca9feafd5"><div class="ttname"><a href="MRSceneRoot_8h.html#ab09df5b7d6706524e779413ca9feafd5">MR_SceneRootObject_ConstructFromAnother</a></div><div class="ttdeci">MRC_API MR_SceneRootObject * MR_SceneRootObject_ConstructFromAnother(MR_PassBy _other_pass_by, MR_SceneRootObject *_other)</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_ac04b888fb856ca0bc44e3b0f4062fcc4"><div class="ttname"><a href="MRSceneRoot_8h.html#ac04b888fb856ca0bc44e3b0f4062fcc4">MR_SceneRoot_OffsetPtr</a></div><div class="ttdeci">MRC_API const MR_SceneRoot * MR_SceneRoot_OffsetPtr(const MR_SceneRoot *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_ac8446385e6100873728c6083addfd7fb"><div class="ttname"><a href="MRSceneRoot_8h.html#ac8446385e6100873728c6083addfd7fb">MR_SceneRoot_setScenePath</a></div><div class="ttdeci">MRC_API void MR_SceneRoot_setScenePath(const char *scenePath, const char *scenePath_end)</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_ac8510d76a2b38ebadad1ae588b4a6e61"><div class="ttname"><a href="MRSceneRoot_8h.html#ac8510d76a2b38ebadad1ae588b4a6e61">MR_SceneRootObject_setName</a></div><div class="ttdeci">MRC_API void MR_SceneRootObject_setName(MR_SceneRootObject *_this, const char *_1, const char *_1_end)</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_ac8707be247c8df0e3534d0c4f13966aa"><div class="ttname"><a href="MRSceneRoot_8h.html#ac8707be247c8df0e3534d0c4f13966aa">MR_SceneRoot_Destroy</a></div><div class="ttdeci">MRC_API void MR_SceneRoot_Destroy(const MR_SceneRoot *_this)</div><div class="ttdoc">Destroys a heap-allocated instance of MR_SceneRoot. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_ac9324d2bd41a25ffafffa04e4981e1a1"><div class="ttname"><a href="MRSceneRoot_8h.html#ac9324d2bd41a25ffafffa04e4981e1a1">MR_SceneRootObject_OffsetMutablePtr</a></div><div class="ttdeci">MRC_API MR_SceneRootObject * MR_SceneRootObject_OffsetMutablePtr(MR_SceneRootObject *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_aca2babcc48c961d5175b504e6d20c159"><div class="ttname"><a href="MRSceneRoot_8h.html#aca2babcc48c961d5175b504e6d20c159">MR_SceneRootObject_AssignFromAnother</a></div><div class="ttdeci">MRC_API MR_SceneRootObject * MR_SceneRootObject_AssignFromAnother(MR_SceneRootObject *_this, MR_PassBy _other_pass_by, MR_SceneRootObject *_other)</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_aded8363b501fc32be05d7ed5f4ee9239"><div class="ttname"><a href="MRSceneRoot_8h.html#aded8363b501fc32be05d7ed5f4ee9239">MR_SceneRootObject_getClassName</a></div><div class="ttdeci">MRC_API MR_std_string * MR_SceneRootObject_getClassName(const MR_SceneRootObject *_this)</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_ae690e76f78919b3edfb4b57514acb44e"><div class="ttname"><a href="MRSceneRoot_8h.html#ae690e76f78919b3edfb4b57514acb44e">MR_SceneRootObject_typeName</a></div><div class="ttdeci">MRC_API const char * MR_SceneRootObject_typeName(const MR_SceneRootObject *_this)</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_ae960e4bb9ef13a9032b94bec852deaf9"><div class="ttname"><a href="MRSceneRoot_8h.html#ae960e4bb9ef13a9032b94bec852deaf9">MR_SceneRoot_AssignFromAnother</a></div><div class="ttdeci">MRC_API MR_SceneRoot * MR_SceneRoot_AssignFromAnother(MR_SceneRoot *_this, MR_PassBy _other_pass_by, MR_SceneRoot *_other)</div></div>
+<div class="ttc" id="aMRSceneRoot_8h_html_ae9cb5811a3218c16fe935117cd68ceab"><div class="ttname"><a href="MRSceneRoot_8h.html#ae9cb5811a3218c16fe935117cd68ceab">MR_SceneRootObject_UpcastTo_MR_Object</a></div><div class="ttdeci">MRC_API const MR_Object * MR_SceneRootObject_UpcastTo_MR_Object(const MR_SceneRootObject *object)</div></div>
+<div class="ttc" id="acommon_8h_html"><div class="ttname"><a href="common_8h.html">common.h</a></div></div>
+<div class="ttc" id="acommon_8h_html_ac983b89bddb9b22c9b416f31399f0095"><div class="ttname"><a href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></div><div class="ttdeci">MR_PassBy</div><div class="ttdef"><b>Definition</b> common.h:19</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_8b489c7b5d1a72d35ec87e32cc37b940.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRSceneRoot_8h.html">MRSceneRoot.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

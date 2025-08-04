@@ -1,0 +1,740 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.VoxelsSave Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1VoxelsSave.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1VoxelsSave-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.VoxelsSave Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelsSave_1_1SavingSettings.html">SavingSettings</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:abd85d41ad04e2341867d0c1844532cb2" id="r_abd85d41ad04e2341867d0c1844532cb2"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd85d41ad04e2341867d0c1844532cb2">saveAllSlicesToImage</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1VdbVolume.html">VdbVolume</a> vdbVolume, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelsSave_1_1SavingSettings.html">VoxelsSave.SavingSettings</a> settings)</td></tr>
+<tr class="separator:abd85d41ad04e2341867d0c1844532cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69df8519a64375ccaeceda4219bd64a1" id="r_a69df8519a64375ccaeceda4219bd64a1"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69df8519a64375ccaeceda4219bd64a1">saveSliceToImage</a> (os.PathLike path, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VdbVolume.html">VdbVolume</a> vdbVolume, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1SlicePlane.html">SlicePlane</a> slicePlain, int sliceNumber, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> callback='<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}')</td></tr>
+<tr class="separator:a69df8519a64375ccaeceda4219bd64a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a997be122d9e6512991695220ddc2e762" id="r_a997be122d9e6512991695220ddc2e762"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a997be122d9e6512991695220ddc2e762">toAnySupportedFormat</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1VdbVolume.html">VdbVolume</a> vdbVolume, os.PathLike file, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> callback='<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}')</td></tr>
+<tr class="separator:a997be122d9e6512991695220ddc2e762"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9bd94d21742af17e230d7bda626174a" id="r_ac9bd94d21742af17e230d7bda626174a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9bd94d21742af17e230d7bda626174a">toDicom</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1VdbVolume.html">VdbVolume</a> vdbVolume, os.PathLike path, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}')</td></tr>
+<tr class="separator:ac9bd94d21742af17e230d7bda626174a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6605e1ea2f0749abfe2db007b43aea07" id="r_a6605e1ea2f0749abfe2db007b43aea07"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6605e1ea2f0749abfe2db007b43aea07">toGav</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1SimpleVolumeMinMax.html">SimpleVolumeMinMax</a> simpleVolumeMinMax, os.PathLike file, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> callback='<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}')</td></tr>
+<tr class="separator:a6605e1ea2f0749abfe2db007b43aea07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac097b023426f0a33d2dd3f9f64274871" id="r_ac097b023426f0a33d2dd3f9f64274871"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac097b023426f0a33d2dd3f9f64274871">toGav</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1SimpleVolume.html">SimpleVolume</a> simpleVolume, os.PathLike file, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> callback='<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}')</td></tr>
+<tr class="separator:ac097b023426f0a33d2dd3f9f64274871"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaf2d95d4283925a771fe02153a17b04" id="r_acaf2d95d4283925a771fe02153a17b04"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acaf2d95d4283925a771fe02153a17b04">toGav</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1VdbVolume.html">VdbVolume</a> vdbVolume, os.PathLike file, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> callback='<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}')</td></tr>
+<tr class="separator:acaf2d95d4283925a771fe02153a17b04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9834a19098f6c0037f8b62b2906d01e5" id="r_a9834a19098f6c0037f8b62b2906d01e5"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9834a19098f6c0037f8b62b2906d01e5">toGav</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1SimpleVolumeMinMax.html">SimpleVolumeMinMax</a> simpleVolumeMinMax, typing.Any out, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> callback='<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}')</td></tr>
+<tr class="separator:a9834a19098f6c0037f8b62b2906d01e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9af63064c1264006091b1bcbb3924c86" id="r_a9af63064c1264006091b1bcbb3924c86"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9af63064c1264006091b1bcbb3924c86">toGav</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1SimpleVolume.html">SimpleVolume</a> simpleVolume, typing.Any out, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> callback='<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}')</td></tr>
+<tr class="separator:a9af63064c1264006091b1bcbb3924c86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a2c0abeeb2a8e28d297e5f08d5ba5a3" id="r_a0a2c0abeeb2a8e28d297e5f08d5ba5a3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a2c0abeeb2a8e28d297e5f08d5ba5a3">toGav</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1VdbVolume.html">VdbVolume</a> vdbVolume, typing.Any out, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> callback='<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}')</td></tr>
+<tr class="separator:a0a2c0abeeb2a8e28d297e5f08d5ba5a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ccb197ff312492c059caf1dc50ed85d" id="r_a8ccb197ff312492c059caf1dc50ed85d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ccb197ff312492c059caf1dc50ed85d">toRawAutoname</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1VdbVolume.html">VdbVolume</a> vdbVolume, os.PathLike file, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> callback='<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}')</td></tr>
+<tr class="separator:a8ccb197ff312492c059caf1dc50ed85d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07221c660e383729cd5ccafbda09e0bd" id="r_a07221c660e383729cd5ccafbda09e0bd"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07221c660e383729cd5ccafbda09e0bd">toRawAutoname</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1SimpleVolume.html">SimpleVolume</a> simpleVolume, os.PathLike file, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> callback='<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}')</td></tr>
+<tr class="separator:a07221c660e383729cd5ccafbda09e0bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b1b75a576636f924b15062a9ff34acb" id="r_a8b1b75a576636f924b15062a9ff34acb"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b1b75a576636f924b15062a9ff34acb">toRawFloat</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1VdbVolume.html">VdbVolume</a> vdbVolume, typing.Any out, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> callback='<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}')</td></tr>
+<tr class="separator:a8b1b75a576636f924b15062a9ff34acb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c49a42aa6f4e61a2ddcfb8b663dd9ce" id="r_a8c49a42aa6f4e61a2ddcfb8b663dd9ce"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c49a42aa6f4e61a2ddcfb8b663dd9ce">toRawFloat</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1SimpleVolume.html">SimpleVolume</a> simpleVolume, typing.Any out, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> callback='<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}')</td></tr>
+<tr class="separator:a8c49a42aa6f4e61a2ddcfb8b663dd9ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d8080eab79cdb16bb194e6ff8e74ffa" id="r_a4d8080eab79cdb16bb194e6ff8e74ffa"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d8080eab79cdb16bb194e6ff8e74ffa">toVdb</a> (<a class="el" href="classmeshlib_1_1mrmeshpy_1_1VdbVolume.html">VdbVolume</a> vdbVolume, os.PathLike file, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> callback='<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}')</td></tr>
+<tr class="separator:a4d8080eab79cdb16bb194e6ff8e74ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">This is a namespace.
+</pre> </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="abd85d41ad04e2341867d0c1844532cb2" name="abd85d41ad04e2341867d0c1844532cb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd85d41ad04e2341867d0c1844532cb2">&#9670;&#160;</a></span>saveAllSlicesToImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.VoxelsSave.saveAllSlicesToImage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VdbVolume.html">VdbVolume</a></td>          <td class="paramname"><span class="paramname"><em>vdbVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelsSave_1_1SavingSettings.html">VoxelsSave.SavingSettings</a></td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">save all slices by the active plane through all voxel planes along the active axis to an image file
+</pre> 
+</div>
+</div>
+<a id="a69df8519a64375ccaeceda4219bd64a1" name="a69df8519a64375ccaeceda4219bd64a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69df8519a64375ccaeceda4219bd64a1">&#9670;&#160;</a></span>saveSliceToImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.VoxelsSave.saveSliceToImage </td>
+          <td>(</td>
+          <td class="paramtype">os.PathLike</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VdbVolume.html">VdbVolume</a></td>          <td class="paramname"><span class="paramname"><em>vdbVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1SlicePlane.html">SlicePlane</a></td>          <td class="paramname"><span class="paramname"><em>slicePlain</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>sliceNumber</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> </td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">save the slice by the active plane through the sliceNumber to an image file
+</pre> 
+</div>
+</div>
+<a id="a997be122d9e6512991695220ddc2e762" name="a997be122d9e6512991695220ddc2e762"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a997be122d9e6512991695220ddc2e762">&#9670;&#160;</a></span>toAnySupportedFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.VoxelsSave.toAnySupportedFormat </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VdbVolume.html">VdbVolume</a></td>          <td class="paramname"><span class="paramname"><em>vdbVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">os.PathLike</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> </td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">Saves voxels in a file, detecting the format from file extension
+</pre> 
+</div>
+</div>
+<a id="ac9bd94d21742af17e230d7bda626174a" name="ac9bd94d21742af17e230d7bda626174a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9bd94d21742af17e230d7bda626174a">&#9670;&#160;</a></span>toDicom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.VoxelsSave.toDicom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VdbVolume.html">VdbVolume</a></td>          <td class="paramname"><span class="paramname"><em>vdbVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">os.PathLike</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> </td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">Save voxels objet to a single 3d DICOM file
+</pre> 
+</div>
+</div>
+<a id="ac097b023426f0a33d2dd3f9f64274871" name="ac097b023426f0a33d2dd3f9f64274871"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac097b023426f0a33d2dd3f9f64274871">&#9670;&#160;</a></span>toGav() <span class="overload">[1/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.VoxelsSave.toGav </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1SimpleVolume.html">SimpleVolume</a></td>          <td class="paramname"><span class="paramname"><em>simpleVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">os.PathLike</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> </td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9af63064c1264006091b1bcbb3924c86" name="a9af63064c1264006091b1bcbb3924c86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9af63064c1264006091b1bcbb3924c86">&#9670;&#160;</a></span>toGav() <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.VoxelsSave.toGav </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1SimpleVolume.html">SimpleVolume</a></td>          <td class="paramname"><span class="paramname"><em>simpleVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typing.Any</td>          <td class="paramname"><span class="paramname"><em>out</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> </td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6605e1ea2f0749abfe2db007b43aea07" name="a6605e1ea2f0749abfe2db007b43aea07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6605e1ea2f0749abfe2db007b43aea07">&#9670;&#160;</a></span>toGav() <span class="overload">[3/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.VoxelsSave.toGav </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1SimpleVolumeMinMax.html">SimpleVolumeMinMax</a></td>          <td class="paramname"><span class="paramname"><em>simpleVolumeMinMax</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">os.PathLike</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> </td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9834a19098f6c0037f8b62b2906d01e5" name="a9834a19098f6c0037f8b62b2906d01e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9834a19098f6c0037f8b62b2906d01e5">&#9670;&#160;</a></span>toGav() <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.VoxelsSave.toGav </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1SimpleVolumeMinMax.html">SimpleVolumeMinMax</a></td>          <td class="paramname"><span class="paramname"><em>simpleVolumeMinMax</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typing.Any</td>          <td class="paramname"><span class="paramname"><em>out</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> </td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acaf2d95d4283925a771fe02153a17b04" name="acaf2d95d4283925a771fe02153a17b04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaf2d95d4283925a771fe02153a17b04">&#9670;&#160;</a></span>toGav() <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.VoxelsSave.toGav </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VdbVolume.html">VdbVolume</a></td>          <td class="paramname"><span class="paramname"><em>vdbVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">os.PathLike</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> </td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">Save voxels in Gav-format in given destination
+</pre> 
+</div>
+</div>
+<a id="a0a2c0abeeb2a8e28d297e5f08d5ba5a3" name="a0a2c0abeeb2a8e28d297e5f08d5ba5a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a2c0abeeb2a8e28d297e5f08d5ba5a3">&#9670;&#160;</a></span>toGav() <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.VoxelsSave.toGav </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VdbVolume.html">VdbVolume</a></td>          <td class="paramname"><span class="paramname"><em>vdbVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typing.Any</td>          <td class="paramname"><span class="paramname"><em>out</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> </td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a07221c660e383729cd5ccafbda09e0bd" name="a07221c660e383729cd5ccafbda09e0bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07221c660e383729cd5ccafbda09e0bd">&#9670;&#160;</a></span>toRawAutoname() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.VoxelsSave.toRawAutoname </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1SimpleVolume.html">SimpleVolume</a></td>          <td class="paramname"><span class="paramname"><em>simpleVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">os.PathLike</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> </td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8ccb197ff312492c059caf1dc50ed85d" name="a8ccb197ff312492c059caf1dc50ed85d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ccb197ff312492c059caf1dc50ed85d">&#9670;&#160;</a></span>toRawAutoname() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.VoxelsSave.toRawAutoname </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VdbVolume.html">VdbVolume</a></td>          <td class="paramname"><span class="paramname"><em>vdbVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">os.PathLike</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> </td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">Save raw voxels file, writing parameters in file name
+</pre> 
+</div>
+</div>
+<a id="a8c49a42aa6f4e61a2ddcfb8b663dd9ce" name="a8c49a42aa6f4e61a2ddcfb8b663dd9ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c49a42aa6f4e61a2ddcfb8b663dd9ce">&#9670;&#160;</a></span>toRawFloat() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.VoxelsSave.toRawFloat </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1SimpleVolume.html">SimpleVolume</a></td>          <td class="paramname"><span class="paramname"><em>simpleVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typing.Any</td>          <td class="paramname"><span class="paramname"><em>out</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> </td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8b1b75a576636f924b15062a9ff34acb" name="a8b1b75a576636f924b15062a9ff34acb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b1b75a576636f924b15062a9ff34acb">&#9670;&#160;</a></span>toRawFloat() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.VoxelsSave.toRawFloat </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VdbVolume.html">VdbVolume</a></td>          <td class="paramname"><span class="paramname"><em>vdbVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typing.Any</td>          <td class="paramname"><span class="paramname"><em>out</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> </td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">Save voxels in raw format with each value as 32-bit float in given binary stream
+</pre> 
+</div>
+</div>
+<a id="a4d8080eab79cdb16bb194e6ff8e74ffa" name="a4d8080eab79cdb16bb194e6ff8e74ffa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d8080eab79cdb16bb194e6ff8e74ffa">&#9670;&#160;</a></span>toVdb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.VoxelsSave.toVdb </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VdbVolume.html">VdbVolume</a></td>          <td class="paramname"><span class="paramname"><em>vdbVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">os.PathLike</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> </td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">Save voxels file in OpenVDB format
+</pre> 
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VoxelsSave.html">VoxelsSave</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

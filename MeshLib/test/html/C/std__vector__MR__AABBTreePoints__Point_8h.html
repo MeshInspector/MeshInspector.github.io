@@ -1,0 +1,1770 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: std_vector_MR_AABBTreePoints_Point.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('std__vector__MR__AABBTreePoints__Point_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">std_vector_MR_AABBTreePoints_Point.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="std__vector__MR__AABBTreePoints__Point_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a95218be66d288a0d4bf57491e6e8b109" id="r_a95218be66d288a0d4bf57491e6e8b109"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a></td></tr>
+<tr class="separator:a95218be66d288a0d4bf57491e6e8b109"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73ecbd814e9edb9c62f4f57cbbf98cb6" id="r_a73ecbd814e9edb9c62f4f57cbbf98cb6"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a></td></tr>
+<tr class="separator:a73ecbd814e9edb9c62f4f57cbbf98cb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50d9e8c6256a2f0c31427b76b0a03154" id="r_a50d9e8c6256a2f0c31427b76b0a03154"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a></td></tr>
+<tr class="separator:a50d9e8c6256a2f0c31427b76b0a03154"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87e536cd7f311339f0e266a0747d3453" id="r_a87e536cd7f311339f0e266a0747d3453"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a></td></tr>
+<tr class="separator:a87e536cd7f311339f0e266a0747d3453"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:acbf075f325aecbd2a3bc7ffecc37b155" id="r_acbf075f325aecbd2a3bc7ffecc37b155"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbf075f325aecbd2a3bc7ffecc37b155">MR_std_vector_MR_AABBTreePoints_Point_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:acbf075f325aecbd2a3bc7ffecc37b155"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3a3861a242e5736a1c311086f9c8fde" id="r_ad3a3861a242e5736a1c311086f9c8fde"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3a3861a242e5736a1c311086f9c8fde">MR_std_vector_MR_AABBTreePoints_Point_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ad3a3861a242e5736a1c311086f9c8fde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35afbb8275962b580becb6356b98d645" id="r_a35afbb8275962b580becb6356b98d645"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35afbb8275962b580becb6356b98d645">MR_std_vector_MR_AABBTreePoints_Point_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *other)</td></tr>
+<tr class="separator:a35afbb8275962b580becb6356b98d645"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b47bab79a322fe5e87230a2aec24d3c" id="r_a8b47bab79a322fe5e87230a2aec24d3c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b47bab79a322fe5e87230a2aec24d3c">MR_std_vector_MR_AABBTreePoints_Point_AssignFromAnother</a> (<a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *other)</td></tr>
+<tr class="separator:a8b47bab79a322fe5e87230a2aec24d3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19772fc2b3e284405f19decbb039e58c" id="r_a19772fc2b3e284405f19decbb039e58c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19772fc2b3e284405f19decbb039e58c">MR_std_vector_MR_AABBTreePoints_Point_Destroy</a> (const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this)</td></tr>
+<tr class="memdesc:a19772fc2b3e284405f19decbb039e58c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_AABBTreePoints_Point</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a19772fc2b3e284405f19decbb039e58c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9c164571419f1c302ff5f645ec551b9" id="r_ae9c164571419f1c302ff5f645ec551b9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9c164571419f1c302ff5f645ec551b9">MR_std_vector_MR_AABBTreePoints_Point_DestroyArray</a> (const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this)</td></tr>
+<tr class="memdesc:ae9c164571419f1c302ff5f645ec551b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_AABBTreePoints_Point</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ae9c164571419f1c302ff5f645ec551b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b5ff8187af94dcf876734140c4e329f" id="r_a1b5ff8187af94dcf876734140c4e329f"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b5ff8187af94dcf876734140c4e329f">MR_std_vector_MR_AABBTreePoints_Point_OffsetPtr</a> (const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a1b5ff8187af94dcf876734140c4e329f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a1b5ff8187af94dcf876734140c4e329f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d18ab42c59b14082e1f6bd831117cf4" id="r_a7d18ab42c59b14082e1f6bd831117cf4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d18ab42c59b14082e1f6bd831117cf4">MR_std_vector_MR_AABBTreePoints_Point_OffsetMutablePtr</a> (<a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a7d18ab42c59b14082e1f6bd831117cf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a7d18ab42c59b14082e1f6bd831117cf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3af5755cb925fd4ba9af6f011e040849" id="r_a3af5755cb925fd4ba9af6f011e040849"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3af5755cb925fd4ba9af6f011e040849">MR_std_vector_MR_AABBTreePoints_Point_Size</a> (const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this)</td></tr>
+<tr class="separator:a3af5755cb925fd4ba9af6f011e040849"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf970bf2b67ac5e3e53686dcdb86b1a0" id="r_adf970bf2b67ac5e3e53686dcdb86b1a0"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf970bf2b67ac5e3e53686dcdb86b1a0">MR_std_vector_MR_AABBTreePoints_Point_IsEmpty</a> (const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this)</td></tr>
+<tr class="separator:adf970bf2b67ac5e3e53686dcdb86b1a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e8997154c0b3687afb93734f2b450bc" id="r_a9e8997154c0b3687afb93734f2b450bc"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e8997154c0b3687afb93734f2b450bc">MR_std_vector_MR_AABBTreePoints_Point_Resize</a> (<a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this, size_t new_size)</td></tr>
+<tr class="separator:a9e8997154c0b3687afb93734f2b450bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99c7deafd41108e82afae676518f3991" id="r_a99c7deafd41108e82afae676518f3991"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99c7deafd41108e82afae676518f3991">MR_std_vector_MR_AABBTreePoints_Point_ResizeWithDefaultValue</a> (<a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this, size_t new_size, const <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a> *value)</td></tr>
+<tr class="separator:a99c7deafd41108e82afae676518f3991"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad36a1b2e7a683bb5d63c1a108178a02c" id="r_ad36a1b2e7a683bb5d63c1a108178a02c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad36a1b2e7a683bb5d63c1a108178a02c">MR_std_vector_MR_AABBTreePoints_Point_Clear</a> (<a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this)</td></tr>
+<tr class="separator:ad36a1b2e7a683bb5d63c1a108178a02c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69c0e92edb2b20ebeea494f9cc6c3ac2" id="r_a69c0e92edb2b20ebeea494f9cc6c3ac2"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69c0e92edb2b20ebeea494f9cc6c3ac2">MR_std_vector_MR_AABBTreePoints_Point_Capacity</a> (const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this)</td></tr>
+<tr class="separator:a69c0e92edb2b20ebeea494f9cc6c3ac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78b719e42c39bf2f08c666ea395f9932" id="r_a78b719e42c39bf2f08c666ea395f9932"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78b719e42c39bf2f08c666ea395f9932">MR_std_vector_MR_AABBTreePoints_Point_Reserve</a> (<a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this, size_t new_capacity)</td></tr>
+<tr class="separator:a78b719e42c39bf2f08c666ea395f9932"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53869f99583b5147f49de78db9b07077" id="r_a53869f99583b5147f49de78db9b07077"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53869f99583b5147f49de78db9b07077">MR_std_vector_MR_AABBTreePoints_Point_ShrinkToFit</a> (<a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this)</td></tr>
+<tr class="separator:a53869f99583b5147f49de78db9b07077"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03d99e49f2e731d5bc9f3b60706bd42d" id="r_a03d99e49f2e731d5bc9f3b60706bd42d"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03d99e49f2e731d5bc9f3b60706bd42d">MR_std_vector_MR_AABBTreePoints_Point_At</a> (const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this, size_t i)</td></tr>
+<tr class="separator:a03d99e49f2e731d5bc9f3b60706bd42d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b4ecff674a47302de3f0197718c6a65" id="r_a3b4ecff674a47302de3f0197718c6a65"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b4ecff674a47302de3f0197718c6a65">MR_std_vector_MR_AABBTreePoints_Point_MutableAt</a> (<a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this, size_t i)</td></tr>
+<tr class="separator:a3b4ecff674a47302de3f0197718c6a65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2de670067a35f73b18b2c629702cb1ad" id="r_a2de670067a35f73b18b2c629702cb1ad"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2de670067a35f73b18b2c629702cb1ad">MR_std_vector_MR_AABBTreePoints_Point_Front</a> (const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this)</td></tr>
+<tr class="separator:a2de670067a35f73b18b2c629702cb1ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c03d5a3ad4316508123424748188767" id="r_a6c03d5a3ad4316508123424748188767"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c03d5a3ad4316508123424748188767">MR_std_vector_MR_AABBTreePoints_Point_MutableFront</a> (<a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this)</td></tr>
+<tr class="separator:a6c03d5a3ad4316508123424748188767"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2de6b86af4f5e2afc2c0062cc24f17cb" id="r_a2de6b86af4f5e2afc2c0062cc24f17cb"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2de6b86af4f5e2afc2c0062cc24f17cb">MR_std_vector_MR_AABBTreePoints_Point_Back</a> (const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this)</td></tr>
+<tr class="separator:a2de6b86af4f5e2afc2c0062cc24f17cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b3db8f47a03bf8932bc72bd2db47575" id="r_a9b3db8f47a03bf8932bc72bd2db47575"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b3db8f47a03bf8932bc72bd2db47575">MR_std_vector_MR_AABBTreePoints_Point_MutableBack</a> (<a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this)</td></tr>
+<tr class="separator:a9b3db8f47a03bf8932bc72bd2db47575"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ea423108a2738cba7b7900761d0b925" id="r_a8ea423108a2738cba7b7900761d0b925"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ea423108a2738cba7b7900761d0b925">MR_std_vector_MR_AABBTreePoints_Point_PushBack</a> (<a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this, const <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a> *new_elem)</td></tr>
+<tr class="separator:a8ea423108a2738cba7b7900761d0b925"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad144dd023991653f57910c830bd21538" id="r_ad144dd023991653f57910c830bd21538"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad144dd023991653f57910c830bd21538">MR_std_vector_MR_AABBTreePoints_Point_PopBack</a> (<a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this)</td></tr>
+<tr class="separator:ad144dd023991653f57910c830bd21538"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bf4ed687f93b0f9f6739b58b35eb526" id="r_a1bf4ed687f93b0f9f6739b58b35eb526"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bf4ed687f93b0f9f6739b58b35eb526">MR_std_vector_MR_AABBTreePoints_Point_Insert</a> (<a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this, size_t position, const <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a> *new_elem)</td></tr>
+<tr class="separator:a1bf4ed687f93b0f9f6739b58b35eb526"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c6f2b8717164fc8eaf344a5e61c7fcd" id="r_a7c6f2b8717164fc8eaf344a5e61c7fcd"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c6f2b8717164fc8eaf344a5e61c7fcd">MR_std_vector_MR_AABBTreePoints_Point_Erase</a> (<a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this, size_t position)</td></tr>
+<tr class="separator:a7c6f2b8717164fc8eaf344a5e61c7fcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4d725ae8f038cd56005481bf079e99c" id="r_ae4d725ae8f038cd56005481bf079e99c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4d725ae8f038cd56005481bf079e99c">MR_std_vector_MR_AABBTreePoints_Point_InsertAtMutableIter</a> (<a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this, const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *position, const <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a> *new_elem)</td></tr>
+<tr class="separator:ae4d725ae8f038cd56005481bf079e99c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3e50393ca56ca6efc5de188919dbd49" id="r_ab3e50393ca56ca6efc5de188919dbd49"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3e50393ca56ca6efc5de188919dbd49">MR_std_vector_MR_AABBTreePoints_Point_EraseAtMutableIter</a> (<a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this, const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *position)</td></tr>
+<tr class="separator:ab3e50393ca56ca6efc5de188919dbd49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a426c463a20dedf6994f73a4dc2f0570d" id="r_a426c463a20dedf6994f73a4dc2f0570d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a426c463a20dedf6994f73a4dc2f0570d">MR_std_vector_MR_AABBTreePoints_Point_InsertAtIter</a> (<a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this, const <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *position, const <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a> *new_elem)</td></tr>
+<tr class="separator:a426c463a20dedf6994f73a4dc2f0570d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10cc1d47f6516106418bccdde8eae09e" id="r_a10cc1d47f6516106418bccdde8eae09e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10cc1d47f6516106418bccdde8eae09e">MR_std_vector_MR_AABBTreePoints_Point_EraseAtIter</a> (<a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this, const <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *position)</td></tr>
+<tr class="separator:a10cc1d47f6516106418bccdde8eae09e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a888632c51a96dcc8cb73aec972ed8f67" id="r_a888632c51a96dcc8cb73aec972ed8f67"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a888632c51a96dcc8cb73aec972ed8f67">MR_std_vector_MR_AABBTreePoints_Point_Begin</a> (const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this)</td></tr>
+<tr class="separator:a888632c51a96dcc8cb73aec972ed8f67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98bb658828c12cc928338404186bf090" id="r_a98bb658828c12cc928338404186bf090"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98bb658828c12cc928338404186bf090">MR_std_vector_MR_AABBTreePoints_Point_IsBegin</a> (const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this, const <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *iter)</td></tr>
+<tr class="separator:a98bb658828c12cc928338404186bf090"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65ecc7329c4aa86014c5689c4dd9b7b7" id="r_a65ecc7329c4aa86014c5689c4dd9b7b7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65ecc7329c4aa86014c5689c4dd9b7b7">MR_std_vector_MR_AABBTreePoints_Point_MutableBegin</a> (<a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this)</td></tr>
+<tr class="separator:a65ecc7329c4aa86014c5689c4dd9b7b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab942d703d61d24b333dce3bd747bac85" id="r_ab942d703d61d24b333dce3bd747bac85"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab942d703d61d24b333dce3bd747bac85">MR_std_vector_MR_AABBTreePoints_Point_IsMutableBegin</a> (<a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this, const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *iter)</td></tr>
+<tr class="separator:ab942d703d61d24b333dce3bd747bac85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a001c46865b3e9229a91a72c51d3769ac" id="r_a001c46865b3e9229a91a72c51d3769ac"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a001c46865b3e9229a91a72c51d3769ac">MR_std_vector_MR_AABBTreePoints_Point_End</a> (const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this)</td></tr>
+<tr class="separator:a001c46865b3e9229a91a72c51d3769ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a483eaad6f3477969290099e2ccd5162c" id="r_a483eaad6f3477969290099e2ccd5162c"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a483eaad6f3477969290099e2ccd5162c">MR_std_vector_MR_AABBTreePoints_Point_IsEnd</a> (const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this, const <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *iter)</td></tr>
+<tr class="separator:a483eaad6f3477969290099e2ccd5162c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8ba072c699052c21d06667f1630dfd2" id="r_ad8ba072c699052c21d06667f1630dfd2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8ba072c699052c21d06667f1630dfd2">MR_std_vector_MR_AABBTreePoints_Point_MutableEnd</a> (<a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this)</td></tr>
+<tr class="separator:ad8ba072c699052c21d06667f1630dfd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d818474454a4f4245855d983bb6eafb" id="r_a3d818474454a4f4245855d983bb6eafb"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d818474454a4f4245855d983bb6eafb">MR_std_vector_MR_AABBTreePoints_Point_IsMutableEnd</a> (<a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this, const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *iter)</td></tr>
+<tr class="separator:a3d818474454a4f4245855d983bb6eafb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3950df6c3da02e8ba6afc8df8c39d333" id="r_a3950df6c3da02e8ba6afc8df8c39d333"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3950df6c3da02e8ba6afc8df8c39d333">MR_std_vector_MR_AABBTreePoints_Point_ToIndex</a> (const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this, const <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *iter)</td></tr>
+<tr class="separator:a3950df6c3da02e8ba6afc8df8c39d333"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4c338e02cc5ef83a5ab7e4288e02975" id="r_ab4c338e02cc5ef83a5ab7e4288e02975"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4c338e02cc5ef83a5ab7e4288e02975">MR_std_vector_MR_AABBTreePoints_Point_MutableToIndex</a> (const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *_this, const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *iter)</td></tr>
+<tr class="separator:ab4c338e02cc5ef83a5ab7e4288e02975"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31cc38cc4853d8dad86ac54ac9b77cec" id="r_a31cc38cc4853d8dad86ac54ac9b77cec"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31cc38cc4853d8dad86ac54ac9b77cec">MR_std_vector_MR_AABBTreePoints_Point_const_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a31cc38cc4853d8dad86ac54ac9b77cec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d26d3bd4b6f822abdd72f325f6a685c" id="r_a6d26d3bd4b6f822abdd72f325f6a685c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d26d3bd4b6f822abdd72f325f6a685c">MR_std_vector_MR_AABBTreePoints_Point_const_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a6d26d3bd4b6f822abdd72f325f6a685c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e62ca6a4f71805131efeb9fd141a374" id="r_a4e62ca6a4f71805131efeb9fd141a374"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e62ca6a4f71805131efeb9fd141a374">MR_std_vector_MR_AABBTreePoints_Point_const_iterator_ConstructFromAnother</a> (const <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *other)</td></tr>
+<tr class="separator:a4e62ca6a4f71805131efeb9fd141a374"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c84fca22c13ed021b97b58ee52d9be1" id="r_a6c84fca22c13ed021b97b58ee52d9be1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c84fca22c13ed021b97b58ee52d9be1">MR_std_vector_MR_AABBTreePoints_Point_const_iterator_AssignFromAnother</a> (<a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *_this, const <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *other)</td></tr>
+<tr class="separator:a6c84fca22c13ed021b97b58ee52d9be1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeffc4b24c0218ac97ea69cc74c4182c5" id="r_aeffc4b24c0218ac97ea69cc74c4182c5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeffc4b24c0218ac97ea69cc74c4182c5">MR_std_vector_MR_AABBTreePoints_Point_const_iterator_Destroy</a> (const <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:aeffc4b24c0218ac97ea69cc74c4182c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_AABBTreePoints_Point_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:aeffc4b24c0218ac97ea69cc74c4182c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a064ec348ab1b49dff3eff8d0bb4b959c" id="r_a064ec348ab1b49dff3eff8d0bb4b959c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a064ec348ab1b49dff3eff8d0bb4b959c">MR_std_vector_MR_AABBTreePoints_Point_const_iterator_DestroyArray</a> (const <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a064ec348ab1b49dff3eff8d0bb4b959c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_AABBTreePoints_Point_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a064ec348ab1b49dff3eff8d0bb4b959c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42833ba2e36fced6c90561e8d8ed3c34" id="r_a42833ba2e36fced6c90561e8d8ed3c34"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42833ba2e36fced6c90561e8d8ed3c34">MR_std_vector_MR_AABBTreePoints_Point_const_iterator_OffsetPtr</a> (const <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a42833ba2e36fced6c90561e8d8ed3c34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a42833ba2e36fced6c90561e8d8ed3c34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35543cc2809049a437330ef3195d5fad" id="r_a35543cc2809049a437330ef3195d5fad"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35543cc2809049a437330ef3195d5fad">MR_std_vector_MR_AABBTreePoints_Point_const_iterator_OffsetMutablePtr</a> (<a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a35543cc2809049a437330ef3195d5fad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a35543cc2809049a437330ef3195d5fad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6414753cd52901c31596d017107084cc" id="r_a6414753cd52901c31596d017107084cc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6414753cd52901c31596d017107084cc">MR_std_vector_MR_AABBTreePoints_Point_const_iterator_FromMutable</a> (const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *iter)</td></tr>
+<tr class="separator:a6414753cd52901c31596d017107084cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa487fdf80a4300f2a3917ba3495a1d48" id="r_aa487fdf80a4300f2a3917ba3495a1d48"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa487fdf80a4300f2a3917ba3495a1d48">MR_std_vector_MR_AABBTreePoints_Point_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:aa487fdf80a4300f2a3917ba3495a1d48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80b854b0795401ed1e1dbd2b27722ef2" id="r_a80b854b0795401ed1e1dbd2b27722ef2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80b854b0795401ed1e1dbd2b27722ef2">MR_std_vector_MR_AABBTreePoints_Point_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a80b854b0795401ed1e1dbd2b27722ef2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15be0e82eb64185faf7903493f1f17ed" id="r_a15be0e82eb64185faf7903493f1f17ed"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15be0e82eb64185faf7903493f1f17ed">MR_std_vector_MR_AABBTreePoints_Point_iterator_ConstructFromAnother</a> (const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *other)</td></tr>
+<tr class="separator:a15be0e82eb64185faf7903493f1f17ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ed95bd4136308b4c541663caa2ecb1f" id="r_a7ed95bd4136308b4c541663caa2ecb1f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ed95bd4136308b4c541663caa2ecb1f">MR_std_vector_MR_AABBTreePoints_Point_iterator_AssignFromAnother</a> (<a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *_this, const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *other)</td></tr>
+<tr class="separator:a7ed95bd4136308b4c541663caa2ecb1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67e260092916ab8b418a665189f09c3e" id="r_a67e260092916ab8b418a665189f09c3e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67e260092916ab8b418a665189f09c3e">MR_std_vector_MR_AABBTreePoints_Point_iterator_Destroy</a> (const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a67e260092916ab8b418a665189f09c3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_AABBTreePoints_Point_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a67e260092916ab8b418a665189f09c3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf1ac4951aa80a8ce70a6208699cacd3" id="r_aaf1ac4951aa80a8ce70a6208699cacd3"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf1ac4951aa80a8ce70a6208699cacd3">MR_std_vector_MR_AABBTreePoints_Point_iterator_DestroyArray</a> (const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *_this)</td></tr>
+<tr class="memdesc:aaf1ac4951aa80a8ce70a6208699cacd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_AABBTreePoints_Point_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:aaf1ac4951aa80a8ce70a6208699cacd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bdd8269aa889da5715905cbaf19e158" id="r_a3bdd8269aa889da5715905cbaf19e158"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bdd8269aa889da5715905cbaf19e158">MR_std_vector_MR_AABBTreePoints_Point_iterator_OffsetPtr</a> (const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a3bdd8269aa889da5715905cbaf19e158"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a3bdd8269aa889da5715905cbaf19e158"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa58512a3a26ab152db23f54dadfaeeb6" id="r_aa58512a3a26ab152db23f54dadfaeeb6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa58512a3a26ab152db23f54dadfaeeb6">MR_std_vector_MR_AABBTreePoints_Point_iterator_OffsetMutablePtr</a> (<a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:aa58512a3a26ab152db23f54dadfaeeb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:aa58512a3a26ab152db23f54dadfaeeb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4903b4382b44a7299d899b75a82af6b" id="r_ab4903b4382b44a7299d899b75a82af6b"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4903b4382b44a7299d899b75a82af6b">MR_std_vector_MR_AABBTreePoints_Point_const_iterator_Deref</a> (const <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *_this)</td></tr>
+<tr class="separator:ab4903b4382b44a7299d899b75a82af6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec58355d0638aad61df383f179968869" id="r_aec58355d0638aad61df383f179968869"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec58355d0638aad61df383f179968869">MR_std_vector_MR_AABBTreePoints_Point_const_iterator_Incr</a> (<a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *_this)</td></tr>
+<tr class="separator:aec58355d0638aad61df383f179968869"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef837bfcb6e115b0a4da52d6620dd713" id="r_aef837bfcb6e115b0a4da52d6620dd713"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef837bfcb6e115b0a4da52d6620dd713">MR_std_vector_MR_AABBTreePoints_Point_const_iterator_Decr</a> (<a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *_this)</td></tr>
+<tr class="separator:aef837bfcb6e115b0a4da52d6620dd713"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0750c88d8f24c5ae68ff8f0b8c0ed842" id="r_a0750c88d8f24c5ae68ff8f0b8c0ed842"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0750c88d8f24c5ae68ff8f0b8c0ed842">MR_std_vector_MR_AABBTreePoints_Point_const_iterator_OffsetBy</a> (<a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *_this, ptrdiff_t delta)</td></tr>
+<tr class="separator:a0750c88d8f24c5ae68ff8f0b8c0ed842"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ec7f77dbb9752dbfbc9d3b8bc546856" id="r_a7ec7f77dbb9752dbfbc9d3b8bc546856"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ec7f77dbb9752dbfbc9d3b8bc546856">MR_std_vector_MR_AABBTreePoints_Point_const_iterator_Distance</a> (const <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *a, const <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *b)</td></tr>
+<tr class="separator:a7ec7f77dbb9752dbfbc9d3b8bc546856"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaff9932274ac8a6a7cdb69a540389da1" id="r_aaff9932274ac8a6a7cdb69a540389da1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaff9932274ac8a6a7cdb69a540389da1">MR_std_vector_MR_AABBTreePoints_Point_iterator_Deref</a> (const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *_this)</td></tr>
+<tr class="separator:aaff9932274ac8a6a7cdb69a540389da1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a409bfcb4246e82fea61ccd5077a7ec73" id="r_a409bfcb4246e82fea61ccd5077a7ec73"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a409bfcb4246e82fea61ccd5077a7ec73">MR_std_vector_MR_AABBTreePoints_Point_iterator_Incr</a> (<a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *_this)</td></tr>
+<tr class="separator:a409bfcb4246e82fea61ccd5077a7ec73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a765c686ddd49bcb0d6261a4fae9d98c9" id="r_a765c686ddd49bcb0d6261a4fae9d98c9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a765c686ddd49bcb0d6261a4fae9d98c9">MR_std_vector_MR_AABBTreePoints_Point_iterator_Decr</a> (<a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *_this)</td></tr>
+<tr class="separator:a765c686ddd49bcb0d6261a4fae9d98c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7ab1907a46e6b40ab053a054f080096" id="r_ac7ab1907a46e6b40ab053a054f080096"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7ab1907a46e6b40ab053a054f080096">MR_std_vector_MR_AABBTreePoints_Point_iterator_OffsetBy</a> (<a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *_this, ptrdiff_t delta)</td></tr>
+<tr class="separator:ac7ab1907a46e6b40ab053a054f080096"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad160cfa8794dab809da63e325ed2b1b8" id="r_ad160cfa8794dab809da63e325ed2b1b8"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad160cfa8794dab809da63e325ed2b1b8">MR_std_vector_MR_AABBTreePoints_Point_iterator_Distance</a> (const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *a, const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *b)</td></tr>
+<tr class="separator:ad160cfa8794dab809da63e325ed2b1b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a95218be66d288a0d4bf57491e6e8b109" name="a95218be66d288a0d4bf57491e6e8b109"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95218be66d288a0d4bf57491e6e8b109">&#9670;&#160;</a></span>MR_AABBTreePoints_Point</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a> <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a73ecbd814e9edb9c62f4f57cbbf98cb6" name="a73ecbd814e9edb9c62f4f57cbbf98cb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73ecbd814e9edb9c62f4f57cbbf98cb6">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from C++ container <code>std::vector&lt;<a class="elRef" href="../Cpp/structMR_1_1AABBTreePoints_1_1Point.html">MR::AABBTreePoints::Point</a>&gt;</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a50d9e8c6256a2f0c31427b76b0a03154" name="a50d9e8c6256a2f0c31427b76b0a03154"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50d9e8c6256a2f0c31427b76b0a03154">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_const_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Read-only iterator for <code>MR_std_vector_MR_AABBTreePoints_Point</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a87e536cd7f311339f0e266a0747d3453" name="a87e536cd7f311339f0e266a0747d3453"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87e536cd7f311339f0e266a0747d3453">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Mutable iterator for <code>MR_std_vector_MR_AABBTreePoints_Point</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a8b47bab79a322fe5e87230a2aec24d3c" name="a8b47bab79a322fe5e87230a2aec24d3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b47bab79a322fe5e87230a2aec24d3c">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_AABBTreePoints_Point_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a03d99e49f2e731d5bc9f3b60706bd42d" name="a03d99e49f2e731d5bc9f3b60706bd42d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03d99e49f2e731d5bc9f3b60706bd42d">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_At()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a> * MR_std_vector_MR_AABBTreePoints_Point_At </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, read-only. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a2de6b86af4f5e2afc2c0062cc24f17cb" name="a2de6b86af4f5e2afc2c0062cc24f17cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2de6b86af4f5e2afc2c0062cc24f17cb">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_Back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a> * MR_std_vector_MR_AABBTreePoints_Point_Back </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The last element or null if empty, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a888632c51a96dcc8cb73aec972ed8f67" name="a888632c51a96dcc8cb73aec972ed8f67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a888632c51a96dcc8cb73aec972ed8f67">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_Begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> * MR_std_vector_MR_AABBTreePoints_Point_Begin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aeffc4b24c0218ac97ea69cc74c4182c5" title="Destroys a heap-allocated instance of MR_std_vector_MR_AABBTreePoints_Point_const_iterator....">MR_std_vector_MR_AABBTreePoints_Point_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a69c0e92edb2b20ebeea494f9cc6c3ac2" name="a69c0e92edb2b20ebeea494f9cc6c3ac2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69c0e92edb2b20ebeea494f9cc6c3ac2">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_Capacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_vector_MR_AABBTreePoints_Point_Capacity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The memory capacity, measued in the number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad36a1b2e7a683bb5d63c1a108178a02c" name="ad36a1b2e7a683bb5d63c1a108178a02c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad36a1b2e7a683bb5d63c1a108178a02c">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_Clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_AABBTreePoints_Point_Clear </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes all elements from the container. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6c84fca22c13ed021b97b58ee52d9be1" name="a6c84fca22c13ed021b97b58ee52d9be1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c84fca22c13ed021b97b58ee52d9be1">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_const_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_AABBTreePoints_Point_const_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a4e62ca6a4f71805131efeb9fd141a374" name="a4e62ca6a4f71805131efeb9fd141a374"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e62ca6a4f71805131efeb9fd141a374">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_const_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> * MR_std_vector_MR_AABBTreePoints_Point_const_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aeffc4b24c0218ac97ea69cc74c4182c5" title="Destroys a heap-allocated instance of MR_std_vector_MR_AABBTreePoints_Point_const_iterator....">MR_std_vector_MR_AABBTreePoints_Point_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aef837bfcb6e115b0a4da52d6620dd713" name="aef837bfcb6e115b0a4da52d6620dd713"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef837bfcb6e115b0a4da52d6620dd713">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_const_iterator_Decr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_AABBTreePoints_Point_const_iterator_Decr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decrements a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a31cc38cc4853d8dad86ac54ac9b77cec" name="a31cc38cc4853d8dad86ac54ac9b77cec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31cc38cc4853d8dad86ac54ac9b77cec">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_const_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> * MR_std_vector_MR_AABBTreePoints_Point_const_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aeffc4b24c0218ac97ea69cc74c4182c5" title="Destroys a heap-allocated instance of MR_std_vector_MR_AABBTreePoints_Point_const_iterator....">MR_std_vector_MR_AABBTreePoints_Point_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a6d26d3bd4b6f822abdd72f325f6a685c" name="a6d26d3bd4b6f822abdd72f325f6a685c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d26d3bd4b6f822abdd72f325f6a685c">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_const_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> * MR_std_vector_MR_AABBTreePoints_Point_const_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a064ec348ab1b49dff3eff8d0bb4b959c" title="Destroys a heap-allocated array of MR_std_vector_MR_AABBTreePoints_Point_const_iterator....">MR_std_vector_MR_AABBTreePoints_Point_const_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#a35543cc2809049a437330ef3195d5fad" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_AABBTreePoints_Point_const_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a42833ba2e36fced6c90561e8d8ed3c34" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_AABBTreePoints_Point_const_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ab4903b4382b44a7299d899b75a82af6b" name="ab4903b4382b44a7299d899b75a82af6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4903b4382b44a7299d899b75a82af6b">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_const_iterator_Deref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a> * MR_std_vector_MR_AABBTreePoints_Point_const_iterator_Deref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a const iterator. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aeffc4b24c0218ac97ea69cc74c4182c5" name="aeffc4b24c0218ac97ea69cc74c4182c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeffc4b24c0218ac97ea69cc74c4182c5">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_const_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_AABBTreePoints_Point_const_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_AABBTreePoints_Point_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a064ec348ab1b49dff3eff8d0bb4b959c" name="a064ec348ab1b49dff3eff8d0bb4b959c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a064ec348ab1b49dff3eff8d0bb4b959c">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_const_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_AABBTreePoints_Point_const_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_AABBTreePoints_Point_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a7ec7f77dbb9752dbfbc9d3b8bc546856" name="a7ec7f77dbb9752dbfbc9d3b8bc546856"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ec7f77dbb9752dbfbc9d3b8bc546856">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_const_iterator_Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_AABBTreePoints_Point_const_iterator_Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the signed difference between two const iterators. Completes in constant time. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6414753cd52901c31596d017107084cc" name="a6414753cd52901c31596d017107084cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6414753cd52901c31596d017107084cc">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_const_iterator_FromMutable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> * MR_std_vector_MR_AABBTreePoints_Point_const_iterator_FromMutable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Makes a const iterator from a mutable one. Parameter <code>iter</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aeffc4b24c0218ac97ea69cc74c4182c5" title="Destroys a heap-allocated instance of MR_std_vector_MR_AABBTreePoints_Point_const_iterator....">MR_std_vector_MR_AABBTreePoints_Point_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aec58355d0638aad61df383f179968869" name="aec58355d0638aad61df383f179968869"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec58355d0638aad61df383f179968869">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_const_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_AABBTreePoints_Point_const_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a0750c88d8f24c5ae68ff8f0b8c0ed842" name="a0750c88d8f24c5ae68ff8f0b8c0ed842"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0750c88d8f24c5ae68ff8f0b8c0ed842">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_const_iterator_OffsetBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_AABBTreePoints_Point_const_iterator_OffsetBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a35543cc2809049a437330ef3195d5fad" name="a35543cc2809049a437330ef3195d5fad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35543cc2809049a437330ef3195d5fad">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_const_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> * MR_std_vector_MR_AABBTreePoints_Point_const_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a42833ba2e36fced6c90561e8d8ed3c34" name="a42833ba2e36fced6c90561e8d8ed3c34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42833ba2e36fced6c90561e8d8ed3c34">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_const_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> * MR_std_vector_MR_AABBTreePoints_Point_const_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a35afbb8275962b580becb6356b98d645" name="a35afbb8275962b580becb6356b98d645"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35afbb8275962b580becb6356b98d645">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> * MR_std_vector_MR_AABBTreePoints_Point_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a19772fc2b3e284405f19decbb039e58c" title="Destroys a heap-allocated instance of MR_std_vector_MR_AABBTreePoints_Point. Does nothing if the poin...">MR_std_vector_MR_AABBTreePoints_Point_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="acbf075f325aecbd2a3bc7ffecc37b155" name="acbf075f325aecbd2a3bc7ffecc37b155"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbf075f325aecbd2a3bc7ffecc37b155">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> * MR_std_vector_MR_AABBTreePoints_Point_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a19772fc2b3e284405f19decbb039e58c" title="Destroys a heap-allocated instance of MR_std_vector_MR_AABBTreePoints_Point. Does nothing if the poin...">MR_std_vector_MR_AABBTreePoints_Point_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ad3a3861a242e5736a1c311086f9c8fde" name="ad3a3861a242e5736a1c311086f9c8fde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3a3861a242e5736a1c311086f9c8fde">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> * MR_std_vector_MR_AABBTreePoints_Point_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#ae9c164571419f1c302ff5f645ec551b9" title="Destroys a heap-allocated array of MR_std_vector_MR_AABBTreePoints_Point. Does nothing if the pointer...">MR_std_vector_MR_AABBTreePoints_Point_DestroyArray()</a></code>. Use <code><a class="el" href="#a7d18ab42c59b14082e1f6bd831117cf4" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_AABBTreePoints_Point_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a1b5ff8187af94dcf876734140c4e329f" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_AABBTreePoints_Point_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a19772fc2b3e284405f19decbb039e58c" name="a19772fc2b3e284405f19decbb039e58c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19772fc2b3e284405f19decbb039e58c">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_AABBTreePoints_Point_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_AABBTreePoints_Point</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ae9c164571419f1c302ff5f645ec551b9" name="ae9c164571419f1c302ff5f645ec551b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9c164571419f1c302ff5f645ec551b9">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_AABBTreePoints_Point_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_AABBTreePoints_Point</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a001c46865b3e9229a91a72c51d3769ac" name="a001c46865b3e9229a91a72c51d3769ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a001c46865b3e9229a91a72c51d3769ac">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_End()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> * MR_std_vector_MR_AABBTreePoints_Point_End </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aeffc4b24c0218ac97ea69cc74c4182c5" title="Destroys a heap-allocated instance of MR_std_vector_MR_AABBTreePoints_Point_const_iterator....">MR_std_vector_MR_AABBTreePoints_Point_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a7c6f2b8717164fc8eaf344a5e61c7fcd" name="a7c6f2b8717164fc8eaf344a5e61c7fcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c6f2b8717164fc8eaf344a5e61c7fcd">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_Erase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_AABBTreePoints_Point_Erase </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a10cc1d47f6516106418bccdde8eae09e" name="a10cc1d47f6516106418bccdde8eae09e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10cc1d47f6516106418bccdde8eae09e">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_EraseAtIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_AABBTreePoints_Point_EraseAtIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. This version takes the position in form of a const iterator, that's the only difference. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ab3e50393ca56ca6efc5de188919dbd49" name="ab3e50393ca56ca6efc5de188919dbd49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3e50393ca56ca6efc5de188919dbd49">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_EraseAtMutableIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_AABBTreePoints_Point_EraseAtMutableIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a2de670067a35f73b18b2c629702cb1ad" name="a2de670067a35f73b18b2c629702cb1ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2de670067a35f73b18b2c629702cb1ad">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_Front()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a> * MR_std_vector_MR_AABBTreePoints_Point_Front </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The first element or null if empty, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a1bf4ed687f93b0f9f6739b58b35eb526" name="a1bf4ed687f93b0f9f6739b58b35eb526"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bf4ed687f93b0f9f6739b58b35eb526">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_Insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_AABBTreePoints_Point_Insert </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. Parameter <code>_this</code> can not be null. Parameter <code>new_elem</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a426c463a20dedf6994f73a4dc2f0570d" name="a426c463a20dedf6994f73a4dc2f0570d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a426c463a20dedf6994f73a4dc2f0570d">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_InsertAtIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_AABBTreePoints_Point_InsertAtIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that's the only difference. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. Parameter <code>new_elem</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae4d725ae8f038cd56005481bf079e99c" name="ae4d725ae8f038cd56005481bf079e99c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4d725ae8f038cd56005481bf079e99c">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_InsertAtMutableIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_AABBTreePoints_Point_InsertAtMutableIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. Parameter <code>new_elem</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a98bb658828c12cc928338404186bf090" name="a98bb658828c12cc928338404186bf090"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98bb658828c12cc928338404186bf090">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_IsBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_AABBTreePoints_Point_IsBegin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="adf970bf2b67ac5e3e53686dcdb86b1a0" name="adf970bf2b67ac5e3e53686dcdb86b1a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf970bf2b67ac5e3e53686dcdb86b1a0">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_IsEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_AABBTreePoints_Point_IsEmpty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns true if the size is zero. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a483eaad6f3477969290099e2ccd5162c" name="a483eaad6f3477969290099e2ccd5162c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a483eaad6f3477969290099e2ccd5162c">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_IsEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_AABBTreePoints_Point_IsEnd </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ab942d703d61d24b333dce3bd747bac85" name="ab942d703d61d24b333dce3bd747bac85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab942d703d61d24b333dce3bd747bac85">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_IsMutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_AABBTreePoints_Point_IsMutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3d818474454a4f4245855d983bb6eafb" name="a3d818474454a4f4245855d983bb6eafb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d818474454a4f4245855d983bb6eafb">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_IsMutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_AABBTreePoints_Point_IsMutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a7ed95bd4136308b4c541663caa2ecb1f" name="a7ed95bd4136308b4c541663caa2ecb1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ed95bd4136308b4c541663caa2ecb1f">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_AABBTreePoints_Point_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a15be0e82eb64185faf7903493f1f17ed" name="a15be0e82eb64185faf7903493f1f17ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15be0e82eb64185faf7903493f1f17ed">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> * MR_std_vector_MR_AABBTreePoints_Point_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a67e260092916ab8b418a665189f09c3e" title="Destroys a heap-allocated instance of MR_std_vector_MR_AABBTreePoints_Point_iterator....">MR_std_vector_MR_AABBTreePoints_Point_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a765c686ddd49bcb0d6261a4fae9d98c9" name="a765c686ddd49bcb0d6261a4fae9d98c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a765c686ddd49bcb0d6261a4fae9d98c9">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_iterator_Decr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_AABBTreePoints_Point_iterator_Decr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decrements a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa487fdf80a4300f2a3917ba3495a1d48" name="aa487fdf80a4300f2a3917ba3495a1d48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa487fdf80a4300f2a3917ba3495a1d48">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> * MR_std_vector_MR_AABBTreePoints_Point_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a67e260092916ab8b418a665189f09c3e" title="Destroys a heap-allocated instance of MR_std_vector_MR_AABBTreePoints_Point_iterator....">MR_std_vector_MR_AABBTreePoints_Point_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a80b854b0795401ed1e1dbd2b27722ef2" name="a80b854b0795401ed1e1dbd2b27722ef2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80b854b0795401ed1e1dbd2b27722ef2">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> * MR_std_vector_MR_AABBTreePoints_Point_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#aaf1ac4951aa80a8ce70a6208699cacd3" title="Destroys a heap-allocated array of MR_std_vector_MR_AABBTreePoints_Point_iterator....">MR_std_vector_MR_AABBTreePoints_Point_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#aa58512a3a26ab152db23f54dadfaeeb6" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_AABBTreePoints_Point_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a3bdd8269aa889da5715905cbaf19e158" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_AABBTreePoints_Point_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="aaff9932274ac8a6a7cdb69a540389da1" name="aaff9932274ac8a6a7cdb69a540389da1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaff9932274ac8a6a7cdb69a540389da1">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_iterator_Deref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a> * MR_std_vector_MR_AABBTreePoints_Point_iterator_Deref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a mutable iterator. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a67e260092916ab8b418a665189f09c3e" name="a67e260092916ab8b418a665189f09c3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67e260092916ab8b418a665189f09c3e">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_AABBTreePoints_Point_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_AABBTreePoints_Point_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aaf1ac4951aa80a8ce70a6208699cacd3" name="aaf1ac4951aa80a8ce70a6208699cacd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf1ac4951aa80a8ce70a6208699cacd3">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_AABBTreePoints_Point_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_AABBTreePoints_Point_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ad160cfa8794dab809da63e325ed2b1b8" name="ad160cfa8794dab809da63e325ed2b1b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad160cfa8794dab809da63e325ed2b1b8">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_iterator_Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_AABBTreePoints_Point_iterator_Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a409bfcb4246e82fea61ccd5077a7ec73" name="a409bfcb4246e82fea61ccd5077a7ec73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a409bfcb4246e82fea61ccd5077a7ec73">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_AABBTreePoints_Point_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac7ab1907a46e6b40ab053a054f080096" name="ac7ab1907a46e6b40ab053a054f080096"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7ab1907a46e6b40ab053a054f080096">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_iterator_OffsetBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_AABBTreePoints_Point_iterator_OffsetBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa58512a3a26ab152db23f54dadfaeeb6" name="aa58512a3a26ab152db23f54dadfaeeb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa58512a3a26ab152db23f54dadfaeeb6">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> * MR_std_vector_MR_AABBTreePoints_Point_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a3bdd8269aa889da5715905cbaf19e158" name="a3bdd8269aa889da5715905cbaf19e158"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bdd8269aa889da5715905cbaf19e158">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> * MR_std_vector_MR_AABBTreePoints_Point_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a3b4ecff674a47302de3f0197718c6a65" name="a3b4ecff674a47302de3f0197718c6a65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b4ecff674a47302de3f0197718c6a65">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_MutableAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a> * MR_std_vector_MR_AABBTreePoints_Point_MutableAt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, mutable. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a9b3db8f47a03bf8932bc72bd2db47575" name="a9b3db8f47a03bf8932bc72bd2db47575"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b3db8f47a03bf8932bc72bd2db47575">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_MutableBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a> * MR_std_vector_MR_AABBTreePoints_Point_MutableBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The last element or null if empty, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a65ecc7329c4aa86014c5689c4dd9b7b7" name="a65ecc7329c4aa86014c5689c4dd9b7b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65ecc7329c4aa86014c5689c4dd9b7b7">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_MutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> * MR_std_vector_MR_AABBTreePoints_Point_MutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a67e260092916ab8b418a665189f09c3e" title="Destroys a heap-allocated instance of MR_std_vector_MR_AABBTreePoints_Point_iterator....">MR_std_vector_MR_AABBTreePoints_Point_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ad8ba072c699052c21d06667f1630dfd2" name="ad8ba072c699052c21d06667f1630dfd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8ba072c699052c21d06667f1630dfd2">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_MutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> * MR_std_vector_MR_AABBTreePoints_Point_MutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a67e260092916ab8b418a665189f09c3e" title="Destroys a heap-allocated instance of MR_std_vector_MR_AABBTreePoints_Point_iterator....">MR_std_vector_MR_AABBTreePoints_Point_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a6c03d5a3ad4316508123424748188767" name="a6c03d5a3ad4316508123424748188767"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c03d5a3ad4316508123424748188767">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_MutableFront()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a> * MR_std_vector_MR_AABBTreePoints_Point_MutableFront </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The first element or null if empty, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ab4c338e02cc5ef83a5ab7e4288e02975" name="ab4c338e02cc5ef83a5ab7e4288e02975"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4c338e02cc5ef83a5ab7e4288e02975">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_MutableToIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_AABBTreePoints_Point_MutableToIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a87e536cd7f311339f0e266a0747d3453">MR_std_vector_MR_AABBTreePoints_Point_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convert a mutable iterator to an index. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a7d18ab42c59b14082e1f6bd831117cf4" name="a7d18ab42c59b14082e1f6bd831117cf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d18ab42c59b14082e1f6bd831117cf4">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> * MR_std_vector_MR_AABBTreePoints_Point_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a1b5ff8187af94dcf876734140c4e329f" name="a1b5ff8187af94dcf876734140c4e329f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b5ff8187af94dcf876734140c4e329f">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> * MR_std_vector_MR_AABBTreePoints_Point_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ad144dd023991653f57910c830bd21538" name="ad144dd023991653f57910c830bd21538"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad144dd023991653f57910c830bd21538">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_PopBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_AABBTreePoints_Point_PopBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes one element from the end. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a8ea423108a2738cba7b7900761d0b925" name="a8ea423108a2738cba7b7900761d0b925"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ea423108a2738cba7b7900761d0b925">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_PushBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_AABBTreePoints_Point_PushBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element at the end. Parameter <code>_this</code> can not be null. Parameter <code>new_elem</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a78b719e42c39bf2f08c666ea395f9932" name="a78b719e42c39bf2f08c666ea395f9932"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78b719e42c39bf2f08c666ea395f9932">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_Reserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_AABBTreePoints_Point_Reserve </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_capacity</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a9e8997154c0b3687afb93734f2b450bc" name="a9e8997154c0b3687afb93734f2b450bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e8997154c0b3687afb93734f2b450bc">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_Resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_AABBTreePoints_Point_Resize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the container. The new elements if any are zeroed. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a99c7deafd41108e82afae676518f3991" name="a99c7deafd41108e82afae676518f3991"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99c7deafd41108e82afae676518f3991">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_ResizeWithDefaultValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_AABBTreePoints_Point_ResizeWithDefaultValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109">MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the container. The new elements if any are set to the specified value. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a53869f99583b5147f49de78db9b07077" name="a53869f99583b5147f49de78db9b07077"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53869f99583b5147f49de78db9b07077">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_ShrinkToFit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_AABBTreePoints_Point_ShrinkToFit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Shrinks the capacity to match the size. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3af5755cb925fd4ba9af6f011e040849" name="a3af5755cb925fd4ba9af6f011e040849"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3af5755cb925fd4ba9af6f011e040849">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_Size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_vector_MR_AABBTreePoints_Point_Size </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3950df6c3da02e8ba6afc8df8c39d333" name="a3950df6c3da02e8ba6afc8df8c39d333"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3950df6c3da02e8ba6afc8df8c39d333">&#9670;&#160;</a></span>MR_std_vector_MR_AABBTreePoints_Point_ToIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_AABBTreePoints_Point_ToIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a50d9e8c6256a2f0c31427b76b0a03154">MR_std_vector_MR_AABBTreePoints_Point_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convert a const iterator to an index. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_a57e8462869cab4a5203dede5869920d.html">MRCMisc</a></li><li class="navelem"><a class="el" href="std__vector__MR__AABBTreePoints__Point_8h.html">std_vector_MR_AABBTreePoints_Point.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

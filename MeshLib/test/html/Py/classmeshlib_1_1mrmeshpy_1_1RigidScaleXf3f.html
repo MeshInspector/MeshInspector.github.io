@@ -1,0 +1,431 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.RigidScaleXf3f Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1RigidScaleXf3f.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1RigidScaleXf3f-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.RigidScaleXf3f Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a926c09e29020fb911ff7158930b6d8b5" id="r_a926c09e29020fb911ff7158930b6d8b5"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a926c09e29020fb911ff7158930b6d8b5">__init__</a> (self)</td></tr>
+<tr class="separator:a926c09e29020fb911ff7158930b6d8b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1ed964043292f6210a100258f9bd13a" id="r_af1ed964043292f6210a100258f9bd13a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1ed964043292f6210a100258f9bd13a">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a> <a class="el" href="#a7c6d50f829bb4140362cec37646268c0">a</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a> <a class="el" href="#a5e86dbb04e6e98cbab7f5d89d66ca964">b</a>, float <a class="el" href="#a16350a05ffcf4b08d912c0b71f0e8a17">s</a>)</td></tr>
+<tr class="separator:af1ed964043292f6210a100258f9bd13a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49882cae2cff3a9ba4c78cf9407f6838" id="r_a49882cae2cff3a9ba4c78cf9407f6838"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49882cae2cff3a9ba4c78cf9407f6838">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1RigidScaleXf3f.html">RigidScaleXf3f</a> arg0)</td></tr>
+<tr class="separator:a49882cae2cff3a9ba4c78cf9407f6838"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af50e7e872edb69696c709be0df3321bb" id="r_af50e7e872edb69696c709be0df3321bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AffineXf3f.html">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af50e7e872edb69696c709be0df3321bb">linearXf</a> (self)</td></tr>
+<tr class="separator:af50e7e872edb69696c709be0df3321bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06d03dcd3f8aaaf7f30306c74624c24b" id="r_a06d03dcd3f8aaaf7f30306c74624c24b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AffineXf3f.html">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06d03dcd3f8aaaf7f30306c74624c24b">rigidScaleXf</a> (self)</td></tr>
+<tr class="separator:a06d03dcd3f8aaaf7f30306c74624c24b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c6d50f829bb4140362cec37646268c0" id="r_a7c6d50f829bb4140362cec37646268c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c6d50f829bb4140362cec37646268c0">a</a> (self)</td></tr>
+<tr class="separator:a7c6d50f829bb4140362cec37646268c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad691cd6d2ac296a6313b6efa85795efd" id="r_ad691cd6d2ac296a6313b6efa85795efd"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad691cd6d2ac296a6313b6efa85795efd">a</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a> arg1)</td></tr>
+<tr class="separator:ad691cd6d2ac296a6313b6efa85795efd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e86dbb04e6e98cbab7f5d89d66ca964" id="r_a5e86dbb04e6e98cbab7f5d89d66ca964"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e86dbb04e6e98cbab7f5d89d66ca964">b</a> (self)</td></tr>
+<tr class="separator:a5e86dbb04e6e98cbab7f5d89d66ca964"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1af9eb7daf8e5ec42afc7142c5c8f07" id="r_aa1af9eb7daf8e5ec42afc7142c5c8f07"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1af9eb7daf8e5ec42afc7142c5c8f07">b</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a> arg1)</td></tr>
+<tr class="separator:aa1af9eb7daf8e5ec42afc7142c5c8f07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16350a05ffcf4b08d912c0b71f0e8a17" id="r_a16350a05ffcf4b08d912c0b71f0e8a17"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16350a05ffcf4b08d912c0b71f0e8a17">s</a> (self)</td></tr>
+<tr class="separator:a16350a05ffcf4b08d912c0b71f0e8a17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f2b2f332c60ad00199ff798a517a2c0" id="r_a8f2b2f332c60ad00199ff798a517a2c0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f2b2f332c60ad00199ff798a517a2c0">s</a> (self, float arg1)</td></tr>
+<tr class="separator:a8f2b2f332c60ad00199ff798a517a2c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Generated from:  MR::RigidScaleXf3f
+Aliases:  RigidScaleXf3_float
+
+rigid (with scale) transformation that multiplies all distances on same scale: y = s*A*x + b,
+where s is a scalar, A is rotation matrix 3x3 stored as 3 angles, and b is shift vector
+</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a926c09e29020fb911ff7158930b6d8b5" name="a926c09e29020fb911ff7158930b6d8b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a926c09e29020fb911ff7158930b6d8b5">&#9670;&#160;</a></span>__init__() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.RigidScaleXf3f.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af1ed964043292f6210a100258f9bd13a" name="af1ed964043292f6210a100258f9bd13a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1ed964043292f6210a100258f9bd13a">&#9670;&#160;</a></span>__init__() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.RigidScaleXf3f.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>s</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a49882cae2cff3a9ba4c78cf9407f6838" name="a49882cae2cff3a9ba4c78cf9407f6838"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49882cae2cff3a9ba4c78cf9407f6838">&#9670;&#160;</a></span>__init__() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.RigidScaleXf3f.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1RigidScaleXf3f.html">RigidScaleXf3f</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit copy constructor.
+</pre> 
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7c6d50f829bb4140362cec37646268c0" name="a7c6d50f829bb4140362cec37646268c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c6d50f829bb4140362cec37646268c0">&#9670;&#160;</a></span>a() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a> meshlib.mrmeshpy.RigidScaleXf3f.a </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">rotation angles relative to x,y,z axes
+</pre> 
+</div>
+</div>
+<a id="ad691cd6d2ac296a6313b6efa85795efd" name="ad691cd6d2ac296a6313b6efa85795efd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad691cd6d2ac296a6313b6efa85795efd">&#9670;&#160;</a></span>a() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.RigidScaleXf3f.a </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5e86dbb04e6e98cbab7f5d89d66ca964" name="a5e86dbb04e6e98cbab7f5d89d66ca964"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e86dbb04e6e98cbab7f5d89d66ca964">&#9670;&#160;</a></span>b() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a> meshlib.mrmeshpy.RigidScaleXf3f.b </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">shift
+</pre> 
+</div>
+</div>
+<a id="aa1af9eb7daf8e5ec42afc7142c5c8f07" name="aa1af9eb7daf8e5ec42afc7142c5c8f07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1af9eb7daf8e5ec42afc7142c5c8f07">&#9670;&#160;</a></span>b() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.RigidScaleXf3f.b </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af50e7e872edb69696c709be0df3321bb" name="af50e7e872edb69696c709be0df3321bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af50e7e872edb69696c709be0df3321bb">&#9670;&#160;</a></span>linearXf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> meshlib.mrmeshpy.RigidScaleXf3f.linearXf </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">converts this into not-rigid transformation but with matrix, which linearly depends on angles
+</pre> 
+</div>
+</div>
+<a id="a06d03dcd3f8aaaf7f30306c74624c24b" name="a06d03dcd3f8aaaf7f30306c74624c24b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06d03dcd3f8aaaf7f30306c74624c24b">&#9670;&#160;</a></span>rigidScaleXf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> meshlib.mrmeshpy.RigidScaleXf3f.rigidScaleXf </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">converts this into rigid (with scale) transformation, which non-linearly depends on angles
+</pre> 
+</div>
+</div>
+<a id="a16350a05ffcf4b08d912c0b71f0e8a17" name="a16350a05ffcf4b08d912c0b71f0e8a17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16350a05ffcf4b08d912c0b71f0e8a17">&#9670;&#160;</a></span>s() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float meshlib.mrmeshpy.RigidScaleXf3f.s </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">scaling
+</pre> 
+</div>
+</div>
+<a id="a8f2b2f332c60ad00199ff798a517a2c0" name="a8f2b2f332c60ad00199ff798a517a2c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f2b2f332c60ad00199ff798a517a2c0">&#9670;&#160;</a></span>s() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.RigidScaleXf3f.s </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1RigidScaleXf3f.html">RigidScaleXf3f</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

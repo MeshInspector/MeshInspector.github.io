@@ -1,0 +1,1174 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a0698a1dab93036f1ce759195ffa47702" id="r_a0698a1dab93036f1ce759195ffa47702"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBestFitPolynomial_8h.html#a0698a1dab93036f1ce759195ffa47702">MR_Polynomial_double_0</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0698a1dab93036f1ce759195ffa47702">MR_Polynomial_double_0</a></td></tr>
+<tr class="separator:a0698a1dab93036f1ce759195ffa47702"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1933e2f3936d7d6422d40b98e38cdd52" id="r_a1933e2f3936d7d6422d40b98e38cdd52"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBestFitPolynomial_8h.html#a1933e2f3936d7d6422d40b98e38cdd52">MR_Polynomial_double_1</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1933e2f3936d7d6422d40b98e38cdd52">MR_Polynomial_double_1</a></td></tr>
+<tr class="separator:a1933e2f3936d7d6422d40b98e38cdd52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28b4d22a35874ccc24d8eebd84ad0e94" id="r_a28b4d22a35874ccc24d8eebd84ad0e94"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBestFitPolynomial_8h.html#a28b4d22a35874ccc24d8eebd84ad0e94">MR_Polynomial_double_2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28b4d22a35874ccc24d8eebd84ad0e94">MR_Polynomial_double_2</a></td></tr>
+<tr class="separator:a28b4d22a35874ccc24d8eebd84ad0e94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c0b730b3da840c403fb5641ab33f439" id="r_a3c0b730b3da840c403fb5641ab33f439"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBestFitPolynomial_8h.html#a3c0b730b3da840c403fb5641ab33f439">MR_Polynomial_double_3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c0b730b3da840c403fb5641ab33f439">MR_Polynomial_double_3</a></td></tr>
+<tr class="separator:a3c0b730b3da840c403fb5641ab33f439"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1ba0fb4f730b9c77c06c8127ce26659" id="r_af1ba0fb4f730b9c77c06c8127ce26659"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBestFitPolynomial_8h.html#af1ba0fb4f730b9c77c06c8127ce26659">MR_Polynomial_double_4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1ba0fb4f730b9c77c06c8127ce26659">MR_Polynomial_double_4</a></td></tr>
+<tr class="separator:af1ba0fb4f730b9c77c06c8127ce26659"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab05184a94b613a5e8f2dabe63e965894" id="r_ab05184a94b613a5e8f2dabe63e965894"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBestFitPolynomial_8h.html#ab05184a94b613a5e8f2dabe63e965894">MR_Polynomial_double_5</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab05184a94b613a5e8f2dabe63e965894">MR_Polynomial_double_5</a></td></tr>
+<tr class="separator:ab05184a94b613a5e8f2dabe63e965894"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05dbbe62785a0355fcc5399722eba964" id="r_a05dbbe62785a0355fcc5399722eba964"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBestFitPolynomial_8h.html#a05dbbe62785a0355fcc5399722eba964">MR_Polynomial_double_6</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05dbbe62785a0355fcc5399722eba964">MR_Polynomial_double_6</a></td></tr>
+<tr class="separator:a05dbbe62785a0355fcc5399722eba964"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abed0a03c3cb54fae5ccae629e374b64f" id="r_abed0a03c3cb54fae5ccae629e374b64f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a></td></tr>
+<tr class="separator:abed0a03c3cb54fae5ccae629e374b64f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:aba481b4a18c0e725a89f8193624720c9" id="r_aba481b4a18c0e725a89f8193624720c9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba481b4a18c0e725a89f8193624720c9">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:aba481b4a18c0e725a89f8193624720c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9937b63994c49339eaed611301506d70" id="r_a9937b63994c49339eaed611301506d70"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9937b63994c49339eaed611301506d70">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a9937b63994c49339eaed611301506d70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad13be8cb791e441d5f3c4cb44ce06d4c" id="r_ad13be8cb791e441d5f3c4cb44ce06d4c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad13be8cb791e441d5f3c4cb44ce06d4c">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *other)</td></tr>
+<tr class="separator:ad13be8cb791e441d5f3c4cb44ce06d4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78e276f611c402a6ba2daf7136bc04b1" id="r_a78e276f611c402a6ba2daf7136bc04b1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78e276f611c402a6ba2daf7136bc04b1">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignFromAnother</a> (<a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *other)</td></tr>
+<tr class="separator:a78e276f611c402a6ba2daf7136bc04b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac993e735e455be0da003b5eb5f883b9" id="r_aac993e735e455be0da003b5eb5f883b9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac993e735e455be0da003b5eb5f883b9">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Destroy</a> (const <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *_this)</td></tr>
+<tr class="memdesc:aac993e735e455be0da003b5eb5f883b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:aac993e735e455be0da003b5eb5f883b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14910164a9062662f20e1ae8b6dfc038" id="r_a14910164a9062662f20e1ae8b6dfc038"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14910164a9062662f20e1ae8b6dfc038">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_DestroyArray</a> (const <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *_this)</td></tr>
+<tr class="memdesc:a14910164a9062662f20e1ae8b6dfc038"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a14910164a9062662f20e1ae8b6dfc038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae24170734511d7701eec873d6b6bc9a3" id="r_ae24170734511d7701eec873d6b6bc9a3"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae24170734511d7701eec873d6b6bc9a3">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_OffsetPtr</a> (const <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ae24170734511d7701eec873d6b6bc9a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ae24170734511d7701eec873d6b6bc9a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad61babbfe130dc7e5d7a331e6a36585c" id="r_ad61babbfe130dc7e5d7a331e6a36585c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad61babbfe130dc7e5d7a331e6a36585c">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_OffsetMutablePtr</a> (<a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ad61babbfe130dc7e5d7a331e6a36585c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ad61babbfe130dc7e5d7a331e6a36585c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91509f05af1d02fb7fca290ca369f7e9" id="r_a91509f05af1d02fb7fca290ca369f7e9"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91509f05af1d02fb7fca290ca369f7e9">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Index</a> (const <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *_this)</td></tr>
+<tr class="separator:a91509f05af1d02fb7fca290ca369f7e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf1534cf222d7a4b851516fb4a8b8990" id="r_abf1534cf222d7a4b851516fb4a8b8990"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf1534cf222d7a4b851516fb4a8b8990">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_0</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRBestFitPolynomial_8h.html#a0698a1dab93036f1ce759195ffa47702">MR_Polynomial_double_0</a> *value)</td></tr>
+<tr class="separator:abf1534cf222d7a4b851516fb4a8b8990"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ebcbb6f0a7ddd8fb781ddd0f04b6fb1" id="r_a3ebcbb6f0a7ddd8fb781ddd0f04b6fb1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ebcbb6f0a7ddd8fb781ddd0f04b6fb1">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_1</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRBestFitPolynomial_8h.html#a1933e2f3936d7d6422d40b98e38cdd52">MR_Polynomial_double_1</a> *value)</td></tr>
+<tr class="separator:a3ebcbb6f0a7ddd8fb781ddd0f04b6fb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52290e47ae7064f41dfba8add96585ec" id="r_a52290e47ae7064f41dfba8add96585ec"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52290e47ae7064f41dfba8add96585ec">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_2</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRBestFitPolynomial_8h.html#a28b4d22a35874ccc24d8eebd84ad0e94">MR_Polynomial_double_2</a> *value)</td></tr>
+<tr class="separator:a52290e47ae7064f41dfba8add96585ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92a7ddceeb13450200d8fff44ebdf980" id="r_a92a7ddceeb13450200d8fff44ebdf980"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92a7ddceeb13450200d8fff44ebdf980">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_3</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRBestFitPolynomial_8h.html#a3c0b730b3da840c403fb5641ab33f439">MR_Polynomial_double_3</a> *value)</td></tr>
+<tr class="separator:a92a7ddceeb13450200d8fff44ebdf980"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac93c3fdb9f4651cdedb2f6f3504da541" id="r_ac93c3fdb9f4651cdedb2f6f3504da541"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac93c3fdb9f4651cdedb2f6f3504da541">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_4</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRBestFitPolynomial_8h.html#af1ba0fb4f730b9c77c06c8127ce26659">MR_Polynomial_double_4</a> *value)</td></tr>
+<tr class="separator:ac93c3fdb9f4651cdedb2f6f3504da541"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a110d7e4375d557585a96f217fa209125" id="r_a110d7e4375d557585a96f217fa209125"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a110d7e4375d557585a96f217fa209125">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_5</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRBestFitPolynomial_8h.html#ab05184a94b613a5e8f2dabe63e965894">MR_Polynomial_double_5</a> *value)</td></tr>
+<tr class="separator:a110d7e4375d557585a96f217fa209125"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa766414b72a38b53c6e7d73727e0ff42" id="r_aa766414b72a38b53c6e7d73727e0ff42"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa766414b72a38b53c6e7d73727e0ff42">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_6</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRBestFitPolynomial_8h.html#a05dbbe62785a0355fcc5399722eba964">MR_Polynomial_double_6</a> *value)</td></tr>
+<tr class="separator:aa766414b72a38b53c6e7d73727e0ff42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ca1ca9f52d2a3e6ddd91241fc514ad7" id="r_a0ca1ca9f52d2a3e6ddd91241fc514ad7"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ca1ca9f52d2a3e6ddd91241fc514ad7">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_0</a> (<a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRBestFitPolynomial_8h.html#a0698a1dab93036f1ce759195ffa47702">MR_Polynomial_double_0</a> *value)</td></tr>
+<tr class="separator:a0ca1ca9f52d2a3e6ddd91241fc514ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc03179cb66190821cd1b37a9fdf9252" id="r_afc03179cb66190821cd1b37a9fdf9252"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc03179cb66190821cd1b37a9fdf9252">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_1</a> (<a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRBestFitPolynomial_8h.html#a1933e2f3936d7d6422d40b98e38cdd52">MR_Polynomial_double_1</a> *value)</td></tr>
+<tr class="separator:afc03179cb66190821cd1b37a9fdf9252"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a566632900d4610ab3641dd029d3090ca" id="r_a566632900d4610ab3641dd029d3090ca"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a566632900d4610ab3641dd029d3090ca">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_2</a> (<a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRBestFitPolynomial_8h.html#a28b4d22a35874ccc24d8eebd84ad0e94">MR_Polynomial_double_2</a> *value)</td></tr>
+<tr class="separator:a566632900d4610ab3641dd029d3090ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10bae8eebcd380249c8227555fcf962d" id="r_a10bae8eebcd380249c8227555fcf962d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10bae8eebcd380249c8227555fcf962d">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_3</a> (<a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRBestFitPolynomial_8h.html#a3c0b730b3da840c403fb5641ab33f439">MR_Polynomial_double_3</a> *value)</td></tr>
+<tr class="separator:a10bae8eebcd380249c8227555fcf962d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3205d968c949d1e810510487f9492458" id="r_a3205d968c949d1e810510487f9492458"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3205d968c949d1e810510487f9492458">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_4</a> (<a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRBestFitPolynomial_8h.html#af1ba0fb4f730b9c77c06c8127ce26659">MR_Polynomial_double_4</a> *value)</td></tr>
+<tr class="separator:a3205d968c949d1e810510487f9492458"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ec1e6e3b3fca90ba525c25544e6d9c4" id="r_a7ec1e6e3b3fca90ba525c25544e6d9c4"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ec1e6e3b3fca90ba525c25544e6d9c4">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_5</a> (<a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRBestFitPolynomial_8h.html#ab05184a94b613a5e8f2dabe63e965894">MR_Polynomial_double_5</a> *value)</td></tr>
+<tr class="separator:a7ec1e6e3b3fca90ba525c25544e6d9c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9061e5610c52ef1d08dac2a12df9ada2" id="r_a9061e5610c52ef1d08dac2a12df9ada2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9061e5610c52ef1d08dac2a12df9ada2">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_6</a> (<a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRBestFitPolynomial_8h.html#a05dbbe62785a0355fcc5399722eba964">MR_Polynomial_double_6</a> *value)</td></tr>
+<tr class="separator:a9061e5610c52ef1d08dac2a12df9ada2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b08e1826c3d736734d3369dd5d24cc3" id="r_a5b08e1826c3d736734d3369dd5d24cc3"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRBestFitPolynomial_8h.html#a0698a1dab93036f1ce759195ffa47702">MR_Polynomial_double_0</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b08e1826c3d736734d3369dd5d24cc3">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Get_MR_Polynomial_double_0</a> (const <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *_this)</td></tr>
+<tr class="separator:a5b08e1826c3d736734d3369dd5d24cc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a418eb7545004469e2efec8d676d8dc18" id="r_a418eb7545004469e2efec8d676d8dc18"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#a0698a1dab93036f1ce759195ffa47702">MR_Polynomial_double_0</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a418eb7545004469e2efec8d676d8dc18">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_GetMutable_MR_Polynomial_double_0</a> (<a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *_this)</td></tr>
+<tr class="separator:a418eb7545004469e2efec8d676d8dc18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6661164a00d54b9766a628f2442c88f8" id="r_a6661164a00d54b9766a628f2442c88f8"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRBestFitPolynomial_8h.html#a1933e2f3936d7d6422d40b98e38cdd52">MR_Polynomial_double_1</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6661164a00d54b9766a628f2442c88f8">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Get_MR_Polynomial_double_1</a> (const <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *_this)</td></tr>
+<tr class="separator:a6661164a00d54b9766a628f2442c88f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81a037fd1fb6c81dbf3de3bd3a710d0e" id="r_a81a037fd1fb6c81dbf3de3bd3a710d0e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#a1933e2f3936d7d6422d40b98e38cdd52">MR_Polynomial_double_1</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81a037fd1fb6c81dbf3de3bd3a710d0e">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_GetMutable_MR_Polynomial_double_1</a> (<a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *_this)</td></tr>
+<tr class="separator:a81a037fd1fb6c81dbf3de3bd3a710d0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5190d648dd4956993f0f04122baf6c6a" id="r_a5190d648dd4956993f0f04122baf6c6a"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRBestFitPolynomial_8h.html#a28b4d22a35874ccc24d8eebd84ad0e94">MR_Polynomial_double_2</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5190d648dd4956993f0f04122baf6c6a">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Get_MR_Polynomial_double_2</a> (const <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *_this)</td></tr>
+<tr class="separator:a5190d648dd4956993f0f04122baf6c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac753dc37b68554e60d82ef3add19ede2" id="r_ac753dc37b68554e60d82ef3add19ede2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#a28b4d22a35874ccc24d8eebd84ad0e94">MR_Polynomial_double_2</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac753dc37b68554e60d82ef3add19ede2">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_GetMutable_MR_Polynomial_double_2</a> (<a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *_this)</td></tr>
+<tr class="separator:ac753dc37b68554e60d82ef3add19ede2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7c594b44b3f973be256bcca41a31299" id="r_ab7c594b44b3f973be256bcca41a31299"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRBestFitPolynomial_8h.html#a3c0b730b3da840c403fb5641ab33f439">MR_Polynomial_double_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7c594b44b3f973be256bcca41a31299">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Get_MR_Polynomial_double_3</a> (const <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *_this)</td></tr>
+<tr class="separator:ab7c594b44b3f973be256bcca41a31299"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0fa29783181d557f25fe525599a4462" id="r_ad0fa29783181d557f25fe525599a4462"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#a3c0b730b3da840c403fb5641ab33f439">MR_Polynomial_double_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0fa29783181d557f25fe525599a4462">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_GetMutable_MR_Polynomial_double_3</a> (<a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *_this)</td></tr>
+<tr class="separator:ad0fa29783181d557f25fe525599a4462"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff10f348397b1d953ac2a2e01836a479" id="r_aff10f348397b1d953ac2a2e01836a479"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRBestFitPolynomial_8h.html#af1ba0fb4f730b9c77c06c8127ce26659">MR_Polynomial_double_4</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff10f348397b1d953ac2a2e01836a479">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Get_MR_Polynomial_double_4</a> (const <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *_this)</td></tr>
+<tr class="separator:aff10f348397b1d953ac2a2e01836a479"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbecae3d90cc8b9282e45b29b1f781ac" id="r_acbecae3d90cc8b9282e45b29b1f781ac"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#af1ba0fb4f730b9c77c06c8127ce26659">MR_Polynomial_double_4</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbecae3d90cc8b9282e45b29b1f781ac">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_GetMutable_MR_Polynomial_double_4</a> (<a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *_this)</td></tr>
+<tr class="separator:acbecae3d90cc8b9282e45b29b1f781ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d49d5e364a09958002d807b7bb98b7c" id="r_a9d49d5e364a09958002d807b7bb98b7c"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRBestFitPolynomial_8h.html#ab05184a94b613a5e8f2dabe63e965894">MR_Polynomial_double_5</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d49d5e364a09958002d807b7bb98b7c">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Get_MR_Polynomial_double_5</a> (const <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *_this)</td></tr>
+<tr class="separator:a9d49d5e364a09958002d807b7bb98b7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa2e7c80426035fad49e353a227118c0" id="r_afa2e7c80426035fad49e353a227118c0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#ab05184a94b613a5e8f2dabe63e965894">MR_Polynomial_double_5</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa2e7c80426035fad49e353a227118c0">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_GetMutable_MR_Polynomial_double_5</a> (<a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *_this)</td></tr>
+<tr class="separator:afa2e7c80426035fad49e353a227118c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cfb83a58dd2d10abbb04c369e94b134" id="r_a2cfb83a58dd2d10abbb04c369e94b134"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRBestFitPolynomial_8h.html#a05dbbe62785a0355fcc5399722eba964">MR_Polynomial_double_6</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cfb83a58dd2d10abbb04c369e94b134">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Get_MR_Polynomial_double_6</a> (const <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *_this)</td></tr>
+<tr class="separator:a2cfb83a58dd2d10abbb04c369e94b134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9b94028d9697001ecb2f230c4cf5b32" id="r_aa9b94028d9697001ecb2f230c4cf5b32"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#a05dbbe62785a0355fcc5399722eba964">MR_Polynomial_double_6</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9b94028d9697001ecb2f230c4cf5b32">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_GetMutable_MR_Polynomial_double_6</a> (<a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *_this)</td></tr>
+<tr class="separator:aa9b94028d9697001ecb2f230c4cf5b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a0698a1dab93036f1ce759195ffa47702" name="a0698a1dab93036f1ce759195ffa47702"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0698a1dab93036f1ce759195ffa47702">&#9670;&#160;</a></span>MR_Polynomial_double_0</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBestFitPolynomial_8h.html#a0698a1dab93036f1ce759195ffa47702">MR_Polynomial_double_0</a> <a class="el" href="MRBestFitPolynomial_8h.html#a0698a1dab93036f1ce759195ffa47702">MR_Polynomial_double_0</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1933e2f3936d7d6422d40b98e38cdd52" name="a1933e2f3936d7d6422d40b98e38cdd52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1933e2f3936d7d6422d40b98e38cdd52">&#9670;&#160;</a></span>MR_Polynomial_double_1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBestFitPolynomial_8h.html#a1933e2f3936d7d6422d40b98e38cdd52">MR_Polynomial_double_1</a> <a class="el" href="MRBestFitPolynomial_8h.html#a1933e2f3936d7d6422d40b98e38cdd52">MR_Polynomial_double_1</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a28b4d22a35874ccc24d8eebd84ad0e94" name="a28b4d22a35874ccc24d8eebd84ad0e94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28b4d22a35874ccc24d8eebd84ad0e94">&#9670;&#160;</a></span>MR_Polynomial_double_2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBestFitPolynomial_8h.html#a28b4d22a35874ccc24d8eebd84ad0e94">MR_Polynomial_double_2</a> <a class="el" href="MRBestFitPolynomial_8h.html#a28b4d22a35874ccc24d8eebd84ad0e94">MR_Polynomial_double_2</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3c0b730b3da840c403fb5641ab33f439" name="a3c0b730b3da840c403fb5641ab33f439"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c0b730b3da840c403fb5641ab33f439">&#9670;&#160;</a></span>MR_Polynomial_double_3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBestFitPolynomial_8h.html#a3c0b730b3da840c403fb5641ab33f439">MR_Polynomial_double_3</a> <a class="el" href="MRBestFitPolynomial_8h.html#a3c0b730b3da840c403fb5641ab33f439">MR_Polynomial_double_3</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af1ba0fb4f730b9c77c06c8127ce26659" name="af1ba0fb4f730b9c77c06c8127ce26659"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1ba0fb4f730b9c77c06c8127ce26659">&#9670;&#160;</a></span>MR_Polynomial_double_4</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBestFitPolynomial_8h.html#af1ba0fb4f730b9c77c06c8127ce26659">MR_Polynomial_double_4</a> <a class="el" href="MRBestFitPolynomial_8h.html#af1ba0fb4f730b9c77c06c8127ce26659">MR_Polynomial_double_4</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab05184a94b613a5e8f2dabe63e965894" name="ab05184a94b613a5e8f2dabe63e965894"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab05184a94b613a5e8f2dabe63e965894">&#9670;&#160;</a></span>MR_Polynomial_double_5</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBestFitPolynomial_8h.html#ab05184a94b613a5e8f2dabe63e965894">MR_Polynomial_double_5</a> <a class="el" href="MRBestFitPolynomial_8h.html#ab05184a94b613a5e8f2dabe63e965894">MR_Polynomial_double_5</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a05dbbe62785a0355fcc5399722eba964" name="a05dbbe62785a0355fcc5399722eba964"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05dbbe62785a0355fcc5399722eba964">&#9670;&#160;</a></span>MR_Polynomial_double_6</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBestFitPolynomial_8h.html#a05dbbe62785a0355fcc5399722eba964">MR_Polynomial_double_6</a> <a class="el" href="MRBestFitPolynomial_8h.html#a05dbbe62785a0355fcc5399722eba964">MR_Polynomial_double_6</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abed0a03c3cb54fae5ccae629e374b64f" name="abed0a03c3cb54fae5ccae629e374b64f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abed0a03c3cb54fae5ccae629e374b64f">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Stores one of 7 objects: <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 0&gt;</code>, <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 1&gt;</code>, <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 2&gt;</code>, <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 3&gt;</code>, <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 4&gt;</code>, <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 5&gt;</code>, <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 6&gt;</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a0ca1ca9f52d2a3e6ddd91241fc514ad7" name="a0ca1ca9f52d2a3e6ddd91241fc514ad7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ca1ca9f52d2a3e6ddd91241fc514ad7">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_0 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#a0698a1dab93036f1ce759195ffa47702">MR_Polynomial_double_0</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns to the variant, making it store the element 0, of type <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 0&gt;</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="afc03179cb66190821cd1b37a9fdf9252" name="afc03179cb66190821cd1b37a9fdf9252"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc03179cb66190821cd1b37a9fdf9252">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_1 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#a1933e2f3936d7d6422d40b98e38cdd52">MR_Polynomial_double_1</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns to the variant, making it store the element 1, of type <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 1&gt;</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a566632900d4610ab3641dd029d3090ca" name="a566632900d4610ab3641dd029d3090ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a566632900d4610ab3641dd029d3090ca">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_2 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#a28b4d22a35874ccc24d8eebd84ad0e94">MR_Polynomial_double_2</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns to the variant, making it store the element 2, of type <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 2&gt;</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a10bae8eebcd380249c8227555fcf962d" name="a10bae8eebcd380249c8227555fcf962d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10bae8eebcd380249c8227555fcf962d">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_3 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#a3c0b730b3da840c403fb5641ab33f439">MR_Polynomial_double_3</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns to the variant, making it store the element 3, of type <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 3&gt;</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3205d968c949d1e810510487f9492458" name="a3205d968c949d1e810510487f9492458"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3205d968c949d1e810510487f9492458">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_4 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#af1ba0fb4f730b9c77c06c8127ce26659">MR_Polynomial_double_4</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns to the variant, making it store the element 4, of type <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 4&gt;</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a7ec1e6e3b3fca90ba525c25544e6d9c4" name="a7ec1e6e3b3fca90ba525c25544e6d9c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ec1e6e3b3fca90ba525c25544e6d9c4">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_5()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_5 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#ab05184a94b613a5e8f2dabe63e965894">MR_Polynomial_double_5</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns to the variant, making it store the element 5, of type <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 5&gt;</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a9061e5610c52ef1d08dac2a12df9ada2" name="a9061e5610c52ef1d08dac2a12df9ada2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9061e5610c52ef1d08dac2a12df9ada2">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_6()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignAs_MR_Polynomial_double_6 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#a05dbbe62785a0355fcc5399722eba964">MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns to the variant, making it store the element 6, of type <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 6&gt;</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a78e276f611c402a6ba2daf7136bc04b1" name="a78e276f611c402a6ba2daf7136bc04b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78e276f611c402a6ba2daf7136bc04b1">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="abf1534cf222d7a4b851516fb4a8b8990" name="abf1534cf222d7a4b851516fb4a8b8990"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf1534cf222d7a4b851516fb4a8b8990">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_0 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#a0698a1dab93036f1ce759195ffa47702">MR_Polynomial_double_0</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs the variant storing the element 0, of type <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 0&gt;</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aac993e735e455be0da003b5eb5f883b9" title="Destroys a heap-allocated instance of MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR...">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a3ebcbb6f0a7ddd8fb781ddd0f04b6fb1" name="a3ebcbb6f0a7ddd8fb781ddd0f04b6fb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ebcbb6f0a7ddd8fb781ddd0f04b6fb1">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_1 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#a1933e2f3936d7d6422d40b98e38cdd52">MR_Polynomial_double_1</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs the variant storing the element 1, of type <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 1&gt;</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aac993e735e455be0da003b5eb5f883b9" title="Destroys a heap-allocated instance of MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR...">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a52290e47ae7064f41dfba8add96585ec" name="a52290e47ae7064f41dfba8add96585ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52290e47ae7064f41dfba8add96585ec">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_2 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#a28b4d22a35874ccc24d8eebd84ad0e94">MR_Polynomial_double_2</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs the variant storing the element 2, of type <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 2&gt;</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aac993e735e455be0da003b5eb5f883b9" title="Destroys a heap-allocated instance of MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR...">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a92a7ddceeb13450200d8fff44ebdf980" name="a92a7ddceeb13450200d8fff44ebdf980"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92a7ddceeb13450200d8fff44ebdf980">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_3 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#a3c0b730b3da840c403fb5641ab33f439">MR_Polynomial_double_3</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs the variant storing the element 3, of type <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 3&gt;</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aac993e735e455be0da003b5eb5f883b9" title="Destroys a heap-allocated instance of MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR...">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ac93c3fdb9f4651cdedb2f6f3504da541" name="ac93c3fdb9f4651cdedb2f6f3504da541"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac93c3fdb9f4651cdedb2f6f3504da541">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_4 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#af1ba0fb4f730b9c77c06c8127ce26659">MR_Polynomial_double_4</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs the variant storing the element 4, of type <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 4&gt;</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aac993e735e455be0da003b5eb5f883b9" title="Destroys a heap-allocated instance of MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR...">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a110d7e4375d557585a96f217fa209125" name="a110d7e4375d557585a96f217fa209125"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a110d7e4375d557585a96f217fa209125">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_5()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_5 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#ab05184a94b613a5e8f2dabe63e965894">MR_Polynomial_double_5</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs the variant storing the element 5, of type <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 5&gt;</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aac993e735e455be0da003b5eb5f883b9" title="Destroys a heap-allocated instance of MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR...">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aa766414b72a38b53c6e7d73727e0ff42" name="aa766414b72a38b53c6e7d73727e0ff42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa766414b72a38b53c6e7d73727e0ff42">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_6()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructAs_MR_Polynomial_double_6 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#a05dbbe62785a0355fcc5399722eba964">MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs the variant storing the element 6, of type <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 6&gt;</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aac993e735e455be0da003b5eb5f883b9" title="Destroys a heap-allocated instance of MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR...">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ad13be8cb791e441d5f3c4cb44ce06d4c" name="ad13be8cb791e441d5f3c4cb44ce06d4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad13be8cb791e441d5f3c4cb44ce06d4c">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aac993e735e455be0da003b5eb5f883b9" title="Destroys a heap-allocated instance of MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR...">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aba481b4a18c0e725a89f8193624720c9" name="aba481b4a18c0e725a89f8193624720c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba481b4a18c0e725a89f8193624720c9">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aac993e735e455be0da003b5eb5f883b9" title="Destroys a heap-allocated instance of MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR...">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a9937b63994c49339eaed611301506d70" name="a9937b63994c49339eaed611301506d70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9937b63994c49339eaed611301506d70">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a14910164a9062662f20e1ae8b6dfc038" title="Destroys a heap-allocated array of MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Po...">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_DestroyArray()</a></code>. Use <code><a class="el" href="#ad61babbfe130dc7e5d7a331e6a36585c" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_OffsetMutablePtr()</a></code> and <code><a class="el" href="#ae24170734511d7701eec873d6b6bc9a3" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="aac993e735e455be0da003b5eb5f883b9" name="aac993e735e455be0da003b5eb5f883b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac993e735e455be0da003b5eb5f883b9">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a14910164a9062662f20e1ae8b6dfc038" name="a14910164a9062662f20e1ae8b6dfc038"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14910164a9062662f20e1ae8b6dfc038">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a5b08e1826c3d736734d3369dd5d24cc3" name="a5b08e1826c3d736734d3369dd5d24cc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b08e1826c3d736734d3369dd5d24cc3">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Get_MR_Polynomial_double_0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRBestFitPolynomial_8h.html#a0698a1dab93036f1ce759195ffa47702">MR_Polynomial_double_0</a> * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Get_MR_Polynomial_double_0 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the element 0, of type <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 0&gt;</code>, read-only. If it's not the active element, returns null. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6661164a00d54b9766a628f2442c88f8" name="a6661164a00d54b9766a628f2442c88f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6661164a00d54b9766a628f2442c88f8">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Get_MR_Polynomial_double_1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRBestFitPolynomial_8h.html#a1933e2f3936d7d6422d40b98e38cdd52">MR_Polynomial_double_1</a> * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Get_MR_Polynomial_double_1 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the element 1, of type <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 1&gt;</code>, read-only. If it's not the active element, returns null. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a5190d648dd4956993f0f04122baf6c6a" name="a5190d648dd4956993f0f04122baf6c6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5190d648dd4956993f0f04122baf6c6a">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Get_MR_Polynomial_double_2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRBestFitPolynomial_8h.html#a28b4d22a35874ccc24d8eebd84ad0e94">MR_Polynomial_double_2</a> * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Get_MR_Polynomial_double_2 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the element 2, of type <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 2&gt;</code>, read-only. If it's not the active element, returns null. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ab7c594b44b3f973be256bcca41a31299" name="ab7c594b44b3f973be256bcca41a31299"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7c594b44b3f973be256bcca41a31299">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Get_MR_Polynomial_double_3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRBestFitPolynomial_8h.html#a3c0b730b3da840c403fb5641ab33f439">MR_Polynomial_double_3</a> * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Get_MR_Polynomial_double_3 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the element 3, of type <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 3&gt;</code>, read-only. If it's not the active element, returns null. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aff10f348397b1d953ac2a2e01836a479" name="aff10f348397b1d953ac2a2e01836a479"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff10f348397b1d953ac2a2e01836a479">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Get_MR_Polynomial_double_4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRBestFitPolynomial_8h.html#af1ba0fb4f730b9c77c06c8127ce26659">MR_Polynomial_double_4</a> * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Get_MR_Polynomial_double_4 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the element 4, of type <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 4&gt;</code>, read-only. If it's not the active element, returns null. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a9d49d5e364a09958002d807b7bb98b7c" name="a9d49d5e364a09958002d807b7bb98b7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d49d5e364a09958002d807b7bb98b7c">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Get_MR_Polynomial_double_5()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRBestFitPolynomial_8h.html#ab05184a94b613a5e8f2dabe63e965894">MR_Polynomial_double_5</a> * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Get_MR_Polynomial_double_5 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the element 5, of type <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 5&gt;</code>, read-only. If it's not the active element, returns null. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a2cfb83a58dd2d10abbb04c369e94b134" name="a2cfb83a58dd2d10abbb04c369e94b134"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cfb83a58dd2d10abbb04c369e94b134">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Get_MR_Polynomial_double_6()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRBestFitPolynomial_8h.html#a05dbbe62785a0355fcc5399722eba964">MR_Polynomial_double_6</a> * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Get_MR_Polynomial_double_6 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the element 6, of type <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 6&gt;</code>, read-only. If it's not the active element, returns null. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a418eb7545004469e2efec8d676d8dc18" name="a418eb7545004469e2efec8d676d8dc18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a418eb7545004469e2efec8d676d8dc18">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_GetMutable_MR_Polynomial_double_0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#a0698a1dab93036f1ce759195ffa47702">MR_Polynomial_double_0</a> * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_GetMutable_MR_Polynomial_double_0 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the element 0, of type <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 0&gt;</code>, mutable. If it's not the active element, returns null. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a81a037fd1fb6c81dbf3de3bd3a710d0e" name="a81a037fd1fb6c81dbf3de3bd3a710d0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81a037fd1fb6c81dbf3de3bd3a710d0e">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_GetMutable_MR_Polynomial_double_1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#a1933e2f3936d7d6422d40b98e38cdd52">MR_Polynomial_double_1</a> * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_GetMutable_MR_Polynomial_double_1 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the element 1, of type <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 1&gt;</code>, mutable. If it's not the active element, returns null. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac753dc37b68554e60d82ef3add19ede2" name="ac753dc37b68554e60d82ef3add19ede2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac753dc37b68554e60d82ef3add19ede2">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_GetMutable_MR_Polynomial_double_2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#a28b4d22a35874ccc24d8eebd84ad0e94">MR_Polynomial_double_2</a> * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_GetMutable_MR_Polynomial_double_2 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the element 2, of type <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 2&gt;</code>, mutable. If it's not the active element, returns null. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad0fa29783181d557f25fe525599a4462" name="ad0fa29783181d557f25fe525599a4462"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0fa29783181d557f25fe525599a4462">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_GetMutable_MR_Polynomial_double_3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#a3c0b730b3da840c403fb5641ab33f439">MR_Polynomial_double_3</a> * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_GetMutable_MR_Polynomial_double_3 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the element 3, of type <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 3&gt;</code>, mutable. If it's not the active element, returns null. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="acbecae3d90cc8b9282e45b29b1f781ac" name="acbecae3d90cc8b9282e45b29b1f781ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbecae3d90cc8b9282e45b29b1f781ac">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_GetMutable_MR_Polynomial_double_4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#af1ba0fb4f730b9c77c06c8127ce26659">MR_Polynomial_double_4</a> * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_GetMutable_MR_Polynomial_double_4 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the element 4, of type <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 4&gt;</code>, mutable. If it's not the active element, returns null. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="afa2e7c80426035fad49e353a227118c0" name="afa2e7c80426035fad49e353a227118c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa2e7c80426035fad49e353a227118c0">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_GetMutable_MR_Polynomial_double_5()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#ab05184a94b613a5e8f2dabe63e965894">MR_Polynomial_double_5</a> * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_GetMutable_MR_Polynomial_double_5 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the element 5, of type <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 5&gt;</code>, mutable. If it's not the active element, returns null. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa9b94028d9697001ecb2f230c4cf5b32" name="aa9b94028d9697001ecb2f230c4cf5b32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9b94028d9697001ecb2f230c4cf5b32">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_GetMutable_MR_Polynomial_double_6()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#a05dbbe62785a0355fcc5399722eba964">MR_Polynomial_double_6</a> * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_GetMutable_MR_Polynomial_double_6 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the element 6, of type <code><a class="elRef" href="../Cpp/structMR_1_1Polynomial.html">MR::Polynomial</a>&lt;double, 6&gt;</code>, mutable. If it's not the active element, returns null. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a91509f05af1d02fb7fca290ca369f7e9" name="a91509f05af1d02fb7fca290ca369f7e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91509f05af1d02fb7fca290ca369f7e9">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Index()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_Index </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the index of the stored element type. In rare cases may return -1 if this variant is "valueless by exception". Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad61babbfe130dc7e5d7a331e6a36585c" name="ad61babbfe130dc7e5d7a331e6a36585c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad61babbfe130dc7e5d7a331e6a36585c">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ae24170734511d7701eec873d6b6bc9a3" name="ae24170734511d7701eec873d6b6bc9a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae24170734511d7701eec873d6b6bc9a3">&#9670;&#160;</a></span>MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> * MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f">MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_a57e8462869cab4a5203dede5869920d.html">MRCMisc</a></li><li class="navelem"><a class="el" href="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h.html">std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

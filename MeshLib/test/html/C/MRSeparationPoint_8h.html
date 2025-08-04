@@ -1,0 +1,1308 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRSeparationPoint.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRSeparationPoint_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRSeparationPoint.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
+</div>
+<p><a href="MRSeparationPoint_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a33f2cead15f3bf37534d3678feb4af22" id="r_a33f2cead15f3bf37534d3678feb4af22"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAlphaShape_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a></td></tr>
+<tr class="separator:a33f2cead15f3bf37534d3678feb4af22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9692dc04329fdb84eb3ddd8d265ba089" id="r_a9692dc04329fdb84eb3ddd8d265ba089"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a9692dc04329fdb84eb3ddd8d265ba089">MR_Vector_MR_VoxelId_MR_FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9692dc04329fdb84eb3ddd8d265ba089">MR_Vector_MR_VoxelId_MR_FaceId</a></td></tr>
+<tr class="separator:a9692dc04329fdb84eb3ddd8d265ba089"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a249fd9254c0c3395567807936ad32641" id="r_a249fd9254c0c3395567807936ad32641"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a></td></tr>
+<tr class="separator:a249fd9254c0c3395567807936ad32641"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74f8c3cd688b18a927b2d464fad5f575" id="r_a74f8c3cd688b18a927b2d464fad5f575"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a74f8c3cd688b18a927b2d464fad5f575">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74f8c3cd688b18a927b2d464fad5f575">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</a></td></tr>
+<tr class="separator:a74f8c3cd688b18a927b2d464fad5f575"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93a0c4d7b47d7dae609a79a31bf54018" id="r_a93a0c4d7b47d7dae609a79a31bf54018"><td class="memItemLeft" align="right" valign="top">typedef struct MR_std_array_MR_VertId_3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93a0c4d7b47d7dae609a79a31bf54018">MR_std_array_MR_VertId_3</a></td></tr>
+<tr class="separator:a93a0c4d7b47d7dae609a79a31bf54018"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefed148a09a0ae55edbd22814638b462" id="r_aefed148a09a0ae55edbd22814638b462"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a></td></tr>
+<tr class="separator:aefed148a09a0ae55edbd22814638b462"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9d79ecb8712cfe46600b3fda1831948" id="r_ae9d79ecb8712cfe46600b3fda1831948"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9d79ecb8712cfe46600b3fda1831948">MR_NeighborDir</a></td></tr>
+<tr class="separator:ae9d79ecb8712cfe46600b3fda1831948"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bcf2d9a78b61d58787442aa38075ffa" id="r_a5bcf2d9a78b61d58787442aa38075ffa"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a></td></tr>
+<tr class="separator:a5bcf2d9a78b61d58787442aa38075ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6335a684721a20e9d9b3d4afd039f60" id="r_ac6335a684721a20e9d9b3d4afd039f60"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a></td></tr>
+<tr class="memdesc:ac6335a684721a20e9d9b3d4afd039f60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1SeparationPointStorage_1_1Block.html">MR::SeparationPointStorage::Block</a></code>.  <br /></td></tr>
+<tr class="separator:ac6335a684721a20e9d9b3d4afd039f60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a8628933cde20921c453a6d2607bdad62" id="r_a8628933cde20921c453a6d2607bdad62"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a8628933cde20921c453a6d2607bdad62aacf3d60d150604dc568a6e09b8322624">MR_NeighborDir_X</a> = 0
+, <a class="el" href="#a8628933cde20921c453a6d2607bdad62a403abf7430a15e7ee80dddb120fad50d">MR_NeighborDir_Y</a> = 1
+, <a class="el" href="#a8628933cde20921c453a6d2607bdad62afd53be8272339c5a7b837883dbb04278">MR_NeighborDir_Z</a> = 2
+, <a class="el" href="#a8628933cde20921c453a6d2607bdad62ab7c1f4e8f8e93e271e528f8bcd4ceb6c">MR_NeighborDir_Count</a> = 3
+ }</td></tr>
+<tr class="separator:a8628933cde20921c453a6d2607bdad62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ae27539ce63d3ee860e7959d90c2154dd" id="r_ae27539ce63d3ee860e7959d90c2154dd"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae27539ce63d3ee860e7959d90c2154dd">MR_SeparationPointStorage_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ae27539ce63d3ee860e7959d90c2154dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afac80823d87336da4c065c4672e648c9" id="r_afac80823d87336da4c065c4672e648c9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afac80823d87336da4c065c4672e648c9">MR_SeparationPointStorage_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:afac80823d87336da4c065c4672e648c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3791e21b79773f8f980914f218e792ac" id="r_a3791e21b79773f8f980914f218e792ac"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3791e21b79773f8f980914f218e792ac">MR_SeparationPointStorage_OffsetPtr</a> (const <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a3791e21b79773f8f980914f218e792ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a3791e21b79773f8f980914f218e792ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d5fc7a08975e1d0bb7e3427cec2f516" id="r_a7d5fc7a08975e1d0bb7e3427cec2f516"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d5fc7a08975e1d0bb7e3427cec2f516">MR_SeparationPointStorage_OffsetMutablePtr</a> (<a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a7d5fc7a08975e1d0bb7e3427cec2f516"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a7d5fc7a08975e1d0bb7e3427cec2f516"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8c2e4a203145dff953c389baa8ed7f0" id="r_aa8c2e4a203145dff953c389baa8ed7f0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8c2e4a203145dff953c389baa8ed7f0">MR_SeparationPointStorage_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *_other)</td></tr>
+<tr class="separator:aa8c2e4a203145dff953c389baa8ed7f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b9bf83480d48059eb073969fb65177c" id="r_a6b9bf83480d48059eb073969fb65177c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b9bf83480d48059eb073969fb65177c">MR_SeparationPointStorage_Destroy</a> (const <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *_this)</td></tr>
+<tr class="memdesc:a6b9bf83480d48059eb073969fb65177c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_SeparationPointStorage</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a6b9bf83480d48059eb073969fb65177c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af35ba526ed58668500ae8fedb24da55b" id="r_af35ba526ed58668500ae8fedb24da55b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af35ba526ed58668500ae8fedb24da55b">MR_SeparationPointStorage_DestroyArray</a> (const <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *_this)</td></tr>
+<tr class="memdesc:af35ba526ed58668500ae8fedb24da55b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_SeparationPointStorage</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:af35ba526ed58668500ae8fedb24da55b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7fd342ff031c2ead3e9c9f1239fcdf4" id="r_ae7fd342ff031c2ead3e9c9f1239fcdf4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7fd342ff031c2ead3e9c9f1239fcdf4">MR_SeparationPointStorage_AssignFromAnother</a> (<a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *_other)</td></tr>
+<tr class="separator:ae7fd342ff031c2ead3e9c9f1239fcdf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af518135d3d01aa481d98ea7887d696f3" id="r_af518135d3d01aa481d98ea7887d696f3"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af518135d3d01aa481d98ea7887d696f3">MR_SeparationPointStorage_resize</a> (<a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> blockCount, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> blockSize)</td></tr>
+<tr class="separator:af518135d3d01aa481d98ea7887d696f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec0c858b61de0b6e336f18dc29ff93ac" id="r_aec0c858b61de0b6e336f18dc29ff93ac"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec0c858b61de0b6e336f18dc29ff93ac">MR_SeparationPointStorage_getBlock</a> (<a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> blockIndex)</td></tr>
+<tr class="separator:aec0c858b61de0b6e336f18dc29ff93ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab90eb9ce5e13989924003199b6b1879c" id="r_ab90eb9ce5e13989924003199b6b1879c"><td class="memItemLeft" align="right" valign="top">MRC_API int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab90eb9ce5e13989924003199b6b1879c">MR_SeparationPointStorage_makeUniqueVids</a> (<a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *_this)</td></tr>
+<tr class="separator:ab90eb9ce5e13989924003199b6b1879c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71b2fe47dc8a3c6a285019c7f0871fd3" id="r_a71b2fe47dc8a3c6a285019c7f0871fd3"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__std__array__MR__VertId__3.html">MR_std_array_MR_VertId_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71b2fe47dc8a3c6a285019c7f0871fd3">MR_SeparationPointStorage_findSeparationPointSet</a> (const <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> voxelId)</td></tr>
+<tr class="separator:a71b2fe47dc8a3c6a285019c7f0871fd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5012a12ae4039b58e2c521b0f74be86f" id="r_a5012a12ae4039b58e2c521b0f74be86f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAlphaShape_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5012a12ae4039b58e2c521b0f74be86f">MR_SeparationPointStorage_getTriangulation</a> (const <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *_this, <a class="el" href="#a9692dc04329fdb84eb3ddd8d265ba089">MR_Vector_MR_VoxelId_MR_FaceId</a> *outVoxelPerFaceMap)</td></tr>
+<tr class="separator:a5012a12ae4039b58e2c521b0f74be86f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac022f7aa5dd682168925740dec383a28" id="r_ac022f7aa5dd682168925740dec383a28"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac022f7aa5dd682168925740dec383a28">MR_SeparationPointStorage_getPoints</a> (const <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *_this, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points)</td></tr>
+<tr class="separator:ac022f7aa5dd682168925740dec383a28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af17866f52f25f9810f4915084fc0e164" id="r_af17866f52f25f9810f4915084fc0e164"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a74f8c3cd688b18a927b2d464fad5f575">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af17866f52f25f9810f4915084fc0e164">MR_SeparationPointStorage_Block_Get_smap</a> (const <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this)</td></tr>
+<tr class="separator:af17866f52f25f9810f4915084fc0e164"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4148c1d8901867f29a08d3b29c95df67" id="r_a4148c1d8901867f29a08d3b29c95df67"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4148c1d8901867f29a08d3b29c95df67">MR_SeparationPointStorage_Block_Set_smap</a> (<a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#a74f8c3cd688b18a927b2d464fad5f575">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</a> *value)</td></tr>
+<tr class="separator:a4148c1d8901867f29a08d3b29c95df67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3a248ba39c04bed3359176d4b914ed0" id="r_ad3a248ba39c04bed3359176d4b914ed0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a74f8c3cd688b18a927b2d464fad5f575">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3a248ba39c04bed3359176d4b914ed0">MR_SeparationPointStorage_Block_GetMutable_smap</a> (<a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this)</td></tr>
+<tr class="separator:ad3a248ba39c04bed3359176d4b914ed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa38c4765feb8bc143d19b1f3ce837c6" id="r_aaa38c4765feb8bc143d19b1f3ce837c6"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa38c4765feb8bc143d19b1f3ce837c6">MR_SeparationPointStorage_Block_Get_coords</a> (const <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this)</td></tr>
+<tr class="separator:aaa38c4765feb8bc143d19b1f3ce837c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c450c653eb2aa8dad4b91e29104ff7b" id="r_a0c450c653eb2aa8dad4b91e29104ff7b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c450c653eb2aa8dad4b91e29104ff7b">MR_SeparationPointStorage_Block_Set_coords</a> (<a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *value)</td></tr>
+<tr class="separator:a0c450c653eb2aa8dad4b91e29104ff7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16bc2c1b3024854bcf3129a47ba4290d" id="r_a16bc2c1b3024854bcf3129a47ba4290d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16bc2c1b3024854bcf3129a47ba4290d">MR_SeparationPointStorage_Block_GetMutable_coords</a> (<a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this)</td></tr>
+<tr class="separator:a16bc2c1b3024854bcf3129a47ba4290d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad96af7c9cd7f4e60770612535be93eb4" id="r_ad96af7c9cd7f4e60770612535be93eb4"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__VertId.html">MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad96af7c9cd7f4e60770612535be93eb4">MR_SeparationPointStorage_Block_Get_shift</a> (const <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this)</td></tr>
+<tr class="separator:ad96af7c9cd7f4e60770612535be93eb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ea741537c1edd006b764a342a1dd2ac" id="r_a9ea741537c1edd006b764a342a1dd2ac"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ea741537c1edd006b764a342a1dd2ac">MR_SeparationPointStorage_Block_Set_shift</a> (<a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this, <a class="el" href="structMR__VertId.html">MR_VertId</a> value)</td></tr>
+<tr class="separator:a9ea741537c1edd006b764a342a1dd2ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b10e4d000aee91e183d103cbbd68e7b" id="r_a8b10e4d000aee91e183d103cbbd68e7b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b10e4d000aee91e183d103cbbd68e7b">MR_SeparationPointStorage_Block_GetMutable_shift</a> (<a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this)</td></tr>
+<tr class="separator:a8b10e4d000aee91e183d103cbbd68e7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17e1ab33a1cd07a71a86512cfc1d2856" id="r_a17e1ab33a1cd07a71a86512cfc1d2856"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAlphaShape_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17e1ab33a1cd07a71a86512cfc1d2856">MR_SeparationPointStorage_Block_Get_tris</a> (const <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this)</td></tr>
+<tr class="separator:a17e1ab33a1cd07a71a86512cfc1d2856"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a959818309826e2b9894730a82ef3c593" id="r_a959818309826e2b9894730a82ef3c593"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a959818309826e2b9894730a82ef3c593">MR_SeparationPointStorage_Block_Set_tris</a> (<a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRAlphaShape_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *value)</td></tr>
+<tr class="separator:a959818309826e2b9894730a82ef3c593"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c1418c9f6144a04f4c7b219f4439c4c" id="r_a7c1418c9f6144a04f4c7b219f4439c4c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAlphaShape_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c1418c9f6144a04f4c7b219f4439c4c">MR_SeparationPointStorage_Block_GetMutable_tris</a> (<a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this)</td></tr>
+<tr class="separator:a7c1418c9f6144a04f4c7b219f4439c4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a609166b352c680c59fb4ee8ccc4be4" id="r_a3a609166b352c680c59fb4ee8ccc4be4"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a9692dc04329fdb84eb3ddd8d265ba089">MR_Vector_MR_VoxelId_MR_FaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a609166b352c680c59fb4ee8ccc4be4">MR_SeparationPointStorage_Block_Get_faceMap</a> (const <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this)</td></tr>
+<tr class="separator:a3a609166b352c680c59fb4ee8ccc4be4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b350e623286a9151cda4233023a4f87" id="r_a8b350e623286a9151cda4233023a4f87"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b350e623286a9151cda4233023a4f87">MR_SeparationPointStorage_Block_Set_faceMap</a> (<a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#a9692dc04329fdb84eb3ddd8d265ba089">MR_Vector_MR_VoxelId_MR_FaceId</a> *value)</td></tr>
+<tr class="separator:a8b350e623286a9151cda4233023a4f87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac49e505944c6b65d9d2f762a00e94ea" id="r_aac49e505944c6b65d9d2f762a00e94ea"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a9692dc04329fdb84eb3ddd8d265ba089">MR_Vector_MR_VoxelId_MR_FaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac49e505944c6b65d9d2f762a00e94ea">MR_SeparationPointStorage_Block_GetMutable_faceMap</a> (<a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this)</td></tr>
+<tr class="separator:aac49e505944c6b65d9d2f762a00e94ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5b7bc53a9db0972e5e64d0e908b2cc1" id="r_ad5b7bc53a9db0972e5e64d0e908b2cc1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5b7bc53a9db0972e5e64d0e908b2cc1">MR_SeparationPointStorage_Block_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ad5b7bc53a9db0972e5e64d0e908b2cc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70010d4d53dfa583f98e49506e790d00" id="r_a70010d4d53dfa583f98e49506e790d00"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70010d4d53dfa583f98e49506e790d00">MR_SeparationPointStorage_Block_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a70010d4d53dfa583f98e49506e790d00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9405d3ee9901b9e5060ce99d6dc2347e" id="r_a9405d3ee9901b9e5060ce99d6dc2347e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9405d3ee9901b9e5060ce99d6dc2347e">MR_SeparationPointStorage_Block_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> smap_pass_by, <a class="el" href="#a74f8c3cd688b18a927b2d464fad5f575">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</a> *smap, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> coords_pass_by, <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *coords, <a class="el" href="structMR__VertId.html">MR_VertId</a> shift, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> tris_pass_by, <a class="el" href="MRAlphaShape_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *tris, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> faceMap_pass_by, <a class="el" href="#a9692dc04329fdb84eb3ddd8d265ba089">MR_Vector_MR_VoxelId_MR_FaceId</a> *faceMap)</td></tr>
+<tr class="separator:a9405d3ee9901b9e5060ce99d6dc2347e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7fff2b04e6ccc44f5ab07214610ba61" id="r_ad7fff2b04e6ccc44f5ab07214610ba61"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7fff2b04e6ccc44f5ab07214610ba61">MR_SeparationPointStorage_Block_OffsetPtr</a> (const <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ad7fff2b04e6ccc44f5ab07214610ba61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ad7fff2b04e6ccc44f5ab07214610ba61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e4ace24a3e396d8d3a41664a8ae0635" id="r_a4e4ace24a3e396d8d3a41664a8ae0635"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e4ace24a3e396d8d3a41664a8ae0635">MR_SeparationPointStorage_Block_OffsetMutablePtr</a> (<a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a4e4ace24a3e396d8d3a41664a8ae0635"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a4e4ace24a3e396d8d3a41664a8ae0635"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83f2967badad7b356116211a0ed60ccd" id="r_a83f2967badad7b356116211a0ed60ccd"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83f2967badad7b356116211a0ed60ccd">MR_SeparationPointStorage_Block_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_other)</td></tr>
+<tr class="separator:a83f2967badad7b356116211a0ed60ccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3416e368cb21e8e8d3d657dd40cd899b" id="r_a3416e368cb21e8e8d3d657dd40cd899b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3416e368cb21e8e8d3d657dd40cd899b">MR_SeparationPointStorage_Block_Destroy</a> (const <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this)</td></tr>
+<tr class="memdesc:a3416e368cb21e8e8d3d657dd40cd899b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_SeparationPointStorage_Block</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a3416e368cb21e8e8d3d657dd40cd899b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e4b93d84a7d98a60b152f0e6a0c4b32" id="r_a6e4b93d84a7d98a60b152f0e6a0c4b32"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e4b93d84a7d98a60b152f0e6a0c4b32">MR_SeparationPointStorage_Block_DestroyArray</a> (const <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this)</td></tr>
+<tr class="memdesc:a6e4b93d84a7d98a60b152f0e6a0c4b32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_SeparationPointStorage_Block</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a6e4b93d84a7d98a60b152f0e6a0c4b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a236034e49f95598f77736cee70d37bab" id="r_a236034e49f95598f77736cee70d37bab"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a236034e49f95598f77736cee70d37bab">MR_SeparationPointStorage_Block_AssignFromAnother</a> (<a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_other)</td></tr>
+<tr class="separator:a236034e49f95598f77736cee70d37bab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af326ebe75a756fccd1be286862835638" id="r_af326ebe75a756fccd1be286862835638"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af326ebe75a756fccd1be286862835638">MR_SeparationPointStorage_Block_nextVid</a> (const <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *_this)</td></tr>
+<tr class="separator:af326ebe75a756fccd1be286862835638"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="ae9d79ecb8712cfe46600b3fda1831948" name="ae9d79ecb8712cfe46600b3fda1831948"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9d79ecb8712cfe46600b3fda1831948">&#9670;&#160;</a></span>MR_NeighborDir</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int32_t <a class="el" href="#ae9d79ecb8712cfe46600b3fda1831948">MR_NeighborDir</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a74f8c3cd688b18a927b2d464fad5f575" name="a74f8c3cd688b18a927b2d464fad5f575"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74f8c3cd688b18a927b2d464fad5f575">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a74f8c3cd688b18a927b2d464fad5f575">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</a> <a class="el" href="#a74f8c3cd688b18a927b2d464fad5f575">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5bcf2d9a78b61d58787442aa38075ffa" name="a5bcf2d9a78b61d58787442aa38075ffa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bcf2d9a78b61d58787442aa38075ffa">&#9670;&#160;</a></span>MR_SeparationPointStorage</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>storage for points on voxel edges used in Marching Cubes algorithms Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1SeparationPointStorage.html">MR::SeparationPointStorage</a></code>. </p>
+
+</div>
+</div>
+<a id="ac6335a684721a20e9d9b3d4afd039f60" name="ac6335a684721a20e9d9b3d4afd039f60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6335a684721a20e9d9b3d4afd039f60">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1SeparationPointStorage_1_1Block.html">MR::SeparationPointStorage::Block</a></code>. </p>
+
+</div>
+</div>
+<a id="a93a0c4d7b47d7dae609a79a31bf54018" name="a93a0c4d7b47d7dae609a79a31bf54018"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93a0c4d7b47d7dae609a79a31bf54018">&#9670;&#160;</a></span>MR_std_array_MR_VertId_3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct MR_std_array_MR_VertId_3 MR_std_array_MR_VertId_3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aefed148a09a0ae55edbd22814638b462" name="aefed148a09a0ae55edbd22814638b462"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefed148a09a0ae55edbd22814638b462">&#9670;&#160;</a></span>MR_std_vector_MR_Vector3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a33f2cead15f3bf37534d3678feb4af22" name="a33f2cead15f3bf37534d3678feb4af22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33f2cead15f3bf37534d3678feb4af22">&#9670;&#160;</a></span>MR_Triangulation</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAlphaShape_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> <a class="el" href="MRAlphaShape_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9692dc04329fdb84eb3ddd8d265ba089" name="a9692dc04329fdb84eb3ddd8d265ba089"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9692dc04329fdb84eb3ddd8d265ba089">&#9670;&#160;</a></span>MR_Vector_MR_VoxelId_MR_FaceId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a9692dc04329fdb84eb3ddd8d265ba089">MR_Vector_MR_VoxelId_MR_FaceId</a> <a class="el" href="#a9692dc04329fdb84eb3ddd8d265ba089">MR_Vector_MR_VoxelId_MR_FaceId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a249fd9254c0c3395567807936ad32641" name="a249fd9254c0c3395567807936ad32641"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a249fd9254c0c3395567807936ad32641">&#9670;&#160;</a></span>MR_VertCoords</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a8628933cde20921c453a6d2607bdad62" name="a8628933cde20921c453a6d2607bdad62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8628933cde20921c453a6d2607bdad62">&#9670;&#160;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8628933cde20921c453a6d2607bdad62aacf3d60d150604dc568a6e09b8322624" name="a8628933cde20921c453a6d2607bdad62aacf3d60d150604dc568a6e09b8322624"></a>MR_NeighborDir_X&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8628933cde20921c453a6d2607bdad62a403abf7430a15e7ee80dddb120fad50d" name="a8628933cde20921c453a6d2607bdad62a403abf7430a15e7ee80dddb120fad50d"></a>MR_NeighborDir_Y&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8628933cde20921c453a6d2607bdad62afd53be8272339c5a7b837883dbb04278" name="a8628933cde20921c453a6d2607bdad62afd53be8272339c5a7b837883dbb04278"></a>MR_NeighborDir_Z&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8628933cde20921c453a6d2607bdad62ab7c1f4e8f8e93e271e528f8bcd4ceb6c" name="a8628933cde20921c453a6d2607bdad62ab7c1f4e8f8e93e271e528f8bcd4ceb6c"></a>MR_NeighborDir_Count&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ae7fd342ff031c2ead3e9c9f1239fcdf4" name="ae7fd342ff031c2ead3e9c9f1239fcdf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7fd342ff031c2ead3e9c9f1239fcdf4">&#9670;&#160;</a></span>MR_SeparationPointStorage_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> * MR_SeparationPointStorage_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1SeparationPointStorage.html">MR::SeparationPointStorage</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a236034e49f95598f77736cee70d37bab" name="a236034e49f95598f77736cee70d37bab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a236034e49f95598f77736cee70d37bab">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> * MR_SeparationPointStorage_Block_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SeparationPointStorage_1_1Block.html">MR::SeparationPointStorage::Block</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a9405d3ee9901b9e5060ce99d6dc2347e" name="a9405d3ee9901b9e5060ce99d6dc2347e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9405d3ee9901b9e5060ce99d6dc2347e">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> * MR_SeparationPointStorage_Block_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>smap_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a74f8c3cd688b18a927b2d464fad5f575">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>smap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>coords_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>coords</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__VertId.html">MR_VertId</a></td>          <td class="paramname"><span class="paramname"><em>shift</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>tris_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAlphaShape_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *</td>          <td class="paramname"><span class="paramname"><em>tris</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>faceMap_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a9692dc04329fdb84eb3ddd8d265ba089">MR_Vector_MR_VoxelId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>faceMap</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1SeparationPointStorage_1_1Block.html">MR::SeparationPointStorage::Block</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a3416e368cb21e8e8d3d657dd40cd899b" title="Destroys a heap-allocated instance of MR_SeparationPointStorage_Block. Does nothing if the pointer is...">MR_SeparationPointStorage_Block_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a83f2967badad7b356116211a0ed60ccd" name="a83f2967badad7b356116211a0ed60ccd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83f2967badad7b356116211a0ed60ccd">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> * MR_SeparationPointStorage_Block_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1SeparationPointStorage_1_1Block.html">MR::SeparationPointStorage::Block</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a3416e368cb21e8e8d3d657dd40cd899b" title="Destroys a heap-allocated instance of MR_SeparationPointStorage_Block. Does nothing if the pointer is...">MR_SeparationPointStorage_Block_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ad5b7bc53a9db0972e5e64d0e908b2cc1" name="ad5b7bc53a9db0972e5e64d0e908b2cc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5b7bc53a9db0972e5e64d0e908b2cc1">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> * MR_SeparationPointStorage_Block_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a3416e368cb21e8e8d3d657dd40cd899b" title="Destroys a heap-allocated instance of MR_SeparationPointStorage_Block. Does nothing if the pointer is...">MR_SeparationPointStorage_Block_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a70010d4d53dfa583f98e49506e790d00" name="a70010d4d53dfa583f98e49506e790d00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70010d4d53dfa583f98e49506e790d00">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> * MR_SeparationPointStorage_Block_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a6e4b93d84a7d98a60b152f0e6a0c4b32" title="Destroys a heap-allocated array of MR_SeparationPointStorage_Block. Does nothing if the pointer is nu...">MR_SeparationPointStorage_Block_DestroyArray()</a></code>. Use <code><a class="el" href="#a4e4ace24a3e396d8d3a41664a8ae0635" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_SeparationPointStorage_Block_OffsetMutablePtr()</a></code> and <code><a class="el" href="#ad7fff2b04e6ccc44f5ab07214610ba61" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_SeparationPointStorage_Block_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a3416e368cb21e8e8d3d657dd40cd899b" name="a3416e368cb21e8e8d3d657dd40cd899b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3416e368cb21e8e8d3d657dd40cd899b">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SeparationPointStorage_Block_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_SeparationPointStorage_Block</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a6e4b93d84a7d98a60b152f0e6a0c4b32" name="a6e4b93d84a7d98a60b152f0e6a0c4b32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e4b93d84a7d98a60b152f0e6a0c4b32">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SeparationPointStorage_Block_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_SeparationPointStorage_Block</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aaa38c4765feb8bc143d19b1f3ce837c6" name="aaa38c4765feb8bc143d19b1f3ce837c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa38c4765feb8bc143d19b1f3ce837c6">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_Get_coords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_SeparationPointStorage_Block_Get_coords </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SeparationPointStorage_1_1Block.html">MR::SeparationPointStorage::Block</a></code> named <code>coords</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a3a609166b352c680c59fb4ee8ccc4be4" name="a3a609166b352c680c59fb4ee8ccc4be4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a609166b352c680c59fb4ee8ccc4be4">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_Get_faceMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a9692dc04329fdb84eb3ddd8d265ba089">MR_Vector_MR_VoxelId_MR_FaceId</a> * MR_SeparationPointStorage_Block_Get_faceMap </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SeparationPointStorage_1_1Block.html">MR::SeparationPointStorage::Block</a></code> named <code>faceMap</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ad96af7c9cd7f4e60770612535be93eb4" name="ad96af7c9cd7f4e60770612535be93eb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad96af7c9cd7f4e60770612535be93eb4">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_Get_shift()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__VertId.html">MR_VertId</a> * MR_SeparationPointStorage_Block_Get_shift </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>after makeUniqueVids(), it is the unique id of first point in coords Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SeparationPointStorage_1_1Block.html">MR::SeparationPointStorage::Block</a></code> named <code>shift</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="af17866f52f25f9810f4915084fc0e164" name="af17866f52f25f9810f4915084fc0e164"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af17866f52f25f9810f4915084fc0e164">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_Get_smap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a74f8c3cd688b18a927b2d464fad5f575">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</a> * MR_SeparationPointStorage_Block_Get_smap </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SeparationPointStorage_1_1Block.html">MR::SeparationPointStorage::Block</a></code> named <code>smap</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a17e1ab33a1cd07a71a86512cfc1d2856" name="a17e1ab33a1cd07a71a86512cfc1d2856"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17e1ab33a1cd07a71a86512cfc1d2856">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_Get_tris()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAlphaShape_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> * MR_SeparationPointStorage_Block_Get_tris </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SeparationPointStorage_1_1Block.html">MR::SeparationPointStorage::Block</a></code> named <code>tris</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a16bc2c1b3024854bcf3129a47ba4290d" name="a16bc2c1b3024854bcf3129a47ba4290d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16bc2c1b3024854bcf3129a47ba4290d">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_GetMutable_coords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_SeparationPointStorage_Block_GetMutable_coords </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SeparationPointStorage_1_1Block.html">MR::SeparationPointStorage::Block</a></code> named <code>coords</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aac49e505944c6b65d9d2f762a00e94ea" name="aac49e505944c6b65d9d2f762a00e94ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac49e505944c6b65d9d2f762a00e94ea">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_GetMutable_faceMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a9692dc04329fdb84eb3ddd8d265ba089">MR_Vector_MR_VoxelId_MR_FaceId</a> * MR_SeparationPointStorage_Block_GetMutable_faceMap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SeparationPointStorage_1_1Block.html">MR::SeparationPointStorage::Block</a></code> named <code>faceMap</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a8b10e4d000aee91e183d103cbbd68e7b" name="a8b10e4d000aee91e183d103cbbd68e7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b10e4d000aee91e183d103cbbd68e7b">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_GetMutable_shift()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> * MR_SeparationPointStorage_Block_GetMutable_shift </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>after makeUniqueVids(), it is the unique id of first point in coords Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SeparationPointStorage_1_1Block.html">MR::SeparationPointStorage::Block</a></code> named <code>shift</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ad3a248ba39c04bed3359176d4b914ed0" name="ad3a248ba39c04bed3359176d4b914ed0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3a248ba39c04bed3359176d4b914ed0">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_GetMutable_smap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a74f8c3cd688b18a927b2d464fad5f575">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</a> * MR_SeparationPointStorage_Block_GetMutable_smap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SeparationPointStorage_1_1Block.html">MR::SeparationPointStorage::Block</a></code> named <code>smap</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a7c1418c9f6144a04f4c7b219f4439c4c" name="a7c1418c9f6144a04f4c7b219f4439c4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c1418c9f6144a04f4c7b219f4439c4c">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_GetMutable_tris()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAlphaShape_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> * MR_SeparationPointStorage_Block_GetMutable_tris </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SeparationPointStorage_1_1Block.html">MR::SeparationPointStorage::Block</a></code> named <code>tris</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="af326ebe75a756fccd1be286862835638" name="af326ebe75a756fccd1be286862835638"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af326ebe75a756fccd1be286862835638">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_nextVid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> MR_SeparationPointStorage_Block_nextVid </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>during filling, it is the id of next valid point; Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SeparationPointStorage_1_1Block.html">MR::SeparationPointStorage::Block</a></code> named <code>nextVid</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a4e4ace24a3e396d8d3a41664a8ae0635" name="a4e4ace24a3e396d8d3a41664a8ae0635"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e4ace24a3e396d8d3a41664a8ae0635">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> * MR_SeparationPointStorage_Block_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ad7fff2b04e6ccc44f5ab07214610ba61" name="ad7fff2b04e6ccc44f5ab07214610ba61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7fff2b04e6ccc44f5ab07214610ba61">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> * MR_SeparationPointStorage_Block_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a0c450c653eb2aa8dad4b91e29104ff7b" name="a0c450c653eb2aa8dad4b91e29104ff7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c450c653eb2aa8dad4b91e29104ff7b">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_Set_coords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SeparationPointStorage_Block_Set_coords </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SeparationPointStorage_1_1Block.html">MR::SeparationPointStorage::Block</a></code> named <code>coords</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a8b350e623286a9151cda4233023a4f87" name="a8b350e623286a9151cda4233023a4f87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b350e623286a9151cda4233023a4f87">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_Set_faceMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SeparationPointStorage_Block_Set_faceMap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a9692dc04329fdb84eb3ddd8d265ba089">MR_Vector_MR_VoxelId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SeparationPointStorage_1_1Block.html">MR::SeparationPointStorage::Block</a></code> named <code>faceMap</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a9ea741537c1edd006b764a342a1dd2ac" name="a9ea741537c1edd006b764a342a1dd2ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ea741537c1edd006b764a342a1dd2ac">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_Set_shift()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SeparationPointStorage_Block_Set_shift </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__VertId.html">MR_VertId</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>after makeUniqueVids(), it is the unique id of first point in coords Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SeparationPointStorage_1_1Block.html">MR::SeparationPointStorage::Block</a></code> named <code>shift</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a4148c1d8901867f29a08d3b29c95df67" name="a4148c1d8901867f29a08d3b29c95df67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4148c1d8901867f29a08d3b29c95df67">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_Set_smap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SeparationPointStorage_Block_Set_smap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a74f8c3cd688b18a927b2d464fad5f575">MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SeparationPointStorage_1_1Block.html">MR::SeparationPointStorage::Block</a></code> named <code>smap</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a959818309826e2b9894730a82ef3c593" name="a959818309826e2b9894730a82ef3c593"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a959818309826e2b9894730a82ef3c593">&#9670;&#160;</a></span>MR_SeparationPointStorage_Block_Set_tris()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SeparationPointStorage_Block_Set_tris </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAlphaShape_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SeparationPointStorage_1_1Block.html">MR::SeparationPointStorage::Block</a></code> named <code>tris</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa8c2e4a203145dff953c389baa8ed7f0" name="aa8c2e4a203145dff953c389baa8ed7f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8c2e4a203145dff953c389baa8ed7f0">&#9670;&#160;</a></span>MR_SeparationPointStorage_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> * MR_SeparationPointStorage_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1SeparationPointStorage.html">MR::SeparationPointStorage</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6b9bf83480d48059eb073969fb65177c" title="Destroys a heap-allocated instance of MR_SeparationPointStorage. Does nothing if the pointer is null.">MR_SeparationPointStorage_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae27539ce63d3ee860e7959d90c2154dd" name="ae27539ce63d3ee860e7959d90c2154dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae27539ce63d3ee860e7959d90c2154dd">&#9670;&#160;</a></span>MR_SeparationPointStorage_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> * MR_SeparationPointStorage_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6b9bf83480d48059eb073969fb65177c" title="Destroys a heap-allocated instance of MR_SeparationPointStorage. Does nothing if the pointer is null.">MR_SeparationPointStorage_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="afac80823d87336da4c065c4672e648c9" name="afac80823d87336da4c065c4672e648c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afac80823d87336da4c065c4672e648c9">&#9670;&#160;</a></span>MR_SeparationPointStorage_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> * MR_SeparationPointStorage_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#af35ba526ed58668500ae8fedb24da55b" title="Destroys a heap-allocated array of MR_SeparationPointStorage. Does nothing if the pointer is null.">MR_SeparationPointStorage_DestroyArray()</a></code>. Use <code><a class="el" href="#a7d5fc7a08975e1d0bb7e3427cec2f516" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_SeparationPointStorage_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a3791e21b79773f8f980914f218e792ac" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_SeparationPointStorage_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a6b9bf83480d48059eb073969fb65177c" name="a6b9bf83480d48059eb073969fb65177c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b9bf83480d48059eb073969fb65177c">&#9670;&#160;</a></span>MR_SeparationPointStorage_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SeparationPointStorage_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_SeparationPointStorage</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="af35ba526ed58668500ae8fedb24da55b" name="af35ba526ed58668500ae8fedb24da55b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af35ba526ed58668500ae8fedb24da55b">&#9670;&#160;</a></span>MR_SeparationPointStorage_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SeparationPointStorage_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_SeparationPointStorage</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a71b2fe47dc8a3c6a285019c7f0871fd3" name="a71b2fe47dc8a3c6a285019c7f0871fd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71b2fe47dc8a3c6a285019c7f0871fd3">&#9670;&#160;</a></span>MR_SeparationPointStorage_findSeparationPointSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__std__array__MR__VertId__3.html">MR_std_array_MR_VertId_3</a> * MR_SeparationPointStorage_findSeparationPointSet </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>voxelId</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds the set (locating the block) by voxel id Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1SeparationPointStorage.html">MR::SeparationPointStorage</a></code> named <code>findSeparationPointSet</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aec0c858b61de0b6e336f18dc29ff93ac" name="aec0c858b61de0b6e336f18dc29ff93ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec0c858b61de0b6e336f18dc29ff93ac">&#9670;&#160;</a></span>MR_SeparationPointStorage_getBlock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> * MR_SeparationPointStorage_getBlock </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>blockIndex</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>get block for filling in the thread responsible for it Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1SeparationPointStorage.html">MR::SeparationPointStorage</a></code> named <code>getBlock</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ac022f7aa5dd682168925740dec383a28" name="ac022f7aa5dd682168925740dec383a28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac022f7aa5dd682168925740dec383a28">&#9670;&#160;</a></span>MR_SeparationPointStorage_getPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SeparationPointStorage_getPoints </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>obtains coordinates of all stored points Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1SeparationPointStorage.html">MR::SeparationPointStorage</a></code> named <code>getPoints</code>. Parameter <code>_this</code> can not be null. Parameter <code>points</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a5012a12ae4039b58e2c521b0f74be86f" name="a5012a12ae4039b58e2c521b0f74be86f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5012a12ae4039b58e2c521b0f74be86f">&#9670;&#160;</a></span>MR_SeparationPointStorage_getTriangulation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAlphaShape_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> * MR_SeparationPointStorage_getTriangulation </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a9692dc04329fdb84eb3ddd8d265ba089">MR_Vector_MR_VoxelId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>outVoxelPerFaceMap</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>combines triangulations from every block into one and returns it Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1SeparationPointStorage.html">MR::SeparationPointStorage</a></code> named <code>getTriangulation</code>. Parameter <code>_this</code> can not be null. Parameter <code>outVoxelPerFaceMap</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#a06c924beb0ba47c9c1935f25f75f1937" title="Destroys a heap-allocated instance of MR_Triangulation. Does nothing if the pointer is null.">MR_Triangulation_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab90eb9ce5e13989924003199b6b1879c" name="ab90eb9ce5e13989924003199b6b1879c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab90eb9ce5e13989924003199b6b1879c">&#9670;&#160;</a></span>MR_SeparationPointStorage_makeUniqueVids()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API int32_t MR_SeparationPointStorage_makeUniqueVids </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>shifts vertex ids in each block (after they are filled) to make them unique; returns the total number of valid points in the storage Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1SeparationPointStorage.html">MR::SeparationPointStorage</a></code> named <code>makeUniqueVids</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a7d5fc7a08975e1d0bb7e3427cec2f516" name="a7d5fc7a08975e1d0bb7e3427cec2f516"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d5fc7a08975e1d0bb7e3427cec2f516">&#9670;&#160;</a></span>MR_SeparationPointStorage_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> * MR_SeparationPointStorage_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a3791e21b79773f8f980914f218e792ac" name="a3791e21b79773f8f980914f218e792ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3791e21b79773f8f980914f218e792ac">&#9670;&#160;</a></span>MR_SeparationPointStorage_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> * MR_SeparationPointStorage_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="af518135d3d01aa481d98ea7887d696f3" name="af518135d3d01aa481d98ea7887d696f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af518135d3d01aa481d98ea7887d696f3">&#9670;&#160;</a></span>MR_SeparationPointStorage_resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SeparationPointStorage_resize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>blockCount</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>blockSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>prepares storage for given number of blocks, each containing given size of voxels Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1SeparationPointStorage.html">MR::SeparationPointStorage</a></code> named <code>resize</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_8b489c7b5d1a72d35ec87e32cc37b940.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRSeparationPoint_8h.html">MRSeparationPoint.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

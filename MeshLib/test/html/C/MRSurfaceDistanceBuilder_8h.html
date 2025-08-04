@@ -1,0 +1,357 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRSurfaceDistanceBuilder.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRSurfaceDistanceBuilder_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRSurfaceDistanceBuilder.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
+</div>
+<p><a href="MRSurfaceDistanceBuilder_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a31b172f68efca6438544d56eb86d6f40" id="r_a31b172f68efca6438544d56eb86d6f40"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td></tr>
+<tr class="separator:a31b172f68efca6438544d56eb86d6f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a741f5bb0872ea5dd2506146d0fd1afdc" id="r_a741f5bb0872ea5dd2506146d0fd1afdc"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a></td></tr>
+<tr class="separator:a741f5bb0872ea5dd2506146d0fd1afdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bf133eda1ec95be202b77c33412bc8e" id="r_a6bf133eda1ec95be202b77c33412bc8e"><td class="memItemLeft" align="right" valign="top">typedef struct MR_Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bf133eda1ec95be202b77c33412bc8e">MR_Vector3f</a></td></tr>
+<tr class="separator:a6bf133eda1ec95be202b77c33412bc8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3df50e76b078a1626dd994e1df803764" id="r_a3df50e76b078a1626dd994e1df803764"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a></td></tr>
+<tr class="separator:a3df50e76b078a1626dd994e1df803764"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e4bb5e8943c9b1f5d438198404d0bd4" id="r_a6e4bb5e8943c9b1f5d438198404d0bd4"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a></td></tr>
+<tr class="separator:a6e4bb5e8943c9b1f5d438198404d0bd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae608d193970b2c92c351593c86ca1075" id="r_ae608d193970b2c92c351593c86ca1075"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRSurfaceDistance_8h.html#ae608d193970b2c92c351593c86ca1075">MR_phmap_flat_hash_map_MR_VertId_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae608d193970b2c92c351593c86ca1075">MR_phmap_flat_hash_map_MR_VertId_float</a></td></tr>
+<tr class="separator:ae608d193970b2c92c351593c86ca1075"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga33ea51b92cca6cac01baf4aa7a78e24a" id="r_ga33ea51b92cca6cac01baf4aa7a78e24a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="group__SurfaceDistanceBuilder.html#ga33ea51b92cca6cac01baf4aa7a78e24a">MR_VertDistance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#ga33ea51b92cca6cac01baf4aa7a78e24a">MR_VertDistance</a></td></tr>
+<tr class="separator:ga33ea51b92cca6cac01baf4aa7a78e24a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1d0a59dcbf14d2c46eb7f09430511c2f" id="r_ga1d0a59dcbf14d2c46eb7f09430511c2f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="group__SurfaceDistanceBuilder.html#ga1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#ga1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a></td></tr>
+<tr class="separator:ga1d0a59dcbf14d2c46eb7f09430511c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ga3ca0eed7f08fa60f2f1d8d16a812d691" id="r_ga3ca0eed7f08fa60f2f1d8d16a812d691"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__VertId.html">MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#ga3ca0eed7f08fa60f2f1d8d16a812d691">MR_VertDistance_Get_vert</a> (const <a class="el" href="group__SurfaceDistanceBuilder.html#ga33ea51b92cca6cac01baf4aa7a78e24a">MR_VertDistance</a> *_this)</td></tr>
+<tr class="separator:ga3ca0eed7f08fa60f2f1d8d16a812d691"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga92b772958722342fc7f1de7db6c95b55" id="r_ga92b772958722342fc7f1de7db6c95b55"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#ga92b772958722342fc7f1de7db6c95b55">MR_VertDistance_Set_vert</a> (<a class="el" href="group__SurfaceDistanceBuilder.html#ga33ea51b92cca6cac01baf4aa7a78e24a">MR_VertDistance</a> *_this, <a class="el" href="structMR__VertId.html">MR_VertId</a> value)</td></tr>
+<tr class="separator:ga92b772958722342fc7f1de7db6c95b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga585c698b2683a69f07b4abc7707834a4" id="r_ga585c698b2683a69f07b4abc7707834a4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#ga585c698b2683a69f07b4abc7707834a4">MR_VertDistance_GetMutable_vert</a> (<a class="el" href="group__SurfaceDistanceBuilder.html#ga33ea51b92cca6cac01baf4aa7a78e24a">MR_VertDistance</a> *_this)</td></tr>
+<tr class="separator:ga585c698b2683a69f07b4abc7707834a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga980a2fe047119159565b61a9f1ffea12" id="r_ga980a2fe047119159565b61a9f1ffea12"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#ga980a2fe047119159565b61a9f1ffea12">MR_VertDistance_Get_distance</a> (const <a class="el" href="group__SurfaceDistanceBuilder.html#ga33ea51b92cca6cac01baf4aa7a78e24a">MR_VertDistance</a> *_this)</td></tr>
+<tr class="separator:ga980a2fe047119159565b61a9f1ffea12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaae5efd7a0c56ea8b15a1c12c789056df" id="r_gaae5efd7a0c56ea8b15a1c12c789056df"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#gaae5efd7a0c56ea8b15a1c12c789056df">MR_VertDistance_Set_distance</a> (<a class="el" href="group__SurfaceDistanceBuilder.html#ga33ea51b92cca6cac01baf4aa7a78e24a">MR_VertDistance</a> *_this, float value)</td></tr>
+<tr class="separator:gaae5efd7a0c56ea8b15a1c12c789056df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae28525778239abec3d4bc3c34dfa856d" id="r_gae28525778239abec3d4bc3c34dfa856d"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#gae28525778239abec3d4bc3c34dfa856d">MR_VertDistance_GetMutable_distance</a> (<a class="el" href="group__SurfaceDistanceBuilder.html#ga33ea51b92cca6cac01baf4aa7a78e24a">MR_VertDistance</a> *_this)</td></tr>
+<tr class="separator:gae28525778239abec3d4bc3c34dfa856d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga76e8064d68fa68fd46b25f28bec17e29" id="r_ga76e8064d68fa68fd46b25f28bec17e29"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__SurfaceDistanceBuilder.html#ga33ea51b92cca6cac01baf4aa7a78e24a">MR_VertDistance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#ga76e8064d68fa68fd46b25f28bec17e29">MR_VertDistance_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ga76e8064d68fa68fd46b25f28bec17e29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3a7c9174bbab76896d52ae82f2b4ded9" id="r_ga3a7c9174bbab76896d52ae82f2b4ded9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__SurfaceDistanceBuilder.html#ga33ea51b92cca6cac01baf4aa7a78e24a">MR_VertDistance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#ga3a7c9174bbab76896d52ae82f2b4ded9">MR_VertDistance_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ga3a7c9174bbab76896d52ae82f2b4ded9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2f145ce2b4622eff463121dc35d67ea7" id="r_ga2f145ce2b4622eff463121dc35d67ea7"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="group__SurfaceDistanceBuilder.html#ga33ea51b92cca6cac01baf4aa7a78e24a">MR_VertDistance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#ga2f145ce2b4622eff463121dc35d67ea7">MR_VertDistance_OffsetPtr</a> (const <a class="el" href="group__SurfaceDistanceBuilder.html#ga33ea51b92cca6cac01baf4aa7a78e24a">MR_VertDistance</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ga2f145ce2b4622eff463121dc35d67ea7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ga2f145ce2b4622eff463121dc35d67ea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8f2515683d84ad5bd7295a4fec9e1877" id="r_ga8f2515683d84ad5bd7295a4fec9e1877"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__SurfaceDistanceBuilder.html#ga33ea51b92cca6cac01baf4aa7a78e24a">MR_VertDistance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#ga8f2515683d84ad5bd7295a4fec9e1877">MR_VertDistance_OffsetMutablePtr</a> (<a class="el" href="group__SurfaceDistanceBuilder.html#ga33ea51b92cca6cac01baf4aa7a78e24a">MR_VertDistance</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ga8f2515683d84ad5bd7295a4fec9e1877"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ga8f2515683d84ad5bd7295a4fec9e1877"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5ddcc7f254249008465670f61f6bb6fb" id="r_ga5ddcc7f254249008465670f61f6bb6fb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__SurfaceDistanceBuilder.html#ga33ea51b92cca6cac01baf4aa7a78e24a">MR_VertDistance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#ga5ddcc7f254249008465670f61f6bb6fb">MR_VertDistance_ConstructFromAnother</a> (const <a class="el" href="group__SurfaceDistanceBuilder.html#ga33ea51b92cca6cac01baf4aa7a78e24a">MR_VertDistance</a> *_other)</td></tr>
+<tr class="separator:ga5ddcc7f254249008465670f61f6bb6fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga22fb39b5cdf9c24469e46b5037c37fd4" id="r_ga22fb39b5cdf9c24469e46b5037c37fd4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__SurfaceDistanceBuilder.html#ga33ea51b92cca6cac01baf4aa7a78e24a">MR_VertDistance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#ga22fb39b5cdf9c24469e46b5037c37fd4">MR_VertDistance_Construct</a> (<a class="el" href="structMR__VertId.html">MR_VertId</a> v, float d)</td></tr>
+<tr class="separator:ga22fb39b5cdf9c24469e46b5037c37fd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga654b35b398eadb6e05bbe5b6ad024e1d" id="r_ga654b35b398eadb6e05bbe5b6ad024e1d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#ga654b35b398eadb6e05bbe5b6ad024e1d">MR_VertDistance_Destroy</a> (const <a class="el" href="group__SurfaceDistanceBuilder.html#ga33ea51b92cca6cac01baf4aa7a78e24a">MR_VertDistance</a> *_this)</td></tr>
+<tr class="memdesc:ga654b35b398eadb6e05bbe5b6ad024e1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_VertDistance</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ga654b35b398eadb6e05bbe5b6ad024e1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga460d8e63bcae4d4dea74cee2370a866f" id="r_ga460d8e63bcae4d4dea74cee2370a866f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#ga460d8e63bcae4d4dea74cee2370a866f">MR_VertDistance_DestroyArray</a> (const <a class="el" href="group__SurfaceDistanceBuilder.html#ga33ea51b92cca6cac01baf4aa7a78e24a">MR_VertDistance</a> *_this)</td></tr>
+<tr class="memdesc:ga460d8e63bcae4d4dea74cee2370a866f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_VertDistance</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ga460d8e63bcae4d4dea74cee2370a866f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaad6980145779508682e297d31a2e2fb5" id="r_gaad6980145779508682e297d31a2e2fb5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__SurfaceDistanceBuilder.html#ga33ea51b92cca6cac01baf4aa7a78e24a">MR_VertDistance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#gaad6980145779508682e297d31a2e2fb5">MR_VertDistance_AssignFromAnother</a> (<a class="el" href="group__SurfaceDistanceBuilder.html#ga33ea51b92cca6cac01baf4aa7a78e24a">MR_VertDistance</a> *_this, const <a class="el" href="group__SurfaceDistanceBuilder.html#ga33ea51b92cca6cac01baf4aa7a78e24a">MR_VertDistance</a> *_other)</td></tr>
+<tr class="separator:gaad6980145779508682e297d31a2e2fb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacf99680cd852e320d9031be69414c2b2" id="r_gacf99680cd852e320d9031be69414c2b2"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#gacf99680cd852e320d9031be69414c2b2">MR_less_MR_VertDistance</a> (const <a class="el" href="group__SurfaceDistanceBuilder.html#ga33ea51b92cca6cac01baf4aa7a78e24a">MR_VertDistance</a> *a, const <a class="el" href="group__SurfaceDistanceBuilder.html#ga33ea51b92cca6cac01baf4aa7a78e24a">MR_VertDistance</a> *b)</td></tr>
+<tr class="separator:gacf99680cd852e320d9031be69414c2b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadfa2e516065b4aa7fe69bc05d7cfedc9" id="r_gadfa2e516065b4aa7fe69bc05d7cfedc9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__SurfaceDistanceBuilder.html#ga1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#gadfa2e516065b4aa7fe69bc05d7cfedc9">MR_SurfaceDistanceBuilder_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="group__SurfaceDistanceBuilder.html#ga1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *_other)</td></tr>
+<tr class="separator:gadfa2e516065b4aa7fe69bc05d7cfedc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae47e2dee7d6b5f5b11b09ef2680fb4f1" id="r_gae47e2dee7d6b5f5b11b09ef2680fb4f1"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="group__SurfaceDistanceBuilder.html#ga1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#gae47e2dee7d6b5f5b11b09ef2680fb4f1">MR_SurfaceDistanceBuilder_OffsetPtr</a> (const <a class="el" href="group__SurfaceDistanceBuilder.html#ga1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:gae47e2dee7d6b5f5b11b09ef2680fb4f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:gae47e2dee7d6b5f5b11b09ef2680fb4f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga66b42416ecaa56aacea346a06a2e79dc" id="r_ga66b42416ecaa56aacea346a06a2e79dc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__SurfaceDistanceBuilder.html#ga1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#ga66b42416ecaa56aacea346a06a2e79dc">MR_SurfaceDistanceBuilder_OffsetMutablePtr</a> (<a class="el" href="group__SurfaceDistanceBuilder.html#ga1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ga66b42416ecaa56aacea346a06a2e79dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ga66b42416ecaa56aacea346a06a2e79dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad027c90406b8610e6092ccd743739add" id="r_gad027c90406b8610e6092ccd743739add"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__SurfaceDistanceBuilder.html#ga1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#gad027c90406b8610e6092ccd743739add">MR_SurfaceDistanceBuilder_Construct_2</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region)</td></tr>
+<tr class="separator:gad027c90406b8610e6092ccd743739add"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa1c73c6a98897f20620d37af30c837cb" id="r_gaa1c73c6a98897f20620d37af30c837cb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__SurfaceDistanceBuilder.html#ga1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#gaa1c73c6a98897f20620d37af30c837cb">MR_SurfaceDistanceBuilder_Construct_3</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *target, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region)</td></tr>
+<tr class="separator:gaa1c73c6a98897f20620d37af30c837cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa781c115fc9426f1cd31b0ffc7841be2" id="r_gaa781c115fc9426f1cd31b0ffc7841be2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#gaa781c115fc9426f1cd31b0ffc7841be2">MR_SurfaceDistanceBuilder_Destroy</a> (const <a class="el" href="group__SurfaceDistanceBuilder.html#ga1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *_this)</td></tr>
+<tr class="memdesc:gaa781c115fc9426f1cd31b0ffc7841be2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_SurfaceDistanceBuilder</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:gaa781c115fc9426f1cd31b0ffc7841be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga894f7dc4b35dcec2649e3e65ee09ecbe" id="r_ga894f7dc4b35dcec2649e3e65ee09ecbe"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#ga894f7dc4b35dcec2649e3e65ee09ecbe">MR_SurfaceDistanceBuilder_DestroyArray</a> (const <a class="el" href="group__SurfaceDistanceBuilder.html#ga1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *_this)</td></tr>
+<tr class="memdesc:ga894f7dc4b35dcec2649e3e65ee09ecbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_SurfaceDistanceBuilder</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ga894f7dc4b35dcec2649e3e65ee09ecbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab58cf65f768a2d4960105f48fc269e71" id="r_gab58cf65f768a2d4960105f48fc269e71"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#gab58cf65f768a2d4960105f48fc269e71">MR_SurfaceDistanceBuilder_addStartRegion</a> (<a class="el" href="group__SurfaceDistanceBuilder.html#ga1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *_this, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region, float startDistance)</td></tr>
+<tr class="separator:gab58cf65f768a2d4960105f48fc269e71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga53e0522c371c5a5e806c57070cc8dad4" id="r_ga53e0522c371c5a5e806c57070cc8dad4"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#ga53e0522c371c5a5e806c57070cc8dad4">MR_SurfaceDistanceBuilder_addStartVertices</a> (<a class="el" href="group__SurfaceDistanceBuilder.html#ga1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *_this, const <a class="el" href="MRSurfaceDistance_8h.html#ae608d193970b2c92c351593c86ca1075">MR_phmap_flat_hash_map_MR_VertId_float</a> *startVertices)</td></tr>
+<tr class="separator:ga53e0522c371c5a5e806c57070cc8dad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga715f015deeb1227fe9733fb9a1e17bcd" id="r_ga715f015deeb1227fe9733fb9a1e17bcd"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#ga715f015deeb1227fe9733fb9a1e17bcd">MR_SurfaceDistanceBuilder_addStart</a> (<a class="el" href="group__SurfaceDistanceBuilder.html#ga1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *_this, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start)</td></tr>
+<tr class="separator:ga715f015deeb1227fe9733fb9a1e17bcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5be174c798399a3c291e0eb3e2a0fc30" id="r_ga5be174c798399a3c291e0eb3e2a0fc30"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#ga5be174c798399a3c291e0eb3e2a0fc30">MR_SurfaceDistanceBuilder_setMaxVertUpdates</a> (<a class="el" href="group__SurfaceDistanceBuilder.html#ga1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *_this, int32_t v)</td></tr>
+<tr class="separator:ga5be174c798399a3c291e0eb3e2a0fc30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0ec70674d6412513e8008d61c284c453" id="r_ga0ec70674d6412513e8008d61c284c453"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#ga0ec70674d6412513e8008d61c284c453">MR_SurfaceDistanceBuilder_growOne</a> (<a class="el" href="group__SurfaceDistanceBuilder.html#ga1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *_this)</td></tr>
+<tr class="separator:ga0ec70674d6412513e8008d61c284c453"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafaba551cd740629f35a507d191c23cdf" id="r_gafaba551cd740629f35a507d191c23cdf"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#gafaba551cd740629f35a507d191c23cdf">MR_SurfaceDistanceBuilder_takeDistanceMap</a> (<a class="el" href="group__SurfaceDistanceBuilder.html#ga1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *_this)</td></tr>
+<tr class="separator:gafaba551cd740629f35a507d191c23cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8f06fc03d4617e504b853df22e4bfb11" id="r_ga8f06fc03d4617e504b853df22e4bfb11"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#ga8f06fc03d4617e504b853df22e4bfb11">MR_SurfaceDistanceBuilder_done</a> (const <a class="el" href="group__SurfaceDistanceBuilder.html#ga1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *_this)</td></tr>
+<tr class="separator:ga8f06fc03d4617e504b853df22e4bfb11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga930104a82a176fcf3c10a29f0e749e9e" id="r_ga930104a82a176fcf3c10a29f0e749e9e"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfaceDistanceBuilder.html#ga930104a82a176fcf3c10a29f0e749e9e">MR_SurfaceDistanceBuilder_doneDistance</a> (const <a class="el" href="group__SurfaceDistanceBuilder.html#ga1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *_this)</td></tr>
+<tr class="separator:ga930104a82a176fcf3c10a29f0e749e9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a31b172f68efca6438544d56eb86d6f40" name="a31b172f68efca6438544d56eb86d6f40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31b172f68efca6438544d56eb86d6f40">&#9670;&#160;</a></span>MR_Mesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a741f5bb0872ea5dd2506146d0fd1afdc" name="a741f5bb0872ea5dd2506146d0fd1afdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a741f5bb0872ea5dd2506146d0fd1afdc">&#9670;&#160;</a></span>MR_MeshTriPoint</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae608d193970b2c92c351593c86ca1075" name="ae608d193970b2c92c351593c86ca1075"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae608d193970b2c92c351593c86ca1075">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VertId_float</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRSurfaceDistance_8h.html#ae608d193970b2c92c351593c86ca1075">MR_phmap_flat_hash_map_MR_VertId_float</a> <a class="el" href="MRSurfaceDistance_8h.html#ae608d193970b2c92c351593c86ca1075">MR_phmap_flat_hash_map_MR_VertId_float</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6bf133eda1ec95be202b77c33412bc8e" name="a6bf133eda1ec95be202b77c33412bc8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bf133eda1ec95be202b77c33412bc8e">&#9670;&#160;</a></span>MR_Vector3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct MR_Vector3f MR_Vector3f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3df50e76b078a1626dd994e1df803764" name="a3df50e76b078a1626dd994e1df803764"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3df50e76b078a1626dd994e1df803764">&#9670;&#160;</a></span>MR_VertBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e4bb5e8943c9b1f5d438198404d0bd4" name="a6e4bb5e8943c9b1f5d438198404d0bd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e4bb5e8943c9b1f5d438198404d0bd4">&#9670;&#160;</a></span>MR_VertScalars</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_8b489c7b5d1a72d35ec87e32cc37b940.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRSurfaceDistanceBuilder_8h.html">MRSurfaceDistanceBuilder.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

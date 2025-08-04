@@ -1,0 +1,459 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.AABBTreePoints.Node Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1Node.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1Node-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.AABBTreePoints.Node Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ad123a0803fd3a16b1807d6730413a174" id="r_ad123a0803fd3a16b1807d6730413a174"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad123a0803fd3a16b1807d6730413a174">__init__</a> (self)</td></tr>
+<tr class="separator:ad123a0803fd3a16b1807d6730413a174"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa0bc5ef9b8bebc30d536dfbd2e07147" id="r_afa0bc5ef9b8bebc30d536dfbd2e07147"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa0bc5ef9b8bebc30d536dfbd2e07147">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1Node.html">AABBTreePoints.Node</a> arg0)</td></tr>
+<tr class="separator:afa0bc5ef9b8bebc30d536dfbd2e07147"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bb54361782bd48b7a82b8c1b0026eff" id="r_a7bb54361782bd48b7a82b8c1b0026eff"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bb54361782bd48b7a82b8c1b0026eff">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Box3f.html">Box3f</a> <a class="el" href="#aa46d50a7b9639b2701ef1ce4e6983eaa">box</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeId.html">NodeId</a> <a class="el" href="#a7e9d9470bd548ffb8ef80cf493243d9c">leftOrFirst</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeId.html">NodeId</a> <a class="el" href="#ae755fb53dea3789c77b0eae460d41307">rightOrLast</a>)</td></tr>
+<tr class="separator:a7bb54361782bd48b7a82b8c1b0026eff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4ff01af33f8e4154a521532847a50e4" id="r_af4ff01af33f8e4154a521532847a50e4"><td class="memItemLeft" align="right" valign="top">tuple[int, int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4ff01af33f8e4154a521532847a50e4">getLeafPointRange</a> (self)</td></tr>
+<tr class="separator:af4ff01af33f8e4154a521532847a50e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc70638c1b575ed284bccc503fb9dfbf" id="r_adc70638c1b575ed284bccc503fb9dfbf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc70638c1b575ed284bccc503fb9dfbf">leaf</a> (self)</td></tr>
+<tr class="separator:adc70638c1b575ed284bccc503fb9dfbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bfc590d1a9c40a7bd4d24ed0df07e67" id="r_a6bfc590d1a9c40a7bd4d24ed0df07e67"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bfc590d1a9c40a7bd4d24ed0df07e67">setLeafPointRange</a> (self, int first, int last)</td></tr>
+<tr class="separator:a6bfc590d1a9c40a7bd4d24ed0df07e67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa46d50a7b9639b2701ef1ce4e6983eaa" id="r_aa46d50a7b9639b2701ef1ce4e6983eaa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Box3f.html">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa46d50a7b9639b2701ef1ce4e6983eaa">box</a> (self)</td></tr>
+<tr class="separator:aa46d50a7b9639b2701ef1ce4e6983eaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9ec8a3b5ec9ca799100844e8d8dda0b" id="r_ae9ec8a3b5ec9ca799100844e8d8dda0b"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9ec8a3b5ec9ca799100844e8d8dda0b">box</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Box3f.html">Box3f</a> arg1)</td></tr>
+<tr class="separator:ae9ec8a3b5ec9ca799100844e8d8dda0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e9d9470bd548ffb8ef80cf493243d9c" id="r_a7e9d9470bd548ffb8ef80cf493243d9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeId.html">NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e9d9470bd548ffb8ef80cf493243d9c">leftOrFirst</a> (self)</td></tr>
+<tr class="separator:a7e9d9470bd548ffb8ef80cf493243d9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04f1c7d85008c15cca200f0f113ad432" id="r_a04f1c7d85008c15cca200f0f113ad432"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04f1c7d85008c15cca200f0f113ad432">leftOrFirst</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeId.html">NodeId</a> arg1)</td></tr>
+<tr class="separator:a04f1c7d85008c15cca200f0f113ad432"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae755fb53dea3789c77b0eae460d41307" id="r_ae755fb53dea3789c77b0eae460d41307"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeId.html">NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae755fb53dea3789c77b0eae460d41307">rightOrLast</a> (self)</td></tr>
+<tr class="separator:ae755fb53dea3789c77b0eae460d41307"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41935476bb1e3a8ac4330eabad0ca557" id="r_a41935476bb1e3a8ac4330eabad0ca557"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41935476bb1e3a8ac4330eabad0ca557">rightOrLast</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeId.html">NodeId</a> arg1)</td></tr>
+<tr class="separator:a41935476bb1e3a8ac4330eabad0ca557"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Generated from:  MR::AABBTreePoints::Node
+Aliases:  std_vector_AABBTreePoints_Node_value_type, std_vector_AABBTreePoints_Node_reference, Vector_AABBTreePoints_Node_NodeId.const_reference, std_vector_AABBTreePoints_Node_const_reference, Vector_AABBTreePoints_Node_NodeId.reference, Vector_AABBTreePoints_Node_NodeId.value_type
+</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ad123a0803fd3a16b1807d6730413a174" name="ad123a0803fd3a16b1807d6730413a174"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad123a0803fd3a16b1807d6730413a174">&#9670;&#160;</a></span>__init__() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.AABBTreePoints.Node.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit default constructor.
+</pre> 
+</div>
+</div>
+<a id="afa0bc5ef9b8bebc30d536dfbd2e07147" name="afa0bc5ef9b8bebc30d536dfbd2e07147"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa0bc5ef9b8bebc30d536dfbd2e07147">&#9670;&#160;</a></span>__init__() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.AABBTreePoints.Node.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1Node.html">AABBTreePoints.Node</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit copy constructor.
+</pre> 
+</div>
+</div>
+<a id="a7bb54361782bd48b7a82b8c1b0026eff" name="a7bb54361782bd48b7a82b8c1b0026eff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bb54361782bd48b7a82b8c1b0026eff">&#9670;&#160;</a></span>__init__() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.AABBTreePoints.Node.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Box3f.html">Box3f</a></td>          <td class="paramname"><span class="paramname"><em>box</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeId.html">NodeId</a></td>          <td class="paramname"><span class="paramname"><em>leftOrFirst</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeId.html">NodeId</a></td>          <td class="paramname"><span class="paramname"><em>rightOrLast</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit aggregate constructor.
+</pre> 
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="aa46d50a7b9639b2701ef1ce4e6983eaa" name="aa46d50a7b9639b2701ef1ce4e6983eaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa46d50a7b9639b2701ef1ce4e6983eaa">&#9670;&#160;</a></span>box() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Box3f.html">Box3f</a> meshlib.mrmeshpy.AABBTreePoints.Node.box </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">bounding box of whole subtree
+</pre> 
+</div>
+</div>
+<a id="ae9ec8a3b5ec9ca799100844e8d8dda0b" name="ae9ec8a3b5ec9ca799100844e8d8dda0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9ec8a3b5ec9ca799100844e8d8dda0b">&#9670;&#160;</a></span>box() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.AABBTreePoints.Node.box </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Box3f.html">Box3f</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af4ff01af33f8e4154a521532847a50e4" name="af4ff01af33f8e4154a521532847a50e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4ff01af33f8e4154a521532847a50e4">&#9670;&#160;</a></span>getLeafPointRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> tuple[int, int] meshlib.mrmeshpy.AABBTreePoints.Node.getLeafPointRange </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns [first,last) indices of leaf points
+</pre> 
+</div>
+</div>
+<a id="adc70638c1b575ed284bccc503fb9dfbf" name="adc70638c1b575ed284bccc503fb9dfbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc70638c1b575ed284bccc503fb9dfbf">&#9670;&#160;</a></span>leaf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.AABBTreePoints.Node.leaf </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns true if node represent real points, false if it has child nodes
+</pre> 
+</div>
+</div>
+<a id="a7e9d9470bd548ffb8ef80cf493243d9c" name="a7e9d9470bd548ffb8ef80cf493243d9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e9d9470bd548ffb8ef80cf493243d9c">&#9670;&#160;</a></span>leftOrFirst() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeId.html">NodeId</a> meshlib.mrmeshpy.AABBTreePoints.Node.leftOrFirst </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">child nodes indices if &gt;=0, points indices if &lt; 0
+</pre> 
+</div>
+</div>
+<a id="a04f1c7d85008c15cca200f0f113ad432" name="a04f1c7d85008c15cca200f0f113ad432"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04f1c7d85008c15cca200f0f113ad432">&#9670;&#160;</a></span>leftOrFirst() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.AABBTreePoints.Node.leftOrFirst </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeId.html">NodeId</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae755fb53dea3789c77b0eae460d41307" name="ae755fb53dea3789c77b0eae460d41307"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae755fb53dea3789c77b0eae460d41307">&#9670;&#160;</a></span>rightOrLast() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeId.html">NodeId</a> meshlib.mrmeshpy.AABBTreePoints.Node.rightOrLast </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">child nodes indices if &gt;=0, points indices if &lt; 0
+</pre> 
+</div>
+</div>
+<a id="a41935476bb1e3a8ac4330eabad0ca557" name="a41935476bb1e3a8ac4330eabad0ca557"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41935476bb1e3a8ac4330eabad0ca557">&#9670;&#160;</a></span>rightOrLast() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.AABBTreePoints.Node.rightOrLast </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1NodeId.html">NodeId</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6bfc590d1a9c40a7bd4d24ed0df07e67" name="a6bfc590d1a9c40a7bd4d24ed0df07e67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bfc590d1a9c40a7bd4d24ed0df07e67">&#9670;&#160;</a></span>setLeafPointRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.AABBTreePoints.Node.setLeafPointRange </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>first</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>last</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sets [first,last) to this node (leaf)
+</pre> 
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints.html">AABBTreePoints</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AABBTreePoints_1_1Node.html">Node</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

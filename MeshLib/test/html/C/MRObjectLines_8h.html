@@ -1,0 +1,1010 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRObjectLines.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRObjectLines_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRObjectLines.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
+</div>
+<p><a href="MRObjectLines_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:accce9c9179cadabc541edda0fc7a2571" id="r_accce9c9179cadabc541edda0fc7a2571"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accce9c9179cadabc541edda0fc7a2571">MR_Object</a></td></tr>
+<tr class="separator:accce9c9179cadabc541edda0fc7a2571"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecafdb5edbdb31eb13fbab762e3c39bc" id="r_aecafdb5edbdb31eb13fbab762e3c39bc"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a></td></tr>
+<tr class="separator:aecafdb5edbdb31eb13fbab762e3c39bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af46c30b811dbea0af7a43f2bfcf2741a" id="r_af46c30b811dbea0af7a43f2bfcf2741a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRObject_8h.html#af46c30b811dbea0af7a43f2bfcf2741a">MR_ObjectLinesHolder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af46c30b811dbea0af7a43f2bfcf2741a">MR_ObjectLinesHolder</a></td></tr>
+<tr class="separator:af46c30b811dbea0af7a43f2bfcf2741a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7f59a6736b29701d7e619412b6e2890" id="r_ac7f59a6736b29701d7e619412b6e2890"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a></td></tr>
+<tr class="separator:ac7f59a6736b29701d7e619412b6e2890"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36f3696eda81d7005927ebc5fdf17e14" id="r_a36f3696eda81d7005927ebc5fdf17e14"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a></td></tr>
+<tr class="separator:a36f3696eda81d7005927ebc5fdf17e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e9b9c2b8a1a0540b204b1b7e6e792f4" id="r_a9e9b9c2b8a1a0540b204b1b7e6e792f4"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a></td></tr>
+<tr class="separator:a9e9b9c2b8a1a0540b204b1b7e6e792f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4c0039308e4be0822d33b37cd0b14c2" id="r_ae4c0039308e4be0822d33b37cd0b14c2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRChangePolylineAction_8h.html#ae4c0039308e4be0822d33b37cd0b14c2">MR_std_shared_ptr_MR_ObjectLines</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4c0039308e4be0822d33b37cd0b14c2">MR_std_shared_ptr_MR_ObjectLines</a></td></tr>
+<tr class="separator:ae4c0039308e4be0822d33b37cd0b14c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fbcc9ee811f65e53e31f32d2c5484c2" id="r_a7fbcc9ee811f65e53e31f32d2c5484c2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRChangePolylineAction_8h.html#a7fbcc9ee811f65e53e31f32d2c5484c2">MR_std_shared_ptr_MR_Polyline3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fbcc9ee811f65e53e31f32d2c5484c2">MR_std_shared_ptr_MR_Polyline3</a></td></tr>
+<tr class="separator:a7fbcc9ee811f65e53e31f32d2c5484c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69dc6868c10c92fb8b8a255b0130d289" id="r_a69dc6868c10c92fb8b8a255b0130d289"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td></tr>
+<tr class="separator:a69dc6868c10c92fb8b8a255b0130d289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d579dbc5475dc25e3943a58b1d84886" id="r_a4d579dbc5475dc25e3943a58b1d84886"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a4d579dbc5475dc25e3943a58b1d84886">MR_std_vector_std_shared_ptr_MR_ObjectLines</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d579dbc5475dc25e3943a58b1d84886">MR_std_vector_std_shared_ptr_MR_ObjectLines</a></td></tr>
+<tr class="separator:a4d579dbc5475dc25e3943a58b1d84886"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab26d333cd7549e6f3f49cc80e3ba5900" id="r_ab26d333cd7549e6f3f49cc80e3ba5900"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a></td></tr>
+<tr class="separator:ab26d333cd7549e6f3f49cc80e3ba5900"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ea30e504a416bf2f8b79c3f9124e265" id="r_a6ea30e504a416bf2f8b79c3f9124e265"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__DataModelGroup.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a></td></tr>
+<tr class="separator:a6ea30e504a416bf2f8b79c3f9124e265"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ae4f30493ffe82e4c492e8923d0592a8b" id="r_ae4f30493ffe82e4c492e8923d0592a8b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4f30493ffe82e4c492e8923d0592a8b">MR_ObjectLines_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ae4f30493ffe82e4c492e8923d0592a8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aced860a0c8e4b1fa72bc105c55068219" id="r_aced860a0c8e4b1fa72bc105c55068219"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aced860a0c8e4b1fa72bc105c55068219">MR_ObjectLines_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:aced860a0c8e4b1fa72bc105c55068219"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cd5a0e2b6bdb0e560676a9446862936" id="r_a0cd5a0e2b6bdb0e560676a9446862936"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cd5a0e2b6bdb0e560676a9446862936">MR_ObjectLines_OffsetPtr</a> (const <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a0cd5a0e2b6bdb0e560676a9446862936"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a0cd5a0e2b6bdb0e560676a9446862936"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44cd09792fa97fae62ff645dbe19a0b7" id="r_a44cd09792fa97fae62ff645dbe19a0b7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44cd09792fa97fae62ff645dbe19a0b7">MR_ObjectLines_OffsetMutablePtr</a> (<a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a44cd09792fa97fae62ff645dbe19a0b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a44cd09792fa97fae62ff645dbe19a0b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac22a8626d2bd217fe2c4ebca0f4e0190" id="r_ac22a8626d2bd217fe2c4ebca0f4e0190"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac22a8626d2bd217fe2c4ebca0f4e0190">MR_ObjectLines_UpcastTo_MR_Object</a> (const <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *object)</td></tr>
+<tr class="separator:ac22a8626d2bd217fe2c4ebca0f4e0190"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab75df076337dabde78e555cb4e52bbcf" id="r_ab75df076337dabde78e555cb4e52bbcf"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab75df076337dabde78e555cb4e52bbcf">MR_ObjectLines_MutableUpcastTo_MR_Object</a> (<a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *object)</td></tr>
+<tr class="memdesc:ab75df076337dabde78e555cb4e52bbcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLines.html">MR::ObjectLines</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a></code>.  <br /></td></tr>
+<tr class="separator:ab75df076337dabde78e555cb4e52bbcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05cacc1b919acbf5b382270c4b9ce3da" id="r_a05cacc1b919acbf5b382270c4b9ce3da"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05cacc1b919acbf5b382270c4b9ce3da">MR_ObjectLines_UpcastTo_MR_ObjectChildrenHolder</a> (const <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *object)</td></tr>
+<tr class="separator:a05cacc1b919acbf5b382270c4b9ce3da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2321484e5a431154b3e0ebe1e77b11c" id="r_ae2321484e5a431154b3e0ebe1e77b11c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2321484e5a431154b3e0ebe1e77b11c">MR_ObjectLines_MutableUpcastTo_MR_ObjectChildrenHolder</a> (<a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *object)</td></tr>
+<tr class="memdesc:ae2321484e5a431154b3e0ebe1e77b11c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLines.html">MR::ObjectLines</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectChildrenHolder.html">MR::ObjectChildrenHolder</a></code>.  <br /></td></tr>
+<tr class="separator:ae2321484e5a431154b3e0ebe1e77b11c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8ca4fb70d38431ca67fd366e98335fe" id="r_ac8ca4fb70d38431ca67fd366e98335fe"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRObject_8h.html#af46c30b811dbea0af7a43f2bfcf2741a">MR_ObjectLinesHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8ca4fb70d38431ca67fd366e98335fe">MR_ObjectLines_UpcastTo_MR_ObjectLinesHolder</a> (const <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *object)</td></tr>
+<tr class="separator:ac8ca4fb70d38431ca67fd366e98335fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4e2c8ad8bef98f7c6a96919c6bbb06d" id="r_ad4e2c8ad8bef98f7c6a96919c6bbb06d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRObject_8h.html#af46c30b811dbea0af7a43f2bfcf2741a">MR_ObjectLinesHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4e2c8ad8bef98f7c6a96919c6bbb06d">MR_ObjectLines_MutableUpcastTo_MR_ObjectLinesHolder</a> (<a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *object)</td></tr>
+<tr class="memdesc:ad4e2c8ad8bef98f7c6a96919c6bbb06d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLines.html">MR::ObjectLines</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLinesHolder.html">MR::ObjectLinesHolder</a></code>.  <br /></td></tr>
+<tr class="separator:ad4e2c8ad8bef98f7c6a96919c6bbb06d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f79749190db75103e45ef60e4feb34d" id="r_a1f79749190db75103e45ef60e4feb34d"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f79749190db75103e45ef60e4feb34d">MR_ObjectLines_UpcastTo_MR_VisualObject</a> (const <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *object)</td></tr>
+<tr class="separator:a1f79749190db75103e45ef60e4feb34d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb69306f0f82add77b1eb59c15037db6" id="r_aeb69306f0f82add77b1eb59c15037db6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb69306f0f82add77b1eb59c15037db6">MR_ObjectLines_MutableUpcastTo_MR_VisualObject</a> (<a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *object)</td></tr>
+<tr class="memdesc:aeb69306f0f82add77b1eb59c15037db6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLines.html">MR::ObjectLines</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1VisualObject.html">MR::VisualObject</a></code>.  <br /></td></tr>
+<tr class="separator:aeb69306f0f82add77b1eb59c15037db6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc0db235930d2d916993fa29d2bc9018" id="r_afc0db235930d2d916993fa29d2bc9018"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc0db235930d2d916993fa29d2bc9018">MR_ObjectLines_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *_other)</td></tr>
+<tr class="separator:afc0db235930d2d916993fa29d2bc9018"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2afb244361c56eb14584329a4de9d945" id="r_a2afb244361c56eb14584329a4de9d945"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2afb244361c56eb14584329a4de9d945">MR_ObjectLines_Destroy</a> (const <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *_this)</td></tr>
+<tr class="memdesc:a2afb244361c56eb14584329a4de9d945"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_ObjectLines</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a2afb244361c56eb14584329a4de9d945"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a918b54cf3e30286ec26fbc20e15fded1" id="r_a918b54cf3e30286ec26fbc20e15fded1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a918b54cf3e30286ec26fbc20e15fded1">MR_ObjectLines_DestroyArray</a> (const <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *_this)</td></tr>
+<tr class="memdesc:a918b54cf3e30286ec26fbc20e15fded1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_ObjectLines</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a918b54cf3e30286ec26fbc20e15fded1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a421199713a72a387c509f8790a18fd9e" id="r_a421199713a72a387c509f8790a18fd9e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a421199713a72a387c509f8790a18fd9e">MR_ObjectLines_AssignFromAnother</a> (<a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *_other)</td></tr>
+<tr class="separator:a421199713a72a387c509f8790a18fd9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a445f6456af266db1f0f0f71839e4d42b" id="r_a445f6456af266db1f0f0f71839e4d42b"><td class="memItemLeft" align="right" valign="top">MRC_API const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a445f6456af266db1f0f0f71839e4d42b">MR_ObjectLines_TypeName</a> (void)</td></tr>
+<tr class="memdesc:a445f6456af266db1f0f0f71839e4d42b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLines.html">MR::ObjectLines</a></code> named <code>TypeName</code>.  <br /></td></tr>
+<tr class="separator:a445f6456af266db1f0f0f71839e4d42b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f53c739a0817ffd397afc4ba45739cf" id="r_a8f53c739a0817ffd397afc4ba45739cf"><td class="memItemLeft" align="right" valign="top">MRC_API const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f53c739a0817ffd397afc4ba45739cf">MR_ObjectLines_typeName</a> (const <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *_this)</td></tr>
+<tr class="separator:a8f53c739a0817ffd397afc4ba45739cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a228a2ac32dcd9754cdfe956e4b7d3b5d" id="r_a228a2ac32dcd9754cdfe956e4b7d3b5d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a228a2ac32dcd9754cdfe956e4b7d3b5d">MR_ObjectLines_clone</a> (const <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *_this)</td></tr>
+<tr class="separator:a228a2ac32dcd9754cdfe956e4b7d3b5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad93d8823f12ad3e27bb03b10ca63ad2b" id="r_ad93d8823f12ad3e27bb03b10ca63ad2b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad93d8823f12ad3e27bb03b10ca63ad2b">MR_ObjectLines_shallowClone</a> (const <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *_this)</td></tr>
+<tr class="separator:ad93d8823f12ad3e27bb03b10ca63ad2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e6627f8720c1aa65087fcf250798982" id="r_a1e6627f8720c1aa65087fcf250798982"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e6627f8720c1aa65087fcf250798982">MR_ObjectLines_setPolyline</a> (<a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *_this, const <a class="el" href="MRChangePolylineAction_8h.html#a7fbcc9ee811f65e53e31f32d2c5484c2">MR_std_shared_ptr_MR_Polyline3</a> *polyline)</td></tr>
+<tr class="separator:a1e6627f8720c1aa65087fcf250798982"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af09457729f8efe853ff966b37e95dafc" id="r_af09457729f8efe853ff966b37e95dafc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRChangePolylineAction_8h.html#a7fbcc9ee811f65e53e31f32d2c5484c2">MR_std_shared_ptr_MR_Polyline3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af09457729f8efe853ff966b37e95dafc">MR_ObjectLines_updatePolyline</a> (<a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> polyline_pass_by, <a class="el" href="MRChangePolylineAction_8h.html#a7fbcc9ee811f65e53e31f32d2c5484c2">MR_std_shared_ptr_MR_Polyline3</a> *polyline)</td></tr>
+<tr class="separator:af09457729f8efe853ff966b37e95dafc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b00f027c56cf436a120414d8710a7b5" id="r_a3b00f027c56cf436a120414d8710a7b5"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRChangePolylineAction_8h.html#a7fbcc9ee811f65e53e31f32d2c5484c2">MR_std_shared_ptr_MR_Polyline3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b00f027c56cf436a120414d8710a7b5">MR_ObjectLines_varPolyline</a> (<a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *_this)</td></tr>
+<tr class="separator:a3b00f027c56cf436a120414d8710a7b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0a206f9f5f86ad9977351526a4c3a2c" id="r_ae0a206f9f5f86ad9977351526a4c3a2c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0a206f9f5f86ad9977351526a4c3a2c">MR_ObjectLines_setDirtyFlags</a> (<a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *_this, uint32_t mask, const bool *invalidateCaches)</td></tr>
+<tr class="separator:ae0a206f9f5f86ad9977351526a4c3a2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe8a503847b89d6381b41279fd289f0d" id="r_afe8a503847b89d6381b41279fd289f0d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe8a503847b89d6381b41279fd289f0d">MR_ObjectLines_getInfoLines</a> (const <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *_this)</td></tr>
+<tr class="separator:afe8a503847b89d6381b41279fd289f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c8ea62c2540811e7b5d2319eb8b5420" id="r_a5c8ea62c2540811e7b5d2319eb8b5420"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c8ea62c2540811e7b5d2319eb8b5420">MR_ObjectLines_getClassName</a> (const <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *_this)</td></tr>
+<tr class="separator:a5c8ea62c2540811e7b5d2319eb8b5420"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62cec6bafad5cf5777354deba49ff14a" id="r_a62cec6bafad5cf5777354deba49ff14a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62cec6bafad5cf5777354deba49ff14a">MR_ObjectLines_getClassNameInPlural</a> (const <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *_this)</td></tr>
+<tr class="separator:a62cec6bafad5cf5777354deba49ff14a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a121855d894c624572a49e68d212a9d2d" id="r_a121855d894c624572a49e68d212a9d2d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRChangePolylineAction_8h.html#ae4c0039308e4be0822d33b37cd0b14c2">MR_std_shared_ptr_MR_ObjectLines</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a121855d894c624572a49e68d212a9d2d">MR_merge_std_vector_std_shared_ptr_MR_ObjectLines</a> (const <a class="el" href="#a4d579dbc5475dc25e3943a58b1d84886">MR_std_vector_std_shared_ptr_MR_ObjectLines</a> *objsLines)</td></tr>
+<tr class="separator:a121855d894c624572a49e68d212a9d2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2b5e61311c259e4e4f174dfca3505ad" id="r_aa2b5e61311c259e4e4f174dfca3505ad"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRChangePolylineAction_8h.html#ae4c0039308e4be0822d33b37cd0b14c2">MR_std_shared_ptr_MR_ObjectLines</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2b5e61311c259e4e4f174dfca3505ad">MR_cloneRegion_2_std_shared_ptr_MR_ObjectLines</a> (const <a class="el" href="MRChangePolylineAction_8h.html#ae4c0039308e4be0822d33b37cd0b14c2">MR_std_shared_ptr_MR_ObjectLines</a> *objLines, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *region)</td></tr>
+<tr class="separator:aa2b5e61311c259e4e4f174dfca3505ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="accce9c9179cadabc541edda0fc7a2571" name="accce9c9179cadabc541edda0fc7a2571"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accce9c9179cadabc541edda0fc7a2571">&#9670;&#160;</a></span>MR_Object</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aecafdb5edbdb31eb13fbab762e3c39bc" name="aecafdb5edbdb31eb13fbab762e3c39bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecafdb5edbdb31eb13fbab762e3c39bc">&#9670;&#160;</a></span>MR_ObjectChildrenHolder</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af46c30b811dbea0af7a43f2bfcf2741a" name="af46c30b811dbea0af7a43f2bfcf2741a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af46c30b811dbea0af7a43f2bfcf2741a">&#9670;&#160;</a></span>MR_ObjectLinesHolder</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRObject_8h.html#af46c30b811dbea0af7a43f2bfcf2741a">MR_ObjectLinesHolder</a> <a class="el" href="MRObject_8h.html#af46c30b811dbea0af7a43f2bfcf2741a">MR_ObjectLinesHolder</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e9b9c2b8a1a0540b204b1b7e6e792f4" name="a9e9b9c2b8a1a0540b204b1b7e6e792f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e9b9c2b8a1a0540b204b1b7e6e792f4">&#9670;&#160;</a></span>MR_std_shared_ptr_MR_Object</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae4c0039308e4be0822d33b37cd0b14c2" name="ae4c0039308e4be0822d33b37cd0b14c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4c0039308e4be0822d33b37cd0b14c2">&#9670;&#160;</a></span>MR_std_shared_ptr_MR_ObjectLines</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRChangePolylineAction_8h.html#ae4c0039308e4be0822d33b37cd0b14c2">MR_std_shared_ptr_MR_ObjectLines</a> <a class="el" href="MRChangePolylineAction_8h.html#ae4c0039308e4be0822d33b37cd0b14c2">MR_std_shared_ptr_MR_ObjectLines</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7fbcc9ee811f65e53e31f32d2c5484c2" name="a7fbcc9ee811f65e53e31f32d2c5484c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fbcc9ee811f65e53e31f32d2c5484c2">&#9670;&#160;</a></span>MR_std_shared_ptr_MR_Polyline3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRChangePolylineAction_8h.html#a7fbcc9ee811f65e53e31f32d2c5484c2">MR_std_shared_ptr_MR_Polyline3</a> <a class="el" href="MRChangePolylineAction_8h.html#a7fbcc9ee811f65e53e31f32d2c5484c2">MR_std_shared_ptr_MR_Polyline3</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69dc6868c10c92fb8b8a255b0130d289" name="a69dc6868c10c92fb8b8a255b0130d289"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69dc6868c10c92fb8b8a255b0130d289">&#9670;&#160;</a></span>MR_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4d579dbc5475dc25e3943a58b1d84886" name="a4d579dbc5475dc25e3943a58b1d84886"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d579dbc5475dc25e3943a58b1d84886">&#9670;&#160;</a></span>MR_std_vector_std_shared_ptr_MR_ObjectLines</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a4d579dbc5475dc25e3943a58b1d84886">MR_std_vector_std_shared_ptr_MR_ObjectLines</a> <a class="el" href="#a4d579dbc5475dc25e3943a58b1d84886">MR_std_vector_std_shared_ptr_MR_ObjectLines</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab26d333cd7549e6f3f49cc80e3ba5900" name="ab26d333cd7549e6f3f49cc80e3ba5900"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab26d333cd7549e6f3f49cc80e3ba5900">&#9670;&#160;</a></span>MR_std_vector_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7f59a6736b29701d7e619412b6e2890" name="ac7f59a6736b29701d7e619412b6e2890"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7f59a6736b29701d7e619412b6e2890">&#9670;&#160;</a></span>MR_UndirectedEdgeBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a36f3696eda81d7005927ebc5fdf17e14" name="a36f3696eda81d7005927ebc5fdf17e14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36f3696eda81d7005927ebc5fdf17e14">&#9670;&#160;</a></span>MR_VisualObject</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="aa2b5e61311c259e4e4f174dfca3505ad" name="aa2b5e61311c259e4e4f174dfca3505ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2b5e61311c259e4e4f174dfca3505ad">&#9670;&#160;</a></span>MR_cloneRegion_2_std_shared_ptr_MR_ObjectLines()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRChangePolylineAction_8h.html#ae4c0039308e4be0822d33b37cd0b14c2">MR_std_shared_ptr_MR_ObjectLines</a> * MR_cloneRegion_2_std_shared_ptr_MR_ObjectLines </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRChangePolylineAction_8h.html#ae4c0039308e4be0822d33b37cd0b14c2">MR_std_shared_ptr_MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>objLines</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>constructs new ObjectLines containing the region of data from input object Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a2762f2b4aeb66b9147cee27a9b72ab3d">MR::cloneRegion</a></code>. Parameter <code>objLines</code> can not be null. Parameter <code>region</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__shared__ptr__MR__ObjectLines_8h.html#a5cb4c3c7664c45c8ab3d4f66bdc8f218" title="Destroys a heap-allocated instance of MR_std_shared_ptr_MR_ObjectLines. Does nothing if the pointer i...">MR_std_shared_ptr_MR_ObjectLines_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a121855d894c624572a49e68d212a9d2d" name="a121855d894c624572a49e68d212a9d2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a121855d894c624572a49e68d212a9d2d">&#9670;&#160;</a></span>MR_merge_std_vector_std_shared_ptr_MR_ObjectLines()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRChangePolylineAction_8h.html#ae4c0039308e4be0822d33b37cd0b14c2">MR_std_shared_ptr_MR_ObjectLines</a> * MR_merge_std_vector_std_shared_ptr_MR_ObjectLines </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a4d579dbc5475dc25e3943a58b1d84886">MR_std_vector_std_shared_ptr_MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>objsLines</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>constructs new ObjectLines containing the union of valid data from all input objects Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ad8bfcdd27aa7037f5d7fa7b17f725c21">MR::merge</a></code>. Parameter <code>objsLines</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__shared__ptr__MR__ObjectLines_8h.html#a5cb4c3c7664c45c8ab3d4f66bdc8f218" title="Destroys a heap-allocated instance of MR_std_shared_ptr_MR_ObjectLines. Does nothing if the pointer i...">MR_std_shared_ptr_MR_ObjectLines_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a421199713a72a387c509f8790a18fd9e" name="a421199713a72a387c509f8790a18fd9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a421199713a72a387c509f8790a18fd9e">&#9670;&#160;</a></span>MR_ObjectLines_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> * MR_ObjectLines_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLines.html">MR::ObjectLines</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a228a2ac32dcd9754cdfe956e4b7d3b5d" name="a228a2ac32dcd9754cdfe956e4b7d3b5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a228a2ac32dcd9754cdfe956e4b7d3b5d">&#9670;&#160;</a></span>MR_ObjectLines_clone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> * MR_ObjectLines_clone </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLines.html">MR::ObjectLines</a></code> named <code>clone</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__shared__ptr__MR__Object_8h.html#ac4d53a470c9103f8ebd58aa32856108e" title="Destroys a heap-allocated instance of MR_std_shared_ptr_MR_Object. Does nothing if the pointer is nul...">MR_std_shared_ptr_MR_Object_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="afc0db235930d2d916993fa29d2bc9018" name="afc0db235930d2d916993fa29d2bc9018"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc0db235930d2d916993fa29d2bc9018">&#9670;&#160;</a></span>MR_ObjectLines_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> * MR_ObjectLines_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLines.html">MR::ObjectLines</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2afb244361c56eb14584329a4de9d945" title="Destroys a heap-allocated instance of MR_ObjectLines. Does nothing if the pointer is null.">MR_ObjectLines_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae4f30493ffe82e4c492e8923d0592a8b" name="ae4f30493ffe82e4c492e8923d0592a8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4f30493ffe82e4c492e8923d0592a8b">&#9670;&#160;</a></span>MR_ObjectLines_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> * MR_ObjectLines_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2afb244361c56eb14584329a4de9d945" title="Destroys a heap-allocated instance of MR_ObjectLines. Does nothing if the pointer is null.">MR_ObjectLines_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aced860a0c8e4b1fa72bc105c55068219" name="aced860a0c8e4b1fa72bc105c55068219"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aced860a0c8e4b1fa72bc105c55068219">&#9670;&#160;</a></span>MR_ObjectLines_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> * MR_ObjectLines_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a918b54cf3e30286ec26fbc20e15fded1" title="Destroys a heap-allocated array of MR_ObjectLines. Does nothing if the pointer is null.">MR_ObjectLines_DestroyArray()</a></code>. Use <code><a class="el" href="#a44cd09792fa97fae62ff645dbe19a0b7" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_ObjectLines_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a0cd5a0e2b6bdb0e560676a9446862936" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_ObjectLines_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a2afb244361c56eb14584329a4de9d945" name="a2afb244361c56eb14584329a4de9d945"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2afb244361c56eb14584329a4de9d945">&#9670;&#160;</a></span>MR_ObjectLines_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ObjectLines_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_ObjectLines</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a918b54cf3e30286ec26fbc20e15fded1" name="a918b54cf3e30286ec26fbc20e15fded1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a918b54cf3e30286ec26fbc20e15fded1">&#9670;&#160;</a></span>MR_ObjectLines_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ObjectLines_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_ObjectLines</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a5c8ea62c2540811e7b5d2319eb8b5420" name="a5c8ea62c2540811e7b5d2319eb8b5420"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c8ea62c2540811e7b5d2319eb8b5420">&#9670;&#160;</a></span>MR_ObjectLines_getClassName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_ObjectLines_getClassName </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLines.html">MR::ObjectLines</a></code> named <code>getClassName</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a62cec6bafad5cf5777354deba49ff14a" name="a62cec6bafad5cf5777354deba49ff14a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62cec6bafad5cf5777354deba49ff14a">&#9670;&#160;</a></span>MR_ObjectLines_getClassNameInPlural()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_ObjectLines_getClassNameInPlural </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLines.html">MR::ObjectLines</a></code> named <code>getClassNameInPlural</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="afe8a503847b89d6381b41279fd289f0d" name="afe8a503847b89d6381b41279fd289f0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe8a503847b89d6381b41279fd289f0d">&#9670;&#160;</a></span>MR_ObjectLines_getInfoLines()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> * MR_ObjectLines_getInfoLines </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLines.html">MR::ObjectLines</a></code> named <code>getInfoLines</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__string_8h.html#ac5f612487a5f49656b4f4ceae0bdd6c9" title="Destroys a heap-allocated instance of MR_std_vector_std_string. Does nothing if the pointer is null.">MR_std_vector_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab75df076337dabde78e555cb4e52bbcf" name="ab75df076337dabde78e555cb4e52bbcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab75df076337dabde78e555cb4e52bbcf">&#9670;&#160;</a></span>MR_ObjectLines_MutableUpcastTo_MR_Object()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> * MR_ObjectLines_MutableUpcastTo_MR_Object </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLines.html">MR::ObjectLines</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a></code>. </p>
+
+</div>
+</div>
+<a id="ae2321484e5a431154b3e0ebe1e77b11c" name="ae2321484e5a431154b3e0ebe1e77b11c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2321484e5a431154b3e0ebe1e77b11c">&#9670;&#160;</a></span>MR_ObjectLines_MutableUpcastTo_MR_ObjectChildrenHolder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> * MR_ObjectLines_MutableUpcastTo_MR_ObjectChildrenHolder </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLines.html">MR::ObjectLines</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectChildrenHolder.html">MR::ObjectChildrenHolder</a></code>. </p>
+
+</div>
+</div>
+<a id="ad4e2c8ad8bef98f7c6a96919c6bbb06d" name="ad4e2c8ad8bef98f7c6a96919c6bbb06d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4e2c8ad8bef98f7c6a96919c6bbb06d">&#9670;&#160;</a></span>MR_ObjectLines_MutableUpcastTo_MR_ObjectLinesHolder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRObject_8h.html#af46c30b811dbea0af7a43f2bfcf2741a">MR_ObjectLinesHolder</a> * MR_ObjectLines_MutableUpcastTo_MR_ObjectLinesHolder </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLines.html">MR::ObjectLines</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLinesHolder.html">MR::ObjectLinesHolder</a></code>. </p>
+
+</div>
+</div>
+<a id="aeb69306f0f82add77b1eb59c15037db6" name="aeb69306f0f82add77b1eb59c15037db6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb69306f0f82add77b1eb59c15037db6">&#9670;&#160;</a></span>MR_ObjectLines_MutableUpcastTo_MR_VisualObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> * MR_ObjectLines_MutableUpcastTo_MR_VisualObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLines.html">MR::ObjectLines</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1VisualObject.html">MR::VisualObject</a></code>. </p>
+
+</div>
+</div>
+<a id="a44cd09792fa97fae62ff645dbe19a0b7" name="a44cd09792fa97fae62ff645dbe19a0b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44cd09792fa97fae62ff645dbe19a0b7">&#9670;&#160;</a></span>MR_ObjectLines_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> * MR_ObjectLines_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a0cd5a0e2b6bdb0e560676a9446862936" name="a0cd5a0e2b6bdb0e560676a9446862936"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cd5a0e2b6bdb0e560676a9446862936">&#9670;&#160;</a></span>MR_ObjectLines_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> * MR_ObjectLines_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ae0a206f9f5f86ad9977351526a4c3a2c" name="ae0a206f9f5f86ad9977351526a4c3a2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0a206f9f5f86ad9977351526a4c3a2c">&#9670;&#160;</a></span>MR_ObjectLines_setDirtyFlags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ObjectLines_setDirtyFlags </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>mask</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool *</td>          <td class="paramname"><span class="paramname"><em>invalidateCaches</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLines.html">MR::ObjectLines</a></code> named <code>setDirtyFlags</code>. Parameter <code>_this</code> can not be null. Parameter <code>invalidateCaches</code> has a default argument: <code>true</code>, pass a null pointer to use it. </p>
+
+</div>
+</div>
+<a id="a1e6627f8720c1aa65087fcf250798982" name="a1e6627f8720c1aa65087fcf250798982"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e6627f8720c1aa65087fcf250798982">&#9670;&#160;</a></span>MR_ObjectLines_setPolyline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ObjectLines_setPolyline </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRChangePolylineAction_8h.html#a7fbcc9ee811f65e53e31f32d2c5484c2">MR_std_shared_ptr_MR_Polyline3</a> *</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLines.html">MR::ObjectLines</a></code> named <code>setPolyline</code>. Parameter <code>_this</code> can not be null. Parameter <code>polyline</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad93d8823f12ad3e27bb03b10ca63ad2b" name="ad93d8823f12ad3e27bb03b10ca63ad2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad93d8823f12ad3e27bb03b10ca63ad2b">&#9670;&#160;</a></span>MR_ObjectLines_shallowClone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> * MR_ObjectLines_shallowClone </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLines.html">MR::ObjectLines</a></code> named <code>shallowClone</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__shared__ptr__MR__Object_8h.html#ac4d53a470c9103f8ebd58aa32856108e" title="Destroys a heap-allocated instance of MR_std_shared_ptr_MR_Object. Does nothing if the pointer is nul...">MR_std_shared_ptr_MR_Object_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a445f6456af266db1f0f0f71839e4d42b" name="a445f6456af266db1f0f0f71839e4d42b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a445f6456af266db1f0f0f71839e4d42b">&#9670;&#160;</a></span>MR_ObjectLines_TypeName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const char * MR_ObjectLines_TypeName </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLines.html">MR::ObjectLines</a></code> named <code>TypeName</code>. </p>
+
+</div>
+</div>
+<a id="a8f53c739a0817ffd397afc4ba45739cf" name="a8f53c739a0817ffd397afc4ba45739cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f53c739a0817ffd397afc4ba45739cf">&#9670;&#160;</a></span>MR_ObjectLines_typeName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const char * MR_ObjectLines_typeName </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLines.html">MR::ObjectLines</a></code> named <code>typeName</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac22a8626d2bd217fe2c4ebca0f4e0190" name="ac22a8626d2bd217fe2c4ebca0f4e0190"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac22a8626d2bd217fe2c4ebca0f4e0190">&#9670;&#160;</a></span>MR_ObjectLines_UpcastTo_MR_Object()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> * MR_ObjectLines_UpcastTo_MR_Object </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLines.html">MR::ObjectLines</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a></code>. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="a05cacc1b919acbf5b382270c4b9ce3da" name="a05cacc1b919acbf5b382270c4b9ce3da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05cacc1b919acbf5b382270c4b9ce3da">&#9670;&#160;</a></span>MR_ObjectLines_UpcastTo_MR_ObjectChildrenHolder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> * MR_ObjectLines_UpcastTo_MR_ObjectChildrenHolder </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLines.html">MR::ObjectLines</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectChildrenHolder.html">MR::ObjectChildrenHolder</a></code>. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="ac8ca4fb70d38431ca67fd366e98335fe" name="ac8ca4fb70d38431ca67fd366e98335fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8ca4fb70d38431ca67fd366e98335fe">&#9670;&#160;</a></span>MR_ObjectLines_UpcastTo_MR_ObjectLinesHolder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRObject_8h.html#af46c30b811dbea0af7a43f2bfcf2741a">MR_ObjectLinesHolder</a> * MR_ObjectLines_UpcastTo_MR_ObjectLinesHolder </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLines.html">MR::ObjectLines</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLinesHolder.html">MR::ObjectLinesHolder</a></code>. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="a1f79749190db75103e45ef60e4feb34d" name="a1f79749190db75103e45ef60e4feb34d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f79749190db75103e45ef60e4feb34d">&#9670;&#160;</a></span>MR_ObjectLines_UpcastTo_MR_VisualObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> * MR_ObjectLines_UpcastTo_MR_VisualObject </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLines.html">MR::ObjectLines</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1VisualObject.html">MR::VisualObject</a></code>. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="af09457729f8efe853ff966b37e95dafc" name="af09457729f8efe853ff966b37e95dafc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af09457729f8efe853ff966b37e95dafc">&#9670;&#160;</a></span>MR_ObjectLines_updatePolyline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRChangePolylineAction_8h.html#a7fbcc9ee811f65e53e31f32d2c5484c2">MR_std_shared_ptr_MR_Polyline3</a> * MR_ObjectLines_updatePolyline </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>polyline_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRChangePolylineAction_8h.html#a7fbcc9ee811f65e53e31f32d2c5484c2">MR_std_shared_ptr_MR_Polyline3</a> *</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>sets given polyline to this, and returns back previous polyline of this; Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLines.html">MR::ObjectLines</a></code> named <code>updatePolyline</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__shared__ptr__MR__Polyline3_8h.html#ac4ed2e4af1f123c2e836167f671ce324" title="Destroys a heap-allocated instance of MR_std_shared_ptr_MR_Polyline3. Does nothing if the pointer is ...">MR_std_shared_ptr_MR_Polyline3_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a3b00f027c56cf436a120414d8710a7b5" name="a3b00f027c56cf436a120414d8710a7b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b00f027c56cf436a120414d8710a7b5">&#9670;&#160;</a></span>MR_ObjectLines_varPolyline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRChangePolylineAction_8h.html#a7fbcc9ee811f65e53e31f32d2c5484c2">MR_std_shared_ptr_MR_Polyline3</a> * MR_ObjectLines_varPolyline </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRObject_8h.html#a6ea30e504a416bf2f8b79c3f9124e265">MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectLines.html">MR::ObjectLines</a></code> named <code>varPolyline</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_8b489c7b5d1a72d35ec87e32cc37b940.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRObjectLines_8h.html">MRObjectLines.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

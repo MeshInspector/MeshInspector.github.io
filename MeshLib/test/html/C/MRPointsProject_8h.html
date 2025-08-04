@@ -1,0 +1,602 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRPointsProject.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRPointsProject_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRPointsProject.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
+</div>
+<p><a href="MRPointsProject_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:aaa96ed5b79deaa81e7e5e848584a7b6a" id="r_aaa96ed5b79deaa81e7e5e848584a7b6a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreePoints_8h.html#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a></td></tr>
+<tr class="separator:aaa96ed5b79deaa81e7e5e848584a7b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88a1df6fb138786a55241b1d77a4b0cc" id="r_a88a1df6fb138786a55241b1d77a4b0cc"><td class="memItemLeft" align="right" valign="top">typedef struct MR_AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88a1df6fb138786a55241b1d77a4b0cc">MR_AffineXf3f</a></td></tr>
+<tr class="separator:a88a1df6fb138786a55241b1d77a4b0cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36d7d5a26d258211a2da5d9311a0798c" id="r_a36d7d5a26d258211a2da5d9311a0798c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBitSet_8h.html#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a></td></tr>
+<tr class="separator:a36d7d5a26d258211a2da5d9311a0798c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9532c7498f492993c731c877ba0332b" id="r_ab9532c7498f492993c731c877ba0332b"><td class="memItemLeft" align="right" valign="top">typedef struct MR_Buffer_MR_VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9532c7498f492993c731c877ba0332b">MR_Buffer_MR_VertId</a></td></tr>
+<tr class="separator:ab9532c7498f492993c731c877ba0332b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66e1ce13e2d4b3d10a8605b9d6b685d3" id="r_a66e1ce13e2d4b3d10a8605b9d6b685d3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRFewSmallest_8h.html#a66e1ce13e2d4b3d10a8605b9d6b685d3">MR_FewSmallest_MR_PointsProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66e1ce13e2d4b3d10a8605b9d6b685d3">MR_FewSmallest_MR_PointsProjectionResult</a></td></tr>
+<tr class="separator:a66e1ce13e2d4b3d10a8605b9d6b685d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa319738c95f0bbde075b7ef777cf2665" id="r_aa319738c95f0bbde075b7ef777cf2665"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a></td></tr>
+<tr class="separator:aa319738c95f0bbde075b7ef777cf2665"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5ebecc1cdf4196d4d2ddaeeb82a0771" id="r_ac5ebecc1cdf4196d4d2ddaeeb82a0771"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBestFit_8h.html#ac5ebecc1cdf4196d4d2ddaeeb82a0771">MR_PointCloudPart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5ebecc1cdf4196d4d2ddaeeb82a0771">MR_PointCloudPart</a></td></tr>
+<tr class="separator:ac5ebecc1cdf4196d4d2ddaeeb82a0771"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bf133eda1ec95be202b77c33412bc8e" id="r_a6bf133eda1ec95be202b77c33412bc8e"><td class="memItemLeft" align="right" valign="top">typedef struct MR_Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bf133eda1ec95be202b77c33412bc8e">MR_Vector3f</a></td></tr>
+<tr class="separator:a6bf133eda1ec95be202b77c33412bc8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3df50e76b078a1626dd994e1df803764" id="r_a3df50e76b078a1626dd994e1df803764"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a></td></tr>
+<tr class="separator:a3df50e76b078a1626dd994e1df803764"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a077b8debfae88f9cf2267ad2db95c006" id="r_a077b8debfae88f9cf2267ad2db95c006"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a></td></tr>
+<tr class="separator:a077b8debfae88f9cf2267ad2db95c006"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64d1658b7258dab72096c88486c6c84a" id="r_a64d1658b7258dab72096c88486c6c84a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MREnumNeighbours_8h.html#a64d1658b7258dab72096c88486c6c84a">MR_std_function_bool_from_MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64d1658b7258dab72096c88486c6c84a">MR_std_function_bool_from_MR_VertId</a></td></tr>
+<tr class="separator:a64d1658b7258dab72096c88486c6c84a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb03ce28cacfff1e499d75d512dc4a84" id="r_adb03ce28cacfff1e499d75d512dc4a84"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></td></tr>
+<tr class="separator:adb03ce28cacfff1e499d75d512dc4a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a627aa1628b99fe88a3c76fb6d87ba691" id="r_a627aa1628b99fe88a3c76fb6d87ba691"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a627aa1628b99fe88a3c76fb6d87ba691">MR_std_pair_MR_VertId_MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a627aa1628b99fe88a3c76fb6d87ba691">MR_std_pair_MR_VertId_MR_VertId</a></td></tr>
+<tr class="separator:a627aa1628b99fe88a3c76fb6d87ba691"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdb99b8e5529c75d63ba234eae469f9a" id="r_abdb99b8e5529c75d63ba234eae469f9a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRFewSmallest_8h.html#abdb99b8e5529c75d63ba234eae469f9a">MR_std_vector_MR_PointsProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdb99b8e5529c75d63ba234eae469f9a">MR_std_vector_MR_PointsProjectionResult</a></td></tr>
+<tr class="separator:abdb99b8e5529c75d63ba234eae469f9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefed148a09a0ae55edbd22814638b462" id="r_aefed148a09a0ae55edbd22814638b462"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a></td></tr>
+<tr class="separator:aefed148a09a0ae55edbd22814638b462"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8be9fb6875dbbb243e21057bb4eff5a7" id="r_ga8be9fb6875dbbb243e21057bb4eff5a7"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a></td></tr>
+<tr class="separator:ga8be9fb6875dbbb243e21057bb4eff5a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga92b99767ad50161176d6aeb9c7349616" id="r_ga92b99767ad50161176d6aeb9c7349616"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a></td></tr>
+<tr class="separator:ga92b99767ad50161176d6aeb9c7349616"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacc732bce6f7682cbdb0a3a72dd2dbc4d" id="r_gacc732bce6f7682cbdb0a3a72dd2dbc4d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="group__AABBTreeGroup.html#gacc732bce6f7682cbdb0a3a72dd2dbc4d">MR_IPointsProjector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gacc732bce6f7682cbdb0a3a72dd2dbc4d">MR_IPointsProjector</a></td></tr>
+<tr class="separator:gacc732bce6f7682cbdb0a3a72dd2dbc4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3a5ba351029fa6f59d21522d60cb8bd1" id="r_ga3a5ba351029fa6f59d21522d60cb8bd1"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="group__AABBTreeGroup.html#ga3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a></td></tr>
+<tr class="separator:ga3a5ba351029fa6f59d21522d60cb8bd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:gab842950cf1fc85b342c21ca02213c745" id="r_gab842950cf1fc85b342c21ca02213c745"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gab842950cf1fc85b342c21ca02213c745">MR_PointsProjectionResult_Get_distSq</a> (const <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *_this)</td></tr>
+<tr class="separator:gab842950cf1fc85b342c21ca02213c745"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga907e7fcb7ef3d39516dd00f8908b1062" id="r_ga907e7fcb7ef3d39516dd00f8908b1062"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga907e7fcb7ef3d39516dd00f8908b1062">MR_PointsProjectionResult_Set_distSq</a> (<a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *_this, float value)</td></tr>
+<tr class="separator:ga907e7fcb7ef3d39516dd00f8908b1062"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9da9a4b153862f33ade11f92563357e7" id="r_ga9da9a4b153862f33ade11f92563357e7"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga9da9a4b153862f33ade11f92563357e7">MR_PointsProjectionResult_GetMutable_distSq</a> (<a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *_this)</td></tr>
+<tr class="separator:ga9da9a4b153862f33ade11f92563357e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3a0fda0ea6d0c0bae366d81ddfb1e601" id="r_ga3a0fda0ea6d0c0bae366d81ddfb1e601"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__VertId.html">MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga3a0fda0ea6d0c0bae366d81ddfb1e601">MR_PointsProjectionResult_Get_vId</a> (const <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *_this)</td></tr>
+<tr class="separator:ga3a0fda0ea6d0c0bae366d81ddfb1e601"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga38027aa492c6f6dc0ea6d89917a84420" id="r_ga38027aa492c6f6dc0ea6d89917a84420"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga38027aa492c6f6dc0ea6d89917a84420">MR_PointsProjectionResult_Set_vId</a> (<a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *_this, <a class="el" href="structMR__VertId.html">MR_VertId</a> value)</td></tr>
+<tr class="separator:ga38027aa492c6f6dc0ea6d89917a84420"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab9c2d967f12d97a74514b5b83ab25739" id="r_gab9c2d967f12d97a74514b5b83ab25739"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gab9c2d967f12d97a74514b5b83ab25739">MR_PointsProjectionResult_GetMutable_vId</a> (<a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *_this)</td></tr>
+<tr class="separator:gab9c2d967f12d97a74514b5b83ab25739"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6e83ae6a0d7f3d91f8bc519f489ffd0d" id="r_ga6e83ae6a0d7f3d91f8bc519f489ffd0d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga6e83ae6a0d7f3d91f8bc519f489ffd0d">MR_PointsProjectionResult_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ga6e83ae6a0d7f3d91f8bc519f489ffd0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9ff4e176c12d114e74223379c967a29d" id="r_ga9ff4e176c12d114e74223379c967a29d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga9ff4e176c12d114e74223379c967a29d">MR_PointsProjectionResult_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ga9ff4e176c12d114e74223379c967a29d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacf4a4df158c21fe0d176a1a78a078c96" id="r_gacf4a4df158c21fe0d176a1a78a078c96"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gacf4a4df158c21fe0d176a1a78a078c96">MR_PointsProjectionResult_ConstructFrom</a> (float distSq, <a class="el" href="structMR__VertId.html">MR_VertId</a> vId)</td></tr>
+<tr class="separator:gacf4a4df158c21fe0d176a1a78a078c96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab42ae3cbdf1cc6673345f024a0b4588e" id="r_gab42ae3cbdf1cc6673345f024a0b4588e"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gab42ae3cbdf1cc6673345f024a0b4588e">MR_PointsProjectionResult_OffsetPtr</a> (const <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:gab42ae3cbdf1cc6673345f024a0b4588e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:gab42ae3cbdf1cc6673345f024a0b4588e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gada22a9cae9affd69999c7e5d7e04a5f9" id="r_gada22a9cae9affd69999c7e5d7e04a5f9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gada22a9cae9affd69999c7e5d7e04a5f9">MR_PointsProjectionResult_OffsetMutablePtr</a> (<a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:gada22a9cae9affd69999c7e5d7e04a5f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:gada22a9cae9affd69999c7e5d7e04a5f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga164436174234c07ab771442ab7ba992b" id="r_ga164436174234c07ab771442ab7ba992b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga164436174234c07ab771442ab7ba992b">MR_PointsProjectionResult_ConstructFromAnother</a> (const <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *_other)</td></tr>
+<tr class="separator:ga164436174234c07ab771442ab7ba992b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga40f66526069140df6bb4d53c792e1882" id="r_ga40f66526069140df6bb4d53c792e1882"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga40f66526069140df6bb4d53c792e1882">MR_PointsProjectionResult_Destroy</a> (const <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *_this)</td></tr>
+<tr class="memdesc:ga40f66526069140df6bb4d53c792e1882"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_PointsProjectionResult</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ga40f66526069140df6bb4d53c792e1882"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga45d82e21a4878ac83abd68a17344a34e" id="r_ga45d82e21a4878ac83abd68a17344a34e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga45d82e21a4878ac83abd68a17344a34e">MR_PointsProjectionResult_DestroyArray</a> (const <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *_this)</td></tr>
+<tr class="memdesc:ga45d82e21a4878ac83abd68a17344a34e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_PointsProjectionResult</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ga45d82e21a4878ac83abd68a17344a34e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga35c71c2a991031fe84ffa7629d88d60c" id="r_ga35c71c2a991031fe84ffa7629d88d60c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga35c71c2a991031fe84ffa7629d88d60c">MR_PointsProjectionResult_AssignFromAnother</a> (<a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *_this, const <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *_other)</td></tr>
+<tr class="separator:ga35c71c2a991031fe84ffa7629d88d60c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad871edd307ec5f2666707ecaa102543a" id="r_gad871edd307ec5f2666707ecaa102543a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gad871edd307ec5f2666707ecaa102543a">MR_findProjectionOnPoints_6</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *pt, const <a class="el" href="MRBestFit_8h.html#ac5ebecc1cdf4196d4d2ddaeeb82a0771">MR_PointCloudPart</a> *pcp, const float *upDistLimitSq, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf, const float *loDistLimitSq, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> skipCb_pass_by, <a class="el" href="MREnumNeighbours_8h.html#a64d1658b7258dab72096c88486c6c84a">MR_std_function_bool_from_MR_VertId</a> *skipCb)</td></tr>
+<tr class="memdesc:gad871edd307ec5f2666707ecaa102543a"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on point cloud to given point  <br /></td></tr>
+<tr class="separator:gad871edd307ec5f2666707ecaa102543a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa82b00440182d03cf83d880189265ec1" id="r_gaa82b00440182d03cf83d880189265ec1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaa82b00440182d03cf83d880189265ec1">MR_findProjectionOnPoints_7</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *pt, const <a class="el" href="MRAABBTreePoints_8h.html#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a> *tree, const float *upDistLimitSq, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf, const float *loDistLimitSq, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> skipCb_pass_by, <a class="el" href="MREnumNeighbours_8h.html#a64d1658b7258dab72096c88486c6c84a">MR_std_function_bool_from_MR_VertId</a> *skipCb)</td></tr>
+<tr class="memdesc:gaa82b00440182d03cf83d880189265ec1"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on AABBTreePoints to given point  <br /></td></tr>
+<tr class="separator:gaa82b00440182d03cf83d880189265ec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga01ab528f34a77b0bdb4a8c30db01a7af" id="r_ga01ab528f34a77b0bdb4a8c30db01a7af"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga01ab528f34a77b0bdb4a8c30db01a7af">MR_findFewClosestPoints</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *pt, const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pc, <a class="el" href="MRFewSmallest_8h.html#a66e1ce13e2d4b3d10a8605b9d6b685d3">MR_FewSmallest_MR_PointsProjectionResult</a> *res, const float *upDistLimitSq, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf, const float *loDistLimitSq)</td></tr>
+<tr class="memdesc:ga01ab528f34a77b0bdb4a8c30db01a7af"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds a number of the closest points in the cloud (as configured in  <br /></td></tr>
+<tr class="separator:ga01ab528f34a77b0bdb4a8c30db01a7af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaecc58236b22038c2be49fd682f921355" id="r_gaecc58236b22038c2be49fd682f921355"><td class="memItemLeft" align="right" valign="top">MRC_API MR_Buffer_MR_VertId *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaecc58236b22038c2be49fd682f921355">MR_findNClosestPointsPerPoint</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pc, int32_t numNei, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress)</td></tr>
+<tr class="memdesc:gaecc58236b22038c2be49fd682f921355"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds given number of closest points (excluding itself) to each valid point in the cloud;  <br /></td></tr>
+<tr class="separator:gaecc58236b22038c2be49fd682f921355"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0bc26a8ba7a52f6175dcd03f4d10ce9e" id="r_ga0bc26a8ba7a52f6175dcd03f4d10ce9e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a627aa1628b99fe88a3c76fb6d87ba691">MR_std_pair_MR_VertId_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga0bc26a8ba7a52f6175dcd03f4d10ce9e">MR_findTwoClosestPoints</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pc, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress)</td></tr>
+<tr class="separator:ga0bc26a8ba7a52f6175dcd03f4d10ce9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga497264dd043bb9099df9d8839ef0f5c7" id="r_ga497264dd043bb9099df9d8839ef0f5c7"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRBitSet_8h.html#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga497264dd043bb9099df9d8839ef0f5c7">MR_FindProjectionOnPointsSettings_Get_valid</a> (const <a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *_this)</td></tr>
+<tr class="separator:ga497264dd043bb9099df9d8839ef0f5c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacb32ad301fda87cda235f254e37b4be1" id="r_gacb32ad301fda87cda235f254e37b4be1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gacb32ad301fda87cda235f254e37b4be1">MR_FindProjectionOnPointsSettings_Set_valid</a> (<a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *_this, const <a class="el" href="MRBitSet_8h.html#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a> *value)</td></tr>
+<tr class="separator:gacb32ad301fda87cda235f254e37b4be1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga20e077ea05defb62650a6417d2444f6e" id="r_ga20e077ea05defb62650a6417d2444f6e"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRBitSet_8h.html#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga20e077ea05defb62650a6417d2444f6e">MR_FindProjectionOnPointsSettings_GetMutable_valid</a> (<a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *_this)</td></tr>
+<tr class="separator:ga20e077ea05defb62650a6417d2444f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5f1b493a255dd22c7cbfb956072a4e3a" id="r_ga5f1b493a255dd22c7cbfb956072a4e3a"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga5f1b493a255dd22c7cbfb956072a4e3a">MR_FindProjectionOnPointsSettings_Get_xf</a> (const <a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *_this)</td></tr>
+<tr class="separator:ga5f1b493a255dd22c7cbfb956072a4e3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga93a0fd09e141dee8b72cff678afb66d9" id="r_ga93a0fd09e141dee8b72cff678afb66d9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga93a0fd09e141dee8b72cff678afb66d9">MR_FindProjectionOnPointsSettings_Set_xf</a> (<a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *_this, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *value)</td></tr>
+<tr class="separator:ga93a0fd09e141dee8b72cff678afb66d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac2fd154651c04c678c524f6248f992f0" id="r_gac2fd154651c04c678c524f6248f992f0"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gac2fd154651c04c678c524f6248f992f0">MR_FindProjectionOnPointsSettings_GetMutable_xf</a> (<a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *_this)</td></tr>
+<tr class="separator:gac2fd154651c04c678c524f6248f992f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga54c5e6e8afca66920b4302211b14fc6e" id="r_ga54c5e6e8afca66920b4302211b14fc6e"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga54c5e6e8afca66920b4302211b14fc6e">MR_FindProjectionOnPointsSettings_Get_upDistLimitSq</a> (const <a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *_this)</td></tr>
+<tr class="separator:ga54c5e6e8afca66920b4302211b14fc6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaab7b7076fe3a2419d17dc4659e42539e" id="r_gaab7b7076fe3a2419d17dc4659e42539e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaab7b7076fe3a2419d17dc4659e42539e">MR_FindProjectionOnPointsSettings_Set_upDistLimitSq</a> (<a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *_this, float value)</td></tr>
+<tr class="separator:gaab7b7076fe3a2419d17dc4659e42539e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga61c2c4c66f4f6948172a88ba719a533e" id="r_ga61c2c4c66f4f6948172a88ba719a533e"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga61c2c4c66f4f6948172a88ba719a533e">MR_FindProjectionOnPointsSettings_GetMutable_upDistLimitSq</a> (<a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *_this)</td></tr>
+<tr class="separator:ga61c2c4c66f4f6948172a88ba719a533e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad944600fff2ecc3d9b3789d738001a81" id="r_gad944600fff2ecc3d9b3789d738001a81"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gad944600fff2ecc3d9b3789d738001a81">MR_FindProjectionOnPointsSettings_Get_loDistLimitSq</a> (const <a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *_this)</td></tr>
+<tr class="separator:gad944600fff2ecc3d9b3789d738001a81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2a6a0e40ac0e7939b435184d6435626a" id="r_ga2a6a0e40ac0e7939b435184d6435626a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga2a6a0e40ac0e7939b435184d6435626a">MR_FindProjectionOnPointsSettings_Set_loDistLimitSq</a> (<a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *_this, float value)</td></tr>
+<tr class="separator:ga2a6a0e40ac0e7939b435184d6435626a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga773c062087f94833e29644a7c6502b36" id="r_ga773c062087f94833e29644a7c6502b36"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga773c062087f94833e29644a7c6502b36">MR_FindProjectionOnPointsSettings_GetMutable_loDistLimitSq</a> (<a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *_this)</td></tr>
+<tr class="separator:ga773c062087f94833e29644a7c6502b36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3d8f695b8ae787c921e4d7ca5cdcce9a" id="r_ga3d8f695b8ae787c921e4d7ca5cdcce9a"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga3d8f695b8ae787c921e4d7ca5cdcce9a">MR_FindProjectionOnPointsSettings_Get_skipSameIndex</a> (const <a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *_this)</td></tr>
+<tr class="separator:ga3d8f695b8ae787c921e4d7ca5cdcce9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gada5b37153f17b0a2edfec28f2a9cb712" id="r_gada5b37153f17b0a2edfec28f2a9cb712"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gada5b37153f17b0a2edfec28f2a9cb712">MR_FindProjectionOnPointsSettings_Set_skipSameIndex</a> (<a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *_this, bool value)</td></tr>
+<tr class="separator:gada5b37153f17b0a2edfec28f2a9cb712"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga271e72228fb8f94f736948291c0919f7" id="r_ga271e72228fb8f94f736948291c0919f7"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga271e72228fb8f94f736948291c0919f7">MR_FindProjectionOnPointsSettings_GetMutable_skipSameIndex</a> (<a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *_this)</td></tr>
+<tr class="separator:ga271e72228fb8f94f736948291c0919f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaffd9b436c6f364ff2e75ff17c2494569" id="r_gaffd9b436c6f364ff2e75ff17c2494569"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaffd9b436c6f364ff2e75ff17c2494569">MR_FindProjectionOnPointsSettings_Get_cb</a> (const <a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *_this)</td></tr>
+<tr class="separator:gaffd9b436c6f364ff2e75ff17c2494569"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga56f8f47b07d31b294fc73bcd4ed65066" id="r_ga56f8f47b07d31b294fc73bcd4ed65066"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga56f8f47b07d31b294fc73bcd4ed65066">MR_FindProjectionOnPointsSettings_Set_cb</a> (<a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
+<tr class="separator:ga56f8f47b07d31b294fc73bcd4ed65066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae06e4a7b8984e7b0460735856e11a423" id="r_gae06e4a7b8984e7b0460735856e11a423"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gae06e4a7b8984e7b0460735856e11a423">MR_FindProjectionOnPointsSettings_GetMutable_cb</a> (<a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *_this)</td></tr>
+<tr class="separator:gae06e4a7b8984e7b0460735856e11a423"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga43c93c1e1c96ece5e6bf86e06d6adc79" id="r_ga43c93c1e1c96ece5e6bf86e06d6adc79"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga43c93c1e1c96ece5e6bf86e06d6adc79">MR_FindProjectionOnPointsSettings_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ga43c93c1e1c96ece5e6bf86e06d6adc79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf858cfe7d7277c243602b2187b6c070a" id="r_gaf858cfe7d7277c243602b2187b6c070a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaf858cfe7d7277c243602b2187b6c070a">MR_FindProjectionOnPointsSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:gaf858cfe7d7277c243602b2187b6c070a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga97dc74163175ca404a8b0839aff947f0" id="r_ga97dc74163175ca404a8b0839aff947f0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga97dc74163175ca404a8b0839aff947f0">MR_FindProjectionOnPointsSettings_ConstructFrom</a> (const <a class="el" href="MRBitSet_8h.html#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a> *valid, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf, float upDistLimitSq, float loDistLimitSq, bool skipSameIndex, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ga97dc74163175ca404a8b0839aff947f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6a909bc244f409f78d82d1bd47c70b8f" id="r_ga6a909bc244f409f78d82d1bd47c70b8f"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga6a909bc244f409f78d82d1bd47c70b8f">MR_FindProjectionOnPointsSettings_OffsetPtr</a> (const <a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ga6a909bc244f409f78d82d1bd47c70b8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ga6a909bc244f409f78d82d1bd47c70b8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabd7623aa419f3bda38baae62973b803d" id="r_gabd7623aa419f3bda38baae62973b803d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gabd7623aa419f3bda38baae62973b803d">MR_FindProjectionOnPointsSettings_OffsetMutablePtr</a> (<a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:gabd7623aa419f3bda38baae62973b803d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:gabd7623aa419f3bda38baae62973b803d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabec7d3f0f19c055f3b593bad628f6097" id="r_gabec7d3f0f19c055f3b593bad628f6097"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gabec7d3f0f19c055f3b593bad628f6097">MR_FindProjectionOnPointsSettings_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *_other)</td></tr>
+<tr class="separator:gabec7d3f0f19c055f3b593bad628f6097"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac72c214b018ab5320946450d5aa03797" id="r_gac72c214b018ab5320946450d5aa03797"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gac72c214b018ab5320946450d5aa03797">MR_FindProjectionOnPointsSettings_Destroy</a> (const <a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *_this)</td></tr>
+<tr class="memdesc:gac72c214b018ab5320946450d5aa03797"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_FindProjectionOnPointsSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:gac72c214b018ab5320946450d5aa03797"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga114be46a736f187d200fc3062eaba928" id="r_ga114be46a736f187d200fc3062eaba928"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga114be46a736f187d200fc3062eaba928">MR_FindProjectionOnPointsSettings_DestroyArray</a> (const <a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *_this)</td></tr>
+<tr class="memdesc:ga114be46a736f187d200fc3062eaba928"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_FindProjectionOnPointsSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ga114be46a736f187d200fc3062eaba928"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafcced85cb9a3371b63eddd1bb5fa2ccd" id="r_gafcced85cb9a3371b63eddd1bb5fa2ccd"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gafcced85cb9a3371b63eddd1bb5fa2ccd">MR_FindProjectionOnPointsSettings_AssignFromAnother</a> (<a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *_other)</td></tr>
+<tr class="separator:gafcced85cb9a3371b63eddd1bb5fa2ccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6bf1fa9c67b669d447080dd26893145e" id="r_ga6bf1fa9c67b669d447080dd26893145e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga6bf1fa9c67b669d447080dd26893145e">MR_IPointsProjector_Destroy</a> (const <a class="el" href="group__AABBTreeGroup.html#gacc732bce6f7682cbdb0a3a72dd2dbc4d">MR_IPointsProjector</a> *_this)</td></tr>
+<tr class="memdesc:ga6bf1fa9c67b669d447080dd26893145e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_IPointsProjector</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ga6bf1fa9c67b669d447080dd26893145e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2c14152dba66ebd0ace2b518ba28ca5f" id="r_ga2c14152dba66ebd0ace2b518ba28ca5f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga2c14152dba66ebd0ace2b518ba28ca5f">MR_IPointsProjector_DestroyArray</a> (const <a class="el" href="group__AABBTreeGroup.html#gacc732bce6f7682cbdb0a3a72dd2dbc4d">MR_IPointsProjector</a> *_this)</td></tr>
+<tr class="memdesc:ga2c14152dba66ebd0ace2b518ba28ca5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_IPointsProjector</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ga2c14152dba66ebd0ace2b518ba28ca5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7af4a6a7ad9b86d226b593fc94d4d440" id="r_ga7af4a6a7ad9b86d226b593fc94d4d440"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga7af4a6a7ad9b86d226b593fc94d4d440">MR_IPointsProjector_setPointCloud</a> (<a class="el" href="group__AABBTreeGroup.html#gacc732bce6f7682cbdb0a3a72dd2dbc4d">MR_IPointsProjector</a> *_this, const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud)</td></tr>
+<tr class="separator:ga7af4a6a7ad9b86d226b593fc94d4d440"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga12ae3e223c9689fd5c97433bde7516e8" id="r_ga12ae3e223c9689fd5c97433bde7516e8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga12ae3e223c9689fd5c97433bde7516e8">MR_IPointsProjector_findProjections</a> (const <a class="el" href="group__AABBTreeGroup.html#gacc732bce6f7682cbdb0a3a72dd2dbc4d">MR_IPointsProjector</a> *_this, <a class="el" href="MRFewSmallest_8h.html#abdb99b8e5529c75d63ba234eae469f9a">MR_std_vector_MR_PointsProjectionResult</a> *results, const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *points, const <a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *settings)</td></tr>
+<tr class="separator:ga12ae3e223c9689fd5c97433bde7516e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga66b8fbe5a3a4e0fb7b6ae2b5ba3415d3" id="r_ga66b8fbe5a3a4e0fb7b6ae2b5ba3415d3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga66b8fbe5a3a4e0fb7b6ae2b5ba3415d3">MR_IPointsProjector_projectionsHeapBytes</a> (const <a class="el" href="group__AABBTreeGroup.html#gacc732bce6f7682cbdb0a3a72dd2dbc4d">MR_IPointsProjector</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> numProjections)</td></tr>
+<tr class="separator:ga66b8fbe5a3a4e0fb7b6ae2b5ba3415d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaea50dac3a2b2a3a038d3ac0b56aac051" id="r_gaea50dac3a2b2a3a038d3ac0b56aac051"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="group__AABBTreeGroup.html#gacc732bce6f7682cbdb0a3a72dd2dbc4d">MR_IPointsProjector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaea50dac3a2b2a3a038d3ac0b56aac051">MR_IPointsProjector_OffsetPtr</a> (const <a class="el" href="group__AABBTreeGroup.html#gacc732bce6f7682cbdb0a3a72dd2dbc4d">MR_IPointsProjector</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:gaea50dac3a2b2a3a038d3ac0b56aac051"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:gaea50dac3a2b2a3a038d3ac0b56aac051"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf0baabd67bd90f42879bbfa85dc77f79" id="r_gaf0baabd67bd90f42879bbfa85dc77f79"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__AABBTreeGroup.html#gacc732bce6f7682cbdb0a3a72dd2dbc4d">MR_IPointsProjector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaf0baabd67bd90f42879bbfa85dc77f79">MR_IPointsProjector_OffsetMutablePtr</a> (<a class="el" href="group__AABBTreeGroup.html#gacc732bce6f7682cbdb0a3a72dd2dbc4d">MR_IPointsProjector</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:gaf0baabd67bd90f42879bbfa85dc77f79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:gaf0baabd67bd90f42879bbfa85dc77f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab6bc40b94a61e915a08f1071c3d9376a" id="r_gab6bc40b94a61e915a08f1071c3d9376a"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="group__AABBTreeGroup.html#ga3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gab6bc40b94a61e915a08f1071c3d9376a">MR_IPointsProjector_StaticDowncastTo_MR_PointsProjector</a> (const <a class="el" href="group__AABBTreeGroup.html#gacc732bce6f7682cbdb0a3a72dd2dbc4d">MR_IPointsProjector</a> *object)</td></tr>
+<tr class="separator:gab6bc40b94a61e915a08f1071c3d9376a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7af1c150df8d8347fe1b01a80af81dc9" id="r_ga7af1c150df8d8347fe1b01a80af81dc9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__AABBTreeGroup.html#ga3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga7af1c150df8d8347fe1b01a80af81dc9">MR_IPointsProjector_MutableStaticDowncastTo_MR_PointsProjector</a> (<a class="el" href="group__AABBTreeGroup.html#gacc732bce6f7682cbdb0a3a72dd2dbc4d">MR_IPointsProjector</a> *object)</td></tr>
+<tr class="separator:ga7af1c150df8d8347fe1b01a80af81dc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga671c66b7b525245d2f409cd03fd508fc" id="r_ga671c66b7b525245d2f409cd03fd508fc"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="group__AABBTreeGroup.html#ga3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga671c66b7b525245d2f409cd03fd508fc">MR_IPointsProjector_DynamicDowncastTo_MR_PointsProjector</a> (const <a class="el" href="group__AABBTreeGroup.html#gacc732bce6f7682cbdb0a3a72dd2dbc4d">MR_IPointsProjector</a> *object)</td></tr>
+<tr class="separator:ga671c66b7b525245d2f409cd03fd508fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga42ccedf2a42784981148d1c510f4114d" id="r_ga42ccedf2a42784981148d1c510f4114d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__AABBTreeGroup.html#ga3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga42ccedf2a42784981148d1c510f4114d">MR_IPointsProjector_MutableDynamicDowncastTo_MR_PointsProjector</a> (<a class="el" href="group__AABBTreeGroup.html#gacc732bce6f7682cbdb0a3a72dd2dbc4d">MR_IPointsProjector</a> *object)</td></tr>
+<tr class="separator:ga42ccedf2a42784981148d1c510f4114d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabe8eaa070115b131e2013247b368ba3d" id="r_gabe8eaa070115b131e2013247b368ba3d"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="group__AABBTreeGroup.html#ga3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gabe8eaa070115b131e2013247b368ba3d">MR_IPointsProjector_DynamicDowncastToOrFail_MR_PointsProjector</a> (const <a class="el" href="group__AABBTreeGroup.html#gacc732bce6f7682cbdb0a3a72dd2dbc4d">MR_IPointsProjector</a> *object)</td></tr>
+<tr class="separator:gabe8eaa070115b131e2013247b368ba3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaef479fba0499132b31e3e241e0625105" id="r_gaef479fba0499132b31e3e241e0625105"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__AABBTreeGroup.html#ga3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaef479fba0499132b31e3e241e0625105">MR_IPointsProjector_MutableDynamicDowncastToOrFail_MR_PointsProjector</a> (<a class="el" href="group__AABBTreeGroup.html#gacc732bce6f7682cbdb0a3a72dd2dbc4d">MR_IPointsProjector</a> *object)</td></tr>
+<tr class="separator:gaef479fba0499132b31e3e241e0625105"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga35e33e79d7c065f49437ce93589acf53" id="r_ga35e33e79d7c065f49437ce93589acf53"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__AABBTreeGroup.html#ga3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga35e33e79d7c065f49437ce93589acf53">MR_PointsProjector_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ga35e33e79d7c065f49437ce93589acf53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga683845c76bc7cc1650d9845de298ca31" id="r_ga683845c76bc7cc1650d9845de298ca31"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__AABBTreeGroup.html#ga3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga683845c76bc7cc1650d9845de298ca31">MR_PointsProjector_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ga683845c76bc7cc1650d9845de298ca31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gade2d785073c388e4a0a94a0929b090b3" id="r_gade2d785073c388e4a0a94a0929b090b3"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="group__AABBTreeGroup.html#ga3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gade2d785073c388e4a0a94a0929b090b3">MR_PointsProjector_OffsetPtr</a> (const <a class="el" href="group__AABBTreeGroup.html#ga3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:gade2d785073c388e4a0a94a0929b090b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:gade2d785073c388e4a0a94a0929b090b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga034981326a520593ddf3558f098b930c" id="r_ga034981326a520593ddf3558f098b930c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__AABBTreeGroup.html#ga3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga034981326a520593ddf3558f098b930c">MR_PointsProjector_OffsetMutablePtr</a> (<a class="el" href="group__AABBTreeGroup.html#ga3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ga034981326a520593ddf3558f098b930c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ga034981326a520593ddf3558f098b930c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1a5d8e9f20984a05ca6a500f10ad687b" id="r_ga1a5d8e9f20984a05ca6a500f10ad687b"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="group__AABBTreeGroup.html#gacc732bce6f7682cbdb0a3a72dd2dbc4d">MR_IPointsProjector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga1a5d8e9f20984a05ca6a500f10ad687b">MR_PointsProjector_UpcastTo_MR_IPointsProjector</a> (const <a class="el" href="group__AABBTreeGroup.html#ga3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a> *object)</td></tr>
+<tr class="separator:ga1a5d8e9f20984a05ca6a500f10ad687b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf1575f0818e4a58fc21a5ae3c800a7d4" id="r_gaf1575f0818e4a58fc21a5ae3c800a7d4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__AABBTreeGroup.html#gacc732bce6f7682cbdb0a3a72dd2dbc4d">MR_IPointsProjector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaf1575f0818e4a58fc21a5ae3c800a7d4">MR_PointsProjector_MutableUpcastTo_MR_IPointsProjector</a> (<a class="el" href="group__AABBTreeGroup.html#ga3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a> *object)</td></tr>
+<tr class="memdesc:gaf1575f0818e4a58fc21a5ae3c800a7d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1PointsProjector.html">MR::PointsProjector</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1IPointsProjector.html">MR::IPointsProjector</a></code>.  <br /></td></tr>
+<tr class="separator:gaf1575f0818e4a58fc21a5ae3c800a7d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab31b31360fb8690ebd06dfc486b1bb74" id="r_gab31b31360fb8690ebd06dfc486b1bb74"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__AABBTreeGroup.html#ga3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gab31b31360fb8690ebd06dfc486b1bb74">MR_PointsProjector_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="group__AABBTreeGroup.html#ga3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a> *_other)</td></tr>
+<tr class="separator:gab31b31360fb8690ebd06dfc486b1bb74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga42a8f711fc36005b2a1e9666fee9608a" id="r_ga42a8f711fc36005b2a1e9666fee9608a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga42a8f711fc36005b2a1e9666fee9608a">MR_PointsProjector_Destroy</a> (const <a class="el" href="group__AABBTreeGroup.html#ga3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a> *_this)</td></tr>
+<tr class="memdesc:ga42a8f711fc36005b2a1e9666fee9608a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_PointsProjector</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ga42a8f711fc36005b2a1e9666fee9608a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaee5308e747ede15e90165d59013c6403" id="r_gaee5308e747ede15e90165d59013c6403"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaee5308e747ede15e90165d59013c6403">MR_PointsProjector_DestroyArray</a> (const <a class="el" href="group__AABBTreeGroup.html#ga3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a> *_this)</td></tr>
+<tr class="memdesc:gaee5308e747ede15e90165d59013c6403"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_PointsProjector</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:gaee5308e747ede15e90165d59013c6403"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5113b6885ff329e15a21351369812d65" id="r_ga5113b6885ff329e15a21351369812d65"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__AABBTreeGroup.html#ga3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga5113b6885ff329e15a21351369812d65">MR_PointsProjector_AssignFromAnother</a> (<a class="el" href="group__AABBTreeGroup.html#ga3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="group__AABBTreeGroup.html#ga3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a> *_other)</td></tr>
+<tr class="separator:ga5113b6885ff329e15a21351369812d65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga21e0b13da46a87a5ec86ffb01310db3c" id="r_ga21e0b13da46a87a5ec86ffb01310db3c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga21e0b13da46a87a5ec86ffb01310db3c">MR_PointsProjector_setPointCloud</a> (<a class="el" href="group__AABBTreeGroup.html#ga3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a> *_this, const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud)</td></tr>
+<tr class="separator:ga21e0b13da46a87a5ec86ffb01310db3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga371a2c6769a76c67c97f7dc9139a1075" id="r_ga371a2c6769a76c67c97f7dc9139a1075"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga371a2c6769a76c67c97f7dc9139a1075">MR_PointsProjector_findProjections</a> (const <a class="el" href="group__AABBTreeGroup.html#ga3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a> *_this, <a class="el" href="MRFewSmallest_8h.html#abdb99b8e5529c75d63ba234eae469f9a">MR_std_vector_MR_PointsProjectionResult</a> *results, const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *points, const <a class="el" href="group__AABBTreeGroup.html#ga92b99767ad50161176d6aeb9c7349616">MR_FindProjectionOnPointsSettings</a> *settings)</td></tr>
+<tr class="separator:ga371a2c6769a76c67c97f7dc9139a1075"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab73b061b90cf9e466d211f81a58a9cc8" id="r_gab73b061b90cf9e466d211f81a58a9cc8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gab73b061b90cf9e466d211f81a58a9cc8">MR_PointsProjector_projectionsHeapBytes</a> (const <a class="el" href="group__AABBTreeGroup.html#ga3a5ba351029fa6f59d21522d60cb8bd1">MR_PointsProjector</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> numProjections)</td></tr>
+<tr class="separator:gab73b061b90cf9e466d211f81a58a9cc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="aaa96ed5b79deaa81e7e5e848584a7b6a" name="aaa96ed5b79deaa81e7e5e848584a7b6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa96ed5b79deaa81e7e5e848584a7b6a">&#9670;&#160;</a></span>MR_AABBTreePoints</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreePoints_8h.html#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a> <a class="el" href="MRAABBTreePoints_8h.html#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a88a1df6fb138786a55241b1d77a4b0cc" name="a88a1df6fb138786a55241b1d77a4b0cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88a1df6fb138786a55241b1d77a4b0cc">&#9670;&#160;</a></span>MR_AffineXf3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct MR_AffineXf3f MR_AffineXf3f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a36d7d5a26d258211a2da5d9311a0798c" name="a36d7d5a26d258211a2da5d9311a0798c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36d7d5a26d258211a2da5d9311a0798c">&#9670;&#160;</a></span>MR_BitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBitSet_8h.html#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a> <a class="el" href="MRBitSet_8h.html#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab9532c7498f492993c731c877ba0332b" name="ab9532c7498f492993c731c877ba0332b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9532c7498f492993c731c877ba0332b">&#9670;&#160;</a></span>MR_Buffer_MR_VertId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct MR_Buffer_MR_VertId MR_Buffer_MR_VertId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a077b8debfae88f9cf2267ad2db95c006" name="a077b8debfae88f9cf2267ad2db95c006"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a077b8debfae88f9cf2267ad2db95c006">&#9670;&#160;</a></span>MR_expected_void_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a66e1ce13e2d4b3d10a8605b9d6b685d3" name="a66e1ce13e2d4b3d10a8605b9d6b685d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66e1ce13e2d4b3d10a8605b9d6b685d3">&#9670;&#160;</a></span>MR_FewSmallest_MR_PointsProjectionResult</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRFewSmallest_8h.html#a66e1ce13e2d4b3d10a8605b9d6b685d3">MR_FewSmallest_MR_PointsProjectionResult</a> <a class="el" href="MRFewSmallest_8h.html#a66e1ce13e2d4b3d10a8605b9d6b685d3">MR_FewSmallest_MR_PointsProjectionResult</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa319738c95f0bbde075b7ef777cf2665" name="aa319738c95f0bbde075b7ef777cf2665"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa319738c95f0bbde075b7ef777cf2665">&#9670;&#160;</a></span>MR_PointCloud</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac5ebecc1cdf4196d4d2ddaeeb82a0771" name="ac5ebecc1cdf4196d4d2ddaeeb82a0771"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5ebecc1cdf4196d4d2ddaeeb82a0771">&#9670;&#160;</a></span>MR_PointCloudPart</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBestFit_8h.html#ac5ebecc1cdf4196d4d2ddaeeb82a0771">MR_PointCloudPart</a> <a class="el" href="MRBestFit_8h.html#ac5ebecc1cdf4196d4d2ddaeeb82a0771">MR_PointCloudPart</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adb03ce28cacfff1e499d75d512dc4a84" name="adb03ce28cacfff1e499d75d512dc4a84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb03ce28cacfff1e499d75d512dc4a84">&#9670;&#160;</a></span>MR_std_function_bool_from_float</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a64d1658b7258dab72096c88486c6c84a" name="a64d1658b7258dab72096c88486c6c84a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64d1658b7258dab72096c88486c6c84a">&#9670;&#160;</a></span>MR_std_function_bool_from_MR_VertId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MREnumNeighbours_8h.html#a64d1658b7258dab72096c88486c6c84a">MR_std_function_bool_from_MR_VertId</a> <a class="el" href="MREnumNeighbours_8h.html#a64d1658b7258dab72096c88486c6c84a">MR_std_function_bool_from_MR_VertId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a627aa1628b99fe88a3c76fb6d87ba691" name="a627aa1628b99fe88a3c76fb6d87ba691"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a627aa1628b99fe88a3c76fb6d87ba691">&#9670;&#160;</a></span>MR_std_pair_MR_VertId_MR_VertId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a627aa1628b99fe88a3c76fb6d87ba691">MR_std_pair_MR_VertId_MR_VertId</a> <a class="el" href="#a627aa1628b99fe88a3c76fb6d87ba691">MR_std_pair_MR_VertId_MR_VertId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abdb99b8e5529c75d63ba234eae469f9a" name="abdb99b8e5529c75d63ba234eae469f9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdb99b8e5529c75d63ba234eae469f9a">&#9670;&#160;</a></span>MR_std_vector_MR_PointsProjectionResult</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRFewSmallest_8h.html#abdb99b8e5529c75d63ba234eae469f9a">MR_std_vector_MR_PointsProjectionResult</a> <a class="el" href="MRFewSmallest_8h.html#abdb99b8e5529c75d63ba234eae469f9a">MR_std_vector_MR_PointsProjectionResult</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aefed148a09a0ae55edbd22814638b462" name="aefed148a09a0ae55edbd22814638b462"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefed148a09a0ae55edbd22814638b462">&#9670;&#160;</a></span>MR_std_vector_MR_Vector3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6bf133eda1ec95be202b77c33412bc8e" name="a6bf133eda1ec95be202b77c33412bc8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bf133eda1ec95be202b77c33412bc8e">&#9670;&#160;</a></span>MR_Vector3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct MR_Vector3f MR_Vector3f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3df50e76b078a1626dd994e1df803764" name="a3df50e76b078a1626dd994e1df803764"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3df50e76b078a1626dd994e1df803764">&#9670;&#160;</a></span>MR_VertBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_8b489c7b5d1a72d35ec87e32cc37b940.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRPointsProject_8h.html">MRPointsProject.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

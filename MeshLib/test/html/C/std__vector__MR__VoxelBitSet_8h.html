@@ -1,0 +1,1790 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: std_vector_MR_VoxelBitSet.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('std__vector__MR__VoxelBitSet_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">std_vector_MR_VoxelBitSet.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="std__vector__MR__VoxelBitSet_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a94b5f700f4835481dce132716ff73b05" id="r_a94b5f700f4835481dce132716ff73b05"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a></td></tr>
+<tr class="separator:a94b5f700f4835481dce132716ff73b05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9e419d3fad107fdd71e742f02c19080" id="r_ab9e419d3fad107fdd71e742f02c19080"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a></td></tr>
+<tr class="separator:ab9e419d3fad107fdd71e742f02c19080"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8be237109aed87ad25301bdd96701fc" id="r_ae8be237109aed87ad25301bdd96701fc"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a></td></tr>
+<tr class="separator:ae8be237109aed87ad25301bdd96701fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac695ed969e133c1bb90e7b36ae74c1d8" id="r_ac695ed969e133c1bb90e7b36ae74c1d8"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a></td></tr>
+<tr class="separator:ac695ed969e133c1bb90e7b36ae74c1d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:af3015eeda6d79a63d34234d59a73fec0" id="r_af3015eeda6d79a63d34234d59a73fec0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3015eeda6d79a63d34234d59a73fec0">MR_std_vector_MR_VoxelBitSet_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:af3015eeda6d79a63d34234d59a73fec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add08b62a6a82c37c5b77e531d71ec115" id="r_add08b62a6a82c37c5b77e531d71ec115"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add08b62a6a82c37c5b77e531d71ec115">MR_std_vector_MR_VoxelBitSet_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:add08b62a6a82c37c5b77e531d71ec115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6d49273cdac9835cd7be322a2d843db" id="r_ab6d49273cdac9835cd7be322a2d843db"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6d49273cdac9835cd7be322a2d843db">MR_std_vector_MR_VoxelBitSet_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *other)</td></tr>
+<tr class="separator:ab6d49273cdac9835cd7be322a2d843db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8198f7c722c4bb52bc9cb23e56b6058" id="r_ad8198f7c722c4bb52bc9cb23e56b6058"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8198f7c722c4bb52bc9cb23e56b6058">MR_std_vector_MR_VoxelBitSet_AssignFromAnother</a> (<a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *other)</td></tr>
+<tr class="separator:ad8198f7c722c4bb52bc9cb23e56b6058"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad655bf798d8f73a532e1f0fa2c9e2f1f" id="r_ad655bf798d8f73a532e1f0fa2c9e2f1f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad655bf798d8f73a532e1f0fa2c9e2f1f">MR_std_vector_MR_VoxelBitSet_Destroy</a> (const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this)</td></tr>
+<tr class="memdesc:ad655bf798d8f73a532e1f0fa2c9e2f1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_VoxelBitSet</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ad655bf798d8f73a532e1f0fa2c9e2f1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78ce23c2c177270819d46686a42a8aae" id="r_a78ce23c2c177270819d46686a42a8aae"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78ce23c2c177270819d46686a42a8aae">MR_std_vector_MR_VoxelBitSet_DestroyArray</a> (const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this)</td></tr>
+<tr class="memdesc:a78ce23c2c177270819d46686a42a8aae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_VoxelBitSet</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a78ce23c2c177270819d46686a42a8aae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af046f5c65b58f9fc728442ba86759387" id="r_af046f5c65b58f9fc728442ba86759387"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af046f5c65b58f9fc728442ba86759387">MR_std_vector_MR_VoxelBitSet_OffsetPtr</a> (const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:af046f5c65b58f9fc728442ba86759387"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:af046f5c65b58f9fc728442ba86759387"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91da466bfe50abeff2613a5a2b9deb2c" id="r_a91da466bfe50abeff2613a5a2b9deb2c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91da466bfe50abeff2613a5a2b9deb2c">MR_std_vector_MR_VoxelBitSet_OffsetMutablePtr</a> (<a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a91da466bfe50abeff2613a5a2b9deb2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a91da466bfe50abeff2613a5a2b9deb2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d9ca99256f71fb4c8d848a888e7067b" id="r_a6d9ca99256f71fb4c8d848a888e7067b"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d9ca99256f71fb4c8d848a888e7067b">MR_std_vector_MR_VoxelBitSet_Size</a> (const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this)</td></tr>
+<tr class="separator:a6d9ca99256f71fb4c8d848a888e7067b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1c930ee58665a9687f0569add2534c3" id="r_ab1c930ee58665a9687f0569add2534c3"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1c930ee58665a9687f0569add2534c3">MR_std_vector_MR_VoxelBitSet_IsEmpty</a> (const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this)</td></tr>
+<tr class="separator:ab1c930ee58665a9687f0569add2534c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17f4d26c4844a97c40458a731e3259f9" id="r_a17f4d26c4844a97c40458a731e3259f9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17f4d26c4844a97c40458a731e3259f9">MR_std_vector_MR_VoxelBitSet_Resize</a> (<a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this, size_t new_size)</td></tr>
+<tr class="separator:a17f4d26c4844a97c40458a731e3259f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a551a991c308533f88ba3b47c4c08b2fd" id="r_a551a991c308533f88ba3b47c4c08b2fd"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a551a991c308533f88ba3b47c4c08b2fd">MR_std_vector_MR_VoxelBitSet_ResizeWithDefaultValue</a> (<a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this, size_t new_size, const <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *value)</td></tr>
+<tr class="separator:a551a991c308533f88ba3b47c4c08b2fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaf47506f2cb2ef59d8940706b56d49d" id="r_acaf47506f2cb2ef59d8940706b56d49d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acaf47506f2cb2ef59d8940706b56d49d">MR_std_vector_MR_VoxelBitSet_Clear</a> (<a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this)</td></tr>
+<tr class="separator:acaf47506f2cb2ef59d8940706b56d49d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a302e517841a2e8829029837b6e88252e" id="r_a302e517841a2e8829029837b6e88252e"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a302e517841a2e8829029837b6e88252e">MR_std_vector_MR_VoxelBitSet_Capacity</a> (const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this)</td></tr>
+<tr class="separator:a302e517841a2e8829029837b6e88252e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35199fed41368083ed92805ce52f7b42" id="r_a35199fed41368083ed92805ce52f7b42"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35199fed41368083ed92805ce52f7b42">MR_std_vector_MR_VoxelBitSet_Reserve</a> (<a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this, size_t new_capacity)</td></tr>
+<tr class="separator:a35199fed41368083ed92805ce52f7b42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f62174e5947f2d8d407f9f140259fa2" id="r_a7f62174e5947f2d8d407f9f140259fa2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f62174e5947f2d8d407f9f140259fa2">MR_std_vector_MR_VoxelBitSet_ShrinkToFit</a> (<a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this)</td></tr>
+<tr class="separator:a7f62174e5947f2d8d407f9f140259fa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03174fe2b9bce7c1fe2c8326c5d3e490" id="r_a03174fe2b9bce7c1fe2c8326c5d3e490"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03174fe2b9bce7c1fe2c8326c5d3e490">MR_std_vector_MR_VoxelBitSet_At</a> (const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this, size_t i)</td></tr>
+<tr class="separator:a03174fe2b9bce7c1fe2c8326c5d3e490"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae608b4a4c6be132795b16c098d31231a" id="r_ae608b4a4c6be132795b16c098d31231a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae608b4a4c6be132795b16c098d31231a">MR_std_vector_MR_VoxelBitSet_MutableAt</a> (<a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this, size_t i)</td></tr>
+<tr class="separator:ae608b4a4c6be132795b16c098d31231a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a556d920194fb4dfaa87f7c184f423e41" id="r_a556d920194fb4dfaa87f7c184f423e41"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a556d920194fb4dfaa87f7c184f423e41">MR_std_vector_MR_VoxelBitSet_Front</a> (const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this)</td></tr>
+<tr class="separator:a556d920194fb4dfaa87f7c184f423e41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf7864ac5507a216b0d105775a0aa3be" id="r_acf7864ac5507a216b0d105775a0aa3be"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf7864ac5507a216b0d105775a0aa3be">MR_std_vector_MR_VoxelBitSet_MutableFront</a> (<a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this)</td></tr>
+<tr class="separator:acf7864ac5507a216b0d105775a0aa3be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a292d60c3182cb63068a867b25490300f" id="r_a292d60c3182cb63068a867b25490300f"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a292d60c3182cb63068a867b25490300f">MR_std_vector_MR_VoxelBitSet_Back</a> (const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this)</td></tr>
+<tr class="separator:a292d60c3182cb63068a867b25490300f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d079a3548fa8ca5b617117965b62023" id="r_a1d079a3548fa8ca5b617117965b62023"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d079a3548fa8ca5b617117965b62023">MR_std_vector_MR_VoxelBitSet_MutableBack</a> (<a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this)</td></tr>
+<tr class="separator:a1d079a3548fa8ca5b617117965b62023"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b47f1552e41841316f25d85e928fd00" id="r_a5b47f1552e41841316f25d85e928fd00"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b47f1552e41841316f25d85e928fd00">MR_std_vector_MR_VoxelBitSet_PushBack</a> (<a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> new_elem_pass_by, <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *new_elem)</td></tr>
+<tr class="separator:a5b47f1552e41841316f25d85e928fd00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab58a37cce3618578ab11e5a76e99859" id="r_aab58a37cce3618578ab11e5a76e99859"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab58a37cce3618578ab11e5a76e99859">MR_std_vector_MR_VoxelBitSet_PopBack</a> (<a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this)</td></tr>
+<tr class="separator:aab58a37cce3618578ab11e5a76e99859"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac1cfcccf937cbea31c7df188c6ac1d0" id="r_aac1cfcccf937cbea31c7df188c6ac1d0"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac1cfcccf937cbea31c7df188c6ac1d0">MR_std_vector_MR_VoxelBitSet_Insert</a> (<a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this, size_t position, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> new_elem_pass_by, <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *new_elem)</td></tr>
+<tr class="separator:aac1cfcccf937cbea31c7df188c6ac1d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2b085fd6c04d6acb8658bd76c382045" id="r_ab2b085fd6c04d6acb8658bd76c382045"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2b085fd6c04d6acb8658bd76c382045">MR_std_vector_MR_VoxelBitSet_Erase</a> (<a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this, size_t position)</td></tr>
+<tr class="separator:ab2b085fd6c04d6acb8658bd76c382045"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bdc4c15d93fbbd8ebd9f2ef23c42680" id="r_a6bdc4c15d93fbbd8ebd9f2ef23c42680"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bdc4c15d93fbbd8ebd9f2ef23c42680">MR_std_vector_MR_VoxelBitSet_InsertAtMutableIter</a> (<a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this, const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *position, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> new_elem_pass_by, <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *new_elem)</td></tr>
+<tr class="separator:a6bdc4c15d93fbbd8ebd9f2ef23c42680"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d3528fd97b4825d222f4fc0dd533c36" id="r_a0d3528fd97b4825d222f4fc0dd533c36"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d3528fd97b4825d222f4fc0dd533c36">MR_std_vector_MR_VoxelBitSet_EraseAtMutableIter</a> (<a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this, const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *position)</td></tr>
+<tr class="separator:a0d3528fd97b4825d222f4fc0dd533c36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10979208f70da5a4729a155b0896e9a6" id="r_a10979208f70da5a4729a155b0896e9a6"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10979208f70da5a4729a155b0896e9a6">MR_std_vector_MR_VoxelBitSet_InsertAtIter</a> (<a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this, const <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *position, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> new_elem_pass_by, <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *new_elem)</td></tr>
+<tr class="separator:a10979208f70da5a4729a155b0896e9a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af55cce6fbe3e92eed052d4646c1503ad" id="r_af55cce6fbe3e92eed052d4646c1503ad"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af55cce6fbe3e92eed052d4646c1503ad">MR_std_vector_MR_VoxelBitSet_EraseAtIter</a> (<a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this, const <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *position)</td></tr>
+<tr class="separator:af55cce6fbe3e92eed052d4646c1503ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a262f6aaede3d331842e20757b20348b2" id="r_a262f6aaede3d331842e20757b20348b2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a262f6aaede3d331842e20757b20348b2">MR_std_vector_MR_VoxelBitSet_Begin</a> (const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this)</td></tr>
+<tr class="separator:a262f6aaede3d331842e20757b20348b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4ce4246ab91f19cfa309d38952247de" id="r_ae4ce4246ab91f19cfa309d38952247de"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4ce4246ab91f19cfa309d38952247de">MR_std_vector_MR_VoxelBitSet_IsBegin</a> (const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this, const <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *iter)</td></tr>
+<tr class="separator:ae4ce4246ab91f19cfa309d38952247de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44fbd02ca1c2cbb1c58b91025172a8ef" id="r_a44fbd02ca1c2cbb1c58b91025172a8ef"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44fbd02ca1c2cbb1c58b91025172a8ef">MR_std_vector_MR_VoxelBitSet_MutableBegin</a> (<a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this)</td></tr>
+<tr class="separator:a44fbd02ca1c2cbb1c58b91025172a8ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71fcdb713af301eba938ae178765baa2" id="r_a71fcdb713af301eba938ae178765baa2"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71fcdb713af301eba938ae178765baa2">MR_std_vector_MR_VoxelBitSet_IsMutableBegin</a> (<a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this, const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *iter)</td></tr>
+<tr class="separator:a71fcdb713af301eba938ae178765baa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8756190de1501666f4f00b6d8940191b" id="r_a8756190de1501666f4f00b6d8940191b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8756190de1501666f4f00b6d8940191b">MR_std_vector_MR_VoxelBitSet_End</a> (const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this)</td></tr>
+<tr class="separator:a8756190de1501666f4f00b6d8940191b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99df6524b89b54e7244e40f8388d320c" id="r_a99df6524b89b54e7244e40f8388d320c"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99df6524b89b54e7244e40f8388d320c">MR_std_vector_MR_VoxelBitSet_IsEnd</a> (const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this, const <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *iter)</td></tr>
+<tr class="separator:a99df6524b89b54e7244e40f8388d320c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae05ed1ac2cb236072f09ba54926c25d" id="r_aae05ed1ac2cb236072f09ba54926c25d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae05ed1ac2cb236072f09ba54926c25d">MR_std_vector_MR_VoxelBitSet_MutableEnd</a> (<a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this)</td></tr>
+<tr class="separator:aae05ed1ac2cb236072f09ba54926c25d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d4f6a45a70322938529efba895f816f" id="r_a3d4f6a45a70322938529efba895f816f"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d4f6a45a70322938529efba895f816f">MR_std_vector_MR_VoxelBitSet_IsMutableEnd</a> (<a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this, const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *iter)</td></tr>
+<tr class="separator:a3d4f6a45a70322938529efba895f816f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1603fa6ecbb133e2d25b62142ad3e6cf" id="r_a1603fa6ecbb133e2d25b62142ad3e6cf"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1603fa6ecbb133e2d25b62142ad3e6cf">MR_std_vector_MR_VoxelBitSet_ToIndex</a> (const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this, const <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *iter)</td></tr>
+<tr class="separator:a1603fa6ecbb133e2d25b62142ad3e6cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade49bc9c204b4766d6300544dfd56ed9" id="r_ade49bc9c204b4766d6300544dfd56ed9"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade49bc9c204b4766d6300544dfd56ed9">MR_std_vector_MR_VoxelBitSet_MutableToIndex</a> (const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *_this, const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *iter)</td></tr>
+<tr class="separator:ade49bc9c204b4766d6300544dfd56ed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa05081b0d08a0f1bedfe68c9180ad4ba" id="r_aa05081b0d08a0f1bedfe68c9180ad4ba"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa05081b0d08a0f1bedfe68c9180ad4ba">MR_std_vector_MR_VoxelBitSet_const_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:aa05081b0d08a0f1bedfe68c9180ad4ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a277c41fa497e14cda05f35cdcabd701b" id="r_a277c41fa497e14cda05f35cdcabd701b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a277c41fa497e14cda05f35cdcabd701b">MR_std_vector_MR_VoxelBitSet_const_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a277c41fa497e14cda05f35cdcabd701b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf2abffbd9ed3fe20337ddf732f5dddb" id="r_adf2abffbd9ed3fe20337ddf732f5dddb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf2abffbd9ed3fe20337ddf732f5dddb">MR_std_vector_MR_VoxelBitSet_const_iterator_ConstructFromAnother</a> (const <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *other)</td></tr>
+<tr class="separator:adf2abffbd9ed3fe20337ddf732f5dddb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67cdc5a5738de874cae46e7ca15093cf" id="r_a67cdc5a5738de874cae46e7ca15093cf"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67cdc5a5738de874cae46e7ca15093cf">MR_std_vector_MR_VoxelBitSet_const_iterator_AssignFromAnother</a> (<a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *_this, const <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *other)</td></tr>
+<tr class="separator:a67cdc5a5738de874cae46e7ca15093cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a090db72646f85a30c49304ef68823d7a" id="r_a090db72646f85a30c49304ef68823d7a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a090db72646f85a30c49304ef68823d7a">MR_std_vector_MR_VoxelBitSet_const_iterator_Destroy</a> (const <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a090db72646f85a30c49304ef68823d7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_VoxelBitSet_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a090db72646f85a30c49304ef68823d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a583eab5f89d0c3c3d9df73409879e7db" id="r_a583eab5f89d0c3c3d9df73409879e7db"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a583eab5f89d0c3c3d9df73409879e7db">MR_std_vector_MR_VoxelBitSet_const_iterator_DestroyArray</a> (const <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a583eab5f89d0c3c3d9df73409879e7db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_VoxelBitSet_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a583eab5f89d0c3c3d9df73409879e7db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a944db877ce57d05138052591088e489f" id="r_a944db877ce57d05138052591088e489f"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a944db877ce57d05138052591088e489f">MR_std_vector_MR_VoxelBitSet_const_iterator_OffsetPtr</a> (const <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a944db877ce57d05138052591088e489f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a944db877ce57d05138052591088e489f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63d8028d172713e4c40b9e672f86cd6d" id="r_a63d8028d172713e4c40b9e672f86cd6d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63d8028d172713e4c40b9e672f86cd6d">MR_std_vector_MR_VoxelBitSet_const_iterator_OffsetMutablePtr</a> (<a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a63d8028d172713e4c40b9e672f86cd6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a63d8028d172713e4c40b9e672f86cd6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17eae6a5eae23361354cc2fafdd768cd" id="r_a17eae6a5eae23361354cc2fafdd768cd"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17eae6a5eae23361354cc2fafdd768cd">MR_std_vector_MR_VoxelBitSet_const_iterator_FromMutable</a> (const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *iter)</td></tr>
+<tr class="separator:a17eae6a5eae23361354cc2fafdd768cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ef87bb54617664c7d1f007affc763a6" id="r_a5ef87bb54617664c7d1f007affc763a6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ef87bb54617664c7d1f007affc763a6">MR_std_vector_MR_VoxelBitSet_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a5ef87bb54617664c7d1f007affc763a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad02b86b57de7f00d44812c3571ed5f97" id="r_ad02b86b57de7f00d44812c3571ed5f97"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad02b86b57de7f00d44812c3571ed5f97">MR_std_vector_MR_VoxelBitSet_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ad02b86b57de7f00d44812c3571ed5f97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3896fa62aeec3f9956192d5e1e1a7c87" id="r_a3896fa62aeec3f9956192d5e1e1a7c87"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3896fa62aeec3f9956192d5e1e1a7c87">MR_std_vector_MR_VoxelBitSet_iterator_ConstructFromAnother</a> (const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *other)</td></tr>
+<tr class="separator:a3896fa62aeec3f9956192d5e1e1a7c87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98b00f3aa57dd725e70d2add4531d2ae" id="r_a98b00f3aa57dd725e70d2add4531d2ae"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98b00f3aa57dd725e70d2add4531d2ae">MR_std_vector_MR_VoxelBitSet_iterator_AssignFromAnother</a> (<a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *_this, const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *other)</td></tr>
+<tr class="separator:a98b00f3aa57dd725e70d2add4531d2ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2fbc978ffcb9385b90c9bd4a8033f24" id="r_ab2fbc978ffcb9385b90c9bd4a8033f24"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2fbc978ffcb9385b90c9bd4a8033f24">MR_std_vector_MR_VoxelBitSet_iterator_Destroy</a> (const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *_this)</td></tr>
+<tr class="memdesc:ab2fbc978ffcb9385b90c9bd4a8033f24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_VoxelBitSet_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ab2fbc978ffcb9385b90c9bd4a8033f24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74ec986370f631900f249475ccbed9a4" id="r_a74ec986370f631900f249475ccbed9a4"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74ec986370f631900f249475ccbed9a4">MR_std_vector_MR_VoxelBitSet_iterator_DestroyArray</a> (const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a74ec986370f631900f249475ccbed9a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_VoxelBitSet_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a74ec986370f631900f249475ccbed9a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9460bf8421a7087ea6b4d3ff9b9695e5" id="r_a9460bf8421a7087ea6b4d3ff9b9695e5"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9460bf8421a7087ea6b4d3ff9b9695e5">MR_std_vector_MR_VoxelBitSet_iterator_OffsetPtr</a> (const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a9460bf8421a7087ea6b4d3ff9b9695e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a9460bf8421a7087ea6b4d3ff9b9695e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0138f2008695b4f1c5dcbcef7008bed2" id="r_a0138f2008695b4f1c5dcbcef7008bed2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0138f2008695b4f1c5dcbcef7008bed2">MR_std_vector_MR_VoxelBitSet_iterator_OffsetMutablePtr</a> (<a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a0138f2008695b4f1c5dcbcef7008bed2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a0138f2008695b4f1c5dcbcef7008bed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0f597c73c5a5e5fed251807fa07e561" id="r_ab0f597c73c5a5e5fed251807fa07e561"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0f597c73c5a5e5fed251807fa07e561">MR_std_vector_MR_VoxelBitSet_const_iterator_Deref</a> (const <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *_this)</td></tr>
+<tr class="separator:ab0f597c73c5a5e5fed251807fa07e561"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83ffab74fcddf551ca0f8bd2cec81637" id="r_a83ffab74fcddf551ca0f8bd2cec81637"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83ffab74fcddf551ca0f8bd2cec81637">MR_std_vector_MR_VoxelBitSet_const_iterator_Incr</a> (<a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *_this)</td></tr>
+<tr class="separator:a83ffab74fcddf551ca0f8bd2cec81637"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0397920748b794565e455e89c82cec8e" id="r_a0397920748b794565e455e89c82cec8e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0397920748b794565e455e89c82cec8e">MR_std_vector_MR_VoxelBitSet_const_iterator_Decr</a> (<a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *_this)</td></tr>
+<tr class="separator:a0397920748b794565e455e89c82cec8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73b9891f12d8377403676a0e895bb7c4" id="r_a73b9891f12d8377403676a0e895bb7c4"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73b9891f12d8377403676a0e895bb7c4">MR_std_vector_MR_VoxelBitSet_const_iterator_OffsetBy</a> (<a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *_this, ptrdiff_t delta)</td></tr>
+<tr class="separator:a73b9891f12d8377403676a0e895bb7c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bbc48f830d880bb407b2aba0f369f05" id="r_a8bbc48f830d880bb407b2aba0f369f05"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bbc48f830d880bb407b2aba0f369f05">MR_std_vector_MR_VoxelBitSet_const_iterator_Distance</a> (const <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *a, const <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *b)</td></tr>
+<tr class="separator:a8bbc48f830d880bb407b2aba0f369f05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac57892c58ded4cca7d9370ea5630a6c4" id="r_ac57892c58ded4cca7d9370ea5630a6c4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac57892c58ded4cca7d9370ea5630a6c4">MR_std_vector_MR_VoxelBitSet_iterator_Deref</a> (const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *_this)</td></tr>
+<tr class="separator:ac57892c58ded4cca7d9370ea5630a6c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ca4d323859872e674354bf9864a9441" id="r_a7ca4d323859872e674354bf9864a9441"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ca4d323859872e674354bf9864a9441">MR_std_vector_MR_VoxelBitSet_iterator_Incr</a> (<a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *_this)</td></tr>
+<tr class="separator:a7ca4d323859872e674354bf9864a9441"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a743248f638f0b0a159c4bfa8511e3a30" id="r_a743248f638f0b0a159c4bfa8511e3a30"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a743248f638f0b0a159c4bfa8511e3a30">MR_std_vector_MR_VoxelBitSet_iterator_Decr</a> (<a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *_this)</td></tr>
+<tr class="separator:a743248f638f0b0a159c4bfa8511e3a30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e71f72d5cabbfe751d49e10b4bc489d" id="r_a3e71f72d5cabbfe751d49e10b4bc489d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e71f72d5cabbfe751d49e10b4bc489d">MR_std_vector_MR_VoxelBitSet_iterator_OffsetBy</a> (<a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *_this, ptrdiff_t delta)</td></tr>
+<tr class="separator:a3e71f72d5cabbfe751d49e10b4bc489d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b7d690b631b256a3f0194ce864ed17d" id="r_a9b7d690b631b256a3f0194ce864ed17d"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b7d690b631b256a3f0194ce864ed17d">MR_std_vector_MR_VoxelBitSet_iterator_Distance</a> (const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *a, const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *b)</td></tr>
+<tr class="separator:a9b7d690b631b256a3f0194ce864ed17d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="ab9e419d3fad107fdd71e742f02c19080" name="ab9e419d3fad107fdd71e742f02c19080"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9e419d3fad107fdd71e742f02c19080">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from C++ container <code>std::vector&lt;MR::VoxelBitSet&gt;</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="ae8be237109aed87ad25301bdd96701fc" name="ae8be237109aed87ad25301bdd96701fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8be237109aed87ad25301bdd96701fc">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_const_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Read-only iterator for <code>MR_std_vector_MR_VoxelBitSet</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="ac695ed969e133c1bb90e7b36ae74c1d8" name="ac695ed969e133c1bb90e7b36ae74c1d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac695ed969e133c1bb90e7b36ae74c1d8">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Mutable iterator for <code>MR_std_vector_MR_VoxelBitSet</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a94b5f700f4835481dce132716ff73b05" name="a94b5f700f4835481dce132716ff73b05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94b5f700f4835481dce132716ff73b05">&#9670;&#160;</a></span>MR_VoxelBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ad8198f7c722c4bb52bc9cb23e56b6058" name="ad8198f7c722c4bb52bc9cb23e56b6058"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8198f7c722c4bb52bc9cb23e56b6058">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_VoxelBitSet_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a03174fe2b9bce7c1fe2c8326c5d3e490" name="a03174fe2b9bce7c1fe2c8326c5d3e490"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03174fe2b9bce7c1fe2c8326c5d3e490">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_At()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> * MR_std_vector_MR_VoxelBitSet_At </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, read-only. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a292d60c3182cb63068a867b25490300f" name="a292d60c3182cb63068a867b25490300f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a292d60c3182cb63068a867b25490300f">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_Back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> * MR_std_vector_MR_VoxelBitSet_Back </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The last element or null if empty, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a262f6aaede3d331842e20757b20348b2" name="a262f6aaede3d331842e20757b20348b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a262f6aaede3d331842e20757b20348b2">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_Begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> * MR_std_vector_MR_VoxelBitSet_Begin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a090db72646f85a30c49304ef68823d7a" title="Destroys a heap-allocated instance of MR_std_vector_MR_VoxelBitSet_const_iterator....">MR_std_vector_MR_VoxelBitSet_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a302e517841a2e8829029837b6e88252e" name="a302e517841a2e8829029837b6e88252e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a302e517841a2e8829029837b6e88252e">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_Capacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_vector_MR_VoxelBitSet_Capacity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The memory capacity, measued in the number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="acaf47506f2cb2ef59d8940706b56d49d" name="acaf47506f2cb2ef59d8940706b56d49d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaf47506f2cb2ef59d8940706b56d49d">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_Clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_VoxelBitSet_Clear </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes all elements from the container. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a67cdc5a5738de874cae46e7ca15093cf" name="a67cdc5a5738de874cae46e7ca15093cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67cdc5a5738de874cae46e7ca15093cf">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_const_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_VoxelBitSet_const_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="adf2abffbd9ed3fe20337ddf732f5dddb" name="adf2abffbd9ed3fe20337ddf732f5dddb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf2abffbd9ed3fe20337ddf732f5dddb">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_const_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> * MR_std_vector_MR_VoxelBitSet_const_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a090db72646f85a30c49304ef68823d7a" title="Destroys a heap-allocated instance of MR_std_vector_MR_VoxelBitSet_const_iterator....">MR_std_vector_MR_VoxelBitSet_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a0397920748b794565e455e89c82cec8e" name="a0397920748b794565e455e89c82cec8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0397920748b794565e455e89c82cec8e">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_const_iterator_Decr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_VoxelBitSet_const_iterator_Decr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decrements a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa05081b0d08a0f1bedfe68c9180ad4ba" name="aa05081b0d08a0f1bedfe68c9180ad4ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa05081b0d08a0f1bedfe68c9180ad4ba">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_const_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> * MR_std_vector_MR_VoxelBitSet_const_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a090db72646f85a30c49304ef68823d7a" title="Destroys a heap-allocated instance of MR_std_vector_MR_VoxelBitSet_const_iterator....">MR_std_vector_MR_VoxelBitSet_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a277c41fa497e14cda05f35cdcabd701b" name="a277c41fa497e14cda05f35cdcabd701b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a277c41fa497e14cda05f35cdcabd701b">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_const_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> * MR_std_vector_MR_VoxelBitSet_const_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a583eab5f89d0c3c3d9df73409879e7db" title="Destroys a heap-allocated array of MR_std_vector_MR_VoxelBitSet_const_iterator. Does nothing if the p...">MR_std_vector_MR_VoxelBitSet_const_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#a63d8028d172713e4c40b9e672f86cd6d" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_VoxelBitSet_const_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a944db877ce57d05138052591088e489f" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_VoxelBitSet_const_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ab0f597c73c5a5e5fed251807fa07e561" name="ab0f597c73c5a5e5fed251807fa07e561"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0f597c73c5a5e5fed251807fa07e561">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_const_iterator_Deref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> * MR_std_vector_MR_VoxelBitSet_const_iterator_Deref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a const iterator. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a090db72646f85a30c49304ef68823d7a" name="a090db72646f85a30c49304ef68823d7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a090db72646f85a30c49304ef68823d7a">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_const_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_VoxelBitSet_const_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_VoxelBitSet_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a583eab5f89d0c3c3d9df73409879e7db" name="a583eab5f89d0c3c3d9df73409879e7db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a583eab5f89d0c3c3d9df73409879e7db">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_const_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_VoxelBitSet_const_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_VoxelBitSet_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a8bbc48f830d880bb407b2aba0f369f05" name="a8bbc48f830d880bb407b2aba0f369f05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bbc48f830d880bb407b2aba0f369f05">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_const_iterator_Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_VoxelBitSet_const_iterator_Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the signed difference between two const iterators. Completes in constant time. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a17eae6a5eae23361354cc2fafdd768cd" name="a17eae6a5eae23361354cc2fafdd768cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17eae6a5eae23361354cc2fafdd768cd">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_const_iterator_FromMutable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> * MR_std_vector_MR_VoxelBitSet_const_iterator_FromMutable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Makes a const iterator from a mutable one. Parameter <code>iter</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a090db72646f85a30c49304ef68823d7a" title="Destroys a heap-allocated instance of MR_std_vector_MR_VoxelBitSet_const_iterator....">MR_std_vector_MR_VoxelBitSet_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a83ffab74fcddf551ca0f8bd2cec81637" name="a83ffab74fcddf551ca0f8bd2cec81637"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83ffab74fcddf551ca0f8bd2cec81637">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_const_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_VoxelBitSet_const_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a73b9891f12d8377403676a0e895bb7c4" name="a73b9891f12d8377403676a0e895bb7c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73b9891f12d8377403676a0e895bb7c4">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_const_iterator_OffsetBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_VoxelBitSet_const_iterator_OffsetBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a63d8028d172713e4c40b9e672f86cd6d" name="a63d8028d172713e4c40b9e672f86cd6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63d8028d172713e4c40b9e672f86cd6d">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_const_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> * MR_std_vector_MR_VoxelBitSet_const_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a944db877ce57d05138052591088e489f" name="a944db877ce57d05138052591088e489f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a944db877ce57d05138052591088e489f">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_const_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> * MR_std_vector_MR_VoxelBitSet_const_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ab6d49273cdac9835cd7be322a2d843db" name="ab6d49273cdac9835cd7be322a2d843db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6d49273cdac9835cd7be322a2d843db">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> * MR_std_vector_MR_VoxelBitSet_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad655bf798d8f73a532e1f0fa2c9e2f1f" title="Destroys a heap-allocated instance of MR_std_vector_MR_VoxelBitSet. Does nothing if the pointer is nu...">MR_std_vector_MR_VoxelBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="af3015eeda6d79a63d34234d59a73fec0" name="af3015eeda6d79a63d34234d59a73fec0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3015eeda6d79a63d34234d59a73fec0">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> * MR_std_vector_MR_VoxelBitSet_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad655bf798d8f73a532e1f0fa2c9e2f1f" title="Destroys a heap-allocated instance of MR_std_vector_MR_VoxelBitSet. Does nothing if the pointer is nu...">MR_std_vector_MR_VoxelBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="add08b62a6a82c37c5b77e531d71ec115" name="add08b62a6a82c37c5b77e531d71ec115"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add08b62a6a82c37c5b77e531d71ec115">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> * MR_std_vector_MR_VoxelBitSet_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a78ce23c2c177270819d46686a42a8aae" title="Destroys a heap-allocated array of MR_std_vector_MR_VoxelBitSet. Does nothing if the pointer is null.">MR_std_vector_MR_VoxelBitSet_DestroyArray()</a></code>. Use <code><a class="el" href="#a91da466bfe50abeff2613a5a2b9deb2c" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_VoxelBitSet_OffsetMutablePtr()</a></code> and <code><a class="el" href="#af046f5c65b58f9fc728442ba86759387" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_VoxelBitSet_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ad655bf798d8f73a532e1f0fa2c9e2f1f" name="ad655bf798d8f73a532e1f0fa2c9e2f1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad655bf798d8f73a532e1f0fa2c9e2f1f">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_VoxelBitSet_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_VoxelBitSet</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a78ce23c2c177270819d46686a42a8aae" name="a78ce23c2c177270819d46686a42a8aae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78ce23c2c177270819d46686a42a8aae">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_VoxelBitSet_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_VoxelBitSet</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a8756190de1501666f4f00b6d8940191b" name="a8756190de1501666f4f00b6d8940191b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8756190de1501666f4f00b6d8940191b">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_End()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> * MR_std_vector_MR_VoxelBitSet_End </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a090db72646f85a30c49304ef68823d7a" title="Destroys a heap-allocated instance of MR_std_vector_MR_VoxelBitSet_const_iterator....">MR_std_vector_MR_VoxelBitSet_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab2b085fd6c04d6acb8658bd76c382045" name="ab2b085fd6c04d6acb8658bd76c382045"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2b085fd6c04d6acb8658bd76c382045">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_Erase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_VoxelBitSet_Erase </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="af55cce6fbe3e92eed052d4646c1503ad" name="af55cce6fbe3e92eed052d4646c1503ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af55cce6fbe3e92eed052d4646c1503ad">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_EraseAtIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_VoxelBitSet_EraseAtIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. This version takes the position in form of a const iterator, that's the only difference. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a0d3528fd97b4825d222f4fc0dd533c36" name="a0d3528fd97b4825d222f4fc0dd533c36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d3528fd97b4825d222f4fc0dd533c36">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_EraseAtMutableIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_VoxelBitSet_EraseAtMutableIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a556d920194fb4dfaa87f7c184f423e41" name="a556d920194fb4dfaa87f7c184f423e41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a556d920194fb4dfaa87f7c184f423e41">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_Front()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> * MR_std_vector_MR_VoxelBitSet_Front </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The first element or null if empty, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aac1cfcccf937cbea31c7df188c6ac1d0" name="aac1cfcccf937cbea31c7df188c6ac1d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac1cfcccf937cbea31c7df188c6ac1d0">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_Insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_VoxelBitSet_Insert </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>new_elem_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a10979208f70da5a4729a155b0896e9a6" name="a10979208f70da5a4729a155b0896e9a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10979208f70da5a4729a155b0896e9a6">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_InsertAtIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_VoxelBitSet_InsertAtIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>new_elem_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that's the only difference. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6bdc4c15d93fbbd8ebd9f2ef23c42680" name="a6bdc4c15d93fbbd8ebd9f2ef23c42680"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bdc4c15d93fbbd8ebd9f2ef23c42680">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_InsertAtMutableIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_VoxelBitSet_InsertAtMutableIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>new_elem_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae4ce4246ab91f19cfa309d38952247de" name="ae4ce4246ab91f19cfa309d38952247de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4ce4246ab91f19cfa309d38952247de">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_IsBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_VoxelBitSet_IsBegin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ab1c930ee58665a9687f0569add2534c3" name="ab1c930ee58665a9687f0569add2534c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1c930ee58665a9687f0569add2534c3">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_IsEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_VoxelBitSet_IsEmpty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns true if the size is zero. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a99df6524b89b54e7244e40f8388d320c" name="a99df6524b89b54e7244e40f8388d320c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99df6524b89b54e7244e40f8388d320c">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_IsEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_VoxelBitSet_IsEnd </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a71fcdb713af301eba938ae178765baa2" name="a71fcdb713af301eba938ae178765baa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71fcdb713af301eba938ae178765baa2">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_IsMutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_VoxelBitSet_IsMutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3d4f6a45a70322938529efba895f816f" name="a3d4f6a45a70322938529efba895f816f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d4f6a45a70322938529efba895f816f">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_IsMutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_VoxelBitSet_IsMutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a98b00f3aa57dd725e70d2add4531d2ae" name="a98b00f3aa57dd725e70d2add4531d2ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98b00f3aa57dd725e70d2add4531d2ae">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_VoxelBitSet_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3896fa62aeec3f9956192d5e1e1a7c87" name="a3896fa62aeec3f9956192d5e1e1a7c87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3896fa62aeec3f9956192d5e1e1a7c87">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> * MR_std_vector_MR_VoxelBitSet_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab2fbc978ffcb9385b90c9bd4a8033f24" title="Destroys a heap-allocated instance of MR_std_vector_MR_VoxelBitSet_iterator. Does nothing if the poin...">MR_std_vector_MR_VoxelBitSet_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a743248f638f0b0a159c4bfa8511e3a30" name="a743248f638f0b0a159c4bfa8511e3a30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a743248f638f0b0a159c4bfa8511e3a30">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_iterator_Decr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_VoxelBitSet_iterator_Decr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decrements a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a5ef87bb54617664c7d1f007affc763a6" name="a5ef87bb54617664c7d1f007affc763a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ef87bb54617664c7d1f007affc763a6">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> * MR_std_vector_MR_VoxelBitSet_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab2fbc978ffcb9385b90c9bd4a8033f24" title="Destroys a heap-allocated instance of MR_std_vector_MR_VoxelBitSet_iterator. Does nothing if the poin...">MR_std_vector_MR_VoxelBitSet_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ad02b86b57de7f00d44812c3571ed5f97" name="ad02b86b57de7f00d44812c3571ed5f97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad02b86b57de7f00d44812c3571ed5f97">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> * MR_std_vector_MR_VoxelBitSet_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a74ec986370f631900f249475ccbed9a4" title="Destroys a heap-allocated array of MR_std_vector_MR_VoxelBitSet_iterator. Does nothing if the pointer...">MR_std_vector_MR_VoxelBitSet_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#a0138f2008695b4f1c5dcbcef7008bed2" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_VoxelBitSet_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a9460bf8421a7087ea6b4d3ff9b9695e5" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_VoxelBitSet_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ac57892c58ded4cca7d9370ea5630a6c4" name="ac57892c58ded4cca7d9370ea5630a6c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac57892c58ded4cca7d9370ea5630a6c4">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_iterator_Deref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> * MR_std_vector_MR_VoxelBitSet_iterator_Deref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a mutable iterator. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ab2fbc978ffcb9385b90c9bd4a8033f24" name="ab2fbc978ffcb9385b90c9bd4a8033f24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2fbc978ffcb9385b90c9bd4a8033f24">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_VoxelBitSet_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_VoxelBitSet_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a74ec986370f631900f249475ccbed9a4" name="a74ec986370f631900f249475ccbed9a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74ec986370f631900f249475ccbed9a4">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_VoxelBitSet_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_VoxelBitSet_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a9b7d690b631b256a3f0194ce864ed17d" name="a9b7d690b631b256a3f0194ce864ed17d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b7d690b631b256a3f0194ce864ed17d">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_iterator_Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_VoxelBitSet_iterator_Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a7ca4d323859872e674354bf9864a9441" name="a7ca4d323859872e674354bf9864a9441"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ca4d323859872e674354bf9864a9441">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_VoxelBitSet_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3e71f72d5cabbfe751d49e10b4bc489d" name="a3e71f72d5cabbfe751d49e10b4bc489d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e71f72d5cabbfe751d49e10b4bc489d">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_iterator_OffsetBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_VoxelBitSet_iterator_OffsetBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a0138f2008695b4f1c5dcbcef7008bed2" name="a0138f2008695b4f1c5dcbcef7008bed2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0138f2008695b4f1c5dcbcef7008bed2">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> * MR_std_vector_MR_VoxelBitSet_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a9460bf8421a7087ea6b4d3ff9b9695e5" name="a9460bf8421a7087ea6b4d3ff9b9695e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9460bf8421a7087ea6b4d3ff9b9695e5">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> * MR_std_vector_MR_VoxelBitSet_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ae608b4a4c6be132795b16c098d31231a" name="ae608b4a4c6be132795b16c098d31231a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae608b4a4c6be132795b16c098d31231a">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_MutableAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> * MR_std_vector_MR_VoxelBitSet_MutableAt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, mutable. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a1d079a3548fa8ca5b617117965b62023" name="a1d079a3548fa8ca5b617117965b62023"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d079a3548fa8ca5b617117965b62023">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_MutableBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> * MR_std_vector_MR_VoxelBitSet_MutableBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The last element or null if empty, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a44fbd02ca1c2cbb1c58b91025172a8ef" name="a44fbd02ca1c2cbb1c58b91025172a8ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44fbd02ca1c2cbb1c58b91025172a8ef">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_MutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> * MR_std_vector_MR_VoxelBitSet_MutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab2fbc978ffcb9385b90c9bd4a8033f24" title="Destroys a heap-allocated instance of MR_std_vector_MR_VoxelBitSet_iterator. Does nothing if the poin...">MR_std_vector_MR_VoxelBitSet_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aae05ed1ac2cb236072f09ba54926c25d" name="aae05ed1ac2cb236072f09ba54926c25d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae05ed1ac2cb236072f09ba54926c25d">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_MutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> * MR_std_vector_MR_VoxelBitSet_MutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab2fbc978ffcb9385b90c9bd4a8033f24" title="Destroys a heap-allocated instance of MR_std_vector_MR_VoxelBitSet_iterator. Does nothing if the poin...">MR_std_vector_MR_VoxelBitSet_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="acf7864ac5507a216b0d105775a0aa3be" name="acf7864ac5507a216b0d105775a0aa3be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf7864ac5507a216b0d105775a0aa3be">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_MutableFront()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> * MR_std_vector_MR_VoxelBitSet_MutableFront </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The first element or null if empty, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ade49bc9c204b4766d6300544dfd56ed9" name="ade49bc9c204b4766d6300544dfd56ed9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade49bc9c204b4766d6300544dfd56ed9">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_MutableToIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_VoxelBitSet_MutableToIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ac695ed969e133c1bb90e7b36ae74c1d8">MR_std_vector_MR_VoxelBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convert a mutable iterator to an index. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a91da466bfe50abeff2613a5a2b9deb2c" name="a91da466bfe50abeff2613a5a2b9deb2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91da466bfe50abeff2613a5a2b9deb2c">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> * MR_std_vector_MR_VoxelBitSet_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="af046f5c65b58f9fc728442ba86759387" name="af046f5c65b58f9fc728442ba86759387"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af046f5c65b58f9fc728442ba86759387">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> * MR_std_vector_MR_VoxelBitSet_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="aab58a37cce3618578ab11e5a76e99859" name="aab58a37cce3618578ab11e5a76e99859"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab58a37cce3618578ab11e5a76e99859">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_PopBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_VoxelBitSet_PopBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes one element from the end. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a5b47f1552e41841316f25d85e928fd00" name="a5b47f1552e41841316f25d85e928fd00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b47f1552e41841316f25d85e928fd00">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_PushBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_VoxelBitSet_PushBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>new_elem_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element at the end. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a35199fed41368083ed92805ce52f7b42" name="a35199fed41368083ed92805ce52f7b42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35199fed41368083ed92805ce52f7b42">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_Reserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_VoxelBitSet_Reserve </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_capacity</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a17f4d26c4844a97c40458a731e3259f9" name="a17f4d26c4844a97c40458a731e3259f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17f4d26c4844a97c40458a731e3259f9">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_Resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_VoxelBitSet_Resize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the container. The new elements if any are zeroed. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a551a991c308533f88ba3b47c4c08b2fd" name="a551a991c308533f88ba3b47c4c08b2fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a551a991c308533f88ba3b47c4c08b2fd">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_ResizeWithDefaultValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_VoxelBitSet_ResizeWithDefaultValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the container. The new elements if any are set to the specified value. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a7f62174e5947f2d8d407f9f140259fa2" name="a7f62174e5947f2d8d407f9f140259fa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f62174e5947f2d8d407f9f140259fa2">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_ShrinkToFit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_VoxelBitSet_ShrinkToFit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Shrinks the capacity to match the size. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6d9ca99256f71fb4c8d848a888e7067b" name="a6d9ca99256f71fb4c8d848a888e7067b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d9ca99256f71fb4c8d848a888e7067b">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_Size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_vector_MR_VoxelBitSet_Size </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a1603fa6ecbb133e2d25b62142ad3e6cf" name="a1603fa6ecbb133e2d25b62142ad3e6cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1603fa6ecbb133e2d25b62142ad3e6cf">&#9670;&#160;</a></span>MR_std_vector_MR_VoxelBitSet_ToIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_VoxelBitSet_ToIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab9e419d3fad107fdd71e742f02c19080">MR_std_vector_MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ae8be237109aed87ad25301bdd96701fc">MR_std_vector_MR_VoxelBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convert a const iterator to an index. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_a57e8462869cab4a5203dede5869920d.html">MRCMisc</a></li><li class="navelem"><a class="el" href="std__vector__MR__VoxelBitSet_8h.html">std_vector_MR_VoxelBitSet.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

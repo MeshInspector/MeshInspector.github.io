@@ -1,0 +1,916 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRPrecipitationSimulator.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRPrecipitationSimulator_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRPrecipitationSimulator.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
+</div>
+<p><a href="MRPrecipitationSimulator_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a0691b4cabfa34960d5cd00f39ec4c7a9" id="r_a0691b4cabfa34960d5cd00f39ec4c7a9"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a0691b4cabfa34960d5cd00f39ec4c7a9">MR_WatershedGraph</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0691b4cabfa34960d5cd00f39ec4c7a9">MR_WatershedGraph</a></td></tr>
+<tr class="separator:a0691b4cabfa34960d5cd00f39ec4c7a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b92295242390c95dc53e1966dc86b29" id="r_a1b92295242390c95dc53e1966dc86b29"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a></td></tr>
+<tr class="separator:a1b92295242390c95dc53e1966dc86b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82db0baa132154eb45774084be587171" id="r_a82db0baa132154eb45774084be587171"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82db0baa132154eb45774084be587171">MR_PrecipitationSimulator_Event</a></td></tr>
+<tr class="separator:a82db0baa132154eb45774084be587171"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3864fee6711538ede04b706cbefc7606" id="r_a3864fee6711538ede04b706cbefc7606"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a></td></tr>
+<tr class="memdesc:a3864fee6711538ede04b706cbefc7606"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PrecipitationSimulator_1_1SimulationStep.html">MR::PrecipitationSimulator::SimulationStep</a></code>.  <br /></td></tr>
+<tr class="separator:a3864fee6711538ede04b706cbefc7606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ae6dceca96ec2c7a1b4aa211264a87ef6" id="r_ae6dceca96ec2c7a1b4aa211264a87ef6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#ae6dceca96ec2c7a1b4aa211264a87ef6a497f7e4d059b1e50c66a4ca4b04c9961">MR_PrecipitationSimulator_Event_Finish</a> = 0
+, <a class="el" href="#ae6dceca96ec2c7a1b4aa211264a87ef6a4e4816a65976504e9e2f84900b961e3e">MR_PrecipitationSimulator_Event_BasinFull</a> = 1
+, <a class="el" href="#ae6dceca96ec2c7a1b4aa211264a87ef6a2548769d0ab4b8eb77f9a4e8efb38240">MR_PrecipitationSimulator_Event_Merge</a> = 2
+ }</td></tr>
+<tr class="separator:ae6dceca96ec2c7a1b4aa211264a87ef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:aad4995001f0f419a3481face0e5e7817" id="r_aad4995001f0f419a3481face0e5e7817"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad4995001f0f419a3481face0e5e7817">MR_PrecipitationSimulator_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a> *_other)</td></tr>
+<tr class="separator:aad4995001f0f419a3481face0e5e7817"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a043f195d9bf418d57010ec3d5ef36ed3" id="r_a043f195d9bf418d57010ec3d5ef36ed3"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a043f195d9bf418d57010ec3d5ef36ed3">MR_PrecipitationSimulator_OffsetPtr</a> (const <a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a043f195d9bf418d57010ec3d5ef36ed3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a043f195d9bf418d57010ec3d5ef36ed3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19dd2fbb142185811335a9486d73e75f" id="r_a19dd2fbb142185811335a9486d73e75f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19dd2fbb142185811335a9486d73e75f">MR_PrecipitationSimulator_OffsetMutablePtr</a> (<a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a19dd2fbb142185811335a9486d73e75f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a19dd2fbb142185811335a9486d73e75f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a849882ee6de8bec5ae6a570c85929fcc" id="r_a849882ee6de8bec5ae6a570c85929fcc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a849882ee6de8bec5ae6a570c85929fcc">MR_PrecipitationSimulator_Construct</a> (<a class="el" href="#a0691b4cabfa34960d5cd00f39ec4c7a9">MR_WatershedGraph</a> *wg)</td></tr>
+<tr class="separator:a849882ee6de8bec5ae6a570c85929fcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad978ba1996561c6be2277c0b7765a1b9" id="r_ad978ba1996561c6be2277c0b7765a1b9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad978ba1996561c6be2277c0b7765a1b9">MR_PrecipitationSimulator_Destroy</a> (const <a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a> *_this)</td></tr>
+<tr class="memdesc:ad978ba1996561c6be2277c0b7765a1b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_PrecipitationSimulator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ad978ba1996561c6be2277c0b7765a1b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1d8c0b9916b57e403d183cfae90ff30" id="r_ac1d8c0b9916b57e403d183cfae90ff30"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1d8c0b9916b57e403d183cfae90ff30">MR_PrecipitationSimulator_DestroyArray</a> (const <a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a> *_this)</td></tr>
+<tr class="memdesc:ac1d8c0b9916b57e403d183cfae90ff30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_PrecipitationSimulator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ac1d8c0b9916b57e403d183cfae90ff30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4df5f8ff5c2e94fd4144ce0a899de1ff" id="r_a4df5f8ff5c2e94fd4144ce0a899de1ff"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4df5f8ff5c2e94fd4144ce0a899de1ff">MR_PrecipitationSimulator_simulateOne</a> (<a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a> *_this)</td></tr>
+<tr class="separator:a4df5f8ff5c2e94fd4144ce0a899de1ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5909dbca8c412a1a3ab365eb0babb3ac" id="r_a5909dbca8c412a1a3ab365eb0babb3ac"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a82db0baa132154eb45774084be587171">MR_PrecipitationSimulator_Event</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5909dbca8c412a1a3ab365eb0babb3ac">MR_PrecipitationSimulator_SimulationStep_Get_event</a> (const <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *_this)</td></tr>
+<tr class="separator:a5909dbca8c412a1a3ab365eb0babb3ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43384d26289b1683c73e00a23adebb64" id="r_a43384d26289b1683c73e00a23adebb64"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43384d26289b1683c73e00a23adebb64">MR_PrecipitationSimulator_SimulationStep_Set_event</a> (<a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *_this, <a class="el" href="#a82db0baa132154eb45774084be587171">MR_PrecipitationSimulator_Event</a> value)</td></tr>
+<tr class="separator:a43384d26289b1683c73e00a23adebb64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad22c759a4c302b4f2d523fc6edbab4fb" id="r_ad22c759a4c302b4f2d523fc6edbab4fb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a82db0baa132154eb45774084be587171">MR_PrecipitationSimulator_Event</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad22c759a4c302b4f2d523fc6edbab4fb">MR_PrecipitationSimulator_SimulationStep_GetMutable_event</a> (<a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *_this)</td></tr>
+<tr class="separator:ad22c759a4c302b4f2d523fc6edbab4fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0b51305bf31975a07e1a891d03805f9" id="r_af0b51305bf31975a07e1a891d03805f9"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0b51305bf31975a07e1a891d03805f9">MR_PrecipitationSimulator_SimulationStep_Get_amount</a> (const <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *_this)</td></tr>
+<tr class="separator:af0b51305bf31975a07e1a891d03805f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83b61feef7b8e033f7a94586af021fbd" id="r_a83b61feef7b8e033f7a94586af021fbd"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83b61feef7b8e033f7a94586af021fbd">MR_PrecipitationSimulator_SimulationStep_Set_amount</a> (<a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *_this, float value)</td></tr>
+<tr class="separator:a83b61feef7b8e033f7a94586af021fbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a784f947ca0fd202c4d50c7d28e30a23b" id="r_a784f947ca0fd202c4d50c7d28e30a23b"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a784f947ca0fd202c4d50c7d28e30a23b">MR_PrecipitationSimulator_SimulationStep_GetMutable_amount</a> (<a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *_this)</td></tr>
+<tr class="separator:a784f947ca0fd202c4d50c7d28e30a23b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeeb61b92dec72f5696b5fe05f5722d24" id="r_aeeb61b92dec72f5696b5fe05f5722d24"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeeb61b92dec72f5696b5fe05f5722d24">MR_PrecipitationSimulator_SimulationStep_Get_basin</a> (const <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *_this)</td></tr>
+<tr class="separator:aeeb61b92dec72f5696b5fe05f5722d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39c5a8c48f6ab2af07fd686574fc2824" id="r_a39c5a8c48f6ab2af07fd686574fc2824"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39c5a8c48f6ab2af07fd686574fc2824">MR_PrecipitationSimulator_SimulationStep_Set_basin</a> (<a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *_this, <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> value)</td></tr>
+<tr class="separator:a39c5a8c48f6ab2af07fd686574fc2824"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b26380caecc51e7c874e4069793ca7b" id="r_a7b26380caecc51e7c874e4069793ca7b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b26380caecc51e7c874e4069793ca7b">MR_PrecipitationSimulator_SimulationStep_GetMutable_basin</a> (<a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *_this)</td></tr>
+<tr class="separator:a7b26380caecc51e7c874e4069793ca7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a530d759672b5c726b279fce6a0127d16" id="r_a530d759672b5c726b279fce6a0127d16"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a530d759672b5c726b279fce6a0127d16">MR_PrecipitationSimulator_SimulationStep_Get_neiBasin</a> (const <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *_this)</td></tr>
+<tr class="separator:a530d759672b5c726b279fce6a0127d16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b02e83066a3eae8725c90e59f179f8e" id="r_a2b02e83066a3eae8725c90e59f179f8e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b02e83066a3eae8725c90e59f179f8e">MR_PrecipitationSimulator_SimulationStep_Set_neiBasin</a> (<a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *_this, <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> value)</td></tr>
+<tr class="separator:a2b02e83066a3eae8725c90e59f179f8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a013432e489d4337bafdd4f2355f80558" id="r_a013432e489d4337bafdd4f2355f80558"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a013432e489d4337bafdd4f2355f80558">MR_PrecipitationSimulator_SimulationStep_GetMutable_neiBasin</a> (<a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *_this)</td></tr>
+<tr class="separator:a013432e489d4337bafdd4f2355f80558"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bf80be4d80c2dc0d6346d310e118127" id="r_a0bf80be4d80c2dc0d6346d310e118127"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bf80be4d80c2dc0d6346d310e118127">MR_PrecipitationSimulator_SimulationStep_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a0bf80be4d80c2dc0d6346d310e118127"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a609d420498454f3e02cc83bff6f1827d" id="r_a609d420498454f3e02cc83bff6f1827d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a609d420498454f3e02cc83bff6f1827d">MR_PrecipitationSimulator_SimulationStep_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a609d420498454f3e02cc83bff6f1827d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70f8c6484ad69240ee4ba08dc0e0dd53" id="r_a70f8c6484ad69240ee4ba08dc0e0dd53"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70f8c6484ad69240ee4ba08dc0e0dd53">MR_PrecipitationSimulator_SimulationStep_ConstructFrom</a> (<a class="el" href="#a82db0baa132154eb45774084be587171">MR_PrecipitationSimulator_Event</a> event, float amount, <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> basin, <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> neiBasin)</td></tr>
+<tr class="separator:a70f8c6484ad69240ee4ba08dc0e0dd53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcfbd1fa3c390be5abcf2ad986fc0734" id="r_abcfbd1fa3c390be5abcf2ad986fc0734"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcfbd1fa3c390be5abcf2ad986fc0734">MR_PrecipitationSimulator_SimulationStep_OffsetPtr</a> (const <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:abcfbd1fa3c390be5abcf2ad986fc0734"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:abcfbd1fa3c390be5abcf2ad986fc0734"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ae4ac5e549a79b864031d2b9e37bbfb" id="r_a4ae4ac5e549a79b864031d2b9e37bbfb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ae4ac5e549a79b864031d2b9e37bbfb">MR_PrecipitationSimulator_SimulationStep_OffsetMutablePtr</a> (<a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a4ae4ac5e549a79b864031d2b9e37bbfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a4ae4ac5e549a79b864031d2b9e37bbfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc8037f26e47b83efe7fbd76d2c3bbe7" id="r_acc8037f26e47b83efe7fbd76d2c3bbe7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc8037f26e47b83efe7fbd76d2c3bbe7">MR_PrecipitationSimulator_SimulationStep_ConstructFromAnother</a> (const <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *_other)</td></tr>
+<tr class="separator:acc8037f26e47b83efe7fbd76d2c3bbe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae71733065fb8a04408b6e1bdd4564236" id="r_ae71733065fb8a04408b6e1bdd4564236"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae71733065fb8a04408b6e1bdd4564236">MR_PrecipitationSimulator_SimulationStep_Destroy</a> (const <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *_this)</td></tr>
+<tr class="memdesc:ae71733065fb8a04408b6e1bdd4564236"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_PrecipitationSimulator_SimulationStep</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ae71733065fb8a04408b6e1bdd4564236"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecb0c803f0fc5293c1eb4d0be3b4576b" id="r_aecb0c803f0fc5293c1eb4d0be3b4576b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecb0c803f0fc5293c1eb4d0be3b4576b">MR_PrecipitationSimulator_SimulationStep_DestroyArray</a> (const <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *_this)</td></tr>
+<tr class="memdesc:aecb0c803f0fc5293c1eb4d0be3b4576b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_PrecipitationSimulator_SimulationStep</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:aecb0c803f0fc5293c1eb4d0be3b4576b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f8536db3e1f47728157802f9d44dc34" id="r_a1f8536db3e1f47728157802f9d44dc34"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f8536db3e1f47728157802f9d44dc34">MR_PrecipitationSimulator_SimulationStep_AssignFromAnother</a> (<a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *_this, const <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *_other)</td></tr>
+<tr class="separator:a1f8536db3e1f47728157802f9d44dc34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a1b92295242390c95dc53e1966dc86b29" name="a1b92295242390c95dc53e1966dc86b29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b92295242390c95dc53e1966dc86b29">&#9670;&#160;</a></span>MR_PrecipitationSimulator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a> <a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the class models water increase in the terrain under the rain with constant precipitation Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1PrecipitationSimulator.html">MR::PrecipitationSimulator</a></code>. </p>
+
+</div>
+</div>
+<a id="a82db0baa132154eb45774084be587171" name="a82db0baa132154eb45774084be587171"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82db0baa132154eb45774084be587171">&#9670;&#160;</a></span>MR_PrecipitationSimulator_Event</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int32_t <a class="el" href="#a82db0baa132154eb45774084be587171">MR_PrecipitationSimulator_Event</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3864fee6711538ede04b706cbefc7606" name="a3864fee6711538ede04b706cbefc7606"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3864fee6711538ede04b706cbefc7606">&#9670;&#160;</a></span>MR_PrecipitationSimulator_SimulationStep</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PrecipitationSimulator_1_1SimulationStep.html">MR::PrecipitationSimulator::SimulationStep</a></code>. </p>
+
+</div>
+</div>
+<a id="a0691b4cabfa34960d5cd00f39ec4c7a9" name="a0691b4cabfa34960d5cd00f39ec4c7a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0691b4cabfa34960d5cd00f39ec4c7a9">&#9670;&#160;</a></span>MR_WatershedGraph</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a0691b4cabfa34960d5cd00f39ec4c7a9">MR_WatershedGraph</a> <a class="el" href="#a0691b4cabfa34960d5cd00f39ec4c7a9">MR_WatershedGraph</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ae6dceca96ec2c7a1b4aa211264a87ef6" name="ae6dceca96ec2c7a1b4aa211264a87ef6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6dceca96ec2c7a1b4aa211264a87ef6">&#9670;&#160;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae6dceca96ec2c7a1b4aa211264a87ef6a497f7e4d059b1e50c66a4ca4b04c9961" name="ae6dceca96ec2c7a1b4aa211264a87ef6a497f7e4d059b1e50c66a4ca4b04c9961"></a>MR_PrecipitationSimulator_Event_Finish&#160;</td><td class="fielddoc"><p>all basins are full and water goes outside </p>
+<p>one basin just became full </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae6dceca96ec2c7a1b4aa211264a87ef6a4e4816a65976504e9e2f84900b961e3e" name="ae6dceca96ec2c7a1b4aa211264a87ef6a4e4816a65976504e9e2f84900b961e3e"></a>MR_PrecipitationSimulator_Event_BasinFull&#160;</td><td class="fielddoc"><p>two basins just merged </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae6dceca96ec2c7a1b4aa211264a87ef6a2548769d0ab4b8eb77f9a4e8efb38240" name="ae6dceca96ec2c7a1b4aa211264a87ef6a2548769d0ab4b8eb77f9a4e8efb38240"></a>MR_PrecipitationSimulator_Event_Merge&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a849882ee6de8bec5ae6a570c85929fcc" name="a849882ee6de8bec5ae6a570c85929fcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a849882ee6de8bec5ae6a570c85929fcc">&#9670;&#160;</a></span>MR_PrecipitationSimulator_Construct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a> * MR_PrecipitationSimulator_Construct </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0691b4cabfa34960d5cd00f39ec4c7a9">MR_WatershedGraph</a> *</td>          <td class="paramname"><span class="paramname"><em>wg</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>initializes modeling from the initial subdivision of the terrain Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1PrecipitationSimulator.html">MR::PrecipitationSimulator</a></code>. Parameter <code>wg</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad978ba1996561c6be2277c0b7765a1b9" title="Destroys a heap-allocated instance of MR_PrecipitationSimulator. Does nothing if the pointer is null.">MR_PrecipitationSimulator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aad4995001f0f419a3481face0e5e7817" name="aad4995001f0f419a3481face0e5e7817"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad4995001f0f419a3481face0e5e7817">&#9670;&#160;</a></span>MR_PrecipitationSimulator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a> * MR_PrecipitationSimulator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1PrecipitationSimulator.html">MR::PrecipitationSimulator</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad978ba1996561c6be2277c0b7765a1b9" title="Destroys a heap-allocated instance of MR_PrecipitationSimulator. Does nothing if the pointer is null.">MR_PrecipitationSimulator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ad978ba1996561c6be2277c0b7765a1b9" name="ad978ba1996561c6be2277c0b7765a1b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad978ba1996561c6be2277c0b7765a1b9">&#9670;&#160;</a></span>MR_PrecipitationSimulator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_PrecipitationSimulator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_PrecipitationSimulator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ac1d8c0b9916b57e403d183cfae90ff30" name="ac1d8c0b9916b57e403d183cfae90ff30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1d8c0b9916b57e403d183cfae90ff30">&#9670;&#160;</a></span>MR_PrecipitationSimulator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_PrecipitationSimulator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_PrecipitationSimulator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a19dd2fbb142185811335a9486d73e75f" name="a19dd2fbb142185811335a9486d73e75f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19dd2fbb142185811335a9486d73e75f">&#9670;&#160;</a></span>MR_PrecipitationSimulator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a> * MR_PrecipitationSimulator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a043f195d9bf418d57010ec3d5ef36ed3" name="a043f195d9bf418d57010ec3d5ef36ed3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a043f195d9bf418d57010ec3d5ef36ed3">&#9670;&#160;</a></span>MR_PrecipitationSimulator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a> * MR_PrecipitationSimulator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a4df5f8ff5c2e94fd4144ce0a899de1ff" name="a4df5f8ff5c2e94fd4144ce0a899de1ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4df5f8ff5c2e94fd4144ce0a899de1ff">&#9670;&#160;</a></span>MR_PrecipitationSimulator_simulateOne()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> * MR_PrecipitationSimulator_simulateOne </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a1b92295242390c95dc53e1966dc86b29">MR_PrecipitationSimulator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>processes the next event happened with the terrain basins Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PrecipitationSimulator.html">MR::PrecipitationSimulator</a></code> named <code>simulateOne</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae71733065fb8a04408b6e1bdd4564236" title="Destroys a heap-allocated instance of MR_PrecipitationSimulator_SimulationStep. Does nothing if the p...">MR_PrecipitationSimulator_SimulationStep_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a1f8536db3e1f47728157802f9d44dc34" name="a1f8536db3e1f47728157802f9d44dc34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f8536db3e1f47728157802f9d44dc34">&#9670;&#160;</a></span>MR_PrecipitationSimulator_SimulationStep_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> * MR_PrecipitationSimulator_SimulationStep_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1PrecipitationSimulator_1_1SimulationStep.html">MR::PrecipitationSimulator::SimulationStep</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a70f8c6484ad69240ee4ba08dc0e0dd53" name="a70f8c6484ad69240ee4ba08dc0e0dd53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70f8c6484ad69240ee4ba08dc0e0dd53">&#9670;&#160;</a></span>MR_PrecipitationSimulator_SimulationStep_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> * MR_PrecipitationSimulator_SimulationStep_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a82db0baa132154eb45774084be587171">MR_PrecipitationSimulator_Event</a></td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>amount</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>basin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>neiBasin</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1PrecipitationSimulator_1_1SimulationStep.html">MR::PrecipitationSimulator::SimulationStep</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae71733065fb8a04408b6e1bdd4564236" title="Destroys a heap-allocated instance of MR_PrecipitationSimulator_SimulationStep. Does nothing if the p...">MR_PrecipitationSimulator_SimulationStep_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="acc8037f26e47b83efe7fbd76d2c3bbe7" name="acc8037f26e47b83efe7fbd76d2c3bbe7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc8037f26e47b83efe7fbd76d2c3bbe7">&#9670;&#160;</a></span>MR_PrecipitationSimulator_SimulationStep_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> * MR_PrecipitationSimulator_SimulationStep_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1PrecipitationSimulator_1_1SimulationStep.html">MR::PrecipitationSimulator::SimulationStep</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae71733065fb8a04408b6e1bdd4564236" title="Destroys a heap-allocated instance of MR_PrecipitationSimulator_SimulationStep. Does nothing if the p...">MR_PrecipitationSimulator_SimulationStep_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a0bf80be4d80c2dc0d6346d310e118127" name="a0bf80be4d80c2dc0d6346d310e118127"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bf80be4d80c2dc0d6346d310e118127">&#9670;&#160;</a></span>MR_PrecipitationSimulator_SimulationStep_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> * MR_PrecipitationSimulator_SimulationStep_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae71733065fb8a04408b6e1bdd4564236" title="Destroys a heap-allocated instance of MR_PrecipitationSimulator_SimulationStep. Does nothing if the p...">MR_PrecipitationSimulator_SimulationStep_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a609d420498454f3e02cc83bff6f1827d" name="a609d420498454f3e02cc83bff6f1827d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a609d420498454f3e02cc83bff6f1827d">&#9670;&#160;</a></span>MR_PrecipitationSimulator_SimulationStep_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> * MR_PrecipitationSimulator_SimulationStep_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#aecb0c803f0fc5293c1eb4d0be3b4576b" title="Destroys a heap-allocated array of MR_PrecipitationSimulator_SimulationStep. Does nothing if the poin...">MR_PrecipitationSimulator_SimulationStep_DestroyArray()</a></code>. Use <code><a class="el" href="#a4ae4ac5e549a79b864031d2b9e37bbfb" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_PrecipitationSimulator_SimulationStep_OffsetMutablePtr()</a></code> and <code><a class="el" href="#abcfbd1fa3c390be5abcf2ad986fc0734" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_PrecipitationSimulator_SimulationStep_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ae71733065fb8a04408b6e1bdd4564236" name="ae71733065fb8a04408b6e1bdd4564236"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae71733065fb8a04408b6e1bdd4564236">&#9670;&#160;</a></span>MR_PrecipitationSimulator_SimulationStep_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_PrecipitationSimulator_SimulationStep_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_PrecipitationSimulator_SimulationStep</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aecb0c803f0fc5293c1eb4d0be3b4576b" name="aecb0c803f0fc5293c1eb4d0be3b4576b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecb0c803f0fc5293c1eb4d0be3b4576b">&#9670;&#160;</a></span>MR_PrecipitationSimulator_SimulationStep_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_PrecipitationSimulator_SimulationStep_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_PrecipitationSimulator_SimulationStep</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="af0b51305bf31975a07e1a891d03805f9" name="af0b51305bf31975a07e1a891d03805f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0b51305bf31975a07e1a891d03805f9">&#9670;&#160;</a></span>MR_PrecipitationSimulator_SimulationStep_Get_amount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const float * MR_PrecipitationSimulator_SimulationStep_Get_amount </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>amount of precipitation (in same units as mesh coordinates and water level) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PrecipitationSimulator_1_1SimulationStep.html">MR::PrecipitationSimulator::SimulationStep</a></code> named <code>amount</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aeeb61b92dec72f5696b5fe05f5722d24" name="aeeb61b92dec72f5696b5fe05f5722d24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeeb61b92dec72f5696b5fe05f5722d24">&#9670;&#160;</a></span>MR_PrecipitationSimulator_SimulationStep_Get_basin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> * MR_PrecipitationSimulator_SimulationStep_Get_basin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>BasinFull: this basin just became full Merge: this basin just absorbed the other basin Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PrecipitationSimulator_1_1SimulationStep.html">MR::PrecipitationSimulator::SimulationStep</a></code> named <code>basin</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a5909dbca8c412a1a3ab365eb0babb3ac" name="a5909dbca8c412a1a3ab365eb0babb3ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5909dbca8c412a1a3ab365eb0babb3ac">&#9670;&#160;</a></span>MR_PrecipitationSimulator_SimulationStep_Get_event()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a82db0baa132154eb45774084be587171">MR_PrecipitationSimulator_Event</a> * MR_PrecipitationSimulator_SimulationStep_Get_event </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PrecipitationSimulator_1_1SimulationStep.html">MR::PrecipitationSimulator::SimulationStep</a></code> named <code>event</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a530d759672b5c726b279fce6a0127d16" name="a530d759672b5c726b279fce6a0127d16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a530d759672b5c726b279fce6a0127d16">&#9670;&#160;</a></span>MR_PrecipitationSimulator_SimulationStep_Get_neiBasin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> * MR_PrecipitationSimulator_SimulationStep_Get_neiBasin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>BasinFull: the flow from full basin will first go here (may be not the last destination) Merge: this basin was just absorbed Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PrecipitationSimulator_1_1SimulationStep.html">MR::PrecipitationSimulator::SimulationStep</a></code> named <code>neiBasin</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a784f947ca0fd202c4d50c7d28e30a23b" name="a784f947ca0fd202c4d50c7d28e30a23b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a784f947ca0fd202c4d50c7d28e30a23b">&#9670;&#160;</a></span>MR_PrecipitationSimulator_SimulationStep_GetMutable_amount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float * MR_PrecipitationSimulator_SimulationStep_GetMutable_amount </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>BasinFull: this basin just became full Merge: this basin just absorbed the other basin Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PrecipitationSimulator_1_1SimulationStep.html">MR::PrecipitationSimulator::SimulationStep</a></code> named <code>basin</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a7b26380caecc51e7c874e4069793ca7b" name="a7b26380caecc51e7c874e4069793ca7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b26380caecc51e7c874e4069793ca7b">&#9670;&#160;</a></span>MR_PrecipitationSimulator_SimulationStep_GetMutable_basin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> * MR_PrecipitationSimulator_SimulationStep_GetMutable_basin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>BasinFull: the flow from full basin will first go here (may be not the last destination) Merge: this basin was just absorbed Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PrecipitationSimulator_1_1SimulationStep.html">MR::PrecipitationSimulator::SimulationStep</a></code> named <code>neiBasin</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ad22c759a4c302b4f2d523fc6edbab4fb" name="ad22c759a4c302b4f2d523fc6edbab4fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad22c759a4c302b4f2d523fc6edbab4fb">&#9670;&#160;</a></span>MR_PrecipitationSimulator_SimulationStep_GetMutable_event()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a82db0baa132154eb45774084be587171">MR_PrecipitationSimulator_Event</a> * MR_PrecipitationSimulator_SimulationStep_GetMutable_event </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PrecipitationSimulator_1_1SimulationStep.html">MR::PrecipitationSimulator::SimulationStep</a></code> named <code>event</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. amount of precipitation (in same units as mesh coordinates and water level) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PrecipitationSimulator_1_1SimulationStep.html">MR::PrecipitationSimulator::SimulationStep</a></code> named <code>amount</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a013432e489d4337bafdd4f2355f80558" name="a013432e489d4337bafdd4f2355f80558"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a013432e489d4337bafdd4f2355f80558">&#9670;&#160;</a></span>MR_PrecipitationSimulator_SimulationStep_GetMutable_neiBasin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> * MR_PrecipitationSimulator_SimulationStep_GetMutable_neiBasin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ae4ac5e549a79b864031d2b9e37bbfb" name="a4ae4ac5e549a79b864031d2b9e37bbfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ae4ac5e549a79b864031d2b9e37bbfb">&#9670;&#160;</a></span>MR_PrecipitationSimulator_SimulationStep_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> * MR_PrecipitationSimulator_SimulationStep_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="abcfbd1fa3c390be5abcf2ad986fc0734" name="abcfbd1fa3c390be5abcf2ad986fc0734"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcfbd1fa3c390be5abcf2ad986fc0734">&#9670;&#160;</a></span>MR_PrecipitationSimulator_SimulationStep_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> * MR_PrecipitationSimulator_SimulationStep_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a83b61feef7b8e033f7a94586af021fbd" name="a83b61feef7b8e033f7a94586af021fbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83b61feef7b8e033f7a94586af021fbd">&#9670;&#160;</a></span>MR_PrecipitationSimulator_SimulationStep_Set_amount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_PrecipitationSimulator_SimulationStep_Set_amount </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>amount of precipitation (in same units as mesh coordinates and water level) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PrecipitationSimulator_1_1SimulationStep.html">MR::PrecipitationSimulator::SimulationStep</a></code> named <code>amount</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a39c5a8c48f6ab2af07fd686574fc2824" name="a39c5a8c48f6ab2af07fd686574fc2824"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39c5a8c48f6ab2af07fd686574fc2824">&#9670;&#160;</a></span>MR_PrecipitationSimulator_SimulationStep_Set_basin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_PrecipitationSimulator_SimulationStep_Set_basin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>BasinFull: this basin just became full Merge: this basin just absorbed the other basin Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PrecipitationSimulator_1_1SimulationStep.html">MR::PrecipitationSimulator::SimulationStep</a></code> named <code>basin</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a43384d26289b1683c73e00a23adebb64" name="a43384d26289b1683c73e00a23adebb64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43384d26289b1683c73e00a23adebb64">&#9670;&#160;</a></span>MR_PrecipitationSimulator_SimulationStep_Set_event()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_PrecipitationSimulator_SimulationStep_Set_event </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a82db0baa132154eb45774084be587171">MR_PrecipitationSimulator_Event</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PrecipitationSimulator_1_1SimulationStep.html">MR::PrecipitationSimulator::SimulationStep</a></code> named <code>event</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a2b02e83066a3eae8725c90e59f179f8e" name="a2b02e83066a3eae8725c90e59f179f8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b02e83066a3eae8725c90e59f179f8e">&#9670;&#160;</a></span>MR_PrecipitationSimulator_SimulationStep_Set_neiBasin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_PrecipitationSimulator_SimulationStep_Set_neiBasin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a3864fee6711538ede04b706cbefc7606">MR_PrecipitationSimulator_SimulationStep</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>BasinFull: the flow from full basin will first go here (may be not the last destination) Merge: this basin was just absorbed Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PrecipitationSimulator_1_1SimulationStep.html">MR::PrecipitationSimulator::SimulationStep</a></code> named <code>neiBasin</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_8b489c7b5d1a72d35ec87e32cc37b940.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRPrecipitationSimulator_8h.html">MRPrecipitationSimulator.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

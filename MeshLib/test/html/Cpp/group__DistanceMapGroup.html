@@ -1,0 +1,1469 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C++ Docs: Distance Map group</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C++ Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('group__DistanceMapGroup.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">Distance Map group</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1DistanceMap.html">MR::DistanceMap</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ContoursDistanceMapOffset.html">MR::ContoursDistanceMapOffset</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure with parameters for optional offset in <code>distanceMapFromContours</code> function.  <a href="structMR_1_1ContoursDistanceMapOffset.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshToDistanceMapParams.html">MR::MeshToDistanceMapParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ContourToDistanceMapParams.html">MR::ContourToDistanceMapParams</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure with parameters to generate <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> by Contours.  <a href="structMR_1_1ContourToDistanceMapParams.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DistanceMapToWorld.html">MR::DistanceMapToWorld</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This structure store data to transform distance map to world coordinates.  <a href="structMR_1_1DistanceMapToWorld.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DistanceMapLoadSettings.html">MR::DistanceMapLoadSettings</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">settings for loading distance maps from external formats  <a href="structMR_1_1DistanceMapLoadSettings.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DistanceMapSaveSettings.html">MR::DistanceMapSaveSettings</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines how to save distance maps  <a href="structMR_1_1DistanceMapSaveSettings.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RectIndexer.html">MR::RectIndexer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">a class for converting 2D integer coordinates into 1D linear coordinates and backward  <a href="classMR_1_1RectIndexer.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ga23925ade3ecef5dcb8ca148e5af923f1" id="r_ga23925ade3ecef5dcb8ca148e5af923f1"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a></td></tr>
+<tr class="separator:ga23925ade3ecef5dcb8ca148e5af923f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad61286dbd4af331e293fe93f97dbf8c4" id="r_gad61286dbd4af331e293fe93f97dbf8c4"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a></td></tr>
+<tr class="separator:gad61286dbd4af331e293fe93f97dbf8c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga20641c296a854171ffca0e1334e8a422" id="r_ga20641c296a854171ffca0e1334e8a422"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a></td></tr>
+<tr class="separator:ga20641c296a854171ffca0e1334e8a422"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacb7982850a6576e45e73598937682264" id="r_gacb7982850a6576e45e73598937682264"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="elRef" href="../C/MRDistanceMapLoad_8h.html#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gacb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a></td></tr>
+<tr class="separator:gacb7982850a6576e45e73598937682264"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2b8e42b38bd4d4f8c966e3bc97e7527e" id="r_ga2b8e42b38bd4d4f8c966e3bc97e7527e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="elRef" href="../C/group__DistanceMapGroup.html#ga2b8e42b38bd4d4f8c966e3bc97e7527e">MR_DistanceMapSaveSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga2b8e42b38bd4d4f8c966e3bc97e7527e">MR_DistanceMapSaveSettings</a></td></tr>
+<tr class="separator:ga2b8e42b38bd4d4f8c966e3bc97e7527e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadbb0f842a0b4b7e200f6b1a38d89a490" id="r_gadbb0f842a0b4b7e200f6b1a38d89a490"><td class="memItemLeft" align="right" valign="top">typedef int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gadbb0f842a0b4b7e200f6b1a38d89a490">MR_OutEdge2</a></td></tr>
+<tr class="separator:gadbb0f842a0b4b7e200f6b1a38d89a490"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1a5efdccd2df88c9e6fd685e2f82f57b" id="r_ga1a5efdccd2df88c9e6fd685e2f82f57b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a></td></tr>
+<tr class="separator:ga1a5efdccd2df88c9e6fd685e2f82f57b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:gab7acb4543154d042c297e5823fb633b6" id="r_gab7acb4543154d042c297e5823fb633b6"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab7acb4543154d042c297e5823fb633b6">MR::OutEdge2</a> : signed char { <br />
+&#160;&#160;<a class="el" href="#ggab7acb4543154d042c297e5823fb633b6a4bbb8f967da6d1a610596d7257179c2b">MR::OutEdge2::Invalid</a> = -1
+, <a class="el" href="#ggab7acb4543154d042c297e5823fb633b6a89241a914ba5d59de9168c4416e69c4a">MR::OutEdge2::PlusY</a>
+, <a class="el" href="#ggab7acb4543154d042c297e5823fb633b6a9cc816b8a2117db796c073f012e78565">MR::OutEdge2::MinusY</a>
+, <a class="el" href="#ggab7acb4543154d042c297e5823fb633b6aac53fa7ccf60e6f59512da11975eb8a7">MR::OutEdge2::PlusX</a>
+, <br />
+&#160;&#160;<a class="el" href="#ggab7acb4543154d042c297e5823fb633b6a6ee0807f5bf1b3e0a4d52919eb298454">MR::OutEdge2::MinusX</a>
+, <a class="el" href="#ggab7acb4543154d042c297e5823fb633b6ae93f994f01c537c4e2f7d8528c3eb5e9">MR::OutEdge2::Count</a>
+<br />
+ }</td></tr>
+<tr class="separator:gab7acb4543154d042c297e5823fb633b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ga0f166ea4ff680f2eac16cb44e6ccbde5" id="r_ga0f166ea4ff680f2eac16cb44e6ccbde5"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga0f166ea4ff680f2eac16cb44e6ccbde5">MR_MeshToDistanceMapParams_Get_xRange</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:ga0f166ea4ff680f2eac16cb44e6ccbde5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7cd2020d329b5a065a5da6fc28eb24a3" id="r_ga7cd2020d329b5a065a5da6fc28eb24a3"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga7cd2020d329b5a065a5da6fc28eb24a3">MR_MeshToDistanceMapParams_Set_xRange</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this, <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
+<tr class="separator:ga7cd2020d329b5a065a5da6fc28eb24a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeb605e76e0b9047abc944ac9ef1b0a8a" id="r_gaeb605e76e0b9047abc944ac9ef1b0a8a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gaeb605e76e0b9047abc944ac9ef1b0a8a">MR_MeshToDistanceMapParams_GetMutable_xRange</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:gaeb605e76e0b9047abc944ac9ef1b0a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga41ea8b246f8d7391c21becedf3c0db4c" id="r_ga41ea8b246f8d7391c21becedf3c0db4c"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga41ea8b246f8d7391c21becedf3c0db4c">MR_MeshToDistanceMapParams_Get_yRange</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:ga41ea8b246f8d7391c21becedf3c0db4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga075d25688b9d1010e9ce5cd4ea424081" id="r_ga075d25688b9d1010e9ce5cd4ea424081"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga075d25688b9d1010e9ce5cd4ea424081">MR_MeshToDistanceMapParams_Set_yRange</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this, <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
+<tr class="separator:ga075d25688b9d1010e9ce5cd4ea424081"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5a0fe738bdbf24ecdf49d8373b7640e4" id="r_ga5a0fe738bdbf24ecdf49d8373b7640e4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga5a0fe738bdbf24ecdf49d8373b7640e4">MR_MeshToDistanceMapParams_GetMutable_yRange</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:ga5a0fe738bdbf24ecdf49d8373b7640e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga68fe361eb69f57b4cf34fb8de5f51cc5" id="r_ga68fe361eb69f57b4cf34fb8de5f51cc5"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga68fe361eb69f57b4cf34fb8de5f51cc5">MR_MeshToDistanceMapParams_Get_direction</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:ga68fe361eb69f57b4cf34fb8de5f51cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3597740bd8f40aa11dcdcba52d9ebdc5" id="r_ga3597740bd8f40aa11dcdcba52d9ebdc5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga3597740bd8f40aa11dcdcba52d9ebdc5">MR_MeshToDistanceMapParams_Set_direction</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this, <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
+<tr class="separator:ga3597740bd8f40aa11dcdcba52d9ebdc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9d6254d19e5a0d5183e63db44c180aa0" id="r_ga9d6254d19e5a0d5183e63db44c180aa0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga9d6254d19e5a0d5183e63db44c180aa0">MR_MeshToDistanceMapParams_GetMutable_direction</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:ga9d6254d19e5a0d5183e63db44c180aa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa724ed5b973291b98a4e387a0eea15fa" id="r_gaa724ed5b973291b98a4e387a0eea15fa"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gaa724ed5b973291b98a4e387a0eea15fa">MR_MeshToDistanceMapParams_Get_orgPoint</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:gaa724ed5b973291b98a4e387a0eea15fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga51ce3081726d5451b046775832ae5d85" id="r_ga51ce3081726d5451b046775832ae5d85"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga51ce3081726d5451b046775832ae5d85">MR_MeshToDistanceMapParams_Set_orgPoint</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this, <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
+<tr class="separator:ga51ce3081726d5451b046775832ae5d85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf7b601acc8b64f17ded123626377188a" id="r_gaf7b601acc8b64f17ded123626377188a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gaf7b601acc8b64f17ded123626377188a">MR_MeshToDistanceMapParams_GetMutable_orgPoint</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:gaf7b601acc8b64f17ded123626377188a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae7f742f0c1aac388df69c61a03b8da10" id="r_gae7f742f0c1aac388df69c61a03b8da10"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gae7f742f0c1aac388df69c61a03b8da10">MR_MeshToDistanceMapParams_Get_useDistanceLimits</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:gae7f742f0c1aac388df69c61a03b8da10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae7bff6417d0a3904036bee6b1b19246f" id="r_gae7bff6417d0a3904036bee6b1b19246f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gae7bff6417d0a3904036bee6b1b19246f">MR_MeshToDistanceMapParams_Set_useDistanceLimits</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this, bool value)</td></tr>
+<tr class="separator:gae7bff6417d0a3904036bee6b1b19246f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga33eb1f1380eb0f3127f47bbcf733af90" id="r_ga33eb1f1380eb0f3127f47bbcf733af90"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga33eb1f1380eb0f3127f47bbcf733af90">MR_MeshToDistanceMapParams_GetMutable_useDistanceLimits</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:ga33eb1f1380eb0f3127f47bbcf733af90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga36fcb0b0b1bb3754d49b13f11cfa007b" id="r_ga36fcb0b0b1bb3754d49b13f11cfa007b"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga36fcb0b0b1bb3754d49b13f11cfa007b">MR_MeshToDistanceMapParams_Get_allowNegativeValues</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:ga36fcb0b0b1bb3754d49b13f11cfa007b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac2ac9c6013d84ffeb4e755c33eaf09a4" id="r_gac2ac9c6013d84ffeb4e755c33eaf09a4"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gac2ac9c6013d84ffeb4e755c33eaf09a4">MR_MeshToDistanceMapParams_Set_allowNegativeValues</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this, bool value)</td></tr>
+<tr class="separator:gac2ac9c6013d84ffeb4e755c33eaf09a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae100b2dcbd5365d0046b07a1e0eb7679" id="r_gae100b2dcbd5365d0046b07a1e0eb7679"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gae100b2dcbd5365d0046b07a1e0eb7679">MR_MeshToDistanceMapParams_GetMutable_allowNegativeValues</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:gae100b2dcbd5365d0046b07a1e0eb7679"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2b172251dc423b9e1b5804282f0bbcaf" id="r_ga2b172251dc423b9e1b5804282f0bbcaf"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga2b172251dc423b9e1b5804282f0bbcaf">MR_MeshToDistanceMapParams_Get_minValue</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:ga2b172251dc423b9e1b5804282f0bbcaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga439133593e3a866d92452645e8815045" id="r_ga439133593e3a866d92452645e8815045"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga439133593e3a866d92452645e8815045">MR_MeshToDistanceMapParams_Set_minValue</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this, float value)</td></tr>
+<tr class="separator:ga439133593e3a866d92452645e8815045"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga82a8ff215a7410f9a076857bed2e1f4d" id="r_ga82a8ff215a7410f9a076857bed2e1f4d"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga82a8ff215a7410f9a076857bed2e1f4d">MR_MeshToDistanceMapParams_GetMutable_minValue</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:ga82a8ff215a7410f9a076857bed2e1f4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaee537be8b8d9326d7c5fb45e760fec8c" id="r_gaee537be8b8d9326d7c5fb45e760fec8c"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gaee537be8b8d9326d7c5fb45e760fec8c">MR_MeshToDistanceMapParams_Get_maxValue</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:gaee537be8b8d9326d7c5fb45e760fec8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga59c6088d01a638dba702de8142ce76f8" id="r_ga59c6088d01a638dba702de8142ce76f8"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga59c6088d01a638dba702de8142ce76f8">MR_MeshToDistanceMapParams_Set_maxValue</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this, float value)</td></tr>
+<tr class="separator:ga59c6088d01a638dba702de8142ce76f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga12a715f7b210014b136da2198bc3031b" id="r_ga12a715f7b210014b136da2198bc3031b"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga12a715f7b210014b136da2198bc3031b">MR_MeshToDistanceMapParams_GetMutable_maxValue</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:ga12a715f7b210014b136da2198bc3031b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad49dbfe5364c2bca2052b6a80ab4f030" id="r_gad49dbfe5364c2bca2052b6a80ab4f030"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/structMR__Vector2i.html">MR_Vector2i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gad49dbfe5364c2bca2052b6a80ab4f030">MR_MeshToDistanceMapParams_Get_resolution</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:gad49dbfe5364c2bca2052b6a80ab4f030"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga63eb3d7d30e6d36ab5e9cf8d0e8e1c76" id="r_ga63eb3d7d30e6d36ab5e9cf8d0e8e1c76"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga63eb3d7d30e6d36ab5e9cf8d0e8e1c76">MR_MeshToDistanceMapParams_Set_resolution</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this, <a class="elRef" href="../C/structMR__Vector2i.html">MR_Vector2i</a> value)</td></tr>
+<tr class="separator:ga63eb3d7d30e6d36ab5e9cf8d0e8e1c76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad11f5ef8b12dd9e8df6296aecf1099e4" id="r_gad11f5ef8b12dd9e8df6296aecf1099e4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__Vector2i.html">MR_Vector2i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gad11f5ef8b12dd9e8df6296aecf1099e4">MR_MeshToDistanceMapParams_GetMutable_resolution</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:gad11f5ef8b12dd9e8df6296aecf1099e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga502671cbad5c1a61c8802b6d679981d5" id="r_ga502671cbad5c1a61c8802b6d679981d5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga502671cbad5c1a61c8802b6d679981d5">MR_MeshToDistanceMapParams_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ga502671cbad5c1a61c8802b6d679981d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6ad461754621c7a6cf0bb6cbd4c27ca8" id="r_ga6ad461754621c7a6cf0bb6cbd4c27ca8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga6ad461754621c7a6cf0bb6cbd4c27ca8">MR_MeshToDistanceMapParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ga6ad461754621c7a6cf0bb6cbd4c27ca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga33c21937c142d8f3a88f79371e042089" id="r_ga33c21937c142d8f3a88f79371e042089"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga33c21937c142d8f3a88f79371e042089">MR_MeshToDistanceMapParams_OffsetPtr</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="separator:ga33c21937c142d8f3a88f79371e042089"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga793c6a44692fbbea8c177a41d7261b41" id="r_ga793c6a44692fbbea8c177a41d7261b41"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga793c6a44692fbbea8c177a41d7261b41">MR_MeshToDistanceMapParams_OffsetMutablePtr</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="separator:ga793c6a44692fbbea8c177a41d7261b41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga49ef599f9584dc014cfd0a6a4e6768bd" id="r_ga49ef599f9584dc014cfd0a6a4e6768bd"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga49ef599f9584dc014cfd0a6a4e6768bd">MR_MeshToDistanceMapParams_ConstructFromAnother</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_other)</td></tr>
+<tr class="separator:ga49ef599f9584dc014cfd0a6a4e6768bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9831cfc3c324ef4afdc449a1acc285bb" id="r_ga9831cfc3c324ef4afdc449a1acc285bb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga9831cfc3c324ef4afdc449a1acc285bb">MR_MeshToDistanceMapParams_Construct_4_const_MR_Vector3f_ref_MR_Vector2i</a> (const <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a> *direction, const <a class="elRef" href="../C/structMR__Vector2i.html">MR_Vector2i</a> *resolution, const <a class="elRef" href="../C/MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const bool *usePreciseBoundingBox)</td></tr>
+<tr class="separator:ga9831cfc3c324ef4afdc449a1acc285bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2035a9aa6650baae1902dbd892d84c4d" id="r_ga2035a9aa6650baae1902dbd892d84c4d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga2035a9aa6650baae1902dbd892d84c4d">MR_MeshToDistanceMapParams_Construct_4_const_MR_Vector3f_ref_MR_Vector2f</a> (const <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a> *direction, const <a class="elRef" href="../C/structMR__Vector2f.html">MR_Vector2f</a> *pixelSize, const <a class="elRef" href="../C/MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const bool *usePreciseBoundingBox)</td></tr>
+<tr class="separator:ga2035a9aa6650baae1902dbd892d84c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga23a8281d17166ddeaa23ea0f12acfd80" id="r_ga23a8281d17166ddeaa23ea0f12acfd80"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga23a8281d17166ddeaa23ea0f12acfd80">MR_MeshToDistanceMapParams_Construct_4_const_MR_Matrix3f_ref_const_MR_Vector3f_ref_MR_Vector2i</a> (const <a class="elRef" href="../C/structMR__Matrix3f.html">MR_Matrix3f</a> *rotation, const <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a> *origin, const <a class="elRef" href="../C/structMR__Vector2i.html">MR_Vector2i</a> *resolution, const <a class="elRef" href="../C/structMR__Vector2f.html">MR_Vector2f</a> *size)</td></tr>
+<tr class="separator:ga23a8281d17166ddeaa23ea0f12acfd80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafc3f9c34932b17c33047c59bb2f67e8e" id="r_gafc3f9c34932b17c33047c59bb2f67e8e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gafc3f9c34932b17c33047c59bb2f67e8e">MR_MeshToDistanceMapParams_Construct_4_const_MR_Matrix3f_ref_const_MR_Vector3f_ref_MR_Vector2f</a> (const <a class="elRef" href="../C/structMR__Matrix3f.html">MR_Matrix3f</a> *rotation, const <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a> *origin, const <a class="elRef" href="../C/structMR__Vector2f.html">MR_Vector2f</a> *pixelSize, const <a class="elRef" href="../C/structMR__Vector2i.html">MR_Vector2i</a> *resolution)</td></tr>
+<tr class="separator:gafc3f9c34932b17c33047c59bb2f67e8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaab5a312c109d576b864f0e967a8fa03c" id="r_gaab5a312c109d576b864f0e967a8fa03c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gaab5a312c109d576b864f0e967a8fa03c">MR_MeshToDistanceMapParams_Construct_4_const_MR_Matrix3f_ref_const_MR_Vector2i_ref</a> (const <a class="elRef" href="../C/structMR__Matrix3f.html">MR_Matrix3f</a> *rotation, const <a class="elRef" href="../C/structMR__Vector2i.html">MR_Vector2i</a> *resolution, const <a class="elRef" href="../C/MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const bool *usePreciseBoundingBox)</td></tr>
+<tr class="separator:gaab5a312c109d576b864f0e967a8fa03c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8c345fc3bbaa9a6ffde288cc5d482f9e" id="r_ga8c345fc3bbaa9a6ffde288cc5d482f9e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga8c345fc3bbaa9a6ffde288cc5d482f9e">MR_MeshToDistanceMapParams_Construct_3_MR_Vector2i</a> (const <a class="elRef" href="../C/structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf, const <a class="elRef" href="../C/structMR__Vector2i.html">MR_Vector2i</a> *resolution, const <a class="elRef" href="../C/structMR__Vector2f.html">MR_Vector2f</a> *size)</td></tr>
+<tr class="separator:ga8c345fc3bbaa9a6ffde288cc5d482f9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7943a6d5096dbc9fb1bd75e240aeba0f" id="r_ga7943a6d5096dbc9fb1bd75e240aeba0f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga7943a6d5096dbc9fb1bd75e240aeba0f">MR_MeshToDistanceMapParams_Construct_3_MR_Vector2f</a> (const <a class="elRef" href="../C/structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf, const <a class="elRef" href="../C/structMR__Vector2f.html">MR_Vector2f</a> *pixelSize, const <a class="elRef" href="../C/structMR__Vector2i.html">MR_Vector2i</a> *resolution)</td></tr>
+<tr class="separator:ga7943a6d5096dbc9fb1bd75e240aeba0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae2c721b741b53ece9ad3f658dea97d51" id="r_gae2c721b741b53ece9ad3f658dea97d51"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gae2c721b741b53ece9ad3f658dea97d51">MR_MeshToDistanceMapParams_Destroy</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:gae2c721b741b53ece9ad3f658dea97d51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga77dc9ebb3885143d961fdafe25d875ef" id="r_ga77dc9ebb3885143d961fdafe25d875ef"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga77dc9ebb3885143d961fdafe25d875ef">MR_MeshToDistanceMapParams_DestroyArray</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:ga77dc9ebb3885143d961fdafe25d875ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad5e7737893e7ae9ac6735d6d6a0e8ac2" id="r_gad5e7737893e7ae9ac6735d6d6a0e8ac2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__AffineXf3f.html">MR_AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gad5e7737893e7ae9ac6735d6d6a0e8ac2">MR_MeshToDistanceMapParams_ConvertTo_MR_AffineXf3f</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:gad5e7737893e7ae9ac6735d6d6a0e8ac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3704c5aa59752862b826c23717c49378" id="r_ga3704c5aa59752862b826c23717c49378"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga3704c5aa59752862b826c23717c49378">MR_MeshToDistanceMapParams_AssignFromAnother</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this, const <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_other)</td></tr>
+<tr class="separator:ga3704c5aa59752862b826c23717c49378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga17700954da62b56e778e710685b5508f" id="r_ga17700954da62b56e778e710685b5508f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__AffineXf3f.html">MR_AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga17700954da62b56e778e710685b5508f">MR_MeshToDistanceMapParams_xf</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:ga17700954da62b56e778e710685b5508f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafd1c6a707eadeb21b6c51eb209003443" id="r_gafd1c6a707eadeb21b6c51eb209003443"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gafd1c6a707eadeb21b6c51eb209003443">MR_MeshToDistanceMapParams_setDistanceLimits</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *_this, float min, float max)</td></tr>
+<tr class="separator:gafd1c6a707eadeb21b6c51eb209003443"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2219666631bb51e05bc99feb16017913" id="r_ga2219666631bb51e05bc99feb16017913"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/structMR__Vector2f.html">MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga2219666631bb51e05bc99feb16017913">MR_ContourToDistanceMapParams_Get_pixelSize</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:ga2219666631bb51e05bc99feb16017913"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa1c181ca0882d0191b3f272de94893e4" id="r_gaa1c181ca0882d0191b3f272de94893e4"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gaa1c181ca0882d0191b3f272de94893e4">MR_ContourToDistanceMapParams_Set_pixelSize</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *_this, <a class="elRef" href="../C/structMR__Vector2f.html">MR_Vector2f</a> value)</td></tr>
+<tr class="separator:gaa1c181ca0882d0191b3f272de94893e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad991d104c3f4d3314718e1fa2b25f470" id="r_gad991d104c3f4d3314718e1fa2b25f470"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__Vector2f.html">MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gad991d104c3f4d3314718e1fa2b25f470">MR_ContourToDistanceMapParams_GetMutable_pixelSize</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:gad991d104c3f4d3314718e1fa2b25f470"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacea990dde1b583c81b44448447e228e3" id="r_gacea990dde1b583c81b44448447e228e3"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/structMR__Vector2i.html">MR_Vector2i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gacea990dde1b583c81b44448447e228e3">MR_ContourToDistanceMapParams_Get_resolution</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:gacea990dde1b583c81b44448447e228e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga89bb201ffc03bcf7be5c4f65b04b0f1c" id="r_ga89bb201ffc03bcf7be5c4f65b04b0f1c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga89bb201ffc03bcf7be5c4f65b04b0f1c">MR_ContourToDistanceMapParams_Set_resolution</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *_this, <a class="elRef" href="../C/structMR__Vector2i.html">MR_Vector2i</a> value)</td></tr>
+<tr class="separator:ga89bb201ffc03bcf7be5c4f65b04b0f1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga533e901ec2687802b31cf93a02f16c73" id="r_ga533e901ec2687802b31cf93a02f16c73"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__Vector2i.html">MR_Vector2i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga533e901ec2687802b31cf93a02f16c73">MR_ContourToDistanceMapParams_GetMutable_resolution</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:ga533e901ec2687802b31cf93a02f16c73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7608cc90c2090b5931f1d9258026131b" id="r_ga7608cc90c2090b5931f1d9258026131b"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/structMR__Vector2f.html">MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga7608cc90c2090b5931f1d9258026131b">MR_ContourToDistanceMapParams_Get_orgPoint</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:ga7608cc90c2090b5931f1d9258026131b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga638aa6a3b452f62b60b020919e06de6b" id="r_ga638aa6a3b452f62b60b020919e06de6b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga638aa6a3b452f62b60b020919e06de6b">MR_ContourToDistanceMapParams_Set_orgPoint</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *_this, <a class="elRef" href="../C/structMR__Vector2f.html">MR_Vector2f</a> value)</td></tr>
+<tr class="separator:ga638aa6a3b452f62b60b020919e06de6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga40bc3608c87f820b98057088c2aae486" id="r_ga40bc3608c87f820b98057088c2aae486"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__Vector2f.html">MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga40bc3608c87f820b98057088c2aae486">MR_ContourToDistanceMapParams_GetMutable_orgPoint</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:ga40bc3608c87f820b98057088c2aae486"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa12b588f0a6660a6796f8a5fc3379ad7" id="r_gaa12b588f0a6660a6796f8a5fc3379ad7"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gaa12b588f0a6660a6796f8a5fc3379ad7">MR_ContourToDistanceMapParams_Get_withSign</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:gaa12b588f0a6660a6796f8a5fc3379ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga311a2291eebf6a190054f94667802de1" id="r_ga311a2291eebf6a190054f94667802de1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga311a2291eebf6a190054f94667802de1">MR_ContourToDistanceMapParams_Set_withSign</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *_this, bool value)</td></tr>
+<tr class="separator:ga311a2291eebf6a190054f94667802de1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaad7e66eeabdd252b30806f4428568f03" id="r_gaad7e66eeabdd252b30806f4428568f03"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gaad7e66eeabdd252b30806f4428568f03">MR_ContourToDistanceMapParams_GetMutable_withSign</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:gaad7e66eeabdd252b30806f4428568f03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3b5ca333d5345a2e08c2f9e0d854819a" id="r_ga3b5ca333d5345a2e08c2f9e0d854819a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga3b5ca333d5345a2e08c2f9e0d854819a">MR_ContourToDistanceMapParams_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ga3b5ca333d5345a2e08c2f9e0d854819a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3ab3ca40eb7fe4d199b62447a4385112" id="r_ga3ab3ca40eb7fe4d199b62447a4385112"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga3ab3ca40eb7fe4d199b62447a4385112">MR_ContourToDistanceMapParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ga3ab3ca40eb7fe4d199b62447a4385112"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga28c4890d1f809cf6addf53821f542e65" id="r_ga28c4890d1f809cf6addf53821f542e65"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga28c4890d1f809cf6addf53821f542e65">MR_ContourToDistanceMapParams_OffsetPtr</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="separator:ga28c4890d1f809cf6addf53821f542e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacdadcd593f8d44a243a9dc5cc342feff" id="r_gacdadcd593f8d44a243a9dc5cc342feff"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gacdadcd593f8d44a243a9dc5cc342feff">MR_ContourToDistanceMapParams_OffsetMutablePtr</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="separator:gacdadcd593f8d44a243a9dc5cc342feff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2e8f4c53602c69d6e554789079639c3b" id="r_ga2e8f4c53602c69d6e554789079639c3b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga2e8f4c53602c69d6e554789079639c3b">MR_ContourToDistanceMapParams_ConstructFromAnother</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *_other)</td></tr>
+<tr class="separator:ga2e8f4c53602c69d6e554789079639c3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga18e66b5965d75ca5f52adadb7505ce28" id="r_ga18e66b5965d75ca5f52adadb7505ce28"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga18e66b5965d75ca5f52adadb7505ce28">MR_ContourToDistanceMapParams_Construct_4_const_MR_Vector2i_ref_MR_Vector2f</a> (const <a class="elRef" href="../C/structMR__Vector2i.html">MR_Vector2i</a> *resolution, const <a class="elRef" href="../C/structMR__Vector2f.html">MR_Vector2f</a> *oriPoint, const <a class="elRef" href="../C/structMR__Vector2f.html">MR_Vector2f</a> *areaSize, const bool *withSign)</td></tr>
+<tr class="separator:ga18e66b5965d75ca5f52adadb7505ce28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3a6911919d5785dd117a556f3e7e0286" id="r_ga3a6911919d5785dd117a556f3e7e0286"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga3a6911919d5785dd117a556f3e7e0286">MR_ContourToDistanceMapParams_Construct_3</a> (const <a class="elRef" href="../C/structMR__Vector2i.html">MR_Vector2i</a> *resolution, const <a class="elRef" href="../C/structMR__Box2f.html">MR_Box2f</a> *box, const bool *withSign)</td></tr>
+<tr class="separator:ga3a6911919d5785dd117a556f3e7e0286"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0333825953b5ecc3c3bf86e379332cc2" id="r_ga0333825953b5ecc3c3bf86e379332cc2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga0333825953b5ecc3c3bf86e379332cc2">MR_ContourToDistanceMapParams_Construct_4_const_MR_Vector2i_ref_std_vector_std_vector_MR_Vector2f</a> (const <a class="elRef" href="../C/structMR__Vector2i.html">MR_Vector2i</a> *resolution, const <a class="elRef" href="../C/MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *contours, float offset, const bool *withSign)</td></tr>
+<tr class="separator:ga0333825953b5ecc3c3bf86e379332cc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0b202fa42bd89543ebf5f11e2cb6cc27" id="r_ga0b202fa42bd89543ebf5f11e2cb6cc27"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga0b202fa42bd89543ebf5f11e2cb6cc27">MR_ContourToDistanceMapParams_Construct_4_float</a> (float pixelSize, const <a class="elRef" href="../C/MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *contours, float offset, const bool *withSign)</td></tr>
+<tr class="separator:ga0b202fa42bd89543ebf5f11e2cb6cc27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga99cbca329f9a1cd30fa91e2a6b4aa2db" id="r_ga99cbca329f9a1cd30fa91e2a6b4aa2db"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga99cbca329f9a1cd30fa91e2a6b4aa2db">MR_ContourToDistanceMapParams_Construct_1</a> (const <a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *toWorld)</td></tr>
+<tr class="separator:ga99cbca329f9a1cd30fa91e2a6b4aa2db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6bf929097fb0e06c5f2d176cb6678527" id="r_ga6bf929097fb0e06c5f2d176cb6678527"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga6bf929097fb0e06c5f2d176cb6678527">MR_ContourToDistanceMapParams_Destroy</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:ga6bf929097fb0e06c5f2d176cb6678527"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa415ffceea4c1e8cc2726ea32b85ce6d" id="r_gaa415ffceea4c1e8cc2726ea32b85ce6d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gaa415ffceea4c1e8cc2726ea32b85ce6d">MR_ContourToDistanceMapParams_DestroyArray</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:gaa415ffceea4c1e8cc2726ea32b85ce6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8d4a193e53adf342ce0d0e51b923a9ad" id="r_ga8d4a193e53adf342ce0d0e51b923a9ad"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__AffineXf3f.html">MR_AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga8d4a193e53adf342ce0d0e51b923a9ad">MR_ContourToDistanceMapParams_ConvertTo_MR_AffineXf3f</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:ga8d4a193e53adf342ce0d0e51b923a9ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2b18770d495723972d441baafa5cbbb1" id="r_ga2b18770d495723972d441baafa5cbbb1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga2b18770d495723972d441baafa5cbbb1">MR_ContourToDistanceMapParams_AssignFromAnother</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *_this, const <a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *_other)</td></tr>
+<tr class="separator:ga2b18770d495723972d441baafa5cbbb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga15a575979a3e65837a73fc50c02b441c" id="r_ga15a575979a3e65837a73fc50c02b441c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__Vector2f.html">MR_Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga15a575979a3e65837a73fc50c02b441c">MR_ContourToDistanceMapParams_toWorld</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *_this, <a class="elRef" href="../C/structMR__Vector2f.html">MR_Vector2f</a> point)</td></tr>
+<tr class="separator:ga15a575979a3e65837a73fc50c02b441c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4704c494a5c167096a9f4b71c910c009" id="r_ga4704c494a5c167096a9f4b71c910c009"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__AffineXf3f.html">MR_AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga4704c494a5c167096a9f4b71c910c009">MR_ContourToDistanceMapParams_xf</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *_this)</td></tr>
+<tr class="separator:ga4704c494a5c167096a9f4b71c910c009"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8053f18faa70e25813af567bcf89dcf6" id="r_ga8053f18faa70e25813af567bcf89dcf6"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga8053f18faa70e25813af567bcf89dcf6">MR_DistanceMapToWorld_Get_orgPoint</a> (const <a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *_this)</td></tr>
+<tr class="separator:ga8053f18faa70e25813af567bcf89dcf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga10933ea69f4262e4569bbb366d311566" id="r_ga10933ea69f4262e4569bbb366d311566"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga10933ea69f4262e4569bbb366d311566">MR_DistanceMapToWorld_Set_orgPoint</a> (<a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *_this, <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
+<tr class="separator:ga10933ea69f4262e4569bbb366d311566"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa73321925d05cf797559280afe8016fb" id="r_gaa73321925d05cf797559280afe8016fb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gaa73321925d05cf797559280afe8016fb">MR_DistanceMapToWorld_GetMutable_orgPoint</a> (<a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *_this)</td></tr>
+<tr class="separator:gaa73321925d05cf797559280afe8016fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga946d5e8bf385be8a600a710a17ddb427" id="r_ga946d5e8bf385be8a600a710a17ddb427"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga946d5e8bf385be8a600a710a17ddb427">MR_DistanceMapToWorld_Get_pixelXVec</a> (const <a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *_this)</td></tr>
+<tr class="separator:ga946d5e8bf385be8a600a710a17ddb427"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga23f638b92cdd36ff4b313f363b5c1285" id="r_ga23f638b92cdd36ff4b313f363b5c1285"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga23f638b92cdd36ff4b313f363b5c1285">MR_DistanceMapToWorld_Set_pixelXVec</a> (<a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *_this, <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
+<tr class="separator:ga23f638b92cdd36ff4b313f363b5c1285"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac78ba9d3e863bc6886f769f5d7cdb6e6" id="r_gac78ba9d3e863bc6886f769f5d7cdb6e6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gac78ba9d3e863bc6886f769f5d7cdb6e6">MR_DistanceMapToWorld_GetMutable_pixelXVec</a> (<a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *_this)</td></tr>
+<tr class="separator:gac78ba9d3e863bc6886f769f5d7cdb6e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1460ba14be0244f05af2ecacaec36323" id="r_ga1460ba14be0244f05af2ecacaec36323"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga1460ba14be0244f05af2ecacaec36323">MR_DistanceMapToWorld_Get_pixelYVec</a> (const <a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *_this)</td></tr>
+<tr class="separator:ga1460ba14be0244f05af2ecacaec36323"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga835ede0d9dc7b9c47199dee1870de63c" id="r_ga835ede0d9dc7b9c47199dee1870de63c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga835ede0d9dc7b9c47199dee1870de63c">MR_DistanceMapToWorld_Set_pixelYVec</a> (<a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *_this, <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
+<tr class="separator:ga835ede0d9dc7b9c47199dee1870de63c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga490553a89d544d5170cbd46398cb1ec4" id="r_ga490553a89d544d5170cbd46398cb1ec4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga490553a89d544d5170cbd46398cb1ec4">MR_DistanceMapToWorld_GetMutable_pixelYVec</a> (<a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *_this)</td></tr>
+<tr class="separator:ga490553a89d544d5170cbd46398cb1ec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaba39cb015cc019198f6da3f0062c3755" id="r_gaba39cb015cc019198f6da3f0062c3755"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gaba39cb015cc019198f6da3f0062c3755">MR_DistanceMapToWorld_Get_direction</a> (const <a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *_this)</td></tr>
+<tr class="separator:gaba39cb015cc019198f6da3f0062c3755"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga345d11c9b760e3130a6df2becca54fe0" id="r_ga345d11c9b760e3130a6df2becca54fe0"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga345d11c9b760e3130a6df2becca54fe0">MR_DistanceMapToWorld_Set_direction</a> (<a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *_this, <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
+<tr class="separator:ga345d11c9b760e3130a6df2becca54fe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga72cd2b472817355ed46ac685e8ffec05" id="r_ga72cd2b472817355ed46ac685e8ffec05"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga72cd2b472817355ed46ac685e8ffec05">MR_DistanceMapToWorld_GetMutable_direction</a> (<a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *_this)</td></tr>
+<tr class="separator:ga72cd2b472817355ed46ac685e8ffec05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1837a1758ba6ed1e1aa68d5a59d31b6b" id="r_ga1837a1758ba6ed1e1aa68d5a59d31b6b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga1837a1758ba6ed1e1aa68d5a59d31b6b">MR_DistanceMapToWorld_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ga1837a1758ba6ed1e1aa68d5a59d31b6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab49418f1ce1fe8df0a79c4b7b537c148" id="r_gab49418f1ce1fe8df0a79c4b7b537c148"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gab49418f1ce1fe8df0a79c4b7b537c148">MR_DistanceMapToWorld_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:gab49418f1ce1fe8df0a79c4b7b537c148"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga05d61d6bec3365d23a1d40511ede359e" id="r_ga05d61d6bec3365d23a1d40511ede359e"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga05d61d6bec3365d23a1d40511ede359e">MR_DistanceMapToWorld_OffsetPtr</a> (const <a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="separator:ga05d61d6bec3365d23a1d40511ede359e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac00ff003cbea2c1880d0ed18dd718ef6" id="r_gac00ff003cbea2c1880d0ed18dd718ef6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gac00ff003cbea2c1880d0ed18dd718ef6">MR_DistanceMapToWorld_OffsetMutablePtr</a> (<a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="separator:gac00ff003cbea2c1880d0ed18dd718ef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga25ab55f72ba7bde1ab56c9acfa2e1c42" id="r_ga25ab55f72ba7bde1ab56c9acfa2e1c42"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga25ab55f72ba7bde1ab56c9acfa2e1c42">MR_DistanceMapToWorld_ConstructFromAnother</a> (const <a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *_other)</td></tr>
+<tr class="separator:ga25ab55f72ba7bde1ab56c9acfa2e1c42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga74c628bff80436fa701d37be3d06c9bb" id="r_ga74c628bff80436fa701d37be3d06c9bb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga74c628bff80436fa701d37be3d06c9bb">MR_DistanceMapToWorld_Construct_MR_MeshToDistanceMapParams</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1">MR_MeshToDistanceMapParams</a> *params)</td></tr>
+<tr class="separator:ga74c628bff80436fa701d37be3d06c9bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7953264cab6f7034133454093ced0b21" id="r_ga7953264cab6f7034133454093ced0b21"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga7953264cab6f7034133454093ced0b21">MR_DistanceMapToWorld_Construct_MR_ContourToDistanceMapParams</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4">MR_ContourToDistanceMapParams</a> *params)</td></tr>
+<tr class="separator:ga7953264cab6f7034133454093ced0b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8c5cf7090bd0ccf8f3db227dad5feea8" id="r_ga8c5cf7090bd0ccf8f3db227dad5feea8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga8c5cf7090bd0ccf8f3db227dad5feea8">MR_DistanceMapToWorld_Construct_MR_AffineXf3f</a> (const <a class="elRef" href="../C/structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf)</td></tr>
+<tr class="separator:ga8c5cf7090bd0ccf8f3db227dad5feea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa43ae276b71e442c2aa93c281b5a034d" id="r_gaa43ae276b71e442c2aa93c281b5a034d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gaa43ae276b71e442c2aa93c281b5a034d">MR_DistanceMapToWorld_Destroy</a> (const <a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *_this)</td></tr>
+<tr class="separator:gaa43ae276b71e442c2aa93c281b5a034d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4c037384569f2acd9759b48defbb7539" id="r_ga4c037384569f2acd9759b48defbb7539"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga4c037384569f2acd9759b48defbb7539">MR_DistanceMapToWorld_DestroyArray</a> (const <a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *_this)</td></tr>
+<tr class="separator:ga4c037384569f2acd9759b48defbb7539"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga230c7a2eb5d8a8c21d62ddde3656f6d6" id="r_ga230c7a2eb5d8a8c21d62ddde3656f6d6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__AffineXf3f.html">MR_AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga230c7a2eb5d8a8c21d62ddde3656f6d6">MR_DistanceMapToWorld_ConvertTo_MR_AffineXf3f</a> (const <a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *_this)</td></tr>
+<tr class="separator:ga230c7a2eb5d8a8c21d62ddde3656f6d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gade636e08cebc1d0be02c7addecc12f83" id="r_gade636e08cebc1d0be02c7addecc12f83"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gade636e08cebc1d0be02c7addecc12f83">MR_DistanceMapToWorld_AssignFromAnother</a> (<a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *_this, const <a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *_other)</td></tr>
+<tr class="separator:gade636e08cebc1d0be02c7addecc12f83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga602c36048ea5499050c8fea6b214826b" id="r_ga602c36048ea5499050c8fea6b214826b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga602c36048ea5499050c8fea6b214826b">MR_DistanceMapToWorld_toWorld</a> (const <a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *_this, float x, float y, float depth)</td></tr>
+<tr class="separator:ga602c36048ea5499050c8fea6b214826b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafb22f53befd69701a53c020d42c7023a" id="r_gafb22f53befd69701a53c020d42c7023a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__AffineXf3f.html">MR_AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gafb22f53befd69701a53c020d42c7023a">MR_DistanceMapToWorld_xf</a> (const <a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *_this)</td></tr>
+<tr class="separator:gafb22f53befd69701a53c020d42c7023a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga478e0955eabe020ba696f17e867cec24" id="r_ga478e0955eabe020ba696f17e867cec24"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga478e0955eabe020ba696f17e867cec24">MR_DistanceMapLoadSettings_Get_distanceMapToWorld</a> (const <a class="elRef" href="../C/MRDistanceMapLoad_8h.html#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *_this)</td></tr>
+<tr class="separator:ga478e0955eabe020ba696f17e867cec24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8fe0c7b281f092473e82a6e594e2edbd" id="r_ga8fe0c7b281f092473e82a6e594e2edbd"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga8fe0c7b281f092473e82a6e594e2edbd">MR_DistanceMapLoadSettings_Set_distanceMapToWorld</a> (<a class="elRef" href="../C/MRDistanceMapLoad_8h.html#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *_this, <a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *value)</td></tr>
+<tr class="separator:ga8fe0c7b281f092473e82a6e594e2edbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab56a0bd1fb2c3e09e8f00e844edf82b1" id="r_gab56a0bd1fb2c3e09e8f00e844edf82b1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gab56a0bd1fb2c3e09e8f00e844edf82b1">MR_DistanceMapLoadSettings_GetMutable_distanceMapToWorld</a> (<a class="elRef" href="../C/MRDistanceMapLoad_8h.html#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *_this)</td></tr>
+<tr class="separator:gab56a0bd1fb2c3e09e8f00e844edf82b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3e490d6d5d5bfb8b5c5a714b7375f517" id="r_ga3e490d6d5d5bfb8b5c5a714b7375f517"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga3e490d6d5d5bfb8b5c5a714b7375f517">MR_DistanceMapLoadSettings_Get_progress</a> (const <a class="elRef" href="../C/MRDistanceMapLoad_8h.html#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *_this)</td></tr>
+<tr class="separator:ga3e490d6d5d5bfb8b5c5a714b7375f517"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga75531b5de112773ae3cd1710a2c7f287" id="r_ga75531b5de112773ae3cd1710a2c7f287"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga75531b5de112773ae3cd1710a2c7f287">MR_DistanceMapLoadSettings_Set_progress</a> (<a class="elRef" href="../C/MRDistanceMapLoad_8h.html#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *_this, <a class="elRef" href="../C/common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="elRef" href="../C/MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
+<tr class="separator:ga75531b5de112773ae3cd1710a2c7f287"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa637513c83c537217b5a20d66cfc3a3f" id="r_gaa637513c83c537217b5a20d66cfc3a3f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gaa637513c83c537217b5a20d66cfc3a3f">MR_DistanceMapLoadSettings_GetMutable_progress</a> (<a class="elRef" href="../C/MRDistanceMapLoad_8h.html#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *_this)</td></tr>
+<tr class="separator:gaa637513c83c537217b5a20d66cfc3a3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7b3b96bdd4d5d1b0aa65ed6f6e1d1fe9" id="r_ga7b3b96bdd4d5d1b0aa65ed6f6e1d1fe9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMapLoad_8h.html#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga7b3b96bdd4d5d1b0aa65ed6f6e1d1fe9">MR_DistanceMapLoadSettings_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ga7b3b96bdd4d5d1b0aa65ed6f6e1d1fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8d4e19d50aacc5af6213dd1d48ca00af" id="r_ga8d4e19d50aacc5af6213dd1d48ca00af"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMapLoad_8h.html#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga8d4e19d50aacc5af6213dd1d48ca00af">MR_DistanceMapLoadSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ga8d4e19d50aacc5af6213dd1d48ca00af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeeeec0cc886653542c64772a98f81f70" id="r_gaeeeec0cc886653542c64772a98f81f70"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMapLoad_8h.html#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gaeeeec0cc886653542c64772a98f81f70">MR_DistanceMapLoadSettings_ConstructFrom</a> (<a class="elRef" href="../C/group__DistanceMapGroup.html#ga20641c296a854171ffca0e1334e8a422">MR_DistanceMapToWorld</a> *distanceMapToWorld, <a class="elRef" href="../C/common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> progress_pass_by, <a class="elRef" href="../C/MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress)</td></tr>
+<tr class="separator:gaeeeec0cc886653542c64772a98f81f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaef6711ac9cee72e8b536e99dbc8d3324" id="r_gaef6711ac9cee72e8b536e99dbc8d3324"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/MRDistanceMapLoad_8h.html#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gaef6711ac9cee72e8b536e99dbc8d3324">MR_DistanceMapLoadSettings_OffsetPtr</a> (const <a class="elRef" href="../C/MRDistanceMapLoad_8h.html#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="separator:gaef6711ac9cee72e8b536e99dbc8d3324"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4dfca9543d19eaf0687116f50e7182f6" id="r_ga4dfca9543d19eaf0687116f50e7182f6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMapLoad_8h.html#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga4dfca9543d19eaf0687116f50e7182f6">MR_DistanceMapLoadSettings_OffsetMutablePtr</a> (<a class="elRef" href="../C/MRDistanceMapLoad_8h.html#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="separator:ga4dfca9543d19eaf0687116f50e7182f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaceda7df419fbc3d54aa0f0b099b91710" id="r_gaceda7df419fbc3d54aa0f0b099b91710"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMapLoad_8h.html#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gaceda7df419fbc3d54aa0f0b099b91710">MR_DistanceMapLoadSettings_ConstructFromAnother</a> (<a class="elRef" href="../C/common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="elRef" href="../C/MRDistanceMapLoad_8h.html#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *_other)</td></tr>
+<tr class="separator:gaceda7df419fbc3d54aa0f0b099b91710"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae456ec158b0241bbfb94c5c554d91f7b" id="r_gae456ec158b0241bbfb94c5c554d91f7b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gae456ec158b0241bbfb94c5c554d91f7b">MR_DistanceMapLoadSettings_Destroy</a> (const <a class="elRef" href="../C/MRDistanceMapLoad_8h.html#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *_this)</td></tr>
+<tr class="separator:gae456ec158b0241bbfb94c5c554d91f7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga43aa3708c03d15ed33ff9bdc297f333d" id="r_ga43aa3708c03d15ed33ff9bdc297f333d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga43aa3708c03d15ed33ff9bdc297f333d">MR_DistanceMapLoadSettings_DestroyArray</a> (const <a class="elRef" href="../C/MRDistanceMapLoad_8h.html#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *_this)</td></tr>
+<tr class="separator:ga43aa3708c03d15ed33ff9bdc297f333d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab29e68e8448c308a37f9e0039ba15ecc" id="r_gab29e68e8448c308a37f9e0039ba15ecc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMapLoad_8h.html#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gab29e68e8448c308a37f9e0039ba15ecc">MR_DistanceMapLoadSettings_AssignFromAnother</a> (<a class="elRef" href="../C/MRDistanceMapLoad_8h.html#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *_this, <a class="elRef" href="../C/common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="elRef" href="../C/MRDistanceMapLoad_8h.html#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *_other)</td></tr>
+<tr class="separator:gab29e68e8448c308a37f9e0039ba15ecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafa14cee1088d226f7bd8e2c17ff4eca4" id="r_gafa14cee1088d226f7bd8e2c17ff4eca4"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/structMR__AffineXf3f.html">MR_AffineXf3f</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gafa14cee1088d226f7bd8e2c17ff4eca4">MR_DistanceMapSaveSettings_Get_xf</a> (const <a class="elRef" href="../C/group__DistanceMapGroup.html#ga2b8e42b38bd4d4f8c966e3bc97e7527e">MR_DistanceMapSaveSettings</a> *_this)</td></tr>
+<tr class="separator:gafa14cee1088d226f7bd8e2c17ff4eca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab9ff0f63ab6d2876b41f74251bc827c1" id="r_gab9ff0f63ab6d2876b41f74251bc827c1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gab9ff0f63ab6d2876b41f74251bc827c1">MR_DistanceMapSaveSettings_Set_xf</a> (<a class="elRef" href="../C/group__DistanceMapGroup.html#ga2b8e42b38bd4d4f8c966e3bc97e7527e">MR_DistanceMapSaveSettings</a> *_this, const <a class="elRef" href="../C/structMR__AffineXf3f.html">MR_AffineXf3f</a> *value)</td></tr>
+<tr class="separator:gab9ff0f63ab6d2876b41f74251bc827c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga192da89152e9ae51928761553feb67f7" id="r_ga192da89152e9ae51928761553feb67f7"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/structMR__AffineXf3f.html">MR_AffineXf3f</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga192da89152e9ae51928761553feb67f7">MR_DistanceMapSaveSettings_GetMutable_xf</a> (<a class="elRef" href="../C/group__DistanceMapGroup.html#ga2b8e42b38bd4d4f8c966e3bc97e7527e">MR_DistanceMapSaveSettings</a> *_this)</td></tr>
+<tr class="separator:ga192da89152e9ae51928761553feb67f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga338b409050c6b2c81bdc3a1b3e57cfb4" id="r_ga338b409050c6b2c81bdc3a1b3e57cfb4"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga338b409050c6b2c81bdc3a1b3e57cfb4">MR_DistanceMapSaveSettings_Get_progress</a> (const <a class="elRef" href="../C/group__DistanceMapGroup.html#ga2b8e42b38bd4d4f8c966e3bc97e7527e">MR_DistanceMapSaveSettings</a> *_this)</td></tr>
+<tr class="separator:ga338b409050c6b2c81bdc3a1b3e57cfb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga09524c929405b5e421cf29c5ec50d496" id="r_ga09524c929405b5e421cf29c5ec50d496"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga09524c929405b5e421cf29c5ec50d496">MR_DistanceMapSaveSettings_Set_progress</a> (<a class="elRef" href="../C/group__DistanceMapGroup.html#ga2b8e42b38bd4d4f8c966e3bc97e7527e">MR_DistanceMapSaveSettings</a> *_this, <a class="elRef" href="../C/common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="elRef" href="../C/MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
+<tr class="separator:ga09524c929405b5e421cf29c5ec50d496"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad3effd0ac35f850b2084abe6ba4698e7" id="r_gad3effd0ac35f850b2084abe6ba4698e7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gad3effd0ac35f850b2084abe6ba4698e7">MR_DistanceMapSaveSettings_GetMutable_progress</a> (<a class="elRef" href="../C/group__DistanceMapGroup.html#ga2b8e42b38bd4d4f8c966e3bc97e7527e">MR_DistanceMapSaveSettings</a> *_this)</td></tr>
+<tr class="separator:gad3effd0ac35f850b2084abe6ba4698e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6e7f6fa988b3c997141d739d940264c4" id="r_ga6e7f6fa988b3c997141d739d940264c4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__DistanceMapGroup.html#ga2b8e42b38bd4d4f8c966e3bc97e7527e">MR_DistanceMapSaveSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga6e7f6fa988b3c997141d739d940264c4">MR_DistanceMapSaveSettings_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ga6e7f6fa988b3c997141d739d940264c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7c61e5d72b95e69a5553d31ed955d7b5" id="r_ga7c61e5d72b95e69a5553d31ed955d7b5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__DistanceMapGroup.html#ga2b8e42b38bd4d4f8c966e3bc97e7527e">MR_DistanceMapSaveSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga7c61e5d72b95e69a5553d31ed955d7b5">MR_DistanceMapSaveSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ga7c61e5d72b95e69a5553d31ed955d7b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga52bfbdc316c982fd1493d75f3ffce731" id="r_ga52bfbdc316c982fd1493d75f3ffce731"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__DistanceMapGroup.html#ga2b8e42b38bd4d4f8c966e3bc97e7527e">MR_DistanceMapSaveSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga52bfbdc316c982fd1493d75f3ffce731">MR_DistanceMapSaveSettings_ConstructFrom</a> (const <a class="elRef" href="../C/structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf, <a class="elRef" href="../C/common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> progress_pass_by, <a class="elRef" href="../C/MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress)</td></tr>
+<tr class="separator:ga52bfbdc316c982fd1493d75f3ffce731"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga410a46e7ed313d2f024f0a0c5e15737c" id="r_ga410a46e7ed313d2f024f0a0c5e15737c"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/group__DistanceMapGroup.html#ga2b8e42b38bd4d4f8c966e3bc97e7527e">MR_DistanceMapSaveSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga410a46e7ed313d2f024f0a0c5e15737c">MR_DistanceMapSaveSettings_OffsetPtr</a> (const <a class="elRef" href="../C/group__DistanceMapGroup.html#ga2b8e42b38bd4d4f8c966e3bc97e7527e">MR_DistanceMapSaveSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="separator:ga410a46e7ed313d2f024f0a0c5e15737c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae59b3b5ab3b8270096cd24984715a60b" id="r_gae59b3b5ab3b8270096cd24984715a60b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__DistanceMapGroup.html#ga2b8e42b38bd4d4f8c966e3bc97e7527e">MR_DistanceMapSaveSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gae59b3b5ab3b8270096cd24984715a60b">MR_DistanceMapSaveSettings_OffsetMutablePtr</a> (<a class="elRef" href="../C/group__DistanceMapGroup.html#ga2b8e42b38bd4d4f8c966e3bc97e7527e">MR_DistanceMapSaveSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="separator:gae59b3b5ab3b8270096cd24984715a60b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7598054133b37ecedfa32413f37ddeda" id="r_ga7598054133b37ecedfa32413f37ddeda"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__DistanceMapGroup.html#ga2b8e42b38bd4d4f8c966e3bc97e7527e">MR_DistanceMapSaveSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga7598054133b37ecedfa32413f37ddeda">MR_DistanceMapSaveSettings_ConstructFromAnother</a> (<a class="elRef" href="../C/common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="elRef" href="../C/group__DistanceMapGroup.html#ga2b8e42b38bd4d4f8c966e3bc97e7527e">MR_DistanceMapSaveSettings</a> *_other)</td></tr>
+<tr class="separator:ga7598054133b37ecedfa32413f37ddeda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0631830385d59dbe3e289cf854eb811d" id="r_ga0631830385d59dbe3e289cf854eb811d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga0631830385d59dbe3e289cf854eb811d">MR_DistanceMapSaveSettings_Destroy</a> (const <a class="elRef" href="../C/group__DistanceMapGroup.html#ga2b8e42b38bd4d4f8c966e3bc97e7527e">MR_DistanceMapSaveSettings</a> *_this)</td></tr>
+<tr class="separator:ga0631830385d59dbe3e289cf854eb811d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga38cdba595d9763c245ff2b06ec818098" id="r_ga38cdba595d9763c245ff2b06ec818098"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga38cdba595d9763c245ff2b06ec818098">MR_DistanceMapSaveSettings_DestroyArray</a> (const <a class="elRef" href="../C/group__DistanceMapGroup.html#ga2b8e42b38bd4d4f8c966e3bc97e7527e">MR_DistanceMapSaveSettings</a> *_this)</td></tr>
+<tr class="separator:ga38cdba595d9763c245ff2b06ec818098"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga88fe2c2f1b81a280ad0e3918f541ba06" id="r_ga88fe2c2f1b81a280ad0e3918f541ba06"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__DistanceMapGroup.html#ga2b8e42b38bd4d4f8c966e3bc97e7527e">MR_DistanceMapSaveSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga88fe2c2f1b81a280ad0e3918f541ba06">MR_DistanceMapSaveSettings_AssignFromAnother</a> (<a class="elRef" href="../C/group__DistanceMapGroup.html#ga2b8e42b38bd4d4f8c966e3bc97e7527e">MR_DistanceMapSaveSettings</a> *_this, <a class="elRef" href="../C/common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="elRef" href="../C/group__DistanceMapGroup.html#ga2b8e42b38bd4d4f8c966e3bc97e7527e">MR_DistanceMapSaveSettings</a> *_other)</td></tr>
+<tr class="separator:ga88fe2c2f1b81a280ad0e3918f541ba06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabf7b469b8c7ebb19c78aaf18c98bc3b9" id="r_gabf7b469b8c7ebb19c78aaf18c98bc3b9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__DistanceMapGroup.html#gadbb0f842a0b4b7e200f6b1a38d89a490">MR_OutEdge2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gabf7b469b8c7ebb19c78aaf18c98bc3b9">MR_opposite_MR_OutEdge2</a> (<a class="elRef" href="../C/group__DistanceMapGroup.html#gadbb0f842a0b4b7e200f6b1a38d89a490">MR_OutEdge2</a> e)</td></tr>
+<tr class="separator:gabf7b469b8c7ebb19c78aaf18c98bc3b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac279c052a0245cdf3c9fa781c5ffb9c5" id="r_gac279c052a0245cdf3c9fa781c5ffb9c5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gac279c052a0245cdf3c9fa781c5ffb9c5">MR_RectIndexer_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:gac279c052a0245cdf3c9fa781c5ffb9c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac976466e49ac5be3b4933a52ddfb6ca9" id="r_gac976466e49ac5be3b4933a52ddfb6ca9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gac976466e49ac5be3b4933a52ddfb6ca9">MR_RectIndexer_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:gac976466e49ac5be3b4933a52ddfb6ca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf1a1c5b0e0a59ea2f658c3f1c52283ec" id="r_gaf1a1c5b0e0a59ea2f658c3f1c52283ec"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gaf1a1c5b0e0a59ea2f658c3f1c52283ec">MR_RectIndexer_OffsetPtr</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="separator:gaf1a1c5b0e0a59ea2f658c3f1c52283ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3683479ee7c3662ecc2ddc0ae8970493" id="r_ga3683479ee7c3662ecc2ddc0ae8970493"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga3683479ee7c3662ecc2ddc0ae8970493">MR_RectIndexer_OffsetMutablePtr</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="separator:ga3683479ee7c3662ecc2ddc0ae8970493"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gada56d6dda1e1707af2253c1e93e62287" id="r_gada56d6dda1e1707af2253c1e93e62287"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/MRDistanceMap_8h.html#ac5b3176651bd10f11559934b0565b6ee">MR_DistanceMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gada56d6dda1e1707af2253c1e93e62287">MR_RectIndexer_StaticDowncastTo_MR_DistanceMap</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *object)</td></tr>
+<tr class="separator:gada56d6dda1e1707af2253c1e93e62287"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadfc2955bd5916742ab7dd4728978acb0" id="r_gadfc2955bd5916742ab7dd4728978acb0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#ac5b3176651bd10f11559934b0565b6ee">MR_DistanceMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gadfc2955bd5916742ab7dd4728978acb0">MR_RectIndexer_MutableStaticDowncastTo_MR_DistanceMap</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *object)</td></tr>
+<tr class="separator:gadfc2955bd5916742ab7dd4728978acb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9c4d18935321ef3c5a4a722277791bca" id="r_ga9c4d18935321ef3c5a4a722277791bca"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/MRDistanceMap_8h.html#a7cdde60e20392324b624c6508b359f95">MR_Matrix_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga9c4d18935321ef3c5a4a722277791bca">MR_RectIndexer_StaticDowncastTo_MR_Matrix_float</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *object)</td></tr>
+<tr class="separator:ga9c4d18935321ef3c5a4a722277791bca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4b652a3d7fe490467290f21780b33987" id="r_ga4b652a3d7fe490467290f21780b33987"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#a7cdde60e20392324b624c6508b359f95">MR_Matrix_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga4b652a3d7fe490467290f21780b33987">MR_RectIndexer_MutableStaticDowncastTo_MR_Matrix_float</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *object)</td></tr>
+<tr class="separator:ga4b652a3d7fe490467290f21780b33987"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7741bd754627a153f5219bac95bab589" id="r_ga7741bd754627a153f5219bac95bab589"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga7741bd754627a153f5219bac95bab589">MR_RectIndexer_ConstructFromAnother</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *_other)</td></tr>
+<tr class="separator:ga7741bd754627a153f5219bac95bab589"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabde9e7fc48fd8d657f7e250ad992023b" id="r_gabde9e7fc48fd8d657f7e250ad992023b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gabde9e7fc48fd8d657f7e250ad992023b">MR_RectIndexer_Construct</a> (const <a class="elRef" href="../C/structMR__Vector2i.html">MR_Vector2i</a> *dims)</td></tr>
+<tr class="separator:gabde9e7fc48fd8d657f7e250ad992023b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga296cd76770fbf3653eecba832f9ce10c" id="r_ga296cd76770fbf3653eecba832f9ce10c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga296cd76770fbf3653eecba832f9ce10c">MR_RectIndexer_Destroy</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *_this)</td></tr>
+<tr class="separator:ga296cd76770fbf3653eecba832f9ce10c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga164ebfe364f69b21f80aa4d209b63801" id="r_ga164ebfe364f69b21f80aa4d209b63801"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga164ebfe364f69b21f80aa4d209b63801">MR_RectIndexer_DestroyArray</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *_this)</td></tr>
+<tr class="separator:ga164ebfe364f69b21f80aa4d209b63801"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafcb61fc17dfeca6c36baba2a92a8a544" id="r_gafcb61fc17dfeca6c36baba2a92a8a544"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gafcb61fc17dfeca6c36baba2a92a8a544">MR_RectIndexer_AssignFromAnother</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *_this, const <a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *_other)</td></tr>
+<tr class="separator:gafcb61fc17dfeca6c36baba2a92a8a544"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad19580d4052f35721c9afdbaf3be74c3" id="r_gad19580d4052f35721c9afdbaf3be74c3"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gad19580d4052f35721c9afdbaf3be74c3">MR_RectIndexer_resize</a> (<a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *_this, const <a class="elRef" href="../C/structMR__Vector2i.html">MR_Vector2i</a> *dims)</td></tr>
+<tr class="separator:gad19580d4052f35721c9afdbaf3be74c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4996a06e4713aaabd0add2117f58efb4" id="r_ga4996a06e4713aaabd0add2117f58efb4"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/structMR__Vector2i.html">MR_Vector2i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga4996a06e4713aaabd0add2117f58efb4">MR_RectIndexer_dims</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *_this)</td></tr>
+<tr class="separator:ga4996a06e4713aaabd0add2117f58efb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1f9095d7c54eb6bd6424b108518d297b" id="r_ga1f9095d7c54eb6bd6424b108518d297b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga1f9095d7c54eb6bd6424b108518d297b">MR_RectIndexer_size</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *_this)</td></tr>
+<tr class="separator:ga1f9095d7c54eb6bd6424b108518d297b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae823480ba633697b40ac5f71010278f6" id="r_gae823480ba633697b40ac5f71010278f6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__Vector2i.html">MR_Vector2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gae823480ba633697b40ac5f71010278f6">MR_RectIndexer_toPos_MR_PixelId</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *_this, <a class="elRef" href="../C/structMR__PixelId.html">MR_PixelId</a> id)</td></tr>
+<tr class="separator:gae823480ba633697b40ac5f71010278f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2a4fa5ae1c9ee8d3658ced1944aa638f" id="r_ga2a4fa5ae1c9ee8d3658ced1944aa638f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__Vector2i.html">MR_Vector2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga2a4fa5ae1c9ee8d3658ced1944aa638f">MR_RectIndexer_toPos_uint64_t</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *_this, <a class="elRef" href="../C/common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> id)</td></tr>
+<tr class="separator:ga2a4fa5ae1c9ee8d3658ced1944aa638f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga42959ab3aa093eb4b9ed280584f794c4" id="r_ga42959ab3aa093eb4b9ed280584f794c4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__PixelId.html">MR_PixelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga42959ab3aa093eb4b9ed280584f794c4">MR_RectIndexer_toPixelId</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *_this, const <a class="elRef" href="../C/structMR__Vector2i.html">MR_Vector2i</a> *pos)</td></tr>
+<tr class="separator:ga42959ab3aa093eb4b9ed280584f794c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga656a084921950c88d1d8ba4acd56a83e" id="r_ga656a084921950c88d1d8ba4acd56a83e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga656a084921950c88d1d8ba4acd56a83e">MR_RectIndexer_toIndex</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *_this, const <a class="elRef" href="../C/structMR__Vector2i.html">MR_Vector2i</a> *pos)</td></tr>
+<tr class="separator:ga656a084921950c88d1d8ba4acd56a83e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacc8314171f38bb63f61e7cfa37c31a5b" id="r_gacc8314171f38bb63f61e7cfa37c31a5b"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gacc8314171f38bb63f61e7cfa37c31a5b">MR_RectIndexer_areNeigbors_MR_PixelId</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *_this, <a class="elRef" href="../C/structMR__PixelId.html">MR_PixelId</a> v0, <a class="elRef" href="../C/structMR__PixelId.html">MR_PixelId</a> v1)</td></tr>
+<tr class="separator:gacc8314171f38bb63f61e7cfa37c31a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabc2c9777792225a2964016594ab5bee0" id="r_gabc2c9777792225a2964016594ab5bee0"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gabc2c9777792225a2964016594ab5bee0">MR_RectIndexer_areNeigbors_MR_Vector2i</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *_this, const <a class="elRef" href="../C/structMR__Vector2i.html">MR_Vector2i</a> *pos0, const <a class="elRef" href="../C/structMR__Vector2i.html">MR_Vector2i</a> *pos1)</td></tr>
+<tr class="separator:gabc2c9777792225a2964016594ab5bee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga431d9a12ae1af635e63d4a62fa68c8e8" id="r_ga431d9a12ae1af635e63d4a62fa68c8e8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__PixelId.html">MR_PixelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga431d9a12ae1af635e63d4a62fa68c8e8">MR_RectIndexer_getNeighbor_2</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *_this, <a class="elRef" href="../C/structMR__PixelId.html">MR_PixelId</a> v, <a class="elRef" href="../C/group__DistanceMapGroup.html#gadbb0f842a0b4b7e200f6b1a38d89a490">MR_OutEdge2</a> toNei)</td></tr>
+<tr class="separator:ga431d9a12ae1af635e63d4a62fa68c8e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2a3997cec3831f653abd32bedcbd3b02" id="r_ga2a3997cec3831f653abd32bedcbd3b02"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__PixelId.html">MR_PixelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga2a3997cec3831f653abd32bedcbd3b02">MR_RectIndexer_getNeighbor_3</a> (const <a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *_this, <a class="elRef" href="../C/structMR__PixelId.html">MR_PixelId</a> v, const <a class="elRef" href="../C/structMR__Vector2i.html">MR_Vector2i</a> *pos, <a class="elRef" href="../C/group__DistanceMapGroup.html#gadbb0f842a0b4b7e200f6b1a38d89a490">MR_OutEdge2</a> toNei)</td></tr>
+<tr class="separator:ga2a3997cec3831f653abd32bedcbd3b02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga226016ea9cd2116c674b3f4f79794f9b" id="r_ga226016ea9cd2116c674b3f4f79794f9b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga226016ea9cd2116c674b3f4f79794f9b">MR_expandPixelMask</a> (<a class="elRef" href="../C/MRBitSet_8h.html#afa3a86d9b655499ff627de90d4de265e">MR_PixelBitSet</a> *mask, const <a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *indexer, const int32_t *expansion)</td></tr>
+<tr class="separator:ga226016ea9cd2116c674b3f4f79794f9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga688334a182ae4ceb4a6ae322af0924ae" id="r_ga688334a182ae4ceb4a6ae322af0924ae"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#ga688334a182ae4ceb4a6ae322af0924ae">MR_shrinkPixelMask</a> (<a class="elRef" href="../C/MRBitSet_8h.html#afa3a86d9b655499ff627de90d4de265e">MR_PixelBitSet</a> *mask, const <a class="elRef" href="../C/MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *indexer, const int32_t *shrinkage)</td></tr>
+<tr class="separator:ga688334a182ae4ceb4a6ae322af0924ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga27435b7d8c5a7876aa45b60ea840b353" id="r_ga27435b7d8c5a7876aa45b60ea840b353"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga27435b7d8c5a7876aa45b60ea840b353">MR::combineXYderivativeMaps</a> (std::pair&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a>, <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt; XYderivativeMaps)</td></tr>
+<tr class="memdesc:ga27435b7d8c5a7876aa45b60ea840b353"><td class="mdescLeft">&#160;</td><td class="mdescRight">fill another distance map pair with gradients across X and Y axes of the argument map  <br /></td></tr>
+<tr class="separator:ga27435b7d8c5a7876aa45b60ea840b353"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf972733cbe1eca39d0f85671e30b514c" id="r_gaf972733cbe1eca39d0f85671e30b514c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf972733cbe1eca39d0f85671e30b514c">MR::computeDistanceMap</a> (const MeshPart &amp;mp, const <a class="el" href="structMR_1_1MeshToDistanceMapParams.html">MeshToDistanceMapParams</a> &amp;params, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={}, std::vector&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &gt; *outSamples=nullptr)</td></tr>
+<tr class="separator:gaf972733cbe1eca39d0f85671e30b514c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8f2c4ae318d14a691410a43d5c1c0ee4" id="r_ga8f2c4ae318d14a691410a43d5c1c0ee4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8f2c4ae318d14a691410a43d5c1c0ee4">MR::computeDistanceMapD</a> (const MeshPart &amp;mp, const <a class="el" href="structMR_1_1MeshToDistanceMapParams.html">MeshToDistanceMapParams</a> &amp;params, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={}, std::vector&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &gt; *outSamples=nullptr)</td></tr>
+<tr class="separator:ga8f2c4ae318d14a691410a43d5c1c0ee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6ba988d1173a8800e2ccfc5ac30d2a68" id="r_ga6ba988d1173a8800e2ccfc5ac30d2a68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6ba988d1173a8800e2ccfc5ac30d2a68">MR::distanceMapFromContours</a> (const Polyline2 &amp;contours, const <a class="el" href="structMR_1_1ContourToDistanceMapParams.html">ContourToDistanceMapParams</a> &amp;params, const <a class="el" href="structMR_1_1ContoursDistanceMapOptions.html">ContoursDistanceMapOptions</a> &amp;options={})</td></tr>
+<tr class="memdesc:ga6ba988d1173a8800e2ccfc5ac30d2a68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes distance of 2d contours according <a class="el" href="structMR_1_1ContourToDistanceMapParams.html" title="Structure with parameters to generate DistanceMap by Contours.">ContourToDistanceMapParams</a>.  <br /></td></tr>
+<tr class="separator:ga6ba988d1173a8800e2ccfc5ac30d2a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa50c3ffe7a7a332ff5cc4ca19890c47f" id="r_gaa50c3ffe7a7a332ff5cc4ca19890c47f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa50c3ffe7a7a332ff5cc4ca19890c47f">MR::distanceMapFromContours</a> (<a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;distMap, const Polyline2 &amp;polyline, const <a class="el" href="structMR_1_1ContourToDistanceMapParams.html">ContourToDistanceMapParams</a> &amp;params, const <a class="el" href="structMR_1_1ContoursDistanceMapOptions.html">ContoursDistanceMapOptions</a> &amp;options={})</td></tr>
+<tr class="memdesc:gaa50c3ffe7a7a332ff5cc4ca19890c47f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes distance of 2d contours according <a class="el" href="structMR_1_1ContourToDistanceMapParams.html" title="Structure with parameters to generate DistanceMap by Contours.">ContourToDistanceMapParams</a>.  <br /></td></tr>
+<tr class="separator:gaa50c3ffe7a7a332ff5cc4ca19890c47f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga00ea89be5cae9953d5df7ef382259b58" id="r_ga00ea89be5cae9953d5df7ef382259b58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; Vector3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga00ea89be5cae9953d5df7ef382259b58">MR::edgePointsFromContours</a> (const Polyline2 &amp;polyline, float pixelSize, float threshold)</td></tr>
+<tr class="separator:ga00ea89be5cae9953d5df7ef382259b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga91dadb5d280efea2e31e4620ed69cf56" id="r_ga91dadb5d280efea2e31e4620ed69cf56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Polyline2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga91dadb5d280efea2e31e4620ed69cf56">MR::distanceMapTo2DIsoPolyline</a> (const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;distMap, float isoValue)</td></tr>
+<tr class="separator:ga91dadb5d280efea2e31e4620ed69cf56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6d0dc4485cbdb50e2e0663aedcc73986" id="r_ga6d0dc4485cbdb50e2e0663aedcc73986"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Polyline2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6d0dc4485cbdb50e2e0663aedcc73986">MR::distanceMapTo2DIsoPolyline</a> (const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;distMap, const <a class="el" href="structMR_1_1ContourToDistanceMapParams.html">ContourToDistanceMapParams</a> &amp;params, float isoValue)</td></tr>
+<tr class="memdesc:ga6d0dc4485cbdb50e2e0663aedcc73986"><td class="mdescLeft">&#160;</td><td class="mdescRight">iso-lines are created in real space ( plane OXY with parameters according <a class="el" href="structMR_1_1ContourToDistanceMapParams.html" title="Structure with parameters to generate DistanceMap by Contours.">ContourToDistanceMapParams</a> )  <br /></td></tr>
+<tr class="separator:ga6d0dc4485cbdb50e2e0663aedcc73986"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga875406db41d922b9e6b597a1cc589c02" id="r_ga875406db41d922b9e6b597a1cc589c02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::pair&lt; Polyline2, AffineXf3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga875406db41d922b9e6b597a1cc589c02">MR::distanceMapTo2DIsoPolyline</a> (const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;distMap, const AffineXf3f &amp;xf, float isoValue, bool useDepth=false)</td></tr>
+<tr class="separator:ga875406db41d922b9e6b597a1cc589c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1acaca885d3034b9c8ef1f5cb9b8824a" id="r_ga1acaca885d3034b9c8ef1f5cb9b8824a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Polyline2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1acaca885d3034b9c8ef1f5cb9b8824a">MR::distanceMapTo2DIsoPolyline</a> (const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;distMap, float pixelSize, float isoValue)</td></tr>
+<tr class="separator:ga1acaca885d3034b9c8ef1f5cb9b8824a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf720ea7221e6ad284c8b0b80e5c58364" id="r_gaf720ea7221e6ad284c8b0b80e5c58364"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Polyline2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf720ea7221e6ad284c8b0b80e5c58364">MR::polylineOffset</a> (const Polyline2 &amp;polyline, float pixelSize, float offset)</td></tr>
+<tr class="memdesc:gaf720ea7221e6ad284c8b0b80e5c58364"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs an offset contour for given polyline  <br /></td></tr>
+<tr class="separator:gaf720ea7221e6ad284c8b0b80e5c58364"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga59af0939e79330f4ef6bcc99c74c196b" id="r_ga59af0939e79330f4ef6bcc99c74c196b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Polyline2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga59af0939e79330f4ef6bcc99c74c196b">MR::contourUnion</a> (const Polyline2 &amp;contoursA, const Polyline2 &amp;contoursB, const <a class="el" href="structMR_1_1ContourToDistanceMapParams.html">ContourToDistanceMapParams</a> &amp;params, float offsetInside=0)</td></tr>
+<tr class="memdesc:ga59af0939e79330f4ef6bcc99c74c196b"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the union of the shapes bounded by input 2d contours  <br /></td></tr>
+<tr class="separator:ga59af0939e79330f4ef6bcc99c74c196b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8461963f3447f163979179222275114c" id="r_ga8461963f3447f163979179222275114c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Polyline2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8461963f3447f163979179222275114c">MR::contourIntersection</a> (const Polyline2 &amp;contoursA, const Polyline2 &amp;contoursB, const <a class="el" href="structMR_1_1ContourToDistanceMapParams.html">ContourToDistanceMapParams</a> &amp;params, float offsetInside=0.f)</td></tr>
+<tr class="memdesc:ga8461963f3447f163979179222275114c"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the intersection of the shapes bounded by input 2d contours  <br /></td></tr>
+<tr class="separator:ga8461963f3447f163979179222275114c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9ec7f0e4e736da31de012ad0e33f6b33" id="r_ga9ec7f0e4e736da31de012ad0e33f6b33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Polyline2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9ec7f0e4e736da31de012ad0e33f6b33">MR::contourSubtract</a> (const Polyline2 &amp;contoursA, const Polyline2 &amp;contoursB, const <a class="el" href="structMR_1_1ContourToDistanceMapParams.html">ContourToDistanceMapParams</a> &amp;params, float offsetInside=0.f)</td></tr>
+<tr class="memdesc:ga9ec7f0e4e736da31de012ad0e33f6b33"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the difference between the shapes bounded by contoursA and the shapes bounded by contoursB  <br /></td></tr>
+<tr class="separator:ga9ec7f0e4e736da31de012ad0e33f6b33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga145ea179a83ff19d1734af8771bba71a" id="r_ga145ea179a83ff19d1734af8771bba71a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga145ea179a83ff19d1734af8771bba71a">MR::distanceMapToMesh</a> (const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;distMap, const AffineXf3f &amp;toWorld, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memdesc:ga145ea179a83ff19d1734af8771bba71a"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts distance map into mesh and applies a transformation to all points  <br /></td></tr>
+<tr class="separator:ga145ea179a83ff19d1734af8771bba71a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadf85ea3c5943f6cd2cb8864c2991f6f2" id="r_gadf85ea3c5943f6cd2cb8864c2991f6f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Image.html">Image</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadf85ea3c5943f6cd2cb8864c2991f6f2">MR::convertDistanceMapToImage</a> (const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;distMap, float threshold=1.f/255)</td></tr>
+<tr class="separator:gadf85ea3c5943f6cd2cb8864c2991f6f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabfddf0510446a24e68326d0574949301" id="r_gabfddf0510446a24e68326d0574949301"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabfddf0510446a24e68326d0574949301">MR::convertImageToDistanceMap</a> (const <a class="el" href="structMR_1_1Image.html">Image</a> &amp;image, float threshold=1.f/255, bool invert=true)</td></tr>
+<tr class="separator:gabfddf0510446a24e68326d0574949301"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga91a308e751ba7d6ace30ea1a895eb3fb" id="r_ga91a308e751ba7d6ace30ea1a895eb3fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gab7acb4543154d042c297e5823fb633b6">OutEdge2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga91a308e751ba7d6ace30ea1a895eb3fb">MR::opposite</a> (<a class="el" href="#gab7acb4543154d042c297e5823fb633b6">OutEdge2</a> e)</td></tr>
+<tr class="separator:ga91a308e751ba7d6ace30ea1a895eb3fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6c5838a3065551d1adbcde13e5cf895b" id="r_ga6c5838a3065551d1adbcde13e5cf895b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6c5838a3065551d1adbcde13e5cf895b">MR::expandPixelMask</a> (PixelBitSet &amp;mask, const <a class="el" href="classMR_1_1RectIndexer.html">RectIndexer</a> &amp;indexer, int expansion=1)</td></tr>
+<tr class="memdesc:ga6c5838a3065551d1adbcde13e5cf895b"><td class="mdescLeft">&#160;</td><td class="mdescRight">expands PixelBitSet with given number of steps  <br /></td></tr>
+<tr class="separator:ga6c5838a3065551d1adbcde13e5cf895b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacbedf1abc59aa1401992cc4d1e1ed306" id="r_gacbedf1abc59aa1401992cc4d1e1ed306"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacbedf1abc59aa1401992cc4d1e1ed306">MR::shrinkPixelMask</a> (PixelBitSet &amp;mask, const <a class="el" href="classMR_1_1RectIndexer.html">RectIndexer</a> &amp;indexer, int shrinkage=1)</td></tr>
+<tr class="memdesc:gacbedf1abc59aa1401992cc4d1e1ed306"><td class="mdescLeft">&#160;</td><td class="mdescRight">shrinks PixelBitSet with given number of steps  <br /></td></tr>
+<tr class="separator:gacbedf1abc59aa1401992cc4d1e1ed306"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga239b9939936c38ad89df91dd649ab13d" id="r_ga239b9939936c38ad89df91dd649ab13d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga239b9939936c38ad89df91dd649ab13d">MR::RectIndexer::RectIndexer</a> (const Vector2i &amp;<a class="el" href="classMR_1_1RectIndexer.html#a3ad518f3ebe31196088da356bd7646cb">dims</a>)</td></tr>
+<tr class="separator:ga239b9939936c38ad89df91dd649ab13d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga901329f8c2956e6baeb440b154c9907f" id="r_ga901329f8c2956e6baeb440b154c9907f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga901329f8c2956e6baeb440b154c9907f">MR::RectIndexer::resize</a> (const Vector2i &amp;<a class="el" href="classMR_1_1RectIndexer.html#a3ad518f3ebe31196088da356bd7646cb">dims</a>)</td></tr>
+<tr class="separator:ga901329f8c2956e6baeb440b154c9907f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga920d5e2ba75ebd9fe641aae7d50cce9f" id="r_ga920d5e2ba75ebd9fe641aae7d50cce9f"><td class="memItemLeft" align="right" valign="top">Vector2i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga920d5e2ba75ebd9fe641aae7d50cce9f">MR::RectIndexer::toPos</a> (size_t id) const</td></tr>
+<tr class="separator:ga920d5e2ba75ebd9fe641aae7d50cce9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacf16438d65e6771b0a308b2e232e86b1" id="r_gacf16438d65e6771b0a308b2e232e86b1"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacf16438d65e6771b0a308b2e232e86b1">MR::RectIndexer::toIndex</a> (const Vector2i &amp;pos) const</td></tr>
+<tr class="separator:gacf16438d65e6771b0a308b2e232e86b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:gga56a0f36da7f9eaaf54bd05cc2bf49173a01c338df064c4413855124f0514411d1" id="r_gga56a0f36da7f9eaaf54bd05cc2bf49173a01c338df064c4413855124f0514411d1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gga56a0f36da7f9eaaf54bd05cc2bf49173a01c338df064c4413855124f0514411d1">MR_OutEdge2_Invalid</a></td></tr>
+<tr class="separator:gga56a0f36da7f9eaaf54bd05cc2bf49173a01c338df064c4413855124f0514411d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gga56a0f36da7f9eaaf54bd05cc2bf49173ae3f54bfa8779e765d8d50e936ee91a49" id="r_gga56a0f36da7f9eaaf54bd05cc2bf49173ae3f54bfa8779e765d8d50e936ee91a49"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gga56a0f36da7f9eaaf54bd05cc2bf49173ae3f54bfa8779e765d8d50e936ee91a49">MR_OutEdge2_PlusY</a></td></tr>
+<tr class="separator:gga56a0f36da7f9eaaf54bd05cc2bf49173ae3f54bfa8779e765d8d50e936ee91a49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gga56a0f36da7f9eaaf54bd05cc2bf49173a991106c364e3bafdcd266ba9ad5336fc" id="r_gga56a0f36da7f9eaaf54bd05cc2bf49173a991106c364e3bafdcd266ba9ad5336fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gga56a0f36da7f9eaaf54bd05cc2bf49173a991106c364e3bafdcd266ba9ad5336fc">MR_OutEdge2_MinusY</a></td></tr>
+<tr class="separator:gga56a0f36da7f9eaaf54bd05cc2bf49173a991106c364e3bafdcd266ba9ad5336fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gga56a0f36da7f9eaaf54bd05cc2bf49173a60bf3d6b9aebc056b7125ee50be9a826" id="r_gga56a0f36da7f9eaaf54bd05cc2bf49173a60bf3d6b9aebc056b7125ee50be9a826"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gga56a0f36da7f9eaaf54bd05cc2bf49173a60bf3d6b9aebc056b7125ee50be9a826">MR_OutEdge2_PlusX</a></td></tr>
+<tr class="separator:gga56a0f36da7f9eaaf54bd05cc2bf49173a60bf3d6b9aebc056b7125ee50be9a826"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gga56a0f36da7f9eaaf54bd05cc2bf49173a5abb684d4aee49238ec8d8b2d3bde31c" id="r_gga56a0f36da7f9eaaf54bd05cc2bf49173a5abb684d4aee49238ec8d8b2d3bde31c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gga56a0f36da7f9eaaf54bd05cc2bf49173a5abb684d4aee49238ec8d8b2d3bde31c">MR_OutEdge2_MinusX</a></td></tr>
+<tr class="separator:gga56a0f36da7f9eaaf54bd05cc2bf49173a5abb684d4aee49238ec8d8b2d3bde31c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gga56a0f36da7f9eaaf54bd05cc2bf49173a9a5abc90e31366ee6925939f32ac27fd" id="r_gga56a0f36da7f9eaaf54bd05cc2bf49173a9a5abc90e31366ee6925939f32ac27fd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gga56a0f36da7f9eaaf54bd05cc2bf49173a9a5abc90e31366ee6925939f32ac27fd">MR_OutEdge2_Count</a></td></tr>
+<tr class="separator:gga56a0f36da7f9eaaf54bd05cc2bf49173a9a5abc90e31366ee6925939f32ac27fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gga56a0f36da7f9eaaf54bd05cc2bf49173a01c338df064c4413855124f0514411d1" id="r_gga56a0f36da7f9eaaf54bd05cc2bf49173a01c338df064c4413855124f0514411d1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gga56a0f36da7f9eaaf54bd05cc2bf49173a01c338df064c4413855124f0514411d1">MR_OutEdge2_Invalid</a></td></tr>
+<tr class="separator:gga56a0f36da7f9eaaf54bd05cc2bf49173a01c338df064c4413855124f0514411d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gga56a0f36da7f9eaaf54bd05cc2bf49173ae3f54bfa8779e765d8d50e936ee91a49" id="r_gga56a0f36da7f9eaaf54bd05cc2bf49173ae3f54bfa8779e765d8d50e936ee91a49"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gga56a0f36da7f9eaaf54bd05cc2bf49173ae3f54bfa8779e765d8d50e936ee91a49">MR_OutEdge2_PlusY</a></td></tr>
+<tr class="separator:gga56a0f36da7f9eaaf54bd05cc2bf49173ae3f54bfa8779e765d8d50e936ee91a49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gga56a0f36da7f9eaaf54bd05cc2bf49173a991106c364e3bafdcd266ba9ad5336fc" id="r_gga56a0f36da7f9eaaf54bd05cc2bf49173a991106c364e3bafdcd266ba9ad5336fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gga56a0f36da7f9eaaf54bd05cc2bf49173a991106c364e3bafdcd266ba9ad5336fc">MR_OutEdge2_MinusY</a></td></tr>
+<tr class="separator:gga56a0f36da7f9eaaf54bd05cc2bf49173a991106c364e3bafdcd266ba9ad5336fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gga56a0f36da7f9eaaf54bd05cc2bf49173a60bf3d6b9aebc056b7125ee50be9a826" id="r_gga56a0f36da7f9eaaf54bd05cc2bf49173a60bf3d6b9aebc056b7125ee50be9a826"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gga56a0f36da7f9eaaf54bd05cc2bf49173a60bf3d6b9aebc056b7125ee50be9a826">MR_OutEdge2_PlusX</a></td></tr>
+<tr class="separator:gga56a0f36da7f9eaaf54bd05cc2bf49173a60bf3d6b9aebc056b7125ee50be9a826"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gga56a0f36da7f9eaaf54bd05cc2bf49173a5abb684d4aee49238ec8d8b2d3bde31c" id="r_gga56a0f36da7f9eaaf54bd05cc2bf49173a5abb684d4aee49238ec8d8b2d3bde31c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gga56a0f36da7f9eaaf54bd05cc2bf49173a5abb684d4aee49238ec8d8b2d3bde31c">MR_OutEdge2_MinusX</a></td></tr>
+<tr class="separator:gga56a0f36da7f9eaaf54bd05cc2bf49173a5abb684d4aee49238ec8d8b2d3bde31c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gga56a0f36da7f9eaaf54bd05cc2bf49173a9a5abc90e31366ee6925939f32ac27fd" id="r_gga56a0f36da7f9eaaf54bd05cc2bf49173a9a5abc90e31366ee6925939f32ac27fd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__DistanceMapGroup.html#gga56a0f36da7f9eaaf54bd05cc2bf49173a9a5abc90e31366ee6925939f32ac27fd">MR_OutEdge2_Count</a></td></tr>
+<tr class="separator:gga56a0f36da7f9eaaf54bd05cc2bf49173a9a5abc90e31366ee6925939f32ac27fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="gab7acb4543154d042c297e5823fb633b6" name="gab7acb4543154d042c297e5823fb633b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab7acb4543154d042c297e5823fb633b6">&#9670;&#160;</a></span>OutEdge2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#gab7acb4543154d042c297e5823fb633b6">MR::OutEdge2</a> : signed char</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggab7acb4543154d042c297e5823fb633b6a4bbb8f967da6d1a610596d7257179c2b" name="ggab7acb4543154d042c297e5823fb633b6a4bbb8f967da6d1a610596d7257179c2b"></a>Invalid&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggab7acb4543154d042c297e5823fb633b6a89241a914ba5d59de9168c4416e69c4a" name="ggab7acb4543154d042c297e5823fb633b6a89241a914ba5d59de9168c4416e69c4a"></a>PlusY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggab7acb4543154d042c297e5823fb633b6a9cc816b8a2117db796c073f012e78565" name="ggab7acb4543154d042c297e5823fb633b6a9cc816b8a2117db796c073f012e78565"></a>MinusY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggab7acb4543154d042c297e5823fb633b6aac53fa7ccf60e6f59512da11975eb8a7" name="ggab7acb4543154d042c297e5823fb633b6aac53fa7ccf60e6f59512da11975eb8a7"></a>PlusX&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggab7acb4543154d042c297e5823fb633b6a6ee0807f5bf1b3e0a4d52919eb298454" name="ggab7acb4543154d042c297e5823fb633b6a6ee0807f5bf1b3e0a4d52919eb298454"></a>MinusX&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggab7acb4543154d042c297e5823fb633b6ae93f994f01c537c4e2f7d8528c3eb5e9" name="ggab7acb4543154d042c297e5823fb633b6ae93f994f01c537c4e2f7d8528c3eb5e9"></a>Count&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ga27435b7d8c5a7876aa45b60ea840b353" name="ga27435b7d8c5a7876aa45b60ea840b353"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga27435b7d8c5a7876aa45b60ea840b353">&#9670;&#160;</a></span>combineXYderivativeMaps()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> MR::combineXYderivativeMaps </td>
+          <td>(</td>
+          <td class="paramtype">std::pair&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a>, <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>XYderivativeMaps</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>fill another distance map pair with gradients across X and Y axes of the argument map </p>
+
+</div>
+</div>
+<a id="gaf972733cbe1eca39d0f85671e30b514c" name="gaf972733cbe1eca39d0f85671e30b514c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf972733cbe1eca39d0f85671e30b514c">&#9670;&#160;</a></span>computeDistanceMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> MR::computeDistanceMap </td>
+          <td>(</td>
+          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshToDistanceMapParams.html">MeshToDistanceMapParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &gt; *</td>          <td class="paramname"><span class="paramname"><em>outSamples</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes distance (height) map for given projection parameters using float-precision for finding ray-mesh intersections, which is faster but less reliable </p>
+
+</div>
+</div>
+<a id="ga8f2c4ae318d14a691410a43d5c1c0ee4" name="ga8f2c4ae318d14a691410a43d5c1c0ee4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8f2c4ae318d14a691410a43d5c1c0ee4">&#9670;&#160;</a></span>computeDistanceMapD()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> MR::computeDistanceMapD </td>
+          <td>(</td>
+          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshToDistanceMapParams.html">MeshToDistanceMapParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &gt; *</td>          <td class="paramname"><span class="paramname"><em>outSamples</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes distance (height) map for given projection parameters using double-precision for finding ray-mesh intersections, which is slower but more reliable </p>
+
+</div>
+</div>
+<a id="ga8461963f3447f163979179222275114c" name="ga8461963f3447f163979179222275114c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8461963f3447f163979179222275114c">&#9670;&#160;</a></span>contourIntersection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Polyline2 MR::contourIntersection </td>
+          <td>(</td>
+          <td class="paramtype">const Polyline2 &amp;</td>          <td class="paramname"><span class="paramname"><em>contoursA</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Polyline2 &amp;</td>          <td class="paramname"><span class="paramname"><em>contoursB</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ContourToDistanceMapParams.html">ContourToDistanceMapParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>offsetInside</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0.f</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>computes the intersection of the shapes bounded by input 2d contours </p>
+<dl class="section return"><dt>Returns</dt><dd>the boundary of the intersection</dd></dl>
+<p>input contours must be closed within the area of distance map and be consistently oriented (clockwise, that is leaving the bounded shapes from the left). the value of params.withSign must be true (checked with assert() inside the function) </p><dl class="section note"><dt>Note</dt><dd>that polyline topology should be consistently oriented </dd></dl>
+
+</div>
+</div>
+<a id="ga9ec7f0e4e736da31de012ad0e33f6b33" name="ga9ec7f0e4e736da31de012ad0e33f6b33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9ec7f0e4e736da31de012ad0e33f6b33">&#9670;&#160;</a></span>contourSubtract()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Polyline2 MR::contourSubtract </td>
+          <td>(</td>
+          <td class="paramtype">const Polyline2 &amp;</td>          <td class="paramname"><span class="paramname"><em>contoursA</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Polyline2 &amp;</td>          <td class="paramname"><span class="paramname"><em>contoursB</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ContourToDistanceMapParams.html">ContourToDistanceMapParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>offsetInside</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0.f</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>computes the difference between the shapes bounded by contoursA and the shapes bounded by contoursB </p>
+<dl class="section return"><dt>Returns</dt><dd>the boundary of the difference</dd></dl>
+<p>input contours must be closed within the area of distance map and be consistently oriented (clockwise, that is leaving the bounded shapes from the left). the value of params.withSign must be true (checked with assert() inside the function) </p><dl class="section note"><dt>Note</dt><dd>that polyline topology should be consistently oriented </dd></dl>
+
+</div>
+</div>
+<a id="ga59af0939e79330f4ef6bcc99c74c196b" name="ga59af0939e79330f4ef6bcc99c74c196b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga59af0939e79330f4ef6bcc99c74c196b">&#9670;&#160;</a></span>contourUnion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Polyline2 MR::contourUnion </td>
+          <td>(</td>
+          <td class="paramtype">const Polyline2 &amp;</td>          <td class="paramname"><span class="paramname"><em>contoursA</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Polyline2 &amp;</td>          <td class="paramname"><span class="paramname"><em>contoursB</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ContourToDistanceMapParams.html">ContourToDistanceMapParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>offsetInside</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>computes the union of the shapes bounded by input 2d contours </p>
+<dl class="section return"><dt>Returns</dt><dd>the boundary of the union</dd></dl>
+<p>input contours must be closed within the area of distance map and be consistently oriented (clockwise, that is leaving the bounded shapes from the left). the value of params.withSign must be true (checked with assert() inside the function) </p><dl class="section note"><dt>Note</dt><dd>that polyline topology should be consistently oriented </dd></dl>
+
+</div>
+</div>
+<a id="gadf85ea3c5943f6cd2cb8864c2991f6f2" name="gadf85ea3c5943f6cd2cb8864c2991f6f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadf85ea3c5943f6cd2cb8864c2991f6f2">&#9670;&#160;</a></span>convertDistanceMapToImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Image.html">Image</a> MR::convertDistanceMapToImage </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>distMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>threshold</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1.f/255</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>export distance map to a grayscale image </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">threshold</td><td>- threshold of valid values [0.; 1.]. pixel with color less then threshold set invalid </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gabfddf0510446a24e68326d0574949301" name="gabfddf0510446a24e68326d0574949301"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabfddf0510446a24e68326d0574949301">&#9670;&#160;</a></span>convertImageToDistanceMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt; MR::convertImageToDistanceMap </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Image.html">Image</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>image</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>threshold</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1.f/255</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>invert</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>load distance map from a grayscale image: </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">threshold</td><td>- threshold of valid values [0.; 1.]. pixel with color less then threshold set invalid </td></tr>
+    <tr><td class="paramname">invert</td><td>- whether to invert values (min is white) or leave them as is (min is block) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga6ba988d1173a8800e2ccfc5ac30d2a68" name="ga6ba988d1173a8800e2ccfc5ac30d2a68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6ba988d1173a8800e2ccfc5ac30d2a68">&#9670;&#160;</a></span>distanceMapFromContours() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> MR::distanceMapFromContours </td>
+          <td>(</td>
+          <td class="paramtype">const Polyline2 &amp;</td>          <td class="paramname"><span class="paramname"><em>contours</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ContourToDistanceMapParams.html">ContourToDistanceMapParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ContoursDistanceMapOptions.html">ContoursDistanceMapOptions</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>options</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Computes distance of 2d contours according <a class="el" href="structMR_1_1ContourToDistanceMapParams.html" title="Structure with parameters to generate DistanceMap by Contours.">ContourToDistanceMapParams</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">options</td><td>- optional input and output options for distance map calculation, find more <a class="el" href="structMR_1_1ContoursDistanceMapOptions.html">ContoursDistanceMapOptions</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaa50c3ffe7a7a332ff5cc4ca19890c47f" name="gaa50c3ffe7a7a332ff5cc4ca19890c47f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa50c3ffe7a7a332ff5cc4ca19890c47f">&#9670;&#160;</a></span>distanceMapFromContours() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::distanceMapFromContours </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>distMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Polyline2 &amp;</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ContourToDistanceMapParams.html">ContourToDistanceMapParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ContoursDistanceMapOptions.html">ContoursDistanceMapOptions</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>options</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Computes distance of 2d contours according <a class="el" href="structMR_1_1ContourToDistanceMapParams.html" title="Structure with parameters to generate DistanceMap by Contours.">ContourToDistanceMapParams</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">distMap</td><td>- preallocated distance map </td></tr>
+    <tr><td class="paramname">options</td><td>- optional input and output options for distance map calculation, find more <a class="el" href="structMR_1_1ContoursDistanceMapOptions.html">ContoursDistanceMapOptions</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga875406db41d922b9e6b597a1cc589c02" name="ga875406db41d922b9e6b597a1cc589c02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga875406db41d922b9e6b597a1cc589c02">&#9670;&#160;</a></span>distanceMapTo2DIsoPolyline() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::pair&lt; Polyline2, AffineXf3f &gt; MR::distanceMapTo2DIsoPolyline </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>distMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>xf</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>isoValue</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>useDepth</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>computes iso-lines of distance map corresponding to given iso-value; in second returns the transformation from 0XY plane to world; </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">useDepth</td><td>true - the isolines will be located on distance map surface, false - isolines for any iso-value will be located on the common plane xf(0XY) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga6d0dc4485cbdb50e2e0663aedcc73986" name="ga6d0dc4485cbdb50e2e0663aedcc73986"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6d0dc4485cbdb50e2e0663aedcc73986">&#9670;&#160;</a></span>distanceMapTo2DIsoPolyline() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Polyline2 MR::distanceMapTo2DIsoPolyline </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>distMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ContourToDistanceMapParams.html">ContourToDistanceMapParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>isoValue</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>iso-lines are created in real space ( plane OXY with parameters according <a class="el" href="structMR_1_1ContourToDistanceMapParams.html" title="Structure with parameters to generate DistanceMap by Contours.">ContourToDistanceMapParams</a> ) </p>
+
+</div>
+</div>
+<a id="ga91dadb5d280efea2e31e4620ed69cf56" name="ga91dadb5d280efea2e31e4620ed69cf56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga91dadb5d280efea2e31e4620ed69cf56">&#9670;&#160;</a></span>distanceMapTo2DIsoPolyline() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Polyline2 MR::distanceMapTo2DIsoPolyline </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>distMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>isoValue</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>converts distance map to 2d iso-lines: iso-lines are created in space <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> ( plane OXY with pixelSize = (1, 1) ) </p>
+
+</div>
+</div>
+<a id="ga1acaca885d3034b9c8ef1f5cb9b8824a" name="ga1acaca885d3034b9c8ef1f5cb9b8824a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1acaca885d3034b9c8ef1f5cb9b8824a">&#9670;&#160;</a></span>distanceMapTo2DIsoPolyline() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Polyline2 MR::distanceMapTo2DIsoPolyline </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>distMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>pixelSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>isoValue</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga145ea179a83ff19d1734af8771bba71a" name="ga145ea179a83ff19d1734af8771bba71a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga145ea179a83ff19d1734af8771bba71a">&#9670;&#160;</a></span>distanceMapToMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::distanceMapToMesh </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>distMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>toWorld</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>converts distance map into mesh and applies a transformation to all points </p>
+
+</div>
+</div>
+<a id="ga00ea89be5cae9953d5df7ef382259b58" name="ga00ea89be5cae9953d5df7ef382259b58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga00ea89be5cae9953d5df7ef382259b58">&#9670;&#160;</a></span>edgePointsFromContours()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::vector&lt; Vector3f &gt; MR::edgePointsFromContours </td>
+          <td>(</td>
+          <td class="paramtype">const Polyline2 &amp;</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>pixelSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>threshold</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Makes distance map and filter out pixels with large (&gt;threshold) distance between closest points on contour in neighbor pixels Converts such points back in 3d space and return </p><dl class="section note"><dt>Note</dt><dd>that polyline topology should be consistently oriented </dd></dl>
+
+</div>
+</div>
+<a id="ga6c5838a3065551d1adbcde13e5cf895b" name="ga6c5838a3065551d1adbcde13e5cf895b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6c5838a3065551d1adbcde13e5cf895b">&#9670;&#160;</a></span>expandPixelMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::expandPixelMask </td>
+          <td>(</td>
+          <td class="paramtype">PixelBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>mask</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1RectIndexer.html">RectIndexer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>indexer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>expansion</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>expands PixelBitSet with given number of steps </p>
+
+</div>
+</div>
+<a id="ga91a308e751ba7d6ace30ea1a895eb3fb" name="ga91a308e751ba7d6ace30ea1a895eb3fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga91a308e751ba7d6ace30ea1a895eb3fb">&#9670;&#160;</a></span>opposite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#gab7acb4543154d042c297e5823fb633b6">OutEdge2</a> MR::opposite </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#gab7acb4543154d042c297e5823fb633b6">OutEdge2</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaf720ea7221e6ad284c8b0b80e5c58364" name="gaf720ea7221e6ad284c8b0b80e5c58364"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf720ea7221e6ad284c8b0b80e5c58364">&#9670;&#160;</a></span>polylineOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Polyline2 MR::polylineOffset </td>
+          <td>(</td>
+          <td class="paramtype">const Polyline2 &amp;</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>pixelSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>offset</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>constructs an offset contour for given polyline </p>
+
+</div>
+</div>
+<a id="ga239b9939936c38ad89df91dd649ab13d" name="ga239b9939936c38ad89df91dd649ab13d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga239b9939936c38ad89df91dd649ab13d">&#9670;&#160;</a></span>RectIndexer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::RectIndexer::RectIndexer </td>
+          <td>(</td>
+          <td class="paramtype">const Vector2i &amp;</td>          <td class="paramname"><span class="paramname"><em>dims</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga901329f8c2956e6baeb440b154c9907f" name="ga901329f8c2956e6baeb440b154c9907f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga901329f8c2956e6baeb440b154c9907f">&#9670;&#160;</a></span>resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::RectIndexer::resize </td>
+          <td>(</td>
+          <td class="paramtype">const Vector2i &amp;</td>          <td class="paramname"><span class="paramname"><em>dims</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gacbedf1abc59aa1401992cc4d1e1ed306" name="gacbedf1abc59aa1401992cc4d1e1ed306"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacbedf1abc59aa1401992cc4d1e1ed306">&#9670;&#160;</a></span>shrinkPixelMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::shrinkPixelMask </td>
+          <td>(</td>
+          <td class="paramtype">PixelBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>mask</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1RectIndexer.html">RectIndexer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>indexer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>shrinkage</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>shrinks PixelBitSet with given number of steps </p>
+
+</div>
+</div>
+<a id="gacf16438d65e6771b0a308b2e232e86b1" name="gacf16438d65e6771b0a308b2e232e86b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacf16438d65e6771b0a308b2e232e86b1">&#9670;&#160;</a></span>toIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t MR::RectIndexer::toIndex </td>
+          <td>(</td>
+          <td class="paramtype">const Vector2i &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga920d5e2ba75ebd9fe641aae7d50cce9f" name="ga920d5e2ba75ebd9fe641aae7d50cce9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga920d5e2ba75ebd9fe641aae7d50cce9f">&#9670;&#160;</a></span>toPos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector2i MR::RectIndexer::toPos </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

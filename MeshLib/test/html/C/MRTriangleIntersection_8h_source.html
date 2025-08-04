@@ -1,0 +1,261 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRTriangleIntersection.h Source File</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRTriangleIntersection_8h_source.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">MRTriangleIntersection.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="MRTriangleIntersection_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;MRCMisc/exports.h&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="MRTriangleIntersection_8h.html#aa232376b9781642f1a6041ef413a6347">   11</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRIntersectionPrecomputes_8h.html#aa232376b9781642f1a6041ef413a6347">MR_IntersectionPrecomputes_double</a> <a class="code hl_typedef" href="MRIntersectionPrecomputes_8h.html#aa232376b9781642f1a6041ef413a6347">MR_IntersectionPrecomputes_double</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRIntersectionPrecomputes.h&gt;`.</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="MRTriangleIntersection_8h.html#a87d83329d62d5328563c6e5b3bac7144">   12</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRIntersectionPrecomputes_8h.html#a87d83329d62d5328563c6e5b3bac7144">MR_IntersectionPrecomputes_float</a> <a class="code hl_typedef" href="MRIntersectionPrecomputes_8h.html#a87d83329d62d5328563c6e5b3bac7144">MR_IntersectionPrecomputes_float</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRIntersectionPrecomputes.h&gt;`.</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="MRTriangleIntersection_8h.html#a9b2681646fc37c10c6deec7f555be88c">   13</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRTriPoint.h&gt;`.</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="MRTriangleIntersection_8h.html#aa6b35c703a4572c3ccc120ee82723a66">   14</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRVector3.h&gt;`.</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="MRTriangleIntersection_8h.html#a6bf133eda1ec95be202b77c33412bc8e">   15</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRVector3.h&gt;`.</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="MRTriangleIntersection_8h.html#a8fb787cfb02cc4a3553f511f4b3b4cd5">   16</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRTriangleIntersection_8h.html#a8fb787cfb02cc4a3553f511f4b3b4cd5">MR_std_optional_MR_TriIntersectResult</a> <a class="code hl_typedef" href="MRTriangleIntersection_8h.html#a8fb787cfb02cc4a3553f511f4b3b4cd5">MR_std_optional_MR_TriIntersectResult</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_optional_MR_TriIntersectResult.h&gt;`.</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="group__TriangleIntersectionGroup.html#ga3155a1e631288d05270693a674f62207">   23</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="group__TriangleIntersectionGroup.html#ga3155a1e631288d05270693a674f62207">MR_TriIntersectResult</a> <a class="code hl_typedef" href="group__TriangleIntersectionGroup.html#ga3155a1e631288d05270693a674f62207">MR_TriIntersectResult</a>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="comment">// barycentric representation</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="group__TriangleIntersectionGroup.html#gae5501fd06f4247851460b45c83f5548b">   29</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *<a class="code hl_function" href="group__TriangleIntersectionGroup.html#gae5501fd06f4247851460b45c83f5548b">MR_TriIntersectResult_Get_bary</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="group__TriangleIntersectionGroup.html#ga3155a1e631288d05270693a674f62207">MR_TriIntersectResult</a> *_this);</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="comment">// barycentric representation</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="group__TriangleIntersectionGroup.html#ga97ae47dc38e28ead84d5f81460fc95bd">   35</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="group__TriangleIntersectionGroup.html#ga97ae47dc38e28ead84d5f81460fc95bd">MR_TriIntersectResult_Set_bary</a>(<a class="code hl_typedef" href="group__TriangleIntersectionGroup.html#ga3155a1e631288d05270693a674f62207">MR_TriIntersectResult</a> *_this, <span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *value);</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="comment">// barycentric representation</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="group__TriangleIntersectionGroup.html#gacdf0b1fcc6fc677b1f25958eb84ffac2">   41</a></span>MRC_API <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *<a class="code hl_function" href="group__TriangleIntersectionGroup.html#gacdf0b1fcc6fc677b1f25958eb84ffac2">MR_TriIntersectResult_GetMutable_bary</a>(<a class="code hl_typedef" href="group__TriangleIntersectionGroup.html#ga3155a1e631288d05270693a674f62207">MR_TriIntersectResult</a> *_this);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="comment">// distance from ray origin to p in dir length units</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="group__TriangleIntersectionGroup.html#ga580141ad7cad5438d4f3e8028c2f0469">   47</a></span>MRC_API <span class="keyword">const</span> <span class="keywordtype">float</span> *<a class="code hl_function" href="group__TriangleIntersectionGroup.html#ga580141ad7cad5438d4f3e8028c2f0469">MR_TriIntersectResult_Get_t</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="group__TriangleIntersectionGroup.html#ga3155a1e631288d05270693a674f62207">MR_TriIntersectResult</a> *_this);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="comment">// distance from ray origin to p in dir length units</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="group__TriangleIntersectionGroup.html#gad9b564fcbd68a0e436760db8a51710a7">   52</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="group__TriangleIntersectionGroup.html#gad9b564fcbd68a0e436760db8a51710a7">MR_TriIntersectResult_Set_t</a>(<a class="code hl_typedef" href="group__TriangleIntersectionGroup.html#ga3155a1e631288d05270693a674f62207">MR_TriIntersectResult</a> *_this, <span class="keywordtype">float</span> value);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="comment">// distance from ray origin to p in dir length units</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="group__TriangleIntersectionGroup.html#gac3fd8ecd22a9aedca69849c332e8b0b9">   58</a></span>MRC_API <span class="keywordtype">float</span> *<a class="code hl_function" href="group__TriangleIntersectionGroup.html#gac3fd8ecd22a9aedca69849c332e8b0b9">MR_TriIntersectResult_GetMutable_t</a>(<a class="code hl_typedef" href="group__TriangleIntersectionGroup.html#ga3155a1e631288d05270693a674f62207">MR_TriIntersectResult</a> *_this);</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="group__TriangleIntersectionGroup.html#ga529b15fcf38773060a465d48d9a0d972">   63</a></span>MRC_API <a class="code hl_typedef" href="group__TriangleIntersectionGroup.html#ga3155a1e631288d05270693a674f62207">MR_TriIntersectResult</a> *<a class="code hl_function" href="group__TriangleIntersectionGroup.html#ga529b15fcf38773060a465d48d9a0d972">MR_TriIntersectResult_ConstructFromAnother</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="group__TriangleIntersectionGroup.html#ga3155a1e631288d05270693a674f62207">MR_TriIntersectResult</a> *_other);</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="group__TriangleIntersectionGroup.html#gac5ff92e1cb2d5b3e9d05b5702b4c8afe">   66</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="group__TriangleIntersectionGroup.html#ga3155a1e631288d05270693a674f62207">MR_TriIntersectResult</a> *<a class="code hl_function" href="group__TriangleIntersectionGroup.html#gac5ff92e1cb2d5b3e9d05b5702b4c8afe">MR_TriIntersectResult_OffsetPtr</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="group__TriangleIntersectionGroup.html#ga3155a1e631288d05270693a674f62207">MR_TriIntersectResult</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="group__TriangleIntersectionGroup.html#gaf750b34f9dddbefd1b6fead04390b186">   69</a></span>MRC_API <a class="code hl_typedef" href="group__TriangleIntersectionGroup.html#ga3155a1e631288d05270693a674f62207">MR_TriIntersectResult</a> *<a class="code hl_function" href="group__TriangleIntersectionGroup.html#gaf750b34f9dddbefd1b6fead04390b186">MR_TriIntersectResult_OffsetMutablePtr</a>(<a class="code hl_typedef" href="group__TriangleIntersectionGroup.html#ga3155a1e631288d05270693a674f62207">MR_TriIntersectResult</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="group__TriangleIntersectionGroup.html#gad727a7aec2ee800708811a00863ff3c4">   73</a></span>MRC_API <a class="code hl_typedef" href="group__TriangleIntersectionGroup.html#ga3155a1e631288d05270693a674f62207">MR_TriIntersectResult</a> *<a class="code hl_function" href="group__TriangleIntersectionGroup.html#gad727a7aec2ee800708811a00863ff3c4">MR_TriIntersectResult_Construct</a>(<span class="keywordtype">float</span> U, <span class="keywordtype">float</span> V, <span class="keywordtype">float</span> dist);</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="group__TriangleIntersectionGroup.html#gaafa7f85bc4eb73e7226eac58e36be652">   76</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="group__TriangleIntersectionGroup.html#gaafa7f85bc4eb73e7226eac58e36be652">MR_TriIntersectResult_Destroy</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="group__TriangleIntersectionGroup.html#ga3155a1e631288d05270693a674f62207">MR_TriIntersectResult</a> *_this);</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="group__TriangleIntersectionGroup.html#ga52bd88d97d06bd168220c81d19a73c5f">   79</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="group__TriangleIntersectionGroup.html#ga52bd88d97d06bd168220c81d19a73c5f">MR_TriIntersectResult_DestroyArray</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="group__TriangleIntersectionGroup.html#ga3155a1e631288d05270693a674f62207">MR_TriIntersectResult</a> *_this);</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="group__TriangleIntersectionGroup.html#ga498070ce6d21afd70be291f06c996511">   85</a></span>MRC_API <a class="code hl_typedef" href="group__TriangleIntersectionGroup.html#ga3155a1e631288d05270693a674f62207">MR_TriIntersectResult</a> *<a class="code hl_function" href="group__TriangleIntersectionGroup.html#ga498070ce6d21afd70be291f06c996511">MR_TriIntersectResult_AssignFromAnother</a>(<a class="code hl_typedef" href="group__TriangleIntersectionGroup.html#ga3155a1e631288d05270693a674f62207">MR_TriIntersectResult</a> *_this, <span class="keyword">const</span> <a class="code hl_typedef" href="group__TriangleIntersectionGroup.html#ga3155a1e631288d05270693a674f62207">MR_TriIntersectResult</a> *_other);</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno"><a class="line" href="group__TriangleIntersectionGroup.html#ga5fcf37830ccb189323fa8339b71e69b7">   93</a></span>MRC_API <a class="code hl_typedef" href="MRTriangleIntersection_8h.html#a8fb787cfb02cc4a3553f511f4b3b4cd5">MR_std_optional_MR_TriIntersectResult</a> *<a class="code hl_function" href="group__TriangleIntersectionGroup.html#ga5fcf37830ccb189323fa8339b71e69b7">MR_rayTriangleIntersect__float</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *oriA, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *oriB, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *oriC, <span class="keyword">const</span> <a class="code hl_typedef" href="MRIntersectionPrecomputes_8h.html#a87d83329d62d5328563c6e5b3bac7144">MR_IntersectionPrecomputes_float</a> *prec);</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno"><a class="line" href="group__TriangleIntersectionGroup.html#gafecd03003265a7bf9ef741ff6fb601f1">  101</a></span>MRC_API <a class="code hl_typedef" href="MRTriangleIntersection_8h.html#a8fb787cfb02cc4a3553f511f4b3b4cd5">MR_std_optional_MR_TriIntersectResult</a> *<a class="code hl_function" href="group__TriangleIntersectionGroup.html#gafecd03003265a7bf9ef741ff6fb601f1">MR_rayTriangleIntersect__double</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> *oriA, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> *oriB, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> *oriC, <span class="keyword">const</span> <a class="code hl_typedef" href="MRIntersectionPrecomputes_8h.html#aa232376b9781642f1a6041ef413a6347">MR_IntersectionPrecomputes_double</a> *prec);</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="group__TriangleIntersectionGroup.html#ga7ec2e80491ad50348dd4bf9755af1028">  109</a></span>MRC_API <a class="code hl_typedef" href="MRTriangleIntersection_8h.html#a8fb787cfb02cc4a3553f511f4b3b4cd5">MR_std_optional_MR_TriIntersectResult</a> *<a class="code hl_function" href="group__TriangleIntersectionGroup.html#ga7ec2e80491ad50348dd4bf9755af1028">MR_rayTriangleIntersect_const_MR_Vector3f_ref_MR_IntersectionPrecomputes_float</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *oriA, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *oriB, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *oriC, <span class="keyword">const</span> <a class="code hl_typedef" href="MRIntersectionPrecomputes_8h.html#a87d83329d62d5328563c6e5b3bac7144">MR_IntersectionPrecomputes_float</a> *prec);</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="group__TriangleIntersectionGroup.html#ga07952c9be53bdbc8d2f1bd8d32f913ea">  117</a></span>MRC_API <a class="code hl_typedef" href="MRTriangleIntersection_8h.html#a8fb787cfb02cc4a3553f511f4b3b4cd5">MR_std_optional_MR_TriIntersectResult</a> *<a class="code hl_function" href="group__TriangleIntersectionGroup.html#ga07952c9be53bdbc8d2f1bd8d32f913ea">MR_rayTriangleIntersect_const_MR_Vector3f_ref_MR_Vector3f</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *oriA, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *oriB, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *oriC, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *dir);</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno"><a class="line" href="group__TriangleIntersectionGroup.html#ga859eac646fef5b506143b5227d3fd078">  125</a></span>MRC_API <a class="code hl_typedef" href="MRTriangleIntersection_8h.html#a8fb787cfb02cc4a3553f511f4b3b4cd5">MR_std_optional_MR_TriIntersectResult</a> *<a class="code hl_function" href="group__TriangleIntersectionGroup.html#ga859eac646fef5b506143b5227d3fd078">MR_rayTriangleIntersect_const_MR_Vector3d_ref_MR_IntersectionPrecomputes_double</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> *oriA, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> *oriB, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> *oriC, <span class="keyword">const</span> <a class="code hl_typedef" href="MRIntersectionPrecomputes_8h.html#aa232376b9781642f1a6041ef413a6347">MR_IntersectionPrecomputes_double</a> *prec);</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno"><a class="line" href="group__TriangleIntersectionGroup.html#ga16b08fb29dc4d40d0781c9d612d3f54f">  133</a></span>MRC_API <a class="code hl_typedef" href="MRTriangleIntersection_8h.html#a8fb787cfb02cc4a3553f511f4b3b4cd5">MR_std_optional_MR_TriIntersectResult</a> *<a class="code hl_function" href="group__TriangleIntersectionGroup.html#ga16b08fb29dc4d40d0781c9d612d3f54f">MR_rayTriangleIntersect_const_MR_Vector3d_ref_MR_Vector3d</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> *oriA, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> *oriB, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> *oriC, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> *dir);</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aMRIntersectionPrecomputes_8h_html_a87d83329d62d5328563c6e5b3bac7144"><div class="ttname"><a href="MRIntersectionPrecomputes_8h.html#a87d83329d62d5328563c6e5b3bac7144">MR_IntersectionPrecomputes_float</a></div><div class="ttdeci">struct MR_IntersectionPrecomputes_float MR_IntersectionPrecomputes_float</div><div class="ttdef"><b>Definition</b> MRIntersectionPrecomputes.h:17</div></div>
+<div class="ttc" id="aMRIntersectionPrecomputes_8h_html_aa232376b9781642f1a6041ef413a6347"><div class="ttname"><a href="MRIntersectionPrecomputes_8h.html#aa232376b9781642f1a6041ef413a6347">MR_IntersectionPrecomputes_double</a></div><div class="ttdeci">struct MR_IntersectionPrecomputes_double MR_IntersectionPrecomputes_double</div><div class="ttdef"><b>Definition</b> MRIntersectionPrecomputes.h:22</div></div>
+<div class="ttc" id="aMRMeshTriPoint_8h_html_a9b2681646fc37c10c6deec7f555be88c"><div class="ttname"><a href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a></div><div class="ttdeci">struct MR_TriPointf MR_TriPointf</div><div class="ttdef"><b>Definition</b> MRMeshTriPoint.h:17</div></div>
+<div class="ttc" id="aMRTriangleIntersection_8h_html_a8fb787cfb02cc4a3553f511f4b3b4cd5"><div class="ttname"><a href="MRTriangleIntersection_8h.html#a8fb787cfb02cc4a3553f511f4b3b4cd5">MR_std_optional_MR_TriIntersectResult</a></div><div class="ttdeci">struct MR_std_optional_MR_TriIntersectResult MR_std_optional_MR_TriIntersectResult</div><div class="ttdef"><b>Definition</b> MRTriangleIntersection.h:16</div></div>
+<div class="ttc" id="agroup__TriangleIntersectionGroup_html_ga07952c9be53bdbc8d2f1bd8d32f913ea"><div class="ttname"><a href="group__TriangleIntersectionGroup.html#ga07952c9be53bdbc8d2f1bd8d32f913ea">MR_rayTriangleIntersect_const_MR_Vector3f_ref_MR_Vector3f</a></div><div class="ttdeci">MRC_API MR_std_optional_MR_TriIntersectResult * MR_rayTriangleIntersect_const_MR_Vector3f_ref_MR_Vector3f(const MR_Vector3f *oriA, const MR_Vector3f *oriB, const MR_Vector3f *oriC, const MR_Vector3f *dir)</div></div>
+<div class="ttc" id="agroup__TriangleIntersectionGroup_html_ga16b08fb29dc4d40d0781c9d612d3f54f"><div class="ttname"><a href="group__TriangleIntersectionGroup.html#ga16b08fb29dc4d40d0781c9d612d3f54f">MR_rayTriangleIntersect_const_MR_Vector3d_ref_MR_Vector3d</a></div><div class="ttdeci">MRC_API MR_std_optional_MR_TriIntersectResult * MR_rayTriangleIntersect_const_MR_Vector3d_ref_MR_Vector3d(const MR_Vector3d *oriA, const MR_Vector3d *oriB, const MR_Vector3d *oriC, const MR_Vector3d *dir)</div></div>
+<div class="ttc" id="agroup__TriangleIntersectionGroup_html_ga3155a1e631288d05270693a674f62207"><div class="ttname"><a href="group__TriangleIntersectionGroup.html#ga3155a1e631288d05270693a674f62207">MR_TriIntersectResult</a></div><div class="ttdeci">struct MR_TriIntersectResult MR_TriIntersectResult</div><div class="ttdef"><b>Definition</b> MRTriangleIntersection.h:23</div></div>
+<div class="ttc" id="agroup__TriangleIntersectionGroup_html_ga498070ce6d21afd70be291f06c996511"><div class="ttname"><a href="group__TriangleIntersectionGroup.html#ga498070ce6d21afd70be291f06c996511">MR_TriIntersectResult_AssignFromAnother</a></div><div class="ttdeci">MRC_API MR_TriIntersectResult * MR_TriIntersectResult_AssignFromAnother(MR_TriIntersectResult *_this, const MR_TriIntersectResult *_other)</div></div>
+<div class="ttc" id="agroup__TriangleIntersectionGroup_html_ga529b15fcf38773060a465d48d9a0d972"><div class="ttname"><a href="group__TriangleIntersectionGroup.html#ga529b15fcf38773060a465d48d9a0d972">MR_TriIntersectResult_ConstructFromAnother</a></div><div class="ttdeci">MRC_API MR_TriIntersectResult * MR_TriIntersectResult_ConstructFromAnother(const MR_TriIntersectResult *_other)</div></div>
+<div class="ttc" id="agroup__TriangleIntersectionGroup_html_ga52bd88d97d06bd168220c81d19a73c5f"><div class="ttname"><a href="group__TriangleIntersectionGroup.html#ga52bd88d97d06bd168220c81d19a73c5f">MR_TriIntersectResult_DestroyArray</a></div><div class="ttdeci">MRC_API void MR_TriIntersectResult_DestroyArray(const MR_TriIntersectResult *_this)</div><div class="ttdoc">Destroys a heap-allocated array of MR_TriIntersectResult. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="agroup__TriangleIntersectionGroup_html_ga580141ad7cad5438d4f3e8028c2f0469"><div class="ttname"><a href="group__TriangleIntersectionGroup.html#ga580141ad7cad5438d4f3e8028c2f0469">MR_TriIntersectResult_Get_t</a></div><div class="ttdeci">MRC_API const float * MR_TriIntersectResult_Get_t(const MR_TriIntersectResult *_this)</div></div>
+<div class="ttc" id="agroup__TriangleIntersectionGroup_html_ga5fcf37830ccb189323fa8339b71e69b7"><div class="ttname"><a href="group__TriangleIntersectionGroup.html#ga5fcf37830ccb189323fa8339b71e69b7">MR_rayTriangleIntersect__float</a></div><div class="ttdeci">MRC_API MR_std_optional_MR_TriIntersectResult * MR_rayTriangleIntersect__float(const MR_Vector3f *oriA, const MR_Vector3f *oriB, const MR_Vector3f *oriC, const MR_IntersectionPrecomputes_float *prec)</div></div>
+<div class="ttc" id="agroup__TriangleIntersectionGroup_html_ga7ec2e80491ad50348dd4bf9755af1028"><div class="ttname"><a href="group__TriangleIntersectionGroup.html#ga7ec2e80491ad50348dd4bf9755af1028">MR_rayTriangleIntersect_const_MR_Vector3f_ref_MR_IntersectionPrecomputes_float</a></div><div class="ttdeci">MRC_API MR_std_optional_MR_TriIntersectResult * MR_rayTriangleIntersect_const_MR_Vector3f_ref_MR_IntersectionPrecomputes_float(const MR_Vector3f *oriA, const MR_Vector3f *oriB, const MR_Vector3f *oriC, const MR_IntersectionPrecomputes_float *prec)</div></div>
+<div class="ttc" id="agroup__TriangleIntersectionGroup_html_ga859eac646fef5b506143b5227d3fd078"><div class="ttname"><a href="group__TriangleIntersectionGroup.html#ga859eac646fef5b506143b5227d3fd078">MR_rayTriangleIntersect_const_MR_Vector3d_ref_MR_IntersectionPrecomputes_double</a></div><div class="ttdeci">MRC_API MR_std_optional_MR_TriIntersectResult * MR_rayTriangleIntersect_const_MR_Vector3d_ref_MR_IntersectionPrecomputes_double(const MR_Vector3d *oriA, const MR_Vector3d *oriB, const MR_Vector3d *oriC, const MR_IntersectionPrecomputes_double *prec)</div></div>
+<div class="ttc" id="agroup__TriangleIntersectionGroup_html_ga97ae47dc38e28ead84d5f81460fc95bd"><div class="ttname"><a href="group__TriangleIntersectionGroup.html#ga97ae47dc38e28ead84d5f81460fc95bd">MR_TriIntersectResult_Set_bary</a></div><div class="ttdeci">MRC_API void MR_TriIntersectResult_Set_bary(MR_TriIntersectResult *_this, const MR_TriPointf *value)</div></div>
+<div class="ttc" id="agroup__TriangleIntersectionGroup_html_gaafa7f85bc4eb73e7226eac58e36be652"><div class="ttname"><a href="group__TriangleIntersectionGroup.html#gaafa7f85bc4eb73e7226eac58e36be652">MR_TriIntersectResult_Destroy</a></div><div class="ttdeci">MRC_API void MR_TriIntersectResult_Destroy(const MR_TriIntersectResult *_this)</div><div class="ttdoc">Destroys a heap-allocated instance of MR_TriIntersectResult. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="agroup__TriangleIntersectionGroup_html_gac3fd8ecd22a9aedca69849c332e8b0b9"><div class="ttname"><a href="group__TriangleIntersectionGroup.html#gac3fd8ecd22a9aedca69849c332e8b0b9">MR_TriIntersectResult_GetMutable_t</a></div><div class="ttdeci">MRC_API float * MR_TriIntersectResult_GetMutable_t(MR_TriIntersectResult *_this)</div></div>
+<div class="ttc" id="agroup__TriangleIntersectionGroup_html_gac5ff92e1cb2d5b3e9d05b5702b4c8afe"><div class="ttname"><a href="group__TriangleIntersectionGroup.html#gac5ff92e1cb2d5b3e9d05b5702b4c8afe">MR_TriIntersectResult_OffsetPtr</a></div><div class="ttdeci">MRC_API const MR_TriIntersectResult * MR_TriIntersectResult_OffsetPtr(const MR_TriIntersectResult *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="agroup__TriangleIntersectionGroup_html_gacdf0b1fcc6fc677b1f25958eb84ffac2"><div class="ttname"><a href="group__TriangleIntersectionGroup.html#gacdf0b1fcc6fc677b1f25958eb84ffac2">MR_TriIntersectResult_GetMutable_bary</a></div><div class="ttdeci">MRC_API MR_TriPointf * MR_TriIntersectResult_GetMutable_bary(MR_TriIntersectResult *_this)</div></div>
+<div class="ttc" id="agroup__TriangleIntersectionGroup_html_gad727a7aec2ee800708811a00863ff3c4"><div class="ttname"><a href="group__TriangleIntersectionGroup.html#gad727a7aec2ee800708811a00863ff3c4">MR_TriIntersectResult_Construct</a></div><div class="ttdeci">MRC_API MR_TriIntersectResult * MR_TriIntersectResult_Construct(float U, float V, float dist)</div></div>
+<div class="ttc" id="agroup__TriangleIntersectionGroup_html_gad9b564fcbd68a0e436760db8a51710a7"><div class="ttname"><a href="group__TriangleIntersectionGroup.html#gad9b564fcbd68a0e436760db8a51710a7">MR_TriIntersectResult_Set_t</a></div><div class="ttdeci">MRC_API void MR_TriIntersectResult_Set_t(MR_TriIntersectResult *_this, float value)</div></div>
+<div class="ttc" id="agroup__TriangleIntersectionGroup_html_gae5501fd06f4247851460b45c83f5548b"><div class="ttname"><a href="group__TriangleIntersectionGroup.html#gae5501fd06f4247851460b45c83f5548b">MR_TriIntersectResult_Get_bary</a></div><div class="ttdeci">MRC_API const MR_TriPointf * MR_TriIntersectResult_Get_bary(const MR_TriIntersectResult *_this)</div></div>
+<div class="ttc" id="agroup__TriangleIntersectionGroup_html_gaf750b34f9dddbefd1b6fead04390b186"><div class="ttname"><a href="group__TriangleIntersectionGroup.html#gaf750b34f9dddbefd1b6fead04390b186">MR_TriIntersectResult_OffsetMutablePtr</a></div><div class="ttdeci">MRC_API MR_TriIntersectResult * MR_TriIntersectResult_OffsetMutablePtr(MR_TriIntersectResult *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="agroup__TriangleIntersectionGroup_html_gafecd03003265a7bf9ef741ff6fb601f1"><div class="ttname"><a href="group__TriangleIntersectionGroup.html#gafecd03003265a7bf9ef741ff6fb601f1">MR_rayTriangleIntersect__double</a></div><div class="ttdeci">MRC_API MR_std_optional_MR_TriIntersectResult * MR_rayTriangleIntersect__double(const MR_Vector3d *oriA, const MR_Vector3d *oriB, const MR_Vector3d *oriC, const MR_IntersectionPrecomputes_double *prec)</div></div>
+<div class="ttc" id="astructMR__Vector3d_html"><div class="ttname"><a href="structMR__Vector3d.html">MR_Vector3d</a></div><div class="ttdef"><b>Definition</b> MRVector3.h:65</div></div>
+<div class="ttc" id="astructMR__Vector3f_html"><div class="ttname"><a href="structMR__Vector3f.html">MR_Vector3f</a></div><div class="ttdef"><b>Definition</b> MRVector3.h:55</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_8b489c7b5d1a72d35ec87e32cc37b940.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRTriangleIntersection_8h.html">MRTriangleIntersection.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

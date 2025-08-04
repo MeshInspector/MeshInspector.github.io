@@ -1,0 +1,1151 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1Vector__GraphVertId__GraphVertId.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1Vector__GraphVertId__GraphVertId-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ac85e0a2ff1e18ae148a92e526aa39408" id="r_ac85e0a2ff1e18ae148a92e526aa39408"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac85e0a2ff1e18ae148a92e526aa39408">__eq__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__GraphVertId__GraphVertId.html">Vector_GraphVertId_GraphVertId</a> b)</td></tr>
+<tr class="separator:ac85e0a2ff1e18ae148a92e526aa39408"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16731612486b48c0caedc00e36b6c770" id="r_a16731612486b48c0caedc00e36b6c770"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16731612486b48c0caedc00e36b6c770">__init__</a> (self)</td></tr>
+<tr class="separator:a16731612486b48c0caedc00e36b6c770"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae1e1971ebacc51a7d9bd33e2162612e" id="r_aae1e1971ebacc51a7d9bd33e2162612e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae1e1971ebacc51a7d9bd33e2162612e">__init__</a> (self, int <a class="el" href="#a9c8b875b6d87a934ff41f62bce682e87">size</a>)</td></tr>
+<tr class="separator:aae1e1971ebacc51a7d9bd33e2162612e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44944d20ab70de48281ae17db7207767" id="r_a44944d20ab70de48281ae17db7207767"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44944d20ab70de48281ae17db7207767">__init__</a> (self, int <a class="el" href="#a9c8b875b6d87a934ff41f62bce682e87">size</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> val)</td></tr>
+<tr class="separator:a44944d20ab70de48281ae17db7207767"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6013fdcb895cb3876fcc4252232c461" id="r_ac6013fdcb895cb3876fcc4252232c461"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6013fdcb895cb3876fcc4252232c461">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Id__GraphVertTag.html">std_vector_Id_GraphVertTag</a> vec)</td></tr>
+<tr class="separator:ac6013fdcb895cb3876fcc4252232c461"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa587b94848a3ca9c54225eef15b56f6e" id="r_aa587b94848a3ca9c54225eef15b56f6e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa587b94848a3ca9c54225eef15b56f6e">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__GraphVertId__GraphVertId.html">Vector_GraphVertId_GraphVertId</a> arg0)</td></tr>
+<tr class="separator:aa587b94848a3ca9c54225eef15b56f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84289c78db75d6b7e8d44455668a6950" id="r_a84289c78db75d6b7e8d44455668a6950"><td class="memItemLeft" align="right" valign="top">typing.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84289c78db75d6b7e8d44455668a6950">__iter__</a> (self)</td></tr>
+<tr class="separator:a84289c78db75d6b7e8d44455668a6950"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27557e51a93feb1115b0322ee8b0e70b" id="r_a27557e51a93feb1115b0322ee8b0e70b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27557e51a93feb1115b0322ee8b0e70b">__ne__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__GraphVertId__GraphVertId.html">Vector_GraphVertId_GraphVertId</a> b)</td></tr>
+<tr class="separator:a27557e51a93feb1115b0322ee8b0e70b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47662dd245a511c06aa0d0e4a2d48e8a" id="r_a47662dd245a511c06aa0d0e4a2d48e8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47662dd245a511c06aa0d0e4a2d48e8a">autoResizeAt</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> i)</td></tr>
+<tr class="separator:a47662dd245a511c06aa0d0e4a2d48e8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a884cf44b6c3919017ca801c199f15848" id="r_a884cf44b6c3919017ca801c199f15848"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a884cf44b6c3919017ca801c199f15848">autoResizeSet</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> pos, int len, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> val)</td></tr>
+<tr class="separator:a884cf44b6c3919017ca801c199f15848"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae804728e81f6d81b237d260e71c43f7a" id="r_ae804728e81f6d81b237d260e71c43f7a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae804728e81f6d81b237d260e71c43f7a">autoResizeSet</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> i, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> val)</td></tr>
+<tr class="separator:ae804728e81f6d81b237d260e71c43f7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21ee1d164b4ba6eb1e3c9ad5b4263215" id="r_a21ee1d164b4ba6eb1e3c9ad5b4263215"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21ee1d164b4ba6eb1e3c9ad5b4263215">back</a> (self)</td></tr>
+<tr class="separator:a21ee1d164b4ba6eb1e3c9ad5b4263215"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21ee1d164b4ba6eb1e3c9ad5b4263215" id="r_a21ee1d164b4ba6eb1e3c9ad5b4263215"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21ee1d164b4ba6eb1e3c9ad5b4263215">back</a> (self)</td></tr>
+<tr class="separator:a21ee1d164b4ba6eb1e3c9ad5b4263215"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45bd94106f444a3189809fccdbbba214" id="r_a45bd94106f444a3189809fccdbbba214"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45bd94106f444a3189809fccdbbba214">backId</a> (self)</td></tr>
+<tr class="separator:a45bd94106f444a3189809fccdbbba214"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afacc0c91d3ee375de80dcd6414c57055" id="r_afacc0c91d3ee375de80dcd6414c57055"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afacc0c91d3ee375de80dcd6414c57055">beginId</a> (self)</td></tr>
+<tr class="separator:afacc0c91d3ee375de80dcd6414c57055"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadd780c971843316dcc4231cc9f7ab8f" id="r_aadd780c971843316dcc4231cc9f7ab8f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadd780c971843316dcc4231cc9f7ab8f">capacity</a> (self)</td></tr>
+<tr class="separator:aadd780c971843316dcc4231cc9f7ab8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f03896ab8f87777ce67c7485d971936" id="r_a8f03896ab8f87777ce67c7485d971936"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f03896ab8f87777ce67c7485d971936">clear</a> (self)</td></tr>
+<tr class="separator:a8f03896ab8f87777ce67c7485d971936"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81816870d3452979fb572a542aa2a174" id="r_a81816870d3452979fb572a542aa2a174"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81816870d3452979fb572a542aa2a174">data</a> (self)</td></tr>
+<tr class="separator:a81816870d3452979fb572a542aa2a174"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81816870d3452979fb572a542aa2a174" id="r_a81816870d3452979fb572a542aa2a174"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81816870d3452979fb572a542aa2a174">data</a> (self)</td></tr>
+<tr class="separator:a81816870d3452979fb572a542aa2a174"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5c8213f524a7937eab1edc3dedeaa24" id="r_ac5c8213f524a7937eab1edc3dedeaa24"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5c8213f524a7937eab1edc3dedeaa24">empty</a> (self)</td></tr>
+<tr class="separator:ac5c8213f524a7937eab1edc3dedeaa24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1feacc17d31842fa67e6e7bfba8c73e" id="r_ae1feacc17d31842fa67e6e7bfba8c73e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1feacc17d31842fa67e6e7bfba8c73e">endId</a> (self)</td></tr>
+<tr class="separator:ae1feacc17d31842fa67e6e7bfba8c73e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a488620faf86a71b9d1618abb051eb7b3" id="r_a488620faf86a71b9d1618abb051eb7b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a488620faf86a71b9d1618abb051eb7b3">front</a> (self)</td></tr>
+<tr class="separator:a488620faf86a71b9d1618abb051eb7b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a488620faf86a71b9d1618abb051eb7b3" id="r_a488620faf86a71b9d1618abb051eb7b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a488620faf86a71b9d1618abb051eb7b3">front</a> (self)</td></tr>
+<tr class="separator:a488620faf86a71b9d1618abb051eb7b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaab014e6c92689f6292d474394407ee6" id="r_aaab014e6c92689f6292d474394407ee6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaab014e6c92689f6292d474394407ee6">heapBytes</a> (self)</td></tr>
+<tr class="separator:aaab014e6c92689f6292d474394407ee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a432a263e4c53b05766b71b2fde0f561e" id="r_a432a263e4c53b05766b71b2fde0f561e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a432a263e4c53b05766b71b2fde0f561e">pop_back</a> (self)</td></tr>
+<tr class="separator:a432a263e4c53b05766b71b2fde0f561e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08aad58fc8df72e4779924ec9ae7cc25" id="r_a08aad58fc8df72e4779924ec9ae7cc25"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08aad58fc8df72e4779924ec9ae7cc25">push_back</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> t)</td></tr>
+<tr class="separator:a08aad58fc8df72e4779924ec9ae7cc25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08aad58fc8df72e4779924ec9ae7cc25" id="r_a08aad58fc8df72e4779924ec9ae7cc25"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08aad58fc8df72e4779924ec9ae7cc25">push_back</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> t)</td></tr>
+<tr class="separator:a08aad58fc8df72e4779924ec9ae7cc25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ac029687c01fdde4fd69af7fd1af125" id="r_a0ac029687c01fdde4fd69af7fd1af125"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ac029687c01fdde4fd69af7fd1af125">reserve</a> (self, int <a class="el" href="#aadd780c971843316dcc4231cc9f7ab8f">capacity</a>)</td></tr>
+<tr class="separator:a0ac029687c01fdde4fd69af7fd1af125"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b75112bf6ac318e04c6b7d6a9b50905" id="r_a5b75112bf6ac318e04c6b7d6a9b50905"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b75112bf6ac318e04c6b7d6a9b50905">resize</a> (self, int newSize)</td></tr>
+<tr class="separator:a5b75112bf6ac318e04c6b7d6a9b50905"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a018ed19a9c3504a4c8aa0ebb69493086" id="r_a018ed19a9c3504a4c8aa0ebb69493086"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a018ed19a9c3504a4c8aa0ebb69493086">resize</a> (self, int newSize, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> t)</td></tr>
+<tr class="separator:a018ed19a9c3504a4c8aa0ebb69493086"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f507f81fe744c656d2c596174c35b2e" id="r_a8f507f81fe744c656d2c596174c35b2e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f507f81fe744c656d2c596174c35b2e">resizeNoInit</a> (self, int targetSize)</td></tr>
+<tr class="separator:a8f507f81fe744c656d2c596174c35b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9dd90b703e9fe816a1a9030e43b46b4" id="r_aa9dd90b703e9fe816a1a9030e43b46b4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9dd90b703e9fe816a1a9030e43b46b4">resizeWithReserve</a> (self, int newSize)</td></tr>
+<tr class="separator:aa9dd90b703e9fe816a1a9030e43b46b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68b27f82dd00003ce4e8bdf0c99d5240" id="r_a68b27f82dd00003ce4e8bdf0c99d5240"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68b27f82dd00003ce4e8bdf0c99d5240">resizeWithReserve</a> (self, int newSize, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> value)</td></tr>
+<tr class="separator:a68b27f82dd00003ce4e8bdf0c99d5240"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c8b875b6d87a934ff41f62bce682e87" id="r_a9c8b875b6d87a934ff41f62bce682e87"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c8b875b6d87a934ff41f62bce682e87">size</a> (self)</td></tr>
+<tr class="separator:a9c8b875b6d87a934ff41f62bce682e87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cd1420215aeb45d4859a9943158686e" id="r_a4cd1420215aeb45d4859a9943158686e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cd1420215aeb45d4859a9943158686e">swap</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__GraphVertId__GraphVertId.html">Vector_GraphVertId_GraphVertId</a> b)</td></tr>
+<tr class="separator:a4cd1420215aeb45d4859a9943158686e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90db0f217392a0b8f98bf23279d5fcc0" id="r_a90db0f217392a0b8f98bf23279d5fcc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Id__GraphVertTag.html">std_vector_Id_GraphVertTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90db0f217392a0b8f98bf23279d5fcc0">vec_</a> (self)</td></tr>
+<tr class="separator:a90db0f217392a0b8f98bf23279d5fcc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fd937d555771b5d69ef48f2204edd0c" id="r_a8fd937d555771b5d69ef48f2204edd0c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fd937d555771b5d69ef48f2204edd0c">vec_</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Id__GraphVertTag.html">std_vector_Id_GraphVertTag</a> arg1)</td></tr>
+<tr class="separator:a8fd937d555771b5d69ef48f2204edd0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:aad07f32cdffaffa5da6e97ab14a11094" id="r_aad07f32cdffaffa5da6e97ab14a11094"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad07f32cdffaffa5da6e97ab14a11094">const_reference</a> = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a></td></tr>
+<tr class="separator:aad07f32cdffaffa5da6e97ab14a11094"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2a8ad5eb44f8d4eec010a3ae52c7d4a" id="r_aa2a8ad5eb44f8d4eec010a3ae52c7d4a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2a8ad5eb44f8d4eec010a3ae52c7d4a">reference</a> = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a></td></tr>
+<tr class="separator:aa2a8ad5eb44f8d4eec010a3ae52c7d4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c73bc847492875ba69ff79dee1b9639" id="r_a3c73bc847492875ba69ff79dee1b9639"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c73bc847492875ba69ff79dee1b9639">value_type</a> = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a></td></tr>
+<tr class="separator:a3c73bc847492875ba69ff79dee1b9639"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a976dde6d00929332583df7906fd15ff9" id="r_a976dde6d00929332583df7906fd15ff9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a976dde6d00929332583df7906fd15ff9">_Subscript</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> i)</td></tr>
+<tr class="separator:a976dde6d00929332583df7906fd15ff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a976dde6d00929332583df7906fd15ff9" id="r_a976dde6d00929332583df7906fd15ff9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a976dde6d00929332583df7906fd15ff9">_Subscript</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> i)</td></tr>
+<tr class="separator:a976dde6d00929332583df7906fd15ff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Generated from:  MR::Vector&lt;MR::GraphVertId, MR::GraphVertId&gt;
+Aliases:  Vector_TaggedBitSet_GraphVertTag_IndexType_TaggedBitSet_GraphVertTag_IndexType, Vector_Graph_VertId_Graph_VertId
+
+
+ \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
+ \\tparam T type of stored elements
+ \\tparam I type of index (shall be convertible to size_t)
+ \\ingroup BasicGroup</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a16731612486b48c0caedc00e36b6c770" name="a16731612486b48c0caedc00e36b6c770"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16731612486b48c0caedc00e36b6c770">&#9670;&#160;</a></span>__init__() <span class="overload">[1/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aae1e1971ebacc51a7d9bd33e2162612e" name="aae1e1971ebacc51a7d9bd33e2162612e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae1e1971ebacc51a7d9bd33e2162612e">&#9670;&#160;</a></span>__init__() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a44944d20ab70de48281ae17db7207767" name="a44944d20ab70de48281ae17db7207767"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44944d20ab70de48281ae17db7207767">&#9670;&#160;</a></span>__init__() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6013fdcb895cb3876fcc4252232c461" name="ac6013fdcb895cb3876fcc4252232c461"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6013fdcb895cb3876fcc4252232c461">&#9670;&#160;</a></span>__init__() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Id__GraphVertTag.html">std_vector_Id_GraphVertTag</a></td>          <td class="paramname"><span class="paramname"><em>vec</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa587b94848a3ca9c54225eef15b56f6e" name="aa587b94848a3ca9c54225eef15b56f6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa587b94848a3ca9c54225eef15b56f6e">&#9670;&#160;</a></span>__init__() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__GraphVertId__GraphVertId.html">Vector_GraphVertId_GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit copy constructor.
+</pre> 
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac85e0a2ff1e18ae148a92e526aa39408" name="ac85e0a2ff1e18ae148a92e526aa39408"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac85e0a2ff1e18ae148a92e526aa39408">&#9670;&#160;</a></span>__eq__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.__eq__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__GraphVertId__GraphVertId.html">Vector_GraphVertId_GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a84289c78db75d6b7e8d44455668a6950" name="a84289c78db75d6b7e8d44455668a6950"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84289c78db75d6b7e8d44455668a6950">&#9670;&#160;</a></span>__iter__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> typing.Iterator meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.__iter__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a27557e51a93feb1115b0322ee8b0e70b" name="a27557e51a93feb1115b0322ee8b0e70b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27557e51a93feb1115b0322ee8b0e70b">&#9670;&#160;</a></span>__ne__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.__ne__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__GraphVertId__GraphVertId.html">Vector_GraphVertId_GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a976dde6d00929332583df7906fd15ff9" name="a976dde6d00929332583df7906fd15ff9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a976dde6d00929332583df7906fd15ff9">&#9670;&#160;</a></span>_Subscript() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId._Subscript </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a976dde6d00929332583df7906fd15ff9" name="a976dde6d00929332583df7906fd15ff9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a976dde6d00929332583df7906fd15ff9">&#9670;&#160;</a></span>_Subscript() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId._Subscript </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a47662dd245a511c06aa0d0e4a2d48e8a" name="a47662dd245a511c06aa0d0e4a2d48e8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47662dd245a511c06aa0d0e4a2d48e8a">&#9670;&#160;</a></span>autoResizeAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.autoResizeAt </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">this accessor automatically adjusts the size of the vector
+</pre> 
+</div>
+</div>
+<a id="ae804728e81f6d81b237d260e71c43f7a" name="ae804728e81f6d81b237d260e71c43f7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae804728e81f6d81b237d260e71c43f7a">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.autoResizeSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a884cf44b6c3919017ca801c199f15848" name="a884cf44b6c3919017ca801c199f15848"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a884cf44b6c3919017ca801c199f15848">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.autoResizeSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>len</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sets elements [pos, pos+len) to given value, adjusting the size of the vector to include new elements
+</pre> 
+</div>
+</div>
+<a id="a21ee1d164b4ba6eb1e3c9ad5b4263215" name="a21ee1d164b4ba6eb1e3c9ad5b4263215"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21ee1d164b4ba6eb1e3c9ad5b4263215">&#9670;&#160;</a></span>back() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.back </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a21ee1d164b4ba6eb1e3c9ad5b4263215" name="a21ee1d164b4ba6eb1e3c9ad5b4263215"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21ee1d164b4ba6eb1e3c9ad5b4263215">&#9670;&#160;</a></span>back() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.back </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a45bd94106f444a3189809fccdbbba214" name="a45bd94106f444a3189809fccdbbba214"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45bd94106f444a3189809fccdbbba214">&#9670;&#160;</a></span>backId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.backId </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the identifier of the back() element
+</pre> 
+</div>
+</div>
+<a id="afacc0c91d3ee375de80dcd6414c57055" name="afacc0c91d3ee375de80dcd6414c57055"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afacc0c91d3ee375de80dcd6414c57055">&#9670;&#160;</a></span>beginId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.beginId </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the identifier of the first element
+</pre> 
+</div>
+</div>
+<a id="aadd780c971843316dcc4231cc9f7ab8f" name="aadd780c971843316dcc4231cc9f7ab8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadd780c971843316dcc4231cc9f7ab8f">&#9670;&#160;</a></span>capacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.capacity </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8f03896ab8f87777ce67c7485d971936" name="a8f03896ab8f87777ce67c7485d971936"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f03896ab8f87777ce67c7485d971936">&#9670;&#160;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.clear </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a81816870d3452979fb572a542aa2a174" name="a81816870d3452979fb572a542aa2a174"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81816870d3452979fb572a542aa2a174">&#9670;&#160;</a></span>data() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.data </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a81816870d3452979fb572a542aa2a174" name="a81816870d3452979fb572a542aa2a174"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81816870d3452979fb572a542aa2a174">&#9670;&#160;</a></span>data() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.data </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac5c8213f524a7937eab1edc3dedeaa24" name="ac5c8213f524a7937eab1edc3dedeaa24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5c8213f524a7937eab1edc3dedeaa24">&#9670;&#160;</a></span>empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.empty </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae1feacc17d31842fa67e6e7bfba8c73e" name="ae1feacc17d31842fa67e6e7bfba8c73e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1feacc17d31842fa67e6e7bfba8c73e">&#9670;&#160;</a></span>endId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.endId </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns backId() + 1
+</pre> 
+</div>
+</div>
+<a id="a488620faf86a71b9d1618abb051eb7b3" name="a488620faf86a71b9d1618abb051eb7b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a488620faf86a71b9d1618abb051eb7b3">&#9670;&#160;</a></span>front() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.front </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a488620faf86a71b9d1618abb051eb7b3" name="a488620faf86a71b9d1618abb051eb7b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a488620faf86a71b9d1618abb051eb7b3">&#9670;&#160;</a></span>front() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a> meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.front </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaab014e6c92689f6292d474394407ee6" name="aaab014e6c92689f6292d474394407ee6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaab014e6c92689f6292d474394407ee6">&#9670;&#160;</a></span>heapBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.heapBytes </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the amount of memory this object occupies on heap
+</pre> 
+</div>
+</div>
+<a id="a432a263e4c53b05766b71b2fde0f561e" name="a432a263e4c53b05766b71b2fde0f561e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a432a263e4c53b05766b71b2fde0f561e">&#9670;&#160;</a></span>pop_back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.pop_back </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a08aad58fc8df72e4779924ec9ae7cc25" name="a08aad58fc8df72e4779924ec9ae7cc25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08aad58fc8df72e4779924ec9ae7cc25">&#9670;&#160;</a></span>push_back() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.push_back </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a08aad58fc8df72e4779924ec9ae7cc25" name="a08aad58fc8df72e4779924ec9ae7cc25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08aad58fc8df72e4779924ec9ae7cc25">&#9670;&#160;</a></span>push_back() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.push_back </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0ac029687c01fdde4fd69af7fd1af125" name="a0ac029687c01fdde4fd69af7fd1af125"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ac029687c01fdde4fd69af7fd1af125">&#9670;&#160;</a></span>reserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.reserve </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>capacity</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5b75112bf6ac318e04c6b7d6a9b50905" name="a5b75112bf6ac318e04c6b7d6a9b50905"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b75112bf6ac318e04c6b7d6a9b50905">&#9670;&#160;</a></span>resize() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.resize </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a018ed19a9c3504a4c8aa0ebb69493086" name="a018ed19a9c3504a4c8aa0ebb69493086"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a018ed19a9c3504a4c8aa0ebb69493086">&#9670;&#160;</a></span>resize() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.resize </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8f507f81fe744c656d2c596174c35b2e" name="a8f507f81fe744c656d2c596174c35b2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f507f81fe744c656d2c596174c35b2e">&#9670;&#160;</a></span>resizeNoInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.resizeNoInit </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">resizes the vector skipping initialization of its elements (more precisely initializing them using ( noInit ) constructor )
+</pre> 
+</div>
+</div>
+<a id="aa9dd90b703e9fe816a1a9030e43b46b4" name="aa9dd90b703e9fe816a1a9030e43b46b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9dd90b703e9fe816a1a9030e43b46b4">&#9670;&#160;</a></span>resizeWithReserve() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.resizeWithReserve </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">doubles reserved memory until resize(newSize) can be done without reallocation
+</pre> 
+</div>
+</div>
+<a id="a68b27f82dd00003ce4e8bdf0c99d5240" name="a68b27f82dd00003ce4e8bdf0c99d5240"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68b27f82dd00003ce4e8bdf0c99d5240">&#9670;&#160;</a></span>resizeWithReserve() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.resizeWithReserve </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">doubles reserved memory until resize(newSize) can be done without reallocation
+</pre> 
+</div>
+</div>
+<a id="a9c8b875b6d87a934ff41f62bce682e87" name="a9c8b875b6d87a934ff41f62bce682e87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c8b875b6d87a934ff41f62bce682e87">&#9670;&#160;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.size </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4cd1420215aeb45d4859a9943158686e" name="a4cd1420215aeb45d4859a9943158686e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cd1420215aeb45d4859a9943158686e">&#9670;&#160;</a></span>swap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.swap </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__GraphVertId__GraphVertId.html">Vector_GraphVertId_GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a90db0f217392a0b8f98bf23279d5fcc0" name="a90db0f217392a0b8f98bf23279d5fcc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90db0f217392a0b8f98bf23279d5fcc0">&#9670;&#160;</a></span>vec_() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Id__GraphVertTag.html">std_vector_Id_GraphVertTag</a> meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.vec_ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">the user can directly manipulate the vector, anyway she cannot break anything
+</pre> 
+</div>
+</div>
+<a id="a8fd937d555771b5d69ef48f2204edd0c" name="a8fd937d555771b5d69ef48f2204edd0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fd937d555771b5d69ef48f2204edd0c">&#9670;&#160;</a></span>vec_() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.vec_ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__Id__GraphVertTag.html">std_vector_Id_GraphVertTag</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aad07f32cdffaffa5da6e97ab14a11094" name="aad07f32cdffaffa5da6e97ab14a11094"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad07f32cdffaffa5da6e97ab14a11094">&#9670;&#160;</a></span>const_reference</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.const_reference = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa2a8ad5eb44f8d4eec010a3ae52c7d4a" name="aa2a8ad5eb44f8d4eec010a3ae52c7d4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2a8ad5eb44f8d4eec010a3ae52c7d4a">&#9670;&#160;</a></span>reference</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.reference = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3c73bc847492875ba69ff79dee1b9639" name="a3c73bc847492875ba69ff79dee1b9639"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c73bc847492875ba69ff79dee1b9639">&#9670;&#160;</a></span>value_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">meshlib.mrmeshpy.Vector_GraphVertId_GraphVertId.value_type = <a class="el" href="classmeshlib_1_1mrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__GraphVertId__GraphVertId.html">Vector_GraphVertId_GraphVertId</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,701 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives__Plane_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives__Plane_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a39b58207df022bb5fab425c6a19707d5" id="r_a39b58207df022bb5fab425c6a19707d5"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRFeatures_8h.html#a39b58207df022bb5fab425c6a19707d5">MR_Features_Primitives_ConeSegment</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39b58207df022bb5fab425c6a19707d5">MR_Features_Primitives_ConeSegment</a></td></tr>
+<tr class="separator:a39b58207df022bb5fab425c6a19707d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5e408068786156e172375da56e2e8c6" id="r_ae5e408068786156e172375da56e2e8c6"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRFeatures_8h.html#ae5e408068786156e172375da56e2e8c6">MR_Features_Primitives_Plane</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5e408068786156e172375da56e2e8c6">MR_Features_Primitives_Plane</a></td></tr>
+<tr class="separator:ae5e408068786156e172375da56e2e8c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab1b39c2998e4a21d6d10c8e06ff9013" id="r_aab1b39c2998e4a21d6d10c8e06ff9013"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a></td></tr>
+<tr class="separator:aab1b39c2998e4a21d6d10c8e06ff9013"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d8e47f41f1a72d81eae50dc8db9ae3d" id="r_a9d8e47f41f1a72d81eae50dc8db9ae3d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a></td></tr>
+<tr class="separator:a9d8e47f41f1a72d81eae50dc8db9ae3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a5fb29ee9d1bc8816d16ba5664449747f" id="r_a5fb29ee9d1bc8816d16ba5664449747f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fb29ee9d1bc8816d16ba5664449747f">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a5fb29ee9d1bc8816d16ba5664449747f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9069243c4242692251b352f0bde963e6" id="r_a9069243c4242692251b352f0bde963e6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9069243c4242692251b352f0bde963e6">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a9069243c4242692251b352f0bde963e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86178d00dcd11bd42af169545ef7e265" id="r_a86178d00dcd11bd42af169545ef7e265"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86178d00dcd11bd42af169545ef7e265">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ConstructFromAnother</a> (const <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *other)</td></tr>
+<tr class="separator:a86178d00dcd11bd42af169545ef7e265"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b9de9689168aabd530cb86aa172f3b1" id="r_a9b9de9689168aabd530cb86aa172f3b1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b9de9689168aabd530cb86aa172f3b1">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_AssignFromAnother</a> (<a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *_this, const <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *other)</td></tr>
+<tr class="separator:a9b9de9689168aabd530cb86aa172f3b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a840b43bfb0b0bc1f79f85d74d804abcf" id="r_a840b43bfb0b0bc1f79f85d74d804abcf"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a840b43bfb0b0bc1f79f85d74d804abcf">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_Destroy</a> (const <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *_this)</td></tr>
+<tr class="memdesc:a840b43bfb0b0bc1f79f85d74d804abcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a840b43bfb0b0bc1f79f85d74d804abcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaeef1631c8938161ea65d7e32957f574" id="r_aaeef1631c8938161ea65d7e32957f574"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaeef1631c8938161ea65d7e32957f574">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_DestroyArray</a> (const <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *_this)</td></tr>
+<tr class="memdesc:aaeef1631c8938161ea65d7e32957f574"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:aaeef1631c8938161ea65d7e32957f574"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab670b4377f4bdf0c3a9a9bb63daf9ec7" id="r_ab670b4377f4bdf0c3a9a9bb63daf9ec7"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab670b4377f4bdf0c3a9a9bb63daf9ec7">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_OffsetPtr</a> (const <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ab670b4377f4bdf0c3a9a9bb63daf9ec7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ab670b4377f4bdf0c3a9a9bb63daf9ec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae97fde89ffe471cac905c4ecd41800c6" id="r_ae97fde89ffe471cac905c4ecd41800c6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae97fde89ffe471cac905c4ecd41800c6">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_OffsetMutablePtr</a> (<a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ae97fde89ffe471cac905c4ecd41800c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ae97fde89ffe471cac905c4ecd41800c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24920902def037f33f968c1d45a8999b" id="r_a24920902def037f33f968c1d45a8999b"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24920902def037f33f968c1d45a8999b">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_Index</a> (const <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *_this)</td></tr>
+<tr class="separator:a24920902def037f33f968c1d45a8999b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5fcbd5e5851661483b1e7394f1db102" id="r_ab5fcbd5e5851661483b1e7394f1db102"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5fcbd5e5851661483b1e7394f1db102">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ConstructAs_MR_Sphere3f</a> (const <a class="el" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *value)</td></tr>
+<tr class="separator:ab5fcbd5e5851661483b1e7394f1db102"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ea1d218896becd884ca7caacd61dca9" id="r_a2ea1d218896becd884ca7caacd61dca9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ea1d218896becd884ca7caacd61dca9">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ConstructAs_MR_Features_Primitives_ConeSegment</a> (const <a class="el" href="MRFeatures_8h.html#a39b58207df022bb5fab425c6a19707d5">MR_Features_Primitives_ConeSegment</a> *value)</td></tr>
+<tr class="separator:a2ea1d218896becd884ca7caacd61dca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add04df0a30126b89794e556d730969f7" id="r_add04df0a30126b89794e556d730969f7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add04df0a30126b89794e556d730969f7">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ConstructAs_MR_Features_Primitives_Plane</a> (const <a class="el" href="MRFeatures_8h.html#ae5e408068786156e172375da56e2e8c6">MR_Features_Primitives_Plane</a> *value)</td></tr>
+<tr class="separator:add04df0a30126b89794e556d730969f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a620a10224c6b323263fae596eeb84293" id="r_a620a10224c6b323263fae596eeb84293"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a620a10224c6b323263fae596eeb84293">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_AssignAs_MR_Sphere3f</a> (<a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *_this, const <a class="el" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *value)</td></tr>
+<tr class="separator:a620a10224c6b323263fae596eeb84293"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa81762d05b8c61b18dfc9ed00210a07c" id="r_aa81762d05b8c61b18dfc9ed00210a07c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa81762d05b8c61b18dfc9ed00210a07c">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_AssignAs_MR_Features_Primitives_ConeSegment</a> (<a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *_this, const <a class="el" href="MRFeatures_8h.html#a39b58207df022bb5fab425c6a19707d5">MR_Features_Primitives_ConeSegment</a> *value)</td></tr>
+<tr class="separator:aa81762d05b8c61b18dfc9ed00210a07c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40550c06785d5415704b3d6870716687" id="r_a40550c06785d5415704b3d6870716687"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40550c06785d5415704b3d6870716687">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_AssignAs_MR_Features_Primitives_Plane</a> (<a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *_this, const <a class="el" href="MRFeatures_8h.html#ae5e408068786156e172375da56e2e8c6">MR_Features_Primitives_Plane</a> *value)</td></tr>
+<tr class="separator:a40550c06785d5415704b3d6870716687"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ea4558a0f8e961891e1a87156312991" id="r_a3ea4558a0f8e961891e1a87156312991"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ea4558a0f8e961891e1a87156312991">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_Get_MR_Sphere3f</a> (const <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *_this)</td></tr>
+<tr class="separator:a3ea4558a0f8e961891e1a87156312991"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09ff1392690efb83cadb83a8ce512a40" id="r_a09ff1392690efb83cadb83a8ce512a40"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09ff1392690efb83cadb83a8ce512a40">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_GetMutable_MR_Sphere3f</a> (<a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *_this)</td></tr>
+<tr class="separator:a09ff1392690efb83cadb83a8ce512a40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44cd523b3fd87bc9ec87b6107f080288" id="r_a44cd523b3fd87bc9ec87b6107f080288"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRFeatures_8h.html#a39b58207df022bb5fab425c6a19707d5">MR_Features_Primitives_ConeSegment</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44cd523b3fd87bc9ec87b6107f080288">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_Get_MR_Features_Primitives_ConeSegment</a> (const <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *_this)</td></tr>
+<tr class="separator:a44cd523b3fd87bc9ec87b6107f080288"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a337636122e7d97affb516b582118a5a0" id="r_a337636122e7d97affb516b582118a5a0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRFeatures_8h.html#a39b58207df022bb5fab425c6a19707d5">MR_Features_Primitives_ConeSegment</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a337636122e7d97affb516b582118a5a0">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_GetMutable_MR_Features_Primitives_ConeSegment</a> (<a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *_this)</td></tr>
+<tr class="separator:a337636122e7d97affb516b582118a5a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a2a1f87f6e5557c89ccd8ad64ab5aad" id="r_a1a2a1f87f6e5557c89ccd8ad64ab5aad"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRFeatures_8h.html#ae5e408068786156e172375da56e2e8c6">MR_Features_Primitives_Plane</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a2a1f87f6e5557c89ccd8ad64ab5aad">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_Get_MR_Features_Primitives_Plane</a> (const <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *_this)</td></tr>
+<tr class="separator:a1a2a1f87f6e5557c89ccd8ad64ab5aad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8f5e2366ace2bdbb2aaf697ccdd4234" id="r_ac8f5e2366ace2bdbb2aaf697ccdd4234"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRFeatures_8h.html#ae5e408068786156e172375da56e2e8c6">MR_Features_Primitives_Plane</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8f5e2366ace2bdbb2aaf697ccdd4234">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_GetMutable_MR_Features_Primitives_Plane</a> (<a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *_this)</td></tr>
+<tr class="separator:ac8f5e2366ace2bdbb2aaf697ccdd4234"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a39b58207df022bb5fab425c6a19707d5" name="a39b58207df022bb5fab425c6a19707d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39b58207df022bb5fab425c6a19707d5">&#9670;&#160;</a></span>MR_Features_Primitives_ConeSegment</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRFeatures_8h.html#a39b58207df022bb5fab425c6a19707d5">MR_Features_Primitives_ConeSegment</a> <a class="el" href="MRFeatures_8h.html#a39b58207df022bb5fab425c6a19707d5">MR_Features_Primitives_ConeSegment</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae5e408068786156e172375da56e2e8c6" name="ae5e408068786156e172375da56e2e8c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5e408068786156e172375da56e2e8c6">&#9670;&#160;</a></span>MR_Features_Primitives_Plane</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRFeatures_8h.html#ae5e408068786156e172375da56e2e8c6">MR_Features_Primitives_Plane</a> <a class="el" href="MRFeatures_8h.html#ae5e408068786156e172375da56e2e8c6">MR_Features_Primitives_Plane</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aab1b39c2998e4a21d6d10c8e06ff9013" name="aab1b39c2998e4a21d6d10c8e06ff9013"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab1b39c2998e4a21d6d10c8e06ff9013">&#9670;&#160;</a></span>MR_Sphere3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> <a class="el" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9d8e47f41f1a72d81eae50dc8db9ae3d" name="a9d8e47f41f1a72d81eae50dc8db9ae3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d8e47f41f1a72d81eae50dc8db9ae3d">&#9670;&#160;</a></span>MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Stores one of 3 objects: <code>MR::Sphere3f</code>, <code><a class="elRef" href="../Cpp/structMR_1_1Features_1_1Primitives_1_1ConeSegment.html">MR::Features::Primitives::ConeSegment</a></code>, <code><a class="elRef" href="../Cpp/structMR_1_1Features_1_1Primitives_1_1Plane.html">MR::Features::Primitives::Plane</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="aa81762d05b8c61b18dfc9ed00210a07c" name="aa81762d05b8c61b18dfc9ed00210a07c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa81762d05b8c61b18dfc9ed00210a07c">&#9670;&#160;</a></span>MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_AssignAs_MR_Features_Primitives_ConeSegment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_AssignAs_MR_Features_Primitives_ConeSegment </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRFeatures_8h.html#a39b58207df022bb5fab425c6a19707d5">MR_Features_Primitives_ConeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns to the variant, making it store the element 1, of type <code><a class="elRef" href="../Cpp/structMR_1_1Features_1_1Primitives_1_1ConeSegment.html">MR::Features::Primitives::ConeSegment</a></code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a40550c06785d5415704b3d6870716687" name="a40550c06785d5415704b3d6870716687"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40550c06785d5415704b3d6870716687">&#9670;&#160;</a></span>MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_AssignAs_MR_Features_Primitives_Plane()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_AssignAs_MR_Features_Primitives_Plane </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRFeatures_8h.html#ae5e408068786156e172375da56e2e8c6">MR_Features_Primitives_Plane</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns to the variant, making it store the element 2, of type <code><a class="elRef" href="../Cpp/structMR_1_1Features_1_1Primitives_1_1Plane.html">MR::Features::Primitives::Plane</a></code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a620a10224c6b323263fae596eeb84293" name="a620a10224c6b323263fae596eeb84293"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a620a10224c6b323263fae596eeb84293">&#9670;&#160;</a></span>MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_AssignAs_MR_Sphere3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_AssignAs_MR_Sphere3f </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns to the variant, making it store the element 0, of type <code>MR::Sphere3f</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a9b9de9689168aabd530cb86aa172f3b1" name="a9b9de9689168aabd530cb86aa172f3b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b9de9689168aabd530cb86aa172f3b1">&#9670;&#160;</a></span>MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a2ea1d218896becd884ca7caacd61dca9" name="a2ea1d218896becd884ca7caacd61dca9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ea1d218896becd884ca7caacd61dca9">&#9670;&#160;</a></span>MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ConstructAs_MR_Features_Primitives_ConeSegment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> * MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ConstructAs_MR_Features_Primitives_ConeSegment </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRFeatures_8h.html#a39b58207df022bb5fab425c6a19707d5">MR_Features_Primitives_ConeSegment</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs the variant storing the element 1, of type <code><a class="elRef" href="../Cpp/structMR_1_1Features_1_1Primitives_1_1ConeSegment.html">MR::Features::Primitives::ConeSegment</a></code>. Parameter <code>value</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a840b43bfb0b0bc1f79f85d74d804abcf" title="Destroys a heap-allocated instance of MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_M...">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="add04df0a30126b89794e556d730969f7" name="add04df0a30126b89794e556d730969f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add04df0a30126b89794e556d730969f7">&#9670;&#160;</a></span>MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ConstructAs_MR_Features_Primitives_Plane()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> * MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ConstructAs_MR_Features_Primitives_Plane </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRFeatures_8h.html#ae5e408068786156e172375da56e2e8c6">MR_Features_Primitives_Plane</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs the variant storing the element 2, of type <code><a class="elRef" href="../Cpp/structMR_1_1Features_1_1Primitives_1_1Plane.html">MR::Features::Primitives::Plane</a></code>. Parameter <code>value</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a840b43bfb0b0bc1f79f85d74d804abcf" title="Destroys a heap-allocated instance of MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_M...">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab5fcbd5e5851661483b1e7394f1db102" name="ab5fcbd5e5851661483b1e7394f1db102"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5fcbd5e5851661483b1e7394f1db102">&#9670;&#160;</a></span>MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ConstructAs_MR_Sphere3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> * MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ConstructAs_MR_Sphere3f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs the variant storing the element 0, of type <code>MR::Sphere3f</code>. Parameter <code>value</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a840b43bfb0b0bc1f79f85d74d804abcf" title="Destroys a heap-allocated instance of MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_M...">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a86178d00dcd11bd42af169545ef7e265" name="a86178d00dcd11bd42af169545ef7e265"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86178d00dcd11bd42af169545ef7e265">&#9670;&#160;</a></span>MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> * MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a840b43bfb0b0bc1f79f85d74d804abcf" title="Destroys a heap-allocated instance of MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_M...">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5fb29ee9d1bc8816d16ba5664449747f" name="a5fb29ee9d1bc8816d16ba5664449747f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fb29ee9d1bc8816d16ba5664449747f">&#9670;&#160;</a></span>MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> * MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a840b43bfb0b0bc1f79f85d74d804abcf" title="Destroys a heap-allocated instance of MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_M...">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a9069243c4242692251b352f0bde963e6" name="a9069243c4242692251b352f0bde963e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9069243c4242692251b352f0bde963e6">&#9670;&#160;</a></span>MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> * MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#aaeef1631c8938161ea65d7e32957f574" title="Destroys a heap-allocated array of MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_F...">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_DestroyArray()</a></code>. Use <code><a class="el" href="#ae97fde89ffe471cac905c4ecd41800c6" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_OffsetMutablePtr()</a></code> and <code><a class="el" href="#ab670b4377f4bdf0c3a9a9bb63daf9ec7" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a840b43bfb0b0bc1f79f85d74d804abcf" name="a840b43bfb0b0bc1f79f85d74d804abcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a840b43bfb0b0bc1f79f85d74d804abcf">&#9670;&#160;</a></span>MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aaeef1631c8938161ea65d7e32957f574" name="aaeef1631c8938161ea65d7e32957f574"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaeef1631c8938161ea65d7e32957f574">&#9670;&#160;</a></span>MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a44cd523b3fd87bc9ec87b6107f080288" name="a44cd523b3fd87bc9ec87b6107f080288"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44cd523b3fd87bc9ec87b6107f080288">&#9670;&#160;</a></span>MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_Get_MR_Features_Primitives_ConeSegment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRFeatures_8h.html#a39b58207df022bb5fab425c6a19707d5">MR_Features_Primitives_ConeSegment</a> * MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_Get_MR_Features_Primitives_ConeSegment </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the element 1, of type <code><a class="elRef" href="../Cpp/structMR_1_1Features_1_1Primitives_1_1ConeSegment.html">MR::Features::Primitives::ConeSegment</a></code>, read-only. If it's not the active element, returns null. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a1a2a1f87f6e5557c89ccd8ad64ab5aad" name="a1a2a1f87f6e5557c89ccd8ad64ab5aad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a2a1f87f6e5557c89ccd8ad64ab5aad">&#9670;&#160;</a></span>MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_Get_MR_Features_Primitives_Plane()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRFeatures_8h.html#ae5e408068786156e172375da56e2e8c6">MR_Features_Primitives_Plane</a> * MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_Get_MR_Features_Primitives_Plane </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the element 2, of type <code><a class="elRef" href="../Cpp/structMR_1_1Features_1_1Primitives_1_1Plane.html">MR::Features::Primitives::Plane</a></code>, read-only. If it's not the active element, returns null. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3ea4558a0f8e961891e1a87156312991" name="a3ea4558a0f8e961891e1a87156312991"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ea4558a0f8e961891e1a87156312991">&#9670;&#160;</a></span>MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_Get_MR_Sphere3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> * MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_Get_MR_Sphere3f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the element 0, of type <code>MR::Sphere3f</code>, read-only. If it's not the active element, returns null. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a337636122e7d97affb516b582118a5a0" name="a337636122e7d97affb516b582118a5a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a337636122e7d97affb516b582118a5a0">&#9670;&#160;</a></span>MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_GetMutable_MR_Features_Primitives_ConeSegment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRFeatures_8h.html#a39b58207df022bb5fab425c6a19707d5">MR_Features_Primitives_ConeSegment</a> * MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_GetMutable_MR_Features_Primitives_ConeSegment </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the element 1, of type <code><a class="elRef" href="../Cpp/structMR_1_1Features_1_1Primitives_1_1ConeSegment.html">MR::Features::Primitives::ConeSegment</a></code>, mutable. If it's not the active element, returns null. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac8f5e2366ace2bdbb2aaf697ccdd4234" name="ac8f5e2366ace2bdbb2aaf697ccdd4234"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8f5e2366ace2bdbb2aaf697ccdd4234">&#9670;&#160;</a></span>MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_GetMutable_MR_Features_Primitives_Plane()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRFeatures_8h.html#ae5e408068786156e172375da56e2e8c6">MR_Features_Primitives_Plane</a> * MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_GetMutable_MR_Features_Primitives_Plane </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the element 2, of type <code><a class="elRef" href="../Cpp/structMR_1_1Features_1_1Primitives_1_1Plane.html">MR::Features::Primitives::Plane</a></code>, mutable. If it's not the active element, returns null. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a09ff1392690efb83cadb83a8ce512a40" name="a09ff1392690efb83cadb83a8ce512a40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09ff1392690efb83cadb83a8ce512a40">&#9670;&#160;</a></span>MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_GetMutable_MR_Sphere3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRFeatures_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013">MR_Sphere3f</a> * MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_GetMutable_MR_Sphere3f </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the element 0, of type <code>MR::Sphere3f</code>, mutable. If it's not the active element, returns null. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a24920902def037f33f968c1d45a8999b" name="a24920902def037f33f968c1d45a8999b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24920902def037f33f968c1d45a8999b">&#9670;&#160;</a></span>MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_Index()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_Index </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the index of the stored element type. In rare cases may return -1 if this variant is "valueless by exception". Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae97fde89ffe471cac905c4ecd41800c6" name="ae97fde89ffe471cac905c4ecd41800c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae97fde89ffe471cac905c4ecd41800c6">&#9670;&#160;</a></span>MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> * MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ab670b4377f4bdf0c3a9a9bb63daf9ec7" name="ab670b4377f4bdf0c3a9a9bb63daf9ec7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab670b4377f4bdf0c3a9a9bb63daf9ec7">&#9670;&#160;</a></span>MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> * MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRFeatures_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_a57e8462869cab4a5203dede5869920d.html">MRCMisc</a></li><li class="navelem"><a class="el" href="std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives__Plane_8h.html">std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

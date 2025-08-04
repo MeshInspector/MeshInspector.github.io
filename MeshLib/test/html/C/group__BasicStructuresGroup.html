@@ -1,0 +1,654 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: Basic Structures</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('group__BasicStructuresGroup.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">Basic Structures</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ga51ff94746a41880cd06d3272b5bcf710" id="r_ga51ff94746a41880cd06d3272b5bcf710"><td class="memItemLeft" align="right" valign="top">typedef std::function&lt; bool(float)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></td></tr>
+<tr class="separator:ga51ff94746a41880cd06d3272b5bcf710"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5e2943bfe5a7ecddf6b533bccae5f9c0" id="r_ga5e2943bfe5a7ecddf6b533bccae5f9c0"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a></td></tr>
+<tr class="separator:ga5e2943bfe5a7ecddf6b533bccae5f9c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac5c5abdc9ba8adb6f8e522246978c790" id="r_gac5c5abdc9ba8adb6f8e522246978c790"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a></td></tr>
+<tr class="separator:gac5c5abdc9ba8adb6f8e522246978c790"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1f7968a2e645c273edd6641747ac0e4b" id="r_ga1f7968a2e645c273edd6641747ac0e4b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ga1f7968a2e645c273edd6641747ac0e4b">MR_SceneColors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1f7968a2e645c273edd6641747ac0e4b">MR_SceneColors</a></td></tr>
+<tr class="separator:ga1f7968a2e645c273edd6641747ac0e4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga71b8f6135364d23bd16fac524ef466a8" id="r_ga71b8f6135364d23bd16fac524ef466a8"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ga71b8f6135364d23bd16fac524ef466a8">MR_SceneSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga71b8f6135364d23bd16fac524ef466a8">MR_SceneSettings</a></td></tr>
+<tr class="separator:ga71b8f6135364d23bd16fac524ef466a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ga0f1e6296451691269fc538aad8088557" id="r_ga0f1e6296451691269fc538aad8088557"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga0f1e6296451691269fc538aad8088557">MR::heapBytes</a> (const <a class="elRef" href="../Cpp/namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid)</td></tr>
+<tr class="separator:ga0f1e6296451691269fc538aad8088557"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1ca037d5840cb55f43edc7af7164ee53" id="r_ga1ca037d5840cb55f43edc7af7164ee53"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga1ca037d5840cb55f43edc7af7164ee53">MR::resampled</a> (const <a class="elRef" href="../Cpp/namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, float voxelScale, <a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="separator:ga1ca037d5840cb55f43edc7af7164ee53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7d757a1fbd48e0e4c6268f3637ba631c" id="r_ga7d757a1fbd48e0e4c6268f3637ba631c"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga7d757a1fbd48e0e4c6268f3637ba631c">MR::resampled</a> (const <a class="elRef" href="../Cpp/namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, const Vector3f &amp;voxelScale, <a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="separator:ga7d757a1fbd48e0e4c6268f3637ba631c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaa65eb4d7a6f3cf6b9682a32de1e0915" id="r_gaaa65eb4d7a6f3cf6b9682a32de1e0915"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#gaaa65eb4d7a6f3cf6b9682a32de1e0915">MR::cropped</a> (const <a class="elRef" href="../Cpp/namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, const Box3i &amp;box, <a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="separator:gaaa65eb4d7a6f3cf6b9682a32de1e0915"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5124238a8f9f74cadab3bc8dcc4438e6" id="r_ga5124238a8f9f74cadab3bc8dcc4438e6"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga5124238a8f9f74cadab3bc8dcc4438e6">MR::gaussianFilter</a> (<a class="elRef" href="../Cpp/namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, int <a class="elRef" href="../Cpp/group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>, int iters, <a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="separator:ga5124238a8f9f74cadab3bc8dcc4438e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafc2d64e9f6eb7deafd50ee83fd764989" id="r_gafc2d64e9f6eb7deafd50ee83fd764989"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#gafc2d64e9f6eb7deafd50ee83fd764989">MR::gaussianFiltered</a> (const <a class="elRef" href="../Cpp/namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, int <a class="elRef" href="../Cpp/group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>, int iters, <a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="separator:gafc2d64e9f6eb7deafd50ee83fd764989"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4de97d8976ba9d3103b0d84d94214861" id="r_ga4de97d8976ba9d3103b0d84d94214861"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga4de97d8976ba9d3103b0d84d94214861">MR::getValue</a> (const <a class="elRef" href="../Cpp/namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, const Vector3i &amp;p)</td></tr>
+<tr class="separator:ga4de97d8976ba9d3103b0d84d94214861"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga28830151316f69a9dfd4e1fa94ccf465" id="r_ga28830151316f69a9dfd4e1fa94ccf465"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga28830151316f69a9dfd4e1fa94ccf465">MR::setValue</a> (<a class="elRef" href="../Cpp/namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, const Vector3i &amp;p, float value)</td></tr>
+<tr class="separator:ga28830151316f69a9dfd4e1fa94ccf465"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac5781724903abd08d021ac04b898a862" id="r_gac5781724903abd08d021ac04b898a862"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#gac5781724903abd08d021ac04b898a862">MR::setValue</a> (<a class="elRef" href="../Cpp/namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, const VoxelBitSet &amp;region, float value)</td></tr>
+<tr class="separator:gac5781724903abd08d021ac04b898a862"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga87e6e60c5605c5450f4bd815128674c9" id="r_ga87e6e60c5605c5450f4bd815128674c9"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga87e6e60c5605c5450f4bd815128674c9">MR::setLevelSetType</a> (<a class="elRef" href="../Cpp/namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid)</td></tr>
+<tr class="separator:ga87e6e60c5605c5450f4bd815128674c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa47a1ff80bfc2c9f180c4983cf67bdfc" id="r_gaa47a1ff80bfc2c9f180c4983cf67bdfc"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#gaa47a1ff80bfc2c9f180c4983cf67bdfc">MR::operator+=</a> (<a class="elRef" href="../Cpp/namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;a, const <a class="elRef" href="../Cpp/namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;b)</td></tr>
+<tr class="separator:gaa47a1ff80bfc2c9f180c4983cf67bdfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga51db44b0c21307d6fcfccd9616c037f2" id="r_ga51db44b0c21307d6fcfccd9616c037f2"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51db44b0c21307d6fcfccd9616c037f2">MR::operator-=</a> (<a class="elRef" href="../Cpp/namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;a, const <a class="elRef" href="../Cpp/namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;b)</td></tr>
+<tr class="separator:ga51db44b0c21307d6fcfccd9616c037f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga245aead53191a5ec52138336c54c109c" id="r_ga245aead53191a5ec52138336c54c109c"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga245aead53191a5ec52138336c54c109c">MR::operator*=</a> (<a class="elRef" href="../Cpp/namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;a, const <a class="elRef" href="../Cpp/namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;b)</td></tr>
+<tr class="separator:ga245aead53191a5ec52138336c54c109c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga12f92e71b639968eb7a4ffb4cbe51291" id="r_ga12f92e71b639968eb7a4ffb4cbe51291"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> openvdb::FloatGrid &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga12f92e71b639968eb7a4ffb4cbe51291">MR::ovdb</a> (<a class="elRef" href="../Cpp/structMR_1_1OpenVdbFloatGrid.html">OpenVdbFloatGrid</a> &amp;v)</td></tr>
+<tr class="separator:ga12f92e71b639968eb7a4ffb4cbe51291"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7c6031335bfc2515993437f951485ad1" id="r_ga7c6031335bfc2515993437f951485ad1"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> const openvdb::FloatGrid &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga7c6031335bfc2515993437f951485ad1">MR::ovdb</a> (const <a class="elRef" href="../Cpp/structMR_1_1OpenVdbFloatGrid.html">OpenVdbFloatGrid</a> &amp;v)</td></tr>
+<tr class="separator:ga7c6031335bfc2515993437f951485ad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga008386feb5f7364043e76dc51b8a0a9d" id="r_ga008386feb5f7364043e76dc51b8a0a9d"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="elRef" href="../Cpp/namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga008386feb5f7364043e76dc51b8a0a9d">MR::MakeFloatGrid</a> (const <a class="elRef" href="../Cpp/namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;)=delete</td></tr>
+<tr class="separator:ga008386feb5f7364043e76dc51b8a0a9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga00a487924b8ec452f4a8b75891d68fc3" id="r_ga00a487924b8ec452f4a8b75891d68fc3"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="elRef" href="../Cpp/namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga00a487924b8ec452f4a8b75891d68fc3">MR::MakeFloatGrid</a> (openvdb::FloatGrid::Ptr &amp;&amp;p)</td></tr>
+<tr class="separator:ga00a487924b8ec452f4a8b75891d68fc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga218b14201bd57ed729188c171faf44b4" id="r_ga218b14201bd57ed729188c171faf44b4"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> Vector3i&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga218b14201bd57ed729188c171faf44b4">MR::fromVdb</a> (const openvdb::Coord &amp;v)</td></tr>
+<tr class="separator:ga218b14201bd57ed729188c171faf44b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab75a6a1d7c95c635ac4101c7a3d25eab" id="r_gab75a6a1d7c95c635ac4101c7a3d25eab"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> openvdb::Coord&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#gab75a6a1d7c95c635ac4101c7a3d25eab">MR::toVdb</a> (const Vector3i &amp;v)</td></tr>
+<tr class="separator:gab75a6a1d7c95c635ac4101c7a3d25eab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafaceca609bb25c112d03e61621d7df0c" id="r_gafaceca609bb25c112d03e61621d7df0c"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> openvdb::CoordBBox&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#gafaceca609bb25c112d03e61621d7df0c">MR::toVdbBox</a> (const Box3i &amp;box)</td></tr>
+<tr class="separator:gafaceca609bb25c112d03e61621d7df0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4638fcf62c2a9d1394b8d69425b9f993" id="r_ga4638fcf62c2a9d1394b8d69425b9f993"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> openvdb::CoordBBox&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga4638fcf62c2a9d1394b8d69425b9f993">MR::toVdbBox</a> (const Vector3i &amp;<a class="elRef" href="../Cpp/group__VoxelGroup.html#ga242530ea0c7771c807c769bcb292f37f">dims</a>)</td></tr>
+<tr class="separator:ga4638fcf62c2a9d1394b8d69425b9f993"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6424cf4099b0c138775ac5fa033085d0" id="r_ga6424cf4099b0c138775ac5fa033085d0"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRMeshFwd_8h.html#ad40ec431ff5ffd94858933622543ddd9">MR_FilterType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6424cf4099b0c138775ac5fa033085d0">MR_MeshTexture_Get_filter</a> (const <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *_this)</td></tr>
+<tr class="separator:ga6424cf4099b0c138775ac5fa033085d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga29670bc386d74f9e09c5b6807e393a7c" id="r_ga29670bc386d74f9e09c5b6807e393a7c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga29670bc386d74f9e09c5b6807e393a7c">MR_MeshTexture_Set_filter</a> (<a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *_this, <a class="el" href="MRMeshFwd_8h.html#ad40ec431ff5ffd94858933622543ddd9">MR_FilterType</a> value)</td></tr>
+<tr class="separator:ga29670bc386d74f9e09c5b6807e393a7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad70f5cb9591344de93a10f56756e6267" id="r_gad70f5cb9591344de93a10f56756e6267"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshFwd_8h.html#ad40ec431ff5ffd94858933622543ddd9">MR_FilterType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad70f5cb9591344de93a10f56756e6267">MR_MeshTexture_GetMutable_filter</a> (<a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *_this)</td></tr>
+<tr class="separator:gad70f5cb9591344de93a10f56756e6267"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad0ee054eb7b3018547308a153d018901" id="r_gad0ee054eb7b3018547308a153d018901"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRMeshFwd_8h.html#a00a6c4c76bf7fcbc91c8b9e401c8fa01">MR_WrapType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad0ee054eb7b3018547308a153d018901">MR_MeshTexture_Get_wrap</a> (const <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *_this)</td></tr>
+<tr class="separator:gad0ee054eb7b3018547308a153d018901"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga20f6680bd3b0606af6eef462b5cc4a62" id="r_ga20f6680bd3b0606af6eef462b5cc4a62"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga20f6680bd3b0606af6eef462b5cc4a62">MR_MeshTexture_Set_wrap</a> (<a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *_this, <a class="el" href="MRMeshFwd_8h.html#a00a6c4c76bf7fcbc91c8b9e401c8fa01">MR_WrapType</a> value)</td></tr>
+<tr class="separator:ga20f6680bd3b0606af6eef462b5cc4a62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf260d74064b3636910502ff4a1d9d3c2" id="r_gaf260d74064b3636910502ff4a1d9d3c2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshFwd_8h.html#a00a6c4c76bf7fcbc91c8b9e401c8fa01">MR_WrapType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf260d74064b3636910502ff4a1d9d3c2">MR_MeshTexture_GetMutable_wrap</a> (<a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *_this)</td></tr>
+<tr class="separator:gaf260d74064b3636910502ff4a1d9d3c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab61cad118941703e42308d3d5915348d" id="r_gab61cad118941703e42308d3d5915348d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab61cad118941703e42308d3d5915348d">MR_MeshTexture_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:gab61cad118941703e42308d3d5915348d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaebc849691d076f935d157ebc235508d8" id="r_gaebc849691d076f935d157ebc235508d8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaebc849691d076f935d157ebc235508d8">MR_MeshTexture_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:gaebc849691d076f935d157ebc235508d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa5ca76a427cb821302591c29e90fc4d5" id="r_gaa5ca76a427cb821302591c29e90fc4d5"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa5ca76a427cb821302591c29e90fc4d5">MR_MeshTexture_OffsetPtr</a> (const <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:gaa5ca76a427cb821302591c29e90fc4d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:gaa5ca76a427cb821302591c29e90fc4d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9e519ebd8918cc4333228e7ad1000de6" id="r_ga9e519ebd8918cc4333228e7ad1000de6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9e519ebd8918cc4333228e7ad1000de6">MR_MeshTexture_OffsetMutablePtr</a> (<a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ga9e519ebd8918cc4333228e7ad1000de6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ga9e519ebd8918cc4333228e7ad1000de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga068524ecf500003e1d57fa314b19e45a" id="r_ga068524ecf500003e1d57fa314b19e45a"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga068524ecf500003e1d57fa314b19e45a">MR_MeshTexture_UpcastTo_MR_Image</a> (const <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *object)</td></tr>
+<tr class="separator:ga068524ecf500003e1d57fa314b19e45a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1922685f721c8d8243d14b265b641777" id="r_ga1922685f721c8d8243d14b265b641777"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1922685f721c8d8243d14b265b641777">MR_MeshTexture_MutableUpcastTo_MR_Image</a> (<a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *object)</td></tr>
+<tr class="memdesc:ga1922685f721c8d8243d14b265b641777"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshTexture.html">MR::MeshTexture</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1Image.html">MR::Image</a></code>.  <br /></td></tr>
+<tr class="separator:ga1922685f721c8d8243d14b265b641777"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga67d1080e10c8d985d81e2d784df9f1d4" id="r_ga67d1080e10c8d985d81e2d784df9f1d4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga67d1080e10c8d985d81e2d784df9f1d4">MR_MeshTexture_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *_other)</td></tr>
+<tr class="separator:ga67d1080e10c8d985d81e2d784df9f1d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3cdf23a800281792286f5f693278015e" id="r_ga3cdf23a800281792286f5f693278015e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3cdf23a800281792286f5f693278015e">MR_MeshTexture_Destroy</a> (const <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *_this)</td></tr>
+<tr class="memdesc:ga3cdf23a800281792286f5f693278015e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_MeshTexture</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ga3cdf23a800281792286f5f693278015e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga529d22076ef23c24192af5593b4fe720" id="r_ga529d22076ef23c24192af5593b4fe720"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga529d22076ef23c24192af5593b4fe720">MR_MeshTexture_DestroyArray</a> (const <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *_this)</td></tr>
+<tr class="memdesc:ga529d22076ef23c24192af5593b4fe720"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_MeshTexture</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ga529d22076ef23c24192af5593b4fe720"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae244f3be74ba004e1f67bf7bfcb040c5" id="r_gae244f3be74ba004e1f67bf7bfcb040c5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae244f3be74ba004e1f67bf7bfcb040c5">MR_MeshTexture_AssignFromAnother</a> (<a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *_other)</td></tr>
+<tr class="separator:gae244f3be74ba004e1f67bf7bfcb040c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshTexture.html">MR::MeshTexture</a></code>. Inherits from: Directly: (non-virtually) <code><a class="elRef" href="../Cpp/structMR_1_1Image.html">MR::Image</a></code> </p>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="ga5e2943bfe5a7ecddf6b533bccae5f9c0" name="ga5e2943bfe5a7ecddf6b533bccae5f9c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5e2943bfe5a7ecddf6b533bccae5f9c0">&#9670;&#160;</a></span>MR_Image</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>struct to hold Image data</p>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1Image.html">MR::Image</a></code>. Classes derived from this: Directly: (non-virtually) <code><a class="elRef" href="../Cpp/structMR_1_1MeshTexture.html">MR::MeshTexture</a></code> </p>
+
+</div>
+</div>
+<a id="gac5c5abdc9ba8adb6f8e522246978c790" name="gac5c5abdc9ba8adb6f8e522246978c790"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac5c5abdc9ba8adb6f8e522246978c790">&#9670;&#160;</a></span>MR_MeshTexture</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga1f7968a2e645c273edd6641747ac0e4b" name="ga1f7968a2e645c273edd6641747ac0e4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1f7968a2e645c273edd6641747ac0e4b">&#9670;&#160;</a></span>MR_SceneColors</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ga1f7968a2e645c273edd6641747ac0e4b">MR_SceneColors</a> <a class="el" href="#ga1f7968a2e645c273edd6641747ac0e4b">MR_SceneColors</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This singleton struct contains default colors for scene objects</p>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1SceneColors.html">MR::SceneColors</a></code>. </p>
+
+</div>
+</div>
+<a id="ga71b8f6135364d23bd16fac524ef466a8" name="ga71b8f6135364d23bd16fac524ef466a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga71b8f6135364d23bd16fac524ef466a8">&#9670;&#160;</a></span>MR_SceneSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ga71b8f6135364d23bd16fac524ef466a8">MR_SceneSettings</a> <a class="el" href="#ga71b8f6135364d23bd16fac524ef466a8">MR_SceneSettings</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This singleton struct contains default settings for scene objects</p>
+<p>Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1SceneSettings.html">MR::SceneSettings</a></code>. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="gae244f3be74ba004e1f67bf7bfcb040c5" name="gae244f3be74ba004e1f67bf7bfcb040c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae244f3be74ba004e1f67bf7bfcb040c5">&#9670;&#160;</a></span>MR_MeshTexture_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> * MR_MeshTexture_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshTexture.html">MR::MeshTexture</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ga67d1080e10c8d985d81e2d784df9f1d4" name="ga67d1080e10c8d985d81e2d784df9f1d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga67d1080e10c8d985d81e2d784df9f1d4">&#9670;&#160;</a></span>MR_MeshTexture_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> * MR_MeshTexture_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshTexture.html">MR::MeshTexture</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ga3cdf23a800281792286f5f693278015e" title="Destroys a heap-allocated instance of MR_MeshTexture. Does nothing if the pointer is null.">MR_MeshTexture_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="gab61cad118941703e42308d3d5915348d" name="gab61cad118941703e42308d3d5915348d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab61cad118941703e42308d3d5915348d">&#9670;&#160;</a></span>MR_MeshTexture_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> * MR_MeshTexture_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ga3cdf23a800281792286f5f693278015e" title="Destroys a heap-allocated instance of MR_MeshTexture. Does nothing if the pointer is null.">MR_MeshTexture_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="gaebc849691d076f935d157ebc235508d8" name="gaebc849691d076f935d157ebc235508d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaebc849691d076f935d157ebc235508d8">&#9670;&#160;</a></span>MR_MeshTexture_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> * MR_MeshTexture_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#ga529d22076ef23c24192af5593b4fe720" title="Destroys a heap-allocated array of MR_MeshTexture. Does nothing if the pointer is null.">MR_MeshTexture_DestroyArray()</a></code>. Use <code><a class="el" href="#ga9e519ebd8918cc4333228e7ad1000de6" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_MeshTexture_OffsetMutablePtr()</a></code> and <code><a class="el" href="#gaa5ca76a427cb821302591c29e90fc4d5" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_MeshTexture_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ga3cdf23a800281792286f5f693278015e" name="ga3cdf23a800281792286f5f693278015e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3cdf23a800281792286f5f693278015e">&#9670;&#160;</a></span>MR_MeshTexture_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshTexture_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_MeshTexture</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ga529d22076ef23c24192af5593b4fe720" name="ga529d22076ef23c24192af5593b4fe720"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga529d22076ef23c24192af5593b4fe720">&#9670;&#160;</a></span>MR_MeshTexture_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshTexture_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_MeshTexture</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ga6424cf4099b0c138775ac5fa033085d0" name="ga6424cf4099b0c138775ac5fa033085d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6424cf4099b0c138775ac5fa033085d0">&#9670;&#160;</a></span>MR_MeshTexture_Get_filter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRMeshFwd_8h.html#ad40ec431ff5ffd94858933622543ddd9">MR_FilterType</a> * MR_MeshTexture_Get_filter </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshTexture.html">MR::MeshTexture</a></code> named <code>filter</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="gad0ee054eb7b3018547308a153d018901" name="gad0ee054eb7b3018547308a153d018901"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad0ee054eb7b3018547308a153d018901">&#9670;&#160;</a></span>MR_MeshTexture_Get_wrap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRMeshFwd_8h.html#a00a6c4c76bf7fcbc91c8b9e401c8fa01">MR_WrapType</a> * MR_MeshTexture_Get_wrap </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshTexture.html">MR::MeshTexture</a></code> named <code>wrap</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="gad70f5cb9591344de93a10f56756e6267" name="gad70f5cb9591344de93a10f56756e6267"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad70f5cb9591344de93a10f56756e6267">&#9670;&#160;</a></span>MR_MeshTexture_GetMutable_filter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshFwd_8h.html#ad40ec431ff5ffd94858933622543ddd9">MR_FilterType</a> * MR_MeshTexture_GetMutable_filter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshTexture.html">MR::MeshTexture</a></code> named <code>filter</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="gaf260d74064b3636910502ff4a1d9d3c2" name="gaf260d74064b3636910502ff4a1d9d3c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf260d74064b3636910502ff4a1d9d3c2">&#9670;&#160;</a></span>MR_MeshTexture_GetMutable_wrap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshFwd_8h.html#a00a6c4c76bf7fcbc91c8b9e401c8fa01">MR_WrapType</a> * MR_MeshTexture_GetMutable_wrap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshTexture.html">MR::MeshTexture</a></code> named <code>wrap</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ga1922685f721c8d8243d14b265b641777" name="ga1922685f721c8d8243d14b265b641777"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1922685f721c8d8243d14b265b641777">&#9670;&#160;</a></span>MR_MeshTexture_MutableUpcastTo_MR_Image()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> * MR_MeshTexture_MutableUpcastTo_MR_Image </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshTexture.html">MR::MeshTexture</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1Image.html">MR::Image</a></code>. </p>
+
+</div>
+</div>
+<a id="ga9e519ebd8918cc4333228e7ad1000de6" name="ga9e519ebd8918cc4333228e7ad1000de6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9e519ebd8918cc4333228e7ad1000de6">&#9670;&#160;</a></span>MR_MeshTexture_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> * MR_MeshTexture_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="gaa5ca76a427cb821302591c29e90fc4d5" name="gaa5ca76a427cb821302591c29e90fc4d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa5ca76a427cb821302591c29e90fc4d5">&#9670;&#160;</a></span>MR_MeshTexture_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> * MR_MeshTexture_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ga29670bc386d74f9e09c5b6807e393a7c" name="ga29670bc386d74f9e09c5b6807e393a7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga29670bc386d74f9e09c5b6807e393a7c">&#9670;&#160;</a></span>MR_MeshTexture_Set_filter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshTexture_Set_filter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRMeshFwd_8h.html#ad40ec431ff5ffd94858933622543ddd9">MR_FilterType</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshTexture.html">MR::MeshTexture</a></code> named <code>filter</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ga20f6680bd3b0606af6eef462b5cc4a62" name="ga20f6680bd3b0606af6eef462b5cc4a62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga20f6680bd3b0606af6eef462b5cc4a62">&#9670;&#160;</a></span>MR_MeshTexture_Set_wrap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshTexture_Set_wrap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRMeshFwd_8h.html#a00a6c4c76bf7fcbc91c8b9e401c8fa01">MR_WrapType</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshTexture.html">MR::MeshTexture</a></code> named <code>wrap</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ga068524ecf500003e1d57fa314b19e45a" name="ga068524ecf500003e1d57fa314b19e45a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga068524ecf500003e1d57fa314b19e45a">&#9670;&#160;</a></span>MR_MeshTexture_UpcastTo_MR_Image()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> * MR_MeshTexture_UpcastTo_MR_Image </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRImage_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1MeshTexture.html">MR::MeshTexture</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1Image.html">MR::Image</a></code>. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

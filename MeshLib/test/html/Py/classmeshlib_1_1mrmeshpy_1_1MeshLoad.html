@@ -1,0 +1,1126 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.MeshLoad Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1MeshLoad.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1MeshLoad-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.MeshLoad Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoad_1_1NamedMesh.html">NamedMesh</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html">ObjLoadSettings</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ac4e01f1c8e23e54f41822c396d4b027d" id="r_ac4e01f1c8e23e54f41822c396d4b027d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4e01f1c8e23e54f41822c396d4b027d">fromASCIIStl</a> (os.PathLike file, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> settings='<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}')</td></tr>
+<tr class="separator:ac4e01f1c8e23e54f41822c396d4b027d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c9843bad826c8247a686ef303f2ea29" id="r_a5c9843bad826c8247a686ef303f2ea29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c9843bad826c8247a686ef303f2ea29">fromASCIIStl</a> (typing.Any in_, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> settings='<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}')</td></tr>
+<tr class="separator:a5c9843bad826c8247a686ef303f2ea29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad779f266a62888947d72a55b6fdbc8d4" id="r_ad779f266a62888947d72a55b6fdbc8d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad779f266a62888947d72a55b6fdbc8d4">fromAnyStl</a> (os.PathLike file, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> settings='<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}')</td></tr>
+<tr class="separator:ad779f266a62888947d72a55b6fdbc8d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0accf0e64546cbb61c489ebc38817544" id="r_a0accf0e64546cbb61c489ebc38817544"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0accf0e64546cbb61c489ebc38817544">fromAnyStl</a> (typing.Any in_, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> settings='<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}')</td></tr>
+<tr class="separator:a0accf0e64546cbb61c489ebc38817544"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87d618e45867a0fab4d53bd19514e05e" id="r_a87d618e45867a0fab4d53bd19514e05e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87d618e45867a0fab4d53bd19514e05e">fromAnySupportedFormat</a> (os.PathLike file, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> settings='<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}')</td></tr>
+<tr class="separator:a87d618e45867a0fab4d53bd19514e05e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1473534fc01ae2aa300c59c4755ca7b0" id="r_a1473534fc01ae2aa300c59c4755ca7b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1473534fc01ae2aa300c59c4755ca7b0">fromAnySupportedFormat</a> (typing.Any in_, str extension, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> settings='<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}')</td></tr>
+<tr class="separator:a1473534fc01ae2aa300c59c4755ca7b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc34da40532e226eac63a8b7b062e0f5" id="r_abc34da40532e226eac63a8b7b062e0f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc34da40532e226eac63a8b7b062e0f5">fromBinaryStl</a> (os.PathLike file, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> settings='<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}')</td></tr>
+<tr class="separator:abc34da40532e226eac63a8b7b062e0f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55137d7a427d8a02f0f9a9d8c5458933" id="r_a55137d7a427d8a02f0f9a9d8c5458933"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55137d7a427d8a02f0f9a9d8c5458933">fromBinaryStl</a> (typing.Any in_, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> settings='<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}')</td></tr>
+<tr class="separator:a55137d7a427d8a02f0f9a9d8c5458933"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add6be3e7df53a0d9c1ab8b7c305f4016" id="r_add6be3e7df53a0d9c1ab8b7c305f4016"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add6be3e7df53a0d9c1ab8b7c305f4016">fromCtm</a> (os.PathLike file, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> settings='<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}')</td></tr>
+<tr class="separator:add6be3e7df53a0d9c1ab8b7c305f4016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d6c205fdf67a65e79aa85dcb43052ff" id="r_a5d6c205fdf67a65e79aa85dcb43052ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d6c205fdf67a65e79aa85dcb43052ff">fromCtm</a> (typing.Any in_, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> settings='<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}')</td></tr>
+<tr class="separator:a5d6c205fdf67a65e79aa85dcb43052ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cc054d70fa45e9aa0035c92cbfe899c" id="r_a4cc054d70fa45e9aa0035c92cbfe899c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cc054d70fa45e9aa0035c92cbfe899c">fromDxf</a> (os.PathLike path, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> settings='<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}')</td></tr>
+<tr class="separator:a4cc054d70fa45e9aa0035c92cbfe899c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46c31f880582954e30fa6748f3fd3ccd" id="r_a46c31f880582954e30fa6748f3fd3ccd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46c31f880582954e30fa6748f3fd3ccd">fromDxf</a> (typing.Any in_, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> settings='<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}')</td></tr>
+<tr class="separator:a46c31f880582954e30fa6748f3fd3ccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a887148615cf4c13b62a09066033cac34" id="r_a887148615cf4c13b62a09066033cac34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a887148615cf4c13b62a09066033cac34">fromMrmesh</a> (os.PathLike file, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> settings='<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}')</td></tr>
+<tr class="separator:a887148615cf4c13b62a09066033cac34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9131e9c674b4b5612d36e244242b316e" id="r_a9131e9c674b4b5612d36e244242b316e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9131e9c674b4b5612d36e244242b316e">fromMrmesh</a> (typing.Any in_, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> settings='<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}')</td></tr>
+<tr class="separator:a9131e9c674b4b5612d36e244242b316e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a861e899e7ddee3b43fdc0dbe2754564f" id="r_a861e899e7ddee3b43fdc0dbe2754564f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a861e899e7ddee3b43fdc0dbe2754564f">fromObj</a> (os.PathLike file, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> settings='<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}')</td></tr>
+<tr class="separator:a861e899e7ddee3b43fdc0dbe2754564f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e7afcb125699768e8520dd5633d8dfe" id="r_a7e7afcb125699768e8520dd5633d8dfe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e7afcb125699768e8520dd5633d8dfe">fromObj</a> (typing.Any in_, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> settings='<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}')</td></tr>
+<tr class="separator:a7e7afcb125699768e8520dd5633d8dfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a2da1a33051c2a243f71631d8e92bca" id="r_a7a2da1a33051c2a243f71631d8e92bca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a2da1a33051c2a243f71631d8e92bca">fromOff</a> (os.PathLike file, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> settings='<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}')</td></tr>
+<tr class="separator:a7a2da1a33051c2a243f71631d8e92bca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a832c304bef119e92828001d2f87cec95" id="r_a832c304bef119e92828001d2f87cec95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a832c304bef119e92828001d2f87cec95">fromOff</a> (typing.Any in_, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> settings='<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}')</td></tr>
+<tr class="separator:a832c304bef119e92828001d2f87cec95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa667b4d601a3eca1d447f0f5f197d33e" id="r_aa667b4d601a3eca1d447f0f5f197d33e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa667b4d601a3eca1d447f0f5f197d33e">fromPly</a> (os.PathLike file, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> settings='<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}')</td></tr>
+<tr class="separator:aa667b4d601a3eca1d447f0f5f197d33e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a415d97caaac9fa1c98c055684223b007" id="r_a415d97caaac9fa1c98c055684223b007"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a415d97caaac9fa1c98c055684223b007">fromPly</a> (typing.Any in_, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> settings='<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}')</td></tr>
+<tr class="separator:a415d97caaac9fa1c98c055684223b007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aded2c890bb5abfbc47590bb7ae8abebc" id="r_aded2c890bb5abfbc47590bb7ae8abebc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__MeshLoad__NamedMesh.html">std_vector_MeshLoad_NamedMesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aded2c890bb5abfbc47590bb7ae8abebc">fromSceneObjFile</a> (os.PathLike file, bool combineAllObjects, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html">MeshLoad.ObjLoadSettings</a> settings='<a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1ObjLoadSettings.html">MR::MeshLoad::ObjLoadSettings</a>{}')</td></tr>
+<tr class="separator:aded2c890bb5abfbc47590bb7ae8abebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a806b1f481d91258d92ba6c7ff9639b70" id="r_a806b1f481d91258d92ba6c7ff9639b70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__MeshLoad__NamedMesh.html">std_vector_MeshLoad_NamedMesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a806b1f481d91258d92ba6c7ff9639b70">fromSceneObjFile</a> (str data, int <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>, bool combineAllObjects, os.PathLike dir, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html">MeshLoad.ObjLoadSettings</a> settings='<a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1ObjLoadSettings.html">MR::MeshLoad::ObjLoadSettings</a>{}')</td></tr>
+<tr class="separator:a806b1f481d91258d92ba6c7ff9639b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a390003b3e79365db2695ed6c2b3c8a11" id="r_a390003b3e79365db2695ed6c2b3c8a11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__MeshLoad__NamedMesh.html">std_vector_MeshLoad_NamedMesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a390003b3e79365db2695ed6c2b3c8a11">fromSceneObjFile</a> (typing.Any in_, bool combineAllObjects, os.PathLike dir, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html">MeshLoad.ObjLoadSettings</a> settings='<a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1ObjLoadSettings.html">MR::MeshLoad::ObjLoadSettings</a>{}')</td></tr>
+<tr class="separator:a390003b3e79365db2695ed6c2b3c8a11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5540df1661d81963c9208928836b14c0" id="r_a5540df1661d81963c9208928836b14c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5540df1661d81963c9208928836b14c0">fromSceneStepFile</a> (os.PathLike path, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> settings='<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}')</td></tr>
+<tr class="separator:a5540df1661d81963c9208928836b14c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed50a64f9c6b0f989a33a2c474431337" id="r_aed50a64f9c6b0f989a33a2c474431337"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed50a64f9c6b0f989a33a2c474431337">fromSceneStepFile</a> (typing.Any in_, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> settings='<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}')</td></tr>
+<tr class="separator:aed50a64f9c6b0f989a33a2c474431337"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18dad5e46c78b568f455071d6d61e07d" id="r_a18dad5e46c78b568f455071d6d61e07d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18dad5e46c78b568f455071d6d61e07d">fromStep</a> (os.PathLike path, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> settings='<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}')</td></tr>
+<tr class="separator:a18dad5e46c78b568f455071d6d61e07d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af51d22bd5f50b13df1b5c3f45bef72d3" id="r_af51d22bd5f50b13df1b5c3f45bef72d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af51d22bd5f50b13df1b5c3f45bef72d3">fromStep</a> (typing.Any in_, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> settings='<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}')</td></tr>
+<tr class="separator:af51d22bd5f50b13df1b5c3f45bef72d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af33f0c6082aec2265d8e913522e952fd" id="r_af33f0c6082aec2265d8e913522e952fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1LoadedObjects.html">LoadedObjects</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af33f0c6082aec2265d8e913522e952fd">loadObjectFromObj</a> (os.PathLike file, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}')</td></tr>
+<tr class="separator:af33f0c6082aec2265d8e913522e952fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">This is a namespace.
+</pre> </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad779f266a62888947d72a55b6fdbc8d4" name="ad779f266a62888947d72a55b6fdbc8d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad779f266a62888947d72a55b6fdbc8d4">&#9670;&#160;</a></span>fromAnyStl() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a> meshlib.mrmeshpy.MeshLoad.fromAnyStl </td>
+          <td>(</td>
+          <td class="paramtype">os.PathLike</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">loads mesh from file in any .STL format: both binary and ASCII
+</pre> 
+</div>
+</div>
+<a id="a0accf0e64546cbb61c489ebc38817544" name="a0accf0e64546cbb61c489ebc38817544"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0accf0e64546cbb61c489ebc38817544">&#9670;&#160;</a></span>fromAnyStl() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a> meshlib.mrmeshpy.MeshLoad.fromAnyStl </td>
+          <td>(</td>
+          <td class="paramtype">typing.Any</td>          <td class="paramname"><span class="paramname"><em>in_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">loads mesh from stream in any .STL format: both binary and ASCII;
+important on Windows: in stream must be open in binary mode
+</pre> 
+</div>
+</div>
+<a id="a87d618e45867a0fab4d53bd19514e05e" name="a87d618e45867a0fab4d53bd19514e05e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87d618e45867a0fab4d53bd19514e05e">&#9670;&#160;</a></span>fromAnySupportedFormat() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a> meshlib.mrmeshpy.MeshLoad.fromAnySupportedFormat </td>
+          <td>(</td>
+          <td class="paramtype">os.PathLike</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">loads mesh from file in the format detected from file extension
+</pre> 
+</div>
+</div>
+<a id="a1473534fc01ae2aa300c59c4755ca7b0" name="a1473534fc01ae2aa300c59c4755ca7b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1473534fc01ae2aa300c59c4755ca7b0">&#9670;&#160;</a></span>fromAnySupportedFormat() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a> meshlib.mrmeshpy.MeshLoad.fromAnySupportedFormat </td>
+          <td>(</td>
+          <td class="paramtype">typing.Any</td>          <td class="paramname"><span class="paramname"><em>in_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">str</td>          <td class="paramname"><span class="paramname"><em>extension</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">loads mesh from stream in the format detected from given extension-string (`*.ext`);
+important on Windows: in stream must be open in binary mode
+</pre> 
+</div>
+</div>
+<a id="ac4e01f1c8e23e54f41822c396d4b027d" name="ac4e01f1c8e23e54f41822c396d4b027d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4e01f1c8e23e54f41822c396d4b027d">&#9670;&#160;</a></span>fromASCIIStl() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a> meshlib.mrmeshpy.MeshLoad.fromASCIIStl </td>
+          <td>(</td>
+          <td class="paramtype">os.PathLike</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">loads mesh from file in textual .STL format
+</pre> 
+</div>
+</div>
+<a id="a5c9843bad826c8247a686ef303f2ea29" name="a5c9843bad826c8247a686ef303f2ea29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c9843bad826c8247a686ef303f2ea29">&#9670;&#160;</a></span>fromASCIIStl() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a> meshlib.mrmeshpy.MeshLoad.fromASCIIStl </td>
+          <td>(</td>
+          <td class="paramtype">typing.Any</td>          <td class="paramname"><span class="paramname"><em>in_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">loads mesh from stream in textual .STL format
+</pre> 
+</div>
+</div>
+<a id="abc34da40532e226eac63a8b7b062e0f5" name="abc34da40532e226eac63a8b7b062e0f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc34da40532e226eac63a8b7b062e0f5">&#9670;&#160;</a></span>fromBinaryStl() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a> meshlib.mrmeshpy.MeshLoad.fromBinaryStl </td>
+          <td>(</td>
+          <td class="paramtype">os.PathLike</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">loads mesh from file in binary .STL format
+</pre> 
+</div>
+</div>
+<a id="a55137d7a427d8a02f0f9a9d8c5458933" name="a55137d7a427d8a02f0f9a9d8c5458933"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55137d7a427d8a02f0f9a9d8c5458933">&#9670;&#160;</a></span>fromBinaryStl() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a> meshlib.mrmeshpy.MeshLoad.fromBinaryStl </td>
+          <td>(</td>
+          <td class="paramtype">typing.Any</td>          <td class="paramname"><span class="paramname"><em>in_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">loads mesh from stream in binary .STL format;
+important on Windows: in stream must be open in binary mode
+</pre> 
+</div>
+</div>
+<a id="add6be3e7df53a0d9c1ab8b7c305f4016" name="add6be3e7df53a0d9c1ab8b7c305f4016"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add6be3e7df53a0d9c1ab8b7c305f4016">&#9670;&#160;</a></span>fromCtm() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a> meshlib.mrmeshpy.MeshLoad.fromCtm </td>
+          <td>(</td>
+          <td class="paramtype">os.PathLike</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">loads from .ctm file
+</pre> 
+</div>
+</div>
+<a id="a5d6c205fdf67a65e79aa85dcb43052ff" name="a5d6c205fdf67a65e79aa85dcb43052ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d6c205fdf67a65e79aa85dcb43052ff">&#9670;&#160;</a></span>fromCtm() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a> meshlib.mrmeshpy.MeshLoad.fromCtm </td>
+          <td>(</td>
+          <td class="paramtype">typing.Any</td>          <td class="paramname"><span class="paramname"><em>in_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4cc054d70fa45e9aa0035c92cbfe899c" name="a4cc054d70fa45e9aa0035c92cbfe899c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cc054d70fa45e9aa0035c92cbfe899c">&#9670;&#160;</a></span>fromDxf() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a> meshlib.mrmeshpy.MeshLoad.fromDxf </td>
+          <td>(</td>
+          <td class="paramtype">os.PathLike</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">loads mesh from file in .DXF format;
+</pre> 
+</div>
+</div>
+<a id="a46c31f880582954e30fa6748f3fd3ccd" name="a46c31f880582954e30fa6748f3fd3ccd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46c31f880582954e30fa6748f3fd3ccd">&#9670;&#160;</a></span>fromDxf() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a> meshlib.mrmeshpy.MeshLoad.fromDxf </td>
+          <td>(</td>
+          <td class="paramtype">typing.Any</td>          <td class="paramname"><span class="paramname"><em>in_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">loads mesh from stream in .DXF format;
+</pre> 
+</div>
+</div>
+<a id="a887148615cf4c13b62a09066033cac34" name="a887148615cf4c13b62a09066033cac34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a887148615cf4c13b62a09066033cac34">&#9670;&#160;</a></span>fromMrmesh() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a> meshlib.mrmeshpy.MeshLoad.fromMrmesh </td>
+          <td>(</td>
+          <td class="paramtype">os.PathLike</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">loads mesh from file in internal MeshLib format
+</pre> 
+</div>
+</div>
+<a id="a9131e9c674b4b5612d36e244242b316e" name="a9131e9c674b4b5612d36e244242b316e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9131e9c674b4b5612d36e244242b316e">&#9670;&#160;</a></span>fromMrmesh() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a> meshlib.mrmeshpy.MeshLoad.fromMrmesh </td>
+          <td>(</td>
+          <td class="paramtype">typing.Any</td>          <td class="paramname"><span class="paramname"><em>in_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">loads mesh from stream in internal MeshLib format;
+important on Windows: in stream must be open in binary mode
+</pre> 
+</div>
+</div>
+<a id="a861e899e7ddee3b43fdc0dbe2754564f" name="a861e899e7ddee3b43fdc0dbe2754564f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a861e899e7ddee3b43fdc0dbe2754564f">&#9670;&#160;</a></span>fromObj() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a> meshlib.mrmeshpy.MeshLoad.fromObj </td>
+          <td>(</td>
+          <td class="paramtype">os.PathLike</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">loads mesh from file in .OBJ format
+</pre> 
+</div>
+</div>
+<a id="a7e7afcb125699768e8520dd5633d8dfe" name="a7e7afcb125699768e8520dd5633d8dfe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e7afcb125699768e8520dd5633d8dfe">&#9670;&#160;</a></span>fromObj() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a> meshlib.mrmeshpy.MeshLoad.fromObj </td>
+          <td>(</td>
+          <td class="paramtype">typing.Any</td>          <td class="paramname"><span class="paramname"><em>in_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">loads mesh from stream in .OBJ format;
+important on Windows: in stream must be open in binary mode
+</pre> 
+</div>
+</div>
+<a id="a7a2da1a33051c2a243f71631d8e92bca" name="a7a2da1a33051c2a243f71631d8e92bca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a2da1a33051c2a243f71631d8e92bca">&#9670;&#160;</a></span>fromOff() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a> meshlib.mrmeshpy.MeshLoad.fromOff </td>
+          <td>(</td>
+          <td class="paramtype">os.PathLike</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">loads mesh from file in .OFF format
+</pre> 
+</div>
+</div>
+<a id="a832c304bef119e92828001d2f87cec95" name="a832c304bef119e92828001d2f87cec95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a832c304bef119e92828001d2f87cec95">&#9670;&#160;</a></span>fromOff() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a> meshlib.mrmeshpy.MeshLoad.fromOff </td>
+          <td>(</td>
+          <td class="paramtype">typing.Any</td>          <td class="paramname"><span class="paramname"><em>in_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">loads mesh from stream in .OFF format
+</pre> 
+</div>
+</div>
+<a id="aa667b4d601a3eca1d447f0f5f197d33e" name="aa667b4d601a3eca1d447f0f5f197d33e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa667b4d601a3eca1d447f0f5f197d33e">&#9670;&#160;</a></span>fromPly() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a> meshlib.mrmeshpy.MeshLoad.fromPly </td>
+          <td>(</td>
+          <td class="paramtype">os.PathLike</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">loads mesh from file in .PLY format;
+</pre> 
+</div>
+</div>
+<a id="a415d97caaac9fa1c98c055684223b007" name="a415d97caaac9fa1c98c055684223b007"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a415d97caaac9fa1c98c055684223b007">&#9670;&#160;</a></span>fromPly() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a> meshlib.mrmeshpy.MeshLoad.fromPly </td>
+          <td>(</td>
+          <td class="paramtype">typing.Any</td>          <td class="paramname"><span class="paramname"><em>in_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">loads mesh from stream in .PLY format;
+important on Windows: in stream must be open in binary mode
+</pre> 
+</div>
+</div>
+<a id="aded2c890bb5abfbc47590bb7ae8abebc" name="aded2c890bb5abfbc47590bb7ae8abebc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aded2c890bb5abfbc47590bb7ae8abebc">&#9670;&#160;</a></span>fromSceneObjFile() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__MeshLoad__NamedMesh.html">std_vector_MeshLoad_NamedMesh</a> meshlib.mrmeshpy.MeshLoad.fromSceneObjFile </td>
+          <td>(</td>
+          <td class="paramtype">os.PathLike</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>combineAllObjects</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html">MeshLoad.ObjLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1ObjLoadSettings.html">MR::MeshLoad::ObjLoadSettings</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">loads meshes from .obj file
+</pre> 
+</div>
+</div>
+<a id="a806b1f481d91258d92ba6c7ff9639b70" name="a806b1f481d91258d92ba6c7ff9639b70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a806b1f481d91258d92ba6c7ff9639b70">&#9670;&#160;</a></span>fromSceneObjFile() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__MeshLoad__NamedMesh.html">std_vector_MeshLoad_NamedMesh</a> meshlib.mrmeshpy.MeshLoad.fromSceneObjFile </td>
+          <td>(</td>
+          <td class="paramtype">str</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>combineAllObjects</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">os.PathLike</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html">MeshLoad.ObjLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1ObjLoadSettings.html">MR::MeshLoad::ObjLoadSettings</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">loads meshes from memory array with .obj file contents
+\\param dir working directory where materials and textures are located
+</pre> 
+</div>
+</div>
+<a id="a390003b3e79365db2695ed6c2b3c8a11" name="a390003b3e79365db2695ed6c2b3c8a11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a390003b3e79365db2695ed6c2b3c8a11">&#9670;&#160;</a></span>fromSceneObjFile() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__MeshLoad__NamedMesh.html">std_vector_MeshLoad_NamedMesh</a> meshlib.mrmeshpy.MeshLoad.fromSceneObjFile </td>
+          <td>(</td>
+          <td class="paramtype">typing.Any</td>          <td class="paramname"><span class="paramname"><em>in_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>combineAllObjects</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">os.PathLike</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html">MeshLoad.ObjLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1ObjLoadSettings.html">MR::MeshLoad::ObjLoadSettings</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">loads meshes from a stream with .obj file contents
+important on Windows: in stream must be open in binary mode
+\\param dir working directory where materials and textures are located
+</pre> 
+</div>
+</div>
+<a id="a5540df1661d81963c9208928836b14c0" name="a5540df1661d81963c9208928836b14c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5540df1661d81963c9208928836b14c0">&#9670;&#160;</a></span>fromSceneStepFile() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a> meshlib.mrmeshpy.MeshLoad.fromSceneStepFile </td>
+          <td>(</td>
+          <td class="paramtype">os.PathLike</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">load scene from STEP file using OpenCASCADE
+</pre> 
+</div>
+</div>
+<a id="aed50a64f9c6b0f989a33a2c474431337" name="aed50a64f9c6b0f989a33a2c474431337"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed50a64f9c6b0f989a33a2c474431337">&#9670;&#160;</a></span>fromSceneStepFile() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Object.html">Object</a> meshlib.mrmeshpy.MeshLoad.fromSceneStepFile </td>
+          <td>(</td>
+          <td class="paramtype">typing.Any</td>          <td class="paramname"><span class="paramname"><em>in_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a18dad5e46c78b568f455071d6d61e07d" name="a18dad5e46c78b568f455071d6d61e07d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18dad5e46c78b568f455071d6d61e07d">&#9670;&#160;</a></span>fromStep() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a> meshlib.mrmeshpy.MeshLoad.fromStep </td>
+          <td>(</td>
+          <td class="paramtype">os.PathLike</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">load mesh data from STEP file using OpenCASCADE
+</pre> 
+</div>
+</div>
+<a id="af51d22bd5f50b13df1b5c3f45bef72d3" name="af51d22bd5f50b13df1b5c3f45bef72d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af51d22bd5f50b13df1b5c3f45bef72d3">&#9670;&#160;</a></span>fromStep() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a> meshlib.mrmeshpy.MeshLoad.fromStep </td>
+          <td>(</td>
+          <td class="paramtype">typing.Any</td>          <td class="paramname"><span class="paramname"><em>in_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoadSettings.html">MeshLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/structMR_1_1MeshLoadSettings.html">MR::MeshLoadSettings</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af33f0c6082aec2265d8e913522e952fd" name="af33f0c6082aec2265d8e913522e952fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af33f0c6082aec2265d8e913522e952fd">&#9670;&#160;</a></span>loadObjectFromObj()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1LoadedObjects.html">LoadedObjects</a> meshlib.mrmeshpy.MeshLoad.loadObjectFromObj </td>
+          <td>(</td>
+          <td class="paramtype">os.PathLike</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> </td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">reads all objects from .OBJ file
+</pre> 
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshLoad.html">MeshLoad</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

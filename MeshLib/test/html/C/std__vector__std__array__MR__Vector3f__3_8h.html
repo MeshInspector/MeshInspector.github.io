@@ -1,0 +1,1848 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: std_vector_std_array_MR_Vector3f_3.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('std__vector__std__array__MR__Vector3f__3_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">std_vector_std_array_MR_Vector3f_3.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="std__array__MR__Vector3f__3_8h_source.html">MRCMisc/std_array_MR_Vector3f_3.h</a>&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="std__vector__std__array__MR__Vector3f__3_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:af3681c958ee919df825e522f1899b362" id="r_af3681c958ee919df825e522f1899b362"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a></td></tr>
+<tr class="separator:af3681c958ee919df825e522f1899b362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e7d8679873c41d9f1a35524dc79a8c0" id="r_a3e7d8679873c41d9f1a35524dc79a8c0"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a></td></tr>
+<tr class="separator:a3e7d8679873c41d9f1a35524dc79a8c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51eb3f7626415b41d7fa263e8b5faa0d" id="r_a51eb3f7626415b41d7fa263e8b5faa0d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a></td></tr>
+<tr class="separator:a51eb3f7626415b41d7fa263e8b5faa0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a6a308df29d329e25e8cf9630f73e4a32" id="r_a6a308df29d329e25e8cf9630f73e4a32"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a308df29d329e25e8cf9630f73e4a32">MR_std_vector_std_array_MR_Vector3f_3_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a6a308df29d329e25e8cf9630f73e4a32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae44e0b909870fe0419a3c27ab1efa1ec" id="r_ae44e0b909870fe0419a3c27ab1efa1ec"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae44e0b909870fe0419a3c27ab1efa1ec">MR_std_vector_std_array_MR_Vector3f_3_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ae44e0b909870fe0419a3c27ab1efa1ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46487aca612cd4bcfdff1ce3e3b3d1ec" id="r_a46487aca612cd4bcfdff1ce3e3b3d1ec"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46487aca612cd4bcfdff1ce3e3b3d1ec">MR_std_vector_std_array_MR_Vector3f_3_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *other)</td></tr>
+<tr class="separator:a46487aca612cd4bcfdff1ce3e3b3d1ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff115d36c5d7838b06eff1123f8b5dd5" id="r_aff115d36c5d7838b06eff1123f8b5dd5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff115d36c5d7838b06eff1123f8b5dd5">MR_std_vector_std_array_MR_Vector3f_3_AssignFromAnother</a> (<a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *other)</td></tr>
+<tr class="separator:aff115d36c5d7838b06eff1123f8b5dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1016bd581e0f52019852163bb39bb5c3" id="r_a1016bd581e0f52019852163bb39bb5c3"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1016bd581e0f52019852163bb39bb5c3">MR_std_vector_std_array_MR_Vector3f_3_Destroy</a> (const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this)</td></tr>
+<tr class="memdesc:a1016bd581e0f52019852163bb39bb5c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_std_array_MR_Vector3f_3</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a1016bd581e0f52019852163bb39bb5c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a392d33847000438f924c73b97ab80715" id="r_a392d33847000438f924c73b97ab80715"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a392d33847000438f924c73b97ab80715">MR_std_vector_std_array_MR_Vector3f_3_DestroyArray</a> (const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this)</td></tr>
+<tr class="memdesc:a392d33847000438f924c73b97ab80715"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_std_array_MR_Vector3f_3</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a392d33847000438f924c73b97ab80715"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90823a241345ec56a13bd00e525b5841" id="r_a90823a241345ec56a13bd00e525b5841"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90823a241345ec56a13bd00e525b5841">MR_std_vector_std_array_MR_Vector3f_3_OffsetPtr</a> (const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a90823a241345ec56a13bd00e525b5841"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a90823a241345ec56a13bd00e525b5841"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f2bcb997081f2f0460b1e72db1c05b6" id="r_a8f2bcb997081f2f0460b1e72db1c05b6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f2bcb997081f2f0460b1e72db1c05b6">MR_std_vector_std_array_MR_Vector3f_3_OffsetMutablePtr</a> (<a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a8f2bcb997081f2f0460b1e72db1c05b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a8f2bcb997081f2f0460b1e72db1c05b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b51b9215820c469a961beb577a3352e" id="r_a5b51b9215820c469a961beb577a3352e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b51b9215820c469a961beb577a3352e">MR_std_vector_std_array_MR_Vector3f_3_ConstructFromRange</a> (const <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> *ptr, size_t <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>)</td></tr>
+<tr class="separator:a5b51b9215820c469a961beb577a3352e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7b3772def595a8265383a6d4e32b2dc" id="r_aa7b3772def595a8265383a6d4e32b2dc"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7b3772def595a8265383a6d4e32b2dc">MR_std_vector_std_array_MR_Vector3f_3_AssignFromRange</a> (<a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this, const <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> *ptr, size_t <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>)</td></tr>
+<tr class="separator:aa7b3772def595a8265383a6d4e32b2dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d67e17e1dd4decac47b2c853c925950" id="r_a2d67e17e1dd4decac47b2c853c925950"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d67e17e1dd4decac47b2c853c925950">MR_std_vector_std_array_MR_Vector3f_3_Size</a> (const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this)</td></tr>
+<tr class="separator:a2d67e17e1dd4decac47b2c853c925950"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a086a9cda502d962756d6f5b920a93364" id="r_a086a9cda502d962756d6f5b920a93364"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a086a9cda502d962756d6f5b920a93364">MR_std_vector_std_array_MR_Vector3f_3_IsEmpty</a> (const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this)</td></tr>
+<tr class="separator:a086a9cda502d962756d6f5b920a93364"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ab0dad4b33f6b54f0e200282b05c842" id="r_a4ab0dad4b33f6b54f0e200282b05c842"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ab0dad4b33f6b54f0e200282b05c842">MR_std_vector_std_array_MR_Vector3f_3_Resize</a> (<a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this, size_t new_size)</td></tr>
+<tr class="separator:a4ab0dad4b33f6b54f0e200282b05c842"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf7eab94a63b5693383db2cc70802942" id="r_aaf7eab94a63b5693383db2cc70802942"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf7eab94a63b5693383db2cc70802942">MR_std_vector_std_array_MR_Vector3f_3_ResizeWithDefaultValue</a> (<a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this, size_t new_size, const <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> *value)</td></tr>
+<tr class="separator:aaf7eab94a63b5693383db2cc70802942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a357b37f70ffa5726d5deb893d510af8b" id="r_a357b37f70ffa5726d5deb893d510af8b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a357b37f70ffa5726d5deb893d510af8b">MR_std_vector_std_array_MR_Vector3f_3_Clear</a> (<a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this)</td></tr>
+<tr class="separator:a357b37f70ffa5726d5deb893d510af8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b9fec81338f67a08b33f356581ee509" id="r_a6b9fec81338f67a08b33f356581ee509"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b9fec81338f67a08b33f356581ee509">MR_std_vector_std_array_MR_Vector3f_3_Capacity</a> (const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this)</td></tr>
+<tr class="separator:a6b9fec81338f67a08b33f356581ee509"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39391f2e035115b3b5b09002f4da504b" id="r_a39391f2e035115b3b5b09002f4da504b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39391f2e035115b3b5b09002f4da504b">MR_std_vector_std_array_MR_Vector3f_3_Reserve</a> (<a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this, size_t new_capacity)</td></tr>
+<tr class="separator:a39391f2e035115b3b5b09002f4da504b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dfd9cf6dbc6744744daba99f291d4d3" id="r_a1dfd9cf6dbc6744744daba99f291d4d3"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1dfd9cf6dbc6744744daba99f291d4d3">MR_std_vector_std_array_MR_Vector3f_3_ShrinkToFit</a> (<a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this)</td></tr>
+<tr class="separator:a1dfd9cf6dbc6744744daba99f291d4d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ec9406de667276a74b39dafd2a04f8f" id="r_a9ec9406de667276a74b39dafd2a04f8f"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ec9406de667276a74b39dafd2a04f8f">MR_std_vector_std_array_MR_Vector3f_3_At</a> (const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this, size_t i)</td></tr>
+<tr class="separator:a9ec9406de667276a74b39dafd2a04f8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30ba444296e7267e40f47bee469961d5" id="r_a30ba444296e7267e40f47bee469961d5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30ba444296e7267e40f47bee469961d5">MR_std_vector_std_array_MR_Vector3f_3_MutableAt</a> (<a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this, size_t i)</td></tr>
+<tr class="separator:a30ba444296e7267e40f47bee469961d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64e35cb13dde101f3c6104049856f215" id="r_a64e35cb13dde101f3c6104049856f215"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64e35cb13dde101f3c6104049856f215">MR_std_vector_std_array_MR_Vector3f_3_Front</a> (const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this)</td></tr>
+<tr class="separator:a64e35cb13dde101f3c6104049856f215"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac36bebc3f3744351f20fac351862a826" id="r_ac36bebc3f3744351f20fac351862a826"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac36bebc3f3744351f20fac351862a826">MR_std_vector_std_array_MR_Vector3f_3_MutableFront</a> (<a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this)</td></tr>
+<tr class="separator:ac36bebc3f3744351f20fac351862a826"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2e65f8bd94fc164772cb9e1ea90ffe1" id="r_ac2e65f8bd94fc164772cb9e1ea90ffe1"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2e65f8bd94fc164772cb9e1ea90ffe1">MR_std_vector_std_array_MR_Vector3f_3_Back</a> (const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this)</td></tr>
+<tr class="separator:ac2e65f8bd94fc164772cb9e1ea90ffe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0c0a045dd6fc311a5f56c382e298878" id="r_ac0c0a045dd6fc311a5f56c382e298878"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0c0a045dd6fc311a5f56c382e298878">MR_std_vector_std_array_MR_Vector3f_3_MutableBack</a> (<a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this)</td></tr>
+<tr class="separator:ac0c0a045dd6fc311a5f56c382e298878"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8813dd222787111d71c3591f74bae2a" id="r_ad8813dd222787111d71c3591f74bae2a"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8813dd222787111d71c3591f74bae2a">MR_std_vector_std_array_MR_Vector3f_3_Data</a> (const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this)</td></tr>
+<tr class="separator:ad8813dd222787111d71c3591f74bae2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c8439e11abece5b479e44694f280a2a" id="r_a2c8439e11abece5b479e44694f280a2a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c8439e11abece5b479e44694f280a2a">MR_std_vector_std_array_MR_Vector3f_3_MutableData</a> (<a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this)</td></tr>
+<tr class="separator:a2c8439e11abece5b479e44694f280a2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a915bfd7720b6c3b977cf99897b99f80e" id="r_a915bfd7720b6c3b977cf99897b99f80e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a915bfd7720b6c3b977cf99897b99f80e">MR_std_vector_std_array_MR_Vector3f_3_PushBack</a> (<a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this, <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> new_elem)</td></tr>
+<tr class="separator:a915bfd7720b6c3b977cf99897b99f80e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1498af16f1ddfdcc84176717b2d11aea" id="r_a1498af16f1ddfdcc84176717b2d11aea"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1498af16f1ddfdcc84176717b2d11aea">MR_std_vector_std_array_MR_Vector3f_3_PopBack</a> (<a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this)</td></tr>
+<tr class="separator:a1498af16f1ddfdcc84176717b2d11aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d3d722af5eaa7f07814212dd0c42f0d" id="r_a3d3d722af5eaa7f07814212dd0c42f0d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d3d722af5eaa7f07814212dd0c42f0d">MR_std_vector_std_array_MR_Vector3f_3_Insert</a> (<a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this, size_t position, <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> new_elem)</td></tr>
+<tr class="separator:a3d3d722af5eaa7f07814212dd0c42f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdeb000900142b06b29f811dfb54f9e0" id="r_afdeb000900142b06b29f811dfb54f9e0"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afdeb000900142b06b29f811dfb54f9e0">MR_std_vector_std_array_MR_Vector3f_3_Erase</a> (<a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this, size_t position)</td></tr>
+<tr class="separator:afdeb000900142b06b29f811dfb54f9e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a1531cde0fb18fabb653bb0a1b04700" id="r_a0a1531cde0fb18fabb653bb0a1b04700"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a1531cde0fb18fabb653bb0a1b04700">MR_std_vector_std_array_MR_Vector3f_3_InsertAtMutableIter</a> (<a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this, const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *position, <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> new_elem)</td></tr>
+<tr class="separator:a0a1531cde0fb18fabb653bb0a1b04700"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fecdfb27e235846f30bee6031185afa" id="r_a3fecdfb27e235846f30bee6031185afa"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fecdfb27e235846f30bee6031185afa">MR_std_vector_std_array_MR_Vector3f_3_EraseAtMutableIter</a> (<a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this, const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *position)</td></tr>
+<tr class="separator:a3fecdfb27e235846f30bee6031185afa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b1012ba4811c21d1374f66940a3c478" id="r_a8b1012ba4811c21d1374f66940a3c478"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b1012ba4811c21d1374f66940a3c478">MR_std_vector_std_array_MR_Vector3f_3_InsertAtIter</a> (<a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this, const <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *position, <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> new_elem)</td></tr>
+<tr class="separator:a8b1012ba4811c21d1374f66940a3c478"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6a269157bfc948e9c2b93b5669994ed" id="r_ab6a269157bfc948e9c2b93b5669994ed"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6a269157bfc948e9c2b93b5669994ed">MR_std_vector_std_array_MR_Vector3f_3_EraseAtIter</a> (<a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this, const <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *position)</td></tr>
+<tr class="separator:ab6a269157bfc948e9c2b93b5669994ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45dfb7a574560dd2acee1152e3e7bb1b" id="r_a45dfb7a574560dd2acee1152e3e7bb1b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45dfb7a574560dd2acee1152e3e7bb1b">MR_std_vector_std_array_MR_Vector3f_3_Begin</a> (const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this)</td></tr>
+<tr class="separator:a45dfb7a574560dd2acee1152e3e7bb1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8be38e1e7502b89409eb624e2f4d73f" id="r_ad8be38e1e7502b89409eb624e2f4d73f"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8be38e1e7502b89409eb624e2f4d73f">MR_std_vector_std_array_MR_Vector3f_3_IsBegin</a> (const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this, const <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *iter)</td></tr>
+<tr class="separator:ad8be38e1e7502b89409eb624e2f4d73f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36d3d74db08d0fac2d62e57172fd9042" id="r_a36d3d74db08d0fac2d62e57172fd9042"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36d3d74db08d0fac2d62e57172fd9042">MR_std_vector_std_array_MR_Vector3f_3_MutableBegin</a> (<a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this)</td></tr>
+<tr class="separator:a36d3d74db08d0fac2d62e57172fd9042"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a973cee333ea441480d9eae69e0304c14" id="r_a973cee333ea441480d9eae69e0304c14"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a973cee333ea441480d9eae69e0304c14">MR_std_vector_std_array_MR_Vector3f_3_IsMutableBegin</a> (<a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this, const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *iter)</td></tr>
+<tr class="separator:a973cee333ea441480d9eae69e0304c14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a394f3dafb0ba62beb9323fbce85b2e79" id="r_a394f3dafb0ba62beb9323fbce85b2e79"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a394f3dafb0ba62beb9323fbce85b2e79">MR_std_vector_std_array_MR_Vector3f_3_End</a> (const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this)</td></tr>
+<tr class="separator:a394f3dafb0ba62beb9323fbce85b2e79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a002548a0eca2832e1cd54a3e59a0a208" id="r_a002548a0eca2832e1cd54a3e59a0a208"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a002548a0eca2832e1cd54a3e59a0a208">MR_std_vector_std_array_MR_Vector3f_3_IsEnd</a> (const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this, const <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *iter)</td></tr>
+<tr class="separator:a002548a0eca2832e1cd54a3e59a0a208"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cf476e7defc6507b37405fadb44ab48" id="r_a6cf476e7defc6507b37405fadb44ab48"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cf476e7defc6507b37405fadb44ab48">MR_std_vector_std_array_MR_Vector3f_3_MutableEnd</a> (<a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this)</td></tr>
+<tr class="separator:a6cf476e7defc6507b37405fadb44ab48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c1b4f1ec7f0b1d6c5272846a26c4a7a" id="r_a1c1b4f1ec7f0b1d6c5272846a26c4a7a"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c1b4f1ec7f0b1d6c5272846a26c4a7a">MR_std_vector_std_array_MR_Vector3f_3_IsMutableEnd</a> (<a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this, const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *iter)</td></tr>
+<tr class="separator:a1c1b4f1ec7f0b1d6c5272846a26c4a7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03c1642885d22183b2545176c2179b59" id="r_a03c1642885d22183b2545176c2179b59"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03c1642885d22183b2545176c2179b59">MR_std_vector_std_array_MR_Vector3f_3_ToIndex</a> (const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this, const <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *iter)</td></tr>
+<tr class="separator:a03c1642885d22183b2545176c2179b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6424bdd5bfd4fb0caf0fa02f9d598ba0" id="r_a6424bdd5bfd4fb0caf0fa02f9d598ba0"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6424bdd5bfd4fb0caf0fa02f9d598ba0">MR_std_vector_std_array_MR_Vector3f_3_MutableToIndex</a> (const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *_this, const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *iter)</td></tr>
+<tr class="separator:a6424bdd5bfd4fb0caf0fa02f9d598ba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00527002650fd035a3a464efc2da09ee" id="r_a00527002650fd035a3a464efc2da09ee"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00527002650fd035a3a464efc2da09ee">MR_std_vector_std_array_MR_Vector3f_3_const_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a00527002650fd035a3a464efc2da09ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6550f653e166e567b8ad509d02172721" id="r_a6550f653e166e567b8ad509d02172721"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6550f653e166e567b8ad509d02172721">MR_std_vector_std_array_MR_Vector3f_3_const_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a6550f653e166e567b8ad509d02172721"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63a3301ca728efe7383bad855ed0dca5" id="r_a63a3301ca728efe7383bad855ed0dca5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63a3301ca728efe7383bad855ed0dca5">MR_std_vector_std_array_MR_Vector3f_3_const_iterator_ConstructFromAnother</a> (const <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *other)</td></tr>
+<tr class="separator:a63a3301ca728efe7383bad855ed0dca5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95008ceff07ef98f35eab1fb006013fe" id="r_a95008ceff07ef98f35eab1fb006013fe"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95008ceff07ef98f35eab1fb006013fe">MR_std_vector_std_array_MR_Vector3f_3_const_iterator_AssignFromAnother</a> (<a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *_this, const <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *other)</td></tr>
+<tr class="separator:a95008ceff07ef98f35eab1fb006013fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5edebb5c6f675f28d675b84316eed2c8" id="r_a5edebb5c6f675f28d675b84316eed2c8"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5edebb5c6f675f28d675b84316eed2c8">MR_std_vector_std_array_MR_Vector3f_3_const_iterator_Destroy</a> (const <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a5edebb5c6f675f28d675b84316eed2c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_std_array_MR_Vector3f_3_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a5edebb5c6f675f28d675b84316eed2c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41be4d7941a1c9ac27ec82b20555f630" id="r_a41be4d7941a1c9ac27ec82b20555f630"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41be4d7941a1c9ac27ec82b20555f630">MR_std_vector_std_array_MR_Vector3f_3_const_iterator_DestroyArray</a> (const <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a41be4d7941a1c9ac27ec82b20555f630"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_std_array_MR_Vector3f_3_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a41be4d7941a1c9ac27ec82b20555f630"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae62a8129f40a1455c32926558d85fb6b" id="r_ae62a8129f40a1455c32926558d85fb6b"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae62a8129f40a1455c32926558d85fb6b">MR_std_vector_std_array_MR_Vector3f_3_const_iterator_OffsetPtr</a> (const <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ae62a8129f40a1455c32926558d85fb6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ae62a8129f40a1455c32926558d85fb6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0a17f161804b21ad8c9d646699af4fa" id="r_ac0a17f161804b21ad8c9d646699af4fa"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0a17f161804b21ad8c9d646699af4fa">MR_std_vector_std_array_MR_Vector3f_3_const_iterator_OffsetMutablePtr</a> (<a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ac0a17f161804b21ad8c9d646699af4fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ac0a17f161804b21ad8c9d646699af4fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a7e16c23cc3eaafb2ba295175df1f12" id="r_a7a7e16c23cc3eaafb2ba295175df1f12"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a7e16c23cc3eaafb2ba295175df1f12">MR_std_vector_std_array_MR_Vector3f_3_const_iterator_FromMutable</a> (const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *iter)</td></tr>
+<tr class="separator:a7a7e16c23cc3eaafb2ba295175df1f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3c5d3b8b3d395939662d675b1bd42f6" id="r_ac3c5d3b8b3d395939662d675b1bd42f6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3c5d3b8b3d395939662d675b1bd42f6">MR_std_vector_std_array_MR_Vector3f_3_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ac3c5d3b8b3d395939662d675b1bd42f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85d04e2179aedcfb62f53d24d17147aa" id="r_a85d04e2179aedcfb62f53d24d17147aa"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85d04e2179aedcfb62f53d24d17147aa">MR_std_vector_std_array_MR_Vector3f_3_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a85d04e2179aedcfb62f53d24d17147aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d367d5f191b7bd71a74b11df5b603ad" id="r_a0d367d5f191b7bd71a74b11df5b603ad"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d367d5f191b7bd71a74b11df5b603ad">MR_std_vector_std_array_MR_Vector3f_3_iterator_ConstructFromAnother</a> (const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *other)</td></tr>
+<tr class="separator:a0d367d5f191b7bd71a74b11df5b603ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14bbbf05903070c70111822f32b4b4fc" id="r_a14bbbf05903070c70111822f32b4b4fc"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14bbbf05903070c70111822f32b4b4fc">MR_std_vector_std_array_MR_Vector3f_3_iterator_AssignFromAnother</a> (<a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *_this, const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *other)</td></tr>
+<tr class="separator:a14bbbf05903070c70111822f32b4b4fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86c0c7144bcaf913acfd0a0fdaa406b5" id="r_a86c0c7144bcaf913acfd0a0fdaa406b5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86c0c7144bcaf913acfd0a0fdaa406b5">MR_std_vector_std_array_MR_Vector3f_3_iterator_Destroy</a> (const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a86c0c7144bcaf913acfd0a0fdaa406b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_std_array_MR_Vector3f_3_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a86c0c7144bcaf913acfd0a0fdaa406b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a370c03c8781dcccaa8a3afd263bbe694" id="r_a370c03c8781dcccaa8a3afd263bbe694"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a370c03c8781dcccaa8a3afd263bbe694">MR_std_vector_std_array_MR_Vector3f_3_iterator_DestroyArray</a> (const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a370c03c8781dcccaa8a3afd263bbe694"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_std_array_MR_Vector3f_3_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a370c03c8781dcccaa8a3afd263bbe694"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad36b729230603ae373f7a2d32c35786c" id="r_ad36b729230603ae373f7a2d32c35786c"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad36b729230603ae373f7a2d32c35786c">MR_std_vector_std_array_MR_Vector3f_3_iterator_OffsetPtr</a> (const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ad36b729230603ae373f7a2d32c35786c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ad36b729230603ae373f7a2d32c35786c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad09412dc58da2f5d380c48223ca25954" id="r_ad09412dc58da2f5d380c48223ca25954"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad09412dc58da2f5d380c48223ca25954">MR_std_vector_std_array_MR_Vector3f_3_iterator_OffsetMutablePtr</a> (<a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ad09412dc58da2f5d380c48223ca25954"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ad09412dc58da2f5d380c48223ca25954"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a656c0788ffb2d4c3c7042d00222cf8bb" id="r_a656c0788ffb2d4c3c7042d00222cf8bb"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a656c0788ffb2d4c3c7042d00222cf8bb">MR_std_vector_std_array_MR_Vector3f_3_const_iterator_Deref</a> (const <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *_this)</td></tr>
+<tr class="separator:a656c0788ffb2d4c3c7042d00222cf8bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4926f0f5adf7c0f032d80c80b02f01f" id="r_ab4926f0f5adf7c0f032d80c80b02f01f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4926f0f5adf7c0f032d80c80b02f01f">MR_std_vector_std_array_MR_Vector3f_3_const_iterator_Incr</a> (<a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *_this)</td></tr>
+<tr class="separator:ab4926f0f5adf7c0f032d80c80b02f01f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a396d5bda132ecdad5e1195b3a387ea26" id="r_a396d5bda132ecdad5e1195b3a387ea26"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a396d5bda132ecdad5e1195b3a387ea26">MR_std_vector_std_array_MR_Vector3f_3_const_iterator_Decr</a> (<a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *_this)</td></tr>
+<tr class="separator:a396d5bda132ecdad5e1195b3a387ea26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78e9cf944ba2ce1849cb3b6689644393" id="r_a78e9cf944ba2ce1849cb3b6689644393"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78e9cf944ba2ce1849cb3b6689644393">MR_std_vector_std_array_MR_Vector3f_3_const_iterator_OffsetBy</a> (<a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *_this, ptrdiff_t delta)</td></tr>
+<tr class="separator:a78e9cf944ba2ce1849cb3b6689644393"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87b6ad47cc5a802b547555dc59c8747d" id="r_a87b6ad47cc5a802b547555dc59c8747d"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87b6ad47cc5a802b547555dc59c8747d">MR_std_vector_std_array_MR_Vector3f_3_const_iterator_Distance</a> (const <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *a, const <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *b)</td></tr>
+<tr class="separator:a87b6ad47cc5a802b547555dc59c8747d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad538831395ce0caffd7d47aa8c1c950a" id="r_ad538831395ce0caffd7d47aa8c1c950a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad538831395ce0caffd7d47aa8c1c950a">MR_std_vector_std_array_MR_Vector3f_3_iterator_Deref</a> (const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *_this)</td></tr>
+<tr class="separator:ad538831395ce0caffd7d47aa8c1c950a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada208f37a2b39f71f1554653e60f8589" id="r_ada208f37a2b39f71f1554653e60f8589"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada208f37a2b39f71f1554653e60f8589">MR_std_vector_std_array_MR_Vector3f_3_iterator_Incr</a> (<a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *_this)</td></tr>
+<tr class="separator:ada208f37a2b39f71f1554653e60f8589"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad4d1bf85519c2904af703f95563b356" id="r_aad4d1bf85519c2904af703f95563b356"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad4d1bf85519c2904af703f95563b356">MR_std_vector_std_array_MR_Vector3f_3_iterator_Decr</a> (<a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *_this)</td></tr>
+<tr class="separator:aad4d1bf85519c2904af703f95563b356"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af04993e61a9d32147f5986389d8bc000" id="r_af04993e61a9d32147f5986389d8bc000"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af04993e61a9d32147f5986389d8bc000">MR_std_vector_std_array_MR_Vector3f_3_iterator_OffsetBy</a> (<a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *_this, ptrdiff_t delta)</td></tr>
+<tr class="separator:af04993e61a9d32147f5986389d8bc000"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae81da4ae2a608207bbc4224ba0abbb33" id="r_ae81da4ae2a608207bbc4224ba0abbb33"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae81da4ae2a608207bbc4224ba0abbb33">MR_std_vector_std_array_MR_Vector3f_3_iterator_Distance</a> (const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *a, const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *b)</td></tr>
+<tr class="separator:ae81da4ae2a608207bbc4224ba0abbb33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="af3681c958ee919df825e522f1899b362" name="af3681c958ee919df825e522f1899b362"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3681c958ee919df825e522f1899b362">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from C++ container <code>std::vector&lt;std::array&lt;MR::Vector3f, 3&gt;&gt;</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a3e7d8679873c41d9f1a35524dc79a8c0" name="a3e7d8679873c41d9f1a35524dc79a8c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e7d8679873c41d9f1a35524dc79a8c0">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_const_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Read-only iterator for <code>MR_std_vector_std_array_MR_Vector3f_3</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a51eb3f7626415b41d7fa263e8b5faa0d" name="a51eb3f7626415b41d7fa263e8b5faa0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51eb3f7626415b41d7fa263e8b5faa0d">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Mutable iterator for <code>MR_std_vector_std_array_MR_Vector3f_3</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="aff115d36c5d7838b06eff1123f8b5dd5" name="aff115d36c5d7838b06eff1123f8b5dd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff115d36c5d7838b06eff1123f8b5dd5">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa7b3772def595a8265383a6d4e32b2dc" name="aa7b3772def595a8265383a6d4e32b2dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7b3772def595a8265383a6d4e32b2dc">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_AssignFromRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_AssignFromRange </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assign from a range of elements, overwriting previous contents. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a9ec9406de667276a74b39dafd2a04f8f" name="a9ec9406de667276a74b39dafd2a04f8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ec9406de667276a74b39dafd2a04f8f">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_At()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> * MR_std_vector_std_array_MR_Vector3f_3_At </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, read-only. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ac2e65f8bd94fc164772cb9e1ea90ffe1" name="ac2e65f8bd94fc164772cb9e1ea90ffe1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2e65f8bd94fc164772cb9e1ea90ffe1">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_Back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> * MR_std_vector_std_array_MR_Vector3f_3_Back </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The last element or null if empty, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a45dfb7a574560dd2acee1152e3e7bb1b" name="a45dfb7a574560dd2acee1152e3e7bb1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45dfb7a574560dd2acee1152e3e7bb1b">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_Begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> * MR_std_vector_std_array_MR_Vector3f_3_Begin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5edebb5c6f675f28d675b84316eed2c8" title="Destroys a heap-allocated instance of MR_std_vector_std_array_MR_Vector3f_3_const_iterator....">MR_std_vector_std_array_MR_Vector3f_3_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a6b9fec81338f67a08b33f356581ee509" name="a6b9fec81338f67a08b33f356581ee509"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b9fec81338f67a08b33f356581ee509">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_Capacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_vector_std_array_MR_Vector3f_3_Capacity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The memory capacity, measued in the number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a357b37f70ffa5726d5deb893d510af8b" name="a357b37f70ffa5726d5deb893d510af8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a357b37f70ffa5726d5deb893d510af8b">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_Clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_Clear </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes all elements from the container. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a95008ceff07ef98f35eab1fb006013fe" name="a95008ceff07ef98f35eab1fb006013fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95008ceff07ef98f35eab1fb006013fe">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_const_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_const_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a63a3301ca728efe7383bad855ed0dca5" name="a63a3301ca728efe7383bad855ed0dca5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63a3301ca728efe7383bad855ed0dca5">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_const_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> * MR_std_vector_std_array_MR_Vector3f_3_const_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5edebb5c6f675f28d675b84316eed2c8" title="Destroys a heap-allocated instance of MR_std_vector_std_array_MR_Vector3f_3_const_iterator....">MR_std_vector_std_array_MR_Vector3f_3_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a396d5bda132ecdad5e1195b3a387ea26" name="a396d5bda132ecdad5e1195b3a387ea26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a396d5bda132ecdad5e1195b3a387ea26">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_const_iterator_Decr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_const_iterator_Decr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decrements a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a00527002650fd035a3a464efc2da09ee" name="a00527002650fd035a3a464efc2da09ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00527002650fd035a3a464efc2da09ee">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_const_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> * MR_std_vector_std_array_MR_Vector3f_3_const_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5edebb5c6f675f28d675b84316eed2c8" title="Destroys a heap-allocated instance of MR_std_vector_std_array_MR_Vector3f_3_const_iterator....">MR_std_vector_std_array_MR_Vector3f_3_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a6550f653e166e567b8ad509d02172721" name="a6550f653e166e567b8ad509d02172721"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6550f653e166e567b8ad509d02172721">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_const_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> * MR_std_vector_std_array_MR_Vector3f_3_const_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a41be4d7941a1c9ac27ec82b20555f630" title="Destroys a heap-allocated array of MR_std_vector_std_array_MR_Vector3f_3_const_iterator....">MR_std_vector_std_array_MR_Vector3f_3_const_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#ac0a17f161804b21ad8c9d646699af4fa" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_std_array_MR_Vector3f_3_const_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#ae62a8129f40a1455c32926558d85fb6b" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_std_array_MR_Vector3f_3_const_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a656c0788ffb2d4c3c7042d00222cf8bb" name="a656c0788ffb2d4c3c7042d00222cf8bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a656c0788ffb2d4c3c7042d00222cf8bb">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_const_iterator_Deref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> * MR_std_vector_std_array_MR_Vector3f_3_const_iterator_Deref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a const iterator. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a5edebb5c6f675f28d675b84316eed2c8" name="a5edebb5c6f675f28d675b84316eed2c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5edebb5c6f675f28d675b84316eed2c8">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_const_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_const_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_std_array_MR_Vector3f_3_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a41be4d7941a1c9ac27ec82b20555f630" name="a41be4d7941a1c9ac27ec82b20555f630"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41be4d7941a1c9ac27ec82b20555f630">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_const_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_const_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_std_array_MR_Vector3f_3_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a87b6ad47cc5a802b547555dc59c8747d" name="a87b6ad47cc5a802b547555dc59c8747d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87b6ad47cc5a802b547555dc59c8747d">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_const_iterator_Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_std_array_MR_Vector3f_3_const_iterator_Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the signed difference between two const iterators. Completes in constant time. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a7a7e16c23cc3eaafb2ba295175df1f12" name="a7a7e16c23cc3eaafb2ba295175df1f12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a7e16c23cc3eaafb2ba295175df1f12">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_const_iterator_FromMutable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> * MR_std_vector_std_array_MR_Vector3f_3_const_iterator_FromMutable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Makes a const iterator from a mutable one. Parameter <code>iter</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5edebb5c6f675f28d675b84316eed2c8" title="Destroys a heap-allocated instance of MR_std_vector_std_array_MR_Vector3f_3_const_iterator....">MR_std_vector_std_array_MR_Vector3f_3_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab4926f0f5adf7c0f032d80c80b02f01f" name="ab4926f0f5adf7c0f032d80c80b02f01f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4926f0f5adf7c0f032d80c80b02f01f">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_const_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_const_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a78e9cf944ba2ce1849cb3b6689644393" name="a78e9cf944ba2ce1849cb3b6689644393"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78e9cf944ba2ce1849cb3b6689644393">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_const_iterator_OffsetBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_const_iterator_OffsetBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac0a17f161804b21ad8c9d646699af4fa" name="ac0a17f161804b21ad8c9d646699af4fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0a17f161804b21ad8c9d646699af4fa">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_const_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> * MR_std_vector_std_array_MR_Vector3f_3_const_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ae62a8129f40a1455c32926558d85fb6b" name="ae62a8129f40a1455c32926558d85fb6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae62a8129f40a1455c32926558d85fb6b">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_const_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> * MR_std_vector_std_array_MR_Vector3f_3_const_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a46487aca612cd4bcfdff1ce3e3b3d1ec" name="a46487aca612cd4bcfdff1ce3e3b3d1ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46487aca612cd4bcfdff1ce3e3b3d1ec">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> * MR_std_vector_std_array_MR_Vector3f_3_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1016bd581e0f52019852163bb39bb5c3" title="Destroys a heap-allocated instance of MR_std_vector_std_array_MR_Vector3f_3. Does nothing if the poin...">MR_std_vector_std_array_MR_Vector3f_3_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5b51b9215820c469a961beb577a3352e" name="a5b51b9215820c469a961beb577a3352e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b51b9215820c469a961beb577a3352e">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_ConstructFromRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> * MR_std_vector_std_array_MR_Vector3f_3_ConstructFromRange </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Construct from a range of elements. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1016bd581e0f52019852163bb39bb5c3" title="Destroys a heap-allocated instance of MR_std_vector_std_array_MR_Vector3f_3. Does nothing if the poin...">MR_std_vector_std_array_MR_Vector3f_3_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ad8813dd222787111d71c3591f74bae2a" name="ad8813dd222787111d71c3591f74bae2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8813dd222787111d71c3591f74bae2a">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_Data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> * MR_std_vector_std_array_MR_Vector3f_3_Data </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to the continuous storage that holds all elements, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6a308df29d329e25e8cf9630f73e4a32" name="a6a308df29d329e25e8cf9630f73e4a32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a308df29d329e25e8cf9630f73e4a32">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> * MR_std_vector_std_array_MR_Vector3f_3_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1016bd581e0f52019852163bb39bb5c3" title="Destroys a heap-allocated instance of MR_std_vector_std_array_MR_Vector3f_3. Does nothing if the poin...">MR_std_vector_std_array_MR_Vector3f_3_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae44e0b909870fe0419a3c27ab1efa1ec" name="ae44e0b909870fe0419a3c27ab1efa1ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae44e0b909870fe0419a3c27ab1efa1ec">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> * MR_std_vector_std_array_MR_Vector3f_3_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a392d33847000438f924c73b97ab80715" title="Destroys a heap-allocated array of MR_std_vector_std_array_MR_Vector3f_3. Does nothing if the pointer...">MR_std_vector_std_array_MR_Vector3f_3_DestroyArray()</a></code>. Use <code><a class="el" href="#a8f2bcb997081f2f0460b1e72db1c05b6" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_std_array_MR_Vector3f_3_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a90823a241345ec56a13bd00e525b5841" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_std_array_MR_Vector3f_3_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a1016bd581e0f52019852163bb39bb5c3" name="a1016bd581e0f52019852163bb39bb5c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1016bd581e0f52019852163bb39bb5c3">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_std_array_MR_Vector3f_3</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a392d33847000438f924c73b97ab80715" name="a392d33847000438f924c73b97ab80715"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a392d33847000438f924c73b97ab80715">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_std_array_MR_Vector3f_3</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a394f3dafb0ba62beb9323fbce85b2e79" name="a394f3dafb0ba62beb9323fbce85b2e79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a394f3dafb0ba62beb9323fbce85b2e79">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_End()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> * MR_std_vector_std_array_MR_Vector3f_3_End </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5edebb5c6f675f28d675b84316eed2c8" title="Destroys a heap-allocated instance of MR_std_vector_std_array_MR_Vector3f_3_const_iterator....">MR_std_vector_std_array_MR_Vector3f_3_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="afdeb000900142b06b29f811dfb54f9e0" name="afdeb000900142b06b29f811dfb54f9e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdeb000900142b06b29f811dfb54f9e0">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_Erase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_Erase </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ab6a269157bfc948e9c2b93b5669994ed" name="ab6a269157bfc948e9c2b93b5669994ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6a269157bfc948e9c2b93b5669994ed">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_EraseAtIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_EraseAtIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. This version takes the position in form of a const iterator, that's the only difference. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3fecdfb27e235846f30bee6031185afa" name="a3fecdfb27e235846f30bee6031185afa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fecdfb27e235846f30bee6031185afa">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_EraseAtMutableIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_EraseAtMutableIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a64e35cb13dde101f3c6104049856f215" name="a64e35cb13dde101f3c6104049856f215"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64e35cb13dde101f3c6104049856f215">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_Front()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> * MR_std_vector_std_array_MR_Vector3f_3_Front </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The first element or null if empty, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3d3d722af5eaa7f07814212dd0c42f0d" name="a3d3d722af5eaa7f07814212dd0c42f0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d3d722af5eaa7f07814212dd0c42f0d">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_Insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_Insert </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a></td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a8b1012ba4811c21d1374f66940a3c478" name="a8b1012ba4811c21d1374f66940a3c478"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b1012ba4811c21d1374f66940a3c478">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_InsertAtIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_InsertAtIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a></td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that's the only difference. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a0a1531cde0fb18fabb653bb0a1b04700" name="a0a1531cde0fb18fabb653bb0a1b04700"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a1531cde0fb18fabb653bb0a1b04700">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_InsertAtMutableIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_InsertAtMutableIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a></td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad8be38e1e7502b89409eb624e2f4d73f" name="ad8be38e1e7502b89409eb624e2f4d73f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8be38e1e7502b89409eb624e2f4d73f">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_IsBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_std_array_MR_Vector3f_3_IsBegin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a086a9cda502d962756d6f5b920a93364" name="a086a9cda502d962756d6f5b920a93364"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a086a9cda502d962756d6f5b920a93364">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_IsEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_std_array_MR_Vector3f_3_IsEmpty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns true if the size is zero. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a002548a0eca2832e1cd54a3e59a0a208" name="a002548a0eca2832e1cd54a3e59a0a208"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a002548a0eca2832e1cd54a3e59a0a208">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_IsEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_std_array_MR_Vector3f_3_IsEnd </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a973cee333ea441480d9eae69e0304c14" name="a973cee333ea441480d9eae69e0304c14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a973cee333ea441480d9eae69e0304c14">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_IsMutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_std_array_MR_Vector3f_3_IsMutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a1c1b4f1ec7f0b1d6c5272846a26c4a7a" name="a1c1b4f1ec7f0b1d6c5272846a26c4a7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c1b4f1ec7f0b1d6c5272846a26c4a7a">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_IsMutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_std_array_MR_Vector3f_3_IsMutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a14bbbf05903070c70111822f32b4b4fc" name="a14bbbf05903070c70111822f32b4b4fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14bbbf05903070c70111822f32b4b4fc">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a0d367d5f191b7bd71a74b11df5b603ad" name="a0d367d5f191b7bd71a74b11df5b603ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d367d5f191b7bd71a74b11df5b603ad">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> * MR_std_vector_std_array_MR_Vector3f_3_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a86c0c7144bcaf913acfd0a0fdaa406b5" title="Destroys a heap-allocated instance of MR_std_vector_std_array_MR_Vector3f_3_iterator....">MR_std_vector_std_array_MR_Vector3f_3_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aad4d1bf85519c2904af703f95563b356" name="aad4d1bf85519c2904af703f95563b356"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad4d1bf85519c2904af703f95563b356">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_iterator_Decr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_iterator_Decr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decrements a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac3c5d3b8b3d395939662d675b1bd42f6" name="ac3c5d3b8b3d395939662d675b1bd42f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3c5d3b8b3d395939662d675b1bd42f6">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> * MR_std_vector_std_array_MR_Vector3f_3_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a86c0c7144bcaf913acfd0a0fdaa406b5" title="Destroys a heap-allocated instance of MR_std_vector_std_array_MR_Vector3f_3_iterator....">MR_std_vector_std_array_MR_Vector3f_3_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a85d04e2179aedcfb62f53d24d17147aa" name="a85d04e2179aedcfb62f53d24d17147aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85d04e2179aedcfb62f53d24d17147aa">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> * MR_std_vector_std_array_MR_Vector3f_3_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a370c03c8781dcccaa8a3afd263bbe694" title="Destroys a heap-allocated array of MR_std_vector_std_array_MR_Vector3f_3_iterator....">MR_std_vector_std_array_MR_Vector3f_3_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#ad09412dc58da2f5d380c48223ca25954" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_std_array_MR_Vector3f_3_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#ad36b729230603ae373f7a2d32c35786c" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_std_array_MR_Vector3f_3_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ad538831395ce0caffd7d47aa8c1c950a" name="ad538831395ce0caffd7d47aa8c1c950a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad538831395ce0caffd7d47aa8c1c950a">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_iterator_Deref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> * MR_std_vector_std_array_MR_Vector3f_3_iterator_Deref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a mutable iterator. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a86c0c7144bcaf913acfd0a0fdaa406b5" name="a86c0c7144bcaf913acfd0a0fdaa406b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86c0c7144bcaf913acfd0a0fdaa406b5">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_std_array_MR_Vector3f_3_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a370c03c8781dcccaa8a3afd263bbe694" name="a370c03c8781dcccaa8a3afd263bbe694"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a370c03c8781dcccaa8a3afd263bbe694">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_std_array_MR_Vector3f_3_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ae81da4ae2a608207bbc4224ba0abbb33" name="ae81da4ae2a608207bbc4224ba0abbb33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae81da4ae2a608207bbc4224ba0abbb33">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_iterator_Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_std_array_MR_Vector3f_3_iterator_Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ada208f37a2b39f71f1554653e60f8589" name="ada208f37a2b39f71f1554653e60f8589"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada208f37a2b39f71f1554653e60f8589">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="af04993e61a9d32147f5986389d8bc000" name="af04993e61a9d32147f5986389d8bc000"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af04993e61a9d32147f5986389d8bc000">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_iterator_OffsetBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_iterator_OffsetBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad09412dc58da2f5d380c48223ca25954" name="ad09412dc58da2f5d380c48223ca25954"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad09412dc58da2f5d380c48223ca25954">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> * MR_std_vector_std_array_MR_Vector3f_3_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ad36b729230603ae373f7a2d32c35786c" name="ad36b729230603ae373f7a2d32c35786c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad36b729230603ae373f7a2d32c35786c">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> * MR_std_vector_std_array_MR_Vector3f_3_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a30ba444296e7267e40f47bee469961d5" name="a30ba444296e7267e40f47bee469961d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30ba444296e7267e40f47bee469961d5">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_MutableAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> * MR_std_vector_std_array_MR_Vector3f_3_MutableAt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, mutable. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ac0c0a045dd6fc311a5f56c382e298878" name="ac0c0a045dd6fc311a5f56c382e298878"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0c0a045dd6fc311a5f56c382e298878">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_MutableBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> * MR_std_vector_std_array_MR_Vector3f_3_MutableBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The last element or null if empty, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a36d3d74db08d0fac2d62e57172fd9042" name="a36d3d74db08d0fac2d62e57172fd9042"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36d3d74db08d0fac2d62e57172fd9042">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_MutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> * MR_std_vector_std_array_MR_Vector3f_3_MutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a86c0c7144bcaf913acfd0a0fdaa406b5" title="Destroys a heap-allocated instance of MR_std_vector_std_array_MR_Vector3f_3_iterator....">MR_std_vector_std_array_MR_Vector3f_3_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a2c8439e11abece5b479e44694f280a2a" name="a2c8439e11abece5b479e44694f280a2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c8439e11abece5b479e44694f280a2a">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_MutableData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> * MR_std_vector_std_array_MR_Vector3f_3_MutableData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to the continuous storage that holds all elements, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6cf476e7defc6507b37405fadb44ab48" name="a6cf476e7defc6507b37405fadb44ab48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cf476e7defc6507b37405fadb44ab48">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_MutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> * MR_std_vector_std_array_MR_Vector3f_3_MutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a86c0c7144bcaf913acfd0a0fdaa406b5" title="Destroys a heap-allocated instance of MR_std_vector_std_array_MR_Vector3f_3_iterator....">MR_std_vector_std_array_MR_Vector3f_3_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ac36bebc3f3744351f20fac351862a826" name="ac36bebc3f3744351f20fac351862a826"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac36bebc3f3744351f20fac351862a826">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_MutableFront()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> * MR_std_vector_std_array_MR_Vector3f_3_MutableFront </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The first element or null if empty, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6424bdd5bfd4fb0caf0fa02f9d598ba0" name="a6424bdd5bfd4fb0caf0fa02f9d598ba0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6424bdd5bfd4fb0caf0fa02f9d598ba0">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_MutableToIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_std_array_MR_Vector3f_3_MutableToIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a51eb3f7626415b41d7fa263e8b5faa0d">MR_std_vector_std_array_MR_Vector3f_3_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convert a mutable iterator to an index. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a8f2bcb997081f2f0460b1e72db1c05b6" name="a8f2bcb997081f2f0460b1e72db1c05b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f2bcb997081f2f0460b1e72db1c05b6">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> * MR_std_vector_std_array_MR_Vector3f_3_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a90823a241345ec56a13bd00e525b5841" name="a90823a241345ec56a13bd00e525b5841"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90823a241345ec56a13bd00e525b5841">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> * MR_std_vector_std_array_MR_Vector3f_3_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a1498af16f1ddfdcc84176717b2d11aea" name="a1498af16f1ddfdcc84176717b2d11aea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1498af16f1ddfdcc84176717b2d11aea">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_PopBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_PopBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes one element from the end. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a915bfd7720b6c3b977cf99897b99f80e" name="a915bfd7720b6c3b977cf99897b99f80e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a915bfd7720b6c3b977cf99897b99f80e">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_PushBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_PushBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a></td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element at the end. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a39391f2e035115b3b5b09002f4da504b" name="a39391f2e035115b3b5b09002f4da504b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39391f2e035115b3b5b09002f4da504b">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_Reserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_Reserve </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_capacity</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a4ab0dad4b33f6b54f0e200282b05c842" name="a4ab0dad4b33f6b54f0e200282b05c842"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ab0dad4b33f6b54f0e200282b05c842">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_Resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_Resize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the container. The new elements if any are zeroed. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aaf7eab94a63b5693383db2cc70802942" name="aaf7eab94a63b5693383db2cc70802942"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf7eab94a63b5693383db2cc70802942">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_ResizeWithDefaultValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_ResizeWithDefaultValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the container. The new elements if any are set to the specified value. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a1dfd9cf6dbc6744744daba99f291d4d3" name="a1dfd9cf6dbc6744744daba99f291d4d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dfd9cf6dbc6744744daba99f291d4d3">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_ShrinkToFit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_std_array_MR_Vector3f_3_ShrinkToFit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Shrinks the capacity to match the size. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a2d67e17e1dd4decac47b2c853c925950" name="a2d67e17e1dd4decac47b2c853c925950"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d67e17e1dd4decac47b2c853c925950">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_Size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_vector_std_array_MR_Vector3f_3_Size </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a03c1642885d22183b2545176c2179b59" name="a03c1642885d22183b2545176c2179b59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03c1642885d22183b2545176c2179b59">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_Vector3f_3_ToIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_std_array_MR_Vector3f_3_ToIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIdentifyVertices_8h.html#af3681c958ee919df825e522f1899b362">MR_std_vector_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a3e7d8679873c41d9f1a35524dc79a8c0">MR_std_vector_std_array_MR_Vector3f_3_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convert a const iterator to an index. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_a57e8462869cab4a5203dede5869920d.html">MRCMisc</a></li><li class="navelem"><a class="el" href="std__vector__std__array__MR__Vector3f__3_8h.html">std_vector_std_array_MR_Vector3f_3.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

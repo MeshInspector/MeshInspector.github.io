@@ -1,0 +1,1790 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: std_vector_MR_WeightedShell_ParametersRegions_Region.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">std_vector_MR_WeightedShell_ParametersRegions_Region.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="std__vector__MR__WeightedShell__ParametersRegions__Region_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a0c8fa266835b87106cadd3fa5cede1b1" id="r_a0c8fa266835b87106cadd3fa5cede1b1"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a></td></tr>
+<tr class="separator:a0c8fa266835b87106cadd3fa5cede1b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf73071fe06d383693ea376448200cf3" id="r_abf73071fe06d383693ea376448200cf3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a></td></tr>
+<tr class="separator:abf73071fe06d383693ea376448200cf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9aee9943d2fe5ff4e55a04cf94baee4c" id="r_a9aee9943d2fe5ff4e55a04cf94baee4c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a></td></tr>
+<tr class="separator:a9aee9943d2fe5ff4e55a04cf94baee4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0337bbed6c6240e1d3ba9532c76502ab" id="r_a0337bbed6c6240e1d3ba9532c76502ab"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a></td></tr>
+<tr class="separator:a0337bbed6c6240e1d3ba9532c76502ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ac9b7c8209ada7b2cce566cf7271f2165" id="r_ac9b7c8209ada7b2cce566cf7271f2165"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9b7c8209ada7b2cce566cf7271f2165">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ac9b7c8209ada7b2cce566cf7271f2165"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a964966d3a73fb90ce303ccf0d7a99869" id="r_a964966d3a73fb90ce303ccf0d7a99869"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a964966d3a73fb90ce303ccf0d7a99869">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a964966d3a73fb90ce303ccf0d7a99869"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8c4eb65203730d60031a2b155bf635c" id="r_ac8c4eb65203730d60031a2b155bf635c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8c4eb65203730d60031a2b155bf635c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *other)</td></tr>
+<tr class="separator:ac8c4eb65203730d60031a2b155bf635c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43c425178eda9ac2ff354ba0b4286386" id="r_a43c425178eda9ac2ff354ba0b4286386"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43c425178eda9ac2ff354ba0b4286386">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_AssignFromAnother</a> (<a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *other)</td></tr>
+<tr class="separator:a43c425178eda9ac2ff354ba0b4286386"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14ddba2a68db060da9c87837b5f3192d" id="r_a14ddba2a68db060da9c87837b5f3192d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14ddba2a68db060da9c87837b5f3192d">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Destroy</a> (const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this)</td></tr>
+<tr class="memdesc:a14ddba2a68db060da9c87837b5f3192d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_WeightedShell_ParametersRegions_Region</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a14ddba2a68db060da9c87837b5f3192d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb08f74034bc2367d5cf068d7a2ae5c0" id="r_aeb08f74034bc2367d5cf068d7a2ae5c0"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb08f74034bc2367d5cf068d7a2ae5c0">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_DestroyArray</a> (const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this)</td></tr>
+<tr class="memdesc:aeb08f74034bc2367d5cf068d7a2ae5c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_WeightedShell_ParametersRegions_Region</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:aeb08f74034bc2367d5cf068d7a2ae5c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a290104be3f720b78dbff0aa27488eecd" id="r_a290104be3f720b78dbff0aa27488eecd"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a290104be3f720b78dbff0aa27488eecd">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_OffsetPtr</a> (const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a290104be3f720b78dbff0aa27488eecd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a290104be3f720b78dbff0aa27488eecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41675a2327193190828e219e79438084" id="r_a41675a2327193190828e219e79438084"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41675a2327193190828e219e79438084">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_OffsetMutablePtr</a> (<a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a41675a2327193190828e219e79438084"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a41675a2327193190828e219e79438084"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d2e8a04b00e35724b8e8a53df1a7d22" id="r_a9d2e8a04b00e35724b8e8a53df1a7d22"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d2e8a04b00e35724b8e8a53df1a7d22">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Size</a> (const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this)</td></tr>
+<tr class="separator:a9d2e8a04b00e35724b8e8a53df1a7d22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98a9d56ff976779410543302dea405c2" id="r_a98a9d56ff976779410543302dea405c2"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98a9d56ff976779410543302dea405c2">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_IsEmpty</a> (const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this)</td></tr>
+<tr class="separator:a98a9d56ff976779410543302dea405c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b019578c25dabf54581674f7ff2726c" id="r_a8b019578c25dabf54581674f7ff2726c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b019578c25dabf54581674f7ff2726c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Resize</a> (<a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this, size_t new_size)</td></tr>
+<tr class="separator:a8b019578c25dabf54581674f7ff2726c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c19ff1ddefa36ac37f5e002f3b70984" id="r_a6c19ff1ddefa36ac37f5e002f3b70984"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c19ff1ddefa36ac37f5e002f3b70984">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_ResizeWithDefaultValue</a> (<a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this, size_t new_size, const <a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a> *value)</td></tr>
+<tr class="separator:a6c19ff1ddefa36ac37f5e002f3b70984"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab400f3c56649da6b9d4c6853240ca051" id="r_ab400f3c56649da6b9d4c6853240ca051"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab400f3c56649da6b9d4c6853240ca051">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Clear</a> (<a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this)</td></tr>
+<tr class="separator:ab400f3c56649da6b9d4c6853240ca051"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ec48228deff0e69b6c2c0fadadc2e0b" id="r_a1ec48228deff0e69b6c2c0fadadc2e0b"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ec48228deff0e69b6c2c0fadadc2e0b">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Capacity</a> (const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this)</td></tr>
+<tr class="separator:a1ec48228deff0e69b6c2c0fadadc2e0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf0774920cf7f8cf84fac45fe4a5e8d5" id="r_aaf0774920cf7f8cf84fac45fe4a5e8d5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf0774920cf7f8cf84fac45fe4a5e8d5">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Reserve</a> (<a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this, size_t new_capacity)</td></tr>
+<tr class="separator:aaf0774920cf7f8cf84fac45fe4a5e8d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c55a91bdca15778512d540bce52584a" id="r_a4c55a91bdca15778512d540bce52584a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c55a91bdca15778512d540bce52584a">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_ShrinkToFit</a> (<a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this)</td></tr>
+<tr class="separator:a4c55a91bdca15778512d540bce52584a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5caaa62ffac5c5dc8558c8137714010" id="r_ab5caaa62ffac5c5dc8558c8137714010"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5caaa62ffac5c5dc8558c8137714010">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_At</a> (const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this, size_t i)</td></tr>
+<tr class="separator:ab5caaa62ffac5c5dc8558c8137714010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7355d5da1d5e75f7e1a2158014d874cc" id="r_a7355d5da1d5e75f7e1a2158014d874cc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7355d5da1d5e75f7e1a2158014d874cc">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_MutableAt</a> (<a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this, size_t i)</td></tr>
+<tr class="separator:a7355d5da1d5e75f7e1a2158014d874cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba0e51b5e9b67099f0f7fcdb08f48e73" id="r_aba0e51b5e9b67099f0f7fcdb08f48e73"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba0e51b5e9b67099f0f7fcdb08f48e73">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Front</a> (const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this)</td></tr>
+<tr class="separator:aba0e51b5e9b67099f0f7fcdb08f48e73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1b1063fcada4394422086d1964e7c0d" id="r_aa1b1063fcada4394422086d1964e7c0d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1b1063fcada4394422086d1964e7c0d">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_MutableFront</a> (<a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this)</td></tr>
+<tr class="separator:aa1b1063fcada4394422086d1964e7c0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a265af80c0e9880553b453795fe9144" id="r_a4a265af80c0e9880553b453795fe9144"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a265af80c0e9880553b453795fe9144">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Back</a> (const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this)</td></tr>
+<tr class="separator:a4a265af80c0e9880553b453795fe9144"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c5d167d5b506cebee7deb1e669921d3" id="r_a5c5d167d5b506cebee7deb1e669921d3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c5d167d5b506cebee7deb1e669921d3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_MutableBack</a> (<a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this)</td></tr>
+<tr class="separator:a5c5d167d5b506cebee7deb1e669921d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a248c4a7a1500328e4963f7b11d32fde5" id="r_a248c4a7a1500328e4963f7b11d32fde5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a248c4a7a1500328e4963f7b11d32fde5">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_PushBack</a> (<a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> new_elem_pass_by, <a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a> *new_elem)</td></tr>
+<tr class="separator:a248c4a7a1500328e4963f7b11d32fde5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dc3797144c3a9d8b9a92d967cf9f7df" id="r_a4dc3797144c3a9d8b9a92d967cf9f7df"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dc3797144c3a9d8b9a92d967cf9f7df">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_PopBack</a> (<a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this)</td></tr>
+<tr class="separator:a4dc3797144c3a9d8b9a92d967cf9f7df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53f6977a1ec5298996a5018022212e12" id="r_a53f6977a1ec5298996a5018022212e12"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53f6977a1ec5298996a5018022212e12">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Insert</a> (<a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this, size_t position, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> new_elem_pass_by, <a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a> *new_elem)</td></tr>
+<tr class="separator:a53f6977a1ec5298996a5018022212e12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc22995d33111166b445f0cc106a2b69" id="r_acc22995d33111166b445f0cc106a2b69"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc22995d33111166b445f0cc106a2b69">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Erase</a> (<a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this, size_t position)</td></tr>
+<tr class="separator:acc22995d33111166b445f0cc106a2b69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accfc95e7a56807d235df9268e666b518" id="r_accfc95e7a56807d235df9268e666b518"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accfc95e7a56807d235df9268e666b518">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_InsertAtMutableIter</a> (<a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this, const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *position, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> new_elem_pass_by, <a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a> *new_elem)</td></tr>
+<tr class="separator:accfc95e7a56807d235df9268e666b518"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50aad3de7abacd0ab5f64f7c03dc4cc8" id="r_a50aad3de7abacd0ab5f64f7c03dc4cc8"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50aad3de7abacd0ab5f64f7c03dc4cc8">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_EraseAtMutableIter</a> (<a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this, const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *position)</td></tr>
+<tr class="separator:a50aad3de7abacd0ab5f64f7c03dc4cc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae402ec17f2167a9e536ce4965c900247" id="r_ae402ec17f2167a9e536ce4965c900247"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae402ec17f2167a9e536ce4965c900247">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_InsertAtIter</a> (<a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this, const <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *position, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> new_elem_pass_by, <a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a> *new_elem)</td></tr>
+<tr class="separator:ae402ec17f2167a9e536ce4965c900247"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62c12a035e6a398a07e84b15372ef447" id="r_a62c12a035e6a398a07e84b15372ef447"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62c12a035e6a398a07e84b15372ef447">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_EraseAtIter</a> (<a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this, const <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *position)</td></tr>
+<tr class="separator:a62c12a035e6a398a07e84b15372ef447"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a793a50b7371b52782efcf8000a879ed5" id="r_a793a50b7371b52782efcf8000a879ed5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a793a50b7371b52782efcf8000a879ed5">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Begin</a> (const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this)</td></tr>
+<tr class="separator:a793a50b7371b52782efcf8000a879ed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacb73776be572b2f424f09f5fc1c5421" id="r_aacb73776be572b2f424f09f5fc1c5421"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacb73776be572b2f424f09f5fc1c5421">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_IsBegin</a> (const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this, const <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *iter)</td></tr>
+<tr class="separator:aacb73776be572b2f424f09f5fc1c5421"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a6ae35ca168f39f789827af018293d5" id="r_a4a6ae35ca168f39f789827af018293d5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a6ae35ca168f39f789827af018293d5">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_MutableBegin</a> (<a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this)</td></tr>
+<tr class="separator:a4a6ae35ca168f39f789827af018293d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d0c214985c7db956b84e4d3574fdc38" id="r_a6d0c214985c7db956b84e4d3574fdc38"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d0c214985c7db956b84e4d3574fdc38">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_IsMutableBegin</a> (<a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this, const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *iter)</td></tr>
+<tr class="separator:a6d0c214985c7db956b84e4d3574fdc38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a477ed089f46ad97b6fec289ee7f921cf" id="r_a477ed089f46ad97b6fec289ee7f921cf"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a477ed089f46ad97b6fec289ee7f921cf">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_End</a> (const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this)</td></tr>
+<tr class="separator:a477ed089f46ad97b6fec289ee7f921cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a916b3e7f92b6878883164ef73f590c01" id="r_a916b3e7f92b6878883164ef73f590c01"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a916b3e7f92b6878883164ef73f590c01">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_IsEnd</a> (const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this, const <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *iter)</td></tr>
+<tr class="separator:a916b3e7f92b6878883164ef73f590c01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d24f3d28f247c34f1c536addfcb8dae" id="r_a1d24f3d28f247c34f1c536addfcb8dae"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d24f3d28f247c34f1c536addfcb8dae">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_MutableEnd</a> (<a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this)</td></tr>
+<tr class="separator:a1d24f3d28f247c34f1c536addfcb8dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca72e4a1de51612b8e63d4cf74b758b1" id="r_aca72e4a1de51612b8e63d4cf74b758b1"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca72e4a1de51612b8e63d4cf74b758b1">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_IsMutableEnd</a> (<a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this, const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *iter)</td></tr>
+<tr class="separator:aca72e4a1de51612b8e63d4cf74b758b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aade610e588732dbbbd7691102652f523" id="r_aade610e588732dbbbd7691102652f523"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aade610e588732dbbbd7691102652f523">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_ToIndex</a> (const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this, const <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *iter)</td></tr>
+<tr class="separator:aade610e588732dbbbd7691102652f523"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8be0076c5b46083ba48e0027555b0920" id="r_a8be0076c5b46083ba48e0027555b0920"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8be0076c5b46083ba48e0027555b0920">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_MutableToIndex</a> (const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *_this, const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *iter)</td></tr>
+<tr class="separator:a8be0076c5b46083ba48e0027555b0920"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bd7f1c98f579e2799382f5727e94348" id="r_a6bd7f1c98f579e2799382f5727e94348"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bd7f1c98f579e2799382f5727e94348">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a6bd7f1c98f579e2799382f5727e94348"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd2aa66ea3990896a1b3f07e8acb8e8c" id="r_afd2aa66ea3990896a1b3f07e8acb8e8c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd2aa66ea3990896a1b3f07e8acb8e8c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:afd2aa66ea3990896a1b3f07e8acb8e8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20ac008bba38bc612ebbf980eba3d297" id="r_a20ac008bba38bc612ebbf980eba3d297"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20ac008bba38bc612ebbf980eba3d297">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_ConstructFromAnother</a> (const <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *other)</td></tr>
+<tr class="separator:a20ac008bba38bc612ebbf980eba3d297"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47ef5b56c6d05257c2f27b9d26eb61b2" id="r_a47ef5b56c6d05257c2f27b9d26eb61b2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47ef5b56c6d05257c2f27b9d26eb61b2">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_AssignFromAnother</a> (<a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *_this, const <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *other)</td></tr>
+<tr class="separator:a47ef5b56c6d05257c2f27b9d26eb61b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1da3560aa9abde1fdde65b6a0c51544a" id="r_a1da3560aa9abde1fdde65b6a0c51544a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1da3560aa9abde1fdde65b6a0c51544a">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_Destroy</a> (const <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a1da3560aa9abde1fdde65b6a0c51544a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a1da3560aa9abde1fdde65b6a0c51544a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c0acf79c467d30bdb33f28c5d1d979a" id="r_a9c0acf79c467d30bdb33f28c5d1d979a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c0acf79c467d30bdb33f28c5d1d979a">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_DestroyArray</a> (const <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a9c0acf79c467d30bdb33f28c5d1d979a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a9c0acf79c467d30bdb33f28c5d1d979a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ea10d7107ca8ec7b6147f889e15c1fb" id="r_a8ea10d7107ca8ec7b6147f889e15c1fb"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ea10d7107ca8ec7b6147f889e15c1fb">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_OffsetPtr</a> (const <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a8ea10d7107ca8ec7b6147f889e15c1fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a8ea10d7107ca8ec7b6147f889e15c1fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaae97ddf9c0ef1a4fd2cd870f7e591e8" id="r_aaae97ddf9c0ef1a4fd2cd870f7e591e8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaae97ddf9c0ef1a4fd2cd870f7e591e8">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_OffsetMutablePtr</a> (<a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:aaae97ddf9c0ef1a4fd2cd870f7e591e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:aaae97ddf9c0ef1a4fd2cd870f7e591e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0905daaa70e356d93c3166e010a4f053" id="r_a0905daaa70e356d93c3166e010a4f053"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0905daaa70e356d93c3166e010a4f053">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_FromMutable</a> (const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *iter)</td></tr>
+<tr class="separator:a0905daaa70e356d93c3166e010a4f053"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a905816268b0709cec0dceec9436424e5" id="r_a905816268b0709cec0dceec9436424e5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a905816268b0709cec0dceec9436424e5">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a905816268b0709cec0dceec9436424e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7150a0b5538d31b2aaeb32ba5c68151" id="r_ab7150a0b5538d31b2aaeb32ba5c68151"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7150a0b5538d31b2aaeb32ba5c68151">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ab7150a0b5538d31b2aaeb32ba5c68151"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0987cf3fe0f8c8c0dde30d87016d8e21" id="r_a0987cf3fe0f8c8c0dde30d87016d8e21"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0987cf3fe0f8c8c0dde30d87016d8e21">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_ConstructFromAnother</a> (const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *other)</td></tr>
+<tr class="separator:a0987cf3fe0f8c8c0dde30d87016d8e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53848ca0deffed3199e7cc992123ee00" id="r_a53848ca0deffed3199e7cc992123ee00"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53848ca0deffed3199e7cc992123ee00">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_AssignFromAnother</a> (<a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *_this, const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *other)</td></tr>
+<tr class="separator:a53848ca0deffed3199e7cc992123ee00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adae39ea5a6c8433e47dfe93e09dceaca" id="r_adae39ea5a6c8433e47dfe93e09dceaca"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adae39ea5a6c8433e47dfe93e09dceaca">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_Destroy</a> (const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *_this)</td></tr>
+<tr class="memdesc:adae39ea5a6c8433e47dfe93e09dceaca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:adae39ea5a6c8433e47dfe93e09dceaca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a501be351ac9f812657676d2fcb759a3b" id="r_a501be351ac9f812657676d2fcb759a3b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a501be351ac9f812657676d2fcb759a3b">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_DestroyArray</a> (const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a501be351ac9f812657676d2fcb759a3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a501be351ac9f812657676d2fcb759a3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a291c20bb862693f91e41dfe004f7a91c" id="r_a291c20bb862693f91e41dfe004f7a91c"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a291c20bb862693f91e41dfe004f7a91c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_OffsetPtr</a> (const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a291c20bb862693f91e41dfe004f7a91c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a291c20bb862693f91e41dfe004f7a91c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4270fdf1fc72007a198b87d534b6f8a4" id="r_a4270fdf1fc72007a198b87d534b6f8a4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4270fdf1fc72007a198b87d534b6f8a4">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_OffsetMutablePtr</a> (<a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a4270fdf1fc72007a198b87d534b6f8a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a4270fdf1fc72007a198b87d534b6f8a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a971d89b17ea9d4d7f2587f23c35c9753" id="r_a971d89b17ea9d4d7f2587f23c35c9753"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a971d89b17ea9d4d7f2587f23c35c9753">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_Deref</a> (const <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *_this)</td></tr>
+<tr class="separator:a971d89b17ea9d4d7f2587f23c35c9753"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff2f63b3275dd183b7301fdb06360943" id="r_aff2f63b3275dd183b7301fdb06360943"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff2f63b3275dd183b7301fdb06360943">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_Incr</a> (<a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *_this)</td></tr>
+<tr class="separator:aff2f63b3275dd183b7301fdb06360943"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc9fd566e1ac62fbfdefead6d0adf1be" id="r_adc9fd566e1ac62fbfdefead6d0adf1be"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc9fd566e1ac62fbfdefead6d0adf1be">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_Decr</a> (<a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *_this)</td></tr>
+<tr class="separator:adc9fd566e1ac62fbfdefead6d0adf1be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03347462d7c3c6f6f5430317e39f8602" id="r_a03347462d7c3c6f6f5430317e39f8602"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03347462d7c3c6f6f5430317e39f8602">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_OffsetBy</a> (<a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *_this, ptrdiff_t delta)</td></tr>
+<tr class="separator:a03347462d7c3c6f6f5430317e39f8602"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a291d851bbc925e71de692ecd4e809d9b" id="r_a291d851bbc925e71de692ecd4e809d9b"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a291d851bbc925e71de692ecd4e809d9b">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_Distance</a> (const <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *a, const <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *b)</td></tr>
+<tr class="separator:a291d851bbc925e71de692ecd4e809d9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa972829ede57c31c8bc2d57c6daa631f" id="r_aa972829ede57c31c8bc2d57c6daa631f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa972829ede57c31c8bc2d57c6daa631f">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_Deref</a> (const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *_this)</td></tr>
+<tr class="separator:aa972829ede57c31c8bc2d57c6daa631f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa654dd99e1af827f500f9ce7ecd560a5" id="r_aa654dd99e1af827f500f9ce7ecd560a5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa654dd99e1af827f500f9ce7ecd560a5">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_Incr</a> (<a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *_this)</td></tr>
+<tr class="separator:aa654dd99e1af827f500f9ce7ecd560a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad62b3f54df6f290ea1932f61550bd805" id="r_ad62b3f54df6f290ea1932f61550bd805"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad62b3f54df6f290ea1932f61550bd805">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_Decr</a> (<a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *_this)</td></tr>
+<tr class="separator:ad62b3f54df6f290ea1932f61550bd805"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16da2cf61683b137acc0fc8ad36eed6d" id="r_a16da2cf61683b137acc0fc8ad36eed6d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16da2cf61683b137acc0fc8ad36eed6d">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_OffsetBy</a> (<a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *_this, ptrdiff_t delta)</td></tr>
+<tr class="separator:a16da2cf61683b137acc0fc8ad36eed6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cb40910937f9c66ec9eaef8bcd155f5" id="r_a8cb40910937f9c66ec9eaef8bcd155f5"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cb40910937f9c66ec9eaef8bcd155f5">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_Distance</a> (const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *a, const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *b)</td></tr>
+<tr class="separator:a8cb40910937f9c66ec9eaef8bcd155f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="abf73071fe06d383693ea376448200cf3" name="abf73071fe06d383693ea376448200cf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf73071fe06d383693ea376448200cf3">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from C++ container <code>std::vector&lt;<a class="elRef" href="../Cpp/structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region.html">MR::WeightedShell::ParametersRegions::Region</a>&gt;</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a9aee9943d2fe5ff4e55a04cf94baee4c" name="a9aee9943d2fe5ff4e55a04cf94baee4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9aee9943d2fe5ff4e55a04cf94baee4c">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Read-only iterator for <code>MR_std_vector_MR_WeightedShell_ParametersRegions_Region</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a0337bbed6c6240e1d3ba9532c76502ab" name="a0337bbed6c6240e1d3ba9532c76502ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0337bbed6c6240e1d3ba9532c76502ab">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Mutable iterator for <code>MR_std_vector_MR_WeightedShell_ParametersRegions_Region</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a0c8fa266835b87106cadd3fa5cede1b1" name="a0c8fa266835b87106cadd3fa5cede1b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c8fa266835b87106cadd3fa5cede1b1">&#9670;&#160;</a></span>MR_WeightedShell_ParametersRegions_Region</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a> <a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a43c425178eda9ac2ff354ba0b4286386" name="a43c425178eda9ac2ff354ba0b4286386"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43c425178eda9ac2ff354ba0b4286386">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WeightedShell_ParametersRegions_Region_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ab5caaa62ffac5c5dc8558c8137714010" name="ab5caaa62ffac5c5dc8558c8137714010"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5caaa62ffac5c5dc8558c8137714010">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_At()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a> * MR_std_vector_MR_WeightedShell_ParametersRegions_Region_At </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, read-only. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a4a265af80c0e9880553b453795fe9144" name="a4a265af80c0e9880553b453795fe9144"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a265af80c0e9880553b453795fe9144">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a> * MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Back </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The last element or null if empty, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a793a50b7371b52782efcf8000a879ed5" name="a793a50b7371b52782efcf8000a879ed5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a793a50b7371b52782efcf8000a879ed5">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> * MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Begin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1da3560aa9abde1fdde65b6a0c51544a" title="Destroys a heap-allocated instance of MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_i...">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a1ec48228deff0e69b6c2c0fadadc2e0b" name="a1ec48228deff0e69b6c2c0fadadc2e0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ec48228deff0e69b6c2c0fadadc2e0b">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Capacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Capacity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The memory capacity, measued in the number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ab400f3c56649da6b9d4c6853240ca051" name="ab400f3c56649da6b9d4c6853240ca051"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab400f3c56649da6b9d4c6853240ca051">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Clear </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes all elements from the container. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a47ef5b56c6d05257c2f27b9d26eb61b2" name="a47ef5b56c6d05257c2f27b9d26eb61b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47ef5b56c6d05257c2f27b9d26eb61b2">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a20ac008bba38bc612ebbf980eba3d297" name="a20ac008bba38bc612ebbf980eba3d297"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20ac008bba38bc612ebbf980eba3d297">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> * MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1da3560aa9abde1fdde65b6a0c51544a" title="Destroys a heap-allocated instance of MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_i...">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="adc9fd566e1ac62fbfdefead6d0adf1be" name="adc9fd566e1ac62fbfdefead6d0adf1be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc9fd566e1ac62fbfdefead6d0adf1be">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_Decr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_Decr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decrements a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6bd7f1c98f579e2799382f5727e94348" name="a6bd7f1c98f579e2799382f5727e94348"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bd7f1c98f579e2799382f5727e94348">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> * MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1da3560aa9abde1fdde65b6a0c51544a" title="Destroys a heap-allocated instance of MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_i...">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="afd2aa66ea3990896a1b3f07e8acb8e8c" name="afd2aa66ea3990896a1b3f07e8acb8e8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd2aa66ea3990896a1b3f07e8acb8e8c">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> * MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a9c0acf79c467d30bdb33f28c5d1d979a" title="Destroys a heap-allocated array of MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iter...">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#aaae97ddf9c0ef1a4fd2cd870f7e591e8" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a8ea10d7107ca8ec7b6147f889e15c1fb" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a971d89b17ea9d4d7f2587f23c35c9753" name="a971d89b17ea9d4d7f2587f23c35c9753"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a971d89b17ea9d4d7f2587f23c35c9753">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_Deref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a> * MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_Deref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a const iterator. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a1da3560aa9abde1fdde65b6a0c51544a" name="a1da3560aa9abde1fdde65b6a0c51544a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1da3560aa9abde1fdde65b6a0c51544a">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a9c0acf79c467d30bdb33f28c5d1d979a" name="a9c0acf79c467d30bdb33f28c5d1d979a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c0acf79c467d30bdb33f28c5d1d979a">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a291d851bbc925e71de692ecd4e809d9b" name="a291d851bbc925e71de692ecd4e809d9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a291d851bbc925e71de692ecd4e809d9b">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the signed difference between two const iterators. Completes in constant time. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a0905daaa70e356d93c3166e010a4f053" name="a0905daaa70e356d93c3166e010a4f053"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0905daaa70e356d93c3166e010a4f053">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_FromMutable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> * MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_FromMutable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Makes a const iterator from a mutable one. Parameter <code>iter</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1da3560aa9abde1fdde65b6a0c51544a" title="Destroys a heap-allocated instance of MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_i...">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aff2f63b3275dd183b7301fdb06360943" name="aff2f63b3275dd183b7301fdb06360943"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff2f63b3275dd183b7301fdb06360943">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a03347462d7c3c6f6f5430317e39f8602" name="a03347462d7c3c6f6f5430317e39f8602"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03347462d7c3c6f6f5430317e39f8602">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_OffsetBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_OffsetBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aaae97ddf9c0ef1a4fd2cd870f7e591e8" name="aaae97ddf9c0ef1a4fd2cd870f7e591e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaae97ddf9c0ef1a4fd2cd870f7e591e8">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> * MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a8ea10d7107ca8ec7b6147f889e15c1fb" name="a8ea10d7107ca8ec7b6147f889e15c1fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ea10d7107ca8ec7b6147f889e15c1fb">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> * MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ac8c4eb65203730d60031a2b155bf635c" name="ac8c4eb65203730d60031a2b155bf635c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8c4eb65203730d60031a2b155bf635c">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> * MR_std_vector_MR_WeightedShell_ParametersRegions_Region_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a14ddba2a68db060da9c87837b5f3192d" title="Destroys a heap-allocated instance of MR_std_vector_MR_WeightedShell_ParametersRegions_Region....">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ac9b7c8209ada7b2cce566cf7271f2165" name="ac9b7c8209ada7b2cce566cf7271f2165"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9b7c8209ada7b2cce566cf7271f2165">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> * MR_std_vector_MR_WeightedShell_ParametersRegions_Region_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a14ddba2a68db060da9c87837b5f3192d" title="Destroys a heap-allocated instance of MR_std_vector_MR_WeightedShell_ParametersRegions_Region....">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a964966d3a73fb90ce303ccf0d7a99869" name="a964966d3a73fb90ce303ccf0d7a99869"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a964966d3a73fb90ce303ccf0d7a99869">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> * MR_std_vector_MR_WeightedShell_ParametersRegions_Region_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#aeb08f74034bc2367d5cf068d7a2ae5c0" title="Destroys a heap-allocated array of MR_std_vector_MR_WeightedShell_ParametersRegions_Region....">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_DestroyArray()</a></code>. Use <code><a class="el" href="#a41675a2327193190828e219e79438084" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a290104be3f720b78dbff0aa27488eecd" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a14ddba2a68db060da9c87837b5f3192d" name="a14ddba2a68db060da9c87837b5f3192d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14ddba2a68db060da9c87837b5f3192d">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_WeightedShell_ParametersRegions_Region</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aeb08f74034bc2367d5cf068d7a2ae5c0" name="aeb08f74034bc2367d5cf068d7a2ae5c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb08f74034bc2367d5cf068d7a2ae5c0">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WeightedShell_ParametersRegions_Region_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_WeightedShell_ParametersRegions_Region</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a477ed089f46ad97b6fec289ee7f921cf" name="a477ed089f46ad97b6fec289ee7f921cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a477ed089f46ad97b6fec289ee7f921cf">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_End()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> * MR_std_vector_MR_WeightedShell_ParametersRegions_Region_End </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1da3560aa9abde1fdde65b6a0c51544a" title="Destroys a heap-allocated instance of MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_i...">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="acc22995d33111166b445f0cc106a2b69" name="acc22995d33111166b445f0cc106a2b69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc22995d33111166b445f0cc106a2b69">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Erase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Erase </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a62c12a035e6a398a07e84b15372ef447" name="a62c12a035e6a398a07e84b15372ef447"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62c12a035e6a398a07e84b15372ef447">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_EraseAtIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WeightedShell_ParametersRegions_Region_EraseAtIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. This version takes the position in form of a const iterator, that's the only difference. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a50aad3de7abacd0ab5f64f7c03dc4cc8" name="a50aad3de7abacd0ab5f64f7c03dc4cc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50aad3de7abacd0ab5f64f7c03dc4cc8">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_EraseAtMutableIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WeightedShell_ParametersRegions_Region_EraseAtMutableIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aba0e51b5e9b67099f0f7fcdb08f48e73" name="aba0e51b5e9b67099f0f7fcdb08f48e73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba0e51b5e9b67099f0f7fcdb08f48e73">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Front()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a> * MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Front </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The first element or null if empty, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a53f6977a1ec5298996a5018022212e12" name="a53f6977a1ec5298996a5018022212e12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53f6977a1ec5298996a5018022212e12">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Insert </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>new_elem_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae402ec17f2167a9e536ce4965c900247" name="ae402ec17f2167a9e536ce4965c900247"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae402ec17f2167a9e536ce4965c900247">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_InsertAtIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WeightedShell_ParametersRegions_Region_InsertAtIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>new_elem_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that's the only difference. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="accfc95e7a56807d235df9268e666b518" name="accfc95e7a56807d235df9268e666b518"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accfc95e7a56807d235df9268e666b518">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_InsertAtMutableIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WeightedShell_ParametersRegions_Region_InsertAtMutableIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>new_elem_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aacb73776be572b2f424f09f5fc1c5421" name="aacb73776be572b2f424f09f5fc1c5421"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacb73776be572b2f424f09f5fc1c5421">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_IsBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_WeightedShell_ParametersRegions_Region_IsBegin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a98a9d56ff976779410543302dea405c2" name="a98a9d56ff976779410543302dea405c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98a9d56ff976779410543302dea405c2">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_IsEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_WeightedShell_ParametersRegions_Region_IsEmpty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns true if the size is zero. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a916b3e7f92b6878883164ef73f590c01" name="a916b3e7f92b6878883164ef73f590c01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a916b3e7f92b6878883164ef73f590c01">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_IsEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_WeightedShell_ParametersRegions_Region_IsEnd </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6d0c214985c7db956b84e4d3574fdc38" name="a6d0c214985c7db956b84e4d3574fdc38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d0c214985c7db956b84e4d3574fdc38">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_IsMutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_WeightedShell_ParametersRegions_Region_IsMutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aca72e4a1de51612b8e63d4cf74b758b1" name="aca72e4a1de51612b8e63d4cf74b758b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca72e4a1de51612b8e63d4cf74b758b1">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_IsMutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_WeightedShell_ParametersRegions_Region_IsMutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a53848ca0deffed3199e7cc992123ee00" name="a53848ca0deffed3199e7cc992123ee00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53848ca0deffed3199e7cc992123ee00">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a0987cf3fe0f8c8c0dde30d87016d8e21" name="a0987cf3fe0f8c8c0dde30d87016d8e21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0987cf3fe0f8c8c0dde30d87016d8e21">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> * MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adae39ea5a6c8433e47dfe93e09dceaca" title="Destroys a heap-allocated instance of MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterato...">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ad62b3f54df6f290ea1932f61550bd805" name="ad62b3f54df6f290ea1932f61550bd805"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad62b3f54df6f290ea1932f61550bd805">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_Decr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_Decr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decrements a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a905816268b0709cec0dceec9436424e5" name="a905816268b0709cec0dceec9436424e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a905816268b0709cec0dceec9436424e5">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> * MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adae39ea5a6c8433e47dfe93e09dceaca" title="Destroys a heap-allocated instance of MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterato...">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab7150a0b5538d31b2aaeb32ba5c68151" name="ab7150a0b5538d31b2aaeb32ba5c68151"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7150a0b5538d31b2aaeb32ba5c68151">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> * MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a501be351ac9f812657676d2fcb759a3b" title="Destroys a heap-allocated array of MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator....">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#a4270fdf1fc72007a198b87d534b6f8a4" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a291c20bb862693f91e41dfe004f7a91c" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="aa972829ede57c31c8bc2d57c6daa631f" name="aa972829ede57c31c8bc2d57c6daa631f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa972829ede57c31c8bc2d57c6daa631f">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_Deref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a> * MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_Deref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a mutable iterator. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="adae39ea5a6c8433e47dfe93e09dceaca" name="adae39ea5a6c8433e47dfe93e09dceaca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adae39ea5a6c8433e47dfe93e09dceaca">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a501be351ac9f812657676d2fcb759a3b" name="a501be351ac9f812657676d2fcb759a3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a501be351ac9f812657676d2fcb759a3b">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a8cb40910937f9c66ec9eaef8bcd155f5" name="a8cb40910937f9c66ec9eaef8bcd155f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cb40910937f9c66ec9eaef8bcd155f5">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa654dd99e1af827f500f9ce7ecd560a5" name="aa654dd99e1af827f500f9ce7ecd560a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa654dd99e1af827f500f9ce7ecd560a5">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a16da2cf61683b137acc0fc8ad36eed6d" name="a16da2cf61683b137acc0fc8ad36eed6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16da2cf61683b137acc0fc8ad36eed6d">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_OffsetBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_OffsetBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a4270fdf1fc72007a198b87d534b6f8a4" name="a4270fdf1fc72007a198b87d534b6f8a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4270fdf1fc72007a198b87d534b6f8a4">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> * MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a291c20bb862693f91e41dfe004f7a91c" name="a291c20bb862693f91e41dfe004f7a91c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a291c20bb862693f91e41dfe004f7a91c">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> * MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a7355d5da1d5e75f7e1a2158014d874cc" name="a7355d5da1d5e75f7e1a2158014d874cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7355d5da1d5e75f7e1a2158014d874cc">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_MutableAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a> * MR_std_vector_MR_WeightedShell_ParametersRegions_Region_MutableAt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, mutable. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a5c5d167d5b506cebee7deb1e669921d3" name="a5c5d167d5b506cebee7deb1e669921d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c5d167d5b506cebee7deb1e669921d3">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_MutableBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a> * MR_std_vector_MR_WeightedShell_ParametersRegions_Region_MutableBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The last element or null if empty, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a4a6ae35ca168f39f789827af018293d5" name="a4a6ae35ca168f39f789827af018293d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a6ae35ca168f39f789827af018293d5">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_MutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> * MR_std_vector_MR_WeightedShell_ParametersRegions_Region_MutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adae39ea5a6c8433e47dfe93e09dceaca" title="Destroys a heap-allocated instance of MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterato...">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a1d24f3d28f247c34f1c536addfcb8dae" name="a1d24f3d28f247c34f1c536addfcb8dae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d24f3d28f247c34f1c536addfcb8dae">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_MutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> * MR_std_vector_MR_WeightedShell_ParametersRegions_Region_MutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adae39ea5a6c8433e47dfe93e09dceaca" title="Destroys a heap-allocated instance of MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterato...">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aa1b1063fcada4394422086d1964e7c0d" name="aa1b1063fcada4394422086d1964e7c0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1b1063fcada4394422086d1964e7c0d">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_MutableFront()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a> * MR_std_vector_MR_WeightedShell_ParametersRegions_Region_MutableFront </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The first element or null if empty, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a8be0076c5b46083ba48e0027555b0920" name="a8be0076c5b46083ba48e0027555b0920"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8be0076c5b46083ba48e0027555b0920">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_MutableToIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_WeightedShell_ParametersRegions_Region_MutableToIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a0337bbed6c6240e1d3ba9532c76502ab">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convert a mutable iterator to an index. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a41675a2327193190828e219e79438084" name="a41675a2327193190828e219e79438084"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41675a2327193190828e219e79438084">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> * MR_std_vector_MR_WeightedShell_ParametersRegions_Region_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a290104be3f720b78dbff0aa27488eecd" name="a290104be3f720b78dbff0aa27488eecd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a290104be3f720b78dbff0aa27488eecd">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> * MR_std_vector_MR_WeightedShell_ParametersRegions_Region_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a4dc3797144c3a9d8b9a92d967cf9f7df" name="a4dc3797144c3a9d8b9a92d967cf9f7df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dc3797144c3a9d8b9a92d967cf9f7df">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_PopBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WeightedShell_ParametersRegions_Region_PopBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes one element from the end. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a248c4a7a1500328e4963f7b11d32fde5" name="a248c4a7a1500328e4963f7b11d32fde5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a248c4a7a1500328e4963f7b11d32fde5">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_PushBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WeightedShell_ParametersRegions_Region_PushBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>new_elem_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element at the end. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aaf0774920cf7f8cf84fac45fe4a5e8d5" name="aaf0774920cf7f8cf84fac45fe4a5e8d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf0774920cf7f8cf84fac45fe4a5e8d5">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Reserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Reserve </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_capacity</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a8b019578c25dabf54581674f7ff2726c" name="a8b019578c25dabf54581674f7ff2726c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b019578c25dabf54581674f7ff2726c">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Resize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the container. The new elements if any are zeroed. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6c19ff1ddefa36ac37f5e002f3b70984" name="a6c19ff1ddefa36ac37f5e002f3b70984"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c19ff1ddefa36ac37f5e002f3b70984">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_ResizeWithDefaultValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WeightedShell_ParametersRegions_Region_ResizeWithDefaultValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a0c8fa266835b87106cadd3fa5cede1b1">MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the container. The new elements if any are set to the specified value. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a4c55a91bdca15778512d540bce52584a" name="a4c55a91bdca15778512d540bce52584a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c55a91bdca15778512d540bce52584a">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_ShrinkToFit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WeightedShell_ParametersRegions_Region_ShrinkToFit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Shrinks the capacity to match the size. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a9d2e8a04b00e35724b8e8a53df1a7d22" name="a9d2e8a04b00e35724b8e8a53df1a7d22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d2e8a04b00e35724b8e8a53df1a7d22">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Size </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aade610e588732dbbbd7691102652f523" name="aade610e588732dbbbd7691102652f523"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aade610e588732dbbbd7691102652f523">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_ToIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_WeightedShell_ParametersRegions_Region_ToIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#abf73071fe06d383693ea376448200cf3">MR_std_vector_MR_WeightedShell_ParametersRegions_Region</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a9aee9943d2fe5ff4e55a04cf94baee4c">MR_std_vector_MR_WeightedShell_ParametersRegions_Region_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convert a const iterator to an index. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_a57e8462869cab4a5203dede5869920d.html">MRCMisc</a></li><li class="navelem"><a class="el" href="std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html">std_vector_MR_WeightedShell_ParametersRegions_Region.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

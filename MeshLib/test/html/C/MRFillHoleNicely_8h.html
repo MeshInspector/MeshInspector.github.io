@@ -1,0 +1,1649 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRFillHoleNicely.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRFillHoleNicely_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRFillHoleNicely.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MREnums_8h_source.html">MRCMesh/MREnums.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
+</div>
+<p><a href="MRFillHoleNicely_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:aba7bc6ac732c34fd4721c543fa3445ea" id="r_aba7bc6ac732c34fd4721c543fa3445ea"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a></td></tr>
+<tr class="separator:aba7bc6ac732c34fd4721c543fa3445ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88c7503c40b624a577fda0eab1faa5fa" id="r_a88c7503c40b624a577fda0eab1faa5fa"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a></td></tr>
+<tr class="separator:a88c7503c40b624a577fda0eab1faa5fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac50ce209302ca1c9b23e6ea4dcfd3b4" id="r_aac50ce209302ca1c9b23e6ea4dcfd3b4"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aac50ce209302ca1c9b23e6ea4dcfd3b4">MR_FillHoleParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac50ce209302ca1c9b23e6ea4dcfd3b4">MR_FillHoleParams</a></td></tr>
+<tr class="separator:aac50ce209302ca1c9b23e6ea4dcfd3b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31b172f68efca6438544d56eb86d6f40" id="r_a31b172f68efca6438544d56eb86d6f40"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td></tr>
+<tr class="separator:a31b172f68efca6438544d56eb86d6f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7f59a6736b29701d7e619412b6e2890" id="r_ac7f59a6736b29701d7e619412b6e2890"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a></td></tr>
+<tr class="separator:ac7f59a6736b29701d7e619412b6e2890"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20dc7d636220f61a60c7ae92b8caa768" id="r_a20dc7d636220f61a60c7ae92b8caa768"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a></td></tr>
+<tr class="separator:a20dc7d636220f61a60c7ae92b8caa768"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae385080e7b7a68ff32f8d03ae2d70a7a" id="r_ae385080e7b7a68ff32f8d03ae2d70a7a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a></td></tr>
+<tr class="separator:ae385080e7b7a68ff32f8d03ae2d70a7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5406af15a4ce0b3061cd59f056e30578" id="r_a5406af15a4ce0b3061cd59f056e30578"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a5406af15a4ce0b3061cd59f056e30578">MR_std_function_bool_from_MR_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5406af15a4ce0b3061cd59f056e30578">MR_std_function_bool_from_MR_EdgeId</a></td></tr>
+<tr class="separator:a5406af15a4ce0b3061cd59f056e30578"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad023ae65e5f5b35808a42976d62d515e" id="r_ad023ae65e5f5b35808a42976d62d515e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a></td></tr>
+<tr class="separator:ad023ae65e5f5b35808a42976d62d515e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6720c1f4bfb8b7b2de8f2278c5a22ca4" id="r_a6720c1f4bfb8b7b2de8f2278c5a22ca4"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a></td></tr>
+<tr class="memdesc:a6720c1f4bfb8b7b2de8f2278c5a22ca4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code>.  <br /></td></tr>
+<tr class="separator:a6720c1f4bfb8b7b2de8f2278c5a22ca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a67b8cdb54298cf10acb5f0174b33c25c" id="r_a67b8cdb54298cf10acb5f0174b33c25c"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#aac50ce209302ca1c9b23e6ea4dcfd3b4">MR_FillHoleParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67b8cdb54298cf10acb5f0174b33c25c">MR_FillHoleNicelySettings_Get_triangulateParams</a> (const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:a67b8cdb54298cf10acb5f0174b33c25c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5e0296af47593f684980f691d80143c" id="r_ab5e0296af47593f684980f691d80143c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5e0296af47593f684980f691d80143c">MR_FillHoleNicelySettings_Set_triangulateParams</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#aac50ce209302ca1c9b23e6ea4dcfd3b4">MR_FillHoleParams</a> *value)</td></tr>
+<tr class="separator:ab5e0296af47593f684980f691d80143c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3411a95acb44ba899af394e71c242c2" id="r_ae3411a95acb44ba899af394e71c242c2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aac50ce209302ca1c9b23e6ea4dcfd3b4">MR_FillHoleParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3411a95acb44ba899af394e71c242c2">MR_FillHoleNicelySettings_GetMutable_triangulateParams</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:ae3411a95acb44ba899af394e71c242c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47e125ad8ba1ae4b38a139794b337b8f" id="r_a47e125ad8ba1ae4b38a139794b337b8f"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47e125ad8ba1ae4b38a139794b337b8f">MR_FillHoleNicelySettings_Get_triangulateOnly</a> (const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:a47e125ad8ba1ae4b38a139794b337b8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e29032ba5f70e6f74ee1ada98a7e6ff" id="r_a6e29032ba5f70e6f74ee1ada98a7e6ff"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e29032ba5f70e6f74ee1ada98a7e6ff">MR_FillHoleNicelySettings_Set_triangulateOnly</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this, bool value)</td></tr>
+<tr class="separator:a6e29032ba5f70e6f74ee1ada98a7e6ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace83f14ecda58bb62495b0a35e22ae02" id="r_ace83f14ecda58bb62495b0a35e22ae02"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace83f14ecda58bb62495b0a35e22ae02">MR_FillHoleNicelySettings_GetMutable_triangulateOnly</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:ace83f14ecda58bb62495b0a35e22ae02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73cc35e9c49fbdd839e081c8b1711e14" id="r_a73cc35e9c49fbdd839e081c8b1711e14"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73cc35e9c49fbdd839e081c8b1711e14">MR_FillHoleNicelySettings_Get_notFlippable</a> (const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:a73cc35e9c49fbdd839e081c8b1711e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af76a7088a7d350b03f93558647c13d2d" id="r_af76a7088a7d350b03f93558647c13d2d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af76a7088a7d350b03f93558647c13d2d">MR_FillHoleNicelySettings_Set_notFlippable</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *value)</td></tr>
+<tr class="separator:af76a7088a7d350b03f93558647c13d2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad21a761fb2430c5c604cc029eb51d7d2" id="r_ad21a761fb2430c5c604cc029eb51d7d2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad21a761fb2430c5c604cc029eb51d7d2">MR_FillHoleNicelySettings_GetMutable_notFlippable</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:ad21a761fb2430c5c604cc029eb51d7d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85d9130ff30e297da0c49d5f9c6e6e89" id="r_a85d9130ff30e297da0c49d5f9c6e6e89"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85d9130ff30e297da0c49d5f9c6e6e89">MR_FillHoleNicelySettings_Get_maxEdgeLen</a> (const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:a85d9130ff30e297da0c49d5f9c6e6e89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f3533f96f28e85cc90af55e1119e870" id="r_a6f3533f96f28e85cc90af55e1119e870"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f3533f96f28e85cc90af55e1119e870">MR_FillHoleNicelySettings_Set_maxEdgeLen</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this, float value)</td></tr>
+<tr class="separator:a6f3533f96f28e85cc90af55e1119e870"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8277e978d1e255195e6816a18aae4cba" id="r_a8277e978d1e255195e6816a18aae4cba"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8277e978d1e255195e6816a18aae4cba">MR_FillHoleNicelySettings_GetMutable_maxEdgeLen</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:a8277e978d1e255195e6816a18aae4cba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a511574833d66e313d7f40f33f4390131" id="r_a511574833d66e313d7f40f33f4390131"><td class="memItemLeft" align="right" valign="top">MRC_API const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a511574833d66e313d7f40f33f4390131">MR_FillHoleNicelySettings_Get_maxEdgeSplits</a> (const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:a511574833d66e313d7f40f33f4390131"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a747ac66c6e9c3ec03f9bedaebdb1360e" id="r_a747ac66c6e9c3ec03f9bedaebdb1360e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a747ac66c6e9c3ec03f9bedaebdb1360e">MR_FillHoleNicelySettings_Set_maxEdgeSplits</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this, int32_t value)</td></tr>
+<tr class="separator:a747ac66c6e9c3ec03f9bedaebdb1360e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c9e9ca26031786f7f1e4a7de2cfd5cf" id="r_a2c9e9ca26031786f7f1e4a7de2cfd5cf"><td class="memItemLeft" align="right" valign="top">MRC_API int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c9e9ca26031786f7f1e4a7de2cfd5cf">MR_FillHoleNicelySettings_GetMutable_maxEdgeSplits</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:a2c9e9ca26031786f7f1e4a7de2cfd5cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d79cce6011d3fe9ac407dbf6a2664ec" id="r_a2d79cce6011d3fe9ac407dbf6a2664ec"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d79cce6011d3fe9ac407dbf6a2664ec">MR_FillHoleNicelySettings_Get_maxAngleChangeAfterFlip</a> (const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:a2d79cce6011d3fe9ac407dbf6a2664ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab780e7084262ccef332749c15212b4b0" id="r_ab780e7084262ccef332749c15212b4b0"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab780e7084262ccef332749c15212b4b0">MR_FillHoleNicelySettings_Set_maxAngleChangeAfterFlip</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this, float value)</td></tr>
+<tr class="separator:ab780e7084262ccef332749c15212b4b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5636d4044f782e973aa5ccabb429c67" id="r_af5636d4044f782e973aa5ccabb429c67"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5636d4044f782e973aa5ccabb429c67">MR_FillHoleNicelySettings_GetMutable_maxAngleChangeAfterFlip</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:af5636d4044f782e973aa5ccabb429c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4542b5be7b62576ce607b2a4ec67ec07" id="r_a4542b5be7b62576ce607b2a4ec67ec07"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4542b5be7b62576ce607b2a4ec67ec07">MR_FillHoleNicelySettings_Get_smoothCurvature</a> (const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:a4542b5be7b62576ce607b2a4ec67ec07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade1dfd5344e3c131de5cccdc133eac84" id="r_ade1dfd5344e3c131de5cccdc133eac84"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade1dfd5344e3c131de5cccdc133eac84">MR_FillHoleNicelySettings_Set_smoothCurvature</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this, bool value)</td></tr>
+<tr class="separator:ade1dfd5344e3c131de5cccdc133eac84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ebb889372128db4eea0d994291fed9a" id="r_a9ebb889372128db4eea0d994291fed9a"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ebb889372128db4eea0d994291fed9a">MR_FillHoleNicelySettings_GetMutable_smoothCurvature</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:a9ebb889372128db4eea0d994291fed9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab376b5de5a3ca99d149f51bb62766621" id="r_ab376b5de5a3ca99d149f51bb62766621"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab376b5de5a3ca99d149f51bb62766621">MR_FillHoleNicelySettings_Get_naturalSmooth</a> (const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:ab376b5de5a3ca99d149f51bb62766621"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7720d85f43ee72f5327e78f14896b7b" id="r_ae7720d85f43ee72f5327e78f14896b7b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7720d85f43ee72f5327e78f14896b7b">MR_FillHoleNicelySettings_Set_naturalSmooth</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this, bool value)</td></tr>
+<tr class="separator:ae7720d85f43ee72f5327e78f14896b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83097cc5c3e7d3e22d4a86d175e9b603" id="r_a83097cc5c3e7d3e22d4a86d175e9b603"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83097cc5c3e7d3e22d4a86d175e9b603">MR_FillHoleNicelySettings_GetMutable_naturalSmooth</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:a83097cc5c3e7d3e22d4a86d175e9b603"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bd232dca7f6b7e889ea1c97c0f5ff0f" id="r_a8bd232dca7f6b7e889ea1c97c0f5ff0f"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a5406af15a4ce0b3061cd59f056e30578">MR_std_function_bool_from_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bd232dca7f6b7e889ea1c97c0f5ff0f">MR_FillHoleNicelySettings_Get_beforeEdgeSplit</a> (const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:a8bd232dca7f6b7e889ea1c97c0f5ff0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8f4519ad1a08c86c2cd3208e6260c66" id="r_ab8f4519ad1a08c86c2cd3208e6260c66"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8f4519ad1a08c86c2cd3208e6260c66">MR_FillHoleNicelySettings_Set_beforeEdgeSplit</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#a5406af15a4ce0b3061cd59f056e30578">MR_std_function_bool_from_MR_EdgeId</a> *value)</td></tr>
+<tr class="separator:ab8f4519ad1a08c86c2cd3208e6260c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acccc7b9c1a0910292080454a0fdf9f3f" id="r_acccc7b9c1a0910292080454a0fdf9f3f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a5406af15a4ce0b3061cd59f056e30578">MR_std_function_bool_from_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acccc7b9c1a0910292080454a0fdf9f3f">MR_FillHoleNicelySettings_GetMutable_beforeEdgeSplit</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:acccc7b9c1a0910292080454a0fdf9f3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa706c930fcb6434c9370774d8394ab5a" id="r_aa706c930fcb6434c9370774d8394ab5a"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa706c930fcb6434c9370774d8394ab5a">MR_FillHoleNicelySettings_Get_onEdgeSplit</a> (const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:aa706c930fcb6434c9370774d8394ab5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55b4c09c3aadf9d5ec55ae6ba9daad89" id="r_a55b4c09c3aadf9d5ec55ae6ba9daad89"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55b4c09c3aadf9d5ec55ae6ba9daad89">MR_FillHoleNicelySettings_Set_onEdgeSplit</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> *value)</td></tr>
+<tr class="separator:a55b4c09c3aadf9d5ec55ae6ba9daad89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88b27a6cbedcf5c84099b0f035b8b236" id="r_a88b27a6cbedcf5c84099b0f035b8b236"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88b27a6cbedcf5c84099b0f035b8b236">MR_FillHoleNicelySettings_GetMutable_onEdgeSplit</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:a88b27a6cbedcf5c84099b0f035b8b236"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab502877acc987c9cb004d827d95efcab" id="r_ab502877acc987c9cb004d827d95efcab"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MREnums_8h.html#ad60091f0e911ac8438795370c06332d0">MR_EdgeWeights</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab502877acc987c9cb004d827d95efcab">MR_FillHoleNicelySettings_Get_edgeWeights</a> (const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:ab502877acc987c9cb004d827d95efcab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bbbc82eabd00ed4dc7be4549871d170" id="r_a2bbbc82eabd00ed4dc7be4549871d170"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2bbbc82eabd00ed4dc7be4549871d170">MR_FillHoleNicelySettings_Set_edgeWeights</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this, <a class="el" href="MREnums_8h.html#ad60091f0e911ac8438795370c06332d0">MR_EdgeWeights</a> value)</td></tr>
+<tr class="separator:a2bbbc82eabd00ed4dc7be4549871d170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b9977f9b0fbdabdc9567494fe0b6f43" id="r_a3b9977f9b0fbdabdc9567494fe0b6f43"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MREnums_8h.html#ad60091f0e911ac8438795370c06332d0">MR_EdgeWeights</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b9977f9b0fbdabdc9567494fe0b6f43">MR_FillHoleNicelySettings_GetMutable_edgeWeights</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:a3b9977f9b0fbdabdc9567494fe0b6f43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6cce011c702d0b347a4b16c74c943b5" id="r_ab6cce011c702d0b347a4b16c74c943b5"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MREnums_8h.html#ac02c0b1fd3b3e73361c59b9dc3937abe">MR_VertexMass</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6cce011c702d0b347a4b16c74c943b5">MR_FillHoleNicelySettings_Get_vmass</a> (const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:ab6cce011c702d0b347a4b16c74c943b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1017085705f3746ceea800f6115676df" id="r_a1017085705f3746ceea800f6115676df"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1017085705f3746ceea800f6115676df">MR_FillHoleNicelySettings_Set_vmass</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this, <a class="el" href="MREnums_8h.html#ac02c0b1fd3b3e73361c59b9dc3937abe">MR_VertexMass</a> value)</td></tr>
+<tr class="separator:a1017085705f3746ceea800f6115676df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a082d311afe820f7b77307040f088692a" id="r_a082d311afe820f7b77307040f088692a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MREnums_8h.html#ac02c0b1fd3b3e73361c59b9dc3937abe">MR_VertexMass</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a082d311afe820f7b77307040f088692a">MR_FillHoleNicelySettings_GetMutable_vmass</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:a082d311afe820f7b77307040f088692a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad71fe9b08805bef53c4482aab7983497" id="r_ad71fe9b08805bef53c4482aab7983497"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad71fe9b08805bef53c4482aab7983497">MR_FillHoleNicelySettings_Get_uvCoords</a> (const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:ad71fe9b08805bef53c4482aab7983497"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf320b467ec84c08b4f015742baec14a" id="r_aaf320b467ec84c08b4f015742baec14a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf320b467ec84c08b4f015742baec14a">MR_FillHoleNicelySettings_Set_uvCoords</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this, <a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *value)</td></tr>
+<tr class="separator:aaf320b467ec84c08b4f015742baec14a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22a0d23ebd9ff4330fbf1281adf1ea92" id="r_a22a0d23ebd9ff4330fbf1281adf1ea92"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22a0d23ebd9ff4330fbf1281adf1ea92">MR_FillHoleNicelySettings_GetMutable_uvCoords</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:a22a0d23ebd9ff4330fbf1281adf1ea92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8f1f8d97cbe529a3b629caf783ea8b1" id="r_ad8f1f8d97cbe529a3b629caf783ea8b1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8f1f8d97cbe529a3b629caf783ea8b1">MR_FillHoleNicelySettings_Get_colorMap</a> (const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:ad8f1f8d97cbe529a3b629caf783ea8b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e0c5b3de60afa49fb2835c718969fa0" id="r_a8e0c5b3de60afa49fb2835c718969fa0"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e0c5b3de60afa49fb2835c718969fa0">MR_FillHoleNicelySettings_Set_colorMap</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this, <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *value)</td></tr>
+<tr class="separator:a8e0c5b3de60afa49fb2835c718969fa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd03f61925010b547468f8b9511878fc" id="r_acd03f61925010b547468f8b9511878fc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd03f61925010b547468f8b9511878fc">MR_FillHoleNicelySettings_GetMutable_colorMap</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:acd03f61925010b547468f8b9511878fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a005636c8fd17fd6c0e1341f445d03b18" id="r_a005636c8fd17fd6c0e1341f445d03b18"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a005636c8fd17fd6c0e1341f445d03b18">MR_FillHoleNicelySettings_Get_faceColors</a> (const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:a005636c8fd17fd6c0e1341f445d03b18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3f125756cf5182b9139a022db08844b" id="r_ab3f125756cf5182b9139a022db08844b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3f125756cf5182b9139a022db08844b">MR_FillHoleNicelySettings_Set_faceColors</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this, <a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> *value)</td></tr>
+<tr class="separator:ab3f125756cf5182b9139a022db08844b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d1f4d3ba6fca6a32def4eeb5d68a41d" id="r_a7d1f4d3ba6fca6a32def4eeb5d68a41d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d1f4d3ba6fca6a32def4eeb5d68a41d">MR_FillHoleNicelySettings_GetMutable_faceColors</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="separator:a7d1f4d3ba6fca6a32def4eeb5d68a41d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aede06964c8730d3f04ffd2f61ba4b3e4" id="r_aede06964c8730d3f04ffd2f61ba4b3e4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aede06964c8730d3f04ffd2f61ba4b3e4">MR_FillHoleNicelySettings_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:aede06964c8730d3f04ffd2f61ba4b3e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf23876b801472bf026e45287122fa22" id="r_aaf23876b801472bf026e45287122fa22"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf23876b801472bf026e45287122fa22">MR_FillHoleNicelySettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:aaf23876b801472bf026e45287122fa22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfe1afbc4df8af37ba58069bd0fbedb1" id="r_abfe1afbc4df8af37ba58069bd0fbedb1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfe1afbc4df8af37ba58069bd0fbedb1">MR_FillHoleNicelySettings_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> triangulateParams_pass_by, <a class="el" href="#aac50ce209302ca1c9b23e6ea4dcfd3b4">MR_FillHoleParams</a> *triangulateParams, bool triangulateOnly, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *notFlippable, float maxEdgeLen, int32_t maxEdgeSplits, float maxAngleChangeAfterFlip, bool smoothCurvature, bool naturalSmooth, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> beforeEdgeSplit_pass_by, <a class="el" href="#a5406af15a4ce0b3061cd59f056e30578">MR_std_function_bool_from_MR_EdgeId</a> *beforeEdgeSplit, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> onEdgeSplit_pass_by, <a class="el" href="#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> *onEdgeSplit, <a class="el" href="MREnums_8h.html#ad60091f0e911ac8438795370c06332d0">MR_EdgeWeights</a> edgeWeights, <a class="el" href="MREnums_8h.html#ac02c0b1fd3b3e73361c59b9dc3937abe">MR_VertexMass</a> vmass, <a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *uvCoords, <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *colorMap, <a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> *faceColors)</td></tr>
+<tr class="separator:abfe1afbc4df8af37ba58069bd0fbedb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9b7c1ec7f8e10521c6196b8a8722a95" id="r_af9b7c1ec7f8e10521c6196b8a8722a95"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9b7c1ec7f8e10521c6196b8a8722a95">MR_FillHoleNicelySettings_OffsetPtr</a> (const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:af9b7c1ec7f8e10521c6196b8a8722a95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:af9b7c1ec7f8e10521c6196b8a8722a95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa31cc67434c6833e73e60376463fc21e" id="r_aa31cc67434c6833e73e60376463fc21e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa31cc67434c6833e73e60376463fc21e">MR_FillHoleNicelySettings_OffsetMutablePtr</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:aa31cc67434c6833e73e60376463fc21e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:aa31cc67434c6833e73e60376463fc21e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4408c3477ba03690cc4e1535732a5e88" id="r_a4408c3477ba03690cc4e1535732a5e88"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4408c3477ba03690cc4e1535732a5e88">MR_FillHoleNicelySettings_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_other)</td></tr>
+<tr class="separator:a4408c3477ba03690cc4e1535732a5e88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67771281432dc871ebcd3d18bd7b1794" id="r_a67771281432dc871ebcd3d18bd7b1794"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67771281432dc871ebcd3d18bd7b1794">MR_FillHoleNicelySettings_Destroy</a> (const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="memdesc:a67771281432dc871ebcd3d18bd7b1794"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_FillHoleNicelySettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a67771281432dc871ebcd3d18bd7b1794"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9de48941a230f6e0031462d89600ebb1" id="r_a9de48941a230f6e0031462d89600ebb1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9de48941a230f6e0031462d89600ebb1">MR_FillHoleNicelySettings_DestroyArray</a> (const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this)</td></tr>
+<tr class="memdesc:a9de48941a230f6e0031462d89600ebb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_FillHoleNicelySettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a9de48941a230f6e0031462d89600ebb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49994e3b5782817eb1af33b628246d79" id="r_a49994e3b5782817eb1af33b628246d79"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49994e3b5782817eb1af33b628246d79">MR_FillHoleNicelySettings_AssignFromAnother</a> (<a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *_other)</td></tr>
+<tr class="separator:a49994e3b5782817eb1af33b628246d79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad4bf2948424d03f9069844d877608d7" id="r_aad4bf2948424d03f9069844d877608d7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad4bf2948424d03f9069844d877608d7">MR_fillHoleNicely</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> holeEdge, const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *settings)</td></tr>
+<tr class="separator:aad4bf2948424d03f9069844d877608d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="aba7bc6ac732c34fd4721c543fa3445ea" name="aba7bc6ac732c34fd4721c543fa3445ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba7bc6ac732c34fd4721c543fa3445ea">&#9670;&#160;</a></span>MR_FaceBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a88c7503c40b624a577fda0eab1faa5fa" name="a88c7503c40b624a577fda0eab1faa5fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88c7503c40b624a577fda0eab1faa5fa">&#9670;&#160;</a></span>MR_FaceColors</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> <a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6720c1f4bfb8b7b2de8f2278c5a22ca4" name="a6720c1f4bfb8b7b2de8f2278c5a22ca4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">&#9670;&#160;</a></span>MR_FillHoleNicelySettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code>. </p>
+
+</div>
+</div>
+<a id="aac50ce209302ca1c9b23e6ea4dcfd3b4" name="aac50ce209302ca1c9b23e6ea4dcfd3b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac50ce209302ca1c9b23e6ea4dcfd3b4">&#9670;&#160;</a></span>MR_FillHoleParams</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#aac50ce209302ca1c9b23e6ea4dcfd3b4">MR_FillHoleParams</a> <a class="el" href="#aac50ce209302ca1c9b23e6ea4dcfd3b4">MR_FillHoleParams</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a31b172f68efca6438544d56eb86d6f40" name="a31b172f68efca6438544d56eb86d6f40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31b172f68efca6438544d56eb86d6f40">&#9670;&#160;</a></span>MR_Mesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5406af15a4ce0b3061cd59f056e30578" name="a5406af15a4ce0b3061cd59f056e30578"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5406af15a4ce0b3061cd59f056e30578">&#9670;&#160;</a></span>MR_std_function_bool_from_MR_EdgeId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a5406af15a4ce0b3061cd59f056e30578">MR_std_function_bool_from_MR_EdgeId</a> <a class="el" href="#a5406af15a4ce0b3061cd59f056e30578">MR_std_function_bool_from_MR_EdgeId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad023ae65e5f5b35808a42976d62d515e" name="ad023ae65e5f5b35808a42976d62d515e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad023ae65e5f5b35808a42976d62d515e">&#9670;&#160;</a></span>MR_std_function_void_from_MR_EdgeId_MR_EdgeId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> <a class="el" href="#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7f59a6736b29701d7e619412b6e2890" name="ac7f59a6736b29701d7e619412b6e2890"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7f59a6736b29701d7e619412b6e2890">&#9670;&#160;</a></span>MR_UndirectedEdgeBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a20dc7d636220f61a60c7ae92b8caa768" name="a20dc7d636220f61a60c7ae92b8caa768"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20dc7d636220f61a60c7ae92b8caa768">&#9670;&#160;</a></span>MR_VertColors</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae385080e7b7a68ff32f8d03ae2d70a7a" name="ae385080e7b7a68ff32f8d03ae2d70a7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae385080e7b7a68ff32f8d03ae2d70a7a">&#9670;&#160;</a></span>MR_VertCoords2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> <a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="aad4bf2948424d03f9069844d877608d7" name="aad4bf2948424d03f9069844d877608d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad4bf2948424d03f9069844d877608d7">&#9670;&#160;</a></span>MR_fillHoleNicely()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> * MR_fillHoleNicely </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__EdgeId.html">MR_EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>holeEdge</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>fills a hole in mesh specified by one of its edge, optionally subdivides new patch on smaller triangles, optionally make smooth connection with existing triangles outside the hole </p><dl class="section return"><dt>Returns</dt><dd>triangles of the patch Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a336e1461bdc97f5a14465c6571e7f492">MR::fillHoleNicely</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>settings</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </dd></dl>
+
+</div>
+</div>
+<a id="a49994e3b5782817eb1af33b628246d79" name="a49994e3b5782817eb1af33b628246d79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49994e3b5782817eb1af33b628246d79">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> * MR_FillHoleNicelySettings_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="abfe1afbc4df8af37ba58069bd0fbedb1" name="abfe1afbc4df8af37ba58069bd0fbedb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfe1afbc4df8af37ba58069bd0fbedb1">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> * MR_FillHoleNicelySettings_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>triangulateParams_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aac50ce209302ca1c9b23e6ea4dcfd3b4">MR_FillHoleParams</a> *</td>          <td class="paramname"><span class="paramname"><em>triangulateParams</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>triangulateOnly</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>notFlippable</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxEdgeLen</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>maxEdgeSplits</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxAngleChangeAfterFlip</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>smoothCurvature</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>naturalSmooth</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>beforeEdgeSplit_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a5406af15a4ce0b3061cd59f056e30578">MR_std_function_bool_from_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>beforeEdgeSplit</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>onEdgeSplit_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>onEdgeSplit</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MREnums_8h.html#ad60091f0e911ac8438795370c06332d0">MR_EdgeWeights</a></td>          <td class="paramname"><span class="paramname"><em>edgeWeights</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MREnums_8h.html#ac02c0b1fd3b3e73361c59b9dc3937abe">MR_VertexMass</a></td>          <td class="paramname"><span class="paramname"><em>vmass</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *</td>          <td class="paramname"><span class="paramname"><em>uvCoords</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *</td>          <td class="paramname"><span class="paramname"><em>colorMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> *</td>          <td class="paramname"><span class="paramname"><em>faceColors</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a67771281432dc871ebcd3d18bd7b1794" title="Destroys a heap-allocated instance of MR_FillHoleNicelySettings. Does nothing if the pointer is null.">MR_FillHoleNicelySettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a4408c3477ba03690cc4e1535732a5e88" name="a4408c3477ba03690cc4e1535732a5e88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4408c3477ba03690cc4e1535732a5e88">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> * MR_FillHoleNicelySettings_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a67771281432dc871ebcd3d18bd7b1794" title="Destroys a heap-allocated instance of MR_FillHoleNicelySettings. Does nothing if the pointer is null.">MR_FillHoleNicelySettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aede06964c8730d3f04ffd2f61ba4b3e4" name="aede06964c8730d3f04ffd2f61ba4b3e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aede06964c8730d3f04ffd2f61ba4b3e4">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> * MR_FillHoleNicelySettings_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a67771281432dc871ebcd3d18bd7b1794" title="Destroys a heap-allocated instance of MR_FillHoleNicelySettings. Does nothing if the pointer is null.">MR_FillHoleNicelySettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aaf23876b801472bf026e45287122fa22" name="aaf23876b801472bf026e45287122fa22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf23876b801472bf026e45287122fa22">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> * MR_FillHoleNicelySettings_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a9de48941a230f6e0031462d89600ebb1" title="Destroys a heap-allocated array of MR_FillHoleNicelySettings. Does nothing if the pointer is null.">MR_FillHoleNicelySettings_DestroyArray()</a></code>. Use <code><a class="el" href="#aa31cc67434c6833e73e60376463fc21e" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_FillHoleNicelySettings_OffsetMutablePtr()</a></code> and <code><a class="el" href="#af9b7c1ec7f8e10521c6196b8a8722a95" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_FillHoleNicelySettings_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a67771281432dc871ebcd3d18bd7b1794" name="a67771281432dc871ebcd3d18bd7b1794"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67771281432dc871ebcd3d18bd7b1794">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FillHoleNicelySettings_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_FillHoleNicelySettings</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a9de48941a230f6e0031462d89600ebb1" name="a9de48941a230f6e0031462d89600ebb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9de48941a230f6e0031462d89600ebb1">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FillHoleNicelySettings_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_FillHoleNicelySettings</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a8bd232dca7f6b7e889ea1c97c0f5ff0f" name="a8bd232dca7f6b7e889ea1c97c0f5ff0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bd232dca7f6b7e889ea1c97c0f5ff0f">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Get_beforeEdgeSplit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a5406af15a4ce0b3061cd59f056e30578">MR_std_function_bool_from_MR_EdgeId</a> * MR_FillHoleNicelySettings_Get_beforeEdgeSplit </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>(If this is set) this function is called in subdivision each time edge (e) is going to split, if it returns false then this split will be skipped Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>beforeEdgeSplit</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ad8f1f8d97cbe529a3b629caf783ea8b1" name="ad8f1f8d97cbe529a3b629caf783ea8b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8f1f8d97cbe529a3b629caf783ea8b1">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Get_colorMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *const  * MR_FillHoleNicelySettings_Get_colorMap </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional colors of vertices; if provided then elements corresponding to new vertices will be added there Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>colorMap</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ab502877acc987c9cb004d827d95efcab" name="ab502877acc987c9cb004d827d95efcab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab502877acc987c9cb004d827d95efcab">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Get_edgeWeights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MREnums_8h.html#ad60091f0e911ac8438795370c06332d0">MR_EdgeWeights</a> * MR_FillHoleNicelySettings_Get_edgeWeights </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>edge weighting scheme for smoothCurvature mode Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>edgeWeights</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a005636c8fd17fd6c0e1341f445d03b18" name="a005636c8fd17fd6c0e1341f445d03b18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a005636c8fd17fd6c0e1341f445d03b18">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Get_faceColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> *const  * MR_FillHoleNicelySettings_Get_faceColors </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional colors of faces; if provided then elements corresponding to new faces will be added there Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>faceColors</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a2d79cce6011d3fe9ac407dbf6a2664ec" name="a2d79cce6011d3fe9ac407dbf6a2664ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d79cce6011d3fe9ac407dbf6a2664ec">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Get_maxAngleChangeAfterFlip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const float * MR_FillHoleNicelySettings_Get_maxAngleChangeAfterFlip </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>maxAngleChangeAfterFlip</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a85d9130ff30e297da0c49d5f9c6e6e89" name="a85d9130ff30e297da0c49d5f9c6e6e89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85d9130ff30e297da0c49d5f9c6e6e89">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Get_maxEdgeLen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const float * MR_FillHoleNicelySettings_Get_maxEdgeLen </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>maxEdgeLen</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a511574833d66e313d7f40f33f4390131" name="a511574833d66e313d7f40f33f4390131"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a511574833d66e313d7f40f33f4390131">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Get_maxEdgeSplits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const int32_t * MR_FillHoleNicelySettings_Get_maxEdgeSplits </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Maximum number of edge splits allowed during subdivision Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>maxEdgeSplits</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ab376b5de5a3ca99d149f51bb62766621" name="ab376b5de5a3ca99d149f51bb62766621"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab376b5de5a3ca99d149f51bb62766621">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Get_naturalSmooth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const bool * MR_FillHoleNicelySettings_Get_naturalSmooth </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Additionally smooth 3 layers of vertices near hole boundary both inside and outside of the hole Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>naturalSmooth</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a73cc35e9c49fbdd839e081c8b1711e14" name="a73cc35e9c49fbdd839e081c8b1711e14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73cc35e9c49fbdd839e081c8b1711e14">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Get_notFlippable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *const  * MR_FillHoleNicelySettings_Get_notFlippable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>in triangulateOnly = false mode, edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>notFlippable</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aa706c930fcb6434c9370774d8394ab5a" name="aa706c930fcb6434c9370774d8394ab5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa706c930fcb6434c9370774d8394ab5a">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Get_onEdgeSplit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> * MR_FillHoleNicelySettings_Get_onEdgeSplit </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>(If this is set) this function is called in subdivision each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>onEdgeSplit</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a4542b5be7b62576ce607b2a4ec67ec07" name="a4542b5be7b62576ce607b2a4ec67ec07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4542b5be7b62576ce607b2a4ec67ec07">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Get_smoothCurvature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const bool * MR_FillHoleNicelySettings_Get_smoothCurvature </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Whether to make patch over the hole smooth both inside and on its boundary with existed surface Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>smoothCurvature</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a47e125ad8ba1ae4b38a139794b337b8f" name="a47e125ad8ba1ae4b38a139794b337b8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47e125ad8ba1ae4b38a139794b337b8f">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Get_triangulateOnly()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const bool * MR_FillHoleNicelySettings_Get_triangulateOnly </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If false then additional vertices are created inside the patch for best mesh quality Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>triangulateOnly</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a67b8cdb54298cf10acb5f0174b33c25c" name="a67b8cdb54298cf10acb5f0174b33c25c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67b8cdb54298cf10acb5f0174b33c25c">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Get_triangulateParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#aac50ce209302ca1c9b23e6ea4dcfd3b4">MR_FillHoleParams</a> * MR_FillHoleNicelySettings_Get_triangulateParams </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>how to triangulate the hole, must be specified by the user Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>triangulateParams</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ad71fe9b08805bef53c4482aab7983497" name="ad71fe9b08805bef53c4482aab7983497"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad71fe9b08805bef53c4482aab7983497">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Get_uvCoords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *const  * MR_FillHoleNicelySettings_Get_uvCoords </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional uv-coordinates of vertices; if provided then elements corresponding to new vertices will be added there Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>uvCoords</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ab6cce011c702d0b347a4b16c74c943b5" name="ab6cce011c702d0b347a4b16c74c943b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6cce011c702d0b347a4b16c74c943b5">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Get_vmass()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MREnums_8h.html#ac02c0b1fd3b3e73361c59b9dc3937abe">MR_VertexMass</a> * MR_FillHoleNicelySettings_Get_vmass </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>vertex mass scheme for smoothCurvature mode Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>vmass</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="acccc7b9c1a0910292080454a0fdf9f3f" name="acccc7b9c1a0910292080454a0fdf9f3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acccc7b9c1a0910292080454a0fdf9f3f">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_GetMutable_beforeEdgeSplit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a5406af15a4ce0b3061cd59f056e30578">MR_std_function_bool_from_MR_EdgeId</a> * MR_FillHoleNicelySettings_GetMutable_beforeEdgeSplit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>(If this is set) this function is called in subdivision each time edge (e) is going to split, if it returns false then this split will be skipped Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>beforeEdgeSplit</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="acd03f61925010b547468f8b9511878fc" name="acd03f61925010b547468f8b9511878fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd03f61925010b547468f8b9511878fc">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_GetMutable_colorMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> ** MR_FillHoleNicelySettings_GetMutable_colorMap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional colors of vertices; if provided then elements corresponding to new vertices will be added there Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>colorMap</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a3b9977f9b0fbdabdc9567494fe0b6f43" name="a3b9977f9b0fbdabdc9567494fe0b6f43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b9977f9b0fbdabdc9567494fe0b6f43">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_GetMutable_edgeWeights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MREnums_8h.html#ad60091f0e911ac8438795370c06332d0">MR_EdgeWeights</a> * MR_FillHoleNicelySettings_GetMutable_edgeWeights </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>edge weighting scheme for smoothCurvature mode Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>edgeWeights</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a7d1f4d3ba6fca6a32def4eeb5d68a41d" name="a7d1f4d3ba6fca6a32def4eeb5d68a41d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d1f4d3ba6fca6a32def4eeb5d68a41d">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_GetMutable_faceColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> ** MR_FillHoleNicelySettings_GetMutable_faceColors </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional colors of faces; if provided then elements corresponding to new faces will be added there Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>faceColors</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="af5636d4044f782e973aa5ccabb429c67" name="af5636d4044f782e973aa5ccabb429c67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5636d4044f782e973aa5ccabb429c67">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_GetMutable_maxAngleChangeAfterFlip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float * MR_FillHoleNicelySettings_GetMutable_maxAngleChangeAfterFlip </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>maxAngleChangeAfterFlip</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a8277e978d1e255195e6816a18aae4cba" name="a8277e978d1e255195e6816a18aae4cba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8277e978d1e255195e6816a18aae4cba">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_GetMutable_maxEdgeLen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float * MR_FillHoleNicelySettings_GetMutable_maxEdgeLen </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>maxEdgeLen</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a2c9e9ca26031786f7f1e4a7de2cfd5cf" name="a2c9e9ca26031786f7f1e4a7de2cfd5cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c9e9ca26031786f7f1e4a7de2cfd5cf">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_GetMutable_maxEdgeSplits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API int32_t * MR_FillHoleNicelySettings_GetMutable_maxEdgeSplits </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Maximum number of edge splits allowed during subdivision Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>maxEdgeSplits</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a83097cc5c3e7d3e22d4a86d175e9b603" name="a83097cc5c3e7d3e22d4a86d175e9b603"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83097cc5c3e7d3e22d4a86d175e9b603">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_GetMutable_naturalSmooth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool * MR_FillHoleNicelySettings_GetMutable_naturalSmooth </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Additionally smooth 3 layers of vertices near hole boundary both inside and outside of the hole Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>naturalSmooth</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ad21a761fb2430c5c604cc029eb51d7d2" name="ad21a761fb2430c5c604cc029eb51d7d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad21a761fb2430c5c604cc029eb51d7d2">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_GetMutable_notFlippable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> ** MR_FillHoleNicelySettings_GetMutable_notFlippable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>in triangulateOnly = false mode, edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>notFlippable</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a88b27a6cbedcf5c84099b0f035b8b236" name="a88b27a6cbedcf5c84099b0f035b8b236"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88b27a6cbedcf5c84099b0f035b8b236">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_GetMutable_onEdgeSplit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> * MR_FillHoleNicelySettings_GetMutable_onEdgeSplit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>(If this is set) this function is called in subdivision each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>onEdgeSplit</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a9ebb889372128db4eea0d994291fed9a" name="a9ebb889372128db4eea0d994291fed9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ebb889372128db4eea0d994291fed9a">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_GetMutable_smoothCurvature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool * MR_FillHoleNicelySettings_GetMutable_smoothCurvature </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Whether to make patch over the hole smooth both inside and on its boundary with existed surface Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>smoothCurvature</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ace83f14ecda58bb62495b0a35e22ae02" name="ace83f14ecda58bb62495b0a35e22ae02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace83f14ecda58bb62495b0a35e22ae02">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_GetMutable_triangulateOnly()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool * MR_FillHoleNicelySettings_GetMutable_triangulateOnly </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If false then additional vertices are created inside the patch for best mesh quality Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>triangulateOnly</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ae3411a95acb44ba899af394e71c242c2" name="ae3411a95acb44ba899af394e71c242c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3411a95acb44ba899af394e71c242c2">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_GetMutable_triangulateParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aac50ce209302ca1c9b23e6ea4dcfd3b4">MR_FillHoleParams</a> * MR_FillHoleNicelySettings_GetMutable_triangulateParams </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>how to triangulate the hole, must be specified by the user Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>triangulateParams</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a22a0d23ebd9ff4330fbf1281adf1ea92" name="a22a0d23ebd9ff4330fbf1281adf1ea92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22a0d23ebd9ff4330fbf1281adf1ea92">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_GetMutable_uvCoords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> ** MR_FillHoleNicelySettings_GetMutable_uvCoords </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional uv-coordinates of vertices; if provided then elements corresponding to new vertices will be added there Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>uvCoords</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a082d311afe820f7b77307040f088692a" name="a082d311afe820f7b77307040f088692a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a082d311afe820f7b77307040f088692a">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_GetMutable_vmass()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MREnums_8h.html#ac02c0b1fd3b3e73361c59b9dc3937abe">MR_VertexMass</a> * MR_FillHoleNicelySettings_GetMutable_vmass </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>vertex mass scheme for smoothCurvature mode Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>vmass</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aa31cc67434c6833e73e60376463fc21e" name="aa31cc67434c6833e73e60376463fc21e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa31cc67434c6833e73e60376463fc21e">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> * MR_FillHoleNicelySettings_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="af9b7c1ec7f8e10521c6196b8a8722a95" name="af9b7c1ec7f8e10521c6196b8a8722a95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9b7c1ec7f8e10521c6196b8a8722a95">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> * MR_FillHoleNicelySettings_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ab8f4519ad1a08c86c2cd3208e6260c66" name="ab8f4519ad1a08c86c2cd3208e6260c66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8f4519ad1a08c86c2cd3208e6260c66">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Set_beforeEdgeSplit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FillHoleNicelySettings_Set_beforeEdgeSplit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a5406af15a4ce0b3061cd59f056e30578">MR_std_function_bool_from_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>(If this is set) this function is called in subdivision each time edge (e) is going to split, if it returns false then this split will be skipped Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>beforeEdgeSplit</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a8e0c5b3de60afa49fb2835c718969fa0" name="a8e0c5b3de60afa49fb2835c718969fa0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e0c5b3de60afa49fb2835c718969fa0">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Set_colorMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FillHoleNicelySettings_Set_colorMap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional colors of vertices; if provided then elements corresponding to new vertices will be added there Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>colorMap</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a2bbbc82eabd00ed4dc7be4549871d170" name="a2bbbc82eabd00ed4dc7be4549871d170"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bbbc82eabd00ed4dc7be4549871d170">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Set_edgeWeights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FillHoleNicelySettings_Set_edgeWeights </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MREnums_8h.html#ad60091f0e911ac8438795370c06332d0">MR_EdgeWeights</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>edge weighting scheme for smoothCurvature mode Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>edgeWeights</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ab3f125756cf5182b9139a022db08844b" name="ab3f125756cf5182b9139a022db08844b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3f125756cf5182b9139a022db08844b">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Set_faceColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FillHoleNicelySettings_Set_faceColors </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional colors of faces; if provided then elements corresponding to new faces will be added there Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>faceColors</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ab780e7084262ccef332749c15212b4b0" name="ab780e7084262ccef332749c15212b4b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab780e7084262ccef332749c15212b4b0">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Set_maxAngleChangeAfterFlip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FillHoleNicelySettings_Set_maxAngleChangeAfterFlip </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>maxAngleChangeAfterFlip</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6f3533f96f28e85cc90af55e1119e870" name="a6f3533f96f28e85cc90af55e1119e870"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f3533f96f28e85cc90af55e1119e870">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Set_maxEdgeLen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FillHoleNicelySettings_Set_maxEdgeLen </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>maxEdgeLen</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a747ac66c6e9c3ec03f9bedaebdb1360e" name="a747ac66c6e9c3ec03f9bedaebdb1360e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a747ac66c6e9c3ec03f9bedaebdb1360e">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Set_maxEdgeSplits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FillHoleNicelySettings_Set_maxEdgeSplits </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Maximum number of edge splits allowed during subdivision Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>maxEdgeSplits</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae7720d85f43ee72f5327e78f14896b7b" name="ae7720d85f43ee72f5327e78f14896b7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7720d85f43ee72f5327e78f14896b7b">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Set_naturalSmooth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FillHoleNicelySettings_Set_naturalSmooth </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Additionally smooth 3 layers of vertices near hole boundary both inside and outside of the hole Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>naturalSmooth</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="af76a7088a7d350b03f93558647c13d2d" name="af76a7088a7d350b03f93558647c13d2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af76a7088a7d350b03f93558647c13d2d">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Set_notFlippable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FillHoleNicelySettings_Set_notFlippable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>in triangulateOnly = false mode, edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>notFlippable</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a55b4c09c3aadf9d5ec55ae6ba9daad89" name="a55b4c09c3aadf9d5ec55ae6ba9daad89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55b4c09c3aadf9d5ec55ae6ba9daad89">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Set_onEdgeSplit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FillHoleNicelySettings_Set_onEdgeSplit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>(If this is set) this function is called in subdivision each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>onEdgeSplit</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ade1dfd5344e3c131de5cccdc133eac84" name="ade1dfd5344e3c131de5cccdc133eac84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade1dfd5344e3c131de5cccdc133eac84">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Set_smoothCurvature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FillHoleNicelySettings_Set_smoothCurvature </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Whether to make patch over the hole smooth both inside and on its boundary with existed surface Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>smoothCurvature</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6e29032ba5f70e6f74ee1ada98a7e6ff" name="a6e29032ba5f70e6f74ee1ada98a7e6ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e29032ba5f70e6f74ee1ada98a7e6ff">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Set_triangulateOnly()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FillHoleNicelySettings_Set_triangulateOnly </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If false then additional vertices are created inside the patch for best mesh quality Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>triangulateOnly</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ab5e0296af47593f684980f691d80143c" name="ab5e0296af47593f684980f691d80143c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5e0296af47593f684980f691d80143c">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Set_triangulateParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FillHoleNicelySettings_Set_triangulateParams </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aac50ce209302ca1c9b23e6ea4dcfd3b4">MR_FillHoleParams</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>how to triangulate the hole, must be specified by the user Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>triangulateParams</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aaf320b467ec84c08b4f015742baec14a" name="aaf320b467ec84c08b4f015742baec14a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf320b467ec84c08b4f015742baec14a">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Set_uvCoords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FillHoleNicelySettings_Set_uvCoords </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional uv-coordinates of vertices; if provided then elements corresponding to new vertices will be added there Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>uvCoords</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a1017085705f3746ceea800f6115676df" name="a1017085705f3746ceea800f6115676df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1017085705f3746ceea800f6115676df">&#9670;&#160;</a></span>MR_FillHoleNicelySettings_Set_vmass()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FillHoleNicelySettings_Set_vmass </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6720c1f4bfb8b7b2de8f2278c5a22ca4">MR_FillHoleNicelySettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MREnums_8h.html#ac02c0b1fd3b3e73361c59b9dc3937abe">MR_VertexMass</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>vertex mass scheme for smoothCurvature mode Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></code> named <code>vmass</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_8b489c7b5d1a72d35ec87e32cc37b940.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRFillHoleNicely_8h.html">MRFillHoleNicely.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,581 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.DividePolylineParameters Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1DividePolylineParameters.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1DividePolylineParameters-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.DividePolylineParameters Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a581662fd93c71c740d59f5823397f3b7" id="r_a581662fd93c71c740d59f5823397f3b7"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a581662fd93c71c740d59f5823397f3b7">__init__</a> (self)</td></tr>
+<tr class="separator:a581662fd93c71c740d59f5823397f3b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9b8a47bc4fde2a0e7c7834a70c5489e" id="r_ae9b8a47bc4fde2a0e7c7834a70c5489e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9b8a47bc4fde2a0e7c7834a70c5489e">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1DividePolylineParameters.html">DividePolylineParameters</a> arg0)</td></tr>
+<tr class="separator:ae9b8a47bc4fde2a0e7c7834a70c5489e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4716d2199d1d30afb02c6cacf51d510f" id="r_a4716d2199d1d30afb02c6cacf51d510f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4716d2199d1d30afb02c6cacf51d510f">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float.html">func_void_from_Id_EdgeTag_Id_EdgeTag_float</a> <a class="el" href="#a3dd0a83427afdd6a5433bd249ad0e0d7">onEdgeSplitCallback</a>, bool <a class="el" href="#a371c5e49a0e2a04f79bc5285b292bd6b">fillAfterCut</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertMap.html">VertMap</a> <a class="el" href="#a348d8d851ff1819cfc414b1878fa7980">outVmap</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeMap.html">EdgeMap</a> <a class="el" href="#a99ce2697bc15418b0254eb246fcffa6c">outEmap</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline3.html">Polyline3</a> <a class="el" href="#a0b7760a7166a268b1df3b10f02770805">otherPart</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertMap.html">VertMap</a> <a class="el" href="#a225e690042dc5f3c4df4ae5819110d5b">otherOutVmap</a>, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeMap.html">EdgeMap</a> <a class="el" href="#a7811d18cd2e4a57fd9050661322206e8">otherOutEmap</a>)</td></tr>
+<tr class="separator:a4716d2199d1d30afb02c6cacf51d510f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a371c5e49a0e2a04f79bc5285b292bd6b" id="r_a371c5e49a0e2a04f79bc5285b292bd6b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a371c5e49a0e2a04f79bc5285b292bd6b">fillAfterCut</a> (self)</td></tr>
+<tr class="separator:a371c5e49a0e2a04f79bc5285b292bd6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30e626c1507a047a00b3b3b9997b248b" id="r_a30e626c1507a047a00b3b3b9997b248b"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30e626c1507a047a00b3b3b9997b248b">fillAfterCut</a> (self, bool arg1)</td></tr>
+<tr class="separator:a30e626c1507a047a00b3b3b9997b248b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dd0a83427afdd6a5433bd249ad0e0d7" id="r_a3dd0a83427afdd6a5433bd249ad0e0d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float.html">func_void_from_Id_EdgeTag_Id_EdgeTag_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dd0a83427afdd6a5433bd249ad0e0d7">onEdgeSplitCallback</a> (self)</td></tr>
+<tr class="separator:a3dd0a83427afdd6a5433bd249ad0e0d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f424ed5254f071a578023bf933311ff" id="r_a0f424ed5254f071a578023bf933311ff"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f424ed5254f071a578023bf933311ff">onEdgeSplitCallback</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float.html">func_void_from_Id_EdgeTag_Id_EdgeTag_float</a> arg1)</td></tr>
+<tr class="separator:a0f424ed5254f071a578023bf933311ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7811d18cd2e4a57fd9050661322206e8" id="r_a7811d18cd2e4a57fd9050661322206e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeMap.html">EdgeMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7811d18cd2e4a57fd9050661322206e8">otherOutEmap</a> (self)</td></tr>
+<tr class="separator:a7811d18cd2e4a57fd9050661322206e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1092f9a904798419067089bb176541ec" id="r_a1092f9a904798419067089bb176541ec"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1092f9a904798419067089bb176541ec">otherOutEmap</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeMap.html">EdgeMap</a> arg1)</td></tr>
+<tr class="separator:a1092f9a904798419067089bb176541ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a225e690042dc5f3c4df4ae5819110d5b" id="r_a225e690042dc5f3c4df4ae5819110d5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertMap.html">VertMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a225e690042dc5f3c4df4ae5819110d5b">otherOutVmap</a> (self)</td></tr>
+<tr class="separator:a225e690042dc5f3c4df4ae5819110d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab33ca2f05180e8c4eca28d30297b5156" id="r_ab33ca2f05180e8c4eca28d30297b5156"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab33ca2f05180e8c4eca28d30297b5156">otherOutVmap</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertMap.html">VertMap</a> arg1)</td></tr>
+<tr class="separator:ab33ca2f05180e8c4eca28d30297b5156"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b7760a7166a268b1df3b10f02770805" id="r_a0b7760a7166a268b1df3b10f02770805"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline3.html">Polyline3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b7760a7166a268b1df3b10f02770805">otherPart</a> (self)</td></tr>
+<tr class="separator:a0b7760a7166a268b1df3b10f02770805"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a413730f269d57c63016eae9273f8ebdf" id="r_a413730f269d57c63016eae9273f8ebdf"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a413730f269d57c63016eae9273f8ebdf">otherPart</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline3.html">Polyline3</a> arg1)</td></tr>
+<tr class="separator:a413730f269d57c63016eae9273f8ebdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99ce2697bc15418b0254eb246fcffa6c" id="r_a99ce2697bc15418b0254eb246fcffa6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeMap.html">EdgeMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99ce2697bc15418b0254eb246fcffa6c">outEmap</a> (self)</td></tr>
+<tr class="separator:a99ce2697bc15418b0254eb246fcffa6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90095b847d9073c7639ddc8935b3ffc7" id="r_a90095b847d9073c7639ddc8935b3ffc7"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90095b847d9073c7639ddc8935b3ffc7">outEmap</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeMap.html">EdgeMap</a> arg1)</td></tr>
+<tr class="separator:a90095b847d9073c7639ddc8935b3ffc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a348d8d851ff1819cfc414b1878fa7980" id="r_a348d8d851ff1819cfc414b1878fa7980"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertMap.html">VertMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a348d8d851ff1819cfc414b1878fa7980">outVmap</a> (self)</td></tr>
+<tr class="separator:a348d8d851ff1819cfc414b1878fa7980"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefab81c3523ca843ac8ff11360e4bdc8" id="r_aefab81c3523ca843ac8ff11360e4bdc8"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefab81c3523ca843ac8ff11360e4bdc8">outVmap</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertMap.html">VertMap</a> arg1)</td></tr>
+<tr class="separator:aefab81c3523ca843ac8ff11360e4bdc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Generated from:  MR::DividePolylineParameters
+</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a581662fd93c71c740d59f5823397f3b7" name="a581662fd93c71c740d59f5823397f3b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a581662fd93c71c740d59f5823397f3b7">&#9670;&#160;</a></span>__init__() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.DividePolylineParameters.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit default constructor.
+</pre> 
+</div>
+</div>
+<a id="ae9b8a47bc4fde2a0e7c7834a70c5489e" name="ae9b8a47bc4fde2a0e7c7834a70c5489e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9b8a47bc4fde2a0e7c7834a70c5489e">&#9670;&#160;</a></span>__init__() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.DividePolylineParameters.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1DividePolylineParameters.html">DividePolylineParameters</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit copy constructor.
+</pre> 
+</div>
+</div>
+<a id="a4716d2199d1d30afb02c6cacf51d510f" name="a4716d2199d1d30afb02c6cacf51d510f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4716d2199d1d30afb02c6cacf51d510f">&#9670;&#160;</a></span>__init__() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.DividePolylineParameters.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float.html">func_void_from_Id_EdgeTag_Id_EdgeTag_float</a></td>          <td class="paramname"><span class="paramname"><em>onEdgeSplitCallback</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>fillAfterCut</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertMap.html">VertMap</a></td>          <td class="paramname"><span class="paramname"><em>outVmap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeMap.html">EdgeMap</a></td>          <td class="paramname"><span class="paramname"><em>outEmap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline3.html">Polyline3</a></td>          <td class="paramname"><span class="paramname"><em>otherPart</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertMap.html">VertMap</a></td>          <td class="paramname"><span class="paramname"><em>otherOutVmap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeMap.html">EdgeMap</a></td>          <td class="paramname"><span class="paramname"><em>otherOutEmap</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit aggregate constructor.
+</pre> 
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a371c5e49a0e2a04f79bc5285b292bd6b" name="a371c5e49a0e2a04f79bc5285b292bd6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a371c5e49a0e2a04f79bc5285b292bd6b">&#9670;&#160;</a></span>fillAfterCut() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.DividePolylineParameters.fillAfterCut </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">fillAfterCut if true, the ends of resulting polyline will be united with new edges
+</pre> 
+</div>
+</div>
+<a id="a30e626c1507a047a00b3b3b9997b248b" name="a30e626c1507a047a00b3b3b9997b248b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30e626c1507a047a00b3b3b9997b248b">&#9670;&#160;</a></span>fillAfterCut() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.DividePolylineParameters.fillAfterCut </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3dd0a83427afdd6a5433bd249ad0e0d7" name="a3dd0a83427afdd6a5433bd249ad0e0d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dd0a83427afdd6a5433bd249ad0e0d7">&#9670;&#160;</a></span>onEdgeSplitCallback() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float.html">func_void_from_Id_EdgeTag_Id_EdgeTag_float</a> meshlib.mrmeshpy.DividePolylineParameters.onEdgeSplitCallback </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">onEdgeSplitCallback is invoked each time when an edge is split. Receives edge ID before split, edge ID after split, and weight of the origin vertex
+</pre> 
+</div>
+</div>
+<a id="a0f424ed5254f071a578023bf933311ff" name="a0f424ed5254f071a578023bf933311ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f424ed5254f071a578023bf933311ff">&#9670;&#160;</a></span>onEdgeSplitCallback() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.DividePolylineParameters.onEdgeSplitCallback </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float.html">func_void_from_Id_EdgeTag_Id_EdgeTag_float</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7811d18cd2e4a57fd9050661322206e8" name="a7811d18cd2e4a57fd9050661322206e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7811d18cd2e4a57fd9050661322206e8">&#9670;&#160;</a></span>otherOutEmap() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeMap.html">EdgeMap</a> meshlib.mrmeshpy.DividePolylineParameters.otherOutEmap </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">map from input polyline edges to other output
+</pre> 
+</div>
+</div>
+<a id="a1092f9a904798419067089bb176541ec" name="a1092f9a904798419067089bb176541ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1092f9a904798419067089bb176541ec">&#9670;&#160;</a></span>otherOutEmap() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.DividePolylineParameters.otherOutEmap </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeMap.html">EdgeMap</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a225e690042dc5f3c4df4ae5819110d5b" name="a225e690042dc5f3c4df4ae5819110d5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a225e690042dc5f3c4df4ae5819110d5b">&#9670;&#160;</a></span>otherOutVmap() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertMap.html">VertMap</a> meshlib.mrmeshpy.DividePolylineParameters.otherOutVmap </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">map from input polyline verts to other output
+</pre> 
+</div>
+</div>
+<a id="ab33ca2f05180e8c4eca28d30297b5156" name="ab33ca2f05180e8c4eca28d30297b5156"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab33ca2f05180e8c4eca28d30297b5156">&#9670;&#160;</a></span>otherOutVmap() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.DividePolylineParameters.otherOutVmap </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertMap.html">VertMap</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0b7760a7166a268b1df3b10f02770805" name="a0b7760a7166a268b1df3b10f02770805"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b7760a7166a268b1df3b10f02770805">&#9670;&#160;</a></span>otherPart() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline3.html">Polyline3</a> meshlib.mrmeshpy.DividePolylineParameters.otherPart </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">otherPart Optional return, polyline composed from edges on the negative side of the plane
+</pre> 
+</div>
+</div>
+<a id="a413730f269d57c63016eae9273f8ebdf" name="a413730f269d57c63016eae9273f8ebdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a413730f269d57c63016eae9273f8ebdf">&#9670;&#160;</a></span>otherPart() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.DividePolylineParameters.otherPart </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Polyline3.html">Polyline3</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a99ce2697bc15418b0254eb246fcffa6c" name="a99ce2697bc15418b0254eb246fcffa6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99ce2697bc15418b0254eb246fcffa6c">&#9670;&#160;</a></span>outEmap() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeMap.html">EdgeMap</a> meshlib.mrmeshpy.DividePolylineParameters.outEmap </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">map from input polyline edges to output
+</pre> 
+</div>
+</div>
+<a id="a90095b847d9073c7639ddc8935b3ffc7" name="a90095b847d9073c7639ddc8935b3ffc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90095b847d9073c7639ddc8935b3ffc7">&#9670;&#160;</a></span>outEmap() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.DividePolylineParameters.outEmap </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgeMap.html">EdgeMap</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a348d8d851ff1819cfc414b1878fa7980" name="a348d8d851ff1819cfc414b1878fa7980"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a348d8d851ff1819cfc414b1878fa7980">&#9670;&#160;</a></span>outVmap() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertMap.html">VertMap</a> meshlib.mrmeshpy.DividePolylineParameters.outVmap </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">map from input polyline verts to output
+</pre> 
+</div>
+</div>
+<a id="aefab81c3523ca843ac8ff11360e4bdc8" name="aefab81c3523ca843ac8ff11360e4bdc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefab81c3523ca843ac8ff11360e4bdc8">&#9670;&#160;</a></span>outVmap() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.DividePolylineParameters.outVmap </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertMap.html">VertMap</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1DividePolylineParameters.html">DividePolylineParameters</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

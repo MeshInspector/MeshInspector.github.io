@@ -1,0 +1,465 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: std_function_float_from_MR_EdgeId.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('std__function__float__from__MR__EdgeId_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">std_function_float_from_MR_EdgeId.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="std__function__float__from__MR__EdgeId_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:afd0201e1c072ac1cc7168c11c3bd3a49" id="r_afd0201e1c072ac1cc7168c11c3bd3a49"><td class="memItemLeft" align="right" valign="top">typedef struct MR_EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd0201e1c072ac1cc7168c11c3bd3a49">MR_EdgeId</a></td></tr>
+<tr class="separator:afd0201e1c072ac1cc7168c11c3bd3a49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe08d8d5c70c2a7fb9600f5a1dfd1687" id="r_abe08d8d5c70c2a7fb9600f5a1dfd1687"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a></td></tr>
+<tr class="separator:abe08d8d5c70c2a7fb9600f5a1dfd1687"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a39a7c1bbfd8562369fd5310fc7b301e3" id="r_a39a7c1bbfd8562369fd5310fc7b301e3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39a7c1bbfd8562369fd5310fc7b301e3">MR_std_function_float_from_MR_EdgeId_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a39a7c1bbfd8562369fd5310fc7b301e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a525ba288ef15c94e3e446d0f5c1193bb" id="r_a525ba288ef15c94e3e446d0f5c1193bb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a525ba288ef15c94e3e446d0f5c1193bb">MR_std_function_float_from_MR_EdgeId_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a525ba288ef15c94e3e446d0f5c1193bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4649273cc0b59c91cc33af8d8ad2ca10" id="r_a4649273cc0b59c91cc33af8d8ad2ca10"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4649273cc0b59c91cc33af8d8ad2ca10">MR_std_function_float_from_MR_EdgeId_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *other)</td></tr>
+<tr class="separator:a4649273cc0b59c91cc33af8d8ad2ca10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef7a5467dce36ca32757033be998f219" id="r_aef7a5467dce36ca32757033be998f219"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef7a5467dce36ca32757033be998f219">MR_std_function_float_from_MR_EdgeId_AssignFromAnother</a> (<a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *other)</td></tr>
+<tr class="separator:aef7a5467dce36ca32757033be998f219"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a744da7234e8737effe5a396869e0604d" id="r_a744da7234e8737effe5a396869e0604d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a744da7234e8737effe5a396869e0604d">MR_std_function_float_from_MR_EdgeId_Destroy</a> (const <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *_this)</td></tr>
+<tr class="memdesc:a744da7234e8737effe5a396869e0604d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_function_float_from_MR_EdgeId</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a744da7234e8737effe5a396869e0604d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e21d5559f170842c2185f87846af849" id="r_a5e21d5559f170842c2185f87846af849"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e21d5559f170842c2185f87846af849">MR_std_function_float_from_MR_EdgeId_DestroyArray</a> (const <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *_this)</td></tr>
+<tr class="memdesc:a5e21d5559f170842c2185f87846af849"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_function_float_from_MR_EdgeId</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a5e21d5559f170842c2185f87846af849"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6dddeac1b5d3202b23fdd3004518e46" id="r_ab6dddeac1b5d3202b23fdd3004518e46"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6dddeac1b5d3202b23fdd3004518e46">MR_std_function_float_from_MR_EdgeId_OffsetPtr</a> (const <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ab6dddeac1b5d3202b23fdd3004518e46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ab6dddeac1b5d3202b23fdd3004518e46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a818a674ad6b6fda82c870da764bf4c2e" id="r_a818a674ad6b6fda82c870da764bf4c2e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a818a674ad6b6fda82c870da764bf4c2e">MR_std_function_float_from_MR_EdgeId_OffsetMutablePtr</a> (<a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a818a674ad6b6fda82c870da764bf4c2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a818a674ad6b6fda82c870da764bf4c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7390cd49c46938be7fd92a59da216f1" id="r_ac7390cd49c46938be7fd92a59da216f1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7390cd49c46938be7fd92a59da216f1">MR_std_function_float_from_MR_EdgeId_Assign</a> (<a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *_this, float(*func)(<a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> *_1))</td></tr>
+<tr class="separator:ac7390cd49c46938be7fd92a59da216f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1677a09e2dfe40d95e4828677a3352a" id="r_af1677a09e2dfe40d95e4828677a3352a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1677a09e2dfe40d95e4828677a3352a">MR_std_function_float_from_MR_EdgeId_AssignWithDataPtr</a> (<a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *_this, float(*func)(<a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> *_1, void *_userdata), void *userdata, void(*userdata_callback)(void **_this_userdata, void *_other_userdata))</td></tr>
+<tr class="separator:af1677a09e2dfe40d95e4828677a3352a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="afd0201e1c072ac1cc7168c11c3bd3a49" name="afd0201e1c072ac1cc7168c11c3bd3a49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd0201e1c072ac1cc7168c11c3bd3a49">&#9670;&#160;</a></span>MR_EdgeId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct MR_EdgeId MR_EdgeId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abe08d8d5c70c2a7fb9600f5a1dfd1687" name="abe08d8d5c70c2a7fb9600f5a1dfd1687"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">&#9670;&#160;</a></span>MR_std_function_float_from_MR_EdgeId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Stores a functor of type: <code>float(MR::EdgeId)</code>. Possibly stateful. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ac7390cd49c46938be7fd92a59da216f1" name="ac7390cd49c46938be7fd92a59da216f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7390cd49c46938be7fd92a59da216f1">&#9670;&#160;</a></span>MR_std_function_float_from_MR_EdgeId_Assign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_function_float_from_MR_EdgeId_Assign </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float(*</td>          <td class="paramname"><span class="paramname"><em>func&#160;</em></span>)(<a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> *_1)&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assign a stateless function. Parameter <code>_this</code> can not be null. Callback parameter <code>_1</code> will never be null. It is non-owning, do NOT destroy it. In C++ that parameter is an rvalue reference. </p>
+
+</div>
+</div>
+<a id="aef7a5467dce36ca32757033be998f219" name="aef7a5467dce36ca32757033be998f219"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef7a5467dce36ca32757033be998f219">&#9670;&#160;</a></span>MR_std_function_float_from_MR_EdgeId_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_function_float_from_MR_EdgeId_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="af1677a09e2dfe40d95e4828677a3352a" name="af1677a09e2dfe40d95e4828677a3352a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1677a09e2dfe40d95e4828677a3352a">&#9670;&#160;</a></span>MR_std_function_float_from_MR_EdgeId_AssignWithDataPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_function_float_from_MR_EdgeId_AssignWithDataPtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float(*</td>          <td class="paramname"><span class="paramname"><em>func&#160;</em></span>)(<a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> *_1, void *_userdata), </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>userdata</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(*</td>          <td class="paramname"><span class="paramname"><em>userdata_callback&#160;</em></span>)(void **_this_userdata, void *_other_userdata)&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assign a function with an extra user data pointer. Parameter <code>userdata_callback</code> can be null. Pass null if you don't need custom behavior when destroying and/or copying the functor. Parameter <code>_this</code> can not be null. Callback parameter <code>_1</code> will never be null. It is non-owning, do NOT destroy it. In C++ that parameter is an rvalue reference. How to use <code>userdata_callback</code>: The <code>_this_userdata</code> parameter will never be null. If <code>*_this_userdata</code> is non-null and <code>_other_userdata</code> is null, the functor is being destroyed. Perform any cleanup if needed. If <code>*_this_userdata</code> is null and <code>_other_userdata</code> is non-null, a copy of the functor is being constructed. Perform copying if needed and write the new userdata to <code>*_this_userdata</code>. If <code>*_this_userdata</code> is non-null and <code>_other_userdata</code> is non-null, the functor is being assigned. The simplest option is to destroy <code>*_this_userdata</code> first, and then behave as if it was null. </p>
+
+</div>
+</div>
+<a id="a4649273cc0b59c91cc33af8d8ad2ca10" name="a4649273cc0b59c91cc33af8d8ad2ca10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4649273cc0b59c91cc33af8d8ad2ca10">&#9670;&#160;</a></span>MR_std_function_float_from_MR_EdgeId_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> * MR_std_function_float_from_MR_EdgeId_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a744da7234e8737effe5a396869e0604d" title="Destroys a heap-allocated instance of MR_std_function_float_from_MR_EdgeId. Does nothing if the point...">MR_std_function_float_from_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a39a7c1bbfd8562369fd5310fc7b301e3" name="a39a7c1bbfd8562369fd5310fc7b301e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39a7c1bbfd8562369fd5310fc7b301e3">&#9670;&#160;</a></span>MR_std_function_float_from_MR_EdgeId_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> * MR_std_function_float_from_MR_EdgeId_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a744da7234e8737effe5a396869e0604d" title="Destroys a heap-allocated instance of MR_std_function_float_from_MR_EdgeId. Does nothing if the point...">MR_std_function_float_from_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a525ba288ef15c94e3e446d0f5c1193bb" name="a525ba288ef15c94e3e446d0f5c1193bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a525ba288ef15c94e3e446d0f5c1193bb">&#9670;&#160;</a></span>MR_std_function_float_from_MR_EdgeId_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> * MR_std_function_float_from_MR_EdgeId_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a5e21d5559f170842c2185f87846af849" title="Destroys a heap-allocated array of MR_std_function_float_from_MR_EdgeId. Does nothing if the pointer ...">MR_std_function_float_from_MR_EdgeId_DestroyArray()</a></code>. Use <code><a class="el" href="#a818a674ad6b6fda82c870da764bf4c2e" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_function_float_from_MR_EdgeId_OffsetMutablePtr()</a></code> and <code><a class="el" href="#ab6dddeac1b5d3202b23fdd3004518e46" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_function_float_from_MR_EdgeId_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a744da7234e8737effe5a396869e0604d" name="a744da7234e8737effe5a396869e0604d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a744da7234e8737effe5a396869e0604d">&#9670;&#160;</a></span>MR_std_function_float_from_MR_EdgeId_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_function_float_from_MR_EdgeId_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_function_float_from_MR_EdgeId</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a5e21d5559f170842c2185f87846af849" name="a5e21d5559f170842c2185f87846af849"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e21d5559f170842c2185f87846af849">&#9670;&#160;</a></span>MR_std_function_float_from_MR_EdgeId_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_function_float_from_MR_EdgeId_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_function_float_from_MR_EdgeId</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a818a674ad6b6fda82c870da764bf4c2e" name="a818a674ad6b6fda82c870da764bf4c2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a818a674ad6b6fda82c870da764bf4c2e">&#9670;&#160;</a></span>MR_std_function_float_from_MR_EdgeId_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> * MR_std_function_float_from_MR_EdgeId_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ab6dddeac1b5d3202b23fdd3004518e46" name="ab6dddeac1b5d3202b23fdd3004518e46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6dddeac1b5d3202b23fdd3004518e46">&#9670;&#160;</a></span>MR_std_function_float_from_MR_EdgeId_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> * MR_std_function_float_from_MR_EdgeId_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_a57e8462869cab4a5203dede5869920d.html">MRCMisc</a></li><li class="navelem"><a class="el" href="std__function__float__from__MR__EdgeId_8h.html">std_function_float_from_MR_EdgeId.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

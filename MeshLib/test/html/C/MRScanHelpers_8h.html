@@ -1,0 +1,1047 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRScanHelpers.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRScanHelpers_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRScanHelpers.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
+</div>
+<p><a href="MRScanHelpers_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a771ba5022befbb504ac90050d525a465" id="r_a771ba5022befbb504ac90050d525a465"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="std__vector__MR__SliceInfo_8h.html#a771ba5022befbb504ac90050d525a465">MR_std_vector_MR_SliceInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a771ba5022befbb504ac90050d525a465">MR_std_vector_MR_SliceInfo</a></td></tr>
+<tr class="separator:a771ba5022befbb504ac90050d525a465"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d75e004d098bc7d987ebfcf304f5454" id="r_a4d75e004d098bc7d987ebfcf304f5454"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a></td></tr>
+<tr class="separator:a4d75e004d098bc7d987ebfcf304f5454"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0799f8fd31a0e8ae5864034af6e44996" id="r_a0799f8fd31a0e8ae5864034af6e44996"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a></td></tr>
+<tr class="separator:a0799f8fd31a0e8ae5864034af6e44996"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a35a18cc382bdf4243ca5b58f8d0942" id="r_a4a35a18cc382bdf4243ca5b58f8d0942"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a></td></tr>
+<tr class="separator:a4a35a18cc382bdf4243ca5b58f8d0942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a05dda74aebafb050e852c813aac68567" id="r_a05dda74aebafb050e852c813aac68567"><td class="memItemLeft" align="right" valign="top">MRC_API const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05dda74aebafb050e852c813aac68567">MR_SliceInfoBase_Get_instanceNum</a> (const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this)</td></tr>
+<tr class="separator:a05dda74aebafb050e852c813aac68567"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03d4772d8abd4447e1d562b71b7a8277" id="r_a03d4772d8abd4447e1d562b71b7a8277"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03d4772d8abd4447e1d562b71b7a8277">MR_SliceInfoBase_Set_instanceNum</a> (<a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this, int32_t value)</td></tr>
+<tr class="separator:a03d4772d8abd4447e1d562b71b7a8277"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9779cd0877d1995a38cbdc11da7398c" id="r_ac9779cd0877d1995a38cbdc11da7398c"><td class="memItemLeft" align="right" valign="top">MRC_API int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9779cd0877d1995a38cbdc11da7398c">MR_SliceInfoBase_GetMutable_instanceNum</a> (<a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this)</td></tr>
+<tr class="separator:ac9779cd0877d1995a38cbdc11da7398c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06830fcb8c97d86607040d4deca2e208" id="r_a06830fcb8c97d86607040d4deca2e208"><td class="memItemLeft" align="right" valign="top">MRC_API const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06830fcb8c97d86607040d4deca2e208">MR_SliceInfoBase_Get_z</a> (const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this)</td></tr>
+<tr class="separator:a06830fcb8c97d86607040d4deca2e208"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acec54aa70f2e4689c403c93760e24397" id="r_acec54aa70f2e4689c403c93760e24397"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acec54aa70f2e4689c403c93760e24397">MR_SliceInfoBase_Set_z</a> (<a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this, double value)</td></tr>
+<tr class="separator:acec54aa70f2e4689c403c93760e24397"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eeadba49498e09de4979f74ad7c9f57" id="r_a2eeadba49498e09de4979f74ad7c9f57"><td class="memItemLeft" align="right" valign="top">MRC_API double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2eeadba49498e09de4979f74ad7c9f57">MR_SliceInfoBase_GetMutable_z</a> (<a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this)</td></tr>
+<tr class="separator:a2eeadba49498e09de4979f74ad7c9f57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a759fee6f9c04b82b30629446d4906ddf" id="r_a759fee6f9c04b82b30629446d4906ddf"><td class="memItemLeft" align="right" valign="top">MRC_API const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a759fee6f9c04b82b30629446d4906ddf">MR_SliceInfoBase_Get_fileNum</a> (const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this)</td></tr>
+<tr class="separator:a759fee6f9c04b82b30629446d4906ddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7781b07e940e92850e03e382208a89dc" id="r_a7781b07e940e92850e03e382208a89dc"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7781b07e940e92850e03e382208a89dc">MR_SliceInfoBase_Set_fileNum</a> (<a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this, int32_t value)</td></tr>
+<tr class="separator:a7781b07e940e92850e03e382208a89dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79d7d28491e5eec70a758ad86a6ca832" id="r_a79d7d28491e5eec70a758ad86a6ca832"><td class="memItemLeft" align="right" valign="top">MRC_API int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79d7d28491e5eec70a758ad86a6ca832">MR_SliceInfoBase_GetMutable_fileNum</a> (<a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this)</td></tr>
+<tr class="separator:a79d7d28491e5eec70a758ad86a6ca832"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a778db0d71493c082b68bd58a556cc6ce" id="r_a778db0d71493c082b68bd58a556cc6ce"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a778db0d71493c082b68bd58a556cc6ce">MR_SliceInfoBase_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a778db0d71493c082b68bd58a556cc6ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa95b8cf06e35f65c883f9e8c23fe25a7" id="r_aa95b8cf06e35f65c883f9e8c23fe25a7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa95b8cf06e35f65c883f9e8c23fe25a7">MR_SliceInfoBase_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:aa95b8cf06e35f65c883f9e8c23fe25a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a627f2742f6414bf060922504460e6b4c" id="r_a627f2742f6414bf060922504460e6b4c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a627f2742f6414bf060922504460e6b4c">MR_SliceInfoBase_ConstructFrom</a> (int32_t instanceNum, double z, int32_t fileNum)</td></tr>
+<tr class="separator:a627f2742f6414bf060922504460e6b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ad825dde7dbe9ce7c411f504f0c0fcb" id="r_a9ad825dde7dbe9ce7c411f504f0c0fcb"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ad825dde7dbe9ce7c411f504f0c0fcb">MR_SliceInfoBase_OffsetPtr</a> (const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a9ad825dde7dbe9ce7c411f504f0c0fcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a9ad825dde7dbe9ce7c411f504f0c0fcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7aeadd3b94242cae353b3d35b0df0e5" id="r_ae7aeadd3b94242cae353b3d35b0df0e5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7aeadd3b94242cae353b3d35b0df0e5">MR_SliceInfoBase_OffsetMutablePtr</a> (<a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ae7aeadd3b94242cae353b3d35b0df0e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ae7aeadd3b94242cae353b3d35b0df0e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cf9aeb4370b0427c35439f5ab5eb0a6" id="r_a4cf9aeb4370b0427c35439f5ab5eb0a6"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cf9aeb4370b0427c35439f5ab5eb0a6">MR_SliceInfoBase_StaticDowncastTo_MR_SliceInfo</a> (const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *object)</td></tr>
+<tr class="separator:a4cf9aeb4370b0427c35439f5ab5eb0a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee4a7b64f59d81e5b37193ddb5d547f4" id="r_aee4a7b64f59d81e5b37193ddb5d547f4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee4a7b64f59d81e5b37193ddb5d547f4">MR_SliceInfoBase_MutableStaticDowncastTo_MR_SliceInfo</a> (<a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *object)</td></tr>
+<tr class="separator:aee4a7b64f59d81e5b37193ddb5d547f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1bfdb2da98ef6f92dc2b68127016481" id="r_aa1bfdb2da98ef6f92dc2b68127016481"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1bfdb2da98ef6f92dc2b68127016481">MR_SliceInfoBase_ConstructFromAnother</a> (const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_other)</td></tr>
+<tr class="separator:aa1bfdb2da98ef6f92dc2b68127016481"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab956e6f2a0a57418d32e6a3a87065f74" id="r_ab956e6f2a0a57418d32e6a3a87065f74"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab956e6f2a0a57418d32e6a3a87065f74">MR_SliceInfoBase_Destroy</a> (const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this)</td></tr>
+<tr class="memdesc:ab956e6f2a0a57418d32e6a3a87065f74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_SliceInfoBase</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ab956e6f2a0a57418d32e6a3a87065f74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a851722175b779567adc09b543ded427f" id="r_a851722175b779567adc09b543ded427f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a851722175b779567adc09b543ded427f">MR_SliceInfoBase_DestroyArray</a> (const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this)</td></tr>
+<tr class="memdesc:a851722175b779567adc09b543ded427f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_SliceInfoBase</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a851722175b779567adc09b543ded427f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07cab1e1557315b4e19f081fe1795d8b" id="r_a07cab1e1557315b4e19f081fe1795d8b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07cab1e1557315b4e19f081fe1795d8b">MR_SliceInfoBase_AssignFromAnother</a> (<a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this, const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_other)</td></tr>
+<tr class="separator:a07cab1e1557315b4e19f081fe1795d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd6b5c574cd4a0641d986befcd2b088b" id="r_acd6b5c574cd4a0641d986befcd2b088b"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd6b5c574cd4a0641d986befcd2b088b">MR_SliceInfo_Get_imagePos</a> (const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this)</td></tr>
+<tr class="separator:acd6b5c574cd4a0641d986befcd2b088b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04db92e829095c04ced1440882086f47" id="r_a04db92e829095c04ced1440882086f47"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04db92e829095c04ced1440882086f47">MR_SliceInfo_Set_imagePos</a> (<a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this, <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> value)</td></tr>
+<tr class="separator:a04db92e829095c04ced1440882086f47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf9730ed2c4e90b01100cd90c652c2c3" id="r_abf9730ed2c4e90b01100cd90c652c2c3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf9730ed2c4e90b01100cd90c652c2c3">MR_SliceInfo_GetMutable_imagePos</a> (<a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this)</td></tr>
+<tr class="separator:abf9730ed2c4e90b01100cd90c652c2c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d9c7ff207e5ddc2447883cae2086611" id="r_a5d9c7ff207e5ddc2447883cae2086611"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d9c7ff207e5ddc2447883cae2086611">MR_SliceInfo_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a5d9c7ff207e5ddc2447883cae2086611"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a35b5f93a3ffd559ee8fa62191cb789" id="r_a1a35b5f93a3ffd559ee8fa62191cb789"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a35b5f93a3ffd559ee8fa62191cb789">MR_SliceInfo_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a1a35b5f93a3ffd559ee8fa62191cb789"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ad74c302bce601ef2ea580a76d5ff50" id="r_a1ad74c302bce601ef2ea580a76d5ff50"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ad74c302bce601ef2ea580a76d5ff50">MR_SliceInfo_OffsetPtr</a> (const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a1ad74c302bce601ef2ea580a76d5ff50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a1ad74c302bce601ef2ea580a76d5ff50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac46bb91aa84b47902fbe87c2b1bc84c2" id="r_ac46bb91aa84b47902fbe87c2b1bc84c2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac46bb91aa84b47902fbe87c2b1bc84c2">MR_SliceInfo_OffsetMutablePtr</a> (<a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ac46bb91aa84b47902fbe87c2b1bc84c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ac46bb91aa84b47902fbe87c2b1bc84c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56a6e732db4d138975b36c6bde975fea" id="r_a56a6e732db4d138975b36c6bde975fea"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56a6e732db4d138975b36c6bde975fea">MR_SliceInfo_UpcastTo_MR_SliceInfoBase</a> (const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *object)</td></tr>
+<tr class="separator:a56a6e732db4d138975b36c6bde975fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8259067bf1dd1720137b2fcb28b9eff4" id="r_a8259067bf1dd1720137b2fcb28b9eff4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8259067bf1dd1720137b2fcb28b9eff4">MR_SliceInfo_MutableUpcastTo_MR_SliceInfoBase</a> (<a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *object)</td></tr>
+<tr class="memdesc:a8259067bf1dd1720137b2fcb28b9eff4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfo.html">MR::SliceInfo</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfoBase.html">MR::SliceInfoBase</a></code>.  <br /></td></tr>
+<tr class="separator:a8259067bf1dd1720137b2fcb28b9eff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0193193aadc828e5020f4b779b27f670" id="r_a0193193aadc828e5020f4b779b27f670"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0193193aadc828e5020f4b779b27f670">MR_SliceInfo_ConstructFromAnother</a> (const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_other)</td></tr>
+<tr class="separator:a0193193aadc828e5020f4b779b27f670"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0cc8ef27beb1b1bca8488eb9c03b563" id="r_ab0cc8ef27beb1b1bca8488eb9c03b563"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0cc8ef27beb1b1bca8488eb9c03b563">MR_SliceInfo_Destroy</a> (const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this)</td></tr>
+<tr class="memdesc:ab0cc8ef27beb1b1bca8488eb9c03b563"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_SliceInfo</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ab0cc8ef27beb1b1bca8488eb9c03b563"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c26087d0bfb439895bc086edf7eb0b8" id="r_a3c26087d0bfb439895bc086edf7eb0b8"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c26087d0bfb439895bc086edf7eb0b8">MR_SliceInfo_DestroyArray</a> (const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this)</td></tr>
+<tr class="memdesc:a3c26087d0bfb439895bc086edf7eb0b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_SliceInfo</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a3c26087d0bfb439895bc086edf7eb0b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d4f812d4295badc4e4e36f754b7ecba" id="r_a4d4f812d4295badc4e4e36f754b7ecba"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d4f812d4295badc4e4e36f754b7ecba">MR_SliceInfo_AssignFromAnother</a> (<a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this, const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_other)</td></tr>
+<tr class="separator:a4d4f812d4295badc4e4e36f754b7ecba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a612a3a2244de5d9464e79d6e69a50b03" id="r_a612a3a2244de5d9464e79d6e69a50b03"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a612a3a2244de5d9464e79d6e69a50b03">MR_sortScansByOrder</a> (<a class="el" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *scans, <a class="el" href="std__vector__MR__SliceInfo_8h.html#a771ba5022befbb504ac90050d525a465">MR_std_vector_MR_SliceInfo</a> *zOrder)</td></tr>
+<tr class="separator:a612a3a2244de5d9464e79d6e69a50b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb537722b31d589081be6fa2a6198f33" id="r_abb537722b31d589081be6fa2a6198f33"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb537722b31d589081be6fa2a6198f33">MR_putScanFileNameInZ</a> (const <a class="el" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *scans, <a class="el" href="std__vector__MR__SliceInfo_8h.html#a771ba5022befbb504ac90050d525a465">MR_std_vector_MR_SliceInfo</a> *zOrder)</td></tr>
+<tr class="separator:abb537722b31d589081be6fa2a6198f33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a774fb9769bd3fd586496af74fe82d048" id="r_a774fb9769bd3fd586496af74fe82d048"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a774fb9769bd3fd586496af74fe82d048">MR_sortScanFilesByName</a> (<a class="el" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *scans)</td></tr>
+<tr class="separator:a774fb9769bd3fd586496af74fe82d048"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a4a35a18cc382bdf4243ca5b58f8d0942" name="a4a35a18cc382bdf4243ca5b58f8d0942"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a35a18cc382bdf4243ca5b58f8d0942">&#9670;&#160;</a></span>MR_SliceInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>slice information these fields will be ignored in sorting </p><dl class="section see"><dt>See also</dt><dd>SliceInfoBase Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfo.html">MR::SliceInfo</a></code>. Inherits from: Directly: (non-virtually) <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfoBase.html">MR::SliceInfoBase</a></code> </dd></dl>
+
+</div>
+</div>
+<a id="a0799f8fd31a0e8ae5864034af6e44996" name="a0799f8fd31a0e8ae5864034af6e44996"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0799f8fd31a0e8ae5864034af6e44996">&#9670;&#160;</a></span>MR_SliceInfoBase</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>slice information </p><dl class="section see"><dt>See also</dt><dd>SliceInfo Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfoBase.html">MR::SliceInfoBase</a></code>. Classes derived from this: Directly: (non-virtually) <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfo.html">MR::SliceInfo</a></code> </dd></dl>
+
+</div>
+</div>
+<a id="a771ba5022befbb504ac90050d525a465" name="a771ba5022befbb504ac90050d525a465"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a771ba5022befbb504ac90050d525a465">&#9670;&#160;</a></span>MR_std_vector_MR_SliceInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="std__vector__MR__SliceInfo_8h.html#a771ba5022befbb504ac90050d525a465">MR_std_vector_MR_SliceInfo</a> <a class="el" href="std__vector__MR__SliceInfo_8h.html#a771ba5022befbb504ac90050d525a465">MR_std_vector_MR_SliceInfo</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4d75e004d098bc7d987ebfcf304f5454" name="a4d75e004d098bc7d987ebfcf304f5454"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d75e004d098bc7d987ebfcf304f5454">&#9670;&#160;</a></span>MR_std_vector_std_filesystem_path</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> <a class="el" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="abb537722b31d589081be6fa2a6198f33" name="abb537722b31d589081be6fa2a6198f33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb537722b31d589081be6fa2a6198f33">&#9670;&#160;</a></span>MR_putScanFileNameInZ()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_putScanFileNameInZ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *</td>          <td class="paramname"><span class="paramname"><em>scans</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="std__vector__MR__SliceInfo_8h.html#a771ba5022befbb504ac90050d525a465">MR_std_vector_MR_SliceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>zOrder</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Read layer heights from given scan file names Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ab9229ab4444b58ce99c132c6509d0e6e">MR::putScanFileNameInZ</a></code>. Parameter <code>scans</code> can not be null. Parameter <code>zOrder</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a4d4f812d4295badc4e4e36f754b7ecba" name="a4d4f812d4295badc4e4e36f754b7ecba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d4f812d4295badc4e4e36f754b7ecba">&#9670;&#160;</a></span>MR_SliceInfo_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> * MR_SliceInfo_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfo.html">MR::SliceInfo</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a0193193aadc828e5020f4b779b27f670" name="a0193193aadc828e5020f4b779b27f670"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0193193aadc828e5020f4b779b27f670">&#9670;&#160;</a></span>MR_SliceInfo_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> * MR_SliceInfo_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfo.html">MR::SliceInfo</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab0cc8ef27beb1b1bca8488eb9c03b563" title="Destroys a heap-allocated instance of MR_SliceInfo. Does nothing if the pointer is null.">MR_SliceInfo_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5d9c7ff207e5ddc2447883cae2086611" name="a5d9c7ff207e5ddc2447883cae2086611"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d9c7ff207e5ddc2447883cae2086611">&#9670;&#160;</a></span>MR_SliceInfo_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> * MR_SliceInfo_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab0cc8ef27beb1b1bca8488eb9c03b563" title="Destroys a heap-allocated instance of MR_SliceInfo. Does nothing if the pointer is null.">MR_SliceInfo_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a1a35b5f93a3ffd559ee8fa62191cb789" name="a1a35b5f93a3ffd559ee8fa62191cb789"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a35b5f93a3ffd559ee8fa62191cb789">&#9670;&#160;</a></span>MR_SliceInfo_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> * MR_SliceInfo_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a3c26087d0bfb439895bc086edf7eb0b8" title="Destroys a heap-allocated array of MR_SliceInfo. Does nothing if the pointer is null.">MR_SliceInfo_DestroyArray()</a></code>. Use <code><a class="el" href="#ac46bb91aa84b47902fbe87c2b1bc84c2" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_SliceInfo_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a1ad74c302bce601ef2ea580a76d5ff50" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_SliceInfo_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ab0cc8ef27beb1b1bca8488eb9c03b563" name="ab0cc8ef27beb1b1bca8488eb9c03b563"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0cc8ef27beb1b1bca8488eb9c03b563">&#9670;&#160;</a></span>MR_SliceInfo_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SliceInfo_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_SliceInfo</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a3c26087d0bfb439895bc086edf7eb0b8" name="a3c26087d0bfb439895bc086edf7eb0b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c26087d0bfb439895bc086edf7eb0b8">&#9670;&#160;</a></span>MR_SliceInfo_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SliceInfo_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_SliceInfo</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="acd6b5c574cd4a0641d986befcd2b088b" name="acd6b5c574cd4a0641d986befcd2b088b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd6b5c574cd4a0641d986befcd2b088b">&#9670;&#160;</a></span>MR_SliceInfo_Get_imagePos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> * MR_SliceInfo_Get_imagePos </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>image position Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfo.html">MR::SliceInfo</a></code> named <code>imagePos</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="abf9730ed2c4e90b01100cd90c652c2c3" name="abf9730ed2c4e90b01100cd90c652c2c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf9730ed2c4e90b01100cd90c652c2c3">&#9670;&#160;</a></span>MR_SliceInfo_GetMutable_imagePos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> * MR_SliceInfo_GetMutable_imagePos </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>image position Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfo.html">MR::SliceInfo</a></code> named <code>imagePos</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a8259067bf1dd1720137b2fcb28b9eff4" name="a8259067bf1dd1720137b2fcb28b9eff4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8259067bf1dd1720137b2fcb28b9eff4">&#9670;&#160;</a></span>MR_SliceInfo_MutableUpcastTo_MR_SliceInfoBase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> * MR_SliceInfo_MutableUpcastTo_MR_SliceInfoBase </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfo.html">MR::SliceInfo</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfoBase.html">MR::SliceInfoBase</a></code>. </p>
+
+</div>
+</div>
+<a id="ac46bb91aa84b47902fbe87c2b1bc84c2" name="ac46bb91aa84b47902fbe87c2b1bc84c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac46bb91aa84b47902fbe87c2b1bc84c2">&#9670;&#160;</a></span>MR_SliceInfo_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> * MR_SliceInfo_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a1ad74c302bce601ef2ea580a76d5ff50" name="a1ad74c302bce601ef2ea580a76d5ff50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ad74c302bce601ef2ea580a76d5ff50">&#9670;&#160;</a></span>MR_SliceInfo_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> * MR_SliceInfo_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a04db92e829095c04ced1440882086f47" name="a04db92e829095c04ced1440882086f47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04db92e829095c04ced1440882086f47">&#9670;&#160;</a></span>MR_SliceInfo_Set_imagePos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SliceInfo_Set_imagePos </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3d.html">MR_Vector3d</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>image position Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfo.html">MR::SliceInfo</a></code> named <code>imagePos</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a56a6e732db4d138975b36c6bde975fea" name="a56a6e732db4d138975b36c6bde975fea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56a6e732db4d138975b36c6bde975fea">&#9670;&#160;</a></span>MR_SliceInfo_UpcastTo_MR_SliceInfoBase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> * MR_SliceInfo_UpcastTo_MR_SliceInfoBase </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfo.html">MR::SliceInfo</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfoBase.html">MR::SliceInfoBase</a></code>. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="a07cab1e1557315b4e19f081fe1795d8b" name="a07cab1e1557315b4e19f081fe1795d8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07cab1e1557315b4e19f081fe1795d8b">&#9670;&#160;</a></span>MR_SliceInfoBase_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> * MR_SliceInfoBase_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfoBase.html">MR::SliceInfoBase</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a627f2742f6414bf060922504460e6b4c" name="a627f2742f6414bf060922504460e6b4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a627f2742f6414bf060922504460e6b4c">&#9670;&#160;</a></span>MR_SliceInfoBase_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> * MR_SliceInfoBase_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>instanceNum</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>z</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>fileNum</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfoBase.html">MR::SliceInfoBase</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab956e6f2a0a57418d32e6a3a87065f74" title="Destroys a heap-allocated instance of MR_SliceInfoBase. Does nothing if the pointer is null.">MR_SliceInfoBase_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aa1bfdb2da98ef6f92dc2b68127016481" name="aa1bfdb2da98ef6f92dc2b68127016481"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1bfdb2da98ef6f92dc2b68127016481">&#9670;&#160;</a></span>MR_SliceInfoBase_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> * MR_SliceInfoBase_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfoBase.html">MR::SliceInfoBase</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab956e6f2a0a57418d32e6a3a87065f74" title="Destroys a heap-allocated instance of MR_SliceInfoBase. Does nothing if the pointer is null.">MR_SliceInfoBase_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a778db0d71493c082b68bd58a556cc6ce" name="a778db0d71493c082b68bd58a556cc6ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a778db0d71493c082b68bd58a556cc6ce">&#9670;&#160;</a></span>MR_SliceInfoBase_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> * MR_SliceInfoBase_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab956e6f2a0a57418d32e6a3a87065f74" title="Destroys a heap-allocated instance of MR_SliceInfoBase. Does nothing if the pointer is null.">MR_SliceInfoBase_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aa95b8cf06e35f65c883f9e8c23fe25a7" name="aa95b8cf06e35f65c883f9e8c23fe25a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa95b8cf06e35f65c883f9e8c23fe25a7">&#9670;&#160;</a></span>MR_SliceInfoBase_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> * MR_SliceInfoBase_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a851722175b779567adc09b543ded427f" title="Destroys a heap-allocated array of MR_SliceInfoBase. Does nothing if the pointer is null.">MR_SliceInfoBase_DestroyArray()</a></code>. Use <code><a class="el" href="#ae7aeadd3b94242cae353b3d35b0df0e5" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_SliceInfoBase_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a9ad825dde7dbe9ce7c411f504f0c0fcb" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_SliceInfoBase_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ab956e6f2a0a57418d32e6a3a87065f74" name="ab956e6f2a0a57418d32e6a3a87065f74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab956e6f2a0a57418d32e6a3a87065f74">&#9670;&#160;</a></span>MR_SliceInfoBase_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SliceInfoBase_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_SliceInfoBase</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a851722175b779567adc09b543ded427f" name="a851722175b779567adc09b543ded427f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a851722175b779567adc09b543ded427f">&#9670;&#160;</a></span>MR_SliceInfoBase_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SliceInfoBase_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_SliceInfoBase</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a759fee6f9c04b82b30629446d4906ddf" name="a759fee6f9c04b82b30629446d4906ddf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a759fee6f9c04b82b30629446d4906ddf">&#9670;&#160;</a></span>MR_SliceInfoBase_Get_fileNum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const int32_t * MR_SliceInfoBase_Get_fileNum </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>file index Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfoBase.html">MR::SliceInfoBase</a></code> named <code>fileNum</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a05dda74aebafb050e852c813aac68567" name="a05dda74aebafb050e852c813aac68567"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05dda74aebafb050e852c813aac68567">&#9670;&#160;</a></span>MR_SliceInfoBase_Get_instanceNum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const int32_t * MR_SliceInfoBase_Get_instanceNum </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>instance number Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfoBase.html">MR::SliceInfoBase</a></code> named <code>instanceNum</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a06830fcb8c97d86607040d4deca2e208" name="a06830fcb8c97d86607040d4deca2e208"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06830fcb8c97d86607040d4deca2e208">&#9670;&#160;</a></span>MR_SliceInfoBase_Get_z()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const double * MR_SliceInfoBase_Get_z </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>layer height Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfoBase.html">MR::SliceInfoBase</a></code> named <code>z</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a79d7d28491e5eec70a758ad86a6ca832" name="a79d7d28491e5eec70a758ad86a6ca832"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79d7d28491e5eec70a758ad86a6ca832">&#9670;&#160;</a></span>MR_SliceInfoBase_GetMutable_fileNum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API int32_t * MR_SliceInfoBase_GetMutable_fileNum </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>file index Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfoBase.html">MR::SliceInfoBase</a></code> named <code>fileNum</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ac9779cd0877d1995a38cbdc11da7398c" name="ac9779cd0877d1995a38cbdc11da7398c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9779cd0877d1995a38cbdc11da7398c">&#9670;&#160;</a></span>MR_SliceInfoBase_GetMutable_instanceNum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API int32_t * MR_SliceInfoBase_GetMutable_instanceNum </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>instance number Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfoBase.html">MR::SliceInfoBase</a></code> named <code>instanceNum</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a2eeadba49498e09de4979f74ad7c9f57" name="a2eeadba49498e09de4979f74ad7c9f57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2eeadba49498e09de4979f74ad7c9f57">&#9670;&#160;</a></span>MR_SliceInfoBase_GetMutable_z()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API double * MR_SliceInfoBase_GetMutable_z </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>layer height Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfoBase.html">MR::SliceInfoBase</a></code> named <code>z</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aee4a7b64f59d81e5b37193ddb5d547f4" name="aee4a7b64f59d81e5b37193ddb5d547f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee4a7b64f59d81e5b37193ddb5d547f4">&#9670;&#160;</a></span>MR_SliceInfoBase_MutableStaticDowncastTo_MR_SliceInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> * MR_SliceInfoBase_MutableStaticDowncastTo_MR_SliceInfo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfoBase.html">MR::SliceInfoBase</a></code> to a derived class <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfo.html">MR::SliceInfo</a></code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. </p>
+
+</div>
+</div>
+<a id="ae7aeadd3b94242cae353b3d35b0df0e5" name="ae7aeadd3b94242cae353b3d35b0df0e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7aeadd3b94242cae353b3d35b0df0e5">&#9670;&#160;</a></span>MR_SliceInfoBase_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> * MR_SliceInfoBase_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a9ad825dde7dbe9ce7c411f504f0c0fcb" name="a9ad825dde7dbe9ce7c411f504f0c0fcb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ad825dde7dbe9ce7c411f504f0c0fcb">&#9670;&#160;</a></span>MR_SliceInfoBase_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> * MR_SliceInfoBase_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a7781b07e940e92850e03e382208a89dc" name="a7781b07e940e92850e03e382208a89dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7781b07e940e92850e03e382208a89dc">&#9670;&#160;</a></span>MR_SliceInfoBase_Set_fileNum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SliceInfoBase_Set_fileNum </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>file index Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfoBase.html">MR::SliceInfoBase</a></code> named <code>fileNum</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a03d4772d8abd4447e1d562b71b7a8277" name="a03d4772d8abd4447e1d562b71b7a8277"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03d4772d8abd4447e1d562b71b7a8277">&#9670;&#160;</a></span>MR_SliceInfoBase_Set_instanceNum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SliceInfoBase_Set_instanceNum </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>instance number Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfoBase.html">MR::SliceInfoBase</a></code> named <code>instanceNum</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="acec54aa70f2e4689c403c93760e24397" name="acec54aa70f2e4689c403c93760e24397"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acec54aa70f2e4689c403c93760e24397">&#9670;&#160;</a></span>MR_SliceInfoBase_Set_z()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SliceInfoBase_Set_z </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>layer height Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfoBase.html">MR::SliceInfoBase</a></code> named <code>z</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a4cf9aeb4370b0427c35439f5ab5eb0a6" name="a4cf9aeb4370b0427c35439f5ab5eb0a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cf9aeb4370b0427c35439f5ab5eb0a6">&#9670;&#160;</a></span>MR_SliceInfoBase_StaticDowncastTo_MR_SliceInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> * MR_SliceInfoBase_StaticDowncastTo_MR_SliceInfo </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfoBase.html">MR::SliceInfoBase</a></code> to a derived class <code><a class="elRef" href="../Cpp/structMR_1_1SliceInfo.html">MR::SliceInfo</a></code>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="a774fb9769bd3fd586496af74fe82d048" name="a774fb9769bd3fd586496af74fe82d048"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a774fb9769bd3fd586496af74fe82d048">&#9670;&#160;</a></span>MR_sortScanFilesByName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_sortScanFilesByName </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *</td>          <td class="paramname"><span class="paramname"><em>scans</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sort scan files in given vector by names (respect numbers in it) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a5f2711691fd38c7824e19ec119dd53c5">MR::sortScanFilesByName</a></code>. Parameter <code>scans</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a612a3a2244de5d9464e79d6e69a50b03" name="a612a3a2244de5d9464e79d6e69a50b03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a612a3a2244de5d9464e79d6e69a50b03">&#9670;&#160;</a></span>MR_sortScansByOrder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_sortScansByOrder </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *</td>          <td class="paramname"><span class="paramname"><em>scans</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="std__vector__MR__SliceInfo_8h.html#a771ba5022befbb504ac90050d525a465">MR_std_vector_MR_SliceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>zOrder</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sort scan files in given vector by given slice information Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a58f5f81ba8aa5012048922f0bd323851">MR::sortScansByOrder</a></code>. Parameter <code>scans</code> can not be null. Parameter <code>zOrder</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_fa06e586131068ce9f0aae282763f308.html">MRCVoxels</a></li><li class="navelem"><a class="el" href="MRScanHelpers_8h.html">MRScanHelpers.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

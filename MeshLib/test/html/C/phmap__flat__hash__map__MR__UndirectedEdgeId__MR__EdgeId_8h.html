@@ -1,0 +1,1290 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('phmap__flat__hash__map__MR__UndirectedEdgeId__MR__EdgeId_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="phmap__flat__hash__map__MR__UndirectedEdgeId__MR__EdgeId_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:afd0201e1c072ac1cc7168c11c3bd3a49" id="r_afd0201e1c072ac1cc7168c11c3bd3a49"><td class="memItemLeft" align="right" valign="top">typedef struct MR_EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd0201e1c072ac1cc7168c11c3bd3a49">MR_EdgeId</a></td></tr>
+<tr class="separator:afd0201e1c072ac1cc7168c11c3bd3a49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0143085136f3ff15c5a5150047793cb" id="r_af0143085136f3ff15c5a5150047793cb"><td class="memItemLeft" align="right" valign="top">typedef struct MR_UndirectedEdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0143085136f3ff15c5a5150047793cb">MR_UndirectedEdgeId</a></td></tr>
+<tr class="separator:af0143085136f3ff15c5a5150047793cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05c8a0b2a783d50abb1f88499090a1c5" id="r_a05c8a0b2a783d50abb1f88499090a1c5"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a></td></tr>
+<tr class="separator:a05c8a0b2a783d50abb1f88499090a1c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad60e63930bc43220bdbfeec6d9d5713" id="r_aad60e63930bc43220bdbfeec6d9d5713"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a></td></tr>
+<tr class="separator:aad60e63930bc43220bdbfeec6d9d5713"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b2b0cc198e4ffea41853cb9b153519d" id="r_a6b2b0cc198e4ffea41853cb9b153519d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a></td></tr>
+<tr class="separator:a6b2b0cc198e4ffea41853cb9b153519d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:abdebc1737c11ae52a81e5e20ff61a490" id="r_abdebc1737c11ae52a81e5e20ff61a490"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdebc1737c11ae52a81e5e20ff61a490">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:abdebc1737c11ae52a81e5e20ff61a490"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79186382bc4bb8175512ddb96aee8b70" id="r_a79186382bc4bb8175512ddb96aee8b70"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79186382bc4bb8175512ddb96aee8b70">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a79186382bc4bb8175512ddb96aee8b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ccc9fe1d7b68540519242d659a721e7" id="r_a3ccc9fe1d7b68540519242d659a721e7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ccc9fe1d7b68540519242d659a721e7">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *other)</td></tr>
+<tr class="separator:a3ccc9fe1d7b68540519242d659a721e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cf12e42e3b288b4a8e9f7281da81710" id="r_a7cf12e42e3b288b4a8e9f7281da81710"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cf12e42e3b288b4a8e9f7281da81710">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_AssignFromAnother</a> (<a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *other)</td></tr>
+<tr class="separator:a7cf12e42e3b288b4a8e9f7281da81710"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72005d83bebff8d1ea0ca817f400be39" id="r_a72005d83bebff8d1ea0ca817f400be39"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72005d83bebff8d1ea0ca817f400be39">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_Destroy</a> (const <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *_this)</td></tr>
+<tr class="memdesc:a72005d83bebff8d1ea0ca817f400be39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a72005d83bebff8d1ea0ca817f400be39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4c3adc905a2fe023fc7a965af4ebaf8" id="r_aa4c3adc905a2fe023fc7a965af4ebaf8"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4c3adc905a2fe023fc7a965af4ebaf8">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_DestroyArray</a> (const <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *_this)</td></tr>
+<tr class="memdesc:aa4c3adc905a2fe023fc7a965af4ebaf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:aa4c3adc905a2fe023fc7a965af4ebaf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a811d3ab5515bfe35acd94854e9765fbe" id="r_a811d3ab5515bfe35acd94854e9765fbe"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a811d3ab5515bfe35acd94854e9765fbe">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_OffsetPtr</a> (const <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a811d3ab5515bfe35acd94854e9765fbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a811d3ab5515bfe35acd94854e9765fbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00174687a911a22d7bc4fba943065df7" id="r_a00174687a911a22d7bc4fba943065df7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00174687a911a22d7bc4fba943065df7">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_OffsetMutablePtr</a> (<a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a00174687a911a22d7bc4fba943065df7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a00174687a911a22d7bc4fba943065df7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7a76add9c22b0e33fc30d6cb0c2bcd7" id="r_ae7a76add9c22b0e33fc30d6cb0c2bcd7"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7a76add9c22b0e33fc30d6cb0c2bcd7">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_Size</a> (const <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *_this)</td></tr>
+<tr class="separator:ae7a76add9c22b0e33fc30d6cb0c2bcd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad435ff310b42685b8601ac7027965771" id="r_ad435ff310b42685b8601ac7027965771"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad435ff310b42685b8601ac7027965771">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_IsEmpty</a> (const <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *_this)</td></tr>
+<tr class="separator:ad435ff310b42685b8601ac7027965771"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a1bc9f977fdaa82cb4d78e393088bd9" id="r_a9a1bc9f977fdaa82cb4d78e393088bd9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a1bc9f977fdaa82cb4d78e393088bd9">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_Clear</a> (<a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *_this)</td></tr>
+<tr class="separator:a9a1bc9f977fdaa82cb4d78e393088bd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bf465ce3faba9ad963edc959e1146f5" id="r_a0bf465ce3faba9ad963edc959e1146f5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bf465ce3faba9ad963edc959e1146f5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_FindOrConstructElem</a> (<a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *_this, const <a class="el" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> *key)</td></tr>
+<tr class="separator:a0bf465ce3faba9ad963edc959e1146f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3bf55cba32f3395415bddad3a6f4ebf" id="r_ac3bf55cba32f3395415bddad3a6f4ebf"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3bf55cba32f3395415bddad3a6f4ebf">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_Contains</a> (const <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *_this, const <a class="el" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> *key)</td></tr>
+<tr class="separator:ac3bf55cba32f3395415bddad3a6f4ebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78b04c97e9411928448b429607c24025" id="r_a78b04c97e9411928448b429607c24025"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78b04c97e9411928448b429607c24025">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_Find</a> (const <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *_this, const <a class="el" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> *key)</td></tr>
+<tr class="separator:a78b04c97e9411928448b429607c24025"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a9de0a2cbda72c0c2ddc79dd089b98e" id="r_a5a9de0a2cbda72c0c2ddc79dd089b98e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a9de0a2cbda72c0c2ddc79dd089b98e">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_FindMutable</a> (<a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *_this, const <a class="el" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> *key)</td></tr>
+<tr class="separator:a5a9de0a2cbda72c0c2ddc79dd089b98e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad21177bc2b1ea08e52019e596c27a40d" id="r_ad21177bc2b1ea08e52019e596c27a40d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad21177bc2b1ea08e52019e596c27a40d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_Begin</a> (const <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *_this)</td></tr>
+<tr class="separator:ad21177bc2b1ea08e52019e596c27a40d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace23c6652548d2e6ea11591d34e824b0" id="r_ace23c6652548d2e6ea11591d34e824b0"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace23c6652548d2e6ea11591d34e824b0">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_IsBegin</a> (const <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *_this, const <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *iter)</td></tr>
+<tr class="separator:ace23c6652548d2e6ea11591d34e824b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20498c3f17230394eb13c3493408e916" id="r_a20498c3f17230394eb13c3493408e916"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20498c3f17230394eb13c3493408e916">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_MutableBegin</a> (<a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *_this)</td></tr>
+<tr class="separator:a20498c3f17230394eb13c3493408e916"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d5bd451793ee0233b26df90d5f65c79" id="r_a2d5bd451793ee0233b26df90d5f65c79"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d5bd451793ee0233b26df90d5f65c79">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_IsMutableBegin</a> (<a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *_this, const <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *iter)</td></tr>
+<tr class="separator:a2d5bd451793ee0233b26df90d5f65c79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a132777bfdf434911178f17a106107789" id="r_a132777bfdf434911178f17a106107789"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a132777bfdf434911178f17a106107789">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_End</a> (const <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *_this)</td></tr>
+<tr class="separator:a132777bfdf434911178f17a106107789"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb3432ada424538ca2a1126605c0fc4f" id="r_aeb3432ada424538ca2a1126605c0fc4f"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb3432ada424538ca2a1126605c0fc4f">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_IsEnd</a> (const <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *_this, const <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *iter)</td></tr>
+<tr class="separator:aeb3432ada424538ca2a1126605c0fc4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d37378c7ce7ef7c5aefd2b9ccdbb6f6" id="r_a2d37378c7ce7ef7c5aefd2b9ccdbb6f6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d37378c7ce7ef7c5aefd2b9ccdbb6f6">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_MutableEnd</a> (<a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *_this)</td></tr>
+<tr class="separator:a2d37378c7ce7ef7c5aefd2b9ccdbb6f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04edd980ed04c1b59689d1645df7fb1d" id="r_a04edd980ed04c1b59689d1645df7fb1d"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04edd980ed04c1b59689d1645df7fb1d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_IsMutableEnd</a> (<a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *_this, const <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *iter)</td></tr>
+<tr class="separator:a04edd980ed04c1b59689d1645df7fb1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49c9c38c53880b5fe37e22cd188602f4" id="r_a49c9c38c53880b5fe37e22cd188602f4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49c9c38c53880b5fe37e22cd188602f4">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a49c9c38c53880b5fe37e22cd188602f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad461314b77ba272a69cbffd861ba89ee" id="r_ad461314b77ba272a69cbffd861ba89ee"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad461314b77ba272a69cbffd861ba89ee">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ad461314b77ba272a69cbffd861ba89ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3721f25e0987820e5c42f42db9ea04e9" id="r_a3721f25e0987820e5c42f42db9ea04e9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3721f25e0987820e5c42f42db9ea04e9">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_ConstructFromAnother</a> (const <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *other)</td></tr>
+<tr class="separator:a3721f25e0987820e5c42f42db9ea04e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6014e1c93ade87ce13aaac2977a98b6a" id="r_a6014e1c93ade87ce13aaac2977a98b6a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6014e1c93ade87ce13aaac2977a98b6a">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_AssignFromAnother</a> (<a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *_this, const <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *other)</td></tr>
+<tr class="separator:a6014e1c93ade87ce13aaac2977a98b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeb4f783bf0a1b2b416402ddeb3880a9" id="r_afeb4f783bf0a1b2b416402ddeb3880a9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afeb4f783bf0a1b2b416402ddeb3880a9">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_Destroy</a> (const <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:afeb4f783bf0a1b2b416402ddeb3880a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:afeb4f783bf0a1b2b416402ddeb3880a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f6233697a685f513135c6aeda6201a2" id="r_a1f6233697a685f513135c6aeda6201a2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f6233697a685f513135c6aeda6201a2">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_DestroyArray</a> (const <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a1f6233697a685f513135c6aeda6201a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a1f6233697a685f513135c6aeda6201a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54204c0d953ed2568e44f8757f221739" id="r_a54204c0d953ed2568e44f8757f221739"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54204c0d953ed2568e44f8757f221739">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_OffsetPtr</a> (const <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a54204c0d953ed2568e44f8757f221739"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a54204c0d953ed2568e44f8757f221739"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4d06dfd4bb7b3fdf17599de44950112" id="r_ac4d06dfd4bb7b3fdf17599de44950112"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4d06dfd4bb7b3fdf17599de44950112">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_OffsetMutablePtr</a> (<a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ac4d06dfd4bb7b3fdf17599de44950112"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ac4d06dfd4bb7b3fdf17599de44950112"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8fd549bd241553125b86e46b8a67f5e" id="r_ac8fd549bd241553125b86e46b8a67f5e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8fd549bd241553125b86e46b8a67f5e">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_FromMutable</a> (const <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *iter)</td></tr>
+<tr class="separator:ac8fd549bd241553125b86e46b8a67f5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade0b79ee3363d062139231c9094405e4" id="r_ade0b79ee3363d062139231c9094405e4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade0b79ee3363d062139231c9094405e4">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ade0b79ee3363d062139231c9094405e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2a0e1ce3cbe767c56a2d7929877986b" id="r_ae2a0e1ce3cbe767c56a2d7929877986b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2a0e1ce3cbe767c56a2d7929877986b">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ae2a0e1ce3cbe767c56a2d7929877986b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1adbcac1dd1ed3cc14d91250fd7751e7" id="r_a1adbcac1dd1ed3cc14d91250fd7751e7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1adbcac1dd1ed3cc14d91250fd7751e7">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_ConstructFromAnother</a> (const <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *other)</td></tr>
+<tr class="separator:a1adbcac1dd1ed3cc14d91250fd7751e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a380e45a17d1c53f752d6ecab458acc47" id="r_a380e45a17d1c53f752d6ecab458acc47"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a380e45a17d1c53f752d6ecab458acc47">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_AssignFromAnother</a> (<a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *_this, const <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *other)</td></tr>
+<tr class="separator:a380e45a17d1c53f752d6ecab458acc47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb1ca492e24025301e33b5114b7c7105" id="r_acb1ca492e24025301e33b5114b7c7105"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb1ca492e24025301e33b5114b7c7105">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_Destroy</a> (const <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *_this)</td></tr>
+<tr class="memdesc:acb1ca492e24025301e33b5114b7c7105"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:acb1ca492e24025301e33b5114b7c7105"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1771719c3694922bdf4b5e3ac4d3918" id="r_ad1771719c3694922bdf4b5e3ac4d3918"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1771719c3694922bdf4b5e3ac4d3918">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_DestroyArray</a> (const <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *_this)</td></tr>
+<tr class="memdesc:ad1771719c3694922bdf4b5e3ac4d3918"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ad1771719c3694922bdf4b5e3ac4d3918"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4521494f44425d643c4a629cd8c587aa" id="r_a4521494f44425d643c4a629cd8c587aa"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4521494f44425d643c4a629cd8c587aa">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_OffsetPtr</a> (const <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a4521494f44425d643c4a629cd8c587aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a4521494f44425d643c4a629cd8c587aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeb2eeb22c0bbcbd2f622397522001e1" id="r_afeb2eeb22c0bbcbd2f622397522001e1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afeb2eeb22c0bbcbd2f622397522001e1">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_OffsetMutablePtr</a> (<a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:afeb2eeb22c0bbcbd2f622397522001e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:afeb2eeb22c0bbcbd2f622397522001e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8eeddf332c68c1e902fc59be70b059fe" id="r_a8eeddf332c68c1e902fc59be70b059fe"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8eeddf332c68c1e902fc59be70b059fe">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_DerefKey</a> (const <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *_this)</td></tr>
+<tr class="separator:a8eeddf332c68c1e902fc59be70b059fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac974c22e114ce37877551c2e07711b6c" id="r_ac974c22e114ce37877551c2e07711b6c"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac974c22e114ce37877551c2e07711b6c">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_DerefValue</a> (const <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *_this)</td></tr>
+<tr class="separator:ac974c22e114ce37877551c2e07711b6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8307d3cab9f69d6978eda96fa61f22b6" id="r_a8307d3cab9f69d6978eda96fa61f22b6"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8307d3cab9f69d6978eda96fa61f22b6">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_Incr</a> (<a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *_this)</td></tr>
+<tr class="separator:a8307d3cab9f69d6978eda96fa61f22b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5015a56072aba4c7c3d737a4e8496e9" id="r_ac5015a56072aba4c7c3d737a4e8496e9"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5015a56072aba4c7c3d737a4e8496e9">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_DerefKey</a> (const <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *_this)</td></tr>
+<tr class="separator:ac5015a56072aba4c7c3d737a4e8496e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a33db9866bdf9682b6e78242f297145" id="r_a8a33db9866bdf9682b6e78242f297145"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a33db9866bdf9682b6e78242f297145">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_DerefValue</a> (const <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *_this)</td></tr>
+<tr class="separator:a8a33db9866bdf9682b6e78242f297145"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a705d1a48ea407d211a654319a8b239b5" id="r_a705d1a48ea407d211a654319a8b239b5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a705d1a48ea407d211a654319a8b239b5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_Incr</a> (<a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *_this)</td></tr>
+<tr class="separator:a705d1a48ea407d211a654319a8b239b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="afd0201e1c072ac1cc7168c11c3bd3a49" name="afd0201e1c072ac1cc7168c11c3bd3a49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd0201e1c072ac1cc7168c11c3bd3a49">&#9670;&#160;</a></span>MR_EdgeId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct MR_EdgeId MR_EdgeId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a05c8a0b2a783d50abb1f88499090a1c5" name="a05c8a0b2a783d50abb1f88499090a1c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05c8a0b2a783d50abb1f88499090a1c5">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from C++ container <code>phmap::flat_hash_map&lt;MR::UndirectedEdgeId, MR::EdgeId&gt;</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="aad60e63930bc43220bdbfeec6d9d5713" name="aad60e63930bc43220bdbfeec6d9d5713"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad60e63930bc43220bdbfeec6d9d5713">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Read-only iterator for <code>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a6b2b0cc198e4ffea41853cb9b153519d" name="a6b2b0cc198e4ffea41853cb9b153519d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b2b0cc198e4ffea41853cb9b153519d">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Mutable iterator for <code>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="af0143085136f3ff15c5a5150047793cb" name="af0143085136f3ff15c5a5150047793cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0143085136f3ff15c5a5150047793cb">&#9670;&#160;</a></span>MR_UndirectedEdgeId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct MR_UndirectedEdgeId MR_UndirectedEdgeId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a7cf12e42e3b288b4a8e9f7281da81710" name="a7cf12e42e3b288b4a8e9f7281da81710"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cf12e42e3b288b4a8e9f7281da81710">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad21177bc2b1ea08e52019e596c27a40d" name="ad21177bc2b1ea08e52019e596c27a40d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad21177bc2b1ea08e52019e596c27a40d">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_Begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> * MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_Begin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#afeb4f783bf0a1b2b416402ddeb3880a9" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iter...">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a9a1bc9f977fdaa82cb4d78e393088bd9" name="a9a1bc9f977fdaa82cb4d78e393088bd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a1bc9f977fdaa82cb4d78e393088bd9">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_Clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_Clear </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes all elements from the container. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6014e1c93ade87ce13aaac2977a98b6a" name="a6014e1c93ade87ce13aaac2977a98b6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6014e1c93ade87ce13aaac2977a98b6a">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3721f25e0987820e5c42f42db9ea04e9" name="a3721f25e0987820e5c42f42db9ea04e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3721f25e0987820e5c42f42db9ea04e9">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> * MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#afeb4f783bf0a1b2b416402ddeb3880a9" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iter...">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a49c9c38c53880b5fe37e22cd188602f4" name="a49c9c38c53880b5fe37e22cd188602f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49c9c38c53880b5fe37e22cd188602f4">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> * MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#afeb4f783bf0a1b2b416402ddeb3880a9" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iter...">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ad461314b77ba272a69cbffd861ba89ee" name="ad461314b77ba272a69cbffd861ba89ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad461314b77ba272a69cbffd861ba89ee">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> * MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a1f6233697a685f513135c6aeda6201a2" title="Destroys a heap-allocated array of MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterato...">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#ac4d06dfd4bb7b3fdf17599de44950112" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a54204c0d953ed2568e44f8757f221739" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a8eeddf332c68c1e902fc59be70b059fe" name="a8eeddf332c68c1e902fc59be70b059fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8eeddf332c68c1e902fc59be70b059fe">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_DerefKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> * MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_DerefKey </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a const iterator, returning the key. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ac974c22e114ce37877551c2e07711b6c" name="ac974c22e114ce37877551c2e07711b6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac974c22e114ce37877551c2e07711b6c">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_DerefValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> * MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_DerefValue </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a const iterator, returning the mapped value. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="afeb4f783bf0a1b2b416402ddeb3880a9" name="afeb4f783bf0a1b2b416402ddeb3880a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afeb4f783bf0a1b2b416402ddeb3880a9">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a1f6233697a685f513135c6aeda6201a2" name="a1f6233697a685f513135c6aeda6201a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f6233697a685f513135c6aeda6201a2">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ac8fd549bd241553125b86e46b8a67f5e" name="ac8fd549bd241553125b86e46b8a67f5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8fd549bd241553125b86e46b8a67f5e">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_FromMutable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> * MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_FromMutable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Makes a const iterator from a mutable one. Parameter <code>iter</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#afeb4f783bf0a1b2b416402ddeb3880a9" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iter...">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a8307d3cab9f69d6978eda96fa61f22b6" name="a8307d3cab9f69d6978eda96fa61f22b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8307d3cab9f69d6978eda96fa61f22b6">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac4d06dfd4bb7b3fdf17599de44950112" name="ac4d06dfd4bb7b3fdf17599de44950112"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4d06dfd4bb7b3fdf17599de44950112">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> * MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a54204c0d953ed2568e44f8757f221739" name="a54204c0d953ed2568e44f8757f221739"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54204c0d953ed2568e44f8757f221739">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> * MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a3ccc9fe1d7b68540519242d659a721e7" name="a3ccc9fe1d7b68540519242d659a721e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ccc9fe1d7b68540519242d659a721e7">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> * MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a72005d83bebff8d1ea0ca817f400be39" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId....">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ac3bf55cba32f3395415bddad3a6f4ebf" name="ac3bf55cba32f3395415bddad3a6f4ebf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3bf55cba32f3395415bddad3a6f4ebf">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_Contains()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_Contains </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>key</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Checks if the contain contains this key. Parameter <code>_this</code> can not be null. Parameter <code>key</code> can not be null. </p>
+
+</div>
+</div>
+<a id="abdebc1737c11ae52a81e5e20ff61a490" name="abdebc1737c11ae52a81e5e20ff61a490"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdebc1737c11ae52a81e5e20ff61a490">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> * MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a72005d83bebff8d1ea0ca817f400be39" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId....">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a79186382bc4bb8175512ddb96aee8b70" name="a79186382bc4bb8175512ddb96aee8b70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79186382bc4bb8175512ddb96aee8b70">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> * MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#aa4c3adc905a2fe023fc7a965af4ebaf8" title="Destroys a heap-allocated array of MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId....">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_DestroyArray()</a></code>. Use <code><a class="el" href="#a00174687a911a22d7bc4fba943065df7" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a811d3ab5515bfe35acd94854e9765fbe" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a72005d83bebff8d1ea0ca817f400be39" name="a72005d83bebff8d1ea0ca817f400be39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72005d83bebff8d1ea0ca817f400be39">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aa4c3adc905a2fe023fc7a965af4ebaf8" name="aa4c3adc905a2fe023fc7a965af4ebaf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4c3adc905a2fe023fc7a965af4ebaf8">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a132777bfdf434911178f17a106107789" name="a132777bfdf434911178f17a106107789"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a132777bfdf434911178f17a106107789">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_End()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> * MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_End </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#afeb4f783bf0a1b2b416402ddeb3880a9" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iter...">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a78b04c97e9411928448b429607c24025" name="a78b04c97e9411928448b429607c24025"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78b04c97e9411928448b429607c24025">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_Find()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> * MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_Find </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>key</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Finds the element by key, or returns the end iterator if no such key. Returns a read-only iterator. Parameter <code>_this</code> can not be null. Parameter <code>key</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#afeb4f783bf0a1b2b416402ddeb3880a9" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iter...">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5a9de0a2cbda72c0c2ddc79dd089b98e" name="a5a9de0a2cbda72c0c2ddc79dd089b98e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a9de0a2cbda72c0c2ddc79dd089b98e">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_FindMutable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> * MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_FindMutable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>key</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Finds the element by key, or returns the end iterator if no such key. Returns a mutable iterator. Parameter <code>_this</code> can not be null. Parameter <code>key</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#acb1ca492e24025301e33b5114b7c7105" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator....">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a0bf465ce3faba9ad963edc959e1146f5" name="a0bf465ce3faba9ad963edc959e1146f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bf465ce3faba9ad963edc959e1146f5">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_FindOrConstructElem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> * MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_FindOrConstructElem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>key</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the element with the specific key. If it doesn't exist, creates it first. Acts like map's <code>operator[]</code> in C++. Parameter <code>_this</code> can not be null. Parameter <code>key</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ace23c6652548d2e6ea11591d34e824b0" name="ace23c6652548d2e6ea11591d34e824b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace23c6652548d2e6ea11591d34e824b0">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_IsBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_IsBegin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad435ff310b42685b8601ac7027965771" name="ad435ff310b42685b8601ac7027965771"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad435ff310b42685b8601ac7027965771">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_IsEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_IsEmpty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns true if the size is zero. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aeb3432ada424538ca2a1126605c0fc4f" name="aeb3432ada424538ca2a1126605c0fc4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb3432ada424538ca2a1126605c0fc4f">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_IsEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_IsEnd </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aad60e63930bc43220bdbfeec6d9d5713">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a2d5bd451793ee0233b26df90d5f65c79" name="a2d5bd451793ee0233b26df90d5f65c79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d5bd451793ee0233b26df90d5f65c79">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_IsMutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_IsMutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a04edd980ed04c1b59689d1645df7fb1d" name="a04edd980ed04c1b59689d1645df7fb1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04edd980ed04c1b59689d1645df7fb1d">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_IsMutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_IsMutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a380e45a17d1c53f752d6ecab458acc47" name="a380e45a17d1c53f752d6ecab458acc47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a380e45a17d1c53f752d6ecab458acc47">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a1adbcac1dd1ed3cc14d91250fd7751e7" name="a1adbcac1dd1ed3cc14d91250fd7751e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1adbcac1dd1ed3cc14d91250fd7751e7">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> * MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#acb1ca492e24025301e33b5114b7c7105" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator....">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ade0b79ee3363d062139231c9094405e4" name="ade0b79ee3363d062139231c9094405e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade0b79ee3363d062139231c9094405e4">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> * MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#acb1ca492e24025301e33b5114b7c7105" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator....">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae2a0e1ce3cbe767c56a2d7929877986b" name="ae2a0e1ce3cbe767c56a2d7929877986b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2a0e1ce3cbe767c56a2d7929877986b">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> * MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#ad1771719c3694922bdf4b5e3ac4d3918" title="Destroys a heap-allocated array of MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator....">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#afeb2eeb22c0bbcbd2f622397522001e1" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a4521494f44425d643c4a629cd8c587aa" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ac5015a56072aba4c7c3d737a4e8496e9" name="ac5015a56072aba4c7c3d737a4e8496e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5015a56072aba4c7c3d737a4e8496e9">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_DerefKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> * MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_DerefKey </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a mutable iterator, returning the key. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a8a33db9866bdf9682b6e78242f297145" name="a8a33db9866bdf9682b6e78242f297145"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a33db9866bdf9682b6e78242f297145">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_DerefValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> * MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_DerefValue </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a mutable iterator, returning the mapped value. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="acb1ca492e24025301e33b5114b7c7105" name="acb1ca492e24025301e33b5114b7c7105"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb1ca492e24025301e33b5114b7c7105">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ad1771719c3694922bdf4b5e3ac4d3918" name="ad1771719c3694922bdf4b5e3ac4d3918"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1771719c3694922bdf4b5e3ac4d3918">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a705d1a48ea407d211a654319a8b239b5" name="a705d1a48ea407d211a654319a8b239b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a705d1a48ea407d211a654319a8b239b5">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="afeb2eeb22c0bbcbd2f622397522001e1" name="afeb2eeb22c0bbcbd2f622397522001e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afeb2eeb22c0bbcbd2f622397522001e1">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> * MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a4521494f44425d643c4a629cd8c587aa" name="a4521494f44425d643c4a629cd8c587aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4521494f44425d643c4a629cd8c587aa">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> * MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a20498c3f17230394eb13c3493408e916" name="a20498c3f17230394eb13c3493408e916"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20498c3f17230394eb13c3493408e916">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_MutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> * MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_MutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#acb1ca492e24025301e33b5114b7c7105" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator....">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a2d37378c7ce7ef7c5aefd2b9ccdbb6f6" name="a2d37378c7ce7ef7c5aefd2b9ccdbb6f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d37378c7ce7ef7c5aefd2b9ccdbb6f6">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_MutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a6b2b0cc198e4ffea41853cb9b153519d">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator</a> * MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_MutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#acb1ca492e24025301e33b5114b7c7105" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator....">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a00174687a911a22d7bc4fba943065df7" name="a00174687a911a22d7bc4fba943065df7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00174687a911a22d7bc4fba943065df7">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> * MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a811d3ab5515bfe35acd94854e9765fbe" name="a811d3ab5515bfe35acd94854e9765fbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a811d3ab5515bfe35acd94854e9765fbe">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> * MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ae7a76add9c22b0e33fc30d6cb0c2bcd7" name="ae7a76add9c22b0e33fc30d6cb0c2bcd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7a76add9c22b0e33fc30d6cb0c2bcd7">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_Size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId_Size </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMapEdge_8h.html#a05c8a0b2a783d50abb1f88499090a1c5">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_a57e8462869cab4a5203dede5869920d.html">MRCMisc</a></li><li class="navelem"><a class="el" href="phmap__flat__hash__map__MR__UndirectedEdgeId__MR__EdgeId_8h.html">phmap_flat_hash_map_MR_UndirectedEdgeId_MR_EdgeId.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

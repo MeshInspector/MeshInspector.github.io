@@ -1,0 +1,276 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: Modules Members</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('namespacemembers_c.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="contents">
+<div class="textblock">Here is a list of all namespace members with links to the namespace documentation for each member:</div>
+
+<h3><a id="index_c" name="index_c"></a>- c -</h3><ul>
+<li>calcAvgColors()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a1b9b78b05b12217e14dd9edbcdc76efd">meshlib.mrmeshpy</a></li>
+<li>calcCombinedFillMetric()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a5ba713b18fbef424adb383e1e9769624">meshlib.mrmeshpy</a></li>
+<li>calcDamerauLevenshteinDistance()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a0581c077247a8b5c5884f355b93d411a">meshlib.mrmeshpy</a></li>
+<li>calcDipoles()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a1c3c7f34d3bd27c66cdd8d8618eac045">meshlib.mrmeshpy</a></li>
+<li>calcFaceDistances()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ab5acc0717c6386ccb73ccfbe5e60c48e">meshlib.mrmeshpy</a></li>
+<li>calcFastWindingNumber()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a30956ed9177dfcf2fa65c98d7ae851dc">meshlib.mrmeshpy</a></li>
+<li>calcLength()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a3381e727c7afde3b3b62920e41b4522d">meshlib.mrmeshpy</a></li>
+<li>calcOrientedArea()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ac411e406996eb488a809145c9342dfe9">meshlib.mrmeshpy</a></li>
+<li>calcOriginAndDimensions()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#aeaeeef8a825f77bc83227b9601d2312a">meshlib.mrmeshpy</a></li>
+<li>calcPathLength()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ab1fbbbe80cb5703be5a727dd768e2bde">meshlib.mrmeshpy</a></li>
+<li>calcPathMetric()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ade2b55c18f9c028c2b1fc4c654866a9a">meshlib.mrmeshpy</a></li>
+<li>canMinimizePolynomial()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a7c5085cea7fc905fc694d504da5ec5c6">meshlib.mrmeshpy</a></li>
+<li>canSolvePolynomial()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ad8370ff44276a54c3ecfb2ab66345627">meshlib.mrmeshpy</a></li>
+<li>ccw()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a66341b1d8af1784ca323d45b8f3d3e82">meshlib.mrmeshpy</a></li>
+<li>checkDeloneQuadrangle()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a72a8995c3a2a9c37374b9cb4412591ca">meshlib.mrmeshpy</a></li>
+<li>checkDeloneQuadrangleInMesh()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a4714052114db2159766ddf47d906add5">meshlib.mrmeshpy</a></li>
+<li>classifyShellVert()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#aa865271de0fbef8ee67de731daac3ff6">meshlib.mrmeshpy</a></li>
+<li>clearScene()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrviewerpy.html#aafe1b0c98cc4d0e4574f61a173fd8e35">meshlib.mrviewerpy</a></li>
+<li>cloneRegion()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ad68de8874a34243ec8d8827bcebbd1d4">meshlib.mrmeshpy</a></li>
+<li>ColorMapAggregator_FaceTag&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a64e62f9e5005a41a7da255c36af761c5">meshlib.mrmeshpy</a></li>
+<li>ColorMapAggregator_FaceTag_ColorMap&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a6d40a9be2d0b7a3d0f23d899e6f732f4">meshlib.mrmeshpy</a></li>
+<li>ColorMapAggregator_FaceTag_ElementBitSet&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a2420926d0e42b6b3de03297d1f8aa6f4">meshlib.mrmeshpy</a></li>
+<li>ColorMapAggregator_UndirectedEdgeTag&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a00c14919920f7d36064b9a7aa403b2e0">meshlib.mrmeshpy</a></li>
+<li>ColorMapAggregator_UndirectedEdgeTag_ColorMap&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ac3b3cdef8ee3bbcc5d1e6d3e5920174d">meshlib.mrmeshpy</a></li>
+<li>ColorMapAggregator_UndirectedEdgeTag_ElementBitSet&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a8e579c8968bd85e0bdfb8d3907a0f63a">meshlib.mrmeshpy</a></li>
+<li>ColorMapAggregator_VertTag&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ab56bd4e831317595a1d0533081e3a99c">meshlib.mrmeshpy</a></li>
+<li>ColorMapAggregator_VertTag_ColorMap&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a1e2b72a170c07cfd9f01af5304f47082">meshlib.mrmeshpy</a></li>
+<li>ColorMapAggregator_VertTag_ElementBitSet&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#abf620dfb210f84df20139f12a3bbb80a">meshlib.mrmeshpy</a></li>
+<li>combineXYderivativeMaps()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ae9b2c8dd11c05a92ec875f5b1456bb04">meshlib.mrmeshpy</a></li>
+<li>commonFilesName()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a180daa083e3cd99d0371a6ff06c53c6c">meshlib.mrmeshpy</a></li>
+<li>compressZip()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a65ffd40f46a9b79dbd517ebd908fbb75">meshlib.mrmeshpy</a></li>
+<li>computeBasinVolume()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a2e0513aba86d66903cbedf71ac08e857">meshlib.mrmeshpy</a></li>
+<li>computeClosestSurfacePathTargets()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a1efb5beb31ab152ee4bdc406ae83f52f">meshlib.mrmeshpy</a></li>
+<li>computeDistanceMap()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrcudapy.html#a1077e2fc1826622a6de394bccb7a83d0">meshlib.mrcudapy</a>, <a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a789069f7c4e7449c187a8f7d96de7370">meshlib.mrmeshpy</a></li>
+<li>computeDistanceMapD()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a04af77af310d5e82e32d585819168043">meshlib.mrmeshpy</a></li>
+<li>computeDistanceMapHeapBytes()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrcudapy.html#ae0c1f2b6b4caa363bbbffc12e387e5a2">meshlib.mrcudapy</a></li>
+<li>computeFastMarchingPath()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a0585ea55d8fec34c55cb16635d555b2f">meshlib.mrmeshpy</a></li>
+<li>computeFormAtVertex()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ab0615edef611619e843afb7158c73d8d">meshlib.mrmeshpy</a></li>
+<li>computeFormsAtVertices()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ae5d94bdcbadcb3a24661b8c6639594de">meshlib.mrmeshpy</a></li>
+<li>computeGeodesicPath()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a683c30d1152ea1f1ba007bbe7f122c26">meshlib.mrmeshpy</a></li>
+<li>computeGeodesicPathApprox()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a63b0d6c3a1e1145fa8aa22bee74d4740">meshlib.mrmeshpy</a></li>
+<li>computeInSphereThicknessAtVertices()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a8d2a795aaf6499223316f9c4186fdf49">meshlib.mrmeshpy</a></li>
+<li>computeMeshNormals()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a28c0d3aaa82b9bdced82e5710d919823">meshlib.mrmeshpy</a></li>
+<li>computeNormal()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a9cf121de83111da0be74340668b2108e">meshlib.mrmeshpy</a></li>
+<li>computePerCornerNormals()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a3c83a1130f7f18a44bac32af28a282a8">meshlib.mrmeshpy</a></li>
+<li>computePerFaceNormals()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a1c5450a0dec28e39d0878b1dec62a4eb">meshlib.mrmeshpy</a></li>
+<li>computePerFaceNormals4()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ac8afd0aefc6a3862440aa70da0bbaa5e">meshlib.mrmeshpy</a></li>
+<li>computePerVertNormals()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#af60f000ba5e04a72823b39cf3f7d0200">meshlib.mrmeshpy</a></li>
+<li>computePerVertPseudoNormals()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a501ad4deefb7f8df1e5dbc70d760fdf8">meshlib.mrmeshpy</a></li>
+<li>computeRayThicknessAtVertices()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a25f24845fe33b9d65b14e8be65c5d3e1">meshlib.mrmeshpy</a></li>
+<li>computeSkyViewFactor()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrcudapy.html#a12d004d04fe4fe75cecdc2bdd50e6472">meshlib.mrcudapy</a>, <a class="el" href="namespacemeshlib_1_1mrmeshpy.html#aa830aa6aad7a12eb9bb7106ba30bfaf6">meshlib.mrmeshpy</a></li>
+<li>computeSpaceDistances()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#aaea9e4f27de568bf313e82b630f2e647">meshlib.mrmeshpy</a></li>
+<li>computeSteepestDescentPath()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a9bd430d4aaad16a83c5514f69f2505ce">meshlib.mrmeshpy</a></li>
+<li>computeSurfaceDistances()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#af011399629fc1f8f3c91c3bf0ae91082">meshlib.mrmeshpy</a></li>
+<li>computeSurfacePath()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a316309e386fc8aed8f2289cb5cd8d6b4">meshlib.mrmeshpy</a></li>
+<li>computeThicknessAtVertices()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a1f3904924004607f0f3d1af08dfacfa6">meshlib.mrmeshpy</a></li>
+<li>computeTrianglesRepetitions()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#aaf78c149e68f9b02598a6f3060b362ff">meshlib.mrmeshpy</a></li>
+<li>Cone3_double&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ae2093dd196df81aec0270e2f05337218">meshlib.mrmeshpy</a></li>
+<li>Cone3_float&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a56fe8da8f8a637dfbf79b403d95dad13">meshlib.mrmeshpy</a></li>
+<li>constantCuspToolPath()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#aa191fd01aff386285de816a6211affc7">meshlib.mrmeshpy</a></li>
+<li>constantZToolPath()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a09ef91850d03d7ce1b10065e40d47394">meshlib.mrmeshpy</a></li>
+<li>contains()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a987bb2e7a4e6354fe49d2aa449099509">meshlib.mrmeshpy</a></li>
+<li>ContinuousContour&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a2c1a6cb03c48c1c406665e792f877a40">meshlib.mrmeshpy</a></li>
+<li>ContinuousContours&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a99ae9b94c59bb791aa1d0da63e08fcaa">meshlib.mrmeshpy</a></li>
+<li>Contour2_double&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ae808181134451dbf7c7f480366232935">meshlib.mrmeshpy</a></li>
+<li>Contour2_float&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ac4526d276563dbdfb43d17cae9ce7ace">meshlib.mrmeshpy</a></li>
+<li>Contour2d&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#aff3486815d40abc3b124759e9ce49903">meshlib.mrmeshpy</a></li>
+<li>Contour2f&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a7cb8d42c7ac21c8440ed110435056ccf">meshlib.mrmeshpy</a></li>
+<li>Contour3_double&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a2ca9b1e5c25642c2679e3de7dc38f0b2">meshlib.mrmeshpy</a></li>
+<li>Contour3_float&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a6054fb4dd751a13868ae09bbba2d7fa3">meshlib.mrmeshpy</a></li>
+<li>Contour3d&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a84b76e32b74082388a7d6556e1fe8373">meshlib.mrmeshpy</a></li>
+<li>Contour3f&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a384b2f18ad22b2db8bb25ff3f6a6676b">meshlib.mrmeshpy</a></li>
+<li>Contour_Vector2d&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ae3a19ab287b0f495b2be83fbf56f31b1">meshlib.mrmeshpy</a></li>
+<li>Contour_Vector2f&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a0fe935c80e7d990b278e4c63dcc1f793">meshlib.mrmeshpy</a></li>
+<li>Contour_Vector3d&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ac36882eee4cced5985030bf76cf58f36">meshlib.mrmeshpy</a></li>
+<li>Contour_Vector3f&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a5b19dc9e79796e7ec5fdbface8e9888e">meshlib.mrmeshpy</a></li>
+<li>contourIntersection()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a44be808b1efb7840127e2ed4230dddb9">meshlib.mrmeshpy</a></li>
+<li>Contours2_double&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ae6b91ad4d33693f2f580e470e81ba16f">meshlib.mrmeshpy</a></li>
+<li>Contours2_float&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ae29fc19c7a19d7cbae71078b947b0d4d">meshlib.mrmeshpy</a></li>
+<li>Contours2d&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a94f085ff1d5ab1ba55dba14d4d9676ba">meshlib.mrmeshpy</a></li>
+<li>Contours2f&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a20690f7800af63f335536152ba6f1f74">meshlib.mrmeshpy</a></li>
+<li>Contours3_double&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a2d6a6f9be58ce5957bb0757f3227230e">meshlib.mrmeshpy</a></li>
+<li>Contours3_float&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a7d17071515daf17af58f485215495b80">meshlib.mrmeshpy</a></li>
+<li>Contours3d&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ab482e1b07f5ffa4e73a1cdc05cdedf2f">meshlib.mrmeshpy</a></li>
+<li>Contours3f&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a81f511d9642b836a5f0516a439166629">meshlib.mrmeshpy</a></li>
+<li>Contours_Vector2f&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a8588c8e8c1759acb382f91b5bef8f0b8">meshlib.mrmeshpy</a></li>
+<li>Contours_Vector3f&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a26069b37f33fe341bbca744fbfd69522">meshlib.mrmeshpy</a></li>
+<li>contourSubtract()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a6b4c0918cb03328e31097a4675c5a464">meshlib.mrmeshpy</a></li>
+<li>contourUnion()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a35069e5a47d173f804fd15d42634e9bc">meshlib.mrmeshpy</a></li>
+<li>convertDistanceMapToImage()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a96b3c8a689196ebe25291f3aedae4dee">meshlib.mrmeshpy</a></li>
+<li>convertImageToDistanceMap()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a740c8db411b7120b9865139c70b7f83b">meshlib.mrmeshpy</a></li>
+<li>convertMeshTriPointsIsoLineToMeshContour()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a20d5fe2b6ef789cd543144f96ef37585">meshlib.mrmeshpy</a></li>
+<li>convertMeshTriPointsToClosedContour()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a71f1ec59a4b40d7d82e3b088c28796e2">meshlib.mrmeshpy</a></li>
+<li>convertMeshTriPointsToMeshContour()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a44612b15cfdf70ae3facc29ab57931a4">meshlib.mrmeshpy</a></li>
+<li>convertSurfacePathsToMeshContours()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#ad6323f0f3abb4586c6076b535be19e1c">meshlib.mrmeshpy</a></li>
+<li>convertSurfacePathWithEndsToMeshContour()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a363edb920c6cf15a76e115ffc46cd918">meshlib.mrmeshpy</a></li>
+<li>copyContour()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#aedd9d4338ff1ebf3f0fabeb95cd30a01">meshlib.mrmeshpy</a></li>
+<li>copyMesh&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#abb26608cbae13cab58390878a6aaba02">meshlib.mrmeshpy</a></li>
+<li>createObject()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a96fe3a26558eae8a267c8e9cb8be4b76">meshlib.mrmeshpy</a></li>
+<li>createRootFormObject()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a90e5bbfdc9efcded673e0889abba2408">meshlib.mrmeshpy</a></li>
+<li>createSymbolContours()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#afe8cd594725b7396da5b467534accd53">meshlib.mrmeshpy</a></li>
+<li>createSymbolsMesh()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a5450aa04af2a894288b3f1a4859f0bc3">meshlib.mrmeshpy</a></li>
+<li>cropped()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a7123de4790f5b9afd3aa3595dbe0da06">meshlib.mrmeshpy</a></li>
+<li>cross()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a9c73795ac44e80ce9e17c5718a74f65f">meshlib.mrmeshpy</a></li>
+<li>cutAlongEdgeLoop()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a3fa8a825bfd57be1489a92d2696ceaa9">meshlib.mrmeshpy</a></li>
+<li>cutMesh()&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a3ddc06c0b620084e57993907e06ce1f5">meshlib.mrmeshpy</a></li>
+<li>Cylinder3_double&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a38b9ac6da3333877e1a166c830a3c442">meshlib.mrmeshpy</a></li>
+<li>Cylinder3_float&#160;:&#160;<a class="el" href="namespacemeshlib_1_1mrmeshpy.html#a6ca73080faa991f22765685895d54b16">meshlib.mrmeshpy</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

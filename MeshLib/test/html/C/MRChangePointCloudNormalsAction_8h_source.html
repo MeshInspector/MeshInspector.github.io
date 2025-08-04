@@ -1,0 +1,292 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRChangePointCloudNormalsAction.h Source File</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRChangePointCloudNormalsAction_8h_source.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">MRChangePointCloudNormalsAction.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="MRChangePointCloudNormalsAction_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="MRHistoryAction_8h.html">MRCMesh/MRHistoryAction.h</a>&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;<a class="code" href="MRId_8h.html">MRCMesh/MRId.h</a>&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;<a class="code" href="common_8h.html">MRCMisc/common.h</a>&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;MRCMisc/exports.h&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">   14</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> <a class="code hl_typedef" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRHistoryAction.h&gt;`.</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#a6bf133eda1ec95be202b77c33412bc8e">   15</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRVector3.h&gt;`.</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#a249fd9254c0c3395567807936ad32641">   16</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> <a class="code hl_typedef" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRVector.h&gt;`.</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#a435e0aa2bd12dee2d56d7a965a666e4c">   17</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRChangePointCloudAction_8h.html#a435e0aa2bd12dee2d56d7a965a666e4c">MR_std_shared_ptr_MR_ObjectPoints</a> <a class="code hl_typedef" href="MRChangePointCloudAction_8h.html#a435e0aa2bd12dee2d56d7a965a666e4c">MR_std_shared_ptr_MR_ObjectPoints</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_shared_ptr_MR_ObjectPoints.h&gt;`.</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#a69dc6868c10c92fb8b8a255b0130d289">   18</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_string.h&gt;`.</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">typedef</span> <span class="keyword">struct </span>MR_ChangePointCloudNormalsAction MR_ChangePointCloudNormalsAction;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">typedef</span> <span class="keyword">struct </span>MR_ChangeOneNormalInCloudAction MR_ChangeOneNormalInCloudAction;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#a2becf9deb9227d57a4c3296093a402c6">   39</a></span>MRC_API MR_ChangePointCloudNormalsAction *<a class="code hl_function" href="MRChangePointCloudNormalsAction_8h.html#a2becf9deb9227d57a4c3296093a402c6">MR_ChangePointCloudNormalsAction_ConstructFromAnother</a>(<a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, MR_ChangePointCloudNormalsAction *_other);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#aff414bd28bae9e1f3bf3d953d0096a99">   42</a></span>MRC_API <span class="keyword">const</span> MR_ChangePointCloudNormalsAction *<a class="code hl_function" href="MRChangePointCloudNormalsAction_8h.html#aff414bd28bae9e1f3bf3d953d0096a99">MR_ChangePointCloudNormalsAction_OffsetPtr</a>(<span class="keyword">const</span> MR_ChangePointCloudNormalsAction *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#a85f867f87fd2a81204a196305f744a86">   45</a></span>MRC_API MR_ChangePointCloudNormalsAction *<a class="code hl_function" href="MRChangePointCloudNormalsAction_8h.html#a85f867f87fd2a81204a196305f744a86">MR_ChangePointCloudNormalsAction_OffsetMutablePtr</a>(MR_ChangePointCloudNormalsAction *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#a0e823ae9030247969b69bb68ad8a867e">   49</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *<a class="code hl_function" href="MRChangePointCloudNormalsAction_8h.html#a0e823ae9030247969b69bb68ad8a867e">MR_ChangePointCloudNormalsAction_UpcastTo_MR_HistoryAction</a>(<span class="keyword">const</span> MR_ChangePointCloudNormalsAction *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#ae3864d3dd5224c6fb849719bc85afcd8">   52</a></span>MRC_API <a class="code hl_typedef" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *<a class="code hl_function" href="MRChangePointCloudNormalsAction_8h.html#ae3864d3dd5224c6fb849719bc85afcd8">MR_ChangePointCloudNormalsAction_MutableUpcastTo_MR_HistoryAction</a>(MR_ChangePointCloudNormalsAction *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#a934bf14763e4d9ac8ca40c97b3cfce68">   60</a></span>MRC_API MR_ChangePointCloudNormalsAction *<a class="code hl_function" href="MRChangePointCloudNormalsAction_8h.html#a934bf14763e4d9ac8ca40c97b3cfce68">MR_ChangePointCloudNormalsAction_Construct_2</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_functionRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, <span class="keyword">const</span> <span class="keywordtype">char</span> *name_end, <span class="keyword">const</span> <a class="code hl_typedef" href="MRChangePointCloudAction_8h.html#a435e0aa2bd12dee2d56d7a965a666e4c">MR_std_shared_ptr_MR_ObjectPoints</a> *obj);</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#a17ef7dfdccce62511a019c35f3b25d90">   71</a></span>MRC_API MR_ChangePointCloudNormalsAction *<a class="code hl_function" href="MRChangePointCloudNormalsAction_8h.html#a17ef7dfdccce62511a019c35f3b25d90">MR_ChangePointCloudNormalsAction_Construct_3</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_functionRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, <span class="keyword">const</span> <span class="keywordtype">char</span> *name_end, <span class="keyword">const</span> <a class="code hl_typedef" href="MRChangePointCloudAction_8h.html#a435e0aa2bd12dee2d56d7a965a666e4c">MR_std_shared_ptr_MR_ObjectPoints</a> *obj, <a class="code hl_typedef" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *newNormals);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#a06c9b7564cada6c7ffe20d28ec9bbb73">   74</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRChangePointCloudNormalsAction_8h.html#a06c9b7564cada6c7ffe20d28ec9bbb73">MR_ChangePointCloudNormalsAction_Destroy</a>(<span class="keyword">const</span> MR_ChangePointCloudNormalsAction *_this);</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#a8e9315f06b73ef58222729b44d77d021">   77</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRChangePointCloudNormalsAction_8h.html#a8e9315f06b73ef58222729b44d77d021">MR_ChangePointCloudNormalsAction_DestroyArray</a>(<span class="keyword">const</span> MR_ChangePointCloudNormalsAction *_this);</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#a0bc56297223264a903269d8d52b2fc4b">   82</a></span>MRC_API MR_ChangePointCloudNormalsAction *<a class="code hl_function" href="MRChangePointCloudNormalsAction_8h.html#a0bc56297223264a903269d8d52b2fc4b">MR_ChangePointCloudNormalsAction_AssignFromAnother</a>(MR_ChangePointCloudNormalsAction *_this, <a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, MR_ChangePointCloudNormalsAction *_other);</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#af0156362620dff60e68989962c610bfc">   87</a></span>MRC_API <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="code hl_function" href="MRChangePointCloudNormalsAction_8h.html#af0156362620dff60e68989962c610bfc">MR_ChangePointCloudNormalsAction_name</a>(<span class="keyword">const</span> MR_ChangePointCloudNormalsAction *_this);</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#a601ec7f2e57d705be3d6ba1115b10ba9">   91</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRChangePointCloudNormalsAction_8h.html#a601ec7f2e57d705be3d6ba1115b10ba9">MR_ChangePointCloudNormalsAction_action</a>(MR_ChangePointCloudNormalsAction *_this, <a class="code hl_typedef" href="MRHistoryAction_8h.html#aa6545a91fb04c0c7a224383de1b0d1dc">MR_HistoryAction_Type</a> _1);</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#a200e451865357d736cf0a8a9a47c0963">   95</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRChangePointCloudNormalsAction_8h.html#a200e451865357d736cf0a8a9a47c0963">MR_ChangePointCloudNormalsAction_setObjectDirty</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRChangePointCloudAction_8h.html#a435e0aa2bd12dee2d56d7a965a666e4c">MR_std_shared_ptr_MR_ObjectPoints</a> *obj);</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#a5256ed3436c4a895f2a98d39bf5fc5d9">   99</a></span>MRC_API <a class="code hl_typedef" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> <a class="code hl_function" href="MRChangePointCloudNormalsAction_8h.html#a5256ed3436c4a895f2a98d39bf5fc5d9">MR_ChangePointCloudNormalsAction_heapBytes</a>(<span class="keyword">const</span> MR_ChangePointCloudNormalsAction *_this);</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#a05f769f1d2a9c43f557c3b1af299a38e">  103</a></span>MRC_API MR_ChangeOneNormalInCloudAction *<a class="code hl_function" href="MRChangePointCloudNormalsAction_8h.html#a05f769f1d2a9c43f557c3b1af299a38e">MR_ChangeOneNormalInCloudAction_ConstructFromAnother</a>(<a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, MR_ChangeOneNormalInCloudAction *_other);</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#a657cdbb52b1f67f71719fec2c20a2d70">  106</a></span>MRC_API <span class="keyword">const</span> MR_ChangeOneNormalInCloudAction *<a class="code hl_function" href="MRChangePointCloudNormalsAction_8h.html#a657cdbb52b1f67f71719fec2c20a2d70">MR_ChangeOneNormalInCloudAction_OffsetPtr</a>(<span class="keyword">const</span> MR_ChangeOneNormalInCloudAction *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#af1cf74219d8251a2699daf60215865ba">  109</a></span>MRC_API MR_ChangeOneNormalInCloudAction *<a class="code hl_function" href="MRChangePointCloudNormalsAction_8h.html#af1cf74219d8251a2699daf60215865ba">MR_ChangeOneNormalInCloudAction_OffsetMutablePtr</a>(MR_ChangeOneNormalInCloudAction *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#ab008a8f64b47c74448e1e6b55b81f908">  113</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *<a class="code hl_function" href="MRChangePointCloudNormalsAction_8h.html#ab008a8f64b47c74448e1e6b55b81f908">MR_ChangeOneNormalInCloudAction_UpcastTo_MR_HistoryAction</a>(<span class="keyword">const</span> MR_ChangeOneNormalInCloudAction *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#ad09df81322d15f13432e755acfb03b9a">  116</a></span>MRC_API <a class="code hl_typedef" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *<a class="code hl_function" href="MRChangePointCloudNormalsAction_8h.html#ad09df81322d15f13432e755acfb03b9a">MR_ChangeOneNormalInCloudAction_MutableUpcastTo_MR_HistoryAction</a>(MR_ChangeOneNormalInCloudAction *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#a738a984fc62ccf26b8f74a9433ca9afd">  124</a></span>MRC_API MR_ChangeOneNormalInCloudAction *<a class="code hl_function" href="MRChangePointCloudNormalsAction_8h.html#a738a984fc62ccf26b8f74a9433ca9afd">MR_ChangeOneNormalInCloudAction_Construct_3</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_functionRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, <span class="keyword">const</span> <span class="keywordtype">char</span> *name_end, <span class="keyword">const</span> <a class="code hl_typedef" href="MRChangePointCloudAction_8h.html#a435e0aa2bd12dee2d56d7a965a666e4c">MR_std_shared_ptr_MR_ObjectPoints</a> *obj, <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> pointId);</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#a9f4d7b92a68b59e489023bec08a56e00">  133</a></span>MRC_API MR_ChangeOneNormalInCloudAction *<a class="code hl_function" href="MRChangePointCloudNormalsAction_8h.html#a9f4d7b92a68b59e489023bec08a56e00">MR_ChangeOneNormalInCloudAction_Construct_4</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_functionRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, <span class="keyword">const</span> <span class="keywordtype">char</span> *name_end, <span class="keyword">const</span> <a class="code hl_typedef" href="MRChangePointCloudAction_8h.html#a435e0aa2bd12dee2d56d7a965a666e4c">MR_std_shared_ptr_MR_ObjectPoints</a> *obj, <a class="code hl_struct" href="structMR__VertId.html">MR_VertId</a> pointId, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *newNormal);</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#a2a424762bce02bd8d8f79d63efde494a">  136</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRChangePointCloudNormalsAction_8h.html#a2a424762bce02bd8d8f79d63efde494a">MR_ChangeOneNormalInCloudAction_Destroy</a>(<span class="keyword">const</span> MR_ChangeOneNormalInCloudAction *_this);</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span> </div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#ad0f3404ec244729843d689c673a787d7">  139</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRChangePointCloudNormalsAction_8h.html#ad0f3404ec244729843d689c673a787d7">MR_ChangeOneNormalInCloudAction_DestroyArray</a>(<span class="keyword">const</span> MR_ChangeOneNormalInCloudAction *_this);</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span> </div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#a51b0046d22f4560f7153b78cd13b73af">  144</a></span>MRC_API MR_ChangeOneNormalInCloudAction *<a class="code hl_function" href="MRChangePointCloudNormalsAction_8h.html#a51b0046d22f4560f7153b78cd13b73af">MR_ChangeOneNormalInCloudAction_AssignFromAnother</a>(MR_ChangeOneNormalInCloudAction *_this, <a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, MR_ChangeOneNormalInCloudAction *_other);</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span> </div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#aa30824da4b2ed8f2b978af7167e5e7fb">  149</a></span>MRC_API <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="code hl_function" href="MRChangePointCloudNormalsAction_8h.html#aa30824da4b2ed8f2b978af7167e5e7fb">MR_ChangeOneNormalInCloudAction_name</a>(<span class="keyword">const</span> MR_ChangeOneNormalInCloudAction *_this);</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span> </div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#ab0392ac3c7882fb8a469829752e9c345">  153</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRChangePointCloudNormalsAction_8h.html#ab0392ac3c7882fb8a469829752e9c345">MR_ChangeOneNormalInCloudAction_action</a>(MR_ChangeOneNormalInCloudAction *_this, <a class="code hl_typedef" href="MRHistoryAction_8h.html#aa6545a91fb04c0c7a224383de1b0d1dc">MR_HistoryAction_Type</a> _1);</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span> </div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#ade1e9bb7a45b0fe73be2c6a810d3daff">  157</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRChangePointCloudNormalsAction_8h.html#ade1e9bb7a45b0fe73be2c6a810d3daff">MR_ChangeOneNormalInCloudAction_setObjectDirty</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRChangePointCloudAction_8h.html#a435e0aa2bd12dee2d56d7a965a666e4c">MR_std_shared_ptr_MR_ObjectPoints</a> *obj);</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span> </div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno"><a class="line" href="MRChangePointCloudNormalsAction_8h.html#a19b9898a64f54f45245dae086a708651">  161</a></span>MRC_API <a class="code hl_typedef" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> <a class="code hl_function" href="MRChangePointCloudNormalsAction_8h.html#a19b9898a64f54f45245dae086a708651">MR_ChangeOneNormalInCloudAction_heapBytes</a>(<span class="keyword">const</span> MR_ChangeOneNormalInCloudAction *_this);</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span> </div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aMRAABBTreePoints_8h_html_a249fd9254c0c3395567807936ad32641"><div class="ttname"><a href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a></div><div class="ttdeci">struct MR_VertCoords MR_VertCoords</div><div class="ttdef"><b>Definition</b> MRAABBTreePoints.h:22</div></div>
+<div class="ttc" id="aMRChangeColoringActions_8h_html_a26fdcccc5668d7a10acc1e27c11d1e56"><div class="ttname"><a href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a></div><div class="ttdeci">struct MR_HistoryAction MR_HistoryAction</div><div class="ttdef"><b>Definition</b> MRChangeColoringActions.h:15</div></div>
+<div class="ttc" id="aMRChangePointCloudAction_8h_html_a435e0aa2bd12dee2d56d7a965a666e4c"><div class="ttname"><a href="MRChangePointCloudAction_8h.html#a435e0aa2bd12dee2d56d7a965a666e4c">MR_std_shared_ptr_MR_ObjectPoints</a></div><div class="ttdeci">struct MR_std_shared_ptr_MR_ObjectPoints MR_std_shared_ptr_MR_ObjectPoints</div><div class="ttdef"><b>Definition</b> MRChangePointCloudAction.h:17</div></div>
+<div class="ttc" id="aMRChangePointCloudNormalsAction_8h_html_a05f769f1d2a9c43f557c3b1af299a38e"><div class="ttname"><a href="MRChangePointCloudNormalsAction_8h.html#a05f769f1d2a9c43f557c3b1af299a38e">MR_ChangeOneNormalInCloudAction_ConstructFromAnother</a></div><div class="ttdeci">MRC_API MR_ChangeOneNormalInCloudAction * MR_ChangeOneNormalInCloudAction_ConstructFromAnother(MR_PassBy _other_pass_by, MR_ChangeOneNormalInCloudAction *_other)</div></div>
+<div class="ttc" id="aMRChangePointCloudNormalsAction_8h_html_a06c9b7564cada6c7ffe20d28ec9bbb73"><div class="ttname"><a href="MRChangePointCloudNormalsAction_8h.html#a06c9b7564cada6c7ffe20d28ec9bbb73">MR_ChangePointCloudNormalsAction_Destroy</a></div><div class="ttdeci">MRC_API void MR_ChangePointCloudNormalsAction_Destroy(const MR_ChangePointCloudNormalsAction *_this)</div><div class="ttdoc">Destroys a heap-allocated instance of MR_ChangePointCloudNormalsAction. Does nothing if the pointer i...</div></div>
+<div class="ttc" id="aMRChangePointCloudNormalsAction_8h_html_a0bc56297223264a903269d8d52b2fc4b"><div class="ttname"><a href="MRChangePointCloudNormalsAction_8h.html#a0bc56297223264a903269d8d52b2fc4b">MR_ChangePointCloudNormalsAction_AssignFromAnother</a></div><div class="ttdeci">MRC_API MR_ChangePointCloudNormalsAction * MR_ChangePointCloudNormalsAction_AssignFromAnother(MR_ChangePointCloudNormalsAction *_this, MR_PassBy _other_pass_by, MR_ChangePointCloudNormalsAction *_other)</div></div>
+<div class="ttc" id="aMRChangePointCloudNormalsAction_8h_html_a0e823ae9030247969b69bb68ad8a867e"><div class="ttname"><a href="MRChangePointCloudNormalsAction_8h.html#a0e823ae9030247969b69bb68ad8a867e">MR_ChangePointCloudNormalsAction_UpcastTo_MR_HistoryAction</a></div><div class="ttdeci">MRC_API const MR_HistoryAction * MR_ChangePointCloudNormalsAction_UpcastTo_MR_HistoryAction(const MR_ChangePointCloudNormalsAction *object)</div></div>
+<div class="ttc" id="aMRChangePointCloudNormalsAction_8h_html_a17ef7dfdccce62511a019c35f3b25d90"><div class="ttname"><a href="MRChangePointCloudNormalsAction_8h.html#a17ef7dfdccce62511a019c35f3b25d90">MR_ChangePointCloudNormalsAction_Construct_3</a></div><div class="ttdeci">MRC_API MR_ChangePointCloudNormalsAction * MR_ChangePointCloudNormalsAction_Construct_3(const char *name, const char *name_end, const MR_std_shared_ptr_MR_ObjectPoints *obj, MR_VertCoords *newNormals)</div></div>
+<div class="ttc" id="aMRChangePointCloudNormalsAction_8h_html_a19b9898a64f54f45245dae086a708651"><div class="ttname"><a href="MRChangePointCloudNormalsAction_8h.html#a19b9898a64f54f45245dae086a708651">MR_ChangeOneNormalInCloudAction_heapBytes</a></div><div class="ttdeci">MRC_API MR_uint64_t MR_ChangeOneNormalInCloudAction_heapBytes(const MR_ChangeOneNormalInCloudAction *_this)</div></div>
+<div class="ttc" id="aMRChangePointCloudNormalsAction_8h_html_a200e451865357d736cf0a8a9a47c0963"><div class="ttname"><a href="MRChangePointCloudNormalsAction_8h.html#a200e451865357d736cf0a8a9a47c0963">MR_ChangePointCloudNormalsAction_setObjectDirty</a></div><div class="ttdeci">MRC_API void MR_ChangePointCloudNormalsAction_setObjectDirty(const MR_std_shared_ptr_MR_ObjectPoints *obj)</div></div>
+<div class="ttc" id="aMRChangePointCloudNormalsAction_8h_html_a2a424762bce02bd8d8f79d63efde494a"><div class="ttname"><a href="MRChangePointCloudNormalsAction_8h.html#a2a424762bce02bd8d8f79d63efde494a">MR_ChangeOneNormalInCloudAction_Destroy</a></div><div class="ttdeci">MRC_API void MR_ChangeOneNormalInCloudAction_Destroy(const MR_ChangeOneNormalInCloudAction *_this)</div><div class="ttdoc">Destroys a heap-allocated instance of MR_ChangeOneNormalInCloudAction. Does nothing if the pointer is...</div></div>
+<div class="ttc" id="aMRChangePointCloudNormalsAction_8h_html_a2becf9deb9227d57a4c3296093a402c6"><div class="ttname"><a href="MRChangePointCloudNormalsAction_8h.html#a2becf9deb9227d57a4c3296093a402c6">MR_ChangePointCloudNormalsAction_ConstructFromAnother</a></div><div class="ttdeci">MRC_API MR_ChangePointCloudNormalsAction * MR_ChangePointCloudNormalsAction_ConstructFromAnother(MR_PassBy _other_pass_by, MR_ChangePointCloudNormalsAction *_other)</div></div>
+<div class="ttc" id="aMRChangePointCloudNormalsAction_8h_html_a51b0046d22f4560f7153b78cd13b73af"><div class="ttname"><a href="MRChangePointCloudNormalsAction_8h.html#a51b0046d22f4560f7153b78cd13b73af">MR_ChangeOneNormalInCloudAction_AssignFromAnother</a></div><div class="ttdeci">MRC_API MR_ChangeOneNormalInCloudAction * MR_ChangeOneNormalInCloudAction_AssignFromAnother(MR_ChangeOneNormalInCloudAction *_this, MR_PassBy _other_pass_by, MR_ChangeOneNormalInCloudAction *_other)</div></div>
+<div class="ttc" id="aMRChangePointCloudNormalsAction_8h_html_a5256ed3436c4a895f2a98d39bf5fc5d9"><div class="ttname"><a href="MRChangePointCloudNormalsAction_8h.html#a5256ed3436c4a895f2a98d39bf5fc5d9">MR_ChangePointCloudNormalsAction_heapBytes</a></div><div class="ttdeci">MRC_API MR_uint64_t MR_ChangePointCloudNormalsAction_heapBytes(const MR_ChangePointCloudNormalsAction *_this)</div></div>
+<div class="ttc" id="aMRChangePointCloudNormalsAction_8h_html_a601ec7f2e57d705be3d6ba1115b10ba9"><div class="ttname"><a href="MRChangePointCloudNormalsAction_8h.html#a601ec7f2e57d705be3d6ba1115b10ba9">MR_ChangePointCloudNormalsAction_action</a></div><div class="ttdeci">MRC_API void MR_ChangePointCloudNormalsAction_action(MR_ChangePointCloudNormalsAction *_this, MR_HistoryAction_Type _1)</div></div>
+<div class="ttc" id="aMRChangePointCloudNormalsAction_8h_html_a657cdbb52b1f67f71719fec2c20a2d70"><div class="ttname"><a href="MRChangePointCloudNormalsAction_8h.html#a657cdbb52b1f67f71719fec2c20a2d70">MR_ChangeOneNormalInCloudAction_OffsetPtr</a></div><div class="ttdeci">MRC_API const MR_ChangeOneNormalInCloudAction * MR_ChangeOneNormalInCloudAction_OffsetPtr(const MR_ChangeOneNormalInCloudAction *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRChangePointCloudNormalsAction_8h_html_a738a984fc62ccf26b8f74a9433ca9afd"><div class="ttname"><a href="MRChangePointCloudNormalsAction_8h.html#a738a984fc62ccf26b8f74a9433ca9afd">MR_ChangeOneNormalInCloudAction_Construct_3</a></div><div class="ttdeci">MRC_API MR_ChangeOneNormalInCloudAction * MR_ChangeOneNormalInCloudAction_Construct_3(const char *name, const char *name_end, const MR_std_shared_ptr_MR_ObjectPoints *obj, MR_VertId pointId)</div></div>
+<div class="ttc" id="aMRChangePointCloudNormalsAction_8h_html_a85f867f87fd2a81204a196305f744a86"><div class="ttname"><a href="MRChangePointCloudNormalsAction_8h.html#a85f867f87fd2a81204a196305f744a86">MR_ChangePointCloudNormalsAction_OffsetMutablePtr</a></div><div class="ttdeci">MRC_API MR_ChangePointCloudNormalsAction * MR_ChangePointCloudNormalsAction_OffsetMutablePtr(MR_ChangePointCloudNormalsAction *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRChangePointCloudNormalsAction_8h_html_a8e9315f06b73ef58222729b44d77d021"><div class="ttname"><a href="MRChangePointCloudNormalsAction_8h.html#a8e9315f06b73ef58222729b44d77d021">MR_ChangePointCloudNormalsAction_DestroyArray</a></div><div class="ttdeci">MRC_API void MR_ChangePointCloudNormalsAction_DestroyArray(const MR_ChangePointCloudNormalsAction *_this)</div><div class="ttdoc">Destroys a heap-allocated array of MR_ChangePointCloudNormalsAction. Does nothing if the pointer is n...</div></div>
+<div class="ttc" id="aMRChangePointCloudNormalsAction_8h_html_a934bf14763e4d9ac8ca40c97b3cfce68"><div class="ttname"><a href="MRChangePointCloudNormalsAction_8h.html#a934bf14763e4d9ac8ca40c97b3cfce68">MR_ChangePointCloudNormalsAction_Construct_2</a></div><div class="ttdeci">MRC_API MR_ChangePointCloudNormalsAction * MR_ChangePointCloudNormalsAction_Construct_2(const char *name, const char *name_end, const MR_std_shared_ptr_MR_ObjectPoints *obj)</div></div>
+<div class="ttc" id="aMRChangePointCloudNormalsAction_8h_html_a9f4d7b92a68b59e489023bec08a56e00"><div class="ttname"><a href="MRChangePointCloudNormalsAction_8h.html#a9f4d7b92a68b59e489023bec08a56e00">MR_ChangeOneNormalInCloudAction_Construct_4</a></div><div class="ttdeci">MRC_API MR_ChangeOneNormalInCloudAction * MR_ChangeOneNormalInCloudAction_Construct_4(const char *name, const char *name_end, const MR_std_shared_ptr_MR_ObjectPoints *obj, MR_VertId pointId, const MR_Vector3f *newNormal)</div></div>
+<div class="ttc" id="aMRChangePointCloudNormalsAction_8h_html_aa30824da4b2ed8f2b978af7167e5e7fb"><div class="ttname"><a href="MRChangePointCloudNormalsAction_8h.html#aa30824da4b2ed8f2b978af7167e5e7fb">MR_ChangeOneNormalInCloudAction_name</a></div><div class="ttdeci">MRC_API MR_std_string * MR_ChangeOneNormalInCloudAction_name(const MR_ChangeOneNormalInCloudAction *_this)</div></div>
+<div class="ttc" id="aMRChangePointCloudNormalsAction_8h_html_ab008a8f64b47c74448e1e6b55b81f908"><div class="ttname"><a href="MRChangePointCloudNormalsAction_8h.html#ab008a8f64b47c74448e1e6b55b81f908">MR_ChangeOneNormalInCloudAction_UpcastTo_MR_HistoryAction</a></div><div class="ttdeci">MRC_API const MR_HistoryAction * MR_ChangeOneNormalInCloudAction_UpcastTo_MR_HistoryAction(const MR_ChangeOneNormalInCloudAction *object)</div></div>
+<div class="ttc" id="aMRChangePointCloudNormalsAction_8h_html_ab0392ac3c7882fb8a469829752e9c345"><div class="ttname"><a href="MRChangePointCloudNormalsAction_8h.html#ab0392ac3c7882fb8a469829752e9c345">MR_ChangeOneNormalInCloudAction_action</a></div><div class="ttdeci">MRC_API void MR_ChangeOneNormalInCloudAction_action(MR_ChangeOneNormalInCloudAction *_this, MR_HistoryAction_Type _1)</div></div>
+<div class="ttc" id="aMRChangePointCloudNormalsAction_8h_html_ad09df81322d15f13432e755acfb03b9a"><div class="ttname"><a href="MRChangePointCloudNormalsAction_8h.html#ad09df81322d15f13432e755acfb03b9a">MR_ChangeOneNormalInCloudAction_MutableUpcastTo_MR_HistoryAction</a></div><div class="ttdeci">MRC_API MR_HistoryAction * MR_ChangeOneNormalInCloudAction_MutableUpcastTo_MR_HistoryAction(MR_ChangeOneNormalInCloudAction *object)</div><div class="ttdoc">Upcasts an instance of MR::ChangeOneNormalInCloudAction to its base class MR::HistoryAction.</div></div>
+<div class="ttc" id="aMRChangePointCloudNormalsAction_8h_html_ad0f3404ec244729843d689c673a787d7"><div class="ttname"><a href="MRChangePointCloudNormalsAction_8h.html#ad0f3404ec244729843d689c673a787d7">MR_ChangeOneNormalInCloudAction_DestroyArray</a></div><div class="ttdeci">MRC_API void MR_ChangeOneNormalInCloudAction_DestroyArray(const MR_ChangeOneNormalInCloudAction *_this)</div><div class="ttdoc">Destroys a heap-allocated array of MR_ChangeOneNormalInCloudAction. Does nothing if the pointer is nu...</div></div>
+<div class="ttc" id="aMRChangePointCloudNormalsAction_8h_html_ade1e9bb7a45b0fe73be2c6a810d3daff"><div class="ttname"><a href="MRChangePointCloudNormalsAction_8h.html#ade1e9bb7a45b0fe73be2c6a810d3daff">MR_ChangeOneNormalInCloudAction_setObjectDirty</a></div><div class="ttdeci">MRC_API void MR_ChangeOneNormalInCloudAction_setObjectDirty(const MR_std_shared_ptr_MR_ObjectPoints *obj)</div></div>
+<div class="ttc" id="aMRChangePointCloudNormalsAction_8h_html_ae3864d3dd5224c6fb849719bc85afcd8"><div class="ttname"><a href="MRChangePointCloudNormalsAction_8h.html#ae3864d3dd5224c6fb849719bc85afcd8">MR_ChangePointCloudNormalsAction_MutableUpcastTo_MR_HistoryAction</a></div><div class="ttdeci">MRC_API MR_HistoryAction * MR_ChangePointCloudNormalsAction_MutableUpcastTo_MR_HistoryAction(MR_ChangePointCloudNormalsAction *object)</div><div class="ttdoc">Upcasts an instance of MR::ChangePointCloudNormalsAction to its base class MR::HistoryAction.</div></div>
+<div class="ttc" id="aMRChangePointCloudNormalsAction_8h_html_af0156362620dff60e68989962c610bfc"><div class="ttname"><a href="MRChangePointCloudNormalsAction_8h.html#af0156362620dff60e68989962c610bfc">MR_ChangePointCloudNormalsAction_name</a></div><div class="ttdeci">MRC_API MR_std_string * MR_ChangePointCloudNormalsAction_name(const MR_ChangePointCloudNormalsAction *_this)</div></div>
+<div class="ttc" id="aMRChangePointCloudNormalsAction_8h_html_af1cf74219d8251a2699daf60215865ba"><div class="ttname"><a href="MRChangePointCloudNormalsAction_8h.html#af1cf74219d8251a2699daf60215865ba">MR_ChangeOneNormalInCloudAction_OffsetMutablePtr</a></div><div class="ttdeci">MRC_API MR_ChangeOneNormalInCloudAction * MR_ChangeOneNormalInCloudAction_OffsetMutablePtr(MR_ChangeOneNormalInCloudAction *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRChangePointCloudNormalsAction_8h_html_aff414bd28bae9e1f3bf3d953d0096a99"><div class="ttname"><a href="MRChangePointCloudNormalsAction_8h.html#aff414bd28bae9e1f3bf3d953d0096a99">MR_ChangePointCloudNormalsAction_OffsetPtr</a></div><div class="ttdeci">MRC_API const MR_ChangePointCloudNormalsAction * MR_ChangePointCloudNormalsAction_OffsetPtr(const MR_ChangePointCloudNormalsAction *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRE57_8h_html_a69dc6868c10c92fb8b8a255b0130d289"><div class="ttname"><a href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></div><div class="ttdeci">struct MR_std_string MR_std_string</div><div class="ttdef"><b>Definition</b> MRE57.h:22</div></div>
+<div class="ttc" id="aMRHistoryAction_8h_html"><div class="ttname"><a href="MRHistoryAction_8h.html">MRHistoryAction.h</a></div></div>
+<div class="ttc" id="aMRHistoryAction_8h_html_aa6545a91fb04c0c7a224383de1b0d1dc"><div class="ttname"><a href="MRHistoryAction_8h.html#aa6545a91fb04c0c7a224383de1b0d1dc">MR_HistoryAction_Type</a></div><div class="ttdeci">int32_t MR_HistoryAction_Type</div><div class="ttdef"><b>Definition</b> MRHistoryAction.h:113</div></div>
+<div class="ttc" id="aMRId_8h_html"><div class="ttname"><a href="MRId_8h.html">MRId.h</a></div></div>
+<div class="ttc" id="acommon_8h_html"><div class="ttname"><a href="common_8h.html">common.h</a></div></div>
+<div class="ttc" id="acommon_8h_html_ac983b89bddb9b22c9b416f31399f0095"><div class="ttname"><a href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></div><div class="ttdeci">MR_PassBy</div><div class="ttdef"><b>Definition</b> common.h:19</div></div>
+<div class="ttc" id="acommon_8h_html_aefc0b2fe2e376b1b34a189af81dc8a49"><div class="ttname"><a href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></div><div class="ttdeci">uint64_t MR_uint64_t</div><div class="ttdef"><b>Definition</b> common.h:14</div></div>
+<div class="ttc" id="agroup__HistoryGroup_html_ga6b90613818f7b81547a5b0bba1d40c39"><div class="ttname"><a href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a></div><div class="ttdeci">virtual std::string name() const override</div></div>
+<div class="ttc" id="astructMR__Vector3f_html"><div class="ttname"><a href="structMR__Vector3f.html">MR_Vector3f</a></div><div class="ttdef"><b>Definition</b> MRVector3.h:55</div></div>
+<div class="ttc" id="astructMR__VertId_html"><div class="ttname"><a href="structMR__VertId.html">MR_VertId</a></div><div class="ttdef"><b>Definition</b> MRId.h:56</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_8b489c7b5d1a72d35ec87e32cc37b940.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRChangePointCloudNormalsAction_8h.html">MRChangePointCloudNormalsAction.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

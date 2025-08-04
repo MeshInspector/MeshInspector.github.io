@@ -1,0 +1,317 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRLineObject.h Source File</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRLineObject_8h_source.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">MRLineObject.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="MRLineObject_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="MRVector3_8h.html">MRCMesh/MRVector3.h</a>&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;<a class="code" href="MRViewportId_8h.html">MRCMesh/MRViewportId.h</a>&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;<a class="code" href="common_8h.html">MRCMisc/common.h</a>&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;MRCMisc/exports.h&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#aff93746de8efe15fd5fa764838b71e9b">   14</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#aff93746de8efe15fd5fa764838b71e9b">MR_FeatureObject</a> <a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#aff93746de8efe15fd5fa764838b71e9b">MR_FeatureObject</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRFeatureObject.h&gt;`.</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#af9fa34609dfd430727cb347f86a5f28f">   15</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRCircleObject_8h.html#af9fa34609dfd430727cb347f86a5f28f">MR_FeatureObjectProjectPointResult</a> <a class="code hl_typedef" href="MRCircleObject_8h.html#af9fa34609dfd430727cb347f86a5f28f">MR_FeatureObjectProjectPointResult</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRFeatureObject.h&gt;`.</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#accce9c9179cadabc541edda0fc7a2571">   16</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> <a class="code hl_typedef" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRObject.h&gt;`.</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">   17</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> <a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRObject.h&gt;`.</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#a36f3696eda81d7005927ebc5fdf17e14">   18</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> <a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRVisualObject.h&gt;`.</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">   19</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> <a class="code hl_typedef" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_shared_ptr_MR_Object.h&gt;`.</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#a69dc6868c10c92fb8b8a255b0130d289">   20</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_string.h&gt;`.</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#a2957a5feb78e9a6b527f0725f45a01a1">   21</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRCircleObject_8h.html#a2957a5feb78e9a6b527f0725f45a01a1">MR_std_vector_MR_FeatureObjectSharedProperty</a> <a class="code hl_typedef" href="MRCircleObject_8h.html#a2957a5feb78e9a6b527f0725f45a01a1">MR_std_vector_MR_FeatureObjectSharedProperty</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_vector_MR_FeatureObjectSharedProperty.h&gt;`.</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#aefed148a09a0ae55edbd22814638b462">   22</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> <a class="code hl_typedef" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_vector_MR_Vector3f.h&gt;`.</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#a3bdb1bb309111bf9d25a64d4391ec7dc">   39</a></span>MRC_API <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *<a class="code hl_function" href="MRLineObject_8h.html#a3bdb1bb309111bf9d25a64d4391ec7dc">MR_LineObject_DefaultConstruct</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#acaa0a60f41d7d68a92e5fb4b760b3777">   44</a></span>MRC_API <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *<a class="code hl_function" href="MRLineObject_8h.html#acaa0a60f41d7d68a92e5fb4b760b3777">MR_LineObject_DefaultConstructArray</a>(<span class="keywordtype">size_t</span> num_elems);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#a79cbdbf8d612759cc36031c664b31a09">   47</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *<a class="code hl_function" href="MRLineObject_8h.html#a79cbdbf8d612759cc36031c664b31a09">MR_LineObject_OffsetPtr</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#aaef9db803756ccbdeec98f48f7b0c71a">   50</a></span>MRC_API <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *<a class="code hl_function" href="MRLineObject_8h.html#aaef9db803756ccbdeec98f48f7b0c71a">MR_LineObject_OffsetMutablePtr</a>(<a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#a75353bf80d7a6db2731344cf894ea3b3">   54</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#aff93746de8efe15fd5fa764838b71e9b">MR_FeatureObject</a> *<a class="code hl_function" href="MRLineObject_8h.html#a75353bf80d7a6db2731344cf894ea3b3">MR_LineObject_UpcastTo_MR_FeatureObject</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#ace62c9ac7c2b378453b1d3f9dd8c55b0">   57</a></span>MRC_API <a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#aff93746de8efe15fd5fa764838b71e9b">MR_FeatureObject</a> *<a class="code hl_function" href="MRLineObject_8h.html#ace62c9ac7c2b378453b1d3f9dd8c55b0">MR_LineObject_MutableUpcastTo_MR_FeatureObject</a>(<a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#ac65e6bc7fdc4f369ac13ae1e22e7d934">   61</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *<a class="code hl_function" href="MRLineObject_8h.html#ac65e6bc7fdc4f369ac13ae1e22e7d934">MR_LineObject_UpcastTo_MR_Object</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#a75ce83225c732bc31bc251f2f73139c3">   64</a></span>MRC_API <a class="code hl_typedef" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *<a class="code hl_function" href="MRLineObject_8h.html#a75ce83225c732bc31bc251f2f73139c3">MR_LineObject_MutableUpcastTo_MR_Object</a>(<a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#a27c9711741a539b2bfd7dca742d8d999">   68</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> *<a class="code hl_function" href="MRLineObject_8h.html#a27c9711741a539b2bfd7dca742d8d999">MR_LineObject_UpcastTo_MR_ObjectChildrenHolder</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#a80005fed84c73ea6fce4eae052790889">   71</a></span>MRC_API <a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> *<a class="code hl_function" href="MRLineObject_8h.html#a80005fed84c73ea6fce4eae052790889">MR_LineObject_MutableUpcastTo_MR_ObjectChildrenHolder</a>(<a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#a3b4af7411ee34f0d7580e878f5fac158">   75</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *<a class="code hl_function" href="MRLineObject_8h.html#a3b4af7411ee34f0d7580e878f5fac158">MR_LineObject_UpcastTo_MR_VisualObject</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#ad2cea33b6c19ad5ed39270036039ae29">   78</a></span>MRC_API <a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *<a class="code hl_function" href="MRLineObject_8h.html#ad2cea33b6c19ad5ed39270036039ae29">MR_LineObject_MutableUpcastTo_MR_VisualObject</a>(<a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#ac4199a5f8fdff068cabeb05bfebce82c">   82</a></span>MRC_API <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *<a class="code hl_function" href="MRLineObject_8h.html#ac4199a5f8fdff068cabeb05bfebce82c">MR_LineObject_ConstructFromAnother</a>(<a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *_other);</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#ac04540319066419e38cd65048b28cd1f">   88</a></span>MRC_API <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *<a class="code hl_function" href="MRLineObject_8h.html#ac04540319066419e38cd65048b28cd1f">MR_LineObject_Construct</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *pointsToApprox);</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#ab4ef91a369c719b70000c499890837e8">   91</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRLineObject_8h.html#ab4ef91a369c719b70000c499890837e8">MR_LineObject_Destroy</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *_this);</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#a9832bfc03442fafb5c83dd05f77cbd7d">   94</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRLineObject_8h.html#a9832bfc03442fafb5c83dd05f77cbd7d">MR_LineObject_DestroyArray</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *_this);</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#a74c67d052d295f17967758fc0a30f5a7">   99</a></span>MRC_API <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *<a class="code hl_function" href="MRLineObject_8h.html#a74c67d052d295f17967758fc0a30f5a7">MR_LineObject_AssignFromAnother</a>(<a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *_this, <a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *_other);</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#a706cec2b10e566d7b85119d1795a3eec">  102</a></span>MRC_API <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_function" href="MRLineObject_8h.html#a706cec2b10e566d7b85119d1795a3eec">MR_LineObject_TypeName</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#aea07ae8422b8e51c3482f5f716936aff">  106</a></span>MRC_API <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_function" href="MRLineObject_8h.html#aea07ae8422b8e51c3482f5f716936aff">MR_LineObject_typeName</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *_this);</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#ac8baab0d75015cb3b57fa2d0bbe805ee">  111</a></span>MRC_API <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="code hl_function" href="MRLineObject_8h.html#ac8baab0d75015cb3b57fa2d0bbe805ee">MR_LineObject_getClassName</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *_this);</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#a004378e9398a26c4462b7d5ca14721a0">  116</a></span>MRC_API <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="code hl_function" href="MRLineObject_8h.html#a004378e9398a26c4462b7d5ca14721a0">MR_LineObject_getClassNameInPlural</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *_this);</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#a9cee8e4dfb781a57647115d10c8af826">  121</a></span>MRC_API <a class="code hl_typedef" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *<a class="code hl_function" href="MRLineObject_8h.html#a9cee8e4dfb781a57647115d10c8af826">MR_LineObject_clone</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *_this);</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#a6a1efc5217aece2965b99e78ce295ad6">  126</a></span>MRC_API <a class="code hl_typedef" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *<a class="code hl_function" href="MRLineObject_8h.html#a6a1efc5217aece2965b99e78ce295ad6">MR_LineObject_shallowClone</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *_this);</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#a4ce69849236d53167da64d5dcc60036d">  132</a></span>MRC_API <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> <a class="code hl_function" href="MRLineObject_8h.html#a4ce69849236d53167da64d5dcc60036d">MR_LineObject_getDirection</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *_this, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__ViewportId.html">MR_ViewportId</a> *<span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span> </div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#aded5cea1f513e5628b4b2787e0652175">  138</a></span>MRC_API <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> <a class="code hl_function" href="MRLineObject_8h.html#aded5cea1f513e5628b4b2787e0652175">MR_LineObject_getCenter</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *_this, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__ViewportId.html">MR_ViewportId</a> *<span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span> </div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#a0248751bdc9bbc279dec9a62625fa3b2">  145</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRLineObject_8h.html#a0248751bdc9bbc279dec9a62625fa3b2">MR_LineObject_setDirection</a>(<a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *_this, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *normal, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__ViewportId.html">MR_ViewportId</a> *<span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span> </div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#ace01c6eb2d6afe8e6d1ff162330a4f86">  152</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRLineObject_8h.html#ace01c6eb2d6afe8e6d1ff162330a4f86">MR_LineObject_setCenter</a>(<a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *_this, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *center, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__ViewportId.html">MR_ViewportId</a> *<span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span> </div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#a3c954fc42141b4f76d6ca588e15da584">  158</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRLineObject_8h.html#a3c954fc42141b4f76d6ca588e15da584">MR_LineObject_setLength</a>(<a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *_this, <span class="keywordtype">float</span> <a class="code hl_functionRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__ViewportId.html">MR_ViewportId</a> *<span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span> </div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#ab06609c0562c27da47328c06bd714a8a">  164</a></span>MRC_API <span class="keywordtype">float</span> <a class="code hl_function" href="MRLineObject_8h.html#ab06609c0562c27da47328c06bd714a8a">MR_LineObject_getLength</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *_this, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__ViewportId.html">MR_ViewportId</a> *<span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span> </div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span><span class="comment">// Returns point considered as base for the feature</span></div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#ab0311012a08590430b799ab4728ae690">  170</a></span>MRC_API <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> <a class="code hl_function" href="MRLineObject_8h.html#ab0311012a08590430b799ab4728ae690">MR_LineObject_getBasePoint</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *_this, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__ViewportId.html">MR_ViewportId</a> *<span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span> </div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#ac4ff05e46dd3000add1b7c6e50c567b7">  176</a></span>MRC_API <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> <a class="code hl_function" href="MRLineObject_8h.html#ac4ff05e46dd3000add1b7c6e50c567b7">MR_LineObject_getPointA</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *_this, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__ViewportId.html">MR_ViewportId</a> *<span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span> </div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#ab5e6a423cf3bdfcff3376ebfcb8f611f">  182</a></span>MRC_API <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> <a class="code hl_function" href="MRLineObject_8h.html#ab5e6a423cf3bdfcff3376ebfcb8f611f">MR_LineObject_getPointB</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *_this, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__ViewportId.html">MR_ViewportId</a> *<span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span> </div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#af8fe5a668441f05fce8adeabcfb129be">  189</a></span>MRC_API <a class="code hl_typedef" href="MRCircleObject_8h.html#af9fa34609dfd430727cb347f86a5f28f">MR_FeatureObjectProjectPointResult</a> *<a class="code hl_function" href="MRLineObject_8h.html#af8fe5a668441f05fce8adeabcfb129be">MR_LineObject_projectPoint</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *_this, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *point, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__ViewportId.html">MR_ViewportId</a> *<span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span> </div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno"><a class="line" href="MRLineObject_8h.html#a96c4afd7ba2419e51460cb96850d30e5">  194</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRCircleObject_8h.html#a2957a5feb78e9a6b527f0725f45a01a1">MR_std_vector_MR_FeatureObjectSharedProperty</a> *<a class="code hl_function" href="MRLineObject_8h.html#a96c4afd7ba2419e51460cb96850d30e5">MR_LineObject_getAllSharedProperties</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a> *_this);</div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span> </div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aMRAddVisualPropertiesMixin_8h_html_a36f3696eda81d7005927ebc5fdf17e14"><div class="ttname"><a href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a></div><div class="ttdeci">struct MR_VisualObject MR_VisualObject</div><div class="ttdef"><b>Definition</b> MRAddVisualPropertiesMixin.h:21</div></div>
+<div class="ttc" id="aMRAddVisualPropertiesMixin_8h_html_aecafdb5edbdb31eb13fbab762e3c39bc"><div class="ttname"><a href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a></div><div class="ttdeci">struct MR_ObjectChildrenHolder MR_ObjectChildrenHolder</div><div class="ttdef"><b>Definition</b> MRAddVisualPropertiesMixin.h:18</div></div>
+<div class="ttc" id="aMRAddVisualPropertiesMixin_8h_html_aff93746de8efe15fd5fa764838b71e9b"><div class="ttname"><a href="MRAddVisualPropertiesMixin_8h.html#aff93746de8efe15fd5fa764838b71e9b">MR_FeatureObject</a></div><div class="ttdeci">struct MR_FeatureObject MR_FeatureObject</div><div class="ttdef"><b>Definition</b> MRAddVisualPropertiesMixin.h:16</div></div>
+<div class="ttc" id="aMRAngleMeasurementObject_8h_html_a9e9b9c2b8a1a0540b204b1b7e6e792f4"><div class="ttname"><a href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a></div><div class="ttdeci">struct MR_std_shared_ptr_MR_Object MR_std_shared_ptr_MR_Object</div><div class="ttdef"><b>Definition</b> MRAngleMeasurementObject.h:18</div></div>
+<div class="ttc" id="aMRBestFit_8h_html_aefed148a09a0ae55edbd22814638b462"><div class="ttname"><a href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a></div><div class="ttdeci">struct MR_std_vector_MR_Vector3f MR_std_vector_MR_Vector3f</div><div class="ttdef"><b>Definition</b> MRBestFit.h:26</div></div>
+<div class="ttc" id="aMRCircleObject_8h_html_a2957a5feb78e9a6b527f0725f45a01a1"><div class="ttname"><a href="MRCircleObject_8h.html#a2957a5feb78e9a6b527f0725f45a01a1">MR_std_vector_MR_FeatureObjectSharedProperty</a></div><div class="ttdeci">struct MR_std_vector_MR_FeatureObjectSharedProperty MR_std_vector_MR_FeatureObjectSharedProperty</div><div class="ttdef"><b>Definition</b> MRCircleObject.h:22</div></div>
+<div class="ttc" id="aMRCircleObject_8h_html_af9fa34609dfd430727cb347f86a5f28f"><div class="ttname"><a href="MRCircleObject_8h.html#af9fa34609dfd430727cb347f86a5f28f">MR_FeatureObjectProjectPointResult</a></div><div class="ttdeci">struct MR_FeatureObjectProjectPointResult MR_FeatureObjectProjectPointResult</div><div class="ttdef"><b>Definition</b> MRCircleObject.h:16</div></div>
+<div class="ttc" id="aMRE57_8h_html_a69dc6868c10c92fb8b8a255b0130d289"><div class="ttname"><a href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></div><div class="ttdeci">struct MR_std_string MR_std_string</div><div class="ttdef"><b>Definition</b> MRE57.h:22</div></div>
+<div class="ttc" id="aMRFeatureObject_8h_html_a7a2a1e79f2d7916e5b59911ffa2ce37e"><div class="ttname"><a href="MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e">MR_LineObject</a></div><div class="ttdeci">struct MR_LineObject MR_LineObject</div><div class="ttdef"><b>Definition</b> MRFeatureObject.h:26</div></div>
+<div class="ttc" id="aMRGltf_8h_html_accce9c9179cadabc541edda0fc7a2571"><div class="ttname"><a href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a></div><div class="ttdeci">struct MR_Object MR_Object</div><div class="ttdef"><b>Definition</b> MRGltf.h:10</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_a004378e9398a26c4462b7d5ca14721a0"><div class="ttname"><a href="MRLineObject_8h.html#a004378e9398a26c4462b7d5ca14721a0">MR_LineObject_getClassNameInPlural</a></div><div class="ttdeci">MRC_API MR_std_string * MR_LineObject_getClassNameInPlural(const MR_LineObject *_this)</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_a0248751bdc9bbc279dec9a62625fa3b2"><div class="ttname"><a href="MRLineObject_8h.html#a0248751bdc9bbc279dec9a62625fa3b2">MR_LineObject_setDirection</a></div><div class="ttdeci">MRC_API void MR_LineObject_setDirection(MR_LineObject *_this, const MR_Vector3f *normal, const MR_ViewportId *id)</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_a27c9711741a539b2bfd7dca742d8d999"><div class="ttname"><a href="MRLineObject_8h.html#a27c9711741a539b2bfd7dca742d8d999">MR_LineObject_UpcastTo_MR_ObjectChildrenHolder</a></div><div class="ttdeci">MRC_API const MR_ObjectChildrenHolder * MR_LineObject_UpcastTo_MR_ObjectChildrenHolder(const MR_LineObject *object)</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_a3b4af7411ee34f0d7580e878f5fac158"><div class="ttname"><a href="MRLineObject_8h.html#a3b4af7411ee34f0d7580e878f5fac158">MR_LineObject_UpcastTo_MR_VisualObject</a></div><div class="ttdeci">MRC_API const MR_VisualObject * MR_LineObject_UpcastTo_MR_VisualObject(const MR_LineObject *object)</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_a3bdb1bb309111bf9d25a64d4391ec7dc"><div class="ttname"><a href="MRLineObject_8h.html#a3bdb1bb309111bf9d25a64d4391ec7dc">MR_LineObject_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_LineObject * MR_LineObject_DefaultConstruct(void)</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_a3c954fc42141b4f76d6ca588e15da584"><div class="ttname"><a href="MRLineObject_8h.html#a3c954fc42141b4f76d6ca588e15da584">MR_LineObject_setLength</a></div><div class="ttdeci">MRC_API void MR_LineObject_setLength(MR_LineObject *_this, float size, const MR_ViewportId *id)</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_a4ce69849236d53167da64d5dcc60036d"><div class="ttname"><a href="MRLineObject_8h.html#a4ce69849236d53167da64d5dcc60036d">MR_LineObject_getDirection</a></div><div class="ttdeci">MRC_API MR_Vector3f MR_LineObject_getDirection(const MR_LineObject *_this, const MR_ViewportId *id)</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_a6a1efc5217aece2965b99e78ce295ad6"><div class="ttname"><a href="MRLineObject_8h.html#a6a1efc5217aece2965b99e78ce295ad6">MR_LineObject_shallowClone</a></div><div class="ttdeci">MRC_API MR_std_shared_ptr_MR_Object * MR_LineObject_shallowClone(const MR_LineObject *_this)</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_a706cec2b10e566d7b85119d1795a3eec"><div class="ttname"><a href="MRLineObject_8h.html#a706cec2b10e566d7b85119d1795a3eec">MR_LineObject_TypeName</a></div><div class="ttdeci">MRC_API const char * MR_LineObject_TypeName(void)</div><div class="ttdoc">Generated from a method of class MR::LineObject named TypeName.</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_a74c67d052d295f17967758fc0a30f5a7"><div class="ttname"><a href="MRLineObject_8h.html#a74c67d052d295f17967758fc0a30f5a7">MR_LineObject_AssignFromAnother</a></div><div class="ttdeci">MRC_API MR_LineObject * MR_LineObject_AssignFromAnother(MR_LineObject *_this, MR_PassBy _other_pass_by, MR_LineObject *_other)</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_a75353bf80d7a6db2731344cf894ea3b3"><div class="ttname"><a href="MRLineObject_8h.html#a75353bf80d7a6db2731344cf894ea3b3">MR_LineObject_UpcastTo_MR_FeatureObject</a></div><div class="ttdeci">MRC_API const MR_FeatureObject * MR_LineObject_UpcastTo_MR_FeatureObject(const MR_LineObject *object)</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_a75ce83225c732bc31bc251f2f73139c3"><div class="ttname"><a href="MRLineObject_8h.html#a75ce83225c732bc31bc251f2f73139c3">MR_LineObject_MutableUpcastTo_MR_Object</a></div><div class="ttdeci">MRC_API MR_Object * MR_LineObject_MutableUpcastTo_MR_Object(MR_LineObject *object)</div><div class="ttdoc">Upcasts an instance of MR::LineObject to its base class MR::Object.</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_a79cbdbf8d612759cc36031c664b31a09"><div class="ttname"><a href="MRLineObject_8h.html#a79cbdbf8d612759cc36031c664b31a09">MR_LineObject_OffsetPtr</a></div><div class="ttdeci">MRC_API const MR_LineObject * MR_LineObject_OffsetPtr(const MR_LineObject *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_a80005fed84c73ea6fce4eae052790889"><div class="ttname"><a href="MRLineObject_8h.html#a80005fed84c73ea6fce4eae052790889">MR_LineObject_MutableUpcastTo_MR_ObjectChildrenHolder</a></div><div class="ttdeci">MRC_API MR_ObjectChildrenHolder * MR_LineObject_MutableUpcastTo_MR_ObjectChildrenHolder(MR_LineObject *object)</div><div class="ttdoc">Upcasts an instance of MR::LineObject to its base class MR::ObjectChildrenHolder.</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_a96c4afd7ba2419e51460cb96850d30e5"><div class="ttname"><a href="MRLineObject_8h.html#a96c4afd7ba2419e51460cb96850d30e5">MR_LineObject_getAllSharedProperties</a></div><div class="ttdeci">MRC_API const MR_std_vector_MR_FeatureObjectSharedProperty * MR_LineObject_getAllSharedProperties(const MR_LineObject *_this)</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_a9832bfc03442fafb5c83dd05f77cbd7d"><div class="ttname"><a href="MRLineObject_8h.html#a9832bfc03442fafb5c83dd05f77cbd7d">MR_LineObject_DestroyArray</a></div><div class="ttdeci">MRC_API void MR_LineObject_DestroyArray(const MR_LineObject *_this)</div><div class="ttdoc">Destroys a heap-allocated array of MR_LineObject. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_a9cee8e4dfb781a57647115d10c8af826"><div class="ttname"><a href="MRLineObject_8h.html#a9cee8e4dfb781a57647115d10c8af826">MR_LineObject_clone</a></div><div class="ttdeci">MRC_API MR_std_shared_ptr_MR_Object * MR_LineObject_clone(const MR_LineObject *_this)</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_aaef9db803756ccbdeec98f48f7b0c71a"><div class="ttname"><a href="MRLineObject_8h.html#aaef9db803756ccbdeec98f48f7b0c71a">MR_LineObject_OffsetMutablePtr</a></div><div class="ttdeci">MRC_API MR_LineObject * MR_LineObject_OffsetMutablePtr(MR_LineObject *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_ab0311012a08590430b799ab4728ae690"><div class="ttname"><a href="MRLineObject_8h.html#ab0311012a08590430b799ab4728ae690">MR_LineObject_getBasePoint</a></div><div class="ttdeci">MRC_API MR_Vector3f MR_LineObject_getBasePoint(const MR_LineObject *_this, const MR_ViewportId *id)</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_ab06609c0562c27da47328c06bd714a8a"><div class="ttname"><a href="MRLineObject_8h.html#ab06609c0562c27da47328c06bd714a8a">MR_LineObject_getLength</a></div><div class="ttdeci">MRC_API float MR_LineObject_getLength(const MR_LineObject *_this, const MR_ViewportId *id)</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_ab4ef91a369c719b70000c499890837e8"><div class="ttname"><a href="MRLineObject_8h.html#ab4ef91a369c719b70000c499890837e8">MR_LineObject_Destroy</a></div><div class="ttdeci">MRC_API void MR_LineObject_Destroy(const MR_LineObject *_this)</div><div class="ttdoc">Destroys a heap-allocated instance of MR_LineObject. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_ab5e6a423cf3bdfcff3376ebfcb8f611f"><div class="ttname"><a href="MRLineObject_8h.html#ab5e6a423cf3bdfcff3376ebfcb8f611f">MR_LineObject_getPointB</a></div><div class="ttdeci">MRC_API MR_Vector3f MR_LineObject_getPointB(const MR_LineObject *_this, const MR_ViewportId *id)</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_ac04540319066419e38cd65048b28cd1f"><div class="ttname"><a href="MRLineObject_8h.html#ac04540319066419e38cd65048b28cd1f">MR_LineObject_Construct</a></div><div class="ttdeci">MRC_API MR_LineObject * MR_LineObject_Construct(const MR_std_vector_MR_Vector3f *pointsToApprox)</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_ac4199a5f8fdff068cabeb05bfebce82c"><div class="ttname"><a href="MRLineObject_8h.html#ac4199a5f8fdff068cabeb05bfebce82c">MR_LineObject_ConstructFromAnother</a></div><div class="ttdeci">MRC_API MR_LineObject * MR_LineObject_ConstructFromAnother(MR_PassBy _other_pass_by, MR_LineObject *_other)</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_ac4ff05e46dd3000add1b7c6e50c567b7"><div class="ttname"><a href="MRLineObject_8h.html#ac4ff05e46dd3000add1b7c6e50c567b7">MR_LineObject_getPointA</a></div><div class="ttdeci">MRC_API MR_Vector3f MR_LineObject_getPointA(const MR_LineObject *_this, const MR_ViewportId *id)</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_ac65e6bc7fdc4f369ac13ae1e22e7d934"><div class="ttname"><a href="MRLineObject_8h.html#ac65e6bc7fdc4f369ac13ae1e22e7d934">MR_LineObject_UpcastTo_MR_Object</a></div><div class="ttdeci">MRC_API const MR_Object * MR_LineObject_UpcastTo_MR_Object(const MR_LineObject *object)</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_ac8baab0d75015cb3b57fa2d0bbe805ee"><div class="ttname"><a href="MRLineObject_8h.html#ac8baab0d75015cb3b57fa2d0bbe805ee">MR_LineObject_getClassName</a></div><div class="ttdeci">MRC_API MR_std_string * MR_LineObject_getClassName(const MR_LineObject *_this)</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_acaa0a60f41d7d68a92e5fb4b760b3777"><div class="ttname"><a href="MRLineObject_8h.html#acaa0a60f41d7d68a92e5fb4b760b3777">MR_LineObject_DefaultConstructArray</a></div><div class="ttdeci">MRC_API MR_LineObject * MR_LineObject_DefaultConstructArray(size_t num_elems)</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_ace01c6eb2d6afe8e6d1ff162330a4f86"><div class="ttname"><a href="MRLineObject_8h.html#ace01c6eb2d6afe8e6d1ff162330a4f86">MR_LineObject_setCenter</a></div><div class="ttdeci">MRC_API void MR_LineObject_setCenter(MR_LineObject *_this, const MR_Vector3f *center, const MR_ViewportId *id)</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_ace62c9ac7c2b378453b1d3f9dd8c55b0"><div class="ttname"><a href="MRLineObject_8h.html#ace62c9ac7c2b378453b1d3f9dd8c55b0">MR_LineObject_MutableUpcastTo_MR_FeatureObject</a></div><div class="ttdeci">MRC_API MR_FeatureObject * MR_LineObject_MutableUpcastTo_MR_FeatureObject(MR_LineObject *object)</div><div class="ttdoc">Upcasts an instance of MR::LineObject to its base class MR::FeatureObject.</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_ad2cea33b6c19ad5ed39270036039ae29"><div class="ttname"><a href="MRLineObject_8h.html#ad2cea33b6c19ad5ed39270036039ae29">MR_LineObject_MutableUpcastTo_MR_VisualObject</a></div><div class="ttdeci">MRC_API MR_VisualObject * MR_LineObject_MutableUpcastTo_MR_VisualObject(MR_LineObject *object)</div><div class="ttdoc">Upcasts an instance of MR::LineObject to its base class MR::VisualObject.</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_aded5cea1f513e5628b4b2787e0652175"><div class="ttname"><a href="MRLineObject_8h.html#aded5cea1f513e5628b4b2787e0652175">MR_LineObject_getCenter</a></div><div class="ttdeci">MRC_API MR_Vector3f MR_LineObject_getCenter(const MR_LineObject *_this, const MR_ViewportId *id)</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_aea07ae8422b8e51c3482f5f716936aff"><div class="ttname"><a href="MRLineObject_8h.html#aea07ae8422b8e51c3482f5f716936aff">MR_LineObject_typeName</a></div><div class="ttdeci">MRC_API const char * MR_LineObject_typeName(const MR_LineObject *_this)</div></div>
+<div class="ttc" id="aMRLineObject_8h_html_af8fe5a668441f05fce8adeabcfb129be"><div class="ttname"><a href="MRLineObject_8h.html#af8fe5a668441f05fce8adeabcfb129be">MR_LineObject_projectPoint</a></div><div class="ttdeci">MRC_API MR_FeatureObjectProjectPointResult * MR_LineObject_projectPoint(const MR_LineObject *_this, const MR_Vector3f *point, const MR_ViewportId *id)</div></div>
+<div class="ttc" id="aMRVector3_8h_html"><div class="ttname"><a href="MRVector3_8h.html">MRVector3.h</a></div></div>
+<div class="ttc" id="aMRViewportId_8h_html"><div class="ttname"><a href="MRViewportId_8h.html">MRViewportId.h</a></div></div>
+<div class="ttc" id="acommon_8h_html"><div class="ttname"><a href="common_8h.html">common.h</a></div></div>
+<div class="ttc" id="acommon_8h_html_ac983b89bddb9b22c9b416f31399f0095"><div class="ttname"><a href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></div><div class="ttdeci">MR_PassBy</div><div class="ttdef"><b>Definition</b> common.h:19</div></div>
+<div class="ttc" id="agroup__VoxelGroup_html_ga1a728fc2d1e7dd47e0f137af620f6985"><div class="ttname"><a href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a></div><div class="ttdeci">size_t size() const</div></div>
+<div class="ttc" id="astructMR__Vector3f_html"><div class="ttname"><a href="structMR__Vector3f.html">MR_Vector3f</a></div><div class="ttdef"><b>Definition</b> MRVector3.h:55</div></div>
+<div class="ttc" id="astructMR__ViewportId_html"><div class="ttname"><a href="structMR__ViewportId.html">MR_ViewportId</a></div><div class="ttdef"><b>Definition</b> MRViewportId.h:18</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_8b489c7b5d1a72d35ec87e32cc37b940.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRLineObject_8h.html">MRLineObject.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

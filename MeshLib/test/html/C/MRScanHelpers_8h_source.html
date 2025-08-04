@@ -1,0 +1,305 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRScanHelpers.h Source File</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRScanHelpers_8h_source.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">MRScanHelpers.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="MRScanHelpers_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="MRVector3_8h.html">MRCMesh/MRVector3.h</a>&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;MRCMisc/exports.h&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#a771ba5022befbb504ac90050d525a465">   13</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="std__vector__MR__SliceInfo_8h.html#a771ba5022befbb504ac90050d525a465">MR_std_vector_MR_SliceInfo</a> <a class="code hl_typedef" href="std__vector__MR__SliceInfo_8h.html#a771ba5022befbb504ac90050d525a465">MR_std_vector_MR_SliceInfo</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_vector_MR_SliceInfo.h&gt;`.</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#a4d75e004d098bc7d987ebfcf304f5454">   14</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> <a class="code hl_typedef" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_vector_std_filesystem_path.h&gt;`.</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">   23</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> <a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">   32</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> <a class="code hl_typedef" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#a05dda74aebafb050e852c813aac68567">   38</a></span>MRC_API <span class="keyword">const</span> int32_t *<a class="code hl_function" href="MRScanHelpers_8h.html#a05dda74aebafb050e852c813aac68567">MR_SliceInfoBase_Get_instanceNum</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#a03d4772d8abd4447e1d562b71b7a8277">   43</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRScanHelpers_8h.html#a03d4772d8abd4447e1d562b71b7a8277">MR_SliceInfoBase_Set_instanceNum</a>(<a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this, int32_t value);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#ac9779cd0877d1995a38cbdc11da7398c">   49</a></span>MRC_API int32_t *<a class="code hl_function" href="MRScanHelpers_8h.html#ac9779cd0877d1995a38cbdc11da7398c">MR_SliceInfoBase_GetMutable_instanceNum</a>(<a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#a06830fcb8c97d86607040d4deca2e208">   55</a></span>MRC_API <span class="keyword">const</span> <span class="keywordtype">double</span> *<a class="code hl_function" href="MRScanHelpers_8h.html#a06830fcb8c97d86607040d4deca2e208">MR_SliceInfoBase_Get_z</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#acec54aa70f2e4689c403c93760e24397">   60</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRScanHelpers_8h.html#acec54aa70f2e4689c403c93760e24397">MR_SliceInfoBase_Set_z</a>(<a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this, <span class="keywordtype">double</span> value);</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#a2eeadba49498e09de4979f74ad7c9f57">   66</a></span>MRC_API <span class="keywordtype">double</span> *<a class="code hl_function" href="MRScanHelpers_8h.html#a2eeadba49498e09de4979f74ad7c9f57">MR_SliceInfoBase_GetMutable_z</a>(<a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#a759fee6f9c04b82b30629446d4906ddf">   72</a></span>MRC_API <span class="keyword">const</span> int32_t *<a class="code hl_function" href="MRScanHelpers_8h.html#a759fee6f9c04b82b30629446d4906ddf">MR_SliceInfoBase_Get_fileNum</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this);</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#a7781b07e940e92850e03e382208a89dc">   77</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRScanHelpers_8h.html#a7781b07e940e92850e03e382208a89dc">MR_SliceInfoBase_Set_fileNum</a>(<a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this, int32_t value);</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#a79d7d28491e5eec70a758ad86a6ca832">   83</a></span>MRC_API int32_t *<a class="code hl_function" href="MRScanHelpers_8h.html#a79d7d28491e5eec70a758ad86a6ca832">MR_SliceInfoBase_GetMutable_fileNum</a>(<a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this);</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#a778db0d71493c082b68bd58a556cc6ce">   87</a></span>MRC_API <a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *<a class="code hl_function" href="MRScanHelpers_8h.html#a778db0d71493c082b68bd58a556cc6ce">MR_SliceInfoBase_DefaultConstruct</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#aa95b8cf06e35f65c883f9e8c23fe25a7">   92</a></span>MRC_API <a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *<a class="code hl_function" href="MRScanHelpers_8h.html#aa95b8cf06e35f65c883f9e8c23fe25a7">MR_SliceInfoBase_DefaultConstructArray</a>(<span class="keywordtype">size_t</span> num_elems);</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#a627f2742f6414bf060922504460e6b4c">   96</a></span>MRC_API <a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *<a class="code hl_function" href="MRScanHelpers_8h.html#a627f2742f6414bf060922504460e6b4c">MR_SliceInfoBase_ConstructFrom</a>(int32_t instanceNum, <span class="keywordtype">double</span> z, int32_t fileNum);</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#a9ad825dde7dbe9ce7c411f504f0c0fcb">   99</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *<a class="code hl_function" href="MRScanHelpers_8h.html#a9ad825dde7dbe9ce7c411f504f0c0fcb">MR_SliceInfoBase_OffsetPtr</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#ae7aeadd3b94242cae353b3d35b0df0e5">  102</a></span>MRC_API <a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *<a class="code hl_function" href="MRScanHelpers_8h.html#ae7aeadd3b94242cae353b3d35b0df0e5">MR_SliceInfoBase_OffsetMutablePtr</a>(<a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#a4cf9aeb4370b0427c35439f5ab5eb0a6">  107</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *<a class="code hl_function" href="MRScanHelpers_8h.html#a4cf9aeb4370b0427c35439f5ab5eb0a6">MR_SliceInfoBase_StaticDowncastTo_MR_SliceInfo</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#aee4a7b64f59d81e5b37193ddb5d547f4">  111</a></span>MRC_API <a class="code hl_typedef" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *<a class="code hl_function" href="MRScanHelpers_8h.html#aee4a7b64f59d81e5b37193ddb5d547f4">MR_SliceInfoBase_MutableStaticDowncastTo_MR_SliceInfo</a>(<a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#aa1bfdb2da98ef6f92dc2b68127016481">  116</a></span>MRC_API <a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *<a class="code hl_function" href="MRScanHelpers_8h.html#aa1bfdb2da98ef6f92dc2b68127016481">MR_SliceInfoBase_ConstructFromAnother</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_other);</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#ab956e6f2a0a57418d32e6a3a87065f74">  119</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRScanHelpers_8h.html#ab956e6f2a0a57418d32e6a3a87065f74">MR_SliceInfoBase_Destroy</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this);</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#a851722175b779567adc09b543ded427f">  122</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRScanHelpers_8h.html#a851722175b779567adc09b543ded427f">MR_SliceInfoBase_DestroyArray</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this);</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span> </div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#a07cab1e1557315b4e19f081fe1795d8b">  128</a></span>MRC_API <a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *<a class="code hl_function" href="MRScanHelpers_8h.html#a07cab1e1557315b4e19f081fe1795d8b">MR_SliceInfoBase_AssignFromAnother</a>(<a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this, <span class="keyword">const</span> <a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_other);</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span> </div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#acd6b5c574cd4a0641d986befcd2b088b">  134</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> *<a class="code hl_function" href="MRScanHelpers_8h.html#acd6b5c574cd4a0641d986befcd2b088b">MR_SliceInfo_Get_imagePos</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this);</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span> </div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#a04db92e829095c04ced1440882086f47">  139</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRScanHelpers_8h.html#a04db92e829095c04ced1440882086f47">MR_SliceInfo_Set_imagePos</a>(<a class="code hl_typedef" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this, <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> value);</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span> </div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#abf9730ed2c4e90b01100cd90c652c2c3">  145</a></span>MRC_API <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> *<a class="code hl_function" href="MRScanHelpers_8h.html#abf9730ed2c4e90b01100cd90c652c2c3">MR_SliceInfo_GetMutable_imagePos</a>(<a class="code hl_typedef" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this);</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span> </div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#a5d9c7ff207e5ddc2447883cae2086611">  149</a></span>MRC_API <a class="code hl_typedef" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *<a class="code hl_function" href="MRScanHelpers_8h.html#a5d9c7ff207e5ddc2447883cae2086611">MR_SliceInfo_DefaultConstruct</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span> </div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#a1a35b5f93a3ffd559ee8fa62191cb789">  154</a></span>MRC_API <a class="code hl_typedef" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *<a class="code hl_function" href="MRScanHelpers_8h.html#a1a35b5f93a3ffd559ee8fa62191cb789">MR_SliceInfo_DefaultConstructArray</a>(<span class="keywordtype">size_t</span> num_elems);</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span> </div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#a1ad74c302bce601ef2ea580a76d5ff50">  157</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *<a class="code hl_function" href="MRScanHelpers_8h.html#a1ad74c302bce601ef2ea580a76d5ff50">MR_SliceInfo_OffsetPtr</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span> </div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#ac46bb91aa84b47902fbe87c2b1bc84c2">  160</a></span>MRC_API <a class="code hl_typedef" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *<a class="code hl_function" href="MRScanHelpers_8h.html#ac46bb91aa84b47902fbe87c2b1bc84c2">MR_SliceInfo_OffsetMutablePtr</a>(<a class="code hl_typedef" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span> </div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#a56a6e732db4d138975b36c6bde975fea">  164</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *<a class="code hl_function" href="MRScanHelpers_8h.html#a56a6e732db4d138975b36c6bde975fea">MR_SliceInfo_UpcastTo_MR_SliceInfoBase</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span> </div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#a8259067bf1dd1720137b2fcb28b9eff4">  167</a></span>MRC_API <a class="code hl_typedef" href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *<a class="code hl_function" href="MRScanHelpers_8h.html#a8259067bf1dd1720137b2fcb28b9eff4">MR_SliceInfo_MutableUpcastTo_MR_SliceInfoBase</a>(<a class="code hl_typedef" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span> </div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#a0193193aadc828e5020f4b779b27f670">  172</a></span>MRC_API <a class="code hl_typedef" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *<a class="code hl_function" href="MRScanHelpers_8h.html#a0193193aadc828e5020f4b779b27f670">MR_SliceInfo_ConstructFromAnother</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_other);</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span> </div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#ab0cc8ef27beb1b1bca8488eb9c03b563">  175</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRScanHelpers_8h.html#ab0cc8ef27beb1b1bca8488eb9c03b563">MR_SliceInfo_Destroy</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this);</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span> </div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#a3c26087d0bfb439895bc086edf7eb0b8">  178</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRScanHelpers_8h.html#a3c26087d0bfb439895bc086edf7eb0b8">MR_SliceInfo_DestroyArray</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this);</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span> </div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#a4d4f812d4295badc4e4e36f754b7ecba">  184</a></span>MRC_API <a class="code hl_typedef" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *<a class="code hl_function" href="MRScanHelpers_8h.html#a4d4f812d4295badc4e4e36f754b7ecba">MR_SliceInfo_AssignFromAnother</a>(<a class="code hl_typedef" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this, <span class="keyword">const</span> <a class="code hl_typedef" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_other);</div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span> </div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#a612a3a2244de5d9464e79d6e69a50b03">  190</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRScanHelpers_8h.html#a612a3a2244de5d9464e79d6e69a50b03">MR_sortScansByOrder</a>(<a class="code hl_typedef" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *scans, <a class="code hl_typedef" href="std__vector__MR__SliceInfo_8h.html#a771ba5022befbb504ac90050d525a465">MR_std_vector_MR_SliceInfo</a> *zOrder);</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span> </div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#abb537722b31d589081be6fa2a6198f33">  196</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRScanHelpers_8h.html#abb537722b31d589081be6fa2a6198f33">MR_putScanFileNameInZ</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *scans, <a class="code hl_typedef" href="std__vector__MR__SliceInfo_8h.html#a771ba5022befbb504ac90050d525a465">MR_std_vector_MR_SliceInfo</a> *zOrder);</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span> </div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno"><a class="line" href="MRScanHelpers_8h.html#a774fb9769bd3fd586496af74fe82d048">  201</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRScanHelpers_8h.html#a774fb9769bd3fd586496af74fe82d048">MR_sortScanFilesByName</a>(<a class="code hl_typedef" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *scans);</div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span> </div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_a0193193aadc828e5020f4b779b27f670"><div class="ttname"><a href="MRScanHelpers_8h.html#a0193193aadc828e5020f4b779b27f670">MR_SliceInfo_ConstructFromAnother</a></div><div class="ttdeci">MRC_API MR_SliceInfo * MR_SliceInfo_ConstructFromAnother(const MR_SliceInfo *_other)</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_a03d4772d8abd4447e1d562b71b7a8277"><div class="ttname"><a href="MRScanHelpers_8h.html#a03d4772d8abd4447e1d562b71b7a8277">MR_SliceInfoBase_Set_instanceNum</a></div><div class="ttdeci">MRC_API void MR_SliceInfoBase_Set_instanceNum(MR_SliceInfoBase *_this, int32_t value)</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_a04db92e829095c04ced1440882086f47"><div class="ttname"><a href="MRScanHelpers_8h.html#a04db92e829095c04ced1440882086f47">MR_SliceInfo_Set_imagePos</a></div><div class="ttdeci">MRC_API void MR_SliceInfo_Set_imagePos(MR_SliceInfo *_this, MR_Vector3d value)</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_a05dda74aebafb050e852c813aac68567"><div class="ttname"><a href="MRScanHelpers_8h.html#a05dda74aebafb050e852c813aac68567">MR_SliceInfoBase_Get_instanceNum</a></div><div class="ttdeci">MRC_API const int32_t * MR_SliceInfoBase_Get_instanceNum(const MR_SliceInfoBase *_this)</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_a06830fcb8c97d86607040d4deca2e208"><div class="ttname"><a href="MRScanHelpers_8h.html#a06830fcb8c97d86607040d4deca2e208">MR_SliceInfoBase_Get_z</a></div><div class="ttdeci">MRC_API const double * MR_SliceInfoBase_Get_z(const MR_SliceInfoBase *_this)</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_a0799f8fd31a0e8ae5864034af6e44996"><div class="ttname"><a href="MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a></div><div class="ttdeci">struct MR_SliceInfoBase MR_SliceInfoBase</div><div class="ttdef"><b>Definition</b> MRScanHelpers.h:23</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_a07cab1e1557315b4e19f081fe1795d8b"><div class="ttname"><a href="MRScanHelpers_8h.html#a07cab1e1557315b4e19f081fe1795d8b">MR_SliceInfoBase_AssignFromAnother</a></div><div class="ttdeci">MRC_API MR_SliceInfoBase * MR_SliceInfoBase_AssignFromAnother(MR_SliceInfoBase *_this, const MR_SliceInfoBase *_other)</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_a1a35b5f93a3ffd559ee8fa62191cb789"><div class="ttname"><a href="MRScanHelpers_8h.html#a1a35b5f93a3ffd559ee8fa62191cb789">MR_SliceInfo_DefaultConstructArray</a></div><div class="ttdeci">MRC_API MR_SliceInfo * MR_SliceInfo_DefaultConstructArray(size_t num_elems)</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_a1ad74c302bce601ef2ea580a76d5ff50"><div class="ttname"><a href="MRScanHelpers_8h.html#a1ad74c302bce601ef2ea580a76d5ff50">MR_SliceInfo_OffsetPtr</a></div><div class="ttdeci">MRC_API const MR_SliceInfo * MR_SliceInfo_OffsetPtr(const MR_SliceInfo *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_a2eeadba49498e09de4979f74ad7c9f57"><div class="ttname"><a href="MRScanHelpers_8h.html#a2eeadba49498e09de4979f74ad7c9f57">MR_SliceInfoBase_GetMutable_z</a></div><div class="ttdeci">MRC_API double * MR_SliceInfoBase_GetMutable_z(MR_SliceInfoBase *_this)</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_a3c26087d0bfb439895bc086edf7eb0b8"><div class="ttname"><a href="MRScanHelpers_8h.html#a3c26087d0bfb439895bc086edf7eb0b8">MR_SliceInfo_DestroyArray</a></div><div class="ttdeci">MRC_API void MR_SliceInfo_DestroyArray(const MR_SliceInfo *_this)</div><div class="ttdoc">Destroys a heap-allocated array of MR_SliceInfo. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_a4cf9aeb4370b0427c35439f5ab5eb0a6"><div class="ttname"><a href="MRScanHelpers_8h.html#a4cf9aeb4370b0427c35439f5ab5eb0a6">MR_SliceInfoBase_StaticDowncastTo_MR_SliceInfo</a></div><div class="ttdeci">MRC_API const MR_SliceInfo * MR_SliceInfoBase_StaticDowncastTo_MR_SliceInfo(const MR_SliceInfoBase *object)</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_a4d4f812d4295badc4e4e36f754b7ecba"><div class="ttname"><a href="MRScanHelpers_8h.html#a4d4f812d4295badc4e4e36f754b7ecba">MR_SliceInfo_AssignFromAnother</a></div><div class="ttdeci">MRC_API MR_SliceInfo * MR_SliceInfo_AssignFromAnother(MR_SliceInfo *_this, const MR_SliceInfo *_other)</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_a56a6e732db4d138975b36c6bde975fea"><div class="ttname"><a href="MRScanHelpers_8h.html#a56a6e732db4d138975b36c6bde975fea">MR_SliceInfo_UpcastTo_MR_SliceInfoBase</a></div><div class="ttdeci">MRC_API const MR_SliceInfoBase * MR_SliceInfo_UpcastTo_MR_SliceInfoBase(const MR_SliceInfo *object)</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_a5d9c7ff207e5ddc2447883cae2086611"><div class="ttname"><a href="MRScanHelpers_8h.html#a5d9c7ff207e5ddc2447883cae2086611">MR_SliceInfo_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_SliceInfo * MR_SliceInfo_DefaultConstruct(void)</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_a612a3a2244de5d9464e79d6e69a50b03"><div class="ttname"><a href="MRScanHelpers_8h.html#a612a3a2244de5d9464e79d6e69a50b03">MR_sortScansByOrder</a></div><div class="ttdeci">MRC_API void MR_sortScansByOrder(MR_std_vector_std_filesystem_path *scans, MR_std_vector_MR_SliceInfo *zOrder)</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_a627f2742f6414bf060922504460e6b4c"><div class="ttname"><a href="MRScanHelpers_8h.html#a627f2742f6414bf060922504460e6b4c">MR_SliceInfoBase_ConstructFrom</a></div><div class="ttdeci">MRC_API MR_SliceInfoBase * MR_SliceInfoBase_ConstructFrom(int32_t instanceNum, double z, int32_t fileNum)</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_a759fee6f9c04b82b30629446d4906ddf"><div class="ttname"><a href="MRScanHelpers_8h.html#a759fee6f9c04b82b30629446d4906ddf">MR_SliceInfoBase_Get_fileNum</a></div><div class="ttdeci">MRC_API const int32_t * MR_SliceInfoBase_Get_fileNum(const MR_SliceInfoBase *_this)</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_a774fb9769bd3fd586496af74fe82d048"><div class="ttname"><a href="MRScanHelpers_8h.html#a774fb9769bd3fd586496af74fe82d048">MR_sortScanFilesByName</a></div><div class="ttdeci">MRC_API void MR_sortScanFilesByName(MR_std_vector_std_filesystem_path *scans)</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_a7781b07e940e92850e03e382208a89dc"><div class="ttname"><a href="MRScanHelpers_8h.html#a7781b07e940e92850e03e382208a89dc">MR_SliceInfoBase_Set_fileNum</a></div><div class="ttdeci">MRC_API void MR_SliceInfoBase_Set_fileNum(MR_SliceInfoBase *_this, int32_t value)</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_a778db0d71493c082b68bd58a556cc6ce"><div class="ttname"><a href="MRScanHelpers_8h.html#a778db0d71493c082b68bd58a556cc6ce">MR_SliceInfoBase_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_SliceInfoBase * MR_SliceInfoBase_DefaultConstruct(void)</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_a79d7d28491e5eec70a758ad86a6ca832"><div class="ttname"><a href="MRScanHelpers_8h.html#a79d7d28491e5eec70a758ad86a6ca832">MR_SliceInfoBase_GetMutable_fileNum</a></div><div class="ttdeci">MRC_API int32_t * MR_SliceInfoBase_GetMutable_fileNum(MR_SliceInfoBase *_this)</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_a8259067bf1dd1720137b2fcb28b9eff4"><div class="ttname"><a href="MRScanHelpers_8h.html#a8259067bf1dd1720137b2fcb28b9eff4">MR_SliceInfo_MutableUpcastTo_MR_SliceInfoBase</a></div><div class="ttdeci">MRC_API MR_SliceInfoBase * MR_SliceInfo_MutableUpcastTo_MR_SliceInfoBase(MR_SliceInfo *object)</div><div class="ttdoc">Upcasts an instance of MR::SliceInfo to its base class MR::SliceInfoBase.</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_a851722175b779567adc09b543ded427f"><div class="ttname"><a href="MRScanHelpers_8h.html#a851722175b779567adc09b543ded427f">MR_SliceInfoBase_DestroyArray</a></div><div class="ttdeci">MRC_API void MR_SliceInfoBase_DestroyArray(const MR_SliceInfoBase *_this)</div><div class="ttdoc">Destroys a heap-allocated array of MR_SliceInfoBase. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_a9ad825dde7dbe9ce7c411f504f0c0fcb"><div class="ttname"><a href="MRScanHelpers_8h.html#a9ad825dde7dbe9ce7c411f504f0c0fcb">MR_SliceInfoBase_OffsetPtr</a></div><div class="ttdeci">MRC_API const MR_SliceInfoBase * MR_SliceInfoBase_OffsetPtr(const MR_SliceInfoBase *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_aa1bfdb2da98ef6f92dc2b68127016481"><div class="ttname"><a href="MRScanHelpers_8h.html#aa1bfdb2da98ef6f92dc2b68127016481">MR_SliceInfoBase_ConstructFromAnother</a></div><div class="ttdeci">MRC_API MR_SliceInfoBase * MR_SliceInfoBase_ConstructFromAnother(const MR_SliceInfoBase *_other)</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_aa95b8cf06e35f65c883f9e8c23fe25a7"><div class="ttname"><a href="MRScanHelpers_8h.html#aa95b8cf06e35f65c883f9e8c23fe25a7">MR_SliceInfoBase_DefaultConstructArray</a></div><div class="ttdeci">MRC_API MR_SliceInfoBase * MR_SliceInfoBase_DefaultConstructArray(size_t num_elems)</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_ab0cc8ef27beb1b1bca8488eb9c03b563"><div class="ttname"><a href="MRScanHelpers_8h.html#ab0cc8ef27beb1b1bca8488eb9c03b563">MR_SliceInfo_Destroy</a></div><div class="ttdeci">MRC_API void MR_SliceInfo_Destroy(const MR_SliceInfo *_this)</div><div class="ttdoc">Destroys a heap-allocated instance of MR_SliceInfo. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_ab956e6f2a0a57418d32e6a3a87065f74"><div class="ttname"><a href="MRScanHelpers_8h.html#ab956e6f2a0a57418d32e6a3a87065f74">MR_SliceInfoBase_Destroy</a></div><div class="ttdeci">MRC_API void MR_SliceInfoBase_Destroy(const MR_SliceInfoBase *_this)</div><div class="ttdoc">Destroys a heap-allocated instance of MR_SliceInfoBase. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_abb537722b31d589081be6fa2a6198f33"><div class="ttname"><a href="MRScanHelpers_8h.html#abb537722b31d589081be6fa2a6198f33">MR_putScanFileNameInZ</a></div><div class="ttdeci">MRC_API void MR_putScanFileNameInZ(const MR_std_vector_std_filesystem_path *scans, MR_std_vector_MR_SliceInfo *zOrder)</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_abf9730ed2c4e90b01100cd90c652c2c3"><div class="ttname"><a href="MRScanHelpers_8h.html#abf9730ed2c4e90b01100cd90c652c2c3">MR_SliceInfo_GetMutable_imagePos</a></div><div class="ttdeci">MRC_API MR_Vector3d * MR_SliceInfo_GetMutable_imagePos(MR_SliceInfo *_this)</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_ac46bb91aa84b47902fbe87c2b1bc84c2"><div class="ttname"><a href="MRScanHelpers_8h.html#ac46bb91aa84b47902fbe87c2b1bc84c2">MR_SliceInfo_OffsetMutablePtr</a></div><div class="ttdeci">MRC_API MR_SliceInfo * MR_SliceInfo_OffsetMutablePtr(MR_SliceInfo *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_ac9779cd0877d1995a38cbdc11da7398c"><div class="ttname"><a href="MRScanHelpers_8h.html#ac9779cd0877d1995a38cbdc11da7398c">MR_SliceInfoBase_GetMutable_instanceNum</a></div><div class="ttdeci">MRC_API int32_t * MR_SliceInfoBase_GetMutable_instanceNum(MR_SliceInfoBase *_this)</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_acd6b5c574cd4a0641d986befcd2b088b"><div class="ttname"><a href="MRScanHelpers_8h.html#acd6b5c574cd4a0641d986befcd2b088b">MR_SliceInfo_Get_imagePos</a></div><div class="ttdeci">MRC_API const MR_Vector3d * MR_SliceInfo_Get_imagePos(const MR_SliceInfo *_this)</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_acec54aa70f2e4689c403c93760e24397"><div class="ttname"><a href="MRScanHelpers_8h.html#acec54aa70f2e4689c403c93760e24397">MR_SliceInfoBase_Set_z</a></div><div class="ttdeci">MRC_API void MR_SliceInfoBase_Set_z(MR_SliceInfoBase *_this, double value)</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_ae7aeadd3b94242cae353b3d35b0df0e5"><div class="ttname"><a href="MRScanHelpers_8h.html#ae7aeadd3b94242cae353b3d35b0df0e5">MR_SliceInfoBase_OffsetMutablePtr</a></div><div class="ttdeci">MRC_API MR_SliceInfoBase * MR_SliceInfoBase_OffsetMutablePtr(MR_SliceInfoBase *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRScanHelpers_8h_html_aee4a7b64f59d81e5b37193ddb5d547f4"><div class="ttname"><a href="MRScanHelpers_8h.html#aee4a7b64f59d81e5b37193ddb5d547f4">MR_SliceInfoBase_MutableStaticDowncastTo_MR_SliceInfo</a></div><div class="ttdeci">MRC_API MR_SliceInfo * MR_SliceInfoBase_MutableStaticDowncastTo_MR_SliceInfo(MR_SliceInfoBase *object)</div></div>
+<div class="ttc" id="aMRSceneLoad_8h_html_a4d75e004d098bc7d987ebfcf304f5454"><div class="ttname"><a href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a></div><div class="ttdeci">struct MR_std_vector_std_filesystem_path MR_std_vector_std_filesystem_path</div><div class="ttdef"><b>Definition</b> MRSceneLoad.h:17</div></div>
+<div class="ttc" id="aMRVector3_8h_html"><div class="ttname"><a href="MRVector3_8h.html">MRVector3.h</a></div></div>
+<div class="ttc" id="astd__vector__MR__SliceInfo_8h_html_a4a35a18cc382bdf4243ca5b58f8d0942"><div class="ttname"><a href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a></div><div class="ttdeci">struct MR_SliceInfo MR_SliceInfo</div><div class="ttdef"><b>Definition</b> std_vector_MR_SliceInfo.h:13</div></div>
+<div class="ttc" id="astd__vector__MR__SliceInfo_8h_html_a771ba5022befbb504ac90050d525a465"><div class="ttname"><a href="std__vector__MR__SliceInfo_8h.html#a771ba5022befbb504ac90050d525a465">MR_std_vector_MR_SliceInfo</a></div><div class="ttdeci">struct MR_std_vector_MR_SliceInfo MR_std_vector_MR_SliceInfo</div><div class="ttdef"><b>Definition</b> std_vector_MR_SliceInfo.h:18</div></div>
+<div class="ttc" id="astructMR__Vector3d_html"><div class="ttname"><a href="structMR__Vector3d.html">MR_Vector3d</a></div><div class="ttdef"><b>Definition</b> MRVector3.h:65</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_fa06e586131068ce9f0aae282763f308.html">MRCVoxels</a></li><li class="navelem"><a class="el" href="MRScanHelpers_8h.html">MRScanHelpers.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

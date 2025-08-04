@@ -1,0 +1,621 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRCombinedHistoryAction.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRCombinedHistoryAction_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRCombinedHistoryAction.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MRHistoryAction_8h_source.html">MRCMesh/MRHistoryAction.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="MRCombinedHistoryAction_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a26fdcccc5668d7a10acc1e27c11d1e56" id="r_a26fdcccc5668d7a10acc1e27c11d1e56"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a></td></tr>
+<tr class="separator:a26fdcccc5668d7a10acc1e27c11d1e56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ae2a902ff1290a29d4eb83645b9ed24" id="r_a3ae2a902ff1290a29d4eb83645b9ed24"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a3ae2a902ff1290a29d4eb83645b9ed24">MR_std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ae2a902ff1290a29d4eb83645b9ed24">MR_std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref</a></td></tr>
+<tr class="separator:a3ae2a902ff1290a29d4eb83645b9ed24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69dc6868c10c92fb8b8a255b0130d289" id="r_a69dc6868c10c92fb8b8a255b0130d289"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td></tr>
+<tr class="separator:a69dc6868c10c92fb8b8a255b0130d289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a302e96c8fc205d87b7083d246ebeb457" id="r_a302e96c8fc205d87b7083d246ebeb457"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a302e96c8fc205d87b7083d246ebeb457">MR_std_vector_std_shared_ptr_MR_HistoryAction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a302e96c8fc205d87b7083d246ebeb457">MR_std_vector_std_shared_ptr_MR_HistoryAction</a></td></tr>
+<tr class="separator:a302e96c8fc205d87b7083d246ebeb457"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc235a5ff64fb8c5ad600b5569568909" id="r_acc235a5ff64fb8c5ad600b5569568909"><td class="memItemLeft" align="right" valign="top">typedef struct MR_CombinedHistoryAction&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__HistoryGroup.html#acc235a5ff64fb8c5ad600b5569568909">MR_CombinedHistoryAction</a></td></tr>
+<tr class="separator:acc235a5ff64fb8c5ad600b5569568909"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:acc3b26961b609b7f6a7c72efe3faa246" id="r_acc3b26961b609b7f6a7c72efe3faa246"><td class="memItemLeft" align="right" valign="top">MRC_API MR_CombinedHistoryAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc3b26961b609b7f6a7c72efe3faa246">MR_CombinedHistoryAction_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, MR_CombinedHistoryAction *_other)</td></tr>
+<tr class="separator:acc3b26961b609b7f6a7c72efe3faa246"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b9d0e6c102aa38463908fb35a6c33ef" id="r_a3b9d0e6c102aa38463908fb35a6c33ef"><td class="memItemLeft" align="right" valign="top">MRC_API const MR_CombinedHistoryAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b9d0e6c102aa38463908fb35a6c33ef">MR_CombinedHistoryAction_OffsetPtr</a> (const MR_CombinedHistoryAction *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a3b9d0e6c102aa38463908fb35a6c33ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a3b9d0e6c102aa38463908fb35a6c33ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a357ad63a29a4a68513baad2c39b918b7" id="r_a357ad63a29a4a68513baad2c39b918b7"><td class="memItemLeft" align="right" valign="top">MRC_API MR_CombinedHistoryAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a357ad63a29a4a68513baad2c39b918b7">MR_CombinedHistoryAction_OffsetMutablePtr</a> (MR_CombinedHistoryAction *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a357ad63a29a4a68513baad2c39b918b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a357ad63a29a4a68513baad2c39b918b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab34818d7a6e3479327d8d1e030a05a2d" id="r_ab34818d7a6e3479327d8d1e030a05a2d"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab34818d7a6e3479327d8d1e030a05a2d">MR_CombinedHistoryAction_UpcastTo_MR_HistoryAction</a> (const MR_CombinedHistoryAction *object)</td></tr>
+<tr class="separator:ab34818d7a6e3479327d8d1e030a05a2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa40b81b7ff0453707eabc3249d763c4a" id="r_aa40b81b7ff0453707eabc3249d763c4a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa40b81b7ff0453707eabc3249d763c4a">MR_CombinedHistoryAction_MutableUpcastTo_MR_HistoryAction</a> (MR_CombinedHistoryAction *object)</td></tr>
+<tr class="memdesc:aa40b81b7ff0453707eabc3249d763c4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1CombinedHistoryAction.html">MR::CombinedHistoryAction</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code>.  <br /></td></tr>
+<tr class="separator:aa40b81b7ff0453707eabc3249d763c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84f0236086a904fa8e96e5638b53a7f8" id="r_a84f0236086a904fa8e96e5638b53a7f8"><td class="memItemLeft" align="right" valign="top">MRC_API MR_CombinedHistoryAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84f0236086a904fa8e96e5638b53a7f8">MR_CombinedHistoryAction_Construct</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, const <a class="el" href="#a302e96c8fc205d87b7083d246ebeb457">MR_std_vector_std_shared_ptr_MR_HistoryAction</a> *actions)</td></tr>
+<tr class="separator:a84f0236086a904fa8e96e5638b53a7f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae284fd341b8e30d30c6bb579c94b4ec5" id="r_ae284fd341b8e30d30c6bb579c94b4ec5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae284fd341b8e30d30c6bb579c94b4ec5">MR_CombinedHistoryAction_Destroy</a> (const MR_CombinedHistoryAction *_this)</td></tr>
+<tr class="memdesc:ae284fd341b8e30d30c6bb579c94b4ec5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_CombinedHistoryAction</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ae284fd341b8e30d30c6bb579c94b4ec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f3443f4908d936d277d0e44bc9948ca" id="r_a7f3443f4908d936d277d0e44bc9948ca"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f3443f4908d936d277d0e44bc9948ca">MR_CombinedHistoryAction_DestroyArray</a> (const MR_CombinedHistoryAction *_this)</td></tr>
+<tr class="memdesc:a7f3443f4908d936d277d0e44bc9948ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_CombinedHistoryAction</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a7f3443f4908d936d277d0e44bc9948ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae37e33ca625aa34393144b3a4b8b4011" id="r_ae37e33ca625aa34393144b3a4b8b4011"><td class="memItemLeft" align="right" valign="top">MRC_API MR_CombinedHistoryAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae37e33ca625aa34393144b3a4b8b4011">MR_CombinedHistoryAction_AssignFromAnother</a> (MR_CombinedHistoryAction *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, MR_CombinedHistoryAction *_other)</td></tr>
+<tr class="separator:ae37e33ca625aa34393144b3a4b8b4011"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b88c3b1e5bd125bb75725222bfbf478" id="r_a8b88c3b1e5bd125bb75725222bfbf478"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b88c3b1e5bd125bb75725222bfbf478">MR_CombinedHistoryAction_name</a> (const MR_CombinedHistoryAction *_this)</td></tr>
+<tr class="separator:a8b88c3b1e5bd125bb75725222bfbf478"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc970b5ed5b27cd34dda2bb5677fa556" id="r_abc970b5ed5b27cd34dda2bb5677fa556"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc970b5ed5b27cd34dda2bb5677fa556">MR_CombinedHistoryAction_action</a> (MR_CombinedHistoryAction *_this, <a class="el" href="MRHistoryAction_8h.html#aa6545a91fb04c0c7a224383de1b0d1dc">MR_HistoryAction_Type</a> type)</td></tr>
+<tr class="separator:abc970b5ed5b27cd34dda2bb5677fa556"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9b917ef50b0aec085b324f2eba8fd77" id="r_af9b917ef50b0aec085b324f2eba8fd77"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a302e96c8fc205d87b7083d246ebeb457">MR_std_vector_std_shared_ptr_MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9b917ef50b0aec085b324f2eba8fd77">MR_CombinedHistoryAction_getStack</a> (MR_CombinedHistoryAction *_this)</td></tr>
+<tr class="separator:af9b917ef50b0aec085b324f2eba8fd77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90be7c8fb2bd94635ad0de681d8f68d4" id="r_a90be7c8fb2bd94635ad0de681d8f68d4"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a302e96c8fc205d87b7083d246ebeb457">MR_std_vector_std_shared_ptr_MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90be7c8fb2bd94635ad0de681d8f68d4">MR_CombinedHistoryAction_getStack_const</a> (const MR_CombinedHistoryAction *_this)</td></tr>
+<tr class="separator:a90be7c8fb2bd94635ad0de681d8f68d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bc68e70ef807b2d7dc04b1092685c0b" id="r_a9bc68e70ef807b2d7dc04b1092685c0b"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bc68e70ef807b2d7dc04b1092685c0b">MR_CombinedHistoryAction_filter</a> (MR_CombinedHistoryAction *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> filteringCondition_pass_by, <a class="el" href="#a3ae2a902ff1290a29d4eb83645b9ed24">MR_std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref</a> *filteringCondition)</td></tr>
+<tr class="separator:a9bc68e70ef807b2d7dc04b1092685c0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a992a8ca347c04897d06356e1fa82ba8a" id="r_a992a8ca347c04897d06356e1fa82ba8a"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a992a8ca347c04897d06356e1fa82ba8a">MR_CombinedHistoryAction_empty</a> (const MR_CombinedHistoryAction *_this)</td></tr>
+<tr class="separator:a992a8ca347c04897d06356e1fa82ba8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab090db8b2f2f3e7bd129dd3484c1778c" id="r_ab090db8b2f2f3e7bd129dd3484c1778c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab090db8b2f2f3e7bd129dd3484c1778c">MR_CombinedHistoryAction_heapBytes</a> (const MR_CombinedHistoryAction *_this)</td></tr>
+<tr class="separator:ab090db8b2f2f3e7bd129dd3484c1778c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a26fdcccc5668d7a10acc1e27c11d1e56" name="a26fdcccc5668d7a10acc1e27c11d1e56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26fdcccc5668d7a10acc1e27c11d1e56">&#9670;&#160;</a></span>MR_HistoryAction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3ae2a902ff1290a29d4eb83645b9ed24" name="a3ae2a902ff1290a29d4eb83645b9ed24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ae2a902ff1290a29d4eb83645b9ed24">&#9670;&#160;</a></span>MR_std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a3ae2a902ff1290a29d4eb83645b9ed24">MR_std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref</a> <a class="el" href="#a3ae2a902ff1290a29d4eb83645b9ed24">MR_std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69dc6868c10c92fb8b8a255b0130d289" name="a69dc6868c10c92fb8b8a255b0130d289"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69dc6868c10c92fb8b8a255b0130d289">&#9670;&#160;</a></span>MR_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a302e96c8fc205d87b7083d246ebeb457" name="a302e96c8fc205d87b7083d246ebeb457"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a302e96c8fc205d87b7083d246ebeb457">&#9670;&#160;</a></span>MR_std_vector_std_shared_ptr_MR_HistoryAction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a302e96c8fc205d87b7083d246ebeb457">MR_std_vector_std_shared_ptr_MR_HistoryAction</a> <a class="el" href="#a302e96c8fc205d87b7083d246ebeb457">MR_std_vector_std_shared_ptr_MR_HistoryAction</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="abc970b5ed5b27cd34dda2bb5677fa556" name="abc970b5ed5b27cd34dda2bb5677fa556"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc970b5ed5b27cd34dda2bb5677fa556">&#9670;&#160;</a></span>MR_CombinedHistoryAction_action()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CombinedHistoryAction_action </td>
+          <td>(</td>
+          <td class="paramtype">MR_CombinedHistoryAction *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRHistoryAction_8h.html#aa6545a91fb04c0c7a224383de1b0d1dc">MR_HistoryAction_Type</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1CombinedHistoryAction.html">MR::CombinedHistoryAction</a></code> named <code>action</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae37e33ca625aa34393144b3a4b8b4011" name="ae37e33ca625aa34393144b3a4b8b4011"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae37e33ca625aa34393144b3a4b8b4011">&#9670;&#160;</a></span>MR_CombinedHistoryAction_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API MR_CombinedHistoryAction * MR_CombinedHistoryAction_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">MR_CombinedHistoryAction *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR_CombinedHistoryAction *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1CombinedHistoryAction.html">MR::CombinedHistoryAction</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a84f0236086a904fa8e96e5638b53a7f8" name="a84f0236086a904fa8e96e5638b53a7f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84f0236086a904fa8e96e5638b53a7f8">&#9670;&#160;</a></span>MR_CombinedHistoryAction_Construct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API MR_CombinedHistoryAction * MR_CombinedHistoryAction_Construct </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a302e96c8fc205d87b7083d246ebeb457">MR_std_vector_std_shared_ptr_MR_HistoryAction</a> *</td>          <td class="paramname"><span class="paramname"><em>actions</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Will call <a class="elRef" href="../Cpp/group__HistoryGroup.html#gab0a69b615a514d76010260695c2116e5">action()</a> for each actions in given order (undo in reverse, redo in forward) Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1CombinedHistoryAction.html">MR::CombinedHistoryAction</a></code>. Parameter <code>name</code> can not be null. Parameter <code>actions</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae284fd341b8e30d30c6bb579c94b4ec5" title="Destroys a heap-allocated instance of MR_CombinedHistoryAction. Does nothing if the pointer is null.">MR_CombinedHistoryAction_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="acc3b26961b609b7f6a7c72efe3faa246" name="acc3b26961b609b7f6a7c72efe3faa246"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc3b26961b609b7f6a7c72efe3faa246">&#9670;&#160;</a></span>MR_CombinedHistoryAction_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API MR_CombinedHistoryAction * MR_CombinedHistoryAction_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR_CombinedHistoryAction *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1CombinedHistoryAction.html">MR::CombinedHistoryAction</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae284fd341b8e30d30c6bb579c94b4ec5" title="Destroys a heap-allocated instance of MR_CombinedHistoryAction. Does nothing if the pointer is null.">MR_CombinedHistoryAction_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae284fd341b8e30d30c6bb579c94b4ec5" name="ae284fd341b8e30d30c6bb579c94b4ec5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae284fd341b8e30d30c6bb579c94b4ec5">&#9670;&#160;</a></span>MR_CombinedHistoryAction_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CombinedHistoryAction_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const MR_CombinedHistoryAction *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_CombinedHistoryAction</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a7f3443f4908d936d277d0e44bc9948ca" name="a7f3443f4908d936d277d0e44bc9948ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f3443f4908d936d277d0e44bc9948ca">&#9670;&#160;</a></span>MR_CombinedHistoryAction_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CombinedHistoryAction_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const MR_CombinedHistoryAction *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_CombinedHistoryAction</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a992a8ca347c04897d06356e1fa82ba8a" name="a992a8ca347c04897d06356e1fa82ba8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a992a8ca347c04897d06356e1fa82ba8a">&#9670;&#160;</a></span>MR_CombinedHistoryAction_empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_CombinedHistoryAction_empty </td>
+          <td>(</td>
+          <td class="paramtype">const MR_CombinedHistoryAction *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1CombinedHistoryAction.html">MR::CombinedHistoryAction</a></code> named <code>empty</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a9bc68e70ef807b2d7dc04b1092685c0b" name="a9bc68e70ef807b2d7dc04b1092685c0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bc68e70ef807b2d7dc04b1092685c0b">&#9670;&#160;</a></span>MR_CombinedHistoryAction_filter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_CombinedHistoryAction_filter </td>
+          <td>(</td>
+          <td class="paramtype">MR_CombinedHistoryAction *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>filteringCondition_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a3ae2a902ff1290a29d4eb83645b9ed24">MR_std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref</a> *</td>          <td class="paramname"><span class="paramname"><em>filteringCondition</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Remove some actions according to condition inside combined actions. Do deep filtering. Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1CombinedHistoryAction.html">MR::CombinedHistoryAction</a></code> named <code>filter</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="af9b917ef50b0aec085b324f2eba8fd77" name="af9b917ef50b0aec085b324f2eba8fd77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9b917ef50b0aec085b324f2eba8fd77">&#9670;&#160;</a></span>MR_CombinedHistoryAction_getStack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a302e96c8fc205d87b7083d246ebeb457">MR_std_vector_std_shared_ptr_MR_HistoryAction</a> * MR_CombinedHistoryAction_getStack </td>
+          <td>(</td>
+          <td class="paramtype">MR_CombinedHistoryAction *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1CombinedHistoryAction.html">MR::CombinedHistoryAction</a></code> named <code>getStack</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a90be7c8fb2bd94635ad0de681d8f68d4" name="a90be7c8fb2bd94635ad0de681d8f68d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90be7c8fb2bd94635ad0de681d8f68d4">&#9670;&#160;</a></span>MR_CombinedHistoryAction_getStack_const()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a302e96c8fc205d87b7083d246ebeb457">MR_std_vector_std_shared_ptr_MR_HistoryAction</a> * MR_CombinedHistoryAction_getStack_const </td>
+          <td>(</td>
+          <td class="paramtype">const MR_CombinedHistoryAction *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1CombinedHistoryAction.html">MR::CombinedHistoryAction</a></code> named <code>getStack</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ab090db8b2f2f3e7bd129dd3484c1778c" name="ab090db8b2f2f3e7bd129dd3484c1778c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab090db8b2f2f3e7bd129dd3484c1778c">&#9670;&#160;</a></span>MR_CombinedHistoryAction_heapBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_CombinedHistoryAction_heapBytes </td>
+          <td>(</td>
+          <td class="paramtype">const MR_CombinedHistoryAction *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1CombinedHistoryAction.html">MR::CombinedHistoryAction</a></code> named <code>heapBytes</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa40b81b7ff0453707eabc3249d763c4a" name="aa40b81b7ff0453707eabc3249d763c4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa40b81b7ff0453707eabc3249d763c4a">&#9670;&#160;</a></span>MR_CombinedHistoryAction_MutableUpcastTo_MR_HistoryAction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> * MR_CombinedHistoryAction_MutableUpcastTo_MR_HistoryAction </td>
+          <td>(</td>
+          <td class="paramtype">MR_CombinedHistoryAction *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1CombinedHistoryAction.html">MR::CombinedHistoryAction</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code>. </p>
+
+</div>
+</div>
+<a id="a8b88c3b1e5bd125bb75725222bfbf478" name="a8b88c3b1e5bd125bb75725222bfbf478"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b88c3b1e5bd125bb75725222bfbf478">&#9670;&#160;</a></span>MR_CombinedHistoryAction_name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_CombinedHistoryAction_name </td>
+          <td>(</td>
+          <td class="paramtype">const MR_CombinedHistoryAction *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1CombinedHistoryAction.html">MR::CombinedHistoryAction</a></code> named <code>name</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a357ad63a29a4a68513baad2c39b918b7" name="a357ad63a29a4a68513baad2c39b918b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a357ad63a29a4a68513baad2c39b918b7">&#9670;&#160;</a></span>MR_CombinedHistoryAction_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API MR_CombinedHistoryAction * MR_CombinedHistoryAction_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype">MR_CombinedHistoryAction *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a3b9d0e6c102aa38463908fb35a6c33ef" name="a3b9d0e6c102aa38463908fb35a6c33ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b9d0e6c102aa38463908fb35a6c33ef">&#9670;&#160;</a></span>MR_CombinedHistoryAction_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const MR_CombinedHistoryAction * MR_CombinedHistoryAction_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const MR_CombinedHistoryAction *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ab34818d7a6e3479327d8d1e030a05a2d" name="ab34818d7a6e3479327d8d1e030a05a2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab34818d7a6e3479327d8d1e030a05a2d">&#9670;&#160;</a></span>MR_CombinedHistoryAction_UpcastTo_MR_HistoryAction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> * MR_CombinedHistoryAction_UpcastTo_MR_HistoryAction </td>
+          <td>(</td>
+          <td class="paramtype">const MR_CombinedHistoryAction *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1CombinedHistoryAction.html">MR::CombinedHistoryAction</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code>. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_8b489c7b5d1a72d35ec87e32cc37b940.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRCombinedHistoryAction_8h.html">MRCombinedHistoryAction.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

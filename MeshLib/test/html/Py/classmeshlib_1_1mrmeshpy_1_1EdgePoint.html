@@ -1,0 +1,603 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.EdgePoint Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1EdgePoint.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1EdgePoint-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.EdgePoint Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a40ca96cef742382ac6170009523724f1" id="r_a40ca96cef742382ac6170009523724f1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40ca96cef742382ac6170009523724f1">__bool__</a> (self)</td></tr>
+<tr class="separator:a40ca96cef742382ac6170009523724f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb733013e2e9ff53277712ccc6bd5c12" id="r_aeb733013e2e9ff53277712ccc6bd5c12"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb733013e2e9ff53277712ccc6bd5c12">__eq__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgePoint.html">EdgePoint</a> rhs)</td></tr>
+<tr class="separator:aeb733013e2e9ff53277712ccc6bd5c12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03aa2418108cbba72fa8ea0066b68c02" id="r_a03aa2418108cbba72fa8ea0066b68c02"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03aa2418108cbba72fa8ea0066b68c02">__init__</a> (self)</td></tr>
+<tr class="separator:a03aa2418108cbba72fa8ea0066b68c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad8b6de1fb34e840bf172aa47564378f" id="r_aad8b6de1fb34e840bf172aa47564378f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad8b6de1fb34e840bf172aa47564378f">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a> e, float <a class="el" href="#a79be1b0e9540ed9b0de9bc9fa3eb6648">a</a>)</td></tr>
+<tr class="separator:aad8b6de1fb34e840bf172aa47564378f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accd40e8e0245456976739f67b3d0ce57" id="r_accd40e8e0245456976739f67b3d0ce57"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accd40e8e0245456976739f67b3d0ce57">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertId.html">VertId</a> v)</td></tr>
+<tr class="separator:accd40e8e0245456976739f67b3d0ce57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a930ccd0c153381bd9f417b59bc687ad8" id="r_a930ccd0c153381bd9f417b59bc687ad8"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a930ccd0c153381bd9f417b59bc687ad8">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PolylineTopology.html">PolylineTopology</a> topology, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertId.html">VertId</a> v)</td></tr>
+<tr class="separator:a930ccd0c153381bd9f417b59bc687ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f263fdb4072f1513df2c10ea952f230" id="r_a6f263fdb4072f1513df2c10ea952f230"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f263fdb4072f1513df2c10ea952f230">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgePoint.html">EdgePoint</a> arg0)</td></tr>
+<tr class="separator:a6f263fdb4072f1513df2c10ea952f230"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fcb6cbea770c067f2bc2ff54350186b" id="r_a5fcb6cbea770c067f2bc2ff54350186b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertId.html">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fcb6cbea770c067f2bc2ff54350186b">getClosestVertex</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology)</td></tr>
+<tr class="separator:a5fcb6cbea770c067f2bc2ff54350186b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea7f2b5c1a7dcbf52f75c726b46abc07" id="r_aea7f2b5c1a7dcbf52f75c726b46abc07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertId.html">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea7f2b5c1a7dcbf52f75c726b46abc07">getClosestVertex</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PolylineTopology.html">PolylineTopology</a> topology)</td></tr>
+<tr class="separator:aea7f2b5c1a7dcbf52f75c726b46abc07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1599bd7c6c419e9ffbb8e508c4051b99" id="r_a1599bd7c6c419e9ffbb8e508c4051b99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertId.html">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1599bd7c6c419e9ffbb8e508c4051b99">inVertex</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology)</td></tr>
+<tr class="separator:a1599bd7c6c419e9ffbb8e508c4051b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fa4a9886ef7c3ccf1a432ac50aaba28" id="r_a7fa4a9886ef7c3ccf1a432ac50aaba28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertId.html">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fa4a9886ef7c3ccf1a432ac50aaba28">inVertex</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PolylineTopology.html">PolylineTopology</a> topology)</td></tr>
+<tr class="separator:a7fa4a9886ef7c3ccf1a432ac50aaba28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf6ed74846d3a00b7992fc9ee77d19e4" id="r_adf6ed74846d3a00b7992fc9ee77d19e4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf6ed74846d3a00b7992fc9ee77d19e4">inVertex</a> (self)</td></tr>
+<tr class="separator:adf6ed74846d3a00b7992fc9ee77d19e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61eac3fa1a34613bf4982bd4b338a330" id="r_a61eac3fa1a34613bf4982bd4b338a330"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61eac3fa1a34613bf4982bd4b338a330">isBd</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None)</td></tr>
+<tr class="separator:a61eac3fa1a34613bf4982bd4b338a330"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66dc7dbc3cb24bad4d433bc528083e6b" id="r_a66dc7dbc3cb24bad4d433bc528083e6b"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66dc7dbc3cb24bad4d433bc528083e6b">moveToClosestVertex</a> (self)</td></tr>
+<tr class="separator:a66dc7dbc3cb24bad4d433bc528083e6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a861765e985b443abd874f4de9c54f9e6" id="r_a861765e985b443abd874f4de9c54f9e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgePoint.html">EdgePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a861765e985b443abd874f4de9c54f9e6">sym</a> (self)</td></tr>
+<tr class="separator:a861765e985b443abd874f4de9c54f9e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d1a044c47f80457dcc3a38c9441b721" id="r_a0d1a044c47f80457dcc3a38c9441b721"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d1a044c47f80457dcc3a38c9441b721">valid</a> (self)</td></tr>
+<tr class="separator:a0d1a044c47f80457dcc3a38c9441b721"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79be1b0e9540ed9b0de9bc9fa3eb6648" id="r_a79be1b0e9540ed9b0de9bc9fa3eb6648"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1SegmPointf.html">SegmPointf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79be1b0e9540ed9b0de9bc9fa3eb6648">a</a> (self)</td></tr>
+<tr class="separator:a79be1b0e9540ed9b0de9bc9fa3eb6648"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ff8bdbd00c838b3dcd4ade4f9266c0b" id="r_a8ff8bdbd00c838b3dcd4ade4f9266c0b"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ff8bdbd00c838b3dcd4ade4f9266c0b">a</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1SegmPointf.html">SegmPointf</a> arg1)</td></tr>
+<tr class="separator:a8ff8bdbd00c838b3dcd4ade4f9266c0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Generated from:  MR::EdgePoint
+Aliases:  MeshEdgePoint, MeshEdgePoint
+
+encodes a point on an edge of mesh or of polyline
+</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a03aa2418108cbba72fa8ea0066b68c02" name="a03aa2418108cbba72fa8ea0066b68c02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03aa2418108cbba72fa8ea0066b68c02">&#9670;&#160;</a></span>__init__() <span class="overload">[1/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.EdgePoint.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aad8b6de1fb34e840bf172aa47564378f" name="aad8b6de1fb34e840bf172aa47564378f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad8b6de1fb34e840bf172aa47564378f">&#9670;&#160;</a></span>__init__() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.EdgePoint.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Id__EdgeTag.html">Id_EdgeTag</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="accd40e8e0245456976739f67b3d0ce57" name="accd40e8e0245456976739f67b3d0ce57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accd40e8e0245456976739f67b3d0ce57">&#9670;&#160;</a></span>__init__() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.EdgePoint.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshTopology.html">MeshTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertId.html">VertId</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a930ccd0c153381bd9f417b59bc687ad8" name="a930ccd0c153381bd9f417b59bc687ad8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a930ccd0c153381bd9f417b59bc687ad8">&#9670;&#160;</a></span>__init__() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.EdgePoint.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1PolylineTopology.html">PolylineTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertId.html">VertId</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6f263fdb4072f1513df2c10ea952f230" name="a6f263fdb4072f1513df2c10ea952f230"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f263fdb4072f1513df2c10ea952f230">&#9670;&#160;</a></span>__init__() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.EdgePoint.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgePoint.html">EdgePoint</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit copy constructor.
+</pre> 
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a40ca96cef742382ac6170009523724f1" name="a40ca96cef742382ac6170009523724f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40ca96cef742382ac6170009523724f1">&#9670;&#160;</a></span>__bool__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.EdgePoint.__bool__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeb733013e2e9ff53277712ccc6bd5c12" name="aeb733013e2e9ff53277712ccc6bd5c12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb733013e2e9ff53277712ccc6bd5c12">&#9670;&#160;</a></span>__eq__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.EdgePoint.__eq__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgePoint.html">EdgePoint</a></td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns true if two edge-points are equal including equal not-unique representation
+</pre> 
+</div>
+</div>
+<a id="a79be1b0e9540ed9b0de9bc9fa3eb6648" name="a79be1b0e9540ed9b0de9bc9fa3eb6648"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79be1b0e9540ed9b0de9bc9fa3eb6648">&#9670;&#160;</a></span>a() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1SegmPointf.html">SegmPointf</a> meshlib.mrmeshpy.EdgePoint.a </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">a in [0,1], a=0 =&gt; point is in org( e ), a=1 =&gt; point is in dest( e )
+</pre> 
+</div>
+</div>
+<a id="a8ff8bdbd00c838b3dcd4ade4f9266c0b" name="a8ff8bdbd00c838b3dcd4ade4f9266c0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ff8bdbd00c838b3dcd4ade4f9266c0b">&#9670;&#160;</a></span>a() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.EdgePoint.a </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1SegmPointf.html">SegmPointf</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5fcb6cbea770c067f2bc2ff54350186b" name="a5fcb6cbea770c067f2bc2ff54350186b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fcb6cbea770c067f2bc2ff54350186b">&#9670;&#160;</a></span>getClosestVertex() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertId.html">VertId</a> meshlib.mrmeshpy.EdgePoint.getClosestVertex </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshTopology.html">MeshTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns one of two edge vertices, closest to this point
+</pre> 
+</div>
+</div>
+<a id="aea7f2b5c1a7dcbf52f75c726b46abc07" name="aea7f2b5c1a7dcbf52f75c726b46abc07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea7f2b5c1a7dcbf52f75c726b46abc07">&#9670;&#160;</a></span>getClosestVertex() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertId.html">VertId</a> meshlib.mrmeshpy.EdgePoint.getClosestVertex </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1PolylineTopology.html">PolylineTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns one of two edge vertices, closest to this point
+</pre> 
+</div>
+</div>
+<a id="adf6ed74846d3a00b7992fc9ee77d19e4" name="adf6ed74846d3a00b7992fc9ee77d19e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf6ed74846d3a00b7992fc9ee77d19e4">&#9670;&#160;</a></span>inVertex() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.EdgePoint.inVertex </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns true if the point is in a vertex
+</pre> 
+</div>
+</div>
+<a id="a1599bd7c6c419e9ffbb8e508c4051b99" name="a1599bd7c6c419e9ffbb8e508c4051b99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1599bd7c6c419e9ffbb8e508c4051b99">&#9670;&#160;</a></span>inVertex() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertId.html">VertId</a> meshlib.mrmeshpy.EdgePoint.inVertex </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshTopology.html">MeshTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns valid vertex id if the point is in vertex, otherwise returns invalid id
+</pre> 
+</div>
+</div>
+<a id="a7fa4a9886ef7c3ccf1a432ac50aaba28" name="a7fa4a9886ef7c3ccf1a432ac50aaba28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fa4a9886ef7c3ccf1a432ac50aaba28">&#9670;&#160;</a></span>inVertex() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertId.html">VertId</a> meshlib.mrmeshpy.EdgePoint.inVertex </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1PolylineTopology.html">PolylineTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns valid vertex id if the point is in vertex, otherwise returns invalid id
+</pre> 
+</div>
+</div>
+<a id="a61eac3fa1a34613bf4982bd4b338a330" name="a61eac3fa1a34613bf4982bd4b338a330"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61eac3fa1a34613bf4982bd4b338a330">&#9670;&#160;</a></span>isBd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.EdgePoint.isBd </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshTopology.html">MeshTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> </td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns true if the point is on the boundary of the region (or for whole mesh if region is nullptr)
+</pre> 
+</div>
+</div>
+<a id="a66dc7dbc3cb24bad4d433bc528083e6b" name="a66dc7dbc3cb24bad4d433bc528083e6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66dc7dbc3cb24bad4d433bc528083e6b">&#9670;&#160;</a></span>moveToClosestVertex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.EdgePoint.moveToClosestVertex </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sets this to the closest end of the edge
+</pre> 
+</div>
+</div>
+<a id="a861765e985b443abd874f4de9c54f9e6" name="a861765e985b443abd874f4de9c54f9e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a861765e985b443abd874f4de9c54f9e6">&#9670;&#160;</a></span>sym()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgePoint.html">EdgePoint</a> meshlib.mrmeshpy.EdgePoint.sym </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">represents the same point relative to sym edge in
+</pre> 
+</div>
+</div>
+<a id="a0d1a044c47f80457dcc3a38c9441b721" name="a0d1a044c47f80457dcc3a38c9441b721"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d1a044c47f80457dcc3a38c9441b721">&#9670;&#160;</a></span>valid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.EdgePoint.valid </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">consider this valid if the edge ID is valid
+</pre> 
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1EdgePoint.html">EdgePoint</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

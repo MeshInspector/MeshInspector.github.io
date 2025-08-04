@@ -1,0 +1,1770 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: std_vector_MR_FlowOrigin.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('std__vector__MR__FlowOrigin_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">std_vector_MR_FlowOrigin.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="std__vector__MR__FlowOrigin_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a1bf1235f26ddbc6b2d06f54f5f5de6fa" id="r_a1bf1235f26ddbc6b2d06f54f5f5de6fa"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a></td></tr>
+<tr class="separator:a1bf1235f26ddbc6b2d06f54f5f5de6fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a469ad03b384318d856e596e3ab8fc31a" id="r_a469ad03b384318d856e596e3ab8fc31a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a></td></tr>
+<tr class="separator:a469ad03b384318d856e596e3ab8fc31a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6d614ac0a8ecbb298385d5b695cd35f" id="r_aa6d614ac0a8ecbb298385d5b695cd35f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a></td></tr>
+<tr class="separator:aa6d614ac0a8ecbb298385d5b695cd35f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a953e754165f55f94f20c4fde827d03bf" id="r_a953e754165f55f94f20c4fde827d03bf"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a></td></tr>
+<tr class="separator:a953e754165f55f94f20c4fde827d03bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a6593cdba2fa2f7c185c9e09bfdb7b911" id="r_a6593cdba2fa2f7c185c9e09bfdb7b911"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6593cdba2fa2f7c185c9e09bfdb7b911">MR_std_vector_MR_FlowOrigin_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a6593cdba2fa2f7c185c9e09bfdb7b911"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27854b0dc0f1334637fbae361ae42784" id="r_a27854b0dc0f1334637fbae361ae42784"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27854b0dc0f1334637fbae361ae42784">MR_std_vector_MR_FlowOrigin_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a27854b0dc0f1334637fbae361ae42784"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a9aaa6a056099b62d81aadf04029ce3" id="r_a5a9aaa6a056099b62d81aadf04029ce3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a9aaa6a056099b62d81aadf04029ce3">MR_std_vector_MR_FlowOrigin_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *other)</td></tr>
+<tr class="separator:a5a9aaa6a056099b62d81aadf04029ce3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff86b1e29f906f6bc0a38c49e6ffa70b" id="r_aff86b1e29f906f6bc0a38c49e6ffa70b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff86b1e29f906f6bc0a38c49e6ffa70b">MR_std_vector_MR_FlowOrigin_AssignFromAnother</a> (<a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *other)</td></tr>
+<tr class="separator:aff86b1e29f906f6bc0a38c49e6ffa70b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac7c1f3ae7977ab86d540181e85d7c00" id="r_aac7c1f3ae7977ab86d540181e85d7c00"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac7c1f3ae7977ab86d540181e85d7c00">MR_std_vector_MR_FlowOrigin_Destroy</a> (const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this)</td></tr>
+<tr class="memdesc:aac7c1f3ae7977ab86d540181e85d7c00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_FlowOrigin</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:aac7c1f3ae7977ab86d540181e85d7c00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a652de764ecaab11f346389bf15a82693" id="r_a652de764ecaab11f346389bf15a82693"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a652de764ecaab11f346389bf15a82693">MR_std_vector_MR_FlowOrigin_DestroyArray</a> (const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this)</td></tr>
+<tr class="memdesc:a652de764ecaab11f346389bf15a82693"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_FlowOrigin</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a652de764ecaab11f346389bf15a82693"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8979baf3de308caf186015c5b64c8d1f" id="r_a8979baf3de308caf186015c5b64c8d1f"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8979baf3de308caf186015c5b64c8d1f">MR_std_vector_MR_FlowOrigin_OffsetPtr</a> (const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a8979baf3de308caf186015c5b64c8d1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a8979baf3de308caf186015c5b64c8d1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e338583684d5550c05d9ab5ad60830a" id="r_a3e338583684d5550c05d9ab5ad60830a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e338583684d5550c05d9ab5ad60830a">MR_std_vector_MR_FlowOrigin_OffsetMutablePtr</a> (<a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a3e338583684d5550c05d9ab5ad60830a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a3e338583684d5550c05d9ab5ad60830a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31bd7d1326edfaa18fdf0fd81179c4c9" id="r_a31bd7d1326edfaa18fdf0fd81179c4c9"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31bd7d1326edfaa18fdf0fd81179c4c9">MR_std_vector_MR_FlowOrigin_Size</a> (const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this)</td></tr>
+<tr class="separator:a31bd7d1326edfaa18fdf0fd81179c4c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad26d4bf5b4701d6094215988107561a5" id="r_ad26d4bf5b4701d6094215988107561a5"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad26d4bf5b4701d6094215988107561a5">MR_std_vector_MR_FlowOrigin_IsEmpty</a> (const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this)</td></tr>
+<tr class="separator:ad26d4bf5b4701d6094215988107561a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fc18ff7ddbf66d7fb93894a59d6bb4f" id="r_a6fc18ff7ddbf66d7fb93894a59d6bb4f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fc18ff7ddbf66d7fb93894a59d6bb4f">MR_std_vector_MR_FlowOrigin_Resize</a> (<a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this, size_t new_size)</td></tr>
+<tr class="separator:a6fc18ff7ddbf66d7fb93894a59d6bb4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af56f71595d43ecdd0b97fef143369647" id="r_af56f71595d43ecdd0b97fef143369647"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af56f71595d43ecdd0b97fef143369647">MR_std_vector_MR_FlowOrigin_ResizeWithDefaultValue</a> (<a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this, size_t new_size, const <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a> *value)</td></tr>
+<tr class="separator:af56f71595d43ecdd0b97fef143369647"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae281d78ca9aab487fce0b588c5e0221a" id="r_ae281d78ca9aab487fce0b588c5e0221a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae281d78ca9aab487fce0b588c5e0221a">MR_std_vector_MR_FlowOrigin_Clear</a> (<a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this)</td></tr>
+<tr class="separator:ae281d78ca9aab487fce0b588c5e0221a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4751dfc02ed11f7aebd1c4021e3c2d0c" id="r_a4751dfc02ed11f7aebd1c4021e3c2d0c"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4751dfc02ed11f7aebd1c4021e3c2d0c">MR_std_vector_MR_FlowOrigin_Capacity</a> (const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this)</td></tr>
+<tr class="separator:a4751dfc02ed11f7aebd1c4021e3c2d0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1380093beed2bae953c18ebe4137233" id="r_aa1380093beed2bae953c18ebe4137233"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1380093beed2bae953c18ebe4137233">MR_std_vector_MR_FlowOrigin_Reserve</a> (<a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this, size_t new_capacity)</td></tr>
+<tr class="separator:aa1380093beed2bae953c18ebe4137233"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad97b706c8e2b08601fd555aa951bade0" id="r_ad97b706c8e2b08601fd555aa951bade0"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad97b706c8e2b08601fd555aa951bade0">MR_std_vector_MR_FlowOrigin_ShrinkToFit</a> (<a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this)</td></tr>
+<tr class="separator:ad97b706c8e2b08601fd555aa951bade0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac79227410fd26420260e52b2d99787a7" id="r_ac79227410fd26420260e52b2d99787a7"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac79227410fd26420260e52b2d99787a7">MR_std_vector_MR_FlowOrigin_At</a> (const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this, size_t i)</td></tr>
+<tr class="separator:ac79227410fd26420260e52b2d99787a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2ff61f3ab4a1a4b34cbbbe6fd66bf71" id="r_ab2ff61f3ab4a1a4b34cbbbe6fd66bf71"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2ff61f3ab4a1a4b34cbbbe6fd66bf71">MR_std_vector_MR_FlowOrigin_MutableAt</a> (<a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this, size_t i)</td></tr>
+<tr class="separator:ab2ff61f3ab4a1a4b34cbbbe6fd66bf71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f85f65007da994040d350e7400d9d79" id="r_a8f85f65007da994040d350e7400d9d79"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f85f65007da994040d350e7400d9d79">MR_std_vector_MR_FlowOrigin_Front</a> (const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this)</td></tr>
+<tr class="separator:a8f85f65007da994040d350e7400d9d79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a606618025d7428790c2117c81bf99d52" id="r_a606618025d7428790c2117c81bf99d52"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a606618025d7428790c2117c81bf99d52">MR_std_vector_MR_FlowOrigin_MutableFront</a> (<a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this)</td></tr>
+<tr class="separator:a606618025d7428790c2117c81bf99d52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54cef05b7331c18a3ad39e55f4c97c19" id="r_a54cef05b7331c18a3ad39e55f4c97c19"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54cef05b7331c18a3ad39e55f4c97c19">MR_std_vector_MR_FlowOrigin_Back</a> (const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this)</td></tr>
+<tr class="separator:a54cef05b7331c18a3ad39e55f4c97c19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac16fb412c16e8d96a95d1fe04357fd90" id="r_ac16fb412c16e8d96a95d1fe04357fd90"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac16fb412c16e8d96a95d1fe04357fd90">MR_std_vector_MR_FlowOrigin_MutableBack</a> (<a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this)</td></tr>
+<tr class="separator:ac16fb412c16e8d96a95d1fe04357fd90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dbc94053ca9283d620c33e9b5034e53" id="r_a7dbc94053ca9283d620c33e9b5034e53"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7dbc94053ca9283d620c33e9b5034e53">MR_std_vector_MR_FlowOrigin_PushBack</a> (<a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this, const <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a> *new_elem)</td></tr>
+<tr class="separator:a7dbc94053ca9283d620c33e9b5034e53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a437239a120a19e0ea3bca20e2ce97386" id="r_a437239a120a19e0ea3bca20e2ce97386"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a437239a120a19e0ea3bca20e2ce97386">MR_std_vector_MR_FlowOrigin_PopBack</a> (<a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this)</td></tr>
+<tr class="separator:a437239a120a19e0ea3bca20e2ce97386"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0108715e90a94dfdda7df2ae9250b19f" id="r_a0108715e90a94dfdda7df2ae9250b19f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0108715e90a94dfdda7df2ae9250b19f">MR_std_vector_MR_FlowOrigin_Insert</a> (<a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this, size_t position, const <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a> *new_elem)</td></tr>
+<tr class="separator:a0108715e90a94dfdda7df2ae9250b19f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3d049f8e8fe23d066e4afb291735db3" id="r_ab3d049f8e8fe23d066e4afb291735db3"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3d049f8e8fe23d066e4afb291735db3">MR_std_vector_MR_FlowOrigin_Erase</a> (<a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this, size_t position)</td></tr>
+<tr class="separator:ab3d049f8e8fe23d066e4afb291735db3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a255d7663daf5fbef2b35724386fe9ce1" id="r_a255d7663daf5fbef2b35724386fe9ce1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a255d7663daf5fbef2b35724386fe9ce1">MR_std_vector_MR_FlowOrigin_InsertAtMutableIter</a> (<a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this, const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *position, const <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a> *new_elem)</td></tr>
+<tr class="separator:a255d7663daf5fbef2b35724386fe9ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfdca45cb92df162c516e51c099eda70" id="r_adfdca45cb92df162c516e51c099eda70"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfdca45cb92df162c516e51c099eda70">MR_std_vector_MR_FlowOrigin_EraseAtMutableIter</a> (<a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this, const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *position)</td></tr>
+<tr class="separator:adfdca45cb92df162c516e51c099eda70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad44d9e1d8be0a0fde63e3ecf8971cf72" id="r_ad44d9e1d8be0a0fde63e3ecf8971cf72"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad44d9e1d8be0a0fde63e3ecf8971cf72">MR_std_vector_MR_FlowOrigin_InsertAtIter</a> (<a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this, const <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *position, const <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a> *new_elem)</td></tr>
+<tr class="separator:ad44d9e1d8be0a0fde63e3ecf8971cf72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad53c476e1a0cc7487ec6d8e7a8dc2198" id="r_ad53c476e1a0cc7487ec6d8e7a8dc2198"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad53c476e1a0cc7487ec6d8e7a8dc2198">MR_std_vector_MR_FlowOrigin_EraseAtIter</a> (<a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this, const <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *position)</td></tr>
+<tr class="separator:ad53c476e1a0cc7487ec6d8e7a8dc2198"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2bb42ef4de076be0d3d2cf11f5d5c05" id="r_ac2bb42ef4de076be0d3d2cf11f5d5c05"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2bb42ef4de076be0d3d2cf11f5d5c05">MR_std_vector_MR_FlowOrigin_Begin</a> (const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this)</td></tr>
+<tr class="separator:ac2bb42ef4de076be0d3d2cf11f5d5c05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac56481daf428a95070bf81b829397f39" id="r_ac56481daf428a95070bf81b829397f39"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac56481daf428a95070bf81b829397f39">MR_std_vector_MR_FlowOrigin_IsBegin</a> (const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this, const <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *iter)</td></tr>
+<tr class="separator:ac56481daf428a95070bf81b829397f39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e8b5c15620ba8323b5dcebcb48537d3" id="r_a2e8b5c15620ba8323b5dcebcb48537d3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e8b5c15620ba8323b5dcebcb48537d3">MR_std_vector_MR_FlowOrigin_MutableBegin</a> (<a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this)</td></tr>
+<tr class="separator:a2e8b5c15620ba8323b5dcebcb48537d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae52163f7baabbb9fbe4132d42346100d" id="r_ae52163f7baabbb9fbe4132d42346100d"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae52163f7baabbb9fbe4132d42346100d">MR_std_vector_MR_FlowOrigin_IsMutableBegin</a> (<a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this, const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *iter)</td></tr>
+<tr class="separator:ae52163f7baabbb9fbe4132d42346100d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9de2382b3c0d5e3aa7a2971bc194e9e1" id="r_a9de2382b3c0d5e3aa7a2971bc194e9e1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9de2382b3c0d5e3aa7a2971bc194e9e1">MR_std_vector_MR_FlowOrigin_End</a> (const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this)</td></tr>
+<tr class="separator:a9de2382b3c0d5e3aa7a2971bc194e9e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9b4f4c1417c2a5f27c76bf087c0455a" id="r_ac9b4f4c1417c2a5f27c76bf087c0455a"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9b4f4c1417c2a5f27c76bf087c0455a">MR_std_vector_MR_FlowOrigin_IsEnd</a> (const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this, const <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *iter)</td></tr>
+<tr class="separator:ac9b4f4c1417c2a5f27c76bf087c0455a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5af820a5ec97f63f016e065b366b6089" id="r_a5af820a5ec97f63f016e065b366b6089"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5af820a5ec97f63f016e065b366b6089">MR_std_vector_MR_FlowOrigin_MutableEnd</a> (<a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this)</td></tr>
+<tr class="separator:a5af820a5ec97f63f016e065b366b6089"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97476336edf0845558b7f20843de4526" id="r_a97476336edf0845558b7f20843de4526"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97476336edf0845558b7f20843de4526">MR_std_vector_MR_FlowOrigin_IsMutableEnd</a> (<a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this, const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *iter)</td></tr>
+<tr class="separator:a97476336edf0845558b7f20843de4526"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f5aa1ca11206c35c401ff3d7c933b33" id="r_a7f5aa1ca11206c35c401ff3d7c933b33"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f5aa1ca11206c35c401ff3d7c933b33">MR_std_vector_MR_FlowOrigin_ToIndex</a> (const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this, const <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *iter)</td></tr>
+<tr class="separator:a7f5aa1ca11206c35c401ff3d7c933b33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae905034d4d0d6d5ec0bb7fb5f255d077" id="r_ae905034d4d0d6d5ec0bb7fb5f255d077"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae905034d4d0d6d5ec0bb7fb5f255d077">MR_std_vector_MR_FlowOrigin_MutableToIndex</a> (const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *_this, const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *iter)</td></tr>
+<tr class="separator:ae905034d4d0d6d5ec0bb7fb5f255d077"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bf2adf8259c982a5bcaa8db7845403b" id="r_a5bf2adf8259c982a5bcaa8db7845403b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5bf2adf8259c982a5bcaa8db7845403b">MR_std_vector_MR_FlowOrigin_const_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a5bf2adf8259c982a5bcaa8db7845403b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae99138cf7bd2854a68f7aec55f25f66e" id="r_ae99138cf7bd2854a68f7aec55f25f66e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae99138cf7bd2854a68f7aec55f25f66e">MR_std_vector_MR_FlowOrigin_const_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ae99138cf7bd2854a68f7aec55f25f66e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b5cf79ef56e17eacc6dcb4aef796999" id="r_a6b5cf79ef56e17eacc6dcb4aef796999"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b5cf79ef56e17eacc6dcb4aef796999">MR_std_vector_MR_FlowOrigin_const_iterator_ConstructFromAnother</a> (const <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *other)</td></tr>
+<tr class="separator:a6b5cf79ef56e17eacc6dcb4aef796999"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04b89952e1d7cd4073033318eec86fa9" id="r_a04b89952e1d7cd4073033318eec86fa9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04b89952e1d7cd4073033318eec86fa9">MR_std_vector_MR_FlowOrigin_const_iterator_AssignFromAnother</a> (<a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *_this, const <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *other)</td></tr>
+<tr class="separator:a04b89952e1d7cd4073033318eec86fa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55dd162a2a8d33508eb73fcbd1fa04b3" id="r_a55dd162a2a8d33508eb73fcbd1fa04b3"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55dd162a2a8d33508eb73fcbd1fa04b3">MR_std_vector_MR_FlowOrigin_const_iterator_Destroy</a> (const <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a55dd162a2a8d33508eb73fcbd1fa04b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_FlowOrigin_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a55dd162a2a8d33508eb73fcbd1fa04b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bade0429878b091d70329dc51dbd2a0" id="r_a1bade0429878b091d70329dc51dbd2a0"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bade0429878b091d70329dc51dbd2a0">MR_std_vector_MR_FlowOrigin_const_iterator_DestroyArray</a> (const <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a1bade0429878b091d70329dc51dbd2a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_FlowOrigin_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a1bade0429878b091d70329dc51dbd2a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c8f2dfaf204087038baf4045a44ab31" id="r_a8c8f2dfaf204087038baf4045a44ab31"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c8f2dfaf204087038baf4045a44ab31">MR_std_vector_MR_FlowOrigin_const_iterator_OffsetPtr</a> (const <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a8c8f2dfaf204087038baf4045a44ab31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a8c8f2dfaf204087038baf4045a44ab31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1bfe9e59686b9559599c0645eb0f6f0" id="r_aa1bfe9e59686b9559599c0645eb0f6f0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1bfe9e59686b9559599c0645eb0f6f0">MR_std_vector_MR_FlowOrigin_const_iterator_OffsetMutablePtr</a> (<a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:aa1bfe9e59686b9559599c0645eb0f6f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:aa1bfe9e59686b9559599c0645eb0f6f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c1ddca43ece9df420d3a7c8150acb92" id="r_a9c1ddca43ece9df420d3a7c8150acb92"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c1ddca43ece9df420d3a7c8150acb92">MR_std_vector_MR_FlowOrigin_const_iterator_FromMutable</a> (const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *iter)</td></tr>
+<tr class="separator:a9c1ddca43ece9df420d3a7c8150acb92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75178d8f25c170a2101243cc3b6e49fc" id="r_a75178d8f25c170a2101243cc3b6e49fc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75178d8f25c170a2101243cc3b6e49fc">MR_std_vector_MR_FlowOrigin_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a75178d8f25c170a2101243cc3b6e49fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a959c5ef75af8316f78b1d5126c2bb816" id="r_a959c5ef75af8316f78b1d5126c2bb816"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a959c5ef75af8316f78b1d5126c2bb816">MR_std_vector_MR_FlowOrigin_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a959c5ef75af8316f78b1d5126c2bb816"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5a2577fa4801a08ac870571794404c1" id="r_ac5a2577fa4801a08ac870571794404c1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5a2577fa4801a08ac870571794404c1">MR_std_vector_MR_FlowOrigin_iterator_ConstructFromAnother</a> (const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *other)</td></tr>
+<tr class="separator:ac5a2577fa4801a08ac870571794404c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85e4bae1c2a9ad5599f96b84839e066c" id="r_a85e4bae1c2a9ad5599f96b84839e066c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85e4bae1c2a9ad5599f96b84839e066c">MR_std_vector_MR_FlowOrigin_iterator_AssignFromAnother</a> (<a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *_this, const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *other)</td></tr>
+<tr class="separator:a85e4bae1c2a9ad5599f96b84839e066c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4a93da62fdebcfff1d803e4fbb6767c" id="r_ac4a93da62fdebcfff1d803e4fbb6767c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4a93da62fdebcfff1d803e4fbb6767c">MR_std_vector_MR_FlowOrigin_iterator_Destroy</a> (const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *_this)</td></tr>
+<tr class="memdesc:ac4a93da62fdebcfff1d803e4fbb6767c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_FlowOrigin_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ac4a93da62fdebcfff1d803e4fbb6767c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f5f0b871d900add04879328037eda73" id="r_a4f5f0b871d900add04879328037eda73"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f5f0b871d900add04879328037eda73">MR_std_vector_MR_FlowOrigin_iterator_DestroyArray</a> (const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a4f5f0b871d900add04879328037eda73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_FlowOrigin_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a4f5f0b871d900add04879328037eda73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97071a6f7de700332668f4cd6e77d8eb" id="r_a97071a6f7de700332668f4cd6e77d8eb"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97071a6f7de700332668f4cd6e77d8eb">MR_std_vector_MR_FlowOrigin_iterator_OffsetPtr</a> (const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a97071a6f7de700332668f4cd6e77d8eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a97071a6f7de700332668f4cd6e77d8eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8627bc91263831cd35a9a7592f16fef8" id="r_a8627bc91263831cd35a9a7592f16fef8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8627bc91263831cd35a9a7592f16fef8">MR_std_vector_MR_FlowOrigin_iterator_OffsetMutablePtr</a> (<a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a8627bc91263831cd35a9a7592f16fef8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a8627bc91263831cd35a9a7592f16fef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa75884f3e392e0c35d88cd20148785c" id="r_aaa75884f3e392e0c35d88cd20148785c"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa75884f3e392e0c35d88cd20148785c">MR_std_vector_MR_FlowOrigin_const_iterator_Deref</a> (const <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *_this)</td></tr>
+<tr class="separator:aaa75884f3e392e0c35d88cd20148785c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8684730e5ef58ebc7468707eb1523c3" id="r_aa8684730e5ef58ebc7468707eb1523c3"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8684730e5ef58ebc7468707eb1523c3">MR_std_vector_MR_FlowOrigin_const_iterator_Incr</a> (<a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *_this)</td></tr>
+<tr class="separator:aa8684730e5ef58ebc7468707eb1523c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa982b43e1f0b348abf56597a486d0043" id="r_aa982b43e1f0b348abf56597a486d0043"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa982b43e1f0b348abf56597a486d0043">MR_std_vector_MR_FlowOrigin_const_iterator_Decr</a> (<a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *_this)</td></tr>
+<tr class="separator:aa982b43e1f0b348abf56597a486d0043"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fcf7e5b44e2202bfd3026104bc416cf" id="r_a0fcf7e5b44e2202bfd3026104bc416cf"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fcf7e5b44e2202bfd3026104bc416cf">MR_std_vector_MR_FlowOrigin_const_iterator_OffsetBy</a> (<a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *_this, ptrdiff_t delta)</td></tr>
+<tr class="separator:a0fcf7e5b44e2202bfd3026104bc416cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a357c0cba5f0163a4b5463fdcd01cba3e" id="r_a357c0cba5f0163a4b5463fdcd01cba3e"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a357c0cba5f0163a4b5463fdcd01cba3e">MR_std_vector_MR_FlowOrigin_const_iterator_Distance</a> (const <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *a, const <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *b)</td></tr>
+<tr class="separator:a357c0cba5f0163a4b5463fdcd01cba3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a195cf03075ac2241479ec37996b65efd" id="r_a195cf03075ac2241479ec37996b65efd"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a195cf03075ac2241479ec37996b65efd">MR_std_vector_MR_FlowOrigin_iterator_Deref</a> (const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *_this)</td></tr>
+<tr class="separator:a195cf03075ac2241479ec37996b65efd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19955b798d07964404d3b8c8a93868bd" id="r_a19955b798d07964404d3b8c8a93868bd"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19955b798d07964404d3b8c8a93868bd">MR_std_vector_MR_FlowOrigin_iterator_Incr</a> (<a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *_this)</td></tr>
+<tr class="separator:a19955b798d07964404d3b8c8a93868bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af46e5f82dc0d3d463d38447430269b9f" id="r_af46e5f82dc0d3d463d38447430269b9f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af46e5f82dc0d3d463d38447430269b9f">MR_std_vector_MR_FlowOrigin_iterator_Decr</a> (<a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *_this)</td></tr>
+<tr class="separator:af46e5f82dc0d3d463d38447430269b9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6880ed308fd047d2c5645021eedbff10" id="r_a6880ed308fd047d2c5645021eedbff10"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6880ed308fd047d2c5645021eedbff10">MR_std_vector_MR_FlowOrigin_iterator_OffsetBy</a> (<a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *_this, ptrdiff_t delta)</td></tr>
+<tr class="separator:a6880ed308fd047d2c5645021eedbff10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83b5f1fb7ff53b3b1cc164c166abe574" id="r_a83b5f1fb7ff53b3b1cc164c166abe574"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83b5f1fb7ff53b3b1cc164c166abe574">MR_std_vector_MR_FlowOrigin_iterator_Distance</a> (const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *a, const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *b)</td></tr>
+<tr class="separator:a83b5f1fb7ff53b3b1cc164c166abe574"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a1bf1235f26ddbc6b2d06f54f5f5de6fa" name="a1bf1235f26ddbc6b2d06f54f5f5de6fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bf1235f26ddbc6b2d06f54f5f5de6fa">&#9670;&#160;</a></span>MR_FlowOrigin</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a> <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a469ad03b384318d856e596e3ab8fc31a" name="a469ad03b384318d856e596e3ab8fc31a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a469ad03b384318d856e596e3ab8fc31a">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from C++ container <code>std::vector&lt;<a class="elRef" href="../Cpp/structMR_1_1FlowOrigin.html">MR::FlowOrigin</a>&gt;</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="aa6d614ac0a8ecbb298385d5b695cd35f" name="aa6d614ac0a8ecbb298385d5b695cd35f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6d614ac0a8ecbb298385d5b695cd35f">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_const_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Read-only iterator for <code>MR_std_vector_MR_FlowOrigin</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a953e754165f55f94f20c4fde827d03bf" name="a953e754165f55f94f20c4fde827d03bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a953e754165f55f94f20c4fde827d03bf">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Mutable iterator for <code>MR_std_vector_MR_FlowOrigin</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="aff86b1e29f906f6bc0a38c49e6ffa70b" name="aff86b1e29f906f6bc0a38c49e6ffa70b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff86b1e29f906f6bc0a38c49e6ffa70b">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_FlowOrigin_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac79227410fd26420260e52b2d99787a7" name="ac79227410fd26420260e52b2d99787a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac79227410fd26420260e52b2d99787a7">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_At()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a> * MR_std_vector_MR_FlowOrigin_At </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, read-only. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a54cef05b7331c18a3ad39e55f4c97c19" name="a54cef05b7331c18a3ad39e55f4c97c19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54cef05b7331c18a3ad39e55f4c97c19">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_Back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a> * MR_std_vector_MR_FlowOrigin_Back </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The last element or null if empty, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac2bb42ef4de076be0d3d2cf11f5d5c05" name="ac2bb42ef4de076be0d3d2cf11f5d5c05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2bb42ef4de076be0d3d2cf11f5d5c05">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_Begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> * MR_std_vector_MR_FlowOrigin_Begin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a55dd162a2a8d33508eb73fcbd1fa04b3" title="Destroys a heap-allocated instance of MR_std_vector_MR_FlowOrigin_const_iterator. Does nothing if the...">MR_std_vector_MR_FlowOrigin_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a4751dfc02ed11f7aebd1c4021e3c2d0c" name="a4751dfc02ed11f7aebd1c4021e3c2d0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4751dfc02ed11f7aebd1c4021e3c2d0c">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_Capacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_vector_MR_FlowOrigin_Capacity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The memory capacity, measued in the number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae281d78ca9aab487fce0b588c5e0221a" name="ae281d78ca9aab487fce0b588c5e0221a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae281d78ca9aab487fce0b588c5e0221a">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_Clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_FlowOrigin_Clear </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes all elements from the container. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a04b89952e1d7cd4073033318eec86fa9" name="a04b89952e1d7cd4073033318eec86fa9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04b89952e1d7cd4073033318eec86fa9">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_const_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_FlowOrigin_const_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6b5cf79ef56e17eacc6dcb4aef796999" name="a6b5cf79ef56e17eacc6dcb4aef796999"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b5cf79ef56e17eacc6dcb4aef796999">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_const_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> * MR_std_vector_MR_FlowOrigin_const_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a55dd162a2a8d33508eb73fcbd1fa04b3" title="Destroys a heap-allocated instance of MR_std_vector_MR_FlowOrigin_const_iterator. Does nothing if the...">MR_std_vector_MR_FlowOrigin_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aa982b43e1f0b348abf56597a486d0043" name="aa982b43e1f0b348abf56597a486d0043"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa982b43e1f0b348abf56597a486d0043">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_const_iterator_Decr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_FlowOrigin_const_iterator_Decr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decrements a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a5bf2adf8259c982a5bcaa8db7845403b" name="a5bf2adf8259c982a5bcaa8db7845403b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bf2adf8259c982a5bcaa8db7845403b">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_const_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> * MR_std_vector_MR_FlowOrigin_const_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a55dd162a2a8d33508eb73fcbd1fa04b3" title="Destroys a heap-allocated instance of MR_std_vector_MR_FlowOrigin_const_iterator. Does nothing if the...">MR_std_vector_MR_FlowOrigin_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae99138cf7bd2854a68f7aec55f25f66e" name="ae99138cf7bd2854a68f7aec55f25f66e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae99138cf7bd2854a68f7aec55f25f66e">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_const_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> * MR_std_vector_MR_FlowOrigin_const_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a1bade0429878b091d70329dc51dbd2a0" title="Destroys a heap-allocated array of MR_std_vector_MR_FlowOrigin_const_iterator. Does nothing if the po...">MR_std_vector_MR_FlowOrigin_const_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#aa1bfe9e59686b9559599c0645eb0f6f0" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_FlowOrigin_const_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a8c8f2dfaf204087038baf4045a44ab31" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_FlowOrigin_const_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="aaa75884f3e392e0c35d88cd20148785c" name="aaa75884f3e392e0c35d88cd20148785c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa75884f3e392e0c35d88cd20148785c">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_const_iterator_Deref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a> * MR_std_vector_MR_FlowOrigin_const_iterator_Deref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a const iterator. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a55dd162a2a8d33508eb73fcbd1fa04b3" name="a55dd162a2a8d33508eb73fcbd1fa04b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55dd162a2a8d33508eb73fcbd1fa04b3">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_const_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_FlowOrigin_const_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_FlowOrigin_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a1bade0429878b091d70329dc51dbd2a0" name="a1bade0429878b091d70329dc51dbd2a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bade0429878b091d70329dc51dbd2a0">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_const_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_FlowOrigin_const_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_FlowOrigin_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a357c0cba5f0163a4b5463fdcd01cba3e" name="a357c0cba5f0163a4b5463fdcd01cba3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a357c0cba5f0163a4b5463fdcd01cba3e">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_const_iterator_Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_FlowOrigin_const_iterator_Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the signed difference between two const iterators. Completes in constant time. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a9c1ddca43ece9df420d3a7c8150acb92" name="a9c1ddca43ece9df420d3a7c8150acb92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c1ddca43ece9df420d3a7c8150acb92">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_const_iterator_FromMutable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> * MR_std_vector_MR_FlowOrigin_const_iterator_FromMutable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Makes a const iterator from a mutable one. Parameter <code>iter</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a55dd162a2a8d33508eb73fcbd1fa04b3" title="Destroys a heap-allocated instance of MR_std_vector_MR_FlowOrigin_const_iterator. Does nothing if the...">MR_std_vector_MR_FlowOrigin_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aa8684730e5ef58ebc7468707eb1523c3" name="aa8684730e5ef58ebc7468707eb1523c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8684730e5ef58ebc7468707eb1523c3">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_const_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_FlowOrigin_const_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a0fcf7e5b44e2202bfd3026104bc416cf" name="a0fcf7e5b44e2202bfd3026104bc416cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fcf7e5b44e2202bfd3026104bc416cf">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_const_iterator_OffsetBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_FlowOrigin_const_iterator_OffsetBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa1bfe9e59686b9559599c0645eb0f6f0" name="aa1bfe9e59686b9559599c0645eb0f6f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1bfe9e59686b9559599c0645eb0f6f0">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_const_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> * MR_std_vector_MR_FlowOrigin_const_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a8c8f2dfaf204087038baf4045a44ab31" name="a8c8f2dfaf204087038baf4045a44ab31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c8f2dfaf204087038baf4045a44ab31">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_const_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> * MR_std_vector_MR_FlowOrigin_const_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a5a9aaa6a056099b62d81aadf04029ce3" name="a5a9aaa6a056099b62d81aadf04029ce3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a9aaa6a056099b62d81aadf04029ce3">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> * MR_std_vector_MR_FlowOrigin_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aac7c1f3ae7977ab86d540181e85d7c00" title="Destroys a heap-allocated instance of MR_std_vector_MR_FlowOrigin. Does nothing if the pointer is nul...">MR_std_vector_MR_FlowOrigin_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a6593cdba2fa2f7c185c9e09bfdb7b911" name="a6593cdba2fa2f7c185c9e09bfdb7b911"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6593cdba2fa2f7c185c9e09bfdb7b911">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> * MR_std_vector_MR_FlowOrigin_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aac7c1f3ae7977ab86d540181e85d7c00" title="Destroys a heap-allocated instance of MR_std_vector_MR_FlowOrigin. Does nothing if the pointer is nul...">MR_std_vector_MR_FlowOrigin_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a27854b0dc0f1334637fbae361ae42784" name="a27854b0dc0f1334637fbae361ae42784"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27854b0dc0f1334637fbae361ae42784">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> * MR_std_vector_MR_FlowOrigin_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a652de764ecaab11f346389bf15a82693" title="Destroys a heap-allocated array of MR_std_vector_MR_FlowOrigin. Does nothing if the pointer is null.">MR_std_vector_MR_FlowOrigin_DestroyArray()</a></code>. Use <code><a class="el" href="#a3e338583684d5550c05d9ab5ad60830a" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_FlowOrigin_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a8979baf3de308caf186015c5b64c8d1f" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_FlowOrigin_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="aac7c1f3ae7977ab86d540181e85d7c00" name="aac7c1f3ae7977ab86d540181e85d7c00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac7c1f3ae7977ab86d540181e85d7c00">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_FlowOrigin_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_FlowOrigin</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a652de764ecaab11f346389bf15a82693" name="a652de764ecaab11f346389bf15a82693"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a652de764ecaab11f346389bf15a82693">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_FlowOrigin_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_FlowOrigin</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a9de2382b3c0d5e3aa7a2971bc194e9e1" name="a9de2382b3c0d5e3aa7a2971bc194e9e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9de2382b3c0d5e3aa7a2971bc194e9e1">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_End()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> * MR_std_vector_MR_FlowOrigin_End </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a55dd162a2a8d33508eb73fcbd1fa04b3" title="Destroys a heap-allocated instance of MR_std_vector_MR_FlowOrigin_const_iterator. Does nothing if the...">MR_std_vector_MR_FlowOrigin_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab3d049f8e8fe23d066e4afb291735db3" name="ab3d049f8e8fe23d066e4afb291735db3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3d049f8e8fe23d066e4afb291735db3">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_Erase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_FlowOrigin_Erase </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad53c476e1a0cc7487ec6d8e7a8dc2198" name="ad53c476e1a0cc7487ec6d8e7a8dc2198"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad53c476e1a0cc7487ec6d8e7a8dc2198">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_EraseAtIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_FlowOrigin_EraseAtIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. This version takes the position in form of a const iterator, that's the only difference. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="adfdca45cb92df162c516e51c099eda70" name="adfdca45cb92df162c516e51c099eda70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfdca45cb92df162c516e51c099eda70">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_EraseAtMutableIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_FlowOrigin_EraseAtMutableIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a8f85f65007da994040d350e7400d9d79" name="a8f85f65007da994040d350e7400d9d79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f85f65007da994040d350e7400d9d79">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_Front()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a> * MR_std_vector_MR_FlowOrigin_Front </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The first element or null if empty, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a0108715e90a94dfdda7df2ae9250b19f" name="a0108715e90a94dfdda7df2ae9250b19f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0108715e90a94dfdda7df2ae9250b19f">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_Insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_FlowOrigin_Insert </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. Parameter <code>_this</code> can not be null. Parameter <code>new_elem</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad44d9e1d8be0a0fde63e3ecf8971cf72" name="ad44d9e1d8be0a0fde63e3ecf8971cf72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad44d9e1d8be0a0fde63e3ecf8971cf72">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_InsertAtIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_FlowOrigin_InsertAtIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that's the only difference. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. Parameter <code>new_elem</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a255d7663daf5fbef2b35724386fe9ce1" name="a255d7663daf5fbef2b35724386fe9ce1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a255d7663daf5fbef2b35724386fe9ce1">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_InsertAtMutableIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_FlowOrigin_InsertAtMutableIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. Parameter <code>new_elem</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac56481daf428a95070bf81b829397f39" name="ac56481daf428a95070bf81b829397f39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac56481daf428a95070bf81b829397f39">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_IsBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_FlowOrigin_IsBegin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad26d4bf5b4701d6094215988107561a5" name="ad26d4bf5b4701d6094215988107561a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad26d4bf5b4701d6094215988107561a5">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_IsEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_FlowOrigin_IsEmpty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns true if the size is zero. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac9b4f4c1417c2a5f27c76bf087c0455a" name="ac9b4f4c1417c2a5f27c76bf087c0455a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9b4f4c1417c2a5f27c76bf087c0455a">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_IsEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_FlowOrigin_IsEnd </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae52163f7baabbb9fbe4132d42346100d" name="ae52163f7baabbb9fbe4132d42346100d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae52163f7baabbb9fbe4132d42346100d">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_IsMutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_FlowOrigin_IsMutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a97476336edf0845558b7f20843de4526" name="a97476336edf0845558b7f20843de4526"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97476336edf0845558b7f20843de4526">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_IsMutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_FlowOrigin_IsMutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a85e4bae1c2a9ad5599f96b84839e066c" name="a85e4bae1c2a9ad5599f96b84839e066c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85e4bae1c2a9ad5599f96b84839e066c">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_FlowOrigin_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac5a2577fa4801a08ac870571794404c1" name="ac5a2577fa4801a08ac870571794404c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5a2577fa4801a08ac870571794404c1">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> * MR_std_vector_MR_FlowOrigin_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac4a93da62fdebcfff1d803e4fbb6767c" title="Destroys a heap-allocated instance of MR_std_vector_MR_FlowOrigin_iterator. Does nothing if the point...">MR_std_vector_MR_FlowOrigin_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="af46e5f82dc0d3d463d38447430269b9f" name="af46e5f82dc0d3d463d38447430269b9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af46e5f82dc0d3d463d38447430269b9f">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_iterator_Decr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_FlowOrigin_iterator_Decr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decrements a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a75178d8f25c170a2101243cc3b6e49fc" name="a75178d8f25c170a2101243cc3b6e49fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75178d8f25c170a2101243cc3b6e49fc">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> * MR_std_vector_MR_FlowOrigin_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac4a93da62fdebcfff1d803e4fbb6767c" title="Destroys a heap-allocated instance of MR_std_vector_MR_FlowOrigin_iterator. Does nothing if the point...">MR_std_vector_MR_FlowOrigin_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a959c5ef75af8316f78b1d5126c2bb816" name="a959c5ef75af8316f78b1d5126c2bb816"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a959c5ef75af8316f78b1d5126c2bb816">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> * MR_std_vector_MR_FlowOrigin_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a4f5f0b871d900add04879328037eda73" title="Destroys a heap-allocated array of MR_std_vector_MR_FlowOrigin_iterator. Does nothing if the pointer ...">MR_std_vector_MR_FlowOrigin_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#a8627bc91263831cd35a9a7592f16fef8" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_FlowOrigin_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a97071a6f7de700332668f4cd6e77d8eb" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_FlowOrigin_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a195cf03075ac2241479ec37996b65efd" name="a195cf03075ac2241479ec37996b65efd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a195cf03075ac2241479ec37996b65efd">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_iterator_Deref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a> * MR_std_vector_MR_FlowOrigin_iterator_Deref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a mutable iterator. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ac4a93da62fdebcfff1d803e4fbb6767c" name="ac4a93da62fdebcfff1d803e4fbb6767c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4a93da62fdebcfff1d803e4fbb6767c">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_FlowOrigin_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_FlowOrigin_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a4f5f0b871d900add04879328037eda73" name="a4f5f0b871d900add04879328037eda73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f5f0b871d900add04879328037eda73">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_FlowOrigin_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_FlowOrigin_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a83b5f1fb7ff53b3b1cc164c166abe574" name="a83b5f1fb7ff53b3b1cc164c166abe574"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83b5f1fb7ff53b3b1cc164c166abe574">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_iterator_Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_FlowOrigin_iterator_Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a19955b798d07964404d3b8c8a93868bd" name="a19955b798d07964404d3b8c8a93868bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19955b798d07964404d3b8c8a93868bd">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_FlowOrigin_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6880ed308fd047d2c5645021eedbff10" name="a6880ed308fd047d2c5645021eedbff10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6880ed308fd047d2c5645021eedbff10">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_iterator_OffsetBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_FlowOrigin_iterator_OffsetBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a8627bc91263831cd35a9a7592f16fef8" name="a8627bc91263831cd35a9a7592f16fef8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8627bc91263831cd35a9a7592f16fef8">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> * MR_std_vector_MR_FlowOrigin_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a97071a6f7de700332668f4cd6e77d8eb" name="a97071a6f7de700332668f4cd6e77d8eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97071a6f7de700332668f4cd6e77d8eb">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> * MR_std_vector_MR_FlowOrigin_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ab2ff61f3ab4a1a4b34cbbbe6fd66bf71" name="ab2ff61f3ab4a1a4b34cbbbe6fd66bf71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2ff61f3ab4a1a4b34cbbbe6fd66bf71">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_MutableAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a> * MR_std_vector_MR_FlowOrigin_MutableAt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, mutable. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ac16fb412c16e8d96a95d1fe04357fd90" name="ac16fb412c16e8d96a95d1fe04357fd90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac16fb412c16e8d96a95d1fe04357fd90">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_MutableBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a> * MR_std_vector_MR_FlowOrigin_MutableBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The last element or null if empty, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a2e8b5c15620ba8323b5dcebcb48537d3" name="a2e8b5c15620ba8323b5dcebcb48537d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e8b5c15620ba8323b5dcebcb48537d3">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_MutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> * MR_std_vector_MR_FlowOrigin_MutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac4a93da62fdebcfff1d803e4fbb6767c" title="Destroys a heap-allocated instance of MR_std_vector_MR_FlowOrigin_iterator. Does nothing if the point...">MR_std_vector_MR_FlowOrigin_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5af820a5ec97f63f016e065b366b6089" name="a5af820a5ec97f63f016e065b366b6089"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5af820a5ec97f63f016e065b366b6089">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_MutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> * MR_std_vector_MR_FlowOrigin_MutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac4a93da62fdebcfff1d803e4fbb6767c" title="Destroys a heap-allocated instance of MR_std_vector_MR_FlowOrigin_iterator. Does nothing if the point...">MR_std_vector_MR_FlowOrigin_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a606618025d7428790c2117c81bf99d52" name="a606618025d7428790c2117c81bf99d52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a606618025d7428790c2117c81bf99d52">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_MutableFront()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a> * MR_std_vector_MR_FlowOrigin_MutableFront </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The first element or null if empty, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae905034d4d0d6d5ec0bb7fb5f255d077" name="ae905034d4d0d6d5ec0bb7fb5f255d077"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae905034d4d0d6d5ec0bb7fb5f255d077">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_MutableToIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_FlowOrigin_MutableToIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a953e754165f55f94f20c4fde827d03bf">MR_std_vector_MR_FlowOrigin_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convert a mutable iterator to an index. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3e338583684d5550c05d9ab5ad60830a" name="a3e338583684d5550c05d9ab5ad60830a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e338583684d5550c05d9ab5ad60830a">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> * MR_std_vector_MR_FlowOrigin_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a8979baf3de308caf186015c5b64c8d1f" name="a8979baf3de308caf186015c5b64c8d1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8979baf3de308caf186015c5b64c8d1f">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> * MR_std_vector_MR_FlowOrigin_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a437239a120a19e0ea3bca20e2ce97386" name="a437239a120a19e0ea3bca20e2ce97386"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a437239a120a19e0ea3bca20e2ce97386">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_PopBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_FlowOrigin_PopBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes one element from the end. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a7dbc94053ca9283d620c33e9b5034e53" name="a7dbc94053ca9283d620c33e9b5034e53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dbc94053ca9283d620c33e9b5034e53">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_PushBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_FlowOrigin_PushBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element at the end. Parameter <code>_this</code> can not be null. Parameter <code>new_elem</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa1380093beed2bae953c18ebe4137233" name="aa1380093beed2bae953c18ebe4137233"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1380093beed2bae953c18ebe4137233">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_Reserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_FlowOrigin_Reserve </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_capacity</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6fc18ff7ddbf66d7fb93894a59d6bb4f" name="a6fc18ff7ddbf66d7fb93894a59d6bb4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fc18ff7ddbf66d7fb93894a59d6bb4f">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_Resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_FlowOrigin_Resize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the container. The new elements if any are zeroed. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="af56f71595d43ecdd0b97fef143369647" name="af56f71595d43ecdd0b97fef143369647"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af56f71595d43ecdd0b97fef143369647">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_ResizeWithDefaultValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_FlowOrigin_ResizeWithDefaultValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a1bf1235f26ddbc6b2d06f54f5f5de6fa">MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the container. The new elements if any are set to the specified value. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad97b706c8e2b08601fd555aa951bade0" name="ad97b706c8e2b08601fd555aa951bade0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad97b706c8e2b08601fd555aa951bade0">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_ShrinkToFit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_FlowOrigin_ShrinkToFit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Shrinks the capacity to match the size. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a31bd7d1326edfaa18fdf0fd81179c4c9" name="a31bd7d1326edfaa18fdf0fd81179c4c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31bd7d1326edfaa18fdf0fd81179c4c9">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_Size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_vector_MR_FlowOrigin_Size </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a7f5aa1ca11206c35c401ff3d7c933b33" name="a7f5aa1ca11206c35c401ff3d7c933b33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f5aa1ca11206c35c401ff3d7c933b33">&#9670;&#160;</a></span>MR_std_vector_MR_FlowOrigin_ToIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_FlowOrigin_ToIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a469ad03b384318d856e596e3ab8fc31a">MR_std_vector_MR_FlowOrigin</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aa6d614ac0a8ecbb298385d5b695cd35f">MR_std_vector_MR_FlowOrigin_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convert a const iterator to an index. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_a57e8462869cab4a5203dede5869920d.html">MRCMisc</a></li><li class="navelem"><a class="el" href="std__vector__MR__FlowOrigin_8h.html">std_vector_MR_FlowOrigin.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

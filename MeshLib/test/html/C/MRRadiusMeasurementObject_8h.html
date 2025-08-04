@@ -1,0 +1,1164 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRRadiusMeasurementObject.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRRadiusMeasurementObject_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRRadiusMeasurementObject.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="MRRadiusMeasurementObject_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:af3835b44b6f41035bcc3f994b4711cc1" id="r_af3835b44b6f41035bcc3f994b4711cc1"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAngleMeasurementObject_8h.html#af3835b44b6f41035bcc3f994b4711cc1">MR_MeasurementObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3835b44b6f41035bcc3f994b4711cc1">MR_MeasurementObject</a></td></tr>
+<tr class="separator:af3835b44b6f41035bcc3f994b4711cc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accce9c9179cadabc541edda0fc7a2571" id="r_accce9c9179cadabc541edda0fc7a2571"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accce9c9179cadabc541edda0fc7a2571">MR_Object</a></td></tr>
+<tr class="separator:accce9c9179cadabc541edda0fc7a2571"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecafdb5edbdb31eb13fbab762e3c39bc" id="r_aecafdb5edbdb31eb13fbab762e3c39bc"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a></td></tr>
+<tr class="separator:aecafdb5edbdb31eb13fbab762e3c39bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36f3696eda81d7005927ebc5fdf17e14" id="r_a36f3696eda81d7005927ebc5fdf17e14"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a></td></tr>
+<tr class="separator:a36f3696eda81d7005927ebc5fdf17e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e9b9c2b8a1a0540b204b1b7e6e792f4" id="r_a9e9b9c2b8a1a0540b204b1b7e6e792f4"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a></td></tr>
+<tr class="separator:a9e9b9c2b8a1a0540b204b1b7e6e792f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69dc6868c10c92fb8b8a255b0130d289" id="r_a69dc6868c10c92fb8b8a255b0130d289"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td></tr>
+<tr class="separator:a69dc6868c10c92fb8b8a255b0130d289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab26d333cd7549e6f3f49cc80e3ba5900" id="r_ab26d333cd7549e6f3f49cc80e3ba5900"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a></td></tr>
+<tr class="separator:ab26d333cd7549e6f3f49cc80e3ba5900"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad32b2e846921e8b3aa5e562e89d5568c" id="r_ad32b2e846921e8b3aa5e562e89d5568c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a></td></tr>
+<tr class="separator:ad32b2e846921e8b3aa5e562e89d5568c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a5e651d8bace180a67f54c4cb8ad46da8" id="r_a5e651d8bace180a67f54c4cb8ad46da8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e651d8bace180a67f54c4cb8ad46da8">MR_RadiusMeasurementObject_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a5e651d8bace180a67f54c4cb8ad46da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d5cb4eed0b2128574c71abbe6cf05d8" id="r_a7d5cb4eed0b2128574c71abbe6cf05d8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d5cb4eed0b2128574c71abbe6cf05d8">MR_RadiusMeasurementObject_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a7d5cb4eed0b2128574c71abbe6cf05d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b9273c74887b7df485cbc3323fa9852" id="r_a1b9273c74887b7df485cbc3323fa9852"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b9273c74887b7df485cbc3323fa9852">MR_RadiusMeasurementObject_OffsetPtr</a> (const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a1b9273c74887b7df485cbc3323fa9852"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a1b9273c74887b7df485cbc3323fa9852"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8025b52ec36b38d84a6f76f644e72c9f" id="r_a8025b52ec36b38d84a6f76f644e72c9f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8025b52ec36b38d84a6f76f644e72c9f">MR_RadiusMeasurementObject_OffsetMutablePtr</a> (<a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a8025b52ec36b38d84a6f76f644e72c9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a8025b52ec36b38d84a6f76f644e72c9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a093550ed08b4f764e70d9e290281aa8d" id="r_a093550ed08b4f764e70d9e290281aa8d"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAngleMeasurementObject_8h.html#af3835b44b6f41035bcc3f994b4711cc1">MR_MeasurementObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a093550ed08b4f764e70d9e290281aa8d">MR_RadiusMeasurementObject_UpcastTo_MR_MeasurementObject</a> (const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *object)</td></tr>
+<tr class="separator:a093550ed08b4f764e70d9e290281aa8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa41dfea10a08d6f0273f25f976913f0f" id="r_aa41dfea10a08d6f0273f25f976913f0f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#af3835b44b6f41035bcc3f994b4711cc1">MR_MeasurementObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa41dfea10a08d6f0273f25f976913f0f">MR_RadiusMeasurementObject_MutableUpcastTo_MR_MeasurementObject</a> (<a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *object)</td></tr>
+<tr class="memdesc:aa41dfea10a08d6f0273f25f976913f0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1MeasurementObject.html">MR::MeasurementObject</a></code>.  <br /></td></tr>
+<tr class="separator:aa41dfea10a08d6f0273f25f976913f0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f068f77e9acd365f7e1ee71f8681c1a" id="r_a5f068f77e9acd365f7e1ee71f8681c1a"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f068f77e9acd365f7e1ee71f8681c1a">MR_RadiusMeasurementObject_UpcastTo_MR_Object</a> (const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *object)</td></tr>
+<tr class="separator:a5f068f77e9acd365f7e1ee71f8681c1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a5a88e9b5f80676624c6a12c2b29998" id="r_a2a5a88e9b5f80676624c6a12c2b29998"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a5a88e9b5f80676624c6a12c2b29998">MR_RadiusMeasurementObject_MutableUpcastTo_MR_Object</a> (<a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *object)</td></tr>
+<tr class="memdesc:a2a5a88e9b5f80676624c6a12c2b29998"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a></code>.  <br /></td></tr>
+<tr class="separator:a2a5a88e9b5f80676624c6a12c2b29998"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a046963d6e07f10922276afe6f22d9681" id="r_a046963d6e07f10922276afe6f22d9681"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a046963d6e07f10922276afe6f22d9681">MR_RadiusMeasurementObject_UpcastTo_MR_ObjectChildrenHolder</a> (const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *object)</td></tr>
+<tr class="separator:a046963d6e07f10922276afe6f22d9681"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aceae7c22f8c30de35aec494cf1a277e6" id="r_aceae7c22f8c30de35aec494cf1a277e6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aceae7c22f8c30de35aec494cf1a277e6">MR_RadiusMeasurementObject_MutableUpcastTo_MR_ObjectChildrenHolder</a> (<a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *object)</td></tr>
+<tr class="memdesc:aceae7c22f8c30de35aec494cf1a277e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectChildrenHolder.html">MR::ObjectChildrenHolder</a></code>.  <br /></td></tr>
+<tr class="separator:aceae7c22f8c30de35aec494cf1a277e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c362425ebc2f76287f96e24051386ad" id="r_a9c362425ebc2f76287f96e24051386ad"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c362425ebc2f76287f96e24051386ad">MR_RadiusMeasurementObject_UpcastTo_MR_VisualObject</a> (const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *object)</td></tr>
+<tr class="separator:a9c362425ebc2f76287f96e24051386ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a985f335f4bf2fb3545003e8c8149f0ff" id="r_a985f335f4bf2fb3545003e8c8149f0ff"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a985f335f4bf2fb3545003e8c8149f0ff">MR_RadiusMeasurementObject_MutableUpcastTo_MR_VisualObject</a> (<a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *object)</td></tr>
+<tr class="memdesc:a985f335f4bf2fb3545003e8c8149f0ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1VisualObject.html">MR::VisualObject</a></code>.  <br /></td></tr>
+<tr class="separator:a985f335f4bf2fb3545003e8c8149f0ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a1c90a39864146210d7ebd53208909e" id="r_a4a1c90a39864146210d7ebd53208909e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a1c90a39864146210d7ebd53208909e">MR_RadiusMeasurementObject_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *_other)</td></tr>
+<tr class="separator:a4a1c90a39864146210d7ebd53208909e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af546c4fead78a56975d59330cd1f7aeb" id="r_af546c4fead78a56975d59330cd1f7aeb"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af546c4fead78a56975d59330cd1f7aeb">MR_RadiusMeasurementObject_Destroy</a> (const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *_this)</td></tr>
+<tr class="memdesc:af546c4fead78a56975d59330cd1f7aeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_RadiusMeasurementObject</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:af546c4fead78a56975d59330cd1f7aeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa06d290a566ccc027497babb582a1983" id="r_aa06d290a566ccc027497babb582a1983"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa06d290a566ccc027497babb582a1983">MR_RadiusMeasurementObject_DestroyArray</a> (const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *_this)</td></tr>
+<tr class="memdesc:aa06d290a566ccc027497babb582a1983"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_RadiusMeasurementObject</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:aa06d290a566ccc027497babb582a1983"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa59669cacb9b88d2ea455c06c119c477" id="r_aa59669cacb9b88d2ea455c06c119c477"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa59669cacb9b88d2ea455c06c119c477">MR_RadiusMeasurementObject_AssignFromAnother</a> (<a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *_other)</td></tr>
+<tr class="separator:aa59669cacb9b88d2ea455c06c119c477"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10c03497e56703939e8a8fdd2e71c0f5" id="r_a10c03497e56703939e8a8fdd2e71c0f5"><td class="memItemLeft" align="right" valign="top">MRC_API const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10c03497e56703939e8a8fdd2e71c0f5">MR_RadiusMeasurementObject_TypeName</a> (void)</td></tr>
+<tr class="memdesc:a10c03497e56703939e8a8fdd2e71c0f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> named <code>TypeName</code>.  <br /></td></tr>
+<tr class="separator:a10c03497e56703939e8a8fdd2e71c0f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3cba733af45b5c22d755278ce377564" id="r_ab3cba733af45b5c22d755278ce377564"><td class="memItemLeft" align="right" valign="top">MRC_API const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3cba733af45b5c22d755278ce377564">MR_RadiusMeasurementObject_typeName</a> (const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *_this)</td></tr>
+<tr class="separator:ab3cba733af45b5c22d755278ce377564"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8293f80ee74ccb4cc557541f3295e688" id="r_a8293f80ee74ccb4cc557541f3295e688"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8293f80ee74ccb4cc557541f3295e688">MR_RadiusMeasurementObject_getClassName</a> (const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *_this)</td></tr>
+<tr class="separator:a8293f80ee74ccb4cc557541f3295e688"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bef32834c8ed0f85691568a31326200" id="r_a9bef32834c8ed0f85691568a31326200"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bef32834c8ed0f85691568a31326200">MR_RadiusMeasurementObject_getClassNameInPlural</a> (const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *_this)</td></tr>
+<tr class="separator:a9bef32834c8ed0f85691568a31326200"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81efec91e59d5dde57163191978316ac" id="r_a81efec91e59d5dde57163191978316ac"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81efec91e59d5dde57163191978316ac">MR_RadiusMeasurementObject_clone</a> (const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *_this)</td></tr>
+<tr class="separator:a81efec91e59d5dde57163191978316ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63575ee023487ee68b49e527f15c9253" id="r_a63575ee023487ee68b49e527f15c9253"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63575ee023487ee68b49e527f15c9253">MR_RadiusMeasurementObject_shallowClone</a> (const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *_this)</td></tr>
+<tr class="separator:a63575ee023487ee68b49e527f15c9253"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad377b245376b76e7c3986fda0f0f9a16" id="r_ad377b245376b76e7c3986fda0f0f9a16"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad377b245376b76e7c3986fda0f0f9a16">MR_RadiusMeasurementObject_getWorldCenter</a> (const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *_this)</td></tr>
+<tr class="separator:ad377b245376b76e7c3986fda0f0f9a16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a105b4b4bfeb6f00d8246269594b8fd39" id="r_a105b4b4bfeb6f00d8246269594b8fd39"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a105b4b4bfeb6f00d8246269594b8fd39">MR_RadiusMeasurementObject_getLocalCenter</a> (const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *_this)</td></tr>
+<tr class="separator:a105b4b4bfeb6f00d8246269594b8fd39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab90d3e7d60f78df6194e8c26e205a710" id="r_ab90d3e7d60f78df6194e8c26e205a710"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab90d3e7d60f78df6194e8c26e205a710">MR_RadiusMeasurementObject_getWorldRadiusAsVector</a> (const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *_this)</td></tr>
+<tr class="separator:ab90d3e7d60f78df6194e8c26e205a710"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac819a590feff3604698a56fa438074c4" id="r_ac819a590feff3604698a56fa438074c4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac819a590feff3604698a56fa438074c4">MR_RadiusMeasurementObject_getLocalRadiusAsVector</a> (const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *_this)</td></tr>
+<tr class="separator:ac819a590feff3604698a56fa438074c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f3c6e08b4d0058399c81078c7eac174" id="r_a9f3c6e08b4d0058399c81078c7eac174"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f3c6e08b4d0058399c81078c7eac174">MR_RadiusMeasurementObject_getWorldNormal</a> (const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *_this)</td></tr>
+<tr class="separator:a9f3c6e08b4d0058399c81078c7eac174"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71fecb92cd3418817dff0cddafe36e20" id="r_a71fecb92cd3418817dff0cddafe36e20"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71fecb92cd3418817dff0cddafe36e20">MR_RadiusMeasurementObject_getLocalNormal</a> (const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *_this)</td></tr>
+<tr class="separator:a71fecb92cd3418817dff0cddafe36e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fe969c7faa73d6af2e7ec6a96ea128e" id="r_a7fe969c7faa73d6af2e7ec6a96ea128e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fe969c7faa73d6af2e7ec6a96ea128e">MR_RadiusMeasurementObject_setLocalCenter</a> (<a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *_this, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *center)</td></tr>
+<tr class="separator:a7fe969c7faa73d6af2e7ec6a96ea128e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0b7432e149cc0a361eaab5a9ad737b7" id="r_ad0b7432e149cc0a361eaab5a9ad737b7"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0b7432e149cc0a361eaab5a9ad737b7">MR_RadiusMeasurementObject_setLocalRadiusAsVector_2</a> (<a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *_this, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *radiusVec, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *normal)</td></tr>
+<tr class="separator:ad0b7432e149cc0a361eaab5a9ad737b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec358396967e7772061eb012b18e22eb" id="r_aec358396967e7772061eb012b18e22eb"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec358396967e7772061eb012b18e22eb">MR_RadiusMeasurementObject_setLocalRadiusAsVector_1</a> (<a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *_this, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *radiusVec)</td></tr>
+<tr class="separator:aec358396967e7772061eb012b18e22eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a645be311b096bef3aa30bc974af2f4e6" id="r_a645be311b096bef3aa30bc974af2f4e6"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a645be311b096bef3aa30bc974af2f4e6">MR_RadiusMeasurementObject_getDrawAsDiameter</a> (const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *_this)</td></tr>
+<tr class="separator:a645be311b096bef3aa30bc974af2f4e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6d308156960c54071113233b8c31310" id="r_ac6d308156960c54071113233b8c31310"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6d308156960c54071113233b8c31310">MR_RadiusMeasurementObject_setDrawAsDiameter</a> (<a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *_this, bool value)</td></tr>
+<tr class="separator:ac6d308156960c54071113233b8c31310"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d5b33514a18d6df00fdf2769b108d77" id="r_a2d5b33514a18d6df00fdf2769b108d77"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d5b33514a18d6df00fdf2769b108d77">MR_RadiusMeasurementObject_getIsSpherical</a> (const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *_this)</td></tr>
+<tr class="separator:a2d5b33514a18d6df00fdf2769b108d77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a770ea701227441b51f0bfd3ffe163cda" id="r_a770ea701227441b51f0bfd3ffe163cda"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a770ea701227441b51f0bfd3ffe163cda">MR_RadiusMeasurementObject_setIsSpherical</a> (<a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *_this, bool value)</td></tr>
+<tr class="separator:a770ea701227441b51f0bfd3ffe163cda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae76c7d25e78caefcff1f7110a38493b0" id="r_ae76c7d25e78caefcff1f7110a38493b0"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae76c7d25e78caefcff1f7110a38493b0">MR_RadiusMeasurementObject_getVisualLengthMultiplier</a> (const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *_this)</td></tr>
+<tr class="separator:ae76c7d25e78caefcff1f7110a38493b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab99c1f1dce0227b9f9b8af7b74d70478" id="r_ab99c1f1dce0227b9f9b8af7b74d70478"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab99c1f1dce0227b9f9b8af7b74d70478">MR_RadiusMeasurementObject_setVisualLengthMultiplier</a> (<a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *_this, float value)</td></tr>
+<tr class="separator:ab99c1f1dce0227b9f9b8af7b74d70478"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb4d0cb9b8d4fb043d778dcb49f72227" id="r_adb4d0cb9b8d4fb043d778dcb49f72227"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb4d0cb9b8d4fb043d778dcb49f72227">MR_RadiusMeasurementObject_computeRadiusOrDiameter</a> (const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *_this)</td></tr>
+<tr class="separator:adb4d0cb9b8d4fb043d778dcb49f72227"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7d2631ea847ffc5034f9a1647b1f26b" id="r_ae7d2631ea847ffc5034f9a1647b1f26b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7d2631ea847ffc5034f9a1647b1f26b">MR_RadiusMeasurementObject_getInfoLines</a> (const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *_this)</td></tr>
+<tr class="separator:ae7d2631ea847ffc5034f9a1647b1f26b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="af3835b44b6f41035bcc3f994b4711cc1" name="af3835b44b6f41035bcc3f994b4711cc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3835b44b6f41035bcc3f994b4711cc1">&#9670;&#160;</a></span>MR_MeasurementObject</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAngleMeasurementObject_8h.html#af3835b44b6f41035bcc3f994b4711cc1">MR_MeasurementObject</a> <a class="el" href="MRAngleMeasurementObject_8h.html#af3835b44b6f41035bcc3f994b4711cc1">MR_MeasurementObject</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="accce9c9179cadabc541edda0fc7a2571" name="accce9c9179cadabc541edda0fc7a2571"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accce9c9179cadabc541edda0fc7a2571">&#9670;&#160;</a></span>MR_Object</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aecafdb5edbdb31eb13fbab762e3c39bc" name="aecafdb5edbdb31eb13fbab762e3c39bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecafdb5edbdb31eb13fbab762e3c39bc">&#9670;&#160;</a></span>MR_ObjectChildrenHolder</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad32b2e846921e8b3aa5e562e89d5568c" name="ad32b2e846921e8b3aa5e562e89d5568c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad32b2e846921e8b3aa5e562e89d5568c">&#9670;&#160;</a></span>MR_RadiusMeasurementObject</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code>. Inherits from: Directly: (non-virtually) <code><a class="elRef" href="../Cpp/classMR_1_1MeasurementObject.html">MR::MeasurementObject</a></code> Indirectly: (non-virtually) <code><a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a></code> <code><a class="elRef" href="../Cpp/classMR_1_1ObjectChildrenHolder.html">MR::ObjectChildrenHolder</a></code> <code><a class="elRef" href="../Cpp/classMR_1_1VisualObject.html">MR::VisualObject</a></code> </p>
+
+</div>
+</div>
+<a id="a9e9b9c2b8a1a0540b204b1b7e6e792f4" name="a9e9b9c2b8a1a0540b204b1b7e6e792f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e9b9c2b8a1a0540b204b1b7e6e792f4">&#9670;&#160;</a></span>MR_std_shared_ptr_MR_Object</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69dc6868c10c92fb8b8a255b0130d289" name="a69dc6868c10c92fb8b8a255b0130d289"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69dc6868c10c92fb8b8a255b0130d289">&#9670;&#160;</a></span>MR_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab26d333cd7549e6f3f49cc80e3ba5900" name="ab26d333cd7549e6f3f49cc80e3ba5900"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab26d333cd7549e6f3f49cc80e3ba5900">&#9670;&#160;</a></span>MR_std_vector_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a36f3696eda81d7005927ebc5fdf17e14" name="a36f3696eda81d7005927ebc5fdf17e14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36f3696eda81d7005927ebc5fdf17e14">&#9670;&#160;</a></span>MR_VisualObject</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="aa59669cacb9b88d2ea455c06c119c477" name="aa59669cacb9b88d2ea455c06c119c477"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa59669cacb9b88d2ea455c06c119c477">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> * MR_RadiusMeasurementObject_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a81efec91e59d5dde57163191978316ac" name="a81efec91e59d5dde57163191978316ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81efec91e59d5dde57163191978316ac">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_clone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> * MR_RadiusMeasurementObject_clone </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> named <code>clone</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__shared__ptr__MR__Object_8h.html#ac4d53a470c9103f8ebd58aa32856108e" title="Destroys a heap-allocated instance of MR_std_shared_ptr_MR_Object. Does nothing if the pointer is nul...">MR_std_shared_ptr_MR_Object_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="adb4d0cb9b8d4fb043d778dcb49f72227" name="adb4d0cb9b8d4fb043d778dcb49f72227"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb4d0cb9b8d4fb043d778dcb49f72227">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_computeRadiusOrDiameter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float MR_RadiusMeasurementObject_computeRadiusOrDiameter </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> named <code>computeRadiusOrDiameter</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a4a1c90a39864146210d7ebd53208909e" name="a4a1c90a39864146210d7ebd53208909e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a1c90a39864146210d7ebd53208909e">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> * MR_RadiusMeasurementObject_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af546c4fead78a56975d59330cd1f7aeb" title="Destroys a heap-allocated instance of MR_RadiusMeasurementObject. Does nothing if the pointer is null...">MR_RadiusMeasurementObject_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5e651d8bace180a67f54c4cb8ad46da8" name="a5e651d8bace180a67f54c4cb8ad46da8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e651d8bace180a67f54c4cb8ad46da8">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> * MR_RadiusMeasurementObject_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af546c4fead78a56975d59330cd1f7aeb" title="Destroys a heap-allocated instance of MR_RadiusMeasurementObject. Does nothing if the pointer is null...">MR_RadiusMeasurementObject_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a7d5cb4eed0b2128574c71abbe6cf05d8" name="a7d5cb4eed0b2128574c71abbe6cf05d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d5cb4eed0b2128574c71abbe6cf05d8">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> * MR_RadiusMeasurementObject_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#aa06d290a566ccc027497babb582a1983" title="Destroys a heap-allocated array of MR_RadiusMeasurementObject. Does nothing if the pointer is null.">MR_RadiusMeasurementObject_DestroyArray()</a></code>. Use <code><a class="el" href="#a8025b52ec36b38d84a6f76f644e72c9f" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_RadiusMeasurementObject_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a1b9273c74887b7df485cbc3323fa9852" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_RadiusMeasurementObject_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="af546c4fead78a56975d59330cd1f7aeb" name="af546c4fead78a56975d59330cd1f7aeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af546c4fead78a56975d59330cd1f7aeb">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RadiusMeasurementObject_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_RadiusMeasurementObject</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aa06d290a566ccc027497babb582a1983" name="aa06d290a566ccc027497babb582a1983"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa06d290a566ccc027497babb582a1983">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RadiusMeasurementObject_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_RadiusMeasurementObject</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a8293f80ee74ccb4cc557541f3295e688" name="a8293f80ee74ccb4cc557541f3295e688"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8293f80ee74ccb4cc557541f3295e688">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_getClassName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_RadiusMeasurementObject_getClassName </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> named <code>getClassName</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a9bef32834c8ed0f85691568a31326200" name="a9bef32834c8ed0f85691568a31326200"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bef32834c8ed0f85691568a31326200">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_getClassNameInPlural()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_RadiusMeasurementObject_getClassNameInPlural </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> named <code>getClassNameInPlural</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a645be311b096bef3aa30bc974af2f4e6" name="a645be311b096bef3aa30bc974af2f4e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a645be311b096bef3aa30bc974af2f4e6">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_getDrawAsDiameter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_RadiusMeasurementObject_getDrawAsDiameter </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> named <code>getDrawAsDiameter</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae7d2631ea847ffc5034f9a1647b1f26b" name="ae7d2631ea847ffc5034f9a1647b1f26b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7d2631ea847ffc5034f9a1647b1f26b">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_getInfoLines()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> * MR_RadiusMeasurementObject_getInfoLines </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> named <code>getInfoLines</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__string_8h.html#ac5f612487a5f49656b4f4ceae0bdd6c9" title="Destroys a heap-allocated instance of MR_std_vector_std_string. Does nothing if the pointer is null.">MR_std_vector_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a2d5b33514a18d6df00fdf2769b108d77" name="a2d5b33514a18d6df00fdf2769b108d77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d5b33514a18d6df00fdf2769b108d77">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_getIsSpherical()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_RadiusMeasurementObject_getIsSpherical </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> named <code>getIsSpherical</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a105b4b4bfeb6f00d8246269594b8fd39" name="a105b4b4bfeb6f00d8246269594b8fd39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a105b4b4bfeb6f00d8246269594b8fd39">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_getLocalCenter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_RadiusMeasurementObject_getLocalCenter </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> named <code>getLocalCenter</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a71fecb92cd3418817dff0cddafe36e20" name="a71fecb92cd3418817dff0cddafe36e20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71fecb92cd3418817dff0cddafe36e20">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_getLocalNormal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_RadiusMeasurementObject_getLocalNormal </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> named <code>getLocalNormal</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac819a590feff3604698a56fa438074c4" name="ac819a590feff3604698a56fa438074c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac819a590feff3604698a56fa438074c4">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_getLocalRadiusAsVector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_RadiusMeasurementObject_getLocalRadiusAsVector </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> named <code>getLocalRadiusAsVector</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae76c7d25e78caefcff1f7110a38493b0" name="ae76c7d25e78caefcff1f7110a38493b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae76c7d25e78caefcff1f7110a38493b0">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_getVisualLengthMultiplier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float MR_RadiusMeasurementObject_getVisualLengthMultiplier </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> named <code>getVisualLengthMultiplier</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad377b245376b76e7c3986fda0f0f9a16" name="ad377b245376b76e7c3986fda0f0f9a16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad377b245376b76e7c3986fda0f0f9a16">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_getWorldCenter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_RadiusMeasurementObject_getWorldCenter </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> named <code>getWorldCenter</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a9f3c6e08b4d0058399c81078c7eac174" name="a9f3c6e08b4d0058399c81078c7eac174"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f3c6e08b4d0058399c81078c7eac174">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_getWorldNormal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_RadiusMeasurementObject_getWorldNormal </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> named <code>getWorldNormal</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ab90d3e7d60f78df6194e8c26e205a710" name="ab90d3e7d60f78df6194e8c26e205a710"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab90d3e7d60f78df6194e8c26e205a710">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_getWorldRadiusAsVector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_RadiusMeasurementObject_getWorldRadiusAsVector </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> named <code>getWorldRadiusAsVector</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa41dfea10a08d6f0273f25f976913f0f" name="aa41dfea10a08d6f0273f25f976913f0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa41dfea10a08d6f0273f25f976913f0f">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_MutableUpcastTo_MR_MeasurementObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#af3835b44b6f41035bcc3f994b4711cc1">MR_MeasurementObject</a> * MR_RadiusMeasurementObject_MutableUpcastTo_MR_MeasurementObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1MeasurementObject.html">MR::MeasurementObject</a></code>. </p>
+
+</div>
+</div>
+<a id="a2a5a88e9b5f80676624c6a12c2b29998" name="a2a5a88e9b5f80676624c6a12c2b29998"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a5a88e9b5f80676624c6a12c2b29998">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_MutableUpcastTo_MR_Object()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> * MR_RadiusMeasurementObject_MutableUpcastTo_MR_Object </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a></code>. </p>
+
+</div>
+</div>
+<a id="aceae7c22f8c30de35aec494cf1a277e6" name="aceae7c22f8c30de35aec494cf1a277e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aceae7c22f8c30de35aec494cf1a277e6">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_MutableUpcastTo_MR_ObjectChildrenHolder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> * MR_RadiusMeasurementObject_MutableUpcastTo_MR_ObjectChildrenHolder </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectChildrenHolder.html">MR::ObjectChildrenHolder</a></code>. </p>
+
+</div>
+</div>
+<a id="a985f335f4bf2fb3545003e8c8149f0ff" name="a985f335f4bf2fb3545003e8c8149f0ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a985f335f4bf2fb3545003e8c8149f0ff">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_MutableUpcastTo_MR_VisualObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> * MR_RadiusMeasurementObject_MutableUpcastTo_MR_VisualObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1VisualObject.html">MR::VisualObject</a></code>. </p>
+
+</div>
+</div>
+<a id="a8025b52ec36b38d84a6f76f644e72c9f" name="a8025b52ec36b38d84a6f76f644e72c9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8025b52ec36b38d84a6f76f644e72c9f">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> * MR_RadiusMeasurementObject_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a1b9273c74887b7df485cbc3323fa9852" name="a1b9273c74887b7df485cbc3323fa9852"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b9273c74887b7df485cbc3323fa9852">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> * MR_RadiusMeasurementObject_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ac6d308156960c54071113233b8c31310" name="ac6d308156960c54071113233b8c31310"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6d308156960c54071113233b8c31310">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_setDrawAsDiameter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RadiusMeasurementObject_setDrawAsDiameter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> named <code>setDrawAsDiameter</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a770ea701227441b51f0bfd3ffe163cda" name="a770ea701227441b51f0bfd3ffe163cda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a770ea701227441b51f0bfd3ffe163cda">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_setIsSpherical()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RadiusMeasurementObject_setIsSpherical </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> named <code>setIsSpherical</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a7fe969c7faa73d6af2e7ec6a96ea128e" name="a7fe969c7faa73d6af2e7ec6a96ea128e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fe969c7faa73d6af2e7ec6a96ea128e">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_setLocalCenter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RadiusMeasurementObject_setLocalCenter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>center</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> named <code>setLocalCenter</code>. Parameter <code>_this</code> can not be null. Parameter <code>center</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aec358396967e7772061eb012b18e22eb" name="aec358396967e7772061eb012b18e22eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec358396967e7772061eb012b18e22eb">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_setLocalRadiusAsVector_1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RadiusMeasurementObject_setLocalRadiusAsVector_1 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>radiusVec</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> named <code>setLocalRadiusAsVector</code>. Parameter <code>_this</code> can not be null. Parameter <code>radiusVec</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad0b7432e149cc0a361eaab5a9ad737b7" name="ad0b7432e149cc0a361eaab5a9ad737b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0b7432e149cc0a361eaab5a9ad737b7">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_setLocalRadiusAsVector_2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RadiusMeasurementObject_setLocalRadiusAsVector_2 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>radiusVec</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>normal</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> named <code>setLocalRadiusAsVector</code>. Parameter <code>_this</code> can not be null. Parameter <code>radiusVec</code> can not be null. Parameter <code>normal</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ab99c1f1dce0227b9f9b8af7b74d70478" name="ab99c1f1dce0227b9f9b8af7b74d70478"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab99c1f1dce0227b9f9b8af7b74d70478">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_setVisualLengthMultiplier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RadiusMeasurementObject_setVisualLengthMultiplier </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> named <code>setVisualLengthMultiplier</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a63575ee023487ee68b49e527f15c9253" name="a63575ee023487ee68b49e527f15c9253"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63575ee023487ee68b49e527f15c9253">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_shallowClone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> * MR_RadiusMeasurementObject_shallowClone </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> named <code>shallowClone</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__shared__ptr__MR__Object_8h.html#ac4d53a470c9103f8ebd58aa32856108e" title="Destroys a heap-allocated instance of MR_std_shared_ptr_MR_Object. Does nothing if the pointer is nul...">MR_std_shared_ptr_MR_Object_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a10c03497e56703939e8a8fdd2e71c0f5" name="a10c03497e56703939e8a8fdd2e71c0f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10c03497e56703939e8a8fdd2e71c0f5">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_TypeName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const char * MR_RadiusMeasurementObject_TypeName </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> named <code>TypeName</code>. </p>
+
+</div>
+</div>
+<a id="ab3cba733af45b5c22d755278ce377564" name="ab3cba733af45b5c22d755278ce377564"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3cba733af45b5c22d755278ce377564">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_typeName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const char * MR_RadiusMeasurementObject_typeName </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> named <code>typeName</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a093550ed08b4f764e70d9e290281aa8d" name="a093550ed08b4f764e70d9e290281aa8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a093550ed08b4f764e70d9e290281aa8d">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_UpcastTo_MR_MeasurementObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAngleMeasurementObject_8h.html#af3835b44b6f41035bcc3f994b4711cc1">MR_MeasurementObject</a> * MR_RadiusMeasurementObject_UpcastTo_MR_MeasurementObject </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1MeasurementObject.html">MR::MeasurementObject</a></code>. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="a5f068f77e9acd365f7e1ee71f8681c1a" name="a5f068f77e9acd365f7e1ee71f8681c1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f068f77e9acd365f7e1ee71f8681c1a">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_UpcastTo_MR_Object()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> * MR_RadiusMeasurementObject_UpcastTo_MR_Object </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a></code>. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="a046963d6e07f10922276afe6f22d9681" name="a046963d6e07f10922276afe6f22d9681"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a046963d6e07f10922276afe6f22d9681">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_UpcastTo_MR_ObjectChildrenHolder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> * MR_RadiusMeasurementObject_UpcastTo_MR_ObjectChildrenHolder </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectChildrenHolder.html">MR::ObjectChildrenHolder</a></code>. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="a9c362425ebc2f76287f96e24051386ad" name="a9c362425ebc2f76287f96e24051386ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c362425ebc2f76287f96e24051386ad">&#9670;&#160;</a></span>MR_RadiusMeasurementObject_UpcastTo_MR_VisualObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> * MR_RadiusMeasurementObject_UpcastTo_MR_VisualObject </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeasurementObject_8h.html#ad32b2e846921e8b3aa5e562e89d5568c">MR_RadiusMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1RadiusMeasurementObject.html">MR::RadiusMeasurementObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1VisualObject.html">MR::VisualObject</a></code>. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_8b489c7b5d1a72d35ec87e32cc37b940.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRRadiusMeasurementObject_8h.html">MRRadiusMeasurementObject.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

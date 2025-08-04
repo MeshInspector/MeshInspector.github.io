@@ -1,0 +1,578 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.MeshOrPoints Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1MeshOrPoints.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1MeshOrPoints-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.MeshOrPoints Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshOrPoints_1_1ProjectionResult.html">ProjectionResult</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ac62d1f0ae8bd31c009f48dec90617a83" id="r_ac62d1f0ae8bd31c009f48dec90617a83"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac62d1f0ae8bd31c009f48dec90617a83">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a> mesh)</td></tr>
+<tr class="separator:ac62d1f0ae8bd31c009f48dec90617a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b35f0088d8a9584569b33105e168e5d" id="r_a5b35f0088d8a9584569b33105e168e5d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b35f0088d8a9584569b33105e168e5d">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshPart.html">MeshPart</a> mp)</td></tr>
+<tr class="separator:a5b35f0088d8a9584569b33105e168e5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5543dc397fcb3d94dea3abd89e67ea3c" id="r_a5543dc397fcb3d94dea3abd89e67ea3c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5543dc397fcb3d94dea3abd89e67ea3c">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PointCloud.html">PointCloud</a> pc)</td></tr>
+<tr class="separator:a5543dc397fcb3d94dea3abd89e67ea3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61452a2dbf9bbe675ec30712f5ffb9d3" id="r_a61452a2dbf9bbe675ec30712f5ffb9d3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61452a2dbf9bbe675ec30712f5ffb9d3">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshOrPoints.html">MeshOrPoints</a> arg0)</td></tr>
+<tr class="separator:a61452a2dbf9bbe675ec30712f5ffb9d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad86317aed118a0cfc5f2a7aa33c8e7e5" id="r_ad86317aed118a0cfc5f2a7aa33c8e7e5"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad86317aed118a0cfc5f2a7aa33c8e7e5">accumulate</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PointAccumulator.html">PointAccumulator</a> accum, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> xf=None)</td></tr>
+<tr class="separator:ad86317aed118a0cfc5f2a7aa33c8e7e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51230436a3dae68d2e64779200796994" id="r_a51230436a3dae68d2e64779200796994"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshPart.html">MeshPart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51230436a3dae68d2e64779200796994">asMeshPart</a> (self)</td></tr>
+<tr class="separator:a51230436a3dae68d2e64779200796994"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a645d7e75098d2874f3612e85a431596c" id="r_a645d7e75098d2874f3612e85a431596c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1PointCloud.html">PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a645d7e75098d2874f3612e85a431596c">asPointCloud</a> (self)</td></tr>
+<tr class="separator:a645d7e75098d2874f3612e85a431596c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8d12b9c1d906c63a784957b339f740a" id="r_ad8d12b9c1d906c63a784957b339f740a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8d12b9c1d906c63a784957b339f740a">cacheAABBTree</a> (self)</td></tr>
+<tr class="separator:ad8d12b9c1d906c63a784957b339f740a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a642e2796f59d74c0fc0d6b579e32fc31" id="r_a642e2796f59d74c0fc0d6b579e32fc31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Box3f.html">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a642e2796f59d74c0fc0d6b579e32fc31">computeBoundingBox</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> toWorld=None)</td></tr>
+<tr class="separator:a642e2796f59d74c0fc0d6b579e32fc31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2944dba052eac0b0e76a8b79a3770caa" id="r_a2944dba052eac0b0e76a8b79a3770caa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Box3f.html">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2944dba052eac0b0e76a8b79a3770caa">getObjBoundingBox</a> (self)</td></tr>
+<tr class="separator:a2944dba052eac0b0e76a8b79a3770caa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc93f29017e4ea6916fd6a0214fc68e0" id="r_adc93f29017e4ea6916fd6a0214fc68e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__void__from__Vector3__float__MeshOrPoints__ProjectionResult.html">func_void_from_Vector3_float_MeshOrPoints_ProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc93f29017e4ea6916fd6a0214fc68e0">limitedProjector</a> (self)</td></tr>
+<tr class="separator:adc93f29017e4ea6916fd6a0214fc68e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ea47bc5f5c184fa6084711291c2ee58" id="r_a5ea47bc5f5c184fa6084711291c2ee58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__Vector3__float__from__Id__VertTag.html">func_Vector3_float_from_Id_VertTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ea47bc5f5c184fa6084711291c2ee58">normals</a> (self)</td></tr>
+<tr class="separator:a5ea47bc5f5c184fa6084711291c2ee58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa04c5927a39e582d906f00d72e7c153c" id="r_aa04c5927a39e582d906f00d72e7c153c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertCoords.html">VertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa04c5927a39e582d906f00d72e7c153c">points</a> (self)</td></tr>
+<tr class="separator:aa04c5927a39e582d906f00d72e7c153c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acab23809d6cb1617b2482f7805cbad61" id="r_acab23809d6cb1617b2482f7805cbad61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acab23809d6cb1617b2482f7805cbad61">pointsGridSampling</a> (self, float voxelSize, int maxVoxels=500000, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}')</td></tr>
+<tr class="separator:acab23809d6cb1617b2482f7805cbad61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a027ea2a1618fc9e1e1508d1dde15b8e8" id="r_a027ea2a1618fc9e1e1508d1dde15b8e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__MeshOrPoints__ProjectionResult__from__Vector3__float.html">func_MeshOrPoints_ProjectionResult_from_Vector3_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a027ea2a1618fc9e1e1508d1dde15b8e8">projector</a> (self)</td></tr>
+<tr class="separator:a027ea2a1618fc9e1e1508d1dde15b8e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2638ca3bf4647bb44b1c15e674f1ecaa" id="r_a2638ca3bf4647bb44b1c15e674f1ecaa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2638ca3bf4647bb44b1c15e674f1ecaa">validPoints</a> (self)</td></tr>
+<tr class="separator:a2638ca3bf4647bb44b1c15e674f1ecaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa155807dee4a527044fb6c927182c617" id="r_aa155807dee4a527044fb6c927182c617"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__float__from__Id__VertTag.html">func_float_from_Id_VertTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa155807dee4a527044fb6c927182c617">weights</a> (self)</td></tr>
+<tr class="separator:aa155807dee4a527044fb6c927182c617"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Generated from:  MR::MeshOrPoints
+
+This class can hold either mesh part or point cloud.
+It is used for generic algorithms operating with either of them
+</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ac62d1f0ae8bd31c009f48dec90617a83" name="ac62d1f0ae8bd31c009f48dec90617a83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac62d1f0ae8bd31c009f48dec90617a83">&#9670;&#160;</a></span>__init__() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.MeshOrPoints.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Mesh.html">Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5b35f0088d8a9584569b33105e168e5d" name="a5b35f0088d8a9584569b33105e168e5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b35f0088d8a9584569b33105e168e5d">&#9670;&#160;</a></span>__init__() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.MeshOrPoints.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshPart.html">MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>mp</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5543dc397fcb3d94dea3abd89e67ea3c" name="a5543dc397fcb3d94dea3abd89e67ea3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5543dc397fcb3d94dea3abd89e67ea3c">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.MeshOrPoints.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1PointCloud.html">PointCloud</a></td>          <td class="paramname"><span class="paramname"><em>pc</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a61452a2dbf9bbe675ec30712f5ffb9d3" name="a61452a2dbf9bbe675ec30712f5ffb9d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61452a2dbf9bbe675ec30712f5ffb9d3">&#9670;&#160;</a></span>__init__() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.MeshOrPoints.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshOrPoints.html">MeshOrPoints</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit copy constructor.
+</pre> 
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad86317aed118a0cfc5f2a7aa33c8e7e5" name="ad86317aed118a0cfc5f2a7aa33c8e7e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad86317aed118a0cfc5f2a7aa33c8e7e5">&#9670;&#160;</a></span>accumulate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.MeshOrPoints.accumulate </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1PointAccumulator.html">PointAccumulator</a></td>          <td class="paramname"><span class="paramname"><em>accum</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> </td>          <td class="paramname"><span class="paramname"><em>xf</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Adds in existing PointAccumulator the elements of the contained object
+</pre> 
+</div>
+</div>
+<a id="a51230436a3dae68d2e64779200796994" name="a51230436a3dae68d2e64779200796994"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51230436a3dae68d2e64779200796994">&#9670;&#160;</a></span>asMeshPart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshPart.html">MeshPart</a> meshlib.mrmeshpy.MeshOrPoints.asMeshPart </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">if this object holds a mesh part then returns pointer on it, otherwise returns nullptr
+</pre> 
+</div>
+</div>
+<a id="a645d7e75098d2874f3612e85a431596c" name="a645d7e75098d2874f3612e85a431596c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a645d7e75098d2874f3612e85a431596c">&#9670;&#160;</a></span>asPointCloud()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1PointCloud.html">PointCloud</a> meshlib.mrmeshpy.MeshOrPoints.asPointCloud </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">if this object holds a point cloud then returns pointer on it, otherwise returns nullptr
+</pre> 
+</div>
+</div>
+<a id="ad8d12b9c1d906c63a784957b339f740a" name="ad8d12b9c1d906c63a784957b339f740a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8d12b9c1d906c63a784957b339f740a">&#9670;&#160;</a></span>cacheAABBTree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.MeshOrPoints.cacheAABBTree </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">if AABBTree is already built does nothing otherwise builds and caches it
+</pre> 
+</div>
+</div>
+<a id="a642e2796f59d74c0fc0d6b579e32fc31" name="a642e2796f59d74c0fc0d6b579e32fc31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a642e2796f59d74c0fc0d6b579e32fc31">&#9670;&#160;</a></span>computeBoundingBox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Box3f.html">Box3f</a> meshlib.mrmeshpy.MeshOrPoints.computeBoundingBox </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> </td>          <td class="paramname"><span class="paramname"><em>toWorld</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">passes through all valid vertices and finds the minimal bounding box containing all of them;
+if toWorld transformation is given then returns minimal bounding box in world space
+</pre> 
+</div>
+</div>
+<a id="a2944dba052eac0b0e76a8b79a3770caa" name="a2944dba052eac0b0e76a8b79a3770caa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2944dba052eac0b0e76a8b79a3770caa">&#9670;&#160;</a></span>getObjBoundingBox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Box3f.html">Box3f</a> meshlib.mrmeshpy.MeshOrPoints.getObjBoundingBox </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the minimal bounding box containing all valid vertices of the object (and not only part of mesh);
+implemented via obj.getAABBTree()
+</pre> 
+</div>
+</div>
+<a id="adc93f29017e4ea6916fd6a0214fc68e0" name="adc93f29017e4ea6916fd6a0214fc68e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc93f29017e4ea6916fd6a0214fc68e0">&#9670;&#160;</a></span>limitedProjector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__void__from__Vector3__float__MeshOrPoints__ProjectionResult.html">func_void_from_Vector3_float_MeshOrPoints_ProjectionResult</a> meshlib.mrmeshpy.MeshOrPoints.limitedProjector </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns a function that updates projection (closest) points on this,
+the update takes place only if res.distSq on input is more than squared distance to the closest point
+</pre> 
+</div>
+</div>
+<a id="a5ea47bc5f5c184fa6084711291c2ee58" name="a5ea47bc5f5c184fa6084711291c2ee58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ea47bc5f5c184fa6084711291c2ee58">&#9670;&#160;</a></span>normals()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__Vector3__float__from__Id__VertTag.html">func_Vector3_float_from_Id_VertTag</a> meshlib.mrmeshpy.MeshOrPoints.normals </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns normals generating function: VertId-&gt;normal (or empty for point cloud without normals)
+</pre> 
+</div>
+</div>
+<a id="aa04c5927a39e582d906f00d72e7c153c" name="aa04c5927a39e582d906f00d72e7c153c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa04c5927a39e582d906f00d72e7c153c">&#9670;&#160;</a></span>points()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertCoords.html">VertCoords</a> meshlib.mrmeshpy.MeshOrPoints.points </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">gives access to points-vector (which can include invalid points as well)
+</pre> 
+</div>
+</div>
+<a id="acab23809d6cb1617b2482f7805cbad61" name="acab23809d6cb1617b2482f7805cbad61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acab23809d6cb1617b2482f7805cbad61">&#9670;&#160;</a></span>pointsGridSampling()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">VertBitSet</a> meshlib.mrmeshpy.MeshOrPoints.pointsGridSampling </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>voxelSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int </td>          <td class="paramname"><span class="paramname"><em>maxVoxels</em></span><span class="paramdefsep"> = </span><span class="paramdefval">500000</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> </td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'<a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a>{}'</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">performs sampling of vertices or points;
+subdivides bounding box of the object on voxels of approximately given size and returns at most one vertex per voxel;
+voxelSize is automatically increased to avoid more voxels than \\param maxVoxels;
+returns std::nullopt if it was terminated by the callback
+</pre> 
+</div>
+</div>
+<a id="a027ea2a1618fc9e1e1508d1dde15b8e8" name="a027ea2a1618fc9e1e1508d1dde15b8e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a027ea2a1618fc9e1e1508d1dde15b8e8">&#9670;&#160;</a></span>projector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__MeshOrPoints__ProjectionResult__from__Vector3__float.html">func_MeshOrPoints_ProjectionResult_from_Vector3_float</a> meshlib.mrmeshpy.MeshOrPoints.projector </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns a function that finds projection (closest) points on this: Vector3f-&gt;ProjectionResult
+</pre> 
+</div>
+</div>
+<a id="a2638ca3bf4647bb44b1c15e674f1ecaa" name="a2638ca3bf4647bb44b1c15e674f1ecaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2638ca3bf4647bb44b1c15e674f1ecaa">&#9670;&#160;</a></span>validPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VertBitSet.html">VertBitSet</a> meshlib.mrmeshpy.MeshOrPoints.validPoints </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">gives access to bit set of valid points
+</pre> 
+</div>
+</div>
+<a id="aa155807dee4a527044fb6c927182c617" name="aa155807dee4a527044fb6c927182c617"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa155807dee4a527044fb6c927182c617">&#9670;&#160;</a></span>weights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1func__float__from__Id__VertTag.html">func_float_from_Id_VertTag</a> meshlib.mrmeshpy.MeshOrPoints.weights </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns weights generating function: VertId-&gt;float:
+for mesh it is double area of surrounding triangles, and for point cloud - nothing
+</pre> 
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1MeshOrPoints.html">MeshOrPoints</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

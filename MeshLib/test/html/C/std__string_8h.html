@@ -1,0 +1,544 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: std_string.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('std__string_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">std_string.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="std__string_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a69dc6868c10c92fb8b8a255b0130d289" id="r_a69dc6868c10c92fb8b8a255b0130d289"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td></tr>
+<tr class="separator:a69dc6868c10c92fb8b8a255b0130d289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ac46c1cfaf14cc87fe14dac9aefbfeace" id="r_ac46c1cfaf14cc87fe14dac9aefbfeace"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac46c1cfaf14cc87fe14dac9aefbfeace">MR_std_string_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ac46c1cfaf14cc87fe14dac9aefbfeace"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acece0810b7116f0fb7d1a57a565d7c3b" id="r_acece0810b7116f0fb7d1a57a565d7c3b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acece0810b7116f0fb7d1a57a565d7c3b">MR_std_string_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:acece0810b7116f0fb7d1a57a565d7c3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7c7cee10f454a6543530376aa759435" id="r_ac7c7cee10f454a6543530376aa759435"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7c7cee10f454a6543530376aa759435">MR_std_string_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *other)</td></tr>
+<tr class="separator:ac7c7cee10f454a6543530376aa759435"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab938c7be5268bfba9034ce163f8a5c10" id="r_ab938c7be5268bfba9034ce163f8a5c10"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab938c7be5268bfba9034ce163f8a5c10">MR_std_string_ConstructFrom</a> (const char *other, const char *other_end)</td></tr>
+<tr class="separator:ab938c7be5268bfba9034ce163f8a5c10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5133f9169374330e846cebf188c868b" id="r_ae5133f9169374330e846cebf188c868b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5133f9169374330e846cebf188c868b">MR_std_string_AssignFromAnother</a> (<a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *other)</td></tr>
+<tr class="separator:ae5133f9169374330e846cebf188c868b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f4c11f2fd76dfec4baa9ecf9e4d350a" id="r_a7f4c11f2fd76dfec4baa9ecf9e4d350a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f4c11f2fd76dfec4baa9ecf9e4d350a">MR_std_string_AssignFrom</a> (<a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *_this, const char *other, const char *other_end)</td></tr>
+<tr class="separator:a7f4c11f2fd76dfec4baa9ecf9e4d350a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" id="r_a9ffa0a79c0c1ac50a81c8dfdf2fd5d91"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91">MR_std_string_Destroy</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *_this)</td></tr>
+<tr class="memdesc:a9ffa0a79c0c1ac50a81c8dfdf2fd5d91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_string</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a9ffa0a79c0c1ac50a81c8dfdf2fd5d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb9a566a1a1d75ea1da39958abdd1bd8" id="r_adb9a566a1a1d75ea1da39958abdd1bd8"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb9a566a1a1d75ea1da39958abdd1bd8">MR_std_string_DestroyArray</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *_this)</td></tr>
+<tr class="memdesc:adb9a566a1a1d75ea1da39958abdd1bd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_string</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:adb9a566a1a1d75ea1da39958abdd1bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58dffdc8fa8ed5258897e4b20dec4333" id="r_a58dffdc8fa8ed5258897e4b20dec4333"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58dffdc8fa8ed5258897e4b20dec4333">MR_std_string_OffsetPtr</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a58dffdc8fa8ed5258897e4b20dec4333"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a58dffdc8fa8ed5258897e4b20dec4333"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1085c13ddd3e6311766535dc075202b4" id="r_a1085c13ddd3e6311766535dc075202b4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1085c13ddd3e6311766535dc075202b4">MR_std_string_OffsetMutablePtr</a> (<a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a1085c13ddd3e6311766535dc075202b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a1085c13ddd3e6311766535dc075202b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a278dfb984eee05ef8df40e450b49eaf4" id="r_a278dfb984eee05ef8df40e450b49eaf4"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a278dfb984eee05ef8df40e450b49eaf4">MR_std_string_Size</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *_this)</td></tr>
+<tr class="separator:a278dfb984eee05ef8df40e450b49eaf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6d1b10a4ee031ae30876d74a6894c67" id="r_ae6d1b10a4ee031ae30876d74a6894c67"><td class="memItemLeft" align="right" valign="top">MRC_API const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *_this)</td></tr>
+<tr class="separator:ae6d1b10a4ee031ae30876d74a6894c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ebd729482375c7980ec6cf802d03d5f" id="r_a6ebd729482375c7980ec6cf802d03d5f"><td class="memItemLeft" align="right" valign="top">MRC_API const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ebd729482375c7980ec6cf802d03d5f">MR_std_string_MutableData</a> (<a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *_this)</td></tr>
+<tr class="separator:a6ebd729482375c7980ec6cf802d03d5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae906919d36105961d53e9d3419d73c02" id="r_ae906919d36105961d53e9d3419d73c02"><td class="memItemLeft" align="right" valign="top">MRC_API const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae906919d36105961d53e9d3419d73c02">MR_std_string_DataEnd</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *_this)</td></tr>
+<tr class="separator:ae906919d36105961d53e9d3419d73c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a594903bd0026a0e79d9aee30f3473751" id="r_a594903bd0026a0e79d9aee30f3473751"><td class="memItemLeft" align="right" valign="top">MRC_API char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a594903bd0026a0e79d9aee30f3473751">MR_std_string_MutableDataEnd</a> (<a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *_this)</td></tr>
+<tr class="separator:a594903bd0026a0e79d9aee30f3473751"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a69dc6868c10c92fb8b8a255b0130d289" name="a69dc6868c10c92fb8b8a255b0130d289"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69dc6868c10c92fb8b8a255b0130d289">&#9670;&#160;</a></span>MR_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>A heap-allocated null-terminated string. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a7f4c11f2fd76dfec4baa9ecf9e4d350a" name="a7f4c11f2fd76dfec4baa9ecf9e4d350a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f4c11f2fd76dfec4baa9ecf9e4d350a">&#9670;&#160;</a></span>MR_std_string_AssignFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_string_AssignFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>other_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. If <code>other_end</code> is null, then <code>other</code> is assumed to be null-terminated. </p>
+
+</div>
+</div>
+<a id="ae5133f9169374330e846cebf188c868b" name="ae5133f9169374330e846cebf188c868b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5133f9169374330e846cebf188c868b">&#9670;&#160;</a></span>MR_std_string_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_string_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ab938c7be5268bfba9034ce163f8a5c10" name="ab938c7be5268bfba9034ce163f8a5c10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab938c7be5268bfba9034ce163f8a5c10">&#9670;&#160;</a></span>MR_std_string_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_std_string_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>other_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a new instance. Parameter <code>other</code> can not be null. If <code>other_end</code> is null, then <code>other</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ac7c7cee10f454a6543530376aa759435" name="ac7c7cee10f454a6543530376aa759435"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7c7cee10f454a6543530376aa759435">&#9670;&#160;</a></span>MR_std_string_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_std_string_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae6d1b10a4ee031ae30876d74a6894c67" name="ae6d1b10a4ee031ae30876d74a6894c67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6d1b10a4ee031ae30876d74a6894c67">&#9670;&#160;</a></span>MR_std_string_Data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const char * MR_std_string_Data </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the string contents, which are always null-terminated. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae906919d36105961d53e9d3419d73c02" name="ae906919d36105961d53e9d3419d73c02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae906919d36105961d53e9d3419d73c02">&#9670;&#160;</a></span>MR_std_string_DataEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const char * MR_std_string_DataEnd </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to the end of string, to its null-terminator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac46c1cfaf14cc87fe14dac9aefbfeace" name="ac46c1cfaf14cc87fe14dac9aefbfeace"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac46c1cfaf14cc87fe14dac9aefbfeace">&#9670;&#160;</a></span>MR_std_string_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_std_string_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="acece0810b7116f0fb7d1a57a565d7c3b" name="acece0810b7116f0fb7d1a57a565d7c3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acece0810b7116f0fb7d1a57a565d7c3b">&#9670;&#160;</a></span>MR_std_string_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_std_string_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#adb9a566a1a1d75ea1da39958abdd1bd8" title="Destroys a heap-allocated array of MR_std_string. Does nothing if the pointer is null.">MR_std_string_DestroyArray()</a></code>. Use <code><a class="el" href="#a1085c13ddd3e6311766535dc075202b4" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_string_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a58dffdc8fa8ed5258897e4b20dec4333" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_string_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" name="a9ffa0a79c0c1ac50a81c8dfdf2fd5d91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91">&#9670;&#160;</a></span>MR_std_string_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_string_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_string</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="adb9a566a1a1d75ea1da39958abdd1bd8" name="adb9a566a1a1d75ea1da39958abdd1bd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb9a566a1a1d75ea1da39958abdd1bd8">&#9670;&#160;</a></span>MR_std_string_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_string_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_string</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a6ebd729482375c7980ec6cf802d03d5f" name="a6ebd729482375c7980ec6cf802d03d5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ebd729482375c7980ec6cf802d03d5f">&#9670;&#160;</a></span>MR_std_string_MutableData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const char * MR_std_string_MutableData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the string contents, which are always null-terminated. This version returns a non-const pointer. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a594903bd0026a0e79d9aee30f3473751" name="a594903bd0026a0e79d9aee30f3473751"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a594903bd0026a0e79d9aee30f3473751">&#9670;&#160;</a></span>MR_std_string_MutableDataEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API char * MR_std_string_MutableDataEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to the end of string, to its null-terminator. This version returns a non-const pointer. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a1085c13ddd3e6311766535dc075202b4" name="a1085c13ddd3e6311766535dc075202b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1085c13ddd3e6311766535dc075202b4">&#9670;&#160;</a></span>MR_std_string_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_std_string_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a58dffdc8fa8ed5258897e4b20dec4333" name="a58dffdc8fa8ed5258897e4b20dec4333"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58dffdc8fa8ed5258897e4b20dec4333">&#9670;&#160;</a></span>MR_std_string_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_std_string_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a278dfb984eee05ef8df40e450b49eaf4" name="a278dfb984eee05ef8df40e450b49eaf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a278dfb984eee05ef8df40e450b49eaf4">&#9670;&#160;</a></span>MR_std_string_Size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_string_Size </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The number of characters in the string, excluding the null-terminator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_a57e8462869cab4a5203dede5869920d.html">MRCMisc</a></li><li class="navelem"><a class="el" href="std__string_8h.html">std_string.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

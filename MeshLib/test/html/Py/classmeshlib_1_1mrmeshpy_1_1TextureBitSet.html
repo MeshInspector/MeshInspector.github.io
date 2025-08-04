@@ -1,0 +1,1274 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.TextureBitSet Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.TextureBitSet Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for meshlib.mrmeshpy.TextureBitSet:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.png" usemap="#meshlib.mrmeshpy.TextureBitSet_map" alt=""/>
+  <map id="meshlib.mrmeshpy.TextureBitSet_map" name="meshlib.mrmeshpy.TextureBitSet_map">
+<area href="classmeshlib_1_1mrmeshpy_1_1BitSet.html" alt="meshlib.mrmeshpy.BitSet" shape="rect" coords="0,0,193,24"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a06869ed833ad25f5821bcb1fa46ff68b" id="r_a06869ed833ad25f5821bcb1fa46ff68b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06869ed833ad25f5821bcb1fa46ff68b">__and__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> b)</td></tr>
+<tr class="separator:a06869ed833ad25f5821bcb1fa46ff68b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40dfddd5024a0a5035f4341e45bc02f8" id="r_a40dfddd5024a0a5035f4341e45bc02f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40dfddd5024a0a5035f4341e45bc02f8">__iand__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> b)</td></tr>
+<tr class="separator:a40dfddd5024a0a5035f4341e45bc02f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b4a87781bdb33c8adc04d7267c29807" id="r_a3b4a87781bdb33c8adc04d7267c29807"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b4a87781bdb33c8adc04d7267c29807">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> src)</td></tr>
+<tr class="separator:a3b4a87781bdb33c8adc04d7267c29807"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b4a87781bdb33c8adc04d7267c29807" id="r_a3b4a87781bdb33c8adc04d7267c29807"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b4a87781bdb33c8adc04d7267c29807">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> src)</td></tr>
+<tr class="separator:a3b4a87781bdb33c8adc04d7267c29807"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9186517843ade3175c998f6b5cd8bf46" id="r_a9186517843ade3175c998f6b5cd8bf46"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9186517843ade3175c998f6b5cd8bf46">__init__</a> (self)</td></tr>
+<tr class="separator:a9186517843ade3175c998f6b5cd8bf46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e6652b08a5e88cc6fd529c44fcff1d1" id="r_a0e6652b08a5e88cc6fd529c44fcff1d1"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e6652b08a5e88cc6fd529c44fcff1d1">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> arg0)</td></tr>
+<tr class="separator:a0e6652b08a5e88cc6fd529c44fcff1d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a809d239c804f7fb23cff617a35fcd028" id="r_a809d239c804f7fb23cff617a35fcd028"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a809d239c804f7fb23cff617a35fcd028">__ior__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> b)</td></tr>
+<tr class="separator:a809d239c804f7fb23cff617a35fcd028"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14b8105954459d87bb7192294c3b8069" id="r_a14b8105954459d87bb7192294c3b8069"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14b8105954459d87bb7192294c3b8069">__isub__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> b)</td></tr>
+<tr class="separator:a14b8105954459d87bb7192294c3b8069"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f7fb809733f11d771024873b8cfecc9" id="r_a9f7fb809733f11d771024873b8cfecc9"><td class="memItemLeft" align="right" valign="top">typing.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f7fb809733f11d771024873b8cfecc9">__iter__</a> (self)</td></tr>
+<tr class="separator:a9f7fb809733f11d771024873b8cfecc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f482d1bafe78fa81c5ce394d22b610a" id="r_a8f482d1bafe78fa81c5ce394d22b610a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f482d1bafe78fa81c5ce394d22b610a">__ixor__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> b)</td></tr>
+<tr class="separator:a8f482d1bafe78fa81c5ce394d22b610a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95206ee5faea72fef0006246d733bb9b" id="r_a95206ee5faea72fef0006246d733bb9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95206ee5faea72fef0006246d733bb9b">__or__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> b)</td></tr>
+<tr class="separator:a95206ee5faea72fef0006246d733bb9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add9315cbd4a2a0e2a7f7cc6c12817277" id="r_add9315cbd4a2a0e2a7f7cc6c12817277"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add9315cbd4a2a0e2a7f7cc6c12817277">__sub__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> b)</td></tr>
+<tr class="separator:add9315cbd4a2a0e2a7f7cc6c12817277"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac53a1f56fc6407fff498ace0bffa982b" id="r_ac53a1f56fc6407fff498ace0bffa982b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac53a1f56fc6407fff498ace0bffa982b">__xor__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> b)</td></tr>
+<tr class="separator:ac53a1f56fc6407fff498ace0bffa982b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8c73c53673d2200a85b41524f658902" id="r_ab8c73c53673d2200a85b41524f658902"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8c73c53673d2200a85b41524f658902">autoResizeSet</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a> pos, int len, bool val=True)</td></tr>
+<tr class="separator:ab8c73c53673d2200a85b41524f658902"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d34c6226e734c792e6913c18c830ef8" id="r_a6d34c6226e734c792e6913c18c830ef8"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d34c6226e734c792e6913c18c830ef8">autoResizeSet</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a> pos, bool val=True)</td></tr>
+<tr class="separator:a6d34c6226e734c792e6913c18c830ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5573b368b70597d4f181bb5f6fc8324a" id="r_a5573b368b70597d4f181bb5f6fc8324a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5573b368b70597d4f181bb5f6fc8324a">autoResizeTestSet</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a> pos, bool val=True)</td></tr>
+<tr class="separator:a5573b368b70597d4f181bb5f6fc8324a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a4ea512f8c8e01abc3242edc3a238b8" id="r_a6a4ea512f8c8e01abc3242edc3a238b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a4ea512f8c8e01abc3242edc3a238b8">backId</a> (self)</td></tr>
+<tr class="separator:a6a4ea512f8c8e01abc3242edc3a238b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f58435bb73648cf3ea1aad4f79146c9" id="r_a1f58435bb73648cf3ea1aad4f79146c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f58435bb73648cf3ea1aad4f79146c9">endId</a> (self)</td></tr>
+<tr class="separator:a1f58435bb73648cf3ea1aad4f79146c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab80f9f66c1b970a9d2bdfd9e319be5fe" id="r_ab80f9f66c1b970a9d2bdfd9e319be5fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab80f9f66c1b970a9d2bdfd9e319be5fe">find_first</a> (self)</td></tr>
+<tr class="separator:ab80f9f66c1b970a9d2bdfd9e319be5fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a327476aa03ca26f01a21a5116a540538" id="r_a327476aa03ca26f01a21a5116a540538"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a327476aa03ca26f01a21a5116a540538">find_last</a> (self)</td></tr>
+<tr class="separator:a327476aa03ca26f01a21a5116a540538"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec68371fca5d06a1f4f00a3c2a36e15c" id="r_aec68371fca5d06a1f4f00a3c2a36e15c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec68371fca5d06a1f4f00a3c2a36e15c">find_next</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a> pos)</td></tr>
+<tr class="separator:aec68371fca5d06a1f4f00a3c2a36e15c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a959eadfdd582cf68f7fdd70b853e898a" id="r_a959eadfdd582cf68f7fdd70b853e898a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a959eadfdd582cf68f7fdd70b853e898a">flip</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a> n, int len)</td></tr>
+<tr class="separator:a959eadfdd582cf68f7fdd70b853e898a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a271fe7e371811a8599dd3850d5e56723" id="r_a271fe7e371811a8599dd3850d5e56723"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a271fe7e371811a8599dd3850d5e56723">flip</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a> n)</td></tr>
+<tr class="separator:a271fe7e371811a8599dd3850d5e56723"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a5e2bba4e3f291c265a6904136224ad" id="r_a7a5e2bba4e3f291c265a6904136224ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a5e2bba4e3f291c265a6904136224ad">flip</a> (self)</td></tr>
+<tr class="separator:a7a5e2bba4e3f291c265a6904136224ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a011fbfb65ba6d7dcdac8e38276957952" id="r_a011fbfb65ba6d7dcdac8e38276957952"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a011fbfb65ba6d7dcdac8e38276957952">getMapping</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__TextureId__TextureId.html">Vector_TextureId_TextureId</a> map)</td></tr>
+<tr class="separator:a011fbfb65ba6d7dcdac8e38276957952"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a704fe4d98f7234929c20b5e4c8ba45e5" id="r_a704fe4d98f7234929c20b5e4c8ba45e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a704fe4d98f7234929c20b5e4c8ba45e5">getMapping</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BMap__TextureId__TextureId.html">BMap_TextureId_TextureId</a> map)</td></tr>
+<tr class="separator:a704fe4d98f7234929c20b5e4c8ba45e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a865781f7c08879e70d00c089e998bd" id="r_a8a865781f7c08879e70d00c089e998bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a865781f7c08879e70d00c089e998bd">getMapping</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag.html">phmap_flat_hash_map_Id_TextureTag_Id_TextureTag</a> map)</td></tr>
+<tr class="separator:a8a865781f7c08879e70d00c089e998bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe4645d65de70a3e33b21b898c960451" id="r_abe4645d65de70a3e33b21b898c960451"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe4645d65de70a3e33b21b898c960451">getMapping</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__TextureId__TextureId.html">Vector_TextureId_TextureId</a> map, int resSize)</td></tr>
+<tr class="separator:abe4645d65de70a3e33b21b898c960451"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5f2587a020dbe9a28d17b3301933a84" id="r_aa5f2587a020dbe9a28d17b3301933a84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5f2587a020dbe9a28d17b3301933a84">getMapping</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag.html">phmap_flat_hash_map_Id_TextureTag_Id_TextureTag</a> map, int resSize)</td></tr>
+<tr class="separator:aa5f2587a020dbe9a28d17b3301933a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22a2bd20563a6a0315f25e6a5df3e338" id="r_a22a2bd20563a6a0315f25e6a5df3e338"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22a2bd20563a6a0315f25e6a5df3e338">nthSetBit</a> (self, int n)</td></tr>
+<tr class="separator:a22a2bd20563a6a0315f25e6a5df3e338"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab5dace28990d8381932725eed2d5682" id="r_aab5dace28990d8381932725eed2d5682"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab5dace28990d8381932725eed2d5682">operator</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a> pos)</td></tr>
+<tr class="separator:aab5dace28990d8381932725eed2d5682"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa618c9d812ec45ea9418904903915ef4" id="r_aa618c9d812ec45ea9418904903915ef4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa618c9d812ec45ea9418904903915ef4">reset</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a> n, int len)</td></tr>
+<tr class="separator:aa618c9d812ec45ea9418904903915ef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add88a5bf55eb26d646830956d466efb0" id="r_add88a5bf55eb26d646830956d466efb0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add88a5bf55eb26d646830956d466efb0">reset</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a> n)</td></tr>
+<tr class="separator:add88a5bf55eb26d646830956d466efb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5885a1f1c6c7074dfbdb7925e73e410" id="r_ab5885a1f1c6c7074dfbdb7925e73e410"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5885a1f1c6c7074dfbdb7925e73e410">reset</a> (self)</td></tr>
+<tr class="separator:ab5885a1f1c6c7074dfbdb7925e73e410"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefcbaaf643556083f58721b9f1d8175f" id="r_aefcbaaf643556083f58721b9f1d8175f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefcbaaf643556083f58721b9f1d8175f">set</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a> n, int len, bool val)</td></tr>
+<tr class="separator:aefcbaaf643556083f58721b9f1d8175f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1398f84c2bb431164c3dede306f04ca5" id="r_a1398f84c2bb431164c3dede306f04ca5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1398f84c2bb431164c3dede306f04ca5">set</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a> n, bool val=True)</td></tr>
+<tr class="separator:a1398f84c2bb431164c3dede306f04ca5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a55a5af44feceebc7f3c8bafc55996a" id="r_a6a55a5af44feceebc7f3c8bafc55996a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a55a5af44feceebc7f3c8bafc55996a">set</a> (self)</td></tr>
+<tr class="separator:a6a55a5af44feceebc7f3c8bafc55996a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2ce0855c24f22e406fc193fe740b4b2" id="r_ac2ce0855c24f22e406fc193fe740b4b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2ce0855c24f22e406fc193fe740b4b2">subtract</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> b, int bShiftInBlocks)</td></tr>
+<tr class="separator:ac2ce0855c24f22e406fc193fe740b4b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af22c8f2264b52a05e4de2fe103c52540" id="r_af22c8f2264b52a05e4de2fe103c52540"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af22c8f2264b52a05e4de2fe103c52540">test</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a> n)</td></tr>
+<tr class="separator:af22c8f2264b52a05e4de2fe103c52540"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6423c5da6d344a0011eed18465c12e97" id="r_a6423c5da6d344a0011eed18465c12e97"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6423c5da6d344a0011eed18465c12e97">test_set</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a> n, bool val=True)</td></tr>
+<tr class="separator:a6423c5da6d344a0011eed18465c12e97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">meshlib.mrmeshpy.BitSet</a></td></tr>
+<tr class="memitem:a3ab0153df8d6e25b8334253117496758 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet" id="r_a3ab0153df8d6e25b8334253117496758"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a3ab0153df8d6e25b8334253117496758">__eq__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a> b)</td></tr>
+<tr class="separator:a3ab0153df8d6e25b8334253117496758 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae077f54c2adb7b26cc274216d17f2251 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet" id="r_ae077f54c2adb7b26cc274216d17f2251"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#ae077f54c2adb7b26cc274216d17f2251">clear</a> (self)</td></tr>
+<tr class="separator:ae077f54c2adb7b26cc274216d17f2251 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7a10cb247b0d81387888917cdc4b04b inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet" id="r_ac7a10cb247b0d81387888917cdc4b04b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#ac7a10cb247b0d81387888917cdc4b04b">count</a> (self)</td></tr>
+<tr class="separator:ac7a10cb247b0d81387888917cdc4b04b inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3278b7c07b149e6ae370f4a69640e101 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet" id="r_a3278b7c07b149e6ae370f4a69640e101"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a3278b7c07b149e6ae370f4a69640e101">heapBytes</a> (self)</td></tr>
+<tr class="separator:a3278b7c07b149e6ae370f4a69640e101 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33d30a6aec1e3cebb63fbec9627395fe inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet" id="r_a33d30a6aec1e3cebb63fbec9627395fe"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a33d30a6aec1e3cebb63fbec9627395fe">pop_back</a> (self)</td></tr>
+<tr class="separator:a33d30a6aec1e3cebb63fbec9627395fe inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a674f5b26614225e1d27d35bc0845a555 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet" id="r_a674f5b26614225e1d27d35bc0845a555"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a674f5b26614225e1d27d35bc0845a555">push_back</a> (self, bool bit)</td></tr>
+<tr class="separator:a674f5b26614225e1d27d35bc0845a555 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0be4e454b4584aa606be3f6687178a1e inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet" id="r_a0be4e454b4584aa606be3f6687178a1e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a0be4e454b4584aa606be3f6687178a1e">resize</a> (self, int num_bits, bool value=False)</td></tr>
+<tr class="separator:a0be4e454b4584aa606be3f6687178a1e inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88a4ae2a0d6dff85c15b2dfe9deba202 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet" id="r_a88a4ae2a0d6dff85c15b2dfe9deba202"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a88a4ae2a0d6dff85c15b2dfe9deba202">resizeWithReserve</a> (self, int newSize)</td></tr>
+<tr class="separator:a88a4ae2a0d6dff85c15b2dfe9deba202 inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10f8fd68f889a1d1606ac6724cfe450f inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet" id="r_a10f8fd68f889a1d1606ac6724cfe450f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a10f8fd68f889a1d1606ac6724cfe450f">size</a> (self)</td></tr>
+<tr class="separator:a10f8fd68f889a1d1606ac6724cfe450f inherit pub_methods_classmeshlib_1_1mrmeshpy_1_1BitSet"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a7b5a6c5c81869f3273a623d487120cdd" id="r_a7b5a6c5c81869f3273a623d487120cdd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b5a6c5c81869f3273a623d487120cdd">beginId</a> ()</td></tr>
+<tr class="separator:a7b5a6c5c81869f3273a623d487120cdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Generated from:  MR::TextureBitSet
+Aliases:  TaggedBitSet_TextureTag
+
+container of bits representing specific indices (faces, verts or edges)
+</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a3b4a87781bdb33c8adc04d7267c29807" name="a3b4a87781bdb33c8adc04d7267c29807"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b4a87781bdb33c8adc04d7267c29807">&#9670;&#160;</a></span>__init__() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.TextureBitSet.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a></td>          <td class="paramname"><span class="paramname"><em>src</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">copies all bits from another BitSet (or a descending class, e.g. TaggedBitSet&lt;U&gt;)
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a72b68c1ab58ea09861db4af526102443">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a3b4a87781bdb33c8adc04d7267c29807" name="a3b4a87781bdb33c8adc04d7267c29807"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b4a87781bdb33c8adc04d7267c29807">&#9670;&#160;</a></span>__init__() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.TextureBitSet.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html">BitSet</a></td>          <td class="paramname"><span class="paramname"><em>src</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">moves all bits from another BitSet (or a descending class, e.g. TaggedBitSet&lt;U&gt;)
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a72b68c1ab58ea09861db4af526102443">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a9186517843ade3175c998f6b5cd8bf46" name="a9186517843ade3175c998f6b5cd8bf46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9186517843ade3175c998f6b5cd8bf46">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.TextureBitSet.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit default constructor.
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a72b68c1ab58ea09861db4af526102443">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a0e6652b08a5e88cc6fd529c44fcff1d1" name="a0e6652b08a5e88cc6fd529c44fcff1d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e6652b08a5e88cc6fd529c44fcff1d1">&#9670;&#160;</a></span>__init__() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.TextureBitSet.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Implicit copy constructor.
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a72b68c1ab58ea09861db4af526102443">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a06869ed833ad25f5821bcb1fa46ff68b" name="a06869ed833ad25f5821bcb1fa46ff68b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06869ed833ad25f5821bcb1fa46ff68b">&#9670;&#160;</a></span>__and__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> meshlib.mrmeshpy.TextureBitSet.__and__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a85435ac3557f145028e771489998d509">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a40dfddd5024a0a5035f4341e45bc02f8" name="a40dfddd5024a0a5035f4341e45bc02f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40dfddd5024a0a5035f4341e45bc02f8">&#9670;&#160;</a></span>__iand__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> meshlib.mrmeshpy.TextureBitSet.__iand__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a9dc3ca031fa7e8da6617d6b74cc66fc5">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a809d239c804f7fb23cff617a35fcd028" name="a809d239c804f7fb23cff617a35fcd028"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a809d239c804f7fb23cff617a35fcd028">&#9670;&#160;</a></span>__ior__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> meshlib.mrmeshpy.TextureBitSet.__ior__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a4483a0930112aa22fa6181a8ddd90c15">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a14b8105954459d87bb7192294c3b8069" name="a14b8105954459d87bb7192294c3b8069"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14b8105954459d87bb7192294c3b8069">&#9670;&#160;</a></span>__isub__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> meshlib.mrmeshpy.TextureBitSet.__isub__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a290e91b15f60c8853e19f234b0ff17d8">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a9f7fb809733f11d771024873b8cfecc9" name="a9f7fb809733f11d771024873b8cfecc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f7fb809733f11d771024873b8cfecc9">&#9670;&#160;</a></span>__iter__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> typing.Iterator meshlib.mrmeshpy.TextureBitSet.__iter__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a32ef3df14f5745445ad5eab11ab6d19f">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a8f482d1bafe78fa81c5ce394d22b610a" name="a8f482d1bafe78fa81c5ce394d22b610a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f482d1bafe78fa81c5ce394d22b610a">&#9670;&#160;</a></span>__ixor__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> meshlib.mrmeshpy.TextureBitSet.__ixor__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#acb142b116441bf689908ba9b7b3353c1">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a95206ee5faea72fef0006246d733bb9b" name="a95206ee5faea72fef0006246d733bb9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95206ee5faea72fef0006246d733bb9b">&#9670;&#160;</a></span>__or__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> meshlib.mrmeshpy.TextureBitSet.__or__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#ad7d17880413e81c3eb3bb9d22c079ea0">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="add9315cbd4a2a0e2a7f7cc6c12817277" name="add9315cbd4a2a0e2a7f7cc6c12817277"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add9315cbd4a2a0e2a7f7cc6c12817277">&#9670;&#160;</a></span>__sub__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> meshlib.mrmeshpy.TextureBitSet.__sub__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a802e19baafadd3feb434aa3526672762">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="ac53a1f56fc6407fff498ace0bffa982b" name="ac53a1f56fc6407fff498ace0bffa982b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac53a1f56fc6407fff498ace0bffa982b">&#9670;&#160;</a></span>__xor__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> meshlib.mrmeshpy.TextureBitSet.__xor__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a0f3c7333febae5358edf59c3ebcfb2e3">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a6d34c6226e734c792e6913c18c830ef8" name="a6d34c6226e734c792e6913c18c830ef8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d34c6226e734c792e6913c18c830ef8">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.TextureBitSet.autoResizeSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>len</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a14d98fdb6ec197be5f3753ddcba87aa7">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="ab8c73c53673d2200a85b41524f658902" name="ab8c73c53673d2200a85b41524f658902"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8c73c53673d2200a85b41524f658902">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.TextureBitSet.autoResizeSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>len</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>val</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a14d98fdb6ec197be5f3753ddcba87aa7">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a5573b368b70597d4f181bb5f6fc8324a" name="a5573b368b70597d4f181bb5f6fc8324a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5573b368b70597d4f181bb5f6fc8324a">&#9670;&#160;</a></span>autoResizeTestSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.TextureBitSet.autoResizeTestSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>val</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">same as \\ref autoResizeSet and returns previous value of pos-bit
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a6ad87d5171e33bfce5eb2add65e8a527">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a6a4ea512f8c8e01abc3242edc3a238b8" name="a6a4ea512f8c8e01abc3242edc3a238b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a4ea512f8c8e01abc3242edc3a238b8">&#9670;&#160;</a></span>backId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a> meshlib.mrmeshpy.TextureBitSet.backId </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the identifier of the back() element
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a4b4cf7a214fd2c7ed53be7670f344914">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a7b5a6c5c81869f3273a623d487120cdd" name="a7b5a6c5c81869f3273a623d487120cdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b5a6c5c81869f3273a623d487120cdd">&#9670;&#160;</a></span>beginId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a> meshlib.mrmeshpy.TextureBitSet.beginId </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">[beginId(), endId()) is the range of all bits in the set
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#aa6028fcc911547bb985153b35f6aa5dc">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a1f58435bb73648cf3ea1aad4f79146c9" name="a1f58435bb73648cf3ea1aad4f79146c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f58435bb73648cf3ea1aad4f79146c9">&#9670;&#160;</a></span>endId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a> meshlib.mrmeshpy.TextureBitSet.endId </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a3d331dd85ce8c0d16233cf52d991c72f">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="ab80f9f66c1b970a9d2bdfd9e319be5fe" name="ab80f9f66c1b970a9d2bdfd9e319be5fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab80f9f66c1b970a9d2bdfd9e319be5fe">&#9670;&#160;</a></span>find_first()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a> meshlib.mrmeshpy.TextureBitSet.find_first </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a327476aa03ca26f01a21a5116a540538" name="a327476aa03ca26f01a21a5116a540538"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a327476aa03ca26f01a21a5116a540538">&#9670;&#160;</a></span>find_last()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a> meshlib.mrmeshpy.TextureBitSet.find_last </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">return the highest index i such as bit i is set, or npos if *this has no on bits.
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a1bc6e4c6f18181a464ddc840c3a116cb">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="aec68371fca5d06a1f4f00a3c2a36e15c" name="aec68371fca5d06a1f4f00a3c2a36e15c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec68371fca5d06a1f4f00a3c2a36e15c">&#9670;&#160;</a></span>find_next()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a> meshlib.mrmeshpy.TextureBitSet.find_next </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a5e2bba4e3f291c265a6904136224ad" name="a7a5e2bba4e3f291c265a6904136224ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a5e2bba4e3f291c265a6904136224ad">&#9670;&#160;</a></span>flip() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> meshlib.mrmeshpy.TextureBitSet.flip </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a24736ab49afc49160fac9b5f7357d751">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a271fe7e371811a8599dd3850d5e56723" name="a271fe7e371811a8599dd3850d5e56723"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a271fe7e371811a8599dd3850d5e56723">&#9670;&#160;</a></span>flip() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> meshlib.mrmeshpy.TextureBitSet.flip </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a24736ab49afc49160fac9b5f7357d751">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a959eadfdd582cf68f7fdd70b853e898a" name="a959eadfdd582cf68f7fdd70b853e898a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a959eadfdd582cf68f7fdd70b853e898a">&#9670;&#160;</a></span>flip() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> meshlib.mrmeshpy.TextureBitSet.flip </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>len</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a24736ab49afc49160fac9b5f7357d751">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a704fe4d98f7234929c20b5e4c8ba45e5" name="a704fe4d98f7234929c20b5e4c8ba45e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a704fe4d98f7234929c20b5e4c8ba45e5">&#9670;&#160;</a></span>getMapping() <span class="overload">[1/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> meshlib.mrmeshpy.TextureBitSet.getMapping </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1BMap__TextureId__TextureId.html">BMap_TextureId_TextureId</a></td>          <td class="paramname"><span class="paramname"><em>map</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8a865781f7c08879e70d00c089e998bd" name="a8a865781f7c08879e70d00c089e998bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a865781f7c08879e70d00c089e998bd">&#9670;&#160;</a></span>getMapping() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> meshlib.mrmeshpy.TextureBitSet.getMapping </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag.html">phmap_flat_hash_map_Id_TextureTag_Id_TextureTag</a></td>          <td class="paramname"><span class="paramname"><em>map</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa5f2587a020dbe9a28d17b3301933a84" name="aa5f2587a020dbe9a28d17b3301933a84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5f2587a020dbe9a28d17b3301933a84">&#9670;&#160;</a></span>getMapping() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> meshlib.mrmeshpy.TextureBitSet.getMapping </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag.html">phmap_flat_hash_map_Id_TextureTag_Id_TextureTag</a></td>          <td class="paramname"><span class="paramname"><em>map</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>resSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a011fbfb65ba6d7dcdac8e38276957952" name="a011fbfb65ba6d7dcdac8e38276957952"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a011fbfb65ba6d7dcdac8e38276957952">&#9670;&#160;</a></span>getMapping() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> meshlib.mrmeshpy.TextureBitSet.getMapping </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__TextureId__TextureId.html">Vector_TextureId_TextureId</a></td>          <td class="paramname"><span class="paramname"><em>map</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abe4645d65de70a3e33b21b898c960451" name="abe4645d65de70a3e33b21b898c960451"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe4645d65de70a3e33b21b898c960451">&#9670;&#160;</a></span>getMapping() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> meshlib.mrmeshpy.TextureBitSet.getMapping </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1Vector__TextureId__TextureId.html">Vector_TextureId_TextureId</a></td>          <td class="paramname"><span class="paramname"><em>map</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>resSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a22a2bd20563a6a0315f25e6a5df3e338" name="a22a2bd20563a6a0315f25e6a5df3e338"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22a2bd20563a6a0315f25e6a5df3e338">&#9670;&#160;</a></span>nthSetBit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a> meshlib.mrmeshpy.TextureBitSet.nthSetBit </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the location of nth set bit (where the first bit corresponds to n=0) or IndexType(npos) if there are less bit set
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a28681fac7dec04ed63e434b6abc07ed0">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="aab5dace28990d8381932725eed2d5682" name="aab5dace28990d8381932725eed2d5682"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab5dace28990d8381932725eed2d5682">&#9670;&#160;</a></span>operator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.TextureBitSet.operator </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab5885a1f1c6c7074dfbdb7925e73e410" name="ab5885a1f1c6c7074dfbdb7925e73e410"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5885a1f1c6c7074dfbdb7925e73e410">&#9670;&#160;</a></span>reset() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> meshlib.mrmeshpy.TextureBitSet.reset </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#ae67990e25470df9b2491444c9501021c">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="add88a5bf55eb26d646830956d466efb0" name="add88a5bf55eb26d646830956d466efb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add88a5bf55eb26d646830956d466efb0">&#9670;&#160;</a></span>reset() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> meshlib.mrmeshpy.TextureBitSet.reset </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#ae67990e25470df9b2491444c9501021c">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="aa618c9d812ec45ea9418904903915ef4" name="aa618c9d812ec45ea9418904903915ef4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa618c9d812ec45ea9418904903915ef4">&#9670;&#160;</a></span>reset() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> meshlib.mrmeshpy.TextureBitSet.reset </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>len</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#ae67990e25470df9b2491444c9501021c">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a6a55a5af44feceebc7f3c8bafc55996a" name="a6a55a5af44feceebc7f3c8bafc55996a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a55a5af44feceebc7f3c8bafc55996a">&#9670;&#160;</a></span>set() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> meshlib.mrmeshpy.TextureBitSet.set </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a435e6cbe5189e3dc93cadba92043a641">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a1398f84c2bb431164c3dede306f04ca5" name="a1398f84c2bb431164c3dede306f04ca5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1398f84c2bb431164c3dede306f04ca5">&#9670;&#160;</a></span>set() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> meshlib.mrmeshpy.TextureBitSet.set </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>val</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a435e6cbe5189e3dc93cadba92043a641">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="aefcbaaf643556083f58721b9f1d8175f" name="aefcbaaf643556083f58721b9f1d8175f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefcbaaf643556083f58721b9f1d8175f">&#9670;&#160;</a></span>set() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> meshlib.mrmeshpy.TextureBitSet.set </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>len</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a435e6cbe5189e3dc93cadba92043a641">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="ac2ce0855c24f22e406fc193fe740b4b2" name="ac2ce0855c24f22e406fc193fe740b4b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2ce0855c24f22e406fc193fe740b4b2">&#9670;&#160;</a></span>subtract()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a> meshlib.mrmeshpy.TextureBitSet.subtract </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>bShiftInBlocks</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">subtracts b from this, considering that bits in b are shifted right on bShiftInBlocks*bits_per_block
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a037e3c867e7fc3e183cb5799674854cb">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="af22c8f2264b52a05e4de2fe103c52540" name="af22c8f2264b52a05e4de2fe103c52540"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af22c8f2264b52a05e4de2fe103c52540">&#9670;&#160;</a></span>test()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.TextureBitSet.test </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">all bits after size() we silently consider as not-set
+</pre> 
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#a7670f21a795b5119c3b0b83d6c5cf358">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a6423c5da6d344a0011eed18465c12e97" name="a6423c5da6d344a0011eed18465c12e97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6423c5da6d344a0011eed18465c12e97">&#9670;&#160;</a></span>test_set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.TextureBitSet.test_set </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureId.html">TextureId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>val</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmeshlib_1_1mrmeshpy_1_1BitSet.html#af203a8a30b035e5f509935eb559d0974">meshlib.mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1TextureBitSet.html">TextureBitSet</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

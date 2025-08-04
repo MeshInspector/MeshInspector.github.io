@@ -1,0 +1,333 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRObjectGcode.h Source File</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRObjectGcode_8h_source.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">MRObjectGcode.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="MRObjectGcode_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="MRViewportId_8h.html">MRCMesh/MRViewportId.h</a>&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;<a class="code" href="common_8h.html">MRCMisc/common.h</a>&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;MRCMisc/exports.h&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a325911971cee7957b63b98e5d38aedc4">   15</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRCNCMachineSettings_8h.html#a325911971cee7957b63b98e5d38aedc4">MR_CNCMachineSettings</a> <a class="code hl_typedef" href="MRCNCMachineSettings_8h.html#a325911971cee7957b63b98e5d38aedc4">MR_CNCMachineSettings</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRCNCMachineSettings.h&gt;`.</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#ab04f90c0c45a09f664d0bd8e652bc339">   16</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structMR__Color.html">MR_Color</a> <a class="code hl_struct" href="structMR__Color.html">MR_Color</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRColor.h&gt;`.</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#accce9c9179cadabc541edda0fc7a2571">   17</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> <a class="code hl_typedef" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRObject.h&gt;`.</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">   18</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> <a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRObject.h&gt;`.</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#af46c30b811dbea0af7a43f2bfcf2741a">   19</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRObject_8h.html#af46c30b811dbea0af7a43f2bfcf2741a">MR_ObjectLinesHolder</a> <a class="code hl_typedef" href="MRObject_8h.html#af46c30b811dbea0af7a43f2bfcf2741a">MR_ObjectLinesHolder</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRObjectLinesHolder.h&gt;`.</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a36f3696eda81d7005927ebc5fdf17e14">   20</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> <a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRVisualObject.h&gt;`.</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">   21</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> <a class="code hl_typedef" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_shared_ptr_MR_Object.h&gt;`.</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#affc1f7cb700cd873af5cfebd8fcd1ad2">   22</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRObjectGcode_8h.html#affc1f7cb700cd873af5cfebd8fcd1ad2">MR_std_shared_ptr_std_vector_std_string</a> <a class="code hl_typedef" href="MRObjectGcode_8h.html#affc1f7cb700cd873af5cfebd8fcd1ad2">MR_std_shared_ptr_std_vector_std_string</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_shared_ptr_std_vector_std_string.h&gt;`.</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a69dc6868c10c92fb8b8a255b0130d289">   23</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_string.h&gt;`.</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#ac9be9ae97af22d55be76e6cf4df34f8a">   24</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRGcodeProcessor_8h.html#ac9be9ae97af22d55be76e6cf4df34f8a">MR_std_vector_MR_GcodeProcessor_MoveAction</a> <a class="code hl_typedef" href="MRGcodeProcessor_8h.html#ac9be9ae97af22d55be76e6cf4df34f8a">MR_std_vector_MR_GcodeProcessor_MoveAction</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_vector_MR_GcodeProcessor_MoveAction.h&gt;`.</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">   25</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRIntersectionContour_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a> <a class="code hl_typedef" href="MRIntersectionContour_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_vector_int32_t.h&gt;`.</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">   26</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> <a class="code hl_typedef" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_vector_std_string.h&gt;`.</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a>;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#ac0184d6b58f0bf4aff03e3ebf65ffc33">   43</a></span>MRC_API <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *<a class="code hl_function" href="MRObjectGcode_8h.html#ac0184d6b58f0bf4aff03e3ebf65ffc33">MR_ObjectGcode_DefaultConstruct</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a294378b4b56f335da1c2596aca40114d">   48</a></span>MRC_API <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *<a class="code hl_function" href="MRObjectGcode_8h.html#a294378b4b56f335da1c2596aca40114d">MR_ObjectGcode_DefaultConstructArray</a>(<span class="keywordtype">size_t</span> num_elems);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a547746959bbce1f8c17aea2616a2da15">   51</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *<a class="code hl_function" href="MRObjectGcode_8h.html#a547746959bbce1f8c17aea2616a2da15">MR_ObjectGcode_OffsetPtr</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a7c3729bd6dfe1c28a19dca816bbf6126">   54</a></span>MRC_API <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *<a class="code hl_function" href="MRObjectGcode_8h.html#a7c3729bd6dfe1c28a19dca816bbf6126">MR_ObjectGcode_OffsetMutablePtr</a>(<a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#aad101772f3b5714460ef9a769d24702d">   58</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *<a class="code hl_function" href="MRObjectGcode_8h.html#aad101772f3b5714460ef9a769d24702d">MR_ObjectGcode_UpcastTo_MR_Object</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a092b73447eb8fd13a5fd8d95252a7e35">   61</a></span>MRC_API <a class="code hl_typedef" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *<a class="code hl_function" href="MRObjectGcode_8h.html#a092b73447eb8fd13a5fd8d95252a7e35">MR_ObjectGcode_MutableUpcastTo_MR_Object</a>(<a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a4488ca079b7d1759ff82f3d3d71e837d">   65</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> *<a class="code hl_function" href="MRObjectGcode_8h.html#a4488ca079b7d1759ff82f3d3d71e837d">MR_ObjectGcode_UpcastTo_MR_ObjectChildrenHolder</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a9f1d07c092c62d681fa33cf3c22ddf53">   68</a></span>MRC_API <a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> *<a class="code hl_function" href="MRObjectGcode_8h.html#a9f1d07c092c62d681fa33cf3c22ddf53">MR_ObjectGcode_MutableUpcastTo_MR_ObjectChildrenHolder</a>(<a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a118f5d651ef1790e2d14ce152774eb94">   72</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#af46c30b811dbea0af7a43f2bfcf2741a">MR_ObjectLinesHolder</a> *<a class="code hl_function" href="MRObjectGcode_8h.html#a118f5d651ef1790e2d14ce152774eb94">MR_ObjectGcode_UpcastTo_MR_ObjectLinesHolder</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a6f542bd5fe38df25ddbfd06b50f6ce8f">   75</a></span>MRC_API <a class="code hl_typedef" href="MRObject_8h.html#af46c30b811dbea0af7a43f2bfcf2741a">MR_ObjectLinesHolder</a> *<a class="code hl_function" href="MRObjectGcode_8h.html#a6f542bd5fe38df25ddbfd06b50f6ce8f">MR_ObjectGcode_MutableUpcastTo_MR_ObjectLinesHolder</a>(<a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#aa580a39cc6c4f3a030d47669464bdb83">   79</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *<a class="code hl_function" href="MRObjectGcode_8h.html#aa580a39cc6c4f3a030d47669464bdb83">MR_ObjectGcode_UpcastTo_MR_VisualObject</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a60cfeb9933e17a114a0217240825063a">   82</a></span>MRC_API <a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *<a class="code hl_function" href="MRObjectGcode_8h.html#a60cfeb9933e17a114a0217240825063a">MR_ObjectGcode_MutableUpcastTo_MR_VisualObject</a>(<a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a6c1d768320003251910e4847510dc866">   86</a></span>MRC_API <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *<a class="code hl_function" href="MRObjectGcode_8h.html#a6c1d768320003251910e4847510dc866">MR_ObjectGcode_ConstructFromAnother</a>(<a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_other);</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#aa8028eabb62207533430f1d1898ad762">   89</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRObjectGcode_8h.html#aa8028eabb62207533430f1d1898ad762">MR_ObjectGcode_Destroy</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this);</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a745c0e83127d0451e5d2d80590510c40">   92</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRObjectGcode_8h.html#a745c0e83127d0451e5d2d80590510c40">MR_ObjectGcode_DestroyArray</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this);</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a9194442296b427e0f6e0ffe13502f0a9">   97</a></span>MRC_API <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *<a class="code hl_function" href="MRObjectGcode_8h.html#a9194442296b427e0f6e0ffe13502f0a9">MR_ObjectGcode_AssignFromAnother</a>(<a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this, <a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_other);</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a4fa9d1803432497d8046f97e3c9ce120">  100</a></span>MRC_API <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_function" href="MRObjectGcode_8h.html#a4fa9d1803432497d8046f97e3c9ce120">MR_ObjectGcode_TypeName</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a004c869d6e1b066031c090c157ca88c2">  104</a></span>MRC_API <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_function" href="MRObjectGcode_8h.html#a004c869d6e1b066031c090c157ca88c2">MR_ObjectGcode_typeName</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this);</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a7cc17ced56653081d67111d29e7a6f2a">  109</a></span>MRC_API <a class="code hl_typedef" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *<a class="code hl_function" href="MRObjectGcode_8h.html#a7cc17ced56653081d67111d29e7a6f2a">MR_ObjectGcode_clone</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this);</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a2720efa7d2dd6c09aaf4c265c6c1518d">  114</a></span>MRC_API <a class="code hl_typedef" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *<a class="code hl_function" href="MRObjectGcode_8h.html#a2720efa7d2dd6c09aaf4c265c6c1518d">MR_ObjectGcode_shallowClone</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this);</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a737750dd0cb3f10d7b3c16216481577c">  119</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRObjectGcode_8h.html#a737750dd0cb3f10d7b3c16216481577c">MR_ObjectGcode_setCNCMachineSettings</a>(<a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCNCMachineSettings_8h.html#a325911971cee7957b63b98e5d38aedc4">MR_CNCMachineSettings</a> *cncSettings);</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#aeedeca47f0079fd25583741431a9f15e">  124</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRCNCMachineSettings_8h.html#a325911971cee7957b63b98e5d38aedc4">MR_CNCMachineSettings</a> *<a class="code hl_function" href="MRObjectGcode_8h.html#aeedeca47f0079fd25583741431a9f15e">MR_ObjectGcode_getCNCMachineSettings</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this);</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a23ea0508cd49d2277f089d9bd4a99535">  129</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRObjectGcode_8h.html#a23ea0508cd49d2277f089d9bd4a99535">MR_ObjectGcode_setGcodeSource</a>(<a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this, <span class="keyword">const</span> <a class="code hl_typedef" href="MRObjectGcode_8h.html#affc1f7cb700cd873af5cfebd8fcd1ad2">MR_std_shared_ptr_std_vector_std_string</a> *gcodeSource);</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a3fde7373ddc829b91a44a008375aff2c">  134</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRObjectGcode_8h.html#affc1f7cb700cd873af5cfebd8fcd1ad2">MR_std_shared_ptr_std_vector_std_string</a> *<a class="code hl_function" href="MRObjectGcode_8h.html#a3fde7373ddc829b91a44a008375aff2c">MR_ObjectGcode_gcodeSource</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this);</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span> </div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span><span class="comment">// get action list (produced from g-code source)</span></div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#aaf716618128ea90bc4f1dff6e9976304">  140</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRGcodeProcessor_8h.html#ac9be9ae97af22d55be76e6cf4df34f8a">MR_std_vector_MR_GcodeProcessor_MoveAction</a> *<a class="code hl_function" href="MRObjectGcode_8h.html#aaf716618128ea90bc4f1dff6e9976304">MR_ObjectGcode_actionList</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this);</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span> </div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span><span class="comment">// get mapping of tool path polyline segment id to source line number of g-code source</span></div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a04b9af581a1212624606a92425875588">  146</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRIntersectionContour_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a> *<a class="code hl_function" href="MRObjectGcode_8h.html#a04b9af581a1212624606a92425875588">MR_ObjectGcode_segmentToSourceLineMap</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this);</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span> </div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a262acbcc54184f849cb9897ca39aede5">  151</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRObjectGcode_8h.html#a262acbcc54184f849cb9897ca39aede5">MR_ObjectGcode_setDirtyFlags</a>(<a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this, uint32_t mask, <span class="keyword">const</span> <span class="keywordtype">bool</span> *invalidateCaches);</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span> </div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#aeb8062120f73ffbe0522e48f68aee869">  156</a></span>MRC_API <a class="code hl_typedef" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *<a class="code hl_function" href="MRObjectGcode_8h.html#aeb8062120f73ffbe0522e48f68aee869">MR_ObjectGcode_getInfoLines</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this);</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span> </div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a29ae31ad66ed43c778ef30d868e7fdbc">  161</a></span>MRC_API <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="code hl_function" href="MRObjectGcode_8h.html#a29ae31ad66ed43c778ef30d868e7fdbc">MR_ObjectGcode_getClassName</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this);</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span> </div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a814be46f8215272ef3f5fc43c24029e8">  166</a></span>MRC_API <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="code hl_function" href="MRObjectGcode_8h.html#a814be46f8215272ef3f5fc43c24029e8">MR_ObjectGcode_getClassNameInPlural</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this);</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span> </div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span><span class="comment">// set drawing feedrate as gradient of brightness</span></div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#ab4c502a2b0a897256f9592cc0fb816de">  171</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRObjectGcode_8h.html#ab4c502a2b0a897256f9592cc0fb816de">MR_ObjectGcode_switchFeedrateGradient</a>(<a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this, <span class="keywordtype">bool</span> isFeedrateGradientEnabled);</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span> </div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a59cc53366c22f137c9633b99ad896cbe">  175</a></span>MRC_API <span class="keywordtype">bool</span> <a class="code hl_function" href="MRObjectGcode_8h.html#a59cc53366c22f137c9633b99ad896cbe">MR_ObjectGcode_isFeedrateGradient</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this);</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span> </div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a1c60cd462978bf782442526c7f1fac9a">  180</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRObjectGcode_8h.html#a1c60cd462978bf782442526c7f1fac9a">MR_ObjectGcode_setIdleColor</a>(<a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Color.html">MR_Color</a> *color);</div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span> </div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#ade7131490c2f173fec345ff28848b6a7">  185</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Color.html">MR_Color</a> *<a class="code hl_function" href="MRObjectGcode_8h.html#ade7131490c2f173fec345ff28848b6a7">MR_ObjectGcode_getIdleColor</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this);</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span> </div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a2e0f18c7211d0c4641cce01981eca51c">  189</a></span>MRC_API <span class="keywordtype">bool</span> <a class="code hl_function" href="MRObjectGcode_8h.html#a2e0f18c7211d0c4641cce01981eca51c">MR_ObjectGcode_select</a>(<a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this, <span class="keywordtype">bool</span> isSelected);</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span> </div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#ab5f823655608d5c7b40b83215919aceb">  195</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRObjectGcode_8h.html#ab5f823655608d5c7b40b83215919aceb">MR_ObjectGcode_setFrontColor</a>(<a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Color.html">MR_Color</a> *color, <span class="keywordtype">bool</span> selected, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__ViewportId.html">MR_ViewportId</a> *viewportId);</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span> </div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno"><a class="line" href="MRObjectGcode_8h.html#a5b465d7ddd8a04269874aa8e8dc9dffa">  200</a></span>MRC_API <a class="code hl_typedef" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> <a class="code hl_function" href="MRObjectGcode_8h.html#a5b465d7ddd8a04269874aa8e8dc9dffa">MR_ObjectGcode_heapBytes</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this);</div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span> </div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aMRAddVisualPropertiesMixin_8h_html_a36f3696eda81d7005927ebc5fdf17e14"><div class="ttname"><a href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a></div><div class="ttdeci">struct MR_VisualObject MR_VisualObject</div><div class="ttdef"><b>Definition</b> MRAddVisualPropertiesMixin.h:21</div></div>
+<div class="ttc" id="aMRAddVisualPropertiesMixin_8h_html_aecafdb5edbdb31eb13fbab762e3c39bc"><div class="ttname"><a href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a></div><div class="ttdeci">struct MR_ObjectChildrenHolder MR_ObjectChildrenHolder</div><div class="ttdef"><b>Definition</b> MRAddVisualPropertiesMixin.h:18</div></div>
+<div class="ttc" id="aMRAngleMeasurementObject_8h_html_a9e9b9c2b8a1a0540b204b1b7e6e792f4"><div class="ttname"><a href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a></div><div class="ttdeci">struct MR_std_shared_ptr_MR_Object MR_std_shared_ptr_MR_Object</div><div class="ttdef"><b>Definition</b> MRAngleMeasurementObject.h:18</div></div>
+<div class="ttc" id="aMRAngleMeasurementObject_8h_html_ab26d333cd7549e6f3f49cc80e3ba5900"><div class="ttname"><a href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a></div><div class="ttdeci">struct MR_std_vector_std_string MR_std_vector_std_string</div><div class="ttdef"><b>Definition</b> MRAngleMeasurementObject.h:20</div></div>
+<div class="ttc" id="aMRCNCMachineSettings_8h_html_a325911971cee7957b63b98e5d38aedc4"><div class="ttname"><a href="MRCNCMachineSettings_8h.html#a325911971cee7957b63b98e5d38aedc4">MR_CNCMachineSettings</a></div><div class="ttdeci">struct MR_CNCMachineSettings MR_CNCMachineSettings</div><div class="ttdef"><b>Definition</b> MRCNCMachineSettings.h:22</div></div>
+<div class="ttc" id="aMRE57_8h_html_a69dc6868c10c92fb8b8a255b0130d289"><div class="ttname"><a href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></div><div class="ttdeci">struct MR_std_string MR_std_string</div><div class="ttdef"><b>Definition</b> MRE57.h:22</div></div>
+<div class="ttc" id="aMRGcodeProcessor_8h_html_ac9be9ae97af22d55be76e6cf4df34f8a"><div class="ttname"><a href="MRGcodeProcessor_8h.html#ac9be9ae97af22d55be76e6cf4df34f8a">MR_std_vector_MR_GcodeProcessor_MoveAction</a></div><div class="ttdeci">struct MR_std_vector_MR_GcodeProcessor_MoveAction MR_std_vector_MR_GcodeProcessor_MoveAction</div><div class="ttdef"><b>Definition</b> MRGcodeProcessor.h:16</div></div>
+<div class="ttc" id="aMRGltf_8h_html_accce9c9179cadabc541edda0fc7a2571"><div class="ttname"><a href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a></div><div class="ttdeci">struct MR_Object MR_Object</div><div class="ttdef"><b>Definition</b> MRGltf.h:10</div></div>
+<div class="ttc" id="aMRIntersectionContour_8h_html_af3f10f6b559b293d87a6320a3b17ccc6"><div class="ttname"><a href="MRIntersectionContour_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a></div><div class="ttdeci">struct MR_std_vector_int32_t MR_std_vector_int32_t</div><div class="ttdef"><b>Definition</b> MRIntersectionContour.h:15</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_a004c869d6e1b066031c090c157ca88c2"><div class="ttname"><a href="MRObjectGcode_8h.html#a004c869d6e1b066031c090c157ca88c2">MR_ObjectGcode_typeName</a></div><div class="ttdeci">MRC_API const char * MR_ObjectGcode_typeName(const MR_ObjectGcode *_this)</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_a04b9af581a1212624606a92425875588"><div class="ttname"><a href="MRObjectGcode_8h.html#a04b9af581a1212624606a92425875588">MR_ObjectGcode_segmentToSourceLineMap</a></div><div class="ttdeci">MRC_API const MR_std_vector_int32_t * MR_ObjectGcode_segmentToSourceLineMap(const MR_ObjectGcode *_this)</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_a092b73447eb8fd13a5fd8d95252a7e35"><div class="ttname"><a href="MRObjectGcode_8h.html#a092b73447eb8fd13a5fd8d95252a7e35">MR_ObjectGcode_MutableUpcastTo_MR_Object</a></div><div class="ttdeci">MRC_API MR_Object * MR_ObjectGcode_MutableUpcastTo_MR_Object(MR_ObjectGcode *object)</div><div class="ttdoc">Upcasts an instance of MR::ObjectGcode to its base class MR::Object.</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_a118f5d651ef1790e2d14ce152774eb94"><div class="ttname"><a href="MRObjectGcode_8h.html#a118f5d651ef1790e2d14ce152774eb94">MR_ObjectGcode_UpcastTo_MR_ObjectLinesHolder</a></div><div class="ttdeci">MRC_API const MR_ObjectLinesHolder * MR_ObjectGcode_UpcastTo_MR_ObjectLinesHolder(const MR_ObjectGcode *object)</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_a1c60cd462978bf782442526c7f1fac9a"><div class="ttname"><a href="MRObjectGcode_8h.html#a1c60cd462978bf782442526c7f1fac9a">MR_ObjectGcode_setIdleColor</a></div><div class="ttdeci">MRC_API void MR_ObjectGcode_setIdleColor(MR_ObjectGcode *_this, const MR_Color *color)</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_a23ea0508cd49d2277f089d9bd4a99535"><div class="ttname"><a href="MRObjectGcode_8h.html#a23ea0508cd49d2277f089d9bd4a99535">MR_ObjectGcode_setGcodeSource</a></div><div class="ttdeci">MRC_API void MR_ObjectGcode_setGcodeSource(MR_ObjectGcode *_this, const MR_std_shared_ptr_std_vector_std_string *gcodeSource)</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_a262acbcc54184f849cb9897ca39aede5"><div class="ttname"><a href="MRObjectGcode_8h.html#a262acbcc54184f849cb9897ca39aede5">MR_ObjectGcode_setDirtyFlags</a></div><div class="ttdeci">MRC_API void MR_ObjectGcode_setDirtyFlags(MR_ObjectGcode *_this, uint32_t mask, const bool *invalidateCaches)</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_a2720efa7d2dd6c09aaf4c265c6c1518d"><div class="ttname"><a href="MRObjectGcode_8h.html#a2720efa7d2dd6c09aaf4c265c6c1518d">MR_ObjectGcode_shallowClone</a></div><div class="ttdeci">MRC_API MR_std_shared_ptr_MR_Object * MR_ObjectGcode_shallowClone(const MR_ObjectGcode *_this)</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_a294378b4b56f335da1c2596aca40114d"><div class="ttname"><a href="MRObjectGcode_8h.html#a294378b4b56f335da1c2596aca40114d">MR_ObjectGcode_DefaultConstructArray</a></div><div class="ttdeci">MRC_API MR_ObjectGcode * MR_ObjectGcode_DefaultConstructArray(size_t num_elems)</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_a29ae31ad66ed43c778ef30d868e7fdbc"><div class="ttname"><a href="MRObjectGcode_8h.html#a29ae31ad66ed43c778ef30d868e7fdbc">MR_ObjectGcode_getClassName</a></div><div class="ttdeci">MRC_API MR_std_string * MR_ObjectGcode_getClassName(const MR_ObjectGcode *_this)</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_a2e0f18c7211d0c4641cce01981eca51c"><div class="ttname"><a href="MRObjectGcode_8h.html#a2e0f18c7211d0c4641cce01981eca51c">MR_ObjectGcode_select</a></div><div class="ttdeci">MRC_API bool MR_ObjectGcode_select(MR_ObjectGcode *_this, bool isSelected)</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_a3fde7373ddc829b91a44a008375aff2c"><div class="ttname"><a href="MRObjectGcode_8h.html#a3fde7373ddc829b91a44a008375aff2c">MR_ObjectGcode_gcodeSource</a></div><div class="ttdeci">MRC_API const MR_std_shared_ptr_std_vector_std_string * MR_ObjectGcode_gcodeSource(const MR_ObjectGcode *_this)</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_a4488ca079b7d1759ff82f3d3d71e837d"><div class="ttname"><a href="MRObjectGcode_8h.html#a4488ca079b7d1759ff82f3d3d71e837d">MR_ObjectGcode_UpcastTo_MR_ObjectChildrenHolder</a></div><div class="ttdeci">MRC_API const MR_ObjectChildrenHolder * MR_ObjectGcode_UpcastTo_MR_ObjectChildrenHolder(const MR_ObjectGcode *object)</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_a4fa9d1803432497d8046f97e3c9ce120"><div class="ttname"><a href="MRObjectGcode_8h.html#a4fa9d1803432497d8046f97e3c9ce120">MR_ObjectGcode_TypeName</a></div><div class="ttdeci">MRC_API const char * MR_ObjectGcode_TypeName(void)</div><div class="ttdoc">Generated from a method of class MR::ObjectGcode named TypeName.</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_a547746959bbce1f8c17aea2616a2da15"><div class="ttname"><a href="MRObjectGcode_8h.html#a547746959bbce1f8c17aea2616a2da15">MR_ObjectGcode_OffsetPtr</a></div><div class="ttdeci">MRC_API const MR_ObjectGcode * MR_ObjectGcode_OffsetPtr(const MR_ObjectGcode *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_a59cc53366c22f137c9633b99ad896cbe"><div class="ttname"><a href="MRObjectGcode_8h.html#a59cc53366c22f137c9633b99ad896cbe">MR_ObjectGcode_isFeedrateGradient</a></div><div class="ttdeci">MRC_API bool MR_ObjectGcode_isFeedrateGradient(const MR_ObjectGcode *_this)</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_a5b465d7ddd8a04269874aa8e8dc9dffa"><div class="ttname"><a href="MRObjectGcode_8h.html#a5b465d7ddd8a04269874aa8e8dc9dffa">MR_ObjectGcode_heapBytes</a></div><div class="ttdeci">MRC_API MR_uint64_t MR_ObjectGcode_heapBytes(const MR_ObjectGcode *_this)</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_a60cfeb9933e17a114a0217240825063a"><div class="ttname"><a href="MRObjectGcode_8h.html#a60cfeb9933e17a114a0217240825063a">MR_ObjectGcode_MutableUpcastTo_MR_VisualObject</a></div><div class="ttdeci">MRC_API MR_VisualObject * MR_ObjectGcode_MutableUpcastTo_MR_VisualObject(MR_ObjectGcode *object)</div><div class="ttdoc">Upcasts an instance of MR::ObjectGcode to its base class MR::VisualObject.</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_a6c1d768320003251910e4847510dc866"><div class="ttname"><a href="MRObjectGcode_8h.html#a6c1d768320003251910e4847510dc866">MR_ObjectGcode_ConstructFromAnother</a></div><div class="ttdeci">MRC_API MR_ObjectGcode * MR_ObjectGcode_ConstructFromAnother(MR_PassBy _other_pass_by, MR_ObjectGcode *_other)</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_a6f542bd5fe38df25ddbfd06b50f6ce8f"><div class="ttname"><a href="MRObjectGcode_8h.html#a6f542bd5fe38df25ddbfd06b50f6ce8f">MR_ObjectGcode_MutableUpcastTo_MR_ObjectLinesHolder</a></div><div class="ttdeci">MRC_API MR_ObjectLinesHolder * MR_ObjectGcode_MutableUpcastTo_MR_ObjectLinesHolder(MR_ObjectGcode *object)</div><div class="ttdoc">Upcasts an instance of MR::ObjectGcode to its base class MR::ObjectLinesHolder.</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_a737750dd0cb3f10d7b3c16216481577c"><div class="ttname"><a href="MRObjectGcode_8h.html#a737750dd0cb3f10d7b3c16216481577c">MR_ObjectGcode_setCNCMachineSettings</a></div><div class="ttdeci">MRC_API void MR_ObjectGcode_setCNCMachineSettings(MR_ObjectGcode *_this, const MR_CNCMachineSettings *cncSettings)</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_a745c0e83127d0451e5d2d80590510c40"><div class="ttname"><a href="MRObjectGcode_8h.html#a745c0e83127d0451e5d2d80590510c40">MR_ObjectGcode_DestroyArray</a></div><div class="ttdeci">MRC_API void MR_ObjectGcode_DestroyArray(const MR_ObjectGcode *_this)</div><div class="ttdoc">Destroys a heap-allocated array of MR_ObjectGcode. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_a7c3729bd6dfe1c28a19dca816bbf6126"><div class="ttname"><a href="MRObjectGcode_8h.html#a7c3729bd6dfe1c28a19dca816bbf6126">MR_ObjectGcode_OffsetMutablePtr</a></div><div class="ttdeci">MRC_API MR_ObjectGcode * MR_ObjectGcode_OffsetMutablePtr(MR_ObjectGcode *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_a7cc17ced56653081d67111d29e7a6f2a"><div class="ttname"><a href="MRObjectGcode_8h.html#a7cc17ced56653081d67111d29e7a6f2a">MR_ObjectGcode_clone</a></div><div class="ttdeci">MRC_API MR_std_shared_ptr_MR_Object * MR_ObjectGcode_clone(const MR_ObjectGcode *_this)</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_a814be46f8215272ef3f5fc43c24029e8"><div class="ttname"><a href="MRObjectGcode_8h.html#a814be46f8215272ef3f5fc43c24029e8">MR_ObjectGcode_getClassNameInPlural</a></div><div class="ttdeci">MRC_API MR_std_string * MR_ObjectGcode_getClassNameInPlural(const MR_ObjectGcode *_this)</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_a9194442296b427e0f6e0ffe13502f0a9"><div class="ttname"><a href="MRObjectGcode_8h.html#a9194442296b427e0f6e0ffe13502f0a9">MR_ObjectGcode_AssignFromAnother</a></div><div class="ttdeci">MRC_API MR_ObjectGcode * MR_ObjectGcode_AssignFromAnother(MR_ObjectGcode *_this, MR_PassBy _other_pass_by, MR_ObjectGcode *_other)</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_a9f1d07c092c62d681fa33cf3c22ddf53"><div class="ttname"><a href="MRObjectGcode_8h.html#a9f1d07c092c62d681fa33cf3c22ddf53">MR_ObjectGcode_MutableUpcastTo_MR_ObjectChildrenHolder</a></div><div class="ttdeci">MRC_API MR_ObjectChildrenHolder * MR_ObjectGcode_MutableUpcastTo_MR_ObjectChildrenHolder(MR_ObjectGcode *object)</div><div class="ttdoc">Upcasts an instance of MR::ObjectGcode to its base class MR::ObjectChildrenHolder.</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_aa580a39cc6c4f3a030d47669464bdb83"><div class="ttname"><a href="MRObjectGcode_8h.html#aa580a39cc6c4f3a030d47669464bdb83">MR_ObjectGcode_UpcastTo_MR_VisualObject</a></div><div class="ttdeci">MRC_API const MR_VisualObject * MR_ObjectGcode_UpcastTo_MR_VisualObject(const MR_ObjectGcode *object)</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_aa8028eabb62207533430f1d1898ad762"><div class="ttname"><a href="MRObjectGcode_8h.html#aa8028eabb62207533430f1d1898ad762">MR_ObjectGcode_Destroy</a></div><div class="ttdeci">MRC_API void MR_ObjectGcode_Destroy(const MR_ObjectGcode *_this)</div><div class="ttdoc">Destroys a heap-allocated instance of MR_ObjectGcode. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_aad101772f3b5714460ef9a769d24702d"><div class="ttname"><a href="MRObjectGcode_8h.html#aad101772f3b5714460ef9a769d24702d">MR_ObjectGcode_UpcastTo_MR_Object</a></div><div class="ttdeci">MRC_API const MR_Object * MR_ObjectGcode_UpcastTo_MR_Object(const MR_ObjectGcode *object)</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_aaf716618128ea90bc4f1dff6e9976304"><div class="ttname"><a href="MRObjectGcode_8h.html#aaf716618128ea90bc4f1dff6e9976304">MR_ObjectGcode_actionList</a></div><div class="ttdeci">MRC_API const MR_std_vector_MR_GcodeProcessor_MoveAction * MR_ObjectGcode_actionList(const MR_ObjectGcode *_this)</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_ab4c502a2b0a897256f9592cc0fb816de"><div class="ttname"><a href="MRObjectGcode_8h.html#ab4c502a2b0a897256f9592cc0fb816de">MR_ObjectGcode_switchFeedrateGradient</a></div><div class="ttdeci">MRC_API void MR_ObjectGcode_switchFeedrateGradient(MR_ObjectGcode *_this, bool isFeedrateGradientEnabled)</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_ab5f823655608d5c7b40b83215919aceb"><div class="ttname"><a href="MRObjectGcode_8h.html#ab5f823655608d5c7b40b83215919aceb">MR_ObjectGcode_setFrontColor</a></div><div class="ttdeci">MRC_API void MR_ObjectGcode_setFrontColor(MR_ObjectGcode *_this, const MR_Color *color, bool selected, const MR_ViewportId *viewportId)</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_ac0184d6b58f0bf4aff03e3ebf65ffc33"><div class="ttname"><a href="MRObjectGcode_8h.html#ac0184d6b58f0bf4aff03e3ebf65ffc33">MR_ObjectGcode_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_ObjectGcode * MR_ObjectGcode_DefaultConstruct(void)</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_ade7131490c2f173fec345ff28848b6a7"><div class="ttname"><a href="MRObjectGcode_8h.html#ade7131490c2f173fec345ff28848b6a7">MR_ObjectGcode_getIdleColor</a></div><div class="ttdeci">MRC_API const MR_Color * MR_ObjectGcode_getIdleColor(const MR_ObjectGcode *_this)</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_aeb8062120f73ffbe0522e48f68aee869"><div class="ttname"><a href="MRObjectGcode_8h.html#aeb8062120f73ffbe0522e48f68aee869">MR_ObjectGcode_getInfoLines</a></div><div class="ttdeci">MRC_API MR_std_vector_std_string * MR_ObjectGcode_getInfoLines(const MR_ObjectGcode *_this)</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_aeedeca47f0079fd25583741431a9f15e"><div class="ttname"><a href="MRObjectGcode_8h.html#aeedeca47f0079fd25583741431a9f15e">MR_ObjectGcode_getCNCMachineSettings</a></div><div class="ttdeci">MRC_API const MR_CNCMachineSettings * MR_ObjectGcode_getCNCMachineSettings(const MR_ObjectGcode *_this)</div></div>
+<div class="ttc" id="aMRObjectGcode_8h_html_affc1f7cb700cd873af5cfebd8fcd1ad2"><div class="ttname"><a href="MRObjectGcode_8h.html#affc1f7cb700cd873af5cfebd8fcd1ad2">MR_std_shared_ptr_std_vector_std_string</a></div><div class="ttdeci">struct MR_std_shared_ptr_std_vector_std_string MR_std_shared_ptr_std_vector_std_string</div><div class="ttdef"><b>Definition</b> MRObjectGcode.h:22</div></div>
+<div class="ttc" id="aMRObject_8h_html_af23a4f0a386adc3ab051268483b937da"><div class="ttname"><a href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a></div><div class="ttdeci">struct MR_ObjectGcode MR_ObjectGcode</div><div class="ttdef"><b>Definition</b> MRObject.h:28</div></div>
+<div class="ttc" id="aMRObject_8h_html_af46c30b811dbea0af7a43f2bfcf2741a"><div class="ttname"><a href="MRObject_8h.html#af46c30b811dbea0af7a43f2bfcf2741a">MR_ObjectLinesHolder</a></div><div class="ttdeci">struct MR_ObjectLinesHolder MR_ObjectLinesHolder</div><div class="ttdef"><b>Definition</b> MRObject.h:31</div></div>
+<div class="ttc" id="aMRViewportId_8h_html"><div class="ttname"><a href="MRViewportId_8h.html">MRViewportId.h</a></div></div>
+<div class="ttc" id="acommon_8h_html"><div class="ttname"><a href="common_8h.html">common.h</a></div></div>
+<div class="ttc" id="acommon_8h_html_ac983b89bddb9b22c9b416f31399f0095"><div class="ttname"><a href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></div><div class="ttdeci">MR_PassBy</div><div class="ttdef"><b>Definition</b> common.h:19</div></div>
+<div class="ttc" id="acommon_8h_html_aefc0b2fe2e376b1b34a189af81dc8a49"><div class="ttname"><a href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></div><div class="ttdeci">uint64_t MR_uint64_t</div><div class="ttdef"><b>Definition</b> common.h:14</div></div>
+<div class="ttc" id="astructMR__Color_html"><div class="ttname"><a href="structMR__Color.html">MR_Color</a></div><div class="ttdoc">Generated from class MR::Color.</div><div class="ttdef"><b>Definition</b> MRColor.h:19</div></div>
+<div class="ttc" id="astructMR__ViewportId_html"><div class="ttname"><a href="structMR__ViewportId.html">MR_ViewportId</a></div><div class="ttdef"><b>Definition</b> MRViewportId.h:18</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_8b489c7b5d1a72d35ec87e32cc37b940.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRObjectGcode_8h.html">MRObjectGcode.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

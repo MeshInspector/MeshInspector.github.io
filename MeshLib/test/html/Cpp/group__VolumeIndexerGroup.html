@@ -1,0 +1,491 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C++ Docs: Volume Indexer</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C++ Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('group__VolumeIndexerGroup.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">Volume Indexer<div class="ingroups"><a class="el" href="group__VoxelGroup.html">Voxel</a></div></div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VoxelLocation.html">MR::VoxelLocation</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">contains both linear <a class="el" href="classMR_1_1Id.html">Id</a> and 3D coordinates of the same voxel  <a href="structMR_1_1VoxelLocation.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VolumeIndexer.html">MR::VolumeIndexer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:gaf140ffd520200f015e9fab26ea4218ae" id="r_gaf140ffd520200f015e9fab26ea4218ae"><td class="memItemLeft" align="right" valign="top">typedef int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gaf140ffd520200f015e9fab26ea4218ae">MR_OutEdge</a></td></tr>
+<tr class="separator:gaf140ffd520200f015e9fab26ea4218ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga74e1493d8fd738638c30f10863c7324d" id="r_ga74e1493d8fd738638c30f10863c7324d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a></td></tr>
+<tr class="separator:ga74e1493d8fd738638c30f10863c7324d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga21a0b4c112c2e10f8d0497cde9a81c01" id="r_ga21a0b4c112c2e10f8d0497cde9a81c01"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a></td></tr>
+<tr class="separator:ga21a0b4c112c2e10f8d0497cde9a81c01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:gaa7203f0917dc651aa1261d90d266752e" id="r_gaa7203f0917dc651aa1261d90d266752e"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa7203f0917dc651aa1261d90d266752e">MR::OutEdge</a> : signed char { <br />
+&#160;&#160;<a class="el" href="#ggaa7203f0917dc651aa1261d90d266752ea4bbb8f967da6d1a610596d7257179c2b">MR::OutEdge::Invalid</a> = -1
+, <a class="el" href="#ggaa7203f0917dc651aa1261d90d266752ea59bb9bd5dd05e7aa8aca793a81266bb9">MR::OutEdge::PlusZ</a> = 0
+, <a class="el" href="#ggaa7203f0917dc651aa1261d90d266752ea65661216a3acfdac8c58d97d97fa10cb">MR::OutEdge::MinusZ</a>
+, <a class="el" href="#ggaa7203f0917dc651aa1261d90d266752ea89241a914ba5d59de9168c4416e69c4a">MR::OutEdge::PlusY</a>
+, <br />
+&#160;&#160;<a class="el" href="#ggaa7203f0917dc651aa1261d90d266752ea9cc816b8a2117db796c073f012e78565">MR::OutEdge::MinusY</a>
+, <a class="el" href="#ggaa7203f0917dc651aa1261d90d266752eaac53fa7ccf60e6f59512da11975eb8a7">MR::OutEdge::PlusX</a>
+, <a class="el" href="#ggaa7203f0917dc651aa1261d90d266752ea6ee0807f5bf1b3e0a4d52919eb298454">MR::OutEdge::MinusX</a>
+, <a class="el" href="#ggaa7203f0917dc651aa1261d90d266752eae93f994f01c537c4e2f7d8528c3eb5e9">MR::OutEdge::Count</a>
+<br />
+ }</td></tr>
+<tr class="separator:gaa7203f0917dc651aa1261d90d266752e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ga8bcc72249d67d34355f3eaba7b6ef85b" id="r_ga8bcc72249d67d34355f3eaba7b6ef85b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__VolumeIndexerGroup.html#gaf140ffd520200f015e9fab26ea4218ae">MR_OutEdge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga8bcc72249d67d34355f3eaba7b6ef85b">MR_opposite_MR_OutEdge</a> (<a class="elRef" href="../C/group__VolumeIndexerGroup.html#gaf140ffd520200f015e9fab26ea4218ae">MR_OutEdge</a> e)</td></tr>
+<tr class="separator:ga8bcc72249d67d34355f3eaba7b6ef85b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga60805e31d736dc897976bba3c49bd103" id="r_ga60805e31d736dc897976bba3c49bd103"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/structMR__VoxelId.html">MR_VoxelId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga60805e31d736dc897976bba3c49bd103">MR_VoxelLocation_Get_id</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *_this)</td></tr>
+<tr class="separator:ga60805e31d736dc897976bba3c49bd103"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf0f049da358e06c0d3a86e6502577726" id="r_gaf0f049da358e06c0d3a86e6502577726"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gaf0f049da358e06c0d3a86e6502577726">MR_VoxelLocation_Set_id</a> (<a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *_this, <a class="elRef" href="../C/structMR__VoxelId.html">MR_VoxelId</a> value)</td></tr>
+<tr class="separator:gaf0f049da358e06c0d3a86e6502577726"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab53f065208a8d4bd54883c6951de91a4" id="r_gab53f065208a8d4bd54883c6951de91a4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__VoxelId.html">MR_VoxelId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gab53f065208a8d4bd54883c6951de91a4">MR_VoxelLocation_GetMutable_id</a> (<a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *_this)</td></tr>
+<tr class="separator:gab53f065208a8d4bd54883c6951de91a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3d721bb4ff85c23eec85e6ccc2236dcc" id="r_ga3d721bb4ff85c23eec85e6ccc2236dcc"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/structMR__Vector3i.html">MR_Vector3i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga3d721bb4ff85c23eec85e6ccc2236dcc">MR_VoxelLocation_Get_pos</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *_this)</td></tr>
+<tr class="separator:ga3d721bb4ff85c23eec85e6ccc2236dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga41ed458cf40cfaffe0fee7792939551c" id="r_ga41ed458cf40cfaffe0fee7792939551c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga41ed458cf40cfaffe0fee7792939551c">MR_VoxelLocation_Set_pos</a> (<a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *_this, <a class="elRef" href="../C/structMR__Vector3i.html">MR_Vector3i</a> value)</td></tr>
+<tr class="separator:ga41ed458cf40cfaffe0fee7792939551c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadf4fbefa2f968935a3a70f1c9c07c0b3" id="r_gadf4fbefa2f968935a3a70f1c9c07c0b3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__Vector3i.html">MR_Vector3i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gadf4fbefa2f968935a3a70f1c9c07c0b3">MR_VoxelLocation_GetMutable_pos</a> (<a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *_this)</td></tr>
+<tr class="separator:gadf4fbefa2f968935a3a70f1c9c07c0b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga12f305a2e110f8289364ca8d329d8f21" id="r_ga12f305a2e110f8289364ca8d329d8f21"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga12f305a2e110f8289364ca8d329d8f21">MR_VoxelLocation_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ga12f305a2e110f8289364ca8d329d8f21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga562d2c0eb34de4b1b9d120ba70feefc3" id="r_ga562d2c0eb34de4b1b9d120ba70feefc3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga562d2c0eb34de4b1b9d120ba70feefc3">MR_VoxelLocation_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ga562d2c0eb34de4b1b9d120ba70feefc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3533112a9983ebde36a25c8f25c94c11" id="r_ga3533112a9983ebde36a25c8f25c94c11"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga3533112a9983ebde36a25c8f25c94c11">MR_VoxelLocation_ConstructFrom</a> (<a class="elRef" href="../C/structMR__VoxelId.html">MR_VoxelId</a> id, <a class="elRef" href="../C/structMR__Vector3i.html">MR_Vector3i</a> pos)</td></tr>
+<tr class="separator:ga3533112a9983ebde36a25c8f25c94c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga61f71e4ead824ef10ae49723a2fa3e72" id="r_ga61f71e4ead824ef10ae49723a2fa3e72"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga61f71e4ead824ef10ae49723a2fa3e72">MR_VoxelLocation_OffsetPtr</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="separator:ga61f71e4ead824ef10ae49723a2fa3e72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga84a97bf658b721d7453a3aabb20052ab" id="r_ga84a97bf658b721d7453a3aabb20052ab"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga84a97bf658b721d7453a3aabb20052ab">MR_VoxelLocation_OffsetMutablePtr</a> (<a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="separator:ga84a97bf658b721d7453a3aabb20052ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga112978f7cd6cb22ed4867ed123255583" id="r_ga112978f7cd6cb22ed4867ed123255583"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga112978f7cd6cb22ed4867ed123255583">MR_VoxelLocation_ConstructFromAnother</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *_other)</td></tr>
+<tr class="separator:ga112978f7cd6cb22ed4867ed123255583"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga796effdf4d783daa24d280bf55a4d320" id="r_ga796effdf4d783daa24d280bf55a4d320"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga796effdf4d783daa24d280bf55a4d320">MR_VoxelLocation_Destroy</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *_this)</td></tr>
+<tr class="separator:ga796effdf4d783daa24d280bf55a4d320"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4aa7d34ac9a14f4dfb82d35c0702e639" id="r_ga4aa7d34ac9a14f4dfb82d35c0702e639"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga4aa7d34ac9a14f4dfb82d35c0702e639">MR_VoxelLocation_DestroyArray</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *_this)</td></tr>
+<tr class="separator:ga4aa7d34ac9a14f4dfb82d35c0702e639"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga779547a90c3e320ec8d4aa59abac67f4" id="r_ga779547a90c3e320ec8d4aa59abac67f4"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga779547a90c3e320ec8d4aa59abac67f4">MR_VoxelLocation_ConvertTo_bool</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *_this)</td></tr>
+<tr class="separator:ga779547a90c3e320ec8d4aa59abac67f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae08e1da88d2b0c36cd3eb80704479d89" id="r_gae08e1da88d2b0c36cd3eb80704479d89"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gae08e1da88d2b0c36cd3eb80704479d89">MR_VoxelLocation_AssignFromAnother</a> (<a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *_this, const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *_other)</td></tr>
+<tr class="separator:gae08e1da88d2b0c36cd3eb80704479d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad1aa7bf1df493f7cab7a514b1a417849" id="r_gad1aa7bf1df493f7cab7a514b1a417849"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gad1aa7bf1df493f7cab7a514b1a417849">MR_VolumeIndexer_ConstructFromAnother</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_other)</td></tr>
+<tr class="separator:gad1aa7bf1df493f7cab7a514b1a417849"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga423b9833caff8ee4659939b2fcd70108" id="r_ga423b9833caff8ee4659939b2fcd70108"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga423b9833caff8ee4659939b2fcd70108">MR_VolumeIndexer_OffsetPtr</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="separator:ga423b9833caff8ee4659939b2fcd70108"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafb7a481795a02a560d02f4259bebfc29" id="r_gafb7a481795a02a560d02f4259bebfc29"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gafb7a481795a02a560d02f4259bebfc29">MR_VolumeIndexer_OffsetMutablePtr</a> (<a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="separator:gafb7a481795a02a560d02f4259bebfc29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga36504aadab1538a12b6a757c8760d938" id="r_ga36504aadab1538a12b6a757c8760d938"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga36504aadab1538a12b6a757c8760d938">MR_VolumeIndexer_Construct</a> (const <a class="elRef" href="../C/structMR__Vector3i.html">MR_Vector3i</a> *dims)</td></tr>
+<tr class="separator:ga36504aadab1538a12b6a757c8760d938"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9dd7ac69d84eb7828f4182f32e078b93" id="r_ga9dd7ac69d84eb7828f4182f32e078b93"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga9dd7ac69d84eb7828f4182f32e078b93">MR_VolumeIndexer_Destroy</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this)</td></tr>
+<tr class="separator:ga9dd7ac69d84eb7828f4182f32e078b93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabddaa9e027419923179ff893f8af4f0e" id="r_gabddaa9e027419923179ff893f8af4f0e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gabddaa9e027419923179ff893f8af4f0e">MR_VolumeIndexer_DestroyArray</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this)</td></tr>
+<tr class="separator:gabddaa9e027419923179ff893f8af4f0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4f0061090e8ae25d591844f396cb5307" id="r_ga4f0061090e8ae25d591844f396cb5307"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga4f0061090e8ae25d591844f396cb5307">MR_VolumeIndexer_AssignFromAnother</a> (<a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_other)</td></tr>
+<tr class="separator:ga4f0061090e8ae25d591844f396cb5307"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga652cc7262444bf5c6bce422b545fafe0" id="r_ga652cc7262444bf5c6bce422b545fafe0"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="elRef" href="../C/structMR__Vector3i.html">MR_Vector3i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga652cc7262444bf5c6bce422b545fafe0">MR_VolumeIndexer_dims</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this)</td></tr>
+<tr class="separator:ga652cc7262444bf5c6bce422b545fafe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae10a3a43d3b8866ed8591f7328ad099a" id="r_gae10a3a43d3b8866ed8591f7328ad099a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gae10a3a43d3b8866ed8591f7328ad099a">MR_VolumeIndexer_size</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this)</td></tr>
+<tr class="separator:gae10a3a43d3b8866ed8591f7328ad099a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga213837acf223b99da09941588f339f97" id="r_ga213837acf223b99da09941588f339f97"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__VoxelId.html">MR_VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga213837acf223b99da09941588f339f97">MR_VolumeIndexer_endId</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this)</td></tr>
+<tr class="separator:ga213837acf223b99da09941588f339f97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga691d34f628c7685d2c82834f42f36a21" id="r_ga691d34f628c7685d2c82834f42f36a21"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga691d34f628c7685d2c82834f42f36a21">MR_VolumeIndexer_sizeXY</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this)</td></tr>
+<tr class="separator:ga691d34f628c7685d2c82834f42f36a21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafb42b3fafcb81d938503135bae737f1d" id="r_gafb42b3fafcb81d938503135bae737f1d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__Vector3i.html">MR_Vector3i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gafb42b3fafcb81d938503135bae737f1d">MR_VolumeIndexer_toPos</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, <a class="elRef" href="../C/structMR__VoxelId.html">MR_VoxelId</a> id)</td></tr>
+<tr class="separator:gafb42b3fafcb81d938503135bae737f1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad058379d7eb70aead74319e83b233c74" id="r_gad058379d7eb70aead74319e83b233c74"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__VoxelId.html">MR_VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gad058379d7eb70aead74319e83b233c74">MR_VolumeIndexer_toVoxelId</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, const <a class="elRef" href="../C/structMR__Vector3i.html">MR_Vector3i</a> *pos)</td></tr>
+<tr class="separator:gad058379d7eb70aead74319e83b233c74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabdec46ce52c50514713a54984c06c63f" id="r_gabdec46ce52c50514713a54984c06c63f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gabdec46ce52c50514713a54984c06c63f">MR_VolumeIndexer_toLoc_MR_VoxelId</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, <a class="elRef" href="../C/structMR__VoxelId.html">MR_VoxelId</a> id)</td></tr>
+<tr class="separator:gabdec46ce52c50514713a54984c06c63f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad5d6248a90190c38b8654c6239e519e3" id="r_gad5d6248a90190c38b8654c6239e519e3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gad5d6248a90190c38b8654c6239e519e3">MR_VolumeIndexer_toLoc_MR_Vector3i</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, const <a class="elRef" href="../C/structMR__Vector3i.html">MR_Vector3i</a> *pos)</td></tr>
+<tr class="separator:gad5d6248a90190c38b8654c6239e519e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa81040e2b3b14dbf107974f03481fb7c" id="r_gaa81040e2b3b14dbf107974f03481fb7c"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gaa81040e2b3b14dbf107974f03481fb7c">MR_VolumeIndexer_isInDims</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, const <a class="elRef" href="../C/structMR__Vector3i.html">MR_Vector3i</a> *pos)</td></tr>
+<tr class="separator:gaa81040e2b3b14dbf107974f03481fb7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1d8baf94579d41cb500e32a7ee8c358c" id="r_ga1d8baf94579d41cb500e32a7ee8c358c"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga1d8baf94579d41cb500e32a7ee8c358c">MR_VolumeIndexer_isBdVoxel</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, const <a class="elRef" href="../C/structMR__Vector3i.html">MR_Vector3i</a> *pos)</td></tr>
+<tr class="separator:ga1d8baf94579d41cb500e32a7ee8c358c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga159c3f06d33eb20dc0a2006fe2b51cb4" id="r_ga159c3f06d33eb20dc0a2006fe2b51cb4"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga159c3f06d33eb20dc0a2006fe2b51cb4">MR_VolumeIndexer_areNeigbors_MR_VoxelId</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, <a class="elRef" href="../C/structMR__VoxelId.html">MR_VoxelId</a> v0, <a class="elRef" href="../C/structMR__VoxelId.html">MR_VoxelId</a> v1)</td></tr>
+<tr class="separator:ga159c3f06d33eb20dc0a2006fe2b51cb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga95c8b0f39016f61c770ea58ebeab2fc6" id="r_ga95c8b0f39016f61c770ea58ebeab2fc6"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga95c8b0f39016f61c770ea58ebeab2fc6">MR_VolumeIndexer_areNeigbors_MR_Vector3i</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, const <a class="elRef" href="../C/structMR__Vector3i.html">MR_Vector3i</a> *pos0, const <a class="elRef" href="../C/structMR__Vector3i.html">MR_Vector3i</a> *pos1)</td></tr>
+<tr class="separator:ga95c8b0f39016f61c770ea58ebeab2fc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaafe9c36744f0a985a427fa2328e0d357" id="r_gaafe9c36744f0a985a427fa2328e0d357"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gaafe9c36744f0a985a427fa2328e0d357">MR_VolumeIndexer_hasNeighbour</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, const <a class="elRef" href="../C/structMR__Vector3i.html">MR_Vector3i</a> *pos, <a class="elRef" href="../C/group__VolumeIndexerGroup.html#gaf140ffd520200f015e9fab26ea4218ae">MR_OutEdge</a> toNei)</td></tr>
+<tr class="separator:gaafe9c36744f0a985a427fa2328e0d357"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad81edbf838f0a7912d74d8d47be0d13e" id="r_gad81edbf838f0a7912d74d8d47be0d13e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__VoxelId.html">MR_VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gad81edbf838f0a7912d74d8d47be0d13e">MR_VolumeIndexer_getNeighbor_2_MR_VoxelId</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, <a class="elRef" href="../C/structMR__VoxelId.html">MR_VoxelId</a> v, <a class="elRef" href="../C/group__VolumeIndexerGroup.html#gaf140ffd520200f015e9fab26ea4218ae">MR_OutEdge</a> toNei)</td></tr>
+<tr class="separator:gad81edbf838f0a7912d74d8d47be0d13e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0083207d8d684453fceed8565ed67d1f" id="r_ga0083207d8d684453fceed8565ed67d1f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__VoxelId.html">MR_VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga0083207d8d684453fceed8565ed67d1f">MR_VolumeIndexer_getNeighbor_3</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, <a class="elRef" href="../C/structMR__VoxelId.html">MR_VoxelId</a> v, const <a class="elRef" href="../C/structMR__Vector3i.html">MR_Vector3i</a> *pos, <a class="elRef" href="../C/group__VolumeIndexerGroup.html#gaf140ffd520200f015e9fab26ea4218ae">MR_OutEdge</a> toNei)</td></tr>
+<tr class="separator:ga0083207d8d684453fceed8565ed67d1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga68f63620ee469dc78ef45f6f0c5889c1" id="r_ga68f63620ee469dc78ef45f6f0c5889c1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga68f63620ee469dc78ef45f6f0c5889c1">MR_VolumeIndexer_getNeighbor_2_MR_VoxelLocation</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga74e1493d8fd738638c30f10863c7324d">MR_VoxelLocation</a> *loc, <a class="elRef" href="../C/group__VolumeIndexerGroup.html#gaf140ffd520200f015e9fab26ea4218ae">MR_OutEdge</a> toNei)</td></tr>
+<tr class="separator:ga68f63620ee469dc78ef45f6f0c5889c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8e098c6badc2ab8cbf3dba9b5c68571d" id="r_ga8e098c6badc2ab8cbf3dba9b5c68571d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__VoxelId.html">MR_VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga8e098c6badc2ab8cbf3dba9b5c68571d">MR_VolumeIndexer_getExistingNeighbor</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, <a class="elRef" href="../C/structMR__VoxelId.html">MR_VoxelId</a> v, <a class="elRef" href="../C/group__VolumeIndexerGroup.html#gaf140ffd520200f015e9fab26ea4218ae">MR_OutEdge</a> toNei)</td></tr>
+<tr class="separator:ga8e098c6badc2ab8cbf3dba9b5c68571d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaac58458a03f0653bbb27e31e39dfc5e6" id="r_gaac58458a03f0653bbb27e31e39dfc5e6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="elRef" href="../C/structMR__VoxelId.html">MR_VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gaac58458a03f0653bbb27e31e39dfc5e6">MR_VolumeIndexer_getNeighbor_4</a> (const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *_this, <a class="elRef" href="../C/structMR__VoxelId.html">MR_VoxelId</a> v, const <a class="elRef" href="../C/structMR__Vector3i.html">MR_Vector3i</a> *pos, bool bdPos, <a class="elRef" href="../C/group__VolumeIndexerGroup.html#gaf140ffd520200f015e9fab26ea4218ae">MR_OutEdge</a> toNei)</td></tr>
+<tr class="separator:gaac58458a03f0653bbb27e31e39dfc5e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaebeb28819bb4c358f5ae36d4944a93f8" id="r_gaebeb28819bb4c358f5ae36d4944a93f8"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gaebeb28819bb4c358f5ae36d4944a93f8">MR_expandVoxelsMask</a> (<a class="elRef" href="../C/MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *mask, const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *indexer, const int32_t *expansion)</td></tr>
+<tr class="separator:gaebeb28819bb4c358f5ae36d4944a93f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab45f1040f024cb1b693dfd0734bac37e" id="r_gab45f1040f024cb1b693dfd0734bac37e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gab45f1040f024cb1b693dfd0734bac37e">MR_shrinkVoxelsMask</a> (<a class="elRef" href="../C/MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *mask, const <a class="elRef" href="../C/group__VolumeIndexerGroup.html#ga21a0b4c112c2e10f8d0497cde9a81c01">MR_VolumeIndexer</a> *indexer, const int32_t *shrinkage)</td></tr>
+<tr class="separator:gab45f1040f024cb1b693dfd0734bac37e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4e89cddf49bc51a6caa983ba3b84c461" id="r_ga4e89cddf49bc51a6caa983ba3b84c461"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gaa7203f0917dc651aa1261d90d266752e">OutEdge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4e89cddf49bc51a6caa983ba3b84c461">MR::opposite</a> (<a class="el" href="#gaa7203f0917dc651aa1261d90d266752e">OutEdge</a> e)</td></tr>
+<tr class="separator:ga4e89cddf49bc51a6caa983ba3b84c461"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2b294cbfdf1d13f5bb7babef620b361a" id="r_ga2b294cbfdf1d13f5bb7babef620b361a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2b294cbfdf1d13f5bb7babef620b361a">MR::expandVoxelsMask</a> (VoxelBitSet &amp;mask, const <a class="el" href="classMR_1_1VolumeIndexer.html">VolumeIndexer</a> &amp;indexer, int expansion=1)</td></tr>
+<tr class="memdesc:ga2b294cbfdf1d13f5bb7babef620b361a"><td class="mdescLeft">&#160;</td><td class="mdescRight">expands VoxelBitSet with given number of steps  <br /></td></tr>
+<tr class="separator:ga2b294cbfdf1d13f5bb7babef620b361a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaae181e34db4d5ebb6f2cc68194b69c18" id="r_gaae181e34db4d5ebb6f2cc68194b69c18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaae181e34db4d5ebb6f2cc68194b69c18">MR::shrinkVoxelsMask</a> (VoxelBitSet &amp;mask, const <a class="el" href="classMR_1_1VolumeIndexer.html">VolumeIndexer</a> &amp;indexer, int shrinkage=1)</td></tr>
+<tr class="memdesc:gaae181e34db4d5ebb6f2cc68194b69c18"><td class="mdescLeft">&#160;</td><td class="mdescRight">shrinks VoxelBitSet with given number of steps  <br /></td></tr>
+<tr class="separator:gaae181e34db4d5ebb6f2cc68194b69c18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:gga79e9f285d34216706a748fd7ba8941b7ae20f61ace0e4dd747e791268dfb1b749" id="r_gga79e9f285d34216706a748fd7ba8941b7ae20f61ace0e4dd747e791268dfb1b749"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gga79e9f285d34216706a748fd7ba8941b7ae20f61ace0e4dd747e791268dfb1b749">MR_OutEdge_Invalid</a></td></tr>
+<tr class="separator:gga79e9f285d34216706a748fd7ba8941b7ae20f61ace0e4dd747e791268dfb1b749"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gga79e9f285d34216706a748fd7ba8941b7a5d76cb9691050cfc82f61d9d3a594868" id="r_gga79e9f285d34216706a748fd7ba8941b7a5d76cb9691050cfc82f61d9d3a594868"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gga79e9f285d34216706a748fd7ba8941b7a5d76cb9691050cfc82f61d9d3a594868">MR_OutEdge_PlusZ</a></td></tr>
+<tr class="separator:gga79e9f285d34216706a748fd7ba8941b7a5d76cb9691050cfc82f61d9d3a594868"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gga79e9f285d34216706a748fd7ba8941b7a625374dd4a579739bd4303e8e4c5c6d1" id="r_gga79e9f285d34216706a748fd7ba8941b7a625374dd4a579739bd4303e8e4c5c6d1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gga79e9f285d34216706a748fd7ba8941b7a625374dd4a579739bd4303e8e4c5c6d1">MR_OutEdge_MinusZ</a></td></tr>
+<tr class="separator:gga79e9f285d34216706a748fd7ba8941b7a625374dd4a579739bd4303e8e4c5c6d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gga79e9f285d34216706a748fd7ba8941b7a7b070bf11e7642ac0f9d0033a0b82e1a" id="r_gga79e9f285d34216706a748fd7ba8941b7a7b070bf11e7642ac0f9d0033a0b82e1a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gga79e9f285d34216706a748fd7ba8941b7a7b070bf11e7642ac0f9d0033a0b82e1a">MR_OutEdge_PlusY</a></td></tr>
+<tr class="separator:gga79e9f285d34216706a748fd7ba8941b7a7b070bf11e7642ac0f9d0033a0b82e1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gga79e9f285d34216706a748fd7ba8941b7af8caf63972f5ce541e67ef04ca2dcdf3" id="r_gga79e9f285d34216706a748fd7ba8941b7af8caf63972f5ce541e67ef04ca2dcdf3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gga79e9f285d34216706a748fd7ba8941b7af8caf63972f5ce541e67ef04ca2dcdf3">MR_OutEdge_MinusY</a></td></tr>
+<tr class="separator:gga79e9f285d34216706a748fd7ba8941b7af8caf63972f5ce541e67ef04ca2dcdf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gga79e9f285d34216706a748fd7ba8941b7ad36e52301b250140311827a65071830e" id="r_gga79e9f285d34216706a748fd7ba8941b7ad36e52301b250140311827a65071830e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gga79e9f285d34216706a748fd7ba8941b7ad36e52301b250140311827a65071830e">MR_OutEdge_PlusX</a></td></tr>
+<tr class="separator:gga79e9f285d34216706a748fd7ba8941b7ad36e52301b250140311827a65071830e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gga79e9f285d34216706a748fd7ba8941b7a6fb3759be5c853b5e7e8dc63d364a1a4" id="r_gga79e9f285d34216706a748fd7ba8941b7a6fb3759be5c853b5e7e8dc63d364a1a4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gga79e9f285d34216706a748fd7ba8941b7a6fb3759be5c853b5e7e8dc63d364a1a4">MR_OutEdge_MinusX</a></td></tr>
+<tr class="separator:gga79e9f285d34216706a748fd7ba8941b7a6fb3759be5c853b5e7e8dc63d364a1a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gga79e9f285d34216706a748fd7ba8941b7a09a2e381c93ab7fc487804a30792d937" id="r_gga79e9f285d34216706a748fd7ba8941b7a09a2e381c93ab7fc487804a30792d937"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gga79e9f285d34216706a748fd7ba8941b7a09a2e381c93ab7fc487804a30792d937">MR_OutEdge_Count</a></td></tr>
+<tr class="separator:gga79e9f285d34216706a748fd7ba8941b7a09a2e381c93ab7fc487804a30792d937"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gga79e9f285d34216706a748fd7ba8941b7ae20f61ace0e4dd747e791268dfb1b749" id="r_gga79e9f285d34216706a748fd7ba8941b7ae20f61ace0e4dd747e791268dfb1b749"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gga79e9f285d34216706a748fd7ba8941b7ae20f61ace0e4dd747e791268dfb1b749">MR_OutEdge_Invalid</a></td></tr>
+<tr class="separator:gga79e9f285d34216706a748fd7ba8941b7ae20f61ace0e4dd747e791268dfb1b749"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gga79e9f285d34216706a748fd7ba8941b7a5d76cb9691050cfc82f61d9d3a594868" id="r_gga79e9f285d34216706a748fd7ba8941b7a5d76cb9691050cfc82f61d9d3a594868"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gga79e9f285d34216706a748fd7ba8941b7a5d76cb9691050cfc82f61d9d3a594868">MR_OutEdge_PlusZ</a></td></tr>
+<tr class="separator:gga79e9f285d34216706a748fd7ba8941b7a5d76cb9691050cfc82f61d9d3a594868"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gga79e9f285d34216706a748fd7ba8941b7a625374dd4a579739bd4303e8e4c5c6d1" id="r_gga79e9f285d34216706a748fd7ba8941b7a625374dd4a579739bd4303e8e4c5c6d1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gga79e9f285d34216706a748fd7ba8941b7a625374dd4a579739bd4303e8e4c5c6d1">MR_OutEdge_MinusZ</a></td></tr>
+<tr class="separator:gga79e9f285d34216706a748fd7ba8941b7a625374dd4a579739bd4303e8e4c5c6d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gga79e9f285d34216706a748fd7ba8941b7a7b070bf11e7642ac0f9d0033a0b82e1a" id="r_gga79e9f285d34216706a748fd7ba8941b7a7b070bf11e7642ac0f9d0033a0b82e1a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gga79e9f285d34216706a748fd7ba8941b7a7b070bf11e7642ac0f9d0033a0b82e1a">MR_OutEdge_PlusY</a></td></tr>
+<tr class="separator:gga79e9f285d34216706a748fd7ba8941b7a7b070bf11e7642ac0f9d0033a0b82e1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gga79e9f285d34216706a748fd7ba8941b7af8caf63972f5ce541e67ef04ca2dcdf3" id="r_gga79e9f285d34216706a748fd7ba8941b7af8caf63972f5ce541e67ef04ca2dcdf3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gga79e9f285d34216706a748fd7ba8941b7af8caf63972f5ce541e67ef04ca2dcdf3">MR_OutEdge_MinusY</a></td></tr>
+<tr class="separator:gga79e9f285d34216706a748fd7ba8941b7af8caf63972f5ce541e67ef04ca2dcdf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gga79e9f285d34216706a748fd7ba8941b7ad36e52301b250140311827a65071830e" id="r_gga79e9f285d34216706a748fd7ba8941b7ad36e52301b250140311827a65071830e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gga79e9f285d34216706a748fd7ba8941b7ad36e52301b250140311827a65071830e">MR_OutEdge_PlusX</a></td></tr>
+<tr class="separator:gga79e9f285d34216706a748fd7ba8941b7ad36e52301b250140311827a65071830e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gga79e9f285d34216706a748fd7ba8941b7a6fb3759be5c853b5e7e8dc63d364a1a4" id="r_gga79e9f285d34216706a748fd7ba8941b7a6fb3759be5c853b5e7e8dc63d364a1a4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gga79e9f285d34216706a748fd7ba8941b7a6fb3759be5c853b5e7e8dc63d364a1a4">MR_OutEdge_MinusX</a></td></tr>
+<tr class="separator:gga79e9f285d34216706a748fd7ba8941b7a6fb3759be5c853b5e7e8dc63d364a1a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gga79e9f285d34216706a748fd7ba8941b7a09a2e381c93ab7fc487804a30792d937" id="r_gga79e9f285d34216706a748fd7ba8941b7a09a2e381c93ab7fc487804a30792d937"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../C/group__VolumeIndexerGroup.html#gga79e9f285d34216706a748fd7ba8941b7a09a2e381c93ab7fc487804a30792d937">MR_OutEdge_Count</a></td></tr>
+<tr class="separator:gga79e9f285d34216706a748fd7ba8941b7a09a2e381c93ab7fc487804a30792d937"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga91147207103fdc2c344ad18106a8599a" id="r_ga91147207103fdc2c344ad18106a8599a"><td class="memItemLeft" align="right" valign="top">constexpr Vector3i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga91147207103fdc2c344ad18106a8599a">MR::neiPosDelta</a> [OutEdgeCount]</td></tr>
+<tr class="separator:ga91147207103fdc2c344ad18106a8599a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="gaa7203f0917dc651aa1261d90d266752e" name="gaa7203f0917dc651aa1261d90d266752e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa7203f0917dc651aa1261d90d266752e">&#9670;&#160;</a></span>OutEdge</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#gaa7203f0917dc651aa1261d90d266752e">MR::OutEdge</a> : signed char</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggaa7203f0917dc651aa1261d90d266752ea4bbb8f967da6d1a610596d7257179c2b" name="ggaa7203f0917dc651aa1261d90d266752ea4bbb8f967da6d1a610596d7257179c2b"></a>Invalid&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggaa7203f0917dc651aa1261d90d266752ea59bb9bd5dd05e7aa8aca793a81266bb9" name="ggaa7203f0917dc651aa1261d90d266752ea59bb9bd5dd05e7aa8aca793a81266bb9"></a>PlusZ&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggaa7203f0917dc651aa1261d90d266752ea65661216a3acfdac8c58d97d97fa10cb" name="ggaa7203f0917dc651aa1261d90d266752ea65661216a3acfdac8c58d97d97fa10cb"></a>MinusZ&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggaa7203f0917dc651aa1261d90d266752ea89241a914ba5d59de9168c4416e69c4a" name="ggaa7203f0917dc651aa1261d90d266752ea89241a914ba5d59de9168c4416e69c4a"></a>PlusY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggaa7203f0917dc651aa1261d90d266752ea9cc816b8a2117db796c073f012e78565" name="ggaa7203f0917dc651aa1261d90d266752ea9cc816b8a2117db796c073f012e78565"></a>MinusY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggaa7203f0917dc651aa1261d90d266752eaac53fa7ccf60e6f59512da11975eb8a7" name="ggaa7203f0917dc651aa1261d90d266752eaac53fa7ccf60e6f59512da11975eb8a7"></a>PlusX&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggaa7203f0917dc651aa1261d90d266752ea6ee0807f5bf1b3e0a4d52919eb298454" name="ggaa7203f0917dc651aa1261d90d266752ea6ee0807f5bf1b3e0a4d52919eb298454"></a>MinusX&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggaa7203f0917dc651aa1261d90d266752eae93f994f01c537c4e2f7d8528c3eb5e9" name="ggaa7203f0917dc651aa1261d90d266752eae93f994f01c537c4e2f7d8528c3eb5e9"></a>Count&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ga2b294cbfdf1d13f5bb7babef620b361a" name="ga2b294cbfdf1d13f5bb7babef620b361a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2b294cbfdf1d13f5bb7babef620b361a">&#9670;&#160;</a></span>expandVoxelsMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::expandVoxelsMask </td>
+          <td>(</td>
+          <td class="paramtype">VoxelBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>mask</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1VolumeIndexer.html">VolumeIndexer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>indexer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>expansion</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>expands VoxelBitSet with given number of steps </p>
+
+</div>
+</div>
+<a id="ga4e89cddf49bc51a6caa983ba3b84c461" name="ga4e89cddf49bc51a6caa983ba3b84c461"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4e89cddf49bc51a6caa983ba3b84c461">&#9670;&#160;</a></span>opposite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#gaa7203f0917dc651aa1261d90d266752e">OutEdge</a> MR::opposite </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#gaa7203f0917dc651aa1261d90d266752e">OutEdge</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaae181e34db4d5ebb6f2cc68194b69c18" name="gaae181e34db4d5ebb6f2cc68194b69c18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaae181e34db4d5ebb6f2cc68194b69c18">&#9670;&#160;</a></span>shrinkVoxelsMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::shrinkVoxelsMask </td>
+          <td>(</td>
+          <td class="paramtype">VoxelBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>mask</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1VolumeIndexer.html">VolumeIndexer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>indexer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>shrinkage</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>shrinks VoxelBitSet with given number of steps </p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="ga91147207103fdc2c344ad18106a8599a" name="ga91147207103fdc2c344ad18106a8599a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga91147207103fdc2c344ad18106a8599a">&#9670;&#160;</a></span>neiPosDelta</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3i MR::neiPosDelta[OutEdgeCount]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line">    { 0, 0, 1 }, </div>
+<div class="line">    { 0, 0,-1 }, </div>
+<div class="line">    { 0, 1, 0 }, </div>
+<div class="line">    { 0,-1, 0 }, </div>
+<div class="line">    { 1, 0, 0 }, </div>
+<div class="line">    {-1, 0, 0 }  </div>
+<div class="line">}</div>
+</div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,792 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRMeshSaveObj.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRMeshSaveObj_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRMeshSaveObj.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MRAffineXf_8h_source.html">MRCMesh/MRAffineXf.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="MRMeshSaveObj_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a20dc7d636220f61a60c7ae92b8caa768" id="r_a20dc7d636220f61a60c7ae92b8caa768"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a></td></tr>
+<tr class="separator:a20dc7d636220f61a60c7ae92b8caa768"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a077b8debfae88f9cf2267ad2db95c006" id="r_a077b8debfae88f9cf2267ad2db95c006"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a></td></tr>
+<tr class="separator:a077b8debfae88f9cf2267ad2db95c006"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a933fad1748853c0c595a157b9f6527c6" id="r_a933fad1748853c0c595a157b9f6527c6"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a></td></tr>
+<tr class="separator:a933fad1748853c0c595a157b9f6527c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94b819eab550077a4081785d3b3b4dc6" id="r_a94b819eab550077a4081785d3b3b4dc6"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a94b819eab550077a4081785d3b3b4dc6">MR_std_shared_ptr_const_MR_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94b819eab550077a4081785d3b3b4dc6">MR_std_shared_ptr_const_MR_Mesh</a></td></tr>
+<tr class="separator:a94b819eab550077a4081785d3b3b4dc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69dc6868c10c92fb8b8a255b0130d289" id="r_a69dc6868c10c92fb8b8a255b0130d289"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td></tr>
+<tr class="separator:a69dc6868c10c92fb8b8a255b0130d289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2a5b196251d59435fafcd7bf3369754" id="r_aa2a5b196251d59435fafcd7bf3369754"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aa2a5b196251d59435fafcd7bf3369754">MR_std_vector_MR_MeshSave_NamedXfMesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2a5b196251d59435fafcd7bf3369754">MR_std_vector_MR_MeshSave_NamedXfMesh</a></td></tr>
+<tr class="separator:aa2a5b196251d59435fafcd7bf3369754"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae03cad4bd459845c23e3ca76e1c55ccf" id="r_ae03cad4bd459845c23e3ca76e1c55ccf"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a></td></tr>
+<tr class="separator:ae03cad4bd459845c23e3ca76e1c55ccf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a2cf4717e845e0a5fcadb27d72177f295" id="r_a2cf4717e845e0a5fcadb27d72177f295"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cf4717e845e0a5fcadb27d72177f295">MR_MeshSave_NamedXfMesh_Get_name</a> (const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this)</td></tr>
+<tr class="separator:a2cf4717e845e0a5fcadb27d72177f295"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42b28743e4f3a1ed39275a3b3b228feb" id="r_a42b28743e4f3a1ed39275a3b3b228feb"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42b28743e4f3a1ed39275a3b3b228feb">MR_MeshSave_NamedXfMesh_Set_name</a> (<a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this, const char *value, const char *value_end)</td></tr>
+<tr class="separator:a42b28743e4f3a1ed39275a3b3b228feb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57e6a50393b86374036e300773f3b214" id="r_a57e6a50393b86374036e300773f3b214"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57e6a50393b86374036e300773f3b214">MR_MeshSave_NamedXfMesh_GetMutable_name</a> (<a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this)</td></tr>
+<tr class="separator:a57e6a50393b86374036e300773f3b214"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41a7e0c5ebafdb62824328a715cd2a40" id="r_a41a7e0c5ebafdb62824328a715cd2a40"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41a7e0c5ebafdb62824328a715cd2a40">MR_MeshSave_NamedXfMesh_Get_toWorld</a> (const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this)</td></tr>
+<tr class="separator:a41a7e0c5ebafdb62824328a715cd2a40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34881bd91938a06025eb57b384efcc6d" id="r_a34881bd91938a06025eb57b384efcc6d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34881bd91938a06025eb57b384efcc6d">MR_MeshSave_NamedXfMesh_Set_toWorld</a> (<a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this, <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> value)</td></tr>
+<tr class="separator:a34881bd91938a06025eb57b384efcc6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98f99bb5b6129894d14e6e1652b026d9" id="r_a98f99bb5b6129894d14e6e1652b026d9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98f99bb5b6129894d14e6e1652b026d9">MR_MeshSave_NamedXfMesh_GetMutable_toWorld</a> (<a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this)</td></tr>
+<tr class="separator:a98f99bb5b6129894d14e6e1652b026d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4501b6947c4b7d48ab9fcd338434c1fa" id="r_a4501b6947c4b7d48ab9fcd338434c1fa"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a94b819eab550077a4081785d3b3b4dc6">MR_std_shared_ptr_const_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4501b6947c4b7d48ab9fcd338434c1fa">MR_MeshSave_NamedXfMesh_Get_mesh</a> (const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this)</td></tr>
+<tr class="separator:a4501b6947c4b7d48ab9fcd338434c1fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8181d541983b23c23f0f64ec6bfd008b" id="r_a8181d541983b23c23f0f64ec6bfd008b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8181d541983b23c23f0f64ec6bfd008b">MR_MeshSave_NamedXfMesh_Set_mesh</a> (<a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#a94b819eab550077a4081785d3b3b4dc6">MR_std_shared_ptr_const_MR_Mesh</a> *value)</td></tr>
+<tr class="separator:a8181d541983b23c23f0f64ec6bfd008b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a115e61902f5d53b7d78c856e9e9b3b3a" id="r_a115e61902f5d53b7d78c856e9e9b3b3a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a94b819eab550077a4081785d3b3b4dc6">MR_std_shared_ptr_const_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a115e61902f5d53b7d78c856e9e9b3b3a">MR_MeshSave_NamedXfMesh_GetMutable_mesh</a> (<a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this)</td></tr>
+<tr class="separator:a115e61902f5d53b7d78c856e9e9b3b3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e264ec627c5f4ee959e7bd7a0e80110" id="r_a3e264ec627c5f4ee959e7bd7a0e80110"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e264ec627c5f4ee959e7bd7a0e80110">MR_MeshSave_NamedXfMesh_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a3e264ec627c5f4ee959e7bd7a0e80110"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7f49ea05ff22b94b7791ed5092938e9" id="r_ae7f49ea05ff22b94b7791ed5092938e9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7f49ea05ff22b94b7791ed5092938e9">MR_MeshSave_NamedXfMesh_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ae7f49ea05ff22b94b7791ed5092938e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac28356bfd8a49e0636dc9605119343e4" id="r_ac28356bfd8a49e0636dc9605119343e4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac28356bfd8a49e0636dc9605119343e4">MR_MeshSave_NamedXfMesh_ConstructFrom</a> (const char *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, const char *name_end, <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> toWorld, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> mesh_pass_by, <a class="el" href="#a94b819eab550077a4081785d3b3b4dc6">MR_std_shared_ptr_const_MR_Mesh</a> *mesh)</td></tr>
+<tr class="separator:ac28356bfd8a49e0636dc9605119343e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa04c8eb8ad287a073a676d464dc369e" id="r_afa04c8eb8ad287a073a676d464dc369e"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa04c8eb8ad287a073a676d464dc369e">MR_MeshSave_NamedXfMesh_OffsetPtr</a> (const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:afa04c8eb8ad287a073a676d464dc369e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:afa04c8eb8ad287a073a676d464dc369e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f422d663f5fda1c5b66e0f0449752f4" id="r_a4f422d663f5fda1c5b66e0f0449752f4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f422d663f5fda1c5b66e0f0449752f4">MR_MeshSave_NamedXfMesh_OffsetMutablePtr</a> (<a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a4f422d663f5fda1c5b66e0f0449752f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a4f422d663f5fda1c5b66e0f0449752f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fd981dd3f643c67963cd9348156bd7d" id="r_a3fd981dd3f643c67963cd9348156bd7d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fd981dd3f643c67963cd9348156bd7d">MR_MeshSave_NamedXfMesh_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_other)</td></tr>
+<tr class="separator:a3fd981dd3f643c67963cd9348156bd7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d327a05c3e0f276e7ca727a10d0af8e" id="r_a6d327a05c3e0f276e7ca727a10d0af8e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d327a05c3e0f276e7ca727a10d0af8e">MR_MeshSave_NamedXfMesh_Destroy</a> (const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this)</td></tr>
+<tr class="memdesc:a6d327a05c3e0f276e7ca727a10d0af8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_MeshSave_NamedXfMesh</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a6d327a05c3e0f276e7ca727a10d0af8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac49e702bcf848a3a4fbd5918884becf6" id="r_ac49e702bcf848a3a4fbd5918884becf6"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac49e702bcf848a3a4fbd5918884becf6">MR_MeshSave_NamedXfMesh_DestroyArray</a> (const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this)</td></tr>
+<tr class="memdesc:ac49e702bcf848a3a4fbd5918884becf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_MeshSave_NamedXfMesh</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ac49e702bcf848a3a4fbd5918884becf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dbdf56eaf547cc00506017317b7c70f" id="r_a7dbdf56eaf547cc00506017317b7c70f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7dbdf56eaf547cc00506017317b7c70f">MR_MeshSave_NamedXfMesh_AssignFromAnother</a> (<a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_other)</td></tr>
+<tr class="separator:a7dbdf56eaf547cc00506017317b7c70f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe15a9fea206c59cf47e05bf88b9b194" id="r_afe15a9fea206c59cf47e05bf88b9b194"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe15a9fea206c59cf47e05bf88b9b194">MR_MeshSave_sceneToObj_std_filesystem_path</a> (const <a class="el" href="#aa2a5b196251d59435fafcd7bf3369754">MR_std_vector_MR_MeshSave_NamedXfMesh</a> *objects, const char *file, const char *file_end, <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *colors)</td></tr>
+<tr class="separator:afe15a9fea206c59cf47e05bf88b9b194"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3cdd7718f5e71fe4021ed8431e3ecdf" id="r_ab3cdd7718f5e71fe4021ed8431e3ecdf"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3cdd7718f5e71fe4021ed8431e3ecdf">MR_MeshSave_sceneToObj_std_ostream</a> (const <a class="el" href="#aa2a5b196251d59435fafcd7bf3369754">MR_std_vector_MR_MeshSave_NamedXfMesh</a> *objects, <a class="el" href="MRCtm_8h.html#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *out, <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *colors)</td></tr>
+<tr class="separator:ab3cdd7718f5e71fe4021ed8431e3ecdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a077b8debfae88f9cf2267ad2db95c006" name="a077b8debfae88f9cf2267ad2db95c006"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a077b8debfae88f9cf2267ad2db95c006">&#9670;&#160;</a></span>MR_expected_void_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae03cad4bd459845c23e3ca76e1c55ccf" name="ae03cad4bd459845c23e3ca76e1c55ccf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae03cad4bd459845c23e3ca76e1c55ccf">&#9670;&#160;</a></span>MR_MeshSave_NamedXfMesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>saves a number of named meshes in .obj file Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1NamedXfMesh.html">MR::MeshSave::NamedXfMesh</a></code>. </p>
+
+</div>
+</div>
+<a id="a933fad1748853c0c595a157b9f6527c6" name="a933fad1748853c0c595a157b9f6527c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a933fad1748853c0c595a157b9f6527c6">&#9670;&#160;</a></span>MR_std_ostream</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> <a class="el" href="MRCtm_8h.html#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a94b819eab550077a4081785d3b3b4dc6" name="a94b819eab550077a4081785d3b3b4dc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94b819eab550077a4081785d3b3b4dc6">&#9670;&#160;</a></span>MR_std_shared_ptr_const_MR_Mesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a94b819eab550077a4081785d3b3b4dc6">MR_std_shared_ptr_const_MR_Mesh</a> <a class="el" href="#a94b819eab550077a4081785d3b3b4dc6">MR_std_shared_ptr_const_MR_Mesh</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69dc6868c10c92fb8b8a255b0130d289" name="a69dc6868c10c92fb8b8a255b0130d289"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69dc6868c10c92fb8b8a255b0130d289">&#9670;&#160;</a></span>MR_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa2a5b196251d59435fafcd7bf3369754" name="aa2a5b196251d59435fafcd7bf3369754"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2a5b196251d59435fafcd7bf3369754">&#9670;&#160;</a></span>MR_std_vector_MR_MeshSave_NamedXfMesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#aa2a5b196251d59435fafcd7bf3369754">MR_std_vector_MR_MeshSave_NamedXfMesh</a> <a class="el" href="#aa2a5b196251d59435fafcd7bf3369754">MR_std_vector_MR_MeshSave_NamedXfMesh</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a20dc7d636220f61a60c7ae92b8caa768" name="a20dc7d636220f61a60c7ae92b8caa768"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20dc7d636220f61a60c7ae92b8caa768">&#9670;&#160;</a></span>MR_VertColors</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a7dbdf56eaf547cc00506017317b7c70f" name="a7dbdf56eaf547cc00506017317b7c70f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dbdf56eaf547cc00506017317b7c70f">&#9670;&#160;</a></span>MR_MeshSave_NamedXfMesh_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> * MR_MeshSave_NamedXfMesh_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1NamedXfMesh.html">MR::MeshSave::NamedXfMesh</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ac28356bfd8a49e0636dc9605119343e4" name="ac28356bfd8a49e0636dc9605119343e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac28356bfd8a49e0636dc9605119343e4">&#9670;&#160;</a></span>MR_MeshSave_NamedXfMesh_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> * MR_MeshSave_NamedXfMesh_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>name_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>toWorld</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>mesh_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a94b819eab550077a4081785d3b3b4dc6">MR_std_shared_ptr_const_MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1NamedXfMesh.html">MR::MeshSave::NamedXfMesh</a></code> elementwise. Parameter <code>name</code> can not be null. If <code>name_end</code> is null, then <code>name</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6d327a05c3e0f276e7ca727a10d0af8e" title="Destroys a heap-allocated instance of MR_MeshSave_NamedXfMesh. Does nothing if the pointer is null.">MR_MeshSave_NamedXfMesh_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a3fd981dd3f643c67963cd9348156bd7d" name="a3fd981dd3f643c67963cd9348156bd7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fd981dd3f643c67963cd9348156bd7d">&#9670;&#160;</a></span>MR_MeshSave_NamedXfMesh_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> * MR_MeshSave_NamedXfMesh_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1NamedXfMesh.html">MR::MeshSave::NamedXfMesh</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6d327a05c3e0f276e7ca727a10d0af8e" title="Destroys a heap-allocated instance of MR_MeshSave_NamedXfMesh. Does nothing if the pointer is null.">MR_MeshSave_NamedXfMesh_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a3e264ec627c5f4ee959e7bd7a0e80110" name="a3e264ec627c5f4ee959e7bd7a0e80110"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e264ec627c5f4ee959e7bd7a0e80110">&#9670;&#160;</a></span>MR_MeshSave_NamedXfMesh_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> * MR_MeshSave_NamedXfMesh_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6d327a05c3e0f276e7ca727a10d0af8e" title="Destroys a heap-allocated instance of MR_MeshSave_NamedXfMesh. Does nothing if the pointer is null.">MR_MeshSave_NamedXfMesh_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae7f49ea05ff22b94b7791ed5092938e9" name="ae7f49ea05ff22b94b7791ed5092938e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7f49ea05ff22b94b7791ed5092938e9">&#9670;&#160;</a></span>MR_MeshSave_NamedXfMesh_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> * MR_MeshSave_NamedXfMesh_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#ac49e702bcf848a3a4fbd5918884becf6" title="Destroys a heap-allocated array of MR_MeshSave_NamedXfMesh. Does nothing if the pointer is null.">MR_MeshSave_NamedXfMesh_DestroyArray()</a></code>. Use <code><a class="el" href="#a4f422d663f5fda1c5b66e0f0449752f4" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_MeshSave_NamedXfMesh_OffsetMutablePtr()</a></code> and <code><a class="el" href="#afa04c8eb8ad287a073a676d464dc369e" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_MeshSave_NamedXfMesh_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a6d327a05c3e0f276e7ca727a10d0af8e" name="a6d327a05c3e0f276e7ca727a10d0af8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d327a05c3e0f276e7ca727a10d0af8e">&#9670;&#160;</a></span>MR_MeshSave_NamedXfMesh_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshSave_NamedXfMesh_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_MeshSave_NamedXfMesh</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ac49e702bcf848a3a4fbd5918884becf6" name="ac49e702bcf848a3a4fbd5918884becf6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac49e702bcf848a3a4fbd5918884becf6">&#9670;&#160;</a></span>MR_MeshSave_NamedXfMesh_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshSave_NamedXfMesh_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_MeshSave_NamedXfMesh</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a4501b6947c4b7d48ab9fcd338434c1fa" name="a4501b6947c4b7d48ab9fcd338434c1fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4501b6947c4b7d48ab9fcd338434c1fa">&#9670;&#160;</a></span>MR_MeshSave_NamedXfMesh_Get_mesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a94b819eab550077a4081785d3b3b4dc6">MR_std_shared_ptr_const_MR_Mesh</a> * MR_MeshSave_NamedXfMesh_Get_mesh </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1NamedXfMesh.html">MR::MeshSave::NamedXfMesh</a></code> named <code>mesh</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a2cf4717e845e0a5fcadb27d72177f295" name="a2cf4717e845e0a5fcadb27d72177f295"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cf4717e845e0a5fcadb27d72177f295">&#9670;&#160;</a></span>MR_MeshSave_NamedXfMesh_Get_name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_MeshSave_NamedXfMesh_Get_name </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1NamedXfMesh.html">MR::MeshSave::NamedXfMesh</a></code> named <code>name</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a41a7e0c5ebafdb62824328a715cd2a40" name="a41a7e0c5ebafdb62824328a715cd2a40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41a7e0c5ebafdb62824328a715cd2a40">&#9670;&#160;</a></span>MR_MeshSave_NamedXfMesh_Get_toWorld()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> * MR_MeshSave_NamedXfMesh_Get_toWorld </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1NamedXfMesh.html">MR::MeshSave::NamedXfMesh</a></code> named <code>toWorld</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a115e61902f5d53b7d78c856e9e9b3b3a" name="a115e61902f5d53b7d78c856e9e9b3b3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a115e61902f5d53b7d78c856e9e9b3b3a">&#9670;&#160;</a></span>MR_MeshSave_NamedXfMesh_GetMutable_mesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a94b819eab550077a4081785d3b3b4dc6">MR_std_shared_ptr_const_MR_Mesh</a> * MR_MeshSave_NamedXfMesh_GetMutable_mesh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1NamedXfMesh.html">MR::MeshSave::NamedXfMesh</a></code> named <code>mesh</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a57e6a50393b86374036e300773f3b214" name="a57e6a50393b86374036e300773f3b214"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57e6a50393b86374036e300773f3b214">&#9670;&#160;</a></span>MR_MeshSave_NamedXfMesh_GetMutable_name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_MeshSave_NamedXfMesh_GetMutable_name </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1NamedXfMesh.html">MR::MeshSave::NamedXfMesh</a></code> named <code>name</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a98f99bb5b6129894d14e6e1652b026d9" name="a98f99bb5b6129894d14e6e1652b026d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98f99bb5b6129894d14e6e1652b026d9">&#9670;&#160;</a></span>MR_MeshSave_NamedXfMesh_GetMutable_toWorld()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> * MR_MeshSave_NamedXfMesh_GetMutable_toWorld </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1NamedXfMesh.html">MR::MeshSave::NamedXfMesh</a></code> named <code>toWorld</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a4f422d663f5fda1c5b66e0f0449752f4" name="a4f422d663f5fda1c5b66e0f0449752f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f422d663f5fda1c5b66e0f0449752f4">&#9670;&#160;</a></span>MR_MeshSave_NamedXfMesh_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> * MR_MeshSave_NamedXfMesh_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="afa04c8eb8ad287a073a676d464dc369e" name="afa04c8eb8ad287a073a676d464dc369e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa04c8eb8ad287a073a676d464dc369e">&#9670;&#160;</a></span>MR_MeshSave_NamedXfMesh_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> * MR_MeshSave_NamedXfMesh_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a8181d541983b23c23f0f64ec6bfd008b" name="a8181d541983b23c23f0f64ec6bfd008b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8181d541983b23c23f0f64ec6bfd008b">&#9670;&#160;</a></span>MR_MeshSave_NamedXfMesh_Set_mesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshSave_NamedXfMesh_Set_mesh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a94b819eab550077a4081785d3b3b4dc6">MR_std_shared_ptr_const_MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1NamedXfMesh.html">MR::MeshSave::NamedXfMesh</a></code> named <code>mesh</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a42b28743e4f3a1ed39275a3b3b228feb" name="a42b28743e4f3a1ed39275a3b3b228feb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42b28743e4f3a1ed39275a3b3b228feb">&#9670;&#160;</a></span>MR_MeshSave_NamedXfMesh_Set_name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshSave_NamedXfMesh_Set_name </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1NamedXfMesh.html">MR::MeshSave::NamedXfMesh</a></code> named <code>name</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. </p>
+
+</div>
+</div>
+<a id="a34881bd91938a06025eb57b384efcc6d" name="a34881bd91938a06025eb57b384efcc6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34881bd91938a06025eb57b384efcc6d">&#9670;&#160;</a></span>MR_MeshSave_NamedXfMesh_Set_toWorld()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshSave_NamedXfMesh_Set_toWorld </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshSave_1_1NamedXfMesh.html">MR::MeshSave::NamedXfMesh</a></code> named <code>toWorld</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="afe15a9fea206c59cf47e05bf88b9b194" name="afe15a9fea206c59cf47e05bf88b9b194"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe15a9fea206c59cf47e05bf88b9b194">&#9670;&#160;</a></span>MR_MeshSave_sceneToObj_std_filesystem_path()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_MeshSave_sceneToObj_std_filesystem_path </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa2a5b196251d59435fafcd7bf3369754">MR_std_vector_MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>objects</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *</td>          <td class="paramname"><span class="paramname"><em>colors</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshSaveObjGroup.html#gae3dd1ca3146e809db153793012e27d06">MR::MeshSave::sceneToObj</a></code>. Parameter <code>objects</code> can not be null. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>colors</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab3cdd7718f5e71fe4021ed8431e3ecdf" name="ab3cdd7718f5e71fe4021ed8431e3ecdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3cdd7718f5e71fe4021ed8431e3ecdf">&#9670;&#160;</a></span>MR_MeshSave_sceneToObj_std_ostream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_MeshSave_sceneToObj_std_ostream </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa2a5b196251d59435fafcd7bf3369754">MR_std_vector_MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>objects</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *</td>          <td class="paramname"><span class="paramname"><em>out</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *</td>          <td class="paramname"><span class="paramname"><em>colors</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshSaveObjGroup.html#gae3dd1ca3146e809db153793012e27d06">MR::MeshSave::sceneToObj</a></code>. Parameter <code>objects</code> can not be null. Parameter <code>out</code> can not be null. Parameter <code>colors</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_8b489c7b5d1a72d35ec87e32cc37b940.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRMeshSaveObj_8h.html">MRMeshSaveObj.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

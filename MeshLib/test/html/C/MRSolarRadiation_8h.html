@@ -1,0 +1,777 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRSolarRadiation.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRSolarRadiation_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRSolarRadiation.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="MRSolarRadiation_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a36d7d5a26d258211a2da5d9311a0798c" id="r_a36d7d5a26d258211a2da5d9311a0798c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBitSet_8h.html#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a></td></tr>
+<tr class="separator:a36d7d5a26d258211a2da5d9311a0798c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31b172f68efca6438544d56eb86d6f40" id="r_a31b172f68efca6438544d56eb86d6f40"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td></tr>
+<tr class="separator:a31b172f68efca6438544d56eb86d6f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3df50e76b078a1626dd994e1df803764" id="r_a3df50e76b078a1626dd994e1df803764"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a></td></tr>
+<tr class="separator:a3df50e76b078a1626dd994e1df803764"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a249fd9254c0c3395567807936ad32641" id="r_a249fd9254c0c3395567807936ad32641"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a></td></tr>
+<tr class="separator:a249fd9254c0c3395567807936ad32641"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e4bb5e8943c9b1f5d438198404d0bd4" id="r_a6e4bb5e8943c9b1f5d438198404d0bd4"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a></td></tr>
+<tr class="separator:a6e4bb5e8943c9b1f5d438198404d0bd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a036dc80bf10949d81e50517828e6d453" id="r_a036dc80bf10949d81e50517828e6d453"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a036dc80bf10949d81e50517828e6d453">MR_std_vector_MR_MeshIntersectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a036dc80bf10949d81e50517828e6d453">MR_std_vector_MR_MeshIntersectionResult</a></td></tr>
+<tr class="separator:a036dc80bf10949d81e50517828e6d453"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a871d6f88c45ba11ce55155f87fdbe4c9" id="r_a871d6f88c45ba11ce55155f87fdbe4c9"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a871d6f88c45ba11ce55155f87fdbe4c9">MR_std_vector_MR_SkyPatch</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a871d6f88c45ba11ce55155f87fdbe4c9">MR_std_vector_MR_SkyPatch</a></td></tr>
+<tr class="separator:a871d6f88c45ba11ce55155f87fdbe4c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefed148a09a0ae55edbd22814638b462" id="r_aefed148a09a0ae55edbd22814638b462"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a></td></tr>
+<tr class="separator:aefed148a09a0ae55edbd22814638b462"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea5a1c36d53f5c2d9e2e8918ffdc3081" id="r_aea5a1c36d53f5c2d9e2e8918ffdc3081"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a></td></tr>
+<tr class="separator:aea5a1c36d53f5c2d9e2e8918ffdc3081"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a6bd20b8037df7f3a5125e03df3b8d147" id="r_a6bd20b8037df7f3a5125e03df3b8d147"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bd20b8037df7f3a5125e03df3b8d147">MR_sampleHalfSphere</a> (void)</td></tr>
+<tr class="separator:a6bd20b8037df7f3a5125e03df3b8d147"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e2fb410c02328faaed31925303d4466" id="r_a4e2fb410c02328faaed31925303d4466"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e2fb410c02328faaed31925303d4466">MR_SkyPatch_Get_dir</a> (const <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *_this)</td></tr>
+<tr class="separator:a4e2fb410c02328faaed31925303d4466"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaafa5856b757637df4d2bf1daa3d56b1" id="r_aaafa5856b757637df4d2bf1daa3d56b1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaafa5856b757637df4d2bf1daa3d56b1">MR_SkyPatch_Set_dir</a> (<a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *_this, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
+<tr class="separator:aaafa5856b757637df4d2bf1daa3d56b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d79f68f6ada312adfc6eeb1c777709d" id="r_a5d79f68f6ada312adfc6eeb1c777709d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d79f68f6ada312adfc6eeb1c777709d">MR_SkyPatch_GetMutable_dir</a> (<a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *_this)</td></tr>
+<tr class="separator:a5d79f68f6ada312adfc6eeb1c777709d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3891fa3876a9093ab9343ed0f5f51f1" id="r_ac3891fa3876a9093ab9343ed0f5f51f1"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3891fa3876a9093ab9343ed0f5f51f1">MR_SkyPatch_Get_radiation</a> (const <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *_this)</td></tr>
+<tr class="separator:ac3891fa3876a9093ab9343ed0f5f51f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1b66f58df9d829567fe411b52b0d091" id="r_ad1b66f58df9d829567fe411b52b0d091"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1b66f58df9d829567fe411b52b0d091">MR_SkyPatch_Set_radiation</a> (<a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *_this, float value)</td></tr>
+<tr class="separator:ad1b66f58df9d829567fe411b52b0d091"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c46daf24f82fe0b9a4e94b416c2b180" id="r_a1c46daf24f82fe0b9a4e94b416c2b180"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c46daf24f82fe0b9a4e94b416c2b180">MR_SkyPatch_GetMutable_radiation</a> (<a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *_this)</td></tr>
+<tr class="separator:a1c46daf24f82fe0b9a4e94b416c2b180"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64d8a4e88ee782e736635b57b5b7f93d" id="r_a64d8a4e88ee782e736635b57b5b7f93d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64d8a4e88ee782e736635b57b5b7f93d">MR_SkyPatch_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a64d8a4e88ee782e736635b57b5b7f93d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8734b0df408b6345dc12a9f464548d4c" id="r_a8734b0df408b6345dc12a9f464548d4c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8734b0df408b6345dc12a9f464548d4c">MR_SkyPatch_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a8734b0df408b6345dc12a9f464548d4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae16f4c918c8d00fcab136599aaaf9042" id="r_ae16f4c918c8d00fcab136599aaaf9042"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae16f4c918c8d00fcab136599aaaf9042">MR_SkyPatch_ConstructFrom</a> (<a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> dir, float radiation)</td></tr>
+<tr class="separator:ae16f4c918c8d00fcab136599aaaf9042"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a14607383b420ecd03c78e454f2695d" id="r_a6a14607383b420ecd03c78e454f2695d"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a14607383b420ecd03c78e454f2695d">MR_SkyPatch_OffsetPtr</a> (const <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a6a14607383b420ecd03c78e454f2695d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a6a14607383b420ecd03c78e454f2695d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0196e32e6f2146982c4aa46c32b2fd24" id="r_a0196e32e6f2146982c4aa46c32b2fd24"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0196e32e6f2146982c4aa46c32b2fd24">MR_SkyPatch_OffsetMutablePtr</a> (<a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a0196e32e6f2146982c4aa46c32b2fd24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a0196e32e6f2146982c4aa46c32b2fd24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac58022dfabe16c6c6b3bf0cd7367106a" id="r_ac58022dfabe16c6c6b3bf0cd7367106a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac58022dfabe16c6c6b3bf0cd7367106a">MR_SkyPatch_ConstructFromAnother</a> (const <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *_other)</td></tr>
+<tr class="separator:ac58022dfabe16c6c6b3bf0cd7367106a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91af284ff3c43accb2239cb0f638d2b3" id="r_a91af284ff3c43accb2239cb0f638d2b3"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91af284ff3c43accb2239cb0f638d2b3">MR_SkyPatch_Destroy</a> (const <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *_this)</td></tr>
+<tr class="memdesc:a91af284ff3c43accb2239cb0f638d2b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_SkyPatch</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a91af284ff3c43accb2239cb0f638d2b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a3965342009fc9a5a05a1513e2ce36d" id="r_a7a3965342009fc9a5a05a1513e2ce36d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a3965342009fc9a5a05a1513e2ce36d">MR_SkyPatch_DestroyArray</a> (const <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *_this)</td></tr>
+<tr class="memdesc:a7a3965342009fc9a5a05a1513e2ce36d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_SkyPatch</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a7a3965342009fc9a5a05a1513e2ce36d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adab37cffd7d4c7966952cf56deb11b83" id="r_adab37cffd7d4c7966952cf56deb11b83"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adab37cffd7d4c7966952cf56deb11b83">MR_SkyPatch_AssignFromAnother</a> (<a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *_this, const <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *_other)</td></tr>
+<tr class="separator:adab37cffd7d4c7966952cf56deb11b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fc100c0bf7ede6c34c388a18c3554b0" id="r_a4fc100c0bf7ede6c34c388a18c3554b0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fc100c0bf7ede6c34c388a18c3554b0">MR_computeSkyViewFactor</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *terrain, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *samples, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *validSamples, const <a class="el" href="#a871d6f88c45ba11ce55155f87fdbe4c9">MR_std_vector_MR_SkyPatch</a> *skyPatches, <a class="el" href="MRBitSet_8h.html#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a> *outSkyRays, <a class="el" href="#a036dc80bf10949d81e50517828e6d453">MR_std_vector_MR_MeshIntersectionResult</a> *outIntersections)</td></tr>
+<tr class="separator:a4fc100c0bf7ede6c34c388a18c3554b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfa6c5e671e19575abb44566f6a989cc" id="r_acfa6c5e671e19575abb44566f6a989cc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBitSet_8h.html#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfa6c5e671e19575abb44566f6a989cc">MR_findSkyRays</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *terrain, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *samples, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *validSamples, const <a class="el" href="#a871d6f88c45ba11ce55155f87fdbe4c9">MR_std_vector_MR_SkyPatch</a> *skyPatches, <a class="el" href="#a036dc80bf10949d81e50517828e6d453">MR_std_vector_MR_MeshIntersectionResult</a> *outIntersections)</td></tr>
+<tr class="separator:acfa6c5e671e19575abb44566f6a989cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a36d7d5a26d258211a2da5d9311a0798c" name="a36d7d5a26d258211a2da5d9311a0798c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36d7d5a26d258211a2da5d9311a0798c">&#9670;&#160;</a></span>MR_BitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBitSet_8h.html#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a> <a class="el" href="MRBitSet_8h.html#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a31b172f68efca6438544d56eb86d6f40" name="a31b172f68efca6438544d56eb86d6f40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31b172f68efca6438544d56eb86d6f40">&#9670;&#160;</a></span>MR_Mesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aea5a1c36d53f5c2d9e2e8918ffdc3081" name="aea5a1c36d53f5c2d9e2e8918ffdc3081"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">&#9670;&#160;</a></span>MR_SkyPatch</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>this class represents a portion of the sky, and its radiation Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1SkyPatch.html">MR::SkyPatch</a></code>. </p>
+
+</div>
+</div>
+<a id="a036dc80bf10949d81e50517828e6d453" name="a036dc80bf10949d81e50517828e6d453"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a036dc80bf10949d81e50517828e6d453">&#9670;&#160;</a></span>MR_std_vector_MR_MeshIntersectionResult</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a036dc80bf10949d81e50517828e6d453">MR_std_vector_MR_MeshIntersectionResult</a> <a class="el" href="#a036dc80bf10949d81e50517828e6d453">MR_std_vector_MR_MeshIntersectionResult</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a871d6f88c45ba11ce55155f87fdbe4c9" name="a871d6f88c45ba11ce55155f87fdbe4c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a871d6f88c45ba11ce55155f87fdbe4c9">&#9670;&#160;</a></span>MR_std_vector_MR_SkyPatch</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a871d6f88c45ba11ce55155f87fdbe4c9">MR_std_vector_MR_SkyPatch</a> <a class="el" href="#a871d6f88c45ba11ce55155f87fdbe4c9">MR_std_vector_MR_SkyPatch</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aefed148a09a0ae55edbd22814638b462" name="aefed148a09a0ae55edbd22814638b462"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefed148a09a0ae55edbd22814638b462">&#9670;&#160;</a></span>MR_std_vector_MR_Vector3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3df50e76b078a1626dd994e1df803764" name="a3df50e76b078a1626dd994e1df803764"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3df50e76b078a1626dd994e1df803764">&#9670;&#160;</a></span>MR_VertBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a249fd9254c0c3395567807936ad32641" name="a249fd9254c0c3395567807936ad32641"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a249fd9254c0c3395567807936ad32641">&#9670;&#160;</a></span>MR_VertCoords</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e4bb5e8943c9b1f5d438198404d0bd4" name="a6e4bb5e8943c9b1f5d438198404d0bd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e4bb5e8943c9b1f5d438198404d0bd4">&#9670;&#160;</a></span>MR_VertScalars</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a4fc100c0bf7ede6c34c388a18c3554b0" name="a4fc100c0bf7ede6c34c388a18c3554b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fc100c0bf7ede6c34c388a18c3554b0">&#9670;&#160;</a></span>MR_computeSkyViewFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> * MR_computeSkyViewFactor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>terrain</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>samples</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>validSamples</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a871d6f88c45ba11ce55155f87fdbe4c9">MR_std_vector_MR_SkyPatch</a> *</td>          <td class="paramname"><span class="paramname"><em>skyPatches</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>outSkyRays</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a036dc80bf10949d81e50517828e6d453">MR_std_vector_MR_MeshIntersectionResult</a> *</td>          <td class="paramname"><span class="paramname"><em>outIntersections</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes relative radiation in each valid sample point by emitting rays from that point in the sky: the radiation is 1.0f if all rays reach the sky not hitting the terrain; the radiation is 0.0f if all rays do not reach the sky because they are intercepted by the terrain; </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">outSkyRays</td><td>- optional output bitset where for every valid sample #i its rays are stored at indices [i*numPatches; (i+1)*numPatches), 0s for occluded rays (hitting the terrain) and 1s for the ones which don't hit anything and reach the sky </td></tr>
+    <tr><td class="paramname">outIntersections</td><td>- optional output vector of MeshIntersectionResult for every valid sample point Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a89b2da067b37f50a6ece3d8f15de383e">MR::computeSkyViewFactor</a></code>. Parameter <code>terrain</code> can not be null. Parameter <code>samples</code> can not be null. Parameter <code>validSamples</code> can not be null. Parameter <code>skyPatches</code> can not be null. Parameter <code>outSkyRays</code> defaults to a null pointer in C++. Parameter <code>outIntersections</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#a83a57f50db4b03b5b3ab957541afdd1f" title="Destroys a heap-allocated instance of MR_VertScalars. Does nothing if the pointer is null.">MR_VertScalars_Destroy()</a></code> to free it when you're done using it. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="acfa6c5e671e19575abb44566f6a989cc" name="acfa6c5e671e19575abb44566f6a989cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfa6c5e671e19575abb44566f6a989cc">&#9670;&#160;</a></span>MR_findSkyRays()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBitSet_8h.html#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a> * MR_findSkyRays </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>terrain</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>samples</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>validSamples</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a871d6f88c45ba11ce55155f87fdbe4c9">MR_std_vector_MR_SkyPatch</a> *</td>          <td class="paramname"><span class="paramname"><em>skyPatches</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a036dc80bf10949d81e50517828e6d453">MR_std_vector_MR_MeshIntersectionResult</a> *</td>          <td class="paramname"><span class="paramname"><em>outIntersections</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>In each valid sample point tests the rays from that point in the sky; </p><dl class="section return"><dt>Returns</dt><dd>bitset where for every valid sample #i its rays are stored at indices [i*numPatches; (i+1)*numPatches), 0s for occluded rays (hitting the terrain) and 1s for the ones which don't hit anything and reach the sky </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">outIntersections</td><td>- optional output vector of MeshIntersectionResult for every valid sample point Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a0c3ab3aa00e01de7b40fee363ff0e3f3">MR::findSkyRays</a></code>. Parameter <code>terrain</code> can not be null. Parameter <code>samples</code> can not be null. Parameter <code>validSamples</code> can not be null. Parameter <code>skyPatches</code> can not be null. Parameter <code>outIntersections</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a051229b3987e1901ba57e522e36f92cc" title="Destroys a heap-allocated instance of MR_BitSet. Does nothing if the pointer is null.">MR_BitSet_Destroy()</a></code> to free it when you're done using it. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6bd20b8037df7f3a5125e03df3b8d147" name="a6bd20b8037df7f3a5125e03df3b8d147"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bd20b8037df7f3a5125e03df3b8d147">&#9670;&#160;</a></span>MR_sampleHalfSphere()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_sampleHalfSphere </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns quasi-uniform 145 samples on unit half-sphere z&gt;0 Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a9ce9a564212b2e113997ca6007a5fdfb">MR::sampleHalfSphere</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__Vector3f_8h.html#abab6d7c953a1806ebeb1b7e736c18d49" title="Destroys a heap-allocated instance of MR_std_vector_MR_Vector3f. Does nothing if the pointer is null.">MR_std_vector_MR_Vector3f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="adab37cffd7d4c7966952cf56deb11b83" name="adab37cffd7d4c7966952cf56deb11b83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adab37cffd7d4c7966952cf56deb11b83">&#9670;&#160;</a></span>MR_SkyPatch_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> * MR_SkyPatch_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SkyPatch.html">MR::SkyPatch</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ae16f4c918c8d00fcab136599aaaf9042" name="ae16f4c918c8d00fcab136599aaaf9042"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae16f4c918c8d00fcab136599aaaf9042">&#9670;&#160;</a></span>MR_SkyPatch_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> * MR_SkyPatch_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3f.html">MR_Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radiation</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1SkyPatch.html">MR::SkyPatch</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a91af284ff3c43accb2239cb0f638d2b3" title="Destroys a heap-allocated instance of MR_SkyPatch. Does nothing if the pointer is null.">MR_SkyPatch_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ac58022dfabe16c6c6b3bf0cd7367106a" name="ac58022dfabe16c6c6b3bf0cd7367106a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac58022dfabe16c6c6b3bf0cd7367106a">&#9670;&#160;</a></span>MR_SkyPatch_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> * MR_SkyPatch_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1SkyPatch.html">MR::SkyPatch</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a91af284ff3c43accb2239cb0f638d2b3" title="Destroys a heap-allocated instance of MR_SkyPatch. Does nothing if the pointer is null.">MR_SkyPatch_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a64d8a4e88ee782e736635b57b5b7f93d" name="a64d8a4e88ee782e736635b57b5b7f93d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64d8a4e88ee782e736635b57b5b7f93d">&#9670;&#160;</a></span>MR_SkyPatch_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> * MR_SkyPatch_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a91af284ff3c43accb2239cb0f638d2b3" title="Destroys a heap-allocated instance of MR_SkyPatch. Does nothing if the pointer is null.">MR_SkyPatch_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a8734b0df408b6345dc12a9f464548d4c" name="a8734b0df408b6345dc12a9f464548d4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8734b0df408b6345dc12a9f464548d4c">&#9670;&#160;</a></span>MR_SkyPatch_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> * MR_SkyPatch_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a7a3965342009fc9a5a05a1513e2ce36d" title="Destroys a heap-allocated array of MR_SkyPatch. Does nothing if the pointer is null.">MR_SkyPatch_DestroyArray()</a></code>. Use <code><a class="el" href="#a0196e32e6f2146982c4aa46c32b2fd24" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_SkyPatch_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a6a14607383b420ecd03c78e454f2695d" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_SkyPatch_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a91af284ff3c43accb2239cb0f638d2b3" name="a91af284ff3c43accb2239cb0f638d2b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91af284ff3c43accb2239cb0f638d2b3">&#9670;&#160;</a></span>MR_SkyPatch_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SkyPatch_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_SkyPatch</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a7a3965342009fc9a5a05a1513e2ce36d" name="a7a3965342009fc9a5a05a1513e2ce36d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a3965342009fc9a5a05a1513e2ce36d">&#9670;&#160;</a></span>MR_SkyPatch_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SkyPatch_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_SkyPatch</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a4e2fb410c02328faaed31925303d4466" name="a4e2fb410c02328faaed31925303d4466"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e2fb410c02328faaed31925303d4466">&#9670;&#160;</a></span>MR_SkyPatch_Get_dir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_SkyPatch_Get_dir </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>direction toward the center of the patch Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SkyPatch.html">MR::SkyPatch</a></code> named <code>dir</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ac3891fa3876a9093ab9343ed0f5f51f1" name="ac3891fa3876a9093ab9343ed0f5f51f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3891fa3876a9093ab9343ed0f5f51f1">&#9670;&#160;</a></span>MR_SkyPatch_Get_radiation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const float * MR_SkyPatch_Get_radiation </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>radiation of the patch depending on Sun's position, sky clearness and brightness, etc Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SkyPatch.html">MR::SkyPatch</a></code> named <code>radiation</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a5d79f68f6ada312adfc6eeb1c777709d" name="a5d79f68f6ada312adfc6eeb1c777709d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d79f68f6ada312adfc6eeb1c777709d">&#9670;&#160;</a></span>MR_SkyPatch_GetMutable_dir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_SkyPatch_GetMutable_dir </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>direction toward the center of the patch Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SkyPatch.html">MR::SkyPatch</a></code> named <code>dir</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a1c46daf24f82fe0b9a4e94b416c2b180" name="a1c46daf24f82fe0b9a4e94b416c2b180"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c46daf24f82fe0b9a4e94b416c2b180">&#9670;&#160;</a></span>MR_SkyPatch_GetMutable_radiation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float * MR_SkyPatch_GetMutable_radiation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>radiation of the patch depending on Sun's position, sky clearness and brightness, etc Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SkyPatch.html">MR::SkyPatch</a></code> named <code>radiation</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a0196e32e6f2146982c4aa46c32b2fd24" name="a0196e32e6f2146982c4aa46c32b2fd24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0196e32e6f2146982c4aa46c32b2fd24">&#9670;&#160;</a></span>MR_SkyPatch_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> * MR_SkyPatch_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a6a14607383b420ecd03c78e454f2695d" name="a6a14607383b420ecd03c78e454f2695d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a14607383b420ecd03c78e454f2695d">&#9670;&#160;</a></span>MR_SkyPatch_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> * MR_SkyPatch_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="aaafa5856b757637df4d2bf1daa3d56b1" name="aaafa5856b757637df4d2bf1daa3d56b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaafa5856b757637df4d2bf1daa3d56b1">&#9670;&#160;</a></span>MR_SkyPatch_Set_dir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SkyPatch_Set_dir </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3f.html">MR_Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>direction toward the center of the patch Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SkyPatch.html">MR::SkyPatch</a></code> named <code>dir</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad1b66f58df9d829567fe411b52b0d091" name="ad1b66f58df9d829567fe411b52b0d091"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1b66f58df9d829567fe411b52b0d091">&#9670;&#160;</a></span>MR_SkyPatch_Set_radiation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SkyPatch_Set_radiation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aea5a1c36d53f5c2d9e2e8918ffdc3081">MR_SkyPatch</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>radiation of the patch depending on Sun's position, sky clearness and brightness, etc Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SkyPatch.html">MR::SkyPatch</a></code> named <code>radiation</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_edf0f16e60c04dfd5ab45283d7d2b4c8.html">MeshLibC2</a></li><li class="navelem"><a class="el" href="dir_f3c2ac700f1d732f71f807964912e32e.html">include</a></li><li class="navelem"><a class="el" href="dir_8b489c7b5d1a72d35ec87e32cc37b940.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRSolarRadiation_8h.html">MRSolarRadiation.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

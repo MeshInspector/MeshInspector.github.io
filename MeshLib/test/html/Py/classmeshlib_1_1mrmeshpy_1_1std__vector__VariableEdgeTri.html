@@ -1,0 +1,829 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib Python Docs: meshlib.mrmeshpy.std_vector_VariableEdgeTri Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib Python Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classmeshlib_1_1mrmeshpy_1_1std__vector__VariableEdgeTri.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classmeshlib_1_1mrmeshpy_1_1std__vector__VariableEdgeTri-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">meshlib.mrmeshpy.std_vector_VariableEdgeTri Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a3f81873f64dcd0f53712c56d459424ef" id="r_a3f81873f64dcd0f53712c56d459424ef"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f81873f64dcd0f53712c56d459424ef">__bool__</a> (self)</td></tr>
+<tr class="separator:a3f81873f64dcd0f53712c56d459424ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20558b677f216481ed6a82dfca36344c" id="r_a20558b677f216481ed6a82dfca36344c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20558b677f216481ed6a82dfca36344c">__contains__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VariableEdgeTri.html">VariableEdgeTri</a> x)</td></tr>
+<tr class="separator:a20558b677f216481ed6a82dfca36344c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b4c53ca33fc12bc04045b549902c452" id="r_a1b4c53ca33fc12bc04045b549902c452"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b4c53ca33fc12bc04045b549902c452">__delitem__</a> (self, int arg0)</td></tr>
+<tr class="separator:a1b4c53ca33fc12bc04045b549902c452"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfbea43bb14340e964ed9f9f900630fb" id="r_abfbea43bb14340e964ed9f9f900630fb"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfbea43bb14340e964ed9f9f900630fb">__delitem__</a> (self, slice arg0)</td></tr>
+<tr class="separator:abfbea43bb14340e964ed9f9f900630fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51254406cc5842b9bae1a1331b642167" id="r_a51254406cc5842b9bae1a1331b642167"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51254406cc5842b9bae1a1331b642167">__eq__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__VariableEdgeTri.html">std_vector_VariableEdgeTri</a> arg0)</td></tr>
+<tr class="separator:a51254406cc5842b9bae1a1331b642167"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15ad9dd544dfdd3a9f4d9a5bcc333209" id="r_a15ad9dd544dfdd3a9f4d9a5bcc333209"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__VariableEdgeTri.html">std_vector_VariableEdgeTri</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15ad9dd544dfdd3a9f4d9a5bcc333209">__getitem__</a> (self, slice s)</td></tr>
+<tr class="separator:a15ad9dd544dfdd3a9f4d9a5bcc333209"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae32712092d7e2597f29b32f523760cf9" id="r_ae32712092d7e2597f29b32f523760cf9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VariableEdgeTri.html">VariableEdgeTri</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae32712092d7e2597f29b32f523760cf9">__getitem__</a> (self, int arg0)</td></tr>
+<tr class="separator:ae32712092d7e2597f29b32f523760cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d0372743899213f12f5c674c1a11f74" id="r_a1d0372743899213f12f5c674c1a11f74"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d0372743899213f12f5c674c1a11f74">__init__</a> (self)</td></tr>
+<tr class="separator:a1d0372743899213f12f5c674c1a11f74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3df190abe06accb141c6170925adee2d" id="r_a3df190abe06accb141c6170925adee2d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3df190abe06accb141c6170925adee2d">__init__</a> (self, typing.Iterable arg0)</td></tr>
+<tr class="separator:a3df190abe06accb141c6170925adee2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af883f51a47a1e34d4f7b665a5eac053d" id="r_af883f51a47a1e34d4f7b665a5eac053d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af883f51a47a1e34d4f7b665a5eac053d">__init__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__VariableEdgeTri.html">std_vector_VariableEdgeTri</a> arg0)</td></tr>
+<tr class="separator:af883f51a47a1e34d4f7b665a5eac053d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95c3425d0324b42dd76df9464b491d4f" id="r_a95c3425d0324b42dd76df9464b491d4f"><td class="memItemLeft" align="right" valign="top">typing.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95c3425d0324b42dd76df9464b491d4f">__iter__</a> (self)</td></tr>
+<tr class="separator:a95c3425d0324b42dd76df9464b491d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f6c337a7468b824a136cff39198f587" id="r_a3f6c337a7468b824a136cff39198f587"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f6c337a7468b824a136cff39198f587">__len__</a> (self)</td></tr>
+<tr class="separator:a3f6c337a7468b824a136cff39198f587"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab35e2ec4e1320ba3641463da71bc2826" id="r_ab35e2ec4e1320ba3641463da71bc2826"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab35e2ec4e1320ba3641463da71bc2826">__ne__</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__VariableEdgeTri.html">std_vector_VariableEdgeTri</a> arg0)</td></tr>
+<tr class="separator:ab35e2ec4e1320ba3641463da71bc2826"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20a88f806f4081a9ae648794e976a3ed" id="r_a20a88f806f4081a9ae648794e976a3ed"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20a88f806f4081a9ae648794e976a3ed">__setitem__</a> (self, int arg0, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VariableEdgeTri.html">VariableEdgeTri</a> arg1)</td></tr>
+<tr class="separator:a20a88f806f4081a9ae648794e976a3ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94ef1f90f3148d16ef7cb3059d078391" id="r_a94ef1f90f3148d16ef7cb3059d078391"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94ef1f90f3148d16ef7cb3059d078391">__setitem__</a> (self, slice arg0, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__VariableEdgeTri.html">std_vector_VariableEdgeTri</a> arg1)</td></tr>
+<tr class="separator:a94ef1f90f3148d16ef7cb3059d078391"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71f3e139204386e3af2a0c92456d2fd7" id="r_a71f3e139204386e3af2a0c92456d2fd7"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71f3e139204386e3af2a0c92456d2fd7">append</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VariableEdgeTri.html">VariableEdgeTri</a> x)</td></tr>
+<tr class="separator:a71f3e139204386e3af2a0c92456d2fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7160bbb677e846b9c8d302ee160f604" id="r_aa7160bbb677e846b9c8d302ee160f604"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7160bbb677e846b9c8d302ee160f604">clear</a> (self)</td></tr>
+<tr class="separator:aa7160bbb677e846b9c8d302ee160f604"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b5ae81fc177abd12a84f5b2e997fd22" id="r_a4b5ae81fc177abd12a84f5b2e997fd22"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b5ae81fc177abd12a84f5b2e997fd22">count</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VariableEdgeTri.html">VariableEdgeTri</a> x)</td></tr>
+<tr class="separator:a4b5ae81fc177abd12a84f5b2e997fd22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b250f52ff75c56f8da82361b5b49b2c" id="r_a2b250f52ff75c56f8da82361b5b49b2c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b250f52ff75c56f8da82361b5b49b2c">empty</a> (self)</td></tr>
+<tr class="separator:a2b250f52ff75c56f8da82361b5b49b2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bd906c31986985a486e74047ce39211" id="r_a1bd906c31986985a486e74047ce39211"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bd906c31986985a486e74047ce39211">extend</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__VariableEdgeTri.html">std_vector_VariableEdgeTri</a> L)</td></tr>
+<tr class="separator:a1bd906c31986985a486e74047ce39211"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade8940eaf9ea7ea26cf567fd168b6155" id="r_ade8940eaf9ea7ea26cf567fd168b6155"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade8940eaf9ea7ea26cf567fd168b6155">extend</a> (self, typing.Iterable L)</td></tr>
+<tr class="separator:ade8940eaf9ea7ea26cf567fd168b6155"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b636bf021e44d37f28177972c20b488" id="r_a2b636bf021e44d37f28177972c20b488"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b636bf021e44d37f28177972c20b488">insert</a> (self, int i, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VariableEdgeTri.html">VariableEdgeTri</a> x)</td></tr>
+<tr class="separator:a2b636bf021e44d37f28177972c20b488"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f02e5c823ae342428fff7336ab7faee" id="r_a2f02e5c823ae342428fff7336ab7faee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VariableEdgeTri.html">VariableEdgeTri</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f02e5c823ae342428fff7336ab7faee">pop</a> (self)</td></tr>
+<tr class="separator:a2f02e5c823ae342428fff7336ab7faee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64e6e467d535d67f102a89455b5a937e" id="r_a64e6e467d535d67f102a89455b5a937e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VariableEdgeTri.html">VariableEdgeTri</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64e6e467d535d67f102a89455b5a937e">pop</a> (self, int i)</td></tr>
+<tr class="separator:a64e6e467d535d67f102a89455b5a937e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc8a90db7c675acc66960a2a8feb3f21" id="r_afc8a90db7c675acc66960a2a8feb3f21"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc8a90db7c675acc66960a2a8feb3f21">remove</a> (self, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VariableEdgeTri.html">VariableEdgeTri</a> x)</td></tr>
+<tr class="separator:afc8a90db7c675acc66960a2a8feb3f21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c897ff756899c8c4c003c3969170ab1" id="r_a1c897ff756899c8c4c003c3969170ab1"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c897ff756899c8c4c003c3969170ab1">resize</a> (self, int arg0)</td></tr>
+<tr class="separator:a1c897ff756899c8c4c003c3969170ab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfc1b16b7e9cb2a1e01fa5bf4fd00e58" id="r_abfc1b16b7e9cb2a1e01fa5bf4fd00e58"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfc1b16b7e9cb2a1e01fa5bf4fd00e58">resize</a> (self, int arg0, <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VariableEdgeTri.html">VariableEdgeTri</a> arg1)</td></tr>
+<tr class="separator:abfc1b16b7e9cb2a1e01fa5bf4fd00e58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6fe0942d63198f0e38856f82c07b3b5" id="r_ab6fe0942d63198f0e38856f82c07b3b5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6fe0942d63198f0e38856f82c07b3b5">size</a> (self)</td></tr>
+<tr class="separator:ab6fe0942d63198f0e38856f82c07b3b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><pre class="fragment">Aliases:  ContinuousContour
+</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a1d0372743899213f12f5c674c1a11f74" name="a1d0372743899213f12f5c674c1a11f74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d0372743899213f12f5c674c1a11f74">&#9670;&#160;</a></span>__init__() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_VariableEdgeTri.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3df190abe06accb141c6170925adee2d" name="a3df190abe06accb141c6170925adee2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3df190abe06accb141c6170925adee2d">&#9670;&#160;</a></span>__init__() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_VariableEdgeTri.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typing.Iterable</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af883f51a47a1e34d4f7b665a5eac053d" name="af883f51a47a1e34d4f7b665a5eac053d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af883f51a47a1e34d4f7b665a5eac053d">&#9670;&#160;</a></span>__init__() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_VariableEdgeTri.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__VariableEdgeTri.html">std_vector_VariableEdgeTri</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a3f81873f64dcd0f53712c56d459424ef" name="a3f81873f64dcd0f53712c56d459424ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f81873f64dcd0f53712c56d459424ef">&#9670;&#160;</a></span>__bool__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.std_vector_VariableEdgeTri.__bool__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Check whether the list is nonempty
+</pre> 
+</div>
+</div>
+<a id="a20558b677f216481ed6a82dfca36344c" name="a20558b677f216481ed6a82dfca36344c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20558b677f216481ed6a82dfca36344c">&#9670;&#160;</a></span>__contains__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.std_vector_VariableEdgeTri.__contains__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VariableEdgeTri.html">VariableEdgeTri</a></td>          <td class="paramname"><span class="paramname"><em>x</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Return true the container contains ``x``
+</pre> 
+</div>
+</div>
+<a id="a1b4c53ca33fc12bc04045b549902c452" name="a1b4c53ca33fc12bc04045b549902c452"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b4c53ca33fc12bc04045b549902c452">&#9670;&#160;</a></span>__delitem__() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_VariableEdgeTri.__delitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Delete the list elements at index ``i``
+</pre> 
+</div>
+</div>
+<a id="abfbea43bb14340e964ed9f9f900630fb" name="abfbea43bb14340e964ed9f9f900630fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfbea43bb14340e964ed9f9f900630fb">&#9670;&#160;</a></span>__delitem__() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_VariableEdgeTri.__delitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">slice</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Delete list elements using a slice object
+</pre> 
+</div>
+</div>
+<a id="a51254406cc5842b9bae1a1331b642167" name="a51254406cc5842b9bae1a1331b642167"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51254406cc5842b9bae1a1331b642167">&#9670;&#160;</a></span>__eq__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.std_vector_VariableEdgeTri.__eq__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__VariableEdgeTri.html">std_vector_VariableEdgeTri</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae32712092d7e2597f29b32f523760cf9" name="ae32712092d7e2597f29b32f523760cf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae32712092d7e2597f29b32f523760cf9">&#9670;&#160;</a></span>__getitem__() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VariableEdgeTri.html">VariableEdgeTri</a> meshlib.mrmeshpy.std_vector_VariableEdgeTri.__getitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a15ad9dd544dfdd3a9f4d9a5bcc333209" name="a15ad9dd544dfdd3a9f4d9a5bcc333209"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15ad9dd544dfdd3a9f4d9a5bcc333209">&#9670;&#160;</a></span>__getitem__() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__VariableEdgeTri.html">std_vector_VariableEdgeTri</a> meshlib.mrmeshpy.std_vector_VariableEdgeTri.__getitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">slice</td>          <td class="paramname"><span class="paramname"><em>s</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Retrieve list elements using a slice object
+</pre> 
+</div>
+</div>
+<a id="a95c3425d0324b42dd76df9464b491d4f" name="a95c3425d0324b42dd76df9464b491d4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95c3425d0324b42dd76df9464b491d4f">&#9670;&#160;</a></span>__iter__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> typing.Iterator meshlib.mrmeshpy.std_vector_VariableEdgeTri.__iter__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3f6c337a7468b824a136cff39198f587" name="a3f6c337a7468b824a136cff39198f587"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f6c337a7468b824a136cff39198f587">&#9670;&#160;</a></span>__len__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.std_vector_VariableEdgeTri.__len__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab35e2ec4e1320ba3641463da71bc2826" name="ab35e2ec4e1320ba3641463da71bc2826"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab35e2ec4e1320ba3641463da71bc2826">&#9670;&#160;</a></span>__ne__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.std_vector_VariableEdgeTri.__ne__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__VariableEdgeTri.html">std_vector_VariableEdgeTri</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a20a88f806f4081a9ae648794e976a3ed" name="a20a88f806f4081a9ae648794e976a3ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20a88f806f4081a9ae648794e976a3ed">&#9670;&#160;</a></span>__setitem__() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_VariableEdgeTri.__setitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VariableEdgeTri.html">VariableEdgeTri</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a94ef1f90f3148d16ef7cb3059d078391" name="a94ef1f90f3148d16ef7cb3059d078391"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94ef1f90f3148d16ef7cb3059d078391">&#9670;&#160;</a></span>__setitem__() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_VariableEdgeTri.__setitem__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">slice</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__VariableEdgeTri.html">std_vector_VariableEdgeTri</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Assign list elements using a slice object
+</pre> 
+</div>
+</div>
+<a id="a71f3e139204386e3af2a0c92456d2fd7" name="a71f3e139204386e3af2a0c92456d2fd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71f3e139204386e3af2a0c92456d2fd7">&#9670;&#160;</a></span>append()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_VariableEdgeTri.append </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VariableEdgeTri.html">VariableEdgeTri</a></td>          <td class="paramname"><span class="paramname"><em>x</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Add an item to the end of the list
+</pre> 
+</div>
+</div>
+<a id="aa7160bbb677e846b9c8d302ee160f604" name="aa7160bbb677e846b9c8d302ee160f604"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7160bbb677e846b9c8d302ee160f604">&#9670;&#160;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_VariableEdgeTri.clear </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Clear the contents
+</pre> 
+</div>
+</div>
+<a id="a4b5ae81fc177abd12a84f5b2e997fd22" name="a4b5ae81fc177abd12a84f5b2e997fd22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b5ae81fc177abd12a84f5b2e997fd22">&#9670;&#160;</a></span>count()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.std_vector_VariableEdgeTri.count </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VariableEdgeTri.html">VariableEdgeTri</a></td>          <td class="paramname"><span class="paramname"><em>x</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Return the number of times ``x`` appears in the list
+</pre> 
+</div>
+</div>
+<a id="a2b250f52ff75c56f8da82361b5b49b2c" name="a2b250f52ff75c56f8da82361b5b49b2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b250f52ff75c56f8da82361b5b49b2c">&#9670;&#160;</a></span>empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool meshlib.mrmeshpy.std_vector_VariableEdgeTri.empty </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1bd906c31986985a486e74047ce39211" name="a1bd906c31986985a486e74047ce39211"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bd906c31986985a486e74047ce39211">&#9670;&#160;</a></span>extend() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_VariableEdgeTri.extend </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__VariableEdgeTri.html">std_vector_VariableEdgeTri</a></td>          <td class="paramname"><span class="paramname"><em>L</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Extend the list by appending all the items in the given list
+</pre> 
+</div>
+</div>
+<a id="ade8940eaf9ea7ea26cf567fd168b6155" name="ade8940eaf9ea7ea26cf567fd168b6155"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade8940eaf9ea7ea26cf567fd168b6155">&#9670;&#160;</a></span>extend() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_VariableEdgeTri.extend </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typing.Iterable</td>          <td class="paramname"><span class="paramname"><em>L</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Extend the list by appending all the items in the given list
+</pre> 
+</div>
+</div>
+<a id="a2b636bf021e44d37f28177972c20b488" name="a2b636bf021e44d37f28177972c20b488"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b636bf021e44d37f28177972c20b488">&#9670;&#160;</a></span>insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_VariableEdgeTri.insert </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VariableEdgeTri.html">VariableEdgeTri</a></td>          <td class="paramname"><span class="paramname"><em>x</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Insert an item at a given position.
+</pre> 
+</div>
+</div>
+<a id="a2f02e5c823ae342428fff7336ab7faee" name="a2f02e5c823ae342428fff7336ab7faee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f02e5c823ae342428fff7336ab7faee">&#9670;&#160;</a></span>pop() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VariableEdgeTri.html">VariableEdgeTri</a> meshlib.mrmeshpy.std_vector_VariableEdgeTri.pop </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Remove and return the last item
+</pre> 
+</div>
+</div>
+<a id="a64e6e467d535d67f102a89455b5a937e" name="a64e6e467d535d67f102a89455b5a937e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64e6e467d535d67f102a89455b5a937e">&#9670;&#160;</a></span>pop() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmeshlib_1_1mrmeshpy_1_1VariableEdgeTri.html">VariableEdgeTri</a> meshlib.mrmeshpy.std_vector_VariableEdgeTri.pop </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Remove and return the item at index ``i``
+</pre> 
+</div>
+</div>
+<a id="afc8a90db7c675acc66960a2a8feb3f21" name="afc8a90db7c675acc66960a2a8feb3f21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc8a90db7c675acc66960a2a8feb3f21">&#9670;&#160;</a></span>remove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_VariableEdgeTri.remove </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VariableEdgeTri.html">VariableEdgeTri</a></td>          <td class="paramname"><span class="paramname"><em>x</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Remove the first item from the list whose value is x. It is an error if there is no such item.
+</pre> 
+</div>
+</div>
+<a id="a1c897ff756899c8c4c003c3969170ab1" name="a1c897ff756899c8c4c003c3969170ab1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c897ff756899c8c4c003c3969170ab1">&#9670;&#160;</a></span>resize() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_VariableEdgeTri.resize </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abfc1b16b7e9cb2a1e01fa5bf4fd00e58" name="abfc1b16b7e9cb2a1e01fa5bf4fd00e58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfc1b16b7e9cb2a1e01fa5bf4fd00e58">&#9670;&#160;</a></span>resize() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None meshlib.mrmeshpy.std_vector_VariableEdgeTri.resize </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1VariableEdgeTri.html">VariableEdgeTri</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6fe0942d63198f0e38856f82c07b3b5" name="ab6fe0942d63198f0e38856f82c07b3b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6fe0942d63198f0e38856f82c07b3b5">&#9670;&#160;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int meshlib.mrmeshpy.std_vector_VariableEdgeTri.size </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="mrmeshpy_8pyi.html">mrmeshpy.pyi</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemeshlib.html">meshlib</a></li><li class="navelem"><a class="el" href="namespacemeshlib_1_1mrmeshpy.html">mrmeshpy</a></li><li class="navelem"><a class="el" href="classmeshlib_1_1mrmeshpy_1_1std__vector__VariableEdgeTri.html">std_vector_VariableEdgeTri</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>
