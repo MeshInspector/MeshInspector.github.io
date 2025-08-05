@@ -19,7 +19,7 @@ mkdir -p ${TARGET_DIR}/html
 #clear output directory
 rm -rf ${TARGET_DIR}/html/*
 
-MODULES=(Py Cpp Main)
+MODULES=(Main Cpp Py C)
 #generate tag files
 for MODULE in ${MODULES[*]}
 do
@@ -30,13 +30,15 @@ done
 rm -rf ${TARGET_DIR}/html/*
 
 #final generation of documentation
-sed -e "s|TAGFILES\s*=.*|TAGFILES = MeshLib/MeshLibPy.tag=./Py MeshLib/MeshLibCpp.tag=./Cpp|" -i DoxyfileMain
+sed -e "s|TAGFILES\s*=.*|TAGFILES = MeshLib/MeshLibPy.tag=./Py MeshLib/MeshLibCpp.tag=./Cpp MeshLib/MeshLibC.tag=./C|" -i DoxyfileMain
 doxygen ./DoxyfileMain 1 >> log.txt
 sed -e 's|<\!-- No Index Part -->|<meta name=\"robots\" content=\"noindex, nofollow\">|' -i html_header.html
-sed -e "s|TAGFILES\s*=.*|TAGFILES = MeshLib/MeshLibMain.tag=../ MeshLib/MeshLibCpp.tag=../Cpp|" -i DoxyfilePy
+sed -e "s|TAGFILES\s*=.*|TAGFILES = MeshLib/MeshLibMain.tag=../ MeshLib/MeshLibCpp.tag=../Cpp MeshLib/MeshLibC.tag=../C|" -i DoxyfilePy
 doxygen ./DoxyfilePy 1 >> log.txt
-sed -e "s|TAGFILES\s*=.*|TAGFILES = MeshLib/MeshLibMain.tag=../ MeshLib/MeshLibPy.tag=../Py|" -i DoxyfileCpp
+sed -e "s|TAGFILES\s*=.*|TAGFILES = MeshLib/MeshLibMain.tag=../ MeshLib/MeshLibPy.tag=../Py MeshLib/MeshLibC.tag=../C|" -i DoxyfileCpp
 doxygen ./DoxyfileCpp 1 >> log.txt
+sed -e "s|TAGFILES\s*=.*|TAGFILES = MeshLib/MeshLibMain.tag=../ MeshLib/MeshLibCpp.tag=../Cpp MeshLib/MeshLibPy.tag=../Py|" -i DoxyfileC
+doxygen ./DoxyfileC 1 >> log.txt
 
 ./scripts/update_search.sh "$TARGET_DIR"
 ./scripts/restore_files.sh
