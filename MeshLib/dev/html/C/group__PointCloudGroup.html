@@ -319,7 +319,7 @@ Functions</h2></td></tr>
 <tr class="separator:gadc7e70a24b7e1fca4a322112076b7811"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudRelaxParams.html">MR::PointCloudRelaxParams</a></code>. Inherits from: Directly: (non-virtually) <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> Classes derived from this: Directly: (non-virtually) <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudApproxRelaxParams.html">MR::PointCloudApproxRelaxParams</a></code> </p>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudRelaxParams.html">MR::PointCloudRelaxParams</a></code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> Derived classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudApproxRelaxParams.html">MR::PointCloudApproxRelaxParams</a></code> </p>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="gaa319738c95f0bbde075b7ef777cf2665" name="gaa319738c95f0bbde075b7ef777cf2665"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaa319738c95f0bbde075b7ef777cf2665">&#9670;&#160;</a></span>MR_PointCloud</h2>
@@ -347,7 +347,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudApproxRelaxParams.html">MR::PointCloudApproxRelaxParams</a></code>. Inherits from: Directly: (non-virtually) <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudRelaxParams.html">MR::PointCloudRelaxParams</a></code> Indirectly: (non-virtually) <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> </p>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudApproxRelaxParams.html">MR::PointCloudApproxRelaxParams</a></code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudRelaxParams.html">MR::PointCloudRelaxParams</a></code> Indirect: (non-virtual) <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> </p>
 
 </div>
 </div>
@@ -414,7 +414,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#ga65f914c5f869b8b554e8394912e5a7a3">MR::findAvgPointsRadius</a></code>. Parameter <code>pointCloud</code> can not be null. Parameter <code>samples</code> has a default argument: <code>1024</code>, pass a null pointer to use it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#ga65f914c5f869b8b554e8394912e5a7a3">MR::findAvgPointsRadius</a></code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>samples</code> has a default argument: <code>1024</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -449,7 +449,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>false if it was terminated by the callback</dd></dl>
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#gad56601e20058641f49fa277149d87e08">MR::improveSampling</a></code>. Parameter <code>cloud</code> can not be null. Parameter <code>samples</code> can not be null. Parameter <code>settings</code> can not be null. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#gad56601e20058641f49fa277149d87e08">MR::improveSampling</a></code>. Parameter <code>cloud</code> can not be null. It is a single object. Parameter <code>samples</code> can not be null. It is a single object. Parameter <code>settings</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -475,7 +475,7 @@ Functions</h2></td></tr>
 <p>Makes consistent normals for valid points of given point cloud. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">avgNeighborhoodSize</td><td>avg num of neighbors of each individual point Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#ga6d1b190105546ec214cc4ab692ece60e">MR::makeNormals</a></code>. Parameter <code>pointCloud</code> can not be null. Parameter <code>avgNeighborhoodSize</code> has a default argument: <code>48</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#ae3e5b113c183c12e3130be9227a248e5" title="Destroys a heap-allocated instance of MR_VertCoords. Does nothing if the pointer is null.">MR_VertCoords_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">avgNeighborhoodSize</td><td>avg num of neighbors of each individual point Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#ga6d1b190105546ec214cc4ab692ece60e">MR::makeNormals</a></code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>avgNeighborhoodSize</code> has a default argument: <code>48</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#ae3e5b113c183c12e3130be9227a248e5" title="Destroys a heap-allocated instance of MR_VertCoords. Does nothing if the pointer is null.">MR_VertCoords_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -514,7 +514,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>nullopt if progress returned false</dd></dl>
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#ga40da78b08c082b4012d578e9b68e0c69">MR::makeOrientedNormals</a></code>. Parameter <code>pointCloud</code> can not be null. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertCoords_8h.html#a88c7d4b5c4f41fcd1868caf761fb06a6" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertCoords. Does nothing if the pointer is n...">MR_std_optional_MR_VertCoords_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#ga40da78b08c082b4012d578e9b68e0c69">MR::makeOrientedNormals</a></code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>progress</code> is a single object. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertCoords_8h.html#a88c7d4b5c4f41fcd1868caf761fb06a6" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertCoords. Does nothing if the pointer is n...">MR_std_optional_MR_VertCoords_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -544,7 +544,7 @@ Functions</h2></td></tr>
 
 <p>Makes normals for valid points of given point cloud; directions of close points are selected to be consistent; \triangs triangulation neighbours of each point, which are oriented during the call as well. </p>
 <dl class="section return"><dt>Returns</dt><dd>nullopt if progress returned false</dd></dl>
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#ga40da78b08c082b4012d578e9b68e0c69">MR::makeOrientedNormals</a></code>. Parameter <code>pointCloud</code> can not be null. Parameter <code>triangs</code> can not be null. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertCoords_8h.html#a88c7d4b5c4f41fcd1868caf761fb06a6" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertCoords. Does nothing if the pointer is n...">MR_std_optional_MR_VertCoords_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#ga40da78b08c082b4012d578e9b68e0c69">MR::makeOrientedNormals</a></code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>triangs</code> can not be null. It is a single object. Parameter <code>progress</code> is a single object. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertCoords_8h.html#a88c7d4b5c4f41fcd1868caf761fb06a6" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertCoords. Does nothing if the pointer is n...">MR_std_optional_MR_VertCoords_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -567,7 +567,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Composes new point cloud consisting of uniform samples of original point cloud; returns std::nullopt if it was terminated by the callback</p>
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#gacc95b061bc268ba7d0b6e32ac47807f7">MR::makeUniformSampledCloud</a></code>. Parameter <code>pointCloud</code> can not be null. Parameter <code>settings</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__PointCloud_8h.html#ae841f6c23349a4c298e34abd4c887e37" title="Destroys a heap-allocated instance of MR_std_optional_MR_PointCloud. Does nothing if the pointer is n...">MR_std_optional_MR_PointCloud_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#gacc95b061bc268ba7d0b6e32ac47807f7">MR::makeUniformSampledCloud</a></code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>settings</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__PointCloud_8h.html#ae841f6c23349a4c298e34abd4c887e37" title="Destroys a heap-allocated instance of MR_std_optional_MR_PointCloud. Does nothing if the pointer is n...">MR_std_optional_MR_PointCloud_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -609,7 +609,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>nullopt if progress returned false</dd></dl>
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#gacc81cfcb469766869e22075807c018db">MR::makeUnorientedNormals</a></code>. Parameter <code>pointCloud</code> can not be null. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>orient</code> has a default argument: <code>OrientNormals::Smart</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertCoords_8h.html#a88c7d4b5c4f41fcd1868caf761fb06a6" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertCoords. Does nothing if the pointer is n...">MR_std_optional_MR_VertCoords_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#gacc81cfcb469766869e22075807c018db">MR::makeUnorientedNormals</a></code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>progress</code> is a single object. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>orient</code> has a default argument: <code>OrientNormals::Smart</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertCoords_8h.html#a88c7d4b5c4f41fcd1868caf761fb06a6" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertCoords. Does nothing if the pointer is n...">MR_std_optional_MR_VertCoords_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -650,7 +650,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>nullopt if progress returned false</dd></dl>
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#gacc81cfcb469766869e22075807c018db">MR::makeUnorientedNormals</a></code>. Parameter <code>pointCloud</code> can not be null. Parameter <code>triangs</code> can not be null. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>orient</code> has a default argument: <code>OrientNormals::Smart</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertCoords_8h.html#a88c7d4b5c4f41fcd1868caf761fb06a6" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertCoords. Does nothing if the pointer is n...">MR_std_optional_MR_VertCoords_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#gacc81cfcb469766869e22075807c018db">MR::makeUnorientedNormals</a></code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>triangs</code> can not be null. It is a single object. Parameter <code>progress</code> is a single object. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>orient</code> has a default argument: <code>OrientNormals::Smart</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertCoords_8h.html#a88c7d4b5c4f41fcd1868caf761fb06a6" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertCoords. Does nothing if the pointer is n...">MR_std_optional_MR_VertCoords_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -697,7 +697,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>nullopt if progress returned false</dd></dl>
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#gacc81cfcb469766869e22075807c018db">MR::makeUnorientedNormals</a></code>. Parameter <code>pointCloud</code> can not be null. Parameter <code>closeVerts</code> can not be null. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>orient</code> has a default argument: <code>OrientNormals::Smart</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertCoords_8h.html#a88c7d4b5c4f41fcd1868caf761fb06a6" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertCoords. Does nothing if the pointer is n...">MR_std_optional_MR_VertCoords_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#gacc81cfcb469766869e22075807c018db">MR::makeUnorientedNormals</a></code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>closeVerts</code> can not be null. It is a single object. Parameter <code>progress</code> is a single object. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>orient</code> has a default argument: <code>OrientNormals::Smart</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertCoords_8h.html#a88c7d4b5c4f41fcd1868caf761fb06a6" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertCoords. Does nothing if the pointer is n...">MR_std_optional_MR_VertCoords_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -738,7 +738,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>false if progress returned false</dd></dl>
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#gac088f8a5d90a98ec6f18e97caca298f2">MR::orientNormals</a></code>. Parameter <code>pointCloud</code> can not be null. Parameter <code>normals</code> can not be null. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#gac088f8a5d90a98ec6f18e97caca298f2">MR::orientNormals</a></code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>normals</code> can not be null. It is a single object. Parameter <code>progress</code> is a single object. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -779,7 +779,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>false if progress returned false Unlike simple orientNormals this method constructs local triangulations around each point (with most neighbours within given radius and all neighbours within 2*radius) and considers all triangulation neighbors and not other points from the ball around each point.</dd></dl>
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#gac088f8a5d90a98ec6f18e97caca298f2">MR::orientNormals</a></code>. Parameter <code>pointCloud</code> can not be null. Parameter <code>normals</code> can not be null. Parameter <code>triangs</code> can not be null. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#gac088f8a5d90a98ec6f18e97caca298f2">MR::orientNormals</a></code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>normals</code> can not be null. It is a single object. Parameter <code>triangs</code> can not be null. It is a single object. Parameter <code>progress</code> is a single object. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -825,7 +825,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>false if progress returned false</dd></dl>
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#gac088f8a5d90a98ec6f18e97caca298f2">MR::orientNormals</a></code>. Parameter <code>pointCloud</code> can not be null. Parameter <code>normals</code> can not be null. Parameter <code>closeVerts</code> can not be null. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#gac088f8a5d90a98ec6f18e97caca298f2">MR::orientNormals</a></code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>normals</code> can not be null. It is a single object. Parameter <code>closeVerts</code> can not be null. It is a single object. Parameter <code>progress</code> is a single object. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -847,7 +847,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudApproxRelaxParams.html">MR::PointCloudApproxRelaxParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudApproxRelaxParams.html">MR::PointCloudApproxRelaxParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -865,7 +865,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudApproxRelaxParams.html">MR::PointCloudApproxRelaxParams</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#gafeb20f852d996b16a21c290b4218f0aa" title="Destroys a heap-allocated instance of MR_PointCloudApproxRelaxParams. Does nothing if the pointer is ...">MR_PointCloudApproxRelaxParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudApproxRelaxParams.html">MR::PointCloudApproxRelaxParams</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#gafeb20f852d996b16a21c290b4218f0aa" title="Destroys a heap-allocated instance of MR_PointCloudApproxRelaxParams. Does nothing if the pointer is ...">MR_PointCloudApproxRelaxParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -957,7 +957,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudApproxRelaxParams.html">MR::PointCloudApproxRelaxParams</a></code> named <code>type</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudApproxRelaxParams.html">MR::PointCloudApproxRelaxParams</a></code> named <code>type</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -975,7 +975,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudApproxRelaxParams.html">MR::PointCloudApproxRelaxParams</a></code> named <code>type</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudApproxRelaxParams.html">MR::PointCloudApproxRelaxParams</a></code> named <code>type</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1081,7 +1081,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudApproxRelaxParams.html">MR::PointCloudApproxRelaxParams</a></code> named <code>type</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudApproxRelaxParams.html">MR::PointCloudApproxRelaxParams</a></code> named <code>type</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1139,7 +1139,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudRelaxParams.html">MR::PointCloudRelaxParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudRelaxParams.html">MR::PointCloudRelaxParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1157,7 +1157,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudRelaxParams.html">MR::PointCloudRelaxParams</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ga8327f70871b0a5d1af999c174c4eb757" title="Destroys a heap-allocated instance of MR_PointCloudRelaxParams. Does nothing if the pointer is null.">MR_PointCloudRelaxParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudRelaxParams.html">MR::PointCloudRelaxParams</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ga8327f70871b0a5d1af999c174c4eb757" title="Destroys a heap-allocated instance of MR_PointCloudRelaxParams. Does nothing if the pointer is null.">MR_PointCloudRelaxParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1249,7 +1249,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>radius to find neighbors in, 0.0 - default, 0.1*boundibg box diagonal Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudRelaxParams.html">MR::PointCloudRelaxParams</a></code> named <code>neighborhoodRadius</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>radius to find neighbors in, 0.0 - default, 0.1*boundibg box diagonal Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudRelaxParams.html">MR::PointCloudRelaxParams</a></code> named <code>neighborhoodRadius</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1267,7 +1267,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>radius to find neighbors in, 0.0 - default, 0.1*boundibg box diagonal Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudRelaxParams.html">MR::PointCloudRelaxParams</a></code> named <code>neighborhoodRadius</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>radius to find neighbors in, 0.0 - default, 0.1*boundibg box diagonal Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudRelaxParams.html">MR::PointCloudRelaxParams</a></code> named <code>neighborhoodRadius</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1372,7 +1372,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>radius to find neighbors in, 0.0 - default, 0.1*boundibg box diagonal Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudRelaxParams.html">MR::PointCloudRelaxParams</a></code> named <code>neighborhoodRadius</code>. Parameter <code>_this</code> can not be null. </p>
+<p>radius to find neighbors in, 0.0 - default, 0.1*boundibg box diagonal Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudRelaxParams.html">MR::PointCloudRelaxParams</a></code> named <code>neighborhoodRadius</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1431,7 +1431,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Sample vertices, removing ones that are too close; returns std::nullopt if it was terminated by the callback</p>
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#ga1d42cd6fcda63ebaac2da831b5d85d72">MR::pointUniformSampling</a></code>. Parameter <code>pointCloud</code> can not be null. Parameter <code>settings</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertBitSet_8h.html#aeea0448637c2664eb345c32a4e4a69d2" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertBitSet. Does nothing if the pointer is n...">MR_std_optional_MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#ga1d42cd6fcda63ebaac2da831b5d85d72">MR::pointUniformSampling</a></code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>settings</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertBitSet_8h.html#aeea0448637c2664eb345c32a4e4a69d2" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertBitSet. Does nothing if the pointer is n...">MR_std_optional_MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1463,7 +1463,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>applies given number of relaxation iterations to the whole pointCloud ( or some region if it is specified ) </p><dl class="section return"><dt>Returns</dt><dd>true if was finished successfully, false if was interrupted by progress callback Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaf1790e242d0c45c246335b07bfb7c5af">MR::relax</a></code>. Parameter <code>pointCloud</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </dd></dl>
+<p>applies given number of relaxation iterations to the whole pointCloud ( or some region if it is specified ) </p><dl class="section return"><dt>Returns</dt><dd>true if was finished successfully, false if was interrupted by progress callback Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaf1790e242d0c45c246335b07bfb7c5af">MR::relax</a></code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>params</code> is a single object. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </dd></dl>
 
 </div>
 </div>
@@ -1495,7 +1495,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>applies given number of relaxation iterations to the whole pointCloud ( or some region if it is specified ) approx neighborhoods </p><dl class="section return"><dt>Returns</dt><dd>true if was finished successfully, false if was interrupted by progress callback Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#ga20d24c1c616896c5b7cf17b6dc1ad1dc">MR::relaxApprox</a></code>. Parameter <code>pointCloud</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </dd></dl>
+<p>applies given number of relaxation iterations to the whole pointCloud ( or some region if it is specified ) approx neighborhoods </p><dl class="section return"><dt>Returns</dt><dd>true if was finished successfully, false if was interrupted by progress callback Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#ga20d24c1c616896c5b7cf17b6dc1ad1dc">MR::relaxApprox</a></code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>params</code> is a single object. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </dd></dl>
 
 </div>
 </div>
@@ -1527,7 +1527,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>applies given number of relaxation iterations to the whole pointCloud ( or some region if it is specified ) do not really keeps volume but tries hard </p><dl class="section return"><dt>Returns</dt><dd>true if was finished successfully, false if was interrupted by progress callback Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gade2c4c373a0a3c4e594f194dc55a92b8">MR::relaxKeepVolume</a></code>. Parameter <code>pointCloud</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </dd></dl>
+<p>applies given number of relaxation iterations to the whole pointCloud ( or some region if it is specified ) do not really keeps volume but tries hard </p><dl class="section return"><dt>Returns</dt><dd>true if was finished successfully, false if was interrupted by progress callback Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gade2c4c373a0a3c4e594f194dc55a92b8">MR::relaxKeepVolume</a></code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>params</code> is a single object. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </dd></dl>
 
 </div>
 </div>

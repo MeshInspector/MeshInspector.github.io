@@ -495,7 +495,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the class is responsible for finding shortest edge paths on a mesh in Euclidean metric using A* heuristics Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsAStarBuilder.html">MR::EdgePathsAStarBuilder</a></code>. Inherits from: Directly: (non-virtually) <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;</code> </p>
+<p>the class is responsible for finding shortest edge paths on a mesh in Euclidean metric using A* heuristics Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsAStarBuilder.html">MR::EdgePathsAStarBuilder</a></code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;</code> </p>
 
 </div>
 </div>
@@ -510,7 +510,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the class is responsible for finding smallest metric edge paths on a mesh Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;</code>. Classes derived from this: Directly: (non-virtually) <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsAStarBuilder.html">MR::EdgePathsAStarBuilder</a></code> </p>
+<p>the class is responsible for finding smallest metric edge paths on a mesh Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;</code>. Derived classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsAStarBuilder.html">MR::EdgePathsAStarBuilder</a></code> </p>
 
 </div>
 </div>
@@ -726,7 +726,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsAStarBuilder.html">MR::EdgePathsAStarBuilder</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>target</code> can not be null. Parameter <code>start</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1de1b59ac0c89baf99a819cc93fb3231" title="Destroys a heap-allocated instance of MR_EdgePathsAStarBuilder. Does nothing if the pointer is null.">MR_EdgePathsAStarBuilder_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsAStarBuilder.html">MR::EdgePathsAStarBuilder</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>target</code> can not be null. It is a single object. Parameter <code>start</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1de1b59ac0c89baf99a819cc93fb3231" title="Destroys a heap-allocated instance of MR_EdgePathsAStarBuilder. Does nothing if the pointer is null.">MR_EdgePathsAStarBuilder_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -753,7 +753,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsAStarBuilder.html">MR::EdgePathsAStarBuilder</a></code>. Parameter <code>mesh</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1de1b59ac0c89baf99a819cc93fb3231" title="Destroys a heap-allocated instance of MR_EdgePathsAStarBuilder. Does nothing if the pointer is null.">MR_EdgePathsAStarBuilder_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsAStarBuilder.html">MR::EdgePathsAStarBuilder</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1de1b59ac0c89baf99a819cc93fb3231" title="Destroys a heap-allocated instance of MR_EdgePathsAStarBuilder. Does nothing if the pointer is null.">MR_EdgePathsAStarBuilder_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -918,7 +918,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>adds steps for all origin ring edges of the reached vertex; returns true if at least one step was added Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;</code> named <code>addOrgRingSteps</code>. Parameter <code>_this</code> can not be null. Parameter <code>rv</code> can not be null. </p>
+<p>adds steps for all origin ring edges of the reached vertex; returns true if at least one step was added Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;</code> named <code>addOrgRingSteps</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>rv</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -945,7 +945,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>compares proposed metric with best value known for startVert; if proposed metric is smaller then adds it in the queue and returns true Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;</code> named <code>addStart</code>. Parameter <code>_this</code> can not be null. </p>
+<p>compares proposed metric with best value known for startVert; if proposed metric is smaller then adds it in the queue and returns true Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;</code> named <code>addStart</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -967,7 +967,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;</code>. Parameter <code>topology</code> can not be null. Parameter <code>metric</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a235e3b23f696148fa57bcf3ebccd329f" title="Destroys a heap-allocated instance of MR_EdgePathsBuilderT_MR_MetricToAStarPenalty....">MR_EdgePathsBuilderT_MR_MetricToAStarPenalty_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>metric</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a235e3b23f696148fa57bcf3ebccd329f" title="Destroys a heap-allocated instance of MR_EdgePathsBuilderT_MR_MetricToAStarPenalty....">MR_EdgePathsBuilderT_MR_MetricToAStarPenalty_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1045,7 +1045,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if further edge forest growth is impossible Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;</code> named <code>done</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns true if further edge forest growth is impossible Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;</code> named <code>done</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1063,7 +1063,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns path length till the next candidate vertex or maximum float value if all vertices have been reached Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;</code> named <code>doneDistance</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns path length till the next candidate vertex or maximum float value if all vertices have been reached Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;</code> named <code>doneDistance</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1085,7 +1085,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the path in the forest from given vertex to one of start vertices Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;</code> named <code>getPathBack</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns the path in the forest from given vertex to one of start vertices Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;</code> named <code>getPathBack</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1107,7 +1107,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns one element from the map (or nullptr if the element is missing) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;</code> named <code>getVertInfo</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns one element from the map (or nullptr if the element is missing) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;</code> named <code>getVertInfo</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1125,7 +1125,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the same as reachNext() + addOrgRingSteps() Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;</code> named <code>growOneEdge</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af296fa51f6e74c56c5749f4268e1e6f3" title="Destroys a heap-allocated instance of MR_EdgePathsBuilderT_MR_MetricToAStarPenalty_ReachedVert....">MR_EdgePathsBuilderT_MR_MetricToAStarPenalty_ReachedVert_Destroy()</a></code> to free it when you're done using it. </p>
+<p>the same as reachNext() + addOrgRingSteps() Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;</code> named <code>growOneEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af296fa51f6e74c56c5749f4268e1e6f3" title="Destroys a heap-allocated instance of MR_EdgePathsBuilderT_MR_MetricToAStarPenalty_ReachedVert....">MR_EdgePathsBuilderT_MR_MetricToAStarPenalty_ReachedVert_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1211,7 +1211,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;::ReachedVert</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;::ReachedVert</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1261,7 +1261,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;::ReachedVert</code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af296fa51f6e74c56c5749f4268e1e6f3" title="Destroys a heap-allocated instance of MR_EdgePathsBuilderT_MR_MetricToAStarPenalty_ReachedVert....">MR_EdgePathsBuilderT_MR_MetricToAStarPenalty_ReachedVert_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;::ReachedVert</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af296fa51f6e74c56c5749f4268e1e6f3" title="Destroys a heap-allocated instance of MR_EdgePathsBuilderT_MR_MetricToAStarPenalty_ReachedVert....">MR_EdgePathsBuilderT_MR_MetricToAStarPenalty_ReachedVert_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1353,7 +1353,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>edge from this vertex to its predecessor in the forest (if this vertex is not start) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;::ReachedVert</code> named <code>backward</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>edge from this vertex to its predecessor in the forest (if this vertex is not start) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;::ReachedVert</code> named <code>backward</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1371,7 +1371,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>summed metric to reach this vertex Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;::ReachedVert</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>summed metric to reach this vertex Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;::ReachedVert</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1389,7 +1389,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>not reached vertices are ordered in priority queue by their penalty (with the smallest value on top); penalty is equal to metric in ordinary Dijkstra, or equal to (metric + target distance lower bound) in A* Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;::ReachedVert</code> named <code>penalty</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>not reached vertices are ordered in priority queue by their penalty (with the smallest value on top); penalty is equal to metric in ordinary Dijkstra, or equal to (metric + target distance lower bound) in A* Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;::ReachedVert</code> named <code>penalty</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1407,7 +1407,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;::ReachedVert</code> named <code>v</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;::ReachedVert</code> named <code>v</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1425,7 +1425,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>edge from this vertex to its predecessor in the forest (if this vertex is not start) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;::ReachedVert</code> named <code>backward</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>edge from this vertex to its predecessor in the forest (if this vertex is not start) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;::ReachedVert</code> named <code>backward</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1443,7 +1443,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>summed metric to reach this vertex Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;::ReachedVert</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>summed metric to reach this vertex Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;::ReachedVert</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1461,7 +1461,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>not reached vertices are ordered in priority queue by their penalty (with the smallest value on top); penalty is equal to metric in ordinary Dijkstra, or equal to (metric + target distance lower bound) in A* Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;::ReachedVert</code> named <code>penalty</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>not reached vertices are ordered in priority queue by their penalty (with the smallest value on top); penalty is equal to metric in ordinary Dijkstra, or equal to (metric + target distance lower bound) in A* Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;::ReachedVert</code> named <code>penalty</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1479,7 +1479,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;::ReachedVert</code> named <code>v</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;::ReachedVert</code> named <code>v</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1547,7 +1547,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>edge from this vertex to its predecessor in the forest (if this vertex is not start) Modifies a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;::ReachedVert</code> named <code>backward</code>. Parameter <code>_this</code> can not be null. </p>
+<p>edge from this vertex to its predecessor in the forest (if this vertex is not start) Modifies a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;::ReachedVert</code> named <code>backward</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1569,7 +1569,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>summed metric to reach this vertex Modifies a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;::ReachedVert</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. </p>
+<p>summed metric to reach this vertex Modifies a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;::ReachedVert</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1591,7 +1591,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>not reached vertices are ordered in priority queue by their penalty (with the smallest value on top); penalty is equal to metric in ordinary Dijkstra, or equal to (metric + target distance lower bound) in A* Modifies a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;::ReachedVert</code> named <code>penalty</code>. Parameter <code>_this</code> can not be null. </p>
+<p>not reached vertices are ordered in priority queue by their penalty (with the smallest value on top); penalty is equal to metric in ordinary Dijkstra, or equal to (metric + target distance lower bound) in A* Modifies a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;::ReachedVert</code> named <code>penalty</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1613,7 +1613,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;::ReachedVert</code> named <code>v</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;::ReachedVert</code> named <code>v</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1631,7 +1631,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>include one more vertex in the final forest, returning vertex-info for the newly reached vertex; returns invalid VertId in v-field if no more vertices left Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;</code> named <code>reachNext</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af296fa51f6e74c56c5749f4268e1e6f3" title="Destroys a heap-allocated instance of MR_EdgePathsBuilderT_MR_MetricToAStarPenalty_ReachedVert....">MR_EdgePathsBuilderT_MR_MetricToAStarPenalty_ReachedVert_Destroy()</a></code> to free it when you're done using it. </p>
+<p>include one more vertex in the final forest, returning vertex-info for the newly reached vertex; returns invalid VertId in v-field if no more vertices left Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;</code> named <code>reachNext</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af296fa51f6e74c56c5749f4268e1e6f3" title="Destroys a heap-allocated instance of MR_EdgePathsBuilderT_MR_MetricToAStarPenalty_ReachedVert....">MR_EdgePathsBuilderT_MR_MetricToAStarPenalty_ReachedVert_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1667,7 +1667,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>gives read access to the map from vertex to path to it Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;</code> named <code>vertPathInfoMap</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>gives read access to the map from vertex to path to it Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a>&gt;</code> named <code>vertPathInfoMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1689,7 +1689,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>adds steps for all origin ring edges of the reached vertex; returns true if at least one step was added Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;</code> named <code>addOrgRingSteps</code>. Parameter <code>_this</code> can not be null. Parameter <code>rv</code> can not be null. </p>
+<p>adds steps for all origin ring edges of the reached vertex; returns true if at least one step was added Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;</code> named <code>addOrgRingSteps</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>rv</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1716,7 +1716,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>compares proposed metric with best value known for startVert; if proposed metric is smaller then adds it in the queue and returns true Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;</code> named <code>addStart</code>. Parameter <code>_this</code> can not be null. </p>
+<p>compares proposed metric with best value known for startVert; if proposed metric is smaller then adds it in the queue and returns true Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;</code> named <code>addStart</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1738,7 +1738,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;</code>. Parameter <code>topology</code> can not be null. Parameter <code>metric</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad65eb5b88c8c953df1df3c5e45387311" title="Destroys a heap-allocated instance of MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty....">MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>metric</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad65eb5b88c8c953df1df3c5e45387311" title="Destroys a heap-allocated instance of MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty....">MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1816,7 +1816,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if further edge forest growth is impossible Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;</code> named <code>done</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns true if further edge forest growth is impossible Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;</code> named <code>done</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1834,7 +1834,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns path length till the next candidate vertex or maximum float value if all vertices have been reached Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;</code> named <code>doneDistance</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns path length till the next candidate vertex or maximum float value if all vertices have been reached Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;</code> named <code>doneDistance</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1856,7 +1856,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the path in the forest from given vertex to one of start vertices Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;</code> named <code>getPathBack</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns the path in the forest from given vertex to one of start vertices Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;</code> named <code>getPathBack</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1878,7 +1878,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns one element from the map (or nullptr if the element is missing) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;</code> named <code>getVertInfo</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns one element from the map (or nullptr if the element is missing) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;</code> named <code>getVertInfo</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1896,7 +1896,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the same as reachNext() + addOrgRingSteps() Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;</code> named <code>growOneEdge</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a824549ea2ae5682f509f79d8d99dff72" title="Destroys a heap-allocated instance of MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty_ReachedVert....">MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty_ReachedVert_Destroy()</a></code> to free it when you're done using it. </p>
+<p>the same as reachNext() + addOrgRingSteps() Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;</code> named <code>growOneEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a824549ea2ae5682f509f79d8d99dff72" title="Destroys a heap-allocated instance of MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty_ReachedVert....">MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty_ReachedVert_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1964,7 +1964,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;::ReachedVert</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;::ReachedVert</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2014,7 +2014,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;::ReachedVert</code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a824549ea2ae5682f509f79d8d99dff72" title="Destroys a heap-allocated instance of MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty_ReachedVert....">MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty_ReachedVert_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;::ReachedVert</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a824549ea2ae5682f509f79d8d99dff72" title="Destroys a heap-allocated instance of MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty_ReachedVert....">MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty_ReachedVert_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2106,7 +2106,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>edge from this vertex to its predecessor in the forest (if this vertex is not start) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;::ReachedVert</code> named <code>backward</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>edge from this vertex to its predecessor in the forest (if this vertex is not start) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;::ReachedVert</code> named <code>backward</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2124,7 +2124,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>summed metric to reach this vertex Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;::ReachedVert</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>summed metric to reach this vertex Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;::ReachedVert</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2142,7 +2142,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>not reached vertices are ordered in priority queue by their penalty (with the smallest value on top); penalty is equal to metric in ordinary Dijkstra, or equal to (metric + target distance lower bound) in A* Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;::ReachedVert</code> named <code>penalty</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>not reached vertices are ordered in priority queue by their penalty (with the smallest value on top); penalty is equal to metric in ordinary Dijkstra, or equal to (metric + target distance lower bound) in A* Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;::ReachedVert</code> named <code>penalty</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2160,7 +2160,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;::ReachedVert</code> named <code>v</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;::ReachedVert</code> named <code>v</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2178,7 +2178,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>edge from this vertex to its predecessor in the forest (if this vertex is not start) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;::ReachedVert</code> named <code>backward</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>edge from this vertex to its predecessor in the forest (if this vertex is not start) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;::ReachedVert</code> named <code>backward</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2196,7 +2196,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>summed metric to reach this vertex Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;::ReachedVert</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>summed metric to reach this vertex Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;::ReachedVert</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2214,7 +2214,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>not reached vertices are ordered in priority queue by their penalty (with the smallest value on top); penalty is equal to metric in ordinary Dijkstra, or equal to (metric + target distance lower bound) in A* Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;::ReachedVert</code> named <code>penalty</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>not reached vertices are ordered in priority queue by their penalty (with the smallest value on top); penalty is equal to metric in ordinary Dijkstra, or equal to (metric + target distance lower bound) in A* Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;::ReachedVert</code> named <code>penalty</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2232,7 +2232,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;::ReachedVert</code> named <code>v</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;::ReachedVert</code> named <code>v</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2300,7 +2300,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>edge from this vertex to its predecessor in the forest (if this vertex is not start) Modifies a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;::ReachedVert</code> named <code>backward</code>. Parameter <code>_this</code> can not be null. </p>
+<p>edge from this vertex to its predecessor in the forest (if this vertex is not start) Modifies a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;::ReachedVert</code> named <code>backward</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2322,7 +2322,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>summed metric to reach this vertex Modifies a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;::ReachedVert</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. </p>
+<p>summed metric to reach this vertex Modifies a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;::ReachedVert</code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2344,7 +2344,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>not reached vertices are ordered in priority queue by their penalty (with the smallest value on top); penalty is equal to metric in ordinary Dijkstra, or equal to (metric + target distance lower bound) in A* Modifies a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;::ReachedVert</code> named <code>penalty</code>. Parameter <code>_this</code> can not be null. </p>
+<p>not reached vertices are ordered in priority queue by their penalty (with the smallest value on top); penalty is equal to metric in ordinary Dijkstra, or equal to (metric + target distance lower bound) in A* Modifies a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;::ReachedVert</code> named <code>penalty</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2366,7 +2366,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;::ReachedVert</code> named <code>v</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;::ReachedVert</code> named <code>v</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2384,7 +2384,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>include one more vertex in the final forest, returning vertex-info for the newly reached vertex; returns invalid VertId in v-field if no more vertices left Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;</code> named <code>reachNext</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a824549ea2ae5682f509f79d8d99dff72" title="Destroys a heap-allocated instance of MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty_ReachedVert....">MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty_ReachedVert_Destroy()</a></code> to free it when you're done using it. </p>
+<p>include one more vertex in the final forest, returning vertex-info for the newly reached vertex; returns invalid VertId in v-field if no more vertices left Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;</code> named <code>reachNext</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a824549ea2ae5682f509f79d8d99dff72" title="Destroys a heap-allocated instance of MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty_ReachedVert....">MR_EdgePathsBuilderT_MR_TrivialMetricToPenalty_ReachedVert_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2402,7 +2402,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>gives read access to the map from vertex to path to it Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;</code> named <code>vertPathInfoMap</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>gives read access to the map from vertex to path to it Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT</a>&lt;<a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a>&gt;</code> named <code>vertPathInfoMap</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2424,7 +2424,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2451,7 +2451,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a></code> named <code>operator()</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a></code> named <code>operator()</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2491,7 +2491,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1c354c2df24687523f52076c2de81c28" title="Destroys a heap-allocated instance of MR_MetricToAStarPenalty. Does nothing if the pointer is null.">MR_MetricToAStarPenalty_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1c354c2df24687523f52076c2de81c28" title="Destroys a heap-allocated instance of MR_MetricToAStarPenalty. Does nothing if the pointer is null.">MR_MetricToAStarPenalty_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2583,7 +2583,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a></code> named <code>points</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a></code> named <code>points</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2601,7 +2601,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a></code> named <code>target</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a></code> named <code>target</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2619,7 +2619,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a></code> named <code>points</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a></code> named <code>points</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2637,7 +2637,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a></code> named <code>target</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a></code> named <code>target</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2705,7 +2705,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a></code> named <code>points</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a></code> named <code>points</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2727,7 +2727,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a></code> named <code>target</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a></code> named <code>target</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2749,7 +2749,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2776,7 +2776,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a></code> named <code>operator()</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a></code> named <code>operator()</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2794,7 +2794,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a68f0249fba285fb1e66dbb4aa98473c8" title="Destroys a heap-allocated instance of MR_TrivialMetricToPenalty. Does nothing if the pointer is null.">MR_TrivialMetricToPenalty_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a68f0249fba285fb1e66dbb4aa98473c8" title="Destroys a heap-allocated instance of MR_TrivialMetricToPenalty. Does nothing if the pointer is null.">MR_TrivialMetricToPenalty_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2936,7 +2936,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1VertPathInfo.html">MR::VertPathInfo</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1VertPathInfo.html">MR::VertPathInfo</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2976,7 +2976,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1VertPathInfo.html">MR::VertPathInfo</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#afc0df3f8385022126665b03949deabef" title="Destroys a heap-allocated instance of MR_VertPathInfo. Does nothing if the pointer is null.">MR_VertPathInfo_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1VertPathInfo.html">MR::VertPathInfo</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#afc0df3f8385022126665b03949deabef" title="Destroys a heap-allocated instance of MR_VertPathInfo. Does nothing if the pointer is null.">MR_VertPathInfo_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -3068,7 +3068,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VertPathInfo.html">MR::VertPathInfo</a></code> named <code>back</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VertPathInfo.html">MR::VertPathInfo</a></code> named <code>back</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3086,7 +3086,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VertPathInfo.html">MR::VertPathInfo</a></code> named <code>metric</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VertPathInfo.html">MR::VertPathInfo</a></code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3104,7 +3104,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VertPathInfo.html">MR::VertPathInfo</a></code> named <code>back</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VertPathInfo.html">MR::VertPathInfo</a></code> named <code>back</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3122,7 +3122,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VertPathInfo.html">MR::VertPathInfo</a></code> named <code>metric</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VertPathInfo.html">MR::VertPathInfo</a></code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3140,7 +3140,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1VertPathInfo.html">MR::VertPathInfo</a></code> named <code>isStart</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1VertPathInfo.html">MR::VertPathInfo</a></code> named <code>isStart</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3208,7 +3208,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VertPathInfo.html">MR::VertPathInfo</a></code> named <code>back</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VertPathInfo.html">MR::VertPathInfo</a></code> named <code>back</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3230,7 +3230,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VertPathInfo.html">MR::VertPathInfo</a></code> named <code>metric</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VertPathInfo.html">MR::VertPathInfo</a></code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

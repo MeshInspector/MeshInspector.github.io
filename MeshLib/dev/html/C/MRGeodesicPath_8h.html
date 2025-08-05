@@ -273,7 +273,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>converts any input surface path into geodesic path (so reduces its length): start-path-end; returns actual number of iterations performed Generated from function <code><a class="elRef" href="../Cpp/group__PlanarPathGroup.html#ga453514d922da4d7c4a02c78ca0b4eabe">MR::reducePath</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>start</code> can not be null. Parameter <code>path</code> can not be null. Parameter <code>end</code> can not be null. Parameter <code>maxIter</code> has a default argument: <code>5</code>, pass a null pointer to use it. </p>
+<p>converts any input surface path into geodesic path (so reduces its length): start-path-end; returns actual number of iterations performed Generated from function <code><a class="elRef" href="../Cpp/group__PlanarPathGroup.html#ga453514d922da4d7c4a02c78ca0b4eabe">MR::reducePath</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>start</code> can not be null. It is a single object. Parameter <code>path</code> can not be null. It is a single object. Parameter <code>end</code> can not be null. It is a single object. Parameter <code>maxIter</code> has a default argument: <code>5</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -324,7 +324,7 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">outPath</td><td>intermediate locations between s and e will be added here </td></tr>
     <tr><td class="paramname">tmp</td><td>elements will be temporary allocated here </td></tr>
-    <tr><td class="paramname">cachePath</td><td>as far as we need two sides unfold, cache one to reduce allocations Generated from function <code><a class="elRef" href="../Cpp/group__PlanarPathGroup.html#ga64d6263ac2b571832be0c1a3e8114cfb">MR::reducePathViaVertex</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>start</code> can not be null. Parameter <code>end</code> can not be null. Parameter <code>outPath</code> can not be null. Parameter <code>tmp</code> can not be null. Parameter <code>cachePath</code> can not be null. </td></tr>
+    <tr><td class="paramname">cachePath</td><td>as far as we need two sides unfold, cache one to reduce allocations Generated from function <code><a class="elRef" href="../Cpp/group__PlanarPathGroup.html#ga64d6263ac2b571832be0c1a3e8114cfb">MR::reducePathViaVertex</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>start</code> can not be null. It is a single object. Parameter <code>end</code> can not be null. It is a single object. Parameter <code>outPath</code> can not be null. It is a single object. Parameter <code>tmp</code> can not be null. It is a single object. Parameter <code>cachePath</code> can not be null. It is a single object. </td></tr>
   </table>
   </dd>
 </dl>

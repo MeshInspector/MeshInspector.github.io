@@ -573,7 +573,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given quadrangle ABCD, selects how to best triangulate it: false = by introducing BD diagonal and splitting ABCD on triangles ABD and DBC, true = by introducing AC diagonal and splitting ABCD on triangles ABC and ACD Generated from function <code><a class="elRef" href="../Cpp/group__MeshDeloneGroup.html#ga752afc6c65fff0dbc954d78ec58e4f2f">MR::bestQuadrangleDiagonal</a></code>. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. Parameter <code>c</code> can not be null. Parameter <code>d</code> can not be null. </p>
+<p>given quadrangle ABCD, selects how to best triangulate it: false = by introducing BD diagonal and splitting ABCD on triangles ABD and DBC, true = by introducing AC diagonal and splitting ABCD on triangles ABC and ACD Generated from function <code><a class="elRef" href="../Cpp/group__MeshDeloneGroup.html#ga752afc6c65fff0dbc954d78ec58e4f2f">MR::bestQuadrangleDiagonal</a></code>. Parameter <code>a</code> can not be null. It is a single object. Parameter <code>b</code> can not be null. It is a single object. Parameter <code>c</code> can not be null. It is a single object. Parameter <code>d</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -610,7 +610,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>consider topology and constraints to decide about flip possibility Generated from function <code><a class="elRef" href="../Cpp/group__MeshDeloneGroup.html#ga17ac0bdda11a0bdfc51faab5936fa9b3">MR::canFlipEdge</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. Parameter <code>notFlippable</code> defaults to a null pointer in C++. Parameter <code>vertRegion</code> defaults to a null pointer in C++. </p>
+<p>consider topology and constraints to decide about flip possibility Generated from function <code><a class="elRef" href="../Cpp/group__MeshDeloneGroup.html#ga17ac0bdda11a0bdfc51faab5936fa9b3">MR::canFlipEdge</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Parameter <code>notFlippable</code> defaults to a null pointer in C++. Parameter <code>vertRegion</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -647,7 +647,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given quadrangle ABCD, checks whether its edge AC satisfies Delone's condition; if dihedral angles 1) between triangles ABD and DBC and 2) between triangles ABC and ACD differ more than on maxAngleChange then also returns true to prevent flipping from 1) to 2) Generated from function <code><a class="elRef" href="../Cpp/group__MeshDeloneGroup.html#ga4d58a8dd7b19c7d5a403b4329ce793c7">MR::checkDeloneQuadrangle</a></code>. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. Parameter <code>c</code> can not be null. Parameter <code>d</code> can not be null. Parameter <code>maxAngleChange</code> has a default argument: <code>1.7976931348623157E+308</code>, pass a null pointer to use it. </p>
+<p>given quadrangle ABCD, checks whether its edge AC satisfies Delone's condition; if dihedral angles 1) between triangles ABD and DBC and 2) between triangles ABC and ACD differ more than on maxAngleChange then also returns true to prevent flipping from 1) to 2) Generated from function <code><a class="elRef" href="../Cpp/group__MeshDeloneGroup.html#ga4d58a8dd7b19c7d5a403b4329ce793c7">MR::checkDeloneQuadrangle</a></code>. Parameter <code>a</code> can not be null. It is a single object. Parameter <code>b</code> can not be null. It is a single object. Parameter <code>c</code> can not be null. It is a single object. Parameter <code>d</code> can not be null. It is a single object. Parameter <code>maxAngleChange</code> has a default argument: <code>1.7976931348623157E+308</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -684,7 +684,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>converts arguments in double and calls above function Generated from function <code><a class="elRef" href="../Cpp/group__MeshDeloneGroup.html#ga4d58a8dd7b19c7d5a403b4329ce793c7">MR::checkDeloneQuadrangle</a></code>. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. Parameter <code>c</code> can not be null. Parameter <code>d</code> can not be null. Parameter <code>maxAngleChange</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. </p>
+<p>converts arguments in double and calls above function Generated from function <code><a class="elRef" href="../Cpp/group__MeshDeloneGroup.html#ga4d58a8dd7b19c7d5a403b4329ce793c7">MR::checkDeloneQuadrangle</a></code>. Parameter <code>a</code> can not be null. It is a single object. Parameter <code>b</code> can not be null. It is a single object. Parameter <code>c</code> can not be null. It is a single object. Parameter <code>d</code> can not be null. It is a single object. Parameter <code>maxAngleChange</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -716,7 +716,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>consider quadrangle formed by left and right triangles of given edge, and checks whether this edge satisfies Delone's condition in the quadrangle; </p><dl class="section return"><dt>Returns</dt><dd>false otherwise if flipping the edge does not introduce too large surface deviation (can be returned only for inner edge of the region) Generated from function <code><a class="elRef" href="../Cpp/group__MeshDeloneGroup.html#ga2d74fa7fe6b7d35734db515d33ba1f3f">MR::checkDeloneQuadrangleInMesh</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>deviationSqAfterFlip</code> defaults to a null pointer in C++. </dd></dl>
+<p>consider quadrangle formed by left and right triangles of given edge, and checks whether this edge satisfies Delone's condition in the quadrangle; </p><dl class="section return"><dt>Returns</dt><dd>false otherwise if flipping the edge does not introduce too large surface deviation (can be returned only for inner edge of the region) Generated from function <code><a class="elRef" href="../Cpp/group__MeshDeloneGroup.html#ga2d74fa7fe6b7d35734db515d33ba1f3f">MR::checkDeloneQuadrangleInMesh</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>deviationSqAfterFlip</code> defaults to a null pointer in C++. </dd></dl>
 
 </div>
 </div>
@@ -753,7 +753,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshDeloneGroup.html#ga2d74fa7fe6b7d35734db515d33ba1f3f">MR::checkDeloneQuadrangleInMesh</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>deviationSqAfterFlip</code> defaults to a null pointer in C++. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshDeloneGroup.html#ga2d74fa7fe6b7d35734db515d33ba1f3f">MR::checkDeloneQuadrangleInMesh</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>deviationSqAfterFlip</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -775,7 +775,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -835,7 +835,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aaf8d2e088923a375f48ef0b680171365" title="Destroys a heap-allocated instance of MR_DeloneSettings. Does nothing if the pointer is null.">MR_DeloneSettings_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aaf8d2e088923a375f48ef0b680171365" title="Destroys a heap-allocated instance of MR_DeloneSettings. Does nothing if the pointer is null.">MR_DeloneSettings_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -927,7 +927,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if this value is less than FLT_MAX then the algorithm will ignore dihedral angle check if one of triangles has aspect ratio more than this value Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>criticalTriAspectRatio</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if this value is less than FLT_MAX then the algorithm will ignore dihedral angle check if one of triangles has aspect ratio more than this value Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>criticalTriAspectRatio</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -945,7 +945,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Maximal allowed dihedral angle change (in radians) over the flipped edge Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>maxAngleChange</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Maximal allowed dihedral angle change (in radians) over the flipped edge Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>maxAngleChange</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -963,7 +963,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Maximal allowed surface deviation during every individual flip Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>maxDeviationAfterFlip</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Maximal allowed surface deviation during every individual flip Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>maxDeviationAfterFlip</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -981,7 +981,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Edges specified by this bit-set will never be flipped Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>notFlippable</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Edges specified by this bit-set will never be flipped Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>notFlippable</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -999,7 +999,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Only edges with left and right faces in this set can be flipped Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Only edges with left and right faces in this set can be flipped Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1017,7 +1017,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Only edges with origin or destination in this set before or after flip can be flipped Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>vertRegion</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Only edges with origin or destination in this set before or after flip can be flipped Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>vertRegion</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1035,7 +1035,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if this value is less than FLT_MAX then the algorithm will ignore dihedral angle check if one of triangles has aspect ratio more than this value Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>criticalTriAspectRatio</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if this value is less than FLT_MAX then the algorithm will ignore dihedral angle check if one of triangles has aspect ratio more than this value Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>criticalTriAspectRatio</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1053,7 +1053,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Maximal allowed dihedral angle change (in radians) over the flipped edge Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>maxAngleChange</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Maximal allowed dihedral angle change (in radians) over the flipped edge Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>maxAngleChange</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1071,7 +1071,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Maximal allowed surface deviation during every individual flip Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>maxDeviationAfterFlip</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Maximal allowed surface deviation during every individual flip Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>maxDeviationAfterFlip</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1089,7 +1089,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Edges specified by this bit-set will never be flipped Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>notFlippable</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Edges specified by this bit-set will never be flipped Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>notFlippable</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1107,7 +1107,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Only edges with left and right faces in this set can be flipped Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Only edges with left and right faces in this set can be flipped Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1125,7 +1125,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Only edges with origin or destination in this set before or after flip can be flipped Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>vertRegion</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Only edges with origin or destination in this set before or after flip can be flipped Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>vertRegion</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1193,7 +1193,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if this value is less than FLT_MAX then the algorithm will ignore dihedral angle check if one of triangles has aspect ratio more than this value Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>criticalTriAspectRatio</code>. Parameter <code>_this</code> can not be null. </p>
+<p>if this value is less than FLT_MAX then the algorithm will ignore dihedral angle check if one of triangles has aspect ratio more than this value Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>criticalTriAspectRatio</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1215,7 +1215,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Maximal allowed dihedral angle change (in radians) over the flipped edge Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>maxAngleChange</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Maximal allowed dihedral angle change (in radians) over the flipped edge Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>maxAngleChange</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1237,7 +1237,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Maximal allowed surface deviation during every individual flip Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>maxDeviationAfterFlip</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Maximal allowed surface deviation during every individual flip Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>maxDeviationAfterFlip</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1259,7 +1259,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Edges specified by this bit-set will never be flipped Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>notFlippable</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Edges specified by this bit-set will never be flipped Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>notFlippable</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1281,7 +1281,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Only edges with left and right faces in this set can be flipped Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Only edges with left and right faces in this set can be flipped Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1303,7 +1303,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Only edges with origin or destination in this set before or after flip can be flipped Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>vertRegion</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Only edges with origin or destination in this set before or after flip can be flipped Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DeloneSettings.html">MR::DeloneSettings</a></code> named <code>vertRegion</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1325,7 +1325,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1375,7 +1375,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a670c171347186de94e026c8cbabd09cf" title="Destroys a heap-allocated instance of MR_IntrinsicDeloneSettings. Does nothing if the pointer is null...">MR_IntrinsicDeloneSettings_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a670c171347186de94e026c8cbabd09cf" title="Destroys a heap-allocated instance of MR_IntrinsicDeloneSettings. Does nothing if the pointer is null...">MR_IntrinsicDeloneSettings_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1467,7 +1467,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Edges specified by this bit-set will never be flipped Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code> named <code>notFlippable</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Edges specified by this bit-set will never be flipped Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code> named <code>notFlippable</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1485,7 +1485,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Only edges with left and right faces in this set can be flipped Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Only edges with left and right faces in this set can be flipped Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1503,7 +1503,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the edge is considered Delaunay, if cotan(a1) + cotan(a2) &gt;= threshold; passing positive(negative) threshold makes less(more) edges satisfy Delaunay conditions Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code> named <code>threshold</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the edge is considered Delaunay, if cotan(a1) + cotan(a2) &gt;= threshold; passing positive(negative) threshold makes less(more) edges satisfy Delaunay conditions Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code> named <code>threshold</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1521,7 +1521,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Only edges with origin or destination in this set before or after flip can be flipped Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code> named <code>vertRegion</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Only edges with origin or destination in this set before or after flip can be flipped Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code> named <code>vertRegion</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1539,7 +1539,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Edges specified by this bit-set will never be flipped Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code> named <code>notFlippable</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Edges specified by this bit-set will never be flipped Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code> named <code>notFlippable</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1557,7 +1557,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Only edges with left and right faces in this set can be flipped Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Only edges with left and right faces in this set can be flipped Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1575,7 +1575,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the edge is considered Delaunay, if cotan(a1) + cotan(a2) &gt;= threshold; passing positive(negative) threshold makes less(more) edges satisfy Delaunay conditions Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code> named <code>threshold</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the edge is considered Delaunay, if cotan(a1) + cotan(a2) &gt;= threshold; passing positive(negative) threshold makes less(more) edges satisfy Delaunay conditions Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code> named <code>threshold</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1593,7 +1593,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Only edges with origin or destination in this set before or after flip can be flipped Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code> named <code>vertRegion</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Only edges with origin or destination in this set before or after flip can be flipped Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code> named <code>vertRegion</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1661,7 +1661,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Edges specified by this bit-set will never be flipped Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code> named <code>notFlippable</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Edges specified by this bit-set will never be flipped Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code> named <code>notFlippable</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1683,7 +1683,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Only edges with left and right faces in this set can be flipped Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Only edges with left and right faces in this set can be flipped Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1705,7 +1705,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the edge is considered Delaunay, if cotan(a1) + cotan(a2) &gt;= threshold; passing positive(negative) threshold makes less(more) edges satisfy Delaunay conditions Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code> named <code>threshold</code>. Parameter <code>_this</code> can not be null. </p>
+<p>the edge is considered Delaunay, if cotan(a1) + cotan(a2) &gt;= threshold; passing positive(negative) threshold makes less(more) edges satisfy Delaunay conditions Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code> named <code>threshold</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1727,7 +1727,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Only edges with origin or destination in this set before or after flip can be flipped Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code> named <code>vertRegion</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Only edges with origin or destination in this set before or after flip can be flipped Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1IntrinsicDeloneSettings.html">MR::IntrinsicDeloneSettings</a></code> named <code>vertRegion</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1763,7 +1763,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">numIters</td><td>Maximal iteration count </td></tr>
-    <tr><td class="paramname">progressCallback</td><td>Callback to report algorithm progress and cancel it by user request see "An Algorithm for the Construction of Intrinsic Delaunay Triangulations with Applications to Digital Geometry Processing". <a href="https://page.math.tu-berlin.de/~bobenko/papers/InDel.pdf">https://page.math.tu-berlin.de/~bobenko/papers/InDel.pdf</a> Generated from function <code><a class="elRef" href="../Cpp/group__MeshDeloneGroup.html#gaecb63f47c6fee764f4c89770c62a446d">MR::makeDeloneEdgeFlips</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>numIters</code> has a default argument: <code>1</code>, pass a null pointer to use it. Parameter <code>progressCallback</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </td></tr>
+    <tr><td class="paramname">progressCallback</td><td>Callback to report algorithm progress and cancel it by user request see "An Algorithm for the Construction of Intrinsic Delaunay Triangulations with Applications to Digital Geometry Processing". <a href="https://page.math.tu-berlin.de/~bobenko/papers/InDel.pdf">https://page.math.tu-berlin.de/~bobenko/papers/InDel.pdf</a> Generated from function <code><a class="elRef" href="../Cpp/group__MeshDeloneGroup.html#gaecb63f47c6fee764f4c89770c62a446d">MR::makeDeloneEdgeFlips</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>numIters</code> has a default argument: <code>1</code>, pass a null pointer to use it. Parameter <code>progressCallback</code> is a single object. Parameter <code>progressCallback</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1802,7 +1802,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">numIters</td><td>Maximal iteration count </td></tr>
-    <tr><td class="paramname">progressCallback</td><td>Callback to report algorithm progress and cancel it by user request Generated from function <code><a class="elRef" href="../Cpp/group__MeshDeloneGroup.html#gaecb63f47c6fee764f4c89770c62a446d">MR::makeDeloneEdgeFlips</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>numIters</code> has a default argument: <code>1</code>, pass a null pointer to use it. Parameter <code>progressCallback</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </td></tr>
+    <tr><td class="paramname">progressCallback</td><td>Callback to report algorithm progress and cancel it by user request Generated from function <code><a class="elRef" href="../Cpp/group__MeshDeloneGroup.html#gaecb63f47c6fee764f4c89770c62a446d">MR::makeDeloneEdgeFlips</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>numIters</code> has a default argument: <code>1</code>, pass a null pointer to use it. Parameter <code>progressCallback</code> is a single object. Parameter <code>progressCallback</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1842,7 +1842,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshDeloneGroup.html#gaecb63f47c6fee764f4c89770c62a446d">MR::makeDeloneEdgeFlips</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>numIters</code> has a default argument: <code>1</code>, pass a null pointer to use it. Parameter <code>progressCallback</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshDeloneGroup.html#gaecb63f47c6fee764f4c89770c62a446d">MR::makeDeloneEdgeFlips</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>numIters</code> has a default argument: <code>1</code>, pass a null pointer to use it. Parameter <code>progressCallback</code> is a single object. Parameter <code>progressCallback</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1869,7 +1869,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>improves mesh triangulation in a ring of vertices with common origin and represented by edge e Generated from function <code><a class="elRef" href="../Cpp/group__MeshDeloneGroup.html#gabeff8ba7d73b606469f46a5c0248606d">MR::makeDeloneOriginRing</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+<p>improves mesh triangulation in a ring of vertices with common origin and represented by edge e Generated from function <code><a class="elRef" href="../Cpp/group__MeshDeloneGroup.html#gabeff8ba7d73b606469f46a5c0248606d">MR::makeDeloneOriginRing</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1901,7 +1901,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshDeloneGroup.html#gabeff8ba7d73b606469f46a5c0248606d">MR::makeDeloneOriginRing</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshDeloneGroup.html#gabeff8ba7d73b606469f46a5c0248606d">MR::makeDeloneOriginRing</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>

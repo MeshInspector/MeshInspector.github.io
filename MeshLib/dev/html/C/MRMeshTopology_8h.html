@@ -832,7 +832,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>compare that two topologies are exactly the same Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>operator==</code>. Parameter <code>_this</code> can not be null. Parameter <code>b</code> can not be null. </p>
+<p>compare that two topologies are exactly the same Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>operator==</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>b</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -869,7 +869,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>creates new face-id not associated with any edge yet Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>addFaceId</code>. Parameter <code>_this</code> can not be null. </p>
+<p>creates new face-id not associated with any edge yet Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>addFaceId</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -909,7 +909,7 @@ Functions</h2></td></tr>
 <p>copies topology (from) into this; </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">from</td><td>edges must be tightly packes without any lone edges, and they are mapped [0, from.edges.size()) -&gt; [toEdgeId, toEdgeId + from.edges.size()); </td></tr>
-    <tr><td class="paramname">fmap,vmap</td><td>mapping of vertices and faces if it is given ( from.id -&gt; this.id ) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>addPackedPart</code>. Parameter <code>_this</code> can not be null. Parameter <code>from</code> can not be null. Parameter <code>fmap</code> can not be null. Parameter <code>vmap</code> can not be null. </td></tr>
+    <tr><td class="paramname">fmap,vmap</td><td>mapping of vertices and faces if it is given ( from.id -&gt; this.id ) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>addPackedPart</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>from</code> can not be null. It is a single object. Parameter <code>fmap</code> can not be null. It is a single object. Parameter <code>vmap</code> can not be null. It is a single object. </td></tr>
   </table>
   </dd>
 </dl>
@@ -946,7 +946,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>appends mesh topology (from) in addition to the current topology: creates new edges, faces, verts; </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">rearrangeTriangles</td><td>if true then the order of triangles is selected according to the order of their vertices, please call rotateTriangles() first Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>addPart</code>. Parameter <code>_this</code> can not be null. Parameter <code>from</code> can not be null. Parameter <code>map</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>rearrangeTriangles</code> has a default argument: <code>false</code>, pass a null pointer to use it. </td></tr>
+    <tr><td class="paramname">rearrangeTriangles</td><td>if true then the order of triangles is selected according to the order of their vertices, please call rotateTriangles() first Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>addPart</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>from</code> can not be null. It is a single object. Parameter <code>map</code> is a single object. Parameter <code>map</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>rearrangeTriangles</code> has a default argument: <code>false</code>, pass a null pointer to use it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -991,7 +991,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>addPart</code>. Parameter <code>_this</code> can not be null. Parameter <code>from</code> can not be null. Parameter <code>outFmap</code> defaults to a null pointer in C++. Parameter <code>outVmap</code> defaults to a null pointer in C++. Parameter <code>outEmap</code> defaults to a null pointer in C++. Parameter <code>rearrangeTriangles</code> has a default argument: <code>false</code>, pass a null pointer to use it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>addPart</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>from</code> can not be null. It is a single object. Parameter <code>outFmap</code> defaults to a null pointer in C++. Parameter <code>outVmap</code> defaults to a null pointer in C++. Parameter <code>outEmap</code> defaults to a null pointer in C++. Parameter <code>rearrangeTriangles</code> has a default argument: <code>false</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1023,7 +1023,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the same but copies only portion of (from) specified by fromFaces, Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>addPartByMask</code>. Parameter <code>_this</code> can not be null. Parameter <code>from</code> can not be null. Parameter <code>map</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+<p>the same but copies only portion of (from) specified by fromFaces, Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>addPartByMask</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>from</code> can not be null. It is a single object. Parameter <code>map</code> is a single object. Parameter <code>map</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1055,7 +1055,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>addPartByMask</code>. Parameter <code>_this</code> can not be null. Parameter <code>from</code> can not be null. Parameter <code>fromFaces</code> can not be null. Parameter <code>map</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>addPartByMask</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>from</code> can not be null. It is a single object. Parameter <code>fromFaces</code> can not be null. It is a single object. Parameter <code>map</code> is a single object. Parameter <code>map</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1106,7 +1106,7 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">flipOrientation</td><td>if true then every from triangle is inverted before adding </td></tr>
     <tr><td class="paramname">thisContours</td><td>contours on this mesh (no left face) that have to be stitched with </td></tr>
-    <tr><td class="paramname">fromContours</td><td>contours on from mesh during addition (no left face if flipOrientation otherwise no right face) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>addPartByMask</code>. Parameter <code>_this</code> can not be null. Parameter <code>from</code> can not be null. Parameter <code>flipOrientation</code> has a default argument: <code>false</code>, pass a null pointer to use it. Parameter <code>thisContours</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>fromContours</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>map</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </td></tr>
+    <tr><td class="paramname">fromContours</td><td>contours on from mesh during addition (no left face if flipOrientation otherwise no right face) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>addPartByMask</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>from</code> can not be null. It is a single object. Parameter <code>flipOrientation</code> has a default argument: <code>false</code>, pass a null pointer to use it. Parameter <code>thisContours</code> is a single object. Parameter <code>thisContours</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>fromContours</code> is a single object. Parameter <code>fromContours</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>map</code> is a single object. Parameter <code>map</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1156,7 +1156,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>addPartByMask</code>. Parameter <code>_this</code> can not be null. Parameter <code>from</code> can not be null. Parameter <code>fromFaces</code> can not be null. Parameter <code>flipOrientation</code> has a default argument: <code>false</code>, pass a null pointer to use it. Parameter <code>thisContours</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>fromContours</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>map</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>addPartByMask</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>from</code> can not be null. It is a single object. Parameter <code>fromFaces</code> can not be null. It is a single object. Parameter <code>flipOrientation</code> has a default argument: <code>false</code>, pass a null pointer to use it. Parameter <code>thisContours</code> is a single object. Parameter <code>thisContours</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>fromContours</code> is a single object. Parameter <code>fromContours</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>map</code> is a single object. Parameter <code>map</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1174,7 +1174,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>creates new vert-id not associated with any edge yet Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>addVertId</code>. Parameter <code>_this</code> can not be null. </p>
+<p>creates new vert-id not associated with any edge yet Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>addVertId</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1201,7 +1201,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1228,7 +1228,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the first boundary edge (for given region or for whole mesh if region is nullptr) in counter-clockwise order starting from given edge with the same left face or hole; returns invalid edge if no boundary edge is found Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>bdEdgeSameLeft</code>. Parameter <code>_this</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+<p>returns the first boundary edge (for given region or for whole mesh if region is nullptr) in counter-clockwise order starting from given edge with the same left face or hole; returns invalid edge if no boundary edge is found Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>bdEdgeSameLeft</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -1255,7 +1255,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the first boundary edge (for given region or for whole mesh if region is nullptr) in counter-clockwise order starting from given edge with the same origin; returns invalid edge if no boundary edge is found Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>bdEdgeSameOrigin</code>. Parameter <code>_this</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+<p>returns the first boundary edge (for given region or for whole mesh if region is nullptr) in counter-clockwise order starting from given edge with the same origin; returns invalid edge if no boundary edge is found Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>bdEdgeSameOrigin</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -1282,7 +1282,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns a boundary edge with given left face considering boundary of given region (or for whole mesh if region is nullptr); returns invalid edge if no boundary edge is found Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>bdEdgeWithLeft</code>. Parameter <code>_this</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+<p>returns a boundary edge with given left face considering boundary of given region (or for whole mesh if region is nullptr); returns invalid edge if no boundary edge is found Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>bdEdgeWithLeft</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -1309,7 +1309,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns a boundary edge with given vertex in origin considering boundary of given region (or for whole mesh if region is nullptr); returns invalid edge if no boundary edge is found Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>bdEdgeWithOrigin</code>. Parameter <code>_this</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+<p>returns a boundary edge with given vertex in origin considering boundary of given region (or for whole mesh if region is nullptr); returns invalid edge if no boundary edge is found Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>bdEdgeWithOrigin</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -1341,7 +1341,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>buildGridMesh</code>. Parameter <code>_this</code> can not be null. Parameter <code>settings</code> can not be null. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>buildGridMesh</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>settings</code> can not be null. It is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1373,7 +1373,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>verifies that all internal data structures are valid; if allVerts=true then checks in addition that all not-lone edges have valid vertices on both ends Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>checkValidity</code>. Parameter <code>_this</code> can not be null. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Parameter <code>allVerts</code> has a default argument: <code>true</code>, pass a null pointer to use it. </p>
+<p>verifies that all internal data structures are valid; if allVerts=true then checks in addition that all not-lone edges have valid vertices on both ends Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>checkValidity</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Parameter <code>allVerts</code> has a default argument: <code>true</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1400,7 +1400,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>collapses given edge in a vertex and deletes 1) faces: left( e ) and right( e ); 2) edges: e, next( e.sym() ), prev( e.sym() ), and optionally next( e ), prev( e ) if their left and right triangles are deleted; 3) all vertices that lost their last edge; calls onEdgeDel for every deleted edge (del) including given (e); if valid (rem) is given then dest( del ) = dest( rem ) and their origins are in different ends of collapsing edge, (rem) shall take the place of (del) </p><dl class="section return"><dt>Returns</dt><dd>prev( e ) if it is still valid Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>collapseEdge</code>. Parameter <code>_this</code> can not be null. Parameter <code>onEdgeDel</code> can not be null. </dd></dl>
+<p>collapses given edge in a vertex and deletes 1) faces: left( e ) and right( e ); 2) edges: e, next( e.sym() ), prev( e.sym() ), and optionally next( e ), prev( e ) if their left and right triangles are deleted; 3) all vertices that lost their last edge; calls onEdgeDel for every deleted edge (del) including given (e); if valid (rem) is given then dest( del ) = dest( rem ) and their origins are in different ends of collapsing edge, (rem) shall take the place of (del) </p><dl class="section return"><dt>Returns</dt><dd>prev( e ) if it is still valid Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>collapseEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>onEdgeDel</code> can not be null. It is a single object. </dd></dl>
 
 </div>
 </div>
@@ -1418,7 +1418,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes the number of not-lone (valid) undirected edges Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>computeNotLoneUndirectedEdges</code>. Parameter <code>_this</code> can not be null. </p>
+<p>computes the number of not-lone (valid) undirected edges Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>computeNotLoneUndirectedEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1445,7 +1445,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>compute 1) numValidVerts_ and validVerts_ from edgePerVertex_ 2) numValidFaces_ and validFaces_ from edgePerFace_ and activates their auto-update Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>computeValidsFromEdges</code>. Parameter <code>_this</code> can not be null. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
+<p>compute 1) numValidVerts_ and validVerts_ from edgePerVertex_ 2) numValidFaces_ and validFaces_ from edgePerFace_ and activates their auto-update Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>computeValidsFromEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1532,7 +1532,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>deletes the face, also deletes its edges and vertices if they were not shared by other faces and not in</p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">keepFaces</td><td>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>deleteFace</code>. Parameter <code>_this</code> can not be null. Parameter <code>keepEdges</code> defaults to a null pointer in C++. </td></tr>
+    <tr><td class="paramname">keepFaces</td><td>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>deleteFace</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>keepEdges</code> defaults to a null pointer in C++. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1562,7 +1562,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>deletes multiple given faces by calling deleteFace for each Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>deleteFaces</code>. Parameter <code>_this</code> can not be null. Parameter <code>fs</code> can not be null. Parameter <code>keepEdges</code> defaults to a null pointer in C++. </p>
+<p>deletes multiple given faces by calling deleteFace for each Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>deleteFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>fs</code> can not be null. It is a single object. Parameter <code>keepEdges</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -1584,7 +1584,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns destination vertex of half-edge Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>dest</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns destination vertex of half-edge Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>dest</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1640,7 +1640,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the number of allocated edge records Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>edgeCapacity</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns the number of allocated edge records Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>edgeCapacity</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1658,7 +1658,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>for all valid faces this vector contains an edge with that face at left Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>edgePerFace</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>for all valid faces this vector contains an edge with that face at left Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>edgePerFace</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1676,7 +1676,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>for all valid vertices this vector contains an edge with the origin there Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>edgePerVertex</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>for all valid vertices this vector contains an edge with the origin there Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>edgePerVertex</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1698,7 +1698,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>sets the capacity of half-edges vector Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>edgeReserve</code>. Parameter <code>_this</code> can not be null. </p>
+<p>sets the capacity of half-edges vector Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>edgeReserve</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1716,7 +1716,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the number of half-edge records including lone ones Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>edgeSize</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns the number of half-edge records including lone ones Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>edgeSize</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1738,7 +1738,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns valid edge if given vertex is present in the mesh Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>edgeWithLeft</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns valid edge if given vertex is present in the mesh Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>edgeWithLeft</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1760,7 +1760,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns valid edge if given vertex is present in the mesh Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>edgeWithOrg</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns valid edge if given vertex is present in the mesh Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>edgeWithOrg</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1782,7 +1782,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>remove all lone edges from given set Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>excludeLoneEdges</code>. Parameter <code>_this</code> can not be null. Parameter <code>edges</code> can not be null. </p>
+<p>remove all lone edges from given set Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>excludeLoneEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>edges</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1800,7 +1800,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the number of allocated face records Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>faceCapacity</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns the number of allocated face records Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>faceCapacity</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1822,7 +1822,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>sets the capacity of faces vector Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>faceReserve</code>. Parameter <code>_this</code> can not be null. </p>
+<p>sets the capacity of faces vector Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>faceReserve</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1844,7 +1844,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>explicitly increases the size of faces vector Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>faceResize</code>. Parameter <code>_this</code> can not be null. </p>
+<p>explicitly increases the size of faces vector Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>faceResize</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1866,7 +1866,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>explicitly increases the size of faces vector, doubling the current capacity if it was not enough Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>faceResizeWithReserve</code>. Parameter <code>_this</code> can not be null. </p>
+<p>explicitly increases the size of faces vector, doubling the current capacity if it was not enough Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>faceResizeWithReserve</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1884,7 +1884,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the number of face records including invalid ones Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>faceSize</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns the number of face records including invalid ones Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>faceSize</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1906,7 +1906,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns all faces for which isBdFace(f, region) is true Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>findBdFaces</code>. Parameter <code>_this</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns all faces for which isBdFace(f, region) is true Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>findBdFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1933,7 +1933,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns all (test) vertices for which isBdVertex(v, region) is true Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>findBdVerts</code>. Parameter <code>_this</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. Parameter <code>test</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns all (test) vertices for which isBdVertex(v, region) is true Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>findBdVerts</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Parameter <code>test</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1960,7 +1960,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds and returns edge from o to d in the mesh; returns invalid edge otherwise Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>findEdge</code>. Parameter <code>_this</code> can not be null. </p>
+<p>finds and returns edge from o to d in the mesh; returns invalid edge otherwise Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>findEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1982,7 +1982,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns one edge with no valid left face for every boundary in the mesh; if region is given, then returned edges must have valid right faces from the region Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>findHoleRepresentiveEdges</code>. Parameter <code>_this</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns one edge with no valid left face for every boundary in the mesh; if region is given, then returned edges must have valid right faces from the region Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>findHoleRepresentiveEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2009,7 +2009,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns all (test) edges for which left(e) does not belong to the region and isBdEdge(e, region) is true Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>findLeftBdEdges</code>. Parameter <code>_this</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. Parameter <code>test</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a9c02438faafb5b467654055dff8238ac" title="Destroys a heap-allocated instance of MR_EdgeBitSet. Does nothing if the pointer is null.">MR_EdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns all (test) edges for which left(e) does not belong to the region and isBdEdge(e, region) is true Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>findLeftBdEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Parameter <code>test</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a9c02438faafb5b467654055dff8238ac" title="Destroys a heap-allocated instance of MR_EdgeBitSet. Does nothing if the pointer is null.">MR_EdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2027,7 +2027,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds and returns all not-lone (valid) undirected edges Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>findNotLoneUndirectedEdges</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds and returns all not-lone (valid) undirected edges Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>findNotLoneUndirectedEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2051,7 +2051,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>returns the number of hole loops in the mesh; </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">holeRepresentativeEdges</td><td>optional output of the smallest edge id with no valid left face in every hole Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>findNumHoles</code>. Parameter <code>_this</code> can not be null. Parameter <code>holeRepresentativeEdges</code> defaults to a null pointer in C++. </td></tr>
+    <tr><td class="paramname">holeRepresentativeEdges</td><td>optional output of the smallest edge id with no valid left face in every hole Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>findNumHoles</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>holeRepresentativeEdges</code> defaults to a null pointer in C++. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2076,7 +2076,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>sets in (fs) all valid faces that were not selected before the call, and resets other bits Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>flip</code>. Parameter <code>_this</code> can not be null. Parameter <code>fs</code> can not be null. </p>
+<p>sets in (fs) all valid faces that were not selected before the call, and resets other bits Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>flip</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>fs</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2098,7 +2098,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>sets in (vs) all valid vertices that were not selected before the call, and resets other bits Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>flip</code>. Parameter <code>_this</code> can not be null. Parameter <code>vs</code> can not be null. </p>
+<p>sets in (vs) all valid vertices that were not selected before the call, and resets other bits Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>flip</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>vs</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2120,7 +2120,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given the edge with left and right triangular faces, which form together a quadrangle, rotates the edge counter-clockwise inside the quadrangle Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>flipEdge</code>. Parameter <code>_this</code> can not be null. </p>
+<p>given the edge with left and right triangular faces, which form together a quadrangle, rotates the edge counter-clockwise inside the quadrangle Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>flipEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2152,7 +2152,7 @@ Functions</h2></td></tr>
 </li>
 <li>given mesh components in<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">fullComponents.</td><td>The behavior is undefined if fullComponents is given but there are connected components with some edges included and not-included there. Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>flipOrientation</code>. Parameter <code>_this</code> can not be null. Parameter <code>fullComponents</code> defaults to a null pointer in C++. </td></tr>
+    <tr><td class="paramname">fullComponents.</td><td>The behavior is undefined if fullComponents is given but there are connected components with some edges included and not-included there. Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>flipOrientation</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>fullComponents</code> defaults to a null pointer in C++. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2184,7 +2184,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if a and b are both from the same left face ring Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>fromSameLeftRing</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns true if a and b are both from the same left face ring Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>fromSameLeftRing</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2211,7 +2211,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if a and b are both from the same origin ring Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>fromSameOriginRing</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns true if a and b are both from the same origin ring Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>fromSameOriginRing</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2229,7 +2229,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns three vertex ids for valid triangles, invalid triangles are skipped Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getAllTriVerts</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__array__MR__VertId__3_8h.html#affc4759de373784c0bb88105251c52f7" title="Destroys a heap-allocated instance of MR_std_vector_std_array_MR_VertId_3. Does nothing if the pointe...">MR_std_vector_std_array_MR_VertId_3_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns three vertex ids for valid triangles, invalid triangles are skipped Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getAllTriVerts</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__array__MR__VertId__3_8h.html#affc4759de373784c0bb88105251c52f7" title="Destroys a heap-allocated instance of MR_std_vector_std_array_MR_VertId_3. Does nothing if the pointe...">MR_std_vector_std_array_MR_VertId_3_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2251,7 +2251,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the number of edges around the given face: 3 for triangular faces, ... Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getFaceDegree</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns the number of edges around the given face: 3 for triangular faces, ... Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getFaceDegree</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2273,7 +2273,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if region pointer is not null then converts it in reference, otherwise returns all valid faces in the mesh Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getFaceIds</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if region pointer is not null then converts it in reference, otherwise returns all valid faces in the mesh Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getFaceIds</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2295,7 +2295,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the number of edges around the left face: 3 for triangular faces, ... Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getLeftDegree</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns the number of edges around the left face: 3 for triangular faces, ... Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getLeftDegree</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2317,7 +2317,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns full edge-loop of left face from (e) starting from (e) itself Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getLeftRing</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns full edge-loop of left face from (e) starting from (e) itself Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getLeftRing</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2339,7 +2339,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns full edge-loops of left faces from every edge in (es); each edge-loop will be returned only once even if some faces are represented by more than one edge in (es) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getLeftRings</code>. Parameter <code>_this</code> can not be null. Parameter <code>es</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__EdgeId_8h.html#aeef24721eeb11c2c74a8c0804ad4f104" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_EdgeId. Does nothing if the pointer...">MR_std_vector_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns full edge-loops of left faces from every edge in (es); each edge-loop will be returned only once even if some faces are represented by more than one edge in (es) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getLeftRings</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>es</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__EdgeId_8h.html#aeef24721eeb11c2c74a8c0804ad4f104" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_EdgeId. Does nothing if the pointer...">MR_std_vector_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2371,7 +2371,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given one edge with triangular face on the left; returns two other edges of the same face, oriented to have this face on the left; the edges are returned in counter-clockwise order if look from mesh outside Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getLeftTriEdges</code>. Parameter <code>_this</code> can not be null. Parameter <code>e1</code> can not be null. Parameter <code>e2</code> can not be null. </p>
+<p>given one edge with triangular face on the left; returns two other edges of the same face, oriented to have this face on the left; the edges are returned in counter-clockwise order if look from mesh outside Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getLeftTriEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>e1</code> can not be null. It is a single object. Parameter <code>e2</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2393,7 +2393,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getLeftTriVerts</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getLeftTriVerts</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2420,7 +2420,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getLeftTriVerts</code>. Parameter <code>_this</code> can not be null. Parameter <code>v</code> can not be null. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getLeftTriVerts</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>v</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2457,7 +2457,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>gets 3 vertices of the left face ( face-id may not exist, but the shape must be triangular) the vertices are returned in counter-clockwise order if look from mesh outside: v0 = org( a ), v1 = dest( a ) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getLeftTriVerts</code>. Parameter <code>_this</code> can not be null. Parameter <code>v0</code> can not be null. Parameter <code>v1</code> can not be null. Parameter <code>v2</code> can not be null. </p>
+<p>gets 3 vertices of the left face ( face-id may not exist, but the shape must be triangular) the vertices are returned in counter-clockwise order if look from mesh outside: v0 = org( a ), v1 = dest( a ) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getLeftTriVerts</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>v0</code> can not be null. It is a single object. Parameter <code>v1</code> can not be null. It is a single object. Parameter <code>v2</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2479,7 +2479,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the number of edges around the origin vertex, returns 1 for lone edges Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getOrgDegree</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns the number of edges around the origin vertex, returns 1 for lone edges Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getOrgDegree</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2501,7 +2501,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns all valid left faces of path edges Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getPathLeftFaces</code>. Parameter <code>_this</code> can not be null. Parameter <code>path</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns all valid left faces of path edges Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getPathLeftFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>path</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2523,7 +2523,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns all valid right faces of path edges Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getPathRightFaces</code>. Parameter <code>_this</code> can not be null. Parameter <code>path</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns all valid right faces of path edges Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getPathRightFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>path</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2545,7 +2545,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns all vertices incident to path edges Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getPathVertices</code>. Parameter <code>_this</code> can not be null. Parameter <code>path</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns all vertices incident to path edges Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getPathVertices</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>path</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2563,7 +2563,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns three vertex ids for valid triangles (which can be accessed by FaceId), vertex ids for invalid triangles are undefined, and shall not be read Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getTriangulation</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#a06c924beb0ba47c9c1935f25f75f1937" title="Destroys a heap-allocated instance of MR_Triangulation. Does nothing if the pointer is null.">MR_Triangulation_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns three vertex ids for valid triangles (which can be accessed by FaceId), vertex ids for invalid triangles are undefined, and shall not be read Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getTriangulation</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#a06c924beb0ba47c9c1935f25f75f1937" title="Destroys a heap-allocated instance of MR_Triangulation. Does nothing if the pointer is null.">MR_Triangulation_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2600,7 +2600,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>gets 3 edges of given triangular face, oriented to have it on the left; the edges are returned in counter-clockwise order if look from mesh outside Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getTriEdges</code>. Parameter <code>_this</code> can not be null. Parameter <code>e0</code> can not be null. Parameter <code>e1</code> can not be null. Parameter <code>e2</code> can not be null. </p>
+<p>gets 3 edges of given triangular face, oriented to have it on the left; the edges are returned in counter-clockwise order if look from mesh outside Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getTriEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>e0</code> can not be null. It is a single object. Parameter <code>e1</code> can not be null. It is a single object. Parameter <code>e2</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2622,7 +2622,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getTriVerts</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getTriVerts</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2649,7 +2649,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getTriVerts</code>. Parameter <code>_this</code> can not be null. Parameter <code>v</code> can not be null. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getTriVerts</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>v</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2686,7 +2686,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>gets 3 vertices of given triangular face; the vertices are returned in counter-clockwise order if look from mesh outside Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getTriVerts</code>. Parameter <code>_this</code> can not be null. Parameter <code>v0</code> can not be null. Parameter <code>v1</code> can not be null. Parameter <code>v2</code> can not be null. </p>
+<p>gets 3 vertices of given triangular face; the vertices are returned in counter-clockwise order if look from mesh outside Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getTriVerts</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>v0</code> can not be null. It is a single object. Parameter <code>v1</code> can not be null. It is a single object. Parameter <code>v2</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2704,7 +2704,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns cached set of all valid faces Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getValidFaces</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>returns cached set of all valid faces Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getValidFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2722,7 +2722,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns cached set of all valid vertices Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getValidVerts</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>returns cached set of all valid vertices Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getValidVerts</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2744,7 +2744,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the number of edges around the given vertex Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getVertDegree</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns the number of edges around the given vertex Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getVertDegree</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2766,7 +2766,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if region pointer is not null then converts it in reference, otherwise returns all valid vertices in the mesh Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getVertIds</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if region pointer is not null then converts it in reference, otherwise returns all valid vertices in the mesh Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>getVertIds</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2788,7 +2788,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if given edge is within valid range and not-lone Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>hasEdge</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns true if given edge is within valid range and not-lone Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>hasEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2810,7 +2810,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if given face is present in the mesh Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>hasFace</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns true if given face is present in the mesh Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>hasFace</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2832,7 +2832,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if given vertex is present in the mesh Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>hasVert</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns true if given vertex is present in the mesh Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>hasVert</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2850,7 +2850,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the amount of memory this object occupies on heap Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>heapBytes</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns the amount of memory this object occupies on heap Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>heapBytes</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2877,7 +2877,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>isBdEdge(e) returns true, if the edge (e) is a boundary edge of the mesh: (e) has a hole from one or both sides. isBdEdge(e, region) returns true, if the edge (e) is a boundary edge of the given region: (e) has a region's face from one side (region.test(f0)==true) and a hole or not-region face from the other side (!f1 || region.test(f1)==false). If the region contains all faces of the mesh then isBdEdge(e) is the union of isBdEdge(e, region) and not-lone edges without both left and right faces. Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isBdEdge</code>. Parameter <code>_this</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+<p>isBdEdge(e) returns true, if the edge (e) is a boundary edge of the mesh: (e) has a hole from one or both sides. isBdEdge(e, region) returns true, if the edge (e) is a boundary edge of the given region: (e) has a region's face from one side (region.test(f0)==true) and a hole or not-region face from the other side (!f1 || region.test(f1)==false). If the region contains all faces of the mesh then isBdEdge(e) is the union of isBdEdge(e, region) and not-lone edges without both left and right faces. Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isBdEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -2904,7 +2904,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if given face belongs to the region and it has a boundary edge (isBdEdge(e,region) == true) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isBdFace</code>. Parameter <code>_this</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+<p>returns true if given face belongs to the region and it has a boundary edge (isBdEdge(e,region) == true) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isBdFace</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -2931,7 +2931,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if given vertex is on (region) boundary Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isBdVertex</code>. Parameter <code>_this</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+<p>returns true if given vertex is on (region) boundary Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isBdVertex</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -2958,7 +2958,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if edge's origin is on (region) boundary Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isBdVertexInOrg</code>. Parameter <code>_this</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+<p>returns true if edge's origin is on (region) boundary Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isBdVertexInOrg</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -2980,7 +2980,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if the mesh (region) does not have any neighboring holes Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isClosed</code>. Parameter <code>_this</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+<p>returns true if the mesh (region) does not have any neighboring holes Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isClosed</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -3007,7 +3007,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>return true if given edge is inner for given region (or for whole mesh if region is nullptr) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isInnerEdge</code>. Parameter <code>_this</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+<p>return true if given edge is inner for given region (or for whole mesh if region is nullptr) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isInnerEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -3034,7 +3034,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>return true if given edge is inner or boundary for given region (or for whole mesh if region is nullptr), returns false for lone edges Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isInnerOrBdEdge</code>. Parameter <code>_this</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+<p>return true if given edge is inner or boundary for given region (or for whole mesh if region is nullptr), returns false for lone edges Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isInnerOrBdEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -3061,7 +3061,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if one of incident faces of given vertex pertain to given region (or any such face exists if region is nullptr) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isInnerOrBdVertex</code>. Parameter <code>_this</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+<p>returns true if one of incident faces of given vertex pertain to given region (or any such face exists if region is nullptr) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isInnerOrBdVertex</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -3088,7 +3088,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if left face of given edge belongs to given region (if provided) and right face either does not exist or does not belong Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isLeftBdEdge</code>. Parameter <code>_this</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+<p>returns true if left face of given edge belongs to given region (if provided) and right face either does not exist or does not belong Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isLeftBdEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -3115,7 +3115,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if left(e) is a valid (region) face, and it has a boundary edge (isBdEdge(e,region) == true) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isLeftBdFace</code>. Parameter <code>_this</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+<p>returns true if left(e) is a valid (region) face, and it has a boundary edge (isBdEdge(e,region) == true) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isLeftBdFace</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -3142,7 +3142,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>return true if left face of given edge belongs to region (or just have valid id if region is nullptr) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isLeftInRegion</code>. Parameter <code>_this</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+<p>return true if left face of given edge belongs to region (or just have valid id if region is nullptr) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isLeftInRegion</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -3164,7 +3164,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if the cell to the left of a is quadrangular Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isLeftQuad</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns true if the cell to the left of a is quadrangular Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isLeftQuad</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3186,7 +3186,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if the cell to the left of a is triangular Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isLeftTri</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns true if the cell to the left of a is triangular Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isLeftTri</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3208,7 +3208,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>checks whether the edge is disconnected from all other edges and disassociated from all vertices and faces (as if after makeEdge) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isLoneEdge</code>. Parameter <code>_this</code> can not be null. </p>
+<p>checks whether the edge is disconnected from all other edges and disassociated from all vertices and faces (as if after makeEdge) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isLoneEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3235,7 +3235,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>return true if triangular face (f) has (v) as one of its vertices Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isTriVert</code>. Parameter <code>_this</code> can not be null. </p>
+<p>return true if triangular face (f) has (v) as one of its vertices Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>isTriVert</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3253,7 +3253,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns last not lone edge id, or invalid id if no such edge exists Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>lastNotLoneEdge</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns last not lone edge id, or invalid id if no such edge exists Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>lastNotLoneEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3271,7 +3271,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns last not lone undirected edge id, or invalid id if no such edge exists Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>lastNotLoneUndirectedEdge</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns last not lone undirected edge id, or invalid id if no such edge exists Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>lastNotLoneUndirectedEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3289,7 +3289,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns last valid face id, or invalid id if no single valid face exists Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>lastValidFace</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns last valid face id, or invalid id if no single valid face exists Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>lastValidFace</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3307,7 +3307,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns last valid vertex id, or invalid id if no single valid vertex exists Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>lastValidVert</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns last valid vertex id, or invalid id if no single valid vertex exists Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>lastValidVert</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3329,7 +3329,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns left face of half-edge Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>left</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns left face of half-edge Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>left</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3347,7 +3347,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>creates an edge not associated with any vertex or face Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>makeEdge</code>. Parameter <code>_this</code> can not be null. </p>
+<p>creates an edge not associated with any vertex or face Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>makeEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3369,7 +3369,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>next (counter clock wise) half-edge in the origin ring Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>next</code>. Parameter <code>_this</code> can not be null. </p>
+<p>next (counter clock wise) half-edge in the origin ring Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>next</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3396,7 +3396,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given a (region) boundary edge with no right face in given region, returns next boundary edge for the same region: dest(e)==org(res) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>nextLeftBd</code>. Parameter <code>_this</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+<p>given a (region) boundary edge with no right face in given region, returns next boundary edge for the same region: dest(e)==org(res) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>nextLeftBd</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -3414,7 +3414,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the number of valid faces Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>numValidFaces</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns the number of valid faces Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>numValidFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3432,7 +3432,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the number of valid vertices Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>numValidVerts</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns the number of valid vertices Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>numValidVerts</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3500,7 +3500,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns origin vertex of half-edge Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>org</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns origin vertex of half-edge Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>org</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3522,7 +3522,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>tightly packs all arrays eliminating lone edges and invalid faces and vertices; reorder all faces, vertices and edges according to given maps, each containing old id -&gt; new id mapping Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>pack</code>. Parameter <code>_this</code> can not be null. Parameter <code>map</code> can not be null. </p>
+<p>tightly packs all arrays eliminating lone edges and invalid faces and vertices; reorder all faces, vertices and edges according to given maps, each containing old id -&gt; new id mapping Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>pack</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>map</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3562,7 +3562,7 @@ Functions</h2></td></tr>
 <p>tightly packs all arrays eliminating lone edges and invalid faces and vertices </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">outFmap,outVmap,outEmap</td><td>if given returns mappings: old.id -&gt; new.id; </td></tr>
-    <tr><td class="paramname">rearrangeTriangles</td><td>if true then calls rotateTriangles() and selects the order of triangles according to the order of their vertices Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>pack</code>. Parameter <code>_this</code> can not be null. Parameter <code>outFmap</code> defaults to a null pointer in C++. Parameter <code>outVmap</code> defaults to a null pointer in C++. Parameter <code>outEmap</code> defaults to a null pointer in C++. Parameter <code>rearrangeTriangles</code> has a default argument: <code>false</code>, pass a null pointer to use it. </td></tr>
+    <tr><td class="paramname">rearrangeTriangles</td><td>if true then calls rotateTriangles() and selects the order of triangles according to the order of their vertices Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>pack</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>outFmap</code> defaults to a null pointer in C++. Parameter <code>outVmap</code> defaults to a null pointer in C++. Parameter <code>outEmap</code> defaults to a null pointer in C++. Parameter <code>rearrangeTriangles</code> has a default argument: <code>false</code>, pass a null pointer to use it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -3587,7 +3587,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>tightly packs all arrays eliminating lone edges and invalid faces and vertices; reorder all faces, vertices and edges according to given maps, each containing old id -&gt; new id mapping; unlike pack method, this method allocates minimal amount of memory for its operation but works much slower Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>packMinMem</code>. Parameter <code>_this</code> can not be null. Parameter <code>map</code> can not be null. </p>
+<p>tightly packs all arrays eliminating lone edges and invalid faces and vertices; reorder all faces, vertices and edges according to given maps, each containing old id -&gt; new id mapping; unlike pack method, this method allocates minimal amount of memory for its operation but works much slower Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>packMinMem</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>map</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3609,7 +3609,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>for incident vertices and faces of given edges, remember one of them as edgeWithOrg and edgeWithLeft; this is important in parallel algorithms where other edges may change but stable ones will survive Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>preferEdges</code>. Parameter <code>_this</code> can not be null. Parameter <code>stableEdges</code> can not be null. </p>
+<p>for incident vertices and faces of given edges, remember one of them as edgeWithOrg and edgeWithLeft; this is important in parallel algorithms where other edges may change but stable ones will survive Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>preferEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>stableEdges</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3631,7 +3631,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>previous (clock wise) half-edge in the origin ring Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>prev</code>. Parameter <code>_this</code> can not be null. </p>
+<p>previous (clock wise) half-edge in the origin ring Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>prev</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3658,7 +3658,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given a (region) boundary edge with no right face in given region, returns previous boundary edge for the same region; dest(res)==org(e) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>prevLeftBd</code>. Parameter <code>_this</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+<p>given a (region) boundary edge with no right face in given region, returns previous boundary edge for the same region; dest(res)==org(e) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>prevLeftBd</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -3690,7 +3690,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads from binary stream </p><dl class="section return"><dt>Returns</dt><dd>text of error if any Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>read</code>. Parameter <code>_this</code> can not be null. Parameter <code>s</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </dd></dl>
+<p>loads from binary stream </p><dl class="section return"><dt>Returns</dt><dd>text of error if any Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>read</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>s</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -3723,7 +3723,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>These function are for parallel mesh creation from different threads. If you are not sure, do not use them.</p>
-<p>resizes all internal vectors and sets the numbers of valid elements in preparation for addPackedPart; edges are resized without initialization (so the user must initialize them using addPackedPart) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>resizeBeforeParallelAdd</code>. Parameter <code>_this</code> can not be null. </p>
+<p>resizes all internal vectors and sets the numbers of valid elements in preparation for addPackedPart; edges are resized without initialization (so the user must initialize them using addPackedPart) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>resizeBeforeParallelAdd</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3745,7 +3745,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns right face of half-edge Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>right</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns right face of half-edge Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>right</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3763,7 +3763,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>for each triangle selects edgeWithLeft with minimal origin vertex Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>rotateTriangles</code>. Parameter <code>_this</code> can not be null. </p>
+<p>for each triangle selects edgeWithLeft with minimal origin vertex Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>rotateTriangles</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3790,7 +3790,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>sets new left face to the full left ring including this edge; edgePerFace_ table is updated accordingly Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>setLeft</code>. Parameter <code>_this</code> can not be null. </p>
+<p>sets new left face to the full left ring including this edge; edgePerFace_ table is updated accordingly Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>setLeft</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3817,7 +3817,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>sets new origin to the full origin ring including this edge; edgePerVertex_ table is updated accordingly Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>setOrg</code>. Parameter <code>_this</code> can not be null. </p>
+<p>sets new origin to the full origin ring including this edge; edgePerVertex_ table is updated accordingly Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>setOrg</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3844,7 +3844,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if two valid faces share the same edge then it is found and returned Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>sharedEdge</code>. Parameter <code>_this</code> can not be null. </p>
+<p>if two valid faces share the same edge then it is found and returned Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>sharedEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3871,7 +3871,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if two valid edges belong to same valid face then it is found and returned Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>sharedFace</code>. Parameter <code>_this</code> can not be null. </p>
+<p>if two valid edges belong to same valid face then it is found and returned Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>sharedFace</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3898,7 +3898,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if two valid edges share the same vertex then it is found and returned as Edge with this vertex in origin Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>sharedVertInOrg</code>. Parameter <code>_this</code> can not be null. </p>
+<p>if two valid edges share the same vertex then it is found and returned as Edge with this vertex in origin Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>sharedVertInOrg</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3925,7 +3925,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if two valid faces share the same vertex then it is found and returned as Edge with this vertex in origin Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>sharedVertInOrg</code>. Parameter <code>_this</code> can not be null. </p>
+<p>if two valid faces share the same vertex then it is found and returned as Edge with this vertex in origin Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>sharedVertInOrg</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3943,7 +3943,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>requests the removal of unused capacity Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>shrinkToFit</code>. Parameter <code>_this</code> can not be null. </p>
+<p>requests the removal of unused capacity Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>shrinkToFit</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3970,7 +3970,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given two half edges do either of two: 1) if a and b were from distinct rings, puts them in one ring; 2) if a and b were from the same ring, puts them in separate rings; the cut in rings in both cases is made after a and b Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>splice</code>. Parameter <code>_this</code> can not be null. </p>
+<p>given two half edges do either of two: 1) if a and b were from distinct rings, puts them in one ring; 2) if a and b were from the same ring, puts them in separate rings; the cut in rings in both cases is made after a and b Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>splice</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -4005,7 +4005,7 @@ Functions</h2></td></tr>
 <p>split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex, org(returned-edge) = org(e-before-split), dest(e) = dest(e-before-split)</p>
 <p>left and right faces of given edge if valid are also subdivided on two parts each; the split edge will keep both face IDs and their degrees, and the new edge will have new face IDs and new faces are triangular; if left or right faces of the original edge were in the region, then include new parts of these faces in the region </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">new2Old</td><td>receive mapping from newly appeared triangle to its original triangle (part to full) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>splitEdge</code>. Parameter <code>_this</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. Parameter <code>new2Old</code> defaults to a null pointer in C++. </td></tr>
+    <tr><td class="paramname">new2Old</td><td>receive mapping from newly appeared triangle to its original triangle (part to full) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>splitEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Parameter <code>new2Old</code> defaults to a null pointer in C++. </td></tr>
   </table>
   </dd>
 </dl>
@@ -4043,7 +4043,7 @@ Functions</h2></td></tr>
 <p>split given triangle on three triangles, introducing new vertex (which is returned) inside original triangle and connecting it to its vertices</p>
 <p>if region is given, then it must include (f) and new faces will be added there as well </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">new2Old</td><td>receive mapping from newly appeared triangle to its original triangle (part to full) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>splitFace</code>. Parameter <code>_this</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. Parameter <code>new2Old</code> defaults to a null pointer in C++. </td></tr>
+    <tr><td class="paramname">new2Old</td><td>receive mapping from newly appeared triangle to its original triangle (part to full) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>splitFace</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Parameter <code>new2Old</code> defaults to a null pointer in C++. </td></tr>
   </table>
   </dd>
 </dl>
@@ -4064,7 +4064,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>stops updating validVerts(), validFaces(), numValidVerts(), numValidFaces() for parallel processing of mesh parts Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>stopUpdatingValids</code>. Parameter <code>_this</code> can not be null. </p>
+<p>stops updating validVerts(), validFaces(), numValidVerts(), numValidFaces() for parallel processing of mesh parts Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>stopUpdatingValids</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -4082,7 +4082,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the number of allocated undirected edges (pairs of half-edges) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>undirectedEdgeCapacity</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns the number of allocated undirected edges (pairs of half-edges) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>undirectedEdgeCapacity</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -4100,7 +4100,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the number of undirected edges (pairs of half-edges) including lone ones Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>undirectedEdgeSize</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns the number of undirected edges (pairs of half-edges) including lone ones Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>undirectedEdgeSize</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -4118,7 +4118,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns whether the methods validVerts(), validFaces(), numValidVerts(), numValidFaces() can be called Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>updatingValids</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns whether the methods validVerts(), validFaces(), numValidVerts(), numValidFaces() can be called Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>updatingValids</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -4136,7 +4136,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the number of allocated vert records Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>vertCapacity</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns the number of allocated vert records Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>vertCapacity</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -4158,7 +4158,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>sets the capacity of vertices vector Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>vertReserve</code>. Parameter <code>_this</code> can not be null. </p>
+<p>sets the capacity of vertices vector Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>vertReserve</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -4180,7 +4180,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>explicitly increases the size of vertices vector Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>vertResize</code>. Parameter <code>_this</code> can not be null. </p>
+<p>explicitly increases the size of vertices vector Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>vertResize</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -4202,7 +4202,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>explicitly increases the size of vertices vector, doubling the current capacity if it was not enough Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>vertResizeWithReserve</code>. Parameter <code>_this</code> can not be null. </p>
+<p>explicitly increases the size of vertices vector, doubling the current capacity if it was not enough Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>vertResizeWithReserve</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -4220,7 +4220,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the number of vertex records including invalid ones Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>vertSize</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns the number of vertex records including invalid ones Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>vertSize</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -4242,7 +4242,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>saves in binary stream Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>write</code>. Parameter <code>_this</code> can not be null. Parameter <code>s</code> can not be null. </p>
+<p>saves in binary stream Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></code> named <code>write</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>s</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

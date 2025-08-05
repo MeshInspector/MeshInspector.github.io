@@ -401,7 +401,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given fixed vertices, computes positions of remaining region vertices Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Laplacian.html">MR::Laplacian</a></code> named <code>apply</code>. Parameter <code>_this</code> can not be null. </p>
+<p>given fixed vertices, computes positions of remaining region vertices Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Laplacian.html">MR::Laplacian</a></code> named <code>apply</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -423,7 +423,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given a pre-resized scalar field with set values in fixed vertices, computes the values in free vertices Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Laplacian.html">MR::Laplacian</a></code> named <code>applyToScalar</code>. Parameter <code>_this</code> can not be null. Parameter <code>scalarField</code> can not be null. </p>
+<p>given a pre-resized scalar field with set values in fixed vertices, computes the values in free vertices Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Laplacian.html">MR::Laplacian</a></code> named <code>applyToScalar</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>scalarField</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -441,7 +441,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1Laplacian.html">MR::Laplacian</a></code>. Parameter <code>mesh</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac6df2d6a7e2a2ea7f31402a4e2bedb59" title="Destroys a heap-allocated instance of MR_Laplacian. Does nothing if the pointer is null.">MR_Laplacian_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1Laplacian.html">MR::Laplacian</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac6df2d6a7e2a2ea7f31402a4e2bedb59" title="Destroys a heap-allocated instance of MR_Laplacian. Does nothing if the pointer is null.">MR_Laplacian_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -463,7 +463,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1Laplacian.html">MR::Laplacian</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac6df2d6a7e2a2ea7f31402a4e2bedb59" title="Destroys a heap-allocated instance of MR_Laplacian. Does nothing if the pointer is null.">MR_Laplacian_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1Laplacian.html">MR::Laplacian</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac6df2d6a7e2a2ea7f31402a4e2bedb59" title="Destroys a heap-allocated instance of MR_Laplacian. Does nothing if the pointer is null.">MR_Laplacian_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -541,7 +541,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>return fixed vertices from the first layer around free vertices Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Laplacian.html">MR::Laplacian</a></code> named <code>firstLayerFixedVerts</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>return fixed vertices from the first layer around free vertices Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Laplacian.html">MR::Laplacian</a></code> named <code>firstLayerFixedVerts</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -570,7 +570,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>notify Laplacian that given vertex has changed after init and must be fixed during apply; </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">smooth</td><td>whether to make the surface smooth in this vertex (sharp otherwise) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Laplacian.html">MR::Laplacian</a></code> named <code>fixVertex</code>. Parameter <code>_this</code> can not be null. Parameter <code>smooth</code> has a default argument: <code>true</code>, pass a null pointer to use it. </td></tr>
+    <tr><td class="paramname">smooth</td><td>whether to make the surface smooth in this vertex (sharp otherwise) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Laplacian.html">MR::Laplacian</a></code> named <code>fixVertex</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>smooth</code> has a default argument: <code>true</code>, pass a null pointer to use it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -607,7 +607,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>sets position of given vertex after init and it must be fixed during apply (THIS METHOD CHANGES THE MESH); </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">smooth</td><td>whether to make the surface smooth in this vertex (sharp otherwise) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Laplacian.html">MR::Laplacian</a></code> named <code>fixVertex</code>. Parameter <code>_this</code> can not be null. Parameter <code>fixedPos</code> can not be null. Parameter <code>smooth</code> has a default argument: <code>true</code>, pass a null pointer to use it. </td></tr>
+    <tr><td class="paramname">smooth</td><td>whether to make the surface smooth in this vertex (sharp otherwise) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Laplacian.html">MR::Laplacian</a></code> named <code>fixVertex</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>fixedPos</code> can not be null. It is a single object. Parameter <code>smooth</code> has a default argument: <code>true</code>, pass a null pointer to use it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -628,7 +628,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>return currently free vertices Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Laplacian.html">MR::Laplacian</a></code> named <code>freeVerts</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>return currently free vertices Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Laplacian.html">MR::Laplacian</a></code> named <code>freeVerts</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -667,7 +667,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>initialize Laplacian for the region being deformed, here region properties are remembered and precomputed; </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">freeVerts</td><td>must not include all vertices of a mesh connected component Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Laplacian.html">MR::Laplacian</a></code> named <code>init</code>. Parameter <code>_this</code> can not be null. Parameter <code>freeVerts</code> can not be null. Parameter <code>vmass</code> has a default argument: <code>VertexMass::Unit</code>, pass a null pointer to use it. Parameter <code>rem</code> has a default argument: <code>Laplacian::RememberShape::Yes</code>, pass a null pointer to use it. </td></tr>
+    <tr><td class="paramname">freeVerts</td><td>must not include all vertices of a mesh connected component Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Laplacian.html">MR::Laplacian</a></code> named <code>init</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>freeVerts</code> can not be null. It is a single object. Parameter <code>vmass</code> has a default argument: <code>VertexMass::Unit</code>, pass a null pointer to use it. Parameter <code>rem</code> has a default argument: <code>Laplacian::RememberShape::Yes</code>, pass a null pointer to use it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -734,7 +734,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>return all initially free vertices and the first layer of vertices around them Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Laplacian.html">MR::Laplacian</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>return all initially free vertices and the first layer of vertices around them Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Laplacian.html">MR::Laplacian</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -752,7 +752,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if you manually call this method after initialization and fixing vertices then next apply call will be much faster Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Laplacian.html">MR::Laplacian</a></code> named <code>updateSolver</code>. Parameter <code>_this</code> can not be null. </p>
+<p>if you manually call this method after initialization and fixing vertices then next apply call will be much faster Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Laplacian.html">MR::Laplacian</a></code> named <code>updateSolver</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

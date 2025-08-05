@@ -317,7 +317,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-polyline space to A polyline space, nullptr considered as identity transformation </td></tr>
-    <tr><td class="paramname">firstIntersectionOnly</td><td>if true then the function returns at most one pair of intersecting edges and returns faster Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga15a3e18d2098f8ff33e67776a221e6fb">MR::findCollidingEdgePairs</a></code>. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. Parameter <code>rigidB2A</code> defaults to a null pointer in C++. Parameter <code>firstIntersectionOnly</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgePointPair_8h.html#a9f76c34e8453c3cec4a07a698ba02db2" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgePointPair. Does nothing if the pointer is ...">MR_std_vector_MR_EdgePointPair_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">firstIntersectionOnly</td><td>if true then the function returns at most one pair of intersecting edges and returns faster Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga15a3e18d2098f8ff33e67776a221e6fb">MR::findCollidingEdgePairs</a></code>. Parameter <code>a</code> can not be null. It is a single object. Parameter <code>b</code> can not be null. It is a single object. Parameter <code>rigidB2A</code> defaults to a null pointer in C++. Parameter <code>firstIntersectionOnly</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgePointPair_8h.html#a9f76c34e8453c3cec4a07a698ba02db2" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgePointPair. Does nothing if the pointer is ...">MR_std_vector_MR_EdgePointPair_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -357,7 +357,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-polyline space to A polyline space, nullptr considered as identity transformation </td></tr>
-    <tr><td class="paramname">firstIntersectionOnly</td><td>if true then the function returns at most one pair of intersecting edges and returns faster Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga44c8af10ceaf3059a77647d7b6f2ca8b">MR::findCollidingEdges</a></code>. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. Parameter <code>rigidB2A</code> defaults to a null pointer in C++. Parameter <code>firstIntersectionOnly</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__UndirectedEdgeUndirectedEdge_8h.html#a1b491e36dd03e2e6e391ab3f8be5dfdb" title="Destroys a heap-allocated instance of MR_std_vector_MR_UndirectedEdgeUndirectedEdge....">MR_std_vector_MR_UndirectedEdgeUndirectedEdge_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">firstIntersectionOnly</td><td>if true then the function returns at most one pair of intersecting edges and returns faster Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga44c8af10ceaf3059a77647d7b6f2ca8b">MR::findCollidingEdges</a></code>. Parameter <code>a</code> can not be null. It is a single object. Parameter <code>b</code> can not be null. It is a single object. Parameter <code>rigidB2A</code> defaults to a null pointer in C++. Parameter <code>firstIntersectionOnly</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__UndirectedEdgeUndirectedEdge_8h.html#a1b491e36dd03e2e6e391ab3f8be5dfdb" title="Destroys a heap-allocated instance of MR_std_vector_MR_UndirectedEdgeUndirectedEdge....">MR_std_vector_MR_UndirectedEdgeUndirectedEdge_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -391,7 +391,7 @@ Functions</h2></td></tr>
 <p>finds bitset per polyline with colliding edges </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-polyline space to A polyline space, nullptr considered as identity transformation Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga0f3404724c88f935957c8c3c8962ea3a">MR::findCollidingEdgesBitsets</a></code>. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. Parameter <code>rigidB2A</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__pair__MR__UndirectedEdgeBitSet__MR__UndirectedEdgeBitSet_8h.html#a47c4b734351b10d7bb5c09f5d87d8274" title="Destroys a heap-allocated instance of MR_std_pair_MR_UndirectedEdgeBitSet_MR_UndirectedEdgeBitSet....">MR_std_pair_MR_UndirectedEdgeBitSet_MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-polyline space to A polyline space, nullptr considered as identity transformation Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga0f3404724c88f935957c8c3c8962ea3a">MR::findCollidingEdgesBitsets</a></code>. Parameter <code>a</code> can not be null. It is a single object. Parameter <code>b</code> can not be null. It is a single object. Parameter <code>rigidB2A</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__pair__MR__UndirectedEdgeBitSet__MR__UndirectedEdgeBitSet_8h.html#a47c4b734351b10d7bb5c09f5d87d8274" title="Destroys a heap-allocated instance of MR_std_pair_MR_UndirectedEdgeBitSet_MR_UndirectedEdgeBitSet....">MR_std_pair_MR_UndirectedEdgeBitSet_MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -412,7 +412,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds all pairs of colliding edges from 2d polyline Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga4fca223a68dac564f66af0224c0ec3ec">MR::findSelfCollidingEdgePairs</a></code>. Parameter <code>polyline</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgePointPair_8h.html#a9f76c34e8453c3cec4a07a698ba02db2" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgePointPair. Does nothing if the pointer is ...">MR_std_vector_MR_EdgePointPair_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds all pairs of colliding edges from 2d polyline Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga4fca223a68dac564f66af0224c0ec3ec">MR::findSelfCollidingEdgePairs</a></code>. Parameter <code>polyline</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgePointPair_8h.html#a9f76c34e8453c3cec4a07a698ba02db2" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgePointPair. Does nothing if the pointer is ...">MR_std_vector_MR_EdgePointPair_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -430,7 +430,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds all pairs of colliding edges from 2d polyline Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#gad89aed99c2cba4cd08e06d896b839841">MR::findSelfCollidingEdges</a></code>. Parameter <code>polyline</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__UndirectedEdgeUndirectedEdge_8h.html#a1b491e36dd03e2e6e391ab3f8be5dfdb" title="Destroys a heap-allocated instance of MR_std_vector_MR_UndirectedEdgeUndirectedEdge....">MR_std_vector_MR_UndirectedEdgeUndirectedEdge_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds all pairs of colliding edges from 2d polyline Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#gad89aed99c2cba4cd08e06d896b839841">MR::findSelfCollidingEdges</a></code>. Parameter <code>polyline</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__UndirectedEdgeUndirectedEdge_8h.html#a1b491e36dd03e2e6e391ab3f8be5dfdb" title="Destroys a heap-allocated instance of MR_std_vector_MR_UndirectedEdgeUndirectedEdge....">MR_std_vector_MR_UndirectedEdgeUndirectedEdge_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -448,7 +448,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds the union of all self-intersecting edges Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga8658f18b6b0489c1dafa4903c64c0165">MR::findSelfCollidingEdgesBS</a></code>. Parameter <code>polyline</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds the union of all self-intersecting edges Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga8658f18b6b0489c1dafa4903c64c0165">MR::findSelfCollidingEdgesBS</a></code>. Parameter <code>polyline</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -479,7 +479,7 @@ Functions</h2></td></tr>
 <p>checks that arbitrary 2d polyline A is inside of closed 2d polyline B </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-polyline space to A polyline space, nullptr considered as identity transformation Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga3c4d304b28fd4695d20dc454318f5660">MR::isInside</a></code>. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. Parameter <code>rigidB2A</code> defaults to a null pointer in C++. </td></tr>
+    <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-polyline space to A polyline space, nullptr considered as identity transformation Generated from function <code><a class="elRef" href="../Cpp/group__AABBTreeGroup.html#ga3c4d304b28fd4695d20dc454318f5660">MR::isInside</a></code>. Parameter <code>a</code> can not be null. It is a single object. Parameter <code>b</code> can not be null. It is a single object. Parameter <code>rigidB2A</code> defaults to a null pointer in C++. </td></tr>
   </table>
   </dd>
 </dl>

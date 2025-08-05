@@ -397,7 +397,7 @@ Functions</h2></td></tr>
 <p>computes relative radiation in each valid sample point by emitting rays from that point in the sky: the radiation is 1.0f if all rays reach the sky not hitting the terrain; the radiation is 0.0f if all rays do not reach the sky because they are intercepted by the terrain; </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">outSkyRays</td><td>- optional output bitset where for every valid sample #i its rays are stored at indices [i*numPatches; (i+1)*numPatches), 0s for occluded rays (hitting the terrain) and 1s for the ones which don't hit anything and reach the sky </td></tr>
-    <tr><td class="paramname">outIntersections</td><td>- optional output vector of MeshIntersectionResult for every valid sample point Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a89b2da067b37f50a6ece3d8f15de383e">MR::computeSkyViewFactor</a></code>. Parameter <code>terrain</code> can not be null. Parameter <code>samples</code> can not be null. Parameter <code>validSamples</code> can not be null. Parameter <code>skyPatches</code> can not be null. Parameter <code>outSkyRays</code> defaults to a null pointer in C++. Parameter <code>outIntersections</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#a83a57f50db4b03b5b3ab957541afdd1f" title="Destroys a heap-allocated instance of MR_VertScalars. Does nothing if the pointer is null.">MR_VertScalars_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">outIntersections</td><td>- optional output vector of MeshIntersectionResult for every valid sample point Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a89b2da067b37f50a6ece3d8f15de383e">MR::computeSkyViewFactor</a></code>. Parameter <code>terrain</code> can not be null. It is a single object. Parameter <code>samples</code> can not be null. It is a single object. Parameter <code>validSamples</code> can not be null. It is a single object. Parameter <code>skyPatches</code> can not be null. It is a single object. Parameter <code>outSkyRays</code> defaults to a null pointer in C++. Parameter <code>outIntersections</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#a83a57f50db4b03b5b3ab957541afdd1f" title="Destroys a heap-allocated instance of MR_VertScalars. Does nothing if the pointer is null.">MR_VertScalars_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -440,7 +440,7 @@ Functions</h2></td></tr>
 <p>In each valid sample point tests the rays from that point in the sky; </p><dl class="section return"><dt>Returns</dt><dd>bitset where for every valid sample #i its rays are stored at indices [i*numPatches; (i+1)*numPatches), 0s for occluded rays (hitting the terrain) and 1s for the ones which don't hit anything and reach the sky </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">outIntersections</td><td>- optional output vector of MeshIntersectionResult for every valid sample point Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a0c3ab3aa00e01de7b40fee363ff0e3f3">MR::findSkyRays</a></code>. Parameter <code>terrain</code> can not be null. Parameter <code>samples</code> can not be null. Parameter <code>validSamples</code> can not be null. Parameter <code>skyPatches</code> can not be null. Parameter <code>outIntersections</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a051229b3987e1901ba57e522e36f92cc" title="Destroys a heap-allocated instance of MR_BitSet. Does nothing if the pointer is null.">MR_BitSet_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">outIntersections</td><td>- optional output vector of MeshIntersectionResult for every valid sample point Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a0c3ab3aa00e01de7b40fee363ff0e3f3">MR::findSkyRays</a></code>. Parameter <code>terrain</code> can not be null. It is a single object. Parameter <code>samples</code> can not be null. It is a single object. Parameter <code>validSamples</code> can not be null. It is a single object. Parameter <code>skyPatches</code> can not be null. It is a single object. Parameter <code>outIntersections</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a051229b3987e1901ba57e522e36f92cc" title="Destroys a heap-allocated instance of MR_BitSet. Does nothing if the pointer is null.">MR_BitSet_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -483,7 +483,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SkyPatch.html">MR::SkyPatch</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SkyPatch.html">MR::SkyPatch</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -523,7 +523,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1SkyPatch.html">MR::SkyPatch</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a91af284ff3c43accb2239cb0f638d2b3" title="Destroys a heap-allocated instance of MR_SkyPatch. Does nothing if the pointer is null.">MR_SkyPatch_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1SkyPatch.html">MR::SkyPatch</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a91af284ff3c43accb2239cb0f638d2b3" title="Destroys a heap-allocated instance of MR_SkyPatch. Does nothing if the pointer is null.">MR_SkyPatch_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -615,7 +615,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>direction toward the center of the patch Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SkyPatch.html">MR::SkyPatch</a></code> named <code>dir</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>direction toward the center of the patch Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SkyPatch.html">MR::SkyPatch</a></code> named <code>dir</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -633,7 +633,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>radiation of the patch depending on Sun's position, sky clearness and brightness, etc Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SkyPatch.html">MR::SkyPatch</a></code> named <code>radiation</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>radiation of the patch depending on Sun's position, sky clearness and brightness, etc Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SkyPatch.html">MR::SkyPatch</a></code> named <code>radiation</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -651,7 +651,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>direction toward the center of the patch Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SkyPatch.html">MR::SkyPatch</a></code> named <code>dir</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>direction toward the center of the patch Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SkyPatch.html">MR::SkyPatch</a></code> named <code>dir</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -669,7 +669,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>radiation of the patch depending on Sun's position, sky clearness and brightness, etc Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SkyPatch.html">MR::SkyPatch</a></code> named <code>radiation</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>radiation of the patch depending on Sun's position, sky clearness and brightness, etc Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SkyPatch.html">MR::SkyPatch</a></code> named <code>radiation</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -737,7 +737,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>direction toward the center of the patch Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SkyPatch.html">MR::SkyPatch</a></code> named <code>dir</code>. Parameter <code>_this</code> can not be null. </p>
+<p>direction toward the center of the patch Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SkyPatch.html">MR::SkyPatch</a></code> named <code>dir</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -759,7 +759,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>radiation of the patch depending on Sun's position, sky clearness and brightness, etc Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SkyPatch.html">MR::SkyPatch</a></code> named <code>radiation</code>. Parameter <code>_this</code> can not be null. </p>
+<p>radiation of the patch depending on Sun's position, sky clearness and brightness, etc Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SkyPatch.html">MR::SkyPatch</a></code> named <code>radiation</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

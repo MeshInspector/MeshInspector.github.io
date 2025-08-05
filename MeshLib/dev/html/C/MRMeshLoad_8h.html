@@ -328,7 +328,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from file in textual .STL format Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ae216151c4b77b1ab0d89421bb5bcfe7d">MR::loadASCIIStl</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from file in textual .STL format Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ae216151c4b77b1ab0d89421bb5bcfe7d">MR::loadASCIIStl</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -350,7 +350,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from stream in textual .STL format Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ae216151c4b77b1ab0d89421bb5bcfe7d">MR::loadASCIIStl</a></code>. Parameter <code>in</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from stream in textual .STL format Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ae216151c4b77b1ab0d89421bb5bcfe7d">MR::loadASCIIStl</a></code>. Parameter <code>in</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -377,7 +377,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from file in binary .STL format Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a6262b8245fb92449e4d3171a00433100">MR::loadBinaryStl</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from file in binary .STL format Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a6262b8245fb92449e4d3171a00433100">MR::loadBinaryStl</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -399,7 +399,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from stream in binary .STL format; important on Windows: in stream must be open in binary mode Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a6262b8245fb92449e4d3171a00433100">MR::loadBinaryStl</a></code>. Parameter <code>in</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from stream in binary .STL format; important on Windows: in stream must be open in binary mode Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a6262b8245fb92449e4d3171a00433100">MR::loadBinaryStl</a></code>. Parameter <code>in</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -426,7 +426,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from file in .DXF format; Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1406872d778370e6e79e2e38e335d838">MR::loadDxf</a></code>. Parameter <code>path</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from file in .DXF format; Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1406872d778370e6e79e2e38e335d838">MR::loadDxf</a></code>. Parameter <code>path</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -448,7 +448,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from stream in .DXF format; Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1406872d778370e6e79e2e38e335d838">MR::loadDxf</a></code>. Parameter <code>in</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from stream in .DXF format; Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1406872d778370e6e79e2e38e335d838">MR::loadDxf</a></code>. Parameter <code>in</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -475,7 +475,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from file in the format detected from file extension Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1b8ac24b57e11fa07184f27066c90345">MR::loadMesh</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from file in the format detected from file extension Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1b8ac24b57e11fa07184f27066c90345">MR::loadMesh</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -502,7 +502,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from stream in the format detected from given extension-string (<code>*.ext</code>); important on Windows: in stream must be open in binary mode Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1b8ac24b57e11fa07184f27066c90345">MR::loadMesh</a></code>. Parameter <code>in</code> can not be null. Parameter <code>extension</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from stream in the format detected from given extension-string (<code>*.ext</code>); important on Windows: in stream must be open in binary mode Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1b8ac24b57e11fa07184f27066c90345">MR::loadMesh</a></code>. Parameter <code>in</code> can not be null. It is a single object. Parameter <code>extension</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -529,7 +529,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from file in internal MeshLib format Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a2c6c16425d4cddf95359a270fa27977f">MR::loadMrmesh</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from file in internal MeshLib format Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a2c6c16425d4cddf95359a270fa27977f">MR::loadMrmesh</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -551,7 +551,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from stream in internal MeshLib format; important on Windows: in stream must be open in binary mode Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a2c6c16425d4cddf95359a270fa27977f">MR::loadMrmesh</a></code>. Parameter <code>in</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from stream in internal MeshLib format; important on Windows: in stream must be open in binary mode Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a2c6c16425d4cddf95359a270fa27977f">MR::loadMrmesh</a></code>. Parameter <code>in</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -578,7 +578,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from file in .OBJ format Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aefa8cc72d40c3101924ef4334f38e04c">MR::loadObj</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from file in .OBJ format Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aefa8cc72d40c3101924ef4334f38e04c">MR::loadObj</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -600,7 +600,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from stream in .OBJ format; important on Windows: in stream must be open in binary mode Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aefa8cc72d40c3101924ef4334f38e04c">MR::loadObj</a></code>. Parameter <code>in</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from stream in .OBJ format; important on Windows: in stream must be open in binary mode Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aefa8cc72d40c3101924ef4334f38e04c">MR::loadObj</a></code>. Parameter <code>in</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -627,7 +627,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from file in .OFF format Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ab0e186408c8f133c0c8458decb6f2edb">MR::loadOff</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from file in .OFF format Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ab0e186408c8f133c0c8458decb6f2edb">MR::loadOff</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -649,7 +649,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from stream in .OFF format Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ab0e186408c8f133c0c8458decb6f2edb">MR::loadOff</a></code>. Parameter <code>in</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from stream in .OFF format Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ab0e186408c8f133c0c8458decb6f2edb">MR::loadOff</a></code>. Parameter <code>in</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -676,7 +676,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from file in .PLY format; Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a09b7d6190d7b1f760a8974de6ad4b5ee">MR::loadPly</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from file in .PLY format; Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a09b7d6190d7b1f760a8974de6ad4b5ee">MR::loadPly</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -698,7 +698,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from stream in .PLY format; important on Windows: in stream must be open in binary mode Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a09b7d6190d7b1f760a8974de6ad4b5ee">MR::loadPly</a></code>. Parameter <code>in</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from stream in .PLY format; important on Windows: in stream must be open in binary mode Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a09b7d6190d7b1f760a8974de6ad4b5ee">MR::loadPly</a></code>. Parameter <code>in</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -725,7 +725,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from file in any .STL format: both binary and ASCII Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ac6564112e23d53f7ffca39d6df6d10b0">MR::loadStl</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from file in any .STL format: both binary and ASCII Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ac6564112e23d53f7ffca39d6df6d10b0">MR::loadStl</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -747,7 +747,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from stream in any .STL format: both binary and ASCII; important on Windows: in stream must be open in binary mode Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ac6564112e23d53f7ffca39d6df6d10b0">MR::loadStl</a></code>. Parameter <code>in</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from stream in any .STL format: both binary and ASCII; important on Windows: in stream must be open in binary mode Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ac6564112e23d53f7ffca39d6df6d10b0">MR::loadStl</a></code>. Parameter <code>in</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -774,7 +774,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from file in any .STL format: both binary and ASCII Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#ga1b2267cc39cb8d9f8cc2942df5a0b12b">MR::MeshLoad::fromAnyStl</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from file in any .STL format: both binary and ASCII Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#ga1b2267cc39cb8d9f8cc2942df5a0b12b">MR::MeshLoad::fromAnyStl</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -796,7 +796,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from stream in any .STL format: both binary and ASCII; important on Windows: in stream must be open in binary mode Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#ga1b2267cc39cb8d9f8cc2942df5a0b12b">MR::MeshLoad::fromAnyStl</a></code>. Parameter <code>in</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from stream in any .STL format: both binary and ASCII; important on Windows: in stream must be open in binary mode Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#ga1b2267cc39cb8d9f8cc2942df5a0b12b">MR::MeshLoad::fromAnyStl</a></code>. Parameter <code>in</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -823,7 +823,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from file in the format detected from file extension Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from file in the format detected from file extension Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -850,7 +850,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from stream in the format detected from given extension-string (<code>*.ext</code>); important on Windows: in stream must be open in binary mode Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a></code>. Parameter <code>in</code> can not be null. Parameter <code>extension</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from stream in the format detected from given extension-string (<code>*.ext</code>); important on Windows: in stream must be open in binary mode Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a></code>. Parameter <code>in</code> can not be null. It is a single object. Parameter <code>extension</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -877,7 +877,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from file in textual .STL format Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#gaf50c150b1dd81fc6068b1ceff67e4fdf">MR::MeshLoad::fromASCIIStl</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from file in textual .STL format Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#gaf50c150b1dd81fc6068b1ceff67e4fdf">MR::MeshLoad::fromASCIIStl</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -899,7 +899,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from stream in textual .STL format Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#gaf50c150b1dd81fc6068b1ceff67e4fdf">MR::MeshLoad::fromASCIIStl</a></code>. Parameter <code>in</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from stream in textual .STL format Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#gaf50c150b1dd81fc6068b1ceff67e4fdf">MR::MeshLoad::fromASCIIStl</a></code>. Parameter <code>in</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -926,7 +926,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from file in binary .STL format Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#ga800a25cbcfacd411f62b7c5f66035242">MR::MeshLoad::fromBinaryStl</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from file in binary .STL format Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#ga800a25cbcfacd411f62b7c5f66035242">MR::MeshLoad::fromBinaryStl</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -948,7 +948,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from stream in binary .STL format; important on Windows: in stream must be open in binary mode Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#ga800a25cbcfacd411f62b7c5f66035242">MR::MeshLoad::fromBinaryStl</a></code>. Parameter <code>in</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from stream in binary .STL format; important on Windows: in stream must be open in binary mode Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#ga800a25cbcfacd411f62b7c5f66035242">MR::MeshLoad::fromBinaryStl</a></code>. Parameter <code>in</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -975,7 +975,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from file in .DXF format; Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#ga1335c7ebd417b7e14d4a7fbec71b1e16">MR::MeshLoad::fromDxf</a></code>. Parameter <code>path</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from file in .DXF format; Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#ga1335c7ebd417b7e14d4a7fbec71b1e16">MR::MeshLoad::fromDxf</a></code>. Parameter <code>path</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -997,7 +997,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from stream in .DXF format; Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#ga1335c7ebd417b7e14d4a7fbec71b1e16">MR::MeshLoad::fromDxf</a></code>. Parameter <code>in</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from stream in .DXF format; Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#ga1335c7ebd417b7e14d4a7fbec71b1e16">MR::MeshLoad::fromDxf</a></code>. Parameter <code>in</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1024,7 +1024,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from file in internal MeshLib format Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#ga0230084d7f2168e0171883198494ca0a">MR::MeshLoad::fromMrmesh</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from file in internal MeshLib format Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#ga0230084d7f2168e0171883198494ca0a">MR::MeshLoad::fromMrmesh</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1046,7 +1046,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from stream in internal MeshLib format; important on Windows: in stream must be open in binary mode Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#ga0230084d7f2168e0171883198494ca0a">MR::MeshLoad::fromMrmesh</a></code>. Parameter <code>in</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from stream in internal MeshLib format; important on Windows: in stream must be open in binary mode Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#ga0230084d7f2168e0171883198494ca0a">MR::MeshLoad::fromMrmesh</a></code>. Parameter <code>in</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1073,7 +1073,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from file in .OBJ format Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#ga132c2f040df5ba0e5b7c26b62a687a64">MR::MeshLoad::fromObj</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from file in .OBJ format Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#ga132c2f040df5ba0e5b7c26b62a687a64">MR::MeshLoad::fromObj</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1095,7 +1095,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from stream in .OBJ format; important on Windows: in stream must be open in binary mode Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#ga132c2f040df5ba0e5b7c26b62a687a64">MR::MeshLoad::fromObj</a></code>. Parameter <code>in</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from stream in .OBJ format; important on Windows: in stream must be open in binary mode Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#ga132c2f040df5ba0e5b7c26b62a687a64">MR::MeshLoad::fromObj</a></code>. Parameter <code>in</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1122,7 +1122,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from file in .OFF format Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#ga9dacefdac7728d37b984dcab6ed88bf3">MR::MeshLoad::fromOff</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from file in .OFF format Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#ga9dacefdac7728d37b984dcab6ed88bf3">MR::MeshLoad::fromOff</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1144,7 +1144,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from stream in .OFF format Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#ga9dacefdac7728d37b984dcab6ed88bf3">MR::MeshLoad::fromOff</a></code>. Parameter <code>in</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from stream in .OFF format Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#ga9dacefdac7728d37b984dcab6ed88bf3">MR::MeshLoad::fromOff</a></code>. Parameter <code>in</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1171,7 +1171,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from file in .PLY format; Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#ga1cb0c1de8fa23fcac57b58ccd15c147a">MR::MeshLoad::fromPly</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from file in .PLY format; Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#ga1cb0c1de8fa23fcac57b58ccd15c147a">MR::MeshLoad::fromPly</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1193,7 +1193,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads mesh from stream in .PLY format; important on Windows: in stream must be open in binary mode Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#ga1cb0c1de8fa23fcac57b58ccd15c147a">MR::MeshLoad::fromPly</a></code>. Parameter <code>in</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads mesh from stream in .PLY format; important on Windows: in stream must be open in binary mode Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadGroup.html#ga1cb0c1de8fa23fcac57b58ccd15c147a">MR::MeshLoad::fromPly</a></code>. Parameter <code>in</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

@@ -258,7 +258,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>in case of empty vector, returns "Empty" in case of single input file.ext, returns ".EXT" in case of multiple files with same extension, returns ".EXTs" otherwise returns "Files" Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aa07a9eebcb6084b3728efa81a3ea4e43">MR::commonFilesName</a></code>. Parameter <code>files</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>in case of empty vector, returns "Empty" in case of single input file.ext, returns ".EXT" in case of multiple files with same extension, returns ".EXTs" otherwise returns "Files" Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aa07a9eebcb6084b3728efa81a3ea4e43">MR::commonFilesName</a></code>. Parameter <code>files</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -298,7 +298,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if line contains any of OS prohibited chars ('?', '*', '/', '\', '"', '&lt;', '&gt;') Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a58401eef2addb5c0fef7e5dd90a17ddf">MR::hasProhibitedChars</a></code>. Parameter <code>line</code> can not be null. </p>
+<p>returns true if line contains any of OS prohibited chars ('?', '*', '/', '\', '"', '&lt;', '&gt;') Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a58401eef2addb5c0fef7e5dd90a17ddf">MR::hasProhibitedChars</a></code>. Parameter <code>line</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -320,7 +320,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>replace OS prohibited chars ('?', '*', '/', '\', '"', '&lt;', '&gt;') with <code>replacement</code> char Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a893bffc80e40fe77684c61377cd58705">MR::replaceProhibitedChars</a></code>. Parameter <code>line</code> can not be null. Parameter <code>replacement</code> has a default argument: &lsquo;&rsquo;_'<code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call</code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a>` to free it when you're done using it. </p>
+<p>replace OS prohibited chars ('?', '*', '/', '\', '"', '&lt;', '&gt;') with <code>replacement</code> char Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a893bffc80e40fe77684c61377cd58705">MR::replaceProhibitedChars</a></code>. Parameter <code>line</code> can not be null. It is a single object. Parameter <code>replacement</code> has a default argument: &lsquo;&rsquo;_'<code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call</code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a>` to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -382,7 +382,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>converts system encoded string to UTF8-encoded string Generated from function <code><a class="elRef" href="../Cpp/group__BasicGroup.html#ga9a6b64a85d116ca32c7ff8b93ca80da1">MR::systemToUtf8</a></code>. Parameter <code>system</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>converts system encoded string to UTF8-encoded string Generated from function <code><a class="elRef" href="../Cpp/group__BasicGroup.html#ga9a6b64a85d116ca32c7ff8b93ca80da1">MR::systemToUtf8</a></code>. Parameter <code>system</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -444,7 +444,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>converts UTF8-encoded string to system encoded string, returns empty string if such conversion cannot be made Generated from function <code><a class="elRef" href="../Cpp/group__BasicGroup.html#ga01094b293542b9fcf1b2f084dbf799a9">MR::utf8ToSystem</a></code>. Parameter <code>utf8</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>converts UTF8-encoded string to system encoded string, returns empty string if such conversion cannot be made Generated from function <code><a class="elRef" href="../Cpp/group__BasicGroup.html#ga01094b293542b9fcf1b2f084dbf799a9">MR::utf8ToSystem</a></code>. Parameter <code>utf8</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

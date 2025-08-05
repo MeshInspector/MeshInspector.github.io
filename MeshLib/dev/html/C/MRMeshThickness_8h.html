@@ -513,7 +513,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the thickness at each vertex as the diameter of the maximal inscribed sphere Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a3012b3adfc77002b6a98aa0d6d3df46d">MR::computeInSphereThicknessAtVertices</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>settings</code> can not be null. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertScalars_8h.html#a441f0c22057eeef87e3cf3c1560325d9" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertScalars. Does nothing if the pointer is ...">MR_std_optional_MR_VertScalars_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns the thickness at each vertex as the diameter of the maximal inscribed sphere Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a3012b3adfc77002b6a98aa0d6d3df46d">MR::computeInSphereThicknessAtVertices</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>settings</code> can not be null. It is a single object. Parameter <code>progress</code> is a single object. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertScalars_8h.html#a441f0c22057eeef87e3cf3c1560325d9" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertScalars. Does nothing if the pointer is ...">MR_std_optional_MR_VertScalars_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -535,7 +535,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the distance from each vertex along minus normal to the nearest mesh intersection (or FLT_MAX if no intersection found) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a72fc5e2c323877bad4144cd852748496">MR::computeRayThicknessAtVertices</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertScalars_8h.html#a441f0c22057eeef87e3cf3c1560325d9" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertScalars. Does nothing if the pointer is ...">MR_std_optional_MR_VertScalars_Destroy()</a></code> to free it when you're done using it. relative position on mesh Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> named <code>triPoint</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>returns the distance from each vertex along minus normal to the nearest mesh intersection (or FLT_MAX if no intersection found) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a72fc5e2c323877bad4144cd852748496">MR::computeRayThicknessAtVertices</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>progress</code> is a single object. Parameter <code>progress</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertScalars_8h.html#a441f0c22057eeef87e3cf3c1560325d9" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertScalars. Does nothing if the pointer is ...">MR_std_optional_MR_VertScalars_Destroy()</a></code> to free it when you're done using it. relative position on mesh Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> named <code>triPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -562,7 +562,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds maximal sphere inscribed in the mesh touching point (p) with center along the normal at (p) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a2aa39e0de062699a573432c5b0fb84a7">MR::findInSphere</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>m</code> can not be null. Parameter <code>settings</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1d6f3206b83f6da2677c20f88632bd34" title="Destroys a heap-allocated instance of MR_InSphere. Does nothing if the pointer is null.">MR_InSphere_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds maximal sphere inscribed in the mesh touching point (p) with center along the normal at (p) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a2aa39e0de062699a573432c5b0fb84a7">MR::findInSphere</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>m</code> can not be null. It is a single object. Parameter <code>settings</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1d6f3206b83f6da2677c20f88632bd34" title="Destroys a heap-allocated instance of MR_InSphere. Does nothing if the pointer is null.">MR_InSphere_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -589,7 +589,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a2aa39e0de062699a573432c5b0fb84a7">MR::findInSphere</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>settings</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1d6f3206b83f6da2677c20f88632bd34" title="Destroys a heap-allocated instance of MR_InSphere. Does nothing if the pointer is null.">MR_InSphere_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a2aa39e0de062699a573432c5b0fb84a7">MR::findInSphere</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>settings</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1d6f3206b83f6da2677c20f88632bd34" title="Destroys a heap-allocated instance of MR_InSphere. Does nothing if the pointer is null.">MR_InSphere_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -611,7 +611,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphere.html">MR::InSphere</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphere.html">MR::InSphere</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -638,7 +638,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1InSphere.html">MR::InSphere</a></code> elementwise. Parameter <code>oppositeTouchPoint</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1d6f3206b83f6da2677c20f88632bd34" title="Destroys a heap-allocated instance of MR_InSphere. Does nothing if the pointer is null.">MR_InSphere_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1InSphere.html">MR::InSphere</a></code> elementwise. Parameter <code>oppositeTouchPoint</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1d6f3206b83f6da2677c20f88632bd34" title="Destroys a heap-allocated instance of MR_InSphere. Does nothing if the pointer is null.">MR_InSphere_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -656,7 +656,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphere.html">MR::InSphere</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1d6f3206b83f6da2677c20f88632bd34" title="Destroys a heap-allocated instance of MR_InSphere. Does nothing if the pointer is null.">MR_InSphere_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphere.html">MR::InSphere</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1d6f3206b83f6da2677c20f88632bd34" title="Destroys a heap-allocated instance of MR_InSphere. Does nothing if the pointer is null.">MR_InSphere_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -748,7 +748,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphere.html">MR::InSphere</a></code> named <code>center</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphere.html">MR::InSphere</a></code> named <code>center</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -766,7 +766,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>excluding input point and incident triangles, distSq - squared distance to sphere's center Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphere.html">MR::InSphere</a></code> named <code>oppositeTouchPoint</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. </p>
+<p>excluding input point and incident triangles, distSq - squared distance to sphere's center Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphere.html">MR::InSphere</a></code> named <code>oppositeTouchPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -784,7 +784,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphere.html">MR::InSphere</a></code> named <code>radius</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphere.html">MR::InSphere</a></code> named <code>radius</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -802,7 +802,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphere.html">MR::InSphere</a></code> named <code>center</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphere.html">MR::InSphere</a></code> named <code>center</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -837,7 +837,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphere.html">MR::InSphere</a></code> named <code>radius</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. excluding input point and incident triangles, distSq - squared distance to sphere's center Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphere.html">MR::InSphere</a></code> named <code>oppositeTouchPoint</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphere.html">MR::InSphere</a></code> named <code>radius</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. excluding input point and incident triangles, distSq - squared distance to sphere's center Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphere.html">MR::InSphere</a></code> named <code>oppositeTouchPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -905,7 +905,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphere.html">MR::InSphere</a></code> named <code>center</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphere.html">MR::InSphere</a></code> named <code>center</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -927,7 +927,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>excluding input point and incident triangles, distSq - squared distance to sphere's center Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphere.html">MR::InSphere</a></code> named <code>oppositeTouchPoint</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>excluding input point and incident triangles, distSq - squared distance to sphere's center Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphere.html">MR::InSphere</a></code> named <code>oppositeTouchPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -949,7 +949,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphere.html">MR::InSphere</a></code> named <code>radius</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphere.html">MR::InSphere</a></code> named <code>radius</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -971,7 +971,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1026,7 +1026,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac7c330eeb256a78d7506540253310abe" title="Destroys a heap-allocated instance of MR_InSphereSearchSettings. Does nothing if the pointer is null.">MR_InSphereSearchSettings_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac7c330eeb256a78d7506540253310abe" title="Destroys a heap-allocated instance of MR_InSphereSearchSettings. Does nothing if the pointer is null.">MR_InSphereSearchSettings_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1118,7 +1118,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if false then searches for the maximal inscribed sphere in mesh; if true then searches for both a) maximal inscribed sphere, and b) maximal sphere outside the mesh touching it at two points; and returns the smaller of two, and if it is b) then with minus sign Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>insideAndOutside</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if false then searches for the maximal inscribed sphere in mesh; if true then searches for both a) maximal inscribed sphere, and b) maximal sphere outside the mesh touching it at two points; and returns the smaller of two, and if it is b) then with minus sign Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>insideAndOutside</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1136,7 +1136,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum number of shrinking iterations for one triangle Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>maxIters</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum number of shrinking iterations for one triangle Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>maxIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1154,7 +1154,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum allowed radius of the sphere; for almost closed meshes the article recommends maxRadius = 0.5f * std::min( { boxSize.x, boxSize.y, boxSize.z } ) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>maxRadius</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum allowed radius of the sphere; for almost closed meshes the article recommends maxRadius = 0.5f * std::min( { boxSize.x, boxSize.y, boxSize.z } ) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>maxRadius</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1172,7 +1172,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>minimum cosine of the angle between two unit directions: 1) search unit direction (m.inDir), 2) unit direction from sphere's center to the other found touch point; -1 value means no filtering by this angle; the increase of this value helps avoiding too small spheres on noisy surfaces Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>minAngleCos</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>minimum cosine of the angle between two unit directions: 1) search unit direction (m.inDir), 2) unit direction from sphere's center to the other found touch point; -1 value means no filtering by this angle; the increase of this value helps avoiding too small spheres on noisy surfaces Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>minAngleCos</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1190,7 +1190,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>iterations stop if next radius is larger than minShrinkage times previous radius Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>minShrinkage</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>iterations stop if next radius is larger than minShrinkage times previous radius Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>minShrinkage</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1208,7 +1208,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if false then searches for the maximal inscribed sphere in mesh; if true then searches for both a) maximal inscribed sphere, and b) maximal sphere outside the mesh touching it at two points; and returns the smaller of two, and if it is b) then with minus sign Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>insideAndOutside</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if false then searches for the maximal inscribed sphere in mesh; if true then searches for both a) maximal inscribed sphere, and b) maximal sphere outside the mesh touching it at two points; and returns the smaller of two, and if it is b) then with minus sign Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>insideAndOutside</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1226,7 +1226,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum number of shrinking iterations for one triangle Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>maxIters</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum number of shrinking iterations for one triangle Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>maxIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1244,7 +1244,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum allowed radius of the sphere; for almost closed meshes the article recommends maxRadius = 0.5f * std::min( { boxSize.x, boxSize.y, boxSize.z } ) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>maxRadius</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum allowed radius of the sphere; for almost closed meshes the article recommends maxRadius = 0.5f * std::min( { boxSize.x, boxSize.y, boxSize.z } ) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>maxRadius</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1262,7 +1262,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>minimum cosine of the angle between two unit directions: 1) search unit direction (m.inDir), 2) unit direction from sphere's center to the other found touch point; -1 value means no filtering by this angle; the increase of this value helps avoiding too small spheres on noisy surfaces Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>minAngleCos</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>minimum cosine of the angle between two unit directions: 1) search unit direction (m.inDir), 2) unit direction from sphere's center to the other found touch point; -1 value means no filtering by this angle; the increase of this value helps avoiding too small spheres on noisy surfaces Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>minAngleCos</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1280,7 +1280,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>iterations stop if next radius is larger than minShrinkage times previous radius Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>minShrinkage</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>iterations stop if next radius is larger than minShrinkage times previous radius Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>minShrinkage</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1348,7 +1348,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if false then searches for the maximal inscribed sphere in mesh; if true then searches for both a) maximal inscribed sphere, and b) maximal sphere outside the mesh touching it at two points; and returns the smaller of two, and if it is b) then with minus sign Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>insideAndOutside</code>. Parameter <code>_this</code> can not be null. </p>
+<p>if false then searches for the maximal inscribed sphere in mesh; if true then searches for both a) maximal inscribed sphere, and b) maximal sphere outside the mesh touching it at two points; and returns the smaller of two, and if it is b) then with minus sign Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>insideAndOutside</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1370,7 +1370,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum number of shrinking iterations for one triangle Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>maxIters</code>. Parameter <code>_this</code> can not be null. </p>
+<p>maximum number of shrinking iterations for one triangle Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>maxIters</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1392,7 +1392,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum allowed radius of the sphere; for almost closed meshes the article recommends maxRadius = 0.5f * std::min( { boxSize.x, boxSize.y, boxSize.z } ) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>maxRadius</code>. Parameter <code>_this</code> can not be null. </p>
+<p>maximum allowed radius of the sphere; for almost closed meshes the article recommends maxRadius = 0.5f * std::min( { boxSize.x, boxSize.y, boxSize.z } ) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>maxRadius</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1414,7 +1414,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>minimum cosine of the angle between two unit directions: 1) search unit direction (m.inDir), 2) unit direction from sphere's center to the other found touch point; -1 value means no filtering by this angle; the increase of this value helps avoiding too small spheres on noisy surfaces Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>minAngleCos</code>. Parameter <code>_this</code> can not be null. </p>
+<p>minimum cosine of the angle between two unit directions: 1) search unit direction (m.inDir), 2) unit direction from sphere's center to the other found touch point; -1 value means no filtering by this angle; the increase of this value helps avoiding too small spheres on noisy surfaces Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>minAngleCos</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1436,7 +1436,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>iterations stop if next radius is larger than minShrinkage times previous radius Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>minShrinkage</code>. Parameter <code>_this</code> can not be null. </p>
+<p>iterations stop if next radius is larger than minShrinkage times previous radius Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></code> named <code>minShrinkage</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1463,7 +1463,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1500,7 +1500,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> elementwise. Parameter <code>triPoint</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0ddbb29ae35906994085c576f9c4190e" title="Destroys a heap-allocated instance of MR_MeshPoint. Does nothing if the pointer is null.">MR_MeshPoint_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> elementwise. Parameter <code>triPoint</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0ddbb29ae35906994085c576f9c4190e" title="Destroys a heap-allocated instance of MR_MeshPoint. Does nothing if the pointer is null.">MR_MeshPoint_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1614,7 +1614,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>unit direction inside the mesh = minus normal Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> named <code>inDir</code>. Parameter <code>_this</code> can not be null. </p>
+<p>unit direction inside the mesh = minus normal Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> named <code>inDir</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1632,7 +1632,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>predicate that returns true for mesh faces not-incident to the point Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> named <code>notIncidentFaces</code>. Parameter <code>_this</code> can not be null. </p>
+<p>predicate that returns true for mesh faces not-incident to the point Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> named <code>notIncidentFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1650,7 +1650,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>3d coordinates Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> named <code>pt</code>. Parameter <code>_this</code> can not be null. </p>
+<p>3d coordinates Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> named <code>pt</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1668,7 +1668,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>relative position on mesh Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> named <code>triPoint</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. </p>
+<p>relative position on mesh Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> named <code>triPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1686,7 +1686,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>predicate that returns true for mesh faces not-incident to the point Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> named <code>notIncidentFaces</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>predicate that returns true for mesh faces not-incident to the point Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> named <code>notIncidentFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1721,7 +1721,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>unit direction inside the mesh = minus normal Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> named <code>inDir</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>unit direction inside the mesh = minus normal Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> named <code>inDir</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1739,7 +1739,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>3d coordinates Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> named <code>pt</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>3d coordinates Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> named <code>pt</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1812,7 +1812,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> named <code>set</code>. Parameter <code>_this</code> can not be null. Parameter <code>mesh</code> can not be null. Parameter <code>p</code> can not be null. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> named <code>set</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>p</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1834,7 +1834,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>unit direction inside the mesh = minus normal Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> named <code>inDir</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>unit direction inside the mesh = minus normal Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> named <code>inDir</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1861,7 +1861,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>predicate that returns true for mesh faces not-incident to the point Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> named <code>notIncidentFaces</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>predicate that returns true for mesh faces not-incident to the point Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> named <code>notIncidentFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1883,7 +1883,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>3d coordinates Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> named <code>pt</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>3d coordinates Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> named <code>pt</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1905,7 +1905,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>relative position on mesh Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> named <code>triPoint</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>relative position on mesh Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshPoint.html">MR::MeshPoint</a></code> named <code>triPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1932,7 +1932,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the nearest intersection between the mesh and the ray from given point along minus normal (inside the mesh) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a7b7d6d6c842d2b1470c87e1a28ee7b07">MR::rayInsideIntersect</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>m</code> can not be null. Parameter <code>rayEnd</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="group__AABBTreeGroup.html#ga254f20827e70a4377c3d4d223a5bd873" title="Destroys a heap-allocated instance of MR_MeshIntersectionResult. Does nothing if the pointer is null.">MR_MeshIntersectionResult_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns the nearest intersection between the mesh and the ray from given point along minus normal (inside the mesh) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a7b7d6d6c842d2b1470c87e1a28ee7b07">MR::rayInsideIntersect</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>m</code> can not be null. It is a single object. Parameter <code>rayEnd</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="group__AABBTreeGroup.html#ga254f20827e70a4377c3d4d223a5bd873" title="Destroys a heap-allocated instance of MR_MeshIntersectionResult. Does nothing if the pointer is null.">MR_MeshIntersectionResult_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1959,7 +1959,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a7b7d6d6c842d2b1470c87e1a28ee7b07">MR::rayInsideIntersect</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>rayEnd</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="group__AABBTreeGroup.html#ga254f20827e70a4377c3d4d223a5bd873" title="Destroys a heap-allocated instance of MR_MeshIntersectionResult. Does nothing if the pointer is null.">MR_MeshIntersectionResult_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a7b7d6d6c842d2b1470c87e1a28ee7b07">MR::rayInsideIntersect</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>rayEnd</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="group__AABBTreeGroup.html#ga254f20827e70a4377c3d4d223a5bd873" title="Destroys a heap-allocated instance of MR_MeshIntersectionResult. Does nothing if the pointer is null.">MR_MeshIntersectionResult_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

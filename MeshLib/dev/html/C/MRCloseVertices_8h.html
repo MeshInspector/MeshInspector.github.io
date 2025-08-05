@@ -421,7 +421,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds all close vertices, where for each vertex there is another one located within given distance; smallestMap is the result of findSmallestCloseVertices function call Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aaafe75350688f71f77b0eddcf5a4f119">MR::findCloseVertices</a></code>. Parameter <code>smallestMap</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds all close vertices, where for each vertex there is another one located within given distance; smallestMap is the result of findSmallestCloseVertices function call Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aaafe75350688f71f77b0eddcf5a4f119">MR::findCloseVertices</a></code>. Parameter <code>smallestMap</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -448,7 +448,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds all close vertices, where for each vertex there is another one located within given distance Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aaafe75350688f71f77b0eddcf5a4f119">MR::findCloseVertices</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertBitSet_8h.html#aeea0448637c2664eb345c32a4e4a69d2" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertBitSet. Does nothing if the pointer is n...">MR_std_optional_MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds all close vertices, where for each vertex there is another one located within given distance Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aaafe75350688f71f77b0eddcf5a4f119">MR::findCloseVertices</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>cb</code> is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertBitSet_8h.html#aeea0448637c2664eb345c32a4e4a69d2" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertBitSet. Does nothing if the pointer is n...">MR_std_optional_MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -475,7 +475,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds all close vertices, where for each vertex there is another one located within given distance Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aaafe75350688f71f77b0eddcf5a4f119">MR::findCloseVertices</a></code>. Parameter <code>cloud</code> can not be null. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertBitSet_8h.html#aeea0448637c2664eb345c32a4e4a69d2" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertBitSet. Does nothing if the pointer is n...">MR_std_optional_MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds all close vertices, where for each vertex there is another one located within given distance Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aaafe75350688f71f77b0eddcf5a4f119">MR::findCloseVertices</a></code>. Parameter <code>cloud</code> can not be null. It is a single object. Parameter <code>cb</code> is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertBitSet_8h.html#aeea0448637c2664eb345c32a4e4a69d2" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertBitSet. Does nothing if the pointer is n...">MR_std_optional_MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -507,7 +507,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds all close vertices, where for each vertex there is another one located within given distance Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aaafe75350688f71f77b0eddcf5a4f119">MR::findCloseVertices</a></code>. Parameter <code>points</code> can not be null. Parameter <code>valid</code> defaults to a null pointer in C++. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertBitSet_8h.html#aeea0448637c2664eb345c32a4e4a69d2" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertBitSet. Does nothing if the pointer is n...">MR_std_optional_MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds all close vertices, where for each vertex there is another one located within given distance Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aaafe75350688f71f77b0eddcf5a4f119">MR::findCloseVertices</a></code>. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>valid</code> defaults to a null pointer in C++. Parameter <code>cb</code> is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertBitSet_8h.html#aeea0448637c2664eb345c32a4e4a69d2" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertBitSet. Does nothing if the pointer is n...">MR_std_optional_MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -534,7 +534,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns a map where each valid vertex is mapped to the smallest valid vertex Id located within given distance (including itself), and this smallest vertex is mapped to itself, each vertex not from valid set is mapped to itself Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a02de87b02beba8a1ce3c03e425646045">MR::findSmallestCloseVertices</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertMap_8h.html#a34109466963a8ada210fbcdd71eec2ca" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertMap. Does nothing if the pointer is null...">MR_std_optional_MR_VertMap_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns a map where each valid vertex is mapped to the smallest valid vertex Id located within given distance (including itself), and this smallest vertex is mapped to itself, each vertex not from valid set is mapped to itself Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a02de87b02beba8a1ce3c03e425646045">MR::findSmallestCloseVertices</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>cb</code> is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertMap_8h.html#a34109466963a8ada210fbcdd71eec2ca" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertMap. Does nothing if the pointer is null...">MR_std_optional_MR_VertMap_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -561,7 +561,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns a map where each valid vertex is mapped to the smallest valid vertex Id located within given distance (including itself), and this smallest vertex is mapped to itself, each vertex not from valid set is mapped to itself Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a02de87b02beba8a1ce3c03e425646045">MR::findSmallestCloseVertices</a></code>. Parameter <code>cloud</code> can not be null. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertMap_8h.html#a34109466963a8ada210fbcdd71eec2ca" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertMap. Does nothing if the pointer is null...">MR_std_optional_MR_VertMap_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns a map where each valid vertex is mapped to the smallest valid vertex Id located within given distance (including itself), and this smallest vertex is mapped to itself, each vertex not from valid set is mapped to itself Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a02de87b02beba8a1ce3c03e425646045">MR::findSmallestCloseVertices</a></code>. Parameter <code>cloud</code> can not be null. It is a single object. Parameter <code>cb</code> is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertMap_8h.html#a34109466963a8ada210fbcdd71eec2ca" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertMap. Does nothing if the pointer is null...">MR_std_optional_MR_VertMap_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -593,7 +593,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns a map where each valid vertex is mapped to the smallest valid vertex Id located within given distance (including itself), and this smallest vertex is mapped to itself, each vertex not from valid set is mapped to itself; the search tree is constructe inside Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a02de87b02beba8a1ce3c03e425646045">MR::findSmallestCloseVertices</a></code>. Parameter <code>points</code> can not be null. Parameter <code>valid</code> defaults to a null pointer in C++. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertMap_8h.html#a34109466963a8ada210fbcdd71eec2ca" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertMap. Does nothing if the pointer is null...">MR_std_optional_MR_VertMap_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns a map where each valid vertex is mapped to the smallest valid vertex Id located within given distance (including itself), and this smallest vertex is mapped to itself, each vertex not from valid set is mapped to itself; the search tree is constructe inside Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a02de87b02beba8a1ce3c03e425646045">MR::findSmallestCloseVertices</a></code>. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>valid</code> defaults to a null pointer in C++. Parameter <code>cb</code> is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertMap_8h.html#a34109466963a8ada210fbcdd71eec2ca" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertMap. Does nothing if the pointer is null...">MR_std_optional_MR_VertMap_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -630,7 +630,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns a map where each valid vertex is mapped to the smallest valid vertex Id located within given distance (including itself), and this smallest vertex is mapped to itself, each vertex not from valid set is mapped to itself; given tree is used as is Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#adb5835a53edf43e46279c04a2ad4949b">MR::findSmallestCloseVerticesUsingTree</a></code>. Parameter <code>points</code> can not be null. Parameter <code>tree</code> can not be null. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertMap_8h.html#a34109466963a8ada210fbcdd71eec2ca" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertMap. Does nothing if the pointer is null...">MR_std_optional_MR_VertMap_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns a map where each valid vertex is mapped to the smallest valid vertex Id located within given distance (including itself), and this smallest vertex is mapped to itself, each vertex not from valid set is mapped to itself; given tree is used as is Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#adb5835a53edf43e46279c04a2ad4949b">MR::findSmallestCloseVerticesUsingTree</a></code>. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>tree</code> can not be null. It is a single object. Parameter <code>cb</code> is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertMap_8h.html#a34109466963a8ada210fbcdd71eec2ca" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertMap. Does nothing if the pointer is null...">MR_std_optional_MR_VertMap_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -652,7 +652,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds pairs of twin edges (each twin edge will be present at least in one of pairs) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a9d9b0e044fbac51cc63aca13ec9855d3">MR::findTwinEdgePairs</a></code>. Parameter <code>mesh</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__pair__MR__EdgeId__MR__EdgeId_8h.html#ab88e127b7da372e67c2559967f54c03f" title="Destroys a heap-allocated instance of MR_std_vector_std_pair_MR_EdgeId_MR_EdgeId. Does nothing if the...">MR_std_vector_std_pair_MR_EdgeId_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds pairs of twin edges (each twin edge will be present at least in one of pairs) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a9d9b0e044fbac51cc63aca13ec9855d3">MR::findTwinEdgePairs</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__pair__MR__EdgeId__MR__EdgeId_8h.html#ab88e127b7da372e67c2559967f54c03f" title="Destroys a heap-allocated instance of MR_std_vector_std_pair_MR_EdgeId_MR_EdgeId. Does nothing if the...">MR_std_vector_std_pair_MR_EdgeId_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -670,7 +670,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a5c0bcac69775a441149a72b11c50859c">MR::findTwinEdges</a></code>. Parameter <code>pairs</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a9c02438faafb5b467654055dff8238ac" title="Destroys a heap-allocated instance of MR_EdgeBitSet. Does nothing if the pointer is null.">MR_EdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a5c0bcac69775a441149a72b11c50859c">MR::findTwinEdges</a></code>. Parameter <code>pairs</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a9c02438faafb5b467654055dff8238ac" title="Destroys a heap-allocated instance of MR_EdgeBitSet. Does nothing if the pointer is null.">MR_EdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -692,7 +692,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds all directed twin edges Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a5c0bcac69775a441149a72b11c50859c">MR::findTwinEdges</a></code>. Parameter <code>mesh</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a9c02438faafb5b467654055dff8238ac" title="Destroys a heap-allocated instance of MR_EdgeBitSet. Does nothing if the pointer is null.">MR_EdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds all directed twin edges Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a5c0bcac69775a441149a72b11c50859c">MR::findTwinEdges</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a9c02438faafb5b467654055dff8238ac" title="Destroys a heap-allocated instance of MR_EdgeBitSet. Does nothing if the pointer is null.">MR_EdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -710,7 +710,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a6caaf25861d9a4702d6b7381072e6830">MR::findTwinUndirectedEdgeHashMap</a></code>. Parameter <code>pairs</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="phmap__flat__hash__map__MR__UndirectedEdgeId__MR__UndirectedEdgeId_8h.html#ac0d69b1830299b96e076c5ec84087c6b" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_UndirectedEdgeId....">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_UndirectedEdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a6caaf25861d9a4702d6b7381072e6830">MR::findTwinUndirectedEdgeHashMap</a></code>. Parameter <code>pairs</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="phmap__flat__hash__map__MR__UndirectedEdgeId__MR__UndirectedEdgeId_8h.html#ac0d69b1830299b96e076c5ec84087c6b" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_UndirectedEdgeId....">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_UndirectedEdgeId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -732,7 +732,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>provided that each edge has at most one twin, composes bidirectional mapping between twins Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a6caaf25861d9a4702d6b7381072e6830">MR::findTwinUndirectedEdgeHashMap</a></code>. Parameter <code>mesh</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="phmap__flat__hash__map__MR__UndirectedEdgeId__MR__UndirectedEdgeId_8h.html#ac0d69b1830299b96e076c5ec84087c6b" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_UndirectedEdgeId....">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_UndirectedEdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>provided that each edge has at most one twin, composes bidirectional mapping between twins Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a6caaf25861d9a4702d6b7381072e6830">MR::findTwinUndirectedEdgeHashMap</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="phmap__flat__hash__map__MR__UndirectedEdgeId__MR__UndirectedEdgeId_8h.html#ac0d69b1830299b96e076c5ec84087c6b" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_UndirectedEdgeId....">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_UndirectedEdgeId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -750,7 +750,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aa44e343ad4cf83164ad4771ea9e880b3">MR::findTwinUndirectedEdges</a></code>. Parameter <code>pairs</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aa44e343ad4cf83164ad4771ea9e880b3">MR::findTwinUndirectedEdges</a></code>. Parameter <code>pairs</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -772,7 +772,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds all undirected twin edges Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aa44e343ad4cf83164ad4771ea9e880b3">MR::findTwinUndirectedEdges</a></code>. Parameter <code>mesh</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds all undirected twin edges Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aa44e343ad4cf83164ad4771ea9e880b3">MR::findTwinUndirectedEdges</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

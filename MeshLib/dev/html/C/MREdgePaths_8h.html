@@ -597,7 +597,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>adds all faces incident to loop vertices and located to the left from the loop to given FaceBitSet Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#gab0db7342678536825cb6b3bff51d832d">MR::addLeftBand</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>loop</code> can not be null. Parameter <code>addHere</code> can not be null. </p>
+<p>adds all faces incident to loop vertices and located to the left from the loop to given FaceBitSet Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#gab0db7342678536825cb6b3bff51d832d">MR::addLeftBand</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>loop</code> can not be null. It is a single object. Parameter <code>addHere</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -629,7 +629,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>builds shortest path in euclidean metric from start to finish vertices; if no path can be found then empty path is returned Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga4ef10460976331354fd6633529b31b3f">MR::buildShortestPath</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>finish</code> can not be null. Parameter <code>maxPathLen</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>builds shortest path in euclidean metric from start to finish vertices; if no path can be found then empty path is returned Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga4ef10460976331354fd6633529b31b3f">MR::buildShortestPath</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>finish</code> can not be null. It is a single object. Parameter <code>maxPathLen</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -661,7 +661,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds the shortest path in euclidean metric from start to finish vertices using Dijkstra algorithm; if no path can be found then empty path is returned Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga4ef10460976331354fd6633529b31b3f">MR::buildShortestPath</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>maxPathLen</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds the shortest path in euclidean metric from start to finish vertices using Dijkstra algorithm; if no path can be found then empty path is returned Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga4ef10460976331354fd6633529b31b3f">MR::buildShortestPath</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>maxPathLen</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -693,7 +693,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds the shortest path in euclidean metric from start to finish vertices using A* modification of Dijkstra algorithm, which is faster for near linear path; if no path can be found then empty path is returned Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#gab942014729767c2449b988a793eea5a7">MR::buildShortestPathAStar</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>maxPathLen</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds the shortest path in euclidean metric from start to finish vertices using A* modification of Dijkstra algorithm, which is faster for near linear path; if no path can be found then empty path is returned Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#gab942014729767c2449b988a793eea5a7">MR::buildShortestPathAStar</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>maxPathLen</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -735,7 +735,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds the path from a vertex in start-triangle to a vertex in finish-triangle, so that the length start-first_vertex-...-last_vertex-finish is shortest in euclidean metric; using A* modification of Dijkstra algorithm, which is faster for near linear path; if no path can be found then empty path is returned Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#gab942014729767c2449b988a793eea5a7">MR::buildShortestPathAStar</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>start</code> can not be null. Parameter <code>finish</code> can not be null. Parameter <code>outPathStart</code> defaults to a null pointer in C++. Parameter <code>outPathFinish</code> defaults to a null pointer in C++. Parameter <code>maxPathLen</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds the path from a vertex in start-triangle to a vertex in finish-triangle, so that the length start-first_vertex-...-last_vertex-finish is shortest in euclidean metric; using A* modification of Dijkstra algorithm, which is faster for near linear path; if no path can be found then empty path is returned Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#gab942014729767c2449b988a793eea5a7">MR::buildShortestPathAStar</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>start</code> can not be null. It is a single object. Parameter <code>finish</code> can not be null. It is a single object. Parameter <code>outPathStart</code> defaults to a null pointer in C++. Parameter <code>outPathFinish</code> defaults to a null pointer in C++. Parameter <code>maxPathLen</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -767,7 +767,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds the shortest path in euclidean metric from start to finish vertices using bidirectional modification of Dijkstra algorithm, constructing the path simultaneously from both start and finish, which is faster for long paths; if no path can be found then empty path is returned Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga8611d32ddf9b64606412154e843658b3">MR::buildShortestPathBiDir</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>maxPathLen</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds the shortest path in euclidean metric from start to finish vertices using bidirectional modification of Dijkstra algorithm, constructing the path simultaneously from both start and finish, which is faster for long paths; if no path can be found then empty path is returned Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga8611d32ddf9b64606412154e843658b3">MR::buildShortestPathBiDir</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>maxPathLen</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -809,7 +809,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds the path from a vertex in start-triangle to a vertex in finish-triangle, so that the length start-first_vertex-...-last_vertex-finish is shortest in euclidean metric; using bidirectional modification of Dijkstra algorithm, constructing the path simultaneously from both start and finish, which is faster for long paths; if no path can be found then empty path is returned Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga8611d32ddf9b64606412154e843658b3">MR::buildShortestPathBiDir</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>start</code> can not be null. Parameter <code>finish</code> can not be null. Parameter <code>outPathStart</code> defaults to a null pointer in C++. Parameter <code>outPathFinish</code> defaults to a null pointer in C++. Parameter <code>maxPathLen</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds the path from a vertex in start-triangle to a vertex in finish-triangle, so that the length start-first_vertex-...-last_vertex-finish is shortest in euclidean metric; using bidirectional modification of Dijkstra algorithm, constructing the path simultaneously from both start and finish, which is faster for long paths; if no path can be found then empty path is returned Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga8611d32ddf9b64606412154e843658b3">MR::buildShortestPathBiDir</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>start</code> can not be null. It is a single object. Parameter <code>finish</code> can not be null. It is a single object. Parameter <code>outPathStart</code> defaults to a null pointer in C++. Parameter <code>outPathFinish</code> defaults to a null pointer in C++. Parameter <code>maxPathLen</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -846,7 +846,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>builds shortest path in given metric from start to finish vertices; if no path can be found then empty path is returned Generated from function <code><a class="elRef" href="../Cpp/group__VoxelPathGroup.html#gad1772070c201609ff1aac3958e6b9005">MR::buildSmallestMetricPath</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>metric</code> can not be null. Parameter <code>finish</code> can not be null. Parameter <code>maxPathMetric</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>builds shortest path in given metric from start to finish vertices; if no path can be found then empty path is returned Generated from function <code><a class="elRef" href="../Cpp/group__VoxelPathGroup.html#gad1772070c201609ff1aac3958e6b9005">MR::buildSmallestMetricPath</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>metric</code> can not be null. It is a single object. Parameter <code>finish</code> can not be null. It is a single object. Parameter <code>maxPathMetric</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -883,7 +883,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>builds shortest path in given metric from start to finish vertices; if no path can be found then empty path is returned Generated from function <code><a class="elRef" href="../Cpp/group__VoxelPathGroup.html#gad1772070c201609ff1aac3958e6b9005">MR::buildSmallestMetricPath</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>metric</code> can not be null. Parameter <code>maxPathMetric</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>builds shortest path in given metric from start to finish vertices; if no path can be found then empty path is returned Generated from function <code><a class="elRef" href="../Cpp/group__VoxelPathGroup.html#gad1772070c201609ff1aac3958e6b9005">MR::buildSmallestMetricPath</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>metric</code> can not be null. It is a single object. Parameter <code>maxPathMetric</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -920,7 +920,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds the smallest metric path from start vertex to finish vertex, using bidirectional modification of Dijkstra algorithm, constructing the path simultaneously from both start and finish, which is faster for long paths; if no path can be found then empty path is returned Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga31d65cbf03d734606eecb79ae37c605c">MR::buildSmallestMetricPathBiDir</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>metric</code> can not be null. Parameter <code>maxPathMetric</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds the smallest metric path from start vertex to finish vertex, using bidirectional modification of Dijkstra algorithm, constructing the path simultaneously from both start and finish, which is faster for long paths; if no path can be found then empty path is returned Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga31d65cbf03d734606eecb79ae37c605c">MR::buildSmallestMetricPathBiDir</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>metric</code> can not be null. It is a single object. Parameter <code>maxPathMetric</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -977,7 +977,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds the smallest metric path from one of start vertices to one of the finish vertices, using bidirectional modification of Dijkstra algorithm, constructing the path simultaneously from both starts and finishes, which is faster for long paths; if no path can be found then empty path is returned Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga31d65cbf03d734606eecb79ae37c605c">MR::buildSmallestMetricPathBiDir</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>metric</code> can not be null. Parameter <code>outPathStart</code> defaults to a null pointer in C++. Parameter <code>outPathFinish</code> defaults to a null pointer in C++. Parameter <code>maxPathMetric</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds the smallest metric path from one of start vertices to one of the finish vertices, using bidirectional modification of Dijkstra algorithm, constructing the path simultaneously from both starts and finishes, which is faster for long paths; if no path can be found then empty path is returned Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga31d65cbf03d734606eecb79ae37c605c">MR::buildSmallestMetricPathBiDir</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>metric</code> can not be null. It is a single object. Parameter <code>outPathStart</code> defaults to a null pointer in C++. Parameter <code>outPathFinish</code> defaults to a null pointer in C++. Parameter <code>maxPathMetric</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -999,7 +999,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the vector with the magnitude equal to the area surrounded by the loop (if the loop is planar), and directed to see the loop in ccw order from the vector tip Generated from function <code><a class="elRef" href="../Cpp/group__ContourGroup.html#ga63c4064b2101e045fff282197ff239c3">MR::calcOrientedArea</a></code>. Parameter <code>loop</code> can not be null. Parameter <code>mesh</code> can not be null. </p>
+<p>returns the vector with the magnitude equal to the area surrounded by the loop (if the loop is planar), and directed to see the loop in ccw order from the vector tip Generated from function <code><a class="elRef" href="../Cpp/group__ContourGroup.html#ga63c4064b2101e045fff282197ff239c3">MR::calcOrientedArea</a></code>. Parameter <code>loop</code> can not be null. It is a single object. Parameter <code>mesh</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1021,7 +1021,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga1792643322d571922601c7286a802f51">MR::calcPathLength</a></code>. Parameter <code>path</code> can not be null. Parameter <code>mesh</code> can not be null. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga1792643322d571922601c7286a802f51">MR::calcPathLength</a></code>. Parameter <code>path</code> can not be null. It is a single object. Parameter <code>mesh</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1048,7 +1048,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes summed metric of all edges in the path Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga43a4b5c66e820cc90b986a3bfb4c1998">MR::calcPathMetric</a></code>. Parameter <code>path</code> can not be null. </p>
+<p>computes summed metric of all edges in the path Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga43a4b5c66e820cc90b986a3bfb4c1998">MR::calcPathMetric</a></code>. Parameter <code>path</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1085,7 +1085,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>expands the region (of faces or vertices) on given value (in meters). returns false if callback also returns false Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1366441a63d8da63b7db115a4fe66c31">MR::dilateRegion</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>region</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
+<p>expands the region (of faces or vertices) on given value (in meters). returns false if callback also returns false Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1366441a63d8da63b7db115a4fe66c31">MR::dilateRegion</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1122,7 +1122,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1366441a63d8da63b7db115a4fe66c31">MR::dilateRegion</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>region</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1366441a63d8da63b7db115a4fe66c31">MR::dilateRegion</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1159,7 +1159,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1366441a63d8da63b7db115a4fe66c31">MR::dilateRegion</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>region</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1366441a63d8da63b7db115a4fe66c31">MR::dilateRegion</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1201,7 +1201,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1366441a63d8da63b7db115a4fe66c31">MR::dilateRegion</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>region</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1366441a63d8da63b7db115a4fe66c31">MR::dilateRegion</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1243,7 +1243,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1366441a63d8da63b7db115a4fe66c31">MR::dilateRegion</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>region</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1366441a63d8da63b7db115a4fe66c31">MR::dilateRegion</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1285,7 +1285,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1366441a63d8da63b7db115a4fe66c31">MR::dilateRegion</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>region</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1366441a63d8da63b7db115a4fe66c31">MR::dilateRegion</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1327,7 +1327,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>expands the region (of faces or vertices) on given metric value. returns false if callback also returns false Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga66d97db02721f28995b008655b007858">MR::dilateRegionByMetric</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>metric</code> can not be null. Parameter <code>region</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
+<p>expands the region (of faces or vertices) on given metric value. returns false if callback also returns false Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga66d97db02721f28995b008655b007858">MR::dilateRegionByMetric</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>metric</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1369,7 +1369,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga66d97db02721f28995b008655b007858">MR::dilateRegionByMetric</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>metric</code> can not be null. Parameter <code>region</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga66d97db02721f28995b008655b007858">MR::dilateRegionByMetric</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>metric</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1411,7 +1411,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga66d97db02721f28995b008655b007858">MR::dilateRegionByMetric</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>metric</code> can not be null. Parameter <code>region</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga66d97db02721f28995b008655b007858">MR::dilateRegionByMetric</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>metric</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1448,7 +1448,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>shrinks the region (of faces or vertices) on given value (in meters). returns false if callback also returns false Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a3531ebf5781cbdc7f3a5bc36fd936d5e">MR::erodeRegion</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>region</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
+<p>shrinks the region (of faces or vertices) on given value (in meters). returns false if callback also returns false Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a3531ebf5781cbdc7f3a5bc36fd936d5e">MR::erodeRegion</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1485,7 +1485,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a3531ebf5781cbdc7f3a5bc36fd936d5e">MR::erodeRegion</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>region</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a3531ebf5781cbdc7f3a5bc36fd936d5e">MR::erodeRegion</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1522,7 +1522,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a3531ebf5781cbdc7f3a5bc36fd936d5e">MR::erodeRegion</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>region</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a3531ebf5781cbdc7f3a5bc36fd936d5e">MR::erodeRegion</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1564,7 +1564,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a3531ebf5781cbdc7f3a5bc36fd936d5e">MR::erodeRegion</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>region</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a3531ebf5781cbdc7f3a5bc36fd936d5e">MR::erodeRegion</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1606,7 +1606,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a3531ebf5781cbdc7f3a5bc36fd936d5e">MR::erodeRegion</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>region</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a3531ebf5781cbdc7f3a5bc36fd936d5e">MR::erodeRegion</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1648,7 +1648,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a3531ebf5781cbdc7f3a5bc36fd936d5e">MR::erodeRegion</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>region</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a3531ebf5781cbdc7f3a5bc36fd936d5e">MR::erodeRegion</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1690,7 +1690,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>shrinks the region (of faces or vertices) on given metric value. returns false if callback also returns false Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga8bfca4b235df879903041464da622e0c">MR::erodeRegionByMetric</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>metric</code> can not be null. Parameter <code>region</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
+<p>shrinks the region (of faces or vertices) on given metric value. returns false if callback also returns false Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga8bfca4b235df879903041464da622e0c">MR::erodeRegionByMetric</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>metric</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1732,7 +1732,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga8bfca4b235df879903041464da622e0c">MR::erodeRegionByMetric</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>metric</code> can not be null. Parameter <code>region</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga8bfca4b235df879903041464da622e0c">MR::erodeRegionByMetric</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>metric</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1774,7 +1774,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga8bfca4b235df879903041464da622e0c">MR::erodeRegionByMetric</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>metric</code> can not be null. Parameter <code>region</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga8bfca4b235df879903041464da622e0c">MR::erodeRegionByMetric</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>metric</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1796,7 +1796,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds all closed loops from given edges and removes them from edges Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#gad555d8d4c714e8afe8e6254a6a671f0c">MR::extractClosedLoops</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>edges</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__EdgeId_8h.html#aeef24721eeb11c2c74a8c0804ad4f104" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_EdgeId. Does nothing if the pointer...">MR_std_vector_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds all closed loops from given edges and removes them from edges Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#gad555d8d4c714e8afe8e6254a6a671f0c">MR::extractClosedLoops</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>edges</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__EdgeId_8h.html#aeef24721eeb11c2c74a8c0804ad4f104" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_EdgeId. Does nothing if the pointer...">MR_std_vector_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1823,7 +1823,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#gad555d8d4c714e8afe8e6254a6a671f0c">MR::extractClosedLoops</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>inEdges</code> can not be null. Parameter <code>outNotLoopEdges</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__EdgeId_8h.html#aeef24721eeb11c2c74a8c0804ad4f104" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_EdgeId. Does nothing if the pointer...">MR_std_vector_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#gad555d8d4c714e8afe8e6254a6a671f0c">MR::extractClosedLoops</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>inEdges</code> can not be null. It is a single object. Parameter <code>outNotLoopEdges</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__EdgeId_8h.html#aeef24721eeb11c2c74a8c0804ad4f104" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_EdgeId. Does nothing if the pointer...">MR_std_vector_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1845,7 +1845,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#gae2366000776e2dc3664a7940a93576b2">MR::extractLongestClosedLoop</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>inEdges</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#gae2366000776e2dc3664a7940a93576b2">MR::extractLongestClosedLoop</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>inEdges</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1872,7 +1872,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds all intersection points between given contour and plane, adds them in outIntersections and returns their number Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga1608a3645812bea05245447d9c392e4a">MR::getContourPlaneIntersections</a></code>. Parameter <code>path</code> can not be null. Parameter <code>plane</code> can not be null. Parameter <code>outIntersections</code> defaults to a null pointer in C++. </p>
+<p>finds all intersection points between given contour and plane, adds them in outIntersections and returns their number Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga1608a3645812bea05245447d9c392e4a">MR::getContourPlaneIntersections</a></code>. Parameter <code>path</code> can not be null. It is a single object. Parameter <code>plane</code> can not be null. It is a single object. Parameter <code>outIntersections</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -1909,7 +1909,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds all path edges located in given plane with given tolerance, adds them in outInPlaneEdges and returns their number Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga0fe533dcbd844a89077b18ebd4dda8fe">MR::getPathEdgesInPlane</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>path</code> can not be null. Parameter <code>plane</code> can not be null. Parameter <code>tolerance</code> has a default argument: <code>0.F</code>, pass a null pointer to use it. Parameter <code>outInPlaneEdges</code> defaults to a null pointer in C++. </p>
+<p>finds all path edges located in given plane with given tolerance, adds them in outInPlaneEdges and returns their number Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga0fe533dcbd844a89077b18ebd4dda8fe">MR::getPathEdgesInPlane</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>path</code> can not be null. It is a single object. Parameter <code>plane</code> can not be null. It is a single object. Parameter <code>tolerance</code> has a default argument: <code>0.F</code>, pass a null pointer to use it. Parameter <code>outInPlaneEdges</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -1941,7 +1941,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds all intersection points between given path and plane, adds them in outIntersections and returns their number Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga6e5b3c68fdd285e2d6000b6a83bf9ecd">MR::getPathPlaneIntersections</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>path</code> can not be null. Parameter <code>plane</code> can not be null. Parameter <code>outIntersections</code> defaults to a null pointer in C++. </p>
+<p>finds all intersection points between given path and plane, adds them in outIntersections and returns their number Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga6e5b3c68fdd285e2d6000b6a83bf9ecd">MR::getPathPlaneIntersections</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>path</code> can not be null. It is a single object. Parameter <code>plane</code> can not be null. It is a single object. Parameter <code>outIntersections</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -1968,7 +1968,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns all vertices from given region ordered in each connected component in breadth-first way Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aaf96c4ae6f54b13630e2800975f7b4c7">MR::getVertexOrdering</a></code>. Parameter <code>topology</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__VertId_8h.html#a4ad75866c529296adb4a07db5a087f16" title="Destroys a heap-allocated instance of MR_std_vector_MR_VertId. Does nothing if the pointer is null.">MR_std_vector_MR_VertId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns all vertices from given region ordered in each connected component in breadth-first way Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aaf96c4ae6f54b13630e2800975f7b4c7">MR::getVertexOrdering</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__VertId_8h.html#a4ad75866c529296adb4a07db5a087f16" title="Destroys a heap-allocated instance of MR_std_vector_MR_VertId. Does nothing if the pointer is null.">MR_std_vector_MR_VertId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1990,7 +1990,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if every next edge starts where previous edge ends, and start vertex coincides with finish vertex Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#gaf669cb8f71c0282ec6c839e2e481dc64">MR::isEdgeLoop</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>edges</code> can not be null. </p>
+<p>returns true if every next edge starts where previous edge ends, and start vertex coincides with finish vertex Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#gaf669cb8f71c0282ec6c839e2e481dc64">MR::isEdgeLoop</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>edges</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2012,7 +2012,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if every next edge starts where previous edge ends Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga7a492156b75bdd4b9dd72acc28ef2b3e">MR::isEdgePath</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>edges</code> can not be null. </p>
+<p>returns true if every next edge starts where previous edge ends Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga7a492156b75bdd4b9dd72acc28ef2b3e">MR::isEdgePath</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>edges</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2030,7 +2030,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>reverses the order of edges and flips each edge orientation, thus making the opposite directed edge path Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga5ae89c778fe01228f20aa52aa2e160d0">MR::reverse</a></code>. Parameter <code>path</code> can not be null. </p>
+<p>reverses the order of edges and flips each edge orientation, thus making the opposite directed edge path Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga5ae89c778fe01228f20aa52aa2e160d0">MR::reverse</a></code>. Parameter <code>path</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2048,7 +2048,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>reverse every path in the vector Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga5ae89c778fe01228f20aa52aa2e160d0">MR::reverse</a></code>. Parameter <code>paths</code> can not be null. </p>
+<p>reverse every path in the vector Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga5ae89c778fe01228f20aa52aa2e160d0">MR::reverse</a></code>. Parameter <code>paths</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2070,7 +2070,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#gaabc40dcee3ba22d445c0f838f170d549">MR::sortPathsByLength</a></code>. Parameter <code>paths</code> can not be null. Parameter <code>mesh</code> can not be null. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#gaabc40dcee3ba22d445c0f838f170d549">MR::sortPathsByLength</a></code>. Parameter <code>paths</code> can not be null. It is a single object. Parameter <code>mesh</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2097,7 +2097,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>sorts given paths in ascending order of their metrics Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#gaf24c647cf0c2aef3425702344a341d55">MR::sortPathsByMetric</a></code>. Parameter <code>paths</code> can not be null. </p>
+<p>sorts given paths in ascending order of their metrics Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#gaf24c647cf0c2aef3425702344a341d55">MR::sortPathsByMetric</a></code>. Parameter <code>paths</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2119,7 +2119,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given a number of edge loops, splits every loop that passes via a vertex more than once on smaller loops without self-intersections Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#gaa9c52e371775dd3dfbbf897f713cddf0">MR::splitOnSimpleLoops</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>loops</code> can not be null. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__EdgeId_8h.html#aeef24721eeb11c2c74a8c0804ad4f104" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_EdgeId. Does nothing if the pointer...">MR_std_vector_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>given a number of edge loops, splits every loop that passes via a vertex more than once on smaller loops without self-intersections Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#gaa9c52e371775dd3dfbbf897f713cddf0">MR::splitOnSimpleLoops</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>loops</code> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__EdgeId_8h.html#aeef24721eeb11c2c74a8c0804ad4f104" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_EdgeId. Does nothing if the pointer...">MR_std_vector_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2141,7 +2141,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1TerminalVertex.html">MR::TerminalVertex</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1TerminalVertex.html">MR::TerminalVertex</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2181,7 +2181,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1TerminalVertex.html">MR::TerminalVertex</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2e81a00aefd6c493f246cd5b9e8634c8" title="Destroys a heap-allocated instance of MR_TerminalVertex. Does nothing if the pointer is null.">MR_TerminalVertex_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1TerminalVertex.html">MR::TerminalVertex</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2e81a00aefd6c493f246cd5b9e8634c8" title="Destroys a heap-allocated instance of MR_TerminalVertex. Does nothing if the pointer is null.">MR_TerminalVertex_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2273,7 +2273,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TerminalVertex.html">MR::TerminalVertex</a></code> named <code>metric</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TerminalVertex.html">MR::TerminalVertex</a></code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2291,7 +2291,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TerminalVertex.html">MR::TerminalVertex</a></code> named <code>v</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TerminalVertex.html">MR::TerminalVertex</a></code> named <code>v</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2309,7 +2309,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TerminalVertex.html">MR::TerminalVertex</a></code> named <code>metric</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TerminalVertex.html">MR::TerminalVertex</a></code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2327,7 +2327,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TerminalVertex.html">MR::TerminalVertex</a></code> named <code>v</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TerminalVertex.html">MR::TerminalVertex</a></code> named <code>v</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2395,7 +2395,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TerminalVertex.html">MR::TerminalVertex</a></code> named <code>metric</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TerminalVertex.html">MR::TerminalVertex</a></code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2417,7 +2417,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TerminalVertex.html">MR::TerminalVertex</a></code> named <code>v</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TerminalVertex.html">MR::TerminalVertex</a></code> named <code>v</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

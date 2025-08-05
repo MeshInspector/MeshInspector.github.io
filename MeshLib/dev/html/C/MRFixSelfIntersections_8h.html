@@ -382,7 +382,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Finds and fixes self-intersections per component: Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1SelfIntersections.html#a31221cba193e98804d912de6685cd94a">MR::SelfIntersections::fix</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>settings</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Finds and fixes self-intersections per component: Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1SelfIntersections.html#a31221cba193e98804d912de6685cd94a">MR::SelfIntersections::fix</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>settings</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -414,7 +414,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Find all self-intersections faces component-wise Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1SelfIntersections.html#a24ad77f8c120ef0bda1b37e38b622319">MR::SelfIntersections::getFaces</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>touchIsIntersection</code> has a default argument: <code>true</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__FaceBitSet__std__string_8h.html#a49f25f78be01bd3b7e077cd474bb21d5" title="Destroys a heap-allocated instance of MR_expected_MR_FaceBitSet_std_string. Does nothing if the point...">MR_expected_MR_FaceBitSet_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Find all self-intersections faces component-wise Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1SelfIntersections.html#a24ad77f8c120ef0bda1b37e38b622319">MR::SelfIntersections::getFaces</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>touchIsIntersection</code> has a default argument: <code>true</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__FaceBitSet__std__string_8h.html#a49f25f78be01bd3b7e077cd474bb21d5" title="Destroys a heap-allocated instance of MR_expected_MR_FaceBitSet_std_string. Does nothing if the point...">MR_expected_MR_FaceBitSet_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -441,7 +441,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -602,7 +602,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Callback function Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>callback</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Callback function Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>callback</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -620,7 +620,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Maximum expand count (edge steps from self-intersecting faces), should be &gt; 0 Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>maxExpand</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Maximum expand count (edge steps from self-intersecting faces), should be &gt; 0 Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>maxExpand</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -638,7 +638,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>method</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>method</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -656,7 +656,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Maximum relax iterations Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>relaxIterations</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Maximum relax iterations Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>relaxIterations</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -674,7 +674,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Edge length for subdivision of holes covers (0.0f means auto) FLT_MAX to disable subdivision Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>subdivideEdgeLen</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Edge length for subdivision of holes covers (0.0f means auto) FLT_MAX to disable subdivision Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>subdivideEdgeLen</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -692,7 +692,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If true then count touching faces as self-intersections Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>touchIsIntersection</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>If true then count touching faces as self-intersections Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>touchIsIntersection</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -710,7 +710,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Callback function Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>callback</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Callback function Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>callback</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -728,7 +728,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Maximum expand count (edge steps from self-intersecting faces), should be &gt; 0 Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>maxExpand</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Maximum expand count (edge steps from self-intersecting faces), should be &gt; 0 Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>maxExpand</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -746,7 +746,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>method</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>method</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -764,7 +764,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Maximum relax iterations Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>relaxIterations</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Maximum relax iterations Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>relaxIterations</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -782,7 +782,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Edge length for subdivision of holes covers (0.0f means auto) FLT_MAX to disable subdivision Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>subdivideEdgeLen</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Edge length for subdivision of holes covers (0.0f means auto) FLT_MAX to disable subdivision Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>subdivideEdgeLen</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -800,7 +800,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If true then count touching faces as self-intersections Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>touchIsIntersection</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>If true then count touching faces as self-intersections Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>touchIsIntersection</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -873,7 +873,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Callback function Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>callback</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Callback function Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>callback</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -895,7 +895,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Maximum expand count (edge steps from self-intersecting faces), should be &gt; 0 Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>maxExpand</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Maximum expand count (edge steps from self-intersecting faces), should be &gt; 0 Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>maxExpand</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -917,7 +917,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>method</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>method</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -939,7 +939,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Maximum relax iterations Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>relaxIterations</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Maximum relax iterations Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>relaxIterations</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -961,7 +961,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Edge length for subdivision of holes covers (0.0f means auto) FLT_MAX to disable subdivision Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>subdivideEdgeLen</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Edge length for subdivision of holes covers (0.0f means auto) FLT_MAX to disable subdivision Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>subdivideEdgeLen</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -983,7 +983,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If true then count touching faces as self-intersections Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>touchIsIntersection</code>. Parameter <code>_this</code> can not be null. </p>
+<p>If true then count touching faces as self-intersections Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>touchIsIntersection</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

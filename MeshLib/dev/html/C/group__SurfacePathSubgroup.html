@@ -417,7 +417,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>for each vertex from (starts) finds the closest vertex from (ends) in geodesic sense </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">vertRegion</td><td>consider paths going in this region only Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga2ea9a6428c9bbd3ec9d9f96cc66bd1d5">MR::computeClosestSurfacePathTargets</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>starts</code> can not be null. Parameter <code>ends</code> can not be null. Parameter <code>vertRegion</code> defaults to a null pointer in C++. Parameter <code>outSurfaceDistances</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="phmap__flat__hash__map__MR__VertId__MR__VertId_8h.html#a661aa892993d083c261210e170f1032d" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VertId_MR_VertId. Does nothing if the...">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">vertRegion</td><td>consider paths going in this region only Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga2ea9a6428c9bbd3ec9d9f96cc66bd1d5">MR::computeClosestSurfacePathTargets</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>starts</code> can not be null. It is a single object. Parameter <code>ends</code> can not be null. It is a single object. Parameter <code>vertRegion</code> defaults to a null pointer in C++. Parameter <code>outSurfaceDistances</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="phmap__flat__hash__map__MR__VertId__MR__VertId_8h.html#a661aa892993d083c261210e170f1032d" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VertId_MR_VertId. Does nothing if the...">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -457,7 +457,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes by Fast Marching method and returns intermediate points of approximately geodesic path from start to end, where it crosses mesh edges; the path can be limited to given region: in face-format inside mp, or in vert-format in vertRegion argument Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga52601966a3d67cfd9b26ad1e586cd6f4">MR::computeFastMarchingPath</a></code>. Parameter <code>mp</code> can not be null. Parameter <code>start</code> can not be null. Parameter <code>end</code> can not be null. Parameter <code>vertRegion</code> defaults to a null pointer in C++. Parameter <code>outSurfaceDistances</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__MR__EdgePoint__MR__PathError_8h.html#a85d0636d07f1586d4cd097ac19be27c5" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_EdgePoint_MR_PathError....">MR_expected_std_vector_MR_EdgePoint_MR_PathError_Destroy()</a></code> to free it when you're done using it. </p>
+<p>computes by Fast Marching method and returns intermediate points of approximately geodesic path from start to end, where it crosses mesh edges; the path can be limited to given region: in face-format inside mp, or in vert-format in vertRegion argument Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga52601966a3d67cfd9b26ad1e586cd6f4">MR::computeFastMarchingPath</a></code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>start</code> can not be null. It is a single object. Parameter <code>end</code> can not be null. It is a single object. Parameter <code>vertRegion</code> defaults to a null pointer in C++. Parameter <code>outSurfaceDistances</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__MR__EdgePoint__MR__PathError_8h.html#a85d0636d07f1586d4cd097ac19be27c5" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_EdgePoint_MR_PathError....">MR_expected_std_vector_MR_EdgePoint_MR_PathError_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -494,7 +494,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns intermediate points of the geodesic path from start to end, where it crosses mesh edges; It is the same as calling computeGeodesicPathApprox() then reducePath() Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga8359c707ab87c6591777e5c2809c7468">MR::computeGeodesicPath</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>start</code> can not be null. Parameter <code>end</code> can not be null. Parameter <code>atype</code> has a default argument: <code>GeodesicPathApprox::FastMarching</code>, pass a null pointer to use it. Parameter <code>maxGeodesicIters</code> has a default argument: <code>100</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__MR__EdgePoint__MR__PathError_8h.html#a85d0636d07f1586d4cd097ac19be27c5" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_EdgePoint_MR_PathError....">MR_expected_std_vector_MR_EdgePoint_MR_PathError_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns intermediate points of the geodesic path from start to end, where it crosses mesh edges; It is the same as calling computeGeodesicPathApprox() then reducePath() Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga8359c707ab87c6591777e5c2809c7468">MR::computeGeodesicPath</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>start</code> can not be null. It is a single object. Parameter <code>end</code> can not be null. It is a single object. Parameter <code>atype</code> has a default argument: <code>GeodesicPathApprox::FastMarching</code>, pass a null pointer to use it. Parameter <code>maxGeodesicIters</code> has a default argument: <code>100</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__MR__EdgePoint__MR__PathError_8h.html#a85d0636d07f1586d4cd097ac19be27c5" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_EdgePoint_MR_PathError....">MR_expected_std_vector_MR_EdgePoint_MR_PathError_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -526,7 +526,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes by given method and returns intermediate points of approximately geodesic path from start to end, every next point is located in the same triangle with the previous point Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga8d44e12ec3a4b21e1ebb753c0a84b8ca">MR::computeGeodesicPathApprox</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>start</code> can not be null. Parameter <code>end</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__MR__EdgePoint__MR__PathError_8h.html#a85d0636d07f1586d4cd097ac19be27c5" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_EdgePoint_MR_PathError....">MR_expected_std_vector_MR_EdgePoint_MR_PathError_Destroy()</a></code> to free it when you're done using it. </p>
+<p>computes by given method and returns intermediate points of approximately geodesic path from start to end, every next point is located in the same triangle with the previous point Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga8d44e12ec3a4b21e1ebb753c0a84b8ca">MR::computeGeodesicPathApprox</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>start</code> can not be null. It is a single object. Parameter <code>end</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__MR__EdgePoint__MR__PathError_8h.html#a85d0636d07f1586d4cd097ac19be27c5" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_EdgePoint_MR_PathError....">MR_expected_std_vector_MR_EdgePoint_MR_PathError_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -558,7 +558,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes the path (edge points crossed by the path) staring in given point and moving in each triangle in minus gradient direction of given field; the path stops when it reaches a local minimum in the field or one of stop conditions in settings Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga563ea0f701cd05e6995193631495466e">MR::computeSteepestDescentPath</a></code>. Parameter <code>mp</code> can not be null. Parameter <code>field</code> can not be null. Parameter <code>start</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgePoint_8h.html#ac3f444edfe88c774ff3a1962e1137ba6" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgePoint. Does nothing if the pointer is null...">MR_std_vector_MR_EdgePoint_Destroy()</a></code> to free it when you're done using it. </p>
+<p>computes the path (edge points crossed by the path) staring in given point and moving in each triangle in minus gradient direction of given field; the path stops when it reaches a local minimum in the field or one of stop conditions in settings Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga563ea0f701cd05e6995193631495466e">MR::computeSteepestDescentPath</a></code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>field</code> can not be null. It is a single object. Parameter <code>start</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgePoint_8h.html#ac3f444edfe88c774ff3a1962e1137ba6" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgePoint. Does nothing if the pointer is null...">MR_std_vector_MR_EdgePoint_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -597,7 +597,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>computes the path (edge points crossed by the path) staring in given point and moving in each triangle in minus gradient direction of given field, and outputs the path in</p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">outPath</td><td>if requested; the path stops when it reaches a local minimum in the field or one of stop conditions in settings Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga563ea0f701cd05e6995193631495466e">MR::computeSteepestDescentPath</a></code>. Parameter <code>mp</code> can not be null. Parameter <code>field</code> can not be null. Parameter <code>start</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </td></tr>
+    <tr><td class="paramname">outPath</td><td>if requested; the path stops when it reaches a local minimum in the field or one of stop conditions in settings Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga563ea0f701cd05e6995193631495466e">MR::computeSteepestDescentPath</a></code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>field</code> can not be null. It is a single object. Parameter <code>start</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -622,7 +622,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -649,7 +649,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> elementwise. Parameter <code>end</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ga0e91384fdadbc64b647bfd534b141d07" title="Destroys a heap-allocated instance of MR_ComputeSteepestDescentPathSettings. Does nothing if the poin...">MR_ComputeSteepestDescentPathSettings_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> elementwise. Parameter <code>end</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ga0e91384fdadbc64b647bfd534b141d07" title="Destroys a heap-allocated instance of MR_ComputeSteepestDescentPathSettings. Does nothing if the poin...">MR_ComputeSteepestDescentPathSettings_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -667,7 +667,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ga0e91384fdadbc64b647bfd534b141d07" title="Destroys a heap-allocated instance of MR_ComputeSteepestDescentPathSettings. Does nothing if the poin...">MR_ComputeSteepestDescentPathSettings_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ga0e91384fdadbc64b647bfd534b141d07" title="Destroys a heap-allocated instance of MR_ComputeSteepestDescentPathSettings. Does nothing if the poin...">MR_ComputeSteepestDescentPathSettings_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -759,7 +759,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if valid, then the descent is stopped as soon as same triangle with (end) is reached Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>end</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if valid, then the descent is stopped as soon as same triangle with (end) is reached Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>end</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -777,7 +777,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if not nullptr, then the descent is stopped as soon as any boundary point is reached, which is written in *outBdReached Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>outBdReached</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if not nullptr, then the descent is stopped as soon as any boundary point is reached, which is written in *outBdReached Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>outBdReached</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -795,7 +795,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if not nullptr, then the descent is stopped as soon as any vertex is reached, which is written in *outVertexReached Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>outVertexReached</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if not nullptr, then the descent is stopped as soon as any vertex is reached, which is written in *outVertexReached Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>outVertexReached</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -813,7 +813,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if valid, then the descent is stopped as soon as same triangle with (end) is reached Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>end</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if valid, then the descent is stopped as soon as same triangle with (end) is reached Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>end</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -831,7 +831,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if not nullptr, then the descent is stopped as soon as any boundary point is reached, which is written in *outBdReached Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>outBdReached</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if not nullptr, then the descent is stopped as soon as any boundary point is reached, which is written in *outBdReached Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>outBdReached</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -849,7 +849,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if not nullptr, then the descent is stopped as soon as any vertex is reached, which is written in *outVertexReached Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>outVertexReached</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if not nullptr, then the descent is stopped as soon as any vertex is reached, which is written in *outVertexReached Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>outVertexReached</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -917,7 +917,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if valid, then the descent is stopped as soon as same triangle with (end) is reached Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>end</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. </p>
+<p>if valid, then the descent is stopped as soon as same triangle with (end) is reached Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>end</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -939,7 +939,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if not nullptr, then the descent is stopped as soon as any boundary point is reached, which is written in *outBdReached Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>outBdReached</code>. Parameter <code>_this</code> can not be null. </p>
+<p>if not nullptr, then the descent is stopped as soon as any boundary point is reached, which is written in *outBdReached Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>outBdReached</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -961,7 +961,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if not nullptr, then the descent is stopped as soon as any vertex is reached, which is written in *outVertexReached Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>outVertexReached</code>. Parameter <code>_this</code> can not be null. </p>
+<p>if not nullptr, then the descent is stopped as soon as any vertex is reached, which is written in *outVertexReached Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>outVertexReached</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1003,7 +1003,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns intermediate points of the geodesic path from start to end, where it crosses mesh edges; the path can be limited to given region: in face-format inside mp, or in vert-format in vertRegion argument. It is the same as calling computeFastMarchingPath() then reducePath() Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga446cf8a4654ec1a589f1ffd89762aa29">MR::computeSurfacePath</a></code>. Parameter <code>mp</code> can not be null. Parameter <code>start</code> can not be null. Parameter <code>end</code> can not be null. Parameter <code>maxGeodesicIters</code> has a default argument: <code>5</code>, pass a null pointer to use it. Parameter <code>vertRegion</code> defaults to a null pointer in C++. Parameter <code>outSurfaceDistances</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__MR__EdgePoint__MR__PathError_8h.html#a85d0636d07f1586d4cd097ac19be27c5" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_EdgePoint_MR_PathError....">MR_expected_std_vector_MR_EdgePoint_MR_PathError_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns intermediate points of the geodesic path from start to end, where it crosses mesh edges; the path can be limited to given region: in face-format inside mp, or in vert-format in vertRegion argument. It is the same as calling computeFastMarchingPath() then reducePath() Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga446cf8a4654ec1a589f1ffd89762aa29">MR::computeSurfacePath</a></code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>start</code> can not be null. It is a single object. Parameter <code>end</code> can not be null. It is a single object. Parameter <code>maxGeodesicIters</code> has a default argument: <code>5</code>, pass a null pointer to use it. Parameter <code>vertRegion</code> defaults to a null pointer in C++. Parameter <code>outSurfaceDistances</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__MR__EdgePoint__MR__PathError_8h.html#a85d0636d07f1586d4cd097ac19be27c5" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_EdgePoint_MR_PathError....">MR_expected_std_vector_MR_EdgePoint_MR_PathError_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1030,7 +1030,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes all edges in the mesh, where the field not-increases both in left and right triangles Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga0bd366cd8b4e0bb2f8754392be22cb12">MR::findExtremeEdges</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>field</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>computes all edges in the mesh, where the field not-increases both in left and right triangles Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga0bd366cd8b4e0bb2f8754392be22cb12">MR::findExtremeEdges</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>field</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1057,7 +1057,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds the point along minus maximal gradient on the boundary of triangles around given point (the boundary of left and right edge triangles' union in case (ep) is inner edge point) Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gaa46e9820d021f3412af4f1c59c14aaa2">MR::findSteepestDescentPoint</a></code>. Parameter <code>mp</code> can not be null. Parameter <code>field</code> can not be null. Parameter <code>ep</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MREdgePoint_8h.html#a7d78d416360e144f58e92ace5acf91b7" title="Destroys a heap-allocated instance of MR_EdgePoint. Does nothing if the pointer is null.">MR_EdgePoint_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds the point along minus maximal gradient on the boundary of triangles around given point (the boundary of left and right edge triangles' union in case (ep) is inner edge point) Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gaa46e9820d021f3412af4f1c59c14aaa2">MR::findSteepestDescentPoint</a></code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>field</code> can not be null. It is a single object. Parameter <code>ep</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MREdgePoint_8h.html#a7d78d416360e144f58e92ace5acf91b7" title="Destroys a heap-allocated instance of MR_EdgePoint. Does nothing if the pointer is null.">MR_EdgePoint_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1084,7 +1084,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds the point along minus maximal gradient on the boundary of triangles around given point (the boundary of the triangle itself in case (tp) is inner triangle point) Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gaa46e9820d021f3412af4f1c59c14aaa2">MR::findSteepestDescentPoint</a></code>. Parameter <code>mp</code> can not be null. Parameter <code>field</code> can not be null. Parameter <code>tp</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MREdgePoint_8h.html#a7d78d416360e144f58e92ace5acf91b7" title="Destroys a heap-allocated instance of MR_EdgePoint. Does nothing if the pointer is null.">MR_EdgePoint_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds the point along minus maximal gradient on the boundary of triangles around given point (the boundary of the triangle itself in case (tp) is inner triangle point) Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gaa46e9820d021f3412af4f1c59c14aaa2">MR::findSteepestDescentPoint</a></code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>field</code> can not be null. It is a single object. Parameter <code>tp</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MREdgePoint_8h.html#a7d78d416360e144f58e92ace5acf91b7" title="Destroys a heap-allocated instance of MR_EdgePoint. Does nothing if the pointer is null.">MR_EdgePoint_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1111,7 +1111,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds the point along minus maximal gradient on the boundary of first ring boundary around given vertex Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gaa46e9820d021f3412af4f1c59c14aaa2">MR::findSteepestDescentPoint</a></code>. Parameter <code>mp</code> can not be null. Parameter <code>field</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MREdgePoint_8h.html#a7d78d416360e144f58e92ace5acf91b7" title="Destroys a heap-allocated instance of MR_EdgePoint. Does nothing if the pointer is null.">MR_EdgePoint_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds the point along minus maximal gradient on the boundary of first ring boundary around given vertex Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gaa46e9820d021f3412af4f1c59c14aaa2">MR::findSteepestDescentPoint</a></code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>field</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MREdgePoint_8h.html#a7d78d416360e144f58e92ace5acf91b7" title="Destroys a heap-allocated instance of MR_EdgePoint. Does nothing if the pointer is null.">MR_EdgePoint_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1133,7 +1133,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns a set of mesh lines passing via most of given vertices in auto-selected order; the lines try to avoid sharp turns in the vertices Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gaaa4dc30756e93cfc4cd2f88758193360">MR::getSurfacePathsViaVertices</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>vs</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__EdgePoint_8h.html#abf1bd0dc298f0befe0c41071883be551" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_EdgePoint. Does nothing if the poin...">MR_std_vector_std_vector_MR_EdgePoint_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns a set of mesh lines passing via most of given vertices in auto-selected order; the lines try to avoid sharp turns in the vertices Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gaaa4dc30756e93cfc4cd2f88758193360">MR::getSurfacePathsViaVertices</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>vs</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__EdgePoint_8h.html#abf1bd0dc298f0befe0c41071883be551" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_EdgePoint. Does nothing if the poin...">MR_std_vector_std_vector_MR_EdgePoint_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1155,7 +1155,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes the length of surface path Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gacebe3b7371a72e49ddfbabc14fd008b4">MR::surfacePathLength</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>surfacePath</code> can not be null. </p>
+<p>computes the length of surface path Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gacebe3b7371a72e49ddfbabc14fd008b4">MR::surfacePathLength</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>surfacePath</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1177,7 +1177,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga8dbc7e2393ed3d315467293b5b2ba1e2">MR::surfacePathsToContours3f</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>lines</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__Vector3f_8h.html#a08f11bac5424cae534d0a451b6f8568a" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_Vector3f. Does nothing if the point...">MR_std_vector_std_vector_MR_Vector3f_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga8dbc7e2393ed3d315467293b5b2ba1e2">MR::surfacePathsToContours3f</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>lines</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__Vector3f_8h.html#a08f11bac5424cae534d0a451b6f8568a" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_Vector3f. Does nothing if the point...">MR_std_vector_std_vector_MR_Vector3f_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1199,7 +1199,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>converts lines on mesh in 3D contours by computing coordinate of each point Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga874e90d25d0cf437f34834d739fa588c">MR::surfacePathToContour3f</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>line</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__Vector3f_8h.html#abab6d7c953a1806ebeb1b7e736c18d49" title="Destroys a heap-allocated instance of MR_std_vector_MR_Vector3f. Does nothing if the pointer is null.">MR_std_vector_MR_Vector3f_Destroy()</a></code> to free it when you're done using it. </p>
+<p>converts lines on mesh in 3D contours by computing coordinate of each point Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga874e90d25d0cf437f34834d739fa588c">MR::surfacePathToContour3f</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>line</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__Vector3f_8h.html#abab6d7c953a1806ebeb1b7e736c18d49" title="Destroys a heap-allocated instance of MR_std_vector_MR_Vector3f. Does nothing if the pointer is null.">MR_std_vector_MR_Vector3f_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

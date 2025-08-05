@@ -482,7 +482,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#abab286ce43034d0b20bdc4c0e5e210ab">MR::saveObjectVoxelsToFile</a></code>. Parameter <code>object</code> can not be null. Parameter <code>path</code> is a UTF-8 encoded filesystem path. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#abab286ce43034d0b20bdc4c0e5e210ab">MR::saveObjectVoxelsToFile</a></code>. Parameter <code>object</code> can not be null. It is a single object. Parameter <code>path</code> is a UTF-8 encoded filesystem path. Parameter <code>callback</code> is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -524,7 +524,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Saves voxels in a file, detecting the format from file extension Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga9dcafbf81e0cc08b00b5f3cc6c42f9e6">MR::VoxelsSave::gridToAnySupportedFormat</a></code>. Parameter <code>grid</code> can not be null. Parameter <code>dims</code> can not be null. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Saves voxels in a file, detecting the format from file extension Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga9dcafbf81e0cc08b00b5f3cc6c42f9e6">MR::VoxelsSave::gridToAnySupportedFormat</a></code>. Parameter <code>grid</code> can not be null. It is a single object. Parameter <code>dims</code> can not be null. It is a single object. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -566,7 +566,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gaf3e337da226cefb117434f836e5305cc">MR::VoxelsSave::gridToRawAutoname</a></code>. Parameter <code>grid</code> can not be null. Parameter <code>dims</code> can not be null. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gaf3e337da226cefb117434f836e5305cc">MR::VoxelsSave::gridToRawAutoname</a></code>. Parameter <code>grid</code> can not be null. It is a single object. Parameter <code>dims</code> can not be null. It is a single object. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -603,7 +603,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Save voxels in raw format with each value as 32-bit float in given binary stream Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga4d10a99aa49d2b8f2ef88692d30d10cd">MR::VoxelsSave::gridToRawFloat</a></code>. Parameter <code>grid</code> can not be null. Parameter <code>dims</code> can not be null. Parameter <code>out</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Save voxels in raw format with each value as 32-bit float in given binary stream Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga4d10a99aa49d2b8f2ef88692d30d10cd">MR::VoxelsSave::gridToRawFloat</a></code>. Parameter <code>grid</code> can not be null. It is a single object. Parameter <code>dims</code> can not be null. It is a single object. Parameter <code>out</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -640,7 +640,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Save voxels file in OpenVDB format Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gae95da72600888100f789f35d3c34dcfb">MR::VoxelsSave::gridToVdb</a></code>. Parameter <code>grid</code> can not be null. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Save voxels file in OpenVDB format Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gae95da72600888100f789f35d3c34dcfb">MR::VoxelsSave::gridToVdb</a></code>. Parameter <code>grid</code> can not be null. It is a single object. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -672,7 +672,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gae95da72600888100f789f35d3c34dcfb">MR::VoxelsSave::gridToVdb</a></code>. Parameter <code>grid</code> can not be null. Parameter <code>out</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gae95da72600888100f789f35d3c34dcfb">MR::VoxelsSave::gridToVdb</a></code>. Parameter <code>grid</code> can not be null. It is a single object. Parameter <code>out</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -694,7 +694,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>save all slices by the active plane through all voxel planes along the active axis to an image file Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga369d03f6b945767a7f3fff153969a695">MR::VoxelsSave::saveAllSlicesToImage</a></code>. Parameter <code>vdbVolume</code> can not be null. Parameter <code>settings</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>save all slices by the active plane through all voxel planes along the active axis to an image file Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga369d03f6b945767a7f3fff153969a695">MR::VoxelsSave::saveAllSlicesToImage</a></code>. Parameter <code>vdbVolume</code> can not be null. It is a single object. Parameter <code>settings</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -741,7 +741,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>save the slice by the active plane through the sliceNumber to an image file Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga71f97bec2215ef7c561b5de6d82dfe53">MR::VoxelsSave::saveSliceToImage</a></code>. Parameter <code>path</code> is a UTF-8 encoded filesystem path. Parameter <code>vdbVolume</code> can not be null. Parameter <code>slicePlain</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>save the slice by the active plane through the sliceNumber to an image file Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga71f97bec2215ef7c561b5de6d82dfe53">MR::VoxelsSave::saveSliceToImage</a></code>. Parameter <code>path</code> is a UTF-8 encoded filesystem path. Parameter <code>vdbVolume</code> can not be null. It is a single object. Parameter <code>slicePlain</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -768,7 +768,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsSave_1_1SavingSettings.html">MR::VoxelsSave::SavingSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsSave_1_1SavingSettings.html">MR::VoxelsSave::SavingSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -929,7 +929,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsSave_1_1SavingSettings.html">MR::VoxelsSave::SavingSettings</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsSave_1_1SavingSettings.html">MR::VoxelsSave::SavingSettings</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -947,7 +947,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsSave_1_1SavingSettings.html">MR::VoxelsSave::SavingSettings</a></code> named <code>format</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsSave_1_1SavingSettings.html">MR::VoxelsSave::SavingSettings</a></code> named <code>format</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -965,7 +965,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsSave_1_1SavingSettings.html">MR::VoxelsSave::SavingSettings</a></code> named <code>path</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsSave_1_1SavingSettings.html">MR::VoxelsSave::SavingSettings</a></code> named <code>path</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -983,7 +983,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsSave_1_1SavingSettings.html">MR::VoxelsSave::SavingSettings</a></code> named <code>slicePlane</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsSave_1_1SavingSettings.html">MR::VoxelsSave::SavingSettings</a></code> named <code>slicePlane</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1001,7 +1001,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsSave_1_1SavingSettings.html">MR::VoxelsSave::SavingSettings</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsSave_1_1SavingSettings.html">MR::VoxelsSave::SavingSettings</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1019,7 +1019,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsSave_1_1SavingSettings.html">MR::VoxelsSave::SavingSettings</a></code> named <code>format</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsSave_1_1SavingSettings.html">MR::VoxelsSave::SavingSettings</a></code> named <code>format</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1037,7 +1037,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsSave_1_1SavingSettings.html">MR::VoxelsSave::SavingSettings</a></code> named <code>path</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsSave_1_1SavingSettings.html">MR::VoxelsSave::SavingSettings</a></code> named <code>path</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1055,7 +1055,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsSave_1_1SavingSettings.html">MR::VoxelsSave::SavingSettings</a></code> named <code>slicePlane</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsSave_1_1SavingSettings.html">MR::VoxelsSave::SavingSettings</a></code> named <code>slicePlane</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1128,7 +1128,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsSave_1_1SavingSettings.html">MR::VoxelsSave::SavingSettings</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsSave_1_1SavingSettings.html">MR::VoxelsSave::SavingSettings</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1155,7 +1155,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsSave_1_1SavingSettings.html">MR::VoxelsSave::SavingSettings</a></code> named <code>format</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsSave_1_1SavingSettings.html">MR::VoxelsSave::SavingSettings</a></code> named <code>format</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. </p>
 
 </div>
 </div>
@@ -1182,7 +1182,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsSave_1_1SavingSettings.html">MR::VoxelsSave::SavingSettings</a></code> named <code>path</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> is a UTF-8 encoded filesystem path. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsSave_1_1SavingSettings.html">MR::VoxelsSave::SavingSettings</a></code> named <code>path</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is a UTF-8 encoded filesystem path. </p>
 
 </div>
 </div>
@@ -1204,7 +1204,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsSave_1_1SavingSettings.html">MR::VoxelsSave::SavingSettings</a></code> named <code>slicePlane</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsSave_1_1SavingSettings.html">MR::VoxelsSave::SavingSettings</a></code> named <code>slicePlane</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1241,7 +1241,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga479f7166483b9a6ae878a9eaaaf3b2c2">MR::VoxelsSave::toAnySupportedFormat</a></code>. Parameter <code>vdbVolume</code> can not be null. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga479f7166483b9a6ae878a9eaaaf3b2c2">MR::VoxelsSave::toAnySupportedFormat</a></code>. Parameter <code>vdbVolume</code> can not be null. It is a single object. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1278,7 +1278,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga07fcb9dbce1e084feea3f4bc9a997d05">MR::VoxelsSave::toGav</a></code>. Parameter <code>simpleVolume</code> can not be null. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga07fcb9dbce1e084feea3f4bc9a997d05">MR::VoxelsSave::toGav</a></code>. Parameter <code>simpleVolume</code> can not be null. It is a single object. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1310,7 +1310,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga07fcb9dbce1e084feea3f4bc9a997d05">MR::VoxelsSave::toGav</a></code>. Parameter <code>simpleVolume</code> can not be null. Parameter <code>out</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga07fcb9dbce1e084feea3f4bc9a997d05">MR::VoxelsSave::toGav</a></code>. Parameter <code>simpleVolume</code> can not be null. It is a single object. Parameter <code>out</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1347,7 +1347,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga07fcb9dbce1e084feea3f4bc9a997d05">MR::VoxelsSave::toGav</a></code>. Parameter <code>simpleVolumeMinMax</code> can not be null. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga07fcb9dbce1e084feea3f4bc9a997d05">MR::VoxelsSave::toGav</a></code>. Parameter <code>simpleVolumeMinMax</code> can not be null. It is a single object. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1379,7 +1379,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga07fcb9dbce1e084feea3f4bc9a997d05">MR::VoxelsSave::toGav</a></code>. Parameter <code>simpleVolumeMinMax</code> can not be null. Parameter <code>out</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga07fcb9dbce1e084feea3f4bc9a997d05">MR::VoxelsSave::toGav</a></code>. Parameter <code>simpleVolumeMinMax</code> can not be null. It is a single object. Parameter <code>out</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1416,7 +1416,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Save voxels in Gav-format in given destination Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga07fcb9dbce1e084feea3f4bc9a997d05">MR::VoxelsSave::toGav</a></code>. Parameter <code>vdbVolume</code> can not be null. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Save voxels in Gav-format in given destination Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga07fcb9dbce1e084feea3f4bc9a997d05">MR::VoxelsSave::toGav</a></code>. Parameter <code>vdbVolume</code> can not be null. It is a single object. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1448,7 +1448,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga07fcb9dbce1e084feea3f4bc9a997d05">MR::VoxelsSave::toGav</a></code>. Parameter <code>vdbVolume</code> can not be null. Parameter <code>out</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga07fcb9dbce1e084feea3f4bc9a997d05">MR::VoxelsSave::toGav</a></code>. Parameter <code>vdbVolume</code> can not be null. It is a single object. Parameter <code>out</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1485,7 +1485,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gaba5fa9d2b1947f916a3629cde580c30f">MR::VoxelsSave::toRawAutoname</a></code>. Parameter <code>simpleVolume</code> can not be null. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gaba5fa9d2b1947f916a3629cde580c30f">MR::VoxelsSave::toRawAutoname</a></code>. Parameter <code>simpleVolume</code> can not be null. It is a single object. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1522,7 +1522,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Save raw voxels file, writing parameters in file name Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gaba5fa9d2b1947f916a3629cde580c30f">MR::VoxelsSave::toRawAutoname</a></code>. Parameter <code>vdbVolume</code> can not be null. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Save raw voxels file, writing parameters in file name Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gaba5fa9d2b1947f916a3629cde580c30f">MR::VoxelsSave::toRawAutoname</a></code>. Parameter <code>vdbVolume</code> can not be null. It is a single object. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1554,7 +1554,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga12d518250bd2612433a450a1a4d1edca">MR::VoxelsSave::toRawFloat</a></code>. Parameter <code>simpleVolume</code> can not be null. Parameter <code>out</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga12d518250bd2612433a450a1a4d1edca">MR::VoxelsSave::toRawFloat</a></code>. Parameter <code>simpleVolume</code> can not be null. It is a single object. Parameter <code>out</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1586,7 +1586,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga12d518250bd2612433a450a1a4d1edca">MR::VoxelsSave::toRawFloat</a></code>. Parameter <code>vdbVolume</code> can not be null. Parameter <code>out</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga12d518250bd2612433a450a1a4d1edca">MR::VoxelsSave::toRawFloat</a></code>. Parameter <code>vdbVolume</code> can not be null. It is a single object. Parameter <code>out</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1623,7 +1623,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gae7e67df258eb2d97e1ddf1d1cb4917f5">MR::VoxelsSave::toVdb</a></code>. Parameter <code>vdbVolume</code> can not be null. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gae7e67df258eb2d97e1ddf1d1cb4917f5">MR::VoxelsSave::toVdb</a></code>. Parameter <code>vdbVolume</code> can not be null. It is a single object. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

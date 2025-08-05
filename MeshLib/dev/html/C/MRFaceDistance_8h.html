@@ -389,7 +389,7 @@ Functions</h2></td></tr>
 <p>computes and returns the distance of traveling from one of start faces to all other reachable faces on the mesh; all unreachable faces will get FLT_MAX value; </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">starts</td><td>all start faces will get value 0 in the result; </td></tr>
-    <tr><td class="paramname">metric</td><td>metric(e) says the distance of traveling from left(e) to right(e) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a8dc548516d8db27eba38a5a8bf158a02">MR::calcFaceDistances</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>metric</code> can not be null. Parameter <code>starts</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__FaceScalars_8h.html#a112fbba2125fe92657fbbd539e69dd82" title="Destroys a heap-allocated instance of MR_std_optional_MR_FaceScalars. Does nothing if the pointer is ...">MR_std_optional_MR_FaceScalars_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">metric</td><td>metric(e) says the distance of traveling from left(e) to right(e) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a8dc548516d8db27eba38a5a8bf158a02">MR::calcFaceDistances</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>metric</code> can not be null. It is a single object. Parameter <code>starts</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__FaceScalars_8h.html#a112fbba2125fe92657fbbd539e69dd82" title="Destroys a heap-allocated instance of MR_std_optional_MR_FaceScalars. Does nothing if the pointer is ...">MR_std_optional_MR_FaceScalars_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -419,7 +419,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1FaceDistancesSettings.html">MR::FaceDistancesSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1FaceDistancesSettings.html">MR::FaceDistancesSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -565,7 +565,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output of the maximal distance to the most distant face Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FaceDistancesSettings.html">MR::FaceDistancesSettings</a></code> named <code>maxDist</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional output of the maximal distance to the most distant face Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FaceDistancesSettings.html">MR::FaceDistancesSettings</a></code> named <code>maxDist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -583,7 +583,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FaceDistancesSettings.html">MR::FaceDistancesSettings</a></code> named <code>out</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FaceDistancesSettings.html">MR::FaceDistancesSettings</a></code> named <code>out</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -601,7 +601,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>for progress reporting and cancellation Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FaceDistancesSettings.html">MR::FaceDistancesSettings</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>for progress reporting and cancellation Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FaceDistancesSettings.html">MR::FaceDistancesSettings</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -619,7 +619,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output of the maximal distance to the most distant face Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FaceDistancesSettings.html">MR::FaceDistancesSettings</a></code> named <code>maxDist</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional output of the maximal distance to the most distant face Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FaceDistancesSettings.html">MR::FaceDistancesSettings</a></code> named <code>maxDist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -637,7 +637,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FaceDistancesSettings.html">MR::FaceDistancesSettings</a></code> named <code>out</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FaceDistancesSettings.html">MR::FaceDistancesSettings</a></code> named <code>out</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -655,7 +655,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>for progress reporting and cancellation Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FaceDistancesSettings.html">MR::FaceDistancesSettings</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>for progress reporting and cancellation Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FaceDistancesSettings.html">MR::FaceDistancesSettings</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -723,7 +723,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output of the maximal distance to the most distant face Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FaceDistancesSettings.html">MR::FaceDistancesSettings</a></code> named <code>maxDist</code>. Parameter <code>_this</code> can not be null. </p>
+<p>optional output of the maximal distance to the most distant face Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FaceDistancesSettings.html">MR::FaceDistancesSettings</a></code> named <code>maxDist</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -745,7 +745,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FaceDistancesSettings.html">MR::FaceDistancesSettings</a></code> named <code>out</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FaceDistancesSettings.html">MR::FaceDistancesSettings</a></code> named <code>out</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -772,7 +772,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>for progress reporting and cancellation Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FaceDistancesSettings.html">MR::FaceDistancesSettings</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. </p>
+<p>for progress reporting and cancellation Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FaceDistancesSettings.html">MR::FaceDistancesSettings</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

@@ -1549,7 +1549,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>pair (anything removed, how many removed before firstRedoIndex) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#abde0e5a6e5cf5e3e9648a38740dd9804">MR::filterHistoryActionsVector</a></code>. Parameter <code>historyVector</code> can not be null. Parameter <code>firstRedoIndex</code> has a default argument: <code>0</code>, pass a null pointer to use it. Parameter <code>deepFiltering</code> has a default argument: <code>true</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__pair__bool__int32__t_8h.html#a26e50a4eb48d64d44434fbb7dc31a9a4" title="Destroys a heap-allocated instance of MR_std_pair_bool_int32_t. Does nothing if the pointer is null.">MR_std_pair_bool_int32_t_Destroy()</a></code> to free it when you're done using it. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>pair (anything removed, how many removed before firstRedoIndex) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#abde0e5a6e5cf5e3e9648a38740dd9804">MR::filterHistoryActionsVector</a></code>. Parameter <code>historyVector</code> can not be null. It is a single object. Parameter <code>firstRedoIndex</code> has a default argument: <code>0</code>, pass a null pointer to use it. Parameter <code>deepFiltering</code> has a default argument: <code>true</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__pair__bool__int32__t_8h.html#a26e50a4eb48d64d44434fbb7dc31a9a4" title="Destroys a heap-allocated instance of MR_std_pair_bool_int32_t. Does nothing if the pointer is null.">MR_std_pair_bool_int32_t_Destroy()</a></code> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -1571,7 +1571,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This function is called on history action (undo, redo, etc.) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> named <code>action</code>. Parameter <code>_this</code> can not be null. </p>
+<p>This function is called on history action (undo, redo, etc.) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> named <code>action</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2401,7 +2401,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeActiveBoxAction.html">MR::ChangeActiveBoxAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeActiveBoxAction.html">MR::ChangeActiveBoxAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2419,7 +2419,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeColoringType.html">MR::ChangeColoringType</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeColoringType.html">MR::ChangeColoringType</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2437,7 +2437,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeDualMarchingCubesAction.html">MR::ChangeDualMarchingCubesAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeDualMarchingCubesAction.html">MR::ChangeDualMarchingCubesAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2455,7 +2455,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeFacesColorMapAction.html">MR::ChangeFacesColorMapAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeFacesColorMapAction.html">MR::ChangeFacesColorMapAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2473,7 +2473,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeGridAction.html">MR::ChangeGridAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeGridAction.html">MR::ChangeGridAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2491,7 +2491,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeIsoAction.html">MR::ChangeIsoAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeIsoAction.html">MR::ChangeIsoAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2509,7 +2509,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeLabelAction.html">MR::ChangeLabelAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeLabelAction.html">MR::ChangeLabelAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2527,7 +2527,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeLinesColorMapAction.html">MR::ChangeLinesColorMapAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeLinesColorMapAction.html">MR::ChangeLinesColorMapAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2545,7 +2545,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshAction.html">MR::ChangeMeshAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshAction.html">MR::ChangeMeshAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2563,7 +2563,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshCreasesAction.html">MR::ChangeMeshCreasesAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshCreasesAction.html">MR::ChangeMeshCreasesAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2581,7 +2581,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshDataAction.html">MR::ChangeMeshDataAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshDataAction.html">MR::ChangeMeshDataAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2599,7 +2599,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshEdgeSelectionAction.html">MR::ChangeMeshEdgeSelectionAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshEdgeSelectionAction.html">MR::ChangeMeshEdgeSelectionAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2617,7 +2617,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshFaceSelectionAction.html">MR::ChangeMeshFaceSelectionAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshFaceSelectionAction.html">MR::ChangeMeshFaceSelectionAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2635,7 +2635,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshPointsAction.html">MR::ChangeMeshPointsAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshPointsAction.html">MR::ChangeMeshPointsAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2653,7 +2653,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshTexturePerFaceAction.html">MR::ChangeMeshTexturePerFaceAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshTexturePerFaceAction.html">MR::ChangeMeshTexturePerFaceAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2671,7 +2671,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshTopologyAction.html">MR::ChangeMeshTopologyAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshTopologyAction.html">MR::ChangeMeshTopologyAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2689,7 +2689,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshUVCoordsAction.html">MR::ChangeMeshUVCoordsAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshUVCoordsAction.html">MR::ChangeMeshUVCoordsAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2707,7 +2707,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeNameAction.html">MR::ChangeNameAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeNameAction.html">MR::ChangeNameAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2725,7 +2725,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeObjectAction.html">MR::ChangeObjectAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeObjectAction.html">MR::ChangeObjectAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2743,7 +2743,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeObjectColorAction.html">MR::ChangeObjectColorAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeObjectColorAction.html">MR::ChangeObjectColorAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2761,7 +2761,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeObjectSelectedAction.html">MR::ChangeObjectSelectedAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeObjectSelectedAction.html">MR::ChangeObjectSelectedAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2779,7 +2779,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeObjectVisibilityAction.html">MR::ChangeObjectVisibilityAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeObjectVisibilityAction.html">MR::ChangeObjectVisibilityAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2797,7 +2797,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeOneNormalInCloudAction.html">MR::ChangeOneNormalInCloudAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeOneNormalInCloudAction.html">MR::ChangeOneNormalInCloudAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2815,7 +2815,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeOnePointInCloudAction.html">MR::ChangeOnePointInCloudAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeOnePointInCloudAction.html">MR::ChangeOnePointInCloudAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2833,7 +2833,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangePointCloudAction.html">MR::ChangePointCloudAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangePointCloudAction.html">MR::ChangePointCloudAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2851,7 +2851,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangePointCloudNormalsAction.html">MR::ChangePointCloudNormalsAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangePointCloudNormalsAction.html">MR::ChangePointCloudNormalsAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2869,7 +2869,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangePointCloudPointsAction.html">MR::ChangePointCloudPointsAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangePointCloudPointsAction.html">MR::ChangePointCloudPointsAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2887,7 +2887,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangePointPointSelectionAction.html">MR::ChangePointPointSelectionAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangePointPointSelectionAction.html">MR::ChangePointPointSelectionAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2905,7 +2905,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangePolylineAction.html">MR::ChangePolylineAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangePolylineAction.html">MR::ChangePolylineAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2923,7 +2923,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangePolylinePointsAction.html">MR::ChangePolylinePointsAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangePolylinePointsAction.html">MR::ChangePolylinePointsAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2941,7 +2941,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangePolylineTopologyAction.html">MR::ChangePolylineTopologyAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangePolylineTopologyAction.html">MR::ChangePolylineTopologyAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2959,7 +2959,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeScaleAction.html">MR::ChangeScaleAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeScaleAction.html">MR::ChangeScaleAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2977,7 +2977,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeSceneAction.html">MR::ChangeSceneAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeSceneAction.html">MR::ChangeSceneAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2995,7 +2995,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeSceneObjectsOrder.html">MR::ChangeSceneObjectsOrder</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeSceneObjectsOrder.html">MR::ChangeSceneObjectsOrder</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3013,7 +3013,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeSurfaceAction.html">MR::ChangeSurfaceAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeSurfaceAction.html">MR::ChangeSurfaceAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3031,7 +3031,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeTextureAction.html">MR::ChangeTextureAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeTextureAction.html">MR::ChangeTextureAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3049,7 +3049,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeVisualizePropertyAction.html">MR::ChangeVisualizePropertyAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeVisualizePropertyAction.html">MR::ChangeVisualizePropertyAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3067,7 +3067,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeXfAction.html">MR::ChangeXfAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeXfAction.html">MR::ChangeXfAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3085,7 +3085,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangVoxelSelectionAction.html">MR::ChangVoxelSelectionAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangVoxelSelectionAction.html">MR::ChangVoxelSelectionAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3103,7 +3103,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1CombinedHistoryAction.html">MR::CombinedHistoryAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1CombinedHistoryAction.html">MR::CombinedHistoryAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3121,7 +3121,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1PartialChangeMeshAction.html">MR::PartialChangeMeshAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1PartialChangeMeshAction.html">MR::PartialChangeMeshAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3139,7 +3139,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1PartialChangeMeshPointsAction.html">MR::PartialChangeMeshPointsAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1PartialChangeMeshPointsAction.html">MR::PartialChangeMeshPointsAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3157,7 +3157,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1PartialChangeMeshTopologyAction.html">MR::PartialChangeMeshTopologyAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1PartialChangeMeshTopologyAction.html">MR::PartialChangeMeshTopologyAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3175,7 +3175,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the amount of memory this object occupies on heap Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> named <code>heapBytes</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns the amount of memory this object occupies on heap Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> named <code>heapBytes</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3967,7 +3967,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeActiveBoxAction.html">MR::ChangeActiveBoxAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeActiveBoxAction.html">MR::ChangeActiveBoxAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3985,7 +3985,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeColoringType.html">MR::ChangeColoringType</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeColoringType.html">MR::ChangeColoringType</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4003,7 +4003,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeDualMarchingCubesAction.html">MR::ChangeDualMarchingCubesAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeDualMarchingCubesAction.html">MR::ChangeDualMarchingCubesAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4021,7 +4021,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeFacesColorMapAction.html">MR::ChangeFacesColorMapAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeFacesColorMapAction.html">MR::ChangeFacesColorMapAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4039,7 +4039,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeGridAction.html">MR::ChangeGridAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeGridAction.html">MR::ChangeGridAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4057,7 +4057,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeIsoAction.html">MR::ChangeIsoAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeIsoAction.html">MR::ChangeIsoAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4075,7 +4075,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeLabelAction.html">MR::ChangeLabelAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeLabelAction.html">MR::ChangeLabelAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4093,7 +4093,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeLinesColorMapAction.html">MR::ChangeLinesColorMapAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeLinesColorMapAction.html">MR::ChangeLinesColorMapAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4111,7 +4111,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshAction.html">MR::ChangeMeshAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshAction.html">MR::ChangeMeshAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4129,7 +4129,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshCreasesAction.html">MR::ChangeMeshCreasesAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshCreasesAction.html">MR::ChangeMeshCreasesAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4147,7 +4147,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshDataAction.html">MR::ChangeMeshDataAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshDataAction.html">MR::ChangeMeshDataAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4165,7 +4165,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshEdgeSelectionAction.html">MR::ChangeMeshEdgeSelectionAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshEdgeSelectionAction.html">MR::ChangeMeshEdgeSelectionAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4183,7 +4183,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshFaceSelectionAction.html">MR::ChangeMeshFaceSelectionAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshFaceSelectionAction.html">MR::ChangeMeshFaceSelectionAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4201,7 +4201,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshPointsAction.html">MR::ChangeMeshPointsAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshPointsAction.html">MR::ChangeMeshPointsAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4219,7 +4219,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshTexturePerFaceAction.html">MR::ChangeMeshTexturePerFaceAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshTexturePerFaceAction.html">MR::ChangeMeshTexturePerFaceAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4237,7 +4237,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshTopologyAction.html">MR::ChangeMeshTopologyAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshTopologyAction.html">MR::ChangeMeshTopologyAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4255,7 +4255,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshUVCoordsAction.html">MR::ChangeMeshUVCoordsAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeMeshUVCoordsAction.html">MR::ChangeMeshUVCoordsAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4273,7 +4273,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeNameAction.html">MR::ChangeNameAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeNameAction.html">MR::ChangeNameAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4291,7 +4291,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeObjectAction.html">MR::ChangeObjectAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeObjectAction.html">MR::ChangeObjectAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4309,7 +4309,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeObjectColorAction.html">MR::ChangeObjectColorAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeObjectColorAction.html">MR::ChangeObjectColorAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4327,7 +4327,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeObjectSelectedAction.html">MR::ChangeObjectSelectedAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeObjectSelectedAction.html">MR::ChangeObjectSelectedAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4345,7 +4345,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeObjectVisibilityAction.html">MR::ChangeObjectVisibilityAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeObjectVisibilityAction.html">MR::ChangeObjectVisibilityAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4363,7 +4363,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeOneNormalInCloudAction.html">MR::ChangeOneNormalInCloudAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeOneNormalInCloudAction.html">MR::ChangeOneNormalInCloudAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4381,7 +4381,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeOnePointInCloudAction.html">MR::ChangeOnePointInCloudAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeOnePointInCloudAction.html">MR::ChangeOnePointInCloudAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4399,7 +4399,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangePointCloudAction.html">MR::ChangePointCloudAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangePointCloudAction.html">MR::ChangePointCloudAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4417,7 +4417,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangePointCloudNormalsAction.html">MR::ChangePointCloudNormalsAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangePointCloudNormalsAction.html">MR::ChangePointCloudNormalsAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4435,7 +4435,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangePointCloudPointsAction.html">MR::ChangePointCloudPointsAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangePointCloudPointsAction.html">MR::ChangePointCloudPointsAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4453,7 +4453,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangePointPointSelectionAction.html">MR::ChangePointPointSelectionAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangePointPointSelectionAction.html">MR::ChangePointPointSelectionAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4471,7 +4471,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangePolylineAction.html">MR::ChangePolylineAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangePolylineAction.html">MR::ChangePolylineAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4489,7 +4489,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangePolylinePointsAction.html">MR::ChangePolylinePointsAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangePolylinePointsAction.html">MR::ChangePolylinePointsAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4507,7 +4507,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangePolylineTopologyAction.html">MR::ChangePolylineTopologyAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangePolylineTopologyAction.html">MR::ChangePolylineTopologyAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4525,7 +4525,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeScaleAction.html">MR::ChangeScaleAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeScaleAction.html">MR::ChangeScaleAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4543,7 +4543,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeSceneAction.html">MR::ChangeSceneAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeSceneAction.html">MR::ChangeSceneAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4561,7 +4561,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeSceneObjectsOrder.html">MR::ChangeSceneObjectsOrder</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeSceneObjectsOrder.html">MR::ChangeSceneObjectsOrder</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4579,7 +4579,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeSurfaceAction.html">MR::ChangeSurfaceAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeSurfaceAction.html">MR::ChangeSurfaceAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4597,7 +4597,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeTextureAction.html">MR::ChangeTextureAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeTextureAction.html">MR::ChangeTextureAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4615,7 +4615,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeVisualizePropertyAction.html">MR::ChangeVisualizePropertyAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeVisualizePropertyAction.html">MR::ChangeVisualizePropertyAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4633,7 +4633,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeXfAction.html">MR::ChangeXfAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeXfAction.html">MR::ChangeXfAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4651,7 +4651,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangVoxelSelectionAction.html">MR::ChangVoxelSelectionAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1ChangVoxelSelectionAction.html">MR::ChangVoxelSelectionAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4669,7 +4669,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1CombinedHistoryAction.html">MR::CombinedHistoryAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1CombinedHistoryAction.html">MR::CombinedHistoryAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4687,7 +4687,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1PartialChangeMeshAction.html">MR::PartialChangeMeshAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1PartialChangeMeshAction.html">MR::PartialChangeMeshAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4705,7 +4705,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1PartialChangeMeshPointsAction.html">MR::PartialChangeMeshPointsAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1PartialChangeMeshPointsAction.html">MR::PartialChangeMeshPointsAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4723,7 +4723,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1PartialChangeMeshTopologyAction.html">MR::PartialChangeMeshTopologyAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Downcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> to a derived class <code><a class="elRef" href="../Cpp/classMR_1_1PartialChangeMeshTopologyAction.html">MR::PartialChangeMeshTopologyAction</a></code>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <code>object</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -5515,7 +5515,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> named <code>name</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> named <code>name</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

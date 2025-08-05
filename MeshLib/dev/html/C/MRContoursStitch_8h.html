@@ -241,7 +241,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given a closed loop of edges, splits the surface along that loop so that after return: 1) returned loop has the same size as input, with corresponding edges in same indexed elements of both; 2) all edges of c0 have no left faces; 3) all returned edges have no right faces; 4) vertices of the given mesh are updated Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aac15fd2f716831caecb8b6a05b61b7ea">MR::cutAlongEdgeLoop</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>c0</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>given a closed loop of edges, splits the surface along that loop so that after return: 1) returned loop has the same size as input, with corresponding edges in same indexed elements of both; 2) all edges of c0 have no left faces; 3) all returned edges have no right faces; 4) vertices of the given mesh are updated Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aac15fd2f716831caecb8b6a05b61b7ea">MR::cutAlongEdgeLoop</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>c0</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -263,7 +263,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given a closed loop of edges, splits the surface along that loop so that after return: 1) returned loop has the same size as input, with corresponding edges in same indexed elements of both; 2) all edges of c0 have no left faces; 3) all returned edges have no right faces; Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aac15fd2f716831caecb8b6a05b61b7ea">MR::cutAlongEdgeLoop</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>c0</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>given a closed loop of edges, splits the surface along that loop so that after return: 1) returned loop has the same size as input, with corresponding edges in same indexed elements of both; 2) all edges of c0 have no left faces; 3) all returned edges have no right faces; Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aac15fd2f716831caecb8b6a05b61b7ea">MR::cutAlongEdgeLoop</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>c0</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -290,7 +290,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given two contours: 1) of equal size; 2) all edges of c0 have no left faces; 3) all edges of c1 have no right faces; merge the surface along corresponding edges of two contours, and deletes all vertices and edges from c1 Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ab62a14eac8cd30402d6f5181a02096ad">MR::stitchContours</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>c0</code> can not be null. Parameter <code>c1</code> can not be null. </p>
+<p>given two contours: 1) of equal size; 2) all edges of c0 have no left faces; 3) all edges of c1 have no right faces; merge the surface along corresponding edges of two contours, and deletes all vertices and edges from c1 Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ab62a14eac8cd30402d6f5181a02096ad">MR::stitchContours</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>c0</code> can not be null. It is a single object. Parameter <code>c1</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

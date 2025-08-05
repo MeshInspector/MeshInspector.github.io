@@ -427,7 +427,7 @@ Functions</h2></td></tr>
     <tr><td class="paramname">mesh</td><td>contains topology information and coordinates for equation weights </td></tr>
     <tr><td class="paramname">normals</td><td>input noisy normals and output smooth normals </td></tr>
     <tr><td class="paramname">v</td><td>edge indicator function (1 - smooth edge, 0 - crease edge) </td></tr>
-    <tr><td class="paramname">gamma</td><td>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... see the article "Mesh Denoising via a Novel Mumford-Shah Framework", equation (19) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a4a2815eda5e04a1da7ec615027b52c86">MR::denoiseNormals</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>normals</code> can not be null. Parameter <code>v</code> can not be null. </td></tr>
+    <tr><td class="paramname">gamma</td><td>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... see the article "Mesh Denoising via a Novel Mumford-Shah Framework", equation (19) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a4a2815eda5e04a1da7ec615027b52c86">MR::denoiseNormals</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>normals</code> can not be null. It is a single object. Parameter <code>v</code> can not be null. It is a single object. </td></tr>
   </table>
   </dd>
 </dl>
@@ -457,7 +457,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -638,7 +638,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>beta</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>beta</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -656,7 +656,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>to get the progress and optionally cancel Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>to get the progress and optionally cancel Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -674,7 +674,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>use approximated computation, which is much faster than precise solution Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>fastIndicatorComputation</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>use approximated computation, which is much faster than precise solution Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>fastIndicatorComputation</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -692,7 +692,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>gamma</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>gamma</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -710,7 +710,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0 Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>guideWeight</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0 Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>guideWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -728,7 +728,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true then maximal displacement of each point during denoising will be limited Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>limitNearInitial</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true then maximal displacement of each point during denoising will be limited Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>limitNearInitial</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -746,7 +746,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>maxInitialDist</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>maxInitialDist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -764,7 +764,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of iterations to smooth normals and find creases; the more the better quality, but longer computation Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>normalIters</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the number of iterations to smooth normals and find creases; the more the better quality, but longer computation Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>normalIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -782,7 +782,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optionally returns creases found during smoothing Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>outCreases</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optionally returns creases found during smoothing Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>outCreases</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -800,7 +800,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of iterations to update vertex coordinates from found normals; the more the better quality, but longer computation Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>pointIters</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the number of iterations to update vertex coordinates from found normals; the more the better quality, but longer computation Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>pointIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -818,7 +818,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>beta</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>beta</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -836,7 +836,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>to get the progress and optionally cancel Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>to get the progress and optionally cancel Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -854,7 +854,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>use approximated computation, which is much faster than precise solution Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>fastIndicatorComputation</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>use approximated computation, which is much faster than precise solution Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>fastIndicatorComputation</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -872,7 +872,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>gamma</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>gamma</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -890,7 +890,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0 Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>guideWeight</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0 Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>guideWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -908,7 +908,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true then maximal displacement of each point during denoising will be limited Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>limitNearInitial</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true then maximal displacement of each point during denoising will be limited Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>limitNearInitial</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -926,7 +926,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>maxInitialDist</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>maxInitialDist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -944,7 +944,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of iterations to smooth normals and find creases; the more the better quality, but longer computation Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>normalIters</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the number of iterations to smooth normals and find creases; the more the better quality, but longer computation Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>normalIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -962,7 +962,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optionally returns creases found during smoothing Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>outCreases</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optionally returns creases found during smoothing Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>outCreases</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -980,7 +980,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of iterations to update vertex coordinates from found normals; the more the better quality, but longer computation Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>pointIters</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the number of iterations to update vertex coordinates from found normals; the more the better quality, but longer computation Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>pointIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1048,7 +1048,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>beta</code>. Parameter <code>_this</code> can not be null. </p>
+<p>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>beta</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1075,7 +1075,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>to get the progress and optionally cancel Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. </p>
+<p>to get the progress and optionally cancel Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1097,7 +1097,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>use approximated computation, which is much faster than precise solution Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>fastIndicatorComputation</code>. Parameter <code>_this</code> can not be null. </p>
+<p>use approximated computation, which is much faster than precise solution Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>fastIndicatorComputation</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1119,7 +1119,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>gamma</code>. Parameter <code>_this</code> can not be null. </p>
+<p>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>gamma</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1141,7 +1141,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0 Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>guideWeight</code>. Parameter <code>_this</code> can not be null. </p>
+<p>how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0 Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>guideWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1163,7 +1163,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true then maximal displacement of each point during denoising will be limited Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>limitNearInitial</code>. Parameter <code>_this</code> can not be null. </p>
+<p>if true then maximal displacement of each point during denoising will be limited Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>limitNearInitial</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1185,7 +1185,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>maxInitialDist</code>. Parameter <code>_this</code> can not be null. </p>
+<p>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>maxInitialDist</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1207,7 +1207,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of iterations to smooth normals and find creases; the more the better quality, but longer computation Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>normalIters</code>. Parameter <code>_this</code> can not be null. </p>
+<p>the number of iterations to smooth normals and find creases; the more the better quality, but longer computation Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>normalIters</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1229,7 +1229,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optionally returns creases found during smoothing Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>outCreases</code>. Parameter <code>_this</code> can not be null. </p>
+<p>optionally returns creases found during smoothing Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>outCreases</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1251,7 +1251,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of iterations to update vertex coordinates from found normals; the more the better quality, but longer computation Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>pointIters</code>. Parameter <code>_this</code> can not be null. </p>
+<p>the number of iterations to update vertex coordinates from found normals; the more the better quality, but longer computation Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>pointIters</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1273,7 +1273,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Reduces noise in given mesh, see the article "Mesh Denoising via a Novel Mumford-Shah Framework" Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a6bddd9d63512f9dfffb0fa869f249a4d">MR::meshDenoiseViaNormals</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Reduces noise in given mesh, see the article "Mesh Denoising via a Novel Mumford-Shah Framework" Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a6bddd9d63512f9dfffb0fa869f249a4d">MR::meshDenoiseViaNormals</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1315,7 +1315,7 @@ Functions</h2></td></tr>
     <tr><td class="paramname">mesh</td><td>contains topology information and coordinates for equation weights </td></tr>
     <tr><td class="paramname">normals</td><td>per-face normals </td></tr>
     <tr><td class="paramname">beta</td><td>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges </td></tr>
-    <tr><td class="paramname">gamma</td><td>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... see the article "Mesh Denoising via a Novel Mumford-Shah Framework", equation (20) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a786dcca1baeb53c3472aeec3c347aaf0">MR::updateIndicator</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>v</code> can not be null. Parameter <code>normals</code> can not be null. </td></tr>
+    <tr><td class="paramname">gamma</td><td>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... see the article "Mesh Denoising via a Novel Mumford-Shah Framework", equation (20) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a786dcca1baeb53c3472aeec3c347aaf0">MR::updateIndicator</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>v</code> can not be null. It is a single object. Parameter <code>normals</code> can not be null. It is a single object. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1359,7 +1359,7 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">normals</td><td>per-face normals </td></tr>
     <tr><td class="paramname">beta</td><td>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges </td></tr>
-    <tr><td class="paramname">gamma</td><td>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... see the article "Mesh Denoising via a Novel Mumford-Shah Framework", equation (20) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a40847df1ce412c4c7085dd392037e050">MR::updateIndicatorFast</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>v</code> can not be null. Parameter <code>normals</code> can not be null. </td></tr>
+    <tr><td class="paramname">gamma</td><td>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... see the article "Mesh Denoising via a Novel Mumford-Shah Framework", equation (20) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a40847df1ce412c4c7085dd392037e050">MR::updateIndicatorFast</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>v</code> can not be null. It is a single object. Parameter <code>normals</code> can not be null. It is a single object. </td></tr>
   </table>
   </dd>
 </dl>

@@ -354,7 +354,7 @@ Functions</h2></td></tr>
 <tr class="separator:ga7fff5129cabb80b083d03f37d63f000d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code>. Inherits from: Directly: (non-virtually) <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> Classes derived from this: Directly: (non-virtually) <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code> </p>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> Derived classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code> </p>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="ga0961ed14052ec630a4f9e367afe11da3" name="ga0961ed14052ec630a4f9e367afe11da3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga0961ed14052ec630a4f9e367afe11da3">&#9670;&#160;</a></span>MR_MeshApproxRelaxParams</h2>
@@ -367,7 +367,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code>. Inherits from: Directly: (non-virtually) <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> Indirectly: (non-virtually) <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> </p>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> Indirect: (non-virtual) <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> </p>
 
 </div>
 </div>
@@ -382,7 +382,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code>. Inherits from: Directly: (non-virtually) <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> Indirectly: (non-virtually) <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> </p>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> Indirect: (non-virtual) <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code> </p>
 
 </div>
 </div>
@@ -424,7 +424,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>applies given number of iterations with movement toward vertexPosEqualNeiAreas() to the whole mesh ( or some region if it is specified ) </p><dl class="section return"><dt>Returns</dt><dd>true if the operation completed successfully, and false if it was interrupted by the progress callback. Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaae1979d9e4a28ec7ad4642bbb77e477f">MR::equalizeTriAreas</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </dd></dl>
+<p>applies given number of iterations with movement toward vertexPosEqualNeiAreas() to the whole mesh ( or some region if it is specified ) </p><dl class="section return"><dt>Returns</dt><dd>true if the operation completed successfully, and false if it was interrupted by the progress callback. Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaae1979d9e4a28ec7ad4642bbb77e477f">MR::equalizeTriAreas</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>params</code> is a single object. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </dd></dl>
 
 </div>
 </div>
@@ -456,7 +456,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaae1979d9e4a28ec7ad4642bbb77e477f">MR::equalizeTriAreas</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaae1979d9e4a28ec7ad4642bbb77e477f">MR::equalizeTriAreas</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>params</code> is a single object. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -478,7 +478,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>move all region vertices with exactly three neighbor vertices in the center of the neighbors Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#ga287157ee21ca3461b897a4f9e982739b">MR::hardSmoothTetrahedrons</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+<p>move all region vertices with exactly three neighbor vertices in the center of the neighbors Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#ga287157ee21ca3461b897a4f9e982739b">MR::hardSmoothTetrahedrons</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -505,7 +505,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#ga287157ee21ca3461b897a4f9e982739b">MR::hardSmoothTetrahedrons</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#ga287157ee21ca3461b897a4f9e982739b">MR::hardSmoothTetrahedrons</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -527,7 +527,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -545,7 +545,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ga44a3b31eeca231382bc06cbf636d3c30" title="Destroys a heap-allocated instance of MR_MeshApproxRelaxParams. Does nothing if the pointer is null.">MR_MeshApproxRelaxParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ga44a3b31eeca231382bc06cbf636d3c30" title="Destroys a heap-allocated instance of MR_MeshApproxRelaxParams. Does nothing if the pointer is null.">MR_MeshApproxRelaxParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -637,7 +637,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>radius to find neighbors by surface 0.0f - default = 1e-3 * sqrt(surface area) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> named <code>surfaceDilateRadius</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>radius to find neighbors by surface 0.0f - default = 1e-3 * sqrt(surface area) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> named <code>surfaceDilateRadius</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -655,7 +655,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> named <code>type</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> named <code>type</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -673,7 +673,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>radius to find neighbors by surface 0.0f - default = 1e-3 * sqrt(surface area) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> named <code>surfaceDilateRadius</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>radius to find neighbors by surface 0.0f - default = 1e-3 * sqrt(surface area) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> named <code>surfaceDilateRadius</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -691,7 +691,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> named <code>type</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> named <code>type</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -797,7 +797,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>radius to find neighbors by surface 0.0f - default = 1e-3 * sqrt(surface area) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> named <code>surfaceDilateRadius</code>. Parameter <code>_this</code> can not be null. </p>
+<p>radius to find neighbors by surface 0.0f - default = 1e-3 * sqrt(surface area) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> named <code>surfaceDilateRadius</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -819,7 +819,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> named <code>type</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></code> named <code>type</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -877,7 +877,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -895,7 +895,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ga1375f118c328d24b6eb6858cb309f336" title="Destroys a heap-allocated instance of MR_MeshEqualizeTriAreasParams. Does nothing if the pointer is n...">MR_MeshEqualizeTriAreasParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ga1375f118c328d24b6eb6858cb309f336" title="Destroys a heap-allocated instance of MR_MeshEqualizeTriAreasParams. Does nothing if the pointer is n...">MR_MeshEqualizeTriAreasParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -987,7 +987,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true prevents the surface from shrinkage after many iterations; technically it is done by solving the same task in the plane orthogonal to normal direction Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code> named <code>noShrinkage</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true prevents the surface from shrinkage after many iterations; technically it is done by solving the same task in the plane orthogonal to normal direction Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code> named <code>noShrinkage</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1005,7 +1005,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true prevents the surface from shrinkage after many iterations; technically it is done by solving the same task in the plane orthogonal to normal direction Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code> named <code>noShrinkage</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true prevents the surface from shrinkage after many iterations; technically it is done by solving the same task in the plane orthogonal to normal direction Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code> named <code>noShrinkage</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1111,7 +1111,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true prevents the surface from shrinkage after many iterations; technically it is done by solving the same task in the plane orthogonal to normal direction Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code> named <code>noShrinkage</code>. Parameter <code>_this</code> can not be null. </p>
+<p>if true prevents the surface from shrinkage after many iterations; technically it is done by solving the same task in the plane orthogonal to normal direction Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshEqualizeTriAreasParams.html">MR::MeshEqualizeTriAreasParams</a></code> named <code>noShrinkage</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1169,7 +1169,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1187,7 +1187,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ga881bf3c84f8d5d6f01dec1bd031e7193" title="Destroys a heap-allocated instance of MR_MeshRelaxParams. Does nothing if the pointer is null.">MR_MeshRelaxParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ga881bf3c84f8d5d6f01dec1bd031e7193" title="Destroys a heap-allocated instance of MR_MeshRelaxParams. Does nothing if the pointer is null.">MR_MeshRelaxParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1279,7 +1279,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>move all region vertices with exactly three neighbor vertices in the center of the neighbors Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> named <code>hardSmoothTetrahedrons</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>move all region vertices with exactly three neighbor vertices in the center of the neighbors Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> named <code>hardSmoothTetrahedrons</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1297,7 +1297,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>weight for each vertex. By default, all the vertices have equal weights. Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> named <code>weights</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>weight for each vertex. By default, all the vertices have equal weights. Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> named <code>weights</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1315,7 +1315,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>move all region vertices with exactly three neighbor vertices in the center of the neighbors Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> named <code>hardSmoothTetrahedrons</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>move all region vertices with exactly three neighbor vertices in the center of the neighbors Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> named <code>hardSmoothTetrahedrons</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1333,7 +1333,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>weight for each vertex. By default, all the vertices have equal weights. Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> named <code>weights</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>weight for each vertex. By default, all the vertices have equal weights. Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> named <code>weights</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1456,7 +1456,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>move all region vertices with exactly three neighbor vertices in the center of the neighbors Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> named <code>hardSmoothTetrahedrons</code>. Parameter <code>_this</code> can not be null. </p>
+<p>move all region vertices with exactly three neighbor vertices in the center of the neighbors Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> named <code>hardSmoothTetrahedrons</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1478,7 +1478,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>weight for each vertex. By default, all the vertices have equal weights. Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> named <code>weights</code>. Parameter <code>_this</code> can not be null. </p>
+<p>weight for each vertex. By default, all the vertices have equal weights. Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></code> named <code>weights</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1559,7 +1559,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>applies given number of relaxation iterations to the whole mesh ( or some region if it is specified ) </p><dl class="section return"><dt>Returns</dt><dd>true if was finished successfully, false if was interrupted by progress callback Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaf1790e242d0c45c246335b07bfb7c5af">MR::relax</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </dd></dl>
+<p>applies given number of relaxation iterations to the whole mesh ( or some region if it is specified ) </p><dl class="section return"><dt>Returns</dt><dd>true if was finished successfully, false if was interrupted by progress callback Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaf1790e242d0c45c246335b07bfb7c5af">MR::relax</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>params</code> is a single object. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </dd></dl>
 
 </div>
 </div>
@@ -1591,7 +1591,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaf1790e242d0c45c246335b07bfb7c5af">MR::relax</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaf1790e242d0c45c246335b07bfb7c5af">MR::relax</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>params</code> is a single object. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1618,7 +1618,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>applies given number of relaxation iterations to the whole mesh ( or some region if it is specified ) approx neighborhoods </p><dl class="section return"><dt>Returns</dt><dd>true if the operation completed successfully, and false if it was interrupted by the progress callback. Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#ga20d24c1c616896c5b7cf17b6dc1ad1dc">MR::relaxApprox</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </dd></dl>
+<p>applies given number of relaxation iterations to the whole mesh ( or some region if it is specified ) approx neighborhoods </p><dl class="section return"><dt>Returns</dt><dd>true if the operation completed successfully, and false if it was interrupted by the progress callback. Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#ga20d24c1c616896c5b7cf17b6dc1ad1dc">MR::relaxApprox</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>params</code> is a single object. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </dd></dl>
 
 </div>
 </div>
@@ -1650,7 +1650,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#ga20d24c1c616896c5b7cf17b6dc1ad1dc">MR::relaxApprox</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#ga20d24c1c616896c5b7cf17b6dc1ad1dc">MR::relaxApprox</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>params</code> is a single object. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1678,7 +1678,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>applies given number of relaxation iterations to the whole mesh ( or some region if it is specified ) <br  />
-do not really keeps volume but tries hard </p><dl class="section return"><dt>Returns</dt><dd>true if the operation completed successfully, and false if it was interrupted by the progress callback. Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gade2c4c373a0a3c4e594f194dc55a92b8">MR::relaxKeepVolume</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </dd></dl>
+do not really keeps volume but tries hard </p><dl class="section return"><dt>Returns</dt><dd>true if the operation completed successfully, and false if it was interrupted by the progress callback. Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gade2c4c373a0a3c4e594f194dc55a92b8">MR::relaxKeepVolume</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>params</code> is a single object. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </dd></dl>
 
 </div>
 </div>
@@ -1710,7 +1710,7 @@ do not really keeps volume but tries hard </p><dl class="section return"><dt>Ret
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gade2c4c373a0a3c4e594f194dc55a92b8">MR::relaxKeepVolume</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gade2c4c373a0a3c4e594f194dc55a92b8">MR::relaxKeepVolume</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>params</code> is a single object. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Parameter <code>cb</code> is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1742,7 +1742,7 @@ do not really keeps volume but tries hard </p><dl class="section return"><dt>Ret
         </tr>
       </table>
 </div><div class="memdoc">
-<p>applies at most given number of relaxation iterations the spikes detected by given threshold Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaf3dd7b36bb56c94c95b1bea9f7546349">MR::removeSpikes</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+<p>applies at most given number of relaxation iterations the spikes detected by given threshold Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaf3dd7b36bb56c94c95b1bea9f7546349">MR::removeSpikes</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -1779,7 +1779,7 @@ do not really keeps volume but tries hard </p><dl class="section return"><dt>Ret
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaf3dd7b36bb56c94c95b1bea9f7546349">MR::removeSpikes</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaf3dd7b36bb56c94c95b1bea9f7546349">MR::removeSpikes</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -1808,7 +1808,7 @@ do not really keeps volume but tries hard </p><dl class="section return"><dt>Ret
 </div><div class="memdoc">
 <p>given a region of faces on the mesh, moves boundary vertices of the region to make the region contour much smoother with minor optimization of mesh topology near region boundary; </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">numIters</td><td>&gt;= 1 how many times to run the algorithm to achieve a better quality, solution is typically oscillates back and forth so even number of iterations is recommended Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#ga8befca5bcec5f332e23a665e97e9ecbf">MR::smoothRegionBoundary</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>regionFaces</code> can not be null. Parameter <code>numIters</code> has a default argument: <code>4</code>, pass a null pointer to use it. </td></tr>
+    <tr><td class="paramname">numIters</td><td>&gt;= 1 how many times to run the algorithm to achieve a better quality, solution is typically oscillates back and forth so even number of iterations is recommended Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#ga8befca5bcec5f332e23a665e97e9ecbf">MR::smoothRegionBoundary</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>regionFaces</code> can not be null. It is a single object. Parameter <code>numIters</code> has a default argument: <code>4</code>, pass a null pointer to use it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1838,7 +1838,7 @@ do not really keeps volume but tries hard </p><dl class="section return"><dt>Ret
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes position of a vertex, when all neighbor triangles have almost equal areas, more precisely it minimizes sum_i (area_i)^2 by adjusting the position of this vertex only Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaba816e24c8bb07c99f1d084e59d0ec48">MR::vertexPosEqualNeiAreas</a></code>. Parameter <code>mesh</code> can not be null. </p>
+<p>computes position of a vertex, when all neighbor triangles have almost equal areas, more precisely it minimizes sum_i (area_i)^2 by adjusting the position of this vertex only Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaba816e24c8bb07c99f1d084e59d0ec48">MR::vertexPosEqualNeiAreas</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1870,7 +1870,7 @@ do not really keeps volume but tries hard </p><dl class="section return"><dt>Ret
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaba816e24c8bb07c99f1d084e59d0ec48">MR::vertexPosEqualNeiAreas</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshRelaxGroup.html#gaba816e24c8bb07c99f1d084e59d0ec48">MR::vertexPosEqualNeiAreas</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

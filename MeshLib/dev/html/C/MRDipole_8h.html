@@ -310,7 +310,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#abb1e0bf1a4c242908e10db3d858a3260">MR::calcDipoles</a></code>. Parameter <code>tree</code> can not be null. Parameter <code>mesh</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#a18732ad1843ffb00747e6a8fb9e33f11" title="Destroys a heap-allocated instance of MR_Dipoles. Does nothing if the pointer is null.">MR_Dipoles_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#abb1e0bf1a4c242908e10db3d858a3260">MR::calcDipoles</a></code>. Parameter <code>tree</code> can not be null. It is a single object. Parameter <code>mesh</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#a18732ad1843ffb00747e6a8fb9e33f11" title="Destroys a heap-allocated instance of MR_Dipoles. Does nothing if the pointer is null.">MR_Dipoles_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -337,7 +337,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>calculates dipoles for given mesh and AABB-tree Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#abb1e0bf1a4c242908e10db3d858a3260">MR::calcDipoles</a></code>. Parameter <code>dipoles</code> can not be null. Parameter <code>tree</code> can not be null. Parameter <code>mesh</code> can not be null. </p>
+<p>calculates dipoles for given mesh and AABB-tree Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#abb1e0bf1a4c242908e10db3d858a3260">MR::calcDipoles</a></code>. Parameter <code>dipoles</code> can not be null. It is a single object. Parameter <code>tree</code> can not be null. It is a single object. Parameter <code>mesh</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -384,7 +384,7 @@ Functions</h2></td></tr>
     <tr><td class="paramname">q;</td><td></td></tr>
     <tr><td class="paramname">beta</td><td>determines the precision of the approximation: the more the better, recommended value 2 or more; if distance from q to the center of some triangle group is more than beta times the distance from the center to most distance triangle in the group then we use approximate formula </td></tr>
     <tr><td class="paramname">skipFace</td><td>this triangle (if it is close to</td></tr>
-    <tr><td class="paramname">q)</td><td>will be skipped from summation Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aaab44aa4df541376791cff0c6b1c60f0">MR::calcFastWindingNumber</a></code>. Parameter <code>dipoles</code> can not be null. Parameter <code>tree</code> can not be null. Parameter <code>mesh</code> can not be null. Parameter <code>q</code> can not be null. </td></tr>
+    <tr><td class="paramname">q)</td><td>will be skipped from summation Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aaab44aa4df541376791cff0c6b1c60f0">MR::calcFastWindingNumber</a></code>. Parameter <code>dipoles</code> can not be null. It is a single object. Parameter <code>tree</code> can not be null. It is a single object. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>q</code> can not be null. It is a single object. </td></tr>
   </table>
   </dd>
 </dl>
@@ -423,7 +423,7 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">q;</td><td>and adds the contribution of this dipole to the winding number at point</td></tr>
     <tr><td class="paramname">q</td><td>to</td></tr>
-    <tr><td class="paramname">addTo</td><td>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code> named <code>addIfGoodApprox</code>. Parameter <code>_this</code> can not be null. Parameter <code>q</code> can not be null. Parameter <code>addTo</code> can not be null. </td></tr>
+    <tr><td class="paramname">addTo</td><td>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code> named <code>addIfGoodApprox</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>q</code> can not be null. It is a single object. Parameter <code>addTo</code> can not be null. It is a single object. </td></tr>
   </table>
   </dd>
 </dl>
@@ -448,7 +448,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -498,7 +498,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad95c8c93489da85e4ce767b0b6f399d2" title="Destroys a heap-allocated instance of MR_Dipole. Does nothing if the pointer is null.">MR_Dipole_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad95c8c93489da85e4ce767b0b6f399d2" title="Destroys a heap-allocated instance of MR_Dipole. Does nothing if the pointer is null.">MR_Dipole_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -590,7 +590,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code> named <code>area</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code> named <code>area</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -608,7 +608,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code> named <code>dirArea</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code> named <code>dirArea</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -626,7 +626,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code> named <code>pos</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code> named <code>pos</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -644,7 +644,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code> named <code>rr</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code> named <code>rr</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -662,7 +662,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code> named <code>area</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code> named <code>area</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -680,7 +680,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code> named <code>dirArea</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code> named <code>dirArea</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -698,7 +698,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code> named <code>pos</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code> named <code>pos</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -716,7 +716,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code> named <code>rr</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code> named <code>rr</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -784,7 +784,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code> named <code>area</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code> named <code>area</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -806,7 +806,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code> named <code>dirArea</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code> named <code>dirArea</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -828,7 +828,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code> named <code>pos</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code> named <code>pos</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -850,7 +850,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code> named <code>rr</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a></code> named <code>rr</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

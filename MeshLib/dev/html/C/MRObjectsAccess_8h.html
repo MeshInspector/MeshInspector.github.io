@@ -280,7 +280,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if input object is of given type then returns another pointer on it Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a63769cf93cfa3d68cbf331f305c195d8">MR::asSelectivityType</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a>&gt;</code>. Parameter <code>type</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__shared__ptr__MR__Object_8h.html#ac4d53a470c9103f8ebd58aa32856108e" title="Destroys a heap-allocated instance of MR_std_shared_ptr_MR_Object. Does nothing if the pointer is nul...">MR_std_shared_ptr_MR_Object_Destroy()</a></code> to free it when you're done using it. </p>
+<p>if input object is of given type then returns another pointer on it Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a63769cf93cfa3d68cbf331f305c195d8">MR::asSelectivityType</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a>&gt;</code>. Parameter <code>type</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__shared__ptr__MR__Object_8h.html#ac4d53a470c9103f8ebd58aa32856108e" title="Destroys a heap-allocated instance of MR_std_shared_ptr_MR_Object. Does nothing if the pointer is nul...">MR_std_shared_ptr_MR_Object_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -302,7 +302,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Traverses tree and collect objects of given type excluding root returns vector Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a60db6fdac099905987b703a7fffe4746">MR::getAllObjectsInTree</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a>&gt;</code>. Parameter <code>type</code> has a default argument: <code>ObjectSelectivityType::Selectable</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__shared__ptr__MR__Object_8h.html#a983b62aedeaffd24d599c66c1e83f710" title="Destroys a heap-allocated instance of MR_std_vector_std_shared_ptr_MR_Object. Does nothing if the poi...">MR_std_vector_std_shared_ptr_MR_Object_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Traverses tree and collect objects of given type excluding root returns vector Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a60db6fdac099905987b703a7fffe4746">MR::getAllObjectsInTree</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a>&gt;</code>. Parameter <code>type</code> is a single object. Parameter <code>type</code> has a default argument: <code>ObjectSelectivityType::Selectable</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__shared__ptr__MR__Object_8h.html#a983b62aedeaffd24d599c66c1e83f710" title="Destroys a heap-allocated instance of MR_std_vector_std_shared_ptr_MR_Object. Does nothing if the poi...">MR_std_vector_std_shared_ptr_MR_Object_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -324,7 +324,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>return first object of given type in depth-first traverse order excluding root Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#afa3e42d954c50c383af5c20a059e34d2">MR::getDepthFirstObject</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a>&gt;</code>. Parameter <code>type</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__shared__ptr__MR__Object_8h.html#ac4d53a470c9103f8ebd58aa32856108e" title="Destroys a heap-allocated instance of MR_std_shared_ptr_MR_Object. Does nothing if the pointer is nul...">MR_std_shared_ptr_MR_Object_Destroy()</a></code> to free it when you're done using it. </p>
+<p>return first object of given type in depth-first traverse order excluding root Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#afa3e42d954c50c383af5c20a059e34d2">MR::getDepthFirstObject</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a>&gt;</code>. Parameter <code>type</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__shared__ptr__MR__Object_8h.html#ac4d53a470c9103f8ebd58aa32856108e" title="Destroys a heap-allocated instance of MR_std_shared_ptr_MR_Object. Does nothing if the pointer is nul...">MR_std_shared_ptr_MR_Object_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -346,7 +346,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a7afd4c6187926b10b71f8631961165a0">MR::getTopmostVisibleObjects</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a>&gt;</code>. Parameter <code>type</code> has a default argument: <code>ObjectSelectivityType::Selectable</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__shared__ptr__MR__Object_8h.html#a983b62aedeaffd24d599c66c1e83f710" title="Destroys a heap-allocated instance of MR_std_vector_std_shared_ptr_MR_Object. Does nothing if the poi...">MR_std_vector_std_shared_ptr_MR_Object_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Returns all topmost visible objects of given type (if an object is returned, its children are not) excluding root Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a7afd4c6187926b10b71f8631961165a0">MR::getTopmostVisibleObjects</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a>&gt;</code>. Parameter <code>type</code> is a single object. Parameter <code>type</code> has a default argument: <code>ObjectSelectivityType::Selectable</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__shared__ptr__MR__Object_8h.html#a983b62aedeaffd24d599c66c1e83f710" title="Destroys a heap-allocated instance of MR_std_vector_std_shared_ptr_MR_Object. Does nothing if the poi...">MR_std_vector_std_shared_ptr_MR_Object_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -364,7 +364,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a8e83df3805927f1f6c006f596809d97a">MR::objectHasSelectableChildren</a></code>. Parameter <code>object</code> can not be null. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a8e83df3805927f1f6c006f596809d97a">MR::objectHasSelectableChildren</a></code>. Parameter <code>object</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

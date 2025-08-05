@@ -749,7 +749,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>adds cylindrical extension of given hole represented by one of its edges (having no valid left face) by adding new vertices located in lowest point of the hole -dir*holeExtension and 2 * number_of_hole_edge triangles; </p><dl class="section return"><dt>Returns</dt><dd>the edge of new hole opposite to input edge (a) Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga7bee2d636a1f5f931ac54f6f841c07f7">MR::buildBottom</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>outNewFaces</code> defaults to a null pointer in C++. </dd></dl>
+<p>adds cylindrical extension of given hole represented by one of its edges (having no valid left face) by adding new vertices located in lowest point of the hole -dir*holeExtension and 2 * number_of_hole_edge triangles; </p><dl class="section return"><dt>Returns</dt><dd>the edge of new hole opposite to input edge (a) Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga7bee2d636a1f5f931ac54f6f841c07f7">MR::buildBottom</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>outNewFaces</code> defaults to a null pointer in C++. </dd></dl>
 
 </div>
 </div>
@@ -771,7 +771,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this version finds holes in the mesh by itself and returns false if they are not found Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#gaa096c69aa6c5cf97a783e92aa3a70157">MR::buildCylinderBetweenTwoHoles</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+<p>this version finds holes in the mesh by itself and returns false if they are not found Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#gaa096c69aa6c5cf97a783e92aa3a70157">MR::buildCylinderBetweenTwoHoles</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>params</code> is a single object. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -840,7 +840,7 @@ Stitch with smooth</div></div>
 </dl>
 <dl class="section see"><dt>See also</dt><dd>fillHole </dd>
 <dd>
-StitchHolesParams Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#gaa096c69aa6c5cf97a783e92aa3a70157">MR::buildCylinderBetweenTwoHoles</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </dd></dl>
+StitchHolesParams Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#gaa096c69aa6c5cf97a783e92aa3a70157">MR::buildCylinderBetweenTwoHoles</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>params</code> is a single object. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </dd></dl>
 
 </div>
 </div>
@@ -872,7 +872,7 @@ StitchHolesParams Generated from function <code><a class="elRef" href="../Cpp/gr
         </tr>
       </table>
 </div><div class="memdoc">
-<p>quickly triangulates the face or hole to the left of (e) given the plan (quickly compared to fillHole function) Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac65388f63712128d8af8e1b81054f779">MR::executeHoleFillPlan</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>plan</code> can not be null. Parameter <code>outNewFaces</code> defaults to a null pointer in C++. </p>
+<p>quickly triangulates the face or hole to the left of (e) given the plan (quickly compared to fillHole function) Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac65388f63712128d8af8e1b81054f779">MR::executeHoleFillPlan</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>plan</code> can not be null. It is a single object. Parameter <code>outNewFaces</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -899,7 +899,7 @@ StitchHolesParams Generated from function <code><a class="elRef" href="../Cpp/gr
         </tr>
       </table>
 </div><div class="memdoc">
-<p>adds cylindrical extension of too all holes of the mesh by calling extendHole(...); </p><dl class="section return"><dt>Returns</dt><dd>representative edges of one per every hole after extension Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga98bec93b947e8017b7443801e20bc79b">MR::extendAllHoles</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>plane</code> can not be null. Parameter <code>outNewFaces</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </dd></dl>
+<p>adds cylindrical extension of too all holes of the mesh by calling extendHole(...); </p><dl class="section return"><dt>Returns</dt><dd>representative edges of one per every hole after extension Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga98bec93b947e8017b7443801e20bc79b">MR::extendAllHoles</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>plane</code> can not be null. It is a single object. Parameter <code>outNewFaces</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -931,7 +931,7 @@ StitchHolesParams Generated from function <code><a class="elRef" href="../Cpp/gr
         </tr>
       </table>
 </div><div class="memdoc">
-<p>adds cylindrical extension of given hole represented by one of its edges (having no valid left face) by adding new vertices located in given plane and 2 * number_of_hole_edge triangles; </p><dl class="section return"><dt>Returns</dt><dd>the edge of new hole opposite to input edge (a) Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga3c7779fd4cc2d941f67da4462b2d0121">MR::extendHole</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>plane</code> can not be null. Parameter <code>outNewFaces</code> defaults to a null pointer in C++. </dd></dl>
+<p>adds cylindrical extension of given hole represented by one of its edges (having no valid left face) by adding new vertices located in given plane and 2 * number_of_hole_edge triangles; </p><dl class="section return"><dt>Returns</dt><dd>the edge of new hole opposite to input edge (a) Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga3c7779fd4cc2d941f67da4462b2d0121">MR::extendHole</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>plane</code> can not be null. It is a single object. Parameter <code>outNewFaces</code> defaults to a null pointer in C++. </dd></dl>
 
 </div>
 </div>
@@ -968,7 +968,7 @@ StitchHolesParams Generated from function <code><a class="elRef" href="../Cpp/gr
         </tr>
       </table>
 </div><div class="memdoc">
-<p>adds extension of given hole represented by one of its edges (having no valid left face) by adding new vertices located at getVertPos( existing vertex position ); </p><dl class="section return"><dt>Returns</dt><dd>the edge of new hole opposite to input edge (a) Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga3c7779fd4cc2d941f67da4462b2d0121">MR::extendHole</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>outNewFaces</code> defaults to a null pointer in C++. </dd></dl>
+<p>adds extension of given hole represented by one of its edges (having no valid left face) by adding new vertices located at getVertPos( existing vertex position ); </p><dl class="section return"><dt>Returns</dt><dd>the edge of new hole opposite to input edge (a) Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga3c7779fd4cc2d941f67da4462b2d0121">MR::extendHole</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>outNewFaces</code> defaults to a null pointer in C++. </dd></dl>
 
 </div>
 </div>
@@ -1025,7 +1025,7 @@ Fill with smooth</div></div>
 <dd>
 fillHoleTrivially </dd>
 <dd>
-FillHoleParams Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05">MR::fillHole</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </dd></dl>
+FillHoleParams Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05">MR::fillHole</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>params</code> is a single object. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </dd></dl>
 
 </div>
 </div>
@@ -1047,7 +1047,7 @@ FillHoleParams Generated from function <code><a class="elRef" href="../Cpp/group
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleItem.html">MR::FillHoleItem</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleItem.html">MR::FillHoleItem</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1087,7 +1087,7 @@ FillHoleParams Generated from function <code><a class="elRef" href="../Cpp/group
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleItem.html">MR::FillHoleItem</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1c946e8dc89cbd0eb42466b4e85fe5cc" title="Destroys a heap-allocated instance of MR_FillHoleItem. Does nothing if the pointer is null.">MR_FillHoleItem_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleItem.html">MR::FillHoleItem</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1c946e8dc89cbd0eb42466b4e85fe5cc" title="Destroys a heap-allocated instance of MR_FillHoleItem. Does nothing if the pointer is null.">MR_FillHoleItem_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1179,7 +1179,7 @@ FillHoleParams Generated from function <code><a class="elRef" href="../Cpp/group
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleItem.html">MR::FillHoleItem</a></code> named <code>edgeCode1</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleItem.html">MR::FillHoleItem</a></code> named <code>edgeCode1</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1197,7 +1197,7 @@ FillHoleParams Generated from function <code><a class="elRef" href="../Cpp/group
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleItem.html">MR::FillHoleItem</a></code> named <code>edgeCode2</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleItem.html">MR::FillHoleItem</a></code> named <code>edgeCode2</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1215,7 +1215,7 @@ FillHoleParams Generated from function <code><a class="elRef" href="../Cpp/group
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleItem.html">MR::FillHoleItem</a></code> named <code>edgeCode1</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleItem.html">MR::FillHoleItem</a></code> named <code>edgeCode1</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1233,7 +1233,7 @@ FillHoleParams Generated from function <code><a class="elRef" href="../Cpp/group
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleItem.html">MR::FillHoleItem</a></code> named <code>edgeCode2</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleItem.html">MR::FillHoleItem</a></code> named <code>edgeCode2</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1301,7 +1301,7 @@ FillHoleParams Generated from function <code><a class="elRef" href="../Cpp/group
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleItem.html">MR::FillHoleItem</a></code> named <code>edgeCode1</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleItem.html">MR::FillHoleItem</a></code> named <code>edgeCode1</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1323,7 +1323,7 @@ FillHoleParams Generated from function <code><a class="elRef" href="../Cpp/group
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleItem.html">MR::FillHoleItem</a></code> named <code>edgeCode2</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleItem.html">MR::FillHoleItem</a></code> named <code>edgeCode2</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1350,7 +1350,7 @@ FillHoleParams Generated from function <code><a class="elRef" href="../Cpp/group
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1516,7 +1516,7 @@ FillHoleParams Generated from function <code><a class="elRef" href="../Cpp/group
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If true creates degenerate faces band around hole to have sharp angle visualization </p><dl class="section warning"><dt>Warning</dt><dd>This flag bad for result topology, most likely you do not need it Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>makeDegenerateBand</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </dd></dl>
+<p>If true creates degenerate faces band around hole to have sharp angle visualization </p><dl class="section warning"><dt>Warning</dt><dd>This flag bad for result topology, most likely you do not need it Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>makeDegenerateBand</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </dd></dl>
 
 </div>
 </div>
@@ -1534,7 +1534,7 @@ FillHoleParams Generated from function <code><a class="elRef" href="../Cpp/group
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The maximum number of polygon subdivisions on a triangle and two smaller polygons, must be 2 or larger Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>maxPolygonSubdivisions</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>The maximum number of polygon subdivisions on a triangle and two smaller polygons, must be 2 or larger Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>maxPolygonSubdivisions</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1554,7 +1554,7 @@ FillHoleParams Generated from function <code><a class="elRef" href="../Cpp/group
 </div><div class="memdoc">
 <p>Specifies triangulation metric<br  />
 default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05">MR::fillHole</a>: getCircumscribedFillMetric<br  />
-</p><dl class="section see"><dt>See also</dt><dd>FillHoleMetric Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>metric</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </dd></dl>
+</p><dl class="section see"><dt>See also</dt><dd>FillHoleMetric Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </dd></dl>
 
 </div>
 </div>
@@ -1572,7 +1572,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>multipleEdgesResolveMode</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>multipleEdgesResolveMode</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1590,7 +1590,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If not nullptr accumulate new faces Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>outNewFaces</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>If not nullptr accumulate new faces Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>outNewFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1608,7 +1608,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If true, hole filling will minimize the sum of metrics including boundary edges, where one triangle was present before hole filling, and another is added during hole filling. This makes boundary edges same smooth as inner edges of the patch. If false, edge metric will not be applied to boundary edges, and the patch tends to make a sharper turn there. Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>smoothBd</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>If true, hole filling will minimize the sum of metrics including boundary edges, where one triangle was present before hole filling, and another is added during hole filling. This makes boundary edges same smooth as inner edges of the patch. If false, edge metric will not be applied to boundary edges, and the patch tends to make a sharper turn there. Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>smoothBd</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1626,7 +1626,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Input/output value, if it is present: returns true if triangulation was bad and do not actually fill hole, if triangulation is ok returns false; if it is not present fill hole trivially in case of bad triangulation, (or leaves bad triangulation, depending on metric) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>stopBeforeBadTriangulation</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Input/output value, if it is present: returns true if triangulation was bad and do not actually fill hole, if triangulation is ok returns false; if it is not present fill hole trivially in case of bad triangulation, (or leaves bad triangulation, depending on metric) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>stopBeforeBadTriangulation</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1644,7 +1644,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If true creates degenerate faces band around hole to have sharp angle visualization </p><dl class="section warning"><dt>Warning</dt><dd>This flag bad for result topology, most likely you do not need it Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>makeDegenerateBand</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </dd></dl>
+<p>If true creates degenerate faces band around hole to have sharp angle visualization </p><dl class="section warning"><dt>Warning</dt><dd>This flag bad for result topology, most likely you do not need it Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>makeDegenerateBand</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </dd></dl>
 
 </div>
 </div>
@@ -1662,7 +1662,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The maximum number of polygon subdivisions on a triangle and two smaller polygons, must be 2 or larger Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>maxPolygonSubdivisions</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>The maximum number of polygon subdivisions on a triangle and two smaller polygons, must be 2 or larger Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>maxPolygonSubdivisions</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1682,7 +1682,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
 </div><div class="memdoc">
 <p>Specifies triangulation metric<br  />
 default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05">MR::fillHole</a>: getCircumscribedFillMetric<br  />
-</p><dl class="section see"><dt>See also</dt><dd>FillHoleMetric Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>metric</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </dd></dl>
+</p><dl class="section see"><dt>See also</dt><dd>FillHoleMetric Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </dd></dl>
 
 </div>
 </div>
@@ -1700,7 +1700,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>multipleEdgesResolveMode</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>multipleEdgesResolveMode</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1718,7 +1718,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If not nullptr accumulate new faces Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>outNewFaces</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>If not nullptr accumulate new faces Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>outNewFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1736,7 +1736,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If true, hole filling will minimize the sum of metrics including boundary edges, where one triangle was present before hole filling, and another is added during hole filling. This makes boundary edges same smooth as inner edges of the patch. If false, edge metric will not be applied to boundary edges, and the patch tends to make a sharper turn there. Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>smoothBd</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>If true, hole filling will minimize the sum of metrics including boundary edges, where one triangle was present before hole filling, and another is added during hole filling. This makes boundary edges same smooth as inner edges of the patch. If false, edge metric will not be applied to boundary edges, and the patch tends to make a sharper turn there. Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>smoothBd</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1754,7 +1754,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Input/output value, if it is present: returns true if triangulation was bad and do not actually fill hole, if triangulation is ok returns false; if it is not present fill hole trivially in case of bad triangulation, (or leaves bad triangulation, depending on metric) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>stopBeforeBadTriangulation</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Input/output value, if it is present: returns true if triangulation was bad and do not actually fill hole, if triangulation is ok returns false; if it is not present fill hole trivially in case of bad triangulation, (or leaves bad triangulation, depending on metric) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>stopBeforeBadTriangulation</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1822,7 +1822,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If true creates degenerate faces band around hole to have sharp angle visualization </p><dl class="section warning"><dt>Warning</dt><dd>This flag bad for result topology, most likely you do not need it Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>makeDegenerateBand</code>. Parameter <code>_this</code> can not be null. </dd></dl>
+<p>If true creates degenerate faces band around hole to have sharp angle visualization </p><dl class="section warning"><dt>Warning</dt><dd>This flag bad for result topology, most likely you do not need it Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>makeDegenerateBand</code>. Parameter <code>_this</code> can not be null. It is a single object. </dd></dl>
 
 </div>
 </div>
@@ -1844,7 +1844,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The maximum number of polygon subdivisions on a triangle and two smaller polygons, must be 2 or larger Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>maxPolygonSubdivisions</code>. Parameter <code>_this</code> can not be null. </p>
+<p>The maximum number of polygon subdivisions on a triangle and two smaller polygons, must be 2 or larger Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>maxPolygonSubdivisions</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1873,7 +1873,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
 </div><div class="memdoc">
 <p>Specifies triangulation metric<br  />
 default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05">MR::fillHole</a>: getCircumscribedFillMetric<br  />
-</p><dl class="section see"><dt>See also</dt><dd>FillHoleMetric Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>metric</code>. Parameter <code>_this</code> can not be null. </dd></dl>
+</p><dl class="section see"><dt>See also</dt><dd>FillHoleMetric Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. </dd></dl>
 
 </div>
 </div>
@@ -1895,7 +1895,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>multipleEdgesResolveMode</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>multipleEdgesResolveMode</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1917,7 +1917,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If not nullptr accumulate new faces Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>outNewFaces</code>. Parameter <code>_this</code> can not be null. </p>
+<p>If not nullptr accumulate new faces Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>outNewFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1939,7 +1939,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If true, hole filling will minimize the sum of metrics including boundary edges, where one triangle was present before hole filling, and another is added during hole filling. This makes boundary edges same smooth as inner edges of the patch. If false, edge metric will not be applied to boundary edges, and the patch tends to make a sharper turn there. Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>smoothBd</code>. Parameter <code>_this</code> can not be null. </p>
+<p>If true, hole filling will minimize the sum of metrics including boundary edges, where one triangle was present before hole filling, and another is added during hole filling. This makes boundary edges same smooth as inner edges of the patch. If false, edge metric will not be applied to boundary edges, and the patch tends to make a sharper turn there. Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>smoothBd</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1961,7 +1961,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Input/output value, if it is present: returns true if triangulation was bad and do not actually fill hole, if triangulation is ok returns false; if it is not present fill hole trivially in case of bad triangulation, (or leaves bad triangulation, depending on metric) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>stopBeforeBadTriangulation</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Input/output value, if it is present: returns true if triangulation was bad and do not actually fill hole, if triangulation is ok returns false; if it is not present fill hole trivially in case of bad triangulation, (or leaves bad triangulation, depending on metric) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></code> named <code>stopBeforeBadTriangulation</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1990,7 +1990,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
 </div><div class="memdoc">
 <p>fill all holes given by their representative edges in</p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">as</td><td>Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga826414470e5289e2dfba2496f06d98ae">MR::fillHoles</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>as</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </td></tr>
+    <tr><td class="paramname">as</td><td>Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga826414470e5289e2dfba2496f06d98ae">MR::fillHoles</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>as</code> can not be null. It is a single object. Parameter <code>params</code> is a single object. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2020,7 +2020,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>prepares the plan how to triangulate the face or hole to the left of (e) (not filling it immediately), several getHoleFillPlan can work in parallel Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#gaa3256109cd439a9801f179661c65c7e6">MR::getHoleFillPlan</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae16b4f520d4c13c1741c72600f7de34f" title="Destroys a heap-allocated instance of MR_HoleFillPlan. Does nothing if the pointer is null.">MR_HoleFillPlan_Destroy()</a></code> to free it when you're done using it. </p>
+<p>prepares the plan how to triangulate the face or hole to the left of (e) (not filling it immediately), several getHoleFillPlan can work in parallel Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#gaa3256109cd439a9801f179661c65c7e6">MR::getHoleFillPlan</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>params</code> is a single object. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae16b4f520d4c13c1741c72600f7de34f" title="Destroys a heap-allocated instance of MR_HoleFillPlan. Does nothing if the pointer is null.">MR_HoleFillPlan_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2047,7 +2047,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>prepares the plans how to triangulate the faces or holes, each given by a boundary edge (with filling target to the left), the plans are prepared in parallel with minimal memory allocation compared to manual calling of several getHoleFillPlan(), but it can inefficient when some holes are very complex Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga774fddcb7bb0ac330a1e034edfd94db6">MR::getHoleFillPlans</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>holeRepresentativeEdges</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__HoleFillPlan_8h.html#af6e796825324484ec7ed0b7ed98c482a" title="Destroys a heap-allocated instance of MR_std_vector_MR_HoleFillPlan. Does nothing if the pointer is n...">MR_std_vector_MR_HoleFillPlan_Destroy()</a></code> to free it when you're done using it. </p>
+<p>prepares the plans how to triangulate the faces or holes, each given by a boundary edge (with filling target to the left), the plans are prepared in parallel with minimal memory allocation compared to manual calling of several getHoleFillPlan(), but it can inefficient when some holes are very complex Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga774fddcb7bb0ac330a1e034edfd94db6">MR::getHoleFillPlans</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>holeRepresentativeEdges</code> can not be null. It is a single object. Parameter <code>params</code> is a single object. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__HoleFillPlan_8h.html#af6e796825324484ec7ed0b7ed98c482a" title="Destroys a heap-allocated instance of MR_std_vector_MR_HoleFillPlan. Does nothing if the pointer is n...">MR_std_vector_MR_HoleFillPlan_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2069,7 +2069,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>prepares the plan how to triangulate the planar face or planar hole to the left of (e) (not filling it immediately), several getPlanarHoleFillPlan can work in parallel Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga1dbbac5f3d5dfdebbb1790578aed11d8">MR::getPlanarHoleFillPlan</a></code>. Parameter <code>mesh</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae16b4f520d4c13c1741c72600f7de34f" title="Destroys a heap-allocated instance of MR_HoleFillPlan. Does nothing if the pointer is null.">MR_HoleFillPlan_Destroy()</a></code> to free it when you're done using it. </p>
+<p>prepares the plan how to triangulate the planar face or planar hole to the left of (e) (not filling it immediately), several getPlanarHoleFillPlan can work in parallel Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga1dbbac5f3d5dfdebbb1790578aed11d8">MR::getPlanarHoleFillPlan</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae16b4f520d4c13c1741c72600f7de34f" title="Destroys a heap-allocated instance of MR_HoleFillPlan. Does nothing if the pointer is null.">MR_HoleFillPlan_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2091,7 +2091,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>prepares the plans how to triangulate the planar faces or holes, each given by a boundary edge (with filling target to the left), the plans are prepared in parallel with minimal memory allocation compared to manual calling of several getPlanarHoleFillPlan(), but it can inefficient when some holes are very complex Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga2dd8633650b066fde22814493231dc04">MR::getPlanarHoleFillPlans</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>holeRepresentativeEdges</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__HoleFillPlan_8h.html#af6e796825324484ec7ed0b7ed98c482a" title="Destroys a heap-allocated instance of MR_std_vector_MR_HoleFillPlan. Does nothing if the pointer is n...">MR_std_vector_MR_HoleFillPlan_Destroy()</a></code> to free it when you're done using it. </p>
+<p>prepares the plans how to triangulate the planar faces or holes, each given by a boundary edge (with filling target to the left), the plans are prepared in parallel with minimal memory allocation compared to manual calling of several getPlanarHoleFillPlan(), but it can inefficient when some holes are very complex Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga2dd8633650b066fde22814493231dc04">MR::getPlanarHoleFillPlans</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>holeRepresentativeEdges</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__HoleFillPlan_8h.html#af6e796825324484ec7ed0b7ed98c482a" title="Destroys a heap-allocated instance of MR_std_vector_MR_HoleFillPlan. Does nothing if the pointer is n...">MR_std_vector_MR_HoleFillPlan_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2118,7 +2118,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1HoleFillPlan.html">MR::HoleFillPlan</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1HoleFillPlan.html">MR::HoleFillPlan</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2259,7 +2259,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1HoleFillPlan.html">MR::HoleFillPlan</a></code> named <code>items</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1HoleFillPlan.html">MR::HoleFillPlan</a></code> named <code>items</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2277,7 +2277,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1HoleFillPlan.html">MR::HoleFillPlan</a></code> named <code>numTris</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1HoleFillPlan.html">MR::HoleFillPlan</a></code> named <code>numTris</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2295,7 +2295,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1HoleFillPlan.html">MR::HoleFillPlan</a></code> named <code>items</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1HoleFillPlan.html">MR::HoleFillPlan</a></code> named <code>items</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2313,7 +2313,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1HoleFillPlan.html">MR::HoleFillPlan</a></code> named <code>numTris</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1HoleFillPlan.html">MR::HoleFillPlan</a></code> named <code>numTris</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2386,7 +2386,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1HoleFillPlan.html">MR::HoleFillPlan</a></code> named <code>items</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1HoleFillPlan.html">MR::HoleFillPlan</a></code> named <code>items</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2408,7 +2408,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1HoleFillPlan.html">MR::HoleFillPlan</a></code> named <code>numTris</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1HoleFillPlan.html">MR::HoleFillPlan</a></code> named <code>numTris</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2432,7 +2432,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
 </div><div class="memdoc">
 <p>returns true if given loop is a boundary of one hole in given mesh topology:</p><ul>
 <li>every edge in the loop does not have left face,</li>
-<li>next/prev edges in the loop are related as follows: next = topology.prev( prev.sym() ) if the function returns true, then any edge from the loop passed to fillHole will fill the same hole Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga7b7b07510d4a7d74b02ef6890db04a9d">MR::isHoleBd</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>loop</code> can not be null. </li>
+<li>next/prev edges in the loop are related as follows: next = topology.prev( prev.sym() ) if the function returns true, then any edge from the loop passed to fillHole will fill the same hole Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga7b7b07510d4a7d74b02ef6890db04a9d">MR::isHoleBd</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>loop</code> can not be null. It is a single object. </li>
 </ul>
 
 </div>
@@ -2465,7 +2465,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>creates a bridge between two boundary edges a and b (both having no valid left face); bridge consists of two triangles in general or of one triangle if a and b are neighboring edges on the boundary; </p><dl class="section return"><dt>Returns</dt><dd>MakeBridgeResult evaluating to false if bridge cannot be created because otherwise multiple edges appear Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#gad16b63618dae72a30c787fcd1d7b8200">MR::makeBridge</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>outNewFaces</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad0d309784c1b08bd5f042ba6684ca870" title="Destroys a heap-allocated instance of MR_MakeBridgeResult. Does nothing if the pointer is null.">MR_MakeBridgeResult_Destroy()</a></code> to free it when you're done using it. </dd></dl>
+<p>creates a bridge between two boundary edges a and b (both having no valid left face); bridge consists of two triangles in general or of one triangle if a and b are neighboring edges on the boundary; </p><dl class="section return"><dt>Returns</dt><dd>MakeBridgeResult evaluating to false if bridge cannot be created because otherwise multiple edges appear Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#gad16b63618dae72a30c787fcd1d7b8200">MR::makeBridge</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>outNewFaces</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad0d309784c1b08bd5f042ba6684ca870" title="Destroys a heap-allocated instance of MR_MakeBridgeResult. Does nothing if the pointer is null.">MR_MakeBridgeResult_Destroy()</a></code> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -2492,7 +2492,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>creates a new bridge edge between origins of two boundary edges a and b (both having no valid left face); </p><dl class="section return"><dt>Returns</dt><dd>invalid id if bridge cannot be created because otherwise multiple edges appear Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga86668640c827d61e8ee92b7a74dc558d">MR::makeBridgeEdge</a></code>. Parameter <code>topology</code> can not be null. </dd></dl>
+<p>creates a new bridge edge between origins of two boundary edges a and b (both having no valid left face); </p><dl class="section return"><dt>Returns</dt><dd>invalid id if bridge cannot be created because otherwise multiple edges appear Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga86668640c827d61e8ee92b7a74dc558d">MR::makeBridgeEdge</a></code>. Parameter <code>topology</code> can not be null. It is a single object. </dd></dl>
 
 </div>
 </div>
@@ -2514,7 +2514,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MakeBridgeResult.html">MR::MakeBridgeResult</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MakeBridgeResult.html">MR::MakeBridgeResult</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2559,7 +2559,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MakeBridgeResult.html">MR::MakeBridgeResult</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad0d309784c1b08bd5f042ba6684ca870" title="Destroys a heap-allocated instance of MR_MakeBridgeResult. Does nothing if the pointer is null.">MR_MakeBridgeResult_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MakeBridgeResult.html">MR::MakeBridgeResult</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad0d309784c1b08bd5f042ba6684ca870" title="Destroys a heap-allocated instance of MR_MakeBridgeResult. Does nothing if the pointer is null.">MR_MakeBridgeResult_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2577,7 +2577,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>bridge construction is successful if at least one new face was created Generated from a conversion operator of class <code><a class="elRef" href="../Cpp/structMR_1_1MakeBridgeResult.html">MR::MakeBridgeResult</a></code> to type <code>bool</code>. Parameter <code>_this</code> can not be null. </p>
+<p>bridge construction is successful if at least one new face was created Generated from a conversion operator of class <code><a class="elRef" href="../Cpp/structMR_1_1MakeBridgeResult.html">MR::MakeBridgeResult</a></code> to type <code>bool</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2669,7 +2669,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the edge na (nb) if valid is a new boundary edge of the created bridge without left face, having the same origin as input edge a (b) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MakeBridgeResult.html">MR::MakeBridgeResult</a></code> named <code>na</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the edge na (nb) if valid is a new boundary edge of the created bridge without left face, having the same origin as input edge a (b) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MakeBridgeResult.html">MR::MakeBridgeResult</a></code> named <code>na</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2687,7 +2687,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the edge na (nb) if valid is a new boundary edge of the created bridge without left face, having the same origin as input edge a (b) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MakeBridgeResult.html">MR::MakeBridgeResult</a></code> named <code>nb</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the edge na (nb) if valid is a new boundary edge of the created bridge without left face, having the same origin as input edge a (b) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MakeBridgeResult.html">MR::MakeBridgeResult</a></code> named <code>nb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2705,7 +2705,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of faces added to the mesh Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MakeBridgeResult.html">MR::MakeBridgeResult</a></code> named <code>newFaces</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the number of faces added to the mesh Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MakeBridgeResult.html">MR::MakeBridgeResult</a></code> named <code>newFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2723,7 +2723,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the edge na (nb) if valid is a new boundary edge of the created bridge without left face, having the same origin as input edge a (b) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MakeBridgeResult.html">MR::MakeBridgeResult</a></code> named <code>na</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the edge na (nb) if valid is a new boundary edge of the created bridge without left face, having the same origin as input edge a (b) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MakeBridgeResult.html">MR::MakeBridgeResult</a></code> named <code>na</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2741,7 +2741,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the edge na (nb) if valid is a new boundary edge of the created bridge without left face, having the same origin as input edge a (b) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MakeBridgeResult.html">MR::MakeBridgeResult</a></code> named <code>nb</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the edge na (nb) if valid is a new boundary edge of the created bridge without left face, having the same origin as input edge a (b) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MakeBridgeResult.html">MR::MakeBridgeResult</a></code> named <code>nb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2759,7 +2759,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of faces added to the mesh Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MakeBridgeResult.html">MR::MakeBridgeResult</a></code> named <code>newFaces</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the number of faces added to the mesh Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MakeBridgeResult.html">MR::MakeBridgeResult</a></code> named <code>newFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2827,7 +2827,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the edge na (nb) if valid is a new boundary edge of the created bridge without left face, having the same origin as input edge a (b) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MakeBridgeResult.html">MR::MakeBridgeResult</a></code> named <code>na</code>. Parameter <code>_this</code> can not be null. </p>
+<p>the edge na (nb) if valid is a new boundary edge of the created bridge without left face, having the same origin as input edge a (b) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MakeBridgeResult.html">MR::MakeBridgeResult</a></code> named <code>na</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2849,7 +2849,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the edge na (nb) if valid is a new boundary edge of the created bridge without left face, having the same origin as input edge a (b) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MakeBridgeResult.html">MR::MakeBridgeResult</a></code> named <code>nb</code>. Parameter <code>_this</code> can not be null. </p>
+<p>the edge na (nb) if valid is a new boundary edge of the created bridge without left face, having the same origin as input edge a (b) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MakeBridgeResult.html">MR::MakeBridgeResult</a></code> named <code>nb</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2871,7 +2871,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of faces added to the mesh Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MakeBridgeResult.html">MR::MakeBridgeResult</a></code> named <code>newFaces</code>. Parameter <code>_this</code> can not be null. </p>
+<p>the number of faces added to the mesh Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MakeBridgeResult.html">MR::MakeBridgeResult</a></code> named <code>newFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2898,7 +2898,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>creates a band of degenerate triangles around given hole; </p><dl class="section return"><dt>Returns</dt><dd>the edge of new hole opposite to input edge (a) Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga10d97d0e9b001fe0d4915154d1945e77">MR::makeDegenerateBandAroundHole</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>outNewFaces</code> defaults to a null pointer in C++. </dd></dl>
+<p>creates a band of degenerate triangles around given hole; </p><dl class="section return"><dt>Returns</dt><dd>the edge of new hole opposite to input edge (a) Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga10d97d0e9b001fe0d4915154d1945e77">MR::makeDegenerateBandAroundHole</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>outNewFaces</code> defaults to a null pointer in C++. </dd></dl>
 
 </div>
 </div>
@@ -2930,7 +2930,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>creates a bridge between two boundary edges a and b (both having no valid left face); bridge consists of one quadrangle in general (beware that it cannot be rendered) or of one triangle if a and b are neighboring edges on the boundary; </p><dl class="section return"><dt>Returns</dt><dd>false if bridge cannot be created because otherwise multiple edges appear Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga2d4d7960f97e0c640fa2d62c25514c2e">MR::makeQuadBridge</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>outNewFaces</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad0d309784c1b08bd5f042ba6684ca870" title="Destroys a heap-allocated instance of MR_MakeBridgeResult. Does nothing if the pointer is null.">MR_MakeBridgeResult_Destroy()</a></code> to free it when you're done using it. </dd></dl>
+<p>creates a bridge between two boundary edges a and b (both having no valid left face); bridge consists of one quadrangle in general (beware that it cannot be rendered) or of one triangle if a and b are neighboring edges on the boundary; </p><dl class="section return"><dt>Returns</dt><dd>false if bridge cannot be created because otherwise multiple edges appear Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga2d4d7960f97e0c640fa2d62c25514c2e">MR::makeQuadBridge</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>outNewFaces</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad0d309784c1b08bd5f042ba6684ca870" title="Destroys a heap-allocated instance of MR_MakeBridgeResult. Does nothing if the pointer is null.">MR_MakeBridgeResult_Destroy()</a></code> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -2973,7 +2973,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>MakeBridgeResult evaluating to false if bridge cannot be created because otherwise multiple edges appear Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#gae081fd1e2bfcbf6522b3c28a35ebced2">MR::makeSmoothBridge</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>outNewFaces</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad0d309784c1b08bd5f042ba6684ca870" title="Destroys a heap-allocated instance of MR_MakeBridgeResult. Does nothing if the pointer is null.">MR_MakeBridgeResult_Destroy()</a></code> to free it when you're done using it. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>MakeBridgeResult evaluating to false if bridge cannot be created because otherwise multiple edges appear Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#gae081fd1e2bfcbf6522b3c28a35ebced2">MR::makeSmoothBridge</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>outNewFaces</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad0d309784c1b08bd5f042ba6684ca870" title="Destroys a heap-allocated instance of MR_MakeBridgeResult. Does nothing if the pointer is null.">MR_MakeBridgeResult_Destroy()</a></code> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -3000,7 +3000,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given quadrangle face to the left of a, splits it in two triangles with new diagonal edge via dest(a) Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#gad76a068dd3fae29c30797157fd646667">MR::splitQuad</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>outNewFaces</code> defaults to a null pointer in C++. </p>
+<p>given quadrangle face to the left of a, splits it in two triangles with new diagonal edge via dest(a) Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#gad76a068dd3fae29c30797157fd646667">MR::splitQuad</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>outNewFaces</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -3027,7 +3027,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1StitchHolesParams.html">MR::StitchHolesParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1StitchHolesParams.html">MR::StitchHolesParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3169,7 +3169,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
       </table>
 </div><div class="memdoc">
 <p>Specifies triangulation metric<br  />
-default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gaa096c69aa6c5cf97a783e92aa3a70157">MR::buildCylinderBetweenTwoHoles</a>: getComplexStitchMetric </p><dl class="section see"><dt>See also</dt><dd>FillHoleMetric Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1StitchHolesParams.html">MR::StitchHolesParams</a></code> named <code>metric</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </dd></dl>
+default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gaa096c69aa6c5cf97a783e92aa3a70157">MR::buildCylinderBetweenTwoHoles</a>: getComplexStitchMetric </p><dl class="section see"><dt>See also</dt><dd>FillHoleMetric Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1StitchHolesParams.html">MR::StitchHolesParams</a></code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </dd></dl>
 
 </div>
 </div>
@@ -3187,7 +3187,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gaa096c69aa6
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If not nullptr accumulate new faces Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1StitchHolesParams.html">MR::StitchHolesParams</a></code> named <code>outNewFaces</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>If not nullptr accumulate new faces Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1StitchHolesParams.html">MR::StitchHolesParams</a></code> named <code>outNewFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3206,7 +3206,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gaa096c69aa6
       </table>
 </div><div class="memdoc">
 <p>Specifies triangulation metric<br  />
-default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gaa096c69aa6c5cf97a783e92aa3a70157">MR::buildCylinderBetweenTwoHoles</a>: getComplexStitchMetric </p><dl class="section see"><dt>See also</dt><dd>FillHoleMetric Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1StitchHolesParams.html">MR::StitchHolesParams</a></code> named <code>metric</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </dd></dl>
+default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gaa096c69aa6c5cf97a783e92aa3a70157">MR::buildCylinderBetweenTwoHoles</a>: getComplexStitchMetric </p><dl class="section see"><dt>See also</dt><dd>FillHoleMetric Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1StitchHolesParams.html">MR::StitchHolesParams</a></code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </dd></dl>
 
 </div>
 </div>
@@ -3224,7 +3224,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gaa096c69aa6
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If not nullptr accumulate new faces Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1StitchHolesParams.html">MR::StitchHolesParams</a></code> named <code>outNewFaces</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>If not nullptr accumulate new faces Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1StitchHolesParams.html">MR::StitchHolesParams</a></code> named <code>outNewFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3298,7 +3298,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gaa096c69aa6
       </table>
 </div><div class="memdoc">
 <p>Specifies triangulation metric<br  />
-default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gaa096c69aa6c5cf97a783e92aa3a70157">MR::buildCylinderBetweenTwoHoles</a>: getComplexStitchMetric </p><dl class="section see"><dt>See also</dt><dd>FillHoleMetric Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1StitchHolesParams.html">MR::StitchHolesParams</a></code> named <code>metric</code>. Parameter <code>_this</code> can not be null. </dd></dl>
+default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gaa096c69aa6c5cf97a783e92aa3a70157">MR::buildCylinderBetweenTwoHoles</a>: getComplexStitchMetric </p><dl class="section see"><dt>See also</dt><dd>FillHoleMetric Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1StitchHolesParams.html">MR::StitchHolesParams</a></code> named <code>metric</code>. Parameter <code>_this</code> can not be null. It is a single object. </dd></dl>
 
 </div>
 </div>
@@ -3320,7 +3320,7 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gaa096c69aa6
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If not nullptr accumulate new faces Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1StitchHolesParams.html">MR::StitchHolesParams</a></code> named <code>outNewFaces</code>. Parameter <code>_this</code> can not be null. </p>
+<p>If not nullptr accumulate new faces Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1StitchHolesParams.html">MR::StitchHolesParams</a></code> named <code>outNewFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

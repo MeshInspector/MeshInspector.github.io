@@ -575,7 +575,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this class allows to store distances from the plane in particular pixels validVerts keeps only pixels with mesh-intersecting rays from them Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code>. Inherits from: Directly: (non-virtually) <code><a class="elRef" href="../Cpp/classMR_1_1RectIndexer.html">MR::RectIndexer</a></code> </p>
+<p>this class allows to store distances from the plane in particular pixels validVerts keeps only pixels with mesh-intersecting rays from them Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/classMR_1_1RectIndexer.html">MR::RectIndexer</a></code> </p>
 
 </div>
 </div>
@@ -989,7 +989,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes distance (height) map for given projection parameters using float-precision for finding ray-mesh intersections, which is faster but less reliable Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#gaf972733cbe1eca39d0f85671e30b514c">MR::computeDistanceMap</a></code>. Parameter <code>mp</code> can not be null. Parameter <code>params</code> can not be null. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Parameter <code>outSamples</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5b722349701e364321783fd112ee1d03" title="Destroys a heap-allocated instance of MR_DistanceMap. Does nothing if the pointer is null.">MR_DistanceMap_Destroy()</a></code> to free it when you're done using it. </p>
+<p>computes distance (height) map for given projection parameters using float-precision for finding ray-mesh intersections, which is faster but less reliable Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#gaf972733cbe1eca39d0f85671e30b514c">MR::computeDistanceMap</a></code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Parameter <code>outSamples</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5b722349701e364321783fd112ee1d03" title="Destroys a heap-allocated instance of MR_DistanceMap. Does nothing if the pointer is null.">MR_DistanceMap_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1026,7 +1026,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes distance (height) map for given projection parameters using double-precision for finding ray-mesh intersections, which is slower but more reliable Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#ga8f2c4ae318d14a691410a43d5c1c0ee4">MR::computeDistanceMapD</a></code>. Parameter <code>mp</code> can not be null. Parameter <code>params</code> can not be null. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Parameter <code>outSamples</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5b722349701e364321783fd112ee1d03" title="Destroys a heap-allocated instance of MR_DistanceMap. Does nothing if the pointer is null.">MR_DistanceMap_Destroy()</a></code> to free it when you're done using it. </p>
+<p>computes distance (height) map for given projection parameters using double-precision for finding ray-mesh intersections, which is slower but more reliable Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#ga8f2c4ae318d14a691410a43d5c1c0ee4">MR::computeDistanceMapD</a></code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Parameter <code>outSamples</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5b722349701e364321783fd112ee1d03" title="Destroys a heap-allocated instance of MR_DistanceMap. Does nothing if the pointer is null.">MR_DistanceMap_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1061,7 +1061,7 @@ Functions</h2></td></tr>
 
 <p>computes the intersection of the shapes bounded by input 2d contours </p>
 <dl class="section return"><dt>Returns</dt><dd>the boundary of the intersection</dd></dl>
-<p>input contours must be closed within the area of distance map and be consistently oriented (clockwise, that is leaving the bounded shapes from the left). the value of params.withSign must be true (checked with assert() inside the function) </p><dl class="section note"><dt>Note</dt><dd>that polyline topology should be consistently oriented Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#ga8461963f3447f163979179222275114c">MR::contourIntersection</a></code>. Parameter <code>contoursA</code> can not be null. Parameter <code>contoursB</code> can not be null. Parameter <code>params</code> can not be null. Parameter <code>offsetInside</code> has a default argument: <code>0.F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRPolyline_8h.html#a93ac8a7595a2c96881b3ea89efc01fc7" title="Destroys a heap-allocated instance of MR_Polyline2. Does nothing if the pointer is null.">MR_Polyline2_Destroy()</a></code> to free it when you're done using it. </dd></dl>
+<p>input contours must be closed within the area of distance map and be consistently oriented (clockwise, that is leaving the bounded shapes from the left). the value of params.withSign must be true (checked with assert() inside the function) </p><dl class="section note"><dt>Note</dt><dd>that polyline topology should be consistently oriented Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#ga8461963f3447f163979179222275114c">MR::contourIntersection</a></code>. Parameter <code>contoursA</code> can not be null. It is a single object. Parameter <code>contoursB</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Parameter <code>offsetInside</code> has a default argument: <code>0.F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRPolyline_8h.html#a93ac8a7595a2c96881b3ea89efc01fc7" title="Destroys a heap-allocated instance of MR_Polyline2. Does nothing if the pointer is null.">MR_Polyline2_Destroy()</a></code> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -1083,7 +1083,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOffset.html">MR::ContoursDistanceMapOffset</a></code> elementwise. Parameter <code>perEdgeOffset</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae18da42a9249a2872780e64db64442f6" title="Destroys a heap-allocated instance of MR_ContoursDistanceMapOffset. Does nothing if the pointer is nu...">MR_ContoursDistanceMapOffset_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOffset.html">MR::ContoursDistanceMapOffset</a></code> elementwise. Parameter <code>perEdgeOffset</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae18da42a9249a2872780e64db64442f6" title="Destroys a heap-allocated instance of MR_ContoursDistanceMapOffset. Does nothing if the pointer is nu...">MR_ContoursDistanceMapOffset_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1101,7 +1101,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOffset.html">MR::ContoursDistanceMapOffset</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae18da42a9249a2872780e64db64442f6" title="Destroys a heap-allocated instance of MR_ContoursDistanceMapOffset. Does nothing if the pointer is nu...">MR_ContoursDistanceMapOffset_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOffset.html">MR::ContoursDistanceMapOffset</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae18da42a9249a2872780e64db64442f6" title="Destroys a heap-allocated instance of MR_ContoursDistanceMapOffset. Does nothing if the pointer is nu...">MR_ContoursDistanceMapOffset_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1157,7 +1157,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>offset values for each undirected edge of given polyline Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOffset.html">MR::ContoursDistanceMapOffset</a></code> named <code>perEdgeOffset</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>offset values for each undirected edge of given polyline Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOffset.html">MR::ContoursDistanceMapOffset</a></code> named <code>perEdgeOffset</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1175,7 +1175,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOffset.html">MR::ContoursDistanceMapOffset</a></code> named <code>type</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOffset.html">MR::ContoursDistanceMapOffset</a></code> named <code>type</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1193,7 +1193,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOffset.html">MR::ContoursDistanceMapOffset</a></code> named <code>type</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOffset.html">MR::ContoursDistanceMapOffset</a></code> named <code>type</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1261,7 +1261,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOffset.html">MR::ContoursDistanceMapOffset</a></code> named <code>type</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOffset.html">MR::ContoursDistanceMapOffset</a></code> named <code>type</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1283,7 +1283,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1343,7 +1343,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a94bb0cea09393f31524cfbfced255e16" title="Destroys a heap-allocated instance of MR_ContoursDistanceMapOptions. Does nothing if the pointer is n...">MR_ContoursDistanceMapOptions_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a94bb0cea09393f31524cfbfced255e16" title="Destroys a heap-allocated instance of MR_ContoursDistanceMapOptions. Does nothing if the pointer is n...">MR_ContoursDistanceMapOptions_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1435,7 +1435,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (larger values cannot be present) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>maxDist</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (larger values cannot be present) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>maxDist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1453,7 +1453,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>minimum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (lower values can be present but they are not precise) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>minDist</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>minimum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (lower values can be present but they are not precise) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>minDist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1471,7 +1471,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional input offset for each edges of polyline, find more on <code>ContoursDistanceMapOffset</code> structure description Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>offsetParameters</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional input offset for each edges of polyline, find more on <code>ContoursDistanceMapOffset</code> structure description Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>offsetParameters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1489,7 +1489,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output vector of closest polyline edge per each pixel of distance map Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>outClosestEdges</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional output vector of closest polyline edge per each pixel of distance map Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>outClosestEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1507,7 +1507,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if pointer is valid, then only these pixels will be filled Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if pointer is valid, then only these pixels will be filled Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1525,7 +1525,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>signMethod</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>signMethod</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1543,7 +1543,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (larger values cannot be present) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>maxDist</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (larger values cannot be present) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>maxDist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1561,7 +1561,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>minimum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (lower values can be present but they are not precise) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>minDist</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>minimum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (lower values can be present but they are not precise) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>minDist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1579,7 +1579,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional input offset for each edges of polyline, find more on <code>ContoursDistanceMapOffset</code> structure description Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>offsetParameters</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional input offset for each edges of polyline, find more on <code>ContoursDistanceMapOffset</code> structure description Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>offsetParameters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1597,7 +1597,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output vector of closest polyline edge per each pixel of distance map Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>outClosestEdges</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional output vector of closest polyline edge per each pixel of distance map Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>outClosestEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1615,7 +1615,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if pointer is valid, then only these pixels will be filled Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if pointer is valid, then only these pixels will be filled Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1633,7 +1633,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>signMethod</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>signMethod</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1701,7 +1701,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (larger values cannot be present) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>maxDist</code>. Parameter <code>_this</code> can not be null. </p>
+<p>maximum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (larger values cannot be present) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>maxDist</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1723,7 +1723,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>minimum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (lower values can be present but they are not precise) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>minDist</code>. Parameter <code>_this</code> can not be null. </p>
+<p>minimum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (lower values can be present but they are not precise) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>minDist</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1745,7 +1745,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional input offset for each edges of polyline, find more on <code>ContoursDistanceMapOffset</code> structure description Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>offsetParameters</code>. Parameter <code>_this</code> can not be null. </p>
+<p>optional input offset for each edges of polyline, find more on <code>ContoursDistanceMapOffset</code> structure description Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>offsetParameters</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1767,7 +1767,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output vector of closest polyline edge per each pixel of distance map Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>outClosestEdges</code>. Parameter <code>_this</code> can not be null. </p>
+<p>optional output vector of closest polyline edge per each pixel of distance map Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>outClosestEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1789,7 +1789,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if pointer is valid, then only these pixels will be filled Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. </p>
+<p>if pointer is valid, then only these pixels will be filled Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1811,7 +1811,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>signMethod</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code> named <code>signMethod</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1846,7 +1846,7 @@ Functions</h2></td></tr>
 
 <p>computes the difference between the shapes bounded by contoursA and the shapes bounded by contoursB </p>
 <dl class="section return"><dt>Returns</dt><dd>the boundary of the difference</dd></dl>
-<p>input contours must be closed within the area of distance map and be consistently oriented (clockwise, that is leaving the bounded shapes from the left). the value of params.withSign must be true (checked with assert() inside the function) </p><dl class="section note"><dt>Note</dt><dd>that polyline topology should be consistently oriented Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#ga9ec7f0e4e736da31de012ad0e33f6b33">MR::contourSubtract</a></code>. Parameter <code>contoursA</code> can not be null. Parameter <code>contoursB</code> can not be null. Parameter <code>params</code> can not be null. Parameter <code>offsetInside</code> has a default argument: <code>0.F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRPolyline_8h.html#a93ac8a7595a2c96881b3ea89efc01fc7" title="Destroys a heap-allocated instance of MR_Polyline2. Does nothing if the pointer is null.">MR_Polyline2_Destroy()</a></code> to free it when you're done using it. </dd></dl>
+<p>input contours must be closed within the area of distance map and be consistently oriented (clockwise, that is leaving the bounded shapes from the left). the value of params.withSign must be true (checked with assert() inside the function) </p><dl class="section note"><dt>Note</dt><dd>that polyline topology should be consistently oriented Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#ga9ec7f0e4e736da31de012ad0e33f6b33">MR::contourSubtract</a></code>. Parameter <code>contoursA</code> can not be null. It is a single object. Parameter <code>contoursB</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Parameter <code>offsetInside</code> has a default argument: <code>0.F</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRPolyline_8h.html#a93ac8a7595a2c96881b3ea89efc01fc7" title="Destroys a heap-allocated instance of MR_Polyline2. Does nothing if the pointer is null.">MR_Polyline2_Destroy()</a></code> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -1881,7 +1881,7 @@ Functions</h2></td></tr>
 
 <p>computes the union of the shapes bounded by input 2d contours </p>
 <dl class="section return"><dt>Returns</dt><dd>the boundary of the union</dd></dl>
-<p>input contours must be closed within the area of distance map and be consistently oriented (clockwise, that is leaving the bounded shapes from the left). the value of params.withSign must be true (checked with assert() inside the function) </p><dl class="section note"><dt>Note</dt><dd>that polyline topology should be consistently oriented Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#ga59af0939e79330f4ef6bcc99c74c196b">MR::contourUnion</a></code>. Parameter <code>contoursA</code> can not be null. Parameter <code>contoursB</code> can not be null. Parameter <code>params</code> can not be null. Parameter <code>offsetInside</code> has a default argument: <code>0</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRPolyline_8h.html#a93ac8a7595a2c96881b3ea89efc01fc7" title="Destroys a heap-allocated instance of MR_Polyline2. Does nothing if the pointer is null.">MR_Polyline2_Destroy()</a></code> to free it when you're done using it. </dd></dl>
+<p>input contours must be closed within the area of distance map and be consistently oriented (clockwise, that is leaving the bounded shapes from the left). the value of params.withSign must be true (checked with assert() inside the function) </p><dl class="section note"><dt>Note</dt><dd>that polyline topology should be consistently oriented Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#ga59af0939e79330f4ef6bcc99c74c196b">MR::contourUnion</a></code>. Parameter <code>contoursA</code> can not be null. It is a single object. Parameter <code>contoursB</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Parameter <code>offsetInside</code> has a default argument: <code>0</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRPolyline_8h.html#a93ac8a7595a2c96881b3ea89efc01fc7" title="Destroys a heap-allocated instance of MR_Polyline2. Does nothing if the pointer is null.">MR_Polyline2_Destroy()</a></code> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -1905,7 +1905,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>export distance map to a grayscale image </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">threshold</td><td>- threshold of valid values [0.; 1.]. pixel with color less then threshold set invalid Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#gadf85ea3c5943f6cd2cb8864c2991f6f2">MR::convertDistanceMapToImage</a></code>. Parameter <code>distMap</code> can not be null. Parameter <code>threshold</code> has a default argument: <code>1.F / 255</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRImage_8h.html#af06c9ac84a3ec96391104e08e3bd494b" title="Destroys a heap-allocated instance of MR_Image. Does nothing if the pointer is null.">MR_Image_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">threshold</td><td>- threshold of valid values [0.; 1.]. pixel with color less then threshold set invalid Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#gadf85ea3c5943f6cd2cb8864c2991f6f2">MR::convertDistanceMapToImage</a></code>. Parameter <code>distMap</code> can not be null. It is a single object. Parameter <code>threshold</code> has a default argument: <code>1.F / 255</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRImage_8h.html#af06c9ac84a3ec96391104e08e3bd494b" title="Destroys a heap-allocated instance of MR_Image. Does nothing if the pointer is null.">MR_Image_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1938,7 +1938,7 @@ Functions</h2></td></tr>
 <p>load distance map from a grayscale image: </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">threshold</td><td>- threshold of valid values [0.; 1.]. pixel with color less then threshold set invalid </td></tr>
-    <tr><td class="paramname">invert</td><td>- whether to invert values (min is white) or leave them as is (min is block) Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#gabfddf0510446a24e68326d0574949301">MR::convertImageToDistanceMap</a></code>. Parameter <code>image</code> can not be null. Parameter <code>threshold</code> has a default argument: <code>1.F / 255</code>, pass a null pointer to use it. Parameter <code>invert</code> has a default argument: <code>true</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__DistanceMap__std__string_8h.html#a0a335b47ce20d18bf52ab4847d97e275" title="Destroys a heap-allocated instance of MR_expected_MR_DistanceMap_std_string. Does nothing if the poin...">MR_expected_MR_DistanceMap_std_string_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">invert</td><td>- whether to invert values (min is white) or leave them as is (min is block) Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#gabfddf0510446a24e68326d0574949301">MR::convertImageToDistanceMap</a></code>. Parameter <code>image</code> can not be null. It is a single object. Parameter <code>threshold</code> has a default argument: <code>1.F / 255</code>, pass a null pointer to use it. Parameter <code>invert</code> has a default argument: <code>true</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__DistanceMap__std__string_8h.html#a0a335b47ce20d18bf52ab4847d97e275" title="Destroys a heap-allocated instance of MR_expected_MR_DistanceMap_std_string. Does nothing if the poin...">MR_expected_MR_DistanceMap_std_string_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1968,7 +1968,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1986,7 +1986,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>clears data, sets resolutions to zero Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>clear</code>. Parameter <code>_this</code> can not be null. </p>
+<p>clears data, sets resolutions to zero Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>clear</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2004,7 +2004,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>make from 2d array Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code>. Parameter <code>m</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5b722349701e364321783fd112ee1d03" title="Destroys a heap-allocated instance of MR_DistanceMap. Does nothing if the pointer is null.">MR_DistanceMap_Destroy()</a></code> to free it when you're done using it. </p>
+<p>make from 2d array Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code>. Parameter <code>m</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5b722349701e364321783fd112ee1d03" title="Destroys a heap-allocated instance of MR_DistanceMap. Does nothing if the pointer is null.">MR_DistanceMap_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2066,7 +2066,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>data</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>data</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2084,7 +2084,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>data</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>data</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2180,7 +2180,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns value of index element, returns nullopt if not valid (see <code>isValid()</code>), UB if out of bounds. Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>get</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__float_8h.html#a5d420413d3a6e2cfe102648fbce38a49" title="Destroys a heap-allocated instance of MR_std_optional_float. Does nothing if the pointer is null.">MR_std_optional_float_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns value of index element, returns nullopt if not valid (see <code>isValid()</code>), UB if out of bounds. Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>get</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__float_8h.html#a5d420413d3a6e2cfe102648fbce38a49" title="Destroys a heap-allocated instance of MR_std_optional_float. Does nothing if the pointer is null.">MR_std_optional_float_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2207,7 +2207,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns value in (X,Y) element, returns nullopt if not valid (see <code>isValid()</code>), UB if out of bounds. Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>get</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__float_8h.html#a5d420413d3a6e2cfe102648fbce38a49" title="Destroys a heap-allocated instance of MR_std_optional_float. Does nothing if the pointer is null.">MR_std_optional_float_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns value in (X,Y) element, returns nullopt if not valid (see <code>isValid()</code>), UB if out of bounds. Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>get</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__float_8h.html#a5d420413d3a6e2cfe102648fbce38a49" title="Destroys a heap-allocated instance of MR_std_optional_float. Does nothing if the pointer is null.">MR_std_optional_float_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2225,7 +2225,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns new derivatives map without directions Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>getDerivativeMap</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5b722349701e364321783fd112ee1d03" title="Destroys a heap-allocated instance of MR_DistanceMap. Does nothing if the pointer is null.">MR_DistanceMap_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns new derivatives map without directions Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>getDerivativeMap</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5b722349701e364321783fd112ee1d03" title="Destroys a heap-allocated instance of MR_DistanceMap. Does nothing if the pointer is null.">MR_DistanceMap_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2256,7 +2256,7 @@ Functions</h2></td></tr>
 <p>finds interpolated value. </p>
 <p><a href="https://en.wikipedia.org/wiki/Bilinear_interpolation">https://en.wikipedia.org/wiki/Bilinear_interpolation</a> getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <a href="https://docs.microsoft.com/en-us/windows/win32/direct3d10/d3d10-graphics-programming-guide-resources-coordinates">https://docs.microsoft.com/en-us/windows/win32/direct3d10/d3d10-graphics-programming-guide-resources-coordinates</a> for details all 4 elements around this point should be valid, returns nullopt if at least one is not valid </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">x,y</td><td>should be in resolution range [0;resX][0;resY]. If x,y are out of bounds, returns nullopt. Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>getInterpolated</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__float_8h.html#a5d420413d3a6e2cfe102648fbce38a49" title="Destroys a heap-allocated instance of MR_std_optional_float. Does nothing if the pointer is null.">MR_std_optional_float_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">x,y</td><td>should be in resolution range [0;resX][0;resY]. If x,y are out of bounds, returns nullopt. Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>getInterpolated</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__float_8h.html#a5d420413d3a6e2cfe102648fbce38a49" title="Destroys a heap-allocated instance of MR_std_optional_float. Does nothing if the pointer is null.">MR_std_optional_float_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2277,7 +2277,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>computes single derivative map from XY spaces combined. Returns local maximums then Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>getLocalMaximums</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__pair__uint64__t__uint64__t_8h.html#af490de81a31bd387791d98b3e20a3a0e" title="Destroys a heap-allocated instance of MR_std_vector_std_pair_uint64_t_uint64_t. Does nothing if the p...">MR_std_vector_std_pair_uint64_t_uint64_t_Destroy()</a></code> to free it when you're done using it. </p>
+<p>computes single derivative map from XY spaces combined. Returns local maximums then Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>getLocalMaximums</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__pair__uint64__t__uint64__t_8h.html#af490de81a31bd387791d98b3e20a3a0e" title="Destroys a heap-allocated instance of MR_std_vector_std_pair_uint64_t_uint64_t. Does nothing if the p...">MR_std_vector_std_pair_uint64_t_uint64_t_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2295,7 +2295,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds maximum value X,Y returns [-1.-1] if all values are invalid Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>getMaxIndex</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__pair__uint64__t__uint64__t_8h.html#ac0b648048e0d4a1b682af1a2f15d18c8" title="Destroys a heap-allocated instance of MR_std_pair_uint64_t_uint64_t. Does nothing if the pointer is n...">MR_std_pair_uint64_t_uint64_t_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds maximum value X,Y returns [-1.-1] if all values are invalid Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>getMaxIndex</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__pair__uint64__t__uint64__t_8h.html#ac0b648048e0d4a1b682af1a2f15d18c8" title="Destroys a heap-allocated instance of MR_std_pair_uint64_t_uint64_t. Does nothing if the pointer is n...">MR_std_pair_uint64_t_uint64_t_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2313,7 +2313,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds minimum value X,Y returns [-1.-1] if all values are invalid Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>getMinIndex</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__pair__uint64__t__uint64__t_8h.html#ac0b648048e0d4a1b682af1a2f15d18c8" title="Destroys a heap-allocated instance of MR_std_pair_uint64_t_uint64_t. Does nothing if the pointer is n...">MR_std_pair_uint64_t_uint64_t_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds minimum value X,Y returns [-1.-1] if all values are invalid Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>getMinIndex</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__pair__uint64__t__uint64__t_8h.html#ac0b648048e0d4a1b682af1a2f15d18c8" title="Destroys a heap-allocated instance of MR_std_pair_uint64_t_uint64_t. Does nothing if the pointer is n...">MR_std_pair_uint64_t_uint64_t_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2331,7 +2331,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds minimum and maximum values returns min_float and max_float if all values are invalid Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>getMinMaxValues</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__pair__float__float_8h.html#a995c675ca78eb86624a44beb33126b06" title="Destroys a heap-allocated instance of MR_std_pair_float_float. Does nothing if the pointer is null.">MR_std_pair_float_float_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds minimum and maximum values returns min_float and max_float if all values are invalid Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>getMinMaxValues</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__pair__float__float_8h.html#a995c675ca78eb86624a44beb33126b06" title="Destroys a heap-allocated instance of MR_std_pair_float_float. Does nothing if the pointer is null.">MR_std_pair_float_float_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2353,7 +2353,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>getValue</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>getValue</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2380,7 +2380,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns value in (X,Y) element without check on valid use this only if you sure that distance map has no invalid values or for serialization Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>getValue</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>returns value in (X,Y) element without check on valid use this only if you sure that distance map has no invalid values or for serialization Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>getValue</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2402,7 +2402,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>getValue</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>getValue</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2429,7 +2429,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>getValue</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>getValue</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2447,7 +2447,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns new derivative maps with X and Y axes direction Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>getXYDerivativeMaps</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__pair__MR__DistanceMap__MR__DistanceMap_8h.html#a5f5f3a708ad9ff98dc9cccfab8b921c2" title="Destroys a heap-allocated instance of MR_std_pair_MR_DistanceMap_MR_DistanceMap. Does nothing if the ...">MR_std_pair_MR_DistanceMap_MR_DistanceMap_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns new derivative maps with X and Y axes direction Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>getXYDerivativeMaps</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__pair__MR__DistanceMap__MR__DistanceMap_8h.html#a5f5f3a708ad9ff98dc9cccfab8b921c2" title="Destroys a heap-allocated instance of MR_std_pair_MR_DistanceMap_MR_DistanceMap. Does nothing if the ...">MR_std_pair_MR_DistanceMap_MR_DistanceMap_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2465,7 +2465,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the amount of memory this object occupies on heap Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>heapBytes</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns the amount of memory this object occupies on heap Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>heapBytes</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2483,7 +2483,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>invalidates all elements Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>invalidateAll</code>. Parameter <code>_this</code> can not be null. </p>
+<p>invalidates all elements Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>invalidateAll</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2505,7 +2505,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns true if a flattened coordinate is in bounds. Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>isInBounds</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Returns true if a flattened coordinate is in bounds. Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>isInBounds</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2532,7 +2532,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns true if (X,Y) coordinates are in bounds. Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>isInBounds</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Returns true if (X,Y) coordinates are in bounds. Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>isInBounds</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2554,7 +2554,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>checks if index element is valid (i.e. not <code>std::numeric_limits&lt;float&gt;::lowest()</code>; passing an invalid coord to this is UB) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>isValid</code>. Parameter <code>_this</code> can not be null. </p>
+<p>checks if index element is valid (i.e. not <code>std::numeric_limits&lt;float&gt;::lowest()</code>; passing an invalid coord to this is UB) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>isValid</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2581,7 +2581,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>checks if X,Y element is valid (i.e. not <code>std::numeric_limits&lt;float&gt;::lowest()</code>; passing invalid coords to this is UB) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>isValid</code>. Parameter <code>_this</code> can not be null. </p>
+<p>checks if X,Y element is valid (i.e. not <code>std::numeric_limits&lt;float&gt;::lowest()</code>; passing invalid coords to this is UB) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>isValid</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2603,7 +2603,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>boolean operators returns new Distance Map with cell-wise maximum values. Invalid values remain only if both corresponding cells are invalid Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>max</code>. Parameter <code>_this</code> can not be null. Parameter <code>rhs</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5b722349701e364321783fd112ee1d03" title="Destroys a heap-allocated instance of MR_DistanceMap. Does nothing if the pointer is null.">MR_DistanceMap_Destroy()</a></code> to free it when you're done using it. </p>
+<p>boolean operators returns new Distance Map with cell-wise maximum values. Invalid values remain only if both corresponding cells are invalid Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>max</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>rhs</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5b722349701e364321783fd112ee1d03" title="Destroys a heap-allocated instance of MR_DistanceMap. Does nothing if the pointer is null.">MR_DistanceMap_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2625,7 +2625,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>replaces values with cell-wise maximum values. Invalid values remain only if both corresponding cells are invalid Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>mergeMax</code>. Parameter <code>_this</code> can not be null. Parameter <code>rhs</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>replaces values with cell-wise maximum values. Invalid values remain only if both corresponding cells are invalid Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>mergeMax</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>rhs</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2647,7 +2647,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>replaces values with cell-wise minimum values. Invalid values remain only if both corresponding cells are invalid Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>mergeMin</code>. Parameter <code>_this</code> can not be null. Parameter <code>rhs</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>replaces values with cell-wise minimum values. Invalid values remain only if both corresponding cells are invalid Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>mergeMin</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>rhs</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2669,7 +2669,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns new Distance Map with cell-wise minimum values. Invalid values remain only if both corresponding cells are invalid Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>min</code>. Parameter <code>_this</code> can not be null. Parameter <code>rhs</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5b722349701e364321783fd112ee1d03" title="Destroys a heap-allocated instance of MR_DistanceMap. Does nothing if the pointer is null.">MR_DistanceMap_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns new Distance Map with cell-wise minimum values. Invalid values remain only if both corresponding cells are invalid Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>min</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>rhs</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5b722349701e364321783fd112ee1d03" title="Destroys a heap-allocated instance of MR_DistanceMap. Does nothing if the pointer is null.">MR_DistanceMap_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2706,7 +2706,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>replaces every valid element in the map with its negative value Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>negate</code>. Parameter <code>_this</code> can not be null. </p>
+<p>replaces every valid element in the map with its negative value Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>negate</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2724,7 +2724,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the number of pixels Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>numPoints</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns the number of pixels Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>numPoints</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2788,7 +2788,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns X resolution Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>resX</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns X resolution Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>resX</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2806,7 +2806,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns Y resolution Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>resY</code>. Parameter <code>_this</code> can not be null. </p>
+<p>returns Y resolution Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>resY</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2833,7 +2833,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>sets all values at one time Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>set</code>. Parameter <code>_this</code> can not be null. </p>
+<p>sets all values at one time Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>set</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2860,7 +2860,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>sets value in index element (the coord must be valid, UB otherwise) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>set</code>. Parameter <code>_this</code> can not be null. </p>
+<p>sets value in index element (the coord must be valid, UB otherwise) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>set</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2892,7 +2892,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>sets value in (X,Y) element (the coords must be valid, UB otherwise) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>set</code>. Parameter <code>_this</code> can not be null. </p>
+<p>sets value in (X,Y) element (the coords must be valid, UB otherwise) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>set</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2914,7 +2914,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>replaces values with cell-wise subtracted values. Invalid values remain only if both corresponding cells are invalid Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>operator-=</code>. Parameter <code>_this</code> can not be null. Parameter <code>rhs</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>replaces values with cell-wise subtracted values. Invalid values remain only if both corresponding cells are invalid Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>operator-=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>rhs</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2946,7 +2946,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds 3d coordinates of the Point on the model surface for the (x,y) pixel Use the same params with distance map creation (x,y) must be in bounds, the behavior is undefined otherwise. Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>unproject</code>. Parameter <code>_this</code> can not be null. Parameter <code>toWorld</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__Vector3f_8h.html#a3fbaf58edcfce7a6fcd5dd55fe487dc3" title="Destroys a heap-allocated instance of MR_std_optional_MR_Vector3f. Does nothing if the pointer is nul...">MR_std_optional_MR_Vector3f_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds 3d coordinates of the Point on the model surface for the (x,y) pixel Use the same params with distance map creation (x,y) must be in bounds, the behavior is undefined otherwise. Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>unproject</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>toWorld</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__Vector3f_8h.html#a3fbaf58edcfce7a6fcd5dd55fe487dc3" title="Destroys a heap-allocated instance of MR_std_optional_MR_Vector3f. Does nothing if the pointer is nul...">MR_std_optional_MR_Vector3f_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -2986,7 +2986,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <a href="https://docs.microsoft.com/en-us/windows/win32/direct3d10/d3d10-graphics-programming-guide-resources-coordinates">https://docs.microsoft.com/en-us/windows/win32/direct3d10/d3d10-graphics-programming-guide-resources-coordinates</a> for details all 4 elements around this point should be valid, returns nullopt if at least one is not valid If x,y are out of bounds, returns nullopt. Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>unprojectInterpolated</code>. Parameter <code>_this</code> can not be null. Parameter <code>toWorld</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__Vector3f_8h.html#a3fbaf58edcfce7a6fcd5dd55fe487dc3" title="Destroys a heap-allocated instance of MR_std_optional_MR_Vector3f. Does nothing if the pointer is nul...">MR_std_optional_MR_Vector3f_Destroy()</a></code> to free it when you're done using it. </p>
+<p>getInterpolated( 0.5f, 0.5f ) == get( 0, 0 ) see <a href="https://docs.microsoft.com/en-us/windows/win32/direct3d10/d3d10-graphics-programming-guide-resources-coordinates">https://docs.microsoft.com/en-us/windows/win32/direct3d10/d3d10-graphics-programming-guide-resources-coordinates</a> for details all 4 elements around this point should be valid, returns nullopt if at least one is not valid If x,y are out of bounds, returns nullopt. Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>unprojectInterpolated</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>toWorld</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__Vector3f_8h.html#a3fbaf58edcfce7a6fcd5dd55fe487dc3" title="Destroys a heap-allocated instance of MR_std_optional_MR_Vector3f. Does nothing if the pointer is nul...">MR_std_optional_MR_Vector3f_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -3008,7 +3008,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>invalidates value in index element (the coord must be valid, UB otherwise) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>unset</code>. Parameter <code>_this</code> can not be null. </p>
+<p>invalidates value in index element (the coord must be valid, UB otherwise) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>unset</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3035,7 +3035,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>invalidates value in (X,Y) element (the coords must be valid, UB otherwise) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>unset</code>. Parameter <code>_this</code> can not be null. </p>
+<p>invalidates value in (X,Y) element (the coords must be valid, UB otherwise) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>unset</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3084,7 +3084,7 @@ Functions</h2></td></tr>
 <p>Computes distance of 2d contours according ContourToDistanceMapParams. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">options</td><td>- optional input and output options for distance map calculation, find more ContoursDistanceMapOptions Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#ga6ba988d1173a8800e2ccfc5ac30d2a68">MR::distanceMapFromContours</a></code>. Parameter <code>contours</code> can not be null. Parameter <code>params</code> can not be null. Parameter <code>options</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5b722349701e364321783fd112ee1d03" title="Destroys a heap-allocated instance of MR_DistanceMap. Does nothing if the pointer is null.">MR_DistanceMap_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">options</td><td>- optional input and output options for distance map calculation, find more ContoursDistanceMapOptions Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#ga6ba988d1173a8800e2ccfc5ac30d2a68">MR::distanceMapFromContours</a></code>. Parameter <code>contours</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Parameter <code>options</code> is a single object. Parameter <code>options</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5b722349701e364321783fd112ee1d03" title="Destroys a heap-allocated instance of MR_DistanceMap. Does nothing if the pointer is null.">MR_DistanceMap_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -3124,7 +3124,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">distMap</td><td>- preallocated distance map </td></tr>
-    <tr><td class="paramname">options</td><td>- optional input and output options for distance map calculation, find more ContoursDistanceMapOptions Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#ga6ba988d1173a8800e2ccfc5ac30d2a68">MR::distanceMapFromContours</a></code>. Parameter <code>distMap</code> can not be null. Parameter <code>polyline</code> can not be null. Parameter <code>params</code> can not be null. Parameter <code>options</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </td></tr>
+    <tr><td class="paramname">options</td><td>- optional input and output options for distance map calculation, find more ContoursDistanceMapOptions Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#ga6ba988d1173a8800e2ccfc5ac30d2a68">MR::distanceMapFromContours</a></code>. Parameter <code>distMap</code> can not be null. It is a single object. Parameter <code>polyline</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Parameter <code>options</code> is a single object. Parameter <code>options</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -3149,7 +3149,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>converts distance map to 2d iso-lines: iso-lines are created in space DistanceMap ( plane OXY with pixelSize = (1, 1) ) Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#ga91dadb5d280efea2e31e4620ed69cf56">MR::distanceMapTo2DIsoPolyline</a></code>. Parameter <code>distMap</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRPolyline_8h.html#a93ac8a7595a2c96881b3ea89efc01fc7" title="Destroys a heap-allocated instance of MR_Polyline2. Does nothing if the pointer is null.">MR_Polyline2_Destroy()</a></code> to free it when you're done using it. </p>
+<p>converts distance map to 2d iso-lines: iso-lines are created in space DistanceMap ( plane OXY with pixelSize = (1, 1) ) Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#ga91dadb5d280efea2e31e4620ed69cf56">MR::distanceMapTo2DIsoPolyline</a></code>. Parameter <code>distMap</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRPolyline_8h.html#a93ac8a7595a2c96881b3ea89efc01fc7" title="Destroys a heap-allocated instance of MR_Polyline2. Does nothing if the pointer is null.">MR_Polyline2_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -3176,7 +3176,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#ga91dadb5d280efea2e31e4620ed69cf56">MR::distanceMapTo2DIsoPolyline</a></code>. Parameter <code>distMap</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRPolyline_8h.html#a93ac8a7595a2c96881b3ea89efc01fc7" title="Destroys a heap-allocated instance of MR_Polyline2. Does nothing if the pointer is null.">MR_Polyline2_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#ga91dadb5d280efea2e31e4620ed69cf56">MR::distanceMapTo2DIsoPolyline</a></code>. Parameter <code>distMap</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRPolyline_8h.html#a93ac8a7595a2c96881b3ea89efc01fc7" title="Destroys a heap-allocated instance of MR_Polyline2. Does nothing if the pointer is null.">MR_Polyline2_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -3203,7 +3203,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>iso-lines are created in real space ( plane OXY with parameters according ContourToDistanceMapParams ) Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#ga91dadb5d280efea2e31e4620ed69cf56">MR::distanceMapTo2DIsoPolyline</a></code>. Parameter <code>distMap</code> can not be null. Parameter <code>params</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRPolyline_8h.html#a93ac8a7595a2c96881b3ea89efc01fc7" title="Destroys a heap-allocated instance of MR_Polyline2. Does nothing if the pointer is null.">MR_Polyline2_Destroy()</a></code> to free it when you're done using it. </p>
+<p>iso-lines are created in real space ( plane OXY with parameters according ContourToDistanceMapParams ) Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#ga91dadb5d280efea2e31e4620ed69cf56">MR::distanceMapTo2DIsoPolyline</a></code>. Parameter <code>distMap</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRPolyline_8h.html#a93ac8a7595a2c96881b3ea89efc01fc7" title="Destroys a heap-allocated instance of MR_Polyline2. Does nothing if the pointer is null.">MR_Polyline2_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -3237,7 +3237,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>computes iso-lines of distance map corresponding to given iso-value; in second returns the transformation from 0XY plane to world; </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">useDepth</td><td>true - the isolines will be located on distance map surface, false - isolines for any iso-value will be located on the common plane xf(0XY) Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#ga91dadb5d280efea2e31e4620ed69cf56">MR::distanceMapTo2DIsoPolyline</a></code>. Parameter <code>distMap</code> can not be null. Parameter <code>xf</code> can not be null. Parameter <code>useDepth</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__pair__MR__Polyline2__MR__AffineXf3f_8h.html#a3d23ded44b3c1893340f329be2875250" title="Destroys a heap-allocated instance of MR_std_pair_MR_Polyline2_MR_AffineXf3f. Does nothing if the poi...">MR_std_pair_MR_Polyline2_MR_AffineXf3f_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">useDepth</td><td>true - the isolines will be located on distance map surface, false - isolines for any iso-value will be located on the common plane xf(0XY) Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#ga91dadb5d280efea2e31e4620ed69cf56">MR::distanceMapTo2DIsoPolyline</a></code>. Parameter <code>distMap</code> can not be null. It is a single object. Parameter <code>xf</code> can not be null. It is a single object. Parameter <code>useDepth</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__pair__MR__Polyline2__MR__AffineXf3f_8h.html#a3d23ded44b3c1893340f329be2875250" title="Destroys a heap-allocated instance of MR_std_pair_MR_Polyline2_MR_AffineXf3f. Does nothing if the poi...">MR_std_pair_MR_Polyline2_MR_AffineXf3f_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -3272,7 +3272,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>converts distance map into mesh and applies a transformation to all points Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#ga145ea179a83ff19d1734af8771bba71a">MR::distanceMapToMesh</a></code>. Parameter <code>distMap</code> can not be null. Parameter <code>toWorld</code> can not be null. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>converts distance map into mesh and applies a transformation to all points Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#ga145ea179a83ff19d1734af8771bba71a">MR::distanceMapToMesh</a></code>. Parameter <code>distMap</code> can not be null. It is a single object. Parameter <code>toWorld</code> can not be null. It is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -3299,7 +3299,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Makes distance map and filter out pixels with large (&gt;threshold) distance between closest points on contour in neighbor pixels Converts such points back in 3d space and return </p><dl class="section note"><dt>Note</dt><dd>that polyline topology should be consistently oriented Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#ga00ea89be5cae9953d5df7ef382259b58">MR::edgePointsFromContours</a></code>. Parameter <code>polyline</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__Vector3f_8h.html#abab6d7c953a1806ebeb1b7e736c18d49" title="Destroys a heap-allocated instance of MR_std_vector_MR_Vector3f. Does nothing if the pointer is null.">MR_std_vector_MR_Vector3f_Destroy()</a></code> to free it when you're done using it. </dd></dl>
+<p>Makes distance map and filter out pixels with large (&gt;threshold) distance between closest points on contour in neighbor pixels Converts such points back in 3d space and return </p><dl class="section note"><dt>Note</dt><dd>that polyline topology should be consistently oriented Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#ga00ea89be5cae9953d5df7ef382259b58">MR::edgePointsFromContours</a></code>. Parameter <code>polyline</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__Vector3f_8h.html#abab6d7c953a1806ebeb1b7e736c18d49" title="Destroys a heap-allocated instance of MR_std_vector_MR_Vector3f. Does nothing if the pointer is null.">MR_std_vector_MR_Vector3f_Destroy()</a></code> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -3326,7 +3326,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>constructs an offset contour for given polyline Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#gaf720ea7221e6ad284c8b0b80e5c58364">MR::polylineOffset</a></code>. Parameter <code>polyline</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRPolyline_8h.html#a93ac8a7595a2c96881b3ea89efc01fc7" title="Destroys a heap-allocated instance of MR_Polyline2. Does nothing if the pointer is null.">MR_Polyline2_Destroy()</a></code> to free it when you're done using it. </p>
+<p>constructs an offset contour for given polyline Generated from function <code><a class="elRef" href="../Cpp/group__DistanceMapGroup.html#gaf720ea7221e6ad284c8b0b80e5c58364">MR::polylineOffset</a></code>. Parameter <code>polyline</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRPolyline_8h.html#a93ac8a7595a2c96881b3ea89efc01fc7" title="Destroys a heap-allocated instance of MR_Polyline2. Does nothing if the pointer is null.">MR_Polyline2_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -3348,7 +3348,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns new Distance Map with cell-wise subtracted values. Invalid values remain only if both corresponding cells are invalid Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>operator-</code>. Parameter <code>_this</code> can not be null. Parameter <code>rhs</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5b722349701e364321783fd112ee1d03" title="Destroys a heap-allocated instance of MR_DistanceMap. Does nothing if the pointer is null.">MR_DistanceMap_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns new Distance Map with cell-wise subtracted values. Invalid values remain only if both corresponding cells are invalid Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMap.html">MR::DistanceMap</a></code> named <code>operator-</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>rhs</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5b722349701e364321783fd112ee1d03" title="Destroys a heap-allocated instance of MR_DistanceMap. Does nothing if the pointer is null.">MR_DistanceMap_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

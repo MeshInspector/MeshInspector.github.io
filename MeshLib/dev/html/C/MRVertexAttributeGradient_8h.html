@@ -237,7 +237,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Calculates gradient for each vertex in mesh, based on vertexAttribute Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a293cd8e2736e78af90cf61be0eb867e6">MR::vertexAttributeGradient</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>vertexAttribute</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#ae3e5b113c183c12e3130be9227a248e5" title="Destroys a heap-allocated instance of MR_VertCoords. Does nothing if the pointer is null.">MR_VertCoords_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Calculates gradient for each vertex in mesh, based on vertexAttribute Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a293cd8e2736e78af90cf61be0eb867e6">MR::vertexAttributeGradient</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>vertexAttribute</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#ae3e5b113c183c12e3130be9227a248e5" title="Destroys a heap-allocated instance of MR_VertCoords. Does nothing if the pointer is null.">MR_VertCoords_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

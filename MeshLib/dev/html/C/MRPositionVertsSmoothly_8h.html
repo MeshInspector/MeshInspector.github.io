@@ -474,7 +474,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Inflates (in one of two sides) given mesh region, putting given vertices in such positions to make smooth surface inside verts-region, but sharp on its boundary; this function makes just 1 iteration of inflation and is used inside inflate(...) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a0ff13a6ee1e4553122efbc84946a0e01">MR::inflate1</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>verts</code> can not be null. </p>
+<p>Inflates (in one of two sides) given mesh region, putting given vertices in such positions to make smooth surface inside verts-region, but sharp on its boundary; this function makes just 1 iteration of inflation and is used inside inflate(...) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a0ff13a6ee1e4553122efbc84946a0e01">MR::inflate1</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>verts</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -503,7 +503,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Inflates (in one of two sides) given mesh region, putting given vertices in such positions to make smooth surface inside verts-region, but sharp on its boundary; </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">verts</td><td>must not include all vertices of a mesh connected component Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a3d881ee7943c5019e5a61768489f064e">MR::inflate</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>verts</code> can not be null. Parameter <code>settings</code> can not be null. </td></tr>
+    <tr><td class="paramname">verts</td><td>must not include all vertices of a mesh connected component Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a3d881ee7943c5019e5a61768489f064e">MR::inflate</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>verts</code> can not be null. It is a single object. Parameter <code>settings</code> can not be null. It is a single object. </td></tr>
   </table>
   </dd>
 </dl>
@@ -538,7 +538,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a3d881ee7943c5019e5a61768489f064e">MR::inflate</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>verts</code> can not be null. Parameter <code>settings</code> can not be null. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a3d881ee7943c5019e5a61768489f064e">MR::inflate</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>verts</code> can not be null. It is a single object. Parameter <code>settings</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -560,7 +560,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1InflateSettings.html">MR::InflateSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1InflateSettings.html">MR::InflateSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -610,7 +610,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1InflateSettings.html">MR::InflateSettings</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aa41768440da921917757eef958f8781c" title="Destroys a heap-allocated instance of MR_InflateSettings. Does nothing if the pointer is null.">MR_InflateSettings_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1InflateSettings.html">MR::InflateSettings</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aa41768440da921917757eef958f8781c" title="Destroys a heap-allocated instance of MR_InflateSettings. Does nothing if the pointer is null.">MR_InflateSettings_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -702,7 +702,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>whether to increase the pressure gradually during the iterations (recommended for best quality) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InflateSettings.html">MR::InflateSettings</a></code> named <code>gradualPressureGrowth</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>whether to increase the pressure gradually during the iterations (recommended for best quality) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InflateSettings.html">MR::InflateSettings</a></code> named <code>gradualPressureGrowth</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -720,7 +720,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of internal iterations (&gt;=1); larger number of iterations makes the performance slower, but the quality better Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InflateSettings.html">MR::InflateSettings</a></code> named <code>iterations</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the number of internal iterations (&gt;=1); larger number of iterations makes the performance slower, but the quality better Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InflateSettings.html">MR::InflateSettings</a></code> named <code>iterations</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -738,7 +738,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>smooths the area before starting inflation; please set to false only if the region is known to be already smooth Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InflateSettings.html">MR::InflateSettings</a></code> named <code>preSmooth</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>smooths the area before starting inflation; please set to false only if the region is known to be already smooth Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InflateSettings.html">MR::InflateSettings</a></code> named <code>preSmooth</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -756,7 +756,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the amount of pressure applied to mesh region: positive pressure moves the vertices outside, negative - inside; please specify a value by magnitude about the region diagonal Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InflateSettings.html">MR::InflateSettings</a></code> named <code>pressure</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the amount of pressure applied to mesh region: positive pressure moves the vertices outside, negative - inside; please specify a value by magnitude about the region diagonal Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InflateSettings.html">MR::InflateSettings</a></code> named <code>pressure</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -774,7 +774,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>whether to increase the pressure gradually during the iterations (recommended for best quality) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InflateSettings.html">MR::InflateSettings</a></code> named <code>gradualPressureGrowth</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>whether to increase the pressure gradually during the iterations (recommended for best quality) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InflateSettings.html">MR::InflateSettings</a></code> named <code>gradualPressureGrowth</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -792,7 +792,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of internal iterations (&gt;=1); larger number of iterations makes the performance slower, but the quality better Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InflateSettings.html">MR::InflateSettings</a></code> named <code>iterations</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the number of internal iterations (&gt;=1); larger number of iterations makes the performance slower, but the quality better Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InflateSettings.html">MR::InflateSettings</a></code> named <code>iterations</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -810,7 +810,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>smooths the area before starting inflation; please set to false only if the region is known to be already smooth Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InflateSettings.html">MR::InflateSettings</a></code> named <code>preSmooth</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>smooths the area before starting inflation; please set to false only if the region is known to be already smooth Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InflateSettings.html">MR::InflateSettings</a></code> named <code>preSmooth</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -828,7 +828,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the amount of pressure applied to mesh region: positive pressure moves the vertices outside, negative - inside; please specify a value by magnitude about the region diagonal Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InflateSettings.html">MR::InflateSettings</a></code> named <code>pressure</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the amount of pressure applied to mesh region: positive pressure moves the vertices outside, negative - inside; please specify a value by magnitude about the region diagonal Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InflateSettings.html">MR::InflateSettings</a></code> named <code>pressure</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -896,7 +896,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>whether to increase the pressure gradually during the iterations (recommended for best quality) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InflateSettings.html">MR::InflateSettings</a></code> named <code>gradualPressureGrowth</code>. Parameter <code>_this</code> can not be null. </p>
+<p>whether to increase the pressure gradually during the iterations (recommended for best quality) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InflateSettings.html">MR::InflateSettings</a></code> named <code>gradualPressureGrowth</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -918,7 +918,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of internal iterations (&gt;=1); larger number of iterations makes the performance slower, but the quality better Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InflateSettings.html">MR::InflateSettings</a></code> named <code>iterations</code>. Parameter <code>_this</code> can not be null. </p>
+<p>the number of internal iterations (&gt;=1); larger number of iterations makes the performance slower, but the quality better Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InflateSettings.html">MR::InflateSettings</a></code> named <code>iterations</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -940,7 +940,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>smooths the area before starting inflation; please set to false only if the region is known to be already smooth Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InflateSettings.html">MR::InflateSettings</a></code> named <code>preSmooth</code>. Parameter <code>_this</code> can not be null. </p>
+<p>smooths the area before starting inflation; please set to false only if the region is known to be already smooth Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InflateSettings.html">MR::InflateSettings</a></code> named <code>preSmooth</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -962,7 +962,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the amount of pressure applied to mesh region: positive pressure moves the vertices outside, negative - inside; please specify a value by magnitude about the region diagonal Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InflateSettings.html">MR::InflateSettings</a></code> named <code>pressure</code>. Parameter <code>_this</code> can not be null. </p>
+<p>the amount of pressure applied to mesh region: positive pressure moves the vertices outside, negative - inside; please specify a value by magnitude about the region diagonal Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1InflateSettings.html">MR::InflateSettings</a></code> named <code>pressure</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1002,7 +1002,7 @@ Functions</h2></td></tr>
 <p>Puts given vertices in such positions to make smooth surface both inside verts-region and on its boundary; </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">verts</td><td>must not include all vertices of a mesh connected component </td></tr>
-    <tr><td class="paramname">fixedSharpVertices</td><td>in these vertices the surface can be not-smooth Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ae86354c05ad9fa894a5dd8c50099d7a9">MR::positionVertsSmoothly</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>verts</code> can not be null. Parameter <code>edgeWeights</code> has a default argument: <code>EdgeWeights::Cotan</code>, pass a null pointer to use it. Parameter <code>vmass</code> has a default argument: <code>VertexMass::Unit</code>, pass a null pointer to use it. Parameter <code>fixedSharpVertices</code> defaults to a null pointer in C++. </td></tr>
+    <tr><td class="paramname">fixedSharpVertices</td><td>in these vertices the surface can be not-smooth Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ae86354c05ad9fa894a5dd8c50099d7a9">MR::positionVertsSmoothly</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>verts</code> can not be null. It is a single object. Parameter <code>edgeWeights</code> has a default argument: <code>EdgeWeights::Cotan</code>, pass a null pointer to use it. Parameter <code>vmass</code> has a default argument: <code>VertexMass::Unit</code>, pass a null pointer to use it. Parameter <code>fixedSharpVertices</code> defaults to a null pointer in C++. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1047,7 +1047,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ae86354c05ad9fa894a5dd8c50099d7a9">MR::positionVertsSmoothly</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>verts</code> can not be null. Parameter <code>edgeWeights</code> has a default argument: <code>EdgeWeights::Cotan</code>, pass a null pointer to use it. Parameter <code>vmass</code> has a default argument: <code>VertexMass::Unit</code>, pass a null pointer to use it. Parameter <code>fixedSharpVertices</code> defaults to a null pointer in C++. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ae86354c05ad9fa894a5dd8c50099d7a9">MR::positionVertsSmoothly</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>verts</code> can not be null. It is a single object. Parameter <code>edgeWeights</code> has a default argument: <code>EdgeWeights::Cotan</code>, pass a null pointer to use it. Parameter <code>vmass</code> has a default argument: <code>VertexMass::Unit</code>, pass a null pointer to use it. Parameter <code>fixedSharpVertices</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -1083,7 +1083,7 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">verts</td><td>must not include all vertices of a mesh connected component unless vertStabilizers are given </td></tr>
     <tr><td class="paramname">vertShifts</td><td>optional additional shifts of each vertex relative to smooth position </td></tr>
-    <tr><td class="paramname">vertStabilizers</td><td>optional per-vertex stabilizers: the more the value, the bigger vertex attraction to its original position Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a44cdfa0fa0f605b3ff29d5437e8a93d8">MR::positionVertsSmoothlySharpBd</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>verts</code> can not be null. Parameter <code>vertShifts</code> defaults to a null pointer in C++. Parameter <code>vertStabilizers</code> defaults to a null pointer in C++. </td></tr>
+    <tr><td class="paramname">vertStabilizers</td><td>optional per-vertex stabilizers: the more the value, the bigger vertex attraction to its original position Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a44cdfa0fa0f605b3ff29d5437e8a93d8">MR::positionVertsSmoothlySharpBd</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>verts</code> can not be null. It is a single object. Parameter <code>vertShifts</code> defaults to a null pointer in C++. Parameter <code>vertStabilizers</code> defaults to a null pointer in C++. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1123,7 +1123,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a44cdfa0fa0f605b3ff29d5437e8a93d8">MR::positionVertsSmoothlySharpBd</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>verts</code> can not be null. Parameter <code>vertShifts</code> defaults to a null pointer in C++. Parameter <code>vertStabilizers</code> defaults to a null pointer in C++. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a44cdfa0fa0f605b3ff29d5437e8a93d8">MR::positionVertsSmoothlySharpBd</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>verts</code> can not be null. It is a single object. Parameter <code>vertShifts</code> defaults to a null pointer in C++. Parameter <code>vertStabilizers</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -1145,7 +1145,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Moves given vertices to make the distances between them as specified Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1d34390e42800882d558656d3ea89684">MR::positionVertsWithSpacing</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>settings</code> can not be null. </p>
+<p>Moves given vertices to make the distances between them as specified Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1d34390e42800882d558656d3ea89684">MR::positionVertsWithSpacing</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>settings</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1172,7 +1172,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1d34390e42800882d558656d3ea89684">MR::positionVertsWithSpacing</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>settings</code> can not be null. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1d34390e42800882d558656d3ea89684">MR::positionVertsWithSpacing</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>points</code> can not be null. It is a single object. Parameter <code>settings</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1199,7 +1199,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1365,7 +1365,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>dist</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>dist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1383,7 +1383,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if this predicated is given, then all inverted faces will be converted in degenerate faces at the end of each iteration Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>isInverted</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if this predicated is given, then all inverted faces will be converted in degenerate faces at the end of each iteration Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>isInverted</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1401,7 +1401,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum sum of minus negative weights, if it is exceeded then stabilizer is increased automatically Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>maxSumNegW</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum sum of minus negative weights, if it is exceeded then stabilizer is increased automatically Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>maxSumNegW</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1419,7 +1419,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the algorithm is iterative, the more iterations the closer result to exact solution Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>numIters</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the algorithm is iterative, the more iterations the closer result to exact solution Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>numIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1437,7 +1437,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>vertices to be moved by the algorithm, nullptr means all valid vertices Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>vertices to be moved by the algorithm, nullptr means all valid vertices Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1455,7 +1455,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>too small number here can lead to instability, too large - to slow convergence Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>too small number here can lead to instability, too large - to slow convergence Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1473,7 +1473,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>dist</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>dist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1491,7 +1491,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if this predicated is given, then all inverted faces will be converted in degenerate faces at the end of each iteration Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>isInverted</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if this predicated is given, then all inverted faces will be converted in degenerate faces at the end of each iteration Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>isInverted</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1509,7 +1509,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum sum of minus negative weights, if it is exceeded then stabilizer is increased automatically Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>maxSumNegW</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum sum of minus negative weights, if it is exceeded then stabilizer is increased automatically Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>maxSumNegW</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1527,7 +1527,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the algorithm is iterative, the more iterations the closer result to exact solution Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>numIters</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the algorithm is iterative, the more iterations the closer result to exact solution Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>numIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1545,7 +1545,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>vertices to be moved by the algorithm, nullptr means all valid vertices Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>vertices to be moved by the algorithm, nullptr means all valid vertices Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1563,7 +1563,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>too small number here can lead to instability, too large - to slow convergence Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>too small number here can lead to instability, too large - to slow convergence Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1636,7 +1636,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>dist</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>dist</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1663,7 +1663,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if this predicated is given, then all inverted faces will be converted in degenerate faces at the end of each iteration Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>isInverted</code>. Parameter <code>_this</code> can not be null. </p>
+<p>if this predicated is given, then all inverted faces will be converted in degenerate faces at the end of each iteration Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>isInverted</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1685,7 +1685,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum sum of minus negative weights, if it is exceeded then stabilizer is increased automatically Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>maxSumNegW</code>. Parameter <code>_this</code> can not be null. </p>
+<p>maximum sum of minus negative weights, if it is exceeded then stabilizer is increased automatically Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>maxSumNegW</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1707,7 +1707,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the algorithm is iterative, the more iterations the closer result to exact solution Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>numIters</code>. Parameter <code>_this</code> can not be null. </p>
+<p>the algorithm is iterative, the more iterations the closer result to exact solution Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>numIters</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1729,7 +1729,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>vertices to be moved by the algorithm, nullptr means all valid vertices Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. </p>
+<p>vertices to be moved by the algorithm, nullptr means all valid vertices Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1751,7 +1751,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>too small number here can lead to instability, too large - to slow convergence Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. </p>
+<p>too small number here can lead to instability, too large - to slow convergence Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SpacingSettings.html">MR::SpacingSettings</a></code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

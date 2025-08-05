@@ -589,7 +589,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds the edges on the mesh that divides catchment basin (every triangle is attributed to the final destination point based on the path originated from its centroid) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1FlowAggregator.html">MR::FlowAggregator</a></code> named <code>computeCatchmentDelineation</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds the edges on the mesh that divides catchment basin (every triangle is attributed to the final destination point based on the path originated from its centroid) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1FlowAggregator.html">MR::FlowAggregator</a></code> named <code>computeCatchmentDelineation</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -622,7 +622,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>the flow reached each mesh vertex Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1FlowAggregator.html">MR::FlowAggregator</a></code> named <code>computeFlow</code>. Parameter <code>_this</code> can not be null. Parameter <code>starts</code> can not be null. Parameter <code>out</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#a83a57f50db4b03b5b3ab957541afdd1f" title="Destroys a heap-allocated instance of MR_VertScalars. Does nothing if the pointer is null.">MR_VertScalars_Destroy()</a></code> to free it when you're done using it. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>the flow reached each mesh vertex Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1FlowAggregator.html">MR::FlowAggregator</a></code> named <code>computeFlow</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>starts</code> can not be null. It is a single object. Parameter <code>out</code> is a single object. Parameter <code>out</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#a83a57f50db4b03b5b3ab957541afdd1f" title="Destroys a heap-allocated instance of MR_VertScalars. Does nothing if the pointer is null.">MR_VertScalars_Destroy()</a></code> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -649,7 +649,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1FlowAggregator.html">MR::FlowAggregator</a></code> named <code>computeFlow</code>. Parameter <code>_this</code> can not be null. Parameter <code>starts</code> can not be null. Parameter <code>out</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#a83a57f50db4b03b5b3ab957541afdd1f" title="Destroys a heap-allocated instance of MR_VertScalars. Does nothing if the pointer is null.">MR_VertScalars_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1FlowAggregator.html">MR::FlowAggregator</a></code> named <code>computeFlow</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>starts</code> can not be null. It is a single object. Parameter <code>out</code> is a single object. Parameter <code>out</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#a83a57f50db4b03b5b3ab957541afdd1f" title="Destroys a heap-allocated instance of MR_VertScalars. Does nothing if the pointer is null.">MR_VertScalars_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -691,7 +691,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1FlowAggregator.html">MR::FlowAggregator</a></code> named <code>computeFlow</code>. Parameter <code>_this</code> can not be null. Parameter <code>startById</code> can not be null. Parameter <code>amountById</code> can not be null. Parameter <code>regionById</code> can not be null. Parameter <code>out</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#a83a57f50db4b03b5b3ab957541afdd1f" title="Destroys a heap-allocated instance of MR_VertScalars. Does nothing if the pointer is null.">MR_VertScalars_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1FlowAggregator.html">MR::FlowAggregator</a></code> named <code>computeFlow</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>startById</code> can not be null. It is a single object. Parameter <code>amountById</code> can not be null. It is a single object. Parameter <code>regionById</code> can not be null. It is a single object. Parameter <code>out</code> is a single object. Parameter <code>out</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVector_8h.html#a83a57f50db4b03b5b3ab957541afdd1f" title="Destroys a heap-allocated instance of MR_VertScalars. Does nothing if the pointer is null.">MR_VertScalars_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -719,7 +719,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>the flows grouped by the final destination vertex Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1FlowAggregator.html">MR::FlowAggregator</a></code> named <code>computeFlowsPerBasin</code>. Parameter <code>_this</code> can not be null. Parameter <code>starts</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h.html#a9279614769621527561e94f863c33fb5" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VertId_MR_FlowAggregator_Flows....">MR_phmap_flat_hash_map_MR_VertId_MR_FlowAggregator_Flows_Destroy()</a></code> to free it when you're done using it. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>the flows grouped by the final destination vertex Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1FlowAggregator.html">MR::FlowAggregator</a></code> named <code>computeFlowsPerBasin</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>starts</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h.html#a9279614769621527561e94f863c33fb5" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VertId_MR_FlowAggregator_Flows....">MR_phmap_flat_hash_map_MR_VertId_MR_FlowAggregator_Flows_Destroy()</a></code> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -741,7 +741,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1FlowAggregator.html">MR::FlowAggregator</a></code> named <code>computeFlowsPerBasin</code>. Parameter <code>_this</code> can not be null. Parameter <code>starts</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h.html#a9279614769621527561e94f863c33fb5" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VertId_MR_FlowAggregator_Flows....">MR_phmap_flat_hash_map_MR_VertId_MR_FlowAggregator_Flows_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1FlowAggregator.html">MR::FlowAggregator</a></code> named <code>computeFlowsPerBasin</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>starts</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h.html#a9279614769621527561e94f863c33fb5" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VertId_MR_FlowAggregator_Flows....">MR_phmap_flat_hash_map_MR_VertId_MR_FlowAggregator_Flows_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -773,7 +773,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1FlowAggregator.html">MR::FlowAggregator</a></code> named <code>computeFlowsPerBasin</code>. Parameter <code>_this</code> can not be null. Parameter <code>startById</code> can not be null. Parameter <code>amountById</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h.html#a9279614769621527561e94f863c33fb5" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VertId_MR_FlowAggregator_Flows....">MR_phmap_flat_hash_map_MR_VertId_MR_FlowAggregator_Flows_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1FlowAggregator.html">MR::FlowAggregator</a></code> named <code>computeFlowsPerBasin</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>startById</code> can not be null. It is a single object. Parameter <code>amountById</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="phmap__flat__hash__map__MR__VertId__MR__FlowAggregator__Flows_8h.html#a9279614769621527561e94f863c33fb5" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VertId_MR_FlowAggregator_Flows....">MR_phmap_flat_hash_map_MR_VertId_MR_FlowAggregator_Flows_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -795,7 +795,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>prepares the processing of given mesh with given height in each vertex Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1FlowAggregator.html">MR::FlowAggregator</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>heights</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#afa85e540c29a13e6f505fa629b8c4d7a" title="Destroys a heap-allocated instance of MR_FlowAggregator. Does nothing if the pointer is null.">MR_FlowAggregator_Destroy()</a></code> to free it when you're done using it. </p>
+<p>prepares the processing of given mesh with given height in each vertex Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1FlowAggregator.html">MR::FlowAggregator</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>heights</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#afa85e540c29a13e6f505fa629b8c4d7a" title="Destroys a heap-allocated instance of MR_FlowAggregator. Does nothing if the pointer is null.">MR_FlowAggregator_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -882,7 +882,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowAggregator_1_1Flows.html">MR::FlowAggregator::Flows</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowAggregator_1_1Flows.html">MR::FlowAggregator::Flows</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1028,7 +1028,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowAggregator_1_1Flows.html">MR::FlowAggregator::Flows</a></code> named <code>flowPerEdge</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowAggregator_1_1Flows.html">MR::FlowAggregator::Flows</a></code> named <code>flowPerEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1046,7 +1046,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowAggregator_1_1Flows.html">MR::FlowAggregator::Flows</a></code> named <code>polyline</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowAggregator_1_1Flows.html">MR::FlowAggregator::Flows</a></code> named <code>polyline</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1064,7 +1064,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowAggregator_1_1Flows.html">MR::FlowAggregator::Flows</a></code> named <code>flowPerEdge</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowAggregator_1_1Flows.html">MR::FlowAggregator::Flows</a></code> named <code>flowPerEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1082,7 +1082,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowAggregator_1_1Flows.html">MR::FlowAggregator::Flows</a></code> named <code>polyline</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowAggregator_1_1Flows.html">MR::FlowAggregator::Flows</a></code> named <code>polyline</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1155,7 +1155,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowAggregator_1_1Flows.html">MR::FlowAggregator::Flows</a></code> named <code>flowPerEdge</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowAggregator_1_1Flows.html">MR::FlowAggregator::Flows</a></code> named <code>flowPerEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1182,7 +1182,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowAggregator_1_1Flows.html">MR::FlowAggregator::Flows</a></code> named <code>polyline</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowAggregator_1_1Flows.html">MR::FlowAggregator::Flows</a></code> named <code>polyline</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1250,7 +1250,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowOrigin.html">MR::FlowOrigin</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowOrigin.html">MR::FlowOrigin</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1272,7 +1272,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1FlowOrigin.html">MR::FlowOrigin</a></code> elementwise. Parameter <code>point</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a09e0b6812dae13f6999c84c44b09d0f1" title="Destroys a heap-allocated instance of MR_FlowOrigin. Does nothing if the pointer is null.">MR_FlowOrigin_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1FlowOrigin.html">MR::FlowOrigin</a></code> elementwise. Parameter <code>point</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a09e0b6812dae13f6999c84c44b09d0f1" title="Destroys a heap-allocated instance of MR_FlowOrigin. Does nothing if the pointer is null.">MR_FlowOrigin_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1290,7 +1290,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowOrigin.html">MR::FlowOrigin</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a09e0b6812dae13f6999c84c44b09d0f1" title="Destroys a heap-allocated instance of MR_FlowOrigin. Does nothing if the pointer is null.">MR_FlowOrigin_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowOrigin.html">MR::FlowOrigin</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a09e0b6812dae13f6999c84c44b09d0f1" title="Destroys a heap-allocated instance of MR_FlowOrigin. Does nothing if the pointer is null.">MR_FlowOrigin_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1382,7 +1382,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>amount of flow, e.g. can be proportional to the horizontal area associated with the start point Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowOrigin.html">MR::FlowOrigin</a></code> named <code>amount</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>amount of flow, e.g. can be proportional to the horizontal area associated with the start point Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowOrigin.html">MR::FlowOrigin</a></code> named <code>amount</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1400,7 +1400,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>point on the mesh, where this flow starts Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowOrigin.html">MR::FlowOrigin</a></code> named <code>point</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>point on the mesh, where this flow starts Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowOrigin.html">MR::FlowOrigin</a></code> named <code>point</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1418,7 +1418,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>amount of flow, e.g. can be proportional to the horizontal area associated with the start point Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowOrigin.html">MR::FlowOrigin</a></code> named <code>amount</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>amount of flow, e.g. can be proportional to the horizontal area associated with the start point Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowOrigin.html">MR::FlowOrigin</a></code> named <code>amount</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1436,7 +1436,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>point on the mesh, where this flow starts Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowOrigin.html">MR::FlowOrigin</a></code> named <code>point</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>point on the mesh, where this flow starts Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowOrigin.html">MR::FlowOrigin</a></code> named <code>point</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1504,7 +1504,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>amount of flow, e.g. can be proportional to the horizontal area associated with the start point Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowOrigin.html">MR::FlowOrigin</a></code> named <code>amount</code>. Parameter <code>_this</code> can not be null. </p>
+<p>amount of flow, e.g. can be proportional to the horizontal area associated with the start point Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowOrigin.html">MR::FlowOrigin</a></code> named <code>amount</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1526,7 +1526,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>point on the mesh, where this flow starts Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowOrigin.html">MR::FlowOrigin</a></code> named <code>point</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. </p>
+<p>point on the mesh, where this flow starts Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FlowOrigin.html">MR::FlowOrigin</a></code> named <code>point</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1548,7 +1548,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1OutputFlows.html">MR::OutputFlows</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1OutputFlows.html">MR::OutputFlows</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1593,7 +1593,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1OutputFlows.html">MR::OutputFlows</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac330cbf88469accaf3592bc784f54284" title="Destroys a heap-allocated instance of MR_OutputFlows. Does nothing if the pointer is null.">MR_OutputFlows_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1OutputFlows.html">MR::OutputFlows</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac330cbf88469accaf3592bc784f54284" title="Destroys a heap-allocated instance of MR_OutputFlows. Does nothing if the pointer is null.">MR_OutputFlows_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1685,7 +1685,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>output in outPolyline only the flows with the amount greater than Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OutputFlows.html">MR::OutputFlows</a></code> named <code>amountGreaterThan</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>output in outPolyline only the flows with the amount greater than Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OutputFlows.html">MR::OutputFlows</a></code> named <code>amountGreaterThan</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1703,7 +1703,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output: flow in each line of outPolyline Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OutputFlows.html">MR::OutputFlows</a></code> named <code>pFlowPerEdge</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional output: flow in each line of outPolyline Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OutputFlows.html">MR::OutputFlows</a></code> named <code>pFlowPerEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1721,7 +1721,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output: lines of all flows Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OutputFlows.html">MR::OutputFlows</a></code> named <code>pPolyline</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional output: lines of all flows Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OutputFlows.html">MR::OutputFlows</a></code> named <code>pPolyline</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1739,7 +1739,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>output in outPolyline only the flows with the amount greater than Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OutputFlows.html">MR::OutputFlows</a></code> named <code>amountGreaterThan</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>output in outPolyline only the flows with the amount greater than Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OutputFlows.html">MR::OutputFlows</a></code> named <code>amountGreaterThan</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1757,7 +1757,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output: flow in each line of outPolyline Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OutputFlows.html">MR::OutputFlows</a></code> named <code>pFlowPerEdge</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional output: flow in each line of outPolyline Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OutputFlows.html">MR::OutputFlows</a></code> named <code>pFlowPerEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1775,7 +1775,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output: lines of all flows Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OutputFlows.html">MR::OutputFlows</a></code> named <code>pPolyline</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional output: lines of all flows Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OutputFlows.html">MR::OutputFlows</a></code> named <code>pPolyline</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1843,7 +1843,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>output in outPolyline only the flows with the amount greater than Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OutputFlows.html">MR::OutputFlows</a></code> named <code>amountGreaterThan</code>. Parameter <code>_this</code> can not be null. </p>
+<p>output in outPolyline only the flows with the amount greater than Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OutputFlows.html">MR::OutputFlows</a></code> named <code>amountGreaterThan</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1865,7 +1865,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output: flow in each line of outPolyline Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OutputFlows.html">MR::OutputFlows</a></code> named <code>pFlowPerEdge</code>. Parameter <code>_this</code> can not be null. </p>
+<p>optional output: flow in each line of outPolyline Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OutputFlows.html">MR::OutputFlows</a></code> named <code>pFlowPerEdge</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1887,7 +1887,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output: lines of all flows Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OutputFlows.html">MR::OutputFlows</a></code> named <code>pPolyline</code>. Parameter <code>_this</code> can not be null. </p>
+<p>optional output: lines of all flows Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1OutputFlows.html">MR::OutputFlows</a></code> named <code>pPolyline</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

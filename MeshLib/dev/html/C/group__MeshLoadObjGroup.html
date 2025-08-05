@@ -399,7 +399,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>loads meshes from .obj file Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadObjGroup.html#gab52f28ac17e79efc94fc00389e683c02">MR::MeshLoad::fromSceneObjFile</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__MR__MeshLoad__NamedMesh__std__string_8h.html#a7ea4da0c45538257096123a2e65ab21b" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string....">MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>loads meshes from .obj file Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadObjGroup.html#gab52f28ac17e79efc94fc00389e683c02">MR::MeshLoad::fromSceneObjFile</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__MR__MeshLoad__NamedMesh__std__string_8h.html#a7ea4da0c45538257096123a2e65ab21b" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string....">MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -438,7 +438,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>loads meshes from a stream with .obj file contents important on Windows: in stream must be open in binary mode </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">dir</td><td>working directory where materials and textures are located Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadObjGroup.html#gab52f28ac17e79efc94fc00389e683c02">MR::MeshLoad::fromSceneObjFile</a></code>. Parameter <code>in</code> can not be null. Parameter <code>dir</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__MR__MeshLoad__NamedMesh__std__string_8h.html#a7ea4da0c45538257096123a2e65ab21b" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string....">MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">dir</td><td>working directory where materials and textures are located Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadObjGroup.html#gab52f28ac17e79efc94fc00389e683c02">MR::MeshLoad::fromSceneObjFile</a></code>. Parameter <code>in</code> can not be null. It is a single object. Parameter <code>dir</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__MR__MeshLoad__NamedMesh__std__string_8h.html#a7ea4da0c45538257096123a2e65ab21b" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string....">MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -485,7 +485,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>loads meshes from memory array with .obj file contents </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">dir</td><td>working directory where materials and textures are located Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadObjGroup.html#gab52f28ac17e79efc94fc00389e683c02">MR::MeshLoad::fromSceneObjFile</a></code>. Parameter <code>dir</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__MR__MeshLoad__NamedMesh__std__string_8h.html#a7ea4da0c45538257096123a2e65ab21b" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string....">MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">dir</td><td>working directory where materials and textures are located Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadObjGroup.html#gab52f28ac17e79efc94fc00389e683c02">MR::MeshLoad::fromSceneObjFile</a></code>. Parameter <code>dir</code> is a UTF-8 encoded filesystem path. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__MR__MeshLoad__NamedMesh__std__string_8h.html#a7ea4da0c45538257096123a2e65ab21b" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string....">MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -515,7 +515,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>reads all objects from .OBJ file Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadObjGroup.html#gae5d6ebb9bff1143f8f529031d34001f2">MR::MeshLoad::loadObjectFromObj</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__LoadedObjects__std__string_8h.html#a473289ce8f7d72bea2182cb2dba9257b" title="Destroys a heap-allocated instance of MR_expected_MR_LoadedObjects_std_string. Does nothing if the po...">MR_expected_MR_LoadedObjects_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>reads all objects from .OBJ file Generated from function <code><a class="elRef" href="../Cpp/group__MeshLoadObjGroup.html#gae5d6ebb9bff1143f8f529031d34001f2">MR::MeshLoad::loadObjectFromObj</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>cb</code> is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__LoadedObjects__std__string_8h.html#a473289ce8f7d72bea2182cb2dba9257b" title="Destroys a heap-allocated instance of MR_expected_MR_LoadedObjects_std_string. Does nothing if the po...">MR_expected_MR_LoadedObjects_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -542,7 +542,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -748,7 +748,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>colors</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>colors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -766,7 +766,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>diffuseColor</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>diffuseColor</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -784,7 +784,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>counter of duplicated vertices (that created for resolve non-manifold geometry) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>duplicatedVertexCount</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>counter of duplicated vertices (that created for resolve non-manifold geometry) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>duplicatedVertexCount</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -802,7 +802,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>mesh</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>mesh</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -820,7 +820,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>name</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>name</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -838,7 +838,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>counter of skipped faces (faces than can't be created), not zero only if ObjLoadSettings.countSkippedFaces Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>skippedFaceCount</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>counter of skipped faces (faces than can't be created), not zero only if ObjLoadSettings.countSkippedFaces Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>skippedFaceCount</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -856,7 +856,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>textureFiles</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>textureFiles</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -874,7 +874,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>texturePerFace</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>texturePerFace</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -892,7 +892,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>uvCoords</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>uvCoords</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -910,7 +910,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>transform of the loaded mesh, not identity only if ObjLoadSettings.customXf Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>xf</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>transform of the loaded mesh, not identity only if ObjLoadSettings.customXf Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -928,7 +928,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>colors</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>colors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -946,7 +946,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>diffuseColor</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>diffuseColor</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -964,7 +964,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>counter of duplicated vertices (that created for resolve non-manifold geometry) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>duplicatedVertexCount</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>counter of duplicated vertices (that created for resolve non-manifold geometry) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>duplicatedVertexCount</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -982,7 +982,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>mesh</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>mesh</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1000,7 +1000,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>name</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>name</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1018,7 +1018,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>counter of skipped faces (faces than can't be created), not zero only if ObjLoadSettings.countSkippedFaces Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>skippedFaceCount</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>counter of skipped faces (faces than can't be created), not zero only if ObjLoadSettings.countSkippedFaces Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>skippedFaceCount</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1036,7 +1036,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>textureFiles</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>textureFiles</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1054,7 +1054,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>texturePerFace</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>texturePerFace</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1072,7 +1072,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>uvCoords</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>uvCoords</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1090,7 +1090,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>transform of the loaded mesh, not identity only if ObjLoadSettings.customXf Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>xf</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>transform of the loaded mesh, not identity only if ObjLoadSettings.customXf Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1163,7 +1163,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>colors</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>colors</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1185,7 +1185,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>diffuseColor</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>diffuseColor</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. </p>
 
 </div>
 </div>
@@ -1207,7 +1207,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>counter of duplicated vertices (that created for resolve non-manifold geometry) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>duplicatedVertexCount</code>. Parameter <code>_this</code> can not be null. </p>
+<p>counter of duplicated vertices (that created for resolve non-manifold geometry) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>duplicatedVertexCount</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1234,7 +1234,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>mesh</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>mesh</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1261,7 +1261,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>name</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>name</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. </p>
 
 </div>
 </div>
@@ -1283,7 +1283,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>counter of skipped faces (faces than can't be created), not zero only if ObjLoadSettings.countSkippedFaces Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>skippedFaceCount</code>. Parameter <code>_this</code> can not be null. </p>
+<p>counter of skipped faces (faces than can't be created), not zero only if ObjLoadSettings.countSkippedFaces Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>skippedFaceCount</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1310,7 +1310,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>textureFiles</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>textureFiles</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1337,7 +1337,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>texturePerFace</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>texturePerFace</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1364,7 +1364,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>uvCoords</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>uvCoords</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1386,7 +1386,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>transform of the loaded mesh, not identity only if ObjLoadSettings.customXf Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>xf</code>. Parameter <code>_this</code> can not be null. </p>
+<p>transform of the loaded mesh, not identity only if ObjLoadSettings.customXf Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1NamedMesh.html">MR::MeshLoad::NamedMesh</a></code> named <code>xf</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1413,7 +1413,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1ObjLoadSettings.html">MR::MeshLoad::ObjLoadSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1ObjLoadSettings.html">MR::MeshLoad::ObjLoadSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1559,7 +1559,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>callback for set progress and stop process Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1ObjLoadSettings.html">MR::MeshLoad::ObjLoadSettings</a></code> named <code>callback</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>callback for set progress and stop process Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1ObjLoadSettings.html">MR::MeshLoad::ObjLoadSettings</a></code> named <code>callback</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1577,7 +1577,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true, the number of skipped faces (faces than can't be created) will be counted Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1ObjLoadSettings.html">MR::MeshLoad::ObjLoadSettings</a></code> named <code>countSkippedFaces</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true, the number of skipped faces (faces than can't be created) will be counted Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1ObjLoadSettings.html">MR::MeshLoad::ObjLoadSettings</a></code> named <code>countSkippedFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1595,7 +1595,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true then vertices will be returned relative to some transformation to avoid precision loss Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1ObjLoadSettings.html">MR::MeshLoad::ObjLoadSettings</a></code> named <code>customXf</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true then vertices will be returned relative to some transformation to avoid precision loss Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1ObjLoadSettings.html">MR::MeshLoad::ObjLoadSettings</a></code> named <code>customXf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1613,7 +1613,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>callback for set progress and stop process Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1ObjLoadSettings.html">MR::MeshLoad::ObjLoadSettings</a></code> named <code>callback</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>callback for set progress and stop process Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1ObjLoadSettings.html">MR::MeshLoad::ObjLoadSettings</a></code> named <code>callback</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1631,7 +1631,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true, the number of skipped faces (faces than can't be created) will be counted Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1ObjLoadSettings.html">MR::MeshLoad::ObjLoadSettings</a></code> named <code>countSkippedFaces</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true, the number of skipped faces (faces than can't be created) will be counted Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1ObjLoadSettings.html">MR::MeshLoad::ObjLoadSettings</a></code> named <code>countSkippedFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1649,7 +1649,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true then vertices will be returned relative to some transformation to avoid precision loss Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1ObjLoadSettings.html">MR::MeshLoad::ObjLoadSettings</a></code> named <code>customXf</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true then vertices will be returned relative to some transformation to avoid precision loss Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1ObjLoadSettings.html">MR::MeshLoad::ObjLoadSettings</a></code> named <code>customXf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1722,7 +1722,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>callback for set progress and stop process Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1ObjLoadSettings.html">MR::MeshLoad::ObjLoadSettings</a></code> named <code>callback</code>. Parameter <code>_this</code> can not be null. </p>
+<p>callback for set progress and stop process Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1ObjLoadSettings.html">MR::MeshLoad::ObjLoadSettings</a></code> named <code>callback</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1744,7 +1744,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true, the number of skipped faces (faces than can't be created) will be counted Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1ObjLoadSettings.html">MR::MeshLoad::ObjLoadSettings</a></code> named <code>countSkippedFaces</code>. Parameter <code>_this</code> can not be null. </p>
+<p>if true, the number of skipped faces (faces than can't be created) will be counted Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1ObjLoadSettings.html">MR::MeshLoad::ObjLoadSettings</a></code> named <code>countSkippedFaces</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1766,7 +1766,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true then vertices will be returned relative to some transformation to avoid precision loss Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1ObjLoadSettings.html">MR::MeshLoad::ObjLoadSettings</a></code> named <code>customXf</code>. Parameter <code>_this</code> can not be null. </p>
+<p>if true then vertices will be returned relative to some transformation to avoid precision loss Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshLoad_1_1ObjLoadSettings.html">MR::MeshLoad::ObjLoadSettings</a></code> named <code>customXf</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

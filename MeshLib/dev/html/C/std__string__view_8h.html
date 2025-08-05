@@ -240,7 +240,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Assigns the contents. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. If <code>other_end</code> is null, then <code>other</code> is assumed to be null-terminated. </p>
+<p>Assigns the contents. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>other</code> can not be null. If <code>other_end</code> is null, then <code>other</code> is assumed to be null-terminated. </p>
 
 </div>
 </div>
@@ -262,7 +262,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>other</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -302,7 +302,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a60263c987a5fa5a84ab719fb020cad24" title="Destroys a heap-allocated instance of MR_std_string_view. Does nothing if the pointer is null.">MR_std_string_view_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a60263c987a5fa5a84ab719fb020cad24" title="Destroys a heap-allocated instance of MR_std_string_view. Does nothing if the pointer is null.">MR_std_string_view_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -320,7 +320,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns the string contents, NOT necessarily null-terminated. Parameter <code>_this</code> can not be null. </p>
+<p>Returns the string contents, NOT necessarily null-terminated. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -338,7 +338,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to the end of string. Not dereferencable. Parameter <code>_this</code> can not be null. </p>
+<p>Returns a pointer to the end of string. Not dereferencable. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -476,7 +476,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The number of characters in the string. Parameter <code>_this</code> can not be null. </p>
+<p>The number of characters in the string. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

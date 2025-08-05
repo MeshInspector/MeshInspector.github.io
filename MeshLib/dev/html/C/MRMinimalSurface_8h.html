@@ -381,7 +381,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs TPMS level-set and then convert it to mesh Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1TPMS.html#a1cc6400872bb5bb0cfa19bc6ad6ff63a">MR::TPMS::build</a></code>. Parameter <code>size</code> can not be null. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Constructs TPMS level-set and then convert it to mesh Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1TPMS.html#a1cc6400872bb5bb0cfa19bc6ad6ff63a">MR::TPMS::build</a></code>. Parameter <code>size</code> can not be null. It is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -422,7 +422,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Distance-volume starting at (0, 0, 0) and having specified <code>size</code> Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1TPMS.html#a4afea78518d43b5e7e4a10af164039f9">MR::TPMS::buildVolume</a></code>. Parameter <code>size</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVoxelsVolume_8h.html#a148acc6ef9eec38ed406af2b65314405" title="Destroys a heap-allocated instance of MR_FunctionVolume. Does nothing if the pointer is null.">MR_FunctionVolume_Destroy()</a></code> to free it when you're done using it. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Distance-volume starting at (0, 0, 0) and having specified <code>size</code> Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1TPMS.html#a4afea78518d43b5e7e4a10af164039f9">MR::TPMS::buildVolume</a></code>. Parameter <code>size</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVoxelsVolume_8h.html#a148acc6ef9eec38ed406af2b65314405" title="Destroys a heap-allocated instance of MR_FunctionVolume. Does nothing if the pointer is null.">MR_FunctionVolume_Destroy()</a></code> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -525,7 +525,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs TPMS-filling for the given <code>mesh</code> Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1TPMS.html#af47fb4311bccbc35779a4c9b23bb8baa">MR::TPMS::fill</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Constructs TPMS-filling for the given <code>mesh</code> Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1TPMS.html#af47fb4311bccbc35779a4c9b23bb8baa">MR::TPMS::fill</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -552,7 +552,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns number of voxels that would be used to perform fillWithTPMS Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1TPMS.html#a77521675bbf890f6d37fb6f4f756e5f6">MR::TPMS::getNumberOfVoxels</a></code>. Parameter <code>mesh</code> can not be null. </p>
+<p>Returns number of voxels that would be used to perform fillWithTPMS Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1TPMS.html#a77521675bbf890f6d37fb6f4f756e5f6">MR::TPMS::getNumberOfVoxels</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -579,7 +579,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns number of voxels that would be used to perform buildTPMS or buildTPMSVolume Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1TPMS.html#a77521675bbf890f6d37fb6f4f756e5f6">MR::TPMS::getNumberOfVoxels</a></code>. Parameter <code>size</code> can not be null. </p>
+<p>Returns number of voxels that would be used to perform buildTPMS or buildTPMSVolume Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1TPMS.html#a77521675bbf890f6d37fb6f4f756e5f6">MR::TPMS::getNumberOfVoxels</a></code>. Parameter <code>size</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

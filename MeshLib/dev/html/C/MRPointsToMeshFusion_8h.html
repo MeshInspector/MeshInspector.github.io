@@ -330,7 +330,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>makes mesh from points with normals by constructing intermediate volume with signed distances and then using marching cubes algorithm to extract the surface from there Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#abbc1adfce73c26127f80973b21afcbf4">MR::pointsToMeshFusion</a></code>. Parameter <code>cloud</code> can not be null. Parameter <code>params</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>makes mesh from points with normals by constructing intermediate volume with signed distances and then using marching cubes algorithm to extract the surface from there Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#abbc1adfce73c26127f80973b21afcbf4">MR::pointsToMeshFusion</a></code>. Parameter <code>cloud</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -357,7 +357,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -471,7 +471,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>minimum sum of influence weights from surrounding points for a triangle to appear, meaning that there shall be at least this number of points in close proximity Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>minWeight</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>minimum sum of influence weights from surrounding points for a triangle to appear, meaning that there shall be at least this number of points in close proximity Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>minWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -489,7 +489,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Progress callback Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Progress callback Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -507,7 +507,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional input: colors of input points Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>ptColors</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional input: colors of input points Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>ptColors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -525,7 +525,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>sigma</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>sigma</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -543,7 +543,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output: averaged colors of mesh vertices Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>vColors</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional output: averaged colors of mesh vertices Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>vColors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -561,7 +561,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Size of voxel in grid conversions; The user is responsible for setting some positive value here Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Size of voxel in grid conversions; The user is responsible for setting some positive value here Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -579,7 +579,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>minimum sum of influence weights from surrounding points for a triangle to appear, meaning that there shall be at least this number of points in close proximity Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>minWeight</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>minimum sum of influence weights from surrounding points for a triangle to appear, meaning that there shall be at least this number of points in close proximity Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>minWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -597,7 +597,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Progress callback Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Progress callback Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -615,7 +615,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional input: colors of input points Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>ptColors</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional input: colors of input points Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>ptColors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -633,7 +633,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>sigma</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>sigma</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -651,7 +651,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output: averaged colors of mesh vertices Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>vColors</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional output: averaged colors of mesh vertices Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>vColors</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -669,7 +669,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Size of voxel in grid conversions; The user is responsible for setting some positive value here Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Size of voxel in grid conversions; The user is responsible for setting some positive value here Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -737,7 +737,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>minimum sum of influence weights from surrounding points for a triangle to appear, meaning that there shall be at least this number of points in close proximity Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>minWeight</code>. Parameter <code>_this</code> can not be null. </p>
+<p>minimum sum of influence weights from surrounding points for a triangle to appear, meaning that there shall be at least this number of points in close proximity Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>minWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -764,7 +764,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Progress callback Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Progress callback Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -786,7 +786,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional input: colors of input points Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>ptColors</code>. Parameter <code>_this</code> can not be null. </p>
+<p>optional input: colors of input points Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>ptColors</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -808,7 +808,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>sigma</code>. Parameter <code>_this</code> can not be null. </p>
+<p>it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>sigma</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -830,7 +830,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output: averaged colors of mesh vertices Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>vColors</code>. Parameter <code>_this</code> can not be null. </p>
+<p>optional output: averaged colors of mesh vertices Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>vColors</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -852,7 +852,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Size of voxel in grid conversions; The user is responsible for setting some positive value here Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Size of voxel in grid conversions; The user is responsible for setting some positive value here Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

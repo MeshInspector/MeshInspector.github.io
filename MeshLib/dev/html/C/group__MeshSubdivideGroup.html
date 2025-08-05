@@ -353,7 +353,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>creates a copy of given mesh part, subdivides it to get rid of too long edges compared with voxelSize, then packs resulting mesh, this is called typically in preparation for 3D space sampling with voxelSize step, and subdivision is important for making leaves of AABB tree not too big compared with voxelSize Generated from function <code><a class="elRef" href="../Cpp/group__MeshSubdivideGroup.html#ga59a37b275037ffc76fab5916f13e6ecb">MR::copySubdividePackMesh</a></code>. Parameter <code>mp</code> can not be null. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>creates a copy of given mesh part, subdivides it to get rid of too long edges compared with voxelSize, then packs resulting mesh, this is called typically in preparation for 3D space sampling with voxelSize step, and subdivision is important for making leaves of AABB tree not too big compared with voxelSize Generated from function <code><a class="elRef" href="../Cpp/group__MeshSubdivideGroup.html#ga59a37b275037ffc76fab5916f13e6ecb">MR::copySubdividePackMesh</a></code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>cb</code> is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -375,7 +375,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the data of subdivided mesh given ObjectMesh (which remains unchanged) and subdivision parameters Generated from function <code><a class="elRef" href="../Cpp/group__MeshSubdivideGroup.html#gaae0359e17d056447a25f6006c825f2f0">MR::makeSubdividedObjectMeshData</a></code>. Parameter <code>obj</code> can not be null. Parameter <code>settings</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRObjectMeshData_8h.html#a4523b0dda565e986784306c96bfb6b27" title="Destroys a heap-allocated instance of MR_ObjectMeshData. Does nothing if the pointer is null.">MR_ObjectMeshData_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns the data of subdivided mesh given ObjectMesh (which remains unchanged) and subdivision parameters Generated from function <code><a class="elRef" href="../Cpp/group__MeshSubdivideGroup.html#gaae0359e17d056447a25f6006c825f2f0">MR::makeSubdividedObjectMeshData</a></code>. Parameter <code>obj</code> can not be null. It is a single object. Parameter <code>settings</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRObjectMeshData_8h.html#a4523b0dda565e986784306c96bfb6b27" title="Destroys a heap-allocated instance of MR_ObjectMeshData. Does nothing if the pointer is null.">MR_ObjectMeshData_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -398,7 +398,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>splits edges in mesh region according to the settings;<br  />
-</p><dl class="section return"><dt>Returns</dt><dd>The total number of edge splits performed Generated from function <code><a class="elRef" href="../Cpp/group__MeshSubdivideGroup.html#ga8e8a41112544b99ef8f20e3e6b61fab7">MR::subdivideMesh</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </dd></dl>
+</p><dl class="section return"><dt>Returns</dt><dd>The total number of edge splits performed Generated from function <code><a class="elRef" href="../Cpp/group__MeshSubdivideGroup.html#ga8e8a41112544b99ef8f20e3e6b61fab7">MR::subdivideMesh</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </dd></dl>
 
 </div>
 </div>
@@ -420,7 +420,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>subdivides mesh with per-element attributes according to given settings; \detail if settings.region is not null, then given region must be a subset of current face selection or face selection must absent </p><dl class="section return"><dt>Returns</dt><dd>The total number of edge splits performed Generated from function <code><a class="elRef" href="../Cpp/group__MeshSubdivideGroup.html#ga8e8a41112544b99ef8f20e3e6b61fab7">MR::subdivideMesh</a></code>. Parameter <code>data</code> can not be null. Parameter <code>settings</code> can not be null. </dd></dl>
+<p>subdivides mesh with per-element attributes according to given settings; \detail if settings.region is not null, then given region must be a subset of current face selection or face selection must absent </p><dl class="section return"><dt>Returns</dt><dd>The total number of edge splits performed Generated from function <code><a class="elRef" href="../Cpp/group__MeshSubdivideGroup.html#ga8e8a41112544b99ef8f20e3e6b61fab7">MR::subdivideMesh</a></code>. Parameter <code>data</code> can not be null. It is a single object. Parameter <code>settings</code> can not be null. It is a single object. </dd></dl>
 
 </div>
 </div>
@@ -447,7 +447,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -683,7 +683,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this function is called each time edge (e) is going to split, if it returns false then this split will be skipped Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>beforeEdgeSplit</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>this function is called each time edge (e) is going to split, if it returns false then this split will be skipped Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>beforeEdgeSplit</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -701,7 +701,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If this value is less than FLT_MAX then edge flips will ignore dihedral angle check if one of triangles has aspect ratio more than this value Unit: rad Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>criticalAspectRatioFlip</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>If this value is less than FLT_MAX then edge flips will ignore dihedral angle check if one of triangles has aspect ratio more than this value Unit: rad Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>criticalAspectRatioFlip</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -719,7 +719,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxAngleChangeAfterFlip</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxAngleChangeAfterFlip</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -737,7 +737,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Improves local mesh triangulation by doing edge flips if it does not make too big surface deviation Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxDeviationAfterFlip</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Improves local mesh triangulation by doing edge flips if it does not make too big surface deviation Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxDeviationAfterFlip</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -755,7 +755,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxEdgeLen</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxEdgeLen</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -773,7 +773,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Maximum number of edge splits allowed Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxEdgeSplits</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Maximum number of edge splits allowed Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxEdgeSplits</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -791,7 +791,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>An edge is subdivided only if both its left and right triangles have aspect ratio below or equal to this value. So this is a maximum aspect ratio of a triangle that can be split on two before Delone optimization. Please set it to a smaller value only if subdivideBorder==false, otherwise many narrow triangles can appear near border Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxSplittableTriAspectRatio</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>An edge is subdivided only if both its left and right triangles have aspect ratio below or equal to this value. So this is a maximum aspect ratio of a triangle that can be split on two before Delone optimization. Please set it to a smaller value only if subdivideBorder==false, otherwise many narrow triangles can appear near border Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxSplittableTriAspectRatio</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -809,7 +809,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The subdivision stops as soon as all triangles (in the region) have aspect ratio below or equal to this value Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxTriAspectRatio</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>The subdivision stops as soon as all triangles (in the region) have aspect ratio below or equal to this value Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxTriAspectRatio</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -827,7 +827,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>minSharpDihedralAngle</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>minSharpDihedralAngle</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -845,7 +845,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>New vertices appeared during subdivision will be added here Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>newVerts</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>New vertices appeared during subdivision will be added here Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>newVerts</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -863,7 +863,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>notFlippable</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>notFlippable</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -881,7 +881,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>onEdgeSplit</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>onEdgeSplit</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -899,7 +899,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this function is called each time a new vertex has been created, but before the ring is made Delone Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>onVertCreated</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>this function is called each time a new vertex has been created, but before the ring is made Delone Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>onVertCreated</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -917,7 +917,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>callback to report algorithm progress and cancel it by user request Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>progressCallback</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>callback to report algorithm progress and cancel it by user request Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>progressCallback</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -935,7 +935,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true, then every new vertex will be projected on the original mesh (before smoothing) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>projectOnOriginalMesh</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true, then every new vertex will be projected on the original mesh (before smoothing) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>projectOnOriginalMesh</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -953,7 +953,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Region on mesh to be subdivided, it is updated during the operation Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Region on mesh to be subdivided, it is updated during the operation Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -971,7 +971,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Puts new vertices so that they form a smooth surface together with existing vertices. This option works best for natural surfaces without sharp edges in between triangles Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>smoothMode</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Puts new vertices so that they form a smooth surface together with existing vertices. This option works best for natural surfaces without sharp edges in between triangles Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>smoothMode</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -990,7 +990,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>If false do not touch border edges (cannot subdivide lone faces)<br  />
-use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab80626">MR::findRegionOuterFaces</a> to find boundary faces Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>subdivideBorder</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab80626">MR::findRegionOuterFaces</a> to find boundary faces Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>subdivideBorder</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1008,7 +1008,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this function is called each time edge (e) is going to split, if it returns false then this split will be skipped Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>beforeEdgeSplit</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>this function is called each time edge (e) is going to split, if it returns false then this split will be skipped Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>beforeEdgeSplit</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1026,7 +1026,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If this value is less than FLT_MAX then edge flips will ignore dihedral angle check if one of triangles has aspect ratio more than this value Unit: rad Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>criticalAspectRatioFlip</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>If this value is less than FLT_MAX then edge flips will ignore dihedral angle check if one of triangles has aspect ratio more than this value Unit: rad Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>criticalAspectRatioFlip</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1044,7 +1044,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxAngleChangeAfterFlip</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxAngleChangeAfterFlip</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1062,7 +1062,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Improves local mesh triangulation by doing edge flips if it does not make too big surface deviation Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxDeviationAfterFlip</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Improves local mesh triangulation by doing edge flips if it does not make too big surface deviation Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxDeviationAfterFlip</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1080,7 +1080,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxEdgeLen</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxEdgeLen</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1098,7 +1098,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Maximum number of edge splits allowed Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxEdgeSplits</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Maximum number of edge splits allowed Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxEdgeSplits</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1116,7 +1116,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>An edge is subdivided only if both its left and right triangles have aspect ratio below or equal to this value. So this is a maximum aspect ratio of a triangle that can be split on two before Delone optimization. Please set it to a smaller value only if subdivideBorder==false, otherwise many narrow triangles can appear near border Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxSplittableTriAspectRatio</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>An edge is subdivided only if both its left and right triangles have aspect ratio below or equal to this value. So this is a maximum aspect ratio of a triangle that can be split on two before Delone optimization. Please set it to a smaller value only if subdivideBorder==false, otherwise many narrow triangles can appear near border Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxSplittableTriAspectRatio</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1134,7 +1134,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The subdivision stops as soon as all triangles (in the region) have aspect ratio below or equal to this value Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxTriAspectRatio</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>The subdivision stops as soon as all triangles (in the region) have aspect ratio below or equal to this value Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxTriAspectRatio</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1152,7 +1152,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>minSharpDihedralAngle</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>minSharpDihedralAngle</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1170,7 +1170,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>New vertices appeared during subdivision will be added here Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>newVerts</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>New vertices appeared during subdivision will be added here Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>newVerts</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1188,7 +1188,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>notFlippable</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>notFlippable</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1206,7 +1206,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>onEdgeSplit</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>onEdgeSplit</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1224,7 +1224,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this function is called each time a new vertex has been created, but before the ring is made Delone Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>onVertCreated</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>this function is called each time a new vertex has been created, but before the ring is made Delone Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>onVertCreated</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1242,7 +1242,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>callback to report algorithm progress and cancel it by user request Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>progressCallback</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>callback to report algorithm progress and cancel it by user request Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>progressCallback</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1260,7 +1260,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true, then every new vertex will be projected on the original mesh (before smoothing) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>projectOnOriginalMesh</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true, then every new vertex will be projected on the original mesh (before smoothing) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>projectOnOriginalMesh</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1278,7 +1278,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Region on mesh to be subdivided, it is updated during the operation Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Region on mesh to be subdivided, it is updated during the operation Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1296,7 +1296,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Puts new vertices so that they form a smooth surface together with existing vertices. This option works best for natural surfaces without sharp edges in between triangles Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>smoothMode</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Puts new vertices so that they form a smooth surface together with existing vertices. This option works best for natural surfaces without sharp edges in between triangles Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>smoothMode</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1315,7 +1315,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
       </table>
 </div><div class="memdoc">
 <p>If false do not touch border edges (cannot subdivide lone faces)<br  />
-use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab80626">MR::findRegionOuterFaces</a> to find boundary faces Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>subdivideBorder</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab80626">MR::findRegionOuterFaces</a> to find boundary faces Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>subdivideBorder</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1388,7 +1388,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this function is called each time edge (e) is going to split, if it returns false then this split will be skipped Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>beforeEdgeSplit</code>. Parameter <code>_this</code> can not be null. </p>
+<p>this function is called each time edge (e) is going to split, if it returns false then this split will be skipped Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>beforeEdgeSplit</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1410,7 +1410,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If this value is less than FLT_MAX then edge flips will ignore dihedral angle check if one of triangles has aspect ratio more than this value Unit: rad Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>criticalAspectRatioFlip</code>. Parameter <code>_this</code> can not be null. </p>
+<p>If this value is less than FLT_MAX then edge flips will ignore dihedral angle check if one of triangles has aspect ratio more than this value Unit: rad Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>criticalAspectRatioFlip</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1432,7 +1432,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxAngleChangeAfterFlip</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxAngleChangeAfterFlip</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1454,7 +1454,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Improves local mesh triangulation by doing edge flips if it does not make too big surface deviation Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxDeviationAfterFlip</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Improves local mesh triangulation by doing edge flips if it does not make too big surface deviation Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxDeviationAfterFlip</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1476,7 +1476,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxEdgeLen</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxEdgeLen</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1498,7 +1498,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Maximum number of edge splits allowed Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxEdgeSplits</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Maximum number of edge splits allowed Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxEdgeSplits</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1520,7 +1520,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>An edge is subdivided only if both its left and right triangles have aspect ratio below or equal to this value. So this is a maximum aspect ratio of a triangle that can be split on two before Delone optimization. Please set it to a smaller value only if subdivideBorder==false, otherwise many narrow triangles can appear near border Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxSplittableTriAspectRatio</code>. Parameter <code>_this</code> can not be null. </p>
+<p>An edge is subdivided only if both its left and right triangles have aspect ratio below or equal to this value. So this is a maximum aspect ratio of a triangle that can be split on two before Delone optimization. Please set it to a smaller value only if subdivideBorder==false, otherwise many narrow triangles can appear near border Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxSplittableTriAspectRatio</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1542,7 +1542,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The subdivision stops as soon as all triangles (in the region) have aspect ratio below or equal to this value Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxTriAspectRatio</code>. Parameter <code>_this</code> can not be null. </p>
+<p>The subdivision stops as soon as all triangles (in the region) have aspect ratio below or equal to this value Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>maxTriAspectRatio</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1564,7 +1564,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>minSharpDihedralAngle</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>minSharpDihedralAngle</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1586,7 +1586,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>New vertices appeared during subdivision will be added here Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>newVerts</code>. Parameter <code>_this</code> can not be null. </p>
+<p>New vertices appeared during subdivision will be added here Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>newVerts</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1608,7 +1608,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>notFlippable</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>notFlippable</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1635,7 +1635,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>onEdgeSplit</code>. Parameter <code>_this</code> can not be null. </p>
+<p>this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>onEdgeSplit</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1662,7 +1662,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>this function is called each time a new vertex has been created, but before the ring is made Delone Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>onVertCreated</code>. Parameter <code>_this</code> can not be null. </p>
+<p>this function is called each time a new vertex has been created, but before the ring is made Delone Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>onVertCreated</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1689,7 +1689,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>callback to report algorithm progress and cancel it by user request Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>progressCallback</code>. Parameter <code>_this</code> can not be null. </p>
+<p>callback to report algorithm progress and cancel it by user request Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>progressCallback</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1711,7 +1711,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true, then every new vertex will be projected on the original mesh (before smoothing) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>projectOnOriginalMesh</code>. Parameter <code>_this</code> can not be null. </p>
+<p>if true, then every new vertex will be projected on the original mesh (before smoothing) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>projectOnOriginalMesh</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1733,7 +1733,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Region on mesh to be subdivided, it is updated during the operation Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Region on mesh to be subdivided, it is updated during the operation Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1755,7 +1755,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Puts new vertices so that they form a smooth surface together with existing vertices. This option works best for natural surfaces without sharp edges in between triangles Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>smoothMode</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Puts new vertices so that they form a smooth surface together with existing vertices. This option works best for natural surfaces without sharp edges in between triangles Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>smoothMode</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1778,7 +1778,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
       </table>
 </div><div class="memdoc">
 <p>If false do not touch border edges (cannot subdivide lone faces)<br  />
-use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab80626">MR::findRegionOuterFaces</a> to find boundary faces Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>subdivideBorder</code>. Parameter <code>_this</code> can not be null. </p>
+use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab80626">MR::findRegionOuterFaces</a> to find boundary faces Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></code> named <code>subdivideBorder</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

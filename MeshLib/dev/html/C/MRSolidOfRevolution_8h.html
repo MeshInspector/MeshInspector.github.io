@@ -222,7 +222,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Makes a solid-of-revolution mesh. The resulting mesh is symmetrical about the z-axis. The profile points must be in the format { distance to the z-axis; z value }. Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ab271cfb919f6d894d5b1ab9ab2f383e9">MR::makeSolidOfRevolution</a></code>. Parameter <code>profile</code> can not be null. Parameter <code>resolution</code> has a default argument: <code>16</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6" title="Destroys a heap-allocated instance of MR_Mesh. Does nothing if the pointer is null.">MR_Mesh_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Makes a solid-of-revolution mesh. The resulting mesh is symmetrical about the z-axis. The profile points must be in the format { distance to the z-axis; z value }. Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ab271cfb919f6d894d5b1ab9ab2f383e9">MR::makeSolidOfRevolution</a></code>. Parameter <code>profile</code> can not be null. It is a single object. Parameter <code>resolution</code> has a default argument: <code>16</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6" title="Destroys a heap-allocated instance of MR_Mesh. Does nothing if the pointer is null.">MR_Mesh_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

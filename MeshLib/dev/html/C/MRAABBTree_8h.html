@@ -289,7 +289,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1AABBTree.html">MR::AABBTree</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1AABBTree.html">MR::AABBTree</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -307,7 +307,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>creates tree for given mesh or its part Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1AABBTree.html">MR::AABBTree</a></code>. Parameter <code>mp</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1953e54b1e33ee5ac3b3d8af29f52035" title="Destroys a heap-allocated instance of MR_AABBTree. Does nothing if the pointer is null.">MR_AABBTree_Destroy()</a></code> to free it when you're done using it. </p>
+<p>creates tree for given mesh or its part Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1AABBTree.html">MR::AABBTree</a></code>. Parameter <code>mp</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a1953e54b1e33ee5ac3b3d8af29f52035" title="Destroys a heap-allocated instance of MR_AABBTree. Does nothing if the pointer is null.">MR_AABBTree_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -498,7 +498,7 @@ Functions</h2></td></tr>
 <p>updates bounding boxes of the nodes containing changed vertices; this is a faster alternative to full tree rebuild (but the tree after refit might be less efficient) </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">mesh</td><td>same mesh for which this tree was constructed but with updated coordinates; </td></tr>
-    <tr><td class="paramname">changedVerts</td><td>vertex ids with modified coordinates (since tree construction or last refit) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1AABBTree.html">MR::AABBTree</a></code> named <code>refit</code>. Parameter <code>_this</code> can not be null. Parameter <code>mesh</code> can not be null. Parameter <code>changedVerts</code> can not be null. </td></tr>
+    <tr><td class="paramname">changedVerts</td><td>vertex ids with modified coordinates (since tree construction or last refit) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1AABBTree.html">MR::AABBTree</a></code> named <code>refit</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>changedVerts</code> can not be null. It is a single object. </td></tr>
   </table>
   </dd>
 </dl>

@@ -326,7 +326,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>makes mesh by moving <code>body</code> along <code>trajectory</code> if allowRotation rotate it in corners Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#abbe08d25a222aedee5d0ac48491e4d05">MR::makeMovementBuildBody</a></code>. Parameter <code>body</code> can not be null. Parameter <code>trajectory</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6" title="Destroys a heap-allocated instance of MR_Mesh. Does nothing if the pointer is null.">MR_Mesh_Destroy()</a></code> to free it when you're done using it. </p>
+<p>makes mesh by moving <code>body</code> along <code>trajectory</code> if allowRotation rotate it in corners Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#abbe08d25a222aedee5d0ac48491e4d05">MR::makeMovementBuildBody</a></code>. Parameter <code>body</code> can not be null. It is a single object. Parameter <code>trajectory</code> can not be null. It is a single object. Parameter <code>params</code> is a single object. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6" title="Destroys a heap-allocated instance of MR_Mesh. Does nothing if the pointer is null.">MR_Mesh_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -348,7 +348,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MovementBuildBodyParams.html">MR::MovementBuildBodyParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MovementBuildBodyParams.html">MR::MovementBuildBodyParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -398,7 +398,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MovementBuildBodyParams.html">MR::MovementBuildBodyParams</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aed062124fe36110596a38f9b6662598a" title="Destroys a heap-allocated instance of MR_MovementBuildBodyParams. Does nothing if the pointer is null...">MR_MovementBuildBodyParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1MovementBuildBodyParams.html">MR::MovementBuildBodyParams</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aed062124fe36110596a38f9b6662598a" title="Destroys a heap-allocated instance of MR_MovementBuildBodyParams. Does nothing if the pointer is null...">MR_MovementBuildBodyParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -490,7 +490,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if this flag is set, rotate body in trajectory vertices according to its rotation otherwise body movement will be done without any rotation Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MovementBuildBodyParams.html">MR::MovementBuildBodyParams</a></code> named <code>allowRotation</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if this flag is set, rotate body in trajectory vertices according to its rotation otherwise body movement will be done without any rotation Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MovementBuildBodyParams.html">MR::MovementBuildBodyParams</a></code> named <code>allowRotation</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -508,7 +508,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional transform body space to trajectory space Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MovementBuildBodyParams.html">MR::MovementBuildBodyParams</a></code> named <code>b2tXf</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional transform body space to trajectory space Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MovementBuildBodyParams.html">MR::MovementBuildBodyParams</a></code> named <code>b2tXf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -526,7 +526,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>facing direction of body, used for initial rotation (if allowRotation) if not set body accumulative normal is used Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MovementBuildBodyParams.html">MR::MovementBuildBodyParams</a></code> named <code>bodyNormal</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>facing direction of body, used for initial rotation (if allowRotation) if not set body accumulative normal is used Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MovementBuildBodyParams.html">MR::MovementBuildBodyParams</a></code> named <code>bodyNormal</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -544,7 +544,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>point in body space that follows trajectory if not set body bounding box center is used Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MovementBuildBodyParams.html">MR::MovementBuildBodyParams</a></code> named <code>center</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>point in body space that follows trajectory if not set body bounding box center is used Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MovementBuildBodyParams.html">MR::MovementBuildBodyParams</a></code> named <code>center</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -562,7 +562,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if this flag is set, rotate body in trajectory vertices according to its rotation otherwise body movement will be done without any rotation Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MovementBuildBodyParams.html">MR::MovementBuildBodyParams</a></code> named <code>allowRotation</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if this flag is set, rotate body in trajectory vertices according to its rotation otherwise body movement will be done without any rotation Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MovementBuildBodyParams.html">MR::MovementBuildBodyParams</a></code> named <code>allowRotation</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -580,7 +580,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional transform body space to trajectory space Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MovementBuildBodyParams.html">MR::MovementBuildBodyParams</a></code> named <code>b2tXf</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optional transform body space to trajectory space Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MovementBuildBodyParams.html">MR::MovementBuildBodyParams</a></code> named <code>b2tXf</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -598,7 +598,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>facing direction of body, used for initial rotation (if allowRotation) if not set body accumulative normal is used Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MovementBuildBodyParams.html">MR::MovementBuildBodyParams</a></code> named <code>bodyNormal</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>facing direction of body, used for initial rotation (if allowRotation) if not set body accumulative normal is used Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MovementBuildBodyParams.html">MR::MovementBuildBodyParams</a></code> named <code>bodyNormal</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -616,7 +616,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>point in body space that follows trajectory if not set body bounding box center is used Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MovementBuildBodyParams.html">MR::MovementBuildBodyParams</a></code> named <code>center</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>point in body space that follows trajectory if not set body bounding box center is used Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MovementBuildBodyParams.html">MR::MovementBuildBodyParams</a></code> named <code>center</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -684,7 +684,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if this flag is set, rotate body in trajectory vertices according to its rotation otherwise body movement will be done without any rotation Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MovementBuildBodyParams.html">MR::MovementBuildBodyParams</a></code> named <code>allowRotation</code>. Parameter <code>_this</code> can not be null. </p>
+<p>if this flag is set, rotate body in trajectory vertices according to its rotation otherwise body movement will be done without any rotation Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MovementBuildBodyParams.html">MR::MovementBuildBodyParams</a></code> named <code>allowRotation</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -706,7 +706,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional transform body space to trajectory space Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MovementBuildBodyParams.html">MR::MovementBuildBodyParams</a></code> named <code>b2tXf</code>. Parameter <code>_this</code> can not be null. </p>
+<p>optional transform body space to trajectory space Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MovementBuildBodyParams.html">MR::MovementBuildBodyParams</a></code> named <code>b2tXf</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -728,7 +728,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>facing direction of body, used for initial rotation (if allowRotation) if not set body accumulative normal is used Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MovementBuildBodyParams.html">MR::MovementBuildBodyParams</a></code> named <code>bodyNormal</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. </p>
+<p>facing direction of body, used for initial rotation (if allowRotation) if not set body accumulative normal is used Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MovementBuildBodyParams.html">MR::MovementBuildBodyParams</a></code> named <code>bodyNormal</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. </p>
 
 </div>
 </div>
@@ -750,7 +750,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>point in body space that follows trajectory if not set body bounding box center is used Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MovementBuildBodyParams.html">MR::MovementBuildBodyParams</a></code> named <code>center</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. </p>
+<p>point in body space that follows trajectory if not set body bounding box center is used Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MovementBuildBodyParams.html">MR::MovementBuildBodyParams</a></code> named <code>center</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. </p>
 
 </div>
 </div>

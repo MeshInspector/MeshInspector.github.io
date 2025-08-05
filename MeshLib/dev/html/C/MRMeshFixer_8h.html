@@ -701,7 +701,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Duplicates all vertices having more than two boundary edges (and returns the number of duplications); Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#ga030e7fa6218d19042b2a5ae052055192">MR::duplicateMultiHoleVertices</a></code>. Parameter <code>mesh</code> can not be null. </p>
+<p>Duplicates all vertices having more than two boundary edges (and returns the number of duplications); Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#ga030e7fa6218d19042b2a5ae052055192">MR::duplicateMultiHoleVertices</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -728,7 +728,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if the destination of given edge has degree 3 and 3 incident triangles, then eliminates the destination vertex with all its edges and all but one faces, and returns valid remaining edge with same origin as e; if region is provided then eliminated triangles are excluded from it; otherwise returns invalid edge Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#gace895a89502cb6fbf11e26b8c3e9773e">MR::eliminateDegree3Dest</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+<p>if the destination of given edge has degree 3 and 3 incident triangles, then eliminates the destination vertex with all its edges and all but one faces, and returns valid remaining edge with same origin as e; if region is provided then eliminated triangles are excluded from it; otherwise returns invalid edge Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#gace895a89502cb6fbf11e26b8c3e9773e">MR::eliminateDegree3Dest</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -761,7 +761,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>the number of vertices eliminated Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#ga819c36bfa5ce60675533f6e6eceeb7d9">MR::eliminateDegree3Vertices</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>region</code> can not be null. Parameter <code>fs</code> defaults to a null pointer in C++. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>the number of vertices eliminated Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#ga819c36bfa5ce60675533f6e6eceeb7d9">MR::eliminateDegree3Vertices</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Parameter <code>fs</code> defaults to a null pointer in C++. </dd></dl>
 
 </div>
 </div>
@@ -788,7 +788,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if the edge e has both left and right triangular faces and the degree of dest( e ) is 2, then eliminates left( e ), right( e ), e, e.sym(), next( e ), dest( e ), and returns prev( e ); if region is provided then eliminated faces are excluded from it; otherwise returns invalid edge Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#gabfc8ebc79bf55b2a8e8bcb36f2c884c1">MR::eliminateDoubleTris</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+<p>if the edge e has both left and right triangular faces and the degree of dest( e ) is 2, then eliminates left( e ), right( e ), e, e.sym(), next( e ), dest( e ), and returns prev( e ); if region is provided then eliminated faces are excluded from it; otherwise returns invalid edge Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#gabfc8ebc79bf55b2a8e8bcb36f2c884c1">MR::eliminateDoubleTris</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -815,7 +815,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>eliminates all double triangles around given vertex preserving vertex valid; if region is provided then eliminated triangles are excluded from it Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#gaf38de39619c863041d1acc307a36642a">MR::eliminateDoubleTrisAround</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. </p>
+<p>eliminates all double triangles around given vertex preserving vertex valid; if region is provided then eliminated triangles are excluded from it Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#gaf38de39619c863041d1acc307a36642a">MR::eliminateDoubleTrisAround</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -847,7 +847,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds faces having aspect ratio &gt;= criticalAspectRatio Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#ga2053d608172d2309a6dfc184b3c23b54">MR::findDegenerateFaces</a></code>. Parameter <code>mp</code> can not be null. Parameter <code>criticalAspectRatio</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__FaceBitSet__std__string_8h.html#a49f25f78be01bd3b7e077cd474bb21d5" title="Destroys a heap-allocated instance of MR_expected_MR_FaceBitSet_std_string. Does nothing if the point...">MR_expected_MR_FaceBitSet_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds faces having aspect ratio &gt;= criticalAspectRatio Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#ga2053d608172d2309a6dfc184b3c23b54">MR::findDegenerateFaces</a></code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>criticalAspectRatio</code> has a default argument: <code>3.40282347E+38F</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__FaceBitSet__std__string_8h.html#a49f25f78be01bd3b7e077cd474bb21d5" title="Destroys a heap-allocated instance of MR_expected_MR_FaceBitSet_std_string. Does nothing if the point...">MR_expected_MR_FaceBitSet_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -874,7 +874,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1FindDisorientationParams.html">MR::FindDisorientationParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1FindDisorientationParams.html">MR::FindDisorientationParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1020,7 +1020,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindDisorientationParams.html">MR::FindDisorientationParams</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindDisorientationParams.html">MR::FindDisorientationParams</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1038,7 +1038,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindDisorientationParams.html">MR::FindDisorientationParams</a></code> named <code>mode</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindDisorientationParams.html">MR::FindDisorientationParams</a></code> named <code>mode</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1056,7 +1056,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if set - copy mesh, and fills holes for better quality in case of ray going out through hole Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindDisorientationParams.html">MR::FindDisorientationParams</a></code> named <code>virtualFillHoles</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if set - copy mesh, and fills holes for better quality in case of ray going out through hole Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindDisorientationParams.html">MR::FindDisorientationParams</a></code> named <code>virtualFillHoles</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1074,7 +1074,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindDisorientationParams.html">MR::FindDisorientationParams</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindDisorientationParams.html">MR::FindDisorientationParams</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1092,7 +1092,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindDisorientationParams.html">MR::FindDisorientationParams</a></code> named <code>mode</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindDisorientationParams.html">MR::FindDisorientationParams</a></code> named <code>mode</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1110,7 +1110,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if set - copy mesh, and fills holes for better quality in case of ray going out through hole Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindDisorientationParams.html">MR::FindDisorientationParams</a></code> named <code>virtualFillHoles</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if set - copy mesh, and fills holes for better quality in case of ray going out through hole Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindDisorientationParams.html">MR::FindDisorientationParams</a></code> named <code>virtualFillHoles</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1183,7 +1183,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindDisorientationParams.html">MR::FindDisorientationParams</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindDisorientationParams.html">MR::FindDisorientationParams</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1205,7 +1205,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindDisorientationParams.html">MR::FindDisorientationParams</a></code> named <code>mode</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindDisorientationParams.html">MR::FindDisorientationParams</a></code> named <code>mode</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1227,7 +1227,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if set - copy mesh, and fills holes for better quality in case of ray going out through hole Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindDisorientationParams.html">MR::FindDisorientationParams</a></code> named <code>virtualFillHoles</code>. Parameter <code>_this</code> can not be null. </p>
+<p>if set - copy mesh, and fills holes for better quality in case of ray going out through hole Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindDisorientationParams.html">MR::FindDisorientationParams</a></code> named <code>virtualFillHoles</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1249,7 +1249,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns all faces that are oriented inconsistently, based on number of ray intersections Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#ga538e3992fb17dac0a5e4f140d86defef">MR::findDisorientedFaces</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__FaceBitSet__std__string_8h.html#a49f25f78be01bd3b7e077cd474bb21d5" title="Destroys a heap-allocated instance of MR_expected_MR_FaceBitSet_std_string. Does nothing if the point...">MR_expected_MR_FaceBitSet_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns all faces that are oriented inconsistently, based on number of ray intersections Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#ga538e3992fb17dac0a5e4f140d86defef">MR::findDisorientedFaces</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>params</code> is a single object. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__FaceBitSet__std__string_8h.html#a49f25f78be01bd3b7e077cd474bb21d5" title="Destroys a heap-allocated instance of MR_expected_MR_FaceBitSet_std_string. Does nothing if the point...">MR_expected_MR_FaceBitSet_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1267,7 +1267,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns all faces that complicate one of mesh holes; hole is complicated if it passes via one vertex more than once; deleting such faces simplifies the holes and makes them easier to fill Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#ga464e6b15a1c089223ed826d849cd69cf">MR::findHoleComplicatingFaces</a></code>. Parameter <code>mesh</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns all faces that complicate one of mesh holes; hole is complicated if it passes via one vertex more than once; deleting such faces simplifies the holes and makes them easier to fill Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#ga464e6b15a1c089223ed826d849cd69cf">MR::findHoleComplicatingFaces</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1294,7 +1294,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#gad29427e41026ca03a451eb1796987043">MR::findMultipleEdges</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__std__pair__MR__VertId__MR__VertId__std__string_8h.html#a44ea546713fa232011ddddc9d405d671" title="Destroys a heap-allocated instance of MR_expected_std_vector_std_pair_MR_VertId_MR_VertId_std_string....">MR_expected_std_vector_std_pair_MR_VertId_MR_VertId_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#gad29427e41026ca03a451eb1796987043">MR::findMultipleEdges</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__std__pair__MR__VertId__MR__VertId__std__string_8h.html#a44ea546713fa232011ddddc9d405d671" title="Destroys a heap-allocated instance of MR_expected_std_vector_std_pair_MR_VertId_MR_VertId_std_string....">MR_expected_std_vector_std_pair_MR_VertId_MR_VertId_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1321,7 +1321,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds vertices in region with complete ring of N edges Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#ga248c2b6b8c9d3915cc4d7e94a2727734">MR::findNRingVerts</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds vertices in region with complete ring of N edges Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#ga248c2b6b8c9d3915cc4d7e94a2727734">MR::findNRingVerts</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1339,7 +1339,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns set bits for all vertices present on the boundary of a hole several times; Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#ga8e2b8d3db10183b66f463f70a7eac5b4">MR::findRepeatedVertsOnHoleBd</a></code>. Parameter <code>topology</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns set bits for all vertices present on the boundary of a hole several times; Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#ga8e2b8d3db10183b66f463f70a7eac5b4">MR::findRepeatedVertsOnHoleBd</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1371,7 +1371,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds edges having length &lt;= criticalLength Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#gae03888153d8e72318f46b2d9241d8bea">MR::findShortEdges</a></code>. Parameter <code>mp</code> can not be null. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__UndirectedEdgeBitSet__std__string_8h.html#aa9498a3da05fd0e0ec04620aacc6cd10" title="Destroys a heap-allocated instance of MR_expected_MR_UndirectedEdgeBitSet_std_string....">MR_expected_MR_UndirectedEdgeBitSet_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>finds edges having length &lt;= criticalLength Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#gae03888153d8e72318f46b2d9241d8bea">MR::findShortEdges</a></code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__UndirectedEdgeBitSet__std__string_8h.html#aa9498a3da05fd0e0ec04620aacc6cd10" title="Destroys a heap-allocated instance of MR_expected_MR_UndirectedEdgeBitSet_std_string....">MR_expected_MR_UndirectedEdgeBitSet_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1393,7 +1393,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1FixCreasesParams.html">MR::FixCreasesParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1FixCreasesParams.html">MR::FixCreasesParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1438,7 +1438,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1FixCreasesParams.html">MR::FixCreasesParams</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a73fac2ae737ab1bd7a0a099cc9a5286d" title="Destroys a heap-allocated instance of MR_FixCreasesParams. Does nothing if the pointer is null.">MR_FixCreasesParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1FixCreasesParams.html">MR::FixCreasesParams</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a73fac2ae737ab1bd7a0a099cc9a5286d" title="Destroys a heap-allocated instance of MR_FixCreasesParams. Does nothing if the pointer is null.">MR_FixCreasesParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1530,7 +1530,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>edges with dihedral angle sharper this will be considered as creases Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixCreasesParams.html">MR::FixCreasesParams</a></code> named <code>creaseAngle</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>edges with dihedral angle sharper this will be considered as creases Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixCreasesParams.html">MR::FixCreasesParams</a></code> named <code>creaseAngle</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1548,7 +1548,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>planar check is skipped for faces with worse aspect ratio Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixCreasesParams.html">MR::FixCreasesParams</a></code> named <code>criticalTriAspectRatio</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>planar check is skipped for faces with worse aspect ratio Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixCreasesParams.html">MR::FixCreasesParams</a></code> named <code>criticalTriAspectRatio</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1566,7 +1566,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum number of algorithm iterations Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixCreasesParams.html">MR::FixCreasesParams</a></code> named <code>maxIters</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum number of algorithm iterations Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixCreasesParams.html">MR::FixCreasesParams</a></code> named <code>maxIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1584,7 +1584,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>edges with dihedral angle sharper this will be considered as creases Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixCreasesParams.html">MR::FixCreasesParams</a></code> named <code>creaseAngle</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>edges with dihedral angle sharper this will be considered as creases Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixCreasesParams.html">MR::FixCreasesParams</a></code> named <code>creaseAngle</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1602,7 +1602,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>planar check is skipped for faces with worse aspect ratio Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixCreasesParams.html">MR::FixCreasesParams</a></code> named <code>criticalTriAspectRatio</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>planar check is skipped for faces with worse aspect ratio Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixCreasesParams.html">MR::FixCreasesParams</a></code> named <code>criticalTriAspectRatio</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1620,7 +1620,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum number of algorithm iterations Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixCreasesParams.html">MR::FixCreasesParams</a></code> named <code>maxIters</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum number of algorithm iterations Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixCreasesParams.html">MR::FixCreasesParams</a></code> named <code>maxIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1688,7 +1688,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>edges with dihedral angle sharper this will be considered as creases Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixCreasesParams.html">MR::FixCreasesParams</a></code> named <code>creaseAngle</code>. Parameter <code>_this</code> can not be null. </p>
+<p>edges with dihedral angle sharper this will be considered as creases Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixCreasesParams.html">MR::FixCreasesParams</a></code> named <code>creaseAngle</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1710,7 +1710,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>planar check is skipped for faces with worse aspect ratio Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixCreasesParams.html">MR::FixCreasesParams</a></code> named <code>criticalTriAspectRatio</code>. Parameter <code>_this</code> can not be null. </p>
+<p>planar check is skipped for faces with worse aspect ratio Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixCreasesParams.html">MR::FixCreasesParams</a></code> named <code>criticalTriAspectRatio</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1732,7 +1732,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum number of algorithm iterations Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixCreasesParams.html">MR::FixCreasesParams</a></code> named <code>maxIters</code>. Parameter <code>_this</code> can not be null. </p>
+<p>maximum number of algorithm iterations Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixCreasesParams.html">MR::FixCreasesParams</a></code> named <code>maxIters</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1754,7 +1754,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Finds creases edges and re-triangulates planar areas around them, useful to fix double faces Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#gab288e6567def34c11ffd9a7a3ce86db3">MR::fixMeshCreases</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+<p>Finds creases edges and re-triangulates planar areas around them, useful to fix double faces Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#gab288e6567def34c11ffd9a7a3ce86db3">MR::fixMeshCreases</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>params</code> is a single object. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1776,7 +1776,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Fixes degenerate faces and short edges in mesh (changes topology) Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#gad11bed424b514b2e835eb9ba644dd4eb">MR::fixMeshDegeneracies</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>params</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Fixes degenerate faces and short edges in mesh (changes topology) Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#gad11bed424b514b2e835eb9ba644dd4eb">MR::fixMeshDegeneracies</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1803,7 +1803,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1974,7 +1974,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1992,7 +1992,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value; and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>criticalTriAspectRatio</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value; and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>criticalTriAspectRatio</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2010,7 +2010,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Permit edge flips if it does not change dihedral angle more than on this value Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>maxAngleChange</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Permit edge flips if it does not change dihedral angle more than on this value Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>maxAngleChange</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2028,7 +2028,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum permitted deviation from the original surface Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>maxDeviation</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum permitted deviation from the original surface Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>maxDeviation</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2046,7 +2046,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>mode</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>mode</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2064,7 +2064,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>degenerations will be fixed only in given region, it is updated during the operation Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>degenerations will be fixed only in given region, it is updated during the operation Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2082,7 +2082,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Small stabilizer is important to achieve good results on completely planar mesh parts, if your mesh is not-planer everywhere, then you can set it to zero Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Small stabilizer is important to achieve good results on completely planar mesh parts, if your mesh is not-planer everywhere, then you can set it to zero Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2100,7 +2100,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>edges not longer than this value will be collapsed ignoring normals and aspect ratio checks Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>tinyEdgeLength</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>edges not longer than this value will be collapsed ignoring normals and aspect ratio checks Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>tinyEdgeLength</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2118,7 +2118,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2136,7 +2136,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value; and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>criticalTriAspectRatio</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value; and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>criticalTriAspectRatio</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2154,7 +2154,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Permit edge flips if it does not change dihedral angle more than on this value Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>maxAngleChange</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Permit edge flips if it does not change dihedral angle more than on this value Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>maxAngleChange</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2172,7 +2172,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum permitted deviation from the original surface Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>maxDeviation</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum permitted deviation from the original surface Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>maxDeviation</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2190,7 +2190,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>mode</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>mode</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2208,7 +2208,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>degenerations will be fixed only in given region, it is updated during the operation Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>degenerations will be fixed only in given region, it is updated during the operation Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2226,7 +2226,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Small stabilizer is important to achieve good results on completely planar mesh parts, if your mesh is not-planer everywhere, then you can set it to zero Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Small stabilizer is important to achieve good results on completely planar mesh parts, if your mesh is not-planer everywhere, then you can set it to zero Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2244,7 +2244,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>edges not longer than this value will be collapsed ignoring normals and aspect ratio checks Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>tinyEdgeLength</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>edges not longer than this value will be collapsed ignoring normals and aspect ratio checks Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>tinyEdgeLength</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2317,7 +2317,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2339,7 +2339,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value; and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>criticalTriAspectRatio</code>. Parameter <code>_this</code> can not be null. </p>
+<p>the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value; and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>criticalTriAspectRatio</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2361,7 +2361,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Permit edge flips if it does not change dihedral angle more than on this value Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>maxAngleChange</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Permit edge flips if it does not change dihedral angle more than on this value Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>maxAngleChange</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2383,7 +2383,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum permitted deviation from the original surface Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>maxDeviation</code>. Parameter <code>_this</code> can not be null. </p>
+<p>maximum permitted deviation from the original surface Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>maxDeviation</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2405,7 +2405,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>mode</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>mode</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2427,7 +2427,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>degenerations will be fixed only in given region, it is updated during the operation Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. </p>
+<p>degenerations will be fixed only in given region, it is updated during the operation Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>region</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2449,7 +2449,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Small stabilizer is important to achieve good results on completely planar mesh parts, if your mesh is not-planer everywhere, then you can set it to zero Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Small stabilizer is important to achieve good results on completely planar mesh parts, if your mesh is not-planer everywhere, then you can set it to zero Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>stabilizer</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2471,7 +2471,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>edges not longer than this value will be collapsed ignoring normals and aspect ratio checks Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>tinyEdgeLength</code>. Parameter <code>_this</code> can not be null. </p>
+<p>edges not longer than this value will be collapsed ignoring normals and aspect ratio checks Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></code> named <code>tinyEdgeLength</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2489,7 +2489,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds and resolves multiple edges Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#gaf36265bde92b52d2e7bc0142abd82206">MR::fixMultipleEdges</a></code>. Parameter <code>mesh</code> can not be null. </p>
+<p>finds and resolves multiple edges Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#gaf36265bde92b52d2e7bc0142abd82206">MR::fixMultipleEdges</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2511,7 +2511,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>resolves given multiple edges, but splitting all but one edge in each group Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#gaf36265bde92b52d2e7bc0142abd82206">MR::fixMultipleEdges</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>multipleEdges</code> can not be null. </p>
+<p>resolves given multiple edges, but splitting all but one edge in each group Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#gaf36265bde92b52d2e7bc0142abd82206">MR::fixMultipleEdges</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>multipleEdges</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2529,7 +2529,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#ga1aa9c53dc2ae474fe6c0c6d90d347f3e">MR::hasMultipleEdges</a></code>. Parameter <code>topology</code> can not be null. </p>
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#ga1aa9c53dc2ae474fe6c0c6d90d347f3e">MR::hasMultipleEdges</a></code>. Parameter <code>topology</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2551,7 +2551,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if the destination of given edge has degree 3 and 3 incident triangles Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#ga4864464472d6d92da87a2501cb99db2b">MR::isDegree3Dest</a></code>. Parameter <code>topology</code> can not be null. </p>
+<p>returns true if the destination of given edge has degree 3 and 3 incident triangles Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#ga4864464472d6d92da87a2501cb99db2b">MR::isDegree3Dest</a></code>. Parameter <code>topology</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2573,7 +2573,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns true if the edge e has both left and right triangular faces and the degree of dest( e ) is 2 Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#ga68b96907fdec5d90f6c4d1771ae0563e">MR::isEdgeBetweenDoubleTris</a></code>. Parameter <code>topology</code> can not be null. </p>
+<p>returns true if the edge e has both left and right triangular faces and the degree of dest( e ) is 2 Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#ga68b96907fdec5d90f6c4d1771ae0563e">MR::isEdgeBetweenDoubleTris</a></code>. Parameter <code>topology</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2595,7 +2595,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if given vertex is present on the boundary of some hole several times then returns an edge of this hole (without left); returns invalid edge otherwise (not a boundary vertex, or it is present only once on the boundary of each hole it pertains to) Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#ga9bde4ada16adc982fb6789ca9dabbc66">MR::isVertexRepeatedOnHoleBd</a></code>. Parameter <code>topology</code> can not be null. </p>
+<p>if given vertex is present on the boundary of some hole several times then returns an edge of this hole (without left); returns invalid edge otherwise (not a boundary vertex, or it is present only once on the boundary of each hole it pertains to) Generated from function <code><a class="elRef" href="../Cpp/group__MeshFixerGroup.html#ga9bde4ada16adc982fb6789ca9dabbc66">MR::isVertexRepeatedOnHoleBd</a></code>. Parameter <code>topology</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

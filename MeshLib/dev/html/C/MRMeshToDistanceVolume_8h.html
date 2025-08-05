@@ -501,7 +501,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns a volume filled with the values: v &lt; 0: this point is within offset distance to region-part of mesh and it is closer to region-part than to not-region-part Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a150c8492a3dc820bde5db5249c54ba5d">MR::meshRegionToIndicatorVolume</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>region</code> can not be null. Parameter <code>params</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__SimpleVolumeMinMax__std__string_8h.html#aed32b4b4779f6d2e187f5273b07949d2" title="Destroys a heap-allocated instance of MR_expected_MR_SimpleVolumeMinMax_std_string....">MR_expected_MR_SimpleVolumeMinMax_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns a volume filled with the values: v &lt; 0: this point is within offset distance to region-part of mesh and it is closer to region-part than to not-region-part Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a150c8492a3dc820bde5db5249c54ba5d">MR::meshRegionToIndicatorVolume</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__SimpleVolumeMinMax__std__string_8h.html#aed32b4b4779f6d2e187f5273b07949d2" title="Destroys a heap-allocated instance of MR_expected_MR_SimpleVolumeMinMax_std_string....">MR_expected_MR_SimpleVolumeMinMax_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -521,7 +521,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Converts mesh into 4d voxels, so that each cell in 3d space holds the direction from the closest point on mesh to the cell position. Resulting volume is encoded by 3 separate 3d volumes, corresponding to <code>x</code>, <code>y</code> and <code>z</code> components of vectors respectively. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">params</td><td>Expected to have valid (not null) projector, with invoked method IPointsToMeshProjector::updateMeshData Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a7cfd6d2c7fdde75ec5577e2e10511787">MR::meshToDirectionVolume</a></code>. Parameter <code>params</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h.html#a78f194b83a7172b934c8fe6b45954272" title="Destroys a heap-allocated instance of MR_expected_std_array_MR_SimpleVolumeMinMax_3_std_string....">MR_expected_std_array_MR_SimpleVolumeMinMax_3_std_string_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">params</td><td>Expected to have valid (not null) projector, with invoked method IPointsToMeshProjector::updateMeshData Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a7cfd6d2c7fdde75ec5577e2e10511787">MR::meshToDirectionVolume</a></code>. Parameter <code>params</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h.html#a78f194b83a7172b934c8fe6b45954272" title="Destroys a heap-allocated instance of MR_expected_std_array_MR_SimpleVolumeMinMax_3_std_string....">MR_expected_std_array_MR_SimpleVolumeMinMax_3_std_string_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -551,7 +551,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDirectionVolumeParams.html">MR::MeshToDirectionVolumeParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDirectionVolumeParams.html">MR::MeshToDirectionVolumeParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -588,7 +588,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDirectionVolumeParams.html">MR::MeshToDirectionVolumeParams</a></code> elementwise. Parameter <code>dist</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0b5abf898365687bfd98941976f07218" title="Destroys a heap-allocated instance of MR_MeshToDirectionVolumeParams. Does nothing if the pointer is ...">MR_MeshToDirectionVolumeParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDirectionVolumeParams.html">MR::MeshToDirectionVolumeParams</a></code> elementwise. Parameter <code>dist</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0b5abf898365687bfd98941976f07218" title="Destroys a heap-allocated instance of MR_MeshToDirectionVolumeParams. Does nothing if the pointer is ...">MR_MeshToDirectionVolumeParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -702,7 +702,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDirectionVolumeParams.html">MR::MeshToDirectionVolumeParams</a></code> named <code>dist</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDirectionVolumeParams.html">MR::MeshToDirectionVolumeParams</a></code> named <code>dist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -720,7 +720,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDirectionVolumeParams.html">MR::MeshToDirectionVolumeParams</a></code> named <code>projector</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDirectionVolumeParams.html">MR::MeshToDirectionVolumeParams</a></code> named <code>projector</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -738,7 +738,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDirectionVolumeParams.html">MR::MeshToDirectionVolumeParams</a></code> named <code>vol</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDirectionVolumeParams.html">MR::MeshToDirectionVolumeParams</a></code> named <code>vol</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -756,7 +756,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDirectionVolumeParams.html">MR::MeshToDirectionVolumeParams</a></code> named <code>dist</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDirectionVolumeParams.html">MR::MeshToDirectionVolumeParams</a></code> named <code>dist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -774,7 +774,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDirectionVolumeParams.html">MR::MeshToDirectionVolumeParams</a></code> named <code>projector</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDirectionVolumeParams.html">MR::MeshToDirectionVolumeParams</a></code> named <code>projector</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -792,7 +792,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDirectionVolumeParams.html">MR::MeshToDirectionVolumeParams</a></code> named <code>vol</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDirectionVolumeParams.html">MR::MeshToDirectionVolumeParams</a></code> named <code>vol</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -860,7 +860,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDirectionVolumeParams.html">MR::MeshToDirectionVolumeParams</a></code> named <code>dist</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDirectionVolumeParams.html">MR::MeshToDirectionVolumeParams</a></code> named <code>dist</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -887,7 +887,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDirectionVolumeParams.html">MR::MeshToDirectionVolumeParams</a></code> named <code>projector</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDirectionVolumeParams.html">MR::MeshToDirectionVolumeParams</a></code> named <code>projector</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -914,7 +914,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDirectionVolumeParams.html">MR::MeshToDirectionVolumeParams</a></code> named <code>vol</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDirectionVolumeParams.html">MR::MeshToDirectionVolumeParams</a></code> named <code>vol</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -936,7 +936,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>makes FunctionVolume representing (signed or unsigned) distances from Mesh with given settings Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a6c156388dac5c49acedd469aa1f5cc6e">MR::meshToDistanceFunctionVolume</a></code>. Parameter <code>mp</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVoxelsVolume_8h.html#a148acc6ef9eec38ed406af2b65314405" title="Destroys a heap-allocated instance of MR_FunctionVolume. Does nothing if the pointer is null.">MR_FunctionVolume_Destroy()</a></code> to free it when you're done using it. </p>
+<p>makes FunctionVolume representing (signed or unsigned) distances from Mesh with given settings Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a6c156388dac5c49acedd469aa1f5cc6e">MR::meshToDistanceFunctionVolume</a></code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>params</code> is a single object. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVoxelsVolume_8h.html#a148acc6ef9eec38ed406af2b65314405" title="Destroys a heap-allocated instance of MR_FunctionVolume. Does nothing if the pointer is null.">MR_FunctionVolume_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -958,7 +958,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>makes SimpleVolume filled with (signed or unsigned) distances from Mesh with given settings Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a8588d03e436a418a22bb66f0f389f1ad">MR::meshToDistanceVolume</a></code>. Parameter <code>mp</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__SimpleVolumeMinMax__std__string_8h.html#aed32b4b4779f6d2e187f5273b07949d2" title="Destroys a heap-allocated instance of MR_expected_MR_SimpleVolumeMinMax_std_string....">MR_expected_MR_SimpleVolumeMinMax_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>makes SimpleVolume filled with (signed or unsigned) distances from Mesh with given settings Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a8588d03e436a418a22bb66f0f389f1ad">MR::meshToDistanceVolume</a></code>. Parameter <code>mp</code> can not be null. It is a single object. Parameter <code>params</code> is a single object. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__SimpleVolumeMinMax__std__string_8h.html#aed32b4b4779f6d2e187f5273b07949d2" title="Destroys a heap-allocated instance of MR_expected_MR_SimpleVolumeMinMax_std_string....">MR_expected_MR_SimpleVolumeMinMax_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -985,7 +985,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceVolumeParams.html">MR::MeshToDistanceVolumeParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceVolumeParams.html">MR::MeshToDistanceVolumeParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1022,7 +1022,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceVolumeParams.html">MR::MeshToDistanceVolumeParams</a></code> elementwise. Parameter <code>dist</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a7822d8778ead846f8dcb8f9f46cd63df" title="Destroys a heap-allocated instance of MR_MeshToDistanceVolumeParams. Does nothing if the pointer is n...">MR_MeshToDistanceVolumeParams_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceVolumeParams.html">MR::MeshToDistanceVolumeParams</a></code> elementwise. Parameter <code>dist</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a7822d8778ead846f8dcb8f9f46cd63df" title="Destroys a heap-allocated instance of MR_MeshToDistanceVolumeParams. Does nothing if the pointer is n...">MR_MeshToDistanceVolumeParams_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1136,7 +1136,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceVolumeParams.html">MR::MeshToDistanceVolumeParams</a></code> named <code>dist</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceVolumeParams.html">MR::MeshToDistanceVolumeParams</a></code> named <code>dist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1154,7 +1154,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceVolumeParams.html">MR::MeshToDistanceVolumeParams</a></code> named <code>fwn</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceVolumeParams.html">MR::MeshToDistanceVolumeParams</a></code> named <code>fwn</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1172,7 +1172,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceVolumeParams.html">MR::MeshToDistanceVolumeParams</a></code> named <code>vol</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceVolumeParams.html">MR::MeshToDistanceVolumeParams</a></code> named <code>vol</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1190,7 +1190,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceVolumeParams.html">MR::MeshToDistanceVolumeParams</a></code> named <code>dist</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceVolumeParams.html">MR::MeshToDistanceVolumeParams</a></code> named <code>dist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1208,7 +1208,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceVolumeParams.html">MR::MeshToDistanceVolumeParams</a></code> named <code>fwn</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceVolumeParams.html">MR::MeshToDistanceVolumeParams</a></code> named <code>fwn</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1226,7 +1226,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceVolumeParams.html">MR::MeshToDistanceVolumeParams</a></code> named <code>vol</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceVolumeParams.html">MR::MeshToDistanceVolumeParams</a></code> named <code>vol</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1294,7 +1294,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceVolumeParams.html">MR::MeshToDistanceVolumeParams</a></code> named <code>dist</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceVolumeParams.html">MR::MeshToDistanceVolumeParams</a></code> named <code>dist</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1321,7 +1321,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceVolumeParams.html">MR::MeshToDistanceVolumeParams</a></code> named <code>fwn</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceVolumeParams.html">MR::MeshToDistanceVolumeParams</a></code> named <code>fwn</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1348,7 +1348,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceVolumeParams.html">MR::MeshToDistanceVolumeParams</a></code> named <code>vol</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1MeshToDistanceVolumeParams.html">MR::MeshToDistanceVolumeParams</a></code> named <code>vol</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

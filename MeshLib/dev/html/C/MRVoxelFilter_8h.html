@@ -259,7 +259,7 @@ Functions</h2></td></tr>
 <p>Performs voxels filtering. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">type</td><td>Type of fitler </td></tr>
-    <tr><td class="paramname">width</td><td>Width of the filtering window, must be an odd number greater or equal to 1. Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ac3bf4206e91056f1ca94f4185776c8d1">MR::voxelFilter</a></code>. Parameter <code>volume</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVoxelsVolume_8h.html#a62b6be8af37cb2d5e3a25627aeeea656" title="Destroys a heap-allocated instance of MR_VdbVolume. Does nothing if the pointer is null.">MR_VdbVolume_Destroy()</a></code> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">width</td><td>Width of the filtering window, must be an odd number greater or equal to 1. Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ac3bf4206e91056f1ca94f4185776c8d1">MR::voxelFilter</a></code>. Parameter <code>volume</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRVoxelsVolume_8h.html#a62b6be8af37cb2d5e3a25627aeeea656" title="Destroys a heap-allocated instance of MR_VdbVolume. Does nothing if the pointer is null.">MR_VdbVolume_Destroy()</a></code> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>

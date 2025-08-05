@@ -815,7 +815,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>represents a box in 3D space subdivided on voxels stored in T Generated from class <code>MR::SimpleVolume</code>. Classes derived from this: Directly: (non-virtually) <code>MR::SimpleVolumeMinMax</code> </p>
+<p>represents a box in 3D space subdivided on voxels stored in T Generated from class <code>MR::SimpleVolume</code>. Derived classes: Direct: (non-virtual) <code>MR::SimpleVolumeMinMax</code> </p>
 
 </div>
 </div>
@@ -830,7 +830,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values among all valid voxels Generated from class <code>MR::SimpleVolumeMinMax</code>. Inherits from: Directly: (non-virtually) <code>MR::Box1f</code> <code>MR::SimpleVolume</code> </p>
+<p>represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values among all valid voxels Generated from class <code>MR::SimpleVolumeMinMax</code>. Base classes: Direct: (non-virtual) <code>MR::Box1f</code> <code>MR::SimpleVolume</code> </p>
 
 </div>
 </div>
@@ -845,7 +845,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values among all valid voxels Generated from class <code>MR::SimpleVolumeMinMaxU16</code>. Inherits from: Directly: (non-virtually) <code><a class="elRef" href="../Cpp/structMR_1_1Box.html">MR::Box</a>&lt;uint16_t&gt;</code> <code>MR::SimpleVolumeU16</code> </p>
+<p>represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values among all valid voxels Generated from class <code>MR::SimpleVolumeMinMaxU16</code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/structMR_1_1Box.html">MR::Box</a>&lt;uint16_t&gt;</code> <code>MR::SimpleVolumeU16</code> </p>
 
 </div>
 </div>
@@ -860,7 +860,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>represents a box in 3D space subdivided on voxels stored in T Generated from class <code>MR::SimpleVolumeU16</code>. Classes derived from this: Directly: (non-virtually) <code>MR::SimpleVolumeMinMaxU16</code> </p>
+<p>represents a box in 3D space subdivided on voxels stored in T Generated from class <code>MR::SimpleVolumeU16</code>. Derived classes: Direct: (non-virtual) <code>MR::SimpleVolumeMinMaxU16</code> </p>
 
 </div>
 </div>
@@ -917,7 +917,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values among all valid voxels Generated from class <code>MR::VdbVolume</code>. Inherits from: Directly: (non-virtually) <code>MR::Box1f</code> <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code> </p>
+<p>represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values among all valid voxels Generated from class <code>MR::VdbVolume</code>. Base classes: Direct: (non-virtual) <code>MR::Box1f</code> <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code> </p>
 
 </div>
 </div>
@@ -974,7 +974,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>represents a box in 3D space subdivided on voxels stored in T Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code>. Classes derived from this: Directly: (non-virtually) <code>MR::VdbVolume</code> </p>
+<p>represents a box in 3D space subdivided on voxels stored in T Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code>. Derived classes: Direct: (non-virtual) <code>MR::VdbVolume</code> </p>
 
 </div>
 </div>
@@ -1098,7 +1098,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code>MR::FunctionVolume</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code>MR::FunctionVolume</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1244,7 +1244,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::FunctionVolume</code> named <code>data</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::FunctionVolume</code> named <code>data</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1262,7 +1262,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::FunctionVolume</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::FunctionVolume</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1280,7 +1280,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::FunctionVolume</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::FunctionVolume</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1298,7 +1298,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::FunctionVolume</code> named <code>data</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::FunctionVolume</code> named <code>data</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1316,7 +1316,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::FunctionVolume</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::FunctionVolume</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1334,7 +1334,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::FunctionVolume</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::FunctionVolume</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1352,7 +1352,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code>MR::FunctionVolume</code> named <code>heapBytes</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Generated from a method of class <code>MR::FunctionVolume</code> named <code>heapBytes</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1425,7 +1425,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::FunctionVolume</code> named <code>data</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code>MR::FunctionVolume</code> named <code>data</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1447,7 +1447,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::FunctionVolume</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code>MR::FunctionVolume</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1469,7 +1469,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::FunctionVolume</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code>MR::FunctionVolume</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1491,7 +1491,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>converts function volume into simple volume Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a5b17a3df087eb45c2679db67da9c672f">MR::functionVolumeToSimpleVolume</a></code>. Parameter <code>volume</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__SimpleVolumeMinMax__std__string_8h.html#aed32b4b4779f6d2e187f5273b07949d2" title="Destroys a heap-allocated instance of MR_expected_MR_SimpleVolumeMinMax_std_string....">MR_expected_MR_SimpleVolumeMinMax_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>converts function volume into simple volume Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a5b17a3df087eb45c2679db67da9c672f">MR::functionVolumeToSimpleVolume</a></code>. Parameter <code>volume</code> can not be null. It is a single object. Parameter <code>callback</code> is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__SimpleVolumeMinMax__std__string_8h.html#aed32b4b4779f6d2e187f5273b07949d2" title="Destroys a heap-allocated instance of MR_expected_MR_SimpleVolumeMinMax_std_string....">MR_expected_MR_SimpleVolumeMinMax_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1518,7 +1518,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code>MR::FunctionVolumeU8</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code>MR::FunctionVolumeU8</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1664,7 +1664,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::FunctionVolumeU8</code> named <code>data</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::FunctionVolumeU8</code> named <code>data</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1682,7 +1682,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::FunctionVolumeU8</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::FunctionVolumeU8</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1700,7 +1700,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::FunctionVolumeU8</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::FunctionVolumeU8</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1718,7 +1718,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::FunctionVolumeU8</code> named <code>data</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::FunctionVolumeU8</code> named <code>data</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1736,7 +1736,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::FunctionVolumeU8</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::FunctionVolumeU8</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1754,7 +1754,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::FunctionVolumeU8</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::FunctionVolumeU8</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1772,7 +1772,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code>MR::FunctionVolumeU8</code> named <code>heapBytes</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Generated from a method of class <code>MR::FunctionVolumeU8</code> named <code>heapBytes</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1845,7 +1845,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::FunctionVolumeU8</code> named <code>data</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code>MR::FunctionVolumeU8</code> named <code>data</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1867,7 +1867,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::FunctionVolumeU8</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code>MR::FunctionVolumeU8</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1889,7 +1889,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::FunctionVolumeU8</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code>MR::FunctionVolumeU8</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1916,7 +1916,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code>MR::SimpleBinaryVolume</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code>MR::SimpleBinaryVolume</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2062,7 +2062,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::SimpleBinaryVolume</code> named <code>data</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::SimpleBinaryVolume</code> named <code>data</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2080,7 +2080,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::SimpleBinaryVolume</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::SimpleBinaryVolume</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2098,7 +2098,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::SimpleBinaryVolume</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::SimpleBinaryVolume</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2116,7 +2116,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::SimpleBinaryVolume</code> named <code>data</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::SimpleBinaryVolume</code> named <code>data</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2134,7 +2134,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::SimpleBinaryVolume</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::SimpleBinaryVolume</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2152,7 +2152,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::SimpleBinaryVolume</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::SimpleBinaryVolume</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2170,7 +2170,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code>MR::SimpleBinaryVolume</code> named <code>heapBytes</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Generated from a method of class <code>MR::SimpleBinaryVolume</code> named <code>heapBytes</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2243,7 +2243,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::SimpleBinaryVolume</code> named <code>data</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code>MR::SimpleBinaryVolume</code> named <code>data</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2265,7 +2265,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::SimpleBinaryVolume</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code>MR::SimpleBinaryVolume</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2287,7 +2287,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::SimpleBinaryVolume</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code>MR::SimpleBinaryVolume</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2314,7 +2314,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code>MR::SimpleVolume</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code>MR::SimpleVolume</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2460,7 +2460,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::SimpleVolume</code> named <code>data</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::SimpleVolume</code> named <code>data</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2478,7 +2478,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::SimpleVolume</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::SimpleVolume</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2496,7 +2496,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::SimpleVolume</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::SimpleVolume</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2514,7 +2514,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::SimpleVolume</code> named <code>data</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::SimpleVolume</code> named <code>data</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2532,7 +2532,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::SimpleVolume</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::SimpleVolume</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2550,7 +2550,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::SimpleVolume</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::SimpleVolume</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2568,7 +2568,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code>MR::SimpleVolume</code> named <code>heapBytes</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Generated from a method of class <code>MR::SimpleVolume</code> named <code>heapBytes</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2659,7 +2659,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::SimpleVolume</code> named <code>data</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code>MR::SimpleVolume</code> named <code>data</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2681,7 +2681,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::SimpleVolume</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code>MR::SimpleVolume</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2703,7 +2703,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::SimpleVolume</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code>MR::SimpleVolume</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2748,7 +2748,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code>MR::SimpleVolumeMinMax</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code>MR::SimpleVolumeMinMax</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -2991,7 +2991,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code>MR::SimpleVolumeMinMaxU16</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code>MR::SimpleVolumeMinMaxU16</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3234,7 +3234,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code>MR::SimpleVolumeU16</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code>MR::SimpleVolumeU16</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3380,7 +3380,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::SimpleVolumeU16</code> named <code>data</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::SimpleVolumeU16</code> named <code>data</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3398,7 +3398,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::SimpleVolumeU16</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::SimpleVolumeU16</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3416,7 +3416,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code>MR::SimpleVolumeU16</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code>MR::SimpleVolumeU16</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3434,7 +3434,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::SimpleVolumeU16</code> named <code>data</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::SimpleVolumeU16</code> named <code>data</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3452,7 +3452,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::SimpleVolumeU16</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::SimpleVolumeU16</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3470,7 +3470,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code>MR::SimpleVolumeU16</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code>MR::SimpleVolumeU16</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3488,7 +3488,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code>MR::SimpleVolumeU16</code> named <code>heapBytes</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Generated from a method of class <code>MR::SimpleVolumeU16</code> named <code>heapBytes</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3579,7 +3579,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::SimpleVolumeU16</code> named <code>data</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code>MR::SimpleVolumeU16</code> named <code>data</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3601,7 +3601,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::SimpleVolumeU16</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code>MR::SimpleVolumeU16</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3623,7 +3623,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code>MR::SimpleVolumeU16</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code>MR::SimpleVolumeU16</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3668,7 +3668,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code>MR::VdbVolume</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code>MR::VdbVolume</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -3911,7 +3911,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4057,7 +4057,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code> named <code>data</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code> named <code>data</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4075,7 +4075,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4093,7 +4093,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4111,7 +4111,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code> named <code>data</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code> named <code>data</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4129,7 +4129,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4147,7 +4147,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4165,7 +4165,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code> named <code>heapBytes</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code> named <code>heapBytes</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -4256,7 +4256,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code> named <code>data</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code> named <code>data</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -4278,7 +4278,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code> named <code>dims</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -4300,7 +4300,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -4340,7 +4340,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelTraits.html">MR::VoxelTraits</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelTraits.html">MR::VoxelTraits</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4358,7 +4358,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelTraits.html">MR::VoxelTraits</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a33538ae51166c06ce6e6ce06dab668b9" title="Destroys a heap-allocated instance of MR_VoxelTraits_MR_FloatGrid. Does nothing if the pointer is nul...">MR_VoxelTraits_MR_FloatGrid_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelTraits.html">MR::VoxelTraits</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">MR::FloatGrid</a>&gt;</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a33538ae51166c06ce6e6ce06dab668b9" title="Destroys a heap-allocated instance of MR_VoxelTraits_MR_FloatGrid. Does nothing if the pointer is nul...">MR_VoxelTraits_MR_FloatGrid_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -4500,7 +4500,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelTraits.html">MR::VoxelTraits</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1Vector.html">MR::Vector</a>&lt;float, MR::VoxelId&gt;&gt;</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelTraits.html">MR::VoxelTraits</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1Vector.html">MR::Vector</a>&lt;float, MR::VoxelId&gt;&gt;</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4518,7 +4518,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelTraits.html">MR::VoxelTraits</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1Vector.html">MR::Vector</a>&lt;float, MR::VoxelId&gt;&gt;</code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#afcf17f1c2863bc0a40f4f684cc6ca31f" title="Destroys a heap-allocated instance of MR_VoxelTraits_MR_Vector_float_MR_VoxelId. Does nothing if the ...">MR_VoxelTraits_MR_Vector_float_MR_VoxelId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelTraits.html">MR::VoxelTraits</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1Vector.html">MR::Vector</a>&lt;float, MR::VoxelId&gt;&gt;</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#afcf17f1c2863bc0a40f4f684cc6ca31f" title="Destroys a heap-allocated instance of MR_VoxelTraits_MR_Vector_float_MR_VoxelId. Does nothing if the ...">MR_VoxelTraits_MR_Vector_float_MR_VoxelId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -4660,7 +4660,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelTraits.html">MR::VoxelTraits</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1Vector.html">MR::Vector</a>&lt;uint16_t, MR::VoxelId&gt;&gt;</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelTraits.html">MR::VoxelTraits</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1Vector.html">MR::Vector</a>&lt;uint16_t, MR::VoxelId&gt;&gt;</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4678,7 +4678,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelTraits.html">MR::VoxelTraits</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1Vector.html">MR::Vector</a>&lt;uint16_t, MR::VoxelId&gt;&gt;</code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aad67ab8475f977c6b432de50ac248cd8" title="Destroys a heap-allocated instance of MR_VoxelTraits_MR_Vector_uint16_t_MR_VoxelId....">MR_VoxelTraits_MR_Vector_uint16_t_MR_VoxelId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelTraits.html">MR::VoxelTraits</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1Vector.html">MR::Vector</a>&lt;uint16_t, MR::VoxelId&gt;&gt;</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aad67ab8475f977c6b432de50ac248cd8" title="Destroys a heap-allocated instance of MR_VoxelTraits_MR_Vector_uint16_t_MR_VoxelId....">MR_VoxelTraits_MR_Vector_uint16_t_MR_VoxelId_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -4820,7 +4820,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelTraits.html">MR::VoxelTraits</a>&lt;MR::VoxelBitSet&gt;</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelTraits.html">MR::VoxelTraits</a>&lt;MR::VoxelBitSet&gt;</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4838,7 +4838,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelTraits.html">MR::VoxelTraits</a>&lt;MR::VoxelBitSet&gt;</code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0e339be03208b0f37ce060d4ca1260b7" title="Destroys a heap-allocated instance of MR_VoxelTraits_MR_VoxelBitSet. Does nothing if the pointer is n...">MR_VoxelTraits_MR_VoxelBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelTraits.html">MR::VoxelTraits</a>&lt;MR::VoxelBitSet&gt;</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0e339be03208b0f37ce060d4ca1260b7" title="Destroys a heap-allocated instance of MR_VoxelTraits_MR_VoxelBitSet. Does nothing if the pointer is n...">MR_VoxelTraits_MR_VoxelBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -4980,7 +4980,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelTraits.html">MR::VoxelTraits</a>&lt;std::function&lt;float(const MR::Vector3i &amp;)&gt;&gt;</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelTraits.html">MR::VoxelTraits</a>&lt;std::function&lt;float(const MR::Vector3i &amp;)&gt;&gt;</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -4998,7 +4998,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelTraits.html">MR::VoxelTraits</a>&lt;std::function&lt;float(const MR::Vector3i &amp;)&gt;&gt;</code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#abef5ef8771e587bd6785cf25d0214f94" title="Destroys a heap-allocated instance of MR_VoxelTraits_std_function_float_func_from_const_MR_Vector3i_r...">MR_VoxelTraits_std_function_float_func_from_const_MR_Vector3i_ref_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelTraits.html">MR::VoxelTraits</a>&lt;std::function&lt;float(const MR::Vector3i &amp;)&gt;&gt;</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#abef5ef8771e587bd6785cf25d0214f94" title="Destroys a heap-allocated instance of MR_VoxelTraits_std_function_float_func_from_const_MR_Vector3i_r...">MR_VoxelTraits_std_function_float_func_from_const_MR_Vector3i_ref_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -5140,7 +5140,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelTraits.html">MR::VoxelTraits</a>&lt;std::function&lt;uint8_t(const MR::Vector3i &amp;)&gt;&gt;</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelTraits.html">MR::VoxelTraits</a>&lt;std::function&lt;uint8_t(const MR::Vector3i &amp;)&gt;&gt;</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -5158,7 +5158,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelTraits.html">MR::VoxelTraits</a>&lt;std::function&lt;uint8_t(const MR::Vector3i &amp;)&gt;&gt;</code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af3eae7984802264d71f0bb59ed9cd30a" title="Destroys a heap-allocated instance of MR_VoxelTraits_std_function_uint8_t_func_from_const_MR_Vector3i...">MR_VoxelTraits_std_function_uint8_t_func_from_const_MR_Vector3i_ref_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelTraits.html">MR::VoxelTraits</a>&lt;std::function&lt;uint8_t(const MR::Vector3i &amp;)&gt;&gt;</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af3eae7984802264d71f0bb59ed9cd30a" title="Destroys a heap-allocated instance of MR_VoxelTraits_std_function_uint8_t_func_from_const_MR_Vector3i...">MR_VoxelTraits_std_function_uint8_t_func_from_const_MR_Vector3i_ref_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

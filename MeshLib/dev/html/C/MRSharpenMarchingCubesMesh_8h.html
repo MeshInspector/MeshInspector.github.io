@@ -352,7 +352,7 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">vox</td><td>produced by marching cubes method (NOT dual marching cubes) by 1) correcting positions of all vertices to given offset relative to</td></tr>
     <tr><td class="paramname">ref</td><td>mesh (if correctOldVertPos == true); 2) introducing new vertices in the voxels where the normals change abruptly. </td></tr>
-    <tr><td class="paramname">face2voxel</td><td>mapping from Face Id to Voxel Id where it is located Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ae0adbc499dc9ddb3d23854c708bccc3f">MR::sharpenMarchingCubesMesh</a></code>. Parameter <code>ref</code> can not be null. Parameter <code>vox</code> can not be null. Parameter <code>face2voxel</code> can not be null. Parameter <code>settings</code> can not be null. </td></tr>
+    <tr><td class="paramname">face2voxel</td><td>mapping from Face Id to Voxel Id where it is located Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ae0adbc499dc9ddb3d23854c708bccc3f">MR::sharpenMarchingCubesMesh</a></code>. Parameter <code>ref</code> can not be null. It is a single object. Parameter <code>vox</code> can not be null. It is a single object. Parameter <code>face2voxel</code> can not be null. It is a single object. Parameter <code>settings</code> can not be null. It is a single object. </td></tr>
   </table>
   </dd>
 </dl>
@@ -377,7 +377,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -442,7 +442,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a06ffec8a82c4201715203b92cb01b0f1" title="Destroys a heap-allocated instance of MR_SharpenMarchingCubesMeshSettings. Does nothing if the pointe...">MR_SharpenMarchingCubesMeshSettings_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a06ffec8a82c4201715203b92cb01b0f1" title="Destroys a heap-allocated instance of MR_SharpenMarchingCubesMeshSettings. Does nothing if the pointe...">MR_SharpenMarchingCubesMeshSettings_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -534,7 +534,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximal surface deviation to introduce new rank 2 vertex (on intersection of 2 planes); recommended set equal to ( 5 * voxel size ) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>maxNewRank2VertDev</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximal surface deviation to introduce new rank 2 vertex (on intersection of 2 planes); recommended set equal to ( 5 * voxel size ) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>maxNewRank2VertDev</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -552,7 +552,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes); recommended set equal to ( 2 * voxel size ) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>maxNewRank3VertDev</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes); recommended set equal to ( 2 * voxel size ) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>maxNewRank3VertDev</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -570,7 +570,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>correct positions of the input vertices using reference mesh by not more than this distance; big correction can be wrong and result from self-intersections in the reference mesh recommended set equal to ( voxel size / 2 ) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>maxOldVertPosCorrection</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>correct positions of the input vertices using reference mesh by not more than this distance; big correction can be wrong and result from self-intersections in the reference mesh recommended set equal to ( voxel size / 2 ) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>maxOldVertPosCorrection</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -588,7 +588,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>minimal surface deviation to introduce new vertex in a voxel; recommended set equal to ( voxel size / 25 ) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>minNewVertDev</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>minimal surface deviation to introduce new vertex in a voxel; recommended set equal to ( voxel size / 25 ) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>minNewVertDev</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -606,7 +606,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>relative to reference mesh Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>offset</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>relative to reference mesh Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>offset</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -624,7 +624,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if non-null then created sharp edges will be saved here Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>outSharpEdges</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if non-null then created sharp edges will be saved here Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>outSharpEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -642,7 +642,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of iterations to best select positions for new vertices, the probability of self-intersections and spikes are higher if posSelIters = 0 Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>posSelIters</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the number of iterations to best select positions for new vertices, the probability of self-intersections and spikes are higher if posSelIters = 0 Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>posSelIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -660,7 +660,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximal surface deviation to introduce new rank 2 vertex (on intersection of 2 planes); recommended set equal to ( 5 * voxel size ) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>maxNewRank2VertDev</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximal surface deviation to introduce new rank 2 vertex (on intersection of 2 planes); recommended set equal to ( 5 * voxel size ) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>maxNewRank2VertDev</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -678,7 +678,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes); recommended set equal to ( 2 * voxel size ) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>maxNewRank3VertDev</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes); recommended set equal to ( 2 * voxel size ) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>maxNewRank3VertDev</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -696,7 +696,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>correct positions of the input vertices using reference mesh by not more than this distance; big correction can be wrong and result from self-intersections in the reference mesh recommended set equal to ( voxel size / 2 ) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>maxOldVertPosCorrection</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>correct positions of the input vertices using reference mesh by not more than this distance; big correction can be wrong and result from self-intersections in the reference mesh recommended set equal to ( voxel size / 2 ) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>maxOldVertPosCorrection</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -714,7 +714,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>minimal surface deviation to introduce new vertex in a voxel; recommended set equal to ( voxel size / 25 ) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>minNewVertDev</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>minimal surface deviation to introduce new vertex in a voxel; recommended set equal to ( voxel size / 25 ) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>minNewVertDev</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -732,7 +732,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>relative to reference mesh Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>offset</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>relative to reference mesh Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>offset</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -750,7 +750,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if non-null then created sharp edges will be saved here Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>outSharpEdges</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if non-null then created sharp edges will be saved here Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>outSharpEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -768,7 +768,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of iterations to best select positions for new vertices, the probability of self-intersections and spikes are higher if posSelIters = 0 Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>posSelIters</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the number of iterations to best select positions for new vertices, the probability of self-intersections and spikes are higher if posSelIters = 0 Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>posSelIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -836,7 +836,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximal surface deviation to introduce new rank 2 vertex (on intersection of 2 planes); recommended set equal to ( 5 * voxel size ) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>maxNewRank2VertDev</code>. Parameter <code>_this</code> can not be null. </p>
+<p>maximal surface deviation to introduce new rank 2 vertex (on intersection of 2 planes); recommended set equal to ( 5 * voxel size ) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>maxNewRank2VertDev</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -858,7 +858,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes); recommended set equal to ( 2 * voxel size ) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>maxNewRank3VertDev</code>. Parameter <code>_this</code> can not be null. </p>
+<p>maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes); recommended set equal to ( 2 * voxel size ) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>maxNewRank3VertDev</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -880,7 +880,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>correct positions of the input vertices using reference mesh by not more than this distance; big correction can be wrong and result from self-intersections in the reference mesh recommended set equal to ( voxel size / 2 ) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>maxOldVertPosCorrection</code>. Parameter <code>_this</code> can not be null. </p>
+<p>correct positions of the input vertices using reference mesh by not more than this distance; big correction can be wrong and result from self-intersections in the reference mesh recommended set equal to ( voxel size / 2 ) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>maxOldVertPosCorrection</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -902,7 +902,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>minimal surface deviation to introduce new vertex in a voxel; recommended set equal to ( voxel size / 25 ) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>minNewVertDev</code>. Parameter <code>_this</code> can not be null. </p>
+<p>minimal surface deviation to introduce new vertex in a voxel; recommended set equal to ( voxel size / 25 ) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>minNewVertDev</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -924,7 +924,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>relative to reference mesh Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>offset</code>. Parameter <code>_this</code> can not be null. </p>
+<p>relative to reference mesh Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>offset</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -946,7 +946,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if non-null then created sharp edges will be saved here Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>outSharpEdges</code>. Parameter <code>_this</code> can not be null. </p>
+<p>if non-null then created sharp edges will be saved here Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>outSharpEdges</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -968,7 +968,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of iterations to best select positions for new vertices, the probability of self-intersections and spikes are higher if posSelIters = 0 Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>posSelIters</code>. Parameter <code>_this</code> can not be null. </p>
+<p>the number of iterations to best select positions for new vertices, the probability of self-intersections and spikes are higher if posSelIters = 0 Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></code> named <code>posSelIters</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

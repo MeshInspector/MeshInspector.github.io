@@ -250,7 +250,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Overwrite the existing instance, taking ownership of an existing pointer. The previously owned object, if any, has its reference count decremented. Parameter <code>_this</code> can not be null. Parameter <code>ptr</code> should point to a single object rather than to an array. Parameter <code>ptr</code> takes ownership of the passed pointer (if not null), and will later call <code><a class="el" href="MRVisualObject_8h.html#a443c8ff8c53ffeec2e528e8bc959052b" title="Destroys a heap-allocated instance of MR_VisualObject. Does nothing if the pointer is null.">MR_VisualObject_Destroy()</a></code> on it automatically. </p>
+<p>Overwrite the existing instance, taking ownership of an existing pointer. The previously owned object, if any, has its reference count decremented. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>ptr</code> should point to a single object rather than to an array. Parameter <code>ptr</code> takes ownership of the passed pointer (if not null), and will later call <code><a class="el" href="MRVisualObject_8h.html#a443c8ff8c53ffeec2e528e8bc959052b" title="Destroys a heap-allocated instance of MR_VisualObject. Does nothing if the pointer is null.">MR_VisualObject_Destroy()</a></code> on it automatically. </p>
 
 </div>
 </div>
@@ -277,7 +277,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. </p>
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -409,7 +409,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns the stored pointer, possibly null. Parameter <code>_this</code> can not be null. </p>
+<p>Returns the stored pointer, possibly null. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -473,7 +473,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>How many shared pointers share the managed object. Zero if no object is being managed. This being zero usually conincides with <code><a class="el" href="#acf546f09ade6675807fa60366f5996b9">MR_std_shared_ptr_MR_VisualObject_Get()</a></code> returning null, but is ultimately orthogonal. Note that in multithreaded environments, the only safe way to use this number is comparing it with zero. Positive values might change by the time you get to use them. Parameter <code>_this</code> can not be null. </p>
+<p>How many shared pointers share the managed object. Zero if no object is being managed. This being zero usually conincides with <code><a class="el" href="#acf546f09ade6675807fa60366f5996b9">MR_std_shared_ptr_MR_VisualObject_Get()</a></code> returning null, but is ultimately orthogonal. Note that in multithreaded environments, the only safe way to use this number is comparing it with zero. Positive values might change by the time you get to use them. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
